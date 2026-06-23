@@ -28,6 +28,7 @@ const initialForm: PredictionFormState = {
 export function App() {
   const [form, setForm] = useState<PredictionFormState>(initialForm);
   const [result, setResult] = useState<PredictionResult | null>(null);
+  const [forecastPoints, setForecastPoints] = useState<PriceHistoryPoint[]>([]);
   const [history, setHistory] = useState<PriceHistoryPoint[]>([]);
   const [stations, setStations] = useState<StationRecord[]>([]);
   const [metadata, setMetadata] = useState<ModelMetadata | null>(null);
@@ -143,11 +144,17 @@ export function App() {
         ...form,
         stationDistance: Math.round(form.stationDistance)
       };
-      const nextResult = await manager.predict(predictionRequest);
+      const { result: nextResult, forecastPoints: nextForecastPoints } = await predictWithFutureTrend(
+        manager,
+        predictionRequest,
+        history
+      );
       setResult(nextResult);
+      setForecastPoints(nextForecastPoints);
       setStatus("予測しました");
     } catch {
       setResult(null);
+      setForecastPoints([]);
       setStatus("価格予測に失敗しました");
     } finally {
       setIsPredicting(false);
@@ -156,7 +163,7 @@ export function App() {
 
   const stationOptions = stations.map((station) => station.station_name);
   const visibleHistory = history.filter((point) => point.station === form.station);
-  const chartPoints = buildChartPoints(visibleHistory, result, form.station, form.predictionYear);
+  const chartPoints = buildChartPoints(visibleHistory, forecastPoints, result, form.station, form.predictionYear);
 
   return (
     <main className="app-shell">
@@ -192,6 +199,7 @@ function currentPrefectureFromRegion(region: SupportedRegion | null) {
 
 function buildChartPoints(
   history: PriceHistoryPoint[],
+  forecastPoints: PriceHistoryPoint[],
   result: PredictionResult | null,
   station: string,
   predictionYear: number
@@ -202,25 +210,91 @@ function buildChartPoints(
   }
 
   const existingYears = new Set(sortedHistory.map((point) => point.year));
-  const lastPoint = sortedHistory.at(-1);
-  const startYear = lastPoint ? lastPoint.year + 1 : predictionYear;
-  const startPrice = lastPoint?.avg_price ?? result.predictedPrice;
-  const missingForecasts: PriceHistoryPoint[] = [];
+  const missingForecasts = forecastPoints.filter((point) => !existingYears.has(point.year));
 
-  for (let year = startYear; year <= predictionYear; year += 1) {
-    if (existingYears.has(year)) {
-      continue;
-    }
-
-    const totalSteps = Math.max(predictionYear - startYear + 1, 1);
-    const currentStep = year - startYear + 1;
-    const progress = currentStep / totalSteps;
+  if (!existingYears.has(predictionYear) && !missingForecasts.some((point) => point.year === predictionYear)) {
     missingForecasts.push({
       station,
-      year,
-      avg_price: startPrice + (result.predictedPrice - startPrice) * progress
+      year: predictionYear,
+      avg_price: result.predictedPrice
     });
   }
 
   return [...sortedHistory, ...missingForecasts].sort((a, b) => a.year - b.year);
+}
+
+async function predictWithFutureTrend(
+  manager: ReturnType<typeof getModelManager>,
+  request: PredictionFormState,
+  history: PriceHistoryPoint[]
+) {
+  const metadata = manager.getMetadata();
+  if (!metadata || request.predictionYear <= metadata.latestTrainingYear) {
+    return {
+      result: await manager.predict(request),
+      forecastPoints: []
+    };
+  }
+
+  const baseYear = metadata.latestTrainingYear;
+  const baseResult = await manager.predict({ ...request, predictionYear: baseYear });
+  const annualChange = estimateAnnualPriceChange(history, request.station, baseYear);
+  const forecastPoints: PriceHistoryPoint[] = [];
+
+  for (let year = baseYear + 1; year <= request.predictionYear; year += 1) {
+    forecastPoints.push({
+      station: request.station,
+      year,
+      avg_price: Math.max(1000000, baseResult.predictedPrice + annualChange * (year - baseYear))
+    });
+  }
+
+  const predictedPrice = forecastPoints.at(-1)?.avg_price ?? baseResult.predictedPrice;
+  return {
+    result: {
+      predictedPrice,
+      pricePerSquareMeter: request.area > 0 ? predictedPrice / request.area : 0,
+      lowerPrice: Math.max(0, predictedPrice - metadata.mae),
+      upperPrice: predictedPrice + metadata.mae
+    },
+    forecastPoints
+  };
+}
+
+function estimateAnnualPriceChange(history: PriceHistoryPoint[], station: string, latestTrainingYear: number) {
+  const stationPoints = history.filter((point) => point.station === station && point.year <= latestTrainingYear);
+  const stationTrend = estimateTrendFromPoints(stationPoints);
+  if (stationTrend !== null) {
+    return stationTrend;
+  }
+
+  const yearlyPrices = new Map<number, number[]>();
+  for (const point of history) {
+    if (point.year > latestTrainingYear) {
+      continue;
+    }
+    yearlyPrices.set(point.year, [...(yearlyPrices.get(point.year) ?? []), point.avg_price]);
+  }
+
+  const regionPoints = [...yearlyPrices.entries()].map(([year, prices]) => ({
+    station: "__region__",
+    year,
+    avg_price: prices.reduce((sum, price) => sum + price, 0) / prices.length
+  }));
+
+  return estimateTrendFromPoints(regionPoints) ?? 0;
+}
+
+function estimateTrendFromPoints(points: PriceHistoryPoint[]) {
+  const sortedPoints = [...points].sort((a, b) => a.year - b.year).slice(-4);
+  if (sortedPoints.length < 2) {
+    return null;
+  }
+
+  const deltas: number[] = [];
+  for (let index = 1; index < sortedPoints.length; index += 1) {
+    deltas.push(sortedPoints[index].avg_price - sortedPoints[index - 1].avg_price);
+  }
+
+  return deltas.reduce((sum, delta) => sum + delta, 0) / deltas.length;
 }
