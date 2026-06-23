@@ -139,7 +139,11 @@ export function App() {
 
     try {
       const manager = getModelManager(region);
-      const nextResult = await manager.predict(form);
+      const predictionRequest = {
+        ...form,
+        stationDistance: Math.round(form.stationDistance)
+      };
+      const nextResult = await manager.predict(predictionRequest);
       setResult(nextResult);
       setStatus("予測しました");
     } catch {

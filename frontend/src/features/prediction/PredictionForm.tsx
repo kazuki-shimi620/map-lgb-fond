@@ -74,6 +74,7 @@ export function PredictionForm({ value, onChange, onSubmit, stationOptions, disa
         <input
           type="number"
           min="0"
+          step="any"
           value={value.stationDistance}
           onChange={(event) => update("stationDistance", Number(event.target.value))}
         />
