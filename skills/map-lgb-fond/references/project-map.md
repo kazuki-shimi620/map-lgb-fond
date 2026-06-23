@@ -1,44 +1,53 @@
-# Project Map
+# プロジェクトマップ
 
-## Purpose
+## 目的
 
-`map-lgb-fond` is a portfolio-oriented real estate price prediction app for used apartments.
+`map-lgb-fond` は、中古マンション価格を予測するポートフォリオ向けアプリです。
 
-Core goals:
+主な目的:
 
-- Train LightGBM models from MLIT real estate transaction data.
-- Export ONNX models for browser inference.
-- Run prediction in a React/Vite frontend without a backend.
-- Keep feature additions easy through FeatureProvider-style training code.
-- Manage models by prefecture.
+- MLIT 不動産取引データから LightGBM モデルを学習する。
+- 学習済みモデルを ONNX に変換し、ブラウザで推論する。
+- React/Vite フロントエンドをバックエンドなしで動かす。
+- FeatureProvider 方式で特徴量を追加しやすくする。
+- モデルと成果物を都道府県単位で管理する。
 
-## Source Of Truth
+## 仕様の参照先
 
-- `docs/requirements.md`: product requirements and scope.
-- `docs/implementation.md`: implementation-level structure and priorities.
-- `docs/frontend.md`: frontend DTOs, ModelManager, map behavior, station lookup, chart behavior.
-- `docs/training.md`: collect, preprocess, feature, train, evaluate, export responsibilities.
-- `docs/database.md`: SQLite schema, constraints, latest model rule.
-- `docs/architecture.md`: high-level component flow.
+- `docs/requirements.md`: プロダクト要件とスコープ
+- `docs/implementation.md`: 実装方針、構成、優先順位
+- `docs/frontend.md`: DTO、ModelManager、地図操作、駅探索、グラフ挙動
+- `docs/training.md`: collect、preprocess、features、train、evaluate、export の責務
+- `docs/database.md`: SQLite schema、制約、latest model 管理
+- `docs/architecture.md`: 全体アーキテクチャと処理フロー
 
-## Important Paths
+## 主要パス
 
-- `frontend/src/App.tsx`: single-screen app composition.
-- `frontend/src/features/model/ModelManager.ts`: model, metadata, category dictionary loading and prediction.
-- `frontend/src/features/map/PropertyMap.tsx`: Leaflet map input.
-- `frontend/public/metadata/`: category dictionaries and model metadata.
-- `frontend/public/histories/`: station/year price history JSON.
-- `frontend/public/stations/`: station master JSON.
-- `training/src/train/train.py`: training pipeline entrypoint.
-- `training/src/features/`: FeatureProvider-style feature logic and category dictionary generation.
-- `training/src/export/artifacts.py`: model and JSON artifact writing plus frontend copy.
-- `training/src/experiment/database.py`: SQLite schema and latest model management.
+- `AGENTS.md`: AIエージェント向けの作業ルール
+- `frontend/src/App.tsx`: 単一画面アプリの構成
+- `frontend/src/features/model/ModelManager.ts`: モデル、メタデータ、カテゴリ辞書読み込みと推論
+- `frontend/src/features/map/PropertyMap.tsx`: Leaflet の地図入力
+- `frontend/public/models/`: ブラウザ用ONNXモデル
+- `frontend/public/metadata/`: カテゴリ辞書とモデルメタデータ
+- `frontend/public/histories/`: 駅別・年別の価格推移JSON
+- `frontend/public/stations/`: 駅マスタJSON
+- `training/src/train/train.py`: 学習パイプライン入口
+- `training/src/features/`: FeatureProvider とカテゴリ辞書生成
+- `training/src/export/artifacts.py`: モデル成果物とJSON出力、frontend copy
+- `training/src/export/stations.py`: 公開駅データから駅マスタJSONを生成
+- `training/src/experiment/database.py`: SQLite schema と latest model 管理
 
-## Current Practical Constraints
+## 実務上の制約
 
-- MLIT data acquisition uses the Real Estate Information Library API at `https://www.reinfolib.mlit.go.jp/realEstatePrices/`.
-- API calls require `REINFOLIB_API_KEY`; collect safely skips when it is not set.
-- Do not call the MLIT API from browser code.
-- Placeholder ONNX files may be empty. Frontend metadata can enable development fallback for UI testing.
-- Python dependency management should use `training/pyproject.toml` with `uv`.
-- Frontend uses npm with `frontend/package-lock.json`.
+- MLIT データ取得は `https://www.reinfolib.mlit.go.jp/realEstatePrices/` を前提にする。
+- API 呼び出しには `REINFOLIB_API_KEY` が必要。未設定の場合は収集処理を安全にスキップする。
+- ブラウザコードから MLIT API を呼ばない。
+- Python 依存管理は `training/pyproject.toml` と `uv` を使う。
+- フロントエンドは npm と `frontend/package-lock.json` を使う。
+- `.env`、生データ、加工済みデータ、SQLite生成DB、`training/outputs` の実成果物は Git 管理しない。
+
+## 言語とコミット
+
+- ドキュメント、ユーザー向け説明、実装メモは日本語を基本にする。
+- コミットメッセージも日本語を基本にする。
+- 英語の識別子、外部API名、ライブラリ名は無理に翻訳しない。

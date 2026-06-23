@@ -1,56 +1,92 @@
 ---
 name: map-lgb-fond
-description: Project skill for the map-lgb-fond real estate price prediction app. Use when Codex works in this repository on frontend React/Vite/Leaflet/ONNX Runtime code, training Python/LightGBM/Optuna/SQLite pipelines, model export assets, project documentation, or implementation planning from docs/*.md.
+description: map-lgb-fond 不動産価格予測アプリ専用のプロジェクトskill。このリポジトリで、React/Vite/Leaflet/ONNX Runtime を使うフロントエンド、Python/LightGBM/SQLite の学習パイプライン、モデル成果物、駅マスタ、docs/*.md の仕様更新、実装計画を扱うときに使う。
 ---
 
-# Map LGB Fond
+# Map LGB Fond Skill
 
-## First Reads
+## 最初に読むもの
 
-Read these before making architectural or cross-cutting changes:
+アーキテクチャや横断的な変更を行う前に、次の順で確認する。
 
-1. `docs/requirements.md`
-2. `docs/implementation.md`
-3. `docs/frontend.md` for React, map, model loading, and UI behavior
-4. `docs/training.md` for Python pipeline, feature generation, and export
-5. `docs/database.md` for SQLite experiment/model management
+1. `AGENTS.md`
+2. `docs/requirements.md`
+3. `docs/implementation.md`
+4. `docs/frontend.md`
+5. `docs/training.md`
+6. `docs/database.md`
+7. `docs/architecture.md`
 
-For quick orientation, read `references/project-map.md`.
+素早く全体像を掴む場合は `references/project-map.md` を読む。
 
-## Working Rules
+## 言語方針
 
-- Keep MVP scope first: browser inference, training/export separation, FeatureProvider extension, prefecture-level model management.
-- Prefer existing structure over new abstractions.
-- Keep generated browser assets under `frontend/public/{models,metadata,histories,stations}`.
-- Keep training artifacts under `training/outputs/`; export copies latest frontend assets only when the model is accepted as latest.
-- Treat external network steps, MLIT endpoint discovery, and real model/data acquisition as skippable unless the user explicitly asks to perform them.
-- Use `uv` for Python dependency management. Do not reintroduce `requirements.txt` unless the user asks.
-- Preserve Japanese UI labels and documentation language unless there is a reason to change them.
+- ユーザー向け説明、レビュー、ドキュメント、実装メモは原則日本語で書く。
+- UI文言、README、`docs/`、`skills/` 配下のプロジェクト説明も日本語を優先する。
+- コード識別子、ライブラリ名、API名、外部仕様名、エラー文は英語のままでよい。
+- コミットメッセージは原則日本語にする。
+  - 例: `最寄駅の自動更新を修正`
+  - 例: `駅マスタ生成手順を追加`
 
-## Frontend Workflow
+## 作業ルール
 
-Use this when editing `frontend/`.
+- MVPを優先する。ブラウザ推論、学習/推論分離、FeatureProvider 拡張、都道府県別モデル管理を崩さない。
+- 新しい抽象化よりも、既存構成に沿った小さな変更を優先する。
+- ブラウザ用生成物は `frontend/public/{models,metadata,histories,stations}` に置く。
+- 学習成果物は `training/outputs/` に置き、最新採用分だけ `frontend/public` へコピーする。
+- 外部ネットワーク、MLIT API、公開駅データ取得、モデル再生成は、必要な場合だけ実行する。
+- Python の依存管理は `uv` を使う。ユーザーが求めない限り `requirements.txt` は追加しない。
+- フロントエンドは npm を使う。
 
-1. Confirm the change against `docs/frontend.md`.
-2. Keep feature code under `src/features/{map,prediction,model}`.
-3. Keep shared loading and distance helpers under `src/services` and `src/utils`.
-4. Run `npm run build` after TypeScript or Vite changes.
-5. If ONNX files are empty or missing, keep development fallback behavior working so UI flow remains testable.
+## フロントエンド作業
 
-## Training Workflow
+`frontend/` を編集するときの基本手順:
 
-Use this when editing `training/`.
+1. `docs/frontend.md` と対象ファイルを確認する。
+2. 機能コードは `src/features/{map,prediction,model}` に寄せる。
+3. 共通の読み込み処理や距離計算は `src/services` と `src/utils` に置く。
+4. モデル・メタデータ・駅マスタのパスは Vite public root からの相対パスを維持する。
+5. TypeScript/Vite 変更後は `npm run build` を実行する。
+6. ONNX が壊れてもUI確認できるよう、開発用 fallback は維持する。
 
-1. Confirm the change against `docs/training.md` and `docs/database.md`.
-2. Keep pipeline stages separated: collect, preprocess, features, train, evaluate, export, experiment.
-3. Add new feature logic through FeatureProvider-style classes.
-4. Export category dictionaries, model metadata, and price history JSON alongside model files.
-5. Run `python3 -m compileall training/src` after Python changes.
-6. If `uv` is available, prefer `cd training && uv run python ...` commands.
+## 学習パイプライン作業
 
-## Validation
+`training/` を編集するときの基本手順:
 
-Minimum checks:
+1. `docs/training.md` と `docs/database.md` を確認する。
+2. collect、preprocess、features、train、evaluate、export、experiment の責務を混ぜない。
+3. 特徴量追加は FeatureProvider 方式に寄せる。
+4. モデルと一緒にカテゴリ辞書、メタデータ、価格推移JSONを出力する。
+5. Python変更後は `training/.venv/bin/python -m compileall training/src` を実行する。
+6. `uv` が使える環境では `cd training && uv run python ...` を優先する。
+
+## 駅マスタ作業
+
+駅マスタは地図クリック時の最寄駅・駅徒歩更新に直結するため、フロントエンドの一部として扱う。
+
+基本コマンド:
+
+```bash
+cd training
+uv run python -m src.export.stations --public-dir ../frontend/public --regions tokyo saitama chiba kanagawa
+```
+
+`uv` が使えない場合:
+
+```bash
+cd training
+.venv/bin/python -m src.export.stations --public-dir ../frontend/public --regions tokyo saitama chiba kanagawa
+```
+
+更新後に確認すること:
+
+- `frontend/public/stations/{region}_stations.json` の件数が空でないこと。
+- 東京、埼玉、千葉、神奈川の県境をまたいでも最寄駅と駅徒歩が更新されること。
+- `cd frontend && npm run build` が通ること。
+
+## 検証
+
+最低限の確認:
 
 ```bash
 cd frontend
@@ -58,18 +94,17 @@ npm run build
 ```
 
 ```bash
-python3 -m compileall training/src
-python3 training/src/experiment/init_db.py --db-path training/db/experiments.db
+training/.venv/bin/python -m compileall training/src
 ```
 
-When real processed data exists:
+実データがある場合:
 
 ```bash
 cd training
 uv run python src/train/train.py --config configs/tokyo.yaml --db-path db/experiments.db --export-onnx
 ```
 
-## References
+## 参照
 
-- `references/project-map.md`: repository layout, source-of-truth docs, and current implementation map.
-- `references/workflows.md`: common task workflows for frontend, training, export, and docs.
+- `references/project-map.md`: リポジトリ構成、仕様の参照先、主要ファイル
+- `references/workflows.md`: フロントエンド、学習、駅マスタ、ドキュメント更新の作業手順
