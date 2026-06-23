@@ -90,11 +90,11 @@ export function App() {
   async function loadStationCandidates(targetRegion: SupportedRegion | null) {
     if (targetRegion) {
       const targetStations = await loadStations(targetRegion);
-      return { targetStations, loadedRegion: targetRegion };
+      return targetStations;
     }
 
     const allStationGroups = await Promise.all(supportedRegions.map((nextRegion) => loadStations(nextRegion)));
-    return { targetStations: allStationGroups.flat(), loadedRegion: null };
+    return allStationGroups.flat();
   }
 
   async function handleMapSelect(lat: number, lon: number) {
@@ -103,15 +103,15 @@ export function App() {
     try {
       const geocode = await reverseGeocode(lat, lon).catch(() => ({ prefecture: "", municipality: "" }));
       const geocodedRegion = getRegionFromPrefecture(geocode.prefecture);
-      const { targetStations, loadedRegion } = await loadStationCandidates(geocodedRegion);
+      const targetStations = await loadStationCandidates(null);
       const nearest = findNearestStation(targetStations, lat, lon);
       const stationRegion = nearest ? getRegionFromPrefecture(nearest.station.prefecture) : null;
       const nextRegion = geocodedRegion ?? stationRegion ?? region;
       const nextPrefecture =
         (geocodedRegion ? geocode.prefecture : "") || nearest?.station.prefecture || currentPrefectureFromRegion(nextRegion);
 
-      if (loadedRegion && loadedRegion !== region) {
-        setStations(targetStations);
+      if (nextRegion && nextRegion !== region) {
+        setStations(await loadStations(nextRegion));
       }
 
       setForm((current) => ({

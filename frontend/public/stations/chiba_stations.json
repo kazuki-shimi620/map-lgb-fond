@@ -1,1 +1,2682 @@
-[]
+[
+  {
+    "station_id": "chiba_0182",
+    "station_name": "おゆみ野",
+    "prefecture": "千葉県",
+    "line_name": "京成千原線",
+    "lat": 35.550029,
+    "lon": 140.166264
+  },
+  {
+    "station_id": "chiba_0282",
+    "station_name": "くぬぎ山",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.782343,
+    "lon": 139.975707
+  },
+  {
+    "station_id": "chiba_0183",
+    "station_name": "ちはら台",
+    "prefecture": "千葉県",
+    "line_name": "京成千原線",
+    "lat": 35.534017,
+    "lon": 140.17029
+  },
+  {
+    "station_id": "chiba_0247",
+    "station_name": "みつわ台",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール2号線",
+    "lat": 35.6387,
+    "lon": 140.134873
+  },
+  {
+    "station_id": "chiba_0189",
+    "station_name": "みどり台",
+    "prefecture": "千葉県",
+    "line_name": "京成千葉線",
+    "lat": 35.624994,
+    "lon": 140.097413
+  },
+  {
+    "station_id": "chiba_0277",
+    "station_name": "みのり台",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.789346,
+    "lon": 139.929466
+  },
+  {
+    "station_id": "chiba_0245",
+    "station_name": "スポーツセンター",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール2号線",
+    "lat": 35.643164,
+    "lon": 140.11611
+  },
+  {
+    "station_id": "chiba_0176",
+    "station_name": "ベイサイド・ステーション",
+    "prefecture": "千葉県",
+    "line_name": "ディズニーリゾートライン",
+    "lat": 35.627884,
+    "lon": 139.876397
+  },
+  {
+    "station_id": "chiba_0212",
+    "station_name": "ユーカリが丘",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.721801,
+    "lon": 140.156354
+  },
+  {
+    "station_id": "chiba_0174",
+    "station_name": "リゾートゲートウェイ・ステーション",
+    "prefecture": "千葉県",
+    "line_name": "ディズニーリゾートライン",
+    "lat": 35.635218,
+    "lon": 139.885166
+  },
+  {
+    "station_id": "chiba_0304",
+    "station_name": "七光台",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.970884,
+    "lon": 139.852906
+  },
+  {
+    "station_id": "chiba_0288",
+    "station_name": "三咲",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.749217,
+    "lon": 140.028514
+  },
+  {
+    "station_id": "chiba_0071",
+    "station_name": "三門",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.282377,
+    "lon": 140.391567
+  },
+  {
+    "station_id": "chiba_0275",
+    "station_name": "上本郷",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.789524,
+    "lon": 139.916031
+  },
+  {
+    "station_id": "chiba_0067",
+    "station_name": "上総一ノ宮",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.373401,
+    "lon": 140.365138
+  },
+  {
+    "station_id": "chiba_0255",
+    "station_name": "上総三又",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.46592,
+    "lon": 140.12672
+  },
+  {
+    "station_id": "chiba_0160",
+    "station_name": "上総中川",
+    "prefecture": "千葉県",
+    "line_name": "いすみ鉄道",
+    "lat": 35.282763,
+    "lon": 140.280636
+  },
+  {
+    "station_id": "chiba_0168",
+    "station_name": "上総中野",
+    "prefecture": "千葉県",
+    "line_name": "いすみ鉄道",
+    "lat": 35.250051,
+    "lon": 140.199571
+  },
+  {
+    "station_id": "chiba_0262",
+    "station_name": "上総久保",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.367481,
+    "lon": 140.154438
+  },
+  {
+    "station_id": "chiba_0014",
+    "station_name": "上総亀山",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.233153,
+    "lon": 140.089479
+  },
+  {
+    "station_id": "chiba_0267",
+    "station_name": "上総大久保",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.283367,
+    "lon": 140.145924
+  },
+  {
+    "station_id": "chiba_0256",
+    "station_name": "上総山田",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.454105,
+    "lon": 140.126128
+  },
+  {
+    "station_id": "chiba_0260",
+    "station_name": "上総川間",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.388047,
+    "lon": 140.150968
+  },
+  {
+    "station_id": "chiba_0253",
+    "station_name": "上総村上",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.496171,
+    "lon": 140.100355
+  },
+  {
+    "station_id": "chiba_0157",
+    "station_name": "上総東",
+    "prefecture": "千葉県",
+    "line_name": "いすみ鉄道",
+    "lat": 35.263313,
+    "lon": 140.344974
+  },
+  {
+    "station_id": "chiba_0013",
+    "station_name": "上総松丘",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.258226,
+    "lon": 140.064046
+  },
+  {
+    "station_id": "chiba_0003",
+    "station_name": "上総清川",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.390981,
+    "lon": 139.965612
+  },
+  {
+    "station_id": "chiba_0041",
+    "station_name": "上総湊",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.221855,
+    "lon": 139.871016
+  },
+  {
+    "station_id": "chiba_0259",
+    "station_name": "上総牛久",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.400213,
+    "lon": 140.142255
+  },
+  {
+    "station_id": "chiba_0077",
+    "station_name": "上総興津",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.137146,
+    "lon": 140.250487
+  },
+  {
+    "station_id": "chiba_0261",
+    "station_name": "上総鶴舞",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.381346,
+    "lon": 140.165006
+  },
+  {
+    "station_id": "chiba_0146",
+    "station_name": "下総中山",
+    "prefecture": "千葉県",
+    "line_name": "JR総武線",
+    "lat": 35.714276,
+    "lon": 139.943092
+  },
+  {
+    "station_id": "chiba_0109",
+    "station_name": "下総松崎",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線我孫子支線",
+    "lat": 35.807806,
+    "lon": 140.27749
+  },
+  {
+    "station_id": "chiba_0105",
+    "station_name": "下総橘",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.818673,
+    "lon": 140.702273
+  },
+  {
+    "station_id": "chiba_0098",
+    "station_name": "下総神崎",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.8948,
+    "lon": 140.410657
+  },
+  {
+    "station_id": "chiba_0106",
+    "station_name": "下総豊里",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.792899,
+    "lon": 140.721011
+  },
+  {
+    "station_id": "chiba_0008",
+    "station_name": "下郡",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.355018,
+    "lon": 140.055372
+  },
+  {
+    "station_id": "chiba_0273",
+    "station_name": "中学校",
+    "prefecture": "千葉県",
+    "line_name": "山万ユーカリが丘線",
+    "lat": 35.740123,
+    "lon": 140.14841
+  },
+  {
+    "station_id": "chiba_0096",
+    "station_name": "久住",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.832232,
+    "lon": 140.338929
+  },
+  {
+    "station_id": "chiba_0165",
+    "station_name": "久我原",
+    "prefecture": "千葉県",
+    "line_name": "いすみ鉄道",
+    "lat": 35.250265,
+    "lon": 140.247718
+  },
+  {
+    "station_id": "chiba_0011",
+    "station_name": "久留里",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.295812,
+    "lon": 140.075613
+  },
+  {
+    "station_id": "chiba_0050",
+    "station_name": "九重",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 34.99752,
+    "lon": 139.911383
+  },
+  {
+    "station_id": "chiba_0019",
+    "station_name": "二俣新町",
+    "prefecture": "千葉県",
+    "line_name": "JR京葉線",
+    "lat": 35.691273,
+    "lon": 139.959525
+  },
+  {
+    "station_id": "chiba_0287",
+    "station_name": "二和向台",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.753825,
+    "lon": 140.023731
+  },
+  {
+    "station_id": "chiba_0032",
+    "station_name": "五井",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.512985,
+    "lon": 140.089522
+  },
+  {
+    "station_id": "chiba_0280",
+    "station_name": "五香",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.797281,
+    "lon": 139.965796
+  },
+  {
+    "station_id": "chiba_0274",
+    "station_name": "井野(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "山万ユーカリが丘線",
+    "lat": 35.732605,
+    "lon": 140.148497
+  },
+  {
+    "station_id": "chiba_0198",
+    "station_name": "京成中山",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.716998,
+    "lon": 139.944203
+  },
+  {
+    "station_id": "chiba_0214",
+    "station_name": "京成佐倉",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.725205,
+    "lon": 140.229633
+  },
+  {
+    "station_id": "chiba_0196",
+    "station_name": "京成八幡",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.723811,
+    "lon": 139.92816
+  },
+  {
+    "station_id": "chiba_0192",
+    "station_name": "京成千葉",
+    "prefecture": "千葉県",
+    "line_name": "京成千葉線",
+    "lat": 35.6116,
+    "lon": 140.114273
+  },
+  {
+    "station_id": "chiba_0206",
+    "station_name": "京成大久保",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.686016,
+    "lon": 140.048629
+  },
+  {
+    "station_id": "chiba_0209",
+    "station_name": "京成大和田",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.712309,
+    "lon": 140.108578
+  },
+  {
+    "station_id": "chiba_0186",
+    "station_name": "京成幕張",
+    "prefecture": "千葉県",
+    "line_name": "京成千葉線",
+    "lat": 35.66078,
+    "lon": 140.05591
+  },
+  {
+    "station_id": "chiba_0185",
+    "station_name": "京成幕張本郷",
+    "prefecture": "千葉県",
+    "line_name": "京成千葉線",
+    "lat": 35.672551,
+    "lon": 140.042091
+  },
+  {
+    "station_id": "chiba_0219",
+    "station_name": "京成成田",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.776308,
+    "lon": 140.315473
+  },
+  {
+    "station_id": "chiba_0184",
+    "station_name": "京成津田沼",
+    "prefecture": "千葉県",
+    "line_name": "京成千葉線",
+    "lat": 35.68364,
+    "lon": 140.024823
+  },
+  {
+    "station_id": "chiba_0188",
+    "station_name": "京成稲毛",
+    "prefecture": "千葉県",
+    "line_name": "京成千葉線",
+    "lat": 35.637783,
+    "lon": 140.085505
+  },
+  {
+    "station_id": "chiba_0213",
+    "station_name": "京成臼井",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.730017,
+    "lon": 140.180796
+  },
+  {
+    "station_id": "chiba_0202",
+    "station_name": "京成船橋",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.700161,
+    "lon": 139.985451
+  },
+  {
+    "station_id": "chiba_0200",
+    "station_name": "京成西船",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.711627,
+    "lon": 139.958863
+  },
+  {
+    "station_id": "chiba_0216",
+    "station_name": "京成酒々井",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.736867,
+    "lon": 140.270132
+  },
+  {
+    "station_id": "chiba_0342",
+    "station_name": "仲ノ町",
+    "prefecture": "千葉県",
+    "line_name": "銚子電鉄線",
+    "lat": 35.728813,
+    "lon": 140.833871
+  },
+  {
+    "station_id": "chiba_0091",
+    "station_name": "佐倉",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.709743,
+    "lon": 140.226722
+  },
+  {
+    "station_id": "chiba_0100",
+    "station_name": "佐原",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.894522,
+    "lon": 140.494074
+  },
+  {
+    "station_id": "chiba_0040",
+    "station_name": "佐貫町",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.260113,
+    "lon": 139.876106
+  },
+  {
+    "station_id": "chiba_0242",
+    "station_name": "作草部",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール2号線",
+    "lat": 35.625806,
+    "lon": 140.115314
+  },
+  {
+    "station_id": "chiba_0044",
+    "station_name": "保田",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.14148,
+    "lon": 139.838114
+  },
+  {
+    "station_id": "chiba_0010",
+    "station_name": "俵田",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.314495,
+    "lon": 140.061386
+  },
+  {
+    "station_id": "chiba_0141",
+    "station_name": "倉橋",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.737836,
+    "lon": 140.714018
+  },
+  {
+    "station_id": "chiba_0281",
+    "station_name": "元山(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.790229,
+    "lon": 139.975831
+  },
+  {
+    "station_id": "chiba_0257",
+    "station_name": "光風台(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.439662,
+    "lon": 140.114174
+  },
+  {
+    "station_id": "chiba_0330",
+    "station_name": "八千代中央",
+    "prefecture": "千葉県",
+    "line_name": "東葉高速鉄道",
+    "lat": 35.727807,
+    "lon": 140.103713
+  },
+  {
+    "station_id": "chiba_0208",
+    "station_name": "八千代台",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.701465,
+    "lon": 140.090942
+  },
+  {
+    "station_id": "chiba_0329",
+    "station_name": "八千代緑が丘",
+    "prefecture": "千葉県",
+    "line_name": "東葉高速鉄道",
+    "lat": 35.728884,
+    "lon": 140.073461
+  },
+  {
+    "station_id": "chiba_0031",
+    "station_name": "八幡宿",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.536189,
+    "lon": 140.120072
+  },
+  {
+    "station_id": "chiba_0137",
+    "station_name": "八日市場",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.699317,
+    "lon": 140.552419
+  },
+  {
+    "station_id": "chiba_0278",
+    "station_name": "八柱",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.791394,
+    "lon": 139.937362
+  },
+  {
+    "station_id": "chiba_0066",
+    "station_name": "八積",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.403971,
+    "lon": 140.345367
+  },
+  {
+    "station_id": "chiba_0132",
+    "station_name": "八街",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.663228,
+    "lon": 140.317304
+  },
+  {
+    "station_id": "chiba_0271",
+    "station_name": "公園",
+    "prefecture": "千葉県",
+    "line_name": "山万ユーカリが丘線",
+    "lat": 35.730758,
+    "lon": 140.153755
+  },
+  {
+    "station_id": "chiba_0218",
+    "station_name": "公津の杜",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.760446,
+    "lon": 140.294904
+  },
+  {
+    "station_id": "chiba_0318",
+    "station_name": "六実",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.793715,
+    "lon": 139.999195
+  },
+  {
+    "station_id": "chiba_0285",
+    "station_name": "初富",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.771992,
+    "lon": 140.000493
+  },
+  {
+    "station_id": "chiba_0311",
+    "station_name": "初石",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.883783,
+    "lon": 139.917861
+  },
+  {
+    "station_id": "chiba_0295",
+    "station_name": "前原",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.700666,
+    "lon": 140.027542
+  },
+  {
+    "station_id": "chiba_0246",
+    "station_name": "動物公園",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール2号線",
+    "lat": 35.642585,
+    "lon": 140.125437
+  },
+  {
+    "station_id": "chiba_0075",
+    "station_name": "勝浦",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.152722,
+    "lon": 140.312142
+  },
+  {
+    "station_id": "chiba_0210",
+    "station_name": "勝田台",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.715445,
+    "lon": 140.126053
+  },
+  {
+    "station_id": "chiba_0283",
+    "station_name": "北初富",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.77728,
+    "lon": 139.991978
+  },
+  {
+    "station_id": "chiba_0227",
+    "station_name": "北国分",
+    "prefecture": "千葉県",
+    "line_name": "北総鉄道",
+    "lat": 35.762916,
+    "lon": 139.914252
+  },
+  {
+    "station_id": "chiba_0085",
+    "station_name": "北小金",
+    "prefecture": "千葉県",
+    "line_name": "JR常磐線各駅停車",
+    "lat": 35.833436,
+    "lon": 139.931303
+  },
+  {
+    "station_id": "chiba_0082",
+    "station_name": "北松戸",
+    "prefecture": "千葉県",
+    "line_name": "JR常磐線各駅停車",
+    "lat": 35.800459,
+    "lon": 139.911528
+  },
+  {
+    "station_id": "chiba_0088",
+    "station_name": "北柏",
+    "prefecture": "千葉県",
+    "line_name": "JR常磐線各駅停車",
+    "lat": 35.875623,
+    "lon": 139.988035
+  },
+  {
+    "station_id": "chiba_0292",
+    "station_name": "北習志野",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.721328,
+    "lon": 140.042195
+  },
+  {
+    "station_id": "chiba_0155",
+    "station_name": "十二橋",
+    "prefecture": "千葉県",
+    "line_name": "JR鹿島線",
+    "lat": 35.916984,
+    "lon": 140.545707
+  },
+  {
+    "station_id": "chiba_0051",
+    "station_name": "千倉",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 34.976704,
+    "lon": 139.954738
+  },
+  {
+    "station_id": "chiba_0252",
+    "station_name": "千城台",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール2号線",
+    "lat": 35.622314,
+    "lon": 140.18856
+  },
+  {
+    "station_id": "chiba_0251",
+    "station_name": "千城台北",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール2号線",
+    "lat": 35.627436,
+    "lon": 140.181972
+  },
+  {
+    "station_id": "chiba_0052",
+    "station_name": "千歳",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 34.991701,
+    "lon": 139.966378
+  },
+  {
+    "station_id": "chiba_0028",
+    "station_name": "千葉",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.613425,
+    "lon": 140.112837
+  },
+  {
+    "station_id": "chiba_0026",
+    "station_name": "千葉みなと",
+    "prefecture": "千葉県",
+    "line_name": "JR京葉線",
+    "lat": 35.606172,
+    "lon": 140.10341
+  },
+  {
+    "station_id": "chiba_0223",
+    "station_name": "千葉ニュータウン中央",
+    "prefecture": "千葉県",
+    "line_name": "京成成田空港線",
+    "lat": 35.800175,
+    "lon": 140.116159
+  },
+  {
+    "station_id": "chiba_0178",
+    "station_name": "千葉中央",
+    "prefecture": "千葉県",
+    "line_name": "京成千原線",
+    "lat": 35.607354,
+    "lon": 140.117809
+  },
+  {
+    "station_id": "chiba_0241",
+    "station_name": "千葉公園",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール2号線",
+    "lat": 35.619774,
+    "lon": 140.117944
+  },
+  {
+    "station_id": "chiba_0179",
+    "station_name": "千葉寺",
+    "prefecture": "千葉県",
+    "line_name": "京成千原線",
+    "lat": 35.590311,
+    "lon": 140.132236
+  },
+  {
+    "station_id": "chiba_0053",
+    "station_name": "南三原",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.021065,
+    "lon": 139.979204
+  },
+  {
+    "station_id": "chiba_0086",
+    "station_name": "南柏",
+    "prefecture": "千葉県",
+    "line_name": "JR常磐線各駅停車",
+    "lat": 35.844655,
+    "lon": 139.954111
+  },
+  {
+    "station_id": "chiba_0121",
+    "station_name": "南流山",
+    "prefecture": "千葉県",
+    "line_name": "JR武蔵野線",
+    "lat": 35.838035,
+    "lon": 139.903865
+  },
+  {
+    "station_id": "chiba_0020",
+    "station_name": "南船橋",
+    "prefecture": "千葉県",
+    "line_name": "JR京葉線",
+    "lat": 35.681804,
+    "lon": 139.995773
+  },
+  {
+    "station_id": "chiba_0298",
+    "station_name": "南行徳",
+    "prefecture": "千葉県",
+    "line_name": "東京メトロ東西線",
+    "lat": 35.672687,
+    "lon": 139.902311
+  },
+  {
+    "station_id": "chiba_0130",
+    "station_name": "南酒々井",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.704217,
+    "lon": 140.267828
+  },
+  {
+    "station_id": "chiba_0224",
+    "station_name": "印旛日本医大",
+    "prefecture": "千葉県",
+    "line_name": "京成成田空港線",
+    "lat": 35.787512,
+    "lon": 140.203112
+  },
+  {
+    "station_id": "chiba_0234",
+    "station_name": "印西牧の原",
+    "prefecture": "千葉県",
+    "line_name": "北総鉄道",
+    "lat": 35.803608,
+    "lon": 140.166911
+  },
+  {
+    "station_id": "chiba_0301",
+    "station_name": "原木中山",
+    "prefecture": "千葉県",
+    "line_name": "東京メトロ東西線",
+    "lat": 35.703517,
+    "lon": 139.942029
+  },
+  {
+    "station_id": "chiba_0348",
+    "station_name": "君ヶ浜",
+    "prefecture": "千葉県",
+    "line_name": "銚子電鉄線",
+    "lat": 35.714093,
+    "lon": 140.860527
+  },
+  {
+    "station_id": "chiba_0037",
+    "station_name": "君津",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.333619,
+    "lon": 139.895697
+  },
+  {
+    "station_id": "chiba_0054",
+    "station_name": "和田浦",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.041885,
+    "lon": 140.019569
+  },
+  {
+    "station_id": "chiba_0128",
+    "station_name": "四街道",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.662756,
+    "lon": 140.165023
+  },
+  {
+    "station_id": "chiba_0159",
+    "station_name": "国吉",
+    "prefecture": "千葉県",
+    "line_name": "いすみ鉄道",
+    "lat": 35.280497,
+    "lon": 140.314046
+  },
+  {
+    "station_id": "chiba_0193",
+    "station_name": "国府台",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.736301,
+    "lon": 139.90322
+  },
+  {
+    "station_id": "chiba_0060",
+    "station_name": "土気",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.530866,
+    "lon": 140.269783
+  },
+  {
+    "station_id": "chiba_0270",
+    "station_name": "地区センター",
+    "prefecture": "千葉県",
+    "line_name": "山万ユーカリが丘線",
+    "lat": 35.726225,
+    "lon": 140.155041
+  },
+  {
+    "station_id": "chiba_0161",
+    "station_name": "城見ヶ丘",
+    "prefecture": "千葉県",
+    "line_name": "いすみ鉄道",
+    "lat": 35.291741,
+    "lon": 140.252693
+  },
+  {
+    "station_id": "chiba_0322",
+    "station_name": "塚田",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.722102,
+    "lon": 139.982859
+  },
+  {
+    "station_id": "chiba_0315",
+    "station_name": "増尾",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.829704,
+    "lon": 139.976604
+  },
+  {
+    "station_id": "chiba_0350",
+    "station_name": "外川",
+    "prefecture": "千葉県",
+    "line_name": "銚子電鉄線",
+    "lat": 35.699314,
+    "lon": 140.857322
+  },
+  {
+    "station_id": "chiba_0215",
+    "station_name": "大佐倉",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.729908,
+    "lon": 140.25079
+  },
+  {
+    "station_id": "chiba_0072",
+    "station_name": "大原(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.251097,
+    "lon": 140.390864
+  },
+  {
+    "station_id": "chiba_0162",
+    "station_name": "大多喜",
+    "prefecture": "千葉県",
+    "line_name": "いすみ鉄道",
+    "lat": 35.286466,
+    "lon": 140.243833
+  },
+  {
+    "station_id": "chiba_0099",
+    "station_name": "大戸",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.890004,
+    "lon": 140.457828
+  },
+  {
+    "station_id": "chiba_0180",
+    "station_name": "大森台",
+    "prefecture": "千葉県",
+    "line_name": "京成千原線",
+    "lat": 35.584126,
+    "lon": 140.149398
+  },
+  {
+    "station_id": "chiba_0230",
+    "station_name": "大町(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "北総鉄道",
+    "lat": 35.775103,
+    "lon": 139.973567
+  },
+  {
+    "station_id": "chiba_0203",
+    "station_name": "大神宮下",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.693945,
+    "lon": 139.991431
+  },
+  {
+    "station_id": "chiba_0061",
+    "station_name": "大網",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.522427,
+    "lon": 140.311111
+  },
+  {
+    "station_id": "chiba_0039",
+    "station_name": "大貫",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.291661,
+    "lon": 139.855541
+  },
+  {
+    "station_id": "chiba_0243",
+    "station_name": "天台",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール2号線",
+    "lat": 35.631447,
+    "lon": 140.112902
+  },
+  {
+    "station_id": "chiba_0090",
+    "station_name": "天王台",
+    "prefecture": "千葉県",
+    "line_name": "JR常磐線各駅停車",
+    "lat": 35.872558,
+    "lon": 140.04121
+  },
+  {
+    "station_id": "chiba_0069",
+    "station_name": "太東",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.319942,
+    "lon": 140.381184
+  },
+  {
+    "station_id": "chiba_0056",
+    "station_name": "太海",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.081435,
+    "lon": 140.096229
+  },
+  {
+    "station_id": "chiba_0272",
+    "station_name": "女子大",
+    "prefecture": "千葉県",
+    "line_name": "山万ユーカリが丘線",
+    "lat": 35.738357,
+    "lon": 140.155054
+  },
+  {
+    "station_id": "chiba_0300",
+    "station_name": "妙典",
+    "prefecture": "千葉県",
+    "line_name": "東京メトロ東西線",
+    "lat": 35.690935,
+    "lon": 139.924209
+  },
+  {
+    "station_id": "chiba_0033",
+    "station_name": "姉ケ崎",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.4786,
+    "lon": 140.041749
+  },
+  {
+    "station_id": "chiba_0181",
+    "station_name": "学園前(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "京成千原線",
+    "lat": 35.560364,
+    "lon": 140.158416
+  },
+  {
+    "station_id": "chiba_0045",
+    "station_name": "安房勝山",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.114022,
+    "lon": 139.83339
+  },
+  {
+    "station_id": "chiba_0080",
+    "station_name": "安房天津",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.125473,
+    "lon": 140.154487
+  },
+  {
+    "station_id": "chiba_0079",
+    "station_name": "安房小湊",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.128597,
+    "lon": 140.190337
+  },
+  {
+    "station_id": "chiba_0057",
+    "station_name": "安房鴨川",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.107465,
+    "lon": 140.103566
+  },
+  {
+    "station_id": "chiba_0110",
+    "station_name": "安食",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線我孫子支線",
+    "lat": 35.835682,
+    "lon": 140.242051
+  },
+  {
+    "station_id": "chiba_0217",
+    "station_name": "宗吾参道",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.752669,
+    "lon": 140.280975
+  },
+  {
+    "station_id": "chiba_0207",
+    "station_name": "実籾",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.686852,
+    "lon": 140.068289
+  },
+  {
+    "station_id": "chiba_0047",
+    "station_name": "富浦",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.04614,
+    "lon": 139.837811
+  },
+  {
+    "station_id": "chiba_0250",
+    "station_name": "小倉台",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール2号線",
+    "lat": 35.627755,
+    "lon": 140.171873
+  },
+  {
+    "station_id": "chiba_0233",
+    "station_name": "小室",
+    "prefecture": "千葉県",
+    "line_name": "北総鉄道",
+    "lat": 35.787004,
+    "lon": 140.076073
+  },
+  {
+    "station_id": "chiba_0111",
+    "station_name": "小林",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線我孫子支線",
+    "lat": 35.830783,
+    "lon": 140.193028
+  },
+  {
+    "station_id": "chiba_0009",
+    "station_name": "小櫃",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.328252,
+    "lon": 140.059794
+  },
+  {
+    "station_id": "chiba_0103",
+    "station_name": "小見川",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.849971,
+    "lon": 140.604587
+  },
+  {
+    "station_id": "chiba_0163",
+    "station_name": "小谷松",
+    "prefecture": "千葉県",
+    "line_name": "いすみ鉄道",
+    "lat": 35.268938,
+    "lon": 140.251142
+  },
+  {
+    "station_id": "chiba_0335",
+    "station_name": "小金城趾",
+    "prefecture": "千葉県",
+    "line_name": "流鉄流山線",
+    "lat": 35.83601,
+    "lon": 139.916887
+  },
+  {
+    "station_id": "chiba_0046",
+    "station_name": "岩井",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.093062,
+    "lon": 139.849839
+  },
+  {
+    "station_id": "chiba_0036",
+    "station_name": "巌根",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.414285,
+    "lon": 139.933229
+  },
+  {
+    "station_id": "chiba_0303",
+    "station_name": "川間",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.979172,
+    "lon": 139.83385
+  },
+  {
+    "station_id": "chiba_0144",
+    "station_name": "市川",
+    "prefecture": "千葉県",
+    "line_name": "JR総武線",
+    "lat": 35.728903,
+    "lon": 139.908142
+  },
+  {
+    "station_id": "chiba_0017",
+    "station_name": "市川塩浜",
+    "prefecture": "千葉県",
+    "line_name": "JR京葉線",
+    "lat": 35.666554,
+    "lon": 139.923684
+  },
+  {
+    "station_id": "chiba_0124",
+    "station_name": "市川大野",
+    "prefecture": "千葉県",
+    "line_name": "JR武蔵野線",
+    "lat": 35.755432,
+    "lon": 139.951227
+  },
+  {
+    "station_id": "chiba_0194",
+    "station_name": "市川真間",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.73121,
+    "lon": 139.911717
+  },
+  {
+    "station_id": "chiba_0236",
+    "station_name": "市役所前(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール1号線",
+    "lat": 35.606878,
+    "lon": 140.107757
+  },
+  {
+    "station_id": "chiba_0113",
+    "station_name": "布佐",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線我孫子支線",
+    "lat": 35.849371,
+    "lon": 140.13293
+  },
+  {
+    "station_id": "chiba_0279",
+    "station_name": "常盤平",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.803191,
+    "lon": 139.949522
+  },
+  {
+    "station_id": "chiba_0151",
+    "station_name": "幕張",
+    "prefecture": "千葉県",
+    "line_name": "JR総武線",
+    "lat": 35.6594,
+    "lon": 140.0579
+  },
+  {
+    "station_id": "chiba_0150",
+    "station_name": "幕張本郷",
+    "prefecture": "千葉県",
+    "line_name": "JR総武線",
+    "lat": 35.672664,
+    "lon": 140.042241
+  },
+  {
+    "station_id": "chiba_0022",
+    "station_name": "幕張豊砂",
+    "prefecture": "千葉県",
+    "line_name": "JR京葉線",
+    "lat": 35.657991,
+    "lon": 140.027061
+  },
+  {
+    "station_id": "chiba_0138",
+    "station_name": "干潟",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.718308,
+    "lon": 140.603304
+  },
+  {
+    "station_id": "chiba_0337",
+    "station_name": "平和台(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "流鉄流山線",
+    "lat": 35.85123,
+    "lon": 139.901108
+  },
+  {
+    "station_id": "chiba_0012",
+    "station_name": "平山",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.274312,
+    "lon": 140.064682
+  },
+  {
+    "station_id": "chiba_0334",
+    "station_name": "幸谷",
+    "prefecture": "千葉県",
+    "line_name": "流鉄流山線",
+    "lat": 35.826642,
+    "lon": 139.919912
+  },
+  {
+    "station_id": "chiba_0074",
+    "station_name": "御宿",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.188028,
+    "lon": 140.35197
+  },
+  {
+    "station_id": "chiba_0211",
+    "station_name": "志津",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.717406,
+    "lon": 140.144982
+  },
+  {
+    "station_id": "chiba_0306",
+    "station_name": "愛宕(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.950154,
+    "lon": 139.864817
+  },
+  {
+    "station_id": "chiba_0120",
+    "station_name": "成東",
+    "prefecture": "千葉県",
+    "line_name": "JR東金線",
+    "lat": 35.608513,
+    "lon": 140.410109
+  },
+  {
+    "station_id": "chiba_0093",
+    "station_name": "成田",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.777796,
+    "lon": 140.313853
+  },
+  {
+    "station_id": "chiba_0225",
+    "station_name": "成田湯川",
+    "prefecture": "千葉県",
+    "line_name": "京成成田空港線",
+    "lat": 35.799115,
+    "lon": 140.291596
+  },
+  {
+    "station_id": "chiba_0095",
+    "station_name": "成田空港",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.763983,
+    "lon": 140.384644
+  },
+  {
+    "station_id": "chiba_0089",
+    "station_name": "我孫子",
+    "prefecture": "千葉県",
+    "line_name": "JR常磐線各駅停車",
+    "lat": 35.87279,
+    "lon": 140.010466
+  },
+  {
+    "station_id": "chiba_0122",
+    "station_name": "新八柱",
+    "prefecture": "千葉県",
+    "line_name": "JR武蔵野線",
+    "lat": 35.792013,
+    "lon": 139.938393
+  },
+  {
+    "station_id": "chiba_0191",
+    "station_name": "新千葉",
+    "prefecture": "千葉県",
+    "line_name": "京成千葉線",
+    "lat": 35.612455,
+    "lon": 140.108557
+  },
+  {
+    "station_id": "chiba_0114",
+    "station_name": "新木",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線我孫子支線",
+    "lat": 35.862352,
+    "lon": 140.107047
+  },
+  {
+    "station_id": "chiba_0084",
+    "station_name": "新松戸",
+    "prefecture": "千葉県",
+    "line_name": "JR常磐線各駅停車",
+    "lat": 35.825467,
+    "lon": 139.921076
+  },
+  {
+    "station_id": "chiba_0314",
+    "station_name": "新柏",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.838128,
+    "lon": 139.966994
+  },
+  {
+    "station_id": "chiba_0152",
+    "station_name": "新検見川",
+    "prefecture": "千葉県",
+    "line_name": "JR総武線",
+    "lat": 35.65169,
+    "lon": 140.073025
+  },
+  {
+    "station_id": "chiba_0296",
+    "station_name": "新津田沼",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.690184,
+    "lon": 140.023745
+  },
+  {
+    "station_id": "chiba_0016",
+    "station_name": "新浦安",
+    "prefecture": "千葉県",
+    "line_name": "JR京葉線",
+    "lat": 35.649526,
+    "lon": 139.912553
+  },
+  {
+    "station_id": "chiba_0158",
+    "station_name": "新田野",
+    "prefecture": "千葉県",
+    "line_name": "いすみ鉄道",
+    "lat": 35.276408,
+    "lon": 140.328081
+  },
+  {
+    "station_id": "chiba_0021",
+    "station_name": "新習志野",
+    "prefecture": "千葉県",
+    "line_name": "JR京葉線",
+    "lat": 35.667342,
+    "lon": 140.012825
+  },
+  {
+    "station_id": "chiba_0323",
+    "station_name": "新船橋",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.710993,
+    "lon": 139.979765
+  },
+  {
+    "station_id": "chiba_0064",
+    "station_name": "新茂原",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.449477,
+    "lon": 140.29983
+  },
+  {
+    "station_id": "chiba_0222",
+    "station_name": "新鎌ケ谷",
+    "prefecture": "千葉県",
+    "line_name": "京成成田空港線",
+    "lat": 35.779481,
+    "lon": 139.998361
+  },
+  {
+    "station_id": "chiba_0133",
+    "station_name": "日向",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.628402,
+    "lon": 140.362447
+  },
+  {
+    "station_id": "chiba_0139",
+    "station_name": "旭",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.721832,
+    "lon": 140.655041
+  },
+  {
+    "station_id": "chiba_0266",
+    "station_name": "月崎",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.302203,
+    "lon": 140.139394
+  },
+  {
+    "station_id": "chiba_0112",
+    "station_name": "木下",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線我孫子支線",
+    "lat": 35.838817,
+    "lon": 140.147954
+  },
+  {
+    "station_id": "chiba_0001",
+    "station_name": "木更津",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.381668,
+    "lon": 139.92611
+  },
+  {
+    "station_id": "chiba_0145",
+    "station_name": "本八幡",
+    "prefecture": "千葉県",
+    "line_name": "JR総武線",
+    "lat": 35.720898,
+    "lon": 139.92741
+  },
+  {
+    "station_id": "chiba_0029",
+    "station_name": "本千葉",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.601202,
+    "lon": 140.120987
+  },
+  {
+    "station_id": "chiba_0063",
+    "station_name": "本納",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.48227,
+    "lon": 140.30758
+  },
+  {
+    "station_id": "chiba_0344",
+    "station_name": "本銚子",
+    "prefecture": "千葉県",
+    "line_name": "銚子電鉄線",
+    "lat": 35.731055,
+    "lon": 140.847844
+  },
+  {
+    "station_id": "chiba_0331",
+    "station_name": "村上(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "東葉高速鉄道",
+    "lat": 35.72371,
+    "lon": 140.118375
+  },
+  {
+    "station_id": "chiba_0199",
+    "station_name": "東中山",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.714385,
+    "lon": 139.952683
+  },
+  {
+    "station_id": "chiba_0177",
+    "station_name": "東京ディズニーシー・ステーション",
+    "prefecture": "千葉県",
+    "line_name": "ディズニーリゾートライン",
+    "lat": 35.627359,
+    "lon": 139.889502
+  },
+  {
+    "station_id": "chiba_0175",
+    "station_name": "東京ディズニーランド・ステーション",
+    "prefecture": "千葉県",
+    "line_name": "ディズニーリゾートライン",
+    "lat": 35.63595,
+    "lon": 139.878657
+  },
+  {
+    "station_id": "chiba_0126",
+    "station_name": "東千葉",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.617014,
+    "lon": 140.122261
+  },
+  {
+    "station_id": "chiba_0339",
+    "station_name": "東成田",
+    "prefecture": "千葉県",
+    "line_name": "芝山鉄道線",
+    "lat": 35.770091,
+    "lon": 140.387225
+  },
+  {
+    "station_id": "chiba_0116",
+    "station_name": "東我孫子",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線我孫子支線",
+    "lat": 35.868945,
+    "lon": 140.047754
+  },
+  {
+    "station_id": "chiba_0123",
+    "station_name": "東松戸",
+    "prefecture": "千葉県",
+    "line_name": "JR武蔵野線",
+    "lat": 35.770611,
+    "lon": 139.943848
+  },
+  {
+    "station_id": "chiba_0006",
+    "station_name": "東横田",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.386185,
+    "lon": 140.035995
+  },
+  {
+    "station_id": "chiba_0068",
+    "station_name": "東浪見",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.34669,
+    "lon": 140.376706
+  },
+  {
+    "station_id": "chiba_0325",
+    "station_name": "東海神",
+    "prefecture": "千葉県",
+    "line_name": "東葉高速鉄道",
+    "lat": 35.705888,
+    "lon": 139.980343
+  },
+  {
+    "station_id": "chiba_0004",
+    "station_name": "東清川",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.390017,
+    "lon": 139.985847
+  },
+  {
+    "station_id": "chiba_0164",
+    "station_name": "東総元",
+    "prefecture": "千葉県",
+    "line_name": "いすみ鉄道",
+    "lat": 35.259314,
+    "lon": 140.247381
+  },
+  {
+    "station_id": "chiba_0148",
+    "station_name": "東船橋",
+    "prefecture": "千葉県",
+    "line_name": "JR総武線",
+    "lat": 35.699811,
+    "lon": 140.00393
+  },
+  {
+    "station_id": "chiba_0332",
+    "station_name": "東葉勝田台",
+    "prefecture": "千葉県",
+    "line_name": "東葉高速鉄道",
+    "lat": 35.715458,
+    "lon": 140.126075
+  },
+  {
+    "station_id": "chiba_0118",
+    "station_name": "東金",
+    "prefecture": "千葉県",
+    "line_name": "JR東金線",
+    "lat": 35.560172,
+    "lon": 140.363743
+  },
+  {
+    "station_id": "chiba_0134",
+    "station_name": "松尾",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.63604,
+    "lon": 140.457587
+  },
+  {
+    "station_id": "chiba_0108",
+    "station_name": "松岸",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.739386,
+    "lon": 140.795143
+  },
+  {
+    "station_id": "chiba_0081",
+    "station_name": "松戸",
+    "prefecture": "千葉県",
+    "line_name": "JR常磐線各駅停車",
+    "lat": 35.784472,
+    "lon": 139.900779
+  },
+  {
+    "station_id": "chiba_0276",
+    "station_name": "松戸新田",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.790652,
+    "lon": 139.922833
+  },
+  {
+    "station_id": "chiba_0229",
+    "station_name": "松飛台",
+    "prefecture": "千葉県",
+    "line_name": "北総鉄道",
+    "lat": 35.775377,
+    "lon": 139.957739
+  },
+  {
+    "station_id": "chiba_0087",
+    "station_name": "柏",
+    "prefecture": "千葉県",
+    "line_name": "JR常磐線各駅停車",
+    "lat": 35.862316,
+    "lon": 139.971148
+  },
+  {
+    "station_id": "chiba_0173",
+    "station_name": "柏たなか",
+    "prefecture": "千葉県",
+    "line_name": "つくばエクスプレス線",
+    "lat": 35.9109,
+    "lon": 139.957533
+  },
+  {
+    "station_id": "chiba_0172",
+    "station_name": "柏の葉キャンパス",
+    "prefecture": "千葉県",
+    "line_name": "つくばエクスプレス線",
+    "lat": 35.89308,
+    "lon": 139.952454
+  },
+  {
+    "station_id": "chiba_0238",
+    "station_name": "栄町(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール1号線",
+    "lat": 35.612822,
+    "lon": 140.118592
+  },
+  {
+    "station_id": "chiba_0249",
+    "station_name": "桜木(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール2号線",
+    "lat": 35.631308,
+    "lon": 140.160935
+  },
+  {
+    "station_id": "chiba_0308",
+    "station_name": "梅郷",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.931575,
+    "lon": 139.891086
+  },
+  {
+    "station_id": "chiba_0107",
+    "station_name": "椎柴",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.765204,
+    "lon": 140.758875
+  },
+  {
+    "station_id": "chiba_0187",
+    "station_name": "検見川",
+    "prefecture": "千葉県",
+    "line_name": "京成千葉線",
+    "lat": 35.652512,
+    "lon": 140.066656
+  },
+  {
+    "station_id": "chiba_0024",
+    "station_name": "検見川浜",
+    "prefecture": "千葉県",
+    "line_name": "JR京葉線",
+    "lat": 35.637291,
+    "lon": 140.058888
+  },
+  {
+    "station_id": "chiba_0131",
+    "station_name": "榎戸",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.683967,
+    "lon": 140.288136
+  },
+  {
+    "station_id": "chiba_0005",
+    "station_name": "横田",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.386207,
+    "lon": 140.020138
+  },
+  {
+    "station_id": "chiba_0135",
+    "station_name": "横芝",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.661739,
+    "lon": 140.490736
+  },
+  {
+    "station_id": "chiba_0102",
+    "station_name": "水郷",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.885508,
+    "lon": 140.570181
+  },
+  {
+    "station_id": "chiba_0062",
+    "station_name": "永田",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.503129,
+    "lon": 140.311162
+  },
+  {
+    "station_id": "chiba_0119",
+    "station_name": "求名",
+    "prefecture": "千葉県",
+    "line_name": "JR東金線",
+    "lat": 35.579947,
+    "lon": 140.39626
+  },
+  {
+    "station_id": "chiba_0310",
+    "station_name": "江戸川台",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.897344,
+    "lon": 139.91045
+  },
+  {
+    "station_id": "chiba_0055",
+    "station_name": "江見",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.062513,
+    "lon": 140.061026
+  },
+  {
+    "station_id": "chiba_0149",
+    "station_name": "津田沼",
+    "prefecture": "千葉県",
+    "line_name": "JR総武線",
+    "lat": 35.691367,
+    "lon": 140.020179
+  },
+  {
+    "station_id": "chiba_0338",
+    "station_name": "流山",
+    "prefecture": "千葉県",
+    "line_name": "流鉄流山線",
+    "lat": 35.855771,
+    "lon": 139.901766
+  },
+  {
+    "station_id": "chiba_0171",
+    "station_name": "流山おおたかの森",
+    "prefecture": "千葉県",
+    "line_name": "つくばエクスプレス線",
+    "lat": 35.871799,
+    "lon": 139.925044
+  },
+  {
+    "station_id": "chiba_0170",
+    "station_name": "流山セントラルパーク",
+    "prefecture": "千葉県",
+    "line_name": "つくばエクスプレス線",
+    "lat": 35.854552,
+    "lon": 139.915223
+  },
+  {
+    "station_id": "chiba_0030",
+    "station_name": "浜野",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.551876,
+    "lon": 140.132089
+  },
+  {
+    "station_id": "chiba_0043",
+    "station_name": "浜金谷",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.168215,
+    "lon": 139.822141
+  },
+  {
+    "station_id": "chiba_0297",
+    "station_name": "浦安(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "東京メトロ東西線",
+    "lat": 35.665932,
+    "lon": 139.893193
+  },
+  {
+    "station_id": "chiba_0073",
+    "station_name": "浪花",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.222674,
+    "lon": 140.379428
+  },
+  {
+    "station_id": "chiba_0254",
+    "station_name": "海士有木",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.481729,
+    "lon": 140.124264
+  },
+  {
+    "station_id": "chiba_0023",
+    "station_name": "海浜幕張",
+    "prefecture": "千葉県",
+    "line_name": "JR京葉線",
+    "lat": 35.648373,
+    "lon": 140.041917
+  },
+  {
+    "station_id": "chiba_0201",
+    "station_name": "海神",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.705888,
+    "lon": 139.971888
+  },
+  {
+    "station_id": "chiba_0347",
+    "station_name": "海鹿島",
+    "prefecture": "千葉県",
+    "line_name": "銚子電鉄線",
+    "lat": 35.722089,
+    "lon": 140.863096
+  },
+  {
+    "station_id": "chiba_0305",
+    "station_name": "清水公園",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.959364,
+    "lon": 139.85967
+  },
+  {
+    "station_id": "chiba_0115",
+    "station_name": "湖北",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線我孫子支線",
+    "lat": 35.867165,
+    "lon": 140.077959
+  },
+  {
+    "station_id": "chiba_0097",
+    "station_name": "滑河",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.877079,
+    "lon": 140.347871
+  },
+  {
+    "station_id": "chiba_0289",
+    "station_name": "滝不動",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.737957,
+    "lon": 140.02622
+  },
+  {
+    "station_id": "chiba_0129",
+    "station_name": "物井",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.68566,
+    "lon": 140.200263
+  },
+  {
+    "station_id": "chiba_0349",
+    "station_name": "犬吠",
+    "prefecture": "千葉県",
+    "line_name": "銚子電鉄線",
+    "lat": 35.706258,
+    "lon": 140.860935
+  },
+  {
+    "station_id": "chiba_0142",
+    "station_name": "猿田",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.747383,
+    "lon": 140.7374
+  },
+  {
+    "station_id": "chiba_0232",
+    "station_name": "白井",
+    "prefecture": "千葉県",
+    "line_name": "北総鉄道",
+    "lat": 35.784723,
+    "lon": 140.0541
+  },
+  {
+    "station_id": "chiba_0240",
+    "station_name": "県庁前(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール1号線",
+    "lat": 35.603958,
+    "lon": 140.12222
+  },
+  {
+    "station_id": "chiba_0226",
+    "station_name": "矢切",
+    "prefecture": "千葉県",
+    "line_name": "北総鉄道",
+    "lat": 35.757503,
+    "lon": 139.899742
+  },
+  {
+    "station_id": "chiba_0002",
+    "station_name": "祇園",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.391528,
+    "lon": 139.948111
+  },
+  {
+    "station_id": "chiba_0117",
+    "station_name": "福俵",
+    "prefecture": "千葉県",
+    "line_name": "JR東金線",
+    "lat": 35.54617,
+    "lon": 140.341904
+  },
+  {
+    "station_id": "chiba_0228",
+    "station_name": "秋山",
+    "prefecture": "千葉県",
+    "line_name": "北総鉄道",
+    "lat": 35.765299,
+    "lon": 139.930723
+  },
+  {
+    "station_id": "chiba_0153",
+    "station_name": "稲毛",
+    "prefecture": "千葉県",
+    "line_name": "JR総武線",
+    "lat": 35.637264,
+    "lon": 140.09256
+  },
+  {
+    "station_id": "chiba_0025",
+    "station_name": "稲毛海岸",
+    "prefecture": "千葉県",
+    "line_name": "JR京葉線",
+    "lat": 35.629501,
+    "lon": 140.074034
+  },
+  {
+    "station_id": "chiba_0244",
+    "station_name": "穴川(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール2号線",
+    "lat": 35.639645,
+    "lon": 140.111849
+  },
+  {
+    "station_id": "chiba_0094",
+    "station_name": "空港第2ビル",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.773327,
+    "lon": 140.387871
+  },
+  {
+    "station_id": "chiba_0042",
+    "station_name": "竹岡",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.197582,
+    "lon": 139.830159
+  },
+  {
+    "station_id": "chiba_0345",
+    "station_name": "笠上黒生",
+    "prefecture": "千葉県",
+    "line_name": "銚子電鉄線",
+    "lat": 35.728427,
+    "lon": 140.856893
+  },
+  {
+    "station_id": "chiba_0104",
+    "station_name": "笹川",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.839753,
+    "lon": 140.655716
+  },
+  {
+    "station_id": "chiba_0166",
+    "station_name": "総元",
+    "prefecture": "千葉県",
+    "line_name": "いすみ鉄道",
+    "lat": 35.240588,
+    "lon": 140.240413
+  },
+  {
+    "station_id": "chiba_0293",
+    "station_name": "習志野",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.715293,
+    "lon": 140.042787
+  },
+  {
+    "station_id": "chiba_0015",
+    "station_name": "舞浜",
+    "prefecture": "千葉県",
+    "line_name": "JR京葉線",
+    "lat": 35.636115,
+    "lon": 139.883714
+  },
+  {
+    "station_id": "chiba_0147",
+    "station_name": "船橋",
+    "prefecture": "千葉県",
+    "line_name": "JR総武線",
+    "lat": 35.701865,
+    "lon": 139.984707
+  },
+  {
+    "station_id": "chiba_0328",
+    "station_name": "船橋日大前",
+    "prefecture": "千葉県",
+    "line_name": "東葉高速鉄道",
+    "lat": 35.726931,
+    "lon": 140.058962
+  },
+  {
+    "station_id": "chiba_0125",
+    "station_name": "船橋法典",
+    "prefecture": "千葉県",
+    "line_name": "JR武蔵野線",
+    "lat": 35.730435,
+    "lon": 139.966771
+  },
+  {
+    "station_id": "chiba_0204",
+    "station_name": "船橋競馬場",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.689606,
+    "lon": 139.997998
+  },
+  {
+    "station_id": "chiba_0340",
+    "station_name": "芝山千代田",
+    "prefecture": "千葉県",
+    "line_name": "芝山鉄道線",
+    "lat": 35.754248,
+    "lon": 140.399215
+  },
+  {
+    "station_id": "chiba_0065",
+    "station_name": "茂原",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.426733,
+    "lon": 140.304121
+  },
+  {
+    "station_id": "chiba_0195",
+    "station_name": "菅野",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.728272,
+    "lon": 139.919413
+  },
+  {
+    "station_id": "chiba_0239",
+    "station_name": "葭川公園",
+    "prefecture": "千葉県",
+    "line_name": "千葉都市モノレール1号線",
+    "lat": 35.608551,
+    "lon": 140.120142
+  },
+  {
+    "station_id": "chiba_0294",
+    "station_name": "薬園台",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.710271,
+    "lon": 140.037599
+  },
+  {
+    "station_id": "chiba_0027",
+    "station_name": "蘇我",
+    "prefecture": "千葉県",
+    "line_name": "JR京葉線",
+    "lat": 35.582065,
+    "lon": 140.130767
+  },
+  {
+    "station_id": "chiba_0078",
+    "station_name": "行川アイランド",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.11832,
+    "lon": 140.226962
+  },
+  {
+    "station_id": "chiba_0299",
+    "station_name": "行徳",
+    "prefecture": "千葉県",
+    "line_name": "東京メトロ東西線",
+    "lat": 35.682686,
+    "lon": 139.914254
+  },
+  {
+    "station_id": "chiba_0035",
+    "station_name": "袖ケ浦",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.431997,
+    "lon": 139.95788
+  },
+  {
+    "station_id": "chiba_0154",
+    "station_name": "西千葉",
+    "prefecture": "千葉県",
+    "line_name": "JR総武線",
+    "lat": 35.622639,
+    "lon": 140.103337
+  },
+  {
+    "station_id": "chiba_0156",
+    "station_name": "西大原",
+    "prefecture": "千葉県",
+    "line_name": "いすみ鉄道",
+    "lat": 35.260407,
+    "lon": 140.378029
+  },
+  {
+    "station_id": "chiba_0346",
+    "station_name": "西海鹿島",
+    "prefecture": "千葉県",
+    "line_name": "銚子電鉄線",
+    "lat": 35.725131,
+    "lon": 140.860207
+  },
+  {
+    "station_id": "chiba_0167",
+    "station_name": "西畑",
+    "prefecture": "千葉県",
+    "line_name": "いすみ鉄道",
+    "lat": 35.25051,
+    "lon": 140.215176
+  },
+  {
+    "station_id": "chiba_0190",
+    "station_name": "西登戸",
+    "prefecture": "千葉県",
+    "line_name": "京成千葉線",
+    "lat": 35.617615,
+    "lon": 140.102801
+  },
+  {
+    "station_id": "chiba_0231",
+    "station_name": "西白井",
+    "prefecture": "千葉県",
+    "line_name": "北総鉄道",
+    "lat": 35.784364,
+    "lon": 140.031545
+  },
+  {
+    "station_id": "chiba_0018",
+    "station_name": "西船橋",
+    "prefecture": "千葉県",
+    "line_name": "JR京葉線",
+    "lat": 35.707283,
+    "lon": 139.959536
+  },
+  {
+    "station_id": "chiba_0343",
+    "station_name": "観音",
+    "prefecture": "千葉県",
+    "line_name": "銚子電鉄線",
+    "lat": 35.728952,
+    "lon": 140.840112
+  },
+  {
+    "station_id": "chiba_0059",
+    "station_name": "誉田",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.546996,
+    "lon": 140.213748
+  },
+  {
+    "station_id": "chiba_0205",
+    "station_name": "谷津",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.685257,
+    "lon": 140.007658
+  },
+  {
+    "station_id": "chiba_0313",
+    "station_name": "豊四季",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.86657,
+    "lon": 139.93929
+  },
+  {
+    "station_id": "chiba_0316",
+    "station_name": "逆井",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.823336,
+    "lon": 139.983812
+  },
+  {
+    "station_id": "chiba_0309",
+    "station_name": "運河",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.914392,
+    "lon": 139.906063
+  },
+  {
+    "station_id": "chiba_0048",
+    "station_name": "那古船形",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.028987,
+    "lon": 139.851388
+  },
+  {
+    "station_id": "chiba_0127",
+    "station_name": "都賀",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.636088,
+    "lon": 140.149222
+  },
+  {
+    "station_id": "chiba_0092",
+    "station_name": "酒々井",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.731737,
+    "lon": 140.275271
+  },
+  {
+    "station_id": "chiba_0264",
+    "station_name": "里見",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.336685,
+    "lon": 140.145505
+  },
+  {
+    "station_id": "chiba_0307",
+    "station_name": "野田市",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.943652,
+    "lon": 139.870728
+  },
+  {
+    "station_id": "chiba_0143",
+    "station_name": "銚子",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.729449,
+    "lon": 140.827557
+  },
+  {
+    "station_id": "chiba_0320",
+    "station_name": "鎌ケ谷",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.763765,
+    "lon": 139.997266
+  },
+  {
+    "station_id": "chiba_0286",
+    "station_name": "鎌ケ谷大仏",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.757827,
+    "lon": 140.013823
+  },
+  {
+    "station_id": "chiba_0058",
+    "station_name": "鎌取",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.562795,
+    "lon": 140.178583
+  },
+  {
+    "station_id": "chiba_0034",
+    "station_name": "長浦(千葉)",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.450234,
+    "lon": 139.995478
+  },
+  {
+    "station_id": "chiba_0070",
+    "station_name": "長者町",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.295839,
+    "lon": 140.385021
+  },
+  {
+    "station_id": "chiba_0038",
+    "station_name": "青堀",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 35.330304,
+    "lon": 139.858189
+  },
+  {
+    "station_id": "chiba_0136",
+    "station_name": "飯倉",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.685638,
+    "lon": 140.522328
+  },
+  {
+    "station_id": "chiba_0326",
+    "station_name": "飯山満",
+    "prefecture": "千葉県",
+    "line_name": "東葉高速鉄道",
+    "lat": 35.71407,
+    "lon": 140.0223
+  },
+  {
+    "station_id": "chiba_0140",
+    "station_name": "飯岡",
+    "prefecture": "千葉県",
+    "line_name": "JR総武本線",
+    "lat": 35.729339,
+    "lon": 140.683896
+  },
+  {
+    "station_id": "chiba_0265",
+    "station_name": "飯給",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.320512,
+    "lon": 140.142358
+  },
+  {
+    "station_id": "chiba_0268",
+    "station_name": "養老渓谷",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.266409,
+    "lon": 140.159382
+  },
+  {
+    "station_id": "chiba_0049",
+    "station_name": "館山",
+    "prefecture": "千葉県",
+    "line_name": "JR内房線",
+    "lat": 34.9959,
+    "lon": 139.861888
+  },
+  {
+    "station_id": "chiba_0101",
+    "station_name": "香取",
+    "prefecture": "千葉県",
+    "line_name": "JR成田線",
+    "lat": 35.897856,
+    "lon": 140.532367
+  },
+  {
+    "station_id": "chiba_0007",
+    "station_name": "馬来田",
+    "prefecture": "千葉県",
+    "line_name": "JR久留里線",
+    "lat": 35.36681,
+    "lon": 140.058485
+  },
+  {
+    "station_id": "chiba_0083",
+    "station_name": "馬橋",
+    "prefecture": "千葉県",
+    "line_name": "JR常磐線各駅停車",
+    "lat": 35.811683,
+    "lon": 139.917305
+  },
+  {
+    "station_id": "chiba_0258",
+    "station_name": "馬立",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.423795,
+    "lon": 140.114719
+  },
+  {
+    "station_id": "chiba_0321",
+    "station_name": "馬込沢",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.741586,
+    "lon": 139.992199
+  },
+  {
+    "station_id": "chiba_0317",
+    "station_name": "高柳",
+    "prefecture": "千葉県",
+    "line_name": "東武野田線",
+    "lat": 35.808211,
+    "lon": 139.998936
+  },
+  {
+    "station_id": "chiba_0290",
+    "station_name": "高根公団",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.730436,
+    "lon": 140.029382
+  },
+  {
+    "station_id": "chiba_0291",
+    "station_name": "高根木戸",
+    "prefecture": "千葉県",
+    "line_name": "京成松戸線",
+    "lat": 35.726625,
+    "lon": 140.034923
+  },
+  {
+    "station_id": "chiba_0263",
+    "station_name": "高滝",
+    "prefecture": "千葉県",
+    "line_name": "小湊鉄道",
+    "lat": 35.353074,
+    "lon": 140.150246
+  },
+  {
+    "station_id": "chiba_0197",
+    "station_name": "鬼越",
+    "prefecture": "千葉県",
+    "line_name": "京成本線",
+    "lat": 35.719776,
+    "lon": 139.937932
+  },
+  {
+    "station_id": "chiba_0336",
+    "station_name": "鰭ケ崎",
+    "prefecture": "千葉県",
+    "line_name": "流鉄流山線",
+    "lat": 35.840948,
+    "lon": 139.911121
+  },
+  {
+    "station_id": "chiba_0076",
+    "station_name": "鵜原",
+    "prefecture": "千葉県",
+    "line_name": "JR外房線",
+    "lat": 35.140828,
+    "lon": 140.278446
+  }
+]
