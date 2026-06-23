@@ -82,6 +82,7 @@ cd training
 
 - `frontend/public/stations/{region}_stations.json` の件数が空でないこと。
 - 東京、埼玉、千葉、神奈川の県境をまたいでも最寄駅と駅徒歩が更新されること。
+- 駅徒歩は距離kmではなく徒歩分で扱う。80m=1分、直線距離補正1.25、切り上げで算出する。
 - `cd frontend && npm run build` が通ること。
 
 ## 検証

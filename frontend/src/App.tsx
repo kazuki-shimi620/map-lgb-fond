@@ -5,7 +5,7 @@ import { PriceHistoryChart } from "./features/prediction/PriceHistoryChart";
 import { PredictionForm } from "./features/prediction/PredictionForm";
 import { PredictionResultView } from "./features/prediction/PredictionResultView";
 import { reverseGeocode } from "./services/geocodingService";
-import { findNearestStation, loadStations } from "./services/stationService";
+import { distanceKmToWalkingMinutes, findNearestStation, loadStations } from "./services/stationService";
 import type { ModelMetadata, PriceHistoryPoint, StationRecord } from "./types/assets";
 import type { PredictionFormState, PredictionResult, SupportedRegion } from "./types/prediction";
 import { fetchJson } from "./services/http";
@@ -120,7 +120,7 @@ export function App() {
         prefecture: nextPrefecture || current.prefecture,
         municipality: geocode.municipality || current.municipality,
         station: nearest?.station.station_name ?? current.station,
-        stationDistance: nearest ? Math.round(nearest.distanceKm * 10) / 10 : current.stationDistance,
+        stationDistance: nearest ? distanceKmToWalkingMinutes(nearest.distanceKm) : current.stationDistance,
         lat,
         lon
       }));

@@ -3,6 +3,8 @@ import { haversineKm } from "../utils/distance";
 import { fetchJson } from "./http";
 
 const stationCache = new Map<string, Promise<StationRecord[]>>();
+const WALKING_DISTANCE_METERS_PER_MINUTE = 80;
+const ROUTE_DISTANCE_FACTOR = 1.25;
 
 export async function loadStations(region: string): Promise<StationRecord[]> {
   const cached = stationCache.get(region);
@@ -30,4 +32,9 @@ export function findNearestStation(
   }
 
   return nearest;
+}
+
+export function distanceKmToWalkingMinutes(distanceKm: number): number {
+  const routeDistanceMeters = distanceKm * 1000 * ROUTE_DISTANCE_FACTOR;
+  return Math.max(1, Math.ceil(routeDistanceMeters / WALKING_DISTANCE_METERS_PER_MINUTE));
 }
