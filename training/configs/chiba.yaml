@@ -1,0 +1,24 @@
+region: chiba
+target: price
+latest_training_year: 2025
+train_start_year: 2020
+test_year: 2025
+processed_path: data/processed/chiba.parquet
+output_dir: outputs/models
+frontend_public_dir: ../frontend/public
+features:
+  - area
+  - age
+  - station_distance
+  - prefecture
+  - municipality
+  - station
+  - room_layout
+  - building_type
+  - transaction_year
+categorical_features:
+  - prefecture
+  - municipality
+  - station
+  - room_layout
+  - building_type

@@ -1,0 +1,26 @@
+[
+  {
+    "station_id": "tokyo_001",
+    "station_name": "東京",
+    "prefecture": "東京都",
+    "line_name": "JR山手線",
+    "lat": 35.681236,
+    "lon": 139.767125
+  },
+  {
+    "station_id": "tokyo_002",
+    "station_name": "新宿",
+    "prefecture": "東京都",
+    "line_name": "JR山手線",
+    "lat": 35.689592,
+    "lon": 139.700413
+  },
+  {
+    "station_id": "tokyo_003",
+    "station_name": "渋谷",
+    "prefecture": "東京都",
+    "line_name": "JR山手線",
+    "lat": 35.658034,
+    "lon": 139.701636
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "region": "kanagawa",
+  "modelName": "kanagawa_latest",
+  "mae": 5570806.435084475,
+  "latestTrainingYear": 2025,
+  "featureOrder": [
+    "area",
+    "age",
+    "station_distance",
+    "prefecture",
+    "municipality",
+    "station",
+    "room_layout",
+    "building_type",
+    "transaction_year"
+  ]
+}

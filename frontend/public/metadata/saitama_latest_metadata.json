@@ -1,0 +1,17 @@
+{
+  "region": "saitama",
+  "modelName": "saitama_latest",
+  "mae": 4265487.9638189655,
+  "latestTrainingYear": 2025,
+  "featureOrder": [
+    "area",
+    "age",
+    "station_distance",
+    "prefecture",
+    "municipality",
+    "station",
+    "room_layout",
+    "building_type",
+    "transaction_year"
+  ]
+}

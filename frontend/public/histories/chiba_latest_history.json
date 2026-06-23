@@ -1,0 +1,5782 @@
+[
+  {
+    "station": "おゆみ野",
+    "year": 2020,
+    "avg_price": 19750000.0
+  },
+  {
+    "station": "おゆみ野",
+    "year": 2021,
+    "avg_price": 20666666.666666668
+  },
+  {
+    "station": "おゆみ野",
+    "year": 2022,
+    "avg_price": 21812500.0
+  },
+  {
+    "station": "おゆみ野",
+    "year": 2023,
+    "avg_price": 21636363.636363637
+  },
+  {
+    "station": "おゆみ野",
+    "year": 2024,
+    "avg_price": 25285714.285714287
+  },
+  {
+    "station": "おゆみ野",
+    "year": 2025,
+    "avg_price": 21400000.0
+  },
+  {
+    "station": "くぬぎ山",
+    "year": 2020,
+    "avg_price": 25000000.0
+  },
+  {
+    "station": "くぬぎ山",
+    "year": 2021,
+    "avg_price": 7100000.0
+  },
+  {
+    "station": "くぬぎ山",
+    "year": 2022,
+    "avg_price": 21909090.90909091
+  },
+  {
+    "station": "くぬぎ山",
+    "year": 2023,
+    "avg_price": 21000000.0
+  },
+  {
+    "station": "くぬぎ山",
+    "year": 2024,
+    "avg_price": 22050000.0
+  },
+  {
+    "station": "くぬぎ山",
+    "year": 2025,
+    "avg_price": 20600000.0
+  },
+  {
+    "station": "ちはら台",
+    "year": 2020,
+    "avg_price": 21200000.0
+  },
+  {
+    "station": "ちはら台",
+    "year": 2021,
+    "avg_price": 17666666.666666668
+  },
+  {
+    "station": "ちはら台",
+    "year": 2022,
+    "avg_price": 23282926.82926829
+  },
+  {
+    "station": "ちはら台",
+    "year": 2023,
+    "avg_price": 23142857.14285714
+  },
+  {
+    "station": "ちはら台",
+    "year": 2024,
+    "avg_price": 22511363.636363637
+  },
+  {
+    "station": "ちはら台",
+    "year": 2025,
+    "avg_price": 22641025.64102564
+  },
+  {
+    "station": "みつわ台",
+    "year": 2020,
+    "avg_price": 6566666.666666667
+  },
+  {
+    "station": "みつわ台",
+    "year": 2021,
+    "avg_price": 6003846.153846154
+  },
+  {
+    "station": "みつわ台",
+    "year": 2022,
+    "avg_price": 6300000.0
+  },
+  {
+    "station": "みつわ台",
+    "year": 2023,
+    "avg_price": 6417391.304347826
+  },
+  {
+    "station": "みつわ台",
+    "year": 2024,
+    "avg_price": 5693103.448275862
+  },
+  {
+    "station": "みつわ台",
+    "year": 2025,
+    "avg_price": 6248780.4878048785
+  },
+  {
+    "station": "みどり台",
+    "year": 2020,
+    "avg_price": 23000000.0
+  },
+  {
+    "station": "みどり台",
+    "year": 2021,
+    "avg_price": 13776923.076923076
+  },
+  {
+    "station": "みどり台",
+    "year": 2022,
+    "avg_price": 17069230.769230768
+  },
+  {
+    "station": "みどり台",
+    "year": 2023,
+    "avg_price": 9712500.0
+  },
+  {
+    "station": "みどり台",
+    "year": 2024,
+    "avg_price": 15645833.333333334
+  },
+  {
+    "station": "みどり台",
+    "year": 2025,
+    "avg_price": 15873684.210526315
+  },
+  {
+    "station": "みのり台",
+    "year": 2020,
+    "avg_price": 22250000.0
+  },
+  {
+    "station": "みのり台",
+    "year": 2021,
+    "avg_price": 17125000.0
+  },
+  {
+    "station": "みのり台",
+    "year": 2022,
+    "avg_price": 20842105.263157893
+  },
+  {
+    "station": "みのり台",
+    "year": 2023,
+    "avg_price": 19333333.333333332
+  },
+  {
+    "station": "みのり台",
+    "year": 2024,
+    "avg_price": 16941176.470588237
+  },
+  {
+    "station": "みのり台",
+    "year": 2025,
+    "avg_price": 20470588.23529412
+  },
+  {
+    "station": "スポーツセンター",
+    "year": 2020,
+    "avg_price": 11375000.0
+  },
+  {
+    "station": "スポーツセンター",
+    "year": 2021,
+    "avg_price": 15857142.857142856
+  },
+  {
+    "station": "スポーツセンター",
+    "year": 2022,
+    "avg_price": 11466666.666666666
+  },
+  {
+    "station": "スポーツセンター",
+    "year": 2023,
+    "avg_price": 18500000.0
+  },
+  {
+    "station": "スポーツセンター",
+    "year": 2024,
+    "avg_price": 9700000.0
+  },
+  {
+    "station": "スポーツセンター",
+    "year": 2025,
+    "avg_price": 12788888.888888888
+  },
+  {
+    "station": "ユーカリが丘",
+    "year": 2020,
+    "avg_price": 24900000.0
+  },
+  {
+    "station": "ユーカリが丘",
+    "year": 2021,
+    "avg_price": 28182692.307692308
+  },
+  {
+    "station": "ユーカリが丘",
+    "year": 2022,
+    "avg_price": 26530612.244897958
+  },
+  {
+    "station": "ユーカリが丘",
+    "year": 2023,
+    "avg_price": 21226315.789473683
+  },
+  {
+    "station": "ユーカリが丘",
+    "year": 2024,
+    "avg_price": 26150000.0
+  },
+  {
+    "station": "ユーカリが丘",
+    "year": 2025,
+    "avg_price": 30421052.63157895
+  },
+  {
+    "station": "一之江",
+    "year": 2021,
+    "avg_price": 35000000.0
+  },
+  {
+    "station": "一之江",
+    "year": 2023,
+    "avg_price": 37000000.0
+  },
+  {
+    "station": "一之江",
+    "year": 2024,
+    "avg_price": 39333333.333333336
+  },
+  {
+    "station": "七光台",
+    "year": 2020,
+    "avg_price": 7200000.0
+  },
+  {
+    "station": "七光台",
+    "year": 2021,
+    "avg_price": 7100000.0
+  },
+  {
+    "station": "七光台",
+    "year": 2022,
+    "avg_price": 12000000.0
+  },
+  {
+    "station": "七光台",
+    "year": 2023,
+    "avg_price": 10000000.0
+  },
+  {
+    "station": "七光台",
+    "year": 2024,
+    "avg_price": 10000000.0
+  },
+  {
+    "station": "七光台",
+    "year": 2025,
+    "avg_price": 12333333.333333334
+  },
+  {
+    "station": "三咲",
+    "year": 2020,
+    "avg_price": 4000000.0
+  },
+  {
+    "station": "三咲",
+    "year": 2021,
+    "avg_price": 11300000.0
+  },
+  {
+    "station": "三咲",
+    "year": 2022,
+    "avg_price": 10400000.0
+  },
+  {
+    "station": "三咲",
+    "year": 2023,
+    "avg_price": 13500000.0
+  },
+  {
+    "station": "三咲",
+    "year": 2024,
+    "avg_price": 14100000.0
+  },
+  {
+    "station": "三咲",
+    "year": 2025,
+    "avg_price": 9675000.0
+  },
+  {
+    "station": "上本郷",
+    "year": 2020,
+    "avg_price": 17000000.0
+  },
+  {
+    "station": "上本郷",
+    "year": 2021,
+    "avg_price": 17784210.52631579
+  },
+  {
+    "station": "上本郷",
+    "year": 2022,
+    "avg_price": 18793333.333333332
+  },
+  {
+    "station": "上本郷",
+    "year": 2023,
+    "avg_price": 18164285.714285713
+  },
+  {
+    "station": "上本郷",
+    "year": 2024,
+    "avg_price": 23018750.0
+  },
+  {
+    "station": "上本郷",
+    "year": 2025,
+    "avg_price": 19169565.217391305
+  },
+  {
+    "station": "上総一ノ宮",
+    "year": 2022,
+    "avg_price": 8600000.0
+  },
+  {
+    "station": "上総一ノ宮",
+    "year": 2024,
+    "avg_price": 3600000.0
+  },
+  {
+    "station": "上総一ノ宮",
+    "year": 2025,
+    "avg_price": 8200000.0
+  },
+  {
+    "station": "下総中山",
+    "year": 2020,
+    "avg_price": 30933333.333333332
+  },
+  {
+    "station": "下総中山",
+    "year": 2021,
+    "avg_price": 31381967.213114753
+  },
+  {
+    "station": "下総中山",
+    "year": 2022,
+    "avg_price": 33831343.28358209
+  },
+  {
+    "station": "下総中山",
+    "year": 2023,
+    "avg_price": 33854285.71428572
+  },
+  {
+    "station": "下総中山",
+    "year": 2024,
+    "avg_price": 35397727.27272727
+  },
+  {
+    "station": "下総中山",
+    "year": 2025,
+    "avg_price": 31980434.782608695
+  },
+  {
+    "station": "中学校",
+    "year": 2020,
+    "avg_price": 22000000.0
+  },
+  {
+    "station": "中学校",
+    "year": 2021,
+    "avg_price": 18600000.0
+  },
+  {
+    "station": "中学校",
+    "year": 2022,
+    "avg_price": 21000000.0
+  },
+  {
+    "station": "中学校",
+    "year": 2023,
+    "avg_price": 18222222.222222224
+  },
+  {
+    "station": "中学校",
+    "year": 2024,
+    "avg_price": 21307692.307692308
+  },
+  {
+    "station": "中学校",
+    "year": 2025,
+    "avg_price": 23000000.0
+  },
+  {
+    "station": "九重",
+    "year": 2025,
+    "avg_price": 6000000.0
+  },
+  {
+    "station": "二和向台",
+    "year": 2021,
+    "avg_price": 11888888.888888888
+  },
+  {
+    "station": "二和向台",
+    "year": 2022,
+    "avg_price": 14560000.0
+  },
+  {
+    "station": "二和向台",
+    "year": 2023,
+    "avg_price": 16185714.285714285
+  },
+  {
+    "station": "二和向台",
+    "year": 2025,
+    "avg_price": 17233333.333333332
+  },
+  {
+    "station": "五井",
+    "year": 2020,
+    "avg_price": 9590000.0
+  },
+  {
+    "station": "五井",
+    "year": 2021,
+    "avg_price": 12095652.173913043
+  },
+  {
+    "station": "五井",
+    "year": 2022,
+    "avg_price": 16668421.05263158
+  },
+  {
+    "station": "五井",
+    "year": 2023,
+    "avg_price": 15237500.0
+  },
+  {
+    "station": "五井",
+    "year": 2024,
+    "avg_price": 14717647.05882353
+  },
+  {
+    "station": "五井",
+    "year": 2025,
+    "avg_price": 13336363.636363637
+  },
+  {
+    "station": "五香",
+    "year": 2020,
+    "avg_price": 13607692.307692308
+  },
+  {
+    "station": "五香",
+    "year": 2021,
+    "avg_price": 11175000.0
+  },
+  {
+    "station": "五香",
+    "year": 2022,
+    "avg_price": 9787500.0
+  },
+  {
+    "station": "五香",
+    "year": 2023,
+    "avg_price": 17440000.0
+  },
+  {
+    "station": "五香",
+    "year": 2024,
+    "avg_price": 16444000.0
+  },
+  {
+    "station": "五香",
+    "year": 2025,
+    "avg_price": 13902631.578947369
+  },
+  {
+    "station": "井野(千葉)",
+    "year": 2022,
+    "avg_price": 6000000.0
+  },
+  {
+    "station": "井野(千葉)",
+    "year": 2024,
+    "avg_price": 9300000.0
+  },
+  {
+    "station": "京成中山",
+    "year": 2020,
+    "avg_price": 35000000.0
+  },
+  {
+    "station": "京成中山",
+    "year": 2022,
+    "avg_price": 19000000.0
+  },
+  {
+    "station": "京成中山",
+    "year": 2025,
+    "avg_price": 18500000.0
+  },
+  {
+    "station": "京成佐倉",
+    "year": 2020,
+    "avg_price": 14255555.555555556
+  },
+  {
+    "station": "京成佐倉",
+    "year": 2021,
+    "avg_price": 11555555.555555556
+  },
+  {
+    "station": "京成佐倉",
+    "year": 2022,
+    "avg_price": 14284000.0
+  },
+  {
+    "station": "京成佐倉",
+    "year": 2023,
+    "avg_price": 20038888.888888888
+  },
+  {
+    "station": "京成佐倉",
+    "year": 2024,
+    "avg_price": 15380000.0
+  },
+  {
+    "station": "京成佐倉",
+    "year": 2025,
+    "avg_price": 15011111.111111112
+  },
+  {
+    "station": "京成八幡",
+    "year": 2021,
+    "avg_price": 29650000.0
+  },
+  {
+    "station": "京成八幡",
+    "year": 2023,
+    "avg_price": 43000000.0
+  },
+  {
+    "station": "京成八幡",
+    "year": 2024,
+    "avg_price": 26000000.0
+  },
+  {
+    "station": "京成八幡",
+    "year": 2025,
+    "avg_price": 26700000.0
+  },
+  {
+    "station": "京成大久保",
+    "year": 2020,
+    "avg_price": 19889655.172413792
+  },
+  {
+    "station": "京成大久保",
+    "year": 2021,
+    "avg_price": 21078125.0
+  },
+  {
+    "station": "京成大久保",
+    "year": 2022,
+    "avg_price": 22344262.295081966
+  },
+  {
+    "station": "京成大久保",
+    "year": 2023,
+    "avg_price": 23046551.724137932
+  },
+  {
+    "station": "京成大久保",
+    "year": 2024,
+    "avg_price": 21637704.918032788
+  },
+  {
+    "station": "京成大久保",
+    "year": 2025,
+    "avg_price": 21584126.984126985
+  },
+  {
+    "station": "京成大和田",
+    "year": 2020,
+    "avg_price": 16340000.0
+  },
+  {
+    "station": "京成大和田",
+    "year": 2021,
+    "avg_price": 13671428.57142857
+  },
+  {
+    "station": "京成大和田",
+    "year": 2023,
+    "avg_price": 16000000.0
+  },
+  {
+    "station": "京成大和田",
+    "year": 2024,
+    "avg_price": 22500000.0
+  },
+  {
+    "station": "京成大和田",
+    "year": 2025,
+    "avg_price": 16333333.333333334
+  },
+  {
+    "station": "京成幕張",
+    "year": 2023,
+    "avg_price": 31500000.0
+  },
+  {
+    "station": "京成幕張",
+    "year": 2024,
+    "avg_price": 18750000.0
+  },
+  {
+    "station": "京成幕張",
+    "year": 2025,
+    "avg_price": 27666666.666666668
+  },
+  {
+    "station": "京成幕張本郷",
+    "year": 2022,
+    "avg_price": 5100000.0
+  },
+  {
+    "station": "京成幕張本郷",
+    "year": 2025,
+    "avg_price": 31000000.0
+  },
+  {
+    "station": "京成成田",
+    "year": 2020,
+    "avg_price": 12266666.666666666
+  },
+  {
+    "station": "京成成田",
+    "year": 2021,
+    "avg_price": 12184210.52631579
+  },
+  {
+    "station": "京成成田",
+    "year": 2022,
+    "avg_price": 15555555.555555556
+  },
+  {
+    "station": "京成成田",
+    "year": 2023,
+    "avg_price": 12357894.736842105
+  },
+  {
+    "station": "京成成田",
+    "year": 2024,
+    "avg_price": 16157142.857142856
+  },
+  {
+    "station": "京成成田",
+    "year": 2025,
+    "avg_price": 18713333.333333332
+  },
+  {
+    "station": "京成津田沼",
+    "year": 2020,
+    "avg_price": 22800000.0
+  },
+  {
+    "station": "京成津田沼",
+    "year": 2021,
+    "avg_price": 21717857.14285714
+  },
+  {
+    "station": "京成津田沼",
+    "year": 2022,
+    "avg_price": 23350000.0
+  },
+  {
+    "station": "京成津田沼",
+    "year": 2023,
+    "avg_price": 22126666.666666668
+  },
+  {
+    "station": "京成津田沼",
+    "year": 2024,
+    "avg_price": 21985185.185185187
+  },
+  {
+    "station": "京成津田沼",
+    "year": 2025,
+    "avg_price": 26145652.173913043
+  },
+  {
+    "station": "京成稲毛",
+    "year": 2020,
+    "avg_price": 19000000.0
+  },
+  {
+    "station": "京成稲毛",
+    "year": 2021,
+    "avg_price": 18900000.0
+  },
+  {
+    "station": "京成稲毛",
+    "year": 2022,
+    "avg_price": 16971428.57142857
+  },
+  {
+    "station": "京成稲毛",
+    "year": 2023,
+    "avg_price": 22000000.0
+  },
+  {
+    "station": "京成稲毛",
+    "year": 2024,
+    "avg_price": 24550000.0
+  },
+  {
+    "station": "京成稲毛",
+    "year": 2025,
+    "avg_price": 24722727.272727273
+  },
+  {
+    "station": "京成臼井",
+    "year": 2020,
+    "avg_price": 19000000.0
+  },
+  {
+    "station": "京成臼井",
+    "year": 2021,
+    "avg_price": 14975000.0
+  },
+  {
+    "station": "京成臼井",
+    "year": 2022,
+    "avg_price": 20500000.0
+  },
+  {
+    "station": "京成臼井",
+    "year": 2023,
+    "avg_price": 21533333.333333332
+  },
+  {
+    "station": "京成臼井",
+    "year": 2024,
+    "avg_price": 21375000.0
+  },
+  {
+    "station": "京成臼井",
+    "year": 2025,
+    "avg_price": 21625000.0
+  },
+  {
+    "station": "京成船橋",
+    "year": 2020,
+    "avg_price": 31666666.666666668
+  },
+  {
+    "station": "京成船橋",
+    "year": 2021,
+    "avg_price": 26636363.636363637
+  },
+  {
+    "station": "京成船橋",
+    "year": 2022,
+    "avg_price": 32461538.46153846
+  },
+  {
+    "station": "京成船橋",
+    "year": 2023,
+    "avg_price": 28958333.333333332
+  },
+  {
+    "station": "京成船橋",
+    "year": 2024,
+    "avg_price": 39888888.88888889
+  },
+  {
+    "station": "京成船橋",
+    "year": 2025,
+    "avg_price": 46000000.0
+  },
+  {
+    "station": "京成西船",
+    "year": 2020,
+    "avg_price": 22500000.0
+  },
+  {
+    "station": "京成西船",
+    "year": 2022,
+    "avg_price": 28666666.666666668
+  },
+  {
+    "station": "京成西船",
+    "year": 2023,
+    "avg_price": 31125000.0
+  },
+  {
+    "station": "京成西船",
+    "year": 2024,
+    "avg_price": 28100000.0
+  },
+  {
+    "station": "京成西船",
+    "year": 2025,
+    "avg_price": 29400000.0
+  },
+  {
+    "station": "京成酒々井",
+    "year": 2022,
+    "avg_price": 32500000.0
+  },
+  {
+    "station": "京成酒々井",
+    "year": 2023,
+    "avg_price": 12000000.0
+  },
+  {
+    "station": "京成酒々井",
+    "year": 2025,
+    "avg_price": 5500000.0
+  },
+  {
+    "station": "佐倉",
+    "year": 2020,
+    "avg_price": 14000000.0
+  },
+  {
+    "station": "佐倉",
+    "year": 2021,
+    "avg_price": 22000000.0
+  },
+  {
+    "station": "佐倉",
+    "year": 2022,
+    "avg_price": 27250000.0
+  },
+  {
+    "station": "佐倉",
+    "year": 2023,
+    "avg_price": 21000000.0
+  },
+  {
+    "station": "佐倉",
+    "year": 2024,
+    "avg_price": 20250000.0
+  },
+  {
+    "station": "佐倉",
+    "year": 2025,
+    "avg_price": 17333333.333333332
+  },
+  {
+    "station": "作草部",
+    "year": 2020,
+    "avg_price": 8900000.0
+  },
+  {
+    "station": "作草部",
+    "year": 2021,
+    "avg_price": 18733333.333333332
+  },
+  {
+    "station": "作草部",
+    "year": 2022,
+    "avg_price": 27222222.222222224
+  },
+  {
+    "station": "作草部",
+    "year": 2023,
+    "avg_price": 26000000.0
+  },
+  {
+    "station": "作草部",
+    "year": 2024,
+    "avg_price": 19307692.307692308
+  },
+  {
+    "station": "作草部",
+    "year": 2025,
+    "avg_price": 26888888.888888888
+  },
+  {
+    "station": "元山(千葉)",
+    "year": 2020,
+    "avg_price": 15166666.666666666
+  },
+  {
+    "station": "元山(千葉)",
+    "year": 2021,
+    "avg_price": 12620000.0
+  },
+  {
+    "station": "元山(千葉)",
+    "year": 2022,
+    "avg_price": 13228571.42857143
+  },
+  {
+    "station": "元山(千葉)",
+    "year": 2023,
+    "avg_price": 16237500.0
+  },
+  {
+    "station": "元山(千葉)",
+    "year": 2024,
+    "avg_price": 13378947.368421054
+  },
+  {
+    "station": "元山(千葉)",
+    "year": 2025,
+    "avg_price": 15846153.846153846
+  },
+  {
+    "station": "光風台(千葉)",
+    "year": 2020,
+    "avg_price": 6500000.0
+  },
+  {
+    "station": "光風台(千葉)",
+    "year": 2021,
+    "avg_price": 6750000.0
+  },
+  {
+    "station": "八千代中央",
+    "year": 2020,
+    "avg_price": 19142857.14285714
+  },
+  {
+    "station": "八千代中央",
+    "year": 2021,
+    "avg_price": 20268181.818181816
+  },
+  {
+    "station": "八千代中央",
+    "year": 2022,
+    "avg_price": 23678571.42857143
+  },
+  {
+    "station": "八千代中央",
+    "year": 2023,
+    "avg_price": 24076923.076923076
+  },
+  {
+    "station": "八千代中央",
+    "year": 2024,
+    "avg_price": 24964285.714285713
+  },
+  {
+    "station": "八千代中央",
+    "year": 2025,
+    "avg_price": 26000000.0
+  },
+  {
+    "station": "八千代台",
+    "year": 2020,
+    "avg_price": 8562162.162162162
+  },
+  {
+    "station": "八千代台",
+    "year": 2021,
+    "avg_price": 5957894.736842105
+  },
+  {
+    "station": "八千代台",
+    "year": 2022,
+    "avg_price": 6387108.433734939
+  },
+  {
+    "station": "八千代台",
+    "year": 2023,
+    "avg_price": 8729729.72972973
+  },
+  {
+    "station": "八千代台",
+    "year": 2024,
+    "avg_price": 10048958.333333334
+  },
+  {
+    "station": "八千代台",
+    "year": 2025,
+    "avg_price": 7209803.9215686275
+  },
+  {
+    "station": "八千代緑が丘",
+    "year": 2020,
+    "avg_price": 17600000.0
+  },
+  {
+    "station": "八千代緑が丘",
+    "year": 2021,
+    "avg_price": 22267100.0
+  },
+  {
+    "station": "八千代緑が丘",
+    "year": 2022,
+    "avg_price": 25252336.44859813
+  },
+  {
+    "station": "八千代緑が丘",
+    "year": 2023,
+    "avg_price": 26403981.48148148
+  },
+  {
+    "station": "八千代緑が丘",
+    "year": 2024,
+    "avg_price": 29756382.978723403
+  },
+  {
+    "station": "八千代緑が丘",
+    "year": 2025,
+    "avg_price": 26587826.086956523
+  },
+  {
+    "station": "八幡宿",
+    "year": 2020,
+    "avg_price": 11109090.909090908
+  },
+  {
+    "station": "八幡宿",
+    "year": 2021,
+    "avg_price": 13913636.363636363
+  },
+  {
+    "station": "八幡宿",
+    "year": 2022,
+    "avg_price": 15115384.615384616
+  },
+  {
+    "station": "八幡宿",
+    "year": 2023,
+    "avg_price": 13319230.76923077
+  },
+  {
+    "station": "八幡宿",
+    "year": 2024,
+    "avg_price": 14196000.0
+  },
+  {
+    "station": "八幡宿",
+    "year": 2025,
+    "avg_price": 15665000.0
+  },
+  {
+    "station": "八柱",
+    "year": 2020,
+    "avg_price": 12550000.0
+  },
+  {
+    "station": "八柱",
+    "year": 2021,
+    "avg_price": 15000000.0
+  },
+  {
+    "station": "八柱",
+    "year": 2022,
+    "avg_price": 16440000.0
+  },
+  {
+    "station": "八柱",
+    "year": 2023,
+    "avg_price": 26000000.0
+  },
+  {
+    "station": "八柱",
+    "year": 2024,
+    "avg_price": 16275000.0
+  },
+  {
+    "station": "八柱",
+    "year": 2025,
+    "avg_price": 17500000.0
+  },
+  {
+    "station": "八積",
+    "year": 2024,
+    "avg_price": 2200000.0
+  },
+  {
+    "station": "八街",
+    "year": 2021,
+    "avg_price": 7300000.0
+  },
+  {
+    "station": "八街",
+    "year": 2022,
+    "avg_price": 9525000.0
+  },
+  {
+    "station": "八街",
+    "year": 2023,
+    "avg_price": 6500000.0
+  },
+  {
+    "station": "八街",
+    "year": 2024,
+    "avg_price": 10000000.0
+  },
+  {
+    "station": "八街",
+    "year": 2025,
+    "avg_price": 7500000.0
+  },
+  {
+    "station": "公津の杜",
+    "year": 2020,
+    "avg_price": 24000000.0
+  },
+  {
+    "station": "公津の杜",
+    "year": 2021,
+    "avg_price": 31466666.666666668
+  },
+  {
+    "station": "公津の杜",
+    "year": 2022,
+    "avg_price": 24700000.0
+  },
+  {
+    "station": "公津の杜",
+    "year": 2023,
+    "avg_price": 27850000.0
+  },
+  {
+    "station": "公津の杜",
+    "year": 2024,
+    "avg_price": 28200000.0
+  },
+  {
+    "station": "公津の杜",
+    "year": 2025,
+    "avg_price": 26444444.444444444
+  },
+  {
+    "station": "六実",
+    "year": 2020,
+    "avg_price": 12975000.0
+  },
+  {
+    "station": "六実",
+    "year": 2021,
+    "avg_price": 9910000.0
+  },
+  {
+    "station": "六実",
+    "year": 2022,
+    "avg_price": 15968181.818181818
+  },
+  {
+    "station": "六実",
+    "year": 2023,
+    "avg_price": 12890000.0
+  },
+  {
+    "station": "六実",
+    "year": 2024,
+    "avg_price": 13134782.608695652
+  },
+  {
+    "station": "六実",
+    "year": 2025,
+    "avg_price": 12912000.0
+  },
+  {
+    "station": "初富",
+    "year": 2020,
+    "avg_price": 12000000.0
+  },
+  {
+    "station": "初富",
+    "year": 2021,
+    "avg_price": 18750000.0
+  },
+  {
+    "station": "初富",
+    "year": 2022,
+    "avg_price": 20500000.0
+  },
+  {
+    "station": "初富",
+    "year": 2023,
+    "avg_price": 13250000.0
+  },
+  {
+    "station": "初富",
+    "year": 2024,
+    "avg_price": 18000000.0
+  },
+  {
+    "station": "初富",
+    "year": 2025,
+    "avg_price": 17214285.714285713
+  },
+  {
+    "station": "初石",
+    "year": 2020,
+    "avg_price": 18073684.210526317
+  },
+  {
+    "station": "初石",
+    "year": 2021,
+    "avg_price": 19102564.102564104
+  },
+  {
+    "station": "初石",
+    "year": 2022,
+    "avg_price": 20039215.68627451
+  },
+  {
+    "station": "初石",
+    "year": 2023,
+    "avg_price": 24403225.80645161
+  },
+  {
+    "station": "初石",
+    "year": 2024,
+    "avg_price": 23808571.42857143
+  },
+  {
+    "station": "初石",
+    "year": 2025,
+    "avg_price": 25350000.0
+  },
+  {
+    "station": "前原",
+    "year": 2020,
+    "avg_price": 23055555.555555556
+  },
+  {
+    "station": "前原",
+    "year": 2021,
+    "avg_price": 22923529.411764707
+  },
+  {
+    "station": "前原",
+    "year": 2022,
+    "avg_price": 23775757.575757574
+  },
+  {
+    "station": "前原",
+    "year": 2023,
+    "avg_price": 25382352.94117647
+  },
+  {
+    "station": "前原",
+    "year": 2024,
+    "avg_price": 24680000.0
+  },
+  {
+    "station": "前原",
+    "year": 2025,
+    "avg_price": 24728571.42857143
+  },
+  {
+    "station": "動物公園",
+    "year": 2021,
+    "avg_price": 7500000.0
+  },
+  {
+    "station": "動物公園",
+    "year": 2023,
+    "avg_price": 4000000.0
+  },
+  {
+    "station": "動物公園",
+    "year": 2024,
+    "avg_price": 14000000.0
+  },
+  {
+    "station": "動物公園",
+    "year": 2025,
+    "avg_price": 24000000.0
+  },
+  {
+    "station": "勝浦",
+    "year": 2021,
+    "avg_price": 9375000.0
+  },
+  {
+    "station": "勝浦",
+    "year": 2022,
+    "avg_price": 8166666.666666667
+  },
+  {
+    "station": "勝浦",
+    "year": 2023,
+    "avg_price": 8650000.0
+  },
+  {
+    "station": "勝浦",
+    "year": 2024,
+    "avg_price": 9400000.0
+  },
+  {
+    "station": "勝浦",
+    "year": 2025,
+    "avg_price": 8766666.666666666
+  },
+  {
+    "station": "勝田台",
+    "year": 2020,
+    "avg_price": 14812500.0
+  },
+  {
+    "station": "勝田台",
+    "year": 2021,
+    "avg_price": 14151724.137931034
+  },
+  {
+    "station": "勝田台",
+    "year": 2022,
+    "avg_price": 15900000.0
+  },
+  {
+    "station": "勝田台",
+    "year": 2023,
+    "avg_price": 13025000.0
+  },
+  {
+    "station": "勝田台",
+    "year": 2024,
+    "avg_price": 12873076.923076924
+  },
+  {
+    "station": "勝田台",
+    "year": 2025,
+    "avg_price": 12012000.0
+  },
+  {
+    "station": "北初富",
+    "year": 2020,
+    "avg_price": 14750000.0
+  },
+  {
+    "station": "北初富",
+    "year": 2021,
+    "avg_price": 22000000.0
+  },
+  {
+    "station": "北初富",
+    "year": 2022,
+    "avg_price": 19300000.0
+  },
+  {
+    "station": "北初富",
+    "year": 2023,
+    "avg_price": 21900000.0
+  },
+  {
+    "station": "北初富",
+    "year": 2024,
+    "avg_price": 16222222.222222222
+  },
+  {
+    "station": "北初富",
+    "year": 2025,
+    "avg_price": 22428571.42857143
+  },
+  {
+    "station": "北国分",
+    "year": 2020,
+    "avg_price": 22500000.0
+  },
+  {
+    "station": "北国分",
+    "year": 2021,
+    "avg_price": 26588235.29411765
+  },
+  {
+    "station": "北国分",
+    "year": 2022,
+    "avg_price": 25555555.555555556
+  },
+  {
+    "station": "北国分",
+    "year": 2023,
+    "avg_price": 22500000.0
+  },
+  {
+    "station": "北国分",
+    "year": 2024,
+    "avg_price": 27500000.0
+  },
+  {
+    "station": "北国分",
+    "year": 2025,
+    "avg_price": 29857142.85714286
+  },
+  {
+    "station": "北小金",
+    "year": 2020,
+    "avg_price": 15770000.0
+  },
+  {
+    "station": "北小金",
+    "year": 2021,
+    "avg_price": 12701000.0
+  },
+  {
+    "station": "北小金",
+    "year": 2022,
+    "avg_price": 12088311.688311689
+  },
+  {
+    "station": "北小金",
+    "year": 2023,
+    "avg_price": 16275949.367088608
+  },
+  {
+    "station": "北小金",
+    "year": 2024,
+    "avg_price": 14107608.695652174
+  },
+  {
+    "station": "北小金",
+    "year": 2025,
+    "avg_price": 13949425.287356323
+  },
+  {
+    "station": "北松戸",
+    "year": 2020,
+    "avg_price": 18350000.0
+  },
+  {
+    "station": "北松戸",
+    "year": 2021,
+    "avg_price": 14862500.0
+  },
+  {
+    "station": "北松戸",
+    "year": 2022,
+    "avg_price": 12850000.0
+  },
+  {
+    "station": "北松戸",
+    "year": 2023,
+    "avg_price": 18008333.333333332
+  },
+  {
+    "station": "北松戸",
+    "year": 2024,
+    "avg_price": 16450000.0
+  },
+  {
+    "station": "北松戸",
+    "year": 2025,
+    "avg_price": 23397368.42105263
+  },
+  {
+    "station": "北柏",
+    "year": 2020,
+    "avg_price": 13494444.444444444
+  },
+  {
+    "station": "北柏",
+    "year": 2021,
+    "avg_price": 12702702.702702703
+  },
+  {
+    "station": "北柏",
+    "year": 2022,
+    "avg_price": 13655384.615384616
+  },
+  {
+    "station": "北柏",
+    "year": 2023,
+    "avg_price": 14036000.0
+  },
+  {
+    "station": "北柏",
+    "year": 2024,
+    "avg_price": 13408333.333333334
+  },
+  {
+    "station": "北柏",
+    "year": 2025,
+    "avg_price": 14598666.666666666
+  },
+  {
+    "station": "北習志野",
+    "year": 2020,
+    "avg_price": 12605882.352941176
+  },
+  {
+    "station": "北習志野",
+    "year": 2021,
+    "avg_price": 17430357.14285714
+  },
+  {
+    "station": "北習志野",
+    "year": 2022,
+    "avg_price": 22411904.76190476
+  },
+  {
+    "station": "北習志野",
+    "year": 2023,
+    "avg_price": 24732608.695652176
+  },
+  {
+    "station": "北習志野",
+    "year": 2024,
+    "avg_price": 25046938.775510203
+  },
+  {
+    "station": "北習志野",
+    "year": 2025,
+    "avg_price": 24806250.0
+  },
+  {
+    "station": "千倉",
+    "year": 2021,
+    "avg_price": 4600000.0
+  },
+  {
+    "station": "千倉",
+    "year": 2025,
+    "avg_price": 5200000.0
+  },
+  {
+    "station": "千城台",
+    "year": 2020,
+    "avg_price": 3500000.0
+  },
+  {
+    "station": "千城台",
+    "year": 2021,
+    "avg_price": 9300000.0
+  },
+  {
+    "station": "千城台",
+    "year": 2022,
+    "avg_price": 20000000.0
+  },
+  {
+    "station": "千城台",
+    "year": 2023,
+    "avg_price": 5866666.666666667
+  },
+  {
+    "station": "千城台",
+    "year": 2024,
+    "avg_price": 14316666.666666666
+  },
+  {
+    "station": "千城台",
+    "year": 2025,
+    "avg_price": 10581818.181818182
+  },
+  {
+    "station": "千城台北",
+    "year": 2023,
+    "avg_price": 15500000.0
+  },
+  {
+    "station": "千城台北",
+    "year": 2025,
+    "avg_price": 11000000.0
+  },
+  {
+    "station": "千葉",
+    "year": 2020,
+    "avg_price": 26112500.0
+  },
+  {
+    "station": "千葉",
+    "year": 2021,
+    "avg_price": 29468627.45098039
+  },
+  {
+    "station": "千葉",
+    "year": 2022,
+    "avg_price": 28464220.183486238
+  },
+  {
+    "station": "千葉",
+    "year": 2023,
+    "avg_price": 30247887.323943663
+  },
+  {
+    "station": "千葉",
+    "year": 2024,
+    "avg_price": 32857692.307692308
+  },
+  {
+    "station": "千葉",
+    "year": 2025,
+    "avg_price": 33387074.829931974
+  },
+  {
+    "station": "千葉みなと",
+    "year": 2020,
+    "avg_price": 20083333.333333332
+  },
+  {
+    "station": "千葉みなと",
+    "year": 2021,
+    "avg_price": 27166666.666666668
+  },
+  {
+    "station": "千葉みなと",
+    "year": 2022,
+    "avg_price": 26016417.91044776
+  },
+  {
+    "station": "千葉みなと",
+    "year": 2023,
+    "avg_price": 28541975.308641974
+  },
+  {
+    "station": "千葉みなと",
+    "year": 2024,
+    "avg_price": 27031521.739130434
+  },
+  {
+    "station": "千葉みなと",
+    "year": 2025,
+    "avg_price": 27348351.648351647
+  },
+  {
+    "station": "千葉ニュータウン中央",
+    "year": 2020,
+    "avg_price": 16220289.855072463
+  },
+  {
+    "station": "千葉ニュータウン中央",
+    "year": 2021,
+    "avg_price": 21542857.14285714
+  },
+  {
+    "station": "千葉ニュータウン中央",
+    "year": 2022,
+    "avg_price": 24214210.52631579
+  },
+  {
+    "station": "千葉ニュータウン中央",
+    "year": 2023,
+    "avg_price": 25499371.06918239
+  },
+  {
+    "station": "千葉ニュータウン中央",
+    "year": 2024,
+    "avg_price": 25380745.341614906
+  },
+  {
+    "station": "千葉ニュータウン中央",
+    "year": 2025,
+    "avg_price": 25231446.540880505
+  },
+  {
+    "station": "千葉中央",
+    "year": 2020,
+    "avg_price": 31333333.333333332
+  },
+  {
+    "station": "千葉中央",
+    "year": 2021,
+    "avg_price": 33686956.52173913
+  },
+  {
+    "station": "千葉中央",
+    "year": 2022,
+    "avg_price": 30947368.42105263
+  },
+  {
+    "station": "千葉中央",
+    "year": 2023,
+    "avg_price": 29625000.0
+  },
+  {
+    "station": "千葉中央",
+    "year": 2024,
+    "avg_price": 32069230.769230768
+  },
+  {
+    "station": "千葉中央",
+    "year": 2025,
+    "avg_price": 29076666.666666668
+  },
+  {
+    "station": "千葉公園",
+    "year": 2021,
+    "avg_price": 22000000.0
+  },
+  {
+    "station": "千葉公園",
+    "year": 2022,
+    "avg_price": 10000000.0
+  },
+  {
+    "station": "千葉公園",
+    "year": 2023,
+    "avg_price": 23333333.333333332
+  },
+  {
+    "station": "千葉公園",
+    "year": 2024,
+    "avg_price": 33000000.0
+  },
+  {
+    "station": "千葉寺",
+    "year": 2020,
+    "avg_price": 20250000.0
+  },
+  {
+    "station": "千葉寺",
+    "year": 2021,
+    "avg_price": 21210526.315789472
+  },
+  {
+    "station": "千葉寺",
+    "year": 2022,
+    "avg_price": 21717647.05882353
+  },
+  {
+    "station": "千葉寺",
+    "year": 2023,
+    "avg_price": 24661538.46153846
+  },
+  {
+    "station": "千葉寺",
+    "year": 2024,
+    "avg_price": 20700000.0
+  },
+  {
+    "station": "千葉寺",
+    "year": 2025,
+    "avg_price": 21125000.0
+  },
+  {
+    "station": "南三原",
+    "year": 2025,
+    "avg_price": 6800000.0
+  },
+  {
+    "station": "南柏",
+    "year": 2020,
+    "avg_price": 21439393.939393938
+  },
+  {
+    "station": "南柏",
+    "year": 2021,
+    "avg_price": 21556790.12345679
+  },
+  {
+    "station": "南柏",
+    "year": 2022,
+    "avg_price": 22304285.714285713
+  },
+  {
+    "station": "南柏",
+    "year": 2023,
+    "avg_price": 25069354.83870968
+  },
+  {
+    "station": "南柏",
+    "year": 2024,
+    "avg_price": 26308333.333333332
+  },
+  {
+    "station": "南柏",
+    "year": 2025,
+    "avg_price": 27731250.0
+  },
+  {
+    "station": "南流山",
+    "year": 2020,
+    "avg_price": 18308695.652173914
+  },
+  {
+    "station": "南流山",
+    "year": 2021,
+    "avg_price": 22166607.14285714
+  },
+  {
+    "station": "南流山",
+    "year": 2022,
+    "avg_price": 26530434.782608695
+  },
+  {
+    "station": "南流山",
+    "year": 2023,
+    "avg_price": 33260000.0
+  },
+  {
+    "station": "南流山",
+    "year": 2024,
+    "avg_price": 38998245.614035085
+  },
+  {
+    "station": "南流山",
+    "year": 2025,
+    "avg_price": 28725373.134328358
+  },
+  {
+    "station": "南船橋",
+    "year": 2020,
+    "avg_price": 32500000.0
+  },
+  {
+    "station": "南船橋",
+    "year": 2021,
+    "avg_price": 34835849.056603774
+  },
+  {
+    "station": "南船橋",
+    "year": 2022,
+    "avg_price": 36972727.27272727
+  },
+  {
+    "station": "南船橋",
+    "year": 2023,
+    "avg_price": 34969387.75510204
+  },
+  {
+    "station": "南船橋",
+    "year": 2024,
+    "avg_price": 47333333.333333336
+  },
+  {
+    "station": "南船橋",
+    "year": 2025,
+    "avg_price": 52478260.86956522
+  },
+  {
+    "station": "南行徳",
+    "year": 2020,
+    "avg_price": 24443243.243243244
+  },
+  {
+    "station": "南行徳",
+    "year": 2021,
+    "avg_price": 26146739.13043478
+  },
+  {
+    "station": "南行徳",
+    "year": 2022,
+    "avg_price": 27345679.01234568
+  },
+  {
+    "station": "南行徳",
+    "year": 2023,
+    "avg_price": 30369318.181818184
+  },
+  {
+    "station": "南行徳",
+    "year": 2024,
+    "avg_price": 29582278.481012657
+  },
+  {
+    "station": "南行徳",
+    "year": 2025,
+    "avg_price": 28267391.304347824
+  },
+  {
+    "station": "印旛日本医大",
+    "year": 2020,
+    "avg_price": 16500000.0
+  },
+  {
+    "station": "印旛日本医大",
+    "year": 2021,
+    "avg_price": 19857142.85714286
+  },
+  {
+    "station": "印旛日本医大",
+    "year": 2022,
+    "avg_price": 20800000.0
+  },
+  {
+    "station": "印旛日本医大",
+    "year": 2023,
+    "avg_price": 20538461.53846154
+  },
+  {
+    "station": "印旛日本医大",
+    "year": 2024,
+    "avg_price": 23000000.0
+  },
+  {
+    "station": "印旛日本医大",
+    "year": 2025,
+    "avg_price": 20800000.0
+  },
+  {
+    "station": "印西牧の原",
+    "year": 2020,
+    "avg_price": 13841176.470588235
+  },
+  {
+    "station": "印西牧の原",
+    "year": 2021,
+    "avg_price": 19020547.94520548
+  },
+  {
+    "station": "印西牧の原",
+    "year": 2022,
+    "avg_price": 20194029.85074627
+  },
+  {
+    "station": "印西牧の原",
+    "year": 2023,
+    "avg_price": 20980769.230769232
+  },
+  {
+    "station": "印西牧の原",
+    "year": 2024,
+    "avg_price": 22271186.440677967
+  },
+  {
+    "station": "印西牧の原",
+    "year": 2025,
+    "avg_price": 21677586.20689655
+  },
+  {
+    "station": "原木中山",
+    "year": 2020,
+    "avg_price": 28583333.333333332
+  },
+  {
+    "station": "原木中山",
+    "year": 2021,
+    "avg_price": 24107692.307692308
+  },
+  {
+    "station": "原木中山",
+    "year": 2022,
+    "avg_price": 29065909.09090909
+  },
+  {
+    "station": "原木中山",
+    "year": 2023,
+    "avg_price": 24229629.62962963
+  },
+  {
+    "station": "原木中山",
+    "year": 2024,
+    "avg_price": 26244000.0
+  },
+  {
+    "station": "原木中山",
+    "year": 2025,
+    "avg_price": 28157894.736842107
+  },
+  {
+    "station": "君津",
+    "year": 2020,
+    "avg_price": 18750000.0
+  },
+  {
+    "station": "君津",
+    "year": 2021,
+    "avg_price": 19200000.0
+  },
+  {
+    "station": "君津",
+    "year": 2022,
+    "avg_price": 18750000.0
+  },
+  {
+    "station": "君津",
+    "year": 2023,
+    "avg_price": 24000000.0
+  },
+  {
+    "station": "君津",
+    "year": 2024,
+    "avg_price": 20571428.57142857
+  },
+  {
+    "station": "君津",
+    "year": 2025,
+    "avg_price": 17037500.0
+  },
+  {
+    "station": "和田浦",
+    "year": 2023,
+    "avg_price": 2100000.0
+  },
+  {
+    "station": "和田浦",
+    "year": 2024,
+    "avg_price": 2000000.0
+  },
+  {
+    "station": "和田浦",
+    "year": 2025,
+    "avg_price": 3200000.0
+  },
+  {
+    "station": "四街道",
+    "year": 2020,
+    "avg_price": 14777777.777777778
+  },
+  {
+    "station": "四街道",
+    "year": 2021,
+    "avg_price": 19975000.0
+  },
+  {
+    "station": "四街道",
+    "year": 2022,
+    "avg_price": 17925000.0
+  },
+  {
+    "station": "四街道",
+    "year": 2023,
+    "avg_price": 20600000.0
+  },
+  {
+    "station": "四街道",
+    "year": 2024,
+    "avg_price": 19157894.736842107
+  },
+  {
+    "station": "四街道",
+    "year": 2025,
+    "avg_price": 21435897.435897436
+  },
+  {
+    "station": "国府台",
+    "year": 2021,
+    "avg_price": 36000000.0
+  },
+  {
+    "station": "国府台",
+    "year": 2022,
+    "avg_price": 31000000.0
+  },
+  {
+    "station": "国府台",
+    "year": 2023,
+    "avg_price": 29628571.42857143
+  },
+  {
+    "station": "国府台",
+    "year": 2024,
+    "avg_price": 43000000.0
+  },
+  {
+    "station": "国府台",
+    "year": 2025,
+    "avg_price": 36857142.85714286
+  },
+  {
+    "station": "土気",
+    "year": 2020,
+    "avg_price": 12900000.0
+  },
+  {
+    "station": "土気",
+    "year": 2021,
+    "avg_price": 12503125.0
+  },
+  {
+    "station": "土気",
+    "year": 2022,
+    "avg_price": 13065853.658536585
+  },
+  {
+    "station": "土気",
+    "year": 2023,
+    "avg_price": 14422500.0
+  },
+  {
+    "station": "土気",
+    "year": 2024,
+    "avg_price": 12978571.42857143
+  },
+  {
+    "station": "土気",
+    "year": 2025,
+    "avg_price": 13640909.090909092
+  },
+  {
+    "station": "地区センター",
+    "year": 2024,
+    "avg_price": 22000000.0
+  },
+  {
+    "station": "塚田",
+    "year": 2020,
+    "avg_price": 22016666.666666668
+  },
+  {
+    "station": "塚田",
+    "year": 2021,
+    "avg_price": 23310000.0
+  },
+  {
+    "station": "塚田",
+    "year": 2022,
+    "avg_price": 28200000.0
+  },
+  {
+    "station": "塚田",
+    "year": 2023,
+    "avg_price": 31358571.42857143
+  },
+  {
+    "station": "塚田",
+    "year": 2024,
+    "avg_price": 31993333.333333332
+  },
+  {
+    "station": "塚田",
+    "year": 2025,
+    "avg_price": 31335294.11764706
+  },
+  {
+    "station": "増尾",
+    "year": 2020,
+    "avg_price": 11000000.0
+  },
+  {
+    "station": "増尾",
+    "year": 2021,
+    "avg_price": 13891666.666666666
+  },
+  {
+    "station": "増尾",
+    "year": 2022,
+    "avg_price": 13875000.0
+  },
+  {
+    "station": "増尾",
+    "year": 2023,
+    "avg_price": 16388888.888888888
+  },
+  {
+    "station": "増尾",
+    "year": 2024,
+    "avg_price": 17400000.0
+  },
+  {
+    "station": "増尾",
+    "year": 2025,
+    "avg_price": 15800000.0
+  },
+  {
+    "station": "大原(千葉)",
+    "year": 2023,
+    "avg_price": 2800000.0
+  },
+  {
+    "station": "大森台",
+    "year": 2020,
+    "avg_price": 9800000.0
+  },
+  {
+    "station": "大森台",
+    "year": 2021,
+    "avg_price": 17666666.666666668
+  },
+  {
+    "station": "大森台",
+    "year": 2022,
+    "avg_price": 12333333.333333334
+  },
+  {
+    "station": "大森台",
+    "year": 2023,
+    "avg_price": 27000000.0
+  },
+  {
+    "station": "大森台",
+    "year": 2025,
+    "avg_price": 23533333.333333332
+  },
+  {
+    "station": "大町(千葉)",
+    "year": 2023,
+    "avg_price": 11000000.0
+  },
+  {
+    "station": "大町(千葉)",
+    "year": 2025,
+    "avg_price": 12500000.0
+  },
+  {
+    "station": "大神宮下",
+    "year": 2020,
+    "avg_price": 21636363.636363637
+  },
+  {
+    "station": "大神宮下",
+    "year": 2021,
+    "avg_price": 15980000.0
+  },
+  {
+    "station": "大神宮下",
+    "year": 2022,
+    "avg_price": 18107692.307692308
+  },
+  {
+    "station": "大神宮下",
+    "year": 2023,
+    "avg_price": 25300000.0
+  },
+  {
+    "station": "大神宮下",
+    "year": 2024,
+    "avg_price": 20876923.076923076
+  },
+  {
+    "station": "大神宮下",
+    "year": 2025,
+    "avg_price": 22210526.315789472
+  },
+  {
+    "station": "大網",
+    "year": 2021,
+    "avg_price": 9788888.888888888
+  },
+  {
+    "station": "大網",
+    "year": 2022,
+    "avg_price": 13342857.142857144
+  },
+  {
+    "station": "大網",
+    "year": 2023,
+    "avg_price": 10500000.0
+  },
+  {
+    "station": "大網",
+    "year": 2024,
+    "avg_price": 12616666.666666666
+  },
+  {
+    "station": "大網",
+    "year": 2025,
+    "avg_price": 14038461.538461538
+  },
+  {
+    "station": "天台",
+    "year": 2020,
+    "avg_price": 2000000.0
+  },
+  {
+    "station": "天台",
+    "year": 2021,
+    "avg_price": 21400000.0
+  },
+  {
+    "station": "天台",
+    "year": 2022,
+    "avg_price": 25618750.0
+  },
+  {
+    "station": "天台",
+    "year": 2023,
+    "avg_price": 18500000.0
+  },
+  {
+    "station": "天台",
+    "year": 2024,
+    "avg_price": 21968181.818181816
+  },
+  {
+    "station": "天台",
+    "year": 2025,
+    "avg_price": 17543750.0
+  },
+  {
+    "station": "天王台",
+    "year": 2020,
+    "avg_price": 14923076.923076924
+  },
+  {
+    "station": "天王台",
+    "year": 2021,
+    "avg_price": 16023333.333333334
+  },
+  {
+    "station": "天王台",
+    "year": 2022,
+    "avg_price": 16130769.23076923
+  },
+  {
+    "station": "天王台",
+    "year": 2023,
+    "avg_price": 17166666.666666668
+  },
+  {
+    "station": "天王台",
+    "year": 2024,
+    "avg_price": 18233333.333333332
+  },
+  {
+    "station": "天王台",
+    "year": 2025,
+    "avg_price": 14468181.818181818
+  },
+  {
+    "station": "太東",
+    "year": 2023,
+    "avg_price": 4000000.0
+  },
+  {
+    "station": "太東",
+    "year": 2024,
+    "avg_price": 7800000.0
+  },
+  {
+    "station": "太東",
+    "year": 2025,
+    "avg_price": 4800000.0
+  },
+  {
+    "station": "太海",
+    "year": 2023,
+    "avg_price": 2600000.0
+  },
+  {
+    "station": "太海",
+    "year": 2024,
+    "avg_price": 2800000.0
+  },
+  {
+    "station": "太海",
+    "year": 2025,
+    "avg_price": 3800000.0
+  },
+  {
+    "station": "女子大",
+    "year": 2021,
+    "avg_price": 7185714.285714285
+  },
+  {
+    "station": "女子大",
+    "year": 2022,
+    "avg_price": 6900000.0
+  },
+  {
+    "station": "女子大",
+    "year": 2023,
+    "avg_price": 9600000.0
+  },
+  {
+    "station": "女子大",
+    "year": 2024,
+    "avg_price": 9812500.0
+  },
+  {
+    "station": "女子大",
+    "year": 2025,
+    "avg_price": 8750000.0
+  },
+  {
+    "station": "妙典",
+    "year": 2020,
+    "avg_price": 30352631.57894737
+  },
+  {
+    "station": "妙典",
+    "year": 2021,
+    "avg_price": 31146666.666666668
+  },
+  {
+    "station": "妙典",
+    "year": 2022,
+    "avg_price": 37350000.0
+  },
+  {
+    "station": "妙典",
+    "year": 2023,
+    "avg_price": 37044444.44444445
+  },
+  {
+    "station": "妙典",
+    "year": 2024,
+    "avg_price": 37688405.79710145
+  },
+  {
+    "station": "妙典",
+    "year": 2025,
+    "avg_price": 32931034.48275862
+  },
+  {
+    "station": "姉ケ崎",
+    "year": 2020,
+    "avg_price": 6533333.333333333
+  },
+  {
+    "station": "姉ケ崎",
+    "year": 2021,
+    "avg_price": 8544444.444444444
+  },
+  {
+    "station": "姉ケ崎",
+    "year": 2022,
+    "avg_price": 8496842.105263159
+  },
+  {
+    "station": "姉ケ崎",
+    "year": 2023,
+    "avg_price": 10569230.76923077
+  },
+  {
+    "station": "姉ケ崎",
+    "year": 2024,
+    "avg_price": 7033333.333333333
+  },
+  {
+    "station": "姉ケ崎",
+    "year": 2025,
+    "avg_price": 9928571.42857143
+  },
+  {
+    "station": "学園前(千葉)",
+    "year": 2020,
+    "avg_price": 15250000.0
+  },
+  {
+    "station": "学園前(千葉)",
+    "year": 2021,
+    "avg_price": 18000000.0
+  },
+  {
+    "station": "学園前(千葉)",
+    "year": 2022,
+    "avg_price": 21666666.666666668
+  },
+  {
+    "station": "学園前(千葉)",
+    "year": 2023,
+    "avg_price": 18714285.714285713
+  },
+  {
+    "station": "学園前(千葉)",
+    "year": 2024,
+    "avg_price": 20000000.0
+  },
+  {
+    "station": "学園前(千葉)",
+    "year": 2025,
+    "avg_price": 20571428.57142857
+  },
+  {
+    "station": "安房勝山",
+    "year": 2022,
+    "avg_price": 5000000.0
+  },
+  {
+    "station": "安房勝山",
+    "year": 2024,
+    "avg_price": 14000000.0
+  },
+  {
+    "station": "安房小湊",
+    "year": 2025,
+    "avg_price": 4000000.0
+  },
+  {
+    "station": "安房鴨川",
+    "year": 2021,
+    "avg_price": 10900000.0
+  },
+  {
+    "station": "安房鴨川",
+    "year": 2022,
+    "avg_price": 13450000.0
+  },
+  {
+    "station": "安房鴨川",
+    "year": 2023,
+    "avg_price": 26500000.0
+  },
+  {
+    "station": "安房鴨川",
+    "year": 2024,
+    "avg_price": 12228571.42857143
+  },
+  {
+    "station": "安房鴨川",
+    "year": 2025,
+    "avg_price": 18000000.0
+  },
+  {
+    "station": "宗吾参道",
+    "year": 2020,
+    "avg_price": 10000000.0
+  },
+  {
+    "station": "宗吾参道",
+    "year": 2022,
+    "avg_price": 11080000.0
+  },
+  {
+    "station": "宗吾参道",
+    "year": 2024,
+    "avg_price": 7850000.0
+  },
+  {
+    "station": "宗吾参道",
+    "year": 2025,
+    "avg_price": 10000000.0
+  },
+  {
+    "station": "実籾",
+    "year": 2020,
+    "avg_price": 16795454.545454547
+  },
+  {
+    "station": "実籾",
+    "year": 2021,
+    "avg_price": 20262068.96551724
+  },
+  {
+    "station": "実籾",
+    "year": 2022,
+    "avg_price": 23197826.086956523
+  },
+  {
+    "station": "実籾",
+    "year": 2023,
+    "avg_price": 21575000.0
+  },
+  {
+    "station": "実籾",
+    "year": 2024,
+    "avg_price": 22847058.82352941
+  },
+  {
+    "station": "実籾",
+    "year": 2025,
+    "avg_price": 23181632.653061226
+  },
+  {
+    "station": "小倉台",
+    "year": 2020,
+    "avg_price": 8800000.0
+  },
+  {
+    "station": "小倉台",
+    "year": 2021,
+    "avg_price": 17000000.0
+  },
+  {
+    "station": "小倉台",
+    "year": 2022,
+    "avg_price": 20000000.0
+  },
+  {
+    "station": "小倉台",
+    "year": 2023,
+    "avg_price": 20000000.0
+  },
+  {
+    "station": "小倉台",
+    "year": 2024,
+    "avg_price": 19000000.0
+  },
+  {
+    "station": "小倉台",
+    "year": 2025,
+    "avg_price": 16000000.0
+  },
+  {
+    "station": "小室",
+    "year": 2020,
+    "avg_price": 6100000.0
+  },
+  {
+    "station": "小室",
+    "year": 2021,
+    "avg_price": 5909090.909090909
+  },
+  {
+    "station": "小室",
+    "year": 2022,
+    "avg_price": 5763333.333333333
+  },
+  {
+    "station": "小室",
+    "year": 2023,
+    "avg_price": 5883333.333333333
+  },
+  {
+    "station": "小室",
+    "year": 2024,
+    "avg_price": 8803846.153846154
+  },
+  {
+    "station": "小室",
+    "year": 2025,
+    "avg_price": 5927272.7272727275
+  },
+  {
+    "station": "小金城趾",
+    "year": 2021,
+    "avg_price": 22000000.0
+  },
+  {
+    "station": "小金城趾",
+    "year": 2022,
+    "avg_price": 27000000.0
+  },
+  {
+    "station": "岩井",
+    "year": 2024,
+    "avg_price": 5500000.0
+  },
+  {
+    "station": "岩井",
+    "year": 2025,
+    "avg_price": 5900000.0
+  },
+  {
+    "station": "巌根",
+    "year": 2020,
+    "avg_price": 7250000.0
+  },
+  {
+    "station": "巌根",
+    "year": 2022,
+    "avg_price": 8388888.888888888
+  },
+  {
+    "station": "巌根",
+    "year": 2025,
+    "avg_price": 8600000.0
+  },
+  {
+    "station": "川間",
+    "year": 2020,
+    "avg_price": 9500000.0
+  },
+  {
+    "station": "川間",
+    "year": 2022,
+    "avg_price": 10000000.0
+  },
+  {
+    "station": "川間",
+    "year": 2023,
+    "avg_price": 11900000.0
+  },
+  {
+    "station": "川間",
+    "year": 2024,
+    "avg_price": 7000000.0
+  },
+  {
+    "station": "川間",
+    "year": 2025,
+    "avg_price": 8250000.0
+  },
+  {
+    "station": "市川",
+    "year": 2020,
+    "avg_price": 33877142.85714286
+  },
+  {
+    "station": "市川",
+    "year": 2021,
+    "avg_price": 43639784.94623656
+  },
+  {
+    "station": "市川",
+    "year": 2022,
+    "avg_price": 41494000.0
+  },
+  {
+    "station": "市川",
+    "year": 2023,
+    "avg_price": 44002173.91304348
+  },
+  {
+    "station": "市川",
+    "year": 2024,
+    "avg_price": 48645054.94505495
+  },
+  {
+    "station": "市川",
+    "year": 2025,
+    "avg_price": 41880000.0
+  },
+  {
+    "station": "市川塩浜",
+    "year": 2021,
+    "avg_price": 17000000.0
+  },
+  {
+    "station": "市川塩浜",
+    "year": 2022,
+    "avg_price": 22500000.0
+  },
+  {
+    "station": "市川塩浜",
+    "year": 2023,
+    "avg_price": 13000000.0
+  },
+  {
+    "station": "市川塩浜",
+    "year": 2024,
+    "avg_price": 25000000.0
+  },
+  {
+    "station": "市川塩浜",
+    "year": 2025,
+    "avg_price": 22000000.0
+  },
+  {
+    "station": "市川大野",
+    "year": 2020,
+    "avg_price": 3200000.0
+  },
+  {
+    "station": "市川大野",
+    "year": 2021,
+    "avg_price": 11395454.545454545
+  },
+  {
+    "station": "市川大野",
+    "year": 2022,
+    "avg_price": 17922580.64516129
+  },
+  {
+    "station": "市川大野",
+    "year": 2023,
+    "avg_price": 14780952.38095238
+  },
+  {
+    "station": "市川大野",
+    "year": 2024,
+    "avg_price": 17673333.333333332
+  },
+  {
+    "station": "市川大野",
+    "year": 2025,
+    "avg_price": 16458064.516129032
+  },
+  {
+    "station": "市川真間",
+    "year": 2020,
+    "avg_price": 4400000.0
+  },
+  {
+    "station": "市川真間",
+    "year": 2021,
+    "avg_price": 65000000.0
+  },
+  {
+    "station": "市川真間",
+    "year": 2023,
+    "avg_price": 67500000.0
+  },
+  {
+    "station": "市川真間",
+    "year": 2024,
+    "avg_price": 56666666.666666664
+  },
+  {
+    "station": "市川真間",
+    "year": 2025,
+    "avg_price": 56000000.0
+  },
+  {
+    "station": "市役所前(千葉)",
+    "year": 2021,
+    "avg_price": 30750000.0
+  },
+  {
+    "station": "市役所前(千葉)",
+    "year": 2022,
+    "avg_price": 33250000.0
+  },
+  {
+    "station": "市役所前(千葉)",
+    "year": 2023,
+    "avg_price": 31500000.0
+  },
+  {
+    "station": "市役所前(千葉)",
+    "year": 2024,
+    "avg_price": 35666666.666666664
+  },
+  {
+    "station": "市役所前(千葉)",
+    "year": 2025,
+    "avg_price": 34000000.0
+  },
+  {
+    "station": "布佐",
+    "year": 2020,
+    "avg_price": 5825000.0
+  },
+  {
+    "station": "布佐",
+    "year": 2021,
+    "avg_price": 6475000.0
+  },
+  {
+    "station": "布佐",
+    "year": 2022,
+    "avg_price": 5450000.0
+  },
+  {
+    "station": "布佐",
+    "year": 2023,
+    "avg_price": 7771428.571428572
+  },
+  {
+    "station": "布佐",
+    "year": 2024,
+    "avg_price": 7465000.0
+  },
+  {
+    "station": "布佐",
+    "year": 2025,
+    "avg_price": 7033333.333333333
+  },
+  {
+    "station": "常盤平",
+    "year": 2020,
+    "avg_price": 13125000.0
+  },
+  {
+    "station": "常盤平",
+    "year": 2021,
+    "avg_price": 14970000.0
+  },
+  {
+    "station": "常盤平",
+    "year": 2022,
+    "avg_price": 18647692.307692308
+  },
+  {
+    "station": "常盤平",
+    "year": 2023,
+    "avg_price": 14798437.5
+  },
+  {
+    "station": "常盤平",
+    "year": 2024,
+    "avg_price": 13063157.894736841
+  },
+  {
+    "station": "常盤平",
+    "year": 2025,
+    "avg_price": 13403947.368421054
+  },
+  {
+    "station": "幕張",
+    "year": 2020,
+    "avg_price": 23142857.14285714
+  },
+  {
+    "station": "幕張",
+    "year": 2021,
+    "avg_price": 25217391.304347824
+  },
+  {
+    "station": "幕張",
+    "year": 2022,
+    "avg_price": 30128205.128205128
+  },
+  {
+    "station": "幕張",
+    "year": 2023,
+    "avg_price": 29477272.727272727
+  },
+  {
+    "station": "幕張",
+    "year": 2024,
+    "avg_price": 27386363.636363637
+  },
+  {
+    "station": "幕張",
+    "year": 2025,
+    "avg_price": 27857142.85714286
+  },
+  {
+    "station": "幕張本郷",
+    "year": 2020,
+    "avg_price": 24210526.315789472
+  },
+  {
+    "station": "幕張本郷",
+    "year": 2021,
+    "avg_price": 29609210.52631579
+  },
+  {
+    "station": "幕張本郷",
+    "year": 2022,
+    "avg_price": 28318965.51724138
+  },
+  {
+    "station": "幕張本郷",
+    "year": 2023,
+    "avg_price": 27762318.84057971
+  },
+  {
+    "station": "幕張本郷",
+    "year": 2024,
+    "avg_price": 25831250.0
+  },
+  {
+    "station": "幕張本郷",
+    "year": 2025,
+    "avg_price": 30867187.5
+  },
+  {
+    "station": "平和台(千葉)",
+    "year": 2020,
+    "avg_price": 27333333.333333332
+  },
+  {
+    "station": "平和台(千葉)",
+    "year": 2021,
+    "avg_price": 26000000.0
+  },
+  {
+    "station": "平和台(千葉)",
+    "year": 2022,
+    "avg_price": 27500000.0
+  },
+  {
+    "station": "平和台(千葉)",
+    "year": 2023,
+    "avg_price": 25000000.0
+  },
+  {
+    "station": "平和台(千葉)",
+    "year": 2024,
+    "avg_price": 35000000.0
+  },
+  {
+    "station": "平和台(千葉)",
+    "year": 2025,
+    "avg_price": 18000000.0
+  },
+  {
+    "station": "御宿",
+    "year": 2021,
+    "avg_price": 4475000.0
+  },
+  {
+    "station": "御宿",
+    "year": 2022,
+    "avg_price": 3600000.0
+  },
+  {
+    "station": "御宿",
+    "year": 2023,
+    "avg_price": 7220000.0
+  },
+  {
+    "station": "御宿",
+    "year": 2024,
+    "avg_price": 7750000.0
+  },
+  {
+    "station": "御宿",
+    "year": 2025,
+    "avg_price": 5575000.0
+  },
+  {
+    "station": "志津",
+    "year": 2020,
+    "avg_price": 11246666.666666666
+  },
+  {
+    "station": "志津",
+    "year": 2021,
+    "avg_price": 13510416.666666666
+  },
+  {
+    "station": "志津",
+    "year": 2022,
+    "avg_price": 14386363.636363637
+  },
+  {
+    "station": "志津",
+    "year": 2023,
+    "avg_price": 15692307.692307692
+  },
+  {
+    "station": "志津",
+    "year": 2024,
+    "avg_price": 14825000.0
+  },
+  {
+    "station": "志津",
+    "year": 2025,
+    "avg_price": 15745714.285714285
+  },
+  {
+    "station": "愛宕(千葉)",
+    "year": 2020,
+    "avg_price": 10000000.0
+  },
+  {
+    "station": "愛宕(千葉)",
+    "year": 2021,
+    "avg_price": 12105882.352941176
+  },
+  {
+    "station": "愛宕(千葉)",
+    "year": 2022,
+    "avg_price": 12087500.0
+  },
+  {
+    "station": "愛宕(千葉)",
+    "year": 2023,
+    "avg_price": 15466666.666666666
+  },
+  {
+    "station": "愛宕(千葉)",
+    "year": 2024,
+    "avg_price": 14600000.0
+  },
+  {
+    "station": "愛宕(千葉)",
+    "year": 2025,
+    "avg_price": 12772727.272727273
+  },
+  {
+    "station": "成東",
+    "year": 2021,
+    "avg_price": 5750000.0
+  },
+  {
+    "station": "成東",
+    "year": 2024,
+    "avg_price": 9500000.0
+  },
+  {
+    "station": "成東",
+    "year": 2025,
+    "avg_price": 6000000.0
+  },
+  {
+    "station": "成田",
+    "year": 2020,
+    "avg_price": 12992592.592592593
+  },
+  {
+    "station": "成田",
+    "year": 2021,
+    "avg_price": 16537931.034482758
+  },
+  {
+    "station": "成田",
+    "year": 2022,
+    "avg_price": 13755072.463768115
+  },
+  {
+    "station": "成田",
+    "year": 2023,
+    "avg_price": 14860714.285714285
+  },
+  {
+    "station": "成田",
+    "year": 2024,
+    "avg_price": 14226575.342465753
+  },
+  {
+    "station": "成田",
+    "year": 2025,
+    "avg_price": 19417241.379310343
+  },
+  {
+    "station": "成田湯川",
+    "year": 2021,
+    "avg_price": 8200000.0
+  },
+  {
+    "station": "成田湯川",
+    "year": 2022,
+    "avg_price": 11250000.0
+  },
+  {
+    "station": "成田湯川",
+    "year": 2023,
+    "avg_price": 8400000.0
+  },
+  {
+    "station": "成田湯川",
+    "year": 2024,
+    "avg_price": 8300000.0
+  },
+  {
+    "station": "成田湯川",
+    "year": 2025,
+    "avg_price": 7900000.0
+  },
+  {
+    "station": "我孫子",
+    "year": 2020,
+    "avg_price": 20730769.230769232
+  },
+  {
+    "station": "我孫子",
+    "year": 2021,
+    "avg_price": 22962162.162162162
+  },
+  {
+    "station": "我孫子",
+    "year": 2022,
+    "avg_price": 26058139.534883723
+  },
+  {
+    "station": "我孫子",
+    "year": 2023,
+    "avg_price": 27921649.48453608
+  },
+  {
+    "station": "我孫子",
+    "year": 2024,
+    "avg_price": 26979381.44329897
+  },
+  {
+    "station": "我孫子",
+    "year": 2025,
+    "avg_price": 25969892.47311828
+  },
+  {
+    "station": "新八柱",
+    "year": 2020,
+    "avg_price": 19852941.17647059
+  },
+  {
+    "station": "新八柱",
+    "year": 2021,
+    "avg_price": 21396153.846153848
+  },
+  {
+    "station": "新八柱",
+    "year": 2022,
+    "avg_price": 17616666.666666668
+  },
+  {
+    "station": "新八柱",
+    "year": 2023,
+    "avg_price": 20570370.37037037
+  },
+  {
+    "station": "新八柱",
+    "year": 2024,
+    "avg_price": 18334615.384615384
+  },
+  {
+    "station": "新八柱",
+    "year": 2025,
+    "avg_price": 18967857.14285714
+  },
+  {
+    "station": "新千葉",
+    "year": 2021,
+    "avg_price": 26000000.0
+  },
+  {
+    "station": "新千葉",
+    "year": 2024,
+    "avg_price": 17166666.666666668
+  },
+  {
+    "station": "新千葉",
+    "year": 2025,
+    "avg_price": 33000000.0
+  },
+  {
+    "station": "新松戸",
+    "year": 2020,
+    "avg_price": 18160714.285714287
+  },
+  {
+    "station": "新松戸",
+    "year": 2021,
+    "avg_price": 18458823.529411763
+  },
+  {
+    "station": "新松戸",
+    "year": 2022,
+    "avg_price": 20276991.150442477
+  },
+  {
+    "station": "新松戸",
+    "year": 2023,
+    "avg_price": 22129213.483146068
+  },
+  {
+    "station": "新松戸",
+    "year": 2024,
+    "avg_price": 22697849.46236559
+  },
+  {
+    "station": "新松戸",
+    "year": 2025,
+    "avg_price": 23620000.0
+  },
+  {
+    "station": "新柏",
+    "year": 2020,
+    "avg_price": 15466666.666666666
+  },
+  {
+    "station": "新柏",
+    "year": 2021,
+    "avg_price": 21074193.548387095
+  },
+  {
+    "station": "新柏",
+    "year": 2022,
+    "avg_price": 17996153.846153848
+  },
+  {
+    "station": "新柏",
+    "year": 2023,
+    "avg_price": 20375000.0
+  },
+  {
+    "station": "新柏",
+    "year": 2024,
+    "avg_price": 21458333.333333332
+  },
+  {
+    "station": "新柏",
+    "year": 2025,
+    "avg_price": 20840000.0
+  },
+  {
+    "station": "新検見川",
+    "year": 2020,
+    "avg_price": 12346428.57142857
+  },
+  {
+    "station": "新検見川",
+    "year": 2021,
+    "avg_price": 14109756.097560976
+  },
+  {
+    "station": "新検見川",
+    "year": 2022,
+    "avg_price": 15550135.135135135
+  },
+  {
+    "station": "新検見川",
+    "year": 2023,
+    "avg_price": 14767105.263157895
+  },
+  {
+    "station": "新検見川",
+    "year": 2024,
+    "avg_price": 12493589.743589744
+  },
+  {
+    "station": "新検見川",
+    "year": 2025,
+    "avg_price": 12891025.641025642
+  },
+  {
+    "station": "新津田沼",
+    "year": 2022,
+    "avg_price": 39000000.0
+  },
+  {
+    "station": "新津田沼",
+    "year": 2023,
+    "avg_price": 36300000.0
+  },
+  {
+    "station": "新津田沼",
+    "year": 2024,
+    "avg_price": 43500000.0
+  },
+  {
+    "station": "新津田沼",
+    "year": 2025,
+    "avg_price": 39000000.0
+  },
+  {
+    "station": "新浦安",
+    "year": 2020,
+    "avg_price": 42453703.7037037
+  },
+  {
+    "station": "新浦安",
+    "year": 2021,
+    "avg_price": 45814285.71428572
+  },
+  {
+    "station": "新浦安",
+    "year": 2022,
+    "avg_price": 47029787.234042555
+  },
+  {
+    "station": "新浦安",
+    "year": 2023,
+    "avg_price": 48563203.46320346
+  },
+  {
+    "station": "新浦安",
+    "year": 2024,
+    "avg_price": 48056277.05627706
+  },
+  {
+    "station": "新浦安",
+    "year": 2025,
+    "avg_price": 48671794.87179487
+  },
+  {
+    "station": "新習志野",
+    "year": 2020,
+    "avg_price": 14364285.714285715
+  },
+  {
+    "station": "新習志野",
+    "year": 2021,
+    "avg_price": 19568965.51724138
+  },
+  {
+    "station": "新習志野",
+    "year": 2022,
+    "avg_price": 13582142.857142856
+  },
+  {
+    "station": "新習志野",
+    "year": 2023,
+    "avg_price": 20462500.0
+  },
+  {
+    "station": "新習志野",
+    "year": 2024,
+    "avg_price": 18502631.57894737
+  },
+  {
+    "station": "新習志野",
+    "year": 2025,
+    "avg_price": 18174074.074074075
+  },
+  {
+    "station": "新船橋",
+    "year": 2020,
+    "avg_price": 41937500.0
+  },
+  {
+    "station": "新船橋",
+    "year": 2021,
+    "avg_price": 33702272.72727273
+  },
+  {
+    "station": "新船橋",
+    "year": 2022,
+    "avg_price": 36180851.06382979
+  },
+  {
+    "station": "新船橋",
+    "year": 2023,
+    "avg_price": 45234375.0
+  },
+  {
+    "station": "新船橋",
+    "year": 2024,
+    "avg_price": 36422807.01754386
+  },
+  {
+    "station": "新船橋",
+    "year": 2025,
+    "avg_price": 39200000.0
+  },
+  {
+    "station": "新茂原",
+    "year": 2022,
+    "avg_price": 5380000.0
+  },
+  {
+    "station": "新茂原",
+    "year": 2023,
+    "avg_price": 9500000.0
+  },
+  {
+    "station": "新茂原",
+    "year": 2024,
+    "avg_price": 7000000.0
+  },
+  {
+    "station": "新茂原",
+    "year": 2025,
+    "avg_price": 5500000.0
+  },
+  {
+    "station": "新鎌ケ谷",
+    "year": 2020,
+    "avg_price": 27333333.333333332
+  },
+  {
+    "station": "新鎌ケ谷",
+    "year": 2021,
+    "avg_price": 34000000.0
+  },
+  {
+    "station": "新鎌ケ谷",
+    "year": 2022,
+    "avg_price": 32600000.0
+  },
+  {
+    "station": "新鎌ケ谷",
+    "year": 2023,
+    "avg_price": 39666666.666666664
+  },
+  {
+    "station": "新鎌ケ谷",
+    "year": 2024,
+    "avg_price": 33000000.0
+  },
+  {
+    "station": "新鎌ケ谷",
+    "year": 2025,
+    "avg_price": 49333333.333333336
+  },
+  {
+    "station": "木下",
+    "year": 2025,
+    "avg_price": 4800000.0
+  },
+  {
+    "station": "木更津",
+    "year": 2020,
+    "avg_price": 16800000.0
+  },
+  {
+    "station": "木更津",
+    "year": 2021,
+    "avg_price": 26500000.0
+  },
+  {
+    "station": "木更津",
+    "year": 2022,
+    "avg_price": 20600000.0
+  },
+  {
+    "station": "木更津",
+    "year": 2023,
+    "avg_price": 26578947.36842105
+  },
+  {
+    "station": "木更津",
+    "year": 2024,
+    "avg_price": 28250000.0
+  },
+  {
+    "station": "木更津",
+    "year": 2025,
+    "avg_price": 22433333.333333332
+  },
+  {
+    "station": "本八幡",
+    "year": 2020,
+    "avg_price": 32545454.545454547
+  },
+  {
+    "station": "本八幡",
+    "year": 2021,
+    "avg_price": 40254000.0
+  },
+  {
+    "station": "本八幡",
+    "year": 2022,
+    "avg_price": 38721359.22330097
+  },
+  {
+    "station": "本八幡",
+    "year": 2023,
+    "avg_price": 40666666.666666664
+  },
+  {
+    "station": "本八幡",
+    "year": 2024,
+    "avg_price": 44527058.823529415
+  },
+  {
+    "station": "本八幡",
+    "year": 2025,
+    "avg_price": 40718478.26086956
+  },
+  {
+    "station": "本千葉",
+    "year": 2020,
+    "avg_price": 14094117.647058824
+  },
+  {
+    "station": "本千葉",
+    "year": 2021,
+    "avg_price": 20750980.39215686
+  },
+  {
+    "station": "本千葉",
+    "year": 2022,
+    "avg_price": 23171428.57142857
+  },
+  {
+    "station": "本千葉",
+    "year": 2023,
+    "avg_price": 25069565.217391305
+  },
+  {
+    "station": "本千葉",
+    "year": 2024,
+    "avg_price": 18153571.42857143
+  },
+  {
+    "station": "本千葉",
+    "year": 2025,
+    "avg_price": 24246428.57142857
+  },
+  {
+    "station": "本納",
+    "year": 2021,
+    "avg_price": 3800000.0
+  },
+  {
+    "station": "村上(千葉)",
+    "year": 2020,
+    "avg_price": 8711538.461538462
+  },
+  {
+    "station": "村上(千葉)",
+    "year": 2021,
+    "avg_price": 10152459.016393442
+  },
+  {
+    "station": "村上(千葉)",
+    "year": 2022,
+    "avg_price": 10704838.709677419
+  },
+  {
+    "station": "村上(千葉)",
+    "year": 2023,
+    "avg_price": 11725531.914893618
+  },
+  {
+    "station": "村上(千葉)",
+    "year": 2024,
+    "avg_price": 7823076.923076923
+  },
+  {
+    "station": "村上(千葉)",
+    "year": 2025,
+    "avg_price": 9189285.714285715
+  },
+  {
+    "station": "東中山",
+    "year": 2020,
+    "avg_price": 24750000.0
+  },
+  {
+    "station": "東中山",
+    "year": 2021,
+    "avg_price": 30833333.333333332
+  },
+  {
+    "station": "東中山",
+    "year": 2022,
+    "avg_price": 30100000.0
+  },
+  {
+    "station": "東中山",
+    "year": 2023,
+    "avg_price": 30388888.888888888
+  },
+  {
+    "station": "東中山",
+    "year": 2024,
+    "avg_price": 30571428.57142857
+  },
+  {
+    "station": "東中山",
+    "year": 2025,
+    "avg_price": 34076923.07692308
+  },
+  {
+    "station": "東千葉",
+    "year": 2020,
+    "avg_price": 14347058.823529411
+  },
+  {
+    "station": "東千葉",
+    "year": 2021,
+    "avg_price": 16648717.948717948
+  },
+  {
+    "station": "東千葉",
+    "year": 2022,
+    "avg_price": 14285294.11764706
+  },
+  {
+    "station": "東千葉",
+    "year": 2023,
+    "avg_price": 19155172.413793102
+  },
+  {
+    "station": "東千葉",
+    "year": 2024,
+    "avg_price": 16980392.156862747
+  },
+  {
+    "station": "東千葉",
+    "year": 2025,
+    "avg_price": 19429787.23404255
+  },
+  {
+    "station": "東我孫子",
+    "year": 2021,
+    "avg_price": 5100000.0
+  },
+  {
+    "station": "東我孫子",
+    "year": 2024,
+    "avg_price": 12000000.0
+  },
+  {
+    "station": "東我孫子",
+    "year": 2025,
+    "avg_price": 2900000.0
+  },
+  {
+    "station": "東松戸",
+    "year": 2020,
+    "avg_price": 26000000.0
+  },
+  {
+    "station": "東松戸",
+    "year": 2021,
+    "avg_price": 29603571.42857143
+  },
+  {
+    "station": "東松戸",
+    "year": 2022,
+    "avg_price": 32631250.0
+  },
+  {
+    "station": "東松戸",
+    "year": 2023,
+    "avg_price": 30517647.05882353
+  },
+  {
+    "station": "東松戸",
+    "year": 2024,
+    "avg_price": 33489743.589743588
+  },
+  {
+    "station": "東松戸",
+    "year": 2025,
+    "avg_price": 36166666.666666664
+  },
+  {
+    "station": "東海神",
+    "year": 2020,
+    "avg_price": 25714285.714285713
+  },
+  {
+    "station": "東海神",
+    "year": 2021,
+    "avg_price": 37500000.0
+  },
+  {
+    "station": "東海神",
+    "year": 2022,
+    "avg_price": 33200000.0
+  },
+  {
+    "station": "東海神",
+    "year": 2023,
+    "avg_price": 37600000.0
+  },
+  {
+    "station": "東海神",
+    "year": 2024,
+    "avg_price": 14333333.333333334
+  },
+  {
+    "station": "東海神",
+    "year": 2025,
+    "avg_price": 35000000.0
+  },
+  {
+    "station": "東船橋",
+    "year": 2020,
+    "avg_price": 22187500.0
+  },
+  {
+    "station": "東船橋",
+    "year": 2021,
+    "avg_price": 25140740.740740743
+  },
+  {
+    "station": "東船橋",
+    "year": 2022,
+    "avg_price": 23765625.0
+  },
+  {
+    "station": "東船橋",
+    "year": 2023,
+    "avg_price": 28650000.0
+  },
+  {
+    "station": "東船橋",
+    "year": 2024,
+    "avg_price": 29728000.0
+  },
+  {
+    "station": "東船橋",
+    "year": 2025,
+    "avg_price": 28121951.219512194
+  },
+  {
+    "station": "東葉勝田台",
+    "year": 2021,
+    "avg_price": 12250000.0
+  },
+  {
+    "station": "東葉勝田台",
+    "year": 2022,
+    "avg_price": 28200000.0
+  },
+  {
+    "station": "東葉勝田台",
+    "year": 2023,
+    "avg_price": 17433333.333333332
+  },
+  {
+    "station": "東葉勝田台",
+    "year": 2024,
+    "avg_price": 16714285.714285715
+  },
+  {
+    "station": "東葉勝田台",
+    "year": 2025,
+    "avg_price": 17757142.85714286
+  },
+  {
+    "station": "東金",
+    "year": 2021,
+    "avg_price": 4800000.0
+  },
+  {
+    "station": "東金",
+    "year": 2022,
+    "avg_price": 5730000.0
+  },
+  {
+    "station": "東金",
+    "year": 2023,
+    "avg_price": 5966666.666666667
+  },
+  {
+    "station": "東金",
+    "year": 2024,
+    "avg_price": 5837500.0
+  },
+  {
+    "station": "東金",
+    "year": 2025,
+    "avg_price": 7233333.333333333
+  },
+  {
+    "station": "松戸",
+    "year": 2020,
+    "avg_price": 24558490.566037737
+  },
+  {
+    "station": "松戸",
+    "year": 2021,
+    "avg_price": 24488888.888888888
+  },
+  {
+    "station": "松戸",
+    "year": 2022,
+    "avg_price": 29180745.341614906
+  },
+  {
+    "station": "松戸",
+    "year": 2023,
+    "avg_price": 29089285.714285713
+  },
+  {
+    "station": "松戸",
+    "year": 2024,
+    "avg_price": 29859393.939393938
+  },
+  {
+    "station": "松戸",
+    "year": 2025,
+    "avg_price": 31860925.925925925
+  },
+  {
+    "station": "松戸新田",
+    "year": 2020,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "station": "松戸新田",
+    "year": 2021,
+    "avg_price": 20633333.333333332
+  },
+  {
+    "station": "松戸新田",
+    "year": 2022,
+    "avg_price": 23133333.333333332
+  },
+  {
+    "station": "松戸新田",
+    "year": 2023,
+    "avg_price": 26600000.0
+  },
+  {
+    "station": "松戸新田",
+    "year": 2024,
+    "avg_price": 25460000.0
+  },
+  {
+    "station": "松戸新田",
+    "year": 2025,
+    "avg_price": 16100000.0
+  },
+  {
+    "station": "松飛台",
+    "year": 2020,
+    "avg_price": 12500000.0
+  },
+  {
+    "station": "松飛台",
+    "year": 2021,
+    "avg_price": 21666666.666666668
+  },
+  {
+    "station": "松飛台",
+    "year": 2022,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "station": "松飛台",
+    "year": 2023,
+    "avg_price": 24500000.0
+  },
+  {
+    "station": "松飛台",
+    "year": 2024,
+    "avg_price": 25200000.0
+  },
+  {
+    "station": "松飛台",
+    "year": 2025,
+    "avg_price": 24000000.0
+  },
+  {
+    "station": "柏",
+    "year": 2020,
+    "avg_price": 23274647.887323942
+  },
+  {
+    "station": "柏",
+    "year": 2021,
+    "avg_price": 24565841.584158417
+  },
+  {
+    "station": "柏",
+    "year": 2022,
+    "avg_price": 26216355.140186917
+  },
+  {
+    "station": "柏",
+    "year": 2023,
+    "avg_price": 27316666.666666668
+  },
+  {
+    "station": "柏",
+    "year": 2024,
+    "avg_price": 29703092.783505153
+  },
+  {
+    "station": "柏",
+    "year": 2025,
+    "avg_price": 27186363.636363637
+  },
+  {
+    "station": "柏たなか",
+    "year": 2020,
+    "avg_price": 29000000.0
+  },
+  {
+    "station": "柏たなか",
+    "year": 2021,
+    "avg_price": 32642857.14285714
+  },
+  {
+    "station": "柏たなか",
+    "year": 2022,
+    "avg_price": 36000000.0
+  },
+  {
+    "station": "柏たなか",
+    "year": 2023,
+    "avg_price": 36727272.72727273
+  },
+  {
+    "station": "柏たなか",
+    "year": 2024,
+    "avg_price": 40000000.0
+  },
+  {
+    "station": "柏たなか",
+    "year": 2025,
+    "avg_price": 45777777.777777776
+  },
+  {
+    "station": "柏の葉キャンパス",
+    "year": 2020,
+    "avg_price": 25742857.14285714
+  },
+  {
+    "station": "柏の葉キャンパス",
+    "year": 2021,
+    "avg_price": 35714960.62992126
+  },
+  {
+    "station": "柏の葉キャンパス",
+    "year": 2022,
+    "avg_price": 41159292.03539823
+  },
+  {
+    "station": "柏の葉キャンパス",
+    "year": 2023,
+    "avg_price": 43504123.711340204
+  },
+  {
+    "station": "柏の葉キャンパス",
+    "year": 2024,
+    "avg_price": 45922627.73722628
+  },
+  {
+    "station": "柏の葉キャンパス",
+    "year": 2025,
+    "avg_price": 43751127.819548875
+  },
+  {
+    "station": "栄町(千葉)",
+    "year": 2023,
+    "avg_price": 7500000.0
+  },
+  {
+    "station": "桜木(千葉)",
+    "year": 2020,
+    "avg_price": 10450000.0
+  },
+  {
+    "station": "桜木(千葉)",
+    "year": 2021,
+    "avg_price": 10577777.777777778
+  },
+  {
+    "station": "桜木(千葉)",
+    "year": 2022,
+    "avg_price": 10580000.0
+  },
+  {
+    "station": "桜木(千葉)",
+    "year": 2023,
+    "avg_price": 14114285.714285715
+  },
+  {
+    "station": "桜木(千葉)",
+    "year": 2024,
+    "avg_price": 13000000.0
+  },
+  {
+    "station": "桜木(千葉)",
+    "year": 2025,
+    "avg_price": 12250000.0
+  },
+  {
+    "station": "梅郷",
+    "year": 2020,
+    "avg_price": 13000000.0
+  },
+  {
+    "station": "梅郷",
+    "year": 2021,
+    "avg_price": 7900000.0
+  },
+  {
+    "station": "梅郷",
+    "year": 2022,
+    "avg_price": 25500000.0
+  },
+  {
+    "station": "梅郷",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "station": "梅郷",
+    "year": 2024,
+    "avg_price": 16962500.0
+  },
+  {
+    "station": "梅郷",
+    "year": 2025,
+    "avg_price": 24500000.0
+  },
+  {
+    "station": "検見川",
+    "year": 2020,
+    "avg_price": 14250000.0
+  },
+  {
+    "station": "検見川",
+    "year": 2021,
+    "avg_price": 21666666.666666668
+  },
+  {
+    "station": "検見川",
+    "year": 2022,
+    "avg_price": 27666666.666666668
+  },
+  {
+    "station": "検見川",
+    "year": 2023,
+    "avg_price": 18000000.0
+  },
+  {
+    "station": "検見川",
+    "year": 2025,
+    "avg_price": 20000000.0
+  },
+  {
+    "station": "検見川浜",
+    "year": 2020,
+    "avg_price": 17436363.636363637
+  },
+  {
+    "station": "検見川浜",
+    "year": 2021,
+    "avg_price": 18992857.14285714
+  },
+  {
+    "station": "検見川浜",
+    "year": 2022,
+    "avg_price": 20174719.101123594
+  },
+  {
+    "station": "検見川浜",
+    "year": 2023,
+    "avg_price": 19674866.31016043
+  },
+  {
+    "station": "検見川浜",
+    "year": 2024,
+    "avg_price": 22274242.424242426
+  },
+  {
+    "station": "検見川浜",
+    "year": 2025,
+    "avg_price": 21730735.93073593
+  },
+  {
+    "station": "横芝",
+    "year": 2021,
+    "avg_price": 4300000.0
+  },
+  {
+    "station": "横芝",
+    "year": 2025,
+    "avg_price": 5400000.0
+  },
+  {
+    "station": "求名",
+    "year": 2023,
+    "avg_price": 4500000.0
+  },
+  {
+    "station": "求名",
+    "year": 2024,
+    "avg_price": 3400000.0
+  },
+  {
+    "station": "求名",
+    "year": 2025,
+    "avg_price": 5525000.0
+  },
+  {
+    "station": "江戸川台",
+    "year": 2020,
+    "avg_price": 17000000.0
+  },
+  {
+    "station": "江戸川台",
+    "year": 2021,
+    "avg_price": 6250000.0
+  },
+  {
+    "station": "江戸川台",
+    "year": 2022,
+    "avg_price": 11100000.0
+  },
+  {
+    "station": "江戸川台",
+    "year": 2023,
+    "avg_price": 10236842.105263159
+  },
+  {
+    "station": "江戸川台",
+    "year": 2024,
+    "avg_price": 9121052.631578946
+  },
+  {
+    "station": "江戸川台",
+    "year": 2025,
+    "avg_price": 8173913.043478261
+  },
+  {
+    "station": "江見",
+    "year": 2021,
+    "avg_price": 4275000.0
+  },
+  {
+    "station": "江見",
+    "year": 2022,
+    "avg_price": 5325000.0
+  },
+  {
+    "station": "江見",
+    "year": 2023,
+    "avg_price": 3275000.0
+  },
+  {
+    "station": "江見",
+    "year": 2024,
+    "avg_price": 6300000.0
+  },
+  {
+    "station": "江見",
+    "year": 2025,
+    "avg_price": 4800000.0
+  },
+  {
+    "station": "津田沼",
+    "year": 2020,
+    "avg_price": 35155223.88059702
+  },
+  {
+    "station": "津田沼",
+    "year": 2021,
+    "avg_price": 37031125.82781457
+  },
+  {
+    "station": "津田沼",
+    "year": 2022,
+    "avg_price": 40007575.75757576
+  },
+  {
+    "station": "津田沼",
+    "year": 2023,
+    "avg_price": 40177049.18032787
+  },
+  {
+    "station": "津田沼",
+    "year": 2024,
+    "avg_price": 40413709.67741936
+  },
+  {
+    "station": "津田沼",
+    "year": 2025,
+    "avg_price": 38747517.73049645
+  },
+  {
+    "station": "流山",
+    "year": 2020,
+    "avg_price": 14740000.0
+  },
+  {
+    "station": "流山",
+    "year": 2021,
+    "avg_price": 10600000.0
+  },
+  {
+    "station": "流山",
+    "year": 2022,
+    "avg_price": 18292307.692307692
+  },
+  {
+    "station": "流山",
+    "year": 2023,
+    "avg_price": 18044444.444444444
+  },
+  {
+    "station": "流山",
+    "year": 2024,
+    "avg_price": 22833333.333333332
+  },
+  {
+    "station": "流山",
+    "year": 2025,
+    "avg_price": 22857142.85714286
+  },
+  {
+    "station": "流山おおたかの森",
+    "year": 2020,
+    "avg_price": 40366666.666666664
+  },
+  {
+    "station": "流山おおたかの森",
+    "year": 2021,
+    "avg_price": 42168539.32584269
+  },
+  {
+    "station": "流山おおたかの森",
+    "year": 2022,
+    "avg_price": 51097029.702970296
+  },
+  {
+    "station": "流山おおたかの森",
+    "year": 2023,
+    "avg_price": 57043478.26086956
+  },
+  {
+    "station": "流山おおたかの森",
+    "year": 2024,
+    "avg_price": 58242718.44660194
+  },
+  {
+    "station": "流山おおたかの森",
+    "year": 2025,
+    "avg_price": 56948717.94871795
+  },
+  {
+    "station": "流山セントラルパーク",
+    "year": 2020,
+    "avg_price": 16800000.0
+  },
+  {
+    "station": "流山セントラルパーク",
+    "year": 2021,
+    "avg_price": 26854054.054054055
+  },
+  {
+    "station": "流山セントラルパーク",
+    "year": 2022,
+    "avg_price": 29500000.0
+  },
+  {
+    "station": "流山セントラルパーク",
+    "year": 2023,
+    "avg_price": 35344827.5862069
+  },
+  {
+    "station": "流山セントラルパーク",
+    "year": 2024,
+    "avg_price": 38172413.79310345
+  },
+  {
+    "station": "流山セントラルパーク",
+    "year": 2025,
+    "avg_price": 31259259.259259257
+  },
+  {
+    "station": "浜野",
+    "year": 2020,
+    "avg_price": 15600000.0
+  },
+  {
+    "station": "浜野",
+    "year": 2021,
+    "avg_price": 17570000.0
+  },
+  {
+    "station": "浜野",
+    "year": 2022,
+    "avg_price": 20525000.0
+  },
+  {
+    "station": "浜野",
+    "year": 2023,
+    "avg_price": 19010526.315789472
+  },
+  {
+    "station": "浜野",
+    "year": 2024,
+    "avg_price": 16730769.23076923
+  },
+  {
+    "station": "浜野",
+    "year": 2025,
+    "avg_price": 19517391.304347824
+  },
+  {
+    "station": "浜金谷",
+    "year": 2020,
+    "avg_price": 3700000.0
+  },
+  {
+    "station": "浜金谷",
+    "year": 2023,
+    "avg_price": 2700000.0
+  },
+  {
+    "station": "浦安(千葉)",
+    "year": 2020,
+    "avg_price": 33071428.57142857
+  },
+  {
+    "station": "浦安(千葉)",
+    "year": 2021,
+    "avg_price": 33351648.351648353
+  },
+  {
+    "station": "浦安(千葉)",
+    "year": 2022,
+    "avg_price": 36885057.47126437
+  },
+  {
+    "station": "浦安(千葉)",
+    "year": 2023,
+    "avg_price": 35989247.31182796
+  },
+  {
+    "station": "浦安(千葉)",
+    "year": 2024,
+    "avg_price": 39787037.03703704
+  },
+  {
+    "station": "浦安(千葉)",
+    "year": 2025,
+    "avg_price": 38590163.93442623
+  },
+  {
+    "station": "海浜幕張",
+    "year": 2020,
+    "avg_price": 35916666.666666664
+  },
+  {
+    "station": "海浜幕張",
+    "year": 2021,
+    "avg_price": 40691860.46511628
+  },
+  {
+    "station": "海浜幕張",
+    "year": 2022,
+    "avg_price": 42644000.0
+  },
+  {
+    "station": "海浜幕張",
+    "year": 2023,
+    "avg_price": 48681818.18181818
+  },
+  {
+    "station": "海浜幕張",
+    "year": 2024,
+    "avg_price": 52087500.0
+  },
+  {
+    "station": "海浜幕張",
+    "year": 2025,
+    "avg_price": 51750000.0
+  },
+  {
+    "station": "海神",
+    "year": 2020,
+    "avg_price": 40000000.0
+  },
+  {
+    "station": "海神",
+    "year": 2021,
+    "avg_price": 18278571.42857143
+  },
+  {
+    "station": "海神",
+    "year": 2022,
+    "avg_price": 20825000.0
+  },
+  {
+    "station": "海神",
+    "year": 2023,
+    "avg_price": 22153846.153846152
+  },
+  {
+    "station": "海神",
+    "year": 2024,
+    "avg_price": 20777777.777777776
+  },
+  {
+    "station": "海神",
+    "year": 2025,
+    "avg_price": 23321428.57142857
+  },
+  {
+    "station": "清水公園",
+    "year": 2020,
+    "avg_price": 9500000.0
+  },
+  {
+    "station": "清水公園",
+    "year": 2021,
+    "avg_price": 15000000.0
+  },
+  {
+    "station": "清水公園",
+    "year": 2025,
+    "avg_price": 10000000.0
+  },
+  {
+    "station": "湖北",
+    "year": 2022,
+    "avg_price": 9500000.0
+  },
+  {
+    "station": "湖北",
+    "year": 2023,
+    "avg_price": 5900000.0
+  },
+  {
+    "station": "湖北",
+    "year": 2024,
+    "avg_price": 5000000.0
+  },
+  {
+    "station": "滑河",
+    "year": 2021,
+    "avg_price": 5800000.0
+  },
+  {
+    "station": "滝不動",
+    "year": 2020,
+    "avg_price": 5076923.076923077
+  },
+  {
+    "station": "滝不動",
+    "year": 2021,
+    "avg_price": 9780000.0
+  },
+  {
+    "station": "滝不動",
+    "year": 2022,
+    "avg_price": 7398695.652173913
+  },
+  {
+    "station": "滝不動",
+    "year": 2023,
+    "avg_price": 8613043.47826087
+  },
+  {
+    "station": "滝不動",
+    "year": 2024,
+    "avg_price": 9156250.0
+  },
+  {
+    "station": "滝不動",
+    "year": 2025,
+    "avg_price": 9182142.857142856
+  },
+  {
+    "station": "白井",
+    "year": 2020,
+    "avg_price": 8900000.0
+  },
+  {
+    "station": "白井",
+    "year": 2021,
+    "avg_price": 11298550.724637682
+  },
+  {
+    "station": "白井",
+    "year": 2022,
+    "avg_price": 11465384.615384616
+  },
+  {
+    "station": "白井",
+    "year": 2023,
+    "avg_price": 11169215.68627451
+  },
+  {
+    "station": "白井",
+    "year": 2024,
+    "avg_price": 11311864.406779662
+  },
+  {
+    "station": "白井",
+    "year": 2025,
+    "avg_price": 10206557.37704918
+  },
+  {
+    "station": "県庁前(千葉)",
+    "year": 2020,
+    "avg_price": 26000000.0
+  },
+  {
+    "station": "県庁前(千葉)",
+    "year": 2021,
+    "avg_price": 21000000.0
+  },
+  {
+    "station": "県庁前(千葉)",
+    "year": 2022,
+    "avg_price": 22000000.0
+  },
+  {
+    "station": "県庁前(千葉)",
+    "year": 2023,
+    "avg_price": 31500000.0
+  },
+  {
+    "station": "県庁前(千葉)",
+    "year": 2024,
+    "avg_price": 26333333.333333332
+  },
+  {
+    "station": "県庁前(千葉)",
+    "year": 2025,
+    "avg_price": 35666666.666666664
+  },
+  {
+    "station": "矢切",
+    "year": 2020,
+    "avg_price": 20750000.0
+  },
+  {
+    "station": "矢切",
+    "year": 2021,
+    "avg_price": 22250000.0
+  },
+  {
+    "station": "矢切",
+    "year": 2022,
+    "avg_price": 22642857.14285714
+  },
+  {
+    "station": "矢切",
+    "year": 2023,
+    "avg_price": 16000000.0
+  },
+  {
+    "station": "矢切",
+    "year": 2024,
+    "avg_price": 18633333.333333332
+  },
+  {
+    "station": "矢切",
+    "year": 2025,
+    "avg_price": 26000000.0
+  },
+  {
+    "station": "秋山",
+    "year": 2020,
+    "avg_price": 14928571.42857143
+  },
+  {
+    "station": "秋山",
+    "year": 2021,
+    "avg_price": 23833333.333333332
+  },
+  {
+    "station": "秋山",
+    "year": 2022,
+    "avg_price": 29572222.222222224
+  },
+  {
+    "station": "秋山",
+    "year": 2023,
+    "avg_price": 28622222.222222224
+  },
+  {
+    "station": "秋山",
+    "year": 2024,
+    "avg_price": 30176470.588235293
+  },
+  {
+    "station": "秋山",
+    "year": 2025,
+    "avg_price": 28357142.85714286
+  },
+  {
+    "station": "稲毛",
+    "year": 2020,
+    "avg_price": 21335294.11764706
+  },
+  {
+    "station": "稲毛",
+    "year": 2021,
+    "avg_price": 19310227.272727273
+  },
+  {
+    "station": "稲毛",
+    "year": 2022,
+    "avg_price": 21284507.04225352
+  },
+  {
+    "station": "稲毛",
+    "year": 2023,
+    "avg_price": 21505928.85375494
+  },
+  {
+    "station": "稲毛",
+    "year": 2024,
+    "avg_price": 22371755.72519084
+  },
+  {
+    "station": "稲毛",
+    "year": 2025,
+    "avg_price": 21324199.288256228
+  },
+  {
+    "station": "稲毛海岸",
+    "year": 2020,
+    "avg_price": 14208974.358974358
+  },
+  {
+    "station": "稲毛海岸",
+    "year": 2021,
+    "avg_price": 14252857.142857144
+  },
+  {
+    "station": "稲毛海岸",
+    "year": 2022,
+    "avg_price": 15057288.13559322
+  },
+  {
+    "station": "稲毛海岸",
+    "year": 2023,
+    "avg_price": 16862916.666666668
+  },
+  {
+    "station": "稲毛海岸",
+    "year": 2024,
+    "avg_price": 16288306.451612903
+  },
+  {
+    "station": "稲毛海岸",
+    "year": 2025,
+    "avg_price": 17643145.16129032
+  },
+  {
+    "station": "穴川(千葉)",
+    "year": 2020,
+    "avg_price": 16400000.0
+  },
+  {
+    "station": "穴川(千葉)",
+    "year": 2021,
+    "avg_price": 15150000.0
+  },
+  {
+    "station": "穴川(千葉)",
+    "year": 2022,
+    "avg_price": 15433333.333333334
+  },
+  {
+    "station": "穴川(千葉)",
+    "year": 2023,
+    "avg_price": 19910526.315789472
+  },
+  {
+    "station": "穴川(千葉)",
+    "year": 2024,
+    "avg_price": 16088888.888888888
+  },
+  {
+    "station": "穴川(千葉)",
+    "year": 2025,
+    "avg_price": 17000000.0
+  },
+  {
+    "station": "習志野",
+    "year": 2020,
+    "avg_price": 21066666.666666668
+  },
+  {
+    "station": "習志野",
+    "year": 2021,
+    "avg_price": 20835897.435897436
+  },
+  {
+    "station": "習志野",
+    "year": 2022,
+    "avg_price": 21287878.78787879
+  },
+  {
+    "station": "習志野",
+    "year": 2023,
+    "avg_price": 20755813.953488372
+  },
+  {
+    "station": "習志野",
+    "year": 2024,
+    "avg_price": 21100000.0
+  },
+  {
+    "station": "習志野",
+    "year": 2025,
+    "avg_price": 19280000.0
+  },
+  {
+    "station": "舞浜",
+    "year": 2020,
+    "avg_price": 36600000.0
+  },
+  {
+    "station": "舞浜",
+    "year": 2021,
+    "avg_price": 41600000.0
+  },
+  {
+    "station": "舞浜",
+    "year": 2022,
+    "avg_price": 40771428.571428575
+  },
+  {
+    "station": "舞浜",
+    "year": 2023,
+    "avg_price": 43500000.0
+  },
+  {
+    "station": "舞浜",
+    "year": 2024,
+    "avg_price": 38538461.538461536
+  },
+  {
+    "station": "舞浜",
+    "year": 2025,
+    "avg_price": 40851851.85185185
+  },
+  {
+    "station": "船橋",
+    "year": 2020,
+    "avg_price": 25718333.333333332
+  },
+  {
+    "station": "船橋",
+    "year": 2021,
+    "avg_price": 27201877.9342723
+  },
+  {
+    "station": "船橋",
+    "year": 2022,
+    "avg_price": 25924623.115577888
+  },
+  {
+    "station": "船橋",
+    "year": 2023,
+    "avg_price": 27465989.847715735
+  },
+  {
+    "station": "船橋",
+    "year": 2024,
+    "avg_price": 27108612.440191388
+  },
+  {
+    "station": "船橋",
+    "year": 2025,
+    "avg_price": 30367156.8627451
+  },
+  {
+    "station": "船橋日大前",
+    "year": 2020,
+    "avg_price": 24462500.0
+  },
+  {
+    "station": "船橋日大前",
+    "year": 2021,
+    "avg_price": 27028125.0
+  },
+  {
+    "station": "船橋日大前",
+    "year": 2022,
+    "avg_price": 24329166.666666668
+  },
+  {
+    "station": "船橋日大前",
+    "year": 2023,
+    "avg_price": 22205000.0
+  },
+  {
+    "station": "船橋日大前",
+    "year": 2024,
+    "avg_price": 28250000.0
+  },
+  {
+    "station": "船橋日大前",
+    "year": 2025,
+    "avg_price": 23278571.42857143
+  },
+  {
+    "station": "船橋法典",
+    "year": 2020,
+    "avg_price": 22555555.555555556
+  },
+  {
+    "station": "船橋法典",
+    "year": 2021,
+    "avg_price": 23725000.0
+  },
+  {
+    "station": "船橋法典",
+    "year": 2022,
+    "avg_price": 22925925.925925925
+  },
+  {
+    "station": "船橋法典",
+    "year": 2023,
+    "avg_price": 23758620.689655174
+  },
+  {
+    "station": "船橋法典",
+    "year": 2024,
+    "avg_price": 23954545.454545453
+  },
+  {
+    "station": "船橋法典",
+    "year": 2025,
+    "avg_price": 24450000.0
+  },
+  {
+    "station": "船橋競馬場",
+    "year": 2020,
+    "avg_price": 22083333.333333332
+  },
+  {
+    "station": "船橋競馬場",
+    "year": 2021,
+    "avg_price": 20164285.714285713
+  },
+  {
+    "station": "船橋競馬場",
+    "year": 2022,
+    "avg_price": 23650000.0
+  },
+  {
+    "station": "船橋競馬場",
+    "year": 2023,
+    "avg_price": 31333333.333333332
+  },
+  {
+    "station": "船橋競馬場",
+    "year": 2024,
+    "avg_price": 29260000.0
+  },
+  {
+    "station": "船橋競馬場",
+    "year": 2025,
+    "avg_price": 28666666.666666668
+  },
+  {
+    "station": "茂原",
+    "year": 2021,
+    "avg_price": 14500000.0
+  },
+  {
+    "station": "茂原",
+    "year": 2022,
+    "avg_price": 16920000.0
+  },
+  {
+    "station": "茂原",
+    "year": 2023,
+    "avg_price": 7760000.0
+  },
+  {
+    "station": "茂原",
+    "year": 2024,
+    "avg_price": 9171428.57142857
+  },
+  {
+    "station": "茂原",
+    "year": 2025,
+    "avg_price": 9000000.0
+  },
+  {
+    "station": "菅野",
+    "year": 2022,
+    "avg_price": 39000000.0
+  },
+  {
+    "station": "菅野",
+    "year": 2023,
+    "avg_price": 12750000.0
+  },
+  {
+    "station": "菅野",
+    "year": 2024,
+    "avg_price": 42000000.0
+  },
+  {
+    "station": "菅野",
+    "year": 2025,
+    "avg_price": 34000000.0
+  },
+  {
+    "station": "葭川公園",
+    "year": 2021,
+    "avg_price": 4800000.0
+  },
+  {
+    "station": "葭川公園",
+    "year": 2023,
+    "avg_price": 19500000.0
+  },
+  {
+    "station": "葭川公園",
+    "year": 2024,
+    "avg_price": 25500000.0
+  },
+  {
+    "station": "葭川公園",
+    "year": 2025,
+    "avg_price": 43300000.0
+  },
+  {
+    "station": "薬園台",
+    "year": 2020,
+    "avg_price": 15511764.705882354
+  },
+  {
+    "station": "薬園台",
+    "year": 2021,
+    "avg_price": 19670000.0
+  },
+  {
+    "station": "薬園台",
+    "year": 2022,
+    "avg_price": 19320512.82051282
+  },
+  {
+    "station": "薬園台",
+    "year": 2023,
+    "avg_price": 19437037.037037037
+  },
+  {
+    "station": "薬園台",
+    "year": 2024,
+    "avg_price": 17861538.46153846
+  },
+  {
+    "station": "薬園台",
+    "year": 2025,
+    "avg_price": 18034375.0
+  },
+  {
+    "station": "蘇我",
+    "year": 2020,
+    "avg_price": 23625000.0
+  },
+  {
+    "station": "蘇我",
+    "year": 2021,
+    "avg_price": 23474000.0
+  },
+  {
+    "station": "蘇我",
+    "year": 2022,
+    "avg_price": 24851351.35135135
+  },
+  {
+    "station": "蘇我",
+    "year": 2023,
+    "avg_price": 26347826.086956523
+  },
+  {
+    "station": "蘇我",
+    "year": 2024,
+    "avg_price": 26100000.0
+  },
+  {
+    "station": "蘇我",
+    "year": 2025,
+    "avg_price": 29561403.50877193
+  },
+  {
+    "station": "行徳",
+    "year": 2020,
+    "avg_price": 23235135.135135137
+  },
+  {
+    "station": "行徳",
+    "year": 2021,
+    "avg_price": 25393814.43298969
+  },
+  {
+    "station": "行徳",
+    "year": 2022,
+    "avg_price": 29247916.666666668
+  },
+  {
+    "station": "行徳",
+    "year": 2023,
+    "avg_price": 26265060.240963854
+  },
+  {
+    "station": "行徳",
+    "year": 2024,
+    "avg_price": 27087234.04255319
+  },
+  {
+    "station": "行徳",
+    "year": 2025,
+    "avg_price": 23676351.35135135
+  },
+  {
+    "station": "袖ケ浦",
+    "year": 2020,
+    "avg_price": 14100000.0
+  },
+  {
+    "station": "袖ケ浦",
+    "year": 2021,
+    "avg_price": 18575000.0
+  },
+  {
+    "station": "袖ケ浦",
+    "year": 2022,
+    "avg_price": 11500000.0
+  },
+  {
+    "station": "袖ケ浦",
+    "year": 2023,
+    "avg_price": 16190909.090909092
+  },
+  {
+    "station": "袖ケ浦",
+    "year": 2024,
+    "avg_price": 6850000.0
+  },
+  {
+    "station": "袖ケ浦",
+    "year": 2025,
+    "avg_price": 10628571.42857143
+  },
+  {
+    "station": "西千葉",
+    "year": 2020,
+    "avg_price": 14334782.608695652
+  },
+  {
+    "station": "西千葉",
+    "year": 2021,
+    "avg_price": 17016981.13207547
+  },
+  {
+    "station": "西千葉",
+    "year": 2022,
+    "avg_price": 17112068.96551724
+  },
+  {
+    "station": "西千葉",
+    "year": 2023,
+    "avg_price": 18823076.923076924
+  },
+  {
+    "station": "西千葉",
+    "year": 2024,
+    "avg_price": 20613725.49019608
+  },
+  {
+    "station": "西千葉",
+    "year": 2025,
+    "avg_price": 17608620.689655174
+  },
+  {
+    "station": "西登戸",
+    "year": 2021,
+    "avg_price": 28000000.0
+  },
+  {
+    "station": "西登戸",
+    "year": 2022,
+    "avg_price": 4800000.0
+  },
+  {
+    "station": "西登戸",
+    "year": 2023,
+    "avg_price": 12500000.0
+  },
+  {
+    "station": "西登戸",
+    "year": 2024,
+    "avg_price": 39000000.0
+  },
+  {
+    "station": "西登戸",
+    "year": 2025,
+    "avg_price": 17920000.0
+  },
+  {
+    "station": "西白井",
+    "year": 2020,
+    "avg_price": 7600000.0
+  },
+  {
+    "station": "西白井",
+    "year": 2021,
+    "avg_price": 10988235.294117646
+  },
+  {
+    "station": "西白井",
+    "year": 2022,
+    "avg_price": 10173809.523809524
+  },
+  {
+    "station": "西白井",
+    "year": 2023,
+    "avg_price": 13908260.869565217
+  },
+  {
+    "station": "西白井",
+    "year": 2024,
+    "avg_price": 9858620.689655172
+  },
+  {
+    "station": "西白井",
+    "year": 2025,
+    "avg_price": 17950000.0
+  },
+  {
+    "station": "西船橋",
+    "year": 2020,
+    "avg_price": 23625806.451612905
+  },
+  {
+    "station": "西船橋",
+    "year": 2021,
+    "avg_price": 28045283.018867925
+  },
+  {
+    "station": "西船橋",
+    "year": 2022,
+    "avg_price": 28542056.074766356
+  },
+  {
+    "station": "西船橋",
+    "year": 2023,
+    "avg_price": 30536458.333333332
+  },
+  {
+    "station": "西船橋",
+    "year": 2024,
+    "avg_price": 29418978.10218978
+  },
+  {
+    "station": "西船橋",
+    "year": 2025,
+    "avg_price": 29172727.272727273
+  },
+  {
+    "station": "誉田",
+    "year": 2020,
+    "avg_price": 8262500.0
+  },
+  {
+    "station": "誉田",
+    "year": 2021,
+    "avg_price": 10288888.888888888
+  },
+  {
+    "station": "誉田",
+    "year": 2022,
+    "avg_price": 11416666.666666666
+  },
+  {
+    "station": "誉田",
+    "year": 2023,
+    "avg_price": 10750000.0
+  },
+  {
+    "station": "誉田",
+    "year": 2024,
+    "avg_price": 13377777.777777778
+  },
+  {
+    "station": "誉田",
+    "year": 2025,
+    "avg_price": 12681818.181818182
+  },
+  {
+    "station": "谷津",
+    "year": 2020,
+    "avg_price": 13513043.47826087
+  },
+  {
+    "station": "谷津",
+    "year": 2021,
+    "avg_price": 15482978.723404255
+  },
+  {
+    "station": "谷津",
+    "year": 2022,
+    "avg_price": 18989743.589743588
+  },
+  {
+    "station": "谷津",
+    "year": 2023,
+    "avg_price": 17732258.06451613
+  },
+  {
+    "station": "谷津",
+    "year": 2024,
+    "avg_price": 18752000.0
+  },
+  {
+    "station": "谷津",
+    "year": 2025,
+    "avg_price": 17048888.888888888
+  },
+  {
+    "station": "豊四季",
+    "year": 2020,
+    "avg_price": 12900000.0
+  },
+  {
+    "station": "豊四季",
+    "year": 2021,
+    "avg_price": 19954545.454545453
+  },
+  {
+    "station": "豊四季",
+    "year": 2022,
+    "avg_price": 23363636.363636363
+  },
+  {
+    "station": "豊四季",
+    "year": 2023,
+    "avg_price": 20150000.0
+  },
+  {
+    "station": "豊四季",
+    "year": 2024,
+    "avg_price": 25050000.0
+  },
+  {
+    "station": "豊四季",
+    "year": 2025,
+    "avg_price": 24729411.76470588
+  },
+  {
+    "station": "逆井",
+    "year": 2020,
+    "avg_price": 9863636.363636363
+  },
+  {
+    "station": "逆井",
+    "year": 2021,
+    "avg_price": 10983333.333333334
+  },
+  {
+    "station": "逆井",
+    "year": 2022,
+    "avg_price": 11455555.555555556
+  },
+  {
+    "station": "逆井",
+    "year": 2023,
+    "avg_price": 9416666.666666666
+  },
+  {
+    "station": "逆井",
+    "year": 2024,
+    "avg_price": 11726666.666666666
+  },
+  {
+    "station": "逆井",
+    "year": 2025,
+    "avg_price": 9428571.42857143
+  },
+  {
+    "station": "運河",
+    "year": 2020,
+    "avg_price": 6225000.0
+  },
+  {
+    "station": "運河",
+    "year": 2021,
+    "avg_price": 9011111.111111112
+  },
+  {
+    "station": "運河",
+    "year": 2022,
+    "avg_price": 7675000.0
+  },
+  {
+    "station": "運河",
+    "year": 2023,
+    "avg_price": 12100000.0
+  },
+  {
+    "station": "運河",
+    "year": 2024,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "station": "運河",
+    "year": 2025,
+    "avg_price": 12377777.777777778
+  },
+  {
+    "station": "都賀",
+    "year": 2020,
+    "avg_price": 12657142.857142856
+  },
+  {
+    "station": "都賀",
+    "year": 2021,
+    "avg_price": 13000000.0
+  },
+  {
+    "station": "都賀",
+    "year": 2022,
+    "avg_price": 14527272.727272727
+  },
+  {
+    "station": "都賀",
+    "year": 2023,
+    "avg_price": 12760000.0
+  },
+  {
+    "station": "都賀",
+    "year": 2024,
+    "avg_price": 13283333.333333334
+  },
+  {
+    "station": "都賀",
+    "year": 2025,
+    "avg_price": 17246666.666666668
+  },
+  {
+    "station": "酒々井",
+    "year": 2020,
+    "avg_price": 11800000.0
+  },
+  {
+    "station": "酒々井",
+    "year": 2021,
+    "avg_price": 13744000.0
+  },
+  {
+    "station": "酒々井",
+    "year": 2022,
+    "avg_price": 9373333.333333334
+  },
+  {
+    "station": "酒々井",
+    "year": 2023,
+    "avg_price": 6435714.285714285
+  },
+  {
+    "station": "酒々井",
+    "year": 2024,
+    "avg_price": 8390909.090909092
+  },
+  {
+    "station": "酒々井",
+    "year": 2025,
+    "avg_price": 13430000.0
+  },
+  {
+    "station": "野田市",
+    "year": 2020,
+    "avg_price": 10950000.0
+  },
+  {
+    "station": "野田市",
+    "year": 2021,
+    "avg_price": 12500000.0
+  },
+  {
+    "station": "野田市",
+    "year": 2023,
+    "avg_price": 12500000.0
+  },
+  {
+    "station": "野田市",
+    "year": 2024,
+    "avg_price": 17142857.14285714
+  },
+  {
+    "station": "野田市",
+    "year": 2025,
+    "avg_price": 15000000.0
+  },
+  {
+    "station": "鎌ケ谷",
+    "year": 2020,
+    "avg_price": 25000000.0
+  },
+  {
+    "station": "鎌ケ谷",
+    "year": 2021,
+    "avg_price": 19692307.692307692
+  },
+  {
+    "station": "鎌ケ谷",
+    "year": 2022,
+    "avg_price": 21607142.85714286
+  },
+  {
+    "station": "鎌ケ谷",
+    "year": 2023,
+    "avg_price": 21564705.88235294
+  },
+  {
+    "station": "鎌ケ谷",
+    "year": 2024,
+    "avg_price": 24538461.53846154
+  },
+  {
+    "station": "鎌ケ谷",
+    "year": 2025,
+    "avg_price": 29428571.42857143
+  },
+  {
+    "station": "鎌ケ谷大仏",
+    "year": 2020,
+    "avg_price": 10225000.0
+  },
+  {
+    "station": "鎌ケ谷大仏",
+    "year": 2021,
+    "avg_price": 9700000.0
+  },
+  {
+    "station": "鎌ケ谷大仏",
+    "year": 2022,
+    "avg_price": 13656250.0
+  },
+  {
+    "station": "鎌ケ谷大仏",
+    "year": 2023,
+    "avg_price": 11108333.333333334
+  },
+  {
+    "station": "鎌ケ谷大仏",
+    "year": 2024,
+    "avg_price": 12141666.666666666
+  },
+  {
+    "station": "鎌ケ谷大仏",
+    "year": 2025,
+    "avg_price": 15600000.0
+  },
+  {
+    "station": "鎌取",
+    "year": 2020,
+    "avg_price": 18625000.0
+  },
+  {
+    "station": "鎌取",
+    "year": 2021,
+    "avg_price": 17825806.451612905
+  },
+  {
+    "station": "鎌取",
+    "year": 2022,
+    "avg_price": 18967567.56756757
+  },
+  {
+    "station": "鎌取",
+    "year": 2023,
+    "avg_price": 18739130.43478261
+  },
+  {
+    "station": "鎌取",
+    "year": 2024,
+    "avg_price": 20448275.862068966
+  },
+  {
+    "station": "鎌取",
+    "year": 2025,
+    "avg_price": 20347826.086956523
+  },
+  {
+    "station": "長浦(千葉)",
+    "year": 2020,
+    "avg_price": 12500000.0
+  },
+  {
+    "station": "長浦(千葉)",
+    "year": 2021,
+    "avg_price": 11000000.0
+  },
+  {
+    "station": "長浦(千葉)",
+    "year": 2022,
+    "avg_price": 16466666.666666666
+  },
+  {
+    "station": "長浦(千葉)",
+    "year": 2023,
+    "avg_price": 27500000.0
+  },
+  {
+    "station": "長浦(千葉)",
+    "year": 2024,
+    "avg_price": 17657142.85714286
+  },
+  {
+    "station": "長浦(千葉)",
+    "year": 2025,
+    "avg_price": 20433333.333333332
+  },
+  {
+    "station": "青堀",
+    "year": 2023,
+    "avg_price": 1400000.0
+  },
+  {
+    "station": "青堀",
+    "year": 2024,
+    "avg_price": 7700000.0
+  },
+  {
+    "station": "飯山満",
+    "year": 2020,
+    "avg_price": 8676923.076923076
+  },
+  {
+    "station": "飯山満",
+    "year": 2021,
+    "avg_price": 10772222.222222222
+  },
+  {
+    "station": "飯山満",
+    "year": 2022,
+    "avg_price": 10994444.444444444
+  },
+  {
+    "station": "飯山満",
+    "year": 2023,
+    "avg_price": 8603448.27586207
+  },
+  {
+    "station": "飯山満",
+    "year": 2024,
+    "avg_price": 12203333.333333334
+  },
+  {
+    "station": "飯山満",
+    "year": 2025,
+    "avg_price": 11810344.827586208
+  },
+  {
+    "station": "館山",
+    "year": 2021,
+    "avg_price": 13033333.333333334
+  },
+  {
+    "station": "館山",
+    "year": 2022,
+    "avg_price": 5000000.0
+  },
+  {
+    "station": "館山",
+    "year": 2023,
+    "avg_price": 4900000.0
+  },
+  {
+    "station": "館山",
+    "year": 2024,
+    "avg_price": 2400000.0
+  },
+  {
+    "station": "館山",
+    "year": 2025,
+    "avg_price": 4875000.0
+  },
+  {
+    "station": "馬橋",
+    "year": 2020,
+    "avg_price": 17766666.666666668
+  },
+  {
+    "station": "馬橋",
+    "year": 2021,
+    "avg_price": 15007692.307692308
+  },
+  {
+    "station": "馬橋",
+    "year": 2022,
+    "avg_price": 12448387.096774194
+  },
+  {
+    "station": "馬橋",
+    "year": 2023,
+    "avg_price": 12691363.636363637
+  },
+  {
+    "station": "馬橋",
+    "year": 2024,
+    "avg_price": 15717391.304347826
+  },
+  {
+    "station": "馬橋",
+    "year": 2025,
+    "avg_price": 12088888.888888888
+  },
+  {
+    "station": "馬込沢",
+    "year": 2020,
+    "avg_price": 5293750.0
+  },
+  {
+    "station": "馬込沢",
+    "year": 2021,
+    "avg_price": 8887037.037037037
+  },
+  {
+    "station": "馬込沢",
+    "year": 2022,
+    "avg_price": 7703921.568627451
+  },
+  {
+    "station": "馬込沢",
+    "year": 2023,
+    "avg_price": 8277500.0
+  },
+  {
+    "station": "馬込沢",
+    "year": 2024,
+    "avg_price": 9317073.170731707
+  },
+  {
+    "station": "馬込沢",
+    "year": 2025,
+    "avg_price": 11093023.255813954
+  },
+  {
+    "station": "高柳",
+    "year": 2020,
+    "avg_price": 15100000.0
+  },
+  {
+    "station": "高柳",
+    "year": 2021,
+    "avg_price": 13500000.0
+  },
+  {
+    "station": "高柳",
+    "year": 2022,
+    "avg_price": 16285714.285714285
+  },
+  {
+    "station": "高柳",
+    "year": 2023,
+    "avg_price": 11400000.0
+  },
+  {
+    "station": "高柳",
+    "year": 2024,
+    "avg_price": 14400000.0
+  },
+  {
+    "station": "高柳",
+    "year": 2025,
+    "avg_price": 19500000.0
+  },
+  {
+    "station": "高根公団",
+    "year": 2020,
+    "avg_price": 11362500.0
+  },
+  {
+    "station": "高根公団",
+    "year": 2021,
+    "avg_price": 14405263.157894736
+  },
+  {
+    "station": "高根公団",
+    "year": 2022,
+    "avg_price": 12642000.0
+  },
+  {
+    "station": "高根公団",
+    "year": 2023,
+    "avg_price": 18576923.076923076
+  },
+  {
+    "station": "高根公団",
+    "year": 2024,
+    "avg_price": 25423404.25531915
+  },
+  {
+    "station": "高根公団",
+    "year": 2025,
+    "avg_price": 25731372.54901961
+  },
+  {
+    "station": "高根木戸",
+    "year": 2020,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "station": "高根木戸",
+    "year": 2021,
+    "avg_price": 13900000.0
+  },
+  {
+    "station": "高根木戸",
+    "year": 2022,
+    "avg_price": 26000000.0
+  },
+  {
+    "station": "高根木戸",
+    "year": 2023,
+    "avg_price": 18245833.333333332
+  },
+  {
+    "station": "高根木戸",
+    "year": 2024,
+    "avg_price": 19072727.272727273
+  },
+  {
+    "station": "高根木戸",
+    "year": 2025,
+    "avg_price": 19866666.666666668
+  },
+  {
+    "station": "鬼越",
+    "year": 2021,
+    "avg_price": 9300000.0
+  },
+  {
+    "station": "鬼越",
+    "year": 2023,
+    "avg_price": 33000000.0
+  },
+  {
+    "station": "鬼越",
+    "year": 2024,
+    "avg_price": 7300000.0
+  },
+  {
+    "station": "鬼越",
+    "year": 2025,
+    "avg_price": 38500000.0
+  },
+  {
+    "station": "鰭ケ崎",
+    "year": 2022,
+    "avg_price": 10000000.0
+  },
+  {
+    "station": "鰭ケ崎",
+    "year": 2023,
+    "avg_price": 22000000.0
+  },
+  {
+    "station": "鰭ケ崎",
+    "year": 2024,
+    "avg_price": 15000000.0
+  },
+  {
+    "station": "鴨川",
+    "year": 2023,
+    "avg_price": 13000000.0
+  }
+]

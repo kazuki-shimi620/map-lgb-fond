@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map LGB Fond"
+  short_description: "Build and maintain the real estate price prediction app."
+  default_prompt: "Use the map-lgb-fond project skill to continue implementation from the repository docs and current code."

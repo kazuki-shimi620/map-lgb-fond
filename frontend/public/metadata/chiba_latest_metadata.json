@@ -1,0 +1,17 @@
+{
+  "region": "chiba",
+  "modelName": "chiba_latest",
+  "mae": 4447387.7476376835,
+  "latestTrainingYear": 2025,
+  "featureOrder": [
+    "area",
+    "age",
+    "station_distance",
+    "prefecture",
+    "municipality",
+    "station",
+    "room_layout",
+    "building_type",
+    "transaction_year"
+  ]
+}

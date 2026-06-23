@@ -1,0 +1,17 @@
+{
+  "region": "tokyo",
+  "modelName": "tokyo_latest",
+  "mae": 7500346.827332512,
+  "latestTrainingYear": 2025,
+  "featureOrder": [
+    "area",
+    "age",
+    "station_distance",
+    "prefecture",
+    "municipality",
+    "station",
+    "room_layout",
+    "building_type",
+    "transaction_year"
+  ]
+}
