@@ -66,6 +66,13 @@ cd frontend
 npm run build
 ```
 
+GitHub Pages:
+
+```text
+develop で開発し、main 向け Pull Request で build を確認する。
+main に merge / push されたら GitHub Actions で frontend/dist を GitHub Pages に deploy する。
+```
+
 Python 構文チェック:
 
 ```bash

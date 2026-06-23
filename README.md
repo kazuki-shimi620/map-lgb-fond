@@ -30,6 +30,41 @@ npm run dev
 
 実モデルのONNXが未配置でも、開発用メタデータがある地域ではサンプル予測で画面フローを確認できる。
 
+## GitHub Pages
+
+フロントエンドは `frontend/` だけをビルドし、GitHub Pages に静的サイトとしてデプロイする。
+
+公開URL:
+
+```text
+https://kazuki-shimi620.github.io/map-lgb-fond/
+```
+
+CI/CD は `.github/workflows/deploy-frontend.yml` で管理する。
+
+運用イメージ:
+
+```text
+develop で開発
+↓
+main 向け Pull Request を作成
+↓
+Pull Request では frontend build を確認
+↓
+main に merge / push
+↓
+GitHub Actions が frontend/dist を GitHub Pages に deploy
+```
+
+ローカル確認:
+
+```bash
+cd frontend
+npm ci
+npm run build
+npm run preview
+```
+
 ## 学習
 
 ```bash

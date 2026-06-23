@@ -49,6 +49,14 @@ description: map-lgb-fond 不動産価格予測アプリ専用のプロジェク
 5. TypeScript/Vite 変更後は `npm run build` を実行する。
 6. ONNX が壊れてもUI確認できるよう、開発用 fallback は維持する。
 
+## GitHub Pages作業
+
+- フロントエンドだけを `frontend/dist` にビルドして GitHub Pages にデプロイする。
+- CI/CD は `.github/workflows/deploy-frontend.yml` で管理する。
+- Pull Request では build だけを実行し、`main` への push / merge で deploy する。
+- 開発は `develop` ブランチを基本にし、`main` へ取り込むタイミングを公開タイミングとする。
+- Pages で動かすため、Vite の `base: "./"` と `frontend/public/.nojekyll` を維持する。
+
 ## 学習パイプライン作業
 
 `training/` を編集するときの基本手順:
