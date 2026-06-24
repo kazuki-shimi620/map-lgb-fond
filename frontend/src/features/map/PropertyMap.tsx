@@ -1,6 +1,9 @@
 import { useEffect, useMemo, useState, type FormEvent } from "react";
 import { MapContainer, Marker, TileLayer, useMap, useMapEvents } from "react-leaflet";
-import type { LatLngExpression } from "leaflet";
+import { Icon, type LatLngExpression } from "leaflet";
+import markerIcon2xUrl from "leaflet/dist/images/marker-icon-2x.png";
+import markerIconUrl from "leaflet/dist/images/marker-icon.png";
+import markerShadowUrl from "leaflet/dist/images/marker-shadow.png";
 import { searchPlace } from "../../services/geocodingService";
 
 type Props = {
@@ -8,6 +11,16 @@ type Props = {
   lon: number | null;
   onSelect: (lat: number, lon: number) => void;
 };
+
+const propertyMarkerIcon = new Icon({
+  iconUrl: markerIconUrl,
+  iconRetinaUrl: markerIcon2xUrl,
+  shadowUrl: markerShadowUrl,
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
 
 function ClickHandler({ onSelect }: Pick<Props, "onSelect">) {
   useMapEvents({
@@ -86,7 +99,7 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
           />
           <MapMover center={searchCenter} />
           <ClickHandler onSelect={onSelect} />
-          {lat !== null && lon !== null ? <Marker position={[lat, lon]} /> : null}
+          {lat !== null && lon !== null ? <Marker icon={propertyMarkerIcon} position={[lat, lon]} /> : null}
         </MapContainer>
       </div>
     </section>
