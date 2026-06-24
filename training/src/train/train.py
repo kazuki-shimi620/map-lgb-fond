@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+from datetime import datetime
 from pathlib import Path
 
 SRC_ROOT = Path(__file__).resolve().parents[1]
@@ -114,6 +115,7 @@ def main() -> int:
                     test_count=len(test_x),
                     deployment_count=len(deployment_x),
                     model_params=model_params,
+                    feature_importance=_build_feature_importance(deployment_model, config.features),
                     tuning_result=tuning_result,
                 ),
                 paths["metadata"],
@@ -270,6 +272,7 @@ def _build_metadata(
     test_count: int,
     deployment_count: int,
     model_params: dict[str, object],
+    feature_importance: list[dict[str, object]],
     tuning_result: dict[str, object] | None,
 ) -> dict[str, object]:
     return {
@@ -277,6 +280,7 @@ def _build_metadata(
         "modelName": f"{config.region}_latest",
         "mae": metrics["mae"],
         "latestTrainingYear": config.latest_training_year,
+        "generatedAt": datetime.now().date().isoformat(),
         "featureOrder": config.features,
         "evaluation": {
             "split": split_name,
@@ -293,6 +297,7 @@ def _build_metadata(
             "trainedWithAllAvailableRows": True,
         },
         "modelParams": model_params,
+        "featureImportance": feature_importance,
         "tuning": {
             "enabled": config.tuning.enabled,
             "nTrials": config.tuning.n_trials,
@@ -306,6 +311,18 @@ def _build_metadata(
             "sizePenaltyPerIteration": config.tuning.size_penalty_per_iteration,
         },
     }
+
+
+def _build_feature_importance(model, feature_names: list[str]) -> list[dict[str, object]]:
+    importances = getattr(model, "feature_importances_", None)
+    if importances is None:
+        return []
+
+    rows = [
+        {"feature": feature, "importance": float(importance)}
+        for feature, importance in zip(feature_names, importances, strict=False)
+    ]
+    return sorted(rows, key=lambda row: row["importance"], reverse=True)
 
 
 if __name__ == "__main__":

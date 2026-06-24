@@ -57,5 +57,44 @@
     "numLeavesMax": 80,
     "maxDepthMax": 9,
     "sizePenaltyPerIteration": 250.0
-  }
+  },
+  "generatedAt": "2026-06-24",
+  "featureImportance": [
+    {
+      "feature": "station",
+      "importance": 7515.0
+    },
+    {
+      "feature": "age",
+      "importance": 5544.0
+    },
+    {
+      "feature": "area",
+      "importance": 4399.0
+    },
+    {
+      "feature": "municipality",
+      "importance": 3772.0
+    },
+    {
+      "feature": "station_distance",
+      "importance": 3699.0
+    },
+    {
+      "feature": "room_layout",
+      "importance": 3185.0
+    },
+    {
+      "feature": "transaction_year",
+      "importance": 2029.0
+    },
+    {
+      "feature": "building_type",
+      "importance": 759.0
+    },
+    {
+      "feature": "prefecture",
+      "importance": 0.0
+    }
+  ]
 }

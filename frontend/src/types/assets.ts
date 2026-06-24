@@ -13,6 +13,29 @@ export type ModelMetadata = {
   mae: number;
   latestTrainingYear: number;
   featureOrder: string[];
+  generatedAt?: string;
+  evaluation?: {
+    split: string;
+    trainStartYear: number;
+    testYear: number;
+    trainCount: number;
+    testCount: number;
+    metrics: {
+      mae: number;
+      rmse: number;
+      mape: number;
+    };
+  };
+  deployment?: {
+    trainStartYear: number;
+    latestTrainingYear: number;
+    trainCount: number;
+    trainedWithAllAvailableRows: boolean;
+  };
+  featureImportance?: Array<{
+    feature: string;
+    importance: number;
+  }>;
   developmentFallback?: boolean;
   fallbackBasePrice?: number;
 };
