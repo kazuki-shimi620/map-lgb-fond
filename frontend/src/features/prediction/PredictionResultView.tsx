@@ -71,6 +71,9 @@ export function PredictionResultView({ result, isUpdating = false, summary }: Pr
           </div>
         </dl>
       ) : null}
+      <p className="result-disclaimer">
+        予測価格は公開取引データに基づく参考値です。実際の査定額や成約価格を保証するものではありません。
+      </p>
     </section>
   );
 }
