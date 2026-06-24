@@ -31,6 +31,7 @@
 4. `docs/training.md`
 5. `docs/database.md`
 6. `docs/architecture.md`
+7. `docs/cicd.md`
 
 リポジトリ内 skill として `skills/map-lgb-fond/SKILL.md` も用意しています。
 
