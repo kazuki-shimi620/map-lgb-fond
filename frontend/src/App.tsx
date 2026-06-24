@@ -32,8 +32,11 @@ export function App() {
   const [history, setHistory] = useState<PriceHistoryPoint[]>([]);
   const [stations, setStations] = useState<StationRecord[]>([]);
   const [metadata, setMetadata] = useState<ModelMetadata | null>(null);
-  const [status, setStatus] = useState("モデルとメタデータを読み込んでいます");
+  const [isModelReady, setIsModelReady] = useState(false);
   const [isPredicting, setIsPredicting] = useState(false);
+  const [isSelectionSupported, setIsSelectionSupported] = useState(true);
+  const [stationDistanceSource, setStationDistanceSource] = useState<"map" | "manual">("manual");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const region = useMemo(() => getRegionFromPrefecture(form.prefecture), [form.prefecture]);
   const longRangeWarning =
@@ -43,13 +46,16 @@ export function App() {
 
   useEffect(() => {
     if (!region) {
-      setStatus("未対応地域です");
+      setIsModelReady(false);
+      setErrorMessage("未対応地域です");
       return;
     }
 
     const currentRegion = region;
     let disposed = false;
     const manager = getModelManager(currentRegion);
+    setIsModelReady(false);
+    setErrorMessage("");
 
     async function loadRegionAssets() {
       try {
@@ -63,7 +69,7 @@ export function App() {
         }
       } catch {
         if (!disposed) {
-          setStatus("駅マスタまたは価格推移データを読み込めませんでした");
+          setErrorMessage("駅マスタまたは価格推移データを読み込めませんでした");
         }
       }
 
@@ -71,12 +77,13 @@ export function App() {
         await manager.loadAll();
         if (!disposed) {
           setMetadata(manager.getMetadata());
-          setStatus(manager.isFallbackMode() ? "サンプル予測できます" : "予測できます");
+          setIsModelReady(true);
         }
       } catch {
         if (!disposed) {
           setMetadata(manager.getMetadata());
-          setStatus("モデルの読み込みに失敗しました");
+          setIsModelReady(false);
+          setErrorMessage("モデルの読み込みに失敗しました");
         }
       }
     }
@@ -104,6 +111,15 @@ export function App() {
     try {
       const geocode = await reverseGeocode(lat, lon).catch(() => ({ prefecture: "", municipality: "" }));
       const geocodedRegion = getRegionFromPrefecture(geocode.prefecture);
+
+      if (geocode.prefecture && !geocodedRegion) {
+        setIsSelectionSupported(false);
+        setResult(null);
+        setForecastPoints([]);
+        setErrorMessage(`${geocode.prefecture}は未対応地域です。現在は東京都、埼玉県、千葉県、神奈川県に対応しています。`);
+        return;
+      }
+
       const targetStations = await loadStationCandidates(null);
       const nearest = findNearestStation(targetStations, lat, lon);
       const stationRegion = nearest ? getRegionFromPrefecture(nearest.station.prefecture) : null;
@@ -115,6 +131,8 @@ export function App() {
         setStations(await loadStations(nextRegion));
       }
 
+      setIsSelectionSupported(true);
+      setStationDistanceSource(nearest ? "map" : "manual");
       setForm((current) => ({
         ...current,
         prefecture: nextPrefecture || current.prefecture,
@@ -125,40 +143,66 @@ export function App() {
         lon
       }));
     } catch {
-      setStatus("地域または駅情報の取得に失敗しました。フォームを手入力してください");
+      setErrorMessage("地域または駅情報の取得に失敗しました。フォームを手入力してください");
     }
   }
 
-  async function handlePredict() {
+  useEffect(() => {
     if (!region) {
-      setStatus("未対応地域です");
+      setErrorMessage("未対応地域です");
       return;
     }
 
-    setIsPredicting(true);
-    setStatus("予測中です");
-
-    try {
-      const manager = getModelManager(region);
-      const predictionRequest = {
-        ...form,
-        stationDistance: Math.round(form.stationDistance)
-      };
-      const { result: nextResult, forecastPoints: nextForecastPoints } = await predictWithFutureTrend(
-        manager,
-        predictionRequest,
-        history
-      );
-      setResult(nextResult);
-      setForecastPoints(nextForecastPoints);
-      setStatus("予測しました");
-    } catch {
-      setResult(null);
-      setForecastPoints([]);
-      setStatus("価格予測に失敗しました");
-    } finally {
-      setIsPredicting(false);
+    if (!isSelectionSupported) {
+      return;
     }
+
+    if (!isModelReady) {
+      return;
+    }
+
+    let disposed = false;
+    setIsPredicting(true);
+    const timer = window.setTimeout(async () => {
+      try {
+        const manager = getModelManager(region);
+        const predictionRequest = {
+          ...form,
+          stationDistance: Math.round(form.stationDistance)
+        };
+        const { result: nextResult, forecastPoints: nextForecastPoints } = await predictWithFutureTrend(
+          manager,
+          predictionRequest,
+          history
+        );
+        if (!disposed) {
+          setResult(nextResult);
+          setForecastPoints(nextForecastPoints);
+          setErrorMessage("");
+          setIsPredicting(false);
+        }
+      } catch {
+        if (!disposed) {
+          setResult(null);
+          setForecastPoints([]);
+          setErrorMessage("価格予測に失敗しました");
+          setIsPredicting(false);
+        }
+      }
+    }, 250);
+
+    return () => {
+      disposed = true;
+      window.clearTimeout(timer);
+    };
+  }, [form, history, isModelReady, isSelectionSupported, region]);
+
+  function handleFormChange(nextForm: PredictionFormState) {
+    if (nextForm.stationDistance !== form.stationDistance) {
+      setStationDistanceSource("manual");
+    }
+    setIsSelectionSupported(true);
+    setForm(nextForm);
   }
 
   const stationOptions = stations.map((station) => station.station_name);
@@ -172,21 +216,33 @@ export function App() {
           <p className="eyebrow">Real Estate Price Prediction</p>
           <h1>不動産価格予測</h1>
         </div>
-        <p className="status">{status}</p>
       </header>
 
       {longRangeWarning ? <p className="warning">{longRangeWarning}</p> : null}
+      {errorMessage ? <p className="warning">{errorMessage}</p> : null}
 
       <div className="layout">
         <PropertyMap lat={form.lat} lon={form.lon} onSelect={handleMapSelect} />
         <PredictionForm
           value={form}
-          onChange={setForm}
-          onSubmit={handlePredict}
+          onChange={handleFormChange}
           stationOptions={stationOptions}
-          disabled={isPredicting}
+          stationDistanceSource={stationDistanceSource}
         />
-        <PredictionResultView result={result} />
+        <PredictionResultView
+          result={result}
+          isUpdating={isPredicting}
+          summary={
+            region
+              ? {
+                  station: form.station,
+                  stationDistance: Math.round(form.stationDistance),
+                  modelRegion: getPrefectureLabel(region),
+                  latestTrainingYear: metadata?.latestTrainingYear ?? null
+                }
+              : undefined
+          }
+        />
         <PriceHistoryChart points={chartPoints} />
       </div>
     </main>
@@ -204,19 +260,24 @@ function buildChartPoints(
   station: string,
   predictionYear: number
 ) {
-  const sortedHistory = [...history].sort((a, b) => a.year - b.year);
+  const sortedHistory = [...history]
+    .map((point) => ({ ...point, kind: "actual" as const }))
+    .sort((a, b) => a.year - b.year);
   if (!result) {
     return sortedHistory;
   }
 
   const existingYears = new Set(sortedHistory.map((point) => point.year));
-  const missingForecasts = forecastPoints.filter((point) => !existingYears.has(point.year));
+  const missingForecasts = forecastPoints
+    .filter((point) => !existingYears.has(point.year))
+    .map((point) => ({ ...point, kind: "forecast" as const }));
 
   if (!existingYears.has(predictionYear) && !missingForecasts.some((point) => point.year === predictionYear)) {
     missingForecasts.push({
       station,
       year: predictionYear,
-      avg_price: result.predictedPrice
+      avg_price: result.predictedPrice,
+      kind: "forecast"
     });
   }
 

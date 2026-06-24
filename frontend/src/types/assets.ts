@@ -30,4 +30,5 @@ export type PriceHistoryPoint = {
   station: string;
   year: number;
   avg_price: number;
+  kind?: "actual" | "forecast";
 };
