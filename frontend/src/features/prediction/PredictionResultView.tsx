@@ -3,6 +3,12 @@ import type { PredictionResult } from "../../types/prediction";
 type Props = {
   result: PredictionResult | null;
   isUpdating?: boolean;
+  summary?: {
+    station: string;
+    stationDistance: number;
+    modelRegion: string;
+    latestTrainingYear: number | null;
+  };
 };
 
 function formatYen(value: number): string {
@@ -13,7 +19,7 @@ function formatYen(value: number): string {
   }).format(value);
 }
 
-export function PredictionResultView({ result, isUpdating = false }: Props) {
+export function PredictionResultView({ result, isUpdating = false, summary }: Props) {
   if (!result) {
     return (
       <section className="panel result-panel">
@@ -45,6 +51,26 @@ export function PredictionResultView({ result, isUpdating = false }: Props) {
           </dd>
         </div>
       </dl>
+      {summary ? (
+        <dl className="result-summary">
+          <div>
+            <dt>最寄駅</dt>
+            <dd>{summary.station}</dd>
+          </div>
+          <div>
+            <dt>駅徒歩</dt>
+            <dd>{summary.stationDistance}分</dd>
+          </div>
+          <div>
+            <dt>利用モデル</dt>
+            <dd>{summary.modelRegion}</dd>
+          </div>
+          <div>
+            <dt>学習最終年</dt>
+            <dd>{summary.latestTrainingYear ?? "-"}</dd>
+          </div>
+        </dl>
+      ) : null}
     </section>
   );
 }

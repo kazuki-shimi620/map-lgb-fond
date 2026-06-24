@@ -223,7 +223,20 @@ export function App() {
           onChange={handleFormChange}
           stationOptions={stationOptions}
         />
-        <PredictionResultView result={result} isUpdating={isPredicting} />
+        <PredictionResultView
+          result={result}
+          isUpdating={isPredicting}
+          summary={
+            region
+              ? {
+                  station: form.station,
+                  stationDistance: Math.round(form.stationDistance),
+                  modelRegion: getPrefectureLabel(region),
+                  latestTrainingYear: metadata?.latestTrainingYear ?? null
+                }
+              : undefined
+          }
+        />
         <PriceHistoryChart points={chartPoints} />
       </div>
     </main>
