@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { PropertyMap } from "./features/map/PropertyMap";
 import { getModelManager } from "./features/model/modelManagerFactory";
 import { PriceHistoryChart } from "./features/prediction/PriceHistoryChart";
-import { PredictionForm } from "./features/prediction/PredictionForm";
+import { PredictionForm, PredictionYearControl } from "./features/prediction/PredictionForm";
 import { PredictionResultView } from "./features/prediction/PredictionResultView";
 import { reverseGeocode } from "./services/geocodingService";
 import { distanceKmToWalkingMinutes, findNearestStation, loadStations } from "./services/stationService";
@@ -36,6 +36,7 @@ export function App() {
   const [isPredicting, setIsPredicting] = useState(false);
   const [isSelectionSupported, setIsSelectionSupported] = useState(true);
   const [stationDistanceSource, setStationDistanceSource] = useState<"map" | "manual">("manual");
+  const [formSheetState, setFormSheetState] = useState<"collapsed" | "open">("collapsed");
   const [errorMessage, setErrorMessage] = useState("");
 
   const region = useMemo(() => getRegionFromPrefecture(form.prefecture), [form.prefecture]);
@@ -44,6 +45,13 @@ export function App() {
       ? "長期予測のため精度は保証できません"
       : "";
   const loadingMessage = !isModelReady && region ? "モデルを読み込んでいます" : isPredicting ? "予測を更新しています" : "";
+  const predictionYearRange = useMemo(
+    () => ({
+      min: metadata?.latestTrainingYear ?? new Date().getFullYear(),
+      max: (metadata?.latestTrainingYear ?? new Date().getFullYear()) + 10
+    }),
+    [metadata]
+  );
 
   useEffect(() => {
     if (!region) {
@@ -107,6 +115,7 @@ export function App() {
   }
 
   async function handleMapSelect(lat: number, lon: number) {
+    setFormSheetState("open");
     setForm((current) => ({ ...current, lat, lon }));
 
     try {
@@ -213,7 +222,8 @@ export function App() {
   return (
     <main className="app-shell">
       <header className="app-header">
-        <div>
+        <img className="app-icon app-icon-header" src="./app-icon.svg" alt="" aria-hidden="true" />
+        <div className="app-title">
           <p className="eyebrow">Real Estate Price Prediction</p>
           <h1>不動産価格予測</h1>
         </div>
@@ -228,13 +238,16 @@ export function App() {
         </div>
       ) : null}
 
-      <div className="layout">
+      <div className={`layout form-sheet-${formSheetState}`}>
         <PropertyMap lat={form.lat} lon={form.lon} onSelect={handleMapSelect} />
         <PredictionForm
           value={form}
           onChange={handleFormChange}
           stationOptions={stationOptions}
           stationDistanceSource={stationDistanceSource}
+          sheetState={formSheetState}
+          onSheetStateChange={setFormSheetState}
+          predictionYearRange={predictionYearRange}
         />
         <PredictionResultView
           result={result}
@@ -244,11 +257,25 @@ export function App() {
                   station: form.station,
                   stationDistance: Math.round(form.stationDistance),
                   modelRegion: getPrefectureLabel(region),
-                  latestTrainingYear: metadata?.latestTrainingYear ?? null
+                  latestTrainingYear: metadata?.latestTrainingYear ?? null,
+                  trainStartYear: metadata?.deployment?.trainStartYear ?? metadata?.evaluation?.trainStartYear ?? null,
+                  evaluationMae: metadata?.evaluation?.metrics.mae ?? metadata?.mae ?? null,
+                  evaluationRmse: metadata?.evaluation?.metrics.rmse ?? null,
+                  trainCount: metadata?.deployment?.trainCount ?? metadata?.evaluation?.trainCount ?? null,
+                  generatedAt: metadata?.generatedAt ?? null,
+                  featureImportance: metadata?.featureImportance ?? []
                 }
               : undefined
           }
         />
+        <section className="panel prediction-year-panel" aria-label="予測年シミュレーション">
+          <PredictionYearControl
+            className="desktop-prediction-year"
+            value={form.predictionYear}
+            onChange={(predictionYear) => handleFormChange({ ...form, predictionYear })}
+            predictionYearRange={predictionYearRange}
+          />
+        </section>
         <PriceHistoryChart points={chartPoints} />
       </div>
     </main>

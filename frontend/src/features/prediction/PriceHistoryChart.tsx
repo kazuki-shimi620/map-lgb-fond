@@ -17,9 +17,9 @@ export function PriceHistoryChart({ points }: Props) {
         <div className="chart-scroll">
           <div className="chart-canvas">
             <ResponsiveContainer width="100%" height={280}>
-              <LineChart data={chartData}>
-                <XAxis dataKey="year" />
-                <YAxis tickFormatter={(value) => `${Math.round(Number(value) / 10000)}万`} />
+              <LineChart data={chartData} margin={{ top: 12, right: 12, bottom: 8, left: 0 }}>
+                <XAxis dataKey="year" interval="preserveStartEnd" tickMargin={8} />
+                <YAxis width={46} tickFormatter={(value) => `${Math.round(Number(value) / 10000)}万`} />
                 <Tooltip formatter={(value) => `${Math.round(Number(value) / 10000)}万円`} />
                 <Legend />
                 <Line

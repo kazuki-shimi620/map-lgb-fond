@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import type { PredictionFormState } from "../../types/prediction";
 import { supportedPrefectures } from "../../utils/region";
 import { buildingTypes, roomLayouts } from "./constants";
@@ -7,15 +8,78 @@ type Props = {
   onChange: (next: PredictionFormState) => void;
   stationOptions: string[];
   stationDistanceSource?: "map" | "manual";
+  sheetState?: "collapsed" | "open";
+  onSheetStateChange?: (state: "collapsed" | "open") => void;
+  predictionYearRange?: {
+    min: number;
+    max: number;
+  };
 };
 
-export function PredictionForm({ value, onChange, stationOptions, stationDistanceSource = "manual" }: Props) {
+type PredictionYearControlProps = {
+  value: number;
+  onChange: (next: number) => void;
+  predictionYearRange?: {
+    min: number;
+    max: number;
+  };
+  className?: string;
+};
+
+export function PredictionForm({
+  value,
+  onChange,
+  stationOptions,
+  stationDistanceSource = "manual",
+  sheetState = "open",
+  onSheetStateChange,
+  predictionYearRange
+}: Props) {
+  const dragStartY = useRef<number | null>(null);
+  const suppressNextClick = useRef(false);
+
   function update<K extends keyof PredictionFormState>(key: K, nextValue: PredictionFormState[K]) {
     onChange({ ...value, [key]: nextValue });
   }
 
+  function handleDragStart(clientY: number) {
+    dragStartY.current = clientY;
+    suppressNextClick.current = false;
+  }
+
+  function handleDragEnd(clientY: number) {
+    if (dragStartY.current === null) {
+      return;
+    }
+    const deltaY = clientY - dragStartY.current;
+    dragStartY.current = null;
+    if (Math.abs(deltaY) < 24) {
+      return;
+    }
+    suppressNextClick.current = true;
+    onSheetStateChange?.(deltaY > 0 ? "collapsed" : "open");
+    window.setTimeout(() => {
+      suppressNextClick.current = false;
+    }, 0);
+  }
+
+  function handleHandleClick() {
+    if (suppressNextClick.current) {
+      return;
+    }
+    onSheetStateChange?.(sheetState === "open" ? "collapsed" : "open");
+  }
+
   return (
-    <section className="panel form-grid">
+    <section className={`panel form-panel form-grid sheet-${sheetState}`}>
+      <button
+        type="button"
+        className="sheet-handle"
+        aria-label={sheetState === "open" ? "条件入力フォームを下げる" : "条件入力フォームを上げる"}
+        onClick={handleHandleClick}
+        onPointerDown={(event) => handleDragStart(event.clientY)}
+        onPointerUp={(event) => handleDragEnd(event.clientY)}
+      />
       <label>
         都道府県
         <select value={value.prefecture} onChange={(event) => update("prefecture", event.target.value)}>
@@ -98,15 +162,51 @@ export function PredictionForm({ value, onChange, stationOptions, stationDistanc
         </select>
       </label>
 
-      <label>
-        予測年
-        <input
-          type="number"
-          min="1990"
-          value={value.predictionYear}
-          onChange={(event) => update("predictionYear", Number(event.target.value))}
-        />
-      </label>
+      <PredictionYearControl
+        className="form-prediction-year"
+        value={value.predictionYear}
+        onChange={(nextValue) => update("predictionYear", nextValue)}
+        predictionYearRange={predictionYearRange}
+      />
     </section>
+  );
+}
+
+export function PredictionYearControl({
+  value,
+  onChange,
+  predictionYearRange,
+  className = ""
+}: PredictionYearControlProps) {
+  return (
+    <label className={`prediction-year-field ${className}`}>
+      <span className="field-heading">
+        予測年
+        <strong>{value}年</strong>
+      </span>
+      {predictionYearRange ? (
+        <>
+          <input
+            type="range"
+            min={predictionYearRange.min}
+            max={predictionYearRange.max}
+            step="1"
+            value={value}
+            onChange={(event) => onChange(Number(event.target.value))}
+          />
+          <span className="year-scale">
+            <span>{predictionYearRange.min}</span>
+            <span>{predictionYearRange.max}</span>
+          </span>
+        </>
+      ) : null}
+      <input
+        type="number"
+        min={predictionYearRange?.min ?? 1990}
+        max={predictionYearRange?.max}
+        value={value}
+        onChange={(event) => onChange(Number(event.target.value))}
+      />
+    </label>
   );
 }

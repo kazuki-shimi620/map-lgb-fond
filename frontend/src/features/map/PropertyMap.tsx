@@ -51,6 +51,19 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
   const [searchStatus, setSearchStatus] = useState("");
   const [isSearching, setIsSearching] = useState(false);
 
+  useEffect(() => {
+    if (!searchStatus) {
+      return;
+    }
+    const timer = window.setTimeout(() => setSearchStatus(""), 3000);
+    return () => window.clearTimeout(timer);
+  }, [searchStatus]);
+
+  function handleMapSelect(nextLat: number, nextLon: number) {
+    setSearchStatus("");
+    onSelect(nextLat, nextLon);
+  }
+
   async function handleSearch(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const trimmedQuery = query.trim();
@@ -68,7 +81,8 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
         return;
       }
       setSearchCenter([result.lat, result.lon]);
-      setSearchStatus("地図上をクリックして位置を確定してください");
+      onSelect(result.lat, result.lon);
+      setSearchStatus("検索した位置にピンを設定しました");
     } catch {
       setSearchStatus("検索に失敗しました");
     } finally {
@@ -77,13 +91,13 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
   }
 
   return (
-    <section className="panel map-panel">
-      <h2>地図</h2>
+    <section className="panel map-panel" aria-label="地図">
       <div className="map-frame">
+        <img className="app-icon map-app-icon" src="./app-icon.svg" alt="" aria-hidden="true" />
         <form className="map-search" onSubmit={handleSearch}>
           <input
             aria-label="地図検索"
-            placeholder="地名を検索"
+            placeholder="駅名・住所を入力 例: 大宮駅、那覇市"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
           />
@@ -98,7 +112,7 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
           <MapMover center={searchCenter} />
-          <ClickHandler onSelect={onSelect} />
+          <ClickHandler onSelect={handleMapSelect} />
           {lat !== null && lon !== null ? <Marker icon={propertyMarkerIcon} position={[lat, lon]} /> : null}
         </MapContainer>
       </div>
