@@ -32,8 +32,8 @@ export function App() {
   const [history, setHistory] = useState<PriceHistoryPoint[]>([]);
   const [stations, setStations] = useState<StationRecord[]>([]);
   const [metadata, setMetadata] = useState<ModelMetadata | null>(null);
-  const [status, setStatus] = useState("モデルとメタデータを読み込んでいます");
-  const [isPredicting, setIsPredicting] = useState(false);
+  const [isModelReady, setIsModelReady] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const region = useMemo(() => getRegionFromPrefecture(form.prefecture), [form.prefecture]);
   const longRangeWarning =
@@ -43,13 +43,16 @@ export function App() {
 
   useEffect(() => {
     if (!region) {
-      setStatus("未対応地域です");
+      setIsModelReady(false);
+      setErrorMessage("未対応地域です");
       return;
     }
 
     const currentRegion = region;
     let disposed = false;
     const manager = getModelManager(currentRegion);
+    setIsModelReady(false);
+    setErrorMessage("");
 
     async function loadRegionAssets() {
       try {
@@ -63,7 +66,7 @@ export function App() {
         }
       } catch {
         if (!disposed) {
-          setStatus("駅マスタまたは価格推移データを読み込めませんでした");
+          setErrorMessage("駅マスタまたは価格推移データを読み込めませんでした");
         }
       }
 
@@ -71,12 +74,13 @@ export function App() {
         await manager.loadAll();
         if (!disposed) {
           setMetadata(manager.getMetadata());
-          setStatus(manager.isFallbackMode() ? "サンプル予測できます" : "予測できます");
+          setIsModelReady(true);
         }
       } catch {
         if (!disposed) {
           setMetadata(manager.getMetadata());
-          setStatus("モデルの読み込みに失敗しました");
+          setIsModelReady(false);
+          setErrorMessage("モデルの読み込みに失敗しました");
         }
       }
     }
@@ -125,41 +129,52 @@ export function App() {
         lon
       }));
     } catch {
-      setStatus("地域または駅情報の取得に失敗しました。フォームを手入力してください");
+      setErrorMessage("地域または駅情報の取得に失敗しました。フォームを手入力してください");
     }
   }
 
-  async function handlePredict() {
+  useEffect(() => {
     if (!region) {
-      setStatus("未対応地域です");
+      setErrorMessage("未対応地域です");
       return;
     }
 
-    setIsPredicting(true);
-    setStatus("予測中です");
-
-    try {
-      const manager = getModelManager(region);
-      const predictionRequest = {
-        ...form,
-        stationDistance: Math.round(form.stationDistance)
-      };
-      const { result: nextResult, forecastPoints: nextForecastPoints } = await predictWithFutureTrend(
-        manager,
-        predictionRequest,
-        history
-      );
-      setResult(nextResult);
-      setForecastPoints(nextForecastPoints);
-      setStatus("予測しました");
-    } catch {
-      setResult(null);
-      setForecastPoints([]);
-      setStatus("価格予測に失敗しました");
-    } finally {
-      setIsPredicting(false);
+    if (!isModelReady) {
+      return;
     }
-  }
+
+    let disposed = false;
+    const timer = window.setTimeout(async () => {
+      try {
+        const manager = getModelManager(region);
+        const predictionRequest = {
+          ...form,
+          stationDistance: Math.round(form.stationDistance)
+        };
+        const { result: nextResult, forecastPoints: nextForecastPoints } = await predictWithFutureTrend(
+          manager,
+          predictionRequest,
+          history
+        );
+        if (!disposed) {
+          setResult(nextResult);
+          setForecastPoints(nextForecastPoints);
+          setErrorMessage("");
+        }
+      } catch {
+        if (!disposed) {
+          setResult(null);
+          setForecastPoints([]);
+          setErrorMessage("価格予測に失敗しました");
+        }
+      }
+    }, 250);
+
+    return () => {
+      disposed = true;
+      window.clearTimeout(timer);
+    };
+  }, [form, history, isModelReady, region]);
 
   const stationOptions = stations.map((station) => station.station_name);
   const visibleHistory = history.filter((point) => point.station === form.station);
@@ -172,19 +187,17 @@ export function App() {
           <p className="eyebrow">Real Estate Price Prediction</p>
           <h1>不動産価格予測</h1>
         </div>
-        <p className="status">{status}</p>
       </header>
 
       {longRangeWarning ? <p className="warning">{longRangeWarning}</p> : null}
+      {errorMessage ? <p className="warning">{errorMessage}</p> : null}
 
       <div className="layout">
         <PropertyMap lat={form.lat} lon={form.lon} onSelect={handleMapSelect} />
         <PredictionForm
           value={form}
           onChange={setForm}
-          onSubmit={handlePredict}
           stationOptions={stationOptions}
-          disabled={isPredicting}
         />
         <PredictionResultView result={result} />
         <PriceHistoryChart points={chartPoints} />

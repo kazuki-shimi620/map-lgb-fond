@@ -1,4 +1,3 @@
-import type { FormEvent } from "react";
 import type { PredictionFormState } from "../../types/prediction";
 import { supportedPrefectures } from "../../utils/region";
 import { buildingTypes, roomLayouts } from "./constants";
@@ -6,23 +5,16 @@ import { buildingTypes, roomLayouts } from "./constants";
 type Props = {
   value: PredictionFormState;
   onChange: (next: PredictionFormState) => void;
-  onSubmit: () => void;
   stationOptions: string[];
-  disabled?: boolean;
 };
 
-export function PredictionForm({ value, onChange, onSubmit, stationOptions, disabled = false }: Props) {
+export function PredictionForm({ value, onChange, stationOptions }: Props) {
   function update<K extends keyof PredictionFormState>(key: K, nextValue: PredictionFormState[K]) {
     onChange({ ...value, [key]: nextValue });
   }
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    onSubmit();
-  }
-
   return (
-    <form className="panel form-grid" onSubmit={handleSubmit}>
+    <section className="panel form-grid">
       <label>
         都道府県
         <select value={value.prefecture} onChange={(event) => update("prefecture", event.target.value)}>
@@ -111,10 +103,6 @@ export function PredictionForm({ value, onChange, onSubmit, stationOptions, disa
           onChange={(event) => update("predictionYear", Number(event.target.value))}
         />
       </label>
-
-      <button className="primary-action" type="submit" disabled={disabled}>
-        予測
-      </button>
-    </form>
+    </section>
   );
 }
