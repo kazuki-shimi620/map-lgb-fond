@@ -19,7 +19,7 @@ const initialForm: PredictionFormState = {
   age: 15,
   stationDistance: 8,
   roomLayout: "2LDK",
-  buildingType: "RC",
+  buildingType: "ＲＣ",
   predictionYear: new Date().getFullYear(),
   lat: null,
   lon: null
