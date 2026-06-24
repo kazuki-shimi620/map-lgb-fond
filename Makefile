@@ -9,6 +9,7 @@ DB_PATH := db/experiments.db
 RAW_INPUT ?= data/raw/$(REGION)_$(YEAR)_xit001.json
 RAW_INPUTS ?= data/raw/mlit_$(REGION)_2020.zip data/raw/mlit_$(REGION)_2021.zip data/raw/mlit_$(REGION)_2022.zip data/raw/mlit_$(REGION)_2023.zip data/raw/mlit_$(REGION)_2024.zip data/raw/mlit_$(REGION)_2025.zip
 PROCESSED_OUTPUT ?= data/processed/$(REGION).parquet
+PUBLISH_POLICY ?= best
 
 .PHONY: help setup setup-frontend setup-training dev build preview verify python-check init-db collect preprocess preprocess-zip train train-all stations
 
@@ -35,6 +36,8 @@ help:
 	@echo "                          2020〜2025年のZIPをまとめて前処理"
 	@echo "  make train REGION=tokyo 指定地域のモデルを再学習"
 	@echo "  make train-all          4地域のモデルを再学習"
+	@echo "  make train-all PUBLISH_POLICY=latest"
+	@echo "                          MAEベスト判定に関係なく最新学習モデルをpublicへ反映"
 	@echo "  make stations           駅マスタJSONを再生成"
 	@echo ""
 	@echo "Verify:"
@@ -76,10 +79,10 @@ preprocess-zip:
 	cd $(TRAINING_DIR) && uv run python src/preprocess/preprocess.py --input $(RAW_INPUTS) --output $(PROCESSED_OUTPUT)
 
 train:
-	cd $(TRAINING_DIR) && uv run python src/train/train.py --config configs/$(REGION).yaml --db-path $(DB_PATH) --export-onnx
+	cd $(TRAINING_DIR) && uv run python src/train/train.py --config configs/$(REGION).yaml --db-path $(DB_PATH) --export-onnx --publish-policy $(PUBLISH_POLICY)
 
 train-all:
-	$(TRAINING_DIR)/scripts/train_all_models.sh
+	PUBLISH_POLICY=$(PUBLISH_POLICY) $(TRAINING_DIR)/scripts/train_all_models.sh
 
 stations:
 	cd $(TRAINING_DIR) && uv run python -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public --regions $(REGIONS)

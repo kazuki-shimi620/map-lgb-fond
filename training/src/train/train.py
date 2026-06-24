@@ -39,6 +39,7 @@ def main() -> int:
     parser.add_argument("--config", required=True)
     parser.add_argument("--export-onnx", action="store_true")
     parser.add_argument("--db-path", default="db/experiments.db")
+    parser.add_argument("--publish-policy", choices=["best", "latest"], default="best")
     args = parser.parse_args()
 
     config = load_config(args.config)
@@ -132,13 +133,15 @@ def main() -> int:
                 onnx_path=str(paths["onnx"]) if paths["onnx"].exists() else None,
                 mae=metrics["mae"],
             )
-            if is_latest:
+            should_publish = is_latest or args.publish_policy == "latest"
+            if should_publish:
                 copy_for_frontend(paths, config.frontend_public_dir, config.region)
             print(
                 f"success train: {config.region} split={split_name} "
                 f"train={len(train_x)} test={len(test_x)} deploy_train={len(deployment_x)} "
                 f"tuning_trials={tuning_result['trials'] if tuning_result else 0} "
-                f"mae={metrics['mae']:.2f}"
+                f"mae={metrics['mae']:.2f} publish_policy={args.publish_policy} "
+                f"published={should_publish}"
             )
             return 0
         except Exception:

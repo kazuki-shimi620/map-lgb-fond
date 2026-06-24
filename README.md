@@ -90,6 +90,12 @@ ZIPで取得した場合は、複数年をまとめて前処理できる。
 make preprocess-zip REGION=tokyo
 ```
 
+評価MAEが過去ベストより少し悪くても、軽量化した最新モデルをブラウザ配布用に反映したい場合は `PUBLISH_POLICY=latest` を指定する。
+
+```bash
+make train-all PUBLISH_POLICY=latest
+```
+
 国交省データは不動産情報ライブラリから取得する。
 
 ```text

@@ -1,7 +1,7 @@
 {
   "region": "saitama",
   "modelName": "saitama_latest",
-  "mae": 4189633.3648141082,
+  "mae": 4230211.879778074,
   "latestTrainingYear": 2025,
   "featureOrder": [
     "area",
@@ -21,9 +21,9 @@
     "trainCount": 29369,
     "testCount": 7276,
     "metrics": {
-      "mae": 4189633.3648141082,
-      "rmse": 5633665.7813863475,
-      "mape": 22.495367385884737
+      "mae": 4230211.879778074,
+      "rmse": 5668289.300623735,
+      "mape": 22.673626471772927
     }
   },
   "deployment": {
@@ -34,23 +34,28 @@
   },
   "modelParams": {
     "objective": "regression",
-    "n_estimators": 1598,
-    "learning_rate": 0.01245454815155204,
+    "n_estimators": 418,
+    "learning_rate": 0.06951994333848356,
     "random_state": 42,
     "verbosity": -1,
-    "num_leaves": 104,
-    "max_depth": 7,
-    "min_child_samples": 49,
-    "subsample": 0.8747842445171136,
-    "colsample_bytree": 0.6319244754169602,
-    "reg_alpha": 0.7271073260112849,
-    "reg_lambda": 1.7647954381216207e-07
+    "num_leaves": 20,
+    "max_depth": 6,
+    "min_child_samples": 87,
+    "subsample": 0.8911734103353607,
+    "colsample_bytree": 0.6089592526342728,
+    "reg_alpha": 6.029818575378643e-07,
+    "reg_lambda": 0.06122098334462181
   },
   "tuning": {
     "enabled": true,
     "nTrials": 30,
     "completedTrials": 30,
     "validationYear": 2024,
-    "bestValidationMae": 4148880.2800718513
+    "bestValidationMae": 4151386.30936454,
+    "bestTuningScore": 4234986.3093645405,
+    "maxEstimators": 1000,
+    "numLeavesMax": 96,
+    "maxDepthMax": 10,
+    "sizePenaltyPerIteration": 200.0
   }
 }

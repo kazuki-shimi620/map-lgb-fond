@@ -1,7 +1,7 @@
 {
   "region": "tokyo",
   "modelName": "tokyo_latest",
-  "mae": 7369688.762319594,
+  "mae": 7386067.341281644,
   "latestTrainingYear": 2025,
   "featureOrder": [
     "area",
@@ -21,9 +21,9 @@
     "trainCount": 156436,
     "testCount": 35487,
     "metrics": {
-      "mae": 7369688.762319594,
-      "rmse": 10570119.530571679,
-      "mape": 17.15160784087606
+      "mae": 7386067.341281644,
+      "rmse": 10572906.105285898,
+      "mape": 17.286215829623362
     }
   },
   "deployment": {
@@ -34,23 +34,28 @@
   },
   "modelParams": {
     "objective": "regression",
-    "n_estimators": 2000,
-    "learning_rate": 0.010118368591022685,
+    "n_estimators": 475,
+    "learning_rate": 0.07140097115313421,
     "random_state": 42,
     "verbosity": -1,
-    "num_leaves": 204,
-    "max_depth": 12,
-    "min_child_samples": 25,
-    "subsample": 0.796846552403008,
-    "colsample_bytree": 0.6133599185940627,
-    "reg_alpha": 2.6729058382091767e-08,
-    "reg_lambda": 0.03395806321214035
+    "num_leaves": 69,
+    "max_depth": 8,
+    "min_child_samples": 72,
+    "subsample": 0.708778576993277,
+    "colsample_bytree": 0.787217021549209,
+    "reg_alpha": 0.00011561217176656156,
+    "reg_lambda": 0.08289625886107502
   },
   "tuning": {
     "enabled": true,
     "nTrials": 30,
     "completedTrials": 30,
     "validationYear": 2024,
-    "bestValidationMae": 6553716.247666953
+    "bestValidationMae": 6583044.819908666,
+    "bestTuningScore": 6701794.819908666,
+    "maxEstimators": 800,
+    "numLeavesMax": 80,
+    "maxDepthMax": 9,
+    "sizePenaltyPerIteration": 250.0
   }
 }

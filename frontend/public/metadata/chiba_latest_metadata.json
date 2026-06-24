@@ -1,7 +1,7 @@
 {
   "region": "chiba",
   "modelName": "chiba_latest",
-  "mae": 4346413.787983854,
+  "mae": 4379847.194334845,
   "latestTrainingYear": 2025,
   "featureOrder": [
     "area",
@@ -21,9 +21,9 @@
     "trainCount": 29406,
     "testCount": 7205,
     "metrics": {
-      "mae": 4346413.787983854,
-      "rmse": 5922447.77532467,
-      "mape": 30.257421173309996
+      "mae": 4379847.194334845,
+      "rmse": 5962523.8756811675,
+      "mape": 30.243467815156087
     }
   },
   "deployment": {
@@ -34,23 +34,28 @@
   },
   "modelParams": {
     "objective": "regression",
-    "n_estimators": 1997,
-    "learning_rate": 0.014352334699743936,
+    "n_estimators": 457,
+    "learning_rate": 0.0703035373395423,
     "random_state": 42,
     "verbosity": -1,
-    "num_leaves": 82,
-    "max_depth": 11,
-    "min_child_samples": 146,
-    "subsample": 0.6387998966273642,
-    "colsample_bytree": 0.6833820538603089,
-    "reg_alpha": 0.12281805825685585,
-    "reg_lambda": 8.079009540532718
+    "num_leaves": 32,
+    "max_depth": 8,
+    "min_child_samples": 112,
+    "subsample": 0.6455851296029129,
+    "colsample_bytree": 0.7459641039580962,
+    "reg_alpha": 1.3772319828017492e-05,
+    "reg_lambda": 7.457195913797255e-08
   },
   "tuning": {
     "enabled": true,
     "nTrials": 30,
     "completedTrials": 30,
     "validationYear": 2024,
-    "bestValidationMae": 4223394.465863619
+    "bestValidationMae": 4244387.309754057,
+    "bestTuningScore": 4335787.309754057,
+    "maxEstimators": 1000,
+    "numLeavesMax": 96,
+    "maxDepthMax": 10,
+    "sizePenaltyPerIteration": 200.0
   }
 }
