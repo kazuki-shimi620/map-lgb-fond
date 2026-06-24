@@ -68,7 +68,7 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
         return;
       }
       setSearchCenter([result.lat, result.lon]);
-      setSearchStatus("");
+      setSearchStatus("地図上をクリックして位置を確定してください");
     } catch {
       setSearchStatus("検索に失敗しました");
     } finally {
