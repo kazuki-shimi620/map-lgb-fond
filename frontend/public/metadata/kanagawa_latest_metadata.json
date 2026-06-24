@@ -1,7 +1,7 @@
 {
   "region": "kanagawa",
   "modelName": "kanagawa_latest",
-  "mae": 5570806.435084475,
+  "mae": 5451862.033034212,
   "latestTrainingYear": 2025,
   "featureOrder": [
     "area",
@@ -13,5 +13,44 @@
     "room_layout",
     "building_type",
     "transaction_year"
-  ]
+  ],
+  "evaluation": {
+    "split": "time_holdout",
+    "trainStartYear": 2020,
+    "testYear": 2025,
+    "trainCount": 61561,
+    "testCount": 15445,
+    "metrics": {
+      "mae": 5451862.033034212,
+      "rmse": 7293501.6033361405,
+      "mape": 23.341467049188267
+    }
+  },
+  "deployment": {
+    "trainStartYear": 2020,
+    "latestTrainingYear": 2025,
+    "trainCount": 77006,
+    "trainedWithAllAvailableRows": true
+  },
+  "modelParams": {
+    "objective": "regression",
+    "n_estimators": 1511,
+    "learning_rate": 0.057326506105239254,
+    "random_state": 42,
+    "verbosity": -1,
+    "num_leaves": 30,
+    "max_depth": 7,
+    "min_child_samples": 100,
+    "subsample": 0.6338146751619684,
+    "colsample_bytree": 0.794112538289762,
+    "reg_alpha": 3.717256431581076e-08,
+    "reg_lambda": 0.03582433962132275
+  },
+  "tuning": {
+    "enabled": true,
+    "nTrials": 30,
+    "completedTrials": 30,
+    "validationYear": 2024,
+    "bestValidationMae": 5220747.52337117
+  }
 }

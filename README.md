@@ -28,6 +28,13 @@ npm install
 npm run dev
 ```
 
+Makefile を使う場合:
+
+```bash
+make setup
+make dev
+```
+
 実モデルのONNXが未配置でも、開発用メタデータがある地域ではサンプル予測で画面フローを確認できる。
 
 ## GitHub Pages
@@ -70,26 +77,17 @@ npm run preview
 ## 学習
 
 ```bash
-cd training
-uv sync
-uv run python src/experiment/init_db.py --db-path db/experiments.db
-REINFOLIB_API_KEY=... uv run python src/collect/collect.py --region tokyo --year 2025 --output-dir data/raw
-uv run python src/preprocess/preprocess.py --input data/raw/tokyo_2025_xit001.json --output data/processed/tokyo.parquet
-uv run python src/train/train.py --config configs/tokyo.yaml --db-path db/experiments.db --export-onnx
+make setup-training
+make init-db
+REINFOLIB_API_KEY=... make collect REGION=tokyo YEAR=2025
+make preprocess REGION=tokyo YEAR=2025
+make train REGION=tokyo
 ```
 
 ZIPで取得した場合は、複数年をまとめて前処理できる。
 
 ```bash
-uv run python src/preprocess/preprocess.py \
-  --input \
-    data/raw/mlit_tokyo_2020.zip \
-    data/raw/mlit_tokyo_2021.zip \
-    data/raw/mlit_tokyo_2022.zip \
-    data/raw/mlit_tokyo_2023.zip \
-    data/raw/mlit_tokyo_2024.zip \
-    data/raw/mlit_tokyo_2025.zip \
-  --output data/processed/tokyo.parquet
+make preprocess-zip REGION=tokyo
 ```
 
 国交省データは不動産情報ライブラリから取得する。
@@ -101,3 +99,9 @@ https://www.reinfolib.mlit.go.jp/realEstatePrices/
 APIキーがない場合、collect処理は安全にスキップする。
 
 APIキーは `training/.env.example` を参考に `REINFOLIB_API_KEY` として設定する。
+
+利用できるコマンドは以下で確認できる。
+
+```bash
+make help
+```

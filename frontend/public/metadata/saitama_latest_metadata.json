@@ -1,7 +1,7 @@
 {
   "region": "saitama",
   "modelName": "saitama_latest",
-  "mae": 4265487.9638189655,
+  "mae": 4189633.3648141082,
   "latestTrainingYear": 2025,
   "featureOrder": [
     "area",
@@ -13,5 +13,44 @@
     "room_layout",
     "building_type",
     "transaction_year"
-  ]
+  ],
+  "evaluation": {
+    "split": "time_holdout",
+    "trainStartYear": 2020,
+    "testYear": 2025,
+    "trainCount": 29369,
+    "testCount": 7276,
+    "metrics": {
+      "mae": 4189633.3648141082,
+      "rmse": 5633665.7813863475,
+      "mape": 22.495367385884737
+    }
+  },
+  "deployment": {
+    "trainStartYear": 2020,
+    "latestTrainingYear": 2025,
+    "trainCount": 36645,
+    "trainedWithAllAvailableRows": true
+  },
+  "modelParams": {
+    "objective": "regression",
+    "n_estimators": 1598,
+    "learning_rate": 0.01245454815155204,
+    "random_state": 42,
+    "verbosity": -1,
+    "num_leaves": 104,
+    "max_depth": 7,
+    "min_child_samples": 49,
+    "subsample": 0.8747842445171136,
+    "colsample_bytree": 0.6319244754169602,
+    "reg_alpha": 0.7271073260112849,
+    "reg_lambda": 1.7647954381216207e-07
+  },
+  "tuning": {
+    "enabled": true,
+    "nTrials": 30,
+    "completedTrials": 30,
+    "validationYear": 2024,
+    "bestValidationMae": 4148880.2800718513
+  }
 }
