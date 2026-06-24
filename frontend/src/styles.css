@@ -251,13 +251,18 @@ h2 {
   display: none;
 }
 
-label {
+label,
+.form-field {
   display: grid;
   gap: 6px;
   color: #344054;
   font-size: 13px;
   min-height: 82px;
   align-content: start;
+}
+
+.custom-select-field {
+  position: relative;
 }
 
 .field-note {
@@ -336,6 +341,111 @@ select {
   padding: 8px 10px;
   background: #fff;
   color: #172033;
+}
+
+.custom-select-trigger {
+  display: flex;
+  width: 100%;
+  min-height: 44px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid #c9d2df;
+  border-radius: 6px;
+  background: #fff;
+  padding: 8px 10px;
+  color: #172033;
+  cursor: pointer;
+  text-align: left;
+}
+
+.custom-select-trigger:hover {
+  border-color: #9fb9b6;
+  background: #fbfefd;
+}
+
+.custom-select-trigger[aria-expanded="true"] {
+  border-color: #0f766e;
+}
+
+.custom-select-chevron {
+  width: 9px;
+  height: 9px;
+  flex: 0 0 auto;
+  border-right: 2px solid #344054;
+  border-bottom: 2px solid #344054;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 160ms ease;
+}
+
+.custom-select-trigger[aria-expanded="true"] .custom-select-chevron {
+  transform: rotate(225deg) translate(-2px, -1px);
+}
+
+.custom-select-menu {
+  position: absolute;
+  z-index: 80;
+  top: calc(100% - 26px);
+  left: 0;
+  right: 0;
+  display: grid;
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid #c9d2df;
+  border-radius: 8px;
+  background: #fff;
+  padding: 4px;
+  box-shadow: 0 18px 34px rgb(15 23 42 / 14%);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-6px);
+  transition:
+    opacity 140ms ease,
+    transform 140ms ease;
+}
+
+.custom-select-menu.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.custom-select-menu button {
+  min-height: 38px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  padding: 8px 10px;
+  color: #172033;
+  cursor: pointer;
+  text-align: left;
+}
+
+.custom-select-menu button:hover,
+.custom-select-menu button:focus-visible {
+  background: #eaf7f5;
+  outline: 0;
+}
+
+.custom-select-menu button.is-selected {
+  background: #d9f2ee;
+  color: #0f766e;
+  font-weight: 700;
+}
+
+@media (min-width: 761px) {
+  input:focus-visible,
+  select:focus-visible,
+  .custom-select-trigger:focus-visible,
+  .detail-toggle:focus-visible,
+  .map-search button:focus-visible,
+  .map-search input:focus-visible {
+    border-color: #0f766e;
+    outline: 0;
+    box-shadow:
+      0 0 0 2px #ffffff,
+      0 0 0 8px rgb(45 189 179 / 22%);
+  }
 }
 
 .primary-action {
@@ -437,9 +547,42 @@ select {
 .result-detail {
   display: grid;
   gap: 14px;
+  max-height: 0;
+  margin-top: 0;
+  overflow: hidden;
+  border-top: 1px solid transparent;
+  padding-top: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-6px);
+  visibility: hidden;
+  transition:
+    max-height 240ms ease,
+    margin-top 180ms ease,
+    border-color 180ms ease,
+    padding-top 180ms ease,
+    opacity 180ms ease,
+    transform 180ms ease,
+    visibility 0s linear 240ms;
+}
+
+.result-detail.is-open {
+  max-height: 820px;
   margin-top: 14px;
-  border-top: 1px solid #e5eaf2;
+  border-top-color: #e5eaf2;
   padding-top: 14px;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+  visibility: visible;
+  transition:
+    max-height 260ms ease,
+    margin-top 180ms ease,
+    border-color 180ms ease,
+    padding-top 180ms ease,
+    opacity 180ms ease,
+    transform 180ms ease,
+    visibility 0s linear 0s;
 }
 
 .detail-section {
@@ -670,7 +813,8 @@ dd {
     overflow: hidden;
   }
 
-  .form-panel.sheet-collapsed label {
+  .form-panel.sheet-collapsed label,
+  .form-panel.sheet-collapsed .form-field {
     pointer-events: none;
   }
 
@@ -697,7 +841,8 @@ dd {
     cursor: grabbing;
   }
 
-  label {
+  label,
+  .form-field {
     gap: 5px;
     font-size: 12px;
     min-height: 82px;

@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useId, useRef, useState, type KeyboardEvent } from "react";
 import type { PredictionFormState } from "../../types/prediction";
 import { supportedPrefectures } from "../../utils/region";
 import { buildingTypes, roomLayouts } from "./constants";
@@ -24,6 +24,13 @@ type PredictionYearControlProps = {
     max: number;
   };
   className?: string;
+};
+
+type SelectFieldProps = {
+  label: string;
+  value: string;
+  options: string[];
+  onChange: (nextValue: string) => void;
 };
 
 export function PredictionForm({
@@ -80,16 +87,12 @@ export function PredictionForm({
         onPointerDown={(event) => handleDragStart(event.clientY)}
         onPointerUp={(event) => handleDragEnd(event.clientY)}
       />
-      <label>
-        都道府県
-        <select value={value.prefecture} onChange={(event) => update("prefecture", event.target.value)}>
-          {supportedPrefectures.map((prefecture) => (
-            <option key={prefecture} value={prefecture}>
-              {prefecture}
-            </option>
-          ))}
-        </select>
-      </label>
+      <SelectField
+        label="都道府県"
+        value={value.prefecture}
+        options={supportedPrefectures}
+        onChange={(nextValue) => update("prefecture", nextValue)}
+      />
 
       <label>
         市区町村
@@ -140,27 +143,19 @@ export function PredictionForm({
         </span>
       </label>
 
-      <label>
-        間取り
-        <select value={value.roomLayout} onChange={(event) => update("roomLayout", event.target.value)}>
-          {roomLayouts.map((layout) => (
-            <option key={layout} value={layout}>
-              {layout}
-            </option>
-          ))}
-        </select>
-      </label>
+      <SelectField
+        label="間取り"
+        value={value.roomLayout}
+        options={roomLayouts}
+        onChange={(nextValue) => update("roomLayout", nextValue)}
+      />
 
-      <label>
-        建物構造
-        <select value={value.buildingType} onChange={(event) => update("buildingType", event.target.value)}>
-          {buildingTypes.map((buildingType) => (
-            <option key={buildingType} value={buildingType}>
-              {buildingType}
-            </option>
-          ))}
-        </select>
-      </label>
+      <SelectField
+        label="建物構造"
+        value={value.buildingType}
+        options={buildingTypes}
+        onChange={(nextValue) => update("buildingType", nextValue)}
+      />
 
       <PredictionYearControl
         className="form-prediction-year"
@@ -208,5 +203,84 @@ export function PredictionYearControl({
         onChange={(event) => onChange(Number(event.target.value))}
       />
     </label>
+  );
+}
+
+function SelectField({ label, value, options, onChange }: SelectFieldProps) {
+  const [isOpen, setIsOpen] = useState(false);
+  const fieldRef = useRef<HTMLDivElement | null>(null);
+  const listboxId = useId();
+
+  useEffect(() => {
+    if (!isOpen) {
+      return;
+    }
+
+    function handlePointerDown(event: PointerEvent) {
+      if (!fieldRef.current?.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    }
+
+    document.addEventListener("pointerdown", handlePointerDown);
+    return () => document.removeEventListener("pointerdown", handlePointerDown);
+  }, [isOpen]);
+
+  function commitValue(nextValue: string) {
+    onChange(nextValue);
+    setIsOpen(false);
+  }
+
+  function handleKeyDown(event: KeyboardEvent<HTMLButtonElement>) {
+    const currentIndex = Math.max(0, options.indexOf(value));
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      commitValue(options[Math.min(options.length - 1, currentIndex + 1)]);
+    }
+    if (event.key === "ArrowUp") {
+      event.preventDefault();
+      commitValue(options[Math.max(0, currentIndex - 1)]);
+    }
+    if (event.key === "Escape") {
+      setIsOpen(false);
+    }
+  }
+
+  return (
+    <div className="form-field custom-select-field" ref={fieldRef}>
+      <span>{label}</span>
+      <button
+        type="button"
+        className="custom-select-trigger"
+        aria-haspopup="listbox"
+        aria-expanded={isOpen}
+        aria-controls={listboxId}
+        onClick={() => setIsOpen((current) => !current)}
+        onKeyDown={handleKeyDown}
+      >
+        <span>{value}</span>
+        <span className="custom-select-chevron" aria-hidden="true" />
+      </button>
+      <div
+        className={`custom-select-menu ${isOpen ? "is-open" : ""}`}
+        id={listboxId}
+        role="listbox"
+        aria-hidden={!isOpen}
+      >
+        {options.map((option) => (
+          <button
+            key={option}
+            type="button"
+            className={option === value ? "is-selected" : ""}
+            role="option"
+            aria-selected={option === value}
+            tabIndex={isOpen ? 0 : -1}
+            onClick={() => commitValue(option)}
+          >
+            {option}
+          </button>
+        ))}
+      </div>
+    </div>
   );
 }
