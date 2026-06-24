@@ -33,6 +33,7 @@ export function App() {
   const [stations, setStations] = useState<StationRecord[]>([]);
   const [metadata, setMetadata] = useState<ModelMetadata | null>(null);
   const [isModelReady, setIsModelReady] = useState(false);
+  const [isPredicting, setIsPredicting] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
 
   const region = useMemo(() => getRegionFromPrefecture(form.prefecture), [form.prefecture]);
@@ -144,6 +145,7 @@ export function App() {
     }
 
     let disposed = false;
+    setIsPredicting(true);
     const timer = window.setTimeout(async () => {
       try {
         const manager = getModelManager(region);
@@ -160,12 +162,14 @@ export function App() {
           setResult(nextResult);
           setForecastPoints(nextForecastPoints);
           setErrorMessage("");
+          setIsPredicting(false);
         }
       } catch {
         if (!disposed) {
           setResult(null);
           setForecastPoints([]);
           setErrorMessage("価格予測に失敗しました");
+          setIsPredicting(false);
         }
       }
     }, 250);
@@ -199,7 +203,7 @@ export function App() {
           onChange={setForm}
           stationOptions={stationOptions}
         />
-        <PredictionResultView result={result} />
+        <PredictionResultView result={result} isUpdating={isPredicting} />
         <PriceHistoryChart points={chartPoints} />
       </div>
     </main>

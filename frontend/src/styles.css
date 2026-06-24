@@ -194,6 +194,22 @@ select {
   min-height: 216px;
 }
 
+.panel-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.inline-status {
+  border-radius: 999px;
+  background: #e0f2fe;
+  padding: 4px 8px;
+  color: #075985;
+  font-size: 12px;
+  font-weight: 700;
+}
+
 .result-grid {
   display: grid;
   gap: 16px;

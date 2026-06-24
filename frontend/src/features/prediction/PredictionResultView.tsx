@@ -2,6 +2,7 @@ import type { PredictionResult } from "../../types/prediction";
 
 type Props = {
   result: PredictionResult | null;
+  isUpdating?: boolean;
 };
 
 function formatYen(value: number): string {
@@ -12,7 +13,7 @@ function formatYen(value: number): string {
   }).format(value);
 }
 
-export function PredictionResultView({ result }: Props) {
+export function PredictionResultView({ result, isUpdating = false }: Props) {
   if (!result) {
     return (
       <section className="panel result-panel">
@@ -24,7 +25,10 @@ export function PredictionResultView({ result }: Props) {
 
   return (
     <section className="panel result-panel">
-      <h2>予測結果</h2>
+      <div className="panel-title-row">
+        <h2>予測結果</h2>
+        {isUpdating ? <span className="inline-status">更新中</span> : null}
+      </div>
       <dl className="result-grid">
         <div>
           <dt>予測価格</dt>
