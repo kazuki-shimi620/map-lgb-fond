@@ -254,19 +254,24 @@ function buildChartPoints(
   station: string,
   predictionYear: number
 ) {
-  const sortedHistory = [...history].sort((a, b) => a.year - b.year);
+  const sortedHistory = [...history]
+    .map((point) => ({ ...point, kind: "actual" as const }))
+    .sort((a, b) => a.year - b.year);
   if (!result) {
     return sortedHistory;
   }
 
   const existingYears = new Set(sortedHistory.map((point) => point.year));
-  const missingForecasts = forecastPoints.filter((point) => !existingYears.has(point.year));
+  const missingForecasts = forecastPoints
+    .filter((point) => !existingYears.has(point.year))
+    .map((point) => ({ ...point, kind: "forecast" as const }));
 
   if (!existingYears.has(predictionYear) && !missingForecasts.some((point) => point.year === predictionYear)) {
     missingForecasts.push({
       station,
       year: predictionYear,
-      avg_price: result.predictedPrice
+      avg_price: result.predictedPrice,
+      kind: "forecast"
     });
   }
 
