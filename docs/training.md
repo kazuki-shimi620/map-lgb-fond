@@ -64,6 +64,40 @@ evaluate
 export
 ```
 
+## 学習と配布モデル
+
+MVPでは、評価用モデルとブラウザ配布用モデルを分ける。
+
+```text
+評価:
+2020〜2024年で学習
+2025年で評価
+
+配布:
+評価完了後、2020〜2025年の全データで再学習
+ONNX / pkl / metadata は配布用モデルから出力
+```
+
+評価指標はテスト年を含まない評価用モデルで算出し、配布モデルは同じパラメータを使って最新年までの全データで再学習する。
+
+## ハイパーパラメータチューニング
+
+LightGBM のパラメータ探索は Optuna で行う。
+
+設定例:
+
+```yaml
+tuning:
+  enabled: true
+  n_trials: 30
+  validation_year: 2024
+  early_stopping_rounds: 100
+```
+
+MVPの標準試行回数は30回とする。`enabled: false` の場合は固定パラメータで学習する。
+
+チューニングでは `validation_year` を検証年として利用し、最終評価年 `test_year` は探索に使わない。
+
 ---
 
 # 4. collect

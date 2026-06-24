@@ -6,6 +6,22 @@ from typing import Any
 
 
 @dataclass(frozen=True)
+class ModelConfig:
+    n_estimators: int = 300
+    learning_rate: float = 0.05
+    random_state: int = 42
+
+
+@dataclass(frozen=True)
+class TuningConfig:
+    enabled: bool = False
+    n_trials: int = 30
+    timeout_seconds: int | None = None
+    validation_year: int | None = None
+    early_stopping_rounds: int = 100
+
+
+@dataclass(frozen=True)
 class TrainingConfig:
     region: str
     features: list[str]
@@ -17,6 +33,8 @@ class TrainingConfig:
     processed_path: str | None = None
     output_dir: str = "outputs/models"
     frontend_public_dir: str = "../frontend/public"
+    model: ModelConfig = field(default_factory=ModelConfig)
+    tuning: TuningConfig = field(default_factory=TuningConfig)
     categorical_features: list[str] = field(
         default_factory=lambda: [
             "prefecture",
@@ -32,6 +50,8 @@ def load_config(path: str | Path) -> TrainingConfig:
     config_path = Path(path)
     data = _load_yaml_like(config_path)
     base_dir = _resolve_base_dir(config_path)
+    model_data = dict(data.get("model") or {})
+    tuning_data = dict(data.get("tuning") or {})
     return TrainingConfig(
         region=str(data["region"]),
         features=list(data["features"]),
@@ -44,6 +64,18 @@ def load_config(path: str | Path) -> TrainingConfig:
         output_dir=str(_resolve_path(base_dir, str(data.get("output_dir", "outputs/models")))),
         frontend_public_dir=str(
             _resolve_path(base_dir, str(data.get("frontend_public_dir", "../frontend/public")))
+        ),
+        model=ModelConfig(
+            n_estimators=int(model_data.get("n_estimators", 300)),
+            learning_rate=float(model_data.get("learning_rate", 0.05)),
+            random_state=int(model_data.get("random_state", 42)),
+        ),
+        tuning=TuningConfig(
+            enabled=bool(tuning_data.get("enabled", False)),
+            n_trials=int(tuning_data.get("n_trials", 30)),
+            timeout_seconds=_optional_int(tuning_data.get("timeout_seconds")),
+            validation_year=_optional_int(tuning_data.get("validation_year")),
+            early_stopping_rounds=int(tuning_data.get("early_stopping_rounds", 100)),
         ),
         categorical_features=list(data.get("categorical_features", []))
         or TrainingConfig(region="", features=[]).categorical_features,
@@ -116,3 +148,9 @@ def _coerce_scalar(value: str) -> str | int | float | bool:
         return float(value)
     except ValueError:
         return value
+
+
+def _optional_int(value: object) -> int | None:
+    if value in (None, ""):
+        return None
+    return int(value)
