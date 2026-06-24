@@ -34,6 +34,7 @@ export function App() {
   const [metadata, setMetadata] = useState<ModelMetadata | null>(null);
   const [isModelReady, setIsModelReady] = useState(false);
   const [isPredicting, setIsPredicting] = useState(false);
+  const [isSelectionSupported, setIsSelectionSupported] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
 
   const region = useMemo(() => getRegionFromPrefecture(form.prefecture), [form.prefecture]);
@@ -109,6 +110,15 @@ export function App() {
     try {
       const geocode = await reverseGeocode(lat, lon).catch(() => ({ prefecture: "", municipality: "" }));
       const geocodedRegion = getRegionFromPrefecture(geocode.prefecture);
+
+      if (geocode.prefecture && !geocodedRegion) {
+        setIsSelectionSupported(false);
+        setResult(null);
+        setForecastPoints([]);
+        setErrorMessage(`${geocode.prefecture}は未対応地域です。現在は東京都、埼玉県、千葉県、神奈川県に対応しています。`);
+        return;
+      }
+
       const targetStations = await loadStationCandidates(null);
       const nearest = findNearestStation(targetStations, lat, lon);
       const stationRegion = nearest ? getRegionFromPrefecture(nearest.station.prefecture) : null;
@@ -120,6 +130,7 @@ export function App() {
         setStations(await loadStations(nextRegion));
       }
 
+      setIsSelectionSupported(true);
       setForm((current) => ({
         ...current,
         prefecture: nextPrefecture || current.prefecture,
@@ -137,6 +148,10 @@ export function App() {
   useEffect(() => {
     if (!region) {
       setErrorMessage("未対応地域です");
+      return;
+    }
+
+    if (!isSelectionSupported) {
       return;
     }
 
@@ -178,7 +193,12 @@ export function App() {
       disposed = true;
       window.clearTimeout(timer);
     };
-  }, [form, history, isModelReady, region]);
+  }, [form, history, isModelReady, isSelectionSupported, region]);
+
+  function handleFormChange(nextForm: PredictionFormState) {
+    setIsSelectionSupported(true);
+    setForm(nextForm);
+  }
 
   const stationOptions = stations.map((station) => station.station_name);
   const visibleHistory = history.filter((point) => point.station === form.station);
@@ -200,7 +220,7 @@ export function App() {
         <PropertyMap lat={form.lat} lon={form.lon} onSelect={handleMapSelect} />
         <PredictionForm
           value={form}
-          onChange={setForm}
+          onChange={handleFormChange}
           stationOptions={stationOptions}
         />
         <PredictionResultView result={result} isUpdating={isPredicting} />
