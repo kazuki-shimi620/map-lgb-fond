@@ -76,6 +76,42 @@ h2 {
   color: #92400e;
 }
 
+.loading-toast {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  max-width: min(320px, calc(100vw - 32px));
+  border: 1px solid #bfd5ea;
+  border-radius: 8px;
+  background: rgb(255 255 255 / 94%);
+  padding: 10px 12px;
+  color: #123047;
+  font-size: 13px;
+  font-weight: 700;
+  box-shadow: 0 12px 32px rgb(15 23 42 / 18%);
+  pointer-events: none;
+}
+
+.loading-spinner {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+  border: 2px solid #c8d9ea;
+  border-top-color: #0f766e;
+  border-radius: 50%;
+  animation: loading-spin 0.8s linear infinite;
+}
+
+@keyframes loading-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .layout {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
@@ -320,6 +356,13 @@ dd {
     margin-bottom: 12px;
     padding: 9px 10px;
     font-size: 13px;
+  }
+
+  .loading-toast {
+    right: 10px;
+    bottom: 10px;
+    max-width: calc(100vw - 20px);
+    padding: 9px 10px;
   }
 
   .layout,

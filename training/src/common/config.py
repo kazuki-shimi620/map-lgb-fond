@@ -19,6 +19,16 @@ class TuningConfig:
     timeout_seconds: int | None = None
     validation_year: int | None = None
     early_stopping_rounds: int = 100
+    max_estimators: int = 1000
+    learning_rate_min: float = 0.02
+    learning_rate_max: float = 0.08
+    num_leaves_min: int = 16
+    num_leaves_max: int = 96
+    max_depth_min: int = 3
+    max_depth_max: int = 10
+    min_child_samples_min: int = 30
+    min_child_samples_max: int = 300
+    size_penalty_per_iteration: float = 200.0
 
 
 @dataclass(frozen=True)
@@ -76,6 +86,16 @@ def load_config(path: str | Path) -> TrainingConfig:
             timeout_seconds=_optional_int(tuning_data.get("timeout_seconds")),
             validation_year=_optional_int(tuning_data.get("validation_year")),
             early_stopping_rounds=int(tuning_data.get("early_stopping_rounds", 100)),
+            max_estimators=int(tuning_data.get("max_estimators", 1000)),
+            learning_rate_min=float(tuning_data.get("learning_rate_min", 0.02)),
+            learning_rate_max=float(tuning_data.get("learning_rate_max", 0.08)),
+            num_leaves_min=int(tuning_data.get("num_leaves_min", 16)),
+            num_leaves_max=int(tuning_data.get("num_leaves_max", 96)),
+            max_depth_min=int(tuning_data.get("max_depth_min", 3)),
+            max_depth_max=int(tuning_data.get("max_depth_max", 10)),
+            min_child_samples_min=int(tuning_data.get("min_child_samples_min", 30)),
+            min_child_samples_max=int(tuning_data.get("min_child_samples_max", 300)),
+            size_penalty_per_iteration=float(tuning_data.get("size_penalty_per_iteration", 200.0)),
         ),
         categorical_features=list(data.get("categorical_features", []))
         or TrainingConfig(region="", features=[]).categorical_features,

@@ -2,7 +2,6 @@ import type { PredictionResult } from "../../types/prediction";
 
 type Props = {
   result: PredictionResult | null;
-  isUpdating?: boolean;
   summary?: {
     station: string;
     stationDistance: number;
@@ -19,7 +18,7 @@ function formatYen(value: number): string {
   }).format(value);
 }
 
-export function PredictionResultView({ result, isUpdating = false, summary }: Props) {
+export function PredictionResultView({ result, summary }: Props) {
   if (!result) {
     return (
       <section className="panel result-panel">
@@ -33,7 +32,6 @@ export function PredictionResultView({ result, isUpdating = false, summary }: Pr
     <section className="panel result-panel">
       <div className="panel-title-row">
         <h2>予測結果</h2>
-        {isUpdating ? <span className="inline-status">更新中</span> : null}
       </div>
       <dl className="result-grid">
         <div>

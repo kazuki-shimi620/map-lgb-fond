@@ -219,6 +219,16 @@ def _run_tuning_if_enabled(
         n_trials=config.tuning.n_trials,
         timeout_seconds=config.tuning.timeout_seconds,
         early_stopping_rounds=config.tuning.early_stopping_rounds,
+        max_estimators=config.tuning.max_estimators,
+        learning_rate_min=config.tuning.learning_rate_min,
+        learning_rate_max=config.tuning.learning_rate_max,
+        num_leaves_min=config.tuning.num_leaves_min,
+        num_leaves_max=config.tuning.num_leaves_max,
+        max_depth_min=config.tuning.max_depth_min,
+        max_depth_max=config.tuning.max_depth_max,
+        min_child_samples_min=config.tuning.min_child_samples_min,
+        min_child_samples_max=config.tuning.min_child_samples_max,
+        size_penalty_per_iteration=config.tuning.size_penalty_per_iteration,
     )
     result["validation_year"] = validation_year
     result["train_count"] = int(tuning_train_mask.sum())
@@ -285,7 +295,12 @@ def _build_metadata(
             "nTrials": config.tuning.n_trials,
             "completedTrials": tuning_result["trials"] if tuning_result else 0,
             "validationYear": tuning_result["validation_year"] if tuning_result else None,
-            "bestValidationMae": tuning_result["best_value"] if tuning_result else None,
+            "bestValidationMae": tuning_result["best_validation_mae"] if tuning_result else None,
+            "bestTuningScore": tuning_result["best_value"] if tuning_result else None,
+            "maxEstimators": config.tuning.max_estimators,
+            "numLeavesMax": config.tuning.num_leaves_max,
+            "maxDepthMax": config.tuning.max_depth_max,
+            "sizePenaltyPerIteration": config.tuning.size_penalty_per_iteration,
         },
     }
 

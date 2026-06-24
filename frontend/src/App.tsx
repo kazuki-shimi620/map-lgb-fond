@@ -43,6 +43,7 @@ export function App() {
     metadata && form.predictionYear > metadata.latestTrainingYear + 10
       ? "長期予測のため精度は保証できません"
       : "";
+  const loadingMessage = !isModelReady && region ? "モデルを読み込んでいます" : isPredicting ? "予測を更新しています" : "";
 
   useEffect(() => {
     if (!region) {
@@ -220,6 +221,12 @@ export function App() {
 
       {longRangeWarning ? <p className="warning">{longRangeWarning}</p> : null}
       {errorMessage ? <p className="warning">{errorMessage}</p> : null}
+      {loadingMessage ? (
+        <div className="loading-toast" role="status" aria-live="polite">
+          <span className="loading-spinner" aria-hidden="true" />
+          <span>{loadingMessage}</span>
+        </div>
+      ) : null}
 
       <div className="layout">
         <PropertyMap lat={form.lat} lon={form.lon} onSelect={handleMapSelect} />
@@ -231,7 +238,6 @@ export function App() {
         />
         <PredictionResultView
           result={result}
-          isUpdating={isPredicting}
           summary={
             region
               ? {

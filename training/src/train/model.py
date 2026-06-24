@@ -37,6 +37,16 @@ def tune_model(
     n_trials: int,
     timeout_seconds: int | None,
     early_stopping_rounds: int,
+    max_estimators: int,
+    learning_rate_min: float,
+    learning_rate_max: float,
+    num_leaves_min: int,
+    num_leaves_max: int,
+    max_depth_min: int,
+    max_depth_max: int,
+    min_child_samples_min: int,
+    min_child_samples_max: int,
+    size_penalty_per_iteration: float,
 ) -> dict[str, Any]:
     import lightgbm as lgb
     import numpy as np
@@ -46,11 +56,15 @@ def tune_model(
         params = _build_model_params(
             {
                 **base_params,
-                "n_estimators": 2000,
-                "learning_rate": trial.suggest_float("learning_rate", 0.01, 0.08, log=True),
-                "num_leaves": trial.suggest_int("num_leaves", 16, 256, log=True),
-                "max_depth": trial.suggest_int("max_depth", 3, 12),
-                "min_child_samples": trial.suggest_int("min_child_samples", 20, 300),
+                "n_estimators": max_estimators,
+                "learning_rate": trial.suggest_float("learning_rate", learning_rate_min, learning_rate_max, log=True),
+                "num_leaves": trial.suggest_int("num_leaves", num_leaves_min, num_leaves_max, log=True),
+                "max_depth": trial.suggest_int("max_depth", max_depth_min, max_depth_max),
+                "min_child_samples": trial.suggest_int(
+                    "min_child_samples",
+                    min_child_samples_min,
+                    min_child_samples_max,
+                ),
                 "subsample": trial.suggest_float("subsample", 0.6, 1.0),
                 "colsample_bytree": trial.suggest_float("colsample_bytree", 0.6, 1.0),
                 "reg_alpha": trial.suggest_float("reg_alpha", 1e-8, 10.0, log=True),
@@ -71,8 +85,10 @@ def tune_model(
         )
         predictions = model.predict(valid_x)
         mae = float(np.mean(np.abs(valid_y.to_numpy() - predictions)))
-        trial.set_user_attr("best_iteration", int(model.best_iteration_ or params["n_estimators"]))
-        return mae
+        best_iteration = int(model.best_iteration_ or params["n_estimators"])
+        trial.set_user_attr("best_iteration", best_iteration)
+        trial.set_user_attr("validation_mae", mae)
+        return mae + best_iteration * size_penalty_per_iteration
 
     study = optuna.create_study(direction="minimize")
     study.optimize(objective, n_trials=n_trials, timeout=timeout_seconds)
@@ -82,6 +98,7 @@ def tune_model(
     return {
         "params": best_params,
         "best_value": float(study.best_value),
+        "best_validation_mae": float(study.best_trial.user_attrs.get("validation_mae", study.best_value)),
         "trials": len(study.trials),
     }
 

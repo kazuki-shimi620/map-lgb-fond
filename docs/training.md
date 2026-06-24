@@ -92,11 +92,16 @@ tuning:
   n_trials: 30
   validation_year: 2024
   early_stopping_rounds: 100
+  max_estimators: 1000
+  num_leaves_max: 96
+  size_penalty_per_iteration: 200
 ```
 
 MVPの標準試行回数は30回とする。`enabled: false` の場合は固定パラメータで学習する。
 
 チューニングでは `validation_year` を検証年として利用し、最終評価年 `test_year` は探索に使わない。
+
+ブラウザ配布用のONNXモデルが大きくなりすぎることを避けるため、チューニング時は木の本数や葉数に上限を設ける。また、検証MAEが近い候補では軽いモデルを優先できるよう、木の本数に応じたペナルティを目的関数へ加える。
 
 ---
 

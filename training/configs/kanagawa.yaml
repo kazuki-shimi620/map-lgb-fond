@@ -14,7 +14,17 @@ tuning:
   enabled: true
   n_trials: 30
   validation_year: 2024
-  early_stopping_rounds: 100
+  early_stopping_rounds: 50
+  max_estimators: 1000
+  learning_rate_min: 0.02
+  learning_rate_max: 0.08
+  num_leaves_min: 16
+  num_leaves_max: 96
+  max_depth_min: 3
+  max_depth_max: 10
+  min_child_samples_min: 30
+  min_child_samples_max: 300
+  size_penalty_per_iteration: 200
 features:
   - area
   - age
