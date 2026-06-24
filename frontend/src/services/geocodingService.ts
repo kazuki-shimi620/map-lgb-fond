@@ -3,6 +3,12 @@ export type ReverseGeocodeResult = {
   municipality: string;
 };
 
+export type PlaceSearchResult = {
+  label: string;
+  lat: number;
+  lon: number;
+};
+
 const PREFECTURE_ALIASES: Record<string, string> = {
   Tokyo: "東京都",
   Saitama: "埼玉県",
@@ -41,5 +47,35 @@ export async function reverseGeocode(lat: number, lon: number): Promise<ReverseG
       address.county ??
       address.suburb ??
       ""
+  };
+}
+
+export async function searchPlace(query: string): Promise<PlaceSearchResult | null> {
+  const trimmedQuery = query.trim();
+  if (!trimmedQuery) {
+    return null;
+  }
+
+  const url = new URL("https://nominatim.openstreetmap.org/search");
+  url.searchParams.set("format", "jsonv2");
+  url.searchParams.set("q", trimmedQuery);
+  url.searchParams.set("countrycodes", "jp");
+  url.searchParams.set("limit", "1");
+  url.searchParams.set("accept-language", "ja");
+
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error("Place search failed");
+  }
+
+  const [result] = await response.json();
+  if (!result) {
+    return null;
+  }
+
+  return {
+    label: result.display_name ?? trimmedQuery,
+    lat: Number(result.lat),
+    lon: Number(result.lon)
   };
 }
