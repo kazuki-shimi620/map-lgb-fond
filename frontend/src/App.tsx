@@ -35,6 +35,7 @@ export function App() {
   const [isModelReady, setIsModelReady] = useState(false);
   const [isPredicting, setIsPredicting] = useState(false);
   const [isSelectionSupported, setIsSelectionSupported] = useState(true);
+  const [stationDistanceSource, setStationDistanceSource] = useState<"map" | "manual">("manual");
   const [errorMessage, setErrorMessage] = useState("");
 
   const region = useMemo(() => getRegionFromPrefecture(form.prefecture), [form.prefecture]);
@@ -131,6 +132,7 @@ export function App() {
       }
 
       setIsSelectionSupported(true);
+      setStationDistanceSource(nearest ? "map" : "manual");
       setForm((current) => ({
         ...current,
         prefecture: nextPrefecture || current.prefecture,
@@ -196,6 +198,9 @@ export function App() {
   }, [form, history, isModelReady, isSelectionSupported, region]);
 
   function handleFormChange(nextForm: PredictionFormState) {
+    if (nextForm.stationDistance !== form.stationDistance) {
+      setStationDistanceSource("manual");
+    }
     setIsSelectionSupported(true);
     setForm(nextForm);
   }
@@ -222,6 +227,7 @@ export function App() {
           value={form}
           onChange={handleFormChange}
           stationOptions={stationOptions}
+          stationDistanceSource={stationDistanceSource}
         />
         <PredictionResultView
           result={result}

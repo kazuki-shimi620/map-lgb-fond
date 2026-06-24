@@ -6,9 +6,10 @@ type Props = {
   value: PredictionFormState;
   onChange: (next: PredictionFormState) => void;
   stationOptions: string[];
+  stationDistanceSource?: "map" | "manual";
 };
 
-export function PredictionForm({ value, onChange, stationOptions }: Props) {
+export function PredictionForm({ value, onChange, stationOptions, stationDistanceSource = "manual" }: Props) {
   function update<K extends keyof PredictionFormState>(key: K, nextValue: PredictionFormState[K]) {
     onChange({ ...value, [key]: nextValue });
   }
@@ -70,6 +71,9 @@ export function PredictionForm({ value, onChange, stationOptions }: Props) {
           value={value.stationDistance}
           onChange={(event) => update("stationDistance", Number(event.target.value))}
         />
+        <span className="field-note">
+          {stationDistanceSource === "map" ? "地図から自動算出" : "手入力"}
+        </span>
       </label>
 
       <label>
