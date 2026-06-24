@@ -16,6 +16,7 @@ description: map-lgb-fond 不動産価格予測アプリ専用のプロジェク
 5. `docs/training.md`
 6. `docs/database.md`
 7. `docs/architecture.md`
+8. `docs/cicd.md`
 
 素早く全体像を掴む場合は `references/project-map.md` を読む。
 
@@ -52,6 +53,7 @@ description: map-lgb-fond 不動産価格予測アプリ専用のプロジェク
 ## GitHub Pages作業
 
 - フロントエンドだけを `frontend/dist` にビルドして GitHub Pages にデプロイする。
+- 詳細な運用ルールは `docs/cicd.md` を参照する。
 - CI/CD は `.github/workflows/deploy-frontend.yml` で管理する。
 - Pull Request では build だけを実行し、`main` への push / merge で deploy する。
 - 開発は `develop` ブランチを基本にし、`main` へ取り込むタイミングを公開タイミングとする。

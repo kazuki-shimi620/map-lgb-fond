@@ -20,6 +20,7 @@
 - `docs/training.md`: collect、preprocess、features、train、evaluate、export の責務
 - `docs/database.md`: SQLite schema、制約、latest model 管理
 - `docs/architecture.md`: 全体アーキテクチャと処理フロー
+- `docs/cicd.md`: GitHub Actions と GitHub Pages のデプロイ運用
 
 ## 主要パス
 
@@ -36,6 +37,7 @@
 - `training/src/export/artifacts.py`: モデル成果物とJSON出力、frontend copy
 - `training/src/export/stations.py`: 公開駅データから駅マスタJSONを生成
 - `training/src/experiment/database.py`: SQLite schema と latest model 管理
+- `.github/workflows/deploy-frontend.yml`: フロントエンドを GitHub Pages にデプロイする workflow
 
 ## 実務上の制約
 

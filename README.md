@@ -42,6 +42,8 @@ https://kazuki-shimi620.github.io/map-lgb-fond/
 
 CI/CD は `.github/workflows/deploy-frontend.yml` で管理する。
 
+詳細は `docs/cicd.md` を参照する。
+
 運用イメージ:
 
 ```text
