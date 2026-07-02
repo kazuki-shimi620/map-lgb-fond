@@ -104,70 +104,68 @@ export function PredictionResultView({ result, summary }: Props) {
           >
             {isDetailOpen ? "詳細を閉じる" : "条件・モデル詳細を表示"}
           </button>
-          {isDetailOpen ? (
-            <div className="result-detail">
-              <section className="detail-section">
-                <h3>条件</h3>
-                <dl className="detail-grid">
-                  <div>
-                    <dt>最寄駅</dt>
-                    <dd>{summary.station}</dd>
-                  </div>
-                  <div>
-                    <dt>駅徒歩</dt>
-                    <dd>{summary.stationDistance}分</dd>
-                  </div>
-                  <div>
-                    <dt>対応地域</dt>
-                    <dd>{summary.modelRegion}</dd>
-                  </div>
-                </dl>
+          <div className={`result-detail ${isDetailOpen ? "is-open" : ""}`} aria-hidden={!isDetailOpen}>
+            <section className="detail-section">
+              <h3>条件</h3>
+              <dl className="detail-grid">
+                <div>
+                  <dt>最寄駅</dt>
+                  <dd>{summary.station}</dd>
+                </div>
+                <div>
+                  <dt>駅徒歩</dt>
+                  <dd>{summary.stationDistance}分</dd>
+                </div>
+                <div>
+                  <dt>対応地域</dt>
+                  <dd>{summary.modelRegion}</dd>
+                </div>
+              </dl>
+            </section>
+            <section className="detail-section">
+              <h3>モデル評価</h3>
+              <dl className="detail-grid">
+                <div className="detail-wide">
+                  <dt>学習データ</dt>
+                  <dd>
+                    {summary.modelRegion}中古マンション取引データ
+                    <span className="summary-note">
+                      ({summary.trainStartYear ?? "-"}-{summary.latestTrainingYear ?? "-"})
+                    </span>
+                  </dd>
+                </div>
+                <div>
+                  <dt>最終学習日</dt>
+                  <dd>{formatDate(summary.generatedAt)}</dd>
+                </div>
+                <div>
+                  <dt>MAE</dt>
+                  <dd>{summary.evaluationMae !== null ? formatManYen(summary.evaluationMae) : "-"}</dd>
+                </div>
+                <div>
+                  <dt>RMSE</dt>
+                  <dd>{summary.evaluationRmse !== null ? formatManYen(summary.evaluationRmse) : "-"}</dd>
+                </div>
+                <div>
+                  <dt>学習件数</dt>
+                  <dd>{summary.trainCount !== null ? `${summary.trainCount.toLocaleString("ja-JP")}件` : "-"}</dd>
+                </div>
+              </dl>
+            </section>
+            {summary.featureImportance.length > 0 ? (
+              <section className="detail-section importance-panel" aria-label="特徴量重要度">
+                <h3>特徴量重要度</h3>
+                <ol>
+                  {summary.featureImportance.slice(0, 5).map((item) => (
+                    <li key={item.feature}>
+                      <span>{FEATURE_LABELS[item.feature] ?? item.feature}</span>
+                      <meter min="0" max={summary.featureImportance[0].importance || 1} value={item.importance} />
+                    </li>
+                  ))}
+                </ol>
               </section>
-              <section className="detail-section">
-                <h3>モデル評価</h3>
-                <dl className="detail-grid">
-                  <div className="detail-wide">
-                    <dt>学習データ</dt>
-                    <dd>
-                      {summary.modelRegion}中古マンション取引データ
-                      <span className="summary-note">
-                        ({summary.trainStartYear ?? "-"}-{summary.latestTrainingYear ?? "-"})
-                      </span>
-                    </dd>
-                  </div>
-                  <div>
-                    <dt>最終学習日</dt>
-                    <dd>{formatDate(summary.generatedAt)}</dd>
-                  </div>
-                  <div>
-                    <dt>MAE</dt>
-                    <dd>{summary.evaluationMae !== null ? formatManYen(summary.evaluationMae) : "-"}</dd>
-                  </div>
-                  <div>
-                    <dt>RMSE</dt>
-                    <dd>{summary.evaluationRmse !== null ? formatManYen(summary.evaluationRmse) : "-"}</dd>
-                  </div>
-                  <div>
-                    <dt>学習件数</dt>
-                    <dd>{summary.trainCount !== null ? `${summary.trainCount.toLocaleString("ja-JP")}件` : "-"}</dd>
-                  </div>
-                </dl>
-              </section>
-              {summary.featureImportance.length > 0 ? (
-                <section className="detail-section importance-panel" aria-label="特徴量重要度">
-                  <h3>特徴量重要度</h3>
-                  <ol>
-                    {summary.featureImportance.slice(0, 5).map((item) => (
-                      <li key={item.feature}>
-                        <span>{FEATURE_LABELS[item.feature] ?? item.feature}</span>
-                        <meter min="0" max={summary.featureImportance[0].importance || 1} value={item.importance} />
-                      </li>
-                    ))}
-                  </ol>
-                </section>
-              ) : null}
-            </div>
-          ) : null}
+            ) : null}
+          </div>
         </>
       ) : null}
       <p className="result-disclaimer">

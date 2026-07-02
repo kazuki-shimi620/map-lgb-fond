@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useId, useRef, useState, type KeyboardEvent, type PointerEvent as ReactPointerEvent } from "react";
 import type { PredictionFormState } from "../../types/prediction";
 import { supportedPrefectures } from "../../utils/region";
 import { buildingTypes, roomLayouts } from "./constants";
@@ -8,8 +8,8 @@ type Props = {
   onChange: (next: PredictionFormState) => void;
   stationOptions: string[];
   stationDistanceSource?: "map" | "manual";
-  sheetState?: "collapsed" | "open";
-  onSheetStateChange?: (state: "collapsed" | "open") => void;
+  sheetState?: "collapsed" | "half" | "open";
+  onSheetStateChange?: (state: "collapsed" | "half" | "open") => void;
   predictionYearRange?: {
     min: number;
     max: number;
@@ -26,6 +26,13 @@ type PredictionYearControlProps = {
   className?: string;
 };
 
+type SelectFieldProps = {
+  label: string;
+  value: string;
+  options: string[];
+  onChange: (nextValue: string) => void;
+};
+
 export function PredictionForm({
   value,
   onChange,
@@ -35,61 +42,77 @@ export function PredictionForm({
   onSheetStateChange,
   predictionYearRange
 }: Props) {
-  const dragStartY = useRef<number | null>(null);
-  const suppressNextClick = useRef(false);
+  const dragState = useRef<{ pointerId: number; startY: number; didDrag: boolean } | null>(null);
 
   function update<K extends keyof PredictionFormState>(key: K, nextValue: PredictionFormState[K]) {
     onChange({ ...value, [key]: nextValue });
   }
 
-  function handleDragStart(clientY: number) {
-    dragStartY.current = clientY;
-    suppressNextClick.current = false;
+  function handleDragStart(event: ReactPointerEvent<HTMLButtonElement>) {
+    dragState.current = {
+      pointerId: event.pointerId,
+      startY: event.clientY,
+      didDrag: false
+    };
+    event.currentTarget.setPointerCapture(event.pointerId);
   }
 
-  function handleDragEnd(clientY: number) {
-    if (dragStartY.current === null) {
+  function handleDragMove(event: ReactPointerEvent<HTMLButtonElement>) {
+    const currentDrag = dragState.current;
+    if (!currentDrag || currentDrag.pointerId !== event.pointerId || currentDrag.didDrag) {
       return;
     }
-    const deltaY = clientY - dragStartY.current;
-    dragStartY.current = null;
-    if (Math.abs(deltaY) < 24) {
+
+    const deltaY = event.clientY - currentDrag.startY;
+    if (Math.abs(deltaY) < 36) {
       return;
     }
-    suppressNextClick.current = true;
+
+    currentDrag.didDrag = true;
     onSheetStateChange?.(deltaY > 0 ? "collapsed" : "open");
-    window.setTimeout(() => {
-      suppressNextClick.current = false;
-    }, 0);
   }
 
-  function handleHandleClick() {
-    if (suppressNextClick.current) {
-      return;
+  function handleDragEnd(event: ReactPointerEvent<HTMLButtonElement>) {
+    dragState.current = null;
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+      event.currentTarget.releasePointerCapture(event.pointerId);
     }
-    onSheetStateChange?.(sheetState === "open" ? "collapsed" : "open");
+  }
+
+  function handleDragCancel(event: ReactPointerEvent<HTMLButtonElement>) {
+    dragState.current = null;
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+      event.currentTarget.releasePointerCapture(event.pointerId);
+    }
   }
 
   return (
     <section className={`panel form-panel form-grid sheet-${sheetState}`}>
       <button
         type="button"
-        className="sheet-handle"
+        className="sheet-header"
         aria-label={sheetState === "open" ? "条件入力フォームを下げる" : "条件入力フォームを上げる"}
-        onClick={handleHandleClick}
-        onPointerDown={(event) => handleDragStart(event.clientY)}
-        onPointerUp={(event) => handleDragEnd(event.clientY)}
+        onClick={(event) => {
+          event.preventDefault();
+        }}
+        onKeyDown={(event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+          }
+        }}
+        onPointerDown={handleDragStart}
+        onPointerMove={handleDragMove}
+        onPointerUp={handleDragEnd}
+        onPointerCancel={handleDragCancel}
+      >
+        <span className="sheet-handle" aria-hidden="true" />
+      </button>
+      <SelectField
+        label="都道府県"
+        value={value.prefecture}
+        options={supportedPrefectures}
+        onChange={(nextValue) => update("prefecture", nextValue)}
       />
-      <label>
-        都道府県
-        <select value={value.prefecture} onChange={(event) => update("prefecture", event.target.value)}>
-          {supportedPrefectures.map((prefecture) => (
-            <option key={prefecture} value={prefecture}>
-              {prefecture}
-            </option>
-          ))}
-        </select>
-      </label>
 
       <label>
         市区町村
@@ -140,27 +163,19 @@ export function PredictionForm({
         </span>
       </label>
 
-      <label>
-        間取り
-        <select value={value.roomLayout} onChange={(event) => update("roomLayout", event.target.value)}>
-          {roomLayouts.map((layout) => (
-            <option key={layout} value={layout}>
-              {layout}
-            </option>
-          ))}
-        </select>
-      </label>
+      <SelectField
+        label="間取り"
+        value={value.roomLayout}
+        options={roomLayouts}
+        onChange={(nextValue) => update("roomLayout", nextValue)}
+      />
 
-      <label>
-        建物構造
-        <select value={value.buildingType} onChange={(event) => update("buildingType", event.target.value)}>
-          {buildingTypes.map((buildingType) => (
-            <option key={buildingType} value={buildingType}>
-              {buildingType}
-            </option>
-          ))}
-        </select>
-      </label>
+      <SelectField
+        label="建物構造"
+        value={value.buildingType}
+        options={buildingTypes}
+        onChange={(nextValue) => update("buildingType", nextValue)}
+      />
 
       <PredictionYearControl
         className="form-prediction-year"
@@ -208,5 +223,84 @@ export function PredictionYearControl({
         onChange={(event) => onChange(Number(event.target.value))}
       />
     </label>
+  );
+}
+
+function SelectField({ label, value, options, onChange }: SelectFieldProps) {
+  const [isOpen, setIsOpen] = useState(false);
+  const fieldRef = useRef<HTMLDivElement | null>(null);
+  const listboxId = useId();
+
+  useEffect(() => {
+    if (!isOpen) {
+      return;
+    }
+
+    function handlePointerDown(event: PointerEvent) {
+      if (!fieldRef.current?.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    }
+
+    document.addEventListener("pointerdown", handlePointerDown);
+    return () => document.removeEventListener("pointerdown", handlePointerDown);
+  }, [isOpen]);
+
+  function commitValue(nextValue: string) {
+    onChange(nextValue);
+    setIsOpen(false);
+  }
+
+  function handleKeyDown(event: KeyboardEvent<HTMLButtonElement>) {
+    const currentIndex = Math.max(0, options.indexOf(value));
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      commitValue(options[Math.min(options.length - 1, currentIndex + 1)]);
+    }
+    if (event.key === "ArrowUp") {
+      event.preventDefault();
+      commitValue(options[Math.max(0, currentIndex - 1)]);
+    }
+    if (event.key === "Escape") {
+      setIsOpen(false);
+    }
+  }
+
+  return (
+    <div className="form-field custom-select-field" ref={fieldRef}>
+      <span>{label}</span>
+      <button
+        type="button"
+        className="custom-select-trigger"
+        aria-haspopup="listbox"
+        aria-expanded={isOpen}
+        aria-controls={listboxId}
+        onClick={() => setIsOpen((current) => !current)}
+        onKeyDown={handleKeyDown}
+      >
+        <span>{value}</span>
+        <span className="custom-select-chevron" aria-hidden="true" />
+      </button>
+      <div
+        className={`custom-select-menu ${isOpen ? "is-open" : ""}`}
+        id={listboxId}
+        role="listbox"
+        aria-hidden={!isOpen}
+      >
+        {options.map((option) => (
+          <button
+            key={option}
+            type="button"
+            className={option === value ? "is-selected" : ""}
+            role="option"
+            aria-selected={option === value}
+            tabIndex={isOpen ? 0 : -1}
+            onClick={() => commitValue(option)}
+          >
+            {option}
+          </button>
+        ))}
+      </div>
+    </div>
   );
 }
