@@ -145,6 +145,10 @@ h2 {
   gap: 16px;
 }
 
+.sheet-stack {
+  display: contents;
+}
+
 .panel {
   border: 1px solid #d9dee7;
   border-radius: 8px;
@@ -247,7 +251,7 @@ h2 {
   gap: 12px;
 }
 
-.sheet-handle {
+.sheet-header {
   display: none;
 }
 
@@ -673,9 +677,22 @@ dd {
 }
 
 @media (max-width: 760px) {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    overflow: hidden;
+  }
+
   .app-shell {
     width: 100%;
-    padding: 0 0 28px;
+    height: 100dvh;
+    min-height: 100svh;
+    overflow: hidden;
+    padding: 0;
   }
 
   .app-header {
@@ -724,11 +741,44 @@ dd {
     gap: 12px;
   }
 
+  .layout {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .sheet-stack {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1200;
+    display: grid;
+    gap: 12px;
+    max-height: calc(100dvh - 76px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom));
+    transition: max-height 320ms ease;
+  }
+
+  .sheet-stack.sheet-collapsed {
+    max-height: 96px;
+    overflow: hidden;
+  }
+
+  .sheet-stack.sheet-half {
+    max-height: min(44dvh, 420px);
+  }
+
   .panel {
     padding: 12px;
   }
 
   .map-panel {
+    position: absolute;
+    inset: 0;
     border: 0;
     background: transparent;
     padding: 0;
@@ -754,8 +804,8 @@ dd {
   }
 
   .map {
-    height: min(70vh, 460px);
-    min-height: 300px;
+    height: 100dvh;
+    min-height: 100svh;
     border-radius: 0;
   }
 
@@ -781,7 +831,7 @@ dd {
 
   .map-frame .leaflet-bottom.leaflet-right {
     right: 6px;
-    bottom: 110px;
+    bottom: 118px;
     z-index: 450;
   }
 
@@ -792,24 +842,19 @@ dd {
   }
 
   .form-panel {
-    position: sticky;
-    bottom: 0;
-    z-index: 1200;
-    max-height: min(58vh, 520px);
-    margin-top: -52px;
-    overflow-y: auto;
+    display: grid;
+    margin: 0;
     border-color: #c4cfdd;
     border-radius: 18px 18px 8px 8px;
     box-shadow: 0 -12px 28px rgb(15 23 42 / 16%);
     transition:
-      max-height 180ms ease,
-      margin-top 180ms ease,
-      transform 180ms ease;
+      max-height 320ms ease,
+      margin-top 320ms ease,
+      transform 320ms ease;
   }
 
   .form-panel.sheet-collapsed {
-    max-height: 104px;
-    margin-top: -26px;
+    max-height: 96px;
     overflow: hidden;
   }
 
@@ -822,23 +867,38 @@ dd {
     display: grid;
   }
 
-  .sheet-handle {
-    display: block;
-    width: 42px;
-    height: 4px;
+  .sheet-header {
+    display: flex;
+    width: calc(100% + 24px);
+    min-height: 48px;
     grid-column: 1 / -1;
-    justify-self: center;
-    margin: 0 0 4px;
+    align-items: center;
+    justify-content: center;
+    justify-self: stretch;
+    margin: -12px -12px 0;
     border: 0;
-    border-radius: 999px;
-    background: #c7d0dd;
+    border-radius: 18px 18px 0 0;
+    background: transparent;
     padding: 0;
     cursor: grab;
     touch-action: none;
   }
 
-  .sheet-handle:active {
+  .sheet-header:active {
     cursor: grabbing;
+  }
+
+  .sheet-handle {
+    display: block;
+    width: 42px;
+    height: 4px;
+    border-radius: 999px;
+    background: #c7d0dd;
+  }
+
+  .sheet-header:focus-visible {
+    outline: 2px solid #0f766e;
+    outline-offset: -8px;
   }
 
   label,

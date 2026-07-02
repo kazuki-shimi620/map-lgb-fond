@@ -1,4 +1,4 @@
-import { useEffect, useId, useRef, useState, type KeyboardEvent } from "react";
+import { useEffect, useId, useRef, useState, type KeyboardEvent, type PointerEvent as ReactPointerEvent } from "react";
 import type { PredictionFormState } from "../../types/prediction";
 import { supportedPrefectures } from "../../utils/region";
 import { buildingTypes, roomLayouts } from "./constants";
@@ -8,8 +8,8 @@ type Props = {
   onChange: (next: PredictionFormState) => void;
   stationOptions: string[];
   stationDistanceSource?: "map" | "manual";
-  sheetState?: "collapsed" | "open";
-  onSheetStateChange?: (state: "collapsed" | "open") => void;
+  sheetState?: "collapsed" | "half" | "open";
+  onSheetStateChange?: (state: "collapsed" | "half" | "open") => void;
   predictionYearRange?: {
     min: number;
     max: number;
@@ -42,51 +42,71 @@ export function PredictionForm({
   onSheetStateChange,
   predictionYearRange
 }: Props) {
-  const dragStartY = useRef<number | null>(null);
-  const suppressNextClick = useRef(false);
+  const dragState = useRef<{ pointerId: number; startY: number; didDrag: boolean } | null>(null);
 
   function update<K extends keyof PredictionFormState>(key: K, nextValue: PredictionFormState[K]) {
     onChange({ ...value, [key]: nextValue });
   }
 
-  function handleDragStart(clientY: number) {
-    dragStartY.current = clientY;
-    suppressNextClick.current = false;
+  function handleDragStart(event: ReactPointerEvent<HTMLButtonElement>) {
+    dragState.current = {
+      pointerId: event.pointerId,
+      startY: event.clientY,
+      didDrag: false
+    };
+    event.currentTarget.setPointerCapture(event.pointerId);
   }
 
-  function handleDragEnd(clientY: number) {
-    if (dragStartY.current === null) {
+  function handleDragMove(event: ReactPointerEvent<HTMLButtonElement>) {
+    const currentDrag = dragState.current;
+    if (!currentDrag || currentDrag.pointerId !== event.pointerId || currentDrag.didDrag) {
       return;
     }
-    const deltaY = clientY - dragStartY.current;
-    dragStartY.current = null;
-    if (Math.abs(deltaY) < 24) {
+
+    const deltaY = event.clientY - currentDrag.startY;
+    if (Math.abs(deltaY) < 36) {
       return;
     }
-    suppressNextClick.current = true;
+
+    currentDrag.didDrag = true;
     onSheetStateChange?.(deltaY > 0 ? "collapsed" : "open");
-    window.setTimeout(() => {
-      suppressNextClick.current = false;
-    }, 0);
   }
 
-  function handleHandleClick() {
-    if (suppressNextClick.current) {
-      return;
+  function handleDragEnd(event: ReactPointerEvent<HTMLButtonElement>) {
+    dragState.current = null;
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+      event.currentTarget.releasePointerCapture(event.pointerId);
     }
-    onSheetStateChange?.(sheetState === "open" ? "collapsed" : "open");
+  }
+
+  function handleDragCancel(event: ReactPointerEvent<HTMLButtonElement>) {
+    dragState.current = null;
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+      event.currentTarget.releasePointerCapture(event.pointerId);
+    }
   }
 
   return (
     <section className={`panel form-panel form-grid sheet-${sheetState}`}>
       <button
         type="button"
-        className="sheet-handle"
+        className="sheet-header"
         aria-label={sheetState === "open" ? "条件入力フォームを下げる" : "条件入力フォームを上げる"}
-        onClick={handleHandleClick}
-        onPointerDown={(event) => handleDragStart(event.clientY)}
-        onPointerUp={(event) => handleDragEnd(event.clientY)}
-      />
+        onClick={(event) => {
+          event.preventDefault();
+        }}
+        onKeyDown={(event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+          }
+        }}
+        onPointerDown={handleDragStart}
+        onPointerMove={handleDragMove}
+        onPointerUp={handleDragEnd}
+        onPointerCancel={handleDragCancel}
+      >
+        <span className="sheet-handle" aria-hidden="true" />
+      </button>
       <SelectField
         label="都道府県"
         value={value.prefecture}

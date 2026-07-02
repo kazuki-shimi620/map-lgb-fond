@@ -36,7 +36,7 @@ export function App() {
   const [isPredicting, setIsPredicting] = useState(false);
   const [isSelectionSupported, setIsSelectionSupported] = useState(true);
   const [stationDistanceSource, setStationDistanceSource] = useState<"map" | "manual">("manual");
-  const [formSheetState, setFormSheetState] = useState<"collapsed" | "open">("collapsed");
+  const [formSheetState, setFormSheetState] = useState<"collapsed" | "half" | "open">("collapsed");
   const [errorMessage, setErrorMessage] = useState("");
 
   const region = useMemo(() => getRegionFromPrefecture(form.prefecture), [form.prefecture]);
@@ -115,7 +115,7 @@ export function App() {
   }
 
   async function handleMapSelect(lat: number, lon: number) {
-    setFormSheetState("open");
+    setFormSheetState("half");
     setForm((current) => ({ ...current, lat, lon }));
 
     try {
@@ -240,43 +240,45 @@ export function App() {
 
       <div className={`layout form-sheet-${formSheetState}`}>
         <PropertyMap lat={form.lat} lon={form.lon} onSelect={handleMapSelect} />
-        <PredictionForm
-          value={form}
-          onChange={handleFormChange}
-          stationOptions={stationOptions}
-          stationDistanceSource={stationDistanceSource}
-          sheetState={formSheetState}
-          onSheetStateChange={setFormSheetState}
-          predictionYearRange={predictionYearRange}
-        />
-        <PredictionResultView
-          result={result}
-          summary={
-            region
-              ? {
-                  station: form.station,
-                  stationDistance: Math.round(form.stationDistance),
-                  modelRegion: getPrefectureLabel(region),
-                  latestTrainingYear: metadata?.latestTrainingYear ?? null,
-                  trainStartYear: metadata?.deployment?.trainStartYear ?? metadata?.evaluation?.trainStartYear ?? null,
-                  evaluationMae: metadata?.evaluation?.metrics.mae ?? metadata?.mae ?? null,
-                  evaluationRmse: metadata?.evaluation?.metrics.rmse ?? null,
-                  trainCount: metadata?.deployment?.trainCount ?? metadata?.evaluation?.trainCount ?? null,
-                  generatedAt: metadata?.generatedAt ?? null,
-                  featureImportance: metadata?.featureImportance ?? []
-                }
-              : undefined
-          }
-        />
-        <section className="panel prediction-year-panel" aria-label="予測年シミュレーション">
-          <PredictionYearControl
-            className="desktop-prediction-year"
-            value={form.predictionYear}
-            onChange={(predictionYear) => handleFormChange({ ...form, predictionYear })}
+        <div className={`sheet-stack sheet-${formSheetState}`}>
+          <PredictionForm
+            value={form}
+            onChange={handleFormChange}
+            stationOptions={stationOptions}
+            stationDistanceSource={stationDistanceSource}
+            sheetState={formSheetState}
+            onSheetStateChange={setFormSheetState}
             predictionYearRange={predictionYearRange}
           />
-        </section>
-        <PriceHistoryChart points={chartPoints} />
+          <PredictionResultView
+            result={result}
+            summary={
+              region
+                ? {
+                    station: form.station,
+                    stationDistance: Math.round(form.stationDistance),
+                    modelRegion: getPrefectureLabel(region),
+                    latestTrainingYear: metadata?.latestTrainingYear ?? null,
+                    trainStartYear: metadata?.deployment?.trainStartYear ?? metadata?.evaluation?.trainStartYear ?? null,
+                    evaluationMae: metadata?.evaluation?.metrics.mae ?? metadata?.mae ?? null,
+                    evaluationRmse: metadata?.evaluation?.metrics.rmse ?? null,
+                    trainCount: metadata?.deployment?.trainCount ?? metadata?.evaluation?.trainCount ?? null,
+                    generatedAt: metadata?.generatedAt ?? null,
+                    featureImportance: metadata?.featureImportance ?? []
+                  }
+                : undefined
+            }
+          />
+          <section className="panel prediction-year-panel" aria-label="予測年シミュレーション">
+            <PredictionYearControl
+              className="desktop-prediction-year"
+              value={form.predictionYear}
+              onChange={(predictionYear) => handleFormChange({ ...form, predictionYear })}
+              predictionYearRange={predictionYearRange}
+            />
+          </section>
+          <PriceHistoryChart points={chartPoints} />
+        </div>
       </div>
     </main>
   );
