@@ -4,9 +4,9 @@ import gzip
 import json
 import os
 from pathlib import Path
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
-
 
 REINFOLIB_BASE_URL = "https://www.reinfolib.mlit.go.jp/ex-api/external"
 REINFOLIB_API_KEY_ENV = "REINFOLIB_API_KEY"
@@ -16,6 +16,10 @@ PREFECTURE_CODES = {
     "chiba": "12",
     "kanagawa": "14",
 }
+
+
+class ReinfolibApiError(RuntimeError):
+    pass
 
 
 def convert_shift_jis_to_utf8(source: str | Path, destination: str | Path) -> Path:
@@ -38,16 +42,21 @@ def collect_mlit_data(
     station: str | None = None,
     api_key: str | None = None,
     price_classification: str = "01",
-) -> Path | None:
+) -> Path:
     subscription_key = api_key or os.getenv(REINFOLIB_API_KEY_ENV)
     if not subscription_key:
-        Path(output_dir).mkdir(parents=True, exist_ok=True)
-        print(f"skip collect: {REINFOLIB_API_KEY_ENV} is not set")
-        return None
+        raise ReinfolibApiError(
+            f"{REINFOLIB_API_KEY_ENV} is not set. "
+            "Set it in training/.env or the process environment."
+        )
 
     area = PREFECTURE_CODES.get(region)
     if not area:
         raise ValueError(f"Unsupported region for MLIT API: {region}")
+    if year < 2005:
+        raise ValueError("MLIT transaction price data is available from 2005")
+    if quarter is not None and quarter not in {1, 2, 3, 4}:
+        raise ValueError("quarter must be between 1 and 4")
 
     params = {
         "year": str(year),
@@ -63,6 +72,7 @@ def collect_mlit_data(
         params["station"] = station
 
     data = fetch_reinfolib_api("XIT001", params=params, subscription_key=subscription_key)
+    validate_reinfolib_response(data)
     output_path = _build_output_path(output_dir, region, year, quarter)
     output_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     return output_path
@@ -80,14 +90,37 @@ def fetch_reinfolib_api(
     request.add_header("Ocp-Apim-Subscription-Key", subscription_key)
     request.add_header("Accept-Encoding", "gzip")
 
-    with urlopen(request, timeout=timeout) as response:
-        payload = response.read()
-        encoding = (response.headers.get("Content-Encoding") or "").lower()
-        if "gzip" in encoding:
-            payload = gzip.decompress(payload)
-        if not payload:
-            return []
+    try:
+        with urlopen(request, timeout=timeout) as response:
+            payload = response.read()
+            encoding = (response.headers.get("Content-Encoding") or "").lower()
+    except HTTPError as error:
+        detail = error.read().decode("utf-8", errors="replace")[:300]
+        message = f"Reinfolib API returned HTTP {error.code} for {api_id}"
+        if detail:
+            message = f"{message}: {detail}"
+        raise ReinfolibApiError(message) from error
+    except URLError as error:
+        raise ReinfolibApiError(f"Could not connect to Reinfolib API: {error.reason}") from error
+
+    if "gzip" in encoding:
+        payload = gzip.decompress(payload)
+    if not payload:
+        raise ReinfolibApiError(f"Reinfolib API returned an empty response for {api_id}")
+
+    try:
         return json.loads(payload.decode("utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError) as error:
+        raise ReinfolibApiError(f"Reinfolib API returned invalid JSON for {api_id}") from error
+
+
+def validate_reinfolib_response(data: object) -> None:
+    if not isinstance(data, dict):
+        raise ReinfolibApiError("Reinfolib API response must be a JSON object")
+    if data.get("status") != "OK":
+        raise ReinfolibApiError(f"Reinfolib API returned status: {data.get('status', 'unknown')}")
+    if not isinstance(data.get("data"), list):
+        raise ReinfolibApiError("Reinfolib API response does not contain a data list")
 
 
 def _build_output_path(output_dir: str | Path, region: str, year: int, quarter: int | None) -> Path:

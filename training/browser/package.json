@@ -1,0 +1,8 @@
+{
+  "name": "map-lgb-fond-csv-downloader",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "playwright-core": "1.61.1"
+  }
+}

@@ -108,10 +108,39 @@ npm run preview
 ```bash
 make setup-training
 make init-db
-REINFOLIB_API_KEY=... make collect REGION=tokyo YEAR=2025
-make preprocess REGION=tokyo YEAR=2025
+cp training/.env.example training/.env
+# training/.env に発行済みの REINFOLIB_API_KEY を設定
+make collect REGION=tokyo YEAR=2025
+make preprocess-zip REGION=tokyo
 make train REGION=tokyo
 ```
+
+`make collect` はAPI認証とJSON取得に使用する。現行モデルの再学習では最寄駅名・駅徒歩分が必要なため、
+これらを含む既存CSV/ZIPを `make preprocess` または `make preprocess-zip` で前処理する。
+
+4地域・2020〜2025年をまとめて取得する場合は、次を実行する。
+
+```bash
+make collect-all
+```
+
+最寄駅名・駅徒歩分を含むCSVは、公式ダウンロード画面をChromeで操作して取得できる。
+
+```bash
+make setup-csv-download
+make download-csv CSV_PREFECTURES=tokyo CSV_FROM_YEAR=2025 CSV_TO_YEAR=2025
+```
+
+全国47都道府県・2005〜2025年を取得する場合は、次を実行する。
+
+```bash
+make download-csv-all
+```
+
+都道府県ごとに期間全体を1回ダウンロードし、`training/data/raw/mlit_{prefecture}_{year}.zip`
+へ年別分割する。データ量が多い大都市圏はタイムアウトを避けるため1年単位で取得する。正常な
+既存ZIPはスキップし、完了状況を `TODO.md` へ反映する。公式画面の変更で動かなくなる可能性が
+あるため、エラー時は画面仕様とセレクタを確認する。
 
 ZIPで取得した場合は、複数年をまとめて前処理できる。
 
@@ -131,9 +160,14 @@ make train-all PUBLISH_POLICY=latest
 https://www.reinfolib.mlit.go.jp/realEstatePrices/
 ```
 
-APIキーがない場合、collect処理は安全にスキップする。
+APIキーがない場合、collect処理は設定漏れが分かるようエラー終了する。
 
 APIキーは `training/.env.example` を参考に `REINFOLIB_API_KEY` として設定する。
+`training/.env` はGit管理対象外であり、実際のキーをコードやコマンドラインへ直接記載しない。
+
+XIT001 APIのJSONには、現行モデルで利用している最寄駅名と駅徒歩分が含まれない。API取得と認証確認は
+`make collect` で行えるが、既存モデルと同じ特徴量で再学習する間は、これらの項目を含むCSV/ZIPの
+前処理経路を維持する。APIデータの地区名を駅名として代用しない。
 
 利用できるコマンドは以下で確認できる。
 
@@ -157,7 +191,7 @@ FastAPI構成も検討したが、運用コスト削減と静的ホスティン�
 
 ### データクレンジング
 
-国交省データの文字コード、欠損値、数値表記、外れ値に対応する前処理を `training/src/preprocess` に分離した。複数年ZIPをまとめて処理し、地域別の parquet を生成できる。
+国交省データの文字コード、欠損値、数値表記、外れ値に対応する前処理を `training/src/preprocess` に分離した。複数年ZIPをまとめて処理し、地域別の parquet を生成できる。APIレスポンスは中古マンションだけを抽出し、APIに存在しない最寄駅情報を別項目から補完しない。
 
 ### GitHub Pages対応
 

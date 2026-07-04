@@ -6,7 +6,6 @@ import zipfile
 from datetime import date
 from pathlib import Path
 
-
 REQUIRED_COLUMNS = [
     "price",
     "area",
@@ -22,7 +21,6 @@ REQUIRED_COLUMNS = [
 
 
 def preprocess_csv(input_path: str | Path, output_path: str | Path) -> Path:
-    import pandas as pd
 
     input_file = Path(input_path)
     output_file = Path(output_path)
@@ -48,13 +46,18 @@ def preprocess_files(input_paths: list[str | Path], output_path: str | Path) -> 
 def preprocess_dataframe(df, output_file: Path) -> Path:
     df = normalize_columns(df)
     df = drop_missing_records(df)
+    if df.empty:
+        raise ValueError(
+            "No usable records remain after preprocessing. "
+            "XIT001 does not provide nearest-station or walking-time fields "
+            "required by the current model."
+        )
     df = remove_iqr_outliers(df, ["price", "area"])
     df.to_parquet(output_file, index=False)
     return output_file
 
 
 def read_raw_dataset(input_file: Path):
-    import pandas as pd
 
     if input_file.suffix.lower() == ".zip":
         return read_zipped_csv(input_file)
@@ -128,6 +131,8 @@ def normalize_mlit_records(records: list[dict]):
     rows = []
     current_year = date.today().year
     for record in records:
+        if _pick(record, "Type", "type") != "中古マンション等":
+            continue
         transaction_year = _parse_transaction_year(_pick(record, "Period", "period"))
         building_year = _parse_building_year(_pick(record, "BuildingYear", "buildingYear"))
         rows.append(
@@ -150,7 +155,6 @@ def normalize_mlit_records(records: list[dict]):
                     "NearestStation",
                     "Station",
                     "station",
-                    "DistrictName",
                 ),
                 "room_layout": _pick(record, "FloorPlan", "floorPlan") or "unknown",
                 "building_type": _pick(record, "Structure", "structure") or "unknown",
@@ -253,9 +257,9 @@ def _calculate_age(building_year: int | None, transaction_year: int) -> float | 
     return max(0, float(transaction_year - building_year))
 
 
-def _parse_station_distance(value) -> float:
+def _parse_station_distance(value) -> float | None:
     if value in (None, ""):
-        return 0.0
+        return None
     text = str(value)
     if "30分" in text and "60分" in text:
         return 45.0

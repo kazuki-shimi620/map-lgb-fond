@@ -30,16 +30,31 @@
 収集コマンド:
 
 ```bash
-cd training
-REINFOLIB_API_KEY=... uv run python src/collect/collect.py --region tokyo --year 2025 --output-dir data/raw
+cp training/.env.example training/.env
+# training/.env に REINFOLIB_API_KEY を設定
+make collect REGION=tokyo YEAR=2025
 ```
 
-前処理コマンド:
+APIキーはGit管理外の `training/.env` から読み込み、コマンドラインへ直接記載しない。
+
+現行モデル向けの前処理コマンド:
 
 ```bash
-cd training
-uv run python src/preprocess/preprocess.py --input data/raw/tokyo_2025_xit001.json --output data/processed/tokyo.parquet
+make preprocess-zip REGION=tokyo
 ```
+
+XIT001 APIのJSONには現行モデルで使う最寄駅名と駅徒歩分がないため、API JSONを地区名などで
+補完して学習へ流さない。同等情報を含むCSV/ZIP経路は維持する。
+
+公式画面からCSVを取得する場合:
+
+```bash
+make setup-csv-download
+make download-csv CSV_PREFECTURES=tokyo CSV_FROM_YEAR=2025 CSV_TO_YEAR=2025
+```
+
+全国分は `make download-csv-all` で取得する。正常な既存ZIPはスキップされ、`TODO.md` の
+チェックリストへ進捗が同期される。
 
 複数ZIPを1つの地域データにまとめる例:
 
