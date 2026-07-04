@@ -327,8 +327,18 @@ flowchart TD
         --> ModelManager
 
     ModelManager
+        --> ModelAssetLoader
+
+    ModelAssetLoader
+        --> CacheStorage
+
+    ModelManager
         --> ONNXRuntime
 ```
+
+`ModelAssetLoader`は同時に1モデルだけを取得する。優先度は、現在操作された地域、初期地域の東京、アイドル時の首都圏先読みの順とする。新しい操作が発生した場合はアイドル取得を中断する。
+
+モデルバイナリの永続キャッシュとONNXセッションのメモリ管理は分離する。Cache Storageには利用可能な地域モデルを保存できるが、ONNXセッションはLRU方式で直近2地域だけを保持する。
 
 ---
 

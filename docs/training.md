@@ -734,9 +734,12 @@ training/outputs/models/
 frontend/public/models/
 frontend/public/metadata/
 frontend/public/histories/
+frontend/public/model-manifest.json
 ```
 
 手動コピー運用は行わない。
+
+モデルを配信用ディレクトリへコピーした後、配置済みONNXのSHA-256と容量を`model-manifest.json`へ自動出力する。新しい地域モデルはマニフェストへ自動追加され、フロントエンドの優先ダウンロードとバージョン別キャッシュの対象になる。
 
 ---
 

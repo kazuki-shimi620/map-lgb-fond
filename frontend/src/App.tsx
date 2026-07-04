@@ -1,6 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
 import { PropertyMap } from "./features/map/PropertyMap";
-import { getModelManager } from "./features/model/modelManagerFactory";
+import {
+  getModelManager,
+  interruptModelPrefetch,
+  markModelManagerUsed,
+  prefetchCapitalRegionModels
+} from "./features/model/modelManagerFactory";
 import { PriceHistoryChart } from "./features/prediction/PriceHistoryChart";
 import { PredictionForm, PredictionYearControl } from "./features/prediction/PredictionForm";
 import { PredictionResultView } from "./features/prediction/PredictionResultView";
@@ -85,8 +90,10 @@ export function App() {
       try {
         await manager.loadAll();
         if (!disposed) {
+          markModelManagerUsed(currentRegion);
           setMetadata(manager.getMetadata());
           setIsModelReady(true);
+          prefetchCapitalRegionModels(currentRegion);
         }
       } catch {
         if (!disposed) {
@@ -115,6 +122,7 @@ export function App() {
   }
 
   async function handleMapSelect(lat: number, lon: number) {
+    interruptModelPrefetch();
     setFormSheetState("half");
     setForm((current) => ({ ...current, lat, lon }));
 

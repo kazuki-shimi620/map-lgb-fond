@@ -7,6 +7,7 @@ import type {
   SupportedRegion
 } from "../../types/prediction";
 import { fetchJson } from "../../services/http";
+import { modelAssetLoader, type ModelLoadPriority } from "./modelAssetLoader";
 
 type OrtModule = typeof import("onnxruntime-web");
 
@@ -28,6 +29,7 @@ export class ModelManager {
   private dictionary: CategoryDictionary | null = null;
   private metadata: ModelMetadata | null = null;
   private isUsingFallback = false;
+  private loadPromise: Promise<void> | null = null;
 
   constructor(region: SupportedRegion) {
     this.region = region;
@@ -43,7 +45,7 @@ export class ModelManager {
     return this.dictionary;
   }
 
-  async loadModel(): Promise<void> {
+  async loadModel(priority: ModelLoadPriority = "critical"): Promise<void> {
     try {
       this.ort = await import("onnxruntime-web");
       const onnxAssetBase = `${import.meta.env.BASE_URL}onnx/`;
@@ -51,7 +53,8 @@ export class ModelManager {
         wasm: `${onnxAssetBase}ort-wasm-simd-threaded.jsep.wasm`
       };
       this.ort.env.wasm.numThreads = 1;
-      this.session = await this.ort.InferenceSession.create(`./models/${this.region}_latest.onnx`);
+      const modelBytes = await modelAssetLoader.load(this.region, priority);
+      this.session = await this.ort.InferenceSession.create(modelBytes);
       this.isUsingFallback = false;
     } catch (error) {
       if (this.metadata?.developmentFallback) {
@@ -63,9 +66,22 @@ export class ModelManager {
     }
   }
 
-  async loadAll(): Promise<void> {
-    await Promise.all([this.loadMetadata(), this.loadCategoryDictionary()]);
-    await this.loadModel();
+  async loadAll(priority: ModelLoadPriority = "critical"): Promise<void> {
+    if (this.session || this.isUsingFallback) {
+      return;
+    }
+    this.loadPromise ??= this.loadAssets(priority).finally(() => {
+      this.loadPromise = null;
+    });
+    return this.loadPromise;
+  }
+
+  async release(): Promise<void> {
+    const session = this.session;
+    this.session = null;
+    if (session) {
+      await session.release();
+    }
   }
 
   encode(request: PredictionRequest): EncodedPredictionRequest {
@@ -137,6 +153,14 @@ export class ModelManager {
 
     const inputName = this.session.inputNames[0];
     return { [inputName]: inputTensor };
+  }
+
+  private async loadAssets(priority: ModelLoadPriority) {
+    await Promise.all([
+      this.metadata ? Promise.resolve(this.metadata) : this.loadMetadata(),
+      this.dictionary ? Promise.resolve(this.dictionary) : this.loadCategoryDictionary()
+    ]);
+    await this.loadModel(priority);
   }
 
   private toResult(predictedPrice: number, area: number): PredictionResult {

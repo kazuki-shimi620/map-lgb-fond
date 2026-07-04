@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-04T00:00:00+09:00",
+  "capitalRegionPriority": [
+    "tokyo",
+    "kanagawa",
+    "saitama",
+    "chiba"
+  ],
+  "models": {
+    "tokyo": {
+      "path": "models/tokyo_latest.onnx",
+      "version": "0dc0c4a8c0ee77209db01ab633854426ec6ed8c860a7423969f5a43e965392a9",
+      "bytes": 9145993
+    },
+    "kanagawa": {
+      "path": "models/kanagawa_latest.onnx",
+      "version": "675f74c06998f2f0301f370a02166d1323c20f95550b3d60e63fcc24084c5192",
+      "bytes": 7759567
+    },
+    "saitama": {
+      "path": "models/saitama_latest.onnx",
+      "version": "cf4bf97c2be0b99f7e66308202bf972de11d0080ad5fe727f24e8afda1336612",
+      "bytes": 2095441
+    },
+    "chiba": {
+      "path": "models/chiba_latest.onnx",
+      "version": "461abb18693234db2b8a65e67a80f90d4e514d89c8b860533526a12fd6ba3b7d",
+      "bytes": 3312791
+    }
+  }
+}

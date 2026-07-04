@@ -55,3 +55,16 @@ export type PriceHistoryPoint = {
   avg_price: number;
   kind?: "actual" | "forecast";
 };
+
+export type ModelAsset = {
+  path: string;
+  version: string;
+  bytes: number;
+};
+
+export type ModelManifest = {
+  schemaVersion: number;
+  generatedAt: string;
+  capitalRegionPriority: string[];
+  models: Record<string, ModelAsset>;
+};
