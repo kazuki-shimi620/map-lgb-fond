@@ -1,0 +1,3104 @@
+[
+  {
+    "prefecture": "熊本県",
+    "station": "三里木",
+    "year": 2025,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(市電)",
+    "year": 2021,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(市電)",
+    "year": 2022,
+    "avg_price": 18600000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(市電)",
+    "year": 2023,
+    "avg_price": 40000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(市電)",
+    "year": 2024,
+    "avg_price": 37000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(市電)",
+    "year": 2025,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2007,
+    "avg_price": 8180000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2008,
+    "avg_price": 10136363.636363637
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2009,
+    "avg_price": 14458620.689655172
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2010,
+    "avg_price": 11221875.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2011,
+    "avg_price": 14009375.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2012,
+    "avg_price": 12827777.777777778
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2013,
+    "avg_price": 12627272.727272727
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2014,
+    "avg_price": 13777777.777777778
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2015,
+    "avg_price": 14692592.592592593
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2016,
+    "avg_price": 18142857.14285714
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2017,
+    "avg_price": 14553333.333333334
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2018,
+    "avg_price": 14288888.888888888
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2019,
+    "avg_price": 16180952.38095238
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2020,
+    "avg_price": 18587812.5
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2021,
+    "avg_price": 13386842.105263159
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2022,
+    "avg_price": 18885294.11764706
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2023,
+    "avg_price": 19554838.70967742
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2024,
+    "avg_price": 25285185.185185187
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "上熊本(ＪＲ・熊本電鉄)",
+    "year": 2025,
+    "avg_price": 20784210.52631579
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "九品寺交差点",
+    "year": 2019,
+    "avg_price": 33000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "九品寺交差点",
+    "year": 2021,
+    "avg_price": 23666666.666666668
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "九品寺交差点",
+    "year": 2022,
+    "avg_price": 22183333.333333332
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "九品寺交差点",
+    "year": 2023,
+    "avg_price": 27253846.153846152
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "九品寺交差点",
+    "year": 2024,
+    "avg_price": 23595000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "九品寺交差点",
+    "year": 2025,
+    "avg_price": 24021428.57142857
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "亀井",
+    "year": 2021,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "二本木口",
+    "year": 2023,
+    "avg_price": 38000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "二本木口",
+    "year": 2024,
+    "avg_price": 27500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "二本木口",
+    "year": 2025,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "交通局前(熊本)",
+    "year": 2022,
+    "avg_price": 17900000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "交通局前(熊本)",
+    "year": 2023,
+    "avg_price": 31555555.555555556
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "交通局前(熊本)",
+    "year": 2024,
+    "avg_price": 31525000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "交通局前(熊本)",
+    "year": 2025,
+    "avg_price": 36666666.666666664
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "人吉",
+    "year": 2022,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "人吉",
+    "year": 2024,
+    "avg_price": 6650000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍交番前",
+    "year": 2023,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍交番前",
+    "year": 2024,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍交番前",
+    "year": 2025,
+    "avg_price": 12050000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍校前",
+    "year": 2018,
+    "avg_price": 2100000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍校前",
+    "year": 2020,
+    "avg_price": 2200000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍校前",
+    "year": 2021,
+    "avg_price": 8166666.666666667
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍校前",
+    "year": 2022,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍校前",
+    "year": 2023,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍校前",
+    "year": 2024,
+    "avg_price": 10800000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍校前",
+    "year": 2025,
+    "avg_price": 12640000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍町",
+    "year": 2012,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍町",
+    "year": 2014,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍町",
+    "year": 2018,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍町",
+    "year": 2019,
+    "avg_price": 17750000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍町",
+    "year": 2020,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍町",
+    "year": 2021,
+    "avg_price": 18250000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍町",
+    "year": 2022,
+    "avg_price": 14469230.76923077
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍町",
+    "year": 2023,
+    "avg_price": 17940909.09090909
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍町",
+    "year": 2024,
+    "avg_price": 19682352.94117647
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "健軍町",
+    "year": 2025,
+    "avg_price": 17366666.666666668
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "光の森",
+    "year": 2008,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "光の森",
+    "year": 2014,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "光の森",
+    "year": 2015,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "光の森",
+    "year": 2017,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "光の森",
+    "year": 2018,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "光の森",
+    "year": 2019,
+    "avg_price": 17720000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "光の森",
+    "year": 2020,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "光の森",
+    "year": 2021,
+    "avg_price": 20250000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "光の森",
+    "year": 2022,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "光の森",
+    "year": 2023,
+    "avg_price": 24666666.666666668
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "光の森",
+    "year": 2024,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八丁馬場",
+    "year": 2013,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八丁馬場",
+    "year": 2015,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八丁馬場",
+    "year": 2022,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八丁馬場",
+    "year": 2023,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八丁馬場",
+    "year": 2025,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2007,
+    "avg_price": 8450000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2008,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2009,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2010,
+    "avg_price": 8833333.333333334
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2011,
+    "avg_price": 7875000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2012,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2014,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2015,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2016,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2017,
+    "avg_price": 7550000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2018,
+    "avg_price": 18075000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2020,
+    "avg_price": 10175000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2021,
+    "avg_price": 14800000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2022,
+    "avg_price": 11040000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2023,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2024,
+    "avg_price": 17180000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八代",
+    "year": 2025,
+    "avg_price": 8650000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2008,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2009,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2010,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2013,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2014,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2015,
+    "avg_price": 7600000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2017,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2018,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2020,
+    "avg_price": 9166666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2021,
+    "avg_price": 7233333.333333333
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2022,
+    "avg_price": 10750000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2023,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2024,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "八景水谷",
+    "year": 2025,
+    "avg_price": 8466666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "動植物園入口",
+    "year": 2018,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "動植物園入口",
+    "year": 2022,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "動植物園入口",
+    "year": 2024,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "動植物園入口",
+    "year": 2025,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "北熊本",
+    "year": 2008,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "北熊本",
+    "year": 2009,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "北熊本",
+    "year": 2010,
+    "avg_price": 3600000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "北熊本",
+    "year": 2011,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "北熊本",
+    "year": 2013,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "北熊本",
+    "year": 2015,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "北熊本",
+    "year": 2018,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "北熊本",
+    "year": 2020,
+    "avg_price": 3533333.3333333335
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "北熊本",
+    "year": 2021,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "北熊本",
+    "year": 2022,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "北熊本",
+    "year": 2023,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "北熊本",
+    "year": 2024,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "北熊本",
+    "year": 2025,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2007,
+    "avg_price": 8840000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2008,
+    "avg_price": 18888235.29411765
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2009,
+    "avg_price": 16760000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2010,
+    "avg_price": 8912500.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2011,
+    "avg_price": 13033333.333333334
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2012,
+    "avg_price": 15566666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2013,
+    "avg_price": 17363636.363636363
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2014,
+    "avg_price": 14038888.888888888
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2015,
+    "avg_price": 11065454.545454545
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2016,
+    "avg_price": 20514285.714285713
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2017,
+    "avg_price": 10927272.727272727
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2018,
+    "avg_price": 14270000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2019,
+    "avg_price": 12029411.764705881
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2020,
+    "avg_price": 16284615.384615384
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2021,
+    "avg_price": 15430000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2022,
+    "avg_price": 18725000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2023,
+    "avg_price": 16305000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2024,
+    "avg_price": 18155172.413793102
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南熊本",
+    "year": 2025,
+    "avg_price": 17760000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "南荒尾",
+    "year": 2024,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "原水",
+    "year": 2022,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "原水",
+    "year": 2024,
+    "avg_price": 42000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "呉服町(熊本)",
+    "year": 2017,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "呉服町(熊本)",
+    "year": 2019,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "呉服町(熊本)",
+    "year": 2020,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "呉服町(熊本)",
+    "year": 2021,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "呉服町(熊本)",
+    "year": 2022,
+    "avg_price": 9340000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "呉服町(熊本)",
+    "year": 2023,
+    "avg_price": 5760000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "呉服町(熊本)",
+    "year": 2024,
+    "avg_price": 11475000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "呉服町(熊本)",
+    "year": 2025,
+    "avg_price": 15533333.333333334
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "味噌天神前",
+    "year": 2021,
+    "avg_price": 17433333.333333332
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "味噌天神前",
+    "year": 2023,
+    "avg_price": 30500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "味噌天神前",
+    "year": 2024,
+    "avg_price": 24500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "味噌天神前",
+    "year": 2025,
+    "avg_price": 22600000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "商業高校前",
+    "year": 2021,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "商業高校前",
+    "year": 2022,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "商業高校前",
+    "year": 2024,
+    "avg_price": 21333333.333333332
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "国府(熊本)",
+    "year": 2011,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "国府(熊本)",
+    "year": 2019,
+    "avg_price": 13400000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "国府(熊本)",
+    "year": 2022,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "国府(熊本)",
+    "year": 2023,
+    "avg_price": 11850000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "国府(熊本)",
+    "year": 2024,
+    "avg_price": 20342857.14285714
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "国府(熊本)",
+    "year": 2025,
+    "avg_price": 21300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "坪井川公園",
+    "year": 2009,
+    "avg_price": 10300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "坪井川公園",
+    "year": 2010,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "坪井川公園",
+    "year": 2014,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "坪井川公園",
+    "year": 2016,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "坪井川公園",
+    "year": 2020,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "坪井川公園",
+    "year": 2021,
+    "avg_price": 11075000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "坪井川公園",
+    "year": 2022,
+    "avg_price": 11750000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "坪井川公園",
+    "year": 2023,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "坪井川公園",
+    "year": 2024,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "坪井川公園",
+    "year": 2025,
+    "avg_price": 10275000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "堀川",
+    "year": 2015,
+    "avg_price": 12250000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "堀川",
+    "year": 2022,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "堀川",
+    "year": 2024,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "堀川",
+    "year": 2025,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "宇土",
+    "year": 2022,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "宇土",
+    "year": 2023,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "宇土",
+    "year": 2025,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "崇城大学前",
+    "year": 2010,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "崇城大学前",
+    "year": 2012,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "崇城大学前",
+    "year": 2013,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "崇城大学前",
+    "year": 2018,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "崇城大学前",
+    "year": 2019,
+    "avg_price": 11400000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "崇城大学前",
+    "year": 2020,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "崇城大学前",
+    "year": 2021,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "崇城大学前",
+    "year": 2022,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "崇城大学前",
+    "year": 2023,
+    "avg_price": 8450000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "崇城大学前",
+    "year": 2024,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "川尻",
+    "year": 2009,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "川尻",
+    "year": 2015,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "川尻",
+    "year": 2021,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "川尻",
+    "year": 2023,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "川尻",
+    "year": 2024,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "川尻",
+    "year": 2025,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "市立体育館前",
+    "year": 2014,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "市立体育館前",
+    "year": 2019,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "市立体育館前",
+    "year": 2021,
+    "avg_price": 15100000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "市立体育館前",
+    "year": 2022,
+    "avg_price": 38000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "市立体育館前",
+    "year": 2023,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "市立体育館前",
+    "year": 2024,
+    "avg_price": 17200000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "市立体育館前",
+    "year": 2025,
+    "avg_price": 18155555.555555556
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2008,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2011,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2012,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2013,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2014,
+    "avg_price": 14416666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2015,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2017,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2018,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2019,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2020,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2021,
+    "avg_price": 17222222.222222224
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2022,
+    "avg_price": 18166666.666666668
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2023,
+    "avg_price": 20186666.666666668
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2024,
+    "avg_price": 25588235.29411765
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "平成",
+    "year": 2025,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "慶徳校前",
+    "year": 2016,
+    "avg_price": 2200000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "慶徳校前",
+    "year": 2017,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "慶徳校前",
+    "year": 2020,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "慶徳校前",
+    "year": 2021,
+    "avg_price": 15300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "慶徳校前",
+    "year": 2022,
+    "avg_price": 11560000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "慶徳校前",
+    "year": 2023,
+    "avg_price": 8985714.285714285
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "慶徳校前",
+    "year": 2024,
+    "avg_price": 9075000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "慶徳校前",
+    "year": 2025,
+    "avg_price": 10420000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2007,
+    "avg_price": 15621428.57142857
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2008,
+    "avg_price": 14950000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2009,
+    "avg_price": 17655932.20338983
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2010,
+    "avg_price": 16616666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2011,
+    "avg_price": 10445945.945945946
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2012,
+    "avg_price": 13989285.714285715
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2013,
+    "avg_price": 11189473.684210526
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2014,
+    "avg_price": 14078125.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2015,
+    "avg_price": 13960000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2016,
+    "avg_price": 16334782.608695652
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2017,
+    "avg_price": 20450000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2018,
+    "avg_price": 18650000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2019,
+    "avg_price": 14496153.846153846
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2020,
+    "avg_price": 19112820.512820512
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2021,
+    "avg_price": 21257446.80851064
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2022,
+    "avg_price": 18757500.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2023,
+    "avg_price": 21005263.157894738
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2024,
+    "avg_price": 14310810.81081081
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺",
+    "year": 2025,
+    "avg_price": 17960000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺駅前",
+    "year": 2021,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺駅前",
+    "year": 2022,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺駅前",
+    "year": 2023,
+    "avg_price": 36500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺駅前",
+    "year": 2024,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新水前寺駅前",
+    "year": 2025,
+    "avg_price": 22666666.666666668
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新町(熊本)",
+    "year": 2012,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新町(熊本)",
+    "year": 2016,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新町(熊本)",
+    "year": 2017,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新町(熊本)",
+    "year": 2019,
+    "avg_price": 27500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新町(熊本)",
+    "year": 2020,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新町(熊本)",
+    "year": 2021,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新町(熊本)",
+    "year": 2022,
+    "avg_price": 18966666.666666668
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新町(熊本)",
+    "year": 2023,
+    "avg_price": 17325000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新町(熊本)",
+    "year": 2024,
+    "avg_price": 16255555.555555556
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新町(熊本)",
+    "year": 2025,
+    "avg_price": 17933333.333333332
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新須屋",
+    "year": 2022,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新須屋",
+    "year": 2023,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "新須屋",
+    "year": 2024,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "本妙寺入口",
+    "year": 2021,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "本妙寺入口",
+    "year": 2022,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "本妙寺入口",
+    "year": 2023,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "本妙寺入口",
+    "year": 2024,
+    "avg_price": 19750000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "本妙寺入口",
+    "year": 2025,
+    "avg_price": 15520000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "杉塘",
+    "year": 2022,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "杉塘",
+    "year": 2023,
+    "avg_price": 16300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "杉塘",
+    "year": 2024,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "杉塘",
+    "year": 2025,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2007,
+    "avg_price": 9375000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2008,
+    "avg_price": 18300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2009,
+    "avg_price": 12018181.818181818
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2010,
+    "avg_price": 17627857.14285714
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2011,
+    "avg_price": 17570000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2012,
+    "avg_price": 14064705.88235294
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2013,
+    "avg_price": 11044444.444444444
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2014,
+    "avg_price": 10528571.42857143
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2015,
+    "avg_price": 11594736.842105264
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2016,
+    "avg_price": 13755555.555555556
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2017,
+    "avg_price": 15246666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2018,
+    "avg_price": 12177777.777777778
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2019,
+    "avg_price": 13975000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2020,
+    "avg_price": 15916666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2021,
+    "avg_price": 16930769.230769232
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2022,
+    "avg_price": 14553571.42857143
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2023,
+    "avg_price": 13770967.741935484
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2024,
+    "avg_price": 13366666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "東海学園前",
+    "year": 2025,
+    "avg_price": 16034615.384615384
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2007,
+    "avg_price": 11566666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2010,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2011,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2012,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2013,
+    "avg_price": 10050000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2015,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2016,
+    "avg_price": 14450000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2017,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2019,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2020,
+    "avg_price": 25250000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2021,
+    "avg_price": 16380000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2022,
+    "avg_price": 24142857.14285714
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2023,
+    "avg_price": 21427272.727272727
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2024,
+    "avg_price": 27666666.666666668
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "武蔵塚",
+    "year": 2025,
+    "avg_price": 14800000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "段山町",
+    "year": 2021,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "段山町",
+    "year": 2022,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "段山町",
+    "year": 2023,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "段山町",
+    "year": 2024,
+    "avg_price": 16800000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "段山町",
+    "year": 2025,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2007,
+    "avg_price": 8750000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2008,
+    "avg_price": 15118604.65116279
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2009,
+    "avg_price": 15525000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2010,
+    "avg_price": 10303333.333333334
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2011,
+    "avg_price": 8731250.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2012,
+    "avg_price": 9504651.162790697
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2013,
+    "avg_price": 8544444.444444444
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2014,
+    "avg_price": 10188372.093023255
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2015,
+    "avg_price": 9909523.80952381
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2016,
+    "avg_price": 10015151.515151516
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2017,
+    "avg_price": 9625806.451612903
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2018,
+    "avg_price": 14351111.111111112
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2019,
+    "avg_price": 14588372.093023255
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2020,
+    "avg_price": 14811538.461538462
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2021,
+    "avg_price": 16607575.757575758
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2022,
+    "avg_price": 17569090.90909091
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2023,
+    "avg_price": 17972463.76811594
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2024,
+    "avg_price": 15553333.333333334
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺",
+    "year": 2025,
+    "avg_price": 18565454.545454547
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺公園",
+    "year": 2021,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺公園",
+    "year": 2022,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺公園",
+    "year": 2023,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺公園",
+    "year": 2024,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水前寺公園",
+    "year": 2025,
+    "avg_price": 25250000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水道町",
+    "year": 2011,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水道町",
+    "year": 2012,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水道町",
+    "year": 2019,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水道町",
+    "year": 2021,
+    "avg_price": 21900000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水道町",
+    "year": 2022,
+    "avg_price": 24500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水道町",
+    "year": 2023,
+    "avg_price": 22440000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水道町",
+    "year": 2024,
+    "avg_price": 26700000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "水道町",
+    "year": 2025,
+    "avg_price": 28550000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "池田(熊本)",
+    "year": 2010,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "池田(熊本)",
+    "year": 2011,
+    "avg_price": 4900000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "池田(熊本)",
+    "year": 2016,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "池田(熊本)",
+    "year": 2018,
+    "avg_price": 800000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "池田(熊本)",
+    "year": 2020,
+    "avg_price": 13400000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "池田(熊本)",
+    "year": 2021,
+    "avg_price": 12675000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "池田(熊本)",
+    "year": 2022,
+    "avg_price": 13300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "池田(熊本)",
+    "year": 2023,
+    "avg_price": 13362500.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "池田(熊本)",
+    "year": 2024,
+    "avg_price": 14614285.714285715
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "池田(熊本)",
+    "year": 2025,
+    "avg_price": 6100000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "河原町(熊本)",
+    "year": 2015,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "河原町(熊本)",
+    "year": 2018,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "河原町(熊本)",
+    "year": 2019,
+    "avg_price": 12533333.333333334
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "河原町(熊本)",
+    "year": 2021,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "河原町(熊本)",
+    "year": 2022,
+    "avg_price": 26333333.333333332
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "河原町(熊本)",
+    "year": 2023,
+    "avg_price": 13800000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "河原町(熊本)",
+    "year": 2024,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "河原町(熊本)",
+    "year": 2025,
+    "avg_price": 27090909.09090909
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "洗馬橋",
+    "year": 2020,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "洗馬橋",
+    "year": 2021,
+    "avg_price": 2700000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "洗馬橋",
+    "year": 2022,
+    "avg_price": 2350000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "洗馬橋",
+    "year": 2024,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "洗馬橋",
+    "year": 2025,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2007,
+    "avg_price": 6560000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2008,
+    "avg_price": 8828709.677419355
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2009,
+    "avg_price": 7945161.29032258
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2010,
+    "avg_price": 8266666.666666667
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2011,
+    "avg_price": 10652380.952380951
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2012,
+    "avg_price": 9384375.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2013,
+    "avg_price": 10273333.333333334
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2014,
+    "avg_price": 12959523.80952381
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2015,
+    "avg_price": 12936170.212765958
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2016,
+    "avg_price": 12347058.823529411
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2017,
+    "avg_price": 12918181.818181818
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2018,
+    "avg_price": 15182051.282051282
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2019,
+    "avg_price": 25087272.727272727
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2020,
+    "avg_price": 16295833.333333334
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2021,
+    "avg_price": 18778125.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2022,
+    "avg_price": 18687755.102040816
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2023,
+    "avg_price": 22456521.739130434
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2024,
+    "avg_price": 23702564.102564104
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本",
+    "year": 2025,
+    "avg_price": 25785106.382978722
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本城・市役所前",
+    "year": 2021,
+    "avg_price": 36000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本城・市役所前",
+    "year": 2024,
+    "avg_price": 40000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本駅前",
+    "year": 2021,
+    "avg_price": 22333333.333333332
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本駅前",
+    "year": 2022,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本駅前",
+    "year": 2023,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "熊本駅前",
+    "year": 2025,
+    "avg_price": 33250000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "玉名",
+    "year": 2021,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "玉名",
+    "year": 2023,
+    "avg_price": 10900000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "玉名",
+    "year": 2024,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "玉名",
+    "year": 2025,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "田崎橋",
+    "year": 2021,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "田崎橋",
+    "year": 2022,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "田崎橋",
+    "year": 2023,
+    "avg_price": 11916666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "田崎橋",
+    "year": 2024,
+    "avg_price": 12716666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "田崎橋",
+    "year": 2025,
+    "avg_price": 25250000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "県立体育館前",
+    "year": 2021,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "県立体育館前",
+    "year": 2022,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "県立体育館前",
+    "year": 2023,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "祗園橋",
+    "year": 2021,
+    "avg_price": 11100000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "祗園橋",
+    "year": 2022,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "祗園橋",
+    "year": 2023,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "祗園橋",
+    "year": 2025,
+    "avg_price": 22750000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "神水交差点",
+    "year": 2016,
+    "avg_price": 33500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "神水交差点",
+    "year": 2017,
+    "avg_price": 41333333.333333336
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "神水交差点",
+    "year": 2021,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "神水交差点",
+    "year": 2022,
+    "avg_price": 31166666.666666668
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "神水交差点",
+    "year": 2023,
+    "avg_price": 12600000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "神水交差点",
+    "year": 2024,
+    "avg_price": 24600000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "神水交差点",
+    "year": 2025,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2007,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2008,
+    "avg_price": 1750000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2009,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2010,
+    "avg_price": 2100000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2011,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2012,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2013,
+    "avg_price": 2766666.6666666665
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2014,
+    "avg_price": 13176923.076923076
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2015,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2016,
+    "avg_price": 1700000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2017,
+    "avg_price": 10700000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2018,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2019,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2020,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2021,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2022,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2023,
+    "avg_price": 6240000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2024,
+    "avg_price": 15266666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "竜田口",
+    "year": 2025,
+    "avg_price": 11272727.272727273
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "花畑町",
+    "year": 2020,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "花畑町",
+    "year": 2022,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "花畑町",
+    "year": 2025,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "荒尾(熊本)",
+    "year": 2021,
+    "avg_price": 14650000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "荒尾(熊本)",
+    "year": 2022,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "荒尾(熊本)",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "荒尾(熊本)",
+    "year": 2024,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "荒尾(熊本)",
+    "year": 2025,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "蔚山町",
+    "year": 2017,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "蔚山町",
+    "year": 2018,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "蔚山町",
+    "year": 2020,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "蔚山町",
+    "year": 2021,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "蔚山町",
+    "year": 2022,
+    "avg_price": 22800000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "蔚山町",
+    "year": 2023,
+    "avg_price": 17960000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "蔚山町",
+    "year": 2024,
+    "avg_price": 23600000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "蔚山町",
+    "year": 2025,
+    "avg_price": 20380000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2008,
+    "avg_price": 14740000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2010,
+    "avg_price": 36000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2011,
+    "avg_price": 20600000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2012,
+    "avg_price": 5980000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2013,
+    "avg_price": 12840000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2014,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2015,
+    "avg_price": 9166666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2016,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2017,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2018,
+    "avg_price": 15163636.363636363
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2019,
+    "avg_price": 10420000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2020,
+    "avg_price": 9525000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2021,
+    "avg_price": 14414285.714285715
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2022,
+    "avg_price": 21523076.923076924
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2023,
+    "avg_price": 11477777.777777778
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2024,
+    "avg_price": 16381818.181818182
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "藤崎宮前",
+    "year": 2025,
+    "avg_price": 17520000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西熊本",
+    "year": 2019,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西熊本",
+    "year": 2020,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西熊本",
+    "year": 2021,
+    "avg_price": 14100000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西熊本",
+    "year": 2022,
+    "avg_price": 10300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西熊本",
+    "year": 2023,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西熊本",
+    "year": 2024,
+    "avg_price": 18900000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西熊本",
+    "year": 2025,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西辛島町",
+    "year": 2017,
+    "avg_price": 42000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西辛島町",
+    "year": 2018,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西辛島町",
+    "year": 2019,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西辛島町",
+    "year": 2021,
+    "avg_price": 12066666.666666666
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西辛島町",
+    "year": 2022,
+    "avg_price": 17750000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西辛島町",
+    "year": 2023,
+    "avg_price": 11675000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西辛島町",
+    "year": 2024,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西辛島町",
+    "year": 2025,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西里",
+    "year": 2007,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "西里",
+    "year": 2012,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "辛島町",
+    "year": 2020,
+    "avg_price": 57000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "辛島町",
+    "year": 2021,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "辛島町",
+    "year": 2022,
+    "avg_price": 7325000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "辛島町",
+    "year": 2023,
+    "avg_price": 28900000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "辛島町",
+    "year": 2024,
+    "avg_price": 17250000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "辛島町",
+    "year": 2025,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "通町筋",
+    "year": 2012,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "通町筋",
+    "year": 2021,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "通町筋",
+    "year": 2025,
+    "avg_price": 42000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "防府",
+    "year": 2022,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "韓々坂",
+    "year": 2011,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "韓々坂",
+    "year": 2012,
+    "avg_price": 5900000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "韓々坂",
+    "year": 2014,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "韓々坂",
+    "year": 2016,
+    "avg_price": 9450000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "韓々坂",
+    "year": 2017,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "韓々坂",
+    "year": 2020,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "韓々坂",
+    "year": 2021,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "韓々坂",
+    "year": 2022,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "韓々坂",
+    "year": 2024,
+    "avg_price": 11200000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "韓々坂",
+    "year": 2025,
+    "avg_price": 6150000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "黒髪町",
+    "year": 2010,
+    "avg_price": 8700000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "黒髪町",
+    "year": 2013,
+    "avg_price": 17200000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "黒髪町",
+    "year": 2014,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "黒髪町",
+    "year": 2020,
+    "avg_price": 10400000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "黒髪町",
+    "year": 2021,
+    "avg_price": 3600000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "黒髪町",
+    "year": 2022,
+    "avg_price": 10900000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "黒髪町",
+    "year": 2023,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "黒髪町",
+    "year": 2024,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "熊本県",
+    "station": "黒髪町",
+    "year": 2025,
+    "avg_price": 15000000.0
+  }
+]

@@ -1,0 +1,1338 @@
+[
+  {
+    "station_id": "kochi_0079",
+    "station_name": "あかおか",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.539893,
+    "lon": 133.721859
+  },
+  {
+    "station_id": "kochi_0087",
+    "station_name": "あき総合病院前",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.504363,
+    "lon": 133.897671
+  },
+  {
+    "station_id": "kochi_0077",
+    "station_name": "のいち",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.561649,
+    "lon": 133.698366
+  },
+  {
+    "station_id": "kochi_0095",
+    "station_name": "はりまや橋",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.559617,
+    "lon": 133.542852
+  },
+  {
+    "station_id": "kochi_0078",
+    "station_name": "よしかわ",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.546089,
+    "lon": 133.710352
+  },
+  {
+    "station_id": "kochi_0100",
+    "station_name": "グランド通",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.55774,
+    "lon": 133.529356
+  },
+  {
+    "station_id": "kochi_0150",
+    "station_name": "一条橋",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.574833,
+    "lon": 133.613802
+  },
+  {
+    "station_id": "kochi_0102",
+    "station_name": "上町一丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.557489,
+    "lon": 133.525107
+  },
+  {
+    "station_id": "kochi_0103",
+    "station_name": "上町二丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.557382,
+    "lon": 133.522897
+  },
+  {
+    "station_id": "kochi_0105",
+    "station_name": "上町五丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.557275,
+    "lon": 133.516674
+  },
+  {
+    "station_id": "kochi_0104",
+    "station_name": "上町四丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.557382,
+    "lon": 133.519657
+  },
+  {
+    "station_id": "kochi_0090",
+    "station_name": "下山",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.458267,
+    "lon": 133.94837
+  },
+  {
+    "station_id": "kochi_0121",
+    "station_name": "中山",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.551857,
+    "lon": 133.452644
+  },
+  {
+    "station_id": "kochi_0067",
+    "station_name": "中村",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道中村線",
+    "lat": 32.984641,
+    "lon": 132.943927
+  },
+  {
+    "station_id": "kochi_0053",
+    "station_name": "仁井田",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.245097,
+    "lon": 133.161204
+  },
+  {
+    "station_id": "kochi_0141",
+    "station_name": "介良通",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.560243,
+    "lon": 133.583386
+  },
+  {
+    "station_id": "kochi_0056",
+    "station_name": "伊与喜",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道中村線",
+    "lat": 33.105169,
+    "lon": 133.098519
+  },
+  {
+    "station_id": "kochi_0089",
+    "station_name": "伊尾木",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.490952,
+    "lon": 133.929158
+  },
+  {
+    "station_id": "kochi_0034",
+    "station_name": "伊野",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.547507,
+    "lon": 133.430128
+  },
+  {
+    "station_id": "kochi_0123",
+    "station_name": "伊野商業前",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.550569,
+    "lon": 133.444362
+  },
+  {
+    "station_id": "kochi_0127",
+    "station_name": "伊野駅前",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.548602,
+    "lon": 133.429663
+  },
+  {
+    "station_id": "kochi_0155",
+    "station_name": "住吉通",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.576656,
+    "lon": 133.636515
+  },
+  {
+    "station_id": "kochi_0041",
+    "station_name": "佐川",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.500189,
+    "lon": 133.292741
+  },
+  {
+    "station_id": "kochi_0058",
+    "station_name": "佐賀公園",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道中村線",
+    "lat": 33.064604,
+    "lon": 133.106582
+  },
+  {
+    "station_id": "kochi_0028",
+    "station_name": "入明",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.567322,
+    "lon": 133.530298
+  },
+  {
+    "station_id": "kochi_0120",
+    "station_name": "八代通",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.552214,
+    "lon": 133.456399
+  },
+  {
+    "station_id": "kochi_0052",
+    "station_name": "六反地",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.261992,
+    "lon": 133.169339
+  },
+  {
+    "station_id": "kochi_0074",
+    "station_name": "具同",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道宿毛線",
+    "lat": 32.9794,
+    "lon": 132.915473
+  },
+  {
+    "station_id": "kochi_0029",
+    "station_name": "円行寺口",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.565816,
+    "lon": 133.520791
+  },
+  {
+    "station_id": "kochi_0124",
+    "station_name": "北内",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.549961,
+    "lon": 133.441336
+  },
+  {
+    "station_id": "kochi_0125",
+    "station_name": "北山",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.549425,
+    "lon": 133.438504
+  },
+  {
+    "station_id": "kochi_0147",
+    "station_name": "北浦",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.57376,
+    "lon": 133.603728
+  },
+  {
+    "station_id": "kochi_0006",
+    "station_name": "十川",
+    "prefecture": "高知県",
+    "line_name": "JR予土線",
+    "lat": 33.234869,
+    "lon": 132.855827
+  },
+  {
+    "station_id": "kochi_0007",
+    "station_name": "半家",
+    "prefecture": "高知県",
+    "line_name": "JR予土線",
+    "lat": 33.201666,
+    "lon": 132.791428
+  },
+  {
+    "station_id": "kochi_0066",
+    "station_name": "古津賀",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道中村線",
+    "lat": 32.985744,
+    "lon": 132.962036
+  },
+  {
+    "station_id": "kochi_0044",
+    "station_name": "吾桑",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.43027,
+    "lon": 133.295588
+  },
+  {
+    "station_id": "kochi_0083",
+    "station_name": "和食",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.51784,
+    "lon": 133.809739
+  },
+  {
+    "station_id": "kochi_0118",
+    "station_name": "咥内",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.552393,
+    "lon": 133.470454
+  },
+  {
+    "station_id": "kochi_0091",
+    "station_name": "唐浜",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.446036,
+    "lon": 133.966263
+  },
+  {
+    "station_id": "kochi_0073",
+    "station_name": "国見",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道宿毛線",
+    "lat": 32.978932,
+    "lon": 132.883716
+  },
+  {
+    "station_id": "kochi_0025",
+    "station_name": "土佐一宮",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.578974,
+    "lon": 133.577274
+  },
+  {
+    "station_id": "kochi_0061",
+    "station_name": "土佐上川口",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道中村線",
+    "lat": 33.043013,
+    "lon": 133.056112
+  },
+  {
+    "station_id": "kochi_0050",
+    "station_name": "土佐久礼",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.328972,
+    "lon": 133.226483
+  },
+  {
+    "station_id": "kochi_0057",
+    "station_name": "土佐佐賀",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道中村線",
+    "lat": 33.080905,
+    "lon": 133.101517
+  },
+  {
+    "station_id": "kochi_0064",
+    "station_name": "土佐入野",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道中村線",
+    "lat": 33.023866,
+    "lon": 133.011636
+  },
+  {
+    "station_id": "kochi_0039",
+    "station_name": "土佐加茂",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.523558,
+    "lon": 133.321219
+  },
+  {
+    "station_id": "kochi_0015",
+    "station_name": "土佐北川",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.714792,
+    "lon": 133.686312
+  },
+  {
+    "station_id": "kochi_0004",
+    "station_name": "土佐大正",
+    "prefecture": "高知県",
+    "line_name": "JR予土線",
+    "lat": 33.194815,
+    "lon": 132.975612
+  },
+  {
+    "station_id": "kochi_0023",
+    "station_name": "土佐大津",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.576661,
+    "lon": 133.612062
+  },
+  {
+    "station_id": "kochi_0019",
+    "station_name": "土佐山田",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.607085,
+    "lon": 133.684664
+  },
+  {
+    "station_id": "kochi_0010",
+    "station_name": "土佐岩原",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.822582,
+    "lon": 133.788154
+  },
+  {
+    "station_id": "kochi_0048",
+    "station_name": "土佐新荘",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.386369,
+    "lon": 133.278065
+  },
+  {
+    "station_id": "kochi_0005",
+    "station_name": "土佐昭和",
+    "prefecture": "高知県",
+    "line_name": "JR予土線",
+    "lat": 33.220047,
+    "lon": 132.897413
+  },
+  {
+    "station_id": "kochi_0059",
+    "station_name": "土佐白浜",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道中村線",
+    "lat": 33.05643,
+    "lon": 133.097452
+  },
+  {
+    "station_id": "kochi_0013",
+    "station_name": "土佐穴内",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.779192,
+    "lon": 133.696126
+  },
+  {
+    "station_id": "kochi_0021",
+    "station_name": "土佐長岡",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.591728,
+    "lon": 133.662219
+  },
+  {
+    "station_id": "kochi_0096",
+    "station_name": "堀詰",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.559546,
+    "lon": 133.539441
+  },
+  {
+    "station_id": "kochi_0045",
+    "station_name": "多ノ郷",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.410655,
+    "lon": 133.294641
+  },
+  {
+    "station_id": "kochi_0081",
+    "station_name": "夜須",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.534347,
+    "lon": 133.754506
+  },
+  {
+    "station_id": "kochi_0014",
+    "station_name": "大杉",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.761091,
+    "lon": 133.66445
+  },
+  {
+    "station_id": "kochi_0097",
+    "station_name": "大橋通",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.558974,
+    "lon": 133.536415
+  },
+  {
+    "station_id": "kochi_0012",
+    "station_name": "大田口",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.785539,
+    "lon": 133.726552
+  },
+  {
+    "station_id": "kochi_0046",
+    "station_name": "大間",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.406872,
+    "lon": 133.287666
+  },
+  {
+    "station_id": "kochi_0094",
+    "station_name": "奈半利",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.425187,
+    "lon": 134.018269
+  },
+  {
+    "station_id": "kochi_0119",
+    "station_name": "宇治団地前",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.551928,
+    "lon": 133.461227
+  },
+  {
+    "station_id": "kochi_0049",
+    "station_name": "安和",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.36692,
+    "lon": 133.258901
+  },
+  {
+    "station_id": "kochi_0092",
+    "station_name": "安田",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.443359,
+    "lon": 133.984151
+  },
+  {
+    "station_id": "kochi_0088",
+    "station_name": "安芸",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.504738,
+    "lon": 133.906538
+  },
+  {
+    "station_id": "kochi_0131",
+    "station_name": "宝永町",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.558777,
+    "lon": 133.55371
+  },
+  {
+    "station_id": "kochi_0117",
+    "station_name": "宮の奥",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.552357,
+    "lon": 133.475883
+  },
+  {
+    "station_id": "kochi_0002",
+    "station_name": "家地川",
+    "prefecture": "高知県",
+    "line_name": "JR予土線",
+    "lat": 33.1614,
+    "lon": 133.074784
+  },
+  {
+    "station_id": "kochi_0068",
+    "station_name": "宿毛",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道宿毛線",
+    "lat": 32.932534,
+    "lon": 132.71364
+  },
+  {
+    "station_id": "kochi_0036",
+    "station_name": "小村神社前",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.539968,
+    "lon": 133.393105
+  },
+  {
+    "station_id": "kochi_0153",
+    "station_name": "小篭通",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.57637,
+    "lon": 133.625786
+  },
+  {
+    "station_id": "kochi_0020",
+    "station_name": "山田西町",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.60453,
+    "lon": 133.677287
+  },
+  {
+    "station_id": "kochi_0038",
+    "station_name": "岡花",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.529922,
+    "lon": 133.35123
+  },
+  {
+    "station_id": "kochi_0071",
+    "station_name": "工業団地",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道宿毛線",
+    "lat": 32.95632,
+    "lon": 132.801931
+  },
+  {
+    "station_id": "kochi_0024",
+    "station_name": "布師田",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.575595,
+    "lon": 133.590379
+  },
+  {
+    "station_id": "kochi_0070",
+    "station_name": "平田",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道宿毛線",
+    "lat": 32.955639,
+    "lon": 132.794977
+  },
+  {
+    "station_id": "kochi_0051",
+    "station_name": "影野",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.275854,
+    "lon": 133.173519
+  },
+  {
+    "station_id": "kochi_0022",
+    "station_name": "後免",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.579245,
+    "lon": 133.645479
+  },
+  {
+    "station_id": "kochi_0158",
+    "station_name": "後免中町",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.575548,
+    "lon": 133.645527
+  },
+  {
+    "station_id": "kochi_0159",
+    "station_name": "後免東町",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.574526,
+    "lon": 133.648137
+  },
+  {
+    "station_id": "kochi_0075",
+    "station_name": "後免町",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.57454,
+    "lon": 133.651415
+  },
+  {
+    "station_id": "kochi_0157",
+    "station_name": "後免西町",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.575869,
+    "lon": 133.642652
+  },
+  {
+    "station_id": "kochi_0003",
+    "station_name": "打井川",
+    "prefecture": "高知県",
+    "line_name": "JR予土線",
+    "lat": 33.175455,
+    "lon": 133.031082
+  },
+  {
+    "station_id": "kochi_0140",
+    "station_name": "文珠通",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.559421,
+    "lon": 133.579524
+  },
+  {
+    "station_id": "kochi_0043",
+    "station_name": "斗賀野",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.475453,
+    "lon": 133.286397
+  },
+  {
+    "station_id": "kochi_0018",
+    "station_name": "新改",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.649596,
+    "lon": 133.695763
+  },
+  {
+    "station_id": "kochi_0142",
+    "station_name": "新木(高知)",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.562568,
+    "lon": 133.586948
+  },
+  {
+    "station_id": "kochi_0037",
+    "station_name": "日下",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.533436,
+    "lon": 133.371456
+  },
+  {
+    "station_id": "kochi_0030",
+    "station_name": "旭(高知)",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.558808,
+    "lon": 133.50852
+  },
+  {
+    "station_id": "kochi_0106",
+    "station_name": "旭町一丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.556774,
+    "lon": 133.51352
+  },
+  {
+    "station_id": "kochi_0108",
+    "station_name": "旭町三丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.555701,
+    "lon": 133.506482
+  },
+  {
+    "station_id": "kochi_0107",
+    "station_name": "旭駅前通",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.555987,
+    "lon": 133.509636
+  },
+  {
+    "station_id": "kochi_0151",
+    "station_name": "明見橋",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.574582,
+    "lon": 133.617589
+  },
+  {
+    "station_id": "kochi_0113",
+    "station_name": "曙町",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.551159,
+    "lon": 133.490946
+  },
+  {
+    "station_id": "kochi_0112",
+    "station_name": "曙町東町",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.551624,
+    "lon": 133.493307
+  },
+  {
+    "station_id": "kochi_0060",
+    "station_name": "有井川",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道中村線",
+    "lat": 33.038914,
+    "lon": 133.071258
+  },
+  {
+    "station_id": "kochi_0072",
+    "station_name": "有岡",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道宿毛線",
+    "lat": 32.961229,
+    "lon": 132.833077
+  },
+  {
+    "station_id": "kochi_0032",
+    "station_name": "朝倉(ＪＲ)",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.551545,
+    "lon": 133.485487
+  },
+  {
+    "station_id": "kochi_0116",
+    "station_name": "朝倉神社前",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.551892,
+    "lon": 133.481097
+  },
+  {
+    "station_id": "kochi_0115",
+    "station_name": "朝倉駅前",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.551141,
+    "lon": 133.484294
+  },
+  {
+    "station_id": "kochi_0069",
+    "station_name": "東宿毛",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道宿毛線",
+    "lat": 32.933673,
+    "lon": 132.728736
+  },
+  {
+    "station_id": "kochi_0156",
+    "station_name": "東工業前",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.576442,
+    "lon": 133.638446
+  },
+  {
+    "station_id": "kochi_0143",
+    "station_name": "東新木",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.564141,
+    "lon": 133.589609
+  },
+  {
+    "station_id": "kochi_0033",
+    "station_name": "枝川",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.55073,
+    "lon": 133.44849
+  },
+  {
+    "station_id": "kochi_0101",
+    "station_name": "枡形",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.557382,
+    "lon": 133.527145
+  },
+  {
+    "station_id": "kochi_0169",
+    "station_name": "桟橋車庫前",
+    "prefecture": "高知県",
+    "line_name": "土佐電桟橋線",
+    "lat": 33.541073,
+    "lon": 133.552315
+  },
+  {
+    "station_id": "kochi_0165",
+    "station_name": "桟橋通一丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電桟橋線",
+    "lat": 33.55157,
+    "lon": 133.545352
+  },
+  {
+    "station_id": "kochi_0167",
+    "station_name": "桟橋通三丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電桟橋線",
+    "lat": 33.547082,
+    "lon": 133.548303
+  },
+  {
+    "station_id": "kochi_0166",
+    "station_name": "桟橋通二丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電桟橋線",
+    "lat": 33.549156,
+    "lon": 133.546886
+  },
+  {
+    "station_id": "kochi_0170",
+    "station_name": "桟橋通五丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電桟橋線",
+    "lat": 33.540286,
+    "lon": 133.552938
+  },
+  {
+    "station_id": "kochi_0168",
+    "station_name": "桟橋通四丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電桟橋線",
+    "lat": 33.544668,
+    "lon": 133.549933
+  },
+  {
+    "station_id": "kochi_0164",
+    "station_name": "梅の辻",
+    "prefecture": "高知県",
+    "line_name": "土佐電桟橋線",
+    "lat": 33.554181,
+    "lon": 133.543485
+  },
+  {
+    "station_id": "kochi_0008",
+    "station_name": "江川崎",
+    "prefecture": "高知県",
+    "line_name": "JR予土線",
+    "lat": 33.178104,
+    "lon": 132.783074
+  },
+  {
+    "station_id": "kochi_0035",
+    "station_name": "波川",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.543699,
+    "lon": 133.414191
+  },
+  {
+    "station_id": "kochi_0063",
+    "station_name": "浮鞭",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道中村線",
+    "lat": 33.039516,
+    "lon": 133.029856
+  },
+  {
+    "station_id": "kochi_0062",
+    "station_name": "海の王迎",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道中村線",
+    "lat": 33.040407,
+    "lon": 133.046482
+  },
+  {
+    "station_id": "kochi_0149",
+    "station_name": "清和学園前",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.57502,
+    "lon": 133.61244
+  },
+  {
+    "station_id": "kochi_0086",
+    "station_name": "球場前",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.502635,
+    "lon": 133.891265
+  },
+  {
+    "station_id": "kochi_0144",
+    "station_name": "田辺島通",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.566644,
+    "lon": 133.593214
+  },
+  {
+    "station_id": "kochi_0093",
+    "station_name": "田野",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.4303,
+    "lon": 134.008207
+  },
+  {
+    "station_id": "kochi_0171",
+    "station_name": "甲浦",
+    "prefecture": "高知県",
+    "line_name": "阿佐海岸鉄道",
+    "lat": 33.547238,
+    "lon": 134.288242
+  },
+  {
+    "station_id": "kochi_0099",
+    "station_name": "県庁前(愛媛)",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.55799,
+    "lon": 133.531222
+  },
+  {
+    "station_id": "kochi_0138",
+    "station_name": "県立美術館通",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.559134,
+    "lon": 133.575618
+  },
+  {
+    "station_id": "kochi_0134",
+    "station_name": "知寄町",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.557883,
+    "lon": 133.561757
+  },
+  {
+    "station_id": "kochi_0132",
+    "station_name": "知寄町一丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.558419,
+    "lon": 133.556693
+  },
+  {
+    "station_id": "kochi_0135",
+    "station_name": "知寄町三丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.557597,
+    "lon": 133.565168
+  },
+  {
+    "station_id": "kochi_0133",
+    "station_name": "知寄町二丁目",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.558097,
+    "lon": 133.55989
+  },
+  {
+    "station_id": "kochi_0085",
+    "station_name": "穴内",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.506069,
+    "lon": 133.864204
+  },
+  {
+    "station_id": "kochi_0054",
+    "station_name": "窪川",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.212656,
+    "lon": 133.137285
+  },
+  {
+    "station_id": "kochi_0076",
+    "station_name": "立田",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.57073,
+    "lon": 133.670627
+  },
+  {
+    "station_id": "kochi_0154",
+    "station_name": "篠原",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.577228,
+    "lon": 133.631022
+  },
+  {
+    "station_id": "kochi_0017",
+    "station_name": "繁藤",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.680389,
+    "lon": 133.690186
+  },
+  {
+    "station_id": "kochi_0146",
+    "station_name": "舟戸",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.570613,
+    "lon": 133.599522
+  },
+  {
+    "station_id": "kochi_0001",
+    "station_name": "若井",
+    "prefecture": "高知県",
+    "line_name": "JR予土線",
+    "lat": 33.18807,
+    "lon": 133.105937
+  },
+  {
+    "station_id": "kochi_0055",
+    "station_name": "荷稲",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道中村線",
+    "lat": 33.132961,
+    "lon": 133.116316
+  },
+  {
+    "station_id": "kochi_0130",
+    "station_name": "菜園場町",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.559063,
+    "lon": 133.548625
+  },
+  {
+    "station_id": "kochi_0136",
+    "station_name": "葛島橋東詰",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.557024,
+    "lon": 133.569739
+  },
+  {
+    "station_id": "kochi_0163",
+    "station_name": "蓮池町通",
+    "prefecture": "高知県",
+    "line_name": "土佐電桟橋線",
+    "lat": 33.561066,
+    "lon": 133.543035
+  },
+  {
+    "station_id": "kochi_0026",
+    "station_name": "薊野",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.578243,
+    "lon": 133.560056
+  },
+  {
+    "station_id": "kochi_0109",
+    "station_name": "蛍橋",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.555487,
+    "lon": 133.502641
+  },
+  {
+    "station_id": "kochi_0042",
+    "station_name": "襟野々",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.488527,
+    "lon": 133.300426
+  },
+  {
+    "station_id": "kochi_0009",
+    "station_name": "西ヶ方",
+    "prefecture": "高知県",
+    "line_name": "JR予土線",
+    "lat": 33.187309,
+    "lon": 132.767342
+  },
+  {
+    "station_id": "kochi_0040",
+    "station_name": "西佐川",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.512604,
+    "lon": 133.286652
+  },
+  {
+    "station_id": "kochi_0082",
+    "station_name": "西分",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.518015,
+    "lon": 133.790772
+  },
+  {
+    "station_id": "kochi_0065",
+    "station_name": "西大方",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道中村線",
+    "lat": 33.008912,
+    "lon": 132.986967
+  },
+  {
+    "station_id": "kochi_0137",
+    "station_name": "西高須",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.558348,
+    "lon": 133.573129
+  },
+  {
+    "station_id": "kochi_0016",
+    "station_name": "角茂谷",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.695689,
+    "lon": 133.692528
+  },
+  {
+    "station_id": "kochi_0011",
+    "station_name": "豊永",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.796788,
+    "lon": 133.759638
+  },
+  {
+    "station_id": "kochi_0084",
+    "station_name": "赤野",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.516,
+    "lon": 133.825026
+  },
+  {
+    "station_id": "kochi_0110",
+    "station_name": "鏡川橋",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.555665,
+    "lon": 133.498456
+  },
+  {
+    "station_id": "kochi_0152",
+    "station_name": "長崎",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.575119,
+    "lon": 133.620722
+  },
+  {
+    "station_id": "kochi_0129",
+    "station_name": "電鉄ターミナルビル前",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.55926,
+    "lon": 133.545964
+  },
+  {
+    "station_id": "kochi_0047",
+    "station_name": "須崎",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.392649,
+    "lon": 133.293214
+  },
+  {
+    "station_id": "kochi_0148",
+    "station_name": "領石通",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.574332,
+    "lon": 133.607805
+  },
+  {
+    "station_id": "kochi_0080",
+    "station_name": "香我美",
+    "prefecture": "高知県",
+    "line_name": "土佐くろしお鉄道阿佐線",
+    "lat": 33.539152,
+    "lon": 133.73723
+  },
+  {
+    "station_id": "kochi_0027",
+    "station_name": "高知",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.566758,
+    "lon": 133.543522
+  },
+  {
+    "station_id": "kochi_0031",
+    "station_name": "高知商業前",
+    "prefecture": "高知県",
+    "line_name": "JR土讃線",
+    "lat": 33.558419,
+    "lon": 133.497443
+  },
+  {
+    "station_id": "kochi_0098",
+    "station_name": "高知城前",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.558491,
+    "lon": 133.534248
+  },
+  {
+    "station_id": "kochi_0162",
+    "station_name": "高知橋",
+    "prefecture": "高知県",
+    "line_name": "土佐電桟橋線",
+    "lat": 33.564284,
+    "lon": 133.543442
+  },
+  {
+    "station_id": "kochi_0161",
+    "station_name": "高知駅前",
+    "prefecture": "高知県",
+    "line_name": "土佐電桟橋線",
+    "lat": 33.56653,
+    "lon": 133.543606
+  },
+  {
+    "station_id": "kochi_0139",
+    "station_name": "高須(高知)",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.559349,
+    "lon": 133.576691
+  },
+  {
+    "station_id": "kochi_0126",
+    "station_name": "鳴谷",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.548852,
+    "lon": 133.433032
+  },
+  {
+    "station_id": "kochi_0111",
+    "station_name": "鴨部",
+    "prefecture": "高知県",
+    "line_name": "土佐電伊野線",
+    "lat": 33.552232,
+    "lon": 133.497276
+  },
+  {
+    "station_id": "kochi_0145",
+    "station_name": "鹿児",
+    "prefecture": "高知県",
+    "line_name": "土佐電後免線",
+    "lat": 33.567216,
+    "lon": 133.597033
+  }
+]

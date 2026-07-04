@@ -1,0 +1,578 @@
+[
+  {
+    "station_id": "yamanashi_0066",
+    "station_name": "三つ峠",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.524291,
+    "lon": 138.84555
+  },
+  {
+    "station_id": "yamanashi_0057",
+    "station_name": "上大月",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.609341,
+    "lon": 138.938128
+  },
+  {
+    "station_id": "yamanashi_0001",
+    "station_name": "上野原",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.618747,
+    "lon": 139.115787
+  },
+  {
+    "station_id": "yamanashi_0069",
+    "station_name": "下吉田",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.497909,
+    "lon": 138.80366
+  },
+  {
+    "station_id": "yamanashi_0037",
+    "station_name": "下部温泉",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.425751,
+    "lon": 138.472359
+  },
+  {
+    "station_id": "yamanashi_0040",
+    "station_name": "久那土",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.48144,
+    "lon": 138.467391
+  },
+  {
+    "station_id": "yamanashi_0030",
+    "station_name": "井出",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.247449,
+    "lon": 138.490989
+  },
+  {
+    "station_id": "yamanashi_0032",
+    "station_name": "内船",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.282183,
+    "lon": 138.465068
+  },
+  {
+    "station_id": "yamanashi_0007",
+    "station_name": "初狩",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.594274,
+    "lon": 138.883966
+  },
+  {
+    "station_id": "yamanashi_0010",
+    "station_name": "勝沼ぶどう郷",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.67279,
+    "lon": 138.74323
+  },
+  {
+    "station_id": "yamanashi_0029",
+    "station_name": "十島",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.230153,
+    "lon": 138.515802
+  },
+  {
+    "station_id": "yamanashi_0064",
+    "station_name": "十日市場",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.538881,
+    "lon": 138.887489
+  },
+  {
+    "station_id": "yamanashi_0053",
+    "station_name": "南甲府",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.643496,
+    "lon": 138.577274
+  },
+  {
+    "station_id": "yamanashi_0054",
+    "station_name": "善光寺",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.65985,
+    "lon": 138.589278
+  },
+  {
+    "station_id": "yamanashi_0002",
+    "station_name": "四方津",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.614252,
+    "lon": 139.072572
+  },
+  {
+    "station_id": "yamanashi_0051",
+    "station_name": "国母",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.630567,
+    "lon": 138.552113
+  },
+  {
+    "station_id": "yamanashi_0035",
+    "station_name": "塩之沢",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.379626,
+    "lon": 138.453887
+  },
+  {
+    "station_id": "yamanashi_0011",
+    "station_name": "塩山",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.705327,
+    "lon": 138.734796
+  },
+  {
+    "station_id": "yamanashi_0019",
+    "station_name": "塩崎",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.687734,
+    "lon": 138.487521
+  },
+  {
+    "station_id": "yamanashi_0006",
+    "station_name": "大月",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.613222,
+    "lon": 138.942729
+  },
+  {
+    "station_id": "yamanashi_0031",
+    "station_name": "寄畑",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.264832,
+    "lon": 138.474932
+  },
+  {
+    "station_id": "yamanashi_0071",
+    "station_name": "富士山",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.483536,
+    "lon": 138.795686
+  },
+  {
+    "station_id": "yamanashi_0072",
+    "station_name": "富士急ハイランド",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.488974,
+    "lon": 138.782048
+  },
+  {
+    "station_id": "yamanashi_0067",
+    "station_name": "寿",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.508442,
+    "lon": 138.82558
+  },
+  {
+    "station_id": "yamanashi_0049",
+    "station_name": "小井川",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.604442,
+    "lon": 138.528523
+  },
+  {
+    "station_id": "yamanashi_0025",
+    "station_name": "小淵沢",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.863808,
+    "lon": 138.316351
+  },
+  {
+    "station_id": "yamanashi_0013",
+    "station_name": "山梨市",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.684961,
+    "lon": 138.683003
+  },
+  {
+    "station_id": "yamanashi_0039",
+    "station_name": "市ノ瀬",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.462345,
+    "lon": 138.482154
+  },
+  {
+    "station_id": "yamanashi_0044",
+    "station_name": "市川大門",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.560451,
+    "lon": 138.493276
+  },
+  {
+    "station_id": "yamanashi_0045",
+    "station_name": "市川本町",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.560684,
+    "lon": 138.502028
+  },
+  {
+    "station_id": "yamanashi_0050",
+    "station_name": "常永",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.616877,
+    "lon": 138.532909
+  },
+  {
+    "station_id": "yamanashi_0021",
+    "station_name": "新府",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.736802,
+    "lon": 138.433093
+  },
+  {
+    "station_id": "yamanashi_0023",
+    "station_name": "日野春",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.79065,
+    "lon": 138.394316
+  },
+  {
+    "station_id": "yamanashi_0014",
+    "station_name": "春日居町",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.673491,
+    "lon": 138.659
+  },
+  {
+    "station_id": "yamanashi_0070",
+    "station_name": "月江寺",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.493313,
+    "lon": 138.798105
+  },
+  {
+    "station_id": "yamanashi_0012",
+    "station_name": "東山梨",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.694313,
+    "lon": 138.703026
+  },
+  {
+    "station_id": "yamanashi_0065",
+    "station_name": "東桂",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.536334,
+    "lon": 138.870758
+  },
+  {
+    "station_id": "yamanashi_0048",
+    "station_name": "東花輪",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.594749,
+    "lon": 138.526935
+  },
+  {
+    "station_id": "yamanashi_0003",
+    "station_name": "梁川",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.605271,
+    "lon": 139.038076
+  },
+  {
+    "station_id": "yamanashi_0073",
+    "station_name": "河口湖",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.498231,
+    "lon": 138.768852
+  },
+  {
+    "station_id": "yamanashi_0036",
+    "station_name": "波高島",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.418624,
+    "lon": 138.459747
+  },
+  {
+    "station_id": "yamanashi_0028",
+    "station_name": "清里",
+    "prefecture": "山梨県",
+    "line_name": "JR小海線",
+    "lat": 35.919093,
+    "lon": 138.436589
+  },
+  {
+    "station_id": "yamanashi_0005",
+    "station_name": "猿橋",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.61288,
+    "lon": 138.968388
+  },
+  {
+    "station_id": "yamanashi_0058",
+    "station_name": "田野倉",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.593456,
+    "lon": 138.931271
+  },
+  {
+    "station_id": "yamanashi_0017",
+    "station_name": "甲府",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.667054,
+    "lon": 138.569015
+  },
+  {
+    "station_id": "yamanashi_0047",
+    "station_name": "甲斐上野",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.569592,
+    "lon": 138.520465
+  },
+  {
+    "station_id": "yamanashi_0052",
+    "station_name": "甲斐住吉",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.63658,
+    "lon": 138.569892
+  },
+  {
+    "station_id": "yamanashi_0009",
+    "station_name": "甲斐大和",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.639364,
+    "lon": 138.781632
+  },
+  {
+    "station_id": "yamanashi_0033",
+    "station_name": "甲斐大島",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.328171,
+    "lon": 138.45218
+  },
+  {
+    "station_id": "yamanashi_0027",
+    "station_name": "甲斐大泉",
+    "prefecture": "山梨県",
+    "line_name": "JR小海線",
+    "lat": 35.89624,
+    "lon": 138.409564
+  },
+  {
+    "station_id": "yamanashi_0026",
+    "station_name": "甲斐小泉",
+    "prefecture": "山梨県",
+    "line_name": "JR小海線",
+    "lat": 35.879533,
+    "lon": 138.359402
+  },
+  {
+    "station_id": "yamanashi_0041",
+    "station_name": "甲斐岩間",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.492539,
+    "lon": 138.463057
+  },
+  {
+    "station_id": "yamanashi_0038",
+    "station_name": "甲斐常葉",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.444779,
+    "lon": 138.476975
+  },
+  {
+    "station_id": "yamanashi_0015",
+    "station_name": "石和温泉",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.657603,
+    "lon": 138.634577
+  },
+  {
+    "station_id": "yamanashi_0059",
+    "station_name": "禾生",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.575175,
+    "lon": 138.929191
+  },
+  {
+    "station_id": "yamanashi_0022",
+    "station_name": "穴山",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.75107,
+    "lon": 138.413858
+  },
+  {
+    "station_id": "yamanashi_0018",
+    "station_name": "竜王",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.668764,
+    "lon": 138.519298
+  },
+  {
+    "station_id": "yamanashi_0008",
+    "station_name": "笹子",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.603921,
+    "lon": 138.825205
+  },
+  {
+    "station_id": "yamanashi_0046",
+    "station_name": "芦川",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.563087,
+    "lon": 138.511241
+  },
+  {
+    "station_id": "yamanashi_0042",
+    "station_name": "落居",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.503612,
+    "lon": 138.471256
+  },
+  {
+    "station_id": "yamanashi_0068",
+    "station_name": "葭池温泉前",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.502084,
+    "lon": 138.812212
+  },
+  {
+    "station_id": "yamanashi_0062",
+    "station_name": "谷村町",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.550744,
+    "lon": 138.904631
+  },
+  {
+    "station_id": "yamanashi_0060",
+    "station_name": "赤坂",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.566093,
+    "lon": 138.916035
+  },
+  {
+    "station_id": "yamanashi_0034",
+    "station_name": "身延",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.361397,
+    "lon": 138.453021
+  },
+  {
+    "station_id": "yamanashi_0061",
+    "station_name": "都留市",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.557199,
+    "lon": 138.907525
+  },
+  {
+    "station_id": "yamanashi_0063",
+    "station_name": "都留文科大学前",
+    "prefecture": "山梨県",
+    "line_name": "富士急行線",
+    "lat": 35.542531,
+    "lon": 138.896438
+  },
+  {
+    "station_id": "yamanashi_0016",
+    "station_name": "酒折",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.659486,
+    "lon": 138.598852
+  },
+  {
+    "station_id": "yamanashi_0055",
+    "station_name": "金手",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.662264,
+    "lon": 138.578845
+  },
+  {
+    "station_id": "yamanashi_0024",
+    "station_name": "長坂",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.827061,
+    "lon": 138.366459
+  },
+  {
+    "station_id": "yamanashi_0020",
+    "station_name": "韮崎",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.709711,
+    "lon": 138.451357
+  },
+  {
+    "station_id": "yamanashi_0043",
+    "station_name": "鰍沢口",
+    "prefecture": "山梨県",
+    "line_name": "JR身延線",
+    "lat": 35.541375,
+    "lon": 138.470916
+  },
+  {
+    "station_id": "yamanashi_0004",
+    "station_name": "鳥沢",
+    "prefecture": "山梨県",
+    "line_name": "JR中央本線",
+    "lat": 35.608118,
+    "lon": 139.003345
+  }
+]

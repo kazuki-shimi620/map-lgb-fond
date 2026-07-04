@@ -1,0 +1,1074 @@
+[
+  {
+    "station_id": "tochigi_0004",
+    "station_name": "あしかがフラワーパーク",
+    "prefecture": "栃木県",
+    "line_name": "JR両毛線",
+    "lat": 36.315168,
+    "lon": 139.518408
+  },
+  {
+    "station_id": "tochigi_0067",
+    "station_name": "おもちゃのまち",
+    "prefecture": "栃木県",
+    "line_name": "東武宇都宮線",
+    "lat": 36.466774,
+    "lon": 139.829506
+  },
+  {
+    "station_id": "tochigi_0134",
+    "station_name": "かしの森公園前",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.572385,
+    "lon": 140.014602
+  },
+  {
+    "station_id": "tochigi_0130",
+    "station_name": "ゆいの杜中央",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.567748,
+    "lon": 139.99293
+  },
+  {
+    "station_id": "tochigi_0131",
+    "station_name": "ゆいの杜東",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.567635,
+    "lon": 139.998762
+  },
+  {
+    "station_id": "tochigi_0129",
+    "station_name": "ゆいの杜西",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.567465,
+    "lon": 139.987215
+  },
+  {
+    "station_id": "tochigi_0128",
+    "station_name": "グリーンスタジアム前",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.555832,
+    "lon": 139.982512
+  },
+  {
+    "station_id": "tochigi_0104",
+    "station_name": "七井",
+    "prefecture": "栃木県",
+    "line_name": "真岡鐵道",
+    "lat": 36.491814,
+    "lon": 140.09439
+  },
+  {
+    "station_id": "tochigi_0115",
+    "station_name": "上三依塩原温泉口",
+    "prefecture": "栃木県",
+    "line_name": "野岩鉄道会津鬼怒川線",
+    "lat": 37.014461,
+    "lon": 139.727168
+  },
+  {
+    "station_id": "tochigi_0087",
+    "station_name": "上今市",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.727962,
+    "lon": 139.681026
+  },
+  {
+    "station_id": "tochigi_0086",
+    "station_name": "下今市",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.72563,
+    "lon": 139.692666
+  },
+  {
+    "station_id": "tochigi_0084",
+    "station_name": "下小代",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.651303,
+    "lon": 139.713849
+  },
+  {
+    "station_id": "tochigi_0032",
+    "station_name": "下野大沢",
+    "prefecture": "栃木県",
+    "line_name": "JR日光線",
+    "lat": 36.686427,
+    "lon": 139.732367
+  },
+  {
+    "station_id": "tochigi_0038",
+    "station_name": "下野花岡",
+    "prefecture": "栃木県",
+    "line_name": "JR烏山線",
+    "lat": 36.649965,
+    "lon": 140.008606
+  },
+  {
+    "station_id": "tochigi_0114",
+    "station_name": "中三依温泉",
+    "prefecture": "栃木県",
+    "line_name": "野岩鉄道会津鬼怒川線",
+    "lat": 36.985843,
+    "lon": 139.69614
+  },
+  {
+    "station_id": "tochigi_0097",
+    "station_name": "久下田",
+    "prefecture": "栃木県",
+    "line_name": "真岡鐵道",
+    "lat": 36.37606,
+    "lon": 139.971756
+  },
+  {
+    "station_id": "tochigi_0039",
+    "station_name": "仁井田",
+    "prefecture": "栃木県",
+    "line_name": "JR烏山線",
+    "lat": 36.657271,
+    "lon": 140.029573
+  },
+  {
+    "station_id": "tochigi_0033",
+    "station_name": "今市",
+    "prefecture": "栃木県",
+    "line_name": "JR日光線",
+    "lat": 36.720388,
+    "lon": 139.687348
+  },
+  {
+    "station_id": "tochigi_0006",
+    "station_name": "佐野",
+    "prefecture": "栃木県",
+    "line_name": "JR両毛線",
+    "lat": 36.316668,
+    "lon": 139.578858
+  },
+  {
+    "station_id": "tochigi_0055",
+    "station_name": "佐野市",
+    "prefecture": "栃木県",
+    "line_name": "東武佐野線",
+    "lat": 36.306153,
+    "lon": 139.57583
+  },
+  {
+    "station_id": "tochigi_0102",
+    "station_name": "北山",
+    "prefecture": "栃木県",
+    "line_name": "真岡鐵道",
+    "lat": 36.455665,
+    "lon": 140.067708
+  },
+  {
+    "station_id": "tochigi_0100",
+    "station_name": "北真岡",
+    "prefecture": "栃木県",
+    "line_name": "真岡鐵道",
+    "lat": 36.44909,
+    "lon": 140.014061
+  },
+  {
+    "station_id": "tochigi_0082",
+    "station_name": "北鹿沼",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.580811,
+    "lon": 139.737646
+  },
+  {
+    "station_id": "tochigi_0071",
+    "station_name": "南宇都宮",
+    "prefecture": "栃木県",
+    "line_name": "東武宇都宮線",
+    "lat": 36.543783,
+    "lon": 139.872017
+  },
+  {
+    "station_id": "tochigi_0045",
+    "station_name": "原向",
+    "prefecture": "栃木県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.617284,
+    "lon": 139.420593
+  },
+  {
+    "station_id": "tochigi_0076",
+    "station_name": "合戦場",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.407647,
+    "lon": 139.741057
+  },
+  {
+    "station_id": "tochigi_0058",
+    "station_name": "吉水",
+    "prefecture": "栃木県",
+    "line_name": "東武佐野線",
+    "lat": 36.345621,
+    "lon": 139.579337
+  },
+  {
+    "station_id": "tochigi_0066",
+    "station_name": "国谷",
+    "prefecture": "栃木県",
+    "line_name": "東武宇都宮線",
+    "lat": 36.451442,
+    "lon": 139.823824
+  },
+  {
+    "station_id": "tochigi_0057",
+    "station_name": "堀米",
+    "prefecture": "栃木県",
+    "line_name": "東武佐野線",
+    "lat": 36.328467,
+    "lon": 139.580279
+  },
+  {
+    "station_id": "tochigi_0065",
+    "station_name": "壬生",
+    "prefecture": "栃木県",
+    "line_name": "東武宇都宮線",
+    "lat": 36.422472,
+    "lon": 139.80496
+  },
+  {
+    "station_id": "tochigi_0060",
+    "station_name": "多田",
+    "prefecture": "栃木県",
+    "line_name": "東武佐野線",
+    "lat": 36.37809,
+    "lon": 139.592984
+  },
+  {
+    "station_id": "tochigi_0105",
+    "station_name": "多田羅",
+    "prefecture": "栃木県",
+    "line_name": "真岡鐵道",
+    "lat": 36.515922,
+    "lon": 140.089795
+  },
+  {
+    "station_id": "tochigi_0008",
+    "station_name": "大平下",
+    "prefecture": "栃木県",
+    "line_name": "JR両毛線",
+    "lat": 36.344315,
+    "lon": 139.697264
+  },
+  {
+    "station_id": "tochigi_0090",
+    "station_name": "大桑",
+    "prefecture": "栃木県",
+    "line_name": "東武鬼怒川線",
+    "lat": 36.76079,
+    "lon": 139.713546
+  },
+  {
+    "station_id": "tochigi_0089",
+    "station_name": "大谷向",
+    "prefecture": "栃木県",
+    "line_name": "東武鬼怒川線",
+    "lat": 36.73224,
+    "lon": 139.691916
+  },
+  {
+    "station_id": "tochigi_0041",
+    "station_name": "大金",
+    "prefecture": "栃木県",
+    "line_name": "JR烏山線",
+    "lat": 36.656275,
+    "lon": 140.095656
+  },
+  {
+    "station_id": "tochigi_0108",
+    "station_name": "天矢場",
+    "prefecture": "栃木県",
+    "line_name": "真岡鐵道",
+    "lat": 36.529292,
+    "lon": 140.156109
+  },
+  {
+    "station_id": "tochigi_0018",
+    "station_name": "宇都宮",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.559246,
+    "lon": 139.898389
+  },
+  {
+    "station_id": "tochigi_0122",
+    "station_name": "宇都宮大学陽東キャンパス",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.55707,
+    "lon": 139.930252
+  },
+  {
+    "station_id": "tochigi_0117",
+    "station_name": "宇都宮駅東口",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.559117,
+    "lon": 139.899546
+  },
+  {
+    "station_id": "tochigi_0068",
+    "station_name": "安塚",
+    "prefecture": "栃木県",
+    "line_name": "東武宇都宮線",
+    "lat": 36.485678,
+    "lon": 139.835572
+  },
+  {
+    "station_id": "tochigi_0020",
+    "station_name": "宝積寺",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.631703,
+    "lon": 139.979487
+  },
+  {
+    "station_id": "tochigi_0077",
+    "station_name": "家中",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.429783,
+    "lon": 139.747344
+  },
+  {
+    "station_id": "tochigi_0005",
+    "station_name": "富田",
+    "prefecture": "栃木県",
+    "line_name": "JR両毛線",
+    "lat": 36.316209,
+    "lon": 139.52865
+  },
+  {
+    "station_id": "tochigi_0098",
+    "station_name": "寺内",
+    "prefecture": "栃木県",
+    "line_name": "真岡鐵道",
+    "lat": 36.410876,
+    "lon": 139.980077
+  },
+  {
+    "station_id": "tochigi_0092",
+    "station_name": "小佐越",
+    "prefecture": "栃木県",
+    "line_name": "東武鬼怒川線",
+    "lat": 36.802252,
+    "lon": 139.706465
+  },
+  {
+    "station_id": "tochigi_0001",
+    "station_name": "小俣",
+    "prefecture": "栃木県",
+    "line_name": "JR両毛線",
+    "lat": 36.37496,
+    "lon": 139.374416
+  },
+  {
+    "station_id": "tochigi_0042",
+    "station_name": "小塙",
+    "prefecture": "栃木県",
+    "line_name": "JR烏山線",
+    "lat": 36.643095,
+    "lon": 140.11656
+  },
+  {
+    "station_id": "tochigi_0011",
+    "station_name": "小山",
+    "prefecture": "栃木県",
+    "line_name": "JR両毛線",
+    "lat": 36.312747,
+    "lon": 139.806241
+  },
+  {
+    "station_id": "tochigi_0014",
+    "station_name": "小金井",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.374435,
+    "lon": 139.842232
+  },
+  {
+    "station_id": "tochigi_0002",
+    "station_name": "山前",
+    "prefecture": "栃木県",
+    "line_name": "JR両毛線",
+    "lat": 36.347369,
+    "lon": 139.411322
+  },
+  {
+    "station_id": "tochigi_0019",
+    "station_name": "岡本(栃木)",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.598182,
+    "lon": 139.944363
+  },
+  {
+    "station_id": "tochigi_0007",
+    "station_name": "岩舟",
+    "prefecture": "栃木県",
+    "line_name": "JR両毛線",
+    "lat": 36.326561,
+    "lon": 139.657955
+  },
+  {
+    "station_id": "tochigi_0120",
+    "station_name": "峰",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.557565,
+    "lon": 139.916261
+  },
+  {
+    "station_id": "tochigi_0111",
+    "station_name": "川治温泉",
+    "prefecture": "栃木県",
+    "line_name": "野岩鉄道会津鬼怒川線",
+    "lat": 36.884036,
+    "lon": 139.703775
+  },
+  {
+    "station_id": "tochigi_0112",
+    "station_name": "川治湯元",
+    "prefecture": "栃木県",
+    "line_name": "野岩鉄道会津鬼怒川線",
+    "lat": 36.895126,
+    "lon": 139.702772
+  },
+  {
+    "station_id": "tochigi_0106",
+    "station_name": "市塙",
+    "prefecture": "栃木県",
+    "line_name": "真岡鐵道",
+    "lat": 36.538029,
+    "lon": 140.110218
+  },
+  {
+    "station_id": "tochigi_0123",
+    "station_name": "平石",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.55504,
+    "lon": 139.939274
+  },
+  {
+    "station_id": "tochigi_0124",
+    "station_name": "平石中央小学校前",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.554841,
+    "lon": 139.944702
+  },
+  {
+    "station_id": "tochigi_0010",
+    "station_name": "思川",
+    "prefecture": "栃木県",
+    "line_name": "JR両毛線",
+    "lat": 36.351044,
+    "lon": 139.781079
+  },
+  {
+    "station_id": "tochigi_0031",
+    "station_name": "文挟",
+    "prefecture": "栃木県",
+    "line_name": "JR日光線",
+    "lat": 36.637716,
+    "lon": 139.727778
+  },
+  {
+    "station_id": "tochigi_0075",
+    "station_name": "新大平下",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.339024,
+    "lon": 139.701886
+  },
+  {
+    "station_id": "tochigi_0062",
+    "station_name": "新栃木",
+    "prefecture": "栃木県",
+    "line_name": "東武宇都宮線",
+    "lat": 36.390149,
+    "lon": 139.742308
+  },
+  {
+    "station_id": "tochigi_0096",
+    "station_name": "新藤原",
+    "prefecture": "栃木県",
+    "line_name": "東武鬼怒川線",
+    "lat": 36.852505,
+    "lon": 139.732963
+  },
+  {
+    "station_id": "tochigi_0091",
+    "station_name": "新高徳",
+    "prefecture": "栃木県",
+    "line_name": "東武鬼怒川線",
+    "lat": 36.779816,
+    "lon": 139.710623
+  },
+  {
+    "station_id": "tochigi_0081",
+    "station_name": "新鹿沼",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.556998,
+    "lon": 139.74478
+  },
+  {
+    "station_id": "tochigi_0034",
+    "station_name": "日光",
+    "prefecture": "栃木県",
+    "line_name": "JR日光線",
+    "lat": 36.7474,
+    "lon": 139.62215
+  },
+  {
+    "station_id": "tochigi_0085",
+    "station_name": "明神",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.676566,
+    "lon": 139.712301
+  },
+  {
+    "station_id": "tochigi_0118",
+    "station_name": "東宿郷",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.558288,
+    "lon": 139.904044
+  },
+  {
+    "station_id": "tochigi_0093",
+    "station_name": "東武ワールドスクウェア",
+    "prefecture": "栃木県",
+    "line_name": "東武鬼怒川線",
+    "lat": 36.808333,
+    "lon": 139.709083
+  },
+  {
+    "station_id": "tochigi_0051",
+    "station_name": "東武和泉",
+    "prefecture": "栃木県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.315595,
+    "lon": 139.45509
+  },
+  {
+    "station_id": "tochigi_0072",
+    "station_name": "東武宇都宮",
+    "prefecture": "栃木県",
+    "line_name": "東武宇都宮線",
+    "lat": 36.559373,
+    "lon": 139.880427
+  },
+  {
+    "station_id": "tochigi_0088",
+    "station_name": "東武日光",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.748233,
+    "lon": 139.61975
+  },
+  {
+    "station_id": "tochigi_0078",
+    "station_name": "東武金崎",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.466288,
+    "lon": 139.749468
+  },
+  {
+    "station_id": "tochigi_0083",
+    "station_name": "板荷",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.619476,
+    "lon": 139.707739
+  },
+  {
+    "station_id": "tochigi_0009",
+    "station_name": "栃木",
+    "prefecture": "栃木県",
+    "line_name": "JR両毛線",
+    "lat": 36.371912,
+    "lon": 139.731037
+  },
+  {
+    "station_id": "tochigi_0079",
+    "station_name": "楡木",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.507497,
+    "lon": 139.745164
+  },
+  {
+    "station_id": "tochigi_0080",
+    "station_name": "樅山",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.532667,
+    "lon": 139.741875
+  },
+  {
+    "station_id": "tochigi_0021",
+    "station_name": "氏家",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.681696,
+    "lon": 139.9621
+  },
+  {
+    "station_id": "tochigi_0070",
+    "station_name": "江曽島",
+    "prefecture": "栃木県",
+    "line_name": "東武宇都宮線",
+    "lat": 36.530951,
+    "lon": 139.860818
+  },
+  {
+    "station_id": "tochigi_0127",
+    "station_name": "清原地区市民センター前",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.547618,
+    "lon": 139.984265
+  },
+  {
+    "station_id": "tochigi_0126",
+    "station_name": "清陵高校前",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.544945,
+    "lon": 139.97632
+  },
+  {
+    "station_id": "tochigi_0113",
+    "station_name": "湯西川温泉",
+    "prefecture": "栃木県",
+    "line_name": "野岩鉄道会津鬼怒川線",
+    "lat": 36.929482,
+    "lon": 139.68824
+  },
+  {
+    "station_id": "tochigi_0043",
+    "station_name": "滝",
+    "prefecture": "栃木県",
+    "line_name": "JR烏山線",
+    "lat": 36.648558,
+    "lon": 140.138152
+  },
+  {
+    "station_id": "tochigi_0044",
+    "station_name": "烏山",
+    "prefecture": "栃木県",
+    "line_name": "JR烏山線",
+    "lat": 36.650455,
+    "lon": 140.15507
+  },
+  {
+    "station_id": "tochigi_0023",
+    "station_name": "片岡",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.754557,
+    "lon": 139.945665
+  },
+  {
+    "station_id": "tochigi_0054",
+    "station_name": "田島",
+    "prefecture": "栃木県",
+    "line_name": "東武佐野線",
+    "lat": 36.290229,
+    "lon": 139.564943
+  },
+  {
+    "station_id": "tochigi_0059",
+    "station_name": "田沼",
+    "prefecture": "栃木県",
+    "line_name": "東武佐野線",
+    "lat": 36.367094,
+    "lon": 139.581919
+  },
+  {
+    "station_id": "tochigi_0116",
+    "station_name": "男鹿高原",
+    "prefecture": "栃木県",
+    "line_name": "野岩鉄道会津鬼怒川線",
+    "lat": 37.04784,
+    "lon": 139.723845
+  },
+  {
+    "station_id": "tochigi_0103",
+    "station_name": "益子",
+    "prefecture": "栃木県",
+    "line_name": "真岡鐵道",
+    "lat": 36.462965,
+    "lon": 140.088526
+  },
+  {
+    "station_id": "tochigi_0049",
+    "station_name": "県",
+    "prefecture": "栃木県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.290615,
+    "lon": 139.472336
+  },
+  {
+    "station_id": "tochigi_0099",
+    "station_name": "真岡",
+    "prefecture": "栃木県",
+    "line_name": "真岡鐵道",
+    "lat": 36.439144,
+    "lon": 140.002632
+  },
+  {
+    "station_id": "tochigi_0024",
+    "station_name": "矢板",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.80655,
+    "lon": 139.932912
+  },
+  {
+    "station_id": "tochigi_0016",
+    "station_name": "石橋",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.43651,
+    "lon": 139.866536
+  },
+  {
+    "station_id": "tochigi_0050",
+    "station_name": "福居",
+    "prefecture": "栃木県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.305208,
+    "lon": 139.458634
+  },
+  {
+    "station_id": "tochigi_0107",
+    "station_name": "笹原田",
+    "prefecture": "栃木県",
+    "line_name": "真岡鐵道",
+    "lat": 36.533911,
+    "lon": 140.144837
+  },
+  {
+    "station_id": "tochigi_0015",
+    "station_name": "自治医大",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.39543,
+    "lon": 139.854524
+  },
+  {
+    "station_id": "tochigi_0135",
+    "station_name": "芳賀・高根沢工業団地",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.578638,
+    "lon": 140.011956
+  },
+  {
+    "station_id": "tochigi_0132",
+    "station_name": "芳賀台",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.566146,
+    "lon": 140.006464
+  },
+  {
+    "station_id": "tochigi_0133",
+    "station_name": "芳賀町工業団地管理センター前",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.564952,
+    "lon": 140.010687
+  },
+  {
+    "station_id": "tochigi_0109",
+    "station_name": "茂木",
+    "prefecture": "栃木県",
+    "line_name": "真岡鐵道",
+    "lat": 36.530851,
+    "lon": 140.181382
+  },
+  {
+    "station_id": "tochigi_0061",
+    "station_name": "葛生",
+    "prefecture": "栃木県",
+    "line_name": "東武佐野線",
+    "lat": 36.397937,
+    "lon": 139.609207
+  },
+  {
+    "station_id": "tochigi_0022",
+    "station_name": "蒲須坂",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.720727,
+    "lon": 139.950461
+  },
+  {
+    "station_id": "tochigi_0073",
+    "station_name": "藤岡",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.255628,
+    "lon": 139.64555
+  },
+  {
+    "station_id": "tochigi_0069",
+    "station_name": "西川田",
+    "prefecture": "栃木県",
+    "line_name": "東武宇都宮線",
+    "lat": 36.514227,
+    "lon": 139.850247
+  },
+  {
+    "station_id": "tochigi_0101",
+    "station_name": "西田井",
+    "prefecture": "栃木県",
+    "line_name": "真岡鐵道",
+    "lat": 36.453407,
+    "lon": 140.04876
+  },
+  {
+    "station_id": "tochigi_0026",
+    "station_name": "西那須野",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.883726,
+    "lon": 139.986383
+  },
+  {
+    "station_id": "tochigi_0037",
+    "station_name": "豊原",
+    "prefecture": "栃木県",
+    "line_name": "JR東北本線",
+    "lat": 37.055014,
+    "lon": 140.155066
+  },
+  {
+    "station_id": "tochigi_0003",
+    "station_name": "足利",
+    "prefecture": "栃木県",
+    "line_name": "JR両毛線",
+    "lat": 36.331888,
+    "lon": 139.456295
+  },
+  {
+    "station_id": "tochigi_0052",
+    "station_name": "足利市",
+    "prefecture": "栃木県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.32948,
+    "lon": 139.448113
+  },
+  {
+    "station_id": "tochigi_0047",
+    "station_name": "足尾",
+    "prefecture": "栃木県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.641853,
+    "lon": 139.447773
+  },
+  {
+    "station_id": "tochigi_0046",
+    "station_name": "通洞",
+    "prefecture": "栃木県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.636837,
+    "lon": 139.439671
+  },
+  {
+    "station_id": "tochigi_0027",
+    "station_name": "那須塩原",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.931956,
+    "lon": 140.020694
+  },
+  {
+    "station_id": "tochigi_0025",
+    "station_name": "野崎",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.843722,
+    "lon": 139.957752
+  },
+  {
+    "station_id": "tochigi_0064",
+    "station_name": "野州大塚",
+    "prefecture": "栃木県",
+    "line_name": "東武宇都宮線",
+    "lat": 36.408759,
+    "lon": 139.772574
+  },
+  {
+    "station_id": "tochigi_0053",
+    "station_name": "野州山辺",
+    "prefecture": "栃木県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.32633,
+    "lon": 139.431981
+  },
+  {
+    "station_id": "tochigi_0063",
+    "station_name": "野州平川",
+    "prefecture": "栃木県",
+    "line_name": "東武宇都宮線",
+    "lat": 36.401554,
+    "lon": 139.753764
+  },
+  {
+    "station_id": "tochigi_0012",
+    "station_name": "野木",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.229963,
+    "lon": 139.734729
+  },
+  {
+    "station_id": "tochigi_0013",
+    "station_name": "間々田",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.257908,
+    "lon": 139.761039
+  },
+  {
+    "station_id": "tochigi_0048",
+    "station_name": "間藤",
+    "prefecture": "栃木県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.653507,
+    "lon": 139.450078
+  },
+  {
+    "station_id": "tochigi_0121",
+    "station_name": "陽東3丁目",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.557303,
+    "lon": 139.92318
+  },
+  {
+    "station_id": "tochigi_0017",
+    "station_name": "雀宮",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.493845,
+    "lon": 139.876811
+  },
+  {
+    "station_id": "tochigi_0074",
+    "station_name": "静和",
+    "prefecture": "栃木県",
+    "line_name": "東武日光線",
+    "lat": 36.31651,
+    "lon": 139.684864
+  },
+  {
+    "station_id": "tochigi_0125",
+    "station_name": "飛山城跡",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.548359,
+    "lon": 139.963424
+  },
+  {
+    "station_id": "tochigi_0119",
+    "station_name": "駅東公園前",
+    "prefecture": "栃木県",
+    "line_name": "宇都宮芳賀ライトレール",
+    "lat": 36.557993,
+    "lon": 139.90811
+  },
+  {
+    "station_id": "tochigi_0035",
+    "station_name": "高久",
+    "prefecture": "栃木県",
+    "line_name": "JR東北本線",
+    "lat": 36.996572,
+    "lon": 140.087346
+  },
+  {
+    "station_id": "tochigi_0095",
+    "station_name": "鬼怒川公園",
+    "prefecture": "栃木県",
+    "line_name": "東武鬼怒川線",
+    "lat": 36.841,
+    "lon": 139.72287
+  },
+  {
+    "station_id": "tochigi_0094",
+    "station_name": "鬼怒川温泉",
+    "prefecture": "栃木県",
+    "line_name": "東武鬼怒川線",
+    "lat": 36.822622,
+    "lon": 139.716552
+  },
+  {
+    "station_id": "tochigi_0040",
+    "station_name": "鴻野山",
+    "prefecture": "栃木県",
+    "line_name": "JR烏山線",
+    "lat": 36.666495,
+    "lon": 140.051656
+  },
+  {
+    "station_id": "tochigi_0029",
+    "station_name": "鶴田",
+    "prefecture": "栃木県",
+    "line_name": "JR日光線",
+    "lat": 36.538319,
+    "lon": 139.858818
+  },
+  {
+    "station_id": "tochigi_0030",
+    "station_name": "鹿沼",
+    "prefecture": "栃木県",
+    "line_name": "JR日光線",
+    "lat": 36.571222,
+    "lon": 139.762961
+  },
+  {
+    "station_id": "tochigi_0036",
+    "station_name": "黒田原",
+    "prefecture": "栃木県",
+    "line_name": "JR東北本線",
+    "lat": 37.022848,
+    "lon": 140.119586
+  },
+  {
+    "station_id": "tochigi_0028",
+    "station_name": "黒磯",
+    "prefecture": "栃木県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.970128,
+    "lon": 140.060204
+  },
+  {
+    "station_id": "tochigi_0110",
+    "station_name": "龍王峡",
+    "prefecture": "栃木県",
+    "line_name": "野岩鉄道会津鬼怒川線",
+    "lat": 36.860909,
+    "lon": 139.718542
+  }
+]

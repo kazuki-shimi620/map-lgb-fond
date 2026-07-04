@@ -1,7 +1,7 @@
 region: saitama
 target: price
 latest_training_year: 2025
-train_start_year: 2020
+train_start_year: 2005
 test_year: 2025
 processed_path: data/processed/saitama.parquet
 output_dir: outputs/models

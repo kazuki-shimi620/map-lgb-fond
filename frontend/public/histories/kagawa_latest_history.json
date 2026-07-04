@@ -1,0 +1,3278 @@
+[
+  {
+    "prefecture": "香川県",
+    "station": "一宮",
+    "year": 2007,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "一宮",
+    "year": 2010,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2007,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2008,
+    "avg_price": 14214285.714285715
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2009,
+    "avg_price": 12250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2010,
+    "avg_price": 11125000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2011,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2012,
+    "avg_price": 14045454.545454545
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2013,
+    "avg_price": 7012500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2014,
+    "avg_price": 11820000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2015,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2016,
+    "avg_price": 16883333.333333332
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2017,
+    "avg_price": 16283333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2018,
+    "avg_price": 16008333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2019,
+    "avg_price": 17730000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2020,
+    "avg_price": 18454545.454545453
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2021,
+    "avg_price": 14742857.142857144
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2022,
+    "avg_price": 23507692.307692308
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2023,
+    "avg_price": 21044444.444444444
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2024,
+    "avg_price": 15227777.777777778
+  },
+  {
+    "prefecture": "香川県",
+    "station": "三条(高松)",
+    "year": 2025,
+    "avg_price": 22629411.76470588
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2007,
+    "avg_price": 12683333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2008,
+    "avg_price": 6927777.777777778
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2009,
+    "avg_price": 7205555.555555556
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2010,
+    "avg_price": 8990000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2011,
+    "avg_price": 6412500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2012,
+    "avg_price": 11916666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2013,
+    "avg_price": 10069230.76923077
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2014,
+    "avg_price": 9787500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2015,
+    "avg_price": 12126315.789473685
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2016,
+    "avg_price": 8526666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2017,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2018,
+    "avg_price": 9735714.285714285
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2019,
+    "avg_price": 11185714.285714285
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2020,
+    "avg_price": 13381250.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2021,
+    "avg_price": 11084000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2022,
+    "avg_price": 11613513.513513513
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2023,
+    "avg_price": 12411111.111111112
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2024,
+    "avg_price": 13879487.17948718
+  },
+  {
+    "prefecture": "香川県",
+    "station": "丸亀",
+    "year": 2025,
+    "avg_price": 14476470.588235294
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2007,
+    "avg_price": 5100000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2010,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2011,
+    "avg_price": 4125000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2012,
+    "avg_price": 10550000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2013,
+    "avg_price": 4160000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2014,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2015,
+    "avg_price": 10933333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2017,
+    "avg_price": 6033333.333333333
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2018,
+    "avg_price": 3333333.3333333335
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2019,
+    "avg_price": 6220000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2020,
+    "avg_price": 13266666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2021,
+    "avg_price": 10960000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2022,
+    "avg_price": 11340000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2023,
+    "avg_price": 15921428.57142857
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2024,
+    "avg_price": 10663636.363636363
+  },
+  {
+    "prefecture": "香川県",
+    "station": "今橋",
+    "year": 2025,
+    "avg_price": 5776923.076923077
+  },
+  {
+    "prefecture": "香川県",
+    "station": "仏生山",
+    "year": 2007,
+    "avg_price": 1100000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "仏生山",
+    "year": 2013,
+    "avg_price": 8633333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "仏生山",
+    "year": 2014,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "仏生山",
+    "year": 2015,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "仏生山",
+    "year": 2020,
+    "avg_price": 3175000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "仏生山",
+    "year": 2021,
+    "avg_price": 11025000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "仏生山",
+    "year": 2022,
+    "avg_price": 3025000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "仏生山",
+    "year": 2023,
+    "avg_price": 6436363.636363637
+  },
+  {
+    "prefecture": "香川県",
+    "station": "仏生山",
+    "year": 2024,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "仏生山",
+    "year": 2025,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "伏石",
+    "year": 2021,
+    "avg_price": 11188888.888888888
+  },
+  {
+    "prefecture": "香川県",
+    "station": "伏石",
+    "year": 2022,
+    "avg_price": 19662500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "伏石",
+    "year": 2023,
+    "avg_price": 20016666.666666668
+  },
+  {
+    "prefecture": "香川県",
+    "station": "伏石",
+    "year": 2024,
+    "avg_price": 18615384.615384616
+  },
+  {
+    "prefecture": "香川県",
+    "station": "伏石",
+    "year": 2025,
+    "avg_price": 18155000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2008,
+    "avg_price": 11400000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2010,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2011,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2012,
+    "avg_price": 9780000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2013,
+    "avg_price": 12200000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2014,
+    "avg_price": 11166666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2015,
+    "avg_price": 7350000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2016,
+    "avg_price": 11375000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2017,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2018,
+    "avg_price": 10460000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2019,
+    "avg_price": 12333333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2020,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2021,
+    "avg_price": 15288888.888888888
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2022,
+    "avg_price": 11214285.714285715
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2023,
+    "avg_price": 16345454.545454545
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2024,
+    "avg_price": 12514285.714285715
+  },
+  {
+    "prefecture": "香川県",
+    "station": "元山(高松)",
+    "year": 2025,
+    "avg_price": 12666666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "八栗",
+    "year": 2014,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "八栗",
+    "year": 2016,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "八栗",
+    "year": 2018,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "八栗",
+    "year": 2020,
+    "avg_price": 5250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "八栗",
+    "year": 2021,
+    "avg_price": 6200000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "八栗",
+    "year": 2024,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "八栗新道",
+    "year": 2008,
+    "avg_price": 5933333.333333333
+  },
+  {
+    "prefecture": "香川県",
+    "station": "八栗新道",
+    "year": 2020,
+    "avg_price": 4600000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "八栗新道",
+    "year": 2024,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "円座",
+    "year": 2009,
+    "avg_price": 9166666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "円座",
+    "year": 2011,
+    "avg_price": 6333333.333333333
+  },
+  {
+    "prefecture": "香川県",
+    "station": "円座",
+    "year": 2012,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "円座",
+    "year": 2013,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "円座",
+    "year": 2020,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "円座",
+    "year": 2021,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "円座",
+    "year": 2022,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "円座",
+    "year": 2023,
+    "avg_price": 6150000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "円座",
+    "year": 2024,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松",
+    "year": 2007,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松",
+    "year": 2008,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松",
+    "year": 2010,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松",
+    "year": 2017,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松",
+    "year": 2021,
+    "avg_price": 11700000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松",
+    "year": 2022,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松",
+    "year": 2024,
+    "avg_price": 14333333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松南",
+    "year": 2008,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松南",
+    "year": 2009,
+    "avg_price": 690000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松南",
+    "year": 2010,
+    "avg_price": 5200000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松南",
+    "year": 2012,
+    "avg_price": 750000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松南",
+    "year": 2015,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松南",
+    "year": 2016,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松南",
+    "year": 2017,
+    "avg_price": 2266666.6666666665
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松南",
+    "year": 2020,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松南",
+    "year": 2021,
+    "avg_price": 1150000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松南",
+    "year": 2022,
+    "avg_price": 7125000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松南",
+    "year": 2023,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松南",
+    "year": 2024,
+    "avg_price": 3700000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "古高松南",
+    "year": 2025,
+    "avg_price": 1425000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "善通寺",
+    "year": 2022,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "善通寺",
+    "year": 2023,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "坂出",
+    "year": 2021,
+    "avg_price": 15071428.57142857
+  },
+  {
+    "prefecture": "香川県",
+    "station": "坂出",
+    "year": 2022,
+    "avg_price": 18971428.57142857
+  },
+  {
+    "prefecture": "香川県",
+    "station": "坂出",
+    "year": 2023,
+    "avg_price": 12033333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "坂出",
+    "year": 2024,
+    "avg_price": 17243750.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "坂出",
+    "year": 2025,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "塩屋(高松)",
+    "year": 2008,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "塩屋(高松)",
+    "year": 2009,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "塩屋(高松)",
+    "year": 2011,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "塩屋(高松)",
+    "year": 2013,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "塩屋(高松)",
+    "year": 2015,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "塩屋(高松)",
+    "year": 2017,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "塩屋(高松)",
+    "year": 2019,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "塩屋(高松)",
+    "year": 2020,
+    "avg_price": 6350000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "塩屋(高松)",
+    "year": 2021,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "多度津",
+    "year": 2021,
+    "avg_price": 6250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "多度津",
+    "year": 2022,
+    "avg_price": 4200000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "多度津",
+    "year": 2023,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2007,
+    "avg_price": 10933333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2008,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2009,
+    "avg_price": 8720000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2010,
+    "avg_price": 13866666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2011,
+    "avg_price": 8225000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2012,
+    "avg_price": 14142857.142857144
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2013,
+    "avg_price": 12577777.777777778
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2014,
+    "avg_price": 12883333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2015,
+    "avg_price": 10633333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2016,
+    "avg_price": 16790000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2017,
+    "avg_price": 16057142.857142856
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2018,
+    "avg_price": 13900000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2019,
+    "avg_price": 14421428.57142857
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2020,
+    "avg_price": 15510000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2021,
+    "avg_price": 16121428.57142857
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2022,
+    "avg_price": 14812903.225806452
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2023,
+    "avg_price": 14019047.61904762
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2024,
+    "avg_price": 18378260.86956522
+  },
+  {
+    "prefecture": "香川県",
+    "station": "太田(高松)",
+    "year": 2025,
+    "avg_price": 17127272.727272727
+  },
+  {
+    "prefecture": "香川県",
+    "station": "学園通り",
+    "year": 2009,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "学園通り",
+    "year": 2010,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "宇多津",
+    "year": 2011,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "宇多津",
+    "year": 2012,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "宇多津",
+    "year": 2014,
+    "avg_price": 7650000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "宇多津",
+    "year": 2015,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "宇多津",
+    "year": 2017,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "宇多津",
+    "year": 2018,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "宇多津",
+    "year": 2019,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "宇多津",
+    "year": 2021,
+    "avg_price": 11933333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "宇多津",
+    "year": 2022,
+    "avg_price": 11472727.272727273
+  },
+  {
+    "prefecture": "香川県",
+    "station": "宇多津",
+    "year": 2023,
+    "avg_price": 16780000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "宇多津",
+    "year": 2024,
+    "avg_price": 13450000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "宇多津",
+    "year": 2025,
+    "avg_price": 15928571.42857143
+  },
+  {
+    "prefecture": "香川県",
+    "station": "屋島",
+    "year": 2007,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "屋島",
+    "year": 2008,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "屋島",
+    "year": 2010,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "屋島",
+    "year": 2014,
+    "avg_price": 9050000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "屋島",
+    "year": 2015,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "屋島",
+    "year": 2017,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "屋島",
+    "year": 2018,
+    "avg_price": 8300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "屋島",
+    "year": 2020,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "屋島",
+    "year": 2021,
+    "avg_price": 10800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "屋島",
+    "year": 2022,
+    "avg_price": 8420000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "屋島",
+    "year": 2023,
+    "avg_price": 14075000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "屋島",
+    "year": 2024,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "屋島",
+    "year": 2025,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "岡本(高松)",
+    "year": 2016,
+    "avg_price": 4400000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "岡本(高松)",
+    "year": 2018,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "志度",
+    "year": 2023,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2007,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2008,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2009,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2010,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2011,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2012,
+    "avg_price": 9285714.285714285
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2013,
+    "avg_price": 9750000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2014,
+    "avg_price": 10620000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2015,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2016,
+    "avg_price": 7333333.333333333
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2017,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2018,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2019,
+    "avg_price": 11525000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2020,
+    "avg_price": 11525000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2021,
+    "avg_price": 10800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2022,
+    "avg_price": 10720000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2023,
+    "avg_price": 19212500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2024,
+    "avg_price": 17066666.666666668
+  },
+  {
+    "prefecture": "香川県",
+    "station": "春日川",
+    "year": 2025,
+    "avg_price": 10466666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2007,
+    "avg_price": 9787500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2008,
+    "avg_price": 5400000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2009,
+    "avg_price": 8838461.538461538
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2010,
+    "avg_price": 5142857.142857143
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2011,
+    "avg_price": 11445882.352941176
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2012,
+    "avg_price": 8823529.411764706
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2013,
+    "avg_price": 5750000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2014,
+    "avg_price": 11166666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2015,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2016,
+    "avg_price": 5755555.555555556
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2017,
+    "avg_price": 8187500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2018,
+    "avg_price": 9818750.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2019,
+    "avg_price": 7416666.666666667
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2020,
+    "avg_price": 7775000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2021,
+    "avg_price": 12244444.444444444
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2022,
+    "avg_price": 16226315.789473685
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2023,
+    "avg_price": 14390000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2024,
+    "avg_price": 15251724.137931034
+  },
+  {
+    "prefecture": "香川県",
+    "station": "昭和町(香川)",
+    "year": 2025,
+    "avg_price": 13152000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太東口",
+    "year": 2013,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太東口",
+    "year": 2019,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太東口",
+    "year": 2021,
+    "avg_price": 10900000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太東口",
+    "year": 2022,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太東口",
+    "year": 2023,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太東口",
+    "year": 2024,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2007,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2008,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2010,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2011,
+    "avg_price": 7140000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2012,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2013,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2014,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2015,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2016,
+    "avg_price": 6460000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2017,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2018,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2020,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2021,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2022,
+    "avg_price": 9560000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2023,
+    "avg_price": 8600000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2024,
+    "avg_price": 9163636.363636363
+  },
+  {
+    "prefecture": "香川県",
+    "station": "木太町",
+    "year": 2025,
+    "avg_price": 8257142.857142857
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2007,
+    "avg_price": 3266666.6666666665
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2008,
+    "avg_price": 2100000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2009,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2010,
+    "avg_price": 9133333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2011,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2012,
+    "avg_price": 2100000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2013,
+    "avg_price": 5260000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2015,
+    "avg_price": 7466666.666666667
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2016,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2017,
+    "avg_price": 2066666.6666666667
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2018,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2019,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2020,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2021,
+    "avg_price": 7375000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2022,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2023,
+    "avg_price": 3580000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2024,
+    "avg_price": 1900000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "松島二丁目",
+    "year": 2025,
+    "avg_price": 5033333.333333333
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2007,
+    "avg_price": 7250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2008,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2009,
+    "avg_price": 13766666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2010,
+    "avg_price": 9250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2011,
+    "avg_price": 8950000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2012,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2013,
+    "avg_price": 9266666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2014,
+    "avg_price": 12566666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2015,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2016,
+    "avg_price": 9397000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2017,
+    "avg_price": 9320000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2018,
+    "avg_price": 17400000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2019,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2020,
+    "avg_price": 9287500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2021,
+    "avg_price": 14050000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2022,
+    "avg_price": 17980000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2023,
+    "avg_price": 15518750.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2024,
+    "avg_price": 19363636.363636363
+  },
+  {
+    "prefecture": "香川県",
+    "station": "林道",
+    "year": 2025,
+    "avg_price": 18640000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2007,
+    "avg_price": 6950000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2008,
+    "avg_price": 5525000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2009,
+    "avg_price": 14300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2010,
+    "avg_price": 21750000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2011,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2012,
+    "avg_price": 9688888.888888888
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2013,
+    "avg_price": 17125000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2014,
+    "avg_price": 10700000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2015,
+    "avg_price": 7322222.222222222
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2016,
+    "avg_price": 9766666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2017,
+    "avg_price": 17050000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2018,
+    "avg_price": 11162500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2019,
+    "avg_price": 14800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2020,
+    "avg_price": 19100000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2021,
+    "avg_price": 18270588.23529412
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2022,
+    "avg_price": 19223529.411764707
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2023,
+    "avg_price": 21185714.285714287
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2024,
+    "avg_price": 17582352.94117647
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林",
+    "year": 2025,
+    "avg_price": 14326086.956521738
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2007,
+    "avg_price": 17233333.333333332
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2008,
+    "avg_price": 17371428.57142857
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2009,
+    "avg_price": 13320000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2010,
+    "avg_price": 11562500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2011,
+    "avg_price": 14375000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2012,
+    "avg_price": 12333333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2013,
+    "avg_price": 17787500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2014,
+    "avg_price": 19914285.714285713
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2015,
+    "avg_price": 12575000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2016,
+    "avg_price": 15177777.777777778
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2017,
+    "avg_price": 18655555.555555556
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2018,
+    "avg_price": 14737500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2019,
+    "avg_price": 17087500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2020,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2021,
+    "avg_price": 16634782.608695652
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2022,
+    "avg_price": 18907692.307692308
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2023,
+    "avg_price": 19680769.230769232
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2024,
+    "avg_price": 21240000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園",
+    "year": 2025,
+    "avg_price": 16428571.42857143
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2007,
+    "avg_price": 27666666.666666668
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2008,
+    "avg_price": 17100000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2009,
+    "avg_price": 23333333.333333332
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2010,
+    "avg_price": 18114285.714285713
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2011,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2012,
+    "avg_price": 15513333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2013,
+    "avg_price": 8120000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2014,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2015,
+    "avg_price": 4595000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2016,
+    "avg_price": 14575000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2017,
+    "avg_price": 24075000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2018,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2019,
+    "avg_price": 23133333.333333332
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2020,
+    "avg_price": 26833333.333333332
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2021,
+    "avg_price": 25542857.14285714
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2022,
+    "avg_price": 20588888.888888888
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2023,
+    "avg_price": 30550000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2024,
+    "avg_price": 22911764.70588235
+  },
+  {
+    "prefecture": "香川県",
+    "station": "栗林公園北口",
+    "year": 2025,
+    "avg_price": 23458333.333333332
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2007,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2008,
+    "avg_price": 8250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2010,
+    "avg_price": 14520000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2011,
+    "avg_price": 8233333.333333333
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2012,
+    "avg_price": 2800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2013,
+    "avg_price": 3933333.3333333335
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2015,
+    "avg_price": 14666666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2016,
+    "avg_price": 8450000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2017,
+    "avg_price": 12600000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2018,
+    "avg_price": 2550000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2019,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2020,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2021,
+    "avg_price": 18250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2022,
+    "avg_price": 10240000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2023,
+    "avg_price": 6846666.666666667
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2024,
+    "avg_price": 9160000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "沖松島",
+    "year": 2025,
+    "avg_price": 10488888.888888888
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2007,
+    "avg_price": 9520000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2008,
+    "avg_price": 10723076.923076924
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2009,
+    "avg_price": 9740000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2010,
+    "avg_price": 8515384.615384616
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2011,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2012,
+    "avg_price": 8242857.142857143
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2013,
+    "avg_price": 7875000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2014,
+    "avg_price": 6285714.285714285
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2015,
+    "avg_price": 8334615.384615385
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2016,
+    "avg_price": 10200000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2017,
+    "avg_price": 9955555.555555556
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2018,
+    "avg_price": 7283333.333333333
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2019,
+    "avg_price": 8960000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2020,
+    "avg_price": 8845454.545454545
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2021,
+    "avg_price": 7931250.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2022,
+    "avg_price": 10366666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2023,
+    "avg_price": 8506666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2024,
+    "avg_price": 8860000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "潟元",
+    "year": 2025,
+    "avg_price": 8246666.666666667
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2007,
+    "avg_price": 4766666.666666667
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2008,
+    "avg_price": 8250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2009,
+    "avg_price": 14700000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2011,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2012,
+    "avg_price": 10933333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2013,
+    "avg_price": 7346666.666666667
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2014,
+    "avg_price": 8610000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2015,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2016,
+    "avg_price": 20800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2017,
+    "avg_price": 17250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2018,
+    "avg_price": 14950000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2019,
+    "avg_price": 19957142.85714286
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2020,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2021,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2022,
+    "avg_price": 16870588.23529412
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2023,
+    "avg_price": 14057894.736842105
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2024,
+    "avg_price": 20505555.555555556
+  },
+  {
+    "prefecture": "香川県",
+    "station": "片原町(高松)",
+    "year": 2025,
+    "avg_price": 16018181.818181818
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2009,
+    "avg_price": 9100000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2010,
+    "avg_price": 4866666.666666667
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2011,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2012,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2013,
+    "avg_price": 11900000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2014,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2015,
+    "avg_price": 10766666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2016,
+    "avg_price": 5450000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2018,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2019,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2020,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2021,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2022,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2023,
+    "avg_price": 6175000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電屋島",
+    "year": 2024,
+    "avg_price": 10150000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "琴電琴平",
+    "year": 2021,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2007,
+    "avg_price": 14100000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2008,
+    "avg_price": 12100000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2009,
+    "avg_price": 8560000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2010,
+    "avg_price": 5116666.666666667
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2011,
+    "avg_price": 19922727.272727273
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2012,
+    "avg_price": 16304347.826086957
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2013,
+    "avg_price": 13300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2014,
+    "avg_price": 12033333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2015,
+    "avg_price": 12221428.57142857
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2016,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2017,
+    "avg_price": 11175000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2018,
+    "avg_price": 17550714.285714287
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2019,
+    "avg_price": 19528571.42857143
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2020,
+    "avg_price": 14540000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2021,
+    "avg_price": 11546153.846153846
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2022,
+    "avg_price": 18307142.85714286
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2023,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2024,
+    "avg_price": 18300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "瓦町",
+    "year": 2025,
+    "avg_price": 22508695.652173914
+  },
+  {
+    "prefecture": "香川県",
+    "station": "空港通り",
+    "year": 2008,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "空港通り",
+    "year": 2009,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "空港通り",
+    "year": 2010,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "空港通り",
+    "year": 2011,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "空港通り",
+    "year": 2012,
+    "avg_price": 1740000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "空港通り",
+    "year": 2013,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "空港通り",
+    "year": 2014,
+    "avg_price": 950000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "空港通り",
+    "year": 2015,
+    "avg_price": 1280000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "空港通り",
+    "year": 2016,
+    "avg_price": 400000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "空港通り",
+    "year": 2017,
+    "avg_price": 1366666.6666666667
+  },
+  {
+    "prefecture": "香川県",
+    "station": "空港通り",
+    "year": 2018,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "空港通り",
+    "year": 2019,
+    "avg_price": 500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "空港通り",
+    "year": 2020,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2007,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2008,
+    "avg_price": 5766666.666666667
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2010,
+    "avg_price": 7083333.333333333
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2011,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2013,
+    "avg_price": 8250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2014,
+    "avg_price": 5450000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2016,
+    "avg_price": 7350000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2017,
+    "avg_price": 8050000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2019,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2020,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2021,
+    "avg_price": 4960000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2022,
+    "avg_price": 9833333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2023,
+    "avg_price": 5920000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2024,
+    "avg_price": 5625000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "端岡",
+    "year": 2025,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2010,
+    "avg_price": 14038461.538461538
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2011,
+    "avg_price": 10650000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2012,
+    "avg_price": 15800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2013,
+    "avg_price": 12800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2014,
+    "avg_price": 11733333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2015,
+    "avg_price": 11800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2016,
+    "avg_price": 16266666.666666666
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2017,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2018,
+    "avg_price": 10700000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2019,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2020,
+    "avg_price": 10750000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2021,
+    "avg_price": 11675000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2022,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2023,
+    "avg_price": 11385714.285714285
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2024,
+    "avg_price": 8742857.142857144
+  },
+  {
+    "prefecture": "香川県",
+    "station": "花園(高松)",
+    "year": 2025,
+    "avg_price": 17200000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "観音寺(香川)",
+    "year": 2022,
+    "avg_price": 8250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "観音寺(香川)",
+    "year": 2023,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "讃岐塩屋",
+    "year": 2008,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "讃岐塩屋",
+    "year": 2010,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "讃岐塩屋",
+    "year": 2012,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "讃岐塩屋",
+    "year": 2013,
+    "avg_price": 3700000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "讃岐塩屋",
+    "year": 2014,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "讃岐塩屋",
+    "year": 2016,
+    "avg_price": 2600000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "讃岐塩屋",
+    "year": 2017,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "讃岐塩屋",
+    "year": 2020,
+    "avg_price": 4700000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "讃岐塩屋",
+    "year": 2021,
+    "avg_price": 4466666.666666667
+  },
+  {
+    "prefecture": "香川県",
+    "station": "讃岐塩屋",
+    "year": 2022,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "讃岐塩屋",
+    "year": 2023,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "讃岐牟礼",
+    "year": 2022,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "讃岐牟礼",
+    "year": 2024,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "農学部前",
+    "year": 2010,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "金蔵寺",
+    "year": 2009,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "金蔵寺",
+    "year": 2010,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "金蔵寺",
+    "year": 2011,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "金蔵寺",
+    "year": 2014,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "金蔵寺",
+    "year": 2016,
+    "avg_price": 9650000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "金蔵寺",
+    "year": 2023,
+    "avg_price": 10750000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "金蔵寺",
+    "year": 2025,
+    "avg_price": 6600000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2007,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2009,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2010,
+    "avg_price": 8750000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2011,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2012,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2013,
+    "avg_price": 10980000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2014,
+    "avg_price": 6320000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2015,
+    "avg_price": 8325000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2016,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2017,
+    "avg_price": 8280000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2018,
+    "avg_price": 10350000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2019,
+    "avg_price": 4885714.285714285
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2020,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2021,
+    "avg_price": 6950000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2022,
+    "avg_price": 11142857.142857144
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2023,
+    "avg_price": 8822222.222222222
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2024,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "香西",
+    "year": 2025,
+    "avg_price": 9725000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2007,
+    "avg_price": 10433333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2008,
+    "avg_price": 10530000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2009,
+    "avg_price": 9958333.333333334
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2010,
+    "avg_price": 7462500.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2011,
+    "avg_price": 9360000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2012,
+    "avg_price": 16723076.923076924
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2013,
+    "avg_price": 11705263.157894736
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2014,
+    "avg_price": 16336363.636363637
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2015,
+    "avg_price": 14695454.545454545
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2016,
+    "avg_price": 9276470.588235294
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2017,
+    "avg_price": 12547368.421052631
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2018,
+    "avg_price": 20168421.05263158
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2019,
+    "avg_price": 13925000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2020,
+    "avg_price": 15960000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2021,
+    "avg_price": 14448484.848484848
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2022,
+    "avg_price": 18412121.21212121
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2023,
+    "avg_price": 24447619.04761905
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2024,
+    "avg_price": 21338095.23809524
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松(香川)",
+    "year": 2025,
+    "avg_price": 20668085.106382977
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松築港",
+    "year": 2011,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "高松築港",
+    "year": 2018,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "鬼無",
+    "year": 2009,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "香川県",
+    "station": "鬼無",
+    "year": 2011,
+    "avg_price": 16000000.0
+  }
+]

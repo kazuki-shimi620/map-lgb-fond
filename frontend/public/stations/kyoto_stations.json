@@ -1,0 +1,1882 @@
+[
+  {
+    "station_id": "kyoto_0064",
+    "station_name": "JR三山木",
+    "prefecture": "京都府",
+    "line_name": "JR片町線",
+    "lat": 34.798334,
+    "lon": 135.784578
+  },
+  {
+    "station_id": "kyoto_0018",
+    "station_name": "JR小倉",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.889117,
+    "lon": 135.785962
+  },
+  {
+    "station_id": "kyoto_0024",
+    "station_name": "JR藤森",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.948278,
+    "lon": 135.775695
+  },
+  {
+    "station_id": "kyoto_0237",
+    "station_name": "かぶと山",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮豊線",
+    "lat": 35.60685,
+    "lon": 134.919769
+  },
+  {
+    "station_id": "kyoto_0129",
+    "station_name": "くいな橋",
+    "prefecture": "京都府",
+    "line_name": "京都市烏丸線",
+    "lat": 34.962674,
+    "lon": 135.757441
+  },
+  {
+    "station_id": "kyoto_0158",
+    "station_name": "ケーブル八幡宮口",
+    "prefecture": "京都府",
+    "line_name": "京阪鋼索線",
+    "lat": 34.884651,
+    "lon": 135.69996
+  },
+  {
+    "station_id": "kyoto_0159",
+    "station_name": "ケーブル八幡宮山上",
+    "prefecture": "京都府",
+    "line_name": "京阪鋼索線",
+    "lat": 34.881061,
+    "lon": 135.699796
+  },
+  {
+    "station_id": "kyoto_0098",
+    "station_name": "ケーブル八瀬",
+    "prefecture": "京都府",
+    "line_name": "京福電鉄鋼索線",
+    "lat": 35.066922,
+    "lon": 135.808704
+  },
+  {
+    "station_id": "kyoto_0099",
+    "station_name": "ケーブル比叡",
+    "prefecture": "京都府",
+    "line_name": "京福電鉄鋼索線",
+    "lat": 35.064214,
+    "lon": 135.822408
+  },
+  {
+    "station_id": "kyoto_0182",
+    "station_name": "トロッコ亀岡",
+    "prefecture": "京都府",
+    "line_name": "嵯峨野観光鉄道",
+    "lat": 35.01314,
+    "lon": 135.606751
+  },
+  {
+    "station_id": "kyoto_0181",
+    "station_name": "トロッコ保津峡",
+    "prefecture": "京都府",
+    "line_name": "嵯峨野観光鉄道",
+    "lat": 35.026148,
+    "lon": 135.646284
+  },
+  {
+    "station_id": "kyoto_0180",
+    "station_name": "トロッコ嵐山",
+    "prefecture": "京都府",
+    "line_name": "嵯峨野観光鉄道",
+    "lat": 35.017162,
+    "lon": 135.670252
+  },
+  {
+    "station_id": "kyoto_0179",
+    "station_name": "トロッコ嵯峨",
+    "prefecture": "京都府",
+    "line_name": "嵯峨野観光鉄道",
+    "lat": 35.018656,
+    "lon": 135.680704
+  },
+  {
+    "station_id": "kyoto_0163",
+    "station_name": "一乗寺",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄本線",
+    "lat": 35.044247,
+    "lon": 135.787416
+  },
+  {
+    "station_id": "kyoto_0152",
+    "station_name": "七条",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 34.989322,
+    "lon": 135.767846
+  },
+  {
+    "station_id": "kyoto_0166",
+    "station_name": "三宅八幡",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄本線",
+    "lat": 35.062387,
+    "lon": 135.796207
+  },
+  {
+    "station_id": "kyoto_0139",
+    "station_name": "三室戸",
+    "prefecture": "京都府",
+    "line_name": "京阪宇治線",
+    "lat": 34.898976,
+    "lon": 135.806339
+  },
+  {
+    "station_id": "kyoto_0199",
+    "station_name": "三山木",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.798435,
+    "lon": 135.785905
+  },
+  {
+    "station_id": "kyoto_0155",
+    "station_name": "三条(京都)",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 35.009114,
+    "lon": 135.772274
+  },
+  {
+    "station_id": "kyoto_0106",
+    "station_name": "三条京阪",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 35.009278,
+    "lon": 135.773773
+  },
+  {
+    "station_id": "kyoto_0059",
+    "station_name": "上夜久野",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.34182,
+    "lon": 134.931718
+  },
+  {
+    "station_id": "kyoto_0057",
+    "station_name": "上川口",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.329504,
+    "lon": 135.073284
+  },
+  {
+    "station_id": "kyoto_0217",
+    "station_name": "上桂",
+    "prefecture": "京都府",
+    "line_name": "阪急嵐山線",
+    "lat": 34.990201,
+    "lon": 135.696069
+  },
+  {
+    "station_id": "kyoto_0010",
+    "station_name": "上狛",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.750447,
+    "lon": 135.821225
+  },
+  {
+    "station_id": "kyoto_0186",
+    "station_name": "上鳥羽口",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.965135,
+    "lon": 135.752625
+  },
+  {
+    "station_id": "kyoto_0058",
+    "station_name": "下夜久野",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.319893,
+    "lon": 134.998868
+  },
+  {
+    "station_id": "kyoto_0243",
+    "station_name": "下天津",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮福線",
+    "lat": 35.359587,
+    "lon": 135.111702
+  },
+  {
+    "station_id": "kyoto_0048",
+    "station_name": "下山",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.21226,
+    "lon": 135.422673
+  },
+  {
+    "station_id": "kyoto_0063",
+    "station_name": "下狛",
+    "prefecture": "京都府",
+    "line_name": "JR片町線",
+    "lat": 34.780579,
+    "lon": 135.788574
+  },
+  {
+    "station_id": "kyoto_0231",
+    "station_name": "与謝野",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮豊線",
+    "lat": 35.543516,
+    "lon": 135.126469
+  },
+  {
+    "station_id": "kyoto_0039",
+    "station_name": "並河",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.032479,
+    "lon": 135.554959
+  },
+  {
+    "station_id": "kyoto_0133",
+    "station_name": "中書島",
+    "prefecture": "京都府",
+    "line_name": "京阪宇治線",
+    "lat": 34.926875,
+    "lon": 135.760174
+  },
+  {
+    "station_id": "kyoto_0123",
+    "station_name": "丸太町(京都市営)",
+    "prefecture": "京都府",
+    "line_name": "京都市烏丸線",
+    "lat": 35.016554,
+    "lon": 135.759537
+  },
+  {
+    "station_id": "kyoto_0226",
+    "station_name": "丹後由良",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮舞線",
+    "lat": 35.515736,
+    "lon": 135.279582
+  },
+  {
+    "station_id": "kyoto_0225",
+    "station_name": "丹後神崎",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮舞線",
+    "lat": 35.506463,
+    "lon": 135.293628
+  },
+  {
+    "station_id": "kyoto_0030",
+    "station_name": "丹波口",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 34.99501,
+    "lon": 135.742396
+  },
+  {
+    "station_id": "kyoto_0145",
+    "station_name": "丹波橋",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 34.938879,
+    "lon": 135.765457
+  },
+  {
+    "station_id": "kyoto_0194",
+    "station_name": "久津川",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.864943,
+    "lon": 135.774847
+  },
+  {
+    "station_id": "kyoto_0238",
+    "station_name": "久美浜",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮豊線",
+    "lat": 35.60235,
+    "lon": 134.894997
+  },
+  {
+    "station_id": "kyoto_0127",
+    "station_name": "九条(京都)",
+    "prefecture": "京都府",
+    "line_name": "京都市烏丸線",
+    "lat": 34.979062,
+    "lon": 135.759664
+  },
+  {
+    "station_id": "kyoto_0038",
+    "station_name": "亀岡",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.016738,
+    "lon": 135.582766
+  },
+  {
+    "station_id": "kyoto_0174",
+    "station_name": "二ノ瀬",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄鞍馬線",
+    "lat": 35.097657,
+    "lon": 135.763065
+  },
+  {
+    "station_id": "kyoto_0247",
+    "station_name": "二俣",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮福線",
+    "lat": 35.413495,
+    "lon": 135.154524
+  },
+  {
+    "station_id": "kyoto_0031",
+    "station_name": "二条",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.010978,
+    "lon": 135.741701
+  },
+  {
+    "station_id": "kyoto_0103",
+    "station_name": "二条城前",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 35.011892,
+    "lon": 135.750473
+  },
+  {
+    "station_id": "kyoto_0172",
+    "station_name": "二軒茶屋(京都)",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄鞍馬線",
+    "lat": 35.077743,
+    "lon": 135.765876
+  },
+  {
+    "station_id": "kyoto_0125",
+    "station_name": "五条(京都市営)",
+    "prefecture": "京都府",
+    "line_name": "京都市烏丸線",
+    "lat": 34.995252,
+    "lon": 135.759687
+  },
+  {
+    "station_id": "kyoto_0232",
+    "station_name": "京丹後大宮",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮豊線",
+    "lat": 35.579324,
+    "lon": 135.093977
+  },
+  {
+    "station_id": "kyoto_0066",
+    "station_name": "京田辺",
+    "prefecture": "京都府",
+    "line_name": "JR片町線",
+    "lat": 34.821114,
+    "lon": 135.768664
+  },
+  {
+    "station_id": "kyoto_0001",
+    "station_name": "京都",
+    "prefecture": "京都府",
+    "line_name": "JR京都線",
+    "lat": 34.985465,
+    "lon": 135.757748
+  },
+  {
+    "station_id": "kyoto_0105",
+    "station_name": "京都市役所前",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 35.011003,
+    "lon": 135.768829
+  },
+  {
+    "station_id": "kyoto_0216",
+    "station_name": "京都河原町",
+    "prefecture": "京都府",
+    "line_name": "阪急京都本線",
+    "lat": 35.003765,
+    "lon": 135.769463
+  },
+  {
+    "station_id": "kyoto_0171",
+    "station_name": "京都精華大前",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄鞍馬線",
+    "lat": 35.073069,
+    "lon": 135.768909
+  },
+  {
+    "station_id": "kyoto_0131",
+    "station_name": "京阪山科",
+    "prefecture": "京都府",
+    "line_name": "京阪京津線",
+    "lat": 34.992039,
+    "lon": 135.816835
+  },
+  {
+    "station_id": "kyoto_0122",
+    "station_name": "今出川",
+    "prefecture": "京都府",
+    "line_name": "京都市烏丸線",
+    "lat": 35.030168,
+    "lon": 135.759385
+  },
+  {
+    "station_id": "kyoto_0192",
+    "station_name": "伊勢田",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.882208,
+    "lon": 135.77899
+  },
+  {
+    "station_id": "kyoto_0187",
+    "station_name": "伏見(京都)",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.946054,
+    "lon": 135.761479
+  },
+  {
+    "station_id": "kyoto_0144",
+    "station_name": "伏見桃山",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 34.932599,
+    "lon": 135.764368
+  },
+  {
+    "station_id": "kyoto_0149",
+    "station_name": "伏見稲荷",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 34.968966,
+    "lon": 135.769279
+  },
+  {
+    "station_id": "kyoto_0036",
+    "station_name": "保津峡",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.023083,
+    "lon": 135.64025
+  },
+  {
+    "station_id": "kyoto_0164",
+    "station_name": "修学院",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄本線",
+    "lat": 35.050119,
+    "lon": 135.790297
+  },
+  {
+    "station_id": "kyoto_0178",
+    "station_name": "傘松",
+    "prefecture": "京都府",
+    "line_name": "天橋立鋼索鉄道",
+    "lat": 35.586558,
+    "lon": 135.195866
+  },
+  {
+    "station_id": "kyoto_0161",
+    "station_name": "元田中",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄本線",
+    "lat": 35.034968,
+    "lon": 135.781411
+  },
+  {
+    "station_id": "kyoto_0168",
+    "station_name": "八幡前(京都)",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄鞍馬線",
+    "lat": 35.066358,
+    "lon": 135.79241
+  },
+  {
+    "station_id": "kyoto_0041",
+    "station_name": "八木",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.068995,
+    "lon": 135.531969
+  },
+  {
+    "station_id": "kyoto_0167",
+    "station_name": "八瀬比叡山口",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄本線",
+    "lat": 35.065225,
+    "lon": 135.8085
+  },
+  {
+    "station_id": "kyoto_0244",
+    "station_name": "公庄",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮福線",
+    "lat": 35.371855,
+    "lon": 135.12912
+  },
+  {
+    "station_id": "kyoto_0022",
+    "station_name": "六地蔵(京都市営)",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.932843,
+    "lon": 135.797335
+  },
+  {
+    "station_id": "kyoto_0032",
+    "station_name": "円町",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.01811,
+    "lon": 135.730591
+  },
+  {
+    "station_id": "kyoto_0157",
+    "station_name": "出町柳",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 35.029613,
+    "lon": 135.77244
+  },
+  {
+    "station_id": "kyoto_0008",
+    "station_name": "加茂(京都)",
+    "prefecture": "京都府",
+    "line_name": "JR大和路線",
+    "lat": 34.752575,
+    "lon": 135.869609
+  },
+  {
+    "station_id": "kyoto_0120",
+    "station_name": "北大路",
+    "prefecture": "京都府",
+    "line_name": "京都市烏丸線",
+    "lat": 35.044972,
+    "lon": 135.75866
+  },
+  {
+    "station_id": "kyoto_0119",
+    "station_name": "北山(京都)",
+    "prefecture": "京都府",
+    "line_name": "京都市烏丸線",
+    "lat": 35.051277,
+    "lon": 135.766329
+  },
+  {
+    "station_id": "kyoto_0076",
+    "station_name": "北野白梅町",
+    "prefecture": "京都府",
+    "line_name": "京福北野線",
+    "lat": 35.027409,
+    "lon": 135.730846
+  },
+  {
+    "station_id": "kyoto_0128",
+    "station_name": "十条(京都市営)",
+    "prefecture": "京都府",
+    "line_name": "京都市烏丸線",
+    "lat": 34.972168,
+    "lon": 135.759623
+  },
+  {
+    "station_id": "kyoto_0040",
+    "station_name": "千代川",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.048597,
+    "lon": 135.548293
+  },
+  {
+    "station_id": "kyoto_0042",
+    "station_name": "吉富",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.092012,
+    "lon": 135.498585
+  },
+  {
+    "station_id": "kyoto_0065",
+    "station_name": "同志社前",
+    "prefecture": "京都府",
+    "line_name": "JR片町線",
+    "lat": 34.805124,
+    "lon": 135.778633
+  },
+  {
+    "station_id": "kyoto_0190",
+    "station_name": "向島",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.914924,
+    "lon": 135.769681
+  },
+  {
+    "station_id": "kyoto_0004",
+    "station_name": "向日町",
+    "prefecture": "京都府",
+    "line_name": "JR京都線",
+    "lat": 34.954838,
+    "lon": 135.709804
+  },
+  {
+    "station_id": "kyoto_0049",
+    "station_name": "和知",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.261101,
+    "lon": 135.399015
+  },
+  {
+    "station_id": "kyoto_0250",
+    "station_name": "喜多",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮福線",
+    "lat": 35.509318,
+    "lon": 135.187498
+  },
+  {
+    "station_id": "kyoto_0132",
+    "station_name": "四宮",
+    "prefecture": "京都府",
+    "line_name": "京阪京津線",
+    "lat": 34.991903,
+    "lon": 135.823996
+  },
+  {
+    "station_id": "kyoto_0223",
+    "station_name": "四所",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮舞線",
+    "lat": 35.446154,
+    "lon": 135.290471
+  },
+  {
+    "station_id": "kyoto_0124",
+    "station_name": "四条(京都市営)",
+    "prefecture": "京都府",
+    "line_name": "京都市烏丸線",
+    "lat": 35.002353,
+    "lon": 135.759623
+  },
+  {
+    "station_id": "kyoto_0086",
+    "station_name": "四条大宮",
+    "prefecture": "京都府",
+    "line_name": "京福嵐山線",
+    "lat": 35.00319,
+    "lon": 135.748395
+  },
+  {
+    "station_id": "kyoto_0117",
+    "station_name": "国際会館",
+    "prefecture": "京都府",
+    "line_name": "京都市烏丸線",
+    "lat": 35.062942,
+    "lon": 135.785216
+  },
+  {
+    "station_id": "kyoto_0043",
+    "station_name": "園部",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.102168,
+    "lon": 135.48347
+  },
+  {
+    "station_id": "kyoto_0016",
+    "station_name": "城陽",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.855536,
+    "lon": 135.781071
+  },
+  {
+    "station_id": "kyoto_0146",
+    "station_name": "墨染",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 34.948206,
+    "lon": 135.769126
+  },
+  {
+    "station_id": "kyoto_0235",
+    "station_name": "夕日ヶ浦木津温泉",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮豊線",
+    "lat": 35.650061,
+    "lon": 134.972332
+  },
+  {
+    "station_id": "kyoto_0221",
+    "station_name": "多宝塔",
+    "prefecture": "京都府",
+    "line_name": "鞍馬山鋼索鉄道線",
+    "lat": 35.116385,
+    "lon": 135.772766
+  },
+  {
+    "station_id": "kyoto_0193",
+    "station_name": "大久保(京都)",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.874351,
+    "lon": 135.777024
+  },
+  {
+    "station_id": "kyoto_0067",
+    "station_name": "大住",
+    "prefecture": "京都府",
+    "line_name": "JR片町線",
+    "lat": 34.830785,
+    "lon": 135.749874
+  },
+  {
+    "station_id": "kyoto_0214",
+    "station_name": "大宮(京都)",
+    "prefecture": "京都府",
+    "line_name": "阪急京都本線",
+    "lat": 35.003587,
+    "lon": 135.748756
+  },
+  {
+    "station_id": "kyoto_0205",
+    "station_name": "大山崎",
+    "prefecture": "京都府",
+    "line_name": "阪急京都本線",
+    "lat": 34.891485,
+    "lon": 135.681637
+  },
+  {
+    "station_id": "kyoto_0245",
+    "station_name": "大江",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮福線",
+    "lat": 35.388798,
+    "lon": 135.147856
+  },
+  {
+    "station_id": "kyoto_0248",
+    "station_name": "大江山口内宮",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮福線",
+    "lat": 35.432023,
+    "lon": 135.158251
+  },
+  {
+    "station_id": "kyoto_0246",
+    "station_name": "大江高校前",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮福線",
+    "lat": 35.395675,
+    "lon": 135.152486
+  },
+  {
+    "station_id": "kyoto_0074",
+    "station_name": "大河原",
+    "prefecture": "京都府",
+    "line_name": "JR関西本線",
+    "lat": 34.77175,
+    "lon": 135.987635
+  },
+  {
+    "station_id": "kyoto_0229",
+    "station_name": "天橋立",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮豊線",
+    "lat": 35.557729,
+    "lon": 135.182456
+  },
+  {
+    "station_id": "kyoto_0034",
+    "station_name": "太秦(ＪＲ)",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.017019,
+    "lon": 135.701269
+  },
+  {
+    "station_id": "kyoto_0100",
+    "station_name": "太秦天神川",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 35.010816,
+    "lon": 135.716085
+  },
+  {
+    "station_id": "kyoto_0092",
+    "station_name": "太秦広隆寺",
+    "prefecture": "京都府",
+    "line_name": "京福嵐山線",
+    "lat": 35.013513,
+    "lon": 135.708232
+  },
+  {
+    "station_id": "kyoto_0079",
+    "station_name": "妙心寺",
+    "prefecture": "京都府",
+    "line_name": "京福北野線",
+    "lat": 35.026345,
+    "lon": 135.718011
+  },
+  {
+    "station_id": "kyoto_0081",
+    "station_name": "宇多野",
+    "prefecture": "京都府",
+    "line_name": "京福北野線",
+    "lat": 35.027145,
+    "lon": 135.709731
+  },
+  {
+    "station_id": "kyoto_0019",
+    "station_name": "宇治(京阪)",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.890437,
+    "lon": 135.800629
+  },
+  {
+    "station_id": "kyoto_0050",
+    "station_name": "安栖里",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.266155,
+    "lon": 135.385266
+  },
+  {
+    "station_id": "kyoto_0165",
+    "station_name": "宝ケ池",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄本線",
+    "lat": 35.058054,
+    "lon": 135.792366
+  },
+  {
+    "station_id": "kyoto_0251",
+    "station_name": "宮村",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮福線",
+    "lat": 35.523336,
+    "lon": 135.192134
+  },
+  {
+    "station_id": "kyoto_0228",
+    "station_name": "宮津",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮舞線",
+    "lat": 35.53441,
+    "lon": 135.199875
+  },
+  {
+    "station_id": "kyoto_0196",
+    "station_name": "富野荘",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.840201,
+    "lon": 135.772922
+  },
+  {
+    "station_id": "kyoto_0195",
+    "station_name": "寺田(京都)",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.853275,
+    "lon": 135.772011
+  },
+  {
+    "station_id": "kyoto_0191",
+    "station_name": "小倉(京都)",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.89304,
+    "lon": 135.781914
+  },
+  {
+    "station_id": "kyoto_0236",
+    "station_name": "小天橋",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮豊線",
+    "lat": 35.630067,
+    "lon": 134.928425
+  },
+  {
+    "station_id": "kyoto_0113",
+    "station_name": "小野(京都)",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 34.961218,
+    "lon": 135.812733
+  },
+  {
+    "station_id": "kyoto_0089",
+    "station_name": "山ノ内(京都)",
+    "prefecture": "京都府",
+    "line_name": "京福嵐山線",
+    "lat": 35.008336,
+    "lon": 135.72317
+  },
+  {
+    "station_id": "kyoto_0013",
+    "station_name": "山城多賀",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.818009,
+    "lon": 135.806
+  },
+  {
+    "station_id": "kyoto_0014",
+    "station_name": "山城青谷",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.828127,
+    "lon": 135.800111
+  },
+  {
+    "station_id": "kyoto_0052",
+    "station_name": "山家",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.29379,
+    "lon": 135.318618
+  },
+  {
+    "station_id": "kyoto_0006",
+    "station_name": "山崎(京都)",
+    "prefecture": "京都府",
+    "line_name": "JR京都線",
+    "lat": 34.892257,
+    "lon": 135.679124
+  },
+  {
+    "station_id": "kyoto_0204",
+    "station_name": "山田川",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.737678,
+    "lon": 135.793794
+  },
+  {
+    "station_id": "kyoto_0060",
+    "station_name": "山科",
+    "prefecture": "京都府",
+    "line_name": "JR湖西線",
+    "lat": 34.992636,
+    "lon": 135.816647
+  },
+  {
+    "station_id": "kyoto_0220",
+    "station_name": "山門",
+    "prefecture": "京都府",
+    "line_name": "鞍馬山鋼索鉄道線",
+    "lat": 35.114768,
+    "lon": 135.772772
+  },
+  {
+    "station_id": "kyoto_0169",
+    "station_name": "岩倉(京都)",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄鞍馬線",
+    "lat": 35.071208,
+    "lon": 135.786616
+  },
+  {
+    "station_id": "kyoto_0230",
+    "station_name": "岩滝口",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮豊線",
+    "lat": 35.55038,
+    "lon": 135.151297
+  },
+  {
+    "station_id": "kyoto_0233",
+    "station_name": "峰山",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮豊線",
+    "lat": 35.625928,
+    "lon": 135.07214
+  },
+  {
+    "station_id": "kyoto_0007",
+    "station_name": "島本",
+    "prefecture": "京都府",
+    "line_name": "JR京都線",
+    "lat": 34.881337,
+    "lon": 135.663385
+  },
+  {
+    "station_id": "kyoto_0097",
+    "station_name": "嵐山(京福)",
+    "prefecture": "京都府",
+    "line_name": "京福嵐山線",
+    "lat": 35.015271,
+    "lon": 135.677698
+  },
+  {
+    "station_id": "kyoto_0090",
+    "station_name": "嵐電天神川",
+    "prefecture": "京都府",
+    "line_name": "京福嵐山線",
+    "lat": 35.010192,
+    "lon": 135.715227
+  },
+  {
+    "station_id": "kyoto_0096",
+    "station_name": "嵐電嵯峨",
+    "prefecture": "京都府",
+    "line_name": "京福嵐山線",
+    "lat": 35.016426,
+    "lon": 135.681425
+  },
+  {
+    "station_id": "kyoto_0035",
+    "station_name": "嵯峨嵐山",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.018698,
+    "lon": 135.68127
+  },
+  {
+    "station_id": "kyoto_0173",
+    "station_name": "市原",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄鞍馬線",
+    "lat": 35.088236,
+    "lon": 135.763118
+  },
+  {
+    "station_id": "kyoto_0085",
+    "station_name": "帷子ノ辻",
+    "prefecture": "京都府",
+    "line_name": "京福北野線",
+    "lat": 35.015146,
+    "lon": 135.700257
+  },
+  {
+    "station_id": "kyoto_0083",
+    "station_name": "常盤(京都)",
+    "prefecture": "京都府",
+    "line_name": "京福北野線",
+    "lat": 35.020296,
+    "lon": 135.704807
+  },
+  {
+    "station_id": "kyoto_0177",
+    "station_name": "府中",
+    "prefecture": "京都府",
+    "line_name": "天橋立鋼索鉄道",
+    "lat": 35.583263,
+    "lon": 135.195302
+  },
+  {
+    "station_id": "kyoto_0080",
+    "station_name": "御室仁和寺",
+    "prefecture": "京都府",
+    "line_name": "京福北野線",
+    "lat": 35.02639,
+    "lon": 135.714106
+  },
+  {
+    "station_id": "kyoto_0109",
+    "station_name": "御陵",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 34.996158,
+    "lon": 135.801637
+  },
+  {
+    "station_id": "kyoto_0084",
+    "station_name": "撮影所前",
+    "prefecture": "京都府",
+    "line_name": "京福北野線",
+    "lat": 35.01575,
+    "lon": 135.702778
+  },
+  {
+    "station_id": "kyoto_0017",
+    "station_name": "新田(京都)",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.874314,
+    "lon": 135.780707
+  },
+  {
+    "station_id": "kyoto_0197",
+    "station_name": "新田辺",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.820492,
+    "lon": 135.772805
+  },
+  {
+    "station_id": "kyoto_0202",
+    "station_name": "新祝園",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.759953,
+    "lon": 135.792657
+  },
+  {
+    "station_id": "kyoto_0045",
+    "station_name": "日吉",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.162151,
+    "lon": 135.503432
+  },
+  {
+    "station_id": "kyoto_0073",
+    "station_name": "月ヶ瀬口",
+    "prefecture": "京都府",
+    "line_name": "JR関西本線",
+    "lat": 34.762813,
+    "lon": 136.023703
+  },
+  {
+    "station_id": "kyoto_0093",
+    "station_name": "有栖川",
+    "prefecture": "京都府",
+    "line_name": "京福嵐山線",
+    "lat": 35.015249,
+    "lon": 135.694216
+  },
+  {
+    "station_id": "kyoto_0021",
+    "station_name": "木幡(京阪)",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.924962,
+    "lon": 135.798901
+  },
+  {
+    "station_id": "kyoto_0009",
+    "station_name": "木津(京都)",
+    "prefecture": "京都府",
+    "line_name": "JR大和路線",
+    "lat": 34.735962,
+    "lon": 135.824794
+  },
+  {
+    "station_id": "kyoto_0203",
+    "station_name": "木津川台",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.746641,
+    "lon": 135.795996
+  },
+  {
+    "station_id": "kyoto_0170",
+    "station_name": "木野",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄鞍馬線",
+    "lat": 35.071108,
+    "lon": 135.776525
+  },
+  {
+    "station_id": "kyoto_0209",
+    "station_name": "東向日",
+    "prefecture": "京都府",
+    "line_name": "阪急京都本線",
+    "lat": 34.953885,
+    "lon": 135.704646
+  },
+  {
+    "station_id": "kyoto_0184",
+    "station_name": "東寺",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.979967,
+    "lon": 135.752553
+  },
+  {
+    "station_id": "kyoto_0107",
+    "station_name": "東山(京都)",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 35.009425,
+    "lon": 135.780448
+  },
+  {
+    "station_id": "kyoto_0026",
+    "station_name": "東福寺",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.981371,
+    "lon": 135.769778
+  },
+  {
+    "station_id": "kyoto_0028",
+    "station_name": "東舞鶴",
+    "prefecture": "京都府",
+    "line_name": "JR小浜線",
+    "lat": 35.468601,
+    "lon": 135.394788
+  },
+  {
+    "station_id": "kyoto_0111",
+    "station_name": "東野(京都)",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 34.981841,
+    "lon": 135.816602
+  },
+  {
+    "station_id": "kyoto_0224",
+    "station_name": "東雲",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮舞線",
+    "lat": 35.475018,
+    "lon": 135.284927
+  },
+  {
+    "station_id": "kyoto_0118",
+    "station_name": "松ケ崎(三重)",
+    "prefecture": "京都府",
+    "line_name": "京都市烏丸線",
+    "lat": 35.051657,
+    "lon": 135.777114
+  },
+  {
+    "station_id": "kyoto_0068",
+    "station_name": "松井山手",
+    "prefecture": "京都府",
+    "line_name": "JR片町線",
+    "lat": 34.833288,
+    "lon": 135.727617
+  },
+  {
+    "station_id": "kyoto_0218",
+    "station_name": "松尾大社",
+    "prefecture": "京都府",
+    "line_name": "阪急嵐山線",
+    "lat": 35.000331,
+    "lon": 135.688214
+  },
+  {
+    "station_id": "kyoto_0027",
+    "station_name": "松尾寺",
+    "prefecture": "京都府",
+    "line_name": "JR小浜線",
+    "lat": 35.486018,
+    "lon": 135.450133
+  },
+  {
+    "station_id": "kyoto_0227",
+    "station_name": "栗田",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮舞線",
+    "lat": 35.543757,
+    "lon": 135.235291
+  },
+  {
+    "station_id": "kyoto_0211",
+    "station_name": "桂",
+    "prefecture": "京都府",
+    "line_name": "阪急京都本線",
+    "lat": 34.979522,
+    "lon": 135.703302
+  },
+  {
+    "station_id": "kyoto_0003",
+    "station_name": "桂川(京都)",
+    "prefecture": "京都府",
+    "line_name": "JR京都線",
+    "lat": 34.964814,
+    "lon": 135.710391
+  },
+  {
+    "station_id": "kyoto_0023",
+    "station_name": "桃山",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.932647,
+    "lon": 135.771673
+  },
+  {
+    "station_id": "kyoto_0135",
+    "station_name": "桃山南口",
+    "prefecture": "京都府",
+    "line_name": "京阪宇治線",
+    "lat": 34.931056,
+    "lon": 135.783683
+  },
+  {
+    "station_id": "kyoto_0189",
+    "station_name": "桃山御陵前",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.933349,
+    "lon": 135.765537
+  },
+  {
+    "station_id": "kyoto_0029",
+    "station_name": "梅小路京都西",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 34.988877,
+    "lon": 135.743157
+  },
+  {
+    "station_id": "kyoto_0070",
+    "station_name": "梅迫",
+    "prefecture": "京都府",
+    "line_name": "JR舞鶴線",
+    "lat": 35.348774,
+    "lon": 135.311059
+  },
+  {
+    "station_id": "kyoto_0011",
+    "station_name": "棚倉",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.774705,
+    "lon": 135.816141
+  },
+  {
+    "station_id": "kyoto_0112",
+    "station_name": "椥辻",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 34.972675,
+    "lon": 135.814658
+  },
+  {
+    "station_id": "kyoto_0141",
+    "station_name": "橋本(京都)",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 34.882042,
+    "lon": 135.684251
+  },
+  {
+    "station_id": "kyoto_0210",
+    "station_name": "洛西口",
+    "prefecture": "京都府",
+    "line_name": "阪急京都本線",
+    "lat": 34.964081,
+    "lon": 135.703096
+  },
+  {
+    "station_id": "kyoto_0143",
+    "station_name": "淀",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 34.904416,
+    "lon": 135.718435
+  },
+  {
+    "station_id": "kyoto_0069",
+    "station_name": "淵垣",
+    "prefecture": "京都府",
+    "line_name": "JR舞鶴線",
+    "lat": 35.328302,
+    "lon": 135.29457
+  },
+  {
+    "station_id": "kyoto_0153",
+    "station_name": "清水五条",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 34.995691,
+    "lon": 135.768378
+  },
+  {
+    "station_id": "kyoto_0215",
+    "station_name": "烏丸",
+    "prefecture": "京都府",
+    "line_name": "阪急京都本線",
+    "lat": 35.003665,
+    "lon": 135.759108
+  },
+  {
+    "station_id": "kyoto_0104",
+    "station_name": "烏丸御池",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 35.010517,
+    "lon": 135.759638
+  },
+  {
+    "station_id": "kyoto_0242",
+    "station_name": "牧",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮福線",
+    "lat": 35.337892,
+    "lon": 135.101751
+  },
+  {
+    "station_id": "kyoto_0201",
+    "station_name": "狛田",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.78047,
+    "lon": 135.789568
+  },
+  {
+    "station_id": "kyoto_0012",
+    "station_name": "玉水",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.800108,
+    "lon": 135.807022
+  },
+  {
+    "station_id": "kyoto_0071",
+    "station_name": "真倉",
+    "prefecture": "京都府",
+    "line_name": "JR舞鶴線",
+    "lat": 35.407146,
+    "lon": 135.326126
+  },
+  {
+    "station_id": "kyoto_0055",
+    "station_name": "石原",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.300904,
+    "lon": 135.180241
+  },
+  {
+    "station_id": "kyoto_0142",
+    "station_name": "石清水八幡宮",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 34.884651,
+    "lon": 135.69996
+  },
+  {
+    "station_id": "kyoto_0115",
+    "station_name": "石田(京都市営)",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 34.940569,
+    "lon": 135.803995
+  },
+  {
+    "station_id": "kyoto_0154",
+    "station_name": "祇園四条",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 35.003689,
+    "lon": 135.771961
+  },
+  {
+    "station_id": "kyoto_0062",
+    "station_name": "祝園",
+    "prefecture": "京都府",
+    "line_name": "JR片町線",
+    "lat": 34.76017,
+    "lon": 135.792107
+  },
+  {
+    "station_id": "kyoto_0156",
+    "station_name": "神宮丸太町",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 35.017669,
+    "lon": 135.772161
+  },
+  {
+    "station_id": "kyoto_0056",
+    "station_name": "福知山",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.296143,
+    "lon": 135.118564
+  },
+  {
+    "station_id": "kyoto_0240",
+    "station_name": "福知山市民病院口",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮福線",
+    "lat": 35.306573,
+    "lon": 135.108581
+  },
+  {
+    "station_id": "kyoto_0025",
+    "station_name": "稲荷",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.966758,
+    "lon": 135.770707
+  },
+  {
+    "station_id": "kyoto_0051",
+    "station_name": "立木",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.274256,
+    "lon": 135.337318
+  },
+  {
+    "station_id": "kyoto_0130",
+    "station_name": "竹田(京都)",
+    "prefecture": "京都府",
+    "line_name": "京都市烏丸線",
+    "lat": 34.956825,
+    "lon": 135.756091
+  },
+  {
+    "station_id": "kyoto_0075",
+    "station_name": "笠置",
+    "prefecture": "京都府",
+    "line_name": "JR関西本線",
+    "lat": 34.759086,
+    "lon": 135.934289
+  },
+  {
+    "station_id": "kyoto_0077",
+    "station_name": "等持院・立命館大学衣笠キャンパス前",
+    "prefecture": "京都府",
+    "line_name": "京福北野線",
+    "lat": 35.027828,
+    "lon": 135.723797
+  },
+  {
+    "station_id": "kyoto_0234",
+    "station_name": "網野",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮豊線",
+    "lat": 35.667342,
+    "lon": 135.025599
+  },
+  {
+    "station_id": "kyoto_0053",
+    "station_name": "綾部",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.302188,
+    "lon": 135.251896
+  },
+  {
+    "station_id": "kyoto_0047",
+    "station_name": "胡麻",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.195359,
+    "lon": 135.468467
+  },
+  {
+    "station_id": "kyoto_0198",
+    "station_name": "興戸",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.808293,
+    "lon": 135.778638
+  },
+  {
+    "station_id": "kyoto_0044",
+    "station_name": "船岡",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.133463,
+    "lon": 135.491848
+  },
+  {
+    "station_id": "kyoto_0033",
+    "station_name": "花園(京都)",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.018743,
+    "lon": 135.717896
+  },
+  {
+    "station_id": "kyoto_0162",
+    "station_name": "茶山・京都芸術大学",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄本線",
+    "lat": 35.038248,
+    "lon": 135.784508
+  },
+  {
+    "station_id": "kyoto_0241",
+    "station_name": "荒河かしの木台",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮福線",
+    "lat": 35.319394,
+    "lon": 135.105779
+  },
+  {
+    "station_id": "kyoto_0147",
+    "station_name": "藤森",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 34.956782,
+    "lon": 135.770191
+  },
+  {
+    "station_id": "kyoto_0091",
+    "station_name": "蚕ノ社",
+    "prefecture": "京都府",
+    "line_name": "京福嵐山線",
+    "lat": 35.011894,
+    "lon": 135.712987
+  },
+  {
+    "station_id": "kyoto_0212",
+    "station_name": "西京極",
+    "prefecture": "京都府",
+    "line_name": "阪急京都本線",
+    "lat": 34.992459,
+    "lon": 135.718462
+  },
+  {
+    "station_id": "kyoto_0208",
+    "station_name": "西向日",
+    "prefecture": "京都府",
+    "line_name": "阪急京都本線",
+    "lat": 34.939892,
+    "lon": 135.702657
+  },
+  {
+    "station_id": "kyoto_0002",
+    "station_name": "西大路",
+    "prefecture": "京都府",
+    "line_name": "JR京都線",
+    "lat": 34.981077,
+    "lon": 135.731702
+  },
+  {
+    "station_id": "kyoto_0088",
+    "station_name": "西大路三条",
+    "prefecture": "京都府",
+    "line_name": "京福嵐山線",
+    "lat": 35.007855,
+    "lon": 135.732438
+  },
+  {
+    "station_id": "kyoto_0101",
+    "station_name": "西大路御池",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 35.010983,
+    "lon": 135.731181
+  },
+  {
+    "station_id": "kyoto_0206",
+    "station_name": "西山天王山",
+    "prefecture": "京都府",
+    "line_name": "阪急京都本線",
+    "lat": 34.913333,
+    "lon": 135.688611
+  },
+  {
+    "station_id": "kyoto_0061",
+    "station_name": "西木津",
+    "prefecture": "京都府",
+    "line_name": "JR片町線",
+    "lat": 34.737762,
+    "lon": 135.803507
+  },
+  {
+    "station_id": "kyoto_0072",
+    "station_name": "西舞鶴",
+    "prefecture": "京都府",
+    "line_name": "JR舞鶴線",
+    "lat": 35.441784,
+    "lon": 135.330545
+  },
+  {
+    "station_id": "kyoto_0087",
+    "station_name": "西院(京福)",
+    "prefecture": "京都府",
+    "line_name": "京福嵐山線",
+    "lat": 35.003434,
+    "lon": 135.733842
+  },
+  {
+    "station_id": "kyoto_0134",
+    "station_name": "観月橋",
+    "prefecture": "京都府",
+    "line_name": "京阪宇治線",
+    "lat": 34.928103,
+    "lon": 135.768642
+  },
+  {
+    "station_id": "kyoto_0175",
+    "station_name": "貴船口",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄鞍馬線",
+    "lat": 35.105923,
+    "lon": 135.763804
+  },
+  {
+    "station_id": "kyoto_0108",
+    "station_name": "蹴上",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 35.008037,
+    "lon": 135.790227
+  },
+  {
+    "station_id": "kyoto_0094",
+    "station_name": "車折神社",
+    "prefecture": "京都府",
+    "line_name": "京福嵐山線",
+    "lat": 35.016763,
+    "lon": 135.688986
+  },
+  {
+    "station_id": "kyoto_0249",
+    "station_name": "辛皮",
+    "prefecture": "京都府",
+    "line_name": "京都丹後鉄道宮福線",
+    "lat": 35.462612,
+    "lon": 135.173161
+  },
+  {
+    "station_id": "kyoto_0188",
+    "station_name": "近鉄丹波橋",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.938299,
+    "lon": 135.766262
+  },
+  {
+    "station_id": "kyoto_0200",
+    "station_name": "近鉄宮津",
+    "prefecture": "京都府",
+    "line_name": "近鉄京都線",
+    "lat": 34.791453,
+    "lon": 135.787391
+  },
+  {
+    "station_id": "kyoto_0114",
+    "station_name": "醍醐(京都)",
+    "prefecture": "京都府",
+    "line_name": "京都市東西線",
+    "lat": 34.950732,
+    "lon": 135.810769
+  },
+  {
+    "station_id": "kyoto_0046",
+    "station_name": "鍼灸大学前",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.179141,
+    "lon": 135.489899
+  },
+  {
+    "station_id": "kyoto_0005",
+    "station_name": "長岡京",
+    "prefecture": "京都府",
+    "line_name": "JR京都線",
+    "lat": 34.923483,
+    "lon": 135.700882
+  },
+  {
+    "station_id": "kyoto_0207",
+    "station_name": "長岡天神",
+    "prefecture": "京都府",
+    "line_name": "阪急京都本線",
+    "lat": 34.924791,
+    "lon": 135.69233
+  },
+  {
+    "station_id": "kyoto_0015",
+    "station_name": "長池",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.842351,
+    "lon": 135.789801
+  },
+  {
+    "station_id": "kyoto_0176",
+    "station_name": "鞍馬",
+    "prefecture": "京都府",
+    "line_name": "叡山電鉄鞍馬線",
+    "lat": 35.113,
+    "lon": 135.772453
+  },
+  {
+    "station_id": "kyoto_0121",
+    "station_name": "鞍馬口",
+    "prefecture": "京都府",
+    "line_name": "京都市烏丸線",
+    "lat": 35.03739,
+    "lon": 135.759385
+  },
+  {
+    "station_id": "kyoto_0037",
+    "station_name": "馬堀",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.010664,
+    "lon": 135.602359
+  },
+  {
+    "station_id": "kyoto_0054",
+    "station_name": "高津",
+    "prefecture": "京都府",
+    "line_name": "JR山陰本線",
+    "lat": 35.304982,
+    "lon": 135.207158
+  },
+  {
+    "station_id": "kyoto_0150",
+    "station_name": "鳥羽街道",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 34.973632,
+    "lon": 135.770004
+  },
+  {
+    "station_id": "kyoto_0082",
+    "station_name": "鳴滝",
+    "prefecture": "京都府",
+    "line_name": "京福北野線",
+    "lat": 35.023626,
+    "lon": 135.705793
+  },
+  {
+    "station_id": "kyoto_0095",
+    "station_name": "鹿王院",
+    "prefecture": "京都府",
+    "line_name": "京福嵐山線",
+    "lat": 35.01704,
+    "lon": 135.685236
+  },
+  {
+    "station_id": "kyoto_0020",
+    "station_name": "黄檗(京阪)",
+    "prefecture": "京都府",
+    "line_name": "JR奈良線",
+    "lat": 34.912831,
+    "lon": 135.803665
+  },
+  {
+    "station_id": "kyoto_0078",
+    "station_name": "龍安寺",
+    "prefecture": "京都府",
+    "line_name": "京福北野線",
+    "lat": 35.027862,
+    "lon": 135.721264
+  },
+  {
+    "station_id": "kyoto_0148",
+    "station_name": "龍谷大前深草",
+    "prefecture": "京都府",
+    "line_name": "京阪本線",
+    "lat": 34.964247,
+    "lon": 135.770154
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "station_id": "okinawa_0011",
+    "station_name": "おもろまち",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.222701,
+    "lon": 127.698391
+  },
+  {
+    "station_id": "okinawa_0019",
+    "station_name": "てだこ浦西",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.241759,
+    "lon": 127.741959
+  },
+  {
+    "station_id": "okinawa_0014",
+    "station_name": "儀保",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.224663,
+    "lon": 127.719039
+  },
+  {
+    "station_id": "okinawa_0012",
+    "station_name": "古島",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.230919,
+    "lon": 127.703079
+  },
+  {
+    "station_id": "okinawa_0005",
+    "station_name": "壺川",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.205927,
+    "lon": 127.678344
+  },
+  {
+    "station_id": "okinawa_0004",
+    "station_name": "奥武山公園",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.200714,
+    "lon": 127.675252
+  },
+  {
+    "station_id": "okinawa_0010",
+    "station_name": "安里",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.216737,
+    "lon": 127.695736
+  },
+  {
+    "station_id": "okinawa_0003",
+    "station_name": "小禄",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.196455,
+    "lon": 127.666853
+  },
+  {
+    "station_id": "okinawa_0013",
+    "station_name": "市立病院前(沖縄)",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.227548,
+    "lon": 127.710003
+  },
+  {
+    "station_id": "okinawa_0006",
+    "station_name": "旭橋",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.21191,
+    "lon": 127.675515
+  },
+  {
+    "station_id": "okinawa_0018",
+    "station_name": "浦添前田",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.243862,
+    "lon": 127.732298
+  },
+  {
+    "station_id": "okinawa_0009",
+    "station_name": "牧志",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.217248,
+    "lon": 127.69255
+  },
+  {
+    "station_id": "okinawa_0007",
+    "station_name": "県庁前(沖縄)",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.214446,
+    "lon": 127.679343
+  },
+  {
+    "station_id": "okinawa_0016",
+    "station_name": "石嶺",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.227,
+    "lon": 127.729006
+  },
+  {
+    "station_id": "okinawa_0017",
+    "station_name": "経塚",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.236722,
+    "lon": 127.728515
+  },
+  {
+    "station_id": "okinawa_0008",
+    "station_name": "美栄橋",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.219245,
+    "lon": 127.684328
+  },
+  {
+    "station_id": "okinawa_0002",
+    "station_name": "赤嶺",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.193289,
+    "lon": 127.660348
+  },
+  {
+    "station_id": "okinawa_0001",
+    "station_name": "那覇空港",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.206515,
+    "lon": 127.652214
+  },
+  {
+    "station_id": "okinawa_0015",
+    "station_name": "首里",
+    "prefecture": "沖縄県",
+    "line_name": "沖縄ゆいレール",
+    "lat": 26.219191,
+    "lon": 127.725492
+  }
+]

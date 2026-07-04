@@ -3,12 +3,13 @@ SHELL := /usr/bin/env bash
 REGIONS ?= tokyo kanagawa saitama chiba
 REGION ?= tokyo
 YEAR ?= 2025
-YEARS ?= 2020 2021 2022 2023 2024 2025
+YEARS ?= 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
 TRAINING_DIR := training
 FRONTEND_DIR := frontend
 DB_PATH := db/experiments.db
 RAW_INPUT ?= data/raw/mlit_$(REGION)_$(YEAR).zip
-RAW_INPUTS ?= data/raw/mlit_$(REGION)_2020.zip data/raw/mlit_$(REGION)_2021.zip data/raw/mlit_$(REGION)_2022.zip data/raw/mlit_$(REGION)_2023.zip data/raw/mlit_$(REGION)_2024.zip data/raw/mlit_$(REGION)_2025.zip
+RAW_INPUTS ?= data/raw/mlit_$(REGION)_*.zip
+NATIONAL_RAW_INPUTS ?= data/raw/mlit_*.zip
 PROCESSED_OUTPUT ?= data/processed/$(REGION).parquet
 PUBLISH_POLICY ?= best
 CSV_PREFECTURES ?= all
@@ -28,7 +29,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all download-csv download-csv-all csv-checklist preprocess preprocess-zip train train-all stations
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models compare-models compare-national-models stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -48,7 +49,7 @@ help:
 	@echo "  make init-db            実験管理DBを初期化"
 	@echo "  make collect REGION=tokyo YEAR=2025"
 	@echo "                          国交省APIからraw JSONを取得"
-	@echo "  make collect-all        4地域・2020〜2025年をAPIから取得"
+	@echo "  make collect-all        4地域・2005〜2025年をAPIから取得"
 	@echo "  make download-csv CSV_PREFECTURES=tokyo CSV_FROM_YEAR=2025 CSV_TO_YEAR=2025"
 	@echo "                          公式画面から中古マンションCSVを取得"
 	@echo "  make download-csv-all   全国・2005〜2025年のCSVを取得"
@@ -56,12 +57,23 @@ help:
 	@echo "  make preprocess REGION=tokyo YEAR=2025"
 	@echo "                          単一CSV/ZIPファイルを前処理"
 	@echo "  make preprocess-zip REGION=tokyo"
-	@echo "                          2020〜2025年のZIPをまとめて前処理"
+	@echo "                          2005〜2025年のZIPをまとめて前処理"
+	@echo "  make preprocess-capital-all-years"
+	@echo "                          首都圏4都県の2005〜2025年ZIPを個別に前処理"
+	@echo "  make preprocess-national 全国の2005〜2025年ZIPを比較用Parquetへ変換"
 	@echo "  make train REGION=tokyo 指定地域のモデルを再学習"
 	@echo "  make train-all          4地域のモデルを再学習"
 	@echo "  make train-all PUBLISH_POLICY=latest"
 	@echo "                          MAEベスト判定に関係なく最新学習モデルをpublicへ反映"
+	@echo "  make train-regional-models"
+	@echo "                          8地方160木モデルを生成してpublicへ反映"
+	@echo "  make train-production-models"
+	@echo "                          首都圏専用＋8地方モデルを本番用に一括生成"
+	@echo "  make compare-models     首都圏の共通・軽量モデルを現行4モデルと比較"
+	@echo "  make compare-national-models"
+	@echo "                          全国1モデルと8地方モデルを比較"
 	@echo "  make stations           駅マスタJSONを再生成"
+	@echo "  make stations-national  全国47都道府県の駅マスタJSONを再生成"
 	@echo ""
 	@echo "Verify:"
 	@echo "  make verify             Python構文チェックとfrontend buildを実行"
@@ -116,11 +128,36 @@ preprocess:
 preprocess-zip:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/preprocess.py --input $(RAW_INPUTS) --output $(PROCESSED_OUTPUT)
 
+preprocess-capital-all-years:
+	$(MAKE) preprocess-zip REGION=tokyo
+	$(MAKE) preprocess-zip REGION=kanagawa
+	$(MAKE) preprocess-zip REGION=saitama
+	$(MAKE) preprocess-zip REGION=chiba
+
+preprocess-national:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/preprocess.py --input $(NATIONAL_RAW_INPUTS) --output data/processed/national.parquet
+
 train:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/train/train.py --config configs/$(REGION).yaml --db-path $(DB_PATH) --export-onnx --publish-policy $(PUBLISH_POLICY)
 
 train-all:
 	PUBLISH_POLICY=$(PUBLISH_POLICY) $(TRAINING_DIR)/scripts/train_all_models.sh
 
+train-regional-models:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/train/train_regional_models.py --publish
+
+train-production-models: preprocess-capital-all-years preprocess-national
+	PUBLISH_POLICY=latest $(TRAINING_DIR)/scripts/train_all_models.sh
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/train/train_regional_models.py --publish
+
+compare-models:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_models.py
+
+compare-national-models:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_national_models.py
+
 stations:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public --regions $(REGIONS)
+
+stations-national:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public

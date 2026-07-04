@@ -1,0 +1,1482 @@
+[
+  {
+    "station_id": "fukushima_0043",
+    "station_name": "Jヴィレッジ",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.242943,
+    "lon": 141.007625
+  },
+  {
+    "station_id": "fukushima_0144",
+    "station_name": "あまや",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.416736,
+    "lon": 139.917661
+  },
+  {
+    "station_id": "fukushima_0037",
+    "station_name": "いわき",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.058241,
+    "lon": 140.892273
+  },
+  {
+    "station_id": "fukushima_0152",
+    "station_name": "ふるさと公園",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.243051,
+    "lon": 139.858958
+  },
+  {
+    "station_id": "fukushima_0187",
+    "station_name": "やながわ希望の森公園前",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.857867,
+    "lon": 140.615552
+  },
+  {
+    "station_id": "fukushima_0160",
+    "station_name": "七ヶ岳登山口",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.124184,
+    "lon": 139.717388
+  },
+  {
+    "station_id": "fukushima_0002",
+    "station_name": "七日町",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.50121,
+    "lon": 139.918958
+  },
+  {
+    "station_id": "fukushima_0114",
+    "station_name": "三春",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.449841,
+    "lon": 140.479275
+  },
+  {
+    "station_id": "fukushima_0181",
+    "station_name": "上保原",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.809628,
+    "lon": 140.542749
+  },
+  {
+    "station_id": "fukushima_0121",
+    "station_name": "上戸",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.487848,
+    "lon": 140.163538
+  },
+  {
+    "station_id": "fukushima_0167",
+    "station_name": "上松川",
+    "prefecture": "福島県",
+    "line_name": "福島交通飯坂線",
+    "lat": 37.783619,
+    "lon": 140.441011
+  },
+  {
+    "station_id": "fukushima_0140",
+    "station_name": "上野尻",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.625041,
+    "lon": 139.633869
+  },
+  {
+    "station_id": "fukushima_0120",
+    "station_name": "中山宿",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.495648,
+    "lon": 140.219401
+  },
+  {
+    "station_id": "fukushima_0157",
+    "station_name": "中荒井",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.180289,
+    "lon": 139.75096
+  },
+  {
+    "station_id": "fukushima_0090",
+    "station_name": "中豊",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 37.022479,
+    "lon": 140.393253
+  },
+  {
+    "station_id": "fukushima_0040",
+    "station_name": "久ノ浜",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.142465,
+    "lon": 140.995741
+  },
+  {
+    "station_id": "fukushima_0063",
+    "station_name": "久田野",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.137048,
+    "lon": 140.259458
+  },
+  {
+    "station_id": "fukushima_0184",
+    "station_name": "二井田",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.828424,
+    "lon": 140.581151
+  },
+  {
+    "station_id": "fukushima_0074",
+    "station_name": "二本松",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.589598,
+    "lon": 140.435389
+  },
+  {
+    "station_id": "fukushima_0071",
+    "station_name": "五百川",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.482887,
+    "lon": 140.38785
+  },
+  {
+    "station_id": "fukushima_0080",
+    "station_name": "伊達",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.823917,
+    "lon": 140.493255
+  },
+  {
+    "station_id": "fukushima_0151",
+    "station_name": "会津下郷",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.255166,
+    "lon": 139.864937
+  },
+  {
+    "station_id": "fukushima_0020",
+    "station_name": "会津中川",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.473785,
+    "lon": 139.532135
+  },
+  {
+    "station_id": "fukushima_0009",
+    "station_name": "会津坂下",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.556695,
+    "lon": 139.821509
+  },
+  {
+    "station_id": "fukushima_0011",
+    "station_name": "会津坂本",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.553266,
+    "lon": 139.756802
+  },
+  {
+    "station_id": "fukushima_0026",
+    "station_name": "会津塩沢",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.393599,
+    "lon": 139.355096
+  },
+  {
+    "station_id": "fukushima_0025",
+    "station_name": "会津大塩",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.392803,
+    "lon": 139.413044
+  },
+  {
+    "station_id": "fukushima_0017",
+    "station_name": "会津宮下",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.471169,
+    "lon": 139.647102
+  },
+  {
+    "station_id": "fukushima_0159",
+    "station_name": "会津山村道場",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.144787,
+    "lon": 139.732114
+  },
+  {
+    "station_id": "fukushima_0021",
+    "station_name": "会津川口",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.455076,
+    "lon": 139.52384
+  },
+  {
+    "station_id": "fukushima_0004",
+    "station_name": "会津本郷",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.463488,
+    "lon": 139.892987
+  },
+  {
+    "station_id": "fukushima_0012",
+    "station_name": "会津柳津",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.538664,
+    "lon": 139.723817
+  },
+  {
+    "station_id": "fukushima_0015",
+    "station_name": "会津桧原",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.491664,
+    "lon": 139.679382
+  },
+  {
+    "station_id": "fukushima_0024",
+    "station_name": "会津横田",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.392353,
+    "lon": 139.435853
+  },
+  {
+    "station_id": "fukushima_0019",
+    "station_name": "会津水沼",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.483026,
+    "lon": 139.560733
+  },
+  {
+    "station_id": "fukushima_0156",
+    "station_name": "会津田島",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.203261,
+    "lon": 139.774279
+  },
+  {
+    "station_id": "fukushima_0001",
+    "station_name": "会津若松",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.508824,
+    "lon": 139.930159
+  },
+  {
+    "station_id": "fukushima_0158",
+    "station_name": "会津荒海",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.153317,
+    "lon": 139.733683
+  },
+  {
+    "station_id": "fukushima_0027",
+    "station_name": "会津蒲生",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.381775,
+    "lon": 139.333213
+  },
+  {
+    "station_id": "fukushima_0016",
+    "station_name": "会津西方",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.480937,
+    "lon": 139.661528
+  },
+  {
+    "station_id": "fukushima_0134",
+    "station_name": "会津豊川",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.633499,
+    "lon": 139.876787
+  },
+  {
+    "station_id": "fukushima_0023",
+    "station_name": "会津越川",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.398684,
+    "lon": 139.469405
+  },
+  {
+    "station_id": "fukushima_0154",
+    "station_name": "会津長野",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.21525,
+    "lon": 139.823887
+  },
+  {
+    "station_id": "fukushima_0161",
+    "station_name": "会津高原尾瀬口",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.090026,
+    "lon": 139.705153
+  },
+  {
+    "station_id": "fukushima_0005",
+    "station_name": "会津高田",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.470839,
+    "lon": 139.841266
+  },
+  {
+    "station_id": "fukushima_0182",
+    "station_name": "保原",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.81463,
+    "lon": 140.556651
+  },
+  {
+    "station_id": "fukushima_0189",
+    "station_name": "兜",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.895375,
+    "lon": 140.646466
+  },
+  {
+    "station_id": "fukushima_0036",
+    "station_name": "内郷",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.035895,
+    "lon": 140.855005
+  },
+  {
+    "station_id": "fukushima_0032",
+    "station_name": "勿来",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 36.883883,
+    "lon": 140.786506
+  },
+  {
+    "station_id": "fukushima_0171",
+    "station_name": "医王寺前",
+    "prefecture": "福島県",
+    "line_name": "福島交通飯坂線",
+    "lat": 37.816544,
+    "lon": 140.446395
+  },
+  {
+    "station_id": "fukushima_0086",
+    "station_name": "南石井",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 36.894625,
+    "lon": 140.416902
+  },
+  {
+    "station_id": "fukushima_0078",
+    "station_name": "南福島",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.723665,
+    "lon": 140.456074
+  },
+  {
+    "station_id": "fukushima_0142",
+    "station_name": "南若松",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.458876,
+    "lon": 139.914479
+  },
+  {
+    "station_id": "fukushima_0176",
+    "station_name": "卸町(宮城)",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.795472,
+    "lon": 140.479463
+  },
+  {
+    "station_id": "fukushima_0054",
+    "station_name": "原ノ町",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.6379,
+    "lon": 140.971161
+  },
+  {
+    "station_id": "fukushima_0049",
+    "station_name": "双葉",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.453795,
+    "lon": 141.005815
+  },
+  {
+    "station_id": "fukushima_0028",
+    "station_name": "只見",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.350239,
+    "lon": 139.314783
+  },
+  {
+    "station_id": "fukushima_0179",
+    "station_name": "向瀬上",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.806683,
+    "lon": 140.510532
+  },
+  {
+    "station_id": "fukushima_0117",
+    "station_name": "喜久田",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.451746,
+    "lon": 140.341912
+  },
+  {
+    "station_id": "fukushima_0135",
+    "station_name": "喜多方",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.643886,
+    "lon": 139.868365
+  },
+  {
+    "station_id": "fukushima_0039",
+    "station_name": "四ツ倉",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.102338,
+    "lon": 140.980907
+  },
+  {
+    "station_id": "fukushima_0130",
+    "station_name": "堂島",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.554723,
+    "lon": 139.911706
+  },
+  {
+    "station_id": "fukushima_0149",
+    "station_name": "塔のへつり",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.274695,
+    "lon": 139.901636
+  },
+  {
+    "station_id": "fukushima_0010",
+    "station_name": "塔寺",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.569368,
+    "lon": 139.785241
+  },
+  {
+    "station_id": "fukushima_0132",
+    "station_name": "塩川",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.59393,
+    "lon": 139.88716
+  },
+  {
+    "station_id": "fukushima_0106",
+    "station_name": "夏井",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.253108,
+    "lon": 140.662552
+  },
+  {
+    "station_id": "fukushima_0047",
+    "station_name": "夜ノ森",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.365761,
+    "lon": 140.991988
+  },
+  {
+    "station_id": "fukushima_0146",
+    "station_name": "大川ダム公園",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.34685,
+    "lon": 139.920806
+  },
+  {
+    "station_id": "fukushima_0183",
+    "station_name": "大泉",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.819966,
+    "lon": 140.566805
+  },
+  {
+    "station_id": "fukushima_0110",
+    "station_name": "大越",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.386746,
+    "lon": 140.630693
+  },
+  {
+    "station_id": "fukushima_0048",
+    "station_name": "大野",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.409367,
+    "lon": 140.984163
+  },
+  {
+    "station_id": "fukushima_0133",
+    "station_name": "姥堂",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.615952,
+    "lon": 139.881001
+  },
+  {
+    "station_id": "fukushima_0118",
+    "station_name": "安子ヶ島",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.472048,
+    "lon": 140.310133
+  },
+  {
+    "station_id": "fukushima_0068",
+    "station_name": "安積永盛",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.356967,
+    "lon": 140.368943
+  },
+  {
+    "station_id": "fukushima_0075",
+    "station_name": "安達",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.611724,
+    "lon": 140.466042
+  },
+  {
+    "station_id": "fukushima_0046",
+    "station_name": "富岡",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.33396,
+    "lon": 141.02276
+  },
+  {
+    "station_id": "fukushima_0188",
+    "station_name": "富野",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.874788,
+    "lon": 140.62737
+  },
+  {
+    "station_id": "fukushima_0099",
+    "station_name": "小塩江",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 37.295533,
+    "lon": 140.430246
+  },
+  {
+    "station_id": "fukushima_0103",
+    "station_name": "小川郷",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.126446,
+    "lon": 140.862514
+  },
+  {
+    "station_id": "fukushima_0107",
+    "station_name": "小野新町",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.275819,
+    "lon": 140.63656
+  },
+  {
+    "station_id": "fukushima_0052",
+    "station_name": "小高",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.56298,
+    "lon": 140.996375
+  },
+  {
+    "station_id": "fukushima_0138",
+    "station_name": "尾登",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.609024,
+    "lon": 139.691542
+  },
+  {
+    "station_id": "fukushima_0136",
+    "station_name": "山都",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.639228,
+    "lon": 139.766534
+  },
+  {
+    "station_id": "fukushima_0165",
+    "station_name": "岩代清水",
+    "prefecture": "福島県",
+    "line_name": "福島交通飯坂線",
+    "lat": 37.776304,
+    "lon": 140.44743
+  },
+  {
+    "station_id": "fukushima_0105",
+    "station_name": "川前",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.20559,
+    "lon": 140.750335
+  },
+  {
+    "station_id": "fukushima_0098",
+    "station_name": "川東",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 37.270119,
+    "lon": 140.40622
+  },
+  {
+    "station_id": "fukushima_0124",
+    "station_name": "川桁",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.535639,
+    "lon": 140.136869
+  },
+  {
+    "station_id": "fukushima_0096",
+    "station_name": "川辺沖",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 37.192794,
+    "lon": 140.405723
+  },
+  {
+    "station_id": "fukushima_0170",
+    "station_name": "平野",
+    "prefecture": "福島県",
+    "line_name": "福島交通飯坂線",
+    "lat": 37.805427,
+    "lon": 140.442781
+  },
+  {
+    "station_id": "fukushima_0129",
+    "station_name": "広田",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.549235,
+    "lon": 139.933343
+  },
+  {
+    "station_id": "fukushima_0042",
+    "station_name": "広野",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.21157,
+    "lon": 140.998769
+  },
+  {
+    "station_id": "fukushima_0031",
+    "station_name": "庭坂",
+    "prefecture": "福島県",
+    "line_name": "JR奥羽本線",
+    "lat": 37.771537,
+    "lon": 140.389847
+  },
+  {
+    "station_id": "fukushima_0150",
+    "station_name": "弥五島",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.26629,
+    "lon": 139.889924
+  },
+  {
+    "station_id": "fukushima_0141",
+    "station_name": "徳沢",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.666876,
+    "lon": 139.602879
+  },
+  {
+    "station_id": "fukushima_0059",
+    "station_name": "新地",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.881123,
+    "lon": 140.926501
+  },
+  {
+    "station_id": "fukushima_0185",
+    "station_name": "新田",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.83776,
+    "lon": 140.592986
+  },
+  {
+    "station_id": "fukushima_0061",
+    "station_name": "新白河",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.12331,
+    "lon": 140.188969
+  },
+  {
+    "station_id": "fukushima_0007",
+    "station_name": "新鶴",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.517161,
+    "lon": 139.828499
+  },
+  {
+    "station_id": "fukushima_0070",
+    "station_name": "日和田",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.446405,
+    "lon": 140.388333
+  },
+  {
+    "station_id": "fukushima_0056",
+    "station_name": "日立木",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.756081,
+    "lon": 140.934642
+  },
+  {
+    "station_id": "fukushima_0018",
+    "station_name": "早戸",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.469953,
+    "lon": 139.593605
+  },
+  {
+    "station_id": "fukushima_0163",
+    "station_name": "曽根田",
+    "prefecture": "福島県",
+    "line_name": "福島交通飯坂線",
+    "lat": 37.760289,
+    "lon": 140.459466
+  },
+  {
+    "station_id": "fukushima_0044",
+    "station_name": "木戸",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.257875,
+    "lon": 141.00247
+  },
+  {
+    "station_id": "fukushima_0041",
+    "station_name": "末続",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.172156,
+    "lon": 140.995565
+  },
+  {
+    "station_id": "fukushima_0022",
+    "station_name": "本名",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.44476,
+    "lon": 139.49882
+  },
+  {
+    "station_id": "fukushima_0072",
+    "station_name": "本宮",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.514177,
+    "lon": 140.399534
+  },
+  {
+    "station_id": "fukushima_0073",
+    "station_name": "杉田",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.563307,
+    "lon": 140.413663
+  },
+  {
+    "station_id": "fukushima_0079",
+    "station_name": "東福島",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.800447,
+    "lon": 140.478058
+  },
+  {
+    "station_id": "fukushima_0128",
+    "station_name": "東長原",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.566465,
+    "lon": 139.948239
+  },
+  {
+    "station_id": "fukushima_0085",
+    "station_name": "東館",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 36.870264,
+    "lon": 140.423314
+  },
+  {
+    "station_id": "fukushima_0076",
+    "station_name": "松川",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.653825,
+    "lon": 140.48442
+  },
+  {
+    "station_id": "fukushima_0006",
+    "station_name": "根岸",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.501885,
+    "lon": 139.828603
+  },
+  {
+    "station_id": "fukushima_0051",
+    "station_name": "桃内",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.528661,
+    "lon": 140.984352
+  },
+  {
+    "station_id": "fukushima_0081",
+    "station_name": "桑折",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.855258,
+    "lon": 140.517508
+  },
+  {
+    "station_id": "fukushima_0169",
+    "station_name": "桜水",
+    "prefecture": "福島県",
+    "line_name": "福島交通飯坂線",
+    "lat": 37.796682,
+    "lon": 140.441369
+  },
+  {
+    "station_id": "fukushima_0186",
+    "station_name": "梁川",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.845815,
+    "lon": 140.603279
+  },
+  {
+    "station_id": "fukushima_0033",
+    "station_name": "植田",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 36.920649,
+    "lon": 140.796468
+  },
+  {
+    "station_id": "fukushima_0104",
+    "station_name": "江田",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.179389,
+    "lon": 140.82609
+  },
+  {
+    "station_id": "fukushima_0034",
+    "station_name": "泉(福島交通)",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 36.955602,
+    "lon": 140.854125
+  },
+  {
+    "station_id": "fukushima_0064",
+    "station_name": "泉崎",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.15835,
+    "lon": 140.299026
+  },
+  {
+    "station_id": "fukushima_0097",
+    "station_name": "泉郷",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 37.214494,
+    "lon": 140.405289
+  },
+  {
+    "station_id": "fukushima_0050",
+    "station_name": "浪江",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.492291,
+    "lon": 140.989521
+  },
+  {
+    "station_id": "fukushima_0035",
+    "station_name": "湯本",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.006922,
+    "lon": 140.849884
+  },
+  {
+    "station_id": "fukushima_0148",
+    "station_name": "湯野上温泉",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.304056,
+    "lon": 139.895169
+  },
+  {
+    "station_id": "fukushima_0014",
+    "station_name": "滝谷",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.494315,
+    "lon": 139.69799
+  },
+  {
+    "station_id": "fukushima_0178",
+    "station_name": "瀬上",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.802303,
+    "lon": 140.498397
+  },
+  {
+    "station_id": "fukushima_0125",
+    "station_name": "猪苗代",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.546286,
+    "lon": 140.103122
+  },
+  {
+    "station_id": "fukushima_0122",
+    "station_name": "猪苗代湖畔",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.500563,
+    "lon": 140.147564
+  },
+  {
+    "station_id": "fukushima_0155",
+    "station_name": "田島高校前",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.209525,
+    "lon": 139.800776
+  },
+  {
+    "station_id": "fukushima_0060",
+    "station_name": "白坂",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.09457,
+    "lon": 140.184388
+  },
+  {
+    "station_id": "fukushima_0062",
+    "station_name": "白河",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.129692,
+    "lon": 140.213742
+  },
+  {
+    "station_id": "fukushima_0057",
+    "station_name": "相馬",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.802455,
+    "lon": 140.925713
+  },
+  {
+    "station_id": "fukushima_0065",
+    "station_name": "矢吹",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.205286,
+    "lon": 140.327983
+  },
+  {
+    "station_id": "fukushima_0084",
+    "station_name": "矢祭山",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 36.84978,
+    "lon": 140.395278
+  },
+  {
+    "station_id": "fukushima_0088",
+    "station_name": "磐城塙",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 36.95862,
+    "lon": 140.41205
+  },
+  {
+    "station_id": "fukushima_0053",
+    "station_name": "磐城太田",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.605114,
+    "lon": 140.991407
+  },
+  {
+    "station_id": "fukushima_0101",
+    "station_name": "磐城守山",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 37.330776,
+    "lon": 140.406485
+  },
+  {
+    "station_id": "fukushima_0111",
+    "station_name": "磐城常葉",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.420611,
+    "lon": 140.605579
+  },
+  {
+    "station_id": "fukushima_0091",
+    "station_name": "磐城棚倉",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 37.035127,
+    "lon": 140.384423
+  },
+  {
+    "station_id": "fukushima_0092",
+    "station_name": "磐城浅川",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 37.079787,
+    "lon": 140.414329
+  },
+  {
+    "station_id": "fukushima_0087",
+    "station_name": "磐城石井",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 36.904516,
+    "lon": 140.415321
+  },
+  {
+    "station_id": "fukushima_0094",
+    "station_name": "磐城石川",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 37.140635,
+    "lon": 140.443969
+  },
+  {
+    "station_id": "fukushima_0119",
+    "station_name": "磐梯熱海",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.480743,
+    "lon": 140.2707
+  },
+  {
+    "station_id": "fukushima_0127",
+    "station_name": "磐梯町",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.557305,
+    "lon": 139.993413
+  },
+  {
+    "station_id": "fukushima_0108",
+    "station_name": "神俣",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.324186,
+    "lon": 140.659487
+  },
+  {
+    "station_id": "fukushima_0029",
+    "station_name": "福島(福島)",
+    "prefecture": "福島県",
+    "line_name": "JR奥羽本線",
+    "lat": 37.754123,
+    "lon": 140.45968
+  },
+  {
+    "station_id": "fukushima_0177",
+    "station_name": "福島学院前",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.798994,
+    "lon": 140.489095
+  },
+  {
+    "station_id": "fukushima_0045",
+    "station_name": "竜田",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.282485,
+    "lon": 141.002822
+  },
+  {
+    "station_id": "fukushima_0131",
+    "station_name": "笈川",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.579117,
+    "lon": 139.895318
+  },
+  {
+    "station_id": "fukushima_0030",
+    "station_name": "笹木野",
+    "prefecture": "福島県",
+    "line_name": "JR奥羽本線",
+    "lat": 37.765926,
+    "lon": 140.425985
+  },
+  {
+    "station_id": "fukushima_0168",
+    "station_name": "笹谷",
+    "prefecture": "福島県",
+    "line_name": "福島交通飯坂線",
+    "lat": 37.7873,
+    "lon": 140.439628
+  },
+  {
+    "station_id": "fukushima_0164",
+    "station_name": "美術館図書館前",
+    "prefecture": "福島県",
+    "line_name": "福島交通飯坂線",
+    "lat": 37.767074,
+    "lon": 140.455246
+  },
+  {
+    "station_id": "fukushima_0126",
+    "station_name": "翁島",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.552837,
+    "lon": 140.054079
+  },
+  {
+    "station_id": "fukushima_0115",
+    "station_name": "舞木",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.416716,
+    "lon": 140.435074
+  },
+  {
+    "station_id": "fukushima_0112",
+    "station_name": "船引",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.44291,
+    "lon": 140.574558
+  },
+  {
+    "station_id": "fukushima_0145",
+    "station_name": "芦ノ牧温泉",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.395456,
+    "lon": 139.932277
+  },
+  {
+    "station_id": "fukushima_0147",
+    "station_name": "芦ノ牧温泉南",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.334573,
+    "lon": 139.918668
+  },
+  {
+    "station_id": "fukushima_0172",
+    "station_name": "花水坂",
+    "prefecture": "福島県",
+    "line_name": "福島交通飯坂線",
+    "lat": 37.827043,
+    "lon": 140.450739
+  },
+  {
+    "station_id": "fukushima_0008",
+    "station_name": "若宮",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.535243,
+    "lon": 139.828321
+  },
+  {
+    "station_id": "fukushima_0038",
+    "station_name": "草野",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.073863,
+    "lon": 140.947243
+  },
+  {
+    "station_id": "fukushima_0137",
+    "station_name": "荻野",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.617613,
+    "lon": 139.722119
+  },
+  {
+    "station_id": "fukushima_0109",
+    "station_name": "菅谷",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.351024,
+    "lon": 140.644185
+  },
+  {
+    "station_id": "fukushima_0082",
+    "station_name": "藤田",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.879062,
+    "lon": 140.539722
+  },
+  {
+    "station_id": "fukushima_0003",
+    "station_name": "西若松",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.486034,
+    "lon": 139.914172
+  },
+  {
+    "station_id": "fukushima_0113",
+    "station_name": "要田",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.453969,
+    "lon": 140.520773
+  },
+  {
+    "station_id": "fukushima_0100",
+    "station_name": "谷田川",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 37.31372,
+    "lon": 140.431117
+  },
+  {
+    "station_id": "fukushima_0083",
+    "station_name": "貝田",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.908226,
+    "lon": 140.58106
+  },
+  {
+    "station_id": "fukushima_0102",
+    "station_name": "赤井",
+    "prefecture": "福島県",
+    "line_name": "JR磐越東線",
+    "lat": 37.080631,
+    "lon": 140.866294
+  },
+  {
+    "station_id": "fukushima_0089",
+    "station_name": "近津",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 37.000487,
+    "lon": 140.393699
+  },
+  {
+    "station_id": "fukushima_0069",
+    "station_name": "郡山(福島)",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.398187,
+    "lon": 140.389363
+  },
+  {
+    "station_id": "fukushima_0116",
+    "station_name": "郡山富田",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.420361,
+    "lon": 140.3695
+  },
+  {
+    "station_id": "fukushima_0013",
+    "station_name": "郷戸",
+    "prefecture": "福島県",
+    "line_name": "JR只見線",
+    "lat": 37.51636,
+    "lon": 139.709911
+  },
+  {
+    "station_id": "fukushima_0093",
+    "station_name": "里白石",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 37.104195,
+    "lon": 140.416655
+  },
+  {
+    "station_id": "fukushima_0095",
+    "station_name": "野木沢",
+    "prefecture": "福島県",
+    "line_name": "JR水郡線",
+    "lat": 37.175224,
+    "lon": 140.42097
+  },
+  {
+    "station_id": "fukushima_0139",
+    "station_name": "野沢",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.590898,
+    "lon": 139.64462
+  },
+  {
+    "station_id": "fukushima_0077",
+    "station_name": "金谷川",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.680526,
+    "lon": 140.452244
+  },
+  {
+    "station_id": "fukushima_0066",
+    "station_name": "鏡石",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.250733,
+    "lon": 140.346812
+  },
+  {
+    "station_id": "fukushima_0143",
+    "station_name": "門田",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.442616,
+    "lon": 139.913769
+  },
+  {
+    "station_id": "fukushima_0123",
+    "station_name": "関都",
+    "prefecture": "福島県",
+    "line_name": "JR磐越西線",
+    "lat": 37.515577,
+    "lon": 140.143619
+  },
+  {
+    "station_id": "fukushima_0067",
+    "station_name": "須賀川",
+    "prefecture": "福島県",
+    "line_name": "JR東北本線",
+    "lat": 37.300335,
+    "lon": 140.372014
+  },
+  {
+    "station_id": "fukushima_0173",
+    "station_name": "飯坂温泉",
+    "prefecture": "福島県",
+    "line_name": "福島交通飯坂線",
+    "lat": 37.830265,
+    "lon": 140.454696
+  },
+  {
+    "station_id": "fukushima_0153",
+    "station_name": "養鱒公園",
+    "prefecture": "福島県",
+    "line_name": "会津鉄道会津線",
+    "lat": 37.224499,
+    "lon": 139.841794
+  },
+  {
+    "station_id": "fukushima_0058",
+    "station_name": "駒ヶ嶺",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.842353,
+    "lon": 140.925075
+  },
+  {
+    "station_id": "fukushima_0180",
+    "station_name": "高子",
+    "prefecture": "福島県",
+    "line_name": "阿武隈急行",
+    "lat": 37.808561,
+    "lon": 140.52755
+  },
+  {
+    "station_id": "fukushima_0055",
+    "station_name": "鹿島",
+    "prefecture": "福島県",
+    "line_name": "JR常磐線",
+    "lat": 37.702827,
+    "lon": 140.970062
+  }
+]

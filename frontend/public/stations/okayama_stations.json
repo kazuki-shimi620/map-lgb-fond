@@ -1,0 +1,1306 @@
+[
+  {
+    "station_id": "okayama_0153",
+    "station_name": "あわくら温泉",
+    "prefecture": "岡山県",
+    "line_name": "智頭急行智頭線",
+    "lat": 35.188901,
+    "lon": 134.337011
+  },
+  {
+    "station_id": "okayama_0132",
+    "station_name": "いずえ",
+    "prefecture": "岡山県",
+    "line_name": "井原鉄道",
+    "lat": 34.587934,
+    "lon": 133.450677
+  },
+  {
+    "station_id": "okayama_0074",
+    "station_name": "万富",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.758256,
+    "lon": 134.080609
+  },
+  {
+    "station_id": "okayama_0031",
+    "station_name": "三浦",
+    "prefecture": "岡山県",
+    "line_name": "JR因美線",
+    "lat": 35.141531,
+    "lon": 134.078069
+  },
+  {
+    "station_id": "okayama_0070",
+    "station_name": "三石",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.804507,
+    "lon": 134.275416
+  },
+  {
+    "station_id": "okayama_0163",
+    "station_name": "三菱自工前",
+    "prefecture": "岡山県",
+    "line_name": "水島臨海鉄道",
+    "lat": 34.522906,
+    "lon": 133.734197
+  },
+  {
+    "station_id": "okayama_0127",
+    "station_name": "三谷",
+    "prefecture": "岡山県",
+    "line_name": "井原鉄道",
+    "lat": 34.61627,
+    "lon": 133.61964
+  },
+  {
+    "station_id": "okayama_0091",
+    "station_name": "上の町",
+    "prefecture": "岡山県",
+    "line_name": "JR本四備讃線",
+    "lat": 34.490944,
+    "lon": 133.815233
+  },
+  {
+    "station_id": "okayama_0076",
+    "station_name": "上道",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.699466,
+    "lon": 134.020569
+  },
+  {
+    "station_id": "okayama_0050",
+    "station_name": "中国勝山",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.080556,
+    "lon": 133.694735
+  },
+  {
+    "station_id": "okayama_0082",
+    "station_name": "中庄",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.626493,
+    "lon": 133.808225
+  },
+  {
+    "station_id": "okayama_0141",
+    "station_name": "中納言",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌東山線",
+    "lat": 34.657516,
+    "lon": 133.937824
+  },
+  {
+    "station_id": "okayama_0054",
+    "station_name": "丹治部",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.046392,
+    "lon": 133.553725
+  },
+  {
+    "station_id": "okayama_0061",
+    "station_name": "久々原",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.592158,
+    "lon": 133.82796
+  },
+  {
+    "station_id": "okayama_0049",
+    "station_name": "久世",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.080976,
+    "lon": 133.745133
+  },
+  {
+    "station_id": "okayama_0105",
+    "station_name": "亀甲",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 34.998542,
+    "lon": 133.959188
+  },
+  {
+    "station_id": "okayama_0012",
+    "station_name": "井倉",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.931724,
+    "lon": 133.516301
+  },
+  {
+    "station_id": "okayama_0131",
+    "station_name": "井原",
+    "prefecture": "岡山県",
+    "line_name": "井原鉄道",
+    "lat": 34.592947,
+    "lon": 133.468906
+  },
+  {
+    "station_id": "okayama_0117",
+    "station_name": "伊部",
+    "prefecture": "岡山県",
+    "line_name": "JR赤穂線",
+    "lat": 34.738798,
+    "lon": 134.160554
+  },
+  {
+    "station_id": "okayama_0114",
+    "station_name": "伊里",
+    "prefecture": "岡山県",
+    "line_name": "JR赤穂線",
+    "lat": 34.741424,
+    "lon": 134.224525
+  },
+  {
+    "station_id": "okayama_0106",
+    "station_name": "佐良山",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 35.032024,
+    "lon": 133.960748
+  },
+  {
+    "station_id": "okayama_0001",
+    "station_name": "倉敷",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.601567,
+    "lon": 133.765473
+  },
+  {
+    "station_id": "okayama_0154",
+    "station_name": "倉敷市",
+    "prefecture": "岡山県",
+    "line_name": "水島臨海鉄道",
+    "lat": 34.601595,
+    "lon": 133.765512
+  },
+  {
+    "station_id": "okayama_0126",
+    "station_name": "備中呉妹",
+    "prefecture": "岡山県",
+    "line_name": "井原鉄道",
+    "lat": 34.621587,
+    "lon": 133.661888
+  },
+  {
+    "station_id": "okayama_0010",
+    "station_name": "備中川面",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.850129,
+    "lon": 133.588543
+  },
+  {
+    "station_id": "okayama_0007",
+    "station_name": "備中広瀬",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.758552,
+    "lon": 133.606464
+  },
+  {
+    "station_id": "okayama_0016",
+    "station_name": "備中神代",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.994571,
+    "lon": 133.40079
+  },
+  {
+    "station_id": "okayama_0059",
+    "station_name": "備中箕島",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.605697,
+    "lon": 133.850889
+  },
+  {
+    "station_id": "okayama_0024",
+    "station_name": "備中高松",
+    "prefecture": "岡山県",
+    "line_name": "JR吉備線",
+    "lat": 34.68649,
+    "lon": 133.822382
+  },
+  {
+    "station_id": "okayama_0008",
+    "station_name": "備中高梁",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.788648,
+    "lon": 133.616524
+  },
+  {
+    "station_id": "okayama_0022",
+    "station_name": "備前一宮",
+    "prefecture": "岡山県",
+    "line_name": "JR吉備線",
+    "lat": 34.678838,
+    "lon": 133.864083
+  },
+  {
+    "station_id": "okayama_0020",
+    "station_name": "備前三門",
+    "prefecture": "岡山県",
+    "line_name": "JR吉備線",
+    "lat": 34.66786,
+    "lon": 133.900501
+  },
+  {
+    "station_id": "okayama_0094",
+    "station_name": "備前原",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 34.704965,
+    "lon": 133.944929
+  },
+  {
+    "station_id": "okayama_0115",
+    "station_name": "備前片上",
+    "prefecture": "岡山県",
+    "line_name": "JR赤穂線",
+    "lat": 34.748295,
+    "lon": 134.197006
+  },
+  {
+    "station_id": "okayama_0064",
+    "station_name": "備前片岡",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.54381,
+    "lon": 133.861837
+  },
+  {
+    "station_id": "okayama_0068",
+    "station_name": "備前田井",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.516027,
+    "lon": 133.943117
+  },
+  {
+    "station_id": "okayama_0057",
+    "station_name": "備前西市",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.631448,
+    "lon": 133.899852
+  },
+  {
+    "station_id": "okayama_0092",
+    "station_name": "児島",
+    "prefecture": "岡山県",
+    "line_name": "JR本四備讃線",
+    "lat": 34.462817,
+    "lon": 133.807729
+  },
+  {
+    "station_id": "okayama_0067",
+    "station_name": "八浜",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.532039,
+    "lon": 133.919504
+  },
+  {
+    "station_id": "okayama_0053",
+    "station_name": "刑部",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.076283,
+    "lon": 133.565981
+  },
+  {
+    "station_id": "okayama_0039",
+    "station_name": "勝間田",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.035882,
+    "lon": 134.118971
+  },
+  {
+    "station_id": "okayama_0080",
+    "station_name": "北長瀬",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.652995,
+    "lon": 133.885325
+  },
+  {
+    "station_id": "okayama_0048",
+    "station_name": "古見",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.049213,
+    "lon": 133.760616
+  },
+  {
+    "station_id": "okayama_0023",
+    "station_name": "吉備津",
+    "prefecture": "岡山県",
+    "line_name": "JR吉備線",
+    "lat": 34.674491,
+    "lon": 133.846201
+  },
+  {
+    "station_id": "okayama_0125",
+    "station_name": "吉備真備",
+    "prefecture": "岡山県",
+    "line_name": "井原鉄道",
+    "lat": 34.626784,
+    "lon": 133.692013
+  },
+  {
+    "station_id": "okayama_0071",
+    "station_name": "吉永",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.812259,
+    "lon": 134.204626
+  },
+  {
+    "station_id": "okayama_0072",
+    "station_name": "和気",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.797297,
+    "lon": 134.152787
+  },
+  {
+    "station_id": "okayama_0108",
+    "station_name": "坂根",
+    "prefecture": "岡山県",
+    "line_name": "JR芸備線",
+    "lat": 34.972957,
+    "lon": 133.37079
+  },
+  {
+    "station_id": "okayama_0045",
+    "station_name": "坪井",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.062041,
+    "lon": 133.877295
+  },
+  {
+    "station_id": "okayama_0137",
+    "station_name": "城下(岡山)",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌東山線",
+    "lat": 34.665599,
+    "lon": 133.929756
+  },
+  {
+    "station_id": "okayama_0056",
+    "station_name": "大元",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.647571,
+    "lon": 133.910794
+  },
+  {
+    "station_id": "okayama_0151",
+    "station_name": "大原(広島)",
+    "prefecture": "岡山県",
+    "line_name": "智頭急行智頭線",
+    "lat": 35.123827,
+    "lon": 134.327553
+  },
+  {
+    "station_id": "okayama_0123",
+    "station_name": "大多羅",
+    "prefecture": "岡山県",
+    "line_name": "JR赤穂線",
+    "lat": 34.665661,
+    "lon": 134.006354
+  },
+  {
+    "station_id": "okayama_0021",
+    "station_name": "大安寺",
+    "prefecture": "岡山県",
+    "line_name": "JR吉備線",
+    "lat": 34.662894,
+    "lon": 133.887711
+  },
+  {
+    "station_id": "okayama_0121",
+    "station_name": "大富",
+    "prefecture": "岡山県",
+    "line_name": "JR赤穂線",
+    "lat": 34.661429,
+    "lon": 134.070762
+  },
+  {
+    "station_id": "okayama_0147",
+    "station_name": "大雲寺前",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌清輝橋線",
+    "lat": 34.656492,
+    "lon": 133.926237
+  },
+  {
+    "station_id": "okayama_0058",
+    "station_name": "妹尾",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.608269,
+    "lon": 133.871246
+  },
+  {
+    "station_id": "okayama_0133",
+    "station_name": "子守唄の里高屋",
+    "prefecture": "岡山県",
+    "line_name": "井原鉄道",
+    "lat": 34.581726,
+    "lon": 133.433182
+  },
+  {
+    "station_id": "okayama_0069",
+    "station_name": "宇野",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.495035,
+    "lon": 133.953706
+  },
+  {
+    "station_id": "okayama_0150",
+    "station_name": "宮本武蔵",
+    "prefecture": "岡山県",
+    "line_name": "智頭急行智頭線",
+    "lat": 35.101685,
+    "lon": 134.330389
+  },
+  {
+    "station_id": "okayama_0052",
+    "station_name": "富原",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.054838,
+    "lon": 133.612494
+  },
+  {
+    "station_id": "okayama_0112",
+    "station_name": "寒河",
+    "prefecture": "岡山県",
+    "line_name": "JR赤穂線",
+    "lat": 34.746122,
+    "lon": 134.29778
+  },
+  {
+    "station_id": "okayama_0104",
+    "station_name": "小原",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 34.968234,
+    "lon": 133.962033
+  },
+  {
+    "station_id": "okayama_0140",
+    "station_name": "小橋",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌東山線",
+    "lat": 34.657657,
+    "lon": 133.936236
+  },
+  {
+    "station_id": "okayama_0129",
+    "station_name": "小田",
+    "prefecture": "岡山県",
+    "line_name": "井原鉄道",
+    "lat": 34.60606,
+    "lon": 133.542558
+  },
+  {
+    "station_id": "okayama_0019",
+    "station_name": "岡山",
+    "prefecture": "岡山県",
+    "line_name": "JR吉備線",
+    "lat": 34.666572,
+    "lon": 133.918552
+  },
+  {
+    "station_id": "okayama_0134",
+    "station_name": "岡山駅前",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌東山線",
+    "lat": 34.665458,
+    "lon": 133.9201
+  },
+  {
+    "station_id": "okayama_0055",
+    "station_name": "岩山",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.02262,
+    "lon": 133.512674
+  },
+  {
+    "station_id": "okayama_0124",
+    "station_name": "川辺宿",
+    "prefecture": "岡山県",
+    "line_name": "井原鉄道",
+    "lat": 34.632339,
+    "lon": 133.715068
+  },
+  {
+    "station_id": "okayama_0109",
+    "station_name": "市岡",
+    "prefecture": "岡山県",
+    "line_name": "JR芸備線",
+    "lat": 34.966232,
+    "lon": 133.346948
+  },
+  {
+    "station_id": "okayama_0015",
+    "station_name": "布原",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.988086,
+    "lon": 133.422293
+  },
+  {
+    "station_id": "okayama_0066",
+    "station_name": "常山",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.531374,
+    "lon": 133.893096
+  },
+  {
+    "station_id": "okayama_0161",
+    "station_name": "常盤(岡山)",
+    "prefecture": "岡山県",
+    "line_name": "水島臨海鉄道",
+    "lat": 34.53401,
+    "lon": 133.743246
+  },
+  {
+    "station_id": "okayama_0081",
+    "station_name": "庭瀬",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.642858,
+    "lon": 133.854454
+  },
+  {
+    "station_id": "okayama_0099",
+    "station_name": "建部",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 34.842285,
+    "lon": 133.899187
+  },
+  {
+    "station_id": "okayama_0102",
+    "station_name": "弓削",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 34.925457,
+    "lon": 133.957849
+  },
+  {
+    "station_id": "okayama_0159",
+    "station_name": "弥生",
+    "prefecture": "岡山県",
+    "line_name": "水島臨海鉄道",
+    "lat": 34.544359,
+    "lon": 133.747534
+  },
+  {
+    "station_id": "okayama_0063",
+    "station_name": "彦崎",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.552035,
+    "lon": 133.835045
+  },
+  {
+    "station_id": "okayama_0084",
+    "station_name": "新倉敷",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.56509,
+    "lon": 133.678344
+  },
+  {
+    "station_id": "okayama_0146",
+    "station_name": "新西大寺町筋",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌清輝橋線",
+    "lat": 34.658504,
+    "lon": 133.92628
+  },
+  {
+    "station_id": "okayama_0014",
+    "station_name": "新見",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.987232,
+    "lon": 133.45674
+  },
+  {
+    "station_id": "okayama_0018",
+    "station_name": "新郷",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 35.082087,
+    "lon": 133.367786
+  },
+  {
+    "station_id": "okayama_0011",
+    "station_name": "方谷",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.876748,
+    "lon": 133.556457
+  },
+  {
+    "station_id": "okayama_0113",
+    "station_name": "日生",
+    "prefecture": "岡山県",
+    "line_name": "JR赤穂線",
+    "lat": 34.735148,
+    "lon": 134.276485
+  },
+  {
+    "station_id": "okayama_0005",
+    "station_name": "日羽",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.715716,
+    "lon": 133.689993
+  },
+  {
+    "station_id": "okayama_0060",
+    "station_name": "早島",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.602158,
+    "lon": 133.833306
+  },
+  {
+    "station_id": "okayama_0130",
+    "station_name": "早雲の里荏原",
+    "prefecture": "岡山県",
+    "line_name": "井原鉄道",
+    "lat": 34.596694,
+    "lon": 133.507816
+  },
+  {
+    "station_id": "okayama_0051",
+    "station_name": "月田",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.048195,
+    "lon": 133.666839
+  },
+  {
+    "station_id": "okayama_0026",
+    "station_name": "服部",
+    "prefecture": "岡山県",
+    "line_name": "JR吉備線",
+    "lat": 34.691153,
+    "lon": 133.775395
+  },
+  {
+    "station_id": "okayama_0090",
+    "station_name": "木見",
+    "prefecture": "岡山県",
+    "line_name": "JR本四備讃線",
+    "lat": 34.52773,
+    "lon": 133.823785
+  },
+  {
+    "station_id": "okayama_0009",
+    "station_name": "木野山",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.825682,
+    "lon": 133.614374
+  },
+  {
+    "station_id": "okayama_0148",
+    "station_name": "東中央町",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌清輝橋線",
+    "lat": 34.654445,
+    "lon": 133.926183
+  },
+  {
+    "station_id": "okayama_0143",
+    "station_name": "東山・おかでんミュージアム",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌東山線",
+    "lat": 34.656245,
+    "lon": 133.942759
+  },
+  {
+    "station_id": "okayama_0077",
+    "station_name": "東岡山",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.685633,
+    "lon": 133.988103
+  },
+  {
+    "station_id": "okayama_0034",
+    "station_name": "東津山",
+    "prefecture": "岡山県",
+    "line_name": "JR因美線",
+    "lat": 35.058676,
+    "lon": 134.031818
+  },
+  {
+    "station_id": "okayama_0027",
+    "station_name": "東総社",
+    "prefecture": "岡山県",
+    "line_name": "JR吉備線",
+    "lat": 34.677774,
+    "lon": 133.751411
+  },
+  {
+    "station_id": "okayama_0038",
+    "station_name": "林野",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.013893,
+    "lon": 134.151411
+  },
+  {
+    "station_id": "okayama_0136",
+    "station_name": "柳川",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌東山線",
+    "lat": 34.665635,
+    "lon": 133.925507
+  },
+  {
+    "station_id": "okayama_0160",
+    "station_name": "栄(岡山)",
+    "prefecture": "岡山県",
+    "line_name": "水島臨海鉄道",
+    "lat": 34.53791,
+    "lon": 133.744915
+  },
+  {
+    "station_id": "okayama_0089",
+    "station_name": "植松",
+    "prefecture": "岡山県",
+    "line_name": "JR本四備讃線",
+    "lat": 34.551158,
+    "lon": 133.827979
+  },
+  {
+    "station_id": "okayama_0037",
+    "station_name": "楢原",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.01974,
+    "lon": 134.189362
+  },
+  {
+    "station_id": "okayama_0162",
+    "station_name": "水島",
+    "prefecture": "岡山県",
+    "line_name": "水島臨海鉄道",
+    "lat": 34.529169,
+    "lon": 133.741235
+  },
+  {
+    "station_id": "okayama_0093",
+    "station_name": "法界院",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 34.684851,
+    "lon": 133.927547
+  },
+  {
+    "station_id": "okayama_0042",
+    "station_name": "津山",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.054511,
+    "lon": 134.003477
+  },
+  {
+    "station_id": "okayama_0107",
+    "station_name": "津山口",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 35.054569,
+    "lon": 133.982879
+  },
+  {
+    "station_id": "okayama_0158",
+    "station_name": "浦田",
+    "prefecture": "岡山県",
+    "line_name": "水島臨海鉄道",
+    "lat": 34.561271,
+    "lon": 133.749761
+  },
+  {
+    "station_id": "okayama_0149",
+    "station_name": "清輝橋",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌清輝橋線",
+    "lat": 34.651691,
+    "lon": 133.925807
+  },
+  {
+    "station_id": "okayama_0002",
+    "station_name": "清音",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.643671,
+    "lon": 133.733461
+  },
+  {
+    "station_id": "okayama_0075",
+    "station_name": "瀬戸",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.734499,
+    "lon": 134.041897
+  },
+  {
+    "station_id": "okayama_0073",
+    "station_name": "熊山",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.783556,
+    "lon": 134.109433
+  },
+  {
+    "station_id": "okayama_0096",
+    "station_name": "牧山",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 34.741221,
+    "lon": 133.960424
+  },
+  {
+    "station_id": "okayama_0095",
+    "station_name": "玉柏",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 34.716965,
+    "lon": 133.964472
+  },
+  {
+    "station_id": "okayama_0155",
+    "station_name": "球場前(岡山)",
+    "prefecture": "岡山県",
+    "line_name": "水島臨海鉄道",
+    "lat": 34.591143,
+    "lon": 133.747177
+  },
+  {
+    "station_id": "okayama_0145",
+    "station_name": "田町(岡山)",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌清輝橋線",
+    "lat": 34.660658,
+    "lon": 133.926322
+  },
+  {
+    "station_id": "okayama_0138",
+    "station_name": "県庁通り",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌東山線",
+    "lat": 34.662599,
+    "lon": 133.930485
+  },
+  {
+    "station_id": "okayama_0128",
+    "station_name": "矢掛",
+    "prefecture": "岡山県",
+    "line_name": "井原鉄道",
+    "lat": 34.629337,
+    "lon": 133.590057
+  },
+  {
+    "station_id": "okayama_0110",
+    "station_name": "矢神",
+    "prefecture": "岡山県",
+    "line_name": "JR芸備線",
+    "lat": 34.943413,
+    "lon": 133.332797
+  },
+  {
+    "station_id": "okayama_0029",
+    "station_name": "知和",
+    "prefecture": "岡山県",
+    "line_name": "JR因美線",
+    "lat": 35.192956,
+    "lon": 134.077537
+  },
+  {
+    "station_id": "okayama_0013",
+    "station_name": "石蟹",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.954752,
+    "lon": 133.479506
+  },
+  {
+    "station_id": "okayama_0101",
+    "station_name": "神目",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 34.896201,
+    "lon": 133.935142
+  },
+  {
+    "station_id": "okayama_0157",
+    "station_name": "福井(岡山)",
+    "prefecture": "岡山県",
+    "line_name": "水島臨海鉄道",
+    "lat": 34.569804,
+    "lon": 133.744495
+  },
+  {
+    "station_id": "okayama_0100",
+    "station_name": "福渡",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 34.870256,
+    "lon": 133.904037
+  },
+  {
+    "station_id": "okayama_0088",
+    "station_name": "笠岡",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.504913,
+    "lon": 133.504705
+  },
+  {
+    "station_id": "okayama_0003",
+    "station_name": "総社",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.673534,
+    "lon": 133.738007
+  },
+  {
+    "station_id": "okayama_0030",
+    "station_name": "美作加茂",
+    "prefecture": "岡山県",
+    "line_name": "JR因美線",
+    "lat": 35.169622,
+    "lon": 134.062239
+  },
+  {
+    "station_id": "okayama_0044",
+    "station_name": "美作千代",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.058311,
+    "lon": 133.906201
+  },
+  {
+    "station_id": "okayama_0035",
+    "station_name": "美作土居",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 34.995078,
+    "lon": 134.25991
+  },
+  {
+    "station_id": "okayama_0041",
+    "station_name": "美作大崎",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.045419,
+    "lon": 134.067298
+  },
+  {
+    "station_id": "okayama_0036",
+    "station_name": "美作江見",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.013403,
+    "lon": 134.219754
+  },
+  {
+    "station_id": "okayama_0028",
+    "station_name": "美作河井",
+    "prefecture": "岡山県",
+    "line_name": "JR因美線",
+    "lat": 35.205467,
+    "lon": 134.107048
+  },
+  {
+    "station_id": "okayama_0032",
+    "station_name": "美作滝尾",
+    "prefecture": "岡山県",
+    "line_name": "JR因美線",
+    "lat": 35.123611,
+    "lon": 134.071324
+  },
+  {
+    "station_id": "okayama_0047",
+    "station_name": "美作落合",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.02318,
+    "lon": 133.759656
+  },
+  {
+    "station_id": "okayama_0046",
+    "station_name": "美作追分",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.058876,
+    "lon": 133.820063
+  },
+  {
+    "station_id": "okayama_0006",
+    "station_name": "美袋",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.719797,
+    "lon": 133.654388
+  },
+  {
+    "station_id": "okayama_0062",
+    "station_name": "茶屋町",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.57694,
+    "lon": 133.825906
+  },
+  {
+    "station_id": "okayama_0040",
+    "station_name": "西勝間田",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.043553,
+    "lon": 134.089316
+  },
+  {
+    "station_id": "okayama_0122",
+    "station_name": "西大寺",
+    "prefecture": "岡山県",
+    "line_name": "JR赤穂線",
+    "lat": 34.661878,
+    "lon": 134.037037
+  },
+  {
+    "station_id": "okayama_0139",
+    "station_name": "西大寺町・岡山芸術創造劇場ハレノワ前",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌東山線",
+    "lat": 34.658469,
+    "lon": 133.930528
+  },
+  {
+    "station_id": "okayama_0156",
+    "station_name": "西富井",
+    "prefecture": "岡山県",
+    "line_name": "水島臨海鉄道",
+    "lat": 34.577809,
+    "lon": 133.743361
+  },
+  {
+    "station_id": "okayama_0079",
+    "station_name": "西川原",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.678,
+    "lon": 133.936555
+  },
+  {
+    "station_id": "okayama_0135",
+    "station_name": "西川緑道公園",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌東山線",
+    "lat": 34.665599,
+    "lon": 133.923018
+  },
+  {
+    "station_id": "okayama_0116",
+    "station_name": "西片上",
+    "prefecture": "岡山県",
+    "line_name": "JR赤穂線",
+    "lat": 34.745193,
+    "lon": 134.184177
+  },
+  {
+    "station_id": "okayama_0152",
+    "station_name": "西粟倉",
+    "prefecture": "岡山県",
+    "line_name": "智頭急行智頭線",
+    "lat": 35.16094,
+    "lon": 134.335754
+  },
+  {
+    "station_id": "okayama_0083",
+    "station_name": "西阿知",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.58578,
+    "lon": 133.727876
+  },
+  {
+    "station_id": "okayama_0103",
+    "station_name": "誕生寺",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 34.951768,
+    "lon": 133.959375
+  },
+  {
+    "station_id": "okayama_0004",
+    "station_name": "豪渓",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 34.706299,
+    "lon": 133.722604
+  },
+  {
+    "station_id": "okayama_0025",
+    "station_name": "足守",
+    "prefecture": "岡山県",
+    "line_name": "JR吉備線",
+    "lat": 34.698075,
+    "lon": 133.802765
+  },
+  {
+    "station_id": "okayama_0017",
+    "station_name": "足立",
+    "prefecture": "岡山県",
+    "line_name": "JR伯備線",
+    "lat": 35.038908,
+    "lon": 133.383636
+  },
+  {
+    "station_id": "okayama_0065",
+    "station_name": "迫川",
+    "prefecture": "岡山県",
+    "line_name": "JR宇野線",
+    "lat": 34.536484,
+    "lon": 133.879394
+  },
+  {
+    "station_id": "okayama_0120",
+    "station_name": "邑久",
+    "prefecture": "岡山県",
+    "line_name": "JR赤穂線",
+    "lat": 34.668526,
+    "lon": 134.091027
+  },
+  {
+    "station_id": "okayama_0144",
+    "station_name": "郵便局前",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌清輝橋線",
+    "lat": 34.662634,
+    "lon": 133.92628
+  },
+  {
+    "station_id": "okayama_0087",
+    "station_name": "里庄",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.507905,
+    "lon": 133.550763
+  },
+  {
+    "station_id": "okayama_0097",
+    "station_name": "野々口",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 34.771104,
+    "lon": 133.932603
+  },
+  {
+    "station_id": "okayama_0111",
+    "station_name": "野馳",
+    "prefecture": "岡山県",
+    "line_name": "JR芸備線",
+    "lat": 34.915046,
+    "lon": 133.316833
+  },
+  {
+    "station_id": "okayama_0085",
+    "station_name": "金光",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.540909,
+    "lon": 133.620826
+  },
+  {
+    "station_id": "okayama_0098",
+    "station_name": "金川",
+    "prefecture": "岡山県",
+    "line_name": "JR津山線",
+    "lat": 34.792029,
+    "lon": 133.933724
+  },
+  {
+    "station_id": "okayama_0119",
+    "station_name": "長船",
+    "prefecture": "岡山県",
+    "line_name": "JR赤穂線",
+    "lat": 34.699909,
+    "lon": 134.098828
+  },
+  {
+    "station_id": "okayama_0142",
+    "station_name": "門田屋敷",
+    "prefecture": "岡山県",
+    "line_name": "岡山電軌東山線",
+    "lat": 34.65621,
+    "lon": 133.938811
+  },
+  {
+    "station_id": "okayama_0043",
+    "station_name": "院庄",
+    "prefecture": "岡山県",
+    "line_name": "JR姫新線",
+    "lat": 35.059068,
+    "lon": 133.957617
+  },
+  {
+    "station_id": "okayama_0118",
+    "station_name": "香登",
+    "prefecture": "岡山県",
+    "line_name": "JR赤穂線",
+    "lat": 34.727737,
+    "lon": 134.119542
+  },
+  {
+    "station_id": "okayama_0078",
+    "station_name": "高島(岡山)",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.683074,
+    "lon": 133.95774
+  },
+  {
+    "station_id": "okayama_0033",
+    "station_name": "高野",
+    "prefecture": "岡山県",
+    "line_name": "JR因美線",
+    "lat": 35.080505,
+    "lon": 134.065834
+  },
+  {
+    "station_id": "okayama_0086",
+    "station_name": "鴨方",
+    "prefecture": "岡山県",
+    "line_name": "JR山陽本線",
+    "lat": 34.5273,
+    "lon": 133.587705
+  }
+]

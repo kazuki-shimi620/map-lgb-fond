@@ -1,0 +1,782 @@
+[
+  {
+    "prefecture": "青森県",
+    "station": "中央弘前",
+    "year": 2010,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "中央弘前",
+    "year": 2011,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "中央弘前",
+    "year": 2012,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "中央弘前",
+    "year": 2014,
+    "avg_price": 6600000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "中央弘前",
+    "year": 2018,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "中央弘前",
+    "year": 2019,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "中央弘前",
+    "year": 2021,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "中央弘前",
+    "year": 2022,
+    "avg_price": 2700000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "中央弘前",
+    "year": 2023,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "中央弘前",
+    "year": 2025,
+    "avg_price": 5100000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "八戸",
+    "year": 2008,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小中野",
+    "year": 2007,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小中野",
+    "year": 2009,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小中野",
+    "year": 2010,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小中野",
+    "year": 2012,
+    "avg_price": 8300000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小中野",
+    "year": 2015,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小中野",
+    "year": 2017,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小中野",
+    "year": 2022,
+    "avg_price": 13666666.666666666
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小中野",
+    "year": 2023,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小柳(青森)",
+    "year": 2008,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小柳(青森)",
+    "year": 2009,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小柳(青森)",
+    "year": 2012,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小柳(青森)",
+    "year": 2017,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小柳(青森)",
+    "year": 2019,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "小柳(青森)",
+    "year": 2023,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2007,
+    "avg_price": 7566666.666666667
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2008,
+    "avg_price": 8410526.315789474
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2009,
+    "avg_price": 11772727.272727273
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2010,
+    "avg_price": 8125000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2011,
+    "avg_price": 5777777.777777778
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2012,
+    "avg_price": 11973684.210526315
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2013,
+    "avg_price": 10954761.904761905
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2014,
+    "avg_price": 14584615.384615384
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2015,
+    "avg_price": 10442857.142857144
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2016,
+    "avg_price": 12322222.222222222
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2017,
+    "avg_price": 12490952.38095238
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2018,
+    "avg_price": 11489473.684210526
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2019,
+    "avg_price": 11773684.210526315
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2020,
+    "avg_price": 12076000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2021,
+    "avg_price": 13250000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2022,
+    "avg_price": 22127777.777777776
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2023,
+    "avg_price": 16747368.421052631
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2024,
+    "avg_price": 15460000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘前",
+    "year": 2025,
+    "avg_price": 18516129.032258064
+  },
+  {
+    "prefecture": "青森県",
+    "station": "弘高下",
+    "year": 2019,
+    "avg_price": 3550000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "新青森",
+    "year": 2008,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "新青森",
+    "year": 2010,
+    "avg_price": 4600000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "新青森",
+    "year": 2011,
+    "avg_price": 10400000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "新青森",
+    "year": 2014,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "新青森",
+    "year": 2021,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "新青森",
+    "year": 2025,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2007,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2008,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2009,
+    "avg_price": 8712500.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2010,
+    "avg_price": 11877777.777777778
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2011,
+    "avg_price": 20450000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2012,
+    "avg_price": 13600000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2013,
+    "avg_price": 9383333.333333334
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2014,
+    "avg_price": 13733333.333333334
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2015,
+    "avg_price": 7671428.571428572
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2016,
+    "avg_price": 10011111.111111112
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2017,
+    "avg_price": 11325000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2018,
+    "avg_price": 10780000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2019,
+    "avg_price": 12250000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2020,
+    "avg_price": 14025000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2021,
+    "avg_price": 4100000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2022,
+    "avg_price": 11619444.444444444
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2023,
+    "avg_price": 17011111.111111112
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2024,
+    "avg_price": 10716666.666666666
+  },
+  {
+    "prefecture": "青森県",
+    "station": "本八戸",
+    "year": 2025,
+    "avg_price": 12300000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2007,
+    "avg_price": 8766666.666666666
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2008,
+    "avg_price": 4100000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2009,
+    "avg_price": 15475000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2010,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2011,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2012,
+    "avg_price": 38000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2013,
+    "avg_price": 21666666.666666668
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2014,
+    "avg_price": 13650000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2015,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2016,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2017,
+    "avg_price": 9833333.333333334
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2018,
+    "avg_price": 13750000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2019,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2020,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2021,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2022,
+    "avg_price": 14600000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2024,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "東青森",
+    "year": 2025,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "浅虫温泉",
+    "year": 2007,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "浅虫温泉",
+    "year": 2012,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "浅虫温泉",
+    "year": 2013,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "浅虫温泉",
+    "year": 2015,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "浅虫温泉",
+    "year": 2019,
+    "avg_price": 3100000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "浅虫温泉",
+    "year": 2020,
+    "avg_price": 2800000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "浅虫温泉",
+    "year": 2021,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "浅虫温泉",
+    "year": 2022,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "浅虫温泉",
+    "year": 2025,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "矢田前",
+    "year": 2015,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "矢田前",
+    "year": 2022,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "石川(ＪＲ)",
+    "year": 2023,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "筒井(青森)",
+    "year": 2014,
+    "avg_price": 23600000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "筒井(青森)",
+    "year": 2015,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "筒井(青森)",
+    "year": 2016,
+    "avg_price": 15975000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "筒井(青森)",
+    "year": 2017,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "筒井(青森)",
+    "year": 2018,
+    "avg_price": 14600000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "筒井(青森)",
+    "year": 2019,
+    "avg_price": 13750000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "筒井(青森)",
+    "year": 2020,
+    "avg_price": 24250000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "筒井(青森)",
+    "year": 2021,
+    "avg_price": 11833333.333333334
+  },
+  {
+    "prefecture": "青森県",
+    "station": "筒井(青森)",
+    "year": 2023,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "筒井(青森)",
+    "year": 2024,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "筒井(青森)",
+    "year": 2025,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2007,
+    "avg_price": 10812500.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2008,
+    "avg_price": 15110526.315789474
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2009,
+    "avg_price": 12180000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2010,
+    "avg_price": 10952777.777777778
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2011,
+    "avg_price": 17641176.470588237
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2012,
+    "avg_price": 10188888.888888888
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2013,
+    "avg_price": 10084375.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2014,
+    "avg_price": 13512500.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2015,
+    "avg_price": 12313333.333333334
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2016,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2017,
+    "avg_price": 13771428.57142857
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2018,
+    "avg_price": 16447619.047619049
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2019,
+    "avg_price": 14768000.0
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2020,
+    "avg_price": 9685714.285714285
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2021,
+    "avg_price": 11485945.945945946
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2022,
+    "avg_price": 13289795.918367347
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2023,
+    "avg_price": 14625714.285714285
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2024,
+    "avg_price": 13817647.05882353
+  },
+  {
+    "prefecture": "青森県",
+    "station": "青森",
+    "year": 2025,
+    "avg_price": 18641935.48387097
+  }
+]

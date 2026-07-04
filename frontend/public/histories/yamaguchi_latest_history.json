@@ -1,0 +1,2312 @@
+[
+  {
+    "prefecture": "山口県",
+    "station": "上山口",
+    "year": 2012,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "上山口",
+    "year": 2013,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "上山口",
+    "year": 2018,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "上山口",
+    "year": 2019,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "上山口",
+    "year": 2021,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "上山口",
+    "year": 2022,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "上山口",
+    "year": 2023,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "上山口",
+    "year": 2024,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "上山口",
+    "year": 2025,
+    "avg_price": 17750000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "上郷",
+    "year": 2007,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "上郷",
+    "year": 2018,
+    "avg_price": 3600000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下松(山口)",
+    "year": 2021,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下松(山口)",
+    "year": 2022,
+    "avg_price": 21272727.272727273
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下松(山口)",
+    "year": 2023,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下松(山口)",
+    "year": 2024,
+    "avg_price": 20700000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下松(山口)",
+    "year": 2025,
+    "avg_price": 20741666.666666668
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2007,
+    "avg_price": 15725000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2008,
+    "avg_price": 11228571.42857143
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2009,
+    "avg_price": 15904347.826086957
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2010,
+    "avg_price": 12836363.636363637
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2011,
+    "avg_price": 14261904.761904761
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2012,
+    "avg_price": 12373529.411764706
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2013,
+    "avg_price": 10435294.11764706
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2014,
+    "avg_price": 14226086.956521738
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2015,
+    "avg_price": 14977777.777777778
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2016,
+    "avg_price": 14578947.368421054
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2017,
+    "avg_price": 17051250.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2018,
+    "avg_price": 12579166.666666666
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2019,
+    "avg_price": 16195652.173913043
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2020,
+    "avg_price": 11027777.777777778
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2021,
+    "avg_price": 11119230.76923077
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2022,
+    "avg_price": 10796000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2023,
+    "avg_price": 15844444.444444444
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2024,
+    "avg_price": 12783333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "下関",
+    "year": 2025,
+    "avg_price": 14812500.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "光",
+    "year": 2022,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "光",
+    "year": 2023,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "光",
+    "year": 2024,
+    "avg_price": 15600000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "光",
+    "year": 2025,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "南中川",
+    "year": 2024,
+    "avg_price": 16633333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "南中川",
+    "year": 2025,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "厚狭",
+    "year": 2022,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "周防下郷",
+    "year": 2014,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "周防下郷",
+    "year": 2017,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "周防下郷",
+    "year": 2019,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "周防下郷",
+    "year": 2021,
+    "avg_price": 9033333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "周防下郷",
+    "year": 2024,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "周防花岡",
+    "year": 2023,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "周防花岡",
+    "year": 2024,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "周防花岡",
+    "year": 2025,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "和木",
+    "year": 2009,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "埴生",
+    "year": 2011,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "大歳",
+    "year": 2025,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "妻崎",
+    "year": 2018,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "妻崎",
+    "year": 2019,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "妻崎",
+    "year": 2020,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "妻崎",
+    "year": 2023,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "妻崎",
+    "year": 2024,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "妻崎",
+    "year": 2025,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部",
+    "year": 2016,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部",
+    "year": 2020,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部",
+    "year": 2022,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部",
+    "year": 2024,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部",
+    "year": 2025,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部岬",
+    "year": 2008,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部岬",
+    "year": 2010,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部岬",
+    "year": 2012,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部岬",
+    "year": 2013,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部岬",
+    "year": 2014,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部岬",
+    "year": 2015,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部岬",
+    "year": 2016,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部岬",
+    "year": 2017,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部岬",
+    "year": 2018,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部岬",
+    "year": 2021,
+    "avg_price": 6600000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部岬",
+    "year": 2022,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部岬",
+    "year": 2023,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部岬",
+    "year": 2024,
+    "avg_price": 7933333.333333333
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2007,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2009,
+    "avg_price": 13125000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2010,
+    "avg_price": 15800000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2011,
+    "avg_price": 18166666.666666668
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2012,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2013,
+    "avg_price": 14057142.857142856
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2014,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2015,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2016,
+    "avg_price": 19200000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2017,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2018,
+    "avg_price": 14900000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2019,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2020,
+    "avg_price": 13580000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2021,
+    "avg_price": 12750000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2022,
+    "avg_price": 16107142.857142856
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2023,
+    "avg_price": 10595652.173913043
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2024,
+    "avg_price": 18407142.85714286
+  },
+  {
+    "prefecture": "山口県",
+    "station": "宇部新川",
+    "year": 2025,
+    "avg_price": 19857142.85714286
+  },
+  {
+    "prefecture": "山口県",
+    "station": "安岡",
+    "year": 2021,
+    "avg_price": 2200000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "小月",
+    "year": 2012,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "小月",
+    "year": 2014,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "小月",
+    "year": 2017,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "小月",
+    "year": 2019,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "小月",
+    "year": 2020,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "小月",
+    "year": 2024,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "小野田",
+    "year": 2024,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "小野田",
+    "year": 2025,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "居能",
+    "year": 2007,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "居能",
+    "year": 2009,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "居能",
+    "year": 2010,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "居能",
+    "year": 2013,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "居能",
+    "year": 2015,
+    "avg_price": 4400000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "居能",
+    "year": 2018,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "居能",
+    "year": 2020,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "居能",
+    "year": 2021,
+    "avg_price": 3550000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "居能",
+    "year": 2022,
+    "avg_price": 4900000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "居能",
+    "year": 2023,
+    "avg_price": 4850000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "居能",
+    "year": 2024,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "居能",
+    "year": 2025,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2007,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2008,
+    "avg_price": 15320000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2009,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2010,
+    "avg_price": 20500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2011,
+    "avg_price": 20016666.666666668
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2012,
+    "avg_price": 16200000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2013,
+    "avg_price": 15240000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2014,
+    "avg_price": 15615384.615384616
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2015,
+    "avg_price": 21317647.05882353
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2016,
+    "avg_price": 19760000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2017,
+    "avg_price": 19458333.333333332
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2018,
+    "avg_price": 8684545.454545455
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2019,
+    "avg_price": 15613333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2020,
+    "avg_price": 15637500.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2021,
+    "avg_price": 17538461.53846154
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2022,
+    "avg_price": 16272727.272727273
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2023,
+    "avg_price": 16675000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2024,
+    "avg_price": 17522727.272727273
+  },
+  {
+    "prefecture": "山口県",
+    "station": "山口(山口)",
+    "year": 2025,
+    "avg_price": 15275000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2007,
+    "avg_price": 13075000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2008,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2009,
+    "avg_price": 14922222.222222222
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2010,
+    "avg_price": 13106666.666666666
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2011,
+    "avg_price": 16130000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2012,
+    "avg_price": 16362500.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2013,
+    "avg_price": 15209090.909090908
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2014,
+    "avg_price": 13642857.142857144
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2015,
+    "avg_price": 10755555.555555556
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2016,
+    "avg_price": 13209090.909090908
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2017,
+    "avg_price": 14625000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2018,
+    "avg_price": 19200000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2019,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2020,
+    "avg_price": 13066666.666666666
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2021,
+    "avg_price": 18170000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2022,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2023,
+    "avg_price": 18428571.42857143
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2024,
+    "avg_price": 19400000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩国",
+    "year": 2025,
+    "avg_price": 17900000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩鼻",
+    "year": 2015,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩鼻",
+    "year": 2023,
+    "avg_price": 25666666.666666668
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩鼻",
+    "year": 2024,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "岩鼻",
+    "year": 2025,
+    "avg_price": 19666666.666666668
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2007,
+    "avg_price": 13533333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2008,
+    "avg_price": 11166666.666666666
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2009,
+    "avg_price": 16833333.333333332
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2010,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2011,
+    "avg_price": 11700000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2012,
+    "avg_price": 12328571.42857143
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2013,
+    "avg_price": 13341666.666666666
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2014,
+    "avg_price": 11345454.545454545
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2015,
+    "avg_price": 11883333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2016,
+    "avg_price": 12400000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2017,
+    "avg_price": 14142857.142857144
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2018,
+    "avg_price": 14111111.111111112
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2019,
+    "avg_price": 14200000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2020,
+    "avg_price": 13166666.666666666
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2021,
+    "avg_price": 13346666.666666666
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2022,
+    "avg_price": 17653846.153846152
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2023,
+    "avg_price": 14654545.454545455
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2024,
+    "avg_price": 14700000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "幡生",
+    "year": 2025,
+    "avg_price": 12969230.76923077
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2007,
+    "avg_price": 13088888.888888888
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2008,
+    "avg_price": 9351851.851851853
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2009,
+    "avg_price": 10448000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2010,
+    "avg_price": 17769767.441860463
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2011,
+    "avg_price": 9120000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2012,
+    "avg_price": 12303225.806451613
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2013,
+    "avg_price": 11442424.242424242
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2014,
+    "avg_price": 11933333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2015,
+    "avg_price": 12082142.857142856
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2016,
+    "avg_price": 11570588.235294119
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2017,
+    "avg_price": 11862400.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2018,
+    "avg_price": 11316129.032258065
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2019,
+    "avg_price": 12128571.42857143
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2020,
+    "avg_price": 12600000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2021,
+    "avg_price": 13572222.222222222
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2022,
+    "avg_price": 13916666.666666666
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2023,
+    "avg_price": 13943902.43902439
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2024,
+    "avg_price": 17107017.54385965
+  },
+  {
+    "prefecture": "山口県",
+    "station": "徳山",
+    "year": 2025,
+    "avg_price": 16475609.75609756
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2007,
+    "avg_price": 19333333.333333332
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2008,
+    "avg_price": 12709090.909090908
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2009,
+    "avg_price": 16907142.85714286
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2010,
+    "avg_price": 10333333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2011,
+    "avg_price": 15071428.57142857
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2012,
+    "avg_price": 10756250.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2013,
+    "avg_price": 21111111.111111112
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2014,
+    "avg_price": 19166666.666666668
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2015,
+    "avg_price": 12847619.047619049
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2016,
+    "avg_price": 15690000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2017,
+    "avg_price": 14542857.142857144
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2018,
+    "avg_price": 15454545.454545455
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2019,
+    "avg_price": 14812500.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2020,
+    "avg_price": 15931250.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2021,
+    "avg_price": 16550000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2022,
+    "avg_price": 16400000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2023,
+    "avg_price": 16457692.307692308
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2024,
+    "avg_price": 12100000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新下関",
+    "year": 2025,
+    "avg_price": 15678571.42857143
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2007,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2008,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2009,
+    "avg_price": 12875000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2011,
+    "avg_price": 15600000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2012,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2013,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2015,
+    "avg_price": 19666666.666666668
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2016,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2017,
+    "avg_price": 19800000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2018,
+    "avg_price": 22333333.333333332
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2021,
+    "avg_price": 13728571.42857143
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2022,
+    "avg_price": 13728571.42857143
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2023,
+    "avg_price": 19285714.285714287
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2024,
+    "avg_price": 20355555.555555556
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新南陽",
+    "year": 2025,
+    "avg_price": 15025000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2008,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2009,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2010,
+    "avg_price": 22150000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2011,
+    "avg_price": 20641666.666666668
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2012,
+    "avg_price": 14583333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2013,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2014,
+    "avg_price": 15150000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2015,
+    "avg_price": 14375000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2016,
+    "avg_price": 18633333.333333332
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2017,
+    "avg_price": 19400000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2018,
+    "avg_price": 17323076.923076924
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2019,
+    "avg_price": 18083333.333333332
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2020,
+    "avg_price": 19900000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2021,
+    "avg_price": 19785714.285714287
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2022,
+    "avg_price": 19073076.923076924
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2023,
+    "avg_price": 18165000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2024,
+    "avg_price": 18115000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "新山口",
+    "year": 2025,
+    "avg_price": 21157894.736842107
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2007,
+    "avg_price": 10250000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2008,
+    "avg_price": 14472222.222222222
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2009,
+    "avg_price": 8688888.888888888
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2010,
+    "avg_price": 9937500.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2011,
+    "avg_price": 5900000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2012,
+    "avg_price": 8795833.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2013,
+    "avg_price": 10220000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2014,
+    "avg_price": 11185714.285714285
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2015,
+    "avg_price": 8125000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2016,
+    "avg_price": 8033333.333333333
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2017,
+    "avg_price": 13288000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2018,
+    "avg_price": 11322222.222222222
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2019,
+    "avg_price": 12100000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2020,
+    "avg_price": 13050000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2021,
+    "avg_price": 12666666.666666666
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2022,
+    "avg_price": 7844444.444444444
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2023,
+    "avg_price": 13485714.285714285
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2024,
+    "avg_price": 9953846.153846154
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東新川(山口)",
+    "year": 2025,
+    "avg_price": 11322222.222222222
+  },
+  {
+    "prefecture": "山口県",
+    "station": "東萩",
+    "year": 2023,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "柳井",
+    "year": 2022,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "柳井",
+    "year": 2024,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "柳井",
+    "year": 2025,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "梶栗郷台地",
+    "year": 2021,
+    "avg_price": 4600000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "梶栗郷台地",
+    "year": 2022,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "櫛ケ浜",
+    "year": 2008,
+    "avg_price": 10150000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "櫛ケ浜",
+    "year": 2009,
+    "avg_price": 7366666.666666667
+  },
+  {
+    "prefecture": "山口県",
+    "station": "櫛ケ浜",
+    "year": 2010,
+    "avg_price": 21600000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "櫛ケ浜",
+    "year": 2011,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "櫛ケ浜",
+    "year": 2017,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "櫛ケ浜",
+    "year": 2018,
+    "avg_price": 10450000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "櫛ケ浜",
+    "year": 2019,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "櫛ケ浜",
+    "year": 2020,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "櫛ケ浜",
+    "year": 2021,
+    "avg_price": 8983333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "櫛ケ浜",
+    "year": 2022,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "櫛ケ浜",
+    "year": 2023,
+    "avg_price": 14837500.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "櫛ケ浜",
+    "year": 2024,
+    "avg_price": 21222222.222222224
+  },
+  {
+    "prefecture": "山口県",
+    "station": "櫛ケ浜",
+    "year": 2025,
+    "avg_price": 15176923.076923076
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2007,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2008,
+    "avg_price": 10750000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2009,
+    "avg_price": 6083333.333333333
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2010,
+    "avg_price": 8143333.333333333
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2011,
+    "avg_price": 6033333.333333333
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2012,
+    "avg_price": 5620000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2013,
+    "avg_price": 7788888.888888889
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2014,
+    "avg_price": 8840000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2015,
+    "avg_price": 6310000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2016,
+    "avg_price": 7249333.333333333
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2017,
+    "avg_price": 9446153.846153846
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2018,
+    "avg_price": 10558333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2019,
+    "avg_price": 9619090.909090908
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2020,
+    "avg_price": 10363636.363636363
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2021,
+    "avg_price": 7287500.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2022,
+    "avg_price": 9298333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2023,
+    "avg_price": 12941176.470588235
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2024,
+    "avg_price": 13947368.421052631
+  },
+  {
+    "prefecture": "山口県",
+    "station": "湯田温泉",
+    "year": 2025,
+    "avg_price": 9597222.222222222
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2007,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2008,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2009,
+    "avg_price": 7250000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2010,
+    "avg_price": 17333333.333333332
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2011,
+    "avg_price": 9250000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2012,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2013,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2014,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2015,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2016,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2017,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2018,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2019,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2020,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2021,
+    "avg_price": 13100000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2022,
+    "avg_price": 22600000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2023,
+    "avg_price": 22600000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2024,
+    "avg_price": 17615384.615384616
+  },
+  {
+    "prefecture": "山口県",
+    "station": "琴芝",
+    "year": 2025,
+    "avg_price": 15400000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "矢原",
+    "year": 2007,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "矢原",
+    "year": 2013,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "矢原",
+    "year": 2014,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "矢原",
+    "year": 2019,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "矢原",
+    "year": 2023,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "prefecture": "山口県",
+    "station": "矢原",
+    "year": 2024,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "矢原",
+    "year": 2025,
+    "avg_price": 14666666.666666666
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2010,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2012,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2013,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2014,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2015,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2016,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2017,
+    "avg_price": 12250000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2018,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2019,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2020,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2021,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2022,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2023,
+    "avg_price": 20200000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "綾羅木",
+    "year": 2024,
+    "avg_price": 13750000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2007,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2008,
+    "avg_price": 8366666.666666667
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2009,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2010,
+    "avg_price": 11040000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2011,
+    "avg_price": 7600000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2012,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2013,
+    "avg_price": 8428571.42857143
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2014,
+    "avg_price": 13400000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2015,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2016,
+    "avg_price": 13742857.142857144
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2017,
+    "avg_price": 17400000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2018,
+    "avg_price": 20750000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2019,
+    "avg_price": 15180000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2020,
+    "avg_price": 17450000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2021,
+    "avg_price": 14940000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2022,
+    "avg_price": 16358333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2023,
+    "avg_price": 14888888.888888888
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2024,
+    "avg_price": 17200000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "長府",
+    "year": 2025,
+    "avg_price": 13610000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "関門海峡めかり",
+    "year": 2024,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "関門海峡めかり",
+    "year": 2025,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2007,
+    "avg_price": 14050000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2008,
+    "avg_price": 7825000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2009,
+    "avg_price": 9614285.714285715
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2010,
+    "avg_price": 18981818.181818184
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2011,
+    "avg_price": 10760000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2012,
+    "avg_price": 10233333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2013,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2014,
+    "avg_price": 12200000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2015,
+    "avg_price": 22200000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2016,
+    "avg_price": 14261538.461538462
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2017,
+    "avg_price": 10433333.333333334
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2018,
+    "avg_price": 17666666.666666668
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2019,
+    "avg_price": 13175000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2020,
+    "avg_price": 19333333.333333332
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2021,
+    "avg_price": 16675000.0
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2022,
+    "avg_price": 16776190.476190476
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2023,
+    "avg_price": 16891304.347826086
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2024,
+    "avg_price": 13953846.153846154
+  },
+  {
+    "prefecture": "山口県",
+    "station": "防府",
+    "year": 2025,
+    "avg_price": 13215000.0
+  }
+]

@@ -1,0 +1,2858 @@
+[
+  {
+    "station_id": "hyogo_0084",
+    "station_name": "さくら夙川",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.739079,
+    "lon": 135.331093
+  },
+  {
+    "station_id": "hyogo_0058",
+    "station_name": "はりま勝原",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陽本線",
+    "lat": 34.810157,
+    "lon": 134.614105
+  },
+  {
+    "station_id": "hyogo_0111",
+    "station_name": "ひめじ別所",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.805544,
+    "lon": 134.753309
+  },
+  {
+    "station_id": "hyogo_0150",
+    "station_name": "みなとじま",
+    "prefecture": "兵庫県",
+    "line_name": "ポートアイランド線",
+    "lat": 34.668863,
+    "lon": 135.210105
+  },
+  {
+    "station_id": "hyogo_0248",
+    "station_name": "みなと元町",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市海岸線",
+    "lat": 34.685875,
+    "lon": 135.183973
+  },
+  {
+    "station_id": "hyogo_0255",
+    "station_name": "アイランドセンター",
+    "prefecture": "兵庫県",
+    "line_name": "神戸新交通六甲ライナー",
+    "lat": 34.689103,
+    "lon": 135.269347
+  },
+  {
+    "station_id": "hyogo_0254",
+    "station_name": "アイランド北口",
+    "prefecture": "兵庫県",
+    "line_name": "神戸新交通六甲ライナー",
+    "lat": 34.692853,
+    "lon": 135.26875
+  },
+  {
+    "station_id": "hyogo_0269",
+    "station_name": "ウッディタウン中央",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄公園都市線",
+    "lat": 34.909767,
+    "lon": 135.183707
+  },
+  {
+    "station_id": "hyogo_0385",
+    "station_name": "コウノトリの郷",
+    "prefecture": "兵庫県",
+    "line_name": "京都丹後鉄道宮豊線",
+    "lat": 35.552816,
+    "lon": 134.835391
+  },
+  {
+    "station_id": "hyogo_0247",
+    "station_name": "ハーバーランド",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市海岸線",
+    "lat": 34.678554,
+    "lon": 135.178657
+  },
+  {
+    "station_id": "hyogo_0267",
+    "station_name": "フラワータウン",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄公園都市線",
+    "lat": 34.88546,
+    "lon": 135.202334
+  },
+  {
+    "station_id": "hyogo_0148",
+    "station_name": "ポートターミナル",
+    "prefecture": "兵庫県",
+    "line_name": "ポートアイランド線",
+    "lat": 34.681501,
+    "lon": 135.202205
+  },
+  {
+    "station_id": "hyogo_0256",
+    "station_name": "マリンパーク",
+    "prefecture": "兵庫県",
+    "line_name": "神戸新交通六甲ライナー",
+    "lat": 34.684176,
+    "lon": 135.270077
+  },
+  {
+    "station_id": "hyogo_0317",
+    "station_name": "一の鳥居",
+    "prefecture": "兵庫県",
+    "line_name": "能勢電鉄妙見線",
+    "lat": 34.879599,
+    "lon": 135.419888
+  },
+  {
+    "station_id": "hyogo_0092",
+    "station_name": "三ノ宮(ＪＲ)",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.694766,
+    "lon": 135.195058
+  },
+  {
+    "station_id": "hyogo_0146",
+    "station_name": "三宮(神戸市営)",
+    "prefecture": "兵庫県",
+    "line_name": "ポートアイランド線",
+    "lat": 34.694563,
+    "lon": 135.195306
+  },
+  {
+    "station_id": "hyogo_0250",
+    "station_name": "三宮・花時計前",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市海岸線",
+    "lat": 34.691618,
+    "lon": 135.195538
+  },
+  {
+    "station_id": "hyogo_0033",
+    "station_name": "三日月",
+    "prefecture": "兵庫県",
+    "line_name": "JR姫新線",
+    "lat": 34.984846,
+    "lon": 134.435318
+  },
+  {
+    "station_id": "hyogo_0295",
+    "station_name": "三木(神戸電鉄)",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.799814,
+    "lon": 134.981477
+  },
+  {
+    "station_id": "hyogo_0294",
+    "station_name": "三木上の丸",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.800013,
+    "lon": 134.988814
+  },
+  {
+    "station_id": "hyogo_0125",
+    "station_name": "三田(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.888787,
+    "lon": 135.22979
+  },
+  {
+    "station_id": "hyogo_0265",
+    "station_name": "三田本町",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄三田線",
+    "lat": 34.881805,
+    "lon": 135.229606
+  },
+  {
+    "station_id": "hyogo_0036",
+    "station_name": "上月",
+    "prefecture": "兵庫県",
+    "line_name": "JR姫新線",
+    "lat": 34.983425,
+    "lon": 134.32251
+  },
+  {
+    "station_id": "hyogo_0230",
+    "station_name": "上沢",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市西神・山手線",
+    "lat": 34.673251,
+    "lon": 135.158331
+  },
+  {
+    "station_id": "hyogo_0063",
+    "station_name": "上郡",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陽本線",
+    "lat": 34.865845,
+    "lon": 134.354081
+  },
+  {
+    "station_id": "hyogo_0135",
+    "station_name": "下滝",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 35.08791,
+    "lon": 135.094268
+  },
+  {
+    "station_id": "hyogo_0190",
+    "station_name": "中八木",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.670832,
+    "lon": 134.936128
+  },
+  {
+    "station_id": "hyogo_0149",
+    "station_name": "中公園",
+    "prefecture": "兵庫県",
+    "line_name": "ポートアイランド線",
+    "lat": 34.673124,
+    "lon": 135.207483
+  },
+  {
+    "station_id": "hyogo_0156",
+    "station_name": "中埠頭",
+    "prefecture": "兵庫県",
+    "line_name": "ポートアイランド線",
+    "lat": 34.669266,
+    "lon": 135.217096
+  },
+  {
+    "station_id": "hyogo_0246",
+    "station_name": "中央市場前",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市海岸線",
+    "lat": 34.666199,
+    "lon": 135.175866
+  },
+  {
+    "station_id": "hyogo_0119",
+    "station_name": "中山寺",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.816627,
+    "lon": 135.373993
+  },
+  {
+    "station_id": "hyogo_0338",
+    "station_name": "中山観音",
+    "prefecture": "兵庫県",
+    "line_name": "阪急宝塚本線",
+    "lat": 34.819518,
+    "lon": 135.369235
+  },
+  {
+    "station_id": "hyogo_0272",
+    "station_name": "丸山(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄有馬線",
+    "lat": 34.685913,
+    "lon": 135.143993
+  },
+  {
+    "station_id": "hyogo_0134",
+    "station_name": "丹波大山",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 35.072369,
+    "lon": 135.168533
+  },
+  {
+    "station_id": "hyogo_0140",
+    "station_name": "丹波竹田",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 35.24373,
+    "lon": 135.133908
+  },
+  {
+    "station_id": "hyogo_0020",
+    "station_name": "久下村",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 35.075812,
+    "lon": 135.030557
+  },
+  {
+    "station_id": "hyogo_0371",
+    "station_name": "久寿川",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.726975,
+    "lon": 135.356811
+  },
+  {
+    "station_id": "hyogo_0222",
+    "station_name": "久崎",
+    "prefecture": "兵庫県",
+    "line_name": "智頭急行智頭線",
+    "lat": 34.960153,
+    "lon": 134.344237
+  },
+  {
+    "station_id": "hyogo_0052",
+    "station_name": "久谷",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.627549,
+    "lon": 134.517374
+  },
+  {
+    "station_id": "hyogo_0210",
+    "station_name": "亀山(三重)",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.810672,
+    "lon": 134.676765
+  },
+  {
+    "station_id": "hyogo_0261",
+    "station_name": "二郎",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄三田線",
+    "lat": 34.848818,
+    "lon": 135.227017
+  },
+  {
+    "station_id": "hyogo_0258",
+    "station_name": "五社",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄三田線",
+    "lat": 34.806253,
+    "lon": 135.216243
+  },
+  {
+    "station_id": "hyogo_0064",
+    "station_name": "京口",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 34.834672,
+    "lon": 134.70535
+  },
+  {
+    "station_id": "hyogo_0185",
+    "station_name": "人丸前",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.647556,
+    "lon": 135.002592
+  },
+  {
+    "station_id": "hyogo_0326",
+    "station_name": "仁川",
+    "prefecture": "兵庫県",
+    "line_name": "阪急今津線",
+    "lat": 34.775117,
+    "lon": 135.356854
+  },
+  {
+    "station_id": "hyogo_0067",
+    "station_name": "仁豊野",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 34.885144,
+    "lon": 134.728315
+  },
+  {
+    "station_id": "hyogo_0331",
+    "station_name": "今津(阪急)",
+    "prefecture": "兵庫県",
+    "line_name": "阪急今津線",
+    "lat": 34.732015,
+    "lon": 135.351573
+  },
+  {
+    "station_id": "hyogo_0116",
+    "station_name": "伊丹(阪急)",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.78065,
+    "lon": 135.421686
+  },
+  {
+    "station_id": "hyogo_0202",
+    "station_name": "伊保",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.767171,
+    "lon": 134.787048
+  },
+  {
+    "station_id": "hyogo_0238",
+    "station_name": "伊川谷",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市西神・山手線",
+    "lat": 34.68785,
+    "lon": 135.041313
+  },
+  {
+    "station_id": "hyogo_0088",
+    "station_name": "住吉(大阪)",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.719595,
+    "lon": 135.261859
+  },
+  {
+    "station_id": "hyogo_0047",
+    "station_name": "佐津",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.65314,
+    "lon": 134.685856
+  },
+  {
+    "station_id": "hyogo_0035",
+    "station_name": "佐用",
+    "prefecture": "兵庫県",
+    "line_name": "JR姫新線",
+    "lat": 35.003579,
+    "lon": 134.356538
+  },
+  {
+    "station_id": "hyogo_0026",
+    "station_name": "余部",
+    "prefecture": "兵庫県",
+    "line_name": "JR姫新線",
+    "lat": 34.856483,
+    "lon": 134.642783
+  },
+  {
+    "station_id": "hyogo_0145",
+    "station_name": "備前福河",
+    "prefecture": "兵庫県",
+    "line_name": "JR赤穂線",
+    "lat": 34.746681,
+    "lon": 134.331664
+  },
+  {
+    "station_id": "hyogo_0093",
+    "station_name": "元町(阪神)",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.689602,
+    "lon": 135.187401
+  },
+  {
+    "station_id": "hyogo_0206",
+    "station_name": "八家",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.784144,
+    "lon": 134.72188
+  },
+  {
+    "station_id": "hyogo_0040",
+    "station_name": "八鹿",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.414287,
+    "lon": 134.781403
+  },
+  {
+    "station_id": "hyogo_0349",
+    "station_name": "六甲",
+    "prefecture": "兵庫県",
+    "line_name": "阪急神戸本線",
+    "lat": 34.719891,
+    "lon": 135.234371
+  },
+  {
+    "station_id": "hyogo_0158",
+    "station_name": "六甲ケーブル下",
+    "prefecture": "兵庫県",
+    "line_name": "六甲ケーブル線",
+    "lat": 34.737349,
+    "lon": 135.233552
+  },
+  {
+    "station_id": "hyogo_0159",
+    "station_name": "六甲山上",
+    "prefecture": "兵庫県",
+    "line_name": "六甲ケーブル線",
+    "lat": 34.751944,
+    "lon": 135.236899
+  },
+  {
+    "station_id": "hyogo_0089",
+    "station_name": "六甲道",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.714945,
+    "lon": 135.238588
+  },
+  {
+    "station_id": "hyogo_0022",
+    "station_name": "兵庫",
+    "prefecture": "兵庫県",
+    "line_name": "JR和田岬線",
+    "lat": 34.668343,
+    "lon": 135.164706
+  },
+  {
+    "station_id": "hyogo_0376",
+    "station_name": "出屋敷",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.718232,
+    "lon": 135.404604
+  },
+  {
+    "station_id": "hyogo_0197",
+    "station_name": "別府(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.730206,
+    "lon": 134.850702
+  },
+  {
+    "station_id": "hyogo_0001",
+    "station_name": "加古川",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.767666,
+    "lon": 134.839447
+  },
+  {
+    "station_id": "hyogo_0117",
+    "station_name": "北伊丹",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.801349,
+    "lon": 135.419326
+  },
+  {
+    "station_id": "hyogo_0157",
+    "station_name": "北埠頭",
+    "prefecture": "兵庫県",
+    "line_name": "ポートアイランド線",
+    "lat": 34.673566,
+    "lon": 135.214632
+  },
+  {
+    "station_id": "hyogo_0167",
+    "station_name": "北条町",
+    "prefecture": "兵庫県",
+    "line_name": "北条鉄道",
+    "lat": 34.929664,
+    "lon": 134.832617
+  },
+  {
+    "station_id": "hyogo_0275",
+    "station_name": "北鈴蘭台",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄有馬線",
+    "lat": 34.739549,
+    "lon": 135.151917
+  },
+  {
+    "station_id": "hyogo_0152",
+    "station_name": "医療センター",
+    "prefecture": "兵庫県",
+    "line_name": "ポートアイランド線",
+    "lat": 34.658578,
+    "lon": 135.216343
+  },
+  {
+    "station_id": "hyogo_0031",
+    "station_name": "千本",
+    "prefecture": "兵庫県",
+    "line_name": "JR姫新線",
+    "lat": 34.942508,
+    "lon": 134.494327
+  },
+  {
+    "station_id": "hyogo_0268",
+    "station_name": "南ウッディタウン",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄公園都市線",
+    "lat": 34.901729,
+    "lon": 135.189612
+  },
+  {
+    "station_id": "hyogo_0155",
+    "station_name": "南公園",
+    "prefecture": "兵庫県",
+    "line_name": "ポートアイランド線",
+    "lat": 34.664666,
+    "lon": 135.217007
+  },
+  {
+    "station_id": "hyogo_0132",
+    "station_name": "南矢代",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 35.037697,
+    "lon": 135.174875
+  },
+  {
+    "station_id": "hyogo_0253",
+    "station_name": "南魚崎",
+    "prefecture": "兵庫県",
+    "line_name": "神戸新交通六甲ライナー",
+    "lat": 34.706751,
+    "lon": 135.267661
+  },
+  {
+    "station_id": "hyogo_0004",
+    "station_name": "厄神",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.794623,
+    "lon": 134.90682
+  },
+  {
+    "station_id": "hyogo_0131",
+    "station_name": "古市(大阪)",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 35.021932,
+    "lon": 135.154808
+  },
+  {
+    "station_id": "hyogo_0235",
+    "station_name": "名谷",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市西神・山手線",
+    "lat": 34.67936,
+    "lon": 135.094725
+  },
+  {
+    "station_id": "hyogo_0038",
+    "station_name": "和田山",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.34141,
+    "lon": 134.85137
+  },
+  {
+    "station_id": "hyogo_0023",
+    "station_name": "和田岬",
+    "prefecture": "兵庫県",
+    "line_name": "JR和田岬線",
+    "lat": 34.657278,
+    "lon": 135.174268
+  },
+  {
+    "station_id": "hyogo_0281",
+    "station_name": "唐櫃台",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄有馬線",
+    "lat": 34.790297,
+    "lon": 135.211461
+  },
+  {
+    "station_id": "hyogo_0042",
+    "station_name": "国府",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.496213,
+    "lon": 134.800016
+  },
+  {
+    "station_id": "hyogo_0344",
+    "station_name": "園田",
+    "prefecture": "兵庫県",
+    "line_name": "阪急神戸本線",
+    "lat": 34.751905,
+    "lon": 135.448186
+  },
+  {
+    "station_id": "hyogo_0107",
+    "station_name": "土山",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.720482,
+    "lon": 134.888921
+  },
+  {
+    "station_id": "hyogo_0142",
+    "station_name": "坂越",
+    "prefecture": "兵庫県",
+    "line_name": "JR赤穂線",
+    "lat": 34.768679,
+    "lon": 134.417244
+  },
+  {
+    "station_id": "hyogo_0100",
+    "station_name": "垂水",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.629252,
+    "lon": 135.053872
+  },
+  {
+    "station_id": "hyogo_0045",
+    "station_name": "城崎温泉",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.623764,
+    "lon": 134.813437
+  },
+  {
+    "station_id": "hyogo_0114",
+    "station_name": "塚口(阪急)",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.751028,
+    "lon": 135.424948
+  },
+  {
+    "station_id": "hyogo_0099",
+    "station_name": "塩屋(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.633507,
+    "lon": 135.083361
+  },
+  {
+    "station_id": "hyogo_0339",
+    "station_name": "売布神社",
+    "prefecture": "兵庫県",
+    "line_name": "阪急宝塚本線",
+    "lat": 34.815863,
+    "lon": 135.361339
+  },
+  {
+    "station_id": "hyogo_0341",
+    "station_name": "夙川",
+    "prefecture": "兵庫県",
+    "line_name": "阪急甲陽線",
+    "lat": 34.742246,
+    "lon": 135.328207
+  },
+  {
+    "station_id": "hyogo_0315",
+    "station_name": "多田(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "能勢電鉄妙見線",
+    "lat": 34.860815,
+    "lon": 135.416497
+  },
+  {
+    "station_id": "hyogo_0214",
+    "station_name": "夢前川",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄網干線",
+    "lat": 34.798695,
+    "lon": 134.639457
+  },
+  {
+    "station_id": "hyogo_0105",
+    "station_name": "大久保(京都)",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.681914,
+    "lon": 134.939194
+  },
+  {
+    "station_id": "hyogo_0228",
+    "station_name": "大倉山(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市西神・山手線",
+    "lat": 34.684614,
+    "lon": 135.174527
+  },
+  {
+    "station_id": "hyogo_0204",
+    "station_name": "大塩",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.779346,
+    "lon": 134.757531
+  },
+  {
+    "station_id": "hyogo_0296",
+    "station_name": "大村",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.808707,
+    "lon": 134.97146
+  },
+  {
+    "station_id": "hyogo_0279",
+    "station_name": "大池",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄有馬線",
+    "lat": 34.780978,
+    "lon": 135.198693
+  },
+  {
+    "station_id": "hyogo_0378",
+    "station_name": "大物",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.716583,
+    "lon": 135.425549
+  },
+  {
+    "station_id": "hyogo_0358",
+    "station_name": "大石",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.707671,
+    "lon": 135.231055
+  },
+  {
+    "station_id": "hyogo_0184",
+    "station_name": "大蔵谷",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.646585,
+    "lon": 135.008367
+  },
+  {
+    "station_id": "hyogo_0304",
+    "station_name": "大開",
+    "prefecture": "兵庫県",
+    "line_name": "神戸高速鉄道東西線",
+    "lat": 34.671179,
+    "lon": 135.161709
+  },
+  {
+    "station_id": "hyogo_0144",
+    "station_name": "天和",
+    "prefecture": "兵庫県",
+    "line_name": "JR赤穂線",
+    "lat": 34.749097,
+    "lon": 134.351418
+  },
+  {
+    "station_id": "hyogo_0027",
+    "station_name": "太市",
+    "prefecture": "兵庫県",
+    "line_name": "JR姫新線",
+    "lat": 34.863998,
+    "lon": 134.607087
+  },
+  {
+    "station_id": "hyogo_0234",
+    "station_name": "妙法寺(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市西神・山手線",
+    "lat": 34.675194,
+    "lon": 135.110002
+  },
+  {
+    "station_id": "hyogo_0208",
+    "station_name": "妻鹿",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.792271,
+    "lon": 134.692969
+  },
+  {
+    "station_id": "hyogo_0024",
+    "station_name": "姫路",
+    "prefecture": "兵庫県",
+    "line_name": "JR姫新線",
+    "lat": 34.827659,
+    "lon": 134.690769
+  },
+  {
+    "station_id": "hyogo_0237",
+    "station_name": "学園都市",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市西神・山手線",
+    "lat": 34.681471,
+    "lon": 135.057687
+  },
+  {
+    "station_id": "hyogo_0120",
+    "station_name": "宝塚",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.811562,
+    "lon": 135.340399
+  },
+  {
+    "station_id": "hyogo_0323",
+    "station_name": "宝塚南口",
+    "prefecture": "兵庫県",
+    "line_name": "阪急今津線",
+    "lat": 34.804256,
+    "lon": 135.345918
+  },
+  {
+    "station_id": "hyogo_0109",
+    "station_name": "宝殿",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.784795,
+    "lon": 134.812158
+  },
+  {
+    "station_id": "hyogo_0074",
+    "station_name": "寺前",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 35.065462,
+    "lon": 134.743255
+  },
+  {
+    "station_id": "hyogo_0325",
+    "station_name": "小林(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "阪急今津線",
+    "lat": 34.789396,
+    "lon": 135.352282
+  },
+  {
+    "station_id": "hyogo_0299",
+    "station_name": "小野(京都)",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.843172,
+    "lon": 134.934146
+  },
+  {
+    "station_id": "hyogo_0006",
+    "station_name": "小野町",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.833601,
+    "lon": 134.918466
+  },
+  {
+    "station_id": "hyogo_0080",
+    "station_name": "尼崎(阪神)",
+    "prefecture": "兵庫県",
+    "line_name": "JR東西線",
+    "lat": 34.731791,
+    "lon": 135.431685
+  },
+  {
+    "station_id": "hyogo_0375",
+    "station_name": "尼崎センタープール前",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.71776,
+    "lon": 135.395044
+  },
+  {
+    "station_id": "hyogo_0199",
+    "station_name": "尾上の松",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.748576,
+    "lon": 134.820794
+  },
+  {
+    "station_id": "hyogo_0055",
+    "station_name": "居組",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.606982,
+    "lon": 134.393736
+  },
+  {
+    "station_id": "hyogo_0276",
+    "station_name": "山の街",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄有馬線",
+    "lat": 34.746171,
+    "lon": 135.153211
+  },
+  {
+    "station_id": "hyogo_0319",
+    "station_name": "山下(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "能勢電鉄妙見線",
+    "lat": 34.892926,
+    "lon": 135.412172
+  },
+  {
+    "station_id": "hyogo_0337",
+    "station_name": "山本(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "阪急宝塚本線",
+    "lat": 34.821918,
+    "lon": 135.388503
+  },
+  {
+    "station_id": "hyogo_0180",
+    "station_name": "山陽垂水",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.629468,
+    "lon": 135.053622
+  },
+  {
+    "station_id": "hyogo_0177",
+    "station_name": "山陽塩屋",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.633579,
+    "lon": 135.082389
+  },
+  {
+    "station_id": "hyogo_0216",
+    "station_name": "山陽天満",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄網干線",
+    "lat": 34.796378,
+    "lon": 134.61741
+  },
+  {
+    "station_id": "hyogo_0212",
+    "station_name": "山陽姫路",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.828783,
+    "lon": 134.689263
+  },
+  {
+    "station_id": "hyogo_0186",
+    "station_name": "山陽明石",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.648725,
+    "lon": 134.99294
+  },
+  {
+    "station_id": "hyogo_0203",
+    "station_name": "山陽曽根",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.77553,
+    "lon": 134.77321
+  },
+  {
+    "station_id": "hyogo_0218",
+    "station_name": "山陽網干",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄網干線",
+    "lat": 34.787002,
+    "lon": 134.587953
+  },
+  {
+    "station_id": "hyogo_0175",
+    "station_name": "山陽須磨",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.643459,
+    "lon": 135.112208
+  },
+  {
+    "station_id": "hyogo_0193",
+    "station_name": "山陽魚住",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.689252,
+    "lon": 134.901953
+  },
+  {
+    "station_id": "hyogo_0259",
+    "station_name": "岡場",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄三田線",
+    "lat": 34.821707,
+    "lon": 135.222443
+  },
+  {
+    "station_id": "hyogo_0347",
+    "station_name": "岡本(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "阪急神戸本線",
+    "lat": 34.729171,
+    "lon": 135.275937
+  },
+  {
+    "station_id": "hyogo_0356",
+    "station_name": "岩屋(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.704065,
+    "lon": 135.217962
+  },
+  {
+    "station_id": "hyogo_0118",
+    "station_name": "川西池田",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.824857,
+    "lon": 135.409901
+  },
+  {
+    "station_id": "hyogo_0310",
+    "station_name": "川西能勢口",
+    "prefecture": "兵庫県",
+    "line_name": "能勢電鉄妙見線",
+    "lat": 34.827654,
+    "lon": 135.413393
+  },
+  {
+    "station_id": "hyogo_0005",
+    "station_name": "市場",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.819352,
+    "lon": 134.932494
+  },
+  {
+    "station_id": "hyogo_0139",
+    "station_name": "市島",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 35.207868,
+    "lon": 135.130198
+  },
+  {
+    "station_id": "hyogo_0151",
+    "station_name": "市民広場",
+    "prefecture": "兵庫県",
+    "line_name": "ポートアイランド線",
+    "lat": 34.664897,
+    "lon": 135.212455
+  },
+  {
+    "station_id": "hyogo_0217",
+    "station_name": "平松",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄網干線",
+    "lat": 34.790751,
+    "lon": 134.601001
+  },
+  {
+    "station_id": "hyogo_0223",
+    "station_name": "平福",
+    "prefecture": "兵庫県",
+    "line_name": "智頭急行智頭線",
+    "lat": 35.044206,
+    "lon": 134.372079
+  },
+  {
+    "station_id": "hyogo_0316",
+    "station_name": "平野(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "能勢電鉄妙見線",
+    "lat": 34.868719,
+    "lon": 135.417266
+  },
+  {
+    "station_id": "hyogo_0215",
+    "station_name": "広畑",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄網干線",
+    "lat": 34.797736,
+    "lon": 134.62815
+  },
+  {
+    "station_id": "hyogo_0127",
+    "station_name": "広野(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.928424,
+    "lon": 135.191267
+  },
+  {
+    "station_id": "hyogo_0291",
+    "station_name": "広野ゴルフ場前",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.770269,
+    "lon": 135.023069
+  },
+  {
+    "station_id": "hyogo_0244",
+    "station_name": "御崎公園",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市海岸線",
+    "lat": 34.654641,
+    "lon": 135.164998
+  },
+  {
+    "station_id": "hyogo_0348",
+    "station_name": "御影(阪急)",
+    "prefecture": "兵庫県",
+    "line_name": "阪急神戸本線",
+    "lat": 34.724508,
+    "lon": 135.251803
+  },
+  {
+    "station_id": "hyogo_0112",
+    "station_name": "御着",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.816944,
+    "lon": 134.735486
+  },
+  {
+    "station_id": "hyogo_0292",
+    "station_name": "志染",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.782459,
+    "lon": 135.007598
+  },
+  {
+    "station_id": "hyogo_0293",
+    "station_name": "恵比須",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.797805,
+    "lon": 134.99861
+  },
+  {
+    "station_id": "hyogo_0211",
+    "station_name": "手柄",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.81986,
+    "lon": 134.681403
+  },
+  {
+    "station_id": "hyogo_0056",
+    "station_name": "手柄山平和",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陽本線",
+    "lat": 34.823351,
+    "lon": 134.671585
+  },
+  {
+    "station_id": "hyogo_0367",
+    "station_name": "打出",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.731616,
+    "lon": 135.315481
+  },
+  {
+    "station_id": "hyogo_0289",
+    "station_name": "押部谷",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.756609,
+    "lon": 135.03932
+  },
+  {
+    "station_id": "hyogo_0087",
+    "station_name": "摂津本山",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.726661,
+    "lon": 135.27699
+  },
+  {
+    "station_id": "hyogo_0090",
+    "station_name": "摩耶",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.708667,
+    "lon": 135.225167
+  },
+  {
+    "station_id": "hyogo_0383",
+    "station_name": "摩耶ケーブル",
+    "prefecture": "兵庫県",
+    "line_name": "摩耶ケーブル線",
+    "lat": 34.719961,
+    "lon": 135.216088
+  },
+  {
+    "station_id": "hyogo_0143",
+    "station_name": "播州赤穂",
+    "prefecture": "兵庫県",
+    "line_name": "JR赤穂線",
+    "lat": 34.756601,
+    "lon": 134.392976
+  },
+  {
+    "station_id": "hyogo_0164",
+    "station_name": "播磨下里",
+    "prefecture": "兵庫県",
+    "line_name": "北条鉄道",
+    "lat": 34.886258,
+    "lon": 134.840114
+  },
+  {
+    "station_id": "hyogo_0034",
+    "station_name": "播磨徳久",
+    "prefecture": "兵庫県",
+    "line_name": "JR姫新線",
+    "lat": 34.990473,
+    "lon": 134.385711
+  },
+  {
+    "station_id": "hyogo_0030",
+    "station_name": "播磨新宮",
+    "prefecture": "兵庫県",
+    "line_name": "JR姫新線",
+    "lat": 34.921442,
+    "lon": 134.545766
+  },
+  {
+    "station_id": "hyogo_0166",
+    "station_name": "播磨横田",
+    "prefecture": "兵庫県",
+    "line_name": "北条鉄道",
+    "lat": 34.91048,
+    "lon": 134.825246
+  },
+  {
+    "station_id": "hyogo_0196",
+    "station_name": "播磨町",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.716574,
+    "lon": 134.868159
+  },
+  {
+    "station_id": "hyogo_0025",
+    "station_name": "播磨高岡",
+    "prefecture": "兵庫県",
+    "line_name": "JR姫新線",
+    "lat": 34.841918,
+    "lon": 134.658674
+  },
+  {
+    "station_id": "hyogo_0126",
+    "station_name": "新三田",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.910183,
+    "lon": 135.20861
+  },
+  {
+    "station_id": "hyogo_0077",
+    "station_name": "新井",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 35.236471,
+    "lon": 134.79508
+  },
+  {
+    "station_id": "hyogo_0334",
+    "station_name": "新伊丹",
+    "prefecture": "兵庫県",
+    "line_name": "阪急伊丹線",
+    "lat": 34.772574,
+    "lon": 135.415479
+  },
+  {
+    "station_id": "hyogo_0359",
+    "station_name": "新在家",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.710573,
+    "lon": 135.240565
+  },
+  {
+    "station_id": "hyogo_0169",
+    "station_name": "新神戸",
+    "prefecture": "兵庫県",
+    "line_name": "北神急行",
+    "lat": 34.706417,
+    "lon": 135.195758
+  },
+  {
+    "station_id": "hyogo_0014",
+    "station_name": "新西脇",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.977907,
+    "lon": 134.977563
+  },
+  {
+    "station_id": "hyogo_0073",
+    "station_name": "新野",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 35.050278,
+    "lon": 134.752482
+  },
+  {
+    "station_id": "hyogo_0095",
+    "station_name": "新長田",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.657525,
+    "lon": 135.145193
+  },
+  {
+    "station_id": "hyogo_0302",
+    "station_name": "新開地",
+    "prefecture": "兵庫県",
+    "line_name": "神戸高速神鉄線",
+    "lat": 34.675981,
+    "lon": 135.169291
+  },
+  {
+    "station_id": "hyogo_0002",
+    "station_name": "日岡",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.778643,
+    "lon": 134.857153
+  },
+  {
+    "station_id": "hyogo_0016",
+    "station_name": "日本へそ公園",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 35.002069,
+    "lon": 134.997633
+  },
+  {
+    "station_id": "hyogo_0321",
+    "station_name": "日生中央",
+    "prefecture": "兵庫県",
+    "line_name": "能勢電鉄日生線",
+    "lat": 34.906447,
+    "lon": 135.393216
+  },
+  {
+    "station_id": "hyogo_0249",
+    "station_name": "旧居留地・大丸前",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市海岸線",
+    "lat": 34.689369,
+    "lon": 135.189836
+  },
+  {
+    "station_id": "hyogo_0103",
+    "station_name": "明石",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.649084,
+    "lon": 134.992512
+  },
+  {
+    "station_id": "hyogo_0351",
+    "station_name": "春日野道(阪急)",
+    "prefecture": "兵庫県",
+    "line_name": "阪急神戸本線",
+    "lat": 34.70299,
+    "lon": 135.205396
+  },
+  {
+    "station_id": "hyogo_0110",
+    "station_name": "曽根(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.793304,
+    "lon": 134.769838
+  },
+  {
+    "station_id": "hyogo_0173",
+    "station_name": "月見山",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.649992,
+    "lon": 135.121949
+  },
+  {
+    "station_id": "hyogo_0062",
+    "station_name": "有年",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陽本線",
+    "lat": 34.829263,
+    "lon": 134.395568
+  },
+  {
+    "station_id": "hyogo_0257",
+    "station_name": "有馬口",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄三田線",
+    "lat": 34.796477,
+    "lon": 135.221018
+  },
+  {
+    "station_id": "hyogo_0282",
+    "station_name": "有馬温泉",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄有馬線",
+    "lat": 34.799385,
+    "lon": 135.245868
+  },
+  {
+    "station_id": "hyogo_0102",
+    "station_name": "朝霧",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.644196,
+    "lon": 135.017485
+  },
+  {
+    "station_id": "hyogo_0287",
+    "station_name": "木幡(京阪)",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.748308,
+    "lon": 135.071218
+  },
+  {
+    "station_id": "hyogo_0286",
+    "station_name": "木津(京都)",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.744106,
+    "lon": 135.088406
+  },
+  {
+    "station_id": "hyogo_0028",
+    "station_name": "本竜野",
+    "prefecture": "兵庫県",
+    "line_name": "JR姫新線",
+    "lat": 34.861762,
+    "lon": 134.555611
+  },
+  {
+    "station_id": "hyogo_0018",
+    "station_name": "本黒田",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 35.052941,
+    "lon": 134.99591
+  },
+  {
+    "station_id": "hyogo_0379",
+    "station_name": "杭瀬",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.718272,
+    "lon": 135.43884
+  },
+  {
+    "station_id": "hyogo_0194",
+    "station_name": "東二見",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.700359,
+    "lon": 134.887924
+  },
+  {
+    "station_id": "hyogo_0108",
+    "station_name": "東加古川",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.745857,
+    "lon": 134.869244
+  },
+  {
+    "station_id": "hyogo_0179",
+    "station_name": "東垂水",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.629216,
+    "lon": 135.063646
+  },
+  {
+    "station_id": "hyogo_0113",
+    "station_name": "東姫路",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.824361,
+    "lon": 134.712472
+  },
+  {
+    "station_id": "hyogo_0029",
+    "station_name": "東觜崎",
+    "prefecture": "兵庫県",
+    "line_name": "JR姫新線",
+    "lat": 34.887629,
+    "lon": 134.557685
+  },
+  {
+    "station_id": "hyogo_0172",
+    "station_name": "東須磨",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.655241,
+    "lon": 135.127642
+  },
+  {
+    "station_id": "hyogo_0380",
+    "station_name": "東鳴尾",
+    "prefecture": "兵庫県",
+    "line_name": "阪神武庫川線",
+    "lat": 34.712646,
+    "lon": 135.379065
+  },
+  {
+    "station_id": "hyogo_0171",
+    "station_name": "板宿",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.66006,
+    "lon": 135.133403
+  },
+  {
+    "station_id": "hyogo_0188",
+    "station_name": "林崎松江海岸",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.652289,
+    "lon": 134.965056
+  },
+  {
+    "station_id": "hyogo_0136",
+    "station_name": "柏原(大阪)",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 35.127206,
+    "lon": 135.077082
+  },
+  {
+    "station_id": "hyogo_0048",
+    "station_name": "柴山",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.646454,
+    "lon": 134.663886
+  },
+  {
+    "station_id": "hyogo_0288",
+    "station_name": "栄(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.75524,
+    "lon": 135.056544
+  },
+  {
+    "station_id": "hyogo_0037",
+    "station_name": "梁瀬",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.322796,
+    "lon": 134.880682
+  },
+  {
+    "station_id": "hyogo_0264",
+    "station_name": "横山(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄三田線",
+    "lat": 34.876633,
+    "lon": 135.219696
+  },
+  {
+    "station_id": "hyogo_0297",
+    "station_name": "樫山",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.820491,
+    "lon": 134.949736
+  },
+  {
+    "station_id": "hyogo_0345",
+    "station_name": "武庫之荘",
+    "prefecture": "兵庫県",
+    "line_name": "阪急神戸本線",
+    "lat": 34.751587,
+    "lon": 135.393821
+  },
+  {
+    "station_id": "hyogo_0374",
+    "station_name": "武庫川",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.718154,
+    "lon": 135.383654
+  },
+  {
+    "station_id": "hyogo_0382",
+    "station_name": "武庫川団地前",
+    "prefecture": "兵庫県",
+    "line_name": "阪神武庫川線",
+    "lat": 34.704894,
+    "lon": 135.374757
+  },
+  {
+    "station_id": "hyogo_0123",
+    "station_name": "武田尾",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.855316,
+    "lon": 135.305838
+  },
+  {
+    "station_id": "hyogo_0015",
+    "station_name": "比延",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.988773,
+    "lon": 134.995733
+  },
+  {
+    "station_id": "hyogo_0191",
+    "station_name": "江井ケ島",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.679022,
+    "lon": 134.919879
+  },
+  {
+    "station_id": "hyogo_0041",
+    "station_name": "江原",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.469477,
+    "lon": 134.77575
+  },
+  {
+    "station_id": "hyogo_0008",
+    "station_name": "河合西",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.879221,
+    "lon": 134.919519
+  },
+  {
+    "station_id": "hyogo_0221",
+    "station_name": "河野原円心",
+    "prefecture": "兵庫県",
+    "line_name": "智頭急行智頭線",
+    "lat": 34.919603,
+    "lon": 134.352516
+  },
+  {
+    "station_id": "hyogo_0163",
+    "station_name": "法華口",
+    "prefecture": "兵庫県",
+    "line_name": "北条鉄道",
+    "lat": 34.875262,
+    "lon": 134.856384
+  },
+  {
+    "station_id": "hyogo_0381",
+    "station_name": "洲先",
+    "prefecture": "兵庫県",
+    "line_name": "阪神武庫川線",
+    "lat": 34.709046,
+    "lon": 135.378049
+  },
+  {
+    "station_id": "hyogo_0198",
+    "station_name": "浜の宮",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.74091,
+    "lon": 134.83397
+  },
+  {
+    "station_id": "hyogo_0053",
+    "station_name": "浜坂",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.620618,
+    "lon": 134.452558
+  },
+  {
+    "station_id": "hyogo_0365",
+    "station_name": "深江(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.722583,
+    "lon": 135.291347
+  },
+  {
+    "station_id": "hyogo_0340",
+    "station_name": "清荒神",
+    "prefecture": "兵庫県",
+    "line_name": "阪急宝塚本線",
+    "lat": 34.811271,
+    "lon": 135.35352
+  },
+  {
+    "station_id": "hyogo_0270",
+    "station_name": "湊川",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄有馬線",
+    "lat": 34.679153,
+    "lon": 135.166426
+  },
+  {
+    "station_id": "hyogo_0229",
+    "station_name": "湊川公園",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市西神・山手線",
+    "lat": 34.679188,
+    "lon": 135.167059
+  },
+  {
+    "station_id": "hyogo_0069",
+    "station_name": "溝口",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 34.927859,
+    "lon": 134.742347
+  },
+  {
+    "station_id": "hyogo_0012",
+    "station_name": "滝",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.948812,
+    "lon": 134.962374
+  },
+  {
+    "station_id": "hyogo_0178",
+    "station_name": "滝の茶屋",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.631071,
+    "lon": 135.072984
+  },
+  {
+    "station_id": "hyogo_0312",
+    "station_name": "滝山",
+    "prefecture": "兵庫県",
+    "line_name": "能勢電鉄妙見線",
+    "lat": 34.843075,
+    "lon": 135.421197
+  },
+  {
+    "station_id": "hyogo_0011",
+    "station_name": "滝野",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.941034,
+    "lon": 134.95492
+  },
+  {
+    "station_id": "hyogo_0091",
+    "station_name": "灘",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.705918,
+    "lon": 135.216578
+  },
+  {
+    "station_id": "hyogo_0115",
+    "station_name": "猪名寺",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.764086,
+    "lon": 135.422598
+  },
+  {
+    "station_id": "hyogo_0044",
+    "station_name": "玄武洞",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.588645,
+    "lon": 134.799305
+  },
+  {
+    "station_id": "hyogo_0350",
+    "station_name": "王子公園",
+    "prefecture": "兵庫県",
+    "line_name": "阪急神戸本線",
+    "lat": 34.710354,
+    "lon": 135.218553
+  },
+  {
+    "station_id": "hyogo_0071",
+    "station_name": "甘地",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 34.98814,
+    "lon": 134.758525
+  },
+  {
+    "station_id": "hyogo_0121",
+    "station_name": "生瀬",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.819159,
+    "lon": 135.325058
+  },
+  {
+    "station_id": "hyogo_0076",
+    "station_name": "生野",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 35.163227,
+    "lon": 134.789259
+  },
+  {
+    "station_id": "hyogo_0162",
+    "station_name": "田原",
+    "prefecture": "兵庫県",
+    "line_name": "北条鉄道",
+    "lat": 34.865486,
+    "lon": 134.866744
+  },
+  {
+    "station_id": "hyogo_0260",
+    "station_name": "田尾寺",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄三田線",
+    "lat": 34.835664,
+    "lon": 135.226153
+  },
+  {
+    "station_id": "hyogo_0086",
+    "station_name": "甲南山手",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.730616,
+    "lon": 135.292788
+  },
+  {
+    "station_id": "hyogo_0372",
+    "station_name": "甲子園",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.723987,
+    "lon": 135.363157
+  },
+  {
+    "station_id": "hyogo_0082",
+    "station_name": "甲子園口",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.739052,
+    "lon": 135.374426
+  },
+  {
+    "station_id": "hyogo_0327",
+    "station_name": "甲東園",
+    "prefecture": "兵庫県",
+    "line_name": "阪急今津線",
+    "lat": 34.76676,
+    "lon": 135.359757
+  },
+  {
+    "station_id": "hyogo_0343",
+    "station_name": "甲陽園",
+    "prefecture": "兵庫県",
+    "line_name": "阪急甲陽線",
+    "lat": 34.760919,
+    "lon": 135.329965
+  },
+  {
+    "station_id": "hyogo_0318",
+    "station_name": "畦野",
+    "prefecture": "兵庫県",
+    "line_name": "能勢電鉄妙見線",
+    "lat": 34.884954,
+    "lon": 135.415594
+  },
+  {
+    "station_id": "hyogo_0207",
+    "station_name": "白浜の宮",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.786822,
+    "lon": 134.707123
+  },
+  {
+    "station_id": "hyogo_0205",
+    "station_name": "的形",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.779882,
+    "lon": 134.742047
+  },
+  {
+    "station_id": "hyogo_0061",
+    "station_name": "相生(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陽本線",
+    "lat": 34.818052,
+    "lon": 134.47341
+  },
+  {
+    "station_id": "hyogo_0128",
+    "station_name": "相野",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.947482,
+    "lon": 135.155998
+  },
+  {
+    "station_id": "hyogo_0227",
+    "station_name": "県庁前(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市西神・山手線",
+    "lat": 34.690916,
+    "lon": 135.183859
+  },
+  {
+    "station_id": "hyogo_0224",
+    "station_name": "石井",
+    "prefecture": "兵庫県",
+    "line_name": "智頭急行智頭線",
+    "lat": 35.082257,
+    "lon": 134.357271
+  },
+  {
+    "station_id": "hyogo_0360",
+    "station_name": "石屋川",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.71327,
+    "lon": 135.249329
+  },
+  {
+    "station_id": "hyogo_0137",
+    "station_name": "石生",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 35.152706,
+    "lon": 135.063719
+  },
+  {
+    "station_id": "hyogo_0066",
+    "station_name": "砥堀",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 34.866427,
+    "lon": 134.724833
+  },
+  {
+    "station_id": "hyogo_0010",
+    "station_name": "社町",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.920336,
+    "lon": 134.934507
+  },
+  {
+    "station_id": "hyogo_0094",
+    "station_name": "神戸(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.679453,
+    "lon": 135.17822
+  },
+  {
+    "station_id": "hyogo_0307",
+    "station_name": "神戸三宮(阪急)",
+    "prefecture": "兵庫県",
+    "line_name": "神戸高速鉄道東西線",
+    "lat": 34.693233,
+    "lon": 135.192862
+  },
+  {
+    "station_id": "hyogo_0154",
+    "station_name": "神戸空港",
+    "prefecture": "兵庫県",
+    "line_name": "ポートアイランド線",
+    "lat": 34.637194,
+    "lon": 135.229042
+  },
+  {
+    "station_id": "hyogo_0003",
+    "station_name": "神野",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.790922,
+    "lon": 134.878854
+  },
+  {
+    "station_id": "hyogo_0280",
+    "station_name": "神鉄六甲",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄有馬線",
+    "lat": 34.785205,
+    "lon": 135.206036
+  },
+  {
+    "station_id": "hyogo_0263",
+    "station_name": "神鉄道場",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄三田線",
+    "lat": 34.866806,
+    "lon": 135.226145
+  },
+  {
+    "station_id": "hyogo_0070",
+    "station_name": "福崎",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 34.960637,
+    "lon": 134.750618
+  },
+  {
+    "station_id": "hyogo_0333",
+    "station_name": "稲野",
+    "prefecture": "兵庫県",
+    "line_name": "阪急伊丹線",
+    "lat": 34.764817,
+    "lon": 135.415532
+  },
+  {
+    "station_id": "hyogo_0081",
+    "station_name": "立花",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.737875,
+    "lon": 135.399571
+  },
+  {
+    "station_id": "hyogo_0060",
+    "station_name": "竜野",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陽本線",
+    "lat": 34.825522,
+    "lon": 134.522004
+  },
+  {
+    "station_id": "hyogo_0079",
+    "station_name": "竹田(京都)",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 35.298459,
+    "lon": 134.835422
+  },
+  {
+    "station_id": "hyogo_0046",
+    "station_name": "竹野",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.649807,
+    "lon": 134.756405
+  },
+  {
+    "station_id": "hyogo_0320",
+    "station_name": "笹部",
+    "prefecture": "兵庫県",
+    "line_name": "能勢電鉄妙見線",
+    "lat": 34.893765,
+    "lon": 135.416269
+  },
+  {
+    "station_id": "hyogo_0277",
+    "station_name": "箕谷",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄有馬線",
+    "lat": 34.756969,
+    "lon": 135.155597
+  },
+  {
+    "station_id": "hyogo_0133",
+    "station_name": "篠山口",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 35.056223,
+    "lon": 135.177452
+  },
+  {
+    "station_id": "hyogo_0007",
+    "station_name": "粟生",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.856859,
+    "lon": 134.909509
+  },
+  {
+    "station_id": "hyogo_0311",
+    "station_name": "絹延橋",
+    "prefecture": "兵庫県",
+    "line_name": "能勢電鉄妙見線",
+    "lat": 34.834809,
+    "lon": 135.423025
+  },
+  {
+    "station_id": "hyogo_0059",
+    "station_name": "網干",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陽本線",
+    "lat": 34.814096,
+    "lon": 134.584035
+  },
+  {
+    "station_id": "hyogo_0161",
+    "station_name": "網引",
+    "prefecture": "兵庫県",
+    "line_name": "北条鉄道",
+    "lat": 34.862022,
+    "lon": 134.877982
+  },
+  {
+    "station_id": "hyogo_0236",
+    "station_name": "総合運動公園",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市西神・山手線",
+    "lat": 34.68186,
+    "lon": 135.075838
+  },
+  {
+    "station_id": "hyogo_0290",
+    "station_name": "緑が丘(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.765108,
+    "lon": 135.02571
+  },
+  {
+    "station_id": "hyogo_0101",
+    "station_name": "舞子",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.63302,
+    "lon": 135.034373
+  },
+  {
+    "station_id": "hyogo_0182",
+    "station_name": "舞子公園",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.634156,
+    "lon": 135.033676
+  },
+  {
+    "station_id": "hyogo_0019",
+    "station_name": "船町口",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 35.06291,
+    "lon": 135.009342
+  },
+  {
+    "station_id": "hyogo_0085",
+    "station_name": "芦屋(阪神)",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.734207,
+    "lon": 135.307102
+  },
+  {
+    "station_id": "hyogo_0346",
+    "station_name": "芦屋川",
+    "prefecture": "兵庫県",
+    "line_name": "阪急神戸本線",
+    "lat": 34.736338,
+    "lon": 135.300651
+  },
+  {
+    "station_id": "hyogo_0278",
+    "station_name": "花山",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄有馬線",
+    "lat": 34.769648,
+    "lon": 135.187308
+  },
+  {
+    "station_id": "hyogo_0306",
+    "station_name": "花隈",
+    "prefecture": "兵庫県",
+    "line_name": "神戸高速鉄道東西線",
+    "lat": 34.686117,
+    "lon": 135.181524
+  },
+  {
+    "station_id": "hyogo_0243",
+    "station_name": "苅藻",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市海岸線",
+    "lat": 34.65365,
+    "lon": 135.156598
+  },
+  {
+    "station_id": "hyogo_0220",
+    "station_name": "苔縄",
+    "prefecture": "兵庫県",
+    "line_name": "智頭急行智頭線",
+    "lat": 34.896828,
+    "lon": 134.354083
+  },
+  {
+    "station_id": "hyogo_0342",
+    "station_name": "苦楽園口",
+    "prefecture": "兵庫県",
+    "line_name": "阪急甲陽線",
+    "lat": 34.750062,
+    "lon": 135.328885
+  },
+  {
+    "station_id": "hyogo_0057",
+    "station_name": "英賀保",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陽本線",
+    "lat": 34.813235,
+    "lon": 134.644762
+  },
+  {
+    "station_id": "hyogo_0130",
+    "station_name": "草野",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.996887,
+    "lon": 135.1524
+  },
+  {
+    "station_id": "hyogo_0201",
+    "station_name": "荒井(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.757833,
+    "lon": 134.793616
+  },
+  {
+    "station_id": "hyogo_0300",
+    "station_name": "葉多",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.850204,
+    "lon": 134.919852
+  },
+  {
+    "station_id": "hyogo_0129",
+    "station_name": "藍本",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.977041,
+    "lon": 135.155533
+  },
+  {
+    "station_id": "hyogo_0285",
+    "station_name": "藍那",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.732432,
+    "lon": 135.118033
+  },
+  {
+    "station_id": "hyogo_0189",
+    "station_name": "藤江",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.663385,
+    "lon": 134.947571
+  },
+  {
+    "station_id": "hyogo_0384",
+    "station_name": "虹の",
+    "prefecture": "兵庫県",
+    "line_name": "摩耶ケーブル線",
+    "lat": 34.727271,
+    "lon": 135.212185
+  },
+  {
+    "station_id": "hyogo_0195",
+    "station_name": "西二見",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.707167,
+    "lon": 134.876927
+  },
+  {
+    "station_id": "hyogo_0170",
+    "station_name": "西代",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.662374,
+    "lon": 135.144085
+  },
+  {
+    "station_id": "hyogo_0308",
+    "station_name": "西元町",
+    "prefecture": "兵庫県",
+    "line_name": "神戸高速鉄道東西線",
+    "lat": 34.683897,
+    "lon": 135.17959
+  },
+  {
+    "station_id": "hyogo_0083",
+    "station_name": "西宮(阪神)",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.738985,
+    "lon": 135.348703
+  },
+  {
+    "station_id": "hyogo_0329",
+    "station_name": "西宮北口",
+    "prefecture": "兵庫県",
+    "line_name": "阪急今津線",
+    "lat": 34.745951,
+    "lon": 135.356702
+  },
+  {
+    "station_id": "hyogo_0122",
+    "station_name": "西宮名塩",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.827125,
+    "lon": 135.308871
+  },
+  {
+    "station_id": "hyogo_0187",
+    "station_name": "西新町",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.649661,
+    "lon": 134.980752
+  },
+  {
+    "station_id": "hyogo_0104",
+    "station_name": "西明石",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.66591,
+    "lon": 134.960151
+  },
+  {
+    "station_id": "hyogo_0032",
+    "station_name": "西栗栖",
+    "prefecture": "兵庫県",
+    "line_name": "JR姫新線",
+    "lat": 34.952378,
+    "lon": 134.470646
+  },
+  {
+    "station_id": "hyogo_0192",
+    "station_name": "西江井ケ島",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.685688,
+    "lon": 134.908105
+  },
+  {
+    "station_id": "hyogo_0357",
+    "station_name": "西灘",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.705782,
+    "lon": 135.224639
+  },
+  {
+    "station_id": "hyogo_0141",
+    "station_name": "西相生",
+    "prefecture": "兵庫県",
+    "line_name": "JR赤穂線",
+    "lat": 34.801303,
+    "lon": 134.450563
+  },
+  {
+    "station_id": "hyogo_0240",
+    "station_name": "西神中央",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市西神・山手線",
+    "lat": 34.719538,
+    "lon": 135.017367
+  },
+  {
+    "station_id": "hyogo_0239",
+    "station_name": "西神南",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市西神・山手線",
+    "lat": 34.699357,
+    "lon": 135.030286
+  },
+  {
+    "station_id": "hyogo_0013",
+    "station_name": "西脇市",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.971702,
+    "lon": 134.968795
+  },
+  {
+    "station_id": "hyogo_0183",
+    "station_name": "西舞子",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.638653,
+    "lon": 135.028187
+  },
+  {
+    "station_id": "hyogo_0284",
+    "station_name": "西鈴蘭台",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.725836,
+    "lon": 135.135013
+  },
+  {
+    "station_id": "hyogo_0213",
+    "station_name": "西飾磨",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄網干線",
+    "lat": 34.803045,
+    "lon": 134.651176
+  },
+  {
+    "station_id": "hyogo_0153",
+    "station_name": "計算科学センター",
+    "prefecture": "兵庫県",
+    "line_name": "ポートアイランド線",
+    "lat": 34.654892,
+    "lon": 135.221865
+  },
+  {
+    "station_id": "hyogo_0054",
+    "station_name": "諸寄",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.619529,
+    "lon": 134.434303
+  },
+  {
+    "station_id": "hyogo_0168",
+    "station_name": "谷上",
+    "prefecture": "兵庫県",
+    "line_name": "北神急行",
+    "lat": 34.761691,
+    "lon": 135.17142
+  },
+  {
+    "station_id": "hyogo_0021",
+    "station_name": "谷川",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 35.082724,
+    "lon": 135.049666
+  },
+  {
+    "station_id": "hyogo_0043",
+    "station_name": "豊岡",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.543825,
+    "lon": 134.813694
+  },
+  {
+    "station_id": "hyogo_0147",
+    "station_name": "貿易センター",
+    "prefecture": "兵庫県",
+    "line_name": "ポートアイランド線",
+    "lat": 34.689339,
+    "lon": 135.199469
+  },
+  {
+    "station_id": "hyogo_0324",
+    "station_name": "逆瀬川",
+    "prefecture": "兵庫県",
+    "line_name": "阪急今津線",
+    "lat": 34.797181,
+    "lon": 135.350707
+  },
+  {
+    "station_id": "hyogo_0124",
+    "station_name": "道場",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 34.867303,
+    "lon": 135.255528
+  },
+  {
+    "station_id": "hyogo_0262",
+    "station_name": "道場南口",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄三田線",
+    "lat": 34.856024,
+    "lon": 135.223137
+  },
+  {
+    "station_id": "hyogo_0065",
+    "station_name": "野里",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 34.856142,
+    "lon": 134.711251
+  },
+  {
+    "station_id": "hyogo_0274",
+    "station_name": "鈴蘭台",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄有馬線",
+    "lat": 34.723662,
+    "lon": 135.145867
+  },
+  {
+    "station_id": "hyogo_0283",
+    "station_name": "鈴蘭台西口",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄粟生線",
+    "lat": 34.726356,
+    "lon": 135.140582
+  },
+  {
+    "station_id": "hyogo_0050",
+    "station_name": "鎧",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.651691,
+    "lon": 134.575144
+  },
+  {
+    "station_id": "hyogo_0165",
+    "station_name": "長",
+    "prefecture": "兵庫県",
+    "line_name": "北条鉄道",
+    "lat": 34.896484,
+    "lon": 134.82566
+  },
+  {
+    "station_id": "hyogo_0231",
+    "station_name": "長田(大阪)",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市西神・山手線",
+    "lat": 34.668503,
+    "lon": 135.151502
+  },
+  {
+    "station_id": "hyogo_0075",
+    "station_name": "長谷",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 35.117029,
+    "lon": 134.748103
+  },
+  {
+    "station_id": "hyogo_0328",
+    "station_name": "門戸厄神",
+    "prefecture": "兵庫県",
+    "line_name": "阪急今津線",
+    "lat": 34.757086,
+    "lon": 135.358221
+  },
+  {
+    "station_id": "hyogo_0330",
+    "station_name": "阪神国道",
+    "prefecture": "兵庫県",
+    "line_name": "阪急今津線",
+    "lat": 34.73715,
+    "lon": 135.354702
+  },
+  {
+    "station_id": "hyogo_0336",
+    "station_name": "雲雀丘花屋敷",
+    "prefecture": "兵庫県",
+    "line_name": "阪急宝塚本線",
+    "lat": 34.827357,
+    "lon": 135.402946
+  },
+  {
+    "station_id": "hyogo_0181",
+    "station_name": "霞ケ丘(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.63024,
+    "lon": 135.04275
+  },
+  {
+    "station_id": "hyogo_0078",
+    "station_name": "青倉",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 35.26719,
+    "lon": 134.811789
+  },
+  {
+    "station_id": "hyogo_0364",
+    "station_name": "青木",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.71695,
+    "lon": 135.28062
+  },
+  {
+    "station_id": "hyogo_0009",
+    "station_name": "青野ヶ原",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 34.897297,
+    "lon": 134.927933
+  },
+  {
+    "station_id": "hyogo_0098",
+    "station_name": "須磨",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.642292,
+    "lon": 135.112814
+  },
+  {
+    "station_id": "hyogo_0174",
+    "station_name": "須磨寺",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.646031,
+    "lon": 135.116224
+  },
+  {
+    "station_id": "hyogo_0176",
+    "station_name": "須磨浦公園",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.637884,
+    "lon": 135.100145
+  },
+  {
+    "station_id": "hyogo_0097",
+    "station_name": "須磨海浜公園",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.647185,
+    "lon": 135.126616
+  },
+  {
+    "station_id": "hyogo_0209",
+    "station_name": "飾磨",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.799748,
+    "lon": 134.675401
+  },
+  {
+    "station_id": "hyogo_0039",
+    "station_name": "養父",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.371306,
+    "lon": 134.811726
+  },
+  {
+    "station_id": "hyogo_0051",
+    "station_name": "餘部",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.648658,
+    "lon": 134.556918
+  },
+  {
+    "station_id": "hyogo_0049",
+    "station_name": "香住",
+    "prefecture": "兵庫県",
+    "line_name": "JR山陰本線",
+    "lat": 35.635344,
+    "lon": 134.62359
+  },
+  {
+    "station_id": "hyogo_0068",
+    "station_name": "香呂",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 34.911389,
+    "lon": 134.735895
+  },
+  {
+    "station_id": "hyogo_0368",
+    "station_name": "香櫨園",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.734344,
+    "lon": 135.328929
+  },
+  {
+    "station_id": "hyogo_0242",
+    "station_name": "駒ケ林",
+    "prefecture": "兵庫県",
+    "line_name": "神戸市海岸線",
+    "lat": 34.652108,
+    "lon": 135.149554
+  },
+  {
+    "station_id": "hyogo_0200",
+    "station_name": "高砂(兵庫)",
+    "prefecture": "兵庫県",
+    "line_name": "山陽電鉄本線",
+    "lat": 34.751978,
+    "lon": 134.802343
+  },
+  {
+    "station_id": "hyogo_0305",
+    "station_name": "高速神戸",
+    "prefecture": "兵庫県",
+    "line_name": "神戸高速鉄道東西線",
+    "lat": 34.679362,
+    "lon": 135.174441
+  },
+  {
+    "station_id": "hyogo_0303",
+    "station_name": "高速長田",
+    "prefecture": "兵庫県",
+    "line_name": "神戸高速鉄道東西線",
+    "lat": 34.667254,
+    "lon": 135.151551
+  },
+  {
+    "station_id": "hyogo_0106",
+    "station_name": "魚住",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.696401,
+    "lon": 134.906028
+  },
+  {
+    "station_id": "hyogo_0252",
+    "station_name": "魚崎",
+    "prefecture": "兵庫県",
+    "line_name": "神戸新交通六甲ライナー",
+    "lat": 34.713687,
+    "lon": 135.268564
+  },
+  {
+    "station_id": "hyogo_0373",
+    "station_name": "鳴尾・武庫川女子大前",
+    "prefecture": "兵庫県",
+    "line_name": "阪神本線",
+    "lat": 34.719684,
+    "lon": 135.37036
+  },
+  {
+    "station_id": "hyogo_0273",
+    "station_name": "鵯越",
+    "prefecture": "兵庫県",
+    "line_name": "神戸電鉄有馬線",
+    "lat": 34.692576,
+    "lon": 135.142232
+  },
+  {
+    "station_id": "hyogo_0313",
+    "station_name": "鶯の森",
+    "prefecture": "兵庫県",
+    "line_name": "能勢電鉄妙見線",
+    "lat": 34.847747,
+    "lon": 135.418888
+  },
+  {
+    "station_id": "hyogo_0072",
+    "station_name": "鶴居",
+    "prefecture": "兵庫県",
+    "line_name": "JR播但線",
+    "lat": 35.023742,
+    "lon": 134.754716
+  },
+  {
+    "station_id": "hyogo_0096",
+    "station_name": "鷹取",
+    "prefecture": "兵庫県",
+    "line_name": "JR神戸線",
+    "lat": 34.651667,
+    "lon": 135.135275
+  },
+  {
+    "station_id": "hyogo_0138",
+    "station_name": "黒井",
+    "prefecture": "兵庫県",
+    "line_name": "JR福知山線",
+    "lat": 35.168549,
+    "lon": 135.097302
+  },
+  {
+    "station_id": "hyogo_0017",
+    "station_name": "黒田庄",
+    "prefecture": "兵庫県",
+    "line_name": "JR加古川線",
+    "lat": 35.022689,
+    "lon": 134.992522
+  },
+  {
+    "station_id": "hyogo_0314",
+    "station_name": "鼓滝",
+    "prefecture": "兵庫県",
+    "line_name": "能勢電鉄妙見線",
+    "lat": 34.854735,
+    "lon": 135.418339
+  }
+]

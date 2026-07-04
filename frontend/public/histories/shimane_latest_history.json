@@ -1,0 +1,440 @@
+[
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2007,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2008,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2009,
+    "avg_price": 10750000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2010,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2012,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2013,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2014,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2015,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2016,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2017,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2018,
+    "avg_price": 19800000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2019,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2020,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2021,
+    "avg_price": 19600000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2022,
+    "avg_price": 22571428.57142857
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2023,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2024,
+    "avg_price": 23083333.333333332
+  },
+  {
+    "prefecture": "島根県",
+    "station": "乃木",
+    "year": 2025,
+    "avg_price": 26250000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2009,
+    "avg_price": 15150000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2010,
+    "avg_price": 16750000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2012,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2013,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2014,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2015,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2016,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2017,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2018,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2020,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2021,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2022,
+    "avg_price": 18280000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2023,
+    "avg_price": 23933333.333333332
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2024,
+    "avg_price": 23937500.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "出雲市",
+    "year": 2025,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2007,
+    "avg_price": 14762500.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2008,
+    "avg_price": 13953846.153846154
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2009,
+    "avg_price": 17100000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2010,
+    "avg_price": 14278947.368421054
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2011,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2012,
+    "avg_price": 14233333.333333334
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2013,
+    "avg_price": 15961904.761904761
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2014,
+    "avg_price": 14890000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2015,
+    "avg_price": 14728571.42857143
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2016,
+    "avg_price": 14160714.285714285
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2017,
+    "avg_price": 17350000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2018,
+    "avg_price": 14637500.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2019,
+    "avg_price": 15207692.307692308
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2020,
+    "avg_price": 19129629.62962963
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2021,
+    "avg_price": 19064102.564102564
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2022,
+    "avg_price": 19654761.904761903
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2023,
+    "avg_price": 19303333.333333332
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2024,
+    "avg_price": 19539130.43478261
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江",
+    "year": 2025,
+    "avg_price": 18670967.741935484
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2007,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2008,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2009,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2010,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2012,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2013,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2014,
+    "avg_price": 21250000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2015,
+    "avg_price": 25333333.333333332
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2017,
+    "avg_price": 23666666.666666668
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2018,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2019,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2020,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2021,
+    "avg_price": 19900000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2022,
+    "avg_price": 20030000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2023,
+    "avg_price": 25578947.36842105
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2024,
+    "avg_price": 21444444.444444444
+  },
+  {
+    "prefecture": "島根県",
+    "station": "松江しんじ湖温泉",
+    "year": 2025,
+    "avg_price": 21071428.57142857
+  },
+  {
+    "prefecture": "島根県",
+    "station": "玉造温泉",
+    "year": 2020,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "直江",
+    "year": 2016,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "西出雲",
+    "year": 2025,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "島根県",
+    "station": "電鉄出雲市",
+    "year": 2024,
+    "avg_price": 27000000.0
+  }
+]

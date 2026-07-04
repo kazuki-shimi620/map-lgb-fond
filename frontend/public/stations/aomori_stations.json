@@ -1,0 +1,1218 @@
+[
+  {
+    "station_id": "aomori_0007",
+    "station_name": "ウェスパ椿山",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.592913,
+    "lon": 139.871157
+  },
+  {
+    "station_id": "aomori_0119",
+    "station_name": "七戸十和田",
+    "prefecture": "青森県",
+    "line_name": "東北新幹線",
+    "lat": 40.719954,
+    "lon": 141.153817
+  },
+  {
+    "station_id": "aomori_0087",
+    "station_name": "三厩",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 41.185404,
+    "lon": 140.444482
+  },
+  {
+    "station_id": "aomori_0132",
+    "station_name": "三戸",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.395941,
+    "lon": 141.27322
+  },
+  {
+    "station_id": "aomori_0140",
+    "station_name": "三沢",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.669735,
+    "lon": 141.353649
+  },
+  {
+    "station_id": "aomori_0142",
+    "station_name": "上北町",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.732993,
+    "lon": 141.264801
+  },
+  {
+    "station_id": "aomori_0055",
+    "station_name": "下北",
+    "prefecture": "青森県",
+    "line_name": "JR大湊線",
+    "lat": 41.28288,
+    "lon": 141.18989
+  },
+  {
+    "station_id": "aomori_0138",
+    "station_name": "下田",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.591958,
+    "lon": 141.407965
+  },
+  {
+    "station_id": "aomori_0104",
+    "station_name": "中央弘前",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道大鰐線",
+    "lat": 40.599144,
+    "lon": 140.472203
+  },
+  {
+    "station_id": "aomori_0081",
+    "station_name": "中小国",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 41.051702,
+    "lon": 140.596798
+  },
+  {
+    "station_id": "aomori_0076",
+    "station_name": "中沢",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 40.949044,
+    "lon": 140.656244
+  },
+  {
+    "station_id": "aomori_0024",
+    "station_name": "中田",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.787424,
+    "lon": 140.364505
+  },
+  {
+    "station_id": "aomori_0143",
+    "station_name": "乙供",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.780328,
+    "lon": 141.213039
+  },
+  {
+    "station_id": "aomori_0026",
+    "station_name": "五所川原",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.809124,
+    "lon": 140.44776
+  },
+  {
+    "station_id": "aomori_0122",
+    "station_name": "五農校前",
+    "prefecture": "青森県",
+    "line_name": "津軽鉄道",
+    "lat": 40.821146,
+    "lon": 140.478753
+  },
+  {
+    "station_id": "aomori_0085",
+    "station_name": "今別",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 41.179741,
+    "lon": 140.490448
+  },
+  {
+    "station_id": "aomori_0156",
+    "station_name": "体験坑道",
+    "prefecture": "青森県",
+    "line_name": "青函トンネル竜飛斜坑線",
+    "lat": 41.254054,
+    "lon": 140.347169
+  },
+  {
+    "station_id": "aomori_0033",
+    "station_name": "八戸",
+    "prefecture": "青森県",
+    "line_name": "JR八戸線",
+    "lat": 40.5092,
+    "lon": 141.431499
+  },
+  {
+    "station_id": "aomori_0134",
+    "station_name": "剣吉",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.449025,
+    "lon": 141.346805
+  },
+  {
+    "station_id": "aomori_0064",
+    "station_name": "北常盤",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.67053,
+    "lon": 140.54359
+  },
+  {
+    "station_id": "aomori_0047",
+    "station_name": "北野辺地",
+    "prefecture": "青森県",
+    "line_name": "JR大湊線",
+    "lat": 40.871077,
+    "lon": 141.134115
+  },
+  {
+    "station_id": "aomori_0017",
+    "station_name": "北金ヶ沢",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.745995,
+    "lon": 140.095052
+  },
+  {
+    "station_id": "aomori_0136",
+    "station_name": "北高岩",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.475126,
+    "lon": 141.405233
+  },
+  {
+    "station_id": "aomori_0004",
+    "station_name": "十二湖",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.551539,
+    "lon": 139.941986
+  },
+  {
+    "station_id": "aomori_0121",
+    "station_name": "十川",
+    "prefecture": "青森県",
+    "line_name": "津軽鉄道",
+    "lat": 40.817526,
+    "lon": 140.457044
+  },
+  {
+    "station_id": "aomori_0100",
+    "station_name": "千年",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道大鰐線",
+    "lat": 40.567387,
+    "lon": 140.480282
+  },
+  {
+    "station_id": "aomori_0144",
+    "station_name": "千曳",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.804662,
+    "lon": 141.152876
+  },
+  {
+    "station_id": "aomori_0016",
+    "station_name": "千畳敷",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.767769,
+    "lon": 140.054832
+  },
+  {
+    "station_id": "aomori_0139",
+    "station_name": "向山",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.629544,
+    "lon": 141.370392
+  },
+  {
+    "station_id": "aomori_0049",
+    "station_name": "吹越",
+    "prefecture": "青森県",
+    "line_name": "JR大湊線",
+    "lat": 41.022038,
+    "lon": 141.246552
+  },
+  {
+    "station_id": "aomori_0125",
+    "station_name": "嘉瀬",
+    "prefecture": "青森県",
+    "line_name": "津軽鉄道",
+    "lat": 40.881058,
+    "lon": 140.469316
+  },
+  {
+    "station_id": "aomori_0116",
+    "station_name": "境松",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道弘南線",
+    "lat": 40.648609,
+    "lon": 140.575691
+  },
+  {
+    "station_id": "aomori_0042",
+    "station_name": "大久喜",
+    "prefecture": "青森県",
+    "line_name": "JR八戸線",
+    "lat": 40.495135,
+    "lon": 141.622958
+  },
+  {
+    "station_id": "aomori_0084",
+    "station_name": "大川平",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 41.163204,
+    "lon": 140.507592
+  },
+  {
+    "station_id": "aomori_0082",
+    "station_name": "大平",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 41.065866,
+    "lon": 140.559375
+  },
+  {
+    "station_id": "aomori_0015",
+    "station_name": "大戸瀬",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.759325,
+    "lon": 140.033596
+  },
+  {
+    "station_id": "aomori_0129",
+    "station_name": "大沢内",
+    "prefecture": "青森県",
+    "line_name": "津軽鉄道",
+    "lat": 40.940243,
+    "lon": 140.437396
+  },
+  {
+    "station_id": "aomori_0056",
+    "station_name": "大湊",
+    "prefecture": "青森県",
+    "line_name": "JR大湊線",
+    "lat": 41.280344,
+    "lon": 141.161772
+  },
+  {
+    "station_id": "aomori_0044",
+    "station_name": "大蛇",
+    "prefecture": "青森県",
+    "line_name": "JR八戸線",
+    "lat": 40.467251,
+    "lon": 141.650773
+  },
+  {
+    "station_id": "aomori_0066",
+    "station_name": "大釈迦",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.756736,
+    "lon": 140.587776
+  },
+  {
+    "station_id": "aomori_0001",
+    "station_name": "大間越",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.492407,
+    "lon": 139.950062
+  },
+  {
+    "station_id": "aomori_0091",
+    "station_name": "大鰐",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道大鰐線",
+    "lat": 40.52182,
+    "lon": 140.566822
+  },
+  {
+    "station_id": "aomori_0060",
+    "station_name": "大鰐温泉",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.52154,
+    "lon": 140.566914
+  },
+  {
+    "station_id": "aomori_0073",
+    "station_name": "奥内",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 40.903044,
+    "lon": 140.672382
+  },
+  {
+    "station_id": "aomori_0157",
+    "station_name": "奥津軽いまべつ",
+    "prefecture": "青森県",
+    "line_name": "北海道新幹線",
+    "lat": 41.144799,
+    "lon": 140.515937
+  },
+  {
+    "station_id": "aomori_0092",
+    "station_name": "宿川原",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道大鰐線",
+    "lat": 40.525153,
+    "lon": 140.557559
+  },
+  {
+    "station_id": "aomori_0036",
+    "station_name": "小中野",
+    "prefecture": "青森県",
+    "line_name": "JR八戸線",
+    "lat": 40.518767,
+    "lon": 141.510032
+  },
+  {
+    "station_id": "aomori_0141",
+    "station_name": "小川原",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.709893,
+    "lon": 141.29972
+  },
+  {
+    "station_id": "aomori_0152",
+    "station_name": "小柳(青森)",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.818223,
+    "lon": 140.798149
+  },
+  {
+    "station_id": "aomori_0099",
+    "station_name": "小栗山",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道大鰐線",
+    "lat": 40.564276,
+    "lon": 140.486704
+  },
+  {
+    "station_id": "aomori_0147",
+    "station_name": "小湊",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.929703,
+    "lon": 140.953953
+  },
+  {
+    "station_id": "aomori_0113",
+    "station_name": "尾上高校前",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道弘南線",
+    "lat": 40.627634,
+    "lon": 140.576806
+  },
+  {
+    "station_id": "aomori_0128",
+    "station_name": "川倉",
+    "prefecture": "青森県",
+    "line_name": "津軽鉄道",
+    "lat": 40.926356,
+    "lon": 140.44368
+  },
+  {
+    "station_id": "aomori_0032",
+    "station_name": "川部",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.646862,
+    "lon": 140.521376
+  },
+  {
+    "station_id": "aomori_0074",
+    "station_name": "左堰",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 40.917214,
+    "lon": 140.665929
+  },
+  {
+    "station_id": "aomori_0110",
+    "station_name": "平賀",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道弘南線",
+    "lat": 40.585044,
+    "lon": 140.561048
+  },
+  {
+    "station_id": "aomori_0011",
+    "station_name": "広戸",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.67434,
+    "lon": 139.955586
+  },
+  {
+    "station_id": "aomori_0062",
+    "station_name": "弘前",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.599723,
+    "lon": 140.485016
+  },
+  {
+    "station_id": "aomori_0102",
+    "station_name": "弘前学院大前",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道大鰐線",
+    "lat": 40.583363,
+    "lon": 140.470654
+  },
+  {
+    "station_id": "aomori_0106",
+    "station_name": "弘前東高前",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道弘南線",
+    "lat": 40.592301,
+    "lon": 140.488529
+  },
+  {
+    "station_id": "aomori_0103",
+    "station_name": "弘高下",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道大鰐線",
+    "lat": 40.593078,
+    "lon": 140.468212
+  },
+  {
+    "station_id": "aomori_0075",
+    "station_name": "後潟",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 40.931519,
+    "lon": 140.662734
+  },
+  {
+    "station_id": "aomori_0063",
+    "station_name": "撫牛子",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.621298,
+    "lon": 140.497616
+  },
+  {
+    "station_id": "aomori_0108",
+    "station_name": "新里",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道弘南線",
+    "lat": 40.587445,
+    "lon": 140.519879
+  },
+  {
+    "station_id": "aomori_0069",
+    "station_name": "新青森",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.8275,
+    "lon": 140.693472
+  },
+  {
+    "station_id": "aomori_0048",
+    "station_name": "有戸",
+    "prefecture": "青森県",
+    "line_name": "JR大湊線",
+    "lat": 40.913949,
+    "lon": 141.189264
+  },
+  {
+    "station_id": "aomori_0051",
+    "station_name": "有畑",
+    "prefecture": "青森県",
+    "line_name": "JR大湊線",
+    "lat": 41.131818,
+    "lon": 141.276421
+  },
+  {
+    "station_id": "aomori_0025",
+    "station_name": "木造",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.802482,
+    "lon": 140.387775
+  },
+  {
+    "station_id": "aomori_0035",
+    "station_name": "本八戸",
+    "prefecture": "青森県",
+    "line_name": "JR八戸線",
+    "lat": 40.516286,
+    "lon": 141.488762
+  },
+  {
+    "station_id": "aomori_0153",
+    "station_name": "東青森",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.810402,
+    "lon": 140.782143
+  },
+  {
+    "station_id": "aomori_0098",
+    "station_name": "松木平",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道大鰐線",
+    "lat": 40.560677,
+    "lon": 140.497097
+  },
+  {
+    "station_id": "aomori_0003",
+    "station_name": "松神",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.534902,
+    "lon": 139.946556
+  },
+  {
+    "station_id": "aomori_0029",
+    "station_name": "板柳",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.69726,
+    "lon": 140.461785
+  },
+  {
+    "station_id": "aomori_0030",
+    "station_name": "林崎",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.675355,
+    "lon": 140.480401
+  },
+  {
+    "station_id": "aomori_0111",
+    "station_name": "柏農高校前",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道弘南線",
+    "lat": 40.601867,
+    "lon": 140.564367
+  },
+  {
+    "station_id": "aomori_0009",
+    "station_name": "横磯",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.629891,
+    "lon": 139.89091
+  },
+  {
+    "station_id": "aomori_0124",
+    "station_name": "毘沙門",
+    "prefecture": "青森県",
+    "line_name": "津軽鉄道",
+    "lat": 40.857903,
+    "lon": 140.47778
+  },
+  {
+    "station_id": "aomori_0071",
+    "station_name": "油川",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 40.857035,
+    "lon": 140.690476
+  },
+  {
+    "station_id": "aomori_0131",
+    "station_name": "津軽中里",
+    "prefecture": "青森県",
+    "line_name": "津軽鉄道",
+    "lat": 40.964848,
+    "lon": 140.44102
+  },
+  {
+    "station_id": "aomori_0083",
+    "station_name": "津軽二股",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 41.145937,
+    "lon": 140.514231
+  },
+  {
+    "station_id": "aomori_0120",
+    "station_name": "津軽五所川原",
+    "prefecture": "青森県",
+    "line_name": "津軽鉄道",
+    "lat": 40.809684,
+    "lon": 140.448489
+  },
+  {
+    "station_id": "aomori_0097",
+    "station_name": "津軽大沢",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道大鰐線",
+    "lat": 40.557865,
+    "lon": 140.516392
+  },
+  {
+    "station_id": "aomori_0072",
+    "station_name": "津軽宮田",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 40.887184,
+    "lon": 140.674579
+  },
+  {
+    "station_id": "aomori_0112",
+    "station_name": "津軽尾上",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道弘南線",
+    "lat": 40.613869,
+    "lon": 140.576068
+  },
+  {
+    "station_id": "aomori_0068",
+    "station_name": "津軽新城",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.828022,
+    "lon": 140.672025
+  },
+  {
+    "station_id": "aomori_0086",
+    "station_name": "津軽浜名",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 41.180521,
+    "lon": 140.47185
+  },
+  {
+    "station_id": "aomori_0057",
+    "station_name": "津軽湯の沢",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.441879,
+    "lon": 140.632055
+  },
+  {
+    "station_id": "aomori_0123",
+    "station_name": "津軽飯詰",
+    "prefecture": "青森県",
+    "line_name": "津軽鉄道",
+    "lat": 40.829884,
+    "lon": 140.479586
+  },
+  {
+    "station_id": "aomori_0149",
+    "station_name": "浅虫温泉",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.890976,
+    "lon": 140.862221
+  },
+  {
+    "station_id": "aomori_0065",
+    "station_name": "浪岡",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.71021,
+    "lon": 140.580664
+  },
+  {
+    "station_id": "aomori_0010",
+    "station_name": "深浦",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.650239,
+    "lon": 139.929372
+  },
+  {
+    "station_id": "aomori_0130",
+    "station_name": "深郷田",
+    "prefecture": "青森県",
+    "line_name": "津軽鉄道",
+    "lat": 40.951203,
+    "lon": 140.441043
+  },
+  {
+    "station_id": "aomori_0146",
+    "station_name": "清水川",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.921801,
+    "lon": 141.02465
+  },
+  {
+    "station_id": "aomori_0079",
+    "station_name": "瀬辺地",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 41.007869,
+    "lon": 140.648179
+  },
+  {
+    "station_id": "aomori_0145",
+    "station_name": "狩場沢",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.900335,
+    "lon": 141.071274
+  },
+  {
+    "station_id": "aomori_0114",
+    "station_name": "田んぼアート",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道弘南線",
+    "lat": 40.632833,
+    "lon": 140.573694
+  },
+  {
+    "station_id": "aomori_0115",
+    "station_name": "田舎館",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道弘南線",
+    "lat": 40.637274,
+    "lon": 140.57097
+  },
+  {
+    "station_id": "aomori_0002",
+    "station_name": "白神岳登山口",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.513551,
+    "lon": 139.950318
+  },
+  {
+    "station_id": "aomori_0038",
+    "station_name": "白銀",
+    "prefecture": "青森県",
+    "line_name": "JR八戸線",
+    "lat": 40.522031,
+    "lon": 141.541648
+  },
+  {
+    "station_id": "aomori_0090",
+    "station_name": "目時",
+    "prefecture": "青森県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 40.351908,
+    "lon": 141.289504
+  },
+  {
+    "station_id": "aomori_0151",
+    "station_name": "矢田前",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.833744,
+    "lon": 140.807151
+  },
+  {
+    "station_id": "aomori_0061",
+    "station_name": "石川(ＪＲ)",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.556021,
+    "lon": 140.530951
+  },
+  {
+    "station_id": "aomori_0094",
+    "station_name": "石川プール前",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道大鰐線",
+    "lat": 40.543292,
+    "lon": 140.550278
+  },
+  {
+    "station_id": "aomori_0058",
+    "station_name": "碇ヶ関",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.478988,
+    "lon": 140.622443
+  },
+  {
+    "station_id": "aomori_0041",
+    "station_name": "種差海岸",
+    "prefecture": "青森県",
+    "line_name": "JR八戸線",
+    "lat": 40.506951,
+    "lon": 141.607367
+  },
+  {
+    "station_id": "aomori_0154",
+    "station_name": "筒井(青森)",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.805556,
+    "lon": 140.77
+  },
+  {
+    "station_id": "aomori_0096",
+    "station_name": "義塾高校前",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道大鰐線",
+    "lat": 40.555824,
+    "lon": 140.527461
+  },
+  {
+    "station_id": "aomori_0101",
+    "station_name": "聖愛中高前",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道大鰐線",
+    "lat": 40.577202,
+    "lon": 140.47269
+  },
+  {
+    "station_id": "aomori_0008",
+    "station_name": "艫作",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.608534,
+    "lon": 139.864856
+  },
+  {
+    "station_id": "aomori_0127",
+    "station_name": "芦野公園",
+    "prefecture": "青森県",
+    "line_name": "津軽鉄道",
+    "lat": 40.912283,
+    "lon": 140.451657
+  },
+  {
+    "station_id": "aomori_0135",
+    "station_name": "苫米地",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.466926,
+    "lon": 141.374903
+  },
+  {
+    "station_id": "aomori_0077",
+    "station_name": "蓬田",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 40.969042,
+    "lon": 140.654533
+  },
+  {
+    "station_id": "aomori_0031",
+    "station_name": "藤崎",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.654047,
+    "lon": 140.499531
+  },
+  {
+    "station_id": "aomori_0080",
+    "station_name": "蟹田",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 41.038274,
+    "lon": 140.642565
+  },
+  {
+    "station_id": "aomori_0148",
+    "station_name": "西平内",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.918138,
+    "lon": 140.913146
+  },
+  {
+    "station_id": "aomori_0133",
+    "station_name": "諏訪ノ平",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.414889,
+    "lon": 141.304599
+  },
+  {
+    "station_id": "aomori_0054",
+    "station_name": "赤川",
+    "prefecture": "青森県",
+    "line_name": "JR大湊線",
+    "lat": 41.267829,
+    "lon": 141.209339
+  },
+  {
+    "station_id": "aomori_0022",
+    "station_name": "越水",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.787258,
+    "lon": 140.298628
+  },
+  {
+    "station_id": "aomori_0052",
+    "station_name": "近川",
+    "prefecture": "青森県",
+    "line_name": "JR大湊線",
+    "lat": 41.191687,
+    "lon": 141.279021
+  },
+  {
+    "station_id": "aomori_0012",
+    "station_name": "追良瀬",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.686114,
+    "lon": 139.970298
+  },
+  {
+    "station_id": "aomori_0107",
+    "station_name": "運動公園前",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道弘南線",
+    "lat": 40.589527,
+    "lon": 140.502875
+  },
+  {
+    "station_id": "aomori_0078",
+    "station_name": "郷沢",
+    "prefecture": "青森県",
+    "line_name": "JR津軽線",
+    "lat": 40.987682,
+    "lon": 140.652399
+  },
+  {
+    "station_id": "aomori_0150",
+    "station_name": "野内",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.846159,
+    "lon": 140.816907
+  },
+  {
+    "station_id": "aomori_0046",
+    "station_name": "野辺地",
+    "prefecture": "青森県",
+    "line_name": "JR大湊線",
+    "lat": 40.855142,
+    "lon": 141.119603
+  },
+  {
+    "station_id": "aomori_0126",
+    "station_name": "金木",
+    "prefecture": "青森県",
+    "line_name": "津軽鉄道",
+    "lat": 40.902875,
+    "lon": 140.459971
+  },
+  {
+    "station_id": "aomori_0043",
+    "station_name": "金浜",
+    "prefecture": "青森県",
+    "line_name": "JR八戸線",
+    "lat": 40.475994,
+    "lon": 141.637366
+  },
+  {
+    "station_id": "aomori_0053",
+    "station_name": "金谷沢",
+    "prefecture": "青森県",
+    "line_name": "JR大湊線",
+    "lat": 41.228854,
+    "lon": 141.248432
+  },
+  {
+    "station_id": "aomori_0059",
+    "station_name": "長峰",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.516073,
+    "lon": 140.603069
+  },
+  {
+    "station_id": "aomori_0034",
+    "station_name": "長苗代",
+    "prefecture": "青森県",
+    "line_name": "JR八戸線",
+    "lat": 40.52146,
+    "lon": 141.465907
+  },
+  {
+    "station_id": "aomori_0005",
+    "station_name": "陸奥岩崎",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.583332,
+    "lon": 139.924183
+  },
+  {
+    "station_id": "aomori_0137",
+    "station_name": "陸奥市川",
+    "prefecture": "青森県",
+    "line_name": "青い森鉄道線",
+    "lat": 40.563235,
+    "lon": 141.439308
+  },
+  {
+    "station_id": "aomori_0018",
+    "station_name": "陸奥柳田",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.740616,
+    "lon": 140.123243
+  },
+  {
+    "station_id": "aomori_0023",
+    "station_name": "陸奥森田",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.781738,
+    "lon": 140.339033
+  },
+  {
+    "station_id": "aomori_0050",
+    "station_name": "陸奥横浜",
+    "prefecture": "青森県",
+    "line_name": "JR大湊線",
+    "lat": 41.086544,
+    "lon": 141.249757
+  },
+  {
+    "station_id": "aomori_0006",
+    "station_name": "陸奥沢辺",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.586175,
+    "lon": 139.894991
+  },
+  {
+    "station_id": "aomori_0037",
+    "station_name": "陸奥湊",
+    "prefecture": "青森県",
+    "line_name": "JR八戸線",
+    "lat": 40.52335,
+    "lon": 141.527652
+  },
+  {
+    "station_id": "aomori_0040",
+    "station_name": "陸奥白浜",
+    "prefecture": "青森県",
+    "line_name": "JR八戸線",
+    "lat": 40.516636,
+    "lon": 141.592299
+  },
+  {
+    "station_id": "aomori_0019",
+    "station_name": "陸奥赤石",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.76156,
+    "lon": 140.162057
+  },
+  {
+    "station_id": "aomori_0027",
+    "station_name": "陸奥鶴田",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.757544,
+    "lon": 140.435276
+  },
+  {
+    "station_id": "aomori_0045",
+    "station_name": "階上",
+    "prefecture": "青森県",
+    "line_name": "JR八戸線",
+    "lat": 40.456834,
+    "lon": 141.664958
+  },
+  {
+    "station_id": "aomori_0155",
+    "station_name": "青函トンネル記念館",
+    "prefecture": "青森県",
+    "line_name": "青函トンネル竜飛斜坑線",
+    "lat": 41.254006,
+    "lon": 140.346648
+  },
+  {
+    "station_id": "aomori_0070",
+    "station_name": "青森",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.828668,
+    "lon": 140.734738
+  },
+  {
+    "station_id": "aomori_0014",
+    "station_name": "風合瀬",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.731826,
+    "lon": 139.99432
+  },
+  {
+    "station_id": "aomori_0109",
+    "station_name": "館田",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道弘南線",
+    "lat": 40.585135,
+    "lon": 140.538617
+  },
+  {
+    "station_id": "aomori_0013",
+    "station_name": "驫木",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.707218,
+    "lon": 139.982954
+  },
+  {
+    "station_id": "aomori_0039",
+    "station_name": "鮫",
+    "prefecture": "青森県",
+    "line_name": "JR八戸線",
+    "lat": 40.530244,
+    "lon": 141.554891
+  },
+  {
+    "station_id": "aomori_0093",
+    "station_name": "鯖石",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道大鰐線",
+    "lat": 40.53561,
+    "lon": 140.5527
+  },
+  {
+    "station_id": "aomori_0020",
+    "station_name": "鰺ヶ沢",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.775255,
+    "lon": 140.220589
+  },
+  {
+    "station_id": "aomori_0021",
+    "station_name": "鳴沢",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.782189,
+    "lon": 140.267617
+  },
+  {
+    "station_id": "aomori_0067",
+    "station_name": "鶴ヶ坂",
+    "prefecture": "青森県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.791228,
+    "lon": 140.634878
+  },
+  {
+    "station_id": "aomori_0028",
+    "station_name": "鶴泊",
+    "prefecture": "青森県",
+    "line_name": "JR五能線",
+    "lat": 40.736026,
+    "lon": 140.437616
+  },
+  {
+    "station_id": "aomori_0117",
+    "station_name": "黒石",
+    "prefecture": "青森県",
+    "line_name": "弘南鉄道弘南線",
+    "lat": 40.648342,
+    "lon": 140.591045
+  }
+]

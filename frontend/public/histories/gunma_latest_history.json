@@ -1,0 +1,2012 @@
+[
+  {
+    "prefecture": "群馬県",
+    "station": "三俣",
+    "year": 2007,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "三俣",
+    "year": 2013,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "三俣",
+    "year": 2015,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "三俣",
+    "year": 2016,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "三俣",
+    "year": 2018,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "三俣",
+    "year": 2022,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "三俣",
+    "year": 2025,
+    "avg_price": 7250000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "上泉",
+    "year": 2022,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "上牧(群馬)",
+    "year": 2022,
+    "avg_price": 2600000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "上牧(群馬)",
+    "year": 2023,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "上牧(群馬)",
+    "year": 2024,
+    "avg_price": 1766666.6666666667
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "上牧(群馬)",
+    "year": 2025,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2009,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2010,
+    "avg_price": 22333333.333333332
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2013,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2014,
+    "avg_price": 10200000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2015,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2016,
+    "avg_price": 4200000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2017,
+    "avg_price": 3250000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2018,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2019,
+    "avg_price": 7433333.333333333
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2020,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2021,
+    "avg_price": 12188888.888888888
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2022,
+    "avg_price": 17688888.888888888
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2023,
+    "avg_price": 22750000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2024,
+    "avg_price": 16790000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中央前橋",
+    "year": 2025,
+    "avg_price": 18650000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中軽井沢",
+    "year": 2021,
+    "avg_price": 4028571.4285714286
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中軽井沢",
+    "year": 2022,
+    "avg_price": 4030000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中軽井沢",
+    "year": 2023,
+    "avg_price": 4060000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中軽井沢",
+    "year": 2024,
+    "avg_price": 4415384.615384615
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "中軽井沢",
+    "year": 2025,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "井野(群馬)",
+    "year": 2007,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "井野(群馬)",
+    "year": 2008,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "井野(群馬)",
+    "year": 2010,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "井野(群馬)",
+    "year": 2014,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "井野(群馬)",
+    "year": 2015,
+    "avg_price": 5850000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "井野(群馬)",
+    "year": 2016,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "井野(群馬)",
+    "year": 2018,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "井野(群馬)",
+    "year": 2020,
+    "avg_price": 6600000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "井野(群馬)",
+    "year": 2021,
+    "avg_price": 4400000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "井野(群馬)",
+    "year": 2022,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "井野(群馬)",
+    "year": 2023,
+    "avg_price": 6325000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "井野(群馬)",
+    "year": 2024,
+    "avg_price": 4750000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "井野(群馬)",
+    "year": 2025,
+    "avg_price": 5600000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2008,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2010,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2011,
+    "avg_price": 5833333.333333333
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2012,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2013,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2014,
+    "avg_price": 4250000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2015,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2016,
+    "avg_price": 10450000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2017,
+    "avg_price": 8333333.333333333
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2018,
+    "avg_price": 4020000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2019,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2021,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2022,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2023,
+    "avg_price": 6025000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2024,
+    "avg_price": 2100000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "伊勢崎",
+    "year": 2025,
+    "avg_price": 4766666.666666667
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "佐野のわたし",
+    "year": 2021,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "佐野のわたし",
+    "year": 2022,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "佐野のわたし",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "佐野のわたし",
+    "year": 2025,
+    "avg_price": 15666666.666666666
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2007,
+    "avg_price": 8775000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2008,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2009,
+    "avg_price": 9450000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2010,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2011,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2012,
+    "avg_price": 8550000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2013,
+    "avg_price": 9125000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2014,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2016,
+    "avg_price": 10400000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2017,
+    "avg_price": 13425000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2018,
+    "avg_price": 8050000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2019,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2020,
+    "avg_price": 8700000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2021,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2023,
+    "avg_price": 11125000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2024,
+    "avg_price": 8375000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "倉賀野",
+    "year": 2025,
+    "avg_price": 11950000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2007,
+    "avg_price": 13760000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2008,
+    "avg_price": 9735714.285714285
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2009,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2010,
+    "avg_price": 13131578.94736842
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2011,
+    "avg_price": 16561764.705882354
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2012,
+    "avg_price": 11588000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2013,
+    "avg_price": 11425531.914893618
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2014,
+    "avg_price": 9556250.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2015,
+    "avg_price": 8111111.111111111
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2016,
+    "avg_price": 13817500.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2017,
+    "avg_price": 10471428.57142857
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2018,
+    "avg_price": 10103448.27586207
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2019,
+    "avg_price": 11200000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2020,
+    "avg_price": 17166666.666666668
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2021,
+    "avg_price": 17248888.888888888
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2022,
+    "avg_price": 15718750.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2023,
+    "avg_price": 15422222.222222222
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2024,
+    "avg_price": 19958529.411764707
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋",
+    "year": 2025,
+    "avg_price": 22383636.363636363
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋大島",
+    "year": 2009,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋大島",
+    "year": 2010,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋大島",
+    "year": 2011,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋大島",
+    "year": 2014,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋大島",
+    "year": 2016,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋大島",
+    "year": 2017,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋大島",
+    "year": 2019,
+    "avg_price": 5566666.666666667
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋大島",
+    "year": 2020,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋大島",
+    "year": 2021,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋大島",
+    "year": 2023,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋大島",
+    "year": 2024,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "前橋大島",
+    "year": 2025,
+    "avg_price": 4900000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2007,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2008,
+    "avg_price": 13112500.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2009,
+    "avg_price": 4520000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2010,
+    "avg_price": 7185714.285714285
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2011,
+    "avg_price": 12350000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2012,
+    "avg_price": 11600000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2013,
+    "avg_price": 6916666.666666667
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2014,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2015,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2016,
+    "avg_price": 9222222.222222222
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2017,
+    "avg_price": 12125000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2018,
+    "avg_price": 11737500.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2019,
+    "avg_price": 16750000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2020,
+    "avg_price": 11212500.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2021,
+    "avg_price": 11927272.727272727
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2022,
+    "avg_price": 12853333.333333334
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2023,
+    "avg_price": 10736363.636363637
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2024,
+    "avg_price": 12550000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "北高崎",
+    "year": 2025,
+    "avg_price": 10646666.666666666
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "南高崎",
+    "year": 2021,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "南高崎",
+    "year": 2025,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "国定",
+    "year": 2013,
+    "avg_price": 1600000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "城東",
+    "year": 2009,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "城東",
+    "year": 2010,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "境町",
+    "year": 2007,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "境町",
+    "year": 2008,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "境町",
+    "year": 2010,
+    "avg_price": 2200000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "境町",
+    "year": 2012,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "境町",
+    "year": 2013,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "境町",
+    "year": 2014,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "境町",
+    "year": 2016,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "境町",
+    "year": 2020,
+    "avg_price": 4400000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "境町",
+    "year": 2022,
+    "avg_price": 2800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "境町",
+    "year": 2023,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2007,
+    "avg_price": 21200000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2008,
+    "avg_price": 18676923.076923076
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2009,
+    "avg_price": 12900000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2010,
+    "avg_price": 2350000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2011,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2012,
+    "avg_price": 5266666.666666667
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2013,
+    "avg_price": 6266666.666666667
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2014,
+    "avg_price": 10011111.111111112
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2015,
+    "avg_price": 7237500.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2016,
+    "avg_price": 14638461.538461538
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2017,
+    "avg_price": 6466666.666666667
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2018,
+    "avg_price": 16285714.285714285
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2019,
+    "avg_price": 11306666.666666666
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2020,
+    "avg_price": 14707692.307692308
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2021,
+    "avg_price": 9594117.647058824
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2022,
+    "avg_price": 12633333.333333334
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2023,
+    "avg_price": 12022222.222222222
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2024,
+    "avg_price": 11420000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "太田(群馬)",
+    "year": 2025,
+    "avg_price": 10312500.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "安中",
+    "year": 2022,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2007,
+    "avg_price": 20666666.666666668
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2008,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2009,
+    "avg_price": 30333333.333333332
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2010,
+    "avg_price": 7071428.571428572
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2011,
+    "avg_price": 7600000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2012,
+    "avg_price": 7850000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2013,
+    "avg_price": 11114285.714285715
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2014,
+    "avg_price": 7712500.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2015,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2016,
+    "avg_price": 10400000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2017,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2018,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2019,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2020,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2021,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2022,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2023,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2024,
+    "avg_price": 15920000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新伊勢崎",
+    "year": 2025,
+    "avg_price": 7150000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2007,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2008,
+    "avg_price": 6222222.222222222
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2009,
+    "avg_price": 5363636.363636363
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2010,
+    "avg_price": 12300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2011,
+    "avg_price": 6484615.384615385
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2012,
+    "avg_price": 6723809.523809524
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2013,
+    "avg_price": 4118750.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2014,
+    "avg_price": 3484615.3846153845
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2015,
+    "avg_price": 4537500.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2016,
+    "avg_price": 4566666.666666667
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2017,
+    "avg_price": 3090000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2018,
+    "avg_price": 5141666.666666667
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2019,
+    "avg_price": 5832307.692307692
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2020,
+    "avg_price": 2590476.1904761903
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2021,
+    "avg_price": 6647826.0869565215
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2022,
+    "avg_price": 8600357.142857144
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2023,
+    "avg_price": 5036363.636363637
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2024,
+    "avg_price": 4261538.461538462
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新前橋",
+    "year": 2025,
+    "avg_price": 6552941.176470588
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2009,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2010,
+    "avg_price": 6975000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2011,
+    "avg_price": 5833333.333333333
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2012,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2013,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2014,
+    "avg_price": 4700000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2015,
+    "avg_price": 6600000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2016,
+    "avg_price": 5650000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2017,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2018,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2019,
+    "avg_price": 5666666.666666667
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2020,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2021,
+    "avg_price": 6887500.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2022,
+    "avg_price": 5350000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2023,
+    "avg_price": 5620000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2024,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "新町(群馬)",
+    "year": 2025,
+    "avg_price": 7025000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2007,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2008,
+    "avg_price": 22336363.636363637
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2009,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2010,
+    "avg_price": 11866666.666666666
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2013,
+    "avg_price": 14375000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2014,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2015,
+    "avg_price": 15400000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2016,
+    "avg_price": 4750000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2017,
+    "avg_price": 7725000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2018,
+    "avg_price": 4700000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2019,
+    "avg_price": 7050000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2020,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2021,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2022,
+    "avg_price": 15600000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2023,
+    "avg_price": 16571428.57142857
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2024,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "桐生",
+    "year": 2025,
+    "avg_price": 17250000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "水上",
+    "year": 2024,
+    "avg_price": 3400000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "水上",
+    "year": 2025,
+    "avg_price": 5350000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2010,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2011,
+    "avg_price": 5150000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2012,
+    "avg_price": 33000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2013,
+    "avg_price": 6950000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2014,
+    "avg_price": 8300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2015,
+    "avg_price": 4400000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2016,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2017,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2018,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2019,
+    "avg_price": 10650000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2020,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2021,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2023,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2024,
+    "avg_price": 5200000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "片貝",
+    "year": 2025,
+    "avg_price": 5125000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "竜舞",
+    "year": 2008,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "竜舞",
+    "year": 2009,
+    "avg_price": 6033333.333333333
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "竜舞",
+    "year": 2014,
+    "avg_price": 9150000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "竜舞",
+    "year": 2016,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "竜舞",
+    "year": 2017,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "竜舞",
+    "year": 2020,
+    "avg_price": 3700000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "竜舞",
+    "year": 2021,
+    "avg_price": 10250000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "竜舞",
+    "year": 2025,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "細谷(群馬)",
+    "year": 2012,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "細谷(群馬)",
+    "year": 2013,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "細谷(群馬)",
+    "year": 2014,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "細谷(群馬)",
+    "year": 2021,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "細谷(群馬)",
+    "year": 2023,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "群馬八幡",
+    "year": 2021,
+    "avg_price": 1200000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "群馬八幡",
+    "year": 2022,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "群馬八幡",
+    "year": 2023,
+    "avg_price": 1010000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "群馬大津",
+    "year": 2025,
+    "avg_price": 1700000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "群馬総社",
+    "year": 2020,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "群馬総社",
+    "year": 2022,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "群馬総社",
+    "year": 2024,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "羽根尾",
+    "year": 2025,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "茂林寺前",
+    "year": 2023,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "茂林寺前",
+    "year": 2024,
+    "avg_price": 4600000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "西小泉",
+    "year": 2018,
+    "avg_price": 6250000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "西小泉",
+    "year": 2019,
+    "avg_price": 6950000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "西小泉",
+    "year": 2020,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "西桐生",
+    "year": 2025,
+    "avg_price": 5600000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "長野原草津口",
+    "year": 2023,
+    "avg_price": 2200000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "長野原草津口",
+    "year": 2025,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "韮川",
+    "year": 2011,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "韮川",
+    "year": 2012,
+    "avg_price": 2800000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "韮川",
+    "year": 2014,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "韮川",
+    "year": 2023,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "韮川",
+    "year": 2024,
+    "avg_price": 5900000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "韮川",
+    "year": 2025,
+    "avg_price": 4900000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "館林",
+    "year": 2023,
+    "avg_price": 12733333.333333334
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "館林",
+    "year": 2024,
+    "avg_price": 19700000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "館林",
+    "year": 2025,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(上信)",
+    "year": 2015,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(上信)",
+    "year": 2024,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2007,
+    "avg_price": 15828000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2008,
+    "avg_price": 13588571.42857143
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2009,
+    "avg_price": 12328000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2010,
+    "avg_price": 14561702.127659574
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2011,
+    "avg_price": 12926190.476190476
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2012,
+    "avg_price": 12565000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2013,
+    "avg_price": 14062903.225806452
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2014,
+    "avg_price": 15261224.489795918
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2015,
+    "avg_price": 18216744.18604651
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2016,
+    "avg_price": 14680000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2017,
+    "avg_price": 15802702.702702703
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2018,
+    "avg_price": 23165306.12244898
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2019,
+    "avg_price": 16477948.717948718
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2020,
+    "avg_price": 22533333.333333332
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2021,
+    "avg_price": 24762500.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2022,
+    "avg_price": 22529027.777777776
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2023,
+    "avg_price": 26504109.589041095
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2024,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎(ＪＲ)",
+    "year": 2025,
+    "avg_price": 26957142.85714286
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2007,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2008,
+    "avg_price": 10157142.857142856
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2009,
+    "avg_price": 13311111.111111112
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2010,
+    "avg_price": 10657142.857142856
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2011,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2012,
+    "avg_price": 11300000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2013,
+    "avg_price": 16266666.666666666
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2014,
+    "avg_price": 16125000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2015,
+    "avg_price": 16666666.666666666
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2016,
+    "avg_price": 16950000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2017,
+    "avg_price": 8042857.142857143
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2018,
+    "avg_price": 15942857.142857144
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2019,
+    "avg_price": 5857142.857142857
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2020,
+    "avg_price": 14420000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2021,
+    "avg_price": 14275000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2022,
+    "avg_price": 14493750.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2023,
+    "avg_price": 11825000.0
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2024,
+    "avg_price": 20176923.076923076
+  },
+  {
+    "prefecture": "群馬県",
+    "station": "高崎問屋町",
+    "year": 2025,
+    "avg_price": 26570588.23529412
+  }
+]

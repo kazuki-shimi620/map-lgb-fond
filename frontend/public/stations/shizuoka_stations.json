@@ -1,0 +1,1738 @@
+[
+  {
+    "station_id": "shizuoka_0147",
+    "station_name": "いこいの広場",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.788103,
+    "lon": 137.963773
+  },
+  {
+    "station_id": "shizuoka_0201",
+    "station_name": "さぎの宮",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.757275,
+    "lon": 137.757327
+  },
+  {
+    "station_id": "shizuoka_0118",
+    "station_name": "ひらんだ",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.164806,
+    "lon": 138.167507
+  },
+  {
+    "station_id": "shizuoka_0180",
+    "station_name": "アスモ前",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.727685,
+    "lon": 137.49405
+  },
+  {
+    "station_id": "shizuoka_0116",
+    "station_name": "アプトいちしろ",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.167514,
+    "lon": 138.144825
+  },
+  {
+    "station_id": "shizuoka_0183",
+    "station_name": "ジヤトコ前(ジヤトコ１地区前)",
+    "prefecture": "静岡県",
+    "line_name": "岳南鉄道",
+    "lat": 35.157775,
+    "lon": 138.690076
+  },
+  {
+    "station_id": "shizuoka_0164",
+    "station_name": "フルーツパーク",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.834406,
+    "lon": 137.731976
+  },
+  {
+    "station_id": "shizuoka_0175",
+    "station_name": "三ケ日",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.802565,
+    "lon": 137.551705
+  },
+  {
+    "station_id": "shizuoka_0019",
+    "station_name": "三島",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.126253,
+    "lon": 138.911133
+  },
+  {
+    "station_id": "shizuoka_0100",
+    "station_name": "三島二日町",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道駿豆線",
+    "lat": 35.111039,
+    "lon": 138.926001
+  },
+  {
+    "station_id": "shizuoka_0098",
+    "station_name": "三島広小路",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道駿豆線",
+    "lat": 35.119272,
+    "lon": 138.911202
+  },
+  {
+    "station_id": "shizuoka_0099",
+    "station_name": "三島田町",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道駿豆線",
+    "lat": 35.116205,
+    "lon": 138.918421
+  },
+  {
+    "station_id": "shizuoka_0199",
+    "station_name": "上島",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.741568,
+    "lon": 137.745462
+  },
+  {
+    "station_id": "shizuoka_0068",
+    "station_name": "上市場",
+    "prefecture": "静岡県",
+    "line_name": "JR飯田線",
+    "lat": 35.050202,
+    "lon": 137.752364
+  },
+  {
+    "station_id": "shizuoka_0158",
+    "station_name": "上野部",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.847442,
+    "lon": 137.830058
+  },
+  {
+    "station_id": "shizuoka_0015",
+    "station_name": "下土狩",
+    "prefecture": "静岡県",
+    "line_name": "JR御殿場線",
+    "lat": 35.128379,
+    "lon": 138.895126
+  },
+  {
+    "station_id": "shizuoka_0071",
+    "station_name": "下川合",
+    "prefecture": "静岡県",
+    "line_name": "JR飯田線",
+    "lat": 35.069321,
+    "lon": 137.786422
+  },
+  {
+    "station_id": "shizuoka_0138",
+    "station_name": "下泉",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 35.022064,
+    "lon": 138.090078
+  },
+  {
+    "station_id": "shizuoka_0072",
+    "station_name": "中部天竜",
+    "prefecture": "静岡県",
+    "line_name": "JR飯田線",
+    "lat": 35.085283,
+    "lon": 137.802898
+  },
+  {
+    "station_id": "shizuoka_0160",
+    "station_name": "二俣本町",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.859504,
+    "lon": 137.813015
+  },
+  {
+    "station_id": "shizuoka_0123",
+    "station_name": "井川",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.212242,
+    "lon": 138.221111
+  },
+  {
+    "station_id": "shizuoka_0090",
+    "station_name": "今井浜海岸",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.753714,
+    "lon": 139.004692
+  },
+  {
+    "station_id": "shizuoka_0126",
+    "station_name": "代官町",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 34.835493,
+    "lon": 138.126102
+  },
+  {
+    "station_id": "shizuoka_0006",
+    "station_name": "伊東",
+    "prefecture": "静岡県",
+    "line_name": "JR伊東線",
+    "lat": 34.9747,
+    "lon": 139.092125
+  },
+  {
+    "station_id": "shizuoka_0102",
+    "station_name": "伊豆仁田",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道駿豆線",
+    "lat": 35.078821,
+    "lon": 138.941509
+  },
+  {
+    "station_id": "shizuoka_0086",
+    "station_name": "伊豆北川",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.827174,
+    "lon": 139.075487
+  },
+  {
+    "station_id": "shizuoka_0003",
+    "station_name": "伊豆多賀",
+    "prefecture": "静岡県",
+    "line_name": "JR伊東線",
+    "lat": 35.059411,
+    "lon": 139.066847
+  },
+  {
+    "station_id": "shizuoka_0085",
+    "station_name": "伊豆大川",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.843208,
+    "lon": 139.074014
+  },
+  {
+    "station_id": "shizuoka_0094",
+    "station_name": "伊豆急下田",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.679647,
+    "lon": 138.944274
+  },
+  {
+    "station_id": "shizuoka_0087",
+    "station_name": "伊豆熱川",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.817042,
+    "lon": 139.069307
+  },
+  {
+    "station_id": "shizuoka_0089",
+    "station_name": "伊豆稲取",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.774546,
+    "lon": 139.037108
+  },
+  {
+    "station_id": "shizuoka_0105",
+    "station_name": "伊豆長岡",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道駿豆線",
+    "lat": 35.039907,
+    "lon": 138.947539
+  },
+  {
+    "station_id": "shizuoka_0084",
+    "station_name": "伊豆高原",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.87732,
+    "lon": 139.107961
+  },
+  {
+    "station_id": "shizuoka_0073",
+    "station_name": "佐久間",
+    "prefecture": "静岡県",
+    "line_name": "JR飯田線",
+    "lat": 35.091877,
+    "lon": 137.809783
+  },
+  {
+    "station_id": "shizuoka_0109",
+    "station_name": "修善寺",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道駿豆線",
+    "lat": 34.979091,
+    "lon": 138.950545
+  },
+  {
+    "station_id": "shizuoka_0059",
+    "station_name": "入山瀬",
+    "prefecture": "静岡県",
+    "line_name": "JR身延線",
+    "lat": 35.188276,
+    "lon": 138.647622
+  },
+  {
+    "station_id": "shizuoka_0223",
+    "station_name": "入江岡",
+    "prefecture": "静岡県",
+    "line_name": "静岡鉄道静岡清水線",
+    "lat": 35.014891,
+    "lon": 138.481264
+  },
+  {
+    "station_id": "shizuoka_0196",
+    "station_name": "八幡(愛知)",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.717012,
+    "lon": 137.73598
+  },
+  {
+    "station_id": "shizuoka_0039",
+    "station_name": "六合",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.836436,
+    "lon": 138.203502
+  },
+  {
+    "station_id": "shizuoka_0154",
+    "station_name": "円田",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.820793,
+    "lon": 137.907574
+  },
+  {
+    "station_id": "shizuoka_0067",
+    "station_name": "出馬",
+    "prefecture": "静岡県",
+    "line_name": "JR飯田線",
+    "lat": 35.049322,
+    "lon": 137.744276
+  },
+  {
+    "station_id": "shizuoka_0018",
+    "station_name": "函南",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.108773,
+    "lon": 138.970984
+  },
+  {
+    "station_id": "shizuoka_0197",
+    "station_name": "助信",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.724303,
+    "lon": 137.738697
+  },
+  {
+    "station_id": "shizuoka_0096",
+    "station_name": "十国峠",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道十国鋼索線",
+    "lat": 35.12772,
+    "lon": 139.040748
+  },
+  {
+    "station_id": "shizuoka_0095",
+    "station_name": "十国登り口",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道十国鋼索線",
+    "lat": 35.127691,
+    "lon": 139.037627
+  },
+  {
+    "station_id": "shizuoka_0110",
+    "station_name": "千頭",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.107754,
+    "lon": 138.13656
+  },
+  {
+    "station_id": "shizuoka_0080",
+    "station_name": "南伊東",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.95757,
+    "lon": 139.087893
+  },
+  {
+    "station_id": "shizuoka_0010",
+    "station_name": "南御殿場",
+    "prefecture": "静岡県",
+    "line_name": "JR御殿場線",
+    "lat": 35.277269,
+    "lon": 138.925789
+  },
+  {
+    "station_id": "shizuoka_0021",
+    "station_name": "原(愛知)",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.124915,
+    "lon": 138.793387
+  },
+  {
+    "station_id": "shizuoka_0103",
+    "station_name": "原木",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道駿豆線",
+    "lat": 35.065653,
+    "lon": 138.943695
+  },
+  {
+    "station_id": "shizuoka_0150",
+    "station_name": "原田",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.820183,
+    "lon": 137.952911
+  },
+  {
+    "station_id": "shizuoka_0149",
+    "station_name": "原谷",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.808434,
+    "lon": 137.955023
+  },
+  {
+    "station_id": "shizuoka_0216",
+    "station_name": "古庄",
+    "prefecture": "静岡県",
+    "line_name": "静岡鉄道静岡清水線",
+    "lat": 34.992855,
+    "lon": 138.419581
+  },
+  {
+    "station_id": "shizuoka_0128",
+    "station_name": "合格",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 34.844806,
+    "lon": 138.120771
+  },
+  {
+    "station_id": "shizuoka_0023",
+    "station_name": "吉原",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.143845,
+    "lon": 138.702768
+  },
+  {
+    "station_id": "shizuoka_0184",
+    "station_name": "吉原本町",
+    "prefecture": "静岡県",
+    "line_name": "岳南鉄道",
+    "lat": 35.160821,
+    "lon": 138.689774
+  },
+  {
+    "station_id": "shizuoka_0076",
+    "station_name": "向市場",
+    "prefecture": "静岡県",
+    "line_name": "JR飯田線",
+    "lat": 35.154068,
+    "lon": 137.869446
+  },
+  {
+    "station_id": "shizuoka_0113",
+    "station_name": "土本",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.136057,
+    "lon": 138.139186
+  },
+  {
+    "station_id": "shizuoka_0136",
+    "station_name": "地名",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 34.986019,
+    "lon": 138.087252
+  },
+  {
+    "station_id": "shizuoka_0083",
+    "station_name": "城ケ崎海岸",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.889878,
+    "lon": 139.1217
+  },
+  {
+    "station_id": "shizuoka_0075",
+    "station_name": "城西",
+    "prefecture": "静岡県",
+    "line_name": "JR飯田線",
+    "lat": 35.131569,
+    "lon": 137.86198
+  },
+  {
+    "station_id": "shizuoka_0137",
+    "station_name": "塩郷",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 34.997664,
+    "lon": 138.090612
+  },
+  {
+    "station_id": "shizuoka_0107",
+    "station_name": "大仁",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道駿豆線",
+    "lat": 34.994467,
+    "lon": 138.937527
+  },
+  {
+    "station_id": "shizuoka_0132",
+    "station_name": "大和田",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 34.921104,
+    "lon": 138.08215
+  },
+  {
+    "station_id": "shizuoka_0101",
+    "station_name": "大場",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道駿豆線",
+    "lat": 35.092569,
+    "lon": 138.939414
+  },
+  {
+    "station_id": "shizuoka_0016",
+    "station_name": "大岡(静岡)",
+    "prefecture": "静岡県",
+    "line_name": "JR御殿場線",
+    "lat": 35.116158,
+    "lon": 138.881988
+  },
+  {
+    "station_id": "shizuoka_0078",
+    "station_name": "大嵐",
+    "prefecture": "静岡県",
+    "line_name": "JR飯田線",
+    "lat": 35.190466,
+    "lon": 137.818509
+  },
+  {
+    "station_id": "shizuoka_0179",
+    "station_name": "大森",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.737865,
+    "lon": 137.509636
+  },
+  {
+    "station_id": "shizuoka_0159",
+    "station_name": "天竜二俣",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.859118,
+    "lon": 137.820045
+  },
+  {
+    "station_id": "shizuoka_0049",
+    "station_name": "天竜川",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.716994,
+    "lon": 137.77923
+  },
+  {
+    "station_id": "shizuoka_0119",
+    "station_name": "奥大井湖上",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.1682,
+    "lon": 138.180792
+  },
+  {
+    "station_id": "shizuoka_0115",
+    "station_name": "奥泉",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.149739,
+    "lon": 138.147796
+  },
+  {
+    "station_id": "shizuoka_0176",
+    "station_name": "奥浜名湖",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.795068,
+    "lon": 137.545934
+  },
+  {
+    "station_id": "shizuoka_0005",
+    "station_name": "宇佐美",
+    "prefecture": "静岡県",
+    "line_name": "JR伊東線",
+    "lat": 35.005602,
+    "lon": 139.079778
+  },
+  {
+    "station_id": "shizuoka_0034",
+    "station_name": "安倍川",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.940961,
+    "lon": 138.364029
+  },
+  {
+    "station_id": "shizuoka_0163",
+    "station_name": "宮口",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.830389,
+    "lon": 137.773731
+  },
+  {
+    "station_id": "shizuoka_0133",
+    "station_name": "家山",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 34.940071,
+    "lon": 138.077764
+  },
+  {
+    "station_id": "shizuoka_0024",
+    "station_name": "富士",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.151497,
+    "lon": 138.651225
+  },
+  {
+    "station_id": "shizuoka_0062",
+    "station_name": "富士宮",
+    "prefecture": "静岡県",
+    "line_name": "JR身延線",
+    "lat": 35.221409,
+    "lon": 138.614924
+  },
+  {
+    "station_id": "shizuoka_0011",
+    "station_name": "富士岡",
+    "prefecture": "静岡県",
+    "line_name": "JR御殿場線",
+    "lat": 35.257299,
+    "lon": 138.920504
+  },
+  {
+    "station_id": "shizuoka_0025",
+    "station_name": "富士川",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.141119,
+    "lon": 138.618571
+  },
+  {
+    "station_id": "shizuoka_0060",
+    "station_name": "富士根",
+    "prefecture": "静岡県",
+    "line_name": "JR身延線",
+    "lat": 35.205251,
+    "lon": 138.63562
+  },
+  {
+    "station_id": "shizuoka_0082",
+    "station_name": "富戸",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.91005,
+    "lon": 139.131676
+  },
+  {
+    "station_id": "shizuoka_0171",
+    "station_name": "寸座",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.790102,
+    "lon": 137.612523
+  },
+  {
+    "station_id": "shizuoka_0079",
+    "station_name": "小和田",
+    "prefecture": "静岡県",
+    "line_name": "JR飯田線",
+    "lat": 35.209862,
+    "lon": 137.835971
+  },
+  {
+    "station_id": "shizuoka_0177",
+    "station_name": "尾奈",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.783958,
+    "lon": 137.541755
+  },
+  {
+    "station_id": "shizuoka_0121",
+    "station_name": "尾盛",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.192131,
+    "lon": 138.174369
+  },
+  {
+    "station_id": "shizuoka_0168",
+    "station_name": "岡地",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.812295,
+    "lon": 137.665686
+  },
+  {
+    "station_id": "shizuoka_0162",
+    "station_name": "岩水寺",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.837705,
+    "lon": 137.792537
+  },
+  {
+    "station_id": "shizuoka_0012",
+    "station_name": "岩波",
+    "prefecture": "静岡県",
+    "line_name": "JR御殿場線",
+    "lat": 35.21498,
+    "lon": 138.919296
+  },
+  {
+    "station_id": "shizuoka_0186",
+    "station_name": "岳南原田",
+    "prefecture": "静岡県",
+    "line_name": "岳南鉄道",
+    "lat": 35.166076,
+    "lon": 138.704517
+  },
+  {
+    "station_id": "shizuoka_0188",
+    "station_name": "岳南富士岡",
+    "prefecture": "静岡県",
+    "line_name": "岳南鉄道",
+    "lat": 35.160949,
+    "lon": 138.723356
+  },
+  {
+    "station_id": "shizuoka_0191",
+    "station_name": "岳南江尾",
+    "prefecture": "静岡県",
+    "line_name": "岳南鉄道",
+    "lat": 35.155261,
+    "lon": 138.751793
+  },
+  {
+    "station_id": "shizuoka_0040",
+    "station_name": "島田(静岡)",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.830159,
+    "lon": 138.173436
+  },
+  {
+    "station_id": "shizuoka_0142",
+    "station_name": "崎平",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 35.091803,
+    "lon": 138.127411
+  },
+  {
+    "station_id": "shizuoka_0081",
+    "station_name": "川奈",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.950906,
+    "lon": 139.124936
+  },
+  {
+    "station_id": "shizuoka_0111",
+    "station_name": "川根両国",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.116836,
+    "lon": 138.140592
+  },
+  {
+    "station_id": "shizuoka_0114",
+    "station_name": "川根小山",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.141753,
+    "lon": 138.14106
+  },
+  {
+    "station_id": "shizuoka_0135",
+    "station_name": "川根温泉笹間渡",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 34.962291,
+    "lon": 138.086114
+  },
+  {
+    "station_id": "shizuoka_0166",
+    "station_name": "常葉大学前",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.81989,
+    "lon": 137.709231
+  },
+  {
+    "station_id": "shizuoka_0053",
+    "station_name": "弁天島",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.690125,
+    "lon": 137.603058
+  },
+  {
+    "station_id": "shizuoka_0046",
+    "station_name": "御厨(静岡)",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.718469,
+    "lon": 137.885315
+  },
+  {
+    "station_id": "shizuoka_0009",
+    "station_name": "御殿場",
+    "prefecture": "静岡県",
+    "line_name": "JR御殿場線",
+    "lat": 35.299933,
+    "lon": 138.93424
+  },
+  {
+    "station_id": "shizuoka_0220",
+    "station_name": "御門台",
+    "prefecture": "静岡県",
+    "line_name": "静岡鉄道静岡清水線",
+    "lat": 35.007902,
+    "lon": 138.452464
+  },
+  {
+    "station_id": "shizuoka_0044",
+    "station_name": "愛野",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.752257,
+    "lon": 137.961663
+  },
+  {
+    "station_id": "shizuoka_0151",
+    "station_name": "戸綿",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.831311,
+    "lon": 137.931038
+  },
+  {
+    "station_id": "shizuoka_0134",
+    "station_name": "抜里",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 34.953373,
+    "lon": 138.087672
+  },
+  {
+    "station_id": "shizuoka_0043",
+    "station_name": "掛川",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.769463,
+    "lon": 138.014937
+  },
+  {
+    "station_id": "shizuoka_0144",
+    "station_name": "掛川市役所前",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.770289,
+    "lon": 138.000143
+  },
+  {
+    "station_id": "shizuoka_0120",
+    "station_name": "接岨峡温泉",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.178821,
+    "lon": 138.185177
+  },
+  {
+    "station_id": "shizuoka_0156",
+    "station_name": "敷地",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.826218,
+    "lon": 137.864355
+  },
+  {
+    "station_id": "shizuoka_0192",
+    "station_name": "新富士(静岡)",
+    "prefecture": "静岡県",
+    "line_name": "東海道新幹線",
+    "lat": 35.142185,
+    "lon": 138.663637
+  },
+  {
+    "station_id": "shizuoka_0054",
+    "station_name": "新居町",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.694276,
+    "lon": 137.568953
+  },
+  {
+    "station_id": "shizuoka_0056",
+    "station_name": "新所原",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.723205,
+    "lon": 137.484399
+  },
+  {
+    "station_id": "shizuoka_0193",
+    "station_name": "新浜松",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.703402,
+    "lon": 137.732456
+  },
+  {
+    "station_id": "shizuoka_0224",
+    "station_name": "新清水",
+    "prefecture": "静岡県",
+    "line_name": "静岡鉄道静岡清水線",
+    "lat": 35.017054,
+    "lon": 138.487539
+  },
+  {
+    "station_id": "shizuoka_0026",
+    "station_name": "新蒲原",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.119599,
+    "lon": 138.608117
+  },
+  {
+    "station_id": "shizuoka_0125",
+    "station_name": "新金谷",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 34.825737,
+    "lon": 138.137645
+  },
+  {
+    "station_id": "shizuoka_0210",
+    "station_name": "新静岡",
+    "prefecture": "静岡県",
+    "line_name": "静岡鉄道静岡清水線",
+    "lat": 34.975823,
+    "lon": 138.387423
+  },
+  {
+    "station_id": "shizuoka_0127",
+    "station_name": "日切",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 34.839012,
+    "lon": 138.122394
+  },
+  {
+    "station_id": "shizuoka_0211",
+    "station_name": "日吉町",
+    "prefecture": "静岡県",
+    "line_name": "静岡鉄道静岡清水線",
+    "lat": 34.977017,
+    "lon": 138.391114
+  },
+  {
+    "station_id": "shizuoka_0070",
+    "station_name": "早瀬",
+    "prefecture": "静岡県",
+    "line_name": "JR飯田線",
+    "lat": 35.060521,
+    "lon": 137.775126
+  },
+  {
+    "station_id": "shizuoka_0213",
+    "station_name": "春日町",
+    "prefecture": "静岡県",
+    "line_name": "静岡鉄道静岡清水線",
+    "lat": 34.978387,
+    "lon": 138.400544
+  },
+  {
+    "station_id": "shizuoka_0198",
+    "station_name": "曳馬",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.733149,
+    "lon": 137.741604
+  },
+  {
+    "station_id": "shizuoka_0185",
+    "station_name": "本吉原",
+    "prefecture": "静岡県",
+    "line_name": "岳南鉄道",
+    "lat": 35.161946,
+    "lon": 138.692716
+  },
+  {
+    "station_id": "shizuoka_0002",
+    "station_name": "来宮",
+    "prefecture": "静岡県",
+    "line_name": "JR伊東線",
+    "lat": 35.098723,
+    "lon": 139.065575
+  },
+  {
+    "station_id": "shizuoka_0022",
+    "station_name": "東田子の浦",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.136255,
+    "lon": 138.745441
+  },
+  {
+    "station_id": "shizuoka_0173",
+    "station_name": "東都筑",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.790412,
+    "lon": 137.586571
+  },
+  {
+    "station_id": "shizuoka_0032",
+    "station_name": "東静岡",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.985256,
+    "lon": 138.413118
+  },
+  {
+    "station_id": "shizuoka_0057",
+    "station_name": "柚木(静岡鉄道)",
+    "prefecture": "静岡県",
+    "line_name": "JR身延線",
+    "lat": 35.157468,
+    "lon": 138.639157
+  },
+  {
+    "station_id": "shizuoka_0146",
+    "station_name": "桜木",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.778216,
+    "lon": 137.972764
+  },
+  {
+    "station_id": "shizuoka_0222",
+    "station_name": "桜橋(富山)",
+    "prefecture": "静岡県",
+    "line_name": "静岡鉄道静岡清水線",
+    "lat": 35.013107,
+    "lon": 138.477573
+  },
+  {
+    "station_id": "shizuoka_0153",
+    "station_name": "森町病院前",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.826389,
+    "lon": 137.917944
+  },
+  {
+    "station_id": "shizuoka_0187",
+    "station_name": "比奈",
+    "prefecture": "静岡県",
+    "line_name": "岳南鉄道",
+    "lat": 35.161485,
+    "lon": 138.713602
+  },
+  {
+    "station_id": "shizuoka_0169",
+    "station_name": "気賀",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.80722,
+    "lon": 137.651937
+  },
+  {
+    "station_id": "shizuoka_0077",
+    "station_name": "水窪",
+    "prefecture": "静岡県",
+    "line_name": "JR飯田線",
+    "lat": 35.163371,
+    "lon": 137.870501
+  },
+  {
+    "station_id": "shizuoka_0112",
+    "station_name": "沢間",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.124705,
+    "lon": 138.134365
+  },
+  {
+    "station_id": "shizuoka_0091",
+    "station_name": "河津",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.747711,
+    "lon": 138.996179
+  },
+  {
+    "station_id": "shizuoka_0064",
+    "station_name": "沼久保",
+    "prefecture": "静岡県",
+    "line_name": "JR身延線",
+    "lat": 35.199278,
+    "lon": 138.584283
+  },
+  {
+    "station_id": "shizuoka_0017",
+    "station_name": "沼津",
+    "prefecture": "静岡県",
+    "line_name": "JR御殿場線",
+    "lat": 35.103011,
+    "lon": 138.860104
+  },
+  {
+    "station_id": "shizuoka_0205",
+    "station_name": "浜北",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.791358,
+    "lon": 137.784356
+  },
+  {
+    "station_id": "shizuoka_0172",
+    "station_name": "浜名湖佐久米",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.789146,
+    "lon": 137.599286
+  },
+  {
+    "station_id": "shizuoka_0050",
+    "station_name": "浜松",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.703866,
+    "lon": 137.734759
+  },
+  {
+    "station_id": "shizuoka_0069",
+    "station_name": "浦川",
+    "prefecture": "静岡県",
+    "line_name": "JR飯田線",
+    "lat": 35.056355,
+    "lon": 137.763608
+  },
+  {
+    "station_id": "shizuoka_0030",
+    "station_name": "清水(愛知)",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.023248,
+    "lon": 138.488958
+  },
+  {
+    "station_id": "shizuoka_0061",
+    "station_name": "源道寺",
+    "prefecture": "静岡県",
+    "line_name": "JR身延線",
+    "lat": 35.214463,
+    "lon": 138.627057
+  },
+  {
+    "station_id": "shizuoka_0036",
+    "station_name": "焼津",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.872261,
+    "lon": 138.318457
+  },
+  {
+    "station_id": "shizuoka_0001",
+    "station_name": "熱海",
+    "prefecture": "静岡県",
+    "line_name": "JR伊東線",
+    "lat": 35.103573,
+    "lon": 139.077679
+  },
+  {
+    "station_id": "shizuoka_0020",
+    "station_name": "片浜",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.11825,
+    "lon": 138.818937
+  },
+  {
+    "station_id": "shizuoka_0088",
+    "station_name": "片瀬白田",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.801783,
+    "lon": 139.06122
+  },
+  {
+    "station_id": "shizuoka_0108",
+    "station_name": "牧之郷",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道駿豆線",
+    "lat": 34.988677,
+    "lon": 138.954317
+  },
+  {
+    "station_id": "shizuoka_0221",
+    "station_name": "狐ケ崎",
+    "prefecture": "静岡県",
+    "line_name": "静岡鉄道静岡清水線",
+    "lat": 35.011488,
+    "lon": 138.459739
+  },
+  {
+    "station_id": "shizuoka_0035",
+    "station_name": "用宗",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.922512,
+    "lon": 138.36006
+  },
+  {
+    "station_id": "shizuoka_0106",
+    "station_name": "田京",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道駿豆線",
+    "lat": 35.014551,
+    "lon": 138.945767
+  },
+  {
+    "station_id": "shizuoka_0139",
+    "station_name": "田野口",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 35.0513,
+    "lon": 138.095416
+  },
+  {
+    "station_id": "shizuoka_0028",
+    "station_name": "由比",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.097108,
+    "lon": 138.552756
+  },
+  {
+    "station_id": "shizuoka_0074",
+    "station_name": "相月",
+    "prefecture": "静岡県",
+    "line_name": "JR飯田線",
+    "lat": 35.114988,
+    "lon": 137.854345
+  },
+  {
+    "station_id": "shizuoka_0218",
+    "station_name": "県立美術館前",
+    "prefecture": "静岡県",
+    "line_name": "静岡鉄道静岡清水線",
+    "lat": 34.997494,
+    "lon": 138.438088
+  },
+  {
+    "station_id": "shizuoka_0217",
+    "station_name": "県総合運動場",
+    "prefecture": "静岡県",
+    "line_name": "静岡鉄道静岡清水線",
+    "lat": 34.993375,
+    "lon": 138.430113
+  },
+  {
+    "station_id": "shizuoka_0178",
+    "station_name": "知波田",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.753069,
+    "lon": 137.511873
+  },
+  {
+    "station_id": "shizuoka_0047",
+    "station_name": "磐田",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.710132,
+    "lon": 137.852244
+  },
+  {
+    "station_id": "shizuoka_0130",
+    "station_name": "神尾",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 34.882842,
+    "lon": 138.101595
+  },
+  {
+    "station_id": "shizuoka_0190",
+    "station_name": "神谷",
+    "prefecture": "静岡県",
+    "line_name": "岳南鉄道",
+    "lat": 35.16103,
+    "lon": 138.74303
+  },
+  {
+    "station_id": "shizuoka_0131",
+    "station_name": "福用",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 34.901881,
+    "lon": 138.090124
+  },
+  {
+    "station_id": "shizuoka_0066",
+    "station_name": "稲子",
+    "prefecture": "静岡県",
+    "line_name": "JR身延線",
+    "lat": 35.230454,
+    "lon": 138.536892
+  },
+  {
+    "station_id": "shizuoka_0092",
+    "station_name": "稲梓",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.722066,
+    "lon": 138.949399
+  },
+  {
+    "station_id": "shizuoka_0202",
+    "station_name": "積志",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.768082,
+    "lon": 137.763409
+  },
+  {
+    "station_id": "shizuoka_0058",
+    "station_name": "竪堀",
+    "prefecture": "静岡県",
+    "line_name": "JR身延線",
+    "lat": 35.168075,
+    "lon": 138.645881
+  },
+  {
+    "station_id": "shizuoka_0194",
+    "station_name": "第一通り",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.707477,
+    "lon": 137.732845
+  },
+  {
+    "station_id": "shizuoka_0148",
+    "station_name": "細谷",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.792705,
+    "lon": 137.961606
+  },
+  {
+    "station_id": "shizuoka_0004",
+    "station_name": "網代",
+    "prefecture": "静岡県",
+    "line_name": "JR伊東線",
+    "lat": 35.043545,
+    "lon": 139.081245
+  },
+  {
+    "station_id": "shizuoka_0206",
+    "station_name": "美薗中央公園",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.798208,
+    "lon": 137.789764
+  },
+  {
+    "station_id": "shizuoka_0200",
+    "station_name": "自動車学校前",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.747489,
+    "lon": 137.751625
+  },
+  {
+    "station_id": "shizuoka_0029",
+    "station_name": "興津",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.052539,
+    "lon": 138.521865
+  },
+  {
+    "station_id": "shizuoka_0052",
+    "station_name": "舞阪",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.685701,
+    "lon": 137.626422
+  },
+  {
+    "station_id": "shizuoka_0065",
+    "station_name": "芝川",
+    "prefecture": "静岡県",
+    "line_name": "JR身延線",
+    "lat": 35.197272,
+    "lon": 138.563845
+  },
+  {
+    "station_id": "shizuoka_0031",
+    "station_name": "草薙(静岡鉄道)",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.002854,
+    "lon": 138.442025
+  },
+  {
+    "station_id": "shizuoka_0042",
+    "station_name": "菊川(静岡)",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.76176,
+    "lon": 138.085648
+  },
+  {
+    "station_id": "shizuoka_0027",
+    "station_name": "蒲原",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 35.114005,
+    "lon": 138.582752
+  },
+  {
+    "station_id": "shizuoka_0093",
+    "station_name": "蓮台寺",
+    "prefecture": "静岡県",
+    "line_name": "伊豆急行線",
+    "lat": 34.699634,
+    "lon": 138.941274
+  },
+  {
+    "station_id": "shizuoka_0038",
+    "station_name": "藤枝",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.849511,
+    "lon": 138.252748
+  },
+  {
+    "station_id": "shizuoka_0045",
+    "station_name": "袋井",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.741377,
+    "lon": 137.92596
+  },
+  {
+    "station_id": "shizuoka_0013",
+    "station_name": "裾野",
+    "prefecture": "静岡県",
+    "line_name": "JR御殿場線",
+    "lat": 35.171372,
+    "lon": 138.909293
+  },
+  {
+    "station_id": "shizuoka_0063",
+    "station_name": "西富士宮",
+    "prefecture": "静岡県",
+    "line_name": "JR身延線",
+    "lat": 35.225456,
+    "lon": 138.602567
+  },
+  {
+    "station_id": "shizuoka_0145",
+    "station_name": "西掛川",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.771952,
+    "lon": 137.99501
+  },
+  {
+    "station_id": "shizuoka_0170",
+    "station_name": "西気賀",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.802323,
+    "lon": 137.621523
+  },
+  {
+    "station_id": "shizuoka_0037",
+    "station_name": "西焼津",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.859824,
+    "lon": 138.28552
+  },
+  {
+    "station_id": "shizuoka_0161",
+    "station_name": "西鹿島",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.846758,
+    "lon": 137.807988
+  },
+  {
+    "station_id": "shizuoka_0157",
+    "station_name": "豊岡",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.837105,
+    "lon": 137.839758
+  },
+  {
+    "station_id": "shizuoka_0048",
+    "station_name": "豊田町",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.7121,
+    "lon": 137.82013
+  },
+  {
+    "station_id": "shizuoka_0008",
+    "station_name": "足柄",
+    "prefecture": "静岡県",
+    "line_name": "JR御殿場線",
+    "lat": 35.332233,
+    "lon": 138.981687
+  },
+  {
+    "station_id": "shizuoka_0204",
+    "station_name": "遠州小松",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.784264,
+    "lon": 137.777838
+  },
+  {
+    "station_id": "shizuoka_0207",
+    "station_name": "遠州小林",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.808374,
+    "lon": 137.795538
+  },
+  {
+    "station_id": "shizuoka_0209",
+    "station_name": "遠州岩水寺",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.834373,
+    "lon": 137.801131
+  },
+  {
+    "station_id": "shizuoka_0152",
+    "station_name": "遠州森",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.8311,
+    "lon": 137.924297
+  },
+  {
+    "station_id": "shizuoka_0195",
+    "station_name": "遠州病院",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.710657,
+    "lon": 137.73327
+  },
+  {
+    "station_id": "shizuoka_0208",
+    "station_name": "遠州芝本",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.824024,
+    "lon": 137.798718
+  },
+  {
+    "station_id": "shizuoka_0203",
+    "station_name": "遠州西ケ崎",
+    "prefecture": "静岡県",
+    "line_name": "遠州鉄道",
+    "lat": 34.776821,
+    "lon": 137.773905
+  },
+  {
+    "station_id": "shizuoka_0155",
+    "station_name": "遠江一宮",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.818045,
+    "lon": 137.889145
+  },
+  {
+    "station_id": "shizuoka_0165",
+    "station_name": "都田",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.828223,
+    "lon": 137.718272
+  },
+  {
+    "station_id": "shizuoka_0174",
+    "station_name": "都筑",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.79585,
+    "lon": 137.574516
+  },
+  {
+    "station_id": "shizuoka_0167",
+    "station_name": "金指",
+    "prefecture": "静岡県",
+    "line_name": "天竜浜名湖鉄道",
+    "lat": 34.816951,
+    "lon": 137.681103
+  },
+  {
+    "station_id": "shizuoka_0041",
+    "station_name": "金谷",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.819049,
+    "lon": 138.125578
+  },
+  {
+    "station_id": "shizuoka_0117",
+    "station_name": "長島ダム",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.168787,
+    "lon": 138.157124
+  },
+  {
+    "station_id": "shizuoka_0215",
+    "station_name": "長沼(静岡)",
+    "prefecture": "静岡県",
+    "line_name": "静岡鉄道静岡清水線",
+    "lat": 34.989069,
+    "lon": 138.412884
+  },
+  {
+    "station_id": "shizuoka_0014",
+    "station_name": "長泉なめり",
+    "prefecture": "静岡県",
+    "line_name": "JR御殿場線",
+    "lat": 35.147633,
+    "lon": 138.899364
+  },
+  {
+    "station_id": "shizuoka_0129",
+    "station_name": "門出",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 34.850181,
+    "lon": 138.119349
+  },
+  {
+    "station_id": "shizuoka_0122",
+    "station_name": "閑蔵",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道井川線",
+    "lat": 35.191737,
+    "lon": 138.194189
+  },
+  {
+    "station_id": "shizuoka_0141",
+    "station_name": "青部",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 35.089592,
+    "lon": 138.115473
+  },
+  {
+    "station_id": "shizuoka_0033",
+    "station_name": "静岡",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.971629,
+    "lon": 138.388579
+  },
+  {
+    "station_id": "shizuoka_0104",
+    "station_name": "韮山",
+    "prefecture": "静岡県",
+    "line_name": "伊豆箱根鉄道駿豆線",
+    "lat": 35.053547,
+    "lon": 138.945467
+  },
+  {
+    "station_id": "shizuoka_0212",
+    "station_name": "音羽町",
+    "prefecture": "静岡県",
+    "line_name": "静岡鉄道静岡清水線",
+    "lat": 34.978387,
+    "lon": 138.395775
+  },
+  {
+    "station_id": "shizuoka_0189",
+    "station_name": "須津",
+    "prefecture": "静岡県",
+    "line_name": "岳南鉄道",
+    "lat": 35.160444,
+    "lon": 138.733944
+  },
+  {
+    "station_id": "shizuoka_0007",
+    "station_name": "駿河小山",
+    "prefecture": "静岡県",
+    "line_name": "JR御殿場線",
+    "lat": 35.359113,
+    "lon": 138.997689
+  },
+  {
+    "station_id": "shizuoka_0140",
+    "station_name": "駿河徳山",
+    "prefecture": "静岡県",
+    "line_name": "大井川鉄道本線",
+    "lat": 35.074758,
+    "lon": 138.110516
+  },
+  {
+    "station_id": "shizuoka_0051",
+    "station_name": "高塚",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.690425,
+    "lon": 137.681303
+  },
+  {
+    "station_id": "shizuoka_0055",
+    "station_name": "鷲津",
+    "prefecture": "静岡県",
+    "line_name": "JR東海道本線",
+    "lat": 34.716819,
+    "lon": 137.546116
+  }
+]

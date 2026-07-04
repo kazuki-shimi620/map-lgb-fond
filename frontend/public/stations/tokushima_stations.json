@@ -1,0 +1,610 @@
+[
+  {
+    "station_id": "tokushima_0012",
+    "station_name": "三加茂",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.0357,
+    "lon": 133.949211
+  },
+  {
+    "station_id": "tokushima_0005",
+    "station_name": "三縄",
+    "prefecture": "徳島県",
+    "line_name": "JR土讃線",
+    "lat": 34.006854,
+    "lon": 133.7874
+  },
+  {
+    "station_id": "tokushima_0027",
+    "station_name": "下浦",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.067669,
+    "lon": 134.421011
+  },
+  {
+    "station_id": "tokushima_0038",
+    "station_name": "中田(徳島)",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 34.010319,
+    "lon": 134.569543
+  },
+  {
+    "station_id": "tokushima_0035",
+    "station_name": "二軒屋",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 34.054952,
+    "lon": 134.546847
+  },
+  {
+    "station_id": "tokushima_0003",
+    "station_name": "佃",
+    "prefecture": "徳島県",
+    "line_name": "JR土讃線",
+    "lat": 34.032439,
+    "lon": 133.857677
+  },
+  {
+    "station_id": "tokushima_0032",
+    "station_name": "佐古",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.080644,
+    "lon": 134.538539
+  },
+  {
+    "station_id": "tokushima_0067",
+    "station_name": "勝瑞",
+    "prefecture": "徳島県",
+    "line_name": "JR高徳線",
+    "lat": 34.128063,
+    "lon": 134.528225
+  },
+  {
+    "station_id": "tokushima_0054",
+    "station_name": "北河内",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.743286,
+    "lon": 134.53528
+  },
+  {
+    "station_id": "tokushima_0039",
+    "station_name": "南小松島",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 34.005634,
+    "lon": 134.586994
+  },
+  {
+    "station_id": "tokushima_0068",
+    "station_name": "吉成",
+    "prefecture": "徳島県",
+    "line_name": "JR高徳線",
+    "lat": 34.118603,
+    "lon": 134.530795
+  },
+  {
+    "station_id": "tokushima_0037",
+    "station_name": "地蔵橋",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 34.026444,
+    "lon": 134.54727
+  },
+  {
+    "station_id": "tokushima_0001",
+    "station_name": "坪尻",
+    "prefecture": "徳島県",
+    "line_name": "JR土讃線",
+    "lat": 34.053932,
+    "lon": 133.823816
+  },
+  {
+    "station_id": "tokushima_0009",
+    "station_name": "大歩危",
+    "prefecture": "徳島県",
+    "line_name": "JR土讃線",
+    "lat": 33.8765,
+    "lon": 133.767348
+  },
+  {
+    "station_id": "tokushima_0021",
+    "station_name": "学",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.057766,
+    "lon": 134.286411
+  },
+  {
+    "station_id": "tokushima_0076",
+    "station_name": "宍喰",
+    "prefecture": "徳島県",
+    "line_name": "阿佐海岸鉄道",
+    "lat": 33.566949,
+    "lon": 134.300741
+  },
+  {
+    "station_id": "tokushima_0016",
+    "station_name": "小島",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.050309,
+    "lon": 134.10704
+  },
+  {
+    "station_id": "tokushima_0008",
+    "station_name": "小歩危",
+    "prefecture": "徳島県",
+    "line_name": "JR土讃線",
+    "lat": 33.923352,
+    "lon": 133.758767
+  },
+  {
+    "station_id": "tokushima_0056",
+    "station_name": "山河内",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.715139,
+    "lon": 134.485273
+  },
+  {
+    "station_id": "tokushima_0020",
+    "station_name": "山瀬",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.060206,
+    "lon": 134.256553
+  },
+  {
+    "station_id": "tokushima_0018",
+    "station_name": "川田",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.061311,
+    "lon": 134.204521
+  },
+  {
+    "station_id": "tokushima_0029",
+    "station_name": "府中(徳島)",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.074312,
+    "lon": 134.482886
+  },
+  {
+    "station_id": "tokushima_0033",
+    "station_name": "徳島",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 34.074572,
+    "lon": 134.551391
+  },
+  {
+    "station_id": "tokushima_0073",
+    "station_name": "撫養",
+    "prefecture": "徳島県",
+    "line_name": "JR鳴門線",
+    "lat": 34.173161,
+    "lon": 134.600851
+  },
+  {
+    "station_id": "tokushima_0071",
+    "station_name": "教会前",
+    "prefecture": "徳島県",
+    "line_name": "JR鳴門線",
+    "lat": 34.167579,
+    "lon": 134.577148
+  },
+  {
+    "station_id": "tokushima_0036",
+    "station_name": "文化の森",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 34.044298,
+    "lon": 134.543312
+  },
+  {
+    "station_id": "tokushima_0049",
+    "station_name": "新野",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.846813,
+    "lon": 134.600283
+  },
+  {
+    "station_id": "tokushima_0055",
+    "station_name": "日和佐",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.728954,
+    "lon": 134.530602
+  },
+  {
+    "station_id": "tokushima_0053",
+    "station_name": "木岐",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.766616,
+    "lon": 134.569473
+  },
+  {
+    "station_id": "tokushima_0065",
+    "station_name": "板東",
+    "prefecture": "徳島県",
+    "line_name": "JR高徳線",
+    "lat": 34.155369,
+    "lon": 134.506805
+  },
+  {
+    "station_id": "tokushima_0063",
+    "station_name": "板野",
+    "prefecture": "徳島県",
+    "line_name": "JR高徳線",
+    "lat": 34.141971,
+    "lon": 134.465512
+  },
+  {
+    "station_id": "tokushima_0048",
+    "station_name": "桑野",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.87466,
+    "lon": 134.613287
+  },
+  {
+    "station_id": "tokushima_0013",
+    "station_name": "江口",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.037131,
+    "lon": 133.973801
+  },
+  {
+    "station_id": "tokushima_0066",
+    "station_name": "池谷",
+    "prefecture": "徳島県",
+    "line_name": "JR高徳線",
+    "lat": 34.152783,
+    "lon": 134.529097
+  },
+  {
+    "station_id": "tokushima_0060",
+    "station_name": "浅川",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.626665,
+    "lon": 134.358677
+  },
+  {
+    "station_id": "tokushima_0075",
+    "station_name": "海部",
+    "prefecture": "徳島県",
+    "line_name": "阿佐海岸鉄道",
+    "lat": 33.593453,
+    "lon": 134.351999
+  },
+  {
+    "station_id": "tokushima_0026",
+    "station_name": "牛島",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.076751,
+    "lon": 134.397131
+  },
+  {
+    "station_id": "tokushima_0058",
+    "station_name": "牟岐",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.672192,
+    "lon": 134.418193
+  },
+  {
+    "station_id": "tokushima_0052",
+    "station_name": "田井ノ浜",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.772863,
+    "lon": 134.584127
+  },
+  {
+    "station_id": "tokushima_0051",
+    "station_name": "由岐",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.776032,
+    "lon": 134.591857
+  },
+  {
+    "station_id": "tokushima_0028",
+    "station_name": "石井",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.070321,
+    "lon": 134.444334
+  },
+  {
+    "station_id": "tokushima_0006",
+    "station_name": "祖谷口",
+    "prefecture": "徳島県",
+    "line_name": "JR土讃線",
+    "lat": 33.972692,
+    "lon": 133.780423
+  },
+  {
+    "station_id": "tokushima_0017",
+    "station_name": "穴吹",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.056161,
+    "lon": 134.163053
+  },
+  {
+    "station_id": "tokushima_0041",
+    "station_name": "立江",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.970336,
+    "lon": 134.608785
+  },
+  {
+    "station_id": "tokushima_0070",
+    "station_name": "立道",
+    "prefecture": "徳島県",
+    "line_name": "JR鳴門線",
+    "lat": 34.162024,
+    "lon": 134.557539
+  },
+  {
+    "station_id": "tokushima_0002",
+    "station_name": "箸蔵",
+    "prefecture": "徳島県",
+    "line_name": "JR土讃線",
+    "lat": 34.040318,
+    "lon": 133.848495
+  },
+  {
+    "station_id": "tokushima_0042",
+    "station_name": "羽ノ浦",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.957293,
+    "lon": 134.626183
+  },
+  {
+    "station_id": "tokushima_0031",
+    "station_name": "蔵本",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.07934,
+    "lon": 134.518044
+  },
+  {
+    "station_id": "tokushima_0043",
+    "station_name": "西原",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.9483,
+    "lon": 134.644906
+  },
+  {
+    "station_id": "tokushima_0023",
+    "station_name": "西麻植",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.072442,
+    "lon": 134.336225
+  },
+  {
+    "station_id": "tokushima_0046",
+    "station_name": "見能林",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.902984,
+    "lon": 134.667015
+  },
+  {
+    "station_id": "tokushima_0015",
+    "station_name": "貞光",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.039337,
+    "lon": 134.059177
+  },
+  {
+    "station_id": "tokushima_0057",
+    "station_name": "辺川",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.694711,
+    "lon": 134.434874
+  },
+  {
+    "station_id": "tokushima_0010",
+    "station_name": "辻",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.02912,
+    "lon": 133.873856
+  },
+  {
+    "station_id": "tokushima_0072",
+    "station_name": "金比羅前",
+    "prefecture": "徳島県",
+    "line_name": "JR鳴門線",
+    "lat": 34.169651,
+    "lon": 134.585014
+  },
+  {
+    "station_id": "tokushima_0045",
+    "station_name": "阿南",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.919129,
+    "lon": 134.66229
+  },
+  {
+    "station_id": "tokushima_0044",
+    "station_name": "阿波中島",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.941223,
+    "lon": 134.664834
+  },
+  {
+    "station_id": "tokushima_0011",
+    "station_name": "阿波加茂",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.036708,
+    "lon": 133.927033
+  },
+  {
+    "station_id": "tokushima_0014",
+    "station_name": "阿波半田",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.041059,
+    "lon": 134.03617
+  },
+  {
+    "station_id": "tokushima_0062",
+    "station_name": "阿波大宮",
+    "prefecture": "徳島県",
+    "line_name": "JR高徳線",
+    "lat": 34.178751,
+    "lon": 134.448641
+  },
+  {
+    "station_id": "tokushima_0069",
+    "station_name": "阿波大谷",
+    "prefecture": "徳島県",
+    "line_name": "JR鳴門線",
+    "lat": 34.158024,
+    "lon": 134.540221
+  },
+  {
+    "station_id": "tokushima_0034",
+    "station_name": "阿波富田",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 34.064051,
+    "lon": 134.555658
+  },
+  {
+    "station_id": "tokushima_0019",
+    "station_name": "阿波山川",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.055162,
+    "lon": 134.234271
+  },
+  {
+    "station_id": "tokushima_0007",
+    "station_name": "阿波川口",
+    "prefecture": "徳島県",
+    "line_name": "JR土讃線",
+    "lat": 33.963649,
+    "lon": 133.754634
+  },
+  {
+    "station_id": "tokushima_0022",
+    "station_name": "阿波川島",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.061854,
+    "lon": 134.320782
+  },
+  {
+    "station_id": "tokushima_0064",
+    "station_name": "阿波川端",
+    "prefecture": "徳島県",
+    "line_name": "JR高徳線",
+    "lat": 34.148827,
+    "lon": 134.483769
+  },
+  {
+    "station_id": "tokushima_0047",
+    "station_name": "阿波橘",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.888472,
+    "lon": 134.651281
+  },
+  {
+    "station_id": "tokushima_0004",
+    "station_name": "阿波池田",
+    "prefecture": "徳島県",
+    "line_name": "JR土讃線",
+    "lat": 34.026891,
+    "lon": 133.804669
+  },
+  {
+    "station_id": "tokushima_0061",
+    "station_name": "阿波海南",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.606379,
+    "lon": 134.350805
+  },
+  {
+    "station_id": "tokushima_0050",
+    "station_name": "阿波福井",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.824074,
+    "lon": 134.605272
+  },
+  {
+    "station_id": "tokushima_0040",
+    "station_name": "阿波赤石",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.981729,
+    "lon": 134.60583
+  },
+  {
+    "station_id": "tokushima_0030",
+    "station_name": "鮎喰",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.07734,
+    "lon": 134.50602
+  },
+  {
+    "station_id": "tokushima_0059",
+    "station_name": "鯖瀬",
+    "prefecture": "徳島県",
+    "line_name": "JR牟岐線",
+    "lat": 33.646398,
+    "lon": 134.385308
+  },
+  {
+    "station_id": "tokushima_0074",
+    "station_name": "鳴門",
+    "prefecture": "徳島県",
+    "line_name": "JR鳴門線",
+    "lat": 34.179131,
+    "lon": 134.608355
+  },
+  {
+    "station_id": "tokushima_0024",
+    "station_name": "鴨島",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.073757,
+    "lon": 134.356037
+  },
+  {
+    "station_id": "tokushima_0025",
+    "station_name": "麻植塚",
+    "prefecture": "徳島県",
+    "line_name": "JR徳島線",
+    "lat": 34.07514,
+    "lon": 134.376394
+  }
+]

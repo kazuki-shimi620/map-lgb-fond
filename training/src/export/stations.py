@@ -8,13 +8,10 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+from ..common.regions import PREFECTURE_TO_SLUG, build_model_by_prefecture
 
-REGION_TO_PREFECTURE = {
-    "tokyo": "東京都",
-    "saitama": "埼玉県",
-    "chiba": "千葉県",
-    "kanagawa": "神奈川県",
-}
+REGION_TO_PREFECTURE = {slug: prefecture for prefecture, slug in PREFECTURE_TO_SLUG.items()}
+MODEL_BY_PREFECTURE = build_model_by_prefecture()
 
 HEARTRAILS_API = "https://express.heartrails.com/api/json"
 
@@ -36,8 +33,8 @@ def fetch_json(params: dict[str, str]) -> dict[str, Any]:
         return json.loads(response.read().decode("utf-8"))
 
 
-def load_category_station_names(public_dir: Path, region: str) -> list[str]:
-    path = public_dir / "metadata" / f"{region}_latest_categories.json"
+def load_category_station_names(public_dir: Path, model_region: str) -> list[str]:
+    path = public_dir / "metadata" / f"{model_region}_latest_categories.json"
     data = json.loads(path.read_text(encoding="utf-8"))
     return list(data.get("stations", {}).keys())
 
@@ -66,9 +63,14 @@ def fetch_prefecture_stations(prefecture: str, interval_seconds: float) -> list[
     return list(stations_by_key.values())
 
 
-def build_station_records(public_dir: Path, region: str, interval_seconds: float) -> list[dict[str, Any]]:
+def build_station_records(
+    public_dir: Path, region: str, interval_seconds: float
+) -> list[dict[str, Any]]:
     prefecture = REGION_TO_PREFECTURE[region]
-    category_lookup = build_category_name_lookup(load_category_station_names(public_dir, region))
+    model_region = MODEL_BY_PREFECTURE[prefecture]
+    category_lookup = build_category_name_lookup(
+        load_category_station_names(public_dir, model_region)
+    )
     stations = fetch_prefecture_stations(prefecture, interval_seconds)
     records_by_name: dict[str, dict[str, Any]] = {}
 
@@ -99,7 +101,9 @@ def export_station_records(public_dir: Path, region: str, interval_seconds: floa
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Export frontend station masters from public railway data.")
+    parser = argparse.ArgumentParser(
+        description="Export frontend station masters from public railway data."
+    )
     parser.add_argument("--public-dir", type=Path, default=Path("../frontend/public"))
     parser.add_argument("--regions", nargs="*", default=list(REGION_TO_PREFECTURE))
     parser.add_argument("--interval-seconds", type=float, default=0.05)

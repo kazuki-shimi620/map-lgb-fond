@@ -1,0 +1,1074 @@
+[
+  {
+    "station_id": "gunma_0049",
+    "station_name": "万座・鹿沢口",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.531967,
+    "lon": 138.551395
+  },
+  {
+    "station_id": "gunma_0087",
+    "station_name": "三俣",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.393748,
+    "lon": 139.089192
+  },
+  {
+    "station_id": "gunma_0131",
+    "station_name": "三枚橋",
+    "prefecture": "群馬県",
+    "line_name": "東武桐生線",
+    "lat": 36.313369,
+    "lon": 139.354938
+  },
+  {
+    "station_id": "gunma_0080",
+    "station_name": "上州一ノ宮",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.253053,
+    "lon": 138.863924
+  },
+  {
+    "station_id": "gunma_0079",
+    "station_name": "上州七日市",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.258666,
+    "lon": 138.874536
+  },
+  {
+    "station_id": "gunma_0077",
+    "station_name": "上州富岡",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.26046,
+    "lon": 138.891851
+  },
+  {
+    "station_id": "gunma_0074",
+    "station_name": "上州新屋",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.256036,
+    "lon": 138.951776
+  },
+  {
+    "station_id": "gunma_0075",
+    "station_name": "上州福島",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.256408,
+    "lon": 138.92944
+  },
+  {
+    "station_id": "gunma_0108",
+    "station_name": "上毛高原",
+    "prefecture": "群馬県",
+    "line_name": "上越新幹線",
+    "lat": 36.69317,
+    "lon": 138.977572
+  },
+  {
+    "station_id": "gunma_0089",
+    "station_name": "上泉",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.39419,
+    "lon": 139.106598
+  },
+  {
+    "station_id": "gunma_0013",
+    "station_name": "上牧(群馬)",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.735616,
+    "lon": 138.984533
+  },
+  {
+    "station_id": "gunma_0056",
+    "station_name": "上神梅",
+    "prefecture": "群馬県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.470053,
+    "lon": 139.257696
+  },
+  {
+    "station_id": "gunma_0084",
+    "station_name": "下仁田",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.210484,
+    "lon": 138.786681
+  },
+  {
+    "station_id": "gunma_0052",
+    "station_name": "下新田",
+    "prefecture": "群馬県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.407776,
+    "lon": 139.315086
+  },
+  {
+    "station_id": "gunma_0117",
+    "station_name": "世良田",
+    "prefecture": "群馬県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.272931,
+    "lon": 139.282038
+  },
+  {
+    "station_id": "gunma_0039",
+    "station_name": "中之条",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.585541,
+    "lon": 138.850908
+  },
+  {
+    "station_id": "gunma_0085",
+    "station_name": "中央前橋",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.390915,
+    "lon": 139.07531
+  },
+  {
+    "station_id": "gunma_0060",
+    "station_name": "中野(東京)",
+    "prefecture": "群馬県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.524243,
+    "lon": 139.317219
+  },
+  {
+    "station_id": "gunma_0106",
+    "station_name": "丸山下",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.416842,
+    "lon": 139.32128
+  },
+  {
+    "station_id": "gunma_0003",
+    "station_name": "井野(千葉)",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.357457,
+    "lon": 139.023247
+  },
+  {
+    "station_id": "gunma_0020",
+    "station_name": "伊勢崎",
+    "prefecture": "群馬県",
+    "line_name": "JR両毛線",
+    "lat": 36.326849,
+    "lon": 139.193704
+  },
+  {
+    "station_id": "gunma_0066",
+    "station_name": "佐野のわたし",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.302389,
+    "lon": 139.018139
+  },
+  {
+    "station_id": "gunma_0033",
+    "station_name": "倉賀野",
+    "prefecture": "群馬県",
+    "line_name": "JR八高線",
+    "lat": 36.300216,
+    "lon": 139.049474
+  },
+  {
+    "station_id": "gunma_0006",
+    "station_name": "八木原",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.463738,
+    "lon": 139.019239
+  },
+  {
+    "station_id": "gunma_0017",
+    "station_name": "前橋",
+    "prefecture": "群馬県",
+    "line_name": "JR両毛線",
+    "lat": 36.383399,
+    "lon": 139.072833
+  },
+  {
+    "station_id": "gunma_0018",
+    "station_name": "前橋大島",
+    "prefecture": "群馬県",
+    "line_name": "JR両毛線",
+    "lat": 36.370585,
+    "lon": 139.109557
+  },
+  {
+    "station_id": "gunma_0119",
+    "station_name": "剛志",
+    "prefecture": "群馬県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.295428,
+    "lon": 139.223792
+  },
+  {
+    "station_id": "gunma_0095",
+    "station_name": "北原",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.413681,
+    "lon": 139.184604
+  },
+  {
+    "station_id": "gunma_0032",
+    "station_name": "北藤岡",
+    "prefecture": "群馬県",
+    "line_name": "JR八高線",
+    "lat": 36.282469,
+    "lon": 139.080779
+  },
+  {
+    "station_id": "gunma_0024",
+    "station_name": "北高崎",
+    "prefecture": "群馬県",
+    "line_name": "JR信越本線",
+    "lat": 36.338791,
+    "lon": 139.001076
+  },
+  {
+    "station_id": "gunma_0083",
+    "station_name": "千平",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.230021,
+    "lon": 138.798543
+  },
+  {
+    "station_id": "gunma_0082",
+    "station_name": "南蛇井",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.23826,
+    "lon": 138.813838
+  },
+  {
+    "station_id": "gunma_0065",
+    "station_name": "南高崎",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.31247,
+    "lon": 139.012315
+  },
+  {
+    "station_id": "gunma_0072",
+    "station_name": "吉井",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.256036,
+    "lon": 138.984418
+  },
+  {
+    "station_id": "gunma_0021",
+    "station_name": "国定",
+    "prefecture": "群馬県",
+    "line_name": "JR両毛線",
+    "lat": 36.359018,
+    "lon": 139.242463
+  },
+  {
+    "station_id": "gunma_0016",
+    "station_name": "土合",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.830696,
+    "lon": 138.967959
+  },
+  {
+    "station_id": "gunma_0086",
+    "station_name": "城東",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.391212,
+    "lon": 139.081124
+  },
+  {
+    "station_id": "gunma_0118",
+    "station_name": "境町",
+    "prefecture": "群馬県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.277191,
+    "lon": 139.256177
+  },
+  {
+    "station_id": "gunma_0112",
+    "station_name": "多々良",
+    "prefecture": "群馬県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.273732,
+    "lon": 139.500179
+  },
+  {
+    "station_id": "gunma_0050",
+    "station_name": "大前",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.513696,
+    "lon": 138.528966
+  },
+  {
+    "station_id": "gunma_0093",
+    "station_name": "大胡",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.412673,
+    "lon": 139.156263
+  },
+  {
+    "station_id": "gunma_0055",
+    "station_name": "大間々",
+    "prefecture": "群馬県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.434617,
+    "lon": 139.277559
+  },
+  {
+    "station_id": "gunma_0104",
+    "station_name": "天王宿",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.414975,
+    "lon": 139.308054
+  },
+  {
+    "station_id": "gunma_0114",
+    "station_name": "太田(群馬)",
+    "prefecture": "群馬県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.294228,
+    "lon": 139.378779
+  },
+  {
+    "station_id": "gunma_0026",
+    "station_name": "安中",
+    "prefecture": "群馬県",
+    "line_name": "JR信越本線",
+    "lat": 36.331657,
+    "lon": 138.914368
+  },
+  {
+    "station_id": "gunma_0137",
+    "station_name": "安中榛名",
+    "prefecture": "群馬県",
+    "line_name": "北陸新幹線",
+    "lat": 36.362582,
+    "lon": 138.849312
+  },
+  {
+    "station_id": "gunma_0105",
+    "station_name": "富士山下",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.413992,
+    "lon": 139.315828
+  },
+  {
+    "station_id": "gunma_0061",
+    "station_name": "小中",
+    "prefecture": "群馬県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.535644,
+    "lon": 139.337842
+  },
+  {
+    "station_id": "gunma_0127",
+    "station_name": "小泉町",
+    "prefecture": "群馬県",
+    "line_name": "東武小泉線",
+    "lat": 36.261562,
+    "lon": 139.42021
+  },
+  {
+    "station_id": "gunma_0036",
+    "station_name": "小野上",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.552524,
+    "lon": 138.922202
+  },
+  {
+    "station_id": "gunma_0037",
+    "station_name": "小野上温泉",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.556909,
+    "lon": 138.904882
+  },
+  {
+    "station_id": "gunma_0069",
+    "station_name": "山名",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.277587,
+    "lon": 139.038098
+  },
+  {
+    "station_id": "gunma_0022",
+    "station_name": "岩宿",
+    "prefecture": "群馬県",
+    "line_name": "JR両毛線",
+    "lat": 36.395861,
+    "lon": 139.297058
+  },
+  {
+    "station_id": "gunma_0043",
+    "station_name": "岩島",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.56324,
+    "lon": 138.759873
+  },
+  {
+    "station_id": "gunma_0010",
+    "station_name": "岩本",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.602184,
+    "lon": 139.047438
+  },
+  {
+    "station_id": "gunma_0109",
+    "station_name": "川俣",
+    "prefecture": "群馬県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.208778,
+    "lon": 139.52652
+  },
+  {
+    "station_id": "gunma_0044",
+    "station_name": "川原湯温泉",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.545128,
+    "lon": 138.697339
+  },
+  {
+    "station_id": "gunma_0038",
+    "station_name": "市城",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.570685,
+    "lon": 138.882247
+  },
+  {
+    "station_id": "gunma_0012",
+    "station_name": "後閑",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.679547,
+    "lon": 139.000078
+  },
+  {
+    "station_id": "gunma_0091",
+    "station_name": "心臓血管センター",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.40559,
+    "lon": 139.129614
+  },
+  {
+    "station_id": "gunma_0123",
+    "station_name": "成島",
+    "prefecture": "群馬県",
+    "line_name": "東武小泉線",
+    "lat": 36.249171,
+    "lon": 139.505682
+  },
+  {
+    "station_id": "gunma_0008",
+    "station_name": "敷島",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.537636,
+    "lon": 139.033897
+  },
+  {
+    "station_id": "gunma_0120",
+    "station_name": "新伊勢崎",
+    "prefecture": "群馬県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.318052,
+    "lon": 139.201816
+  },
+  {
+    "station_id": "gunma_0004",
+    "station_name": "新前橋",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.378936,
+    "lon": 139.046924
+  },
+  {
+    "station_id": "gunma_0096",
+    "station_name": "新屋",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.413704,
+    "lon": 139.19657
+  },
+  {
+    "station_id": "gunma_0100",
+    "station_name": "新川",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.418288,
+    "lon": 139.257536
+  },
+  {
+    "station_id": "gunma_0135",
+    "station_name": "新桐生",
+    "prefecture": "群馬県",
+    "line_name": "東武桐生線",
+    "lat": 36.39505,
+    "lon": 139.320078
+  },
+  {
+    "station_id": "gunma_0051",
+    "station_name": "新町(群馬)",
+    "prefecture": "群馬県",
+    "line_name": "JR高崎線",
+    "lat": 36.272984,
+    "lon": 139.105457
+  },
+  {
+    "station_id": "gunma_0099",
+    "station_name": "新里",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.418543,
+    "lon": 139.236949
+  },
+  {
+    "station_id": "gunma_0116",
+    "station_name": "木崎",
+    "prefecture": "群馬県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.271393,
+    "lon": 139.312988
+  },
+  {
+    "station_id": "gunma_0124",
+    "station_name": "本中野",
+    "prefecture": "群馬県",
+    "line_name": "東武小泉線",
+    "lat": 36.25843,
+    "lon": 139.469546
+  },
+  {
+    "station_id": "gunma_0057",
+    "station_name": "本宿",
+    "prefecture": "群馬県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.481391,
+    "lon": 139.259306
+  },
+  {
+    "station_id": "gunma_0076",
+    "station_name": "東富岡",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.260816,
+    "lon": 138.901898
+  },
+  {
+    "station_id": "gunma_0126",
+    "station_name": "東小泉",
+    "prefecture": "群馬県",
+    "line_name": "東武小泉線",
+    "lat": 36.259696,
+    "lon": 139.428456
+  },
+  {
+    "station_id": "gunma_0101",
+    "station_name": "東新川",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.422002,
+    "lon": 139.267591
+  },
+  {
+    "station_id": "gunma_0028",
+    "station_name": "松井田",
+    "prefecture": "群馬県",
+    "line_name": "JR信越本線",
+    "lat": 36.309151,
+    "lon": 138.797705
+  },
+  {
+    "station_id": "gunma_0130",
+    "station_name": "板倉東洋大前",
+    "prefecture": "群馬県",
+    "line_name": "東武日光線",
+    "lat": 36.222404,
+    "lon": 139.648493
+  },
+  {
+    "station_id": "gunma_0067",
+    "station_name": "根小屋",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.291114,
+    "lon": 139.019177
+  },
+  {
+    "station_id": "gunma_0023",
+    "station_name": "桐生",
+    "prefecture": "群馬県",
+    "line_name": "JR両毛線",
+    "lat": 36.41109,
+    "lon": 139.33319
+  },
+  {
+    "station_id": "gunma_0103",
+    "station_name": "桐生球場前",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.41928,
+    "lon": 139.297864
+  },
+  {
+    "station_id": "gunma_0094",
+    "station_name": "樋越",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.415459,
+    "lon": 139.173308
+  },
+  {
+    "station_id": "gunma_0030",
+    "station_name": "横川",
+    "prefecture": "群馬県",
+    "line_name": "JR信越本線",
+    "lat": 36.336009,
+    "lon": 138.737926
+  },
+  {
+    "station_id": "gunma_0014",
+    "station_name": "水上",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.778614,
+    "lon": 138.9688
+  },
+  {
+    "station_id": "gunma_0058",
+    "station_name": "水沼",
+    "prefecture": "群馬県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.499866,
+    "lon": 139.277579
+  },
+  {
+    "station_id": "gunma_0092",
+    "station_name": "江木",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.407209,
+    "lon": 139.133391
+  },
+  {
+    "station_id": "gunma_0063",
+    "station_name": "沢入",
+    "prefecture": "群馬県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.58064,
+    "lon": 139.396314
+  },
+  {
+    "station_id": "gunma_0132",
+    "station_name": "治良門橋",
+    "prefecture": "群馬県",
+    "line_name": "東武桐生線",
+    "lat": 36.333039,
+    "lon": 139.341328
+  },
+  {
+    "station_id": "gunma_0011",
+    "station_name": "沼田",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.642513,
+    "lon": 139.035734
+  },
+  {
+    "station_id": "gunma_0009",
+    "station_name": "津久田",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.561063,
+    "lon": 139.042806
+  },
+  {
+    "station_id": "gunma_0007",
+    "station_name": "渋川",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.491251,
+    "lon": 139.008786
+  },
+  {
+    "station_id": "gunma_0122",
+    "station_name": "渡瀬",
+    "prefecture": "群馬県",
+    "line_name": "東武佐野線",
+    "lat": 36.261807,
+    "lon": 139.537515
+  },
+  {
+    "station_id": "gunma_0015",
+    "station_name": "湯檜曽",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.802683,
+    "lon": 138.986209
+  },
+  {
+    "station_id": "gunma_0088",
+    "station_name": "片貝",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.393982,
+    "lon": 139.095597
+  },
+  {
+    "station_id": "gunma_0053",
+    "station_name": "相老",
+    "prefecture": "群馬県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.410216,
+    "lon": 139.304449
+  },
+  {
+    "station_id": "gunma_0042",
+    "station_name": "矢倉",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.552731,
+    "lon": 138.78428
+  },
+  {
+    "station_id": "gunma_0027",
+    "station_name": "磯部",
+    "prefecture": "群馬県",
+    "line_name": "JR信越本線",
+    "lat": 36.298397,
+    "lon": 138.84965
+  },
+  {
+    "station_id": "gunma_0035",
+    "station_name": "祖母島",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.54073,
+    "lon": 138.957042
+  },
+  {
+    "station_id": "gunma_0062",
+    "station_name": "神戸",
+    "prefecture": "群馬県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.537467,
+    "lon": 139.35653
+  },
+  {
+    "station_id": "gunma_0081",
+    "station_name": "神農原",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.242629,
+    "lon": 138.843835
+  },
+  {
+    "station_id": "gunma_0129",
+    "station_name": "竜舞",
+    "prefecture": "群馬県",
+    "line_name": "東武小泉線",
+    "lat": 36.278894,
+    "lon": 139.409002
+  },
+  {
+    "station_id": "gunma_0125",
+    "station_name": "篠塚",
+    "prefecture": "群馬県",
+    "line_name": "東武小泉線",
+    "lat": 36.256788,
+    "lon": 139.446077
+  },
+  {
+    "station_id": "gunma_0097",
+    "station_name": "粕川",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.416818,
+    "lon": 139.210943
+  },
+  {
+    "station_id": "gunma_0115",
+    "station_name": "細谷(群馬)",
+    "prefecture": "群馬県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.282523,
+    "lon": 139.348509
+  },
+  {
+    "station_id": "gunma_0025",
+    "station_name": "群馬八幡",
+    "prefecture": "群馬県",
+    "line_name": "JR信越本線",
+    "lat": 36.337641,
+    "lon": 138.957433
+  },
+  {
+    "station_id": "gunma_0040",
+    "station_name": "群馬原町",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.571694,
+    "lon": 138.824091
+  },
+  {
+    "station_id": "gunma_0046",
+    "station_name": "群馬大津",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.553792,
+    "lon": 138.628045
+  },
+  {
+    "station_id": "gunma_0005",
+    "station_name": "群馬総社",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.415574,
+    "lon": 139.032221
+  },
+  {
+    "station_id": "gunma_0031",
+    "station_name": "群馬藤岡",
+    "prefecture": "群馬県",
+    "line_name": "JR八高線",
+    "lat": 36.250336,
+    "lon": 139.08338
+  },
+  {
+    "station_id": "gunma_0047",
+    "station_name": "羽根尾",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.550165,
+    "lon": 138.605502
+  },
+  {
+    "station_id": "gunma_0098",
+    "station_name": "膳",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.416821,
+    "lon": 139.22197
+  },
+  {
+    "station_id": "gunma_0059",
+    "station_name": "花輪",
+    "prefecture": "群馬県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.520809,
+    "lon": 139.30769
+  },
+  {
+    "station_id": "gunma_0110",
+    "station_name": "茂林寺前",
+    "prefecture": "群馬県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.226331,
+    "lon": 139.527058
+  },
+  {
+    "station_id": "gunma_0133",
+    "station_name": "藪塚",
+    "prefecture": "群馬県",
+    "line_name": "東武桐生線",
+    "lat": 36.358737,
+    "lon": 139.315737
+  },
+  {
+    "station_id": "gunma_0048",
+    "station_name": "袋倉",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.543997,
+    "lon": 138.579141
+  },
+  {
+    "station_id": "gunma_0073",
+    "station_name": "西吉井",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.255753,
+    "lon": 138.965914
+  },
+  {
+    "station_id": "gunma_0078",
+    "station_name": "西富岡",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.260182,
+    "lon": 138.882786
+  },
+  {
+    "station_id": "gunma_0128",
+    "station_name": "西小泉",
+    "prefecture": "群馬県",
+    "line_name": "東武小泉線",
+    "lat": 36.258712,
+    "lon": 139.408525
+  },
+  {
+    "station_id": "gunma_0070",
+    "station_name": "西山名",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.270841,
+    "lon": 139.032046
+  },
+  {
+    "station_id": "gunma_0029",
+    "station_name": "西松井田",
+    "prefecture": "群馬県",
+    "line_name": "JR信越本線",
+    "lat": 36.316067,
+    "lon": 138.786675
+  },
+  {
+    "station_id": "gunma_0107",
+    "station_name": "西桐生",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.414142,
+    "lon": 139.33269
+  },
+  {
+    "station_id": "gunma_0090",
+    "station_name": "赤坂(東京)",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.39721,
+    "lon": 139.117324
+  },
+  {
+    "station_id": "gunma_0102",
+    "station_name": "赤城",
+    "prefecture": "群馬県",
+    "line_name": "上毛電鉄上毛線",
+    "lat": 36.425615,
+    "lon": 139.276784
+  },
+  {
+    "station_id": "gunma_0054",
+    "station_name": "運動公園",
+    "prefecture": "群馬県",
+    "line_name": "わたらせ渓谷鐵道線",
+    "lat": 36.42038,
+    "lon": 139.300852
+  },
+  {
+    "station_id": "gunma_0041",
+    "station_name": "郷原",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.54876,
+    "lon": 138.801073
+  },
+  {
+    "station_id": "gunma_0034",
+    "station_name": "金島",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.529502,
+    "lon": 138.976421
+  },
+  {
+    "station_id": "gunma_0045",
+    "station_name": "長野原草津口",
+    "prefecture": "群馬県",
+    "line_name": "JR吾妻線",
+    "lat": 36.5465,
+    "lon": 138.64959
+  },
+  {
+    "station_id": "gunma_0134",
+    "station_name": "阿左美",
+    "prefecture": "群馬県",
+    "line_name": "東武桐生線",
+    "lat": 36.387116,
+    "lon": 139.308726
+  },
+  {
+    "station_id": "gunma_0113",
+    "station_name": "韮川",
+    "prefecture": "群馬県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.307913,
+    "lon": 139.401704
+  },
+  {
+    "station_id": "gunma_0111",
+    "station_name": "館林",
+    "prefecture": "群馬県",
+    "line_name": "東武伊勢崎線",
+    "lat": 36.246606,
+    "lon": 139.527811
+  },
+  {
+    "station_id": "gunma_0071",
+    "station_name": "馬庭",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.261428,
+    "lon": 139.009321
+  },
+  {
+    "station_id": "gunma_0019",
+    "station_name": "駒形",
+    "prefecture": "群馬県",
+    "line_name": "JR両毛線",
+    "lat": 36.354145,
+    "lon": 139.139483
+  },
+  {
+    "station_id": "gunma_0001",
+    "station_name": "高崎(上信)",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.322239,
+    "lon": 139.012354
+  },
+  {
+    "station_id": "gunma_0068",
+    "station_name": "高崎商科大学前",
+    "prefecture": "群馬県",
+    "line_name": "上信電鉄上信線",
+    "lat": 36.284295,
+    "lon": 139.029654
+  },
+  {
+    "station_id": "gunma_0002",
+    "station_name": "高崎問屋町",
+    "prefecture": "群馬県",
+    "line_name": "JR上越線",
+    "lat": 36.346097,
+    "lon": 139.017089
+  }
+]

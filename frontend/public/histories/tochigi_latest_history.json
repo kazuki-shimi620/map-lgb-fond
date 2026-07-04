@@ -1,0 +1,1910 @@
+[
+  {
+    "prefecture": "栃木県",
+    "station": "おもちゃのまち",
+    "year": 2021,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "上三依塩原温泉口",
+    "year": 2023,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "上三依塩原温泉口",
+    "year": 2025,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野",
+    "year": 2008,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野",
+    "year": 2011,
+    "avg_price": 5333333.333333333
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野",
+    "year": 2013,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野",
+    "year": 2014,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野",
+    "year": 2015,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野",
+    "year": 2016,
+    "avg_price": 5750000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野",
+    "year": 2018,
+    "avg_price": 16950000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野",
+    "year": 2019,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野",
+    "year": 2021,
+    "avg_price": 5450000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野",
+    "year": 2023,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野",
+    "year": 2024,
+    "avg_price": 7550000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野",
+    "year": 2025,
+    "avg_price": 5466666.666666667
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野市",
+    "year": 2013,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野市",
+    "year": 2021,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "佐野市",
+    "year": 2023,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2007,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2008,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2010,
+    "avg_price": 10875000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2013,
+    "avg_price": 10350000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2014,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2015,
+    "avg_price": 5850000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2016,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2018,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2019,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2020,
+    "avg_price": 6350000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2021,
+    "avg_price": 12833333.333333334
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2022,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2023,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2024,
+    "avg_price": 13625000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "南宇都宮",
+    "year": 2025,
+    "avg_price": 13260000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "大金",
+    "year": 2021,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "大金",
+    "year": 2023,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "大金",
+    "year": 2024,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "大金",
+    "year": 2025,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2007,
+    "avg_price": 15918750.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2008,
+    "avg_price": 15388372.093023255
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2009,
+    "avg_price": 11911111.111111112
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2010,
+    "avg_price": 20783400.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2011,
+    "avg_price": 13917763.157894736
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2012,
+    "avg_price": 15361445.78313253
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2013,
+    "avg_price": 10501538.461538462
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2014,
+    "avg_price": 12982258.064516129
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2015,
+    "avg_price": 14098333.333333334
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2016,
+    "avg_price": 12698026.315789474
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2017,
+    "avg_price": 13768292.68292683
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2018,
+    "avg_price": 13305797.101449275
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2019,
+    "avg_price": 17255555.555555556
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2020,
+    "avg_price": 14360784.31372549
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2021,
+    "avg_price": 18903378.37837838
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2022,
+    "avg_price": 22218439.71631206
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2023,
+    "avg_price": 22553191.489361703
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2024,
+    "avg_price": 21806211.180124223
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮",
+    "year": 2025,
+    "avg_price": 22966211.180124223
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮大学陽東キャンパス",
+    "year": 2024,
+    "avg_price": 35000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮大学陽東キャンパス",
+    "year": 2025,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮駅東口",
+    "year": 2024,
+    "avg_price": 9100000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "宇都宮駅東口",
+    "year": 2025,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2007,
+    "avg_price": 17957142.85714286
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2008,
+    "avg_price": 16033333.333333334
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2009,
+    "avg_price": 13684210.52631579
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2010,
+    "avg_price": 16394736.842105264
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2011,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2012,
+    "avg_price": 11336842.105263159
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2013,
+    "avg_price": 11525000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2014,
+    "avg_price": 13480000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2015,
+    "avg_price": 12340000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2016,
+    "avg_price": 10120833.333333334
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2017,
+    "avg_price": 16183333.333333334
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2018,
+    "avg_price": 14968750.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2019,
+    "avg_price": 11860869.56521739
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2020,
+    "avg_price": 14075000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2021,
+    "avg_price": 16978787.87878788
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2022,
+    "avg_price": 19705714.285714287
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2023,
+    "avg_price": 17085185.185185187
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2024,
+    "avg_price": 16043750.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "小山",
+    "year": 2025,
+    "avg_price": 21012820.512820512
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2007,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2008,
+    "avg_price": 1700000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2009,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2010,
+    "avg_price": 2250000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2011,
+    "avg_price": 1833333.3333333333
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2013,
+    "avg_price": 1960000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2014,
+    "avg_price": 1833333.3333333333
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2015,
+    "avg_price": 1200000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2019,
+    "avg_price": 3600000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2020,
+    "avg_price": 3100000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2021,
+    "avg_price": 1975000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2022,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2023,
+    "avg_price": 1250000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "山前",
+    "year": 2025,
+    "avg_price": 1715714.2857142857
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "岡本(栃木)",
+    "year": 2008,
+    "avg_price": 36000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "岡本(栃木)",
+    "year": 2009,
+    "avg_price": 46000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "岡本(栃木)",
+    "year": 2010,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "岡本(栃木)",
+    "year": 2015,
+    "avg_price": 2200000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "岡本(栃木)",
+    "year": 2017,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "峰",
+    "year": 2024,
+    "avg_price": 21400000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "峰",
+    "year": 2025,
+    "avg_price": 24800000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "新栃木",
+    "year": 2016,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "新栃木",
+    "year": 2024,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "新栃木",
+    "year": 2025,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "日光",
+    "year": 2023,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東宿郷",
+    "year": 2024,
+    "avg_price": 30500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東宿郷",
+    "year": 2025,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武和泉",
+    "year": 2022,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武和泉",
+    "year": 2023,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武和泉",
+    "year": 2024,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武和泉",
+    "year": 2025,
+    "avg_price": 22250000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2007,
+    "avg_price": 15284615.384615384
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2008,
+    "avg_price": 14786842.105263159
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2009,
+    "avg_price": 14385714.285714285
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2010,
+    "avg_price": 19854375.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2011,
+    "avg_price": 15421212.121212121
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2012,
+    "avg_price": 12319354.838709677
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2013,
+    "avg_price": 13032894.736842105
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2014,
+    "avg_price": 13961904.761904761
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2015,
+    "avg_price": 13488235.294117646
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2016,
+    "avg_price": 14203448.27586207
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2017,
+    "avg_price": 14315000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2018,
+    "avg_price": 15648484.848484848
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2019,
+    "avg_price": 16795833.333333332
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2020,
+    "avg_price": 13756410.256410256
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2021,
+    "avg_price": 17039285.714285713
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2022,
+    "avg_price": 14901923.076923076
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2023,
+    "avg_price": 18417391.304347824
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2024,
+    "avg_price": 19085344.827586208
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "東武宇都宮",
+    "year": 2025,
+    "avg_price": 20898039.215686273
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "栃木",
+    "year": 2010,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "栃木",
+    "year": 2013,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "栃木",
+    "year": 2015,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "栃木",
+    "year": 2016,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "栃木",
+    "year": 2017,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "栃木",
+    "year": 2020,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "栃木",
+    "year": 2021,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "栃木",
+    "year": 2022,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "栃木",
+    "year": 2023,
+    "avg_price": 22750000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "栃木",
+    "year": 2024,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "氏家",
+    "year": 2021,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "江曽島",
+    "year": 2007,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "江曽島",
+    "year": 2008,
+    "avg_price": 6200000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "江曽島",
+    "year": 2010,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "江曽島",
+    "year": 2012,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "江曽島",
+    "year": 2013,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "江曽島",
+    "year": 2017,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "江曽島",
+    "year": 2019,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "江曽島",
+    "year": 2020,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "江曽島",
+    "year": 2021,
+    "avg_price": 13750000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "江曽島",
+    "year": 2022,
+    "avg_price": 3966666.6666666665
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "江曽島",
+    "year": 2023,
+    "avg_price": 3700000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "江曽島",
+    "year": 2025,
+    "avg_price": 9250000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "片岡",
+    "year": 2023,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "片岡",
+    "year": 2025,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "益子",
+    "year": 2021,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "益子",
+    "year": 2022,
+    "avg_price": 3700000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "益子",
+    "year": 2023,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "益子",
+    "year": 2024,
+    "avg_price": 4600000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "益子",
+    "year": 2025,
+    "avg_price": 2733333.3333333335
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "真岡",
+    "year": 2021,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "真岡",
+    "year": 2022,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "真岡",
+    "year": 2023,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "真岡",
+    "year": 2024,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "福居",
+    "year": 2009,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "福居",
+    "year": 2015,
+    "avg_price": 2200000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "福居",
+    "year": 2018,
+    "avg_price": 2650000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "福居",
+    "year": 2021,
+    "avg_price": 700000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "福居",
+    "year": 2022,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "福居",
+    "year": 2024,
+    "avg_price": 4050000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "自治医大",
+    "year": 2021,
+    "avg_price": 10722222.222222222
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "自治医大",
+    "year": 2022,
+    "avg_price": 14818181.818181818
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "自治医大",
+    "year": 2023,
+    "avg_price": 12400000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "自治医大",
+    "year": 2024,
+    "avg_price": 11833333.333333334
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "自治医大",
+    "year": 2025,
+    "avg_price": 21357142.85714286
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西川田",
+    "year": 2021,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西川田",
+    "year": 2022,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西川田",
+    "year": 2023,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西川田",
+    "year": 2024,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2007,
+    "avg_price": 6825000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2008,
+    "avg_price": 9160000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2009,
+    "avg_price": 5240000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2010,
+    "avg_price": 2700000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2011,
+    "avg_price": 3233333.3333333335
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2012,
+    "avg_price": 4467857.142857143
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2013,
+    "avg_price": 6360000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2014,
+    "avg_price": 3788888.888888889
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2015,
+    "avg_price": 3400000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2016,
+    "avg_price": 4942857.142857143
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2017,
+    "avg_price": 2970000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2018,
+    "avg_price": 3819230.769230769
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2019,
+    "avg_price": 2640909.090909091
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2020,
+    "avg_price": 4043333.3333333335
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2021,
+    "avg_price": 2942105.263157895
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2022,
+    "avg_price": 3303809.523809524
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2023,
+    "avg_price": 8457142.857142856
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2024,
+    "avg_price": 6807142.857142857
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "西那須野",
+    "year": 2025,
+    "avg_price": 3057142.8571428573
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2007,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2008,
+    "avg_price": 6833333.333333333
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2009,
+    "avg_price": 11750000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2010,
+    "avg_price": 5400000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2011,
+    "avg_price": 5714285.714285715
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2012,
+    "avg_price": 8760000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2013,
+    "avg_price": 9740000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2014,
+    "avg_price": 17283333.333333332
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2015,
+    "avg_price": 3966666.6666666665
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2016,
+    "avg_price": 4250000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2017,
+    "avg_price": 4950000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2018,
+    "avg_price": 4166666.6666666665
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2019,
+    "avg_price": 7603333.333333333
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2020,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2021,
+    "avg_price": 4933333.333333333
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2022,
+    "avg_price": 9220000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2023,
+    "avg_price": 6366666.666666667
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2024,
+    "avg_price": 5366666.666666667
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利",
+    "year": 2025,
+    "avg_price": 5410000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2007,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2009,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2010,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2012,
+    "avg_price": 7420689.655172414
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2013,
+    "avg_price": 8116666.666666667
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2014,
+    "avg_price": 7450000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2015,
+    "avg_price": 14360000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2016,
+    "avg_price": 2400000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2017,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2018,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2020,
+    "avg_price": 8300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2021,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2022,
+    "avg_price": 8225000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2023,
+    "avg_price": 14580000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2024,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "足利市",
+    "year": 2025,
+    "avg_price": 9066666.666666666
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2007,
+    "avg_price": 5100000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2008,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2009,
+    "avg_price": 16571428.57142857
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2010,
+    "avg_price": 14400000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2012,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2013,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2014,
+    "avg_price": 13250000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2015,
+    "avg_price": 12266666.666666666
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2016,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2017,
+    "avg_price": 14900000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2018,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2019,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2020,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2021,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2022,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2023,
+    "avg_price": 8225000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "那須塩原",
+    "year": 2024,
+    "avg_price": 14160000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "野州山辺",
+    "year": 2010,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "野州山辺",
+    "year": 2016,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "野州山辺",
+    "year": 2017,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "野州山辺",
+    "year": 2019,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "野州山辺",
+    "year": 2021,
+    "avg_price": 17750000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "野州山辺",
+    "year": 2023,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "野州山辺",
+    "year": 2024,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "野木",
+    "year": 2021,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "野木",
+    "year": 2022,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "野木",
+    "year": 2023,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "野木",
+    "year": 2024,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "間々田",
+    "year": 2009,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "間々田",
+    "year": 2012,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "間々田",
+    "year": 2015,
+    "avg_price": 1900000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "間々田",
+    "year": 2016,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "間々田",
+    "year": 2018,
+    "avg_price": 2333333.3333333335
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "間々田",
+    "year": 2019,
+    "avg_price": 3260000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "間々田",
+    "year": 2021,
+    "avg_price": 4650000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "間々田",
+    "year": 2022,
+    "avg_price": 2166666.6666666665
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "間々田",
+    "year": 2023,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "間々田",
+    "year": 2024,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "間々田",
+    "year": 2025,
+    "avg_price": 4250000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "陽東３丁目",
+    "year": 2025,
+    "avg_price": 31500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2011,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2012,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2013,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2014,
+    "avg_price": 14300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2015,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2016,
+    "avg_price": 5150000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2017,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2018,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2019,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2020,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2021,
+    "avg_price": 8683333.333333334
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2022,
+    "avg_price": 8650000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2024,
+    "avg_price": 8820000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "雀宮",
+    "year": 2025,
+    "avg_price": 10325000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "駅東公園前",
+    "year": 2023,
+    "avg_price": 30500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "駅東公園前",
+    "year": 2024,
+    "avg_price": 20466666.666666668
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "駅東公園前",
+    "year": 2025,
+    "avg_price": 36571428.571428575
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "高久",
+    "year": 2023,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "高久",
+    "year": 2024,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鬼怒川温泉",
+    "year": 2021,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鬼怒川温泉",
+    "year": 2023,
+    "avg_price": 5150000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鬼怒川温泉",
+    "year": 2024,
+    "avg_price": 1600000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鬼怒川温泉",
+    "year": 2025,
+    "avg_price": 5900000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鶴田",
+    "year": 2012,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鹿沼",
+    "year": 2009,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鹿沼",
+    "year": 2010,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鹿沼",
+    "year": 2012,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鹿沼",
+    "year": 2014,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鹿沼",
+    "year": 2015,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鹿沼",
+    "year": 2016,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鹿沼",
+    "year": 2018,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鹿沼",
+    "year": 2021,
+    "avg_price": 17333333.333333332
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鹿沼",
+    "year": 2023,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "鹿沼",
+    "year": 2024,
+    "avg_price": 21333333.333333332
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "黒磯",
+    "year": 2008,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "黒磯",
+    "year": 2009,
+    "avg_price": 15571428.57142857
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "黒磯",
+    "year": 2012,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "黒磯",
+    "year": 2013,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "黒磯",
+    "year": 2015,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "黒磯",
+    "year": 2016,
+    "avg_price": 8700000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "黒磯",
+    "year": 2017,
+    "avg_price": 2700000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "黒磯",
+    "year": 2018,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "黒磯",
+    "year": 2021,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "黒磯",
+    "year": 2022,
+    "avg_price": 14300000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "黒磯",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "栃木県",
+    "station": "黒磯",
+    "year": 2024,
+    "avg_price": 17000000.0
+  }
+]

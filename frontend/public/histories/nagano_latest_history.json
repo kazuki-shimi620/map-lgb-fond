@@ -1,0 +1,2486 @@
+[
+  {
+    "prefecture": "長野県",
+    "station": "三才",
+    "year": 2022,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "三才",
+    "year": 2024,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2007,
+    "avg_price": 22018181.818181816
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2008,
+    "avg_price": 18527272.727272727
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2009,
+    "avg_price": 14231250.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2010,
+    "avg_price": 11025000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2011,
+    "avg_price": 11950000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2012,
+    "avg_price": 10577777.777777778
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2013,
+    "avg_price": 11080000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2014,
+    "avg_price": 8033333.333333333
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2015,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2016,
+    "avg_price": 15900000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2017,
+    "avg_price": 18312500.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2018,
+    "avg_price": 18514285.714285713
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2019,
+    "avg_price": 19060000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2020,
+    "avg_price": 15977777.777777778
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2021,
+    "avg_price": 14325000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2022,
+    "avg_price": 23905263.157894738
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2023,
+    "avg_price": 21909090.90909091
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2024,
+    "avg_price": 26142105.263157893
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上田",
+    "year": 2025,
+    "avg_price": 26625000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上諏訪",
+    "year": 2021,
+    "avg_price": 23037500.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上諏訪",
+    "year": 2022,
+    "avg_price": 18900000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上諏訪",
+    "year": 2023,
+    "avg_price": 30166666.666666668
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上諏訪",
+    "year": 2024,
+    "avg_price": 25466666.666666668
+  },
+  {
+    "prefecture": "長野県",
+    "station": "上諏訪",
+    "year": 2025,
+    "avg_price": 13811111.111111112
+  },
+  {
+    "prefecture": "長野県",
+    "station": "下之郷",
+    "year": 2020,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "下山村",
+    "year": 2011,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "下山村",
+    "year": 2025,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "下諏訪",
+    "year": 2021,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "下諏訪",
+    "year": 2024,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "下諏訪",
+    "year": 2025,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中軽井沢",
+    "year": 2021,
+    "avg_price": 22307692.307692308
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中軽井沢",
+    "year": 2022,
+    "avg_price": 29353846.153846152
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中軽井沢",
+    "year": 2023,
+    "avg_price": 19375000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中軽井沢",
+    "year": 2024,
+    "avg_price": 37222222.222222224
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中軽井沢",
+    "year": 2025,
+    "avg_price": 36176470.5882353
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2008,
+    "avg_price": 4457142.857142857
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2009,
+    "avg_price": 5885714.285714285
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2010,
+    "avg_price": 3132860.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2011,
+    "avg_price": 2285250.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2012,
+    "avg_price": 4692000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2013,
+    "avg_price": 1400800.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2014,
+    "avg_price": 300000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2015,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2016,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2017,
+    "avg_price": 6750000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2018,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2019,
+    "avg_price": 8600000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2020,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2022,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2023,
+    "avg_price": 5100000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2024,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "中込",
+    "year": 2025,
+    "avg_price": 8300000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "今井",
+    "year": 2007,
+    "avg_price": 17666666.666666668
+  },
+  {
+    "prefecture": "長野県",
+    "station": "今井",
+    "year": 2008,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "今井",
+    "year": 2009,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "今井",
+    "year": 2010,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "今井",
+    "year": 2013,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "今井",
+    "year": 2017,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "今井",
+    "year": 2018,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "今井",
+    "year": 2019,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "今井",
+    "year": 2020,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "今井",
+    "year": 2022,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "今井",
+    "year": 2024,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "今井",
+    "year": 2025,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "伊那八幡",
+    "year": 2008,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "伊那八幡",
+    "year": 2021,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2007,
+    "avg_price": 200000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2008,
+    "avg_price": 14600000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2010,
+    "avg_price": 10000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2011,
+    "avg_price": 20500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2012,
+    "avg_price": 19000333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2013,
+    "avg_price": 1000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2014,
+    "avg_price": 17744444.444444444
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2015,
+    "avg_price": 16000333.333333334
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2016,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2017,
+    "avg_price": 26333333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2018,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2019,
+    "avg_price": 26666666.666666668
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2021,
+    "avg_price": 35000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2022,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2023,
+    "avg_price": 30414285.714285713
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2024,
+    "avg_price": 33000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "佐久平",
+    "year": 2025,
+    "avg_price": 33750000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信州中野",
+    "year": 2022,
+    "avg_price": 4400000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2007,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2008,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2009,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2010,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2011,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2012,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2014,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2015,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2018,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2019,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2020,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2022,
+    "avg_price": 26400000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2023,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2024,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃吉田",
+    "year": 2025,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃国分寺",
+    "year": 2014,
+    "avg_price": 7650000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃国分寺",
+    "year": 2015,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃国分寺",
+    "year": 2017,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃国分寺",
+    "year": 2018,
+    "avg_price": 3200000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃国分寺",
+    "year": 2019,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃国分寺",
+    "year": 2020,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃国分寺",
+    "year": 2021,
+    "avg_price": 2750000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃国分寺",
+    "year": 2022,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃荒井",
+    "year": 2014,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃荒井",
+    "year": 2022,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃追分",
+    "year": 2021,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃追分",
+    "year": 2022,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃追分",
+    "year": 2023,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃追分",
+    "year": 2024,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "信濃追分",
+    "year": 2025,
+    "avg_price": 6050000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2007,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2009,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2011,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2013,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2014,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2015,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2017,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2018,
+    "avg_price": 34000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2019,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2020,
+    "avg_price": 29500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2021,
+    "avg_price": 30277777.777777776
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2022,
+    "avg_price": 22306250.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2023,
+    "avg_price": 28714285.714285713
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2024,
+    "avg_price": 30333333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北松本",
+    "year": 2025,
+    "avg_price": 27375000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2007,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2008,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2009,
+    "avg_price": 14333333.333333334
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2010,
+    "avg_price": 18166666.666666668
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2011,
+    "avg_price": 16133333.333333334
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2012,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2013,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2014,
+    "avg_price": 15750000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2016,
+    "avg_price": 20666666.666666668
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2017,
+    "avg_price": 17250000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2018,
+    "avg_price": 20800000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2019,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2020,
+    "avg_price": 14233333.333333334
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2021,
+    "avg_price": 15400000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2022,
+    "avg_price": 23166666.666666668
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2023,
+    "avg_price": 22250000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2024,
+    "avg_price": 23571428.57142857
+  },
+  {
+    "prefecture": "長野県",
+    "station": "北長野",
+    "year": 2025,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2007,
+    "avg_price": 15250000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2008,
+    "avg_price": 11750000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2009,
+    "avg_price": 11550000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2010,
+    "avg_price": 15250000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2011,
+    "avg_price": 14653846.153846154
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2012,
+    "avg_price": 14716666.666666666
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2013,
+    "avg_price": 14525000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2014,
+    "avg_price": 14871428.57142857
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2015,
+    "avg_price": 13850000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2016,
+    "avg_price": 19333333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2017,
+    "avg_price": 9616666.666666666
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2018,
+    "avg_price": 10360000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2019,
+    "avg_price": 13154545.454545455
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2020,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2021,
+    "avg_price": 15909090.909090908
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2022,
+    "avg_price": 16811111.111111112
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2023,
+    "avg_price": 21933333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2024,
+    "avg_price": 15818181.818181818
+  },
+  {
+    "prefecture": "長野県",
+    "station": "南松本",
+    "year": 2025,
+    "avg_price": 23665217.391304348
+  },
+  {
+    "prefecture": "長野県",
+    "station": "原野",
+    "year": 2021,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "原野",
+    "year": 2022,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "原野",
+    "year": 2023,
+    "avg_price": 2800000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "原野",
+    "year": 2025,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "古間",
+    "year": 2022,
+    "avg_price": 1200000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2007,
+    "avg_price": 6866666.666666667
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2008,
+    "avg_price": 16200000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2009,
+    "avg_price": 22250000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2010,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2011,
+    "avg_price": 11466666.666666666
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2012,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2013,
+    "avg_price": 15562500.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2014,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2015,
+    "avg_price": 22833333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2016,
+    "avg_price": 12060000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2017,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2018,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2019,
+    "avg_price": 21800000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2020,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2021,
+    "avg_price": 21333333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2022,
+    "avg_price": 24090909.09090909
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2023,
+    "avg_price": 23700000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2024,
+    "avg_price": 22250000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "善光寺下",
+    "year": 2025,
+    "avg_price": 20400000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "大屋",
+    "year": 2008,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "大屋",
+    "year": 2009,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "大屋",
+    "year": 2011,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "大屋",
+    "year": 2012,
+    "avg_price": 1600000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "大屋",
+    "year": 2013,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "大屋",
+    "year": 2014,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "大屋",
+    "year": 2015,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "大屋",
+    "year": 2018,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "大屋",
+    "year": 2021,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "大屋",
+    "year": 2022,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "大屋",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "大屋",
+    "year": 2025,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "妙高高原",
+    "year": 2023,
+    "avg_price": 1600000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "妙高高原",
+    "year": 2025,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "安茂里",
+    "year": 2008,
+    "avg_price": 7050000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "安茂里",
+    "year": 2009,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "安茂里",
+    "year": 2011,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "安茂里",
+    "year": 2020,
+    "avg_price": 4450000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "安茂里",
+    "year": 2024,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "安茂里",
+    "year": 2025,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "小諸",
+    "year": 2021,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "小諸",
+    "year": 2022,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "小諸",
+    "year": 2025,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "岡谷",
+    "year": 2021,
+    "avg_price": 21333333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "岡谷",
+    "year": 2022,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "岡谷",
+    "year": 2023,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "岡谷",
+    "year": 2024,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "島内",
+    "year": 2014,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "島内",
+    "year": 2015,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "島内",
+    "year": 2019,
+    "avg_price": 10300000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "島内",
+    "year": 2020,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "島内",
+    "year": 2021,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "島内",
+    "year": 2022,
+    "avg_price": 6100000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "島内",
+    "year": 2024,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "川中島",
+    "year": 2008,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "川中島",
+    "year": 2009,
+    "avg_price": 23333333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "川中島",
+    "year": 2010,
+    "avg_price": 31500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "川中島",
+    "year": 2011,
+    "avg_price": 27990000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "川中島",
+    "year": 2012,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "川中島",
+    "year": 2013,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "川中島",
+    "year": 2015,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "川中島",
+    "year": 2018,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "川中島",
+    "year": 2019,
+    "avg_price": 20500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "川中島",
+    "year": 2020,
+    "avg_price": 23200000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "川中島",
+    "year": 2021,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "川中島",
+    "year": 2023,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "川中島",
+    "year": 2025,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "市役所前(長野)",
+    "year": 2009,
+    "avg_price": 20750000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "市役所前(長野)",
+    "year": 2012,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "市役所前(長野)",
+    "year": 2013,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "市役所前(長野)",
+    "year": 2014,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "市役所前(長野)",
+    "year": 2017,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "市役所前(長野)",
+    "year": 2020,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "市役所前(長野)",
+    "year": 2021,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "市役所前(長野)",
+    "year": 2022,
+    "avg_price": 14200000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "市役所前(長野)",
+    "year": 2023,
+    "avg_price": 23600000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "市役所前(長野)",
+    "year": 2024,
+    "avg_price": 36200000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "市役所前(長野)",
+    "year": 2025,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "平田(長野)",
+    "year": 2009,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "平田(長野)",
+    "year": 2011,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "平田(長野)",
+    "year": 2013,
+    "avg_price": 8966666.666666666
+  },
+  {
+    "prefecture": "長野県",
+    "station": "平田(長野)",
+    "year": 2014,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "平田(長野)",
+    "year": 2021,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "平田(長野)",
+    "year": 2022,
+    "avg_price": 19666666.666666668
+  },
+  {
+    "prefecture": "長野県",
+    "station": "平田(長野)",
+    "year": 2023,
+    "avg_price": 14300000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "平田(長野)",
+    "year": 2024,
+    "avg_price": 9433333.333333334
+  },
+  {
+    "prefecture": "長野県",
+    "station": "平田(長野)",
+    "year": 2025,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "広丘",
+    "year": 2021,
+    "avg_price": 13920000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "広丘",
+    "year": 2025,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "御代田",
+    "year": 2021,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "御代田",
+    "year": 2022,
+    "avg_price": 23527272.727272727
+  },
+  {
+    "prefecture": "長野県",
+    "station": "御代田",
+    "year": 2023,
+    "avg_price": 19823529.411764707
+  },
+  {
+    "prefecture": "長野県",
+    "station": "御代田",
+    "year": 2024,
+    "avg_price": 26500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "御代田",
+    "year": 2025,
+    "avg_price": 31875000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "戸倉",
+    "year": 2021,
+    "avg_price": 6066666.666666667
+  },
+  {
+    "prefecture": "長野県",
+    "station": "戸倉",
+    "year": 2022,
+    "avg_price": 7650000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "戸倉",
+    "year": 2023,
+    "avg_price": 4200000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "戸倉",
+    "year": 2024,
+    "avg_price": 2900000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "戸倉",
+    "year": 2025,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "木曽福島",
+    "year": 2021,
+    "avg_price": 1900000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "木曽福島",
+    "year": 2022,
+    "avg_price": 2860000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "木曽福島",
+    "year": 2023,
+    "avg_price": 2175000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "木曽福島",
+    "year": 2024,
+    "avg_price": 3066666.6666666665
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2007,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2008,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2009,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2013,
+    "avg_price": 22333333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2014,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2015,
+    "avg_price": 14900000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2016,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2017,
+    "avg_price": 5350000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2018,
+    "avg_price": 10850000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2019,
+    "avg_price": 2600000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2020,
+    "avg_price": 13700000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2021,
+    "avg_price": 19075000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2022,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2023,
+    "avg_price": 18300000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2024,
+    "avg_price": 21340000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "本郷(長野)",
+    "year": 2025,
+    "avg_price": 11866666.666666666
+  },
+  {
+    "prefecture": "長野県",
+    "station": "村井",
+    "year": 2022,
+    "avg_price": 24500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "村井",
+    "year": 2024,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2007,
+    "avg_price": 14360000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2008,
+    "avg_price": 22727272.727272727
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2009,
+    "avg_price": 14784615.384615384
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2010,
+    "avg_price": 21524772.727272727
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2011,
+    "avg_price": 17881250.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2012,
+    "avg_price": 18866666.666666668
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2013,
+    "avg_price": 19936000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2014,
+    "avg_price": 18061538.46153846
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2015,
+    "avg_price": 18092592.592592593
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2016,
+    "avg_price": 21810526.315789472
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2017,
+    "avg_price": 23450000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2018,
+    "avg_price": 22208695.652173914
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2019,
+    "avg_price": 17986666.666666668
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2020,
+    "avg_price": 21689285.714285713
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2021,
+    "avg_price": 24037500.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2022,
+    "avg_price": 25537500.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2023,
+    "avg_price": 26559259.259259257
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2024,
+    "avg_price": 28313333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "松本",
+    "year": 2025,
+    "avg_price": 32105000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "桐原(長野)",
+    "year": 2012,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "桐原(長野)",
+    "year": 2015,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "桐原(長野)",
+    "year": 2018,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "桐原(長野)",
+    "year": 2019,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "桐原(長野)",
+    "year": 2020,
+    "avg_price": 34000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "桐原(長野)",
+    "year": 2022,
+    "avg_price": 27333333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "桐原(長野)",
+    "year": 2023,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "桜町(長野)",
+    "year": 2010,
+    "avg_price": 27333333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "桜町(長野)",
+    "year": 2011,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "桜町(長野)",
+    "year": 2016,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "桜町(長野)",
+    "year": 2024,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "森口",
+    "year": 2015,
+    "avg_price": 1700000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "森口",
+    "year": 2024,
+    "avg_price": 5350000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "森口",
+    "year": 2025,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2007,
+    "avg_price": 9766666.666666666
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2008,
+    "avg_price": 8850000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2009,
+    "avg_price": 8250000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2010,
+    "avg_price": 18159333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2011,
+    "avg_price": 16514285.714285715
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2012,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2013,
+    "avg_price": 20230434.782608695
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2014,
+    "avg_price": 18890909.09090909
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2015,
+    "avg_price": 25357894.736842107
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2016,
+    "avg_price": 14276470.588235294
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2017,
+    "avg_price": 12212500.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2018,
+    "avg_price": 14983333.333333334
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2019,
+    "avg_price": 15844444.444444444
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2020,
+    "avg_price": 19091666.666666668
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2021,
+    "avg_price": 15783333.333333334
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2022,
+    "avg_price": 25615384.615384616
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2023,
+    "avg_price": 21250000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2024,
+    "avg_price": 23953333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "権堂",
+    "year": 2025,
+    "avg_price": 28876190.476190478
+  },
+  {
+    "prefecture": "長野県",
+    "station": "渚(長野)",
+    "year": 2012,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "渚(長野)",
+    "year": 2017,
+    "avg_price": 34000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "渚(長野)",
+    "year": 2020,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "渚(長野)",
+    "year": 2021,
+    "avg_price": 15675000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "渚(長野)",
+    "year": 2023,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "渚(長野)",
+    "year": 2025,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "湯田中",
+    "year": 2021,
+    "avg_price": 1733333.3333333333
+  },
+  {
+    "prefecture": "長野県",
+    "station": "湯田中",
+    "year": 2022,
+    "avg_price": 2900000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "湯田中",
+    "year": 2024,
+    "avg_price": 2650000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "湯田中",
+    "year": 2025,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "篠ノ井",
+    "year": 2008,
+    "avg_price": 8700000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "篠ノ井",
+    "year": 2009,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "篠ノ井",
+    "year": 2011,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "篠ノ井",
+    "year": 2013,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "篠ノ井",
+    "year": 2014,
+    "avg_price": 14966666.666666666
+  },
+  {
+    "prefecture": "長野県",
+    "station": "篠ノ井",
+    "year": 2015,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "篠ノ井",
+    "year": 2016,
+    "avg_price": 9666666.666666666
+  },
+  {
+    "prefecture": "長野県",
+    "station": "篠ノ井",
+    "year": 2017,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "篠ノ井",
+    "year": 2018,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "篠ノ井",
+    "year": 2019,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "篠ノ井",
+    "year": 2021,
+    "avg_price": 5750000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "篠ノ井",
+    "year": 2024,
+    "avg_price": 12900000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "篠ノ井",
+    "year": 2025,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "茅野",
+    "year": 2023,
+    "avg_price": 30500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "茅野",
+    "year": 2024,
+    "avg_price": 17750000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "西松本",
+    "year": 2011,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "西松本",
+    "year": 2012,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "西松本",
+    "year": 2013,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "西松本",
+    "year": 2019,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "西松本",
+    "year": 2023,
+    "avg_price": 37000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "西松本",
+    "year": 2025,
+    "avg_price": 33250000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "軽井沢",
+    "year": 2021,
+    "avg_price": 37814285.71428572
+  },
+  {
+    "prefecture": "長野県",
+    "station": "軽井沢",
+    "year": 2022,
+    "avg_price": 38592592.59259259
+  },
+  {
+    "prefecture": "長野県",
+    "station": "軽井沢",
+    "year": 2023,
+    "avg_price": 39100000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "軽井沢",
+    "year": 2024,
+    "avg_price": 38357142.85714286
+  },
+  {
+    "prefecture": "長野県",
+    "station": "軽井沢",
+    "year": 2025,
+    "avg_price": 41666666.666666664
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(長野電鉄)",
+    "year": 2023,
+    "avg_price": 52000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(長野電鉄)",
+    "year": 2024,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2007,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2008,
+    "avg_price": 13466666.666666666
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2009,
+    "avg_price": 14958823.529411765
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2010,
+    "avg_price": 13508333.333333334
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2011,
+    "avg_price": 13553846.153846154
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2012,
+    "avg_price": 18307692.307692308
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2013,
+    "avg_price": 14887500.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2014,
+    "avg_price": 12561666.666666666
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2015,
+    "avg_price": 18438888.888888888
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2016,
+    "avg_price": 16050000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2017,
+    "avg_price": 14217857.142857144
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2018,
+    "avg_price": 17836363.636363637
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2019,
+    "avg_price": 19825000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2020,
+    "avg_price": 23143750.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2021,
+    "avg_price": 23544444.444444444
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2022,
+    "avg_price": 23441935.48387097
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2023,
+    "avg_price": 24984782.608695652
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2024,
+    "avg_price": 25303333.333333332
+  },
+  {
+    "prefecture": "長野県",
+    "station": "長野(ＪＲ・しなの)",
+    "year": 2025,
+    "avg_price": 24935294.11764706
+  },
+  {
+    "prefecture": "長野県",
+    "station": "須坂",
+    "year": 2023,
+    "avg_price": 7150000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "須坂",
+    "year": 2025,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "飯山",
+    "year": 2024,
+    "avg_price": 1960000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "飯山",
+    "year": 2025,
+    "avg_price": 2766666.6666666665
+  },
+  {
+    "prefecture": "長野県",
+    "station": "飯田",
+    "year": 2008,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "飯田",
+    "year": 2011,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "飯田",
+    "year": 2015,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "飯田",
+    "year": 2017,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "飯田",
+    "year": 2019,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "飯田",
+    "year": 2020,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "飯田",
+    "year": 2022,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "長野県",
+    "station": "黒姫",
+    "year": 2025,
+    "avg_price": 5000000.0
+  }
+]

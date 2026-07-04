@@ -1,0 +1,826 @@
+[
+  {
+    "station_id": "kagawa_0017",
+    "station_name": "みの",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.205633,
+    "lon": 133.710655
+  },
+  {
+    "station_id": "kagawa_0039",
+    "station_name": "オレンジタウン",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.301879,
+    "lon": 134.180827
+  },
+  {
+    "station_id": "kagawa_0090",
+    "station_name": "一宮",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.283027,
+    "lon": 134.022561
+  },
+  {
+    "station_id": "kagawa_0045",
+    "station_name": "三本松",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.251529,
+    "lon": 134.334453
+  },
+  {
+    "station_id": "kagawa_0085",
+    "station_name": "三条(高松)",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.319718,
+    "lon": 134.049478
+  },
+  {
+    "station_id": "kagawa_0011",
+    "station_name": "丸亀",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.292414,
+    "lon": 133.793887
+  },
+  {
+    "station_id": "kagawa_0044",
+    "station_name": "丹生",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.254517,
+    "lon": 134.301468
+  },
+  {
+    "station_id": "kagawa_0079",
+    "station_name": "井戸",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.266669,
+    "lon": 134.156127
+  },
+  {
+    "station_id": "kagawa_0052",
+    "station_name": "今橋",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.341577,
+    "lon": 134.058782
+  },
+  {
+    "station_id": "kagawa_0088",
+    "station_name": "仏生山",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.283213,
+    "lon": 134.042605
+  },
+  {
+    "station_id": "kagawa_0086",
+    "station_name": "伏石",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.309887,
+    "lon": 134.047825
+  },
+  {
+    "station_id": "kagawa_0070",
+    "station_name": "元山(高松)",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.310424,
+    "lon": 134.083742
+  },
+  {
+    "station_id": "kagawa_0008",
+    "station_name": "八十場",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.313014,
+    "lon": 133.884815
+  },
+  {
+    "station_id": "kagawa_0059",
+    "station_name": "八栗",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.344582,
+    "lon": 134.122439
+  },
+  {
+    "station_id": "kagawa_0036",
+    "station_name": "八栗口",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.340419,
+    "lon": 134.134682
+  },
+  {
+    "station_id": "kagawa_0050",
+    "station_name": "八栗山上",
+    "prefecture": "香川県",
+    "line_name": "四国ケーブル線",
+    "lat": 34.358078,
+    "lon": 134.13983
+  },
+  {
+    "station_id": "kagawa_0062",
+    "station_name": "八栗新道",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.336705,
+    "lon": 134.147295
+  },
+  {
+    "station_id": "kagawa_0049",
+    "station_name": "八栗登山口",
+    "prefecture": "香川県",
+    "line_name": "四国ケーブル線",
+    "lat": 34.355192,
+    "lon": 134.133711
+  },
+  {
+    "station_id": "kagawa_0080",
+    "station_name": "公文明",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.266688,
+    "lon": 134.161929
+  },
+  {
+    "station_id": "kagawa_0060",
+    "station_name": "六万寺",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.342655,
+    "lon": 134.134088
+  },
+  {
+    "station_id": "kagawa_0091",
+    "station_name": "円座",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.284479,
+    "lon": 134.009285
+  },
+  {
+    "station_id": "kagawa_0065",
+    "station_name": "原",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.32641,
+    "lon": 134.163654
+  },
+  {
+    "station_id": "kagawa_0058",
+    "station_name": "古高松",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.340844,
+    "lon": 134.11244
+  },
+  {
+    "station_id": "kagawa_0035",
+    "station_name": "古高松南",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.34118,
+    "lon": 134.121381
+  },
+  {
+    "station_id": "kagawa_0025",
+    "station_name": "善通寺",
+    "prefecture": "香川県",
+    "line_name": "JR土讃線",
+    "lat": 34.230021,
+    "lon": 133.789235
+  },
+  {
+    "station_id": "kagawa_0005",
+    "station_name": "国分",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.300541,
+    "lon": 133.941754
+  },
+  {
+    "station_id": "kagawa_0009",
+    "station_name": "坂出",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.313189,
+    "lon": 133.856819
+  },
+  {
+    "station_id": "kagawa_0027",
+    "station_name": "塩入",
+    "prefecture": "香川県",
+    "line_name": "JR土讃線",
+    "lat": 34.156089,
+    "lon": 133.849939
+  },
+  {
+    "station_id": "kagawa_0063",
+    "station_name": "塩屋(高松)",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.335583,
+    "lon": 134.155142
+  },
+  {
+    "station_id": "kagawa_0013",
+    "station_name": "多度津",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.271238,
+    "lon": 133.757235
+  },
+  {
+    "station_id": "kagawa_0061",
+    "station_name": "大町",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.337333,
+    "lon": 134.141354
+  },
+  {
+    "station_id": "kagawa_0087",
+    "station_name": "太田(高松)",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.298989,
+    "lon": 134.045965
+  },
+  {
+    "station_id": "kagawa_0077",
+    "station_name": "学園通り",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.270576,
+    "lon": 134.136998
+  },
+  {
+    "station_id": "kagawa_0010",
+    "station_name": "宇多津",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.306271,
+    "lon": 133.813686
+  },
+  {
+    "station_id": "kagawa_0034",
+    "station_name": "屋島",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.336655,
+    "lon": 134.109102
+  },
+  {
+    "station_id": "kagawa_0092",
+    "station_name": "岡本(高松)",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.270261,
+    "lon": 133.989265
+  },
+  {
+    "station_id": "kagawa_0100",
+    "station_name": "岡田",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.220859,
+    "lon": 133.860902
+  },
+  {
+    "station_id": "kagawa_0076",
+    "station_name": "平木",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.272134,
+    "lon": 134.131327
+  },
+  {
+    "station_id": "kagawa_0047",
+    "station_name": "引田",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.224472,
+    "lon": 134.402072
+  },
+  {
+    "station_id": "kagawa_0038",
+    "station_name": "志度",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.321508,
+    "lon": 134.173144
+  },
+  {
+    "station_id": "kagawa_0064",
+    "station_name": "房前",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.332367,
+    "lon": 134.158483
+  },
+  {
+    "station_id": "kagawa_0093",
+    "station_name": "挿頭丘",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.262007,
+    "lon": 133.979358
+  },
+  {
+    "station_id": "kagawa_0055",
+    "station_name": "春日川",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.340969,
+    "lon": 134.083566
+  },
+  {
+    "station_id": "kagawa_0030",
+    "station_name": "昭和町(香川)",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.343882,
+    "lon": 134.032141
+  },
+  {
+    "station_id": "kagawa_0069",
+    "station_name": "木太東口",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.319718,
+    "lon": 134.07957
+  },
+  {
+    "station_id": "kagawa_0033",
+    "station_name": "木太町",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.331928,
+    "lon": 134.079889
+  },
+  {
+    "station_id": "kagawa_0020",
+    "station_name": "本山",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.146589,
+    "lon": 133.68649
+  },
+  {
+    "station_id": "kagawa_0053",
+    "station_name": "松島二丁目",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.339986,
+    "lon": 134.064626
+  },
+  {
+    "station_id": "kagawa_0068",
+    "station_name": "林道",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.32344,
+    "lon": 134.073106
+  },
+  {
+    "station_id": "kagawa_0032",
+    "station_name": "栗林",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.332181,
+    "lon": 134.053571
+  },
+  {
+    "station_id": "kagawa_0084",
+    "station_name": "栗林公園",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.328586,
+    "lon": 134.051063
+  },
+  {
+    "station_id": "kagawa_0031",
+    "station_name": "栗林公園北口",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.334188,
+    "lon": 134.041561
+  },
+  {
+    "station_id": "kagawa_0099",
+    "station_name": "栗熊",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.233905,
+    "lon": 133.884133
+  },
+  {
+    "station_id": "kagawa_0102",
+    "station_name": "榎井",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.194317,
+    "lon": 133.829511
+  },
+  {
+    "station_id": "kagawa_0019",
+    "station_name": "比地大",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.166805,
+    "lon": 133.690325
+  },
+  {
+    "station_id": "kagawa_0071",
+    "station_name": "水田",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.303056,
+    "lon": 134.092699
+  },
+  {
+    "station_id": "kagawa_0074",
+    "station_name": "池戸",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.27866,
+    "lon": 134.119706
+  },
+  {
+    "station_id": "kagawa_0054",
+    "station_name": "沖松島",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.341219,
+    "lon": 134.072253
+  },
+  {
+    "station_id": "kagawa_0015",
+    "station_name": "津島ノ宮",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.23828,
+    "lon": 133.704313
+  },
+  {
+    "station_id": "kagawa_0014",
+    "station_name": "海岸寺",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.253732,
+    "lon": 133.729671
+  },
+  {
+    "station_id": "kagawa_0097",
+    "station_name": "滝宮",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.248152,
+    "lon": 133.922302
+  },
+  {
+    "station_id": "kagawa_0056",
+    "station_name": "潟元",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.341363,
+    "lon": 134.098231
+  },
+  {
+    "station_id": "kagawa_0083",
+    "station_name": "片原町(高松)",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.346138,
+    "lon": 134.054368
+  },
+  {
+    "station_id": "kagawa_0026",
+    "station_name": "琴平",
+    "prefecture": "香川県",
+    "line_name": "JR土讃線",
+    "lat": 34.192106,
+    "lon": 133.8213
+  },
+  {
+    "station_id": "kagawa_0057",
+    "station_name": "琴電屋島",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.341624,
+    "lon": 134.105763
+  },
+  {
+    "station_id": "kagawa_0066",
+    "station_name": "琴電志度",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.32246,
+    "lon": 134.172528
+  },
+  {
+    "station_id": "kagawa_0103",
+    "station_name": "琴電琴平",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.190906,
+    "lon": 133.819236
+  },
+  {
+    "station_id": "kagawa_0051",
+    "station_name": "瓦町",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄志度線",
+    "lat": 34.338827,
+    "lon": 134.052529
+  },
+  {
+    "station_id": "kagawa_0094",
+    "station_name": "畑田",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.25901,
+    "lon": 133.97157
+  },
+  {
+    "station_id": "kagawa_0078",
+    "station_name": "白山",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.266707,
+    "lon": 134.150461
+  },
+  {
+    "station_id": "kagawa_0041",
+    "station_name": "神前",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.282895,
+    "lon": 134.208935
+  },
+  {
+    "station_id": "kagawa_0089",
+    "station_name": "空港通り",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.28112,
+    "lon": 134.033096
+  },
+  {
+    "station_id": "kagawa_0004",
+    "station_name": "端岡",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.305021,
+    "lon": 133.968071
+  },
+  {
+    "station_id": "kagawa_0023",
+    "station_name": "箕浦",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.04799,
+    "lon": 133.619439
+  },
+  {
+    "station_id": "kagawa_0096",
+    "station_name": "綾川",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.249528,
+    "lon": 133.931667
+  },
+  {
+    "station_id": "kagawa_0098",
+    "station_name": "羽床",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.241078,
+    "lon": 133.901782
+  },
+  {
+    "station_id": "kagawa_0101",
+    "station_name": "羽間",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.209571,
+    "lon": 133.847345
+  },
+  {
+    "station_id": "kagawa_0067",
+    "station_name": "花園(高松)",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.334206,
+    "lon": 134.059463
+  },
+  {
+    "station_id": "kagawa_0072",
+    "station_name": "西前田",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.296004,
+    "lon": 134.104675
+  },
+  {
+    "station_id": "kagawa_0021",
+    "station_name": "観音寺(香川)",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.124508,
+    "lon": 133.655687
+  },
+  {
+    "station_id": "kagawa_0016",
+    "station_name": "詫間",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.221326,
+    "lon": 133.692812
+  },
+  {
+    "station_id": "kagawa_0012",
+    "station_name": "讃岐塩屋",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.285093,
+    "lon": 133.777486
+  },
+  {
+    "station_id": "kagawa_0006",
+    "station_name": "讃岐府中",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.291404,
+    "lon": 133.923917
+  },
+  {
+    "station_id": "kagawa_0042",
+    "station_name": "讃岐津田",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.288253,
+    "lon": 134.248335
+  },
+  {
+    "station_id": "kagawa_0037",
+    "station_name": "讃岐牟礼",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.336439,
+    "lon": 134.147592
+  },
+  {
+    "station_id": "kagawa_0046",
+    "station_name": "讃岐白鳥",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.243642,
+    "lon": 134.366203
+  },
+  {
+    "station_id": "kagawa_0048",
+    "station_name": "讃岐相生",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.211977,
+    "lon": 134.424537
+  },
+  {
+    "station_id": "kagawa_0029",
+    "station_name": "讃岐財田",
+    "prefecture": "香川県",
+    "line_name": "JR土讃線",
+    "lat": 34.117463,
+    "lon": 133.814781
+  },
+  {
+    "station_id": "kagawa_0022",
+    "station_name": "豊浜",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.080544,
+    "lon": 133.644639
+  },
+  {
+    "station_id": "kagawa_0075",
+    "station_name": "農学部前",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.273814,
+    "lon": 134.125739
+  },
+  {
+    "station_id": "kagawa_0040",
+    "station_name": "造田",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.282967,
+    "lon": 134.185888
+  },
+  {
+    "station_id": "kagawa_0024",
+    "station_name": "金蔵寺",
+    "prefecture": "香川県",
+    "line_name": "JR土讃線",
+    "lat": 34.248153,
+    "lon": 133.777486
+  },
+  {
+    "station_id": "kagawa_0081",
+    "station_name": "長尾",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.266675,
+    "lon": 134.169184
+  },
+  {
+    "station_id": "kagawa_0095",
+    "station_name": "陶",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.250394,
+    "lon": 133.947778
+  },
+  {
+    "station_id": "kagawa_0002",
+    "station_name": "香西",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.34096,
+    "lon": 134.009609
+  },
+  {
+    "station_id": "kagawa_0001",
+    "station_name": "高松(香川)",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.350754,
+    "lon": 134.046821
+  },
+  {
+    "station_id": "kagawa_0082",
+    "station_name": "高松築港",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄琴平線",
+    "lat": 34.35079,
+    "lon": 134.049507
+  },
+  {
+    "station_id": "kagawa_0018",
+    "station_name": "高瀬",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.184083,
+    "lon": 133.711397
+  },
+  {
+    "station_id": "kagawa_0073",
+    "station_name": "高田",
+    "prefecture": "香川県",
+    "line_name": "高松琴平電鉄長尾線",
+    "lat": 34.288506,
+    "lon": 134.112155
+  },
+  {
+    "station_id": "kagawa_0003",
+    "station_name": "鬼無",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.325455,
+    "lon": 133.99385
+  },
+  {
+    "station_id": "kagawa_0007",
+    "station_name": "鴨川",
+    "prefecture": "香川県",
+    "line_name": "JR予讃線",
+    "lat": 34.306863,
+    "lon": 133.905324
+  },
+  {
+    "station_id": "kagawa_0043",
+    "station_name": "鶴羽",
+    "prefecture": "香川県",
+    "line_name": "JR高徳線",
+    "lat": 34.280005,
+    "lon": 134.274003
+  },
+  {
+    "station_id": "kagawa_0028",
+    "station_name": "黒川",
+    "prefecture": "香川県",
+    "line_name": "JR土讃線",
+    "lat": 34.133145,
+    "lon": 133.82011
+  }
+]

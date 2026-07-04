@@ -1,0 +1,1046 @@
+[
+  {
+    "prefecture": "石川県",
+    "station": "七ツ屋",
+    "year": 2023,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "七ツ屋",
+    "year": 2025,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "七尾",
+    "year": 2023,
+    "avg_price": 5900000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "倶利伽羅",
+    "year": 2013,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "内灘",
+    "year": 2022,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "割出",
+    "year": 2021,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "割出",
+    "year": 2022,
+    "avg_price": 6100000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "加賀温泉",
+    "year": 2024,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "加賀笠間",
+    "year": 2007,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "加賀笠間",
+    "year": 2010,
+    "avg_price": 800000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "加賀笠間",
+    "year": 2011,
+    "avg_price": 1100000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "加賀笠間",
+    "year": 2012,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "加賀笠間",
+    "year": 2013,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "加賀笠間",
+    "year": 2015,
+    "avg_price": 1650000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "加賀笠間",
+    "year": 2023,
+    "avg_price": 2700000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "北鉄金沢",
+    "year": 2025,
+    "avg_price": 23100000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "和倉温泉",
+    "year": 2023,
+    "avg_price": 1600000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "大聖寺",
+    "year": 2022,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "大聖寺",
+    "year": 2025,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2007,
+    "avg_price": 5600000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2008,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2010,
+    "avg_price": 13966666.666666666
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2011,
+    "avg_price": 8666666.666666666
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2012,
+    "avg_price": 7728571.428571428
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2013,
+    "avg_price": 5276923.076923077
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2014,
+    "avg_price": 10162500.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2015,
+    "avg_price": 7407692.307692308
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2016,
+    "avg_price": 12400000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2017,
+    "avg_price": 16460000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2018,
+    "avg_price": 2475000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2019,
+    "avg_price": 11133333.333333334
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2020,
+    "avg_price": 20800000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2021,
+    "avg_price": 21600000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2022,
+    "avg_price": 8722222.222222222
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2023,
+    "avg_price": 4628571.428571428
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2024,
+    "avg_price": 9236363.636363637
+  },
+  {
+    "prefecture": "石川県",
+    "station": "小松",
+    "year": 2025,
+    "avg_price": 11462500.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "押野",
+    "year": 2015,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "押野",
+    "year": 2018,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "押野",
+    "year": 2021,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "押野",
+    "year": 2023,
+    "avg_price": 10533333.333333334
+  },
+  {
+    "prefecture": "石川県",
+    "station": "押野",
+    "year": 2024,
+    "avg_price": 8633333.333333334
+  },
+  {
+    "prefecture": "石川県",
+    "station": "押野",
+    "year": 2025,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "prefecture": "石川県",
+    "station": "新西金沢",
+    "year": 2021,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "新西金沢",
+    "year": 2024,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "新西金沢",
+    "year": 2025,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2007,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2009,
+    "avg_price": 4111111.111111111
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2010,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2011,
+    "avg_price": 9275000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2012,
+    "avg_price": 11720000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2013,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2014,
+    "avg_price": 13475000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2015,
+    "avg_price": 12385714.285714285
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2016,
+    "avg_price": 14750000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2017,
+    "avg_price": 12433333.333333334
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2018,
+    "avg_price": 15166666.666666666
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2019,
+    "avg_price": 19333333.333333332
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2020,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2021,
+    "avg_price": 18781818.181818184
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2022,
+    "avg_price": 18290909.09090909
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2023,
+    "avg_price": 19857142.85714286
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2024,
+    "avg_price": 19015789.47368421
+  },
+  {
+    "prefecture": "石川県",
+    "station": "東金沢",
+    "year": 2025,
+    "avg_price": 25100000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2007,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2008,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2009,
+    "avg_price": 5850000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2010,
+    "avg_price": 4820000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2011,
+    "avg_price": 7166666.666666667
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2012,
+    "avg_price": 6133333.333333333
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2013,
+    "avg_price": 6566666.666666667
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2014,
+    "avg_price": 5842857.142857143
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2015,
+    "avg_price": 7257142.857142857
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2016,
+    "avg_price": 3220000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2017,
+    "avg_price": 4485714.285714285
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2018,
+    "avg_price": 3666666.6666666665
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2019,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2020,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2021,
+    "avg_price": 7818181.818181818
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2022,
+    "avg_price": 6375000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2023,
+    "avg_price": 5111111.111111111
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2024,
+    "avg_price": 5666666.666666667
+  },
+  {
+    "prefecture": "石川県",
+    "station": "松任",
+    "year": 2025,
+    "avg_price": 3866666.6666666665
+  },
+  {
+    "prefecture": "石川県",
+    "station": "森本",
+    "year": 2012,
+    "avg_price": 4200000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "森本",
+    "year": 2016,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "森本",
+    "year": 2021,
+    "avg_price": 1200000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "津幡",
+    "year": 2023,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "津幡",
+    "year": 2024,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "粟ケ崎",
+    "year": 2014,
+    "avg_price": 1900000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "粟ケ崎",
+    "year": 2024,
+    "avg_price": 3200000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "粟津(石川)",
+    "year": 2011,
+    "avg_price": 7600000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "粟津(石川)",
+    "year": 2012,
+    "avg_price": 5600000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "粟津(石川)",
+    "year": 2013,
+    "avg_price": 7933333.333333333
+  },
+  {
+    "prefecture": "石川県",
+    "station": "粟津(石川)",
+    "year": 2016,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "粟津(石川)",
+    "year": 2017,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "粟津(石川)",
+    "year": 2019,
+    "avg_price": 7850000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "粟津(石川)",
+    "year": 2021,
+    "avg_price": 10760000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "粟津(石川)",
+    "year": 2022,
+    "avg_price": 1350000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "粟津(石川)",
+    "year": 2023,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "粟津(石川)",
+    "year": 2024,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "粟津(石川)",
+    "year": 2025,
+    "avg_price": 5400000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西泉",
+    "year": 2017,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西泉",
+    "year": 2018,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西泉",
+    "year": 2021,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西泉",
+    "year": 2022,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西泉",
+    "year": 2023,
+    "avg_price": 21900000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西泉",
+    "year": 2024,
+    "avg_price": 19990909.09090909
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西泉",
+    "year": 2025,
+    "avg_price": 14755555.555555556
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2007,
+    "avg_price": 6250000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2011,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2012,
+    "avg_price": 13400000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2013,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2014,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2015,
+    "avg_price": 19866666.666666668
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2016,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2017,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2018,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2020,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2021,
+    "avg_price": 20450000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2022,
+    "avg_price": 10125000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2023,
+    "avg_price": 13060000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2024,
+    "avg_price": 20200000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "西金沢",
+    "year": 2025,
+    "avg_price": 22375000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(北陸)",
+    "year": 2023,
+    "avg_price": 8333333.333333333
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(北陸)",
+    "year": 2024,
+    "avg_price": 10750000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(ＩＲ)",
+    "year": 2009,
+    "avg_price": 2700000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(ＩＲ)",
+    "year": 2010,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(ＩＲ)",
+    "year": 2011,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(ＩＲ)",
+    "year": 2012,
+    "avg_price": 2700000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(ＩＲ)",
+    "year": 2013,
+    "avg_price": 660000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(ＩＲ)",
+    "year": 2014,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(ＩＲ)",
+    "year": 2016,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(ＩＲ)",
+    "year": 2018,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(ＩＲ)",
+    "year": 2021,
+    "avg_price": 13800000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(ＩＲ)",
+    "year": 2022,
+    "avg_price": 12200000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(ＩＲ)",
+    "year": 2023,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(ＩＲ)",
+    "year": 2024,
+    "avg_price": 18750000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市(ＩＲ)",
+    "year": 2025,
+    "avg_price": 16083333.333333334
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市工大前",
+    "year": 2021,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市工大前",
+    "year": 2022,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市工大前",
+    "year": 2023,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市工大前",
+    "year": 2024,
+    "avg_price": 4720000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野々市工大前",
+    "year": 2025,
+    "avg_price": 2450000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野町",
+    "year": 2008,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野町",
+    "year": 2014,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野町",
+    "year": 2015,
+    "avg_price": 2600000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野町",
+    "year": 2017,
+    "avg_price": 6350000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野町",
+    "year": 2021,
+    "avg_price": 14662500.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野町",
+    "year": 2022,
+    "avg_price": 7950000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野町",
+    "year": 2023,
+    "avg_price": 18970000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野町",
+    "year": 2024,
+    "avg_price": 13766666.666666666
+  },
+  {
+    "prefecture": "石川県",
+    "station": "野町",
+    "year": 2025,
+    "avg_price": 10933333.333333334
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2007,
+    "avg_price": 13974418.604651162
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2008,
+    "avg_price": 11238271.604938272
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2009,
+    "avg_price": 15159469.026548672
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2010,
+    "avg_price": 14768715.596330276
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2011,
+    "avg_price": 11822680.412371134
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2012,
+    "avg_price": 11699500.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2013,
+    "avg_price": 15960964.912280701
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2014,
+    "avg_price": 10622429.906542055
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2015,
+    "avg_price": 12050000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2016,
+    "avg_price": 13943200.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2017,
+    "avg_price": 13271171.171171172
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2018,
+    "avg_price": 15189814.814814815
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2019,
+    "avg_price": 14687428.57142857
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2020,
+    "avg_price": 15012352.94117647
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2021,
+    "avg_price": 18470896.860986546
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2022,
+    "avg_price": 19008071.748878922
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2023,
+    "avg_price": 18136486.486486487
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2024,
+    "avg_price": 22638157.89473684
+  },
+  {
+    "prefecture": "石川県",
+    "station": "金沢",
+    "year": 2025,
+    "avg_price": 24630687.830687832
+  },
+  {
+    "prefecture": "石川県",
+    "station": "額住宅前",
+    "year": 2021,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "額住宅前",
+    "year": 2024,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "石川県",
+    "station": "馬替",
+    "year": 2024,
+    "avg_price": 19000000.0
+  }
+]

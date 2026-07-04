@@ -1,0 +1,2834 @@
+[
+  {
+    "station_id": "fukuoka_0177",
+    "station_name": "あかぢ",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道伊田線",
+    "lat": 33.727366,
+    "lon": 130.72455
+  },
+  {
+    "station_id": "fukuoka_0010",
+    "station_name": "うきは",
+    "prefecture": "福岡県",
+    "line_name": "JR久大本線",
+    "lat": 33.33506,
+    "lon": 130.789107
+  },
+  {
+    "station_id": "fukuoka_0135",
+    "station_name": "ししぶ",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.722223,
+    "lon": 130.459042
+  },
+  {
+    "station_id": "fukuoka_0181",
+    "station_name": "ふれあい生力",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道伊田線",
+    "lat": 33.700112,
+    "lon": 130.765567
+  },
+  {
+    "station_id": "fukuoka_0121",
+    "station_name": "スペースワールド",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.871246,
+    "lon": 130.806197
+  },
+  {
+    "station_id": "fukuoka_0348",
+    "station_name": "ノーフォーク広場",
+    "prefecture": "福岡県",
+    "line_name": "門司港レトロ観光線",
+    "lat": 33.955973,
+    "lon": 130.964254
+  },
+  {
+    "station_id": "fukuoka_0029",
+    "station_name": "一本松",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.65607,
+    "lon": 130.835781
+  },
+  {
+    "station_id": "fukuoka_0062",
+    "station_name": "一貴山",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.534294,
+    "lon": 130.168236
+  },
+  {
+    "station_id": "fukuoka_0223",
+    "station_name": "七隈",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.552819,
+    "lon": 130.361628
+  },
+  {
+    "station_id": "fukuoka_0261",
+    "station_name": "三ケ森",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.834776,
+    "lon": 130.735982
+  },
+  {
+    "station_id": "fukuoka_0292",
+    "station_name": "三国が丘",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.436862,
+    "lon": 130.563183
+  },
+  {
+    "station_id": "fukuoka_0050",
+    "station_name": "三毛門",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.614597,
+    "lon": 131.15653
+  },
+  {
+    "station_id": "fukuoka_0293",
+    "station_name": "三沢",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.423227,
+    "lon": 130.560386
+  },
+  {
+    "station_id": "fukuoka_0306",
+    "station_name": "三潴",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.255961,
+    "lon": 130.469386
+  },
+  {
+    "station_id": "fukuoka_0333",
+    "station_name": "三苫",
+    "prefecture": "福岡県",
+    "line_name": "西鉄貝塚線",
+    "lat": 33.702081,
+    "lon": 130.422521
+  },
+  {
+    "station_id": "fukuoka_0016",
+    "station_name": "上三緒",
+    "prefecture": "福岡県",
+    "line_name": "JR後藤寺線",
+    "lat": 33.622254,
+    "lon": 130.713824
+  },
+  {
+    "station_id": "fukuoka_0203",
+    "station_name": "上伊田",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.648079,
+    "lon": 130.83017
+  },
+  {
+    "station_id": "fukuoka_0343",
+    "station_name": "上浦",
+    "prefecture": "福岡県",
+    "line_name": "西鉄甘木線",
+    "lat": 33.398681,
+    "lon": 130.637115
+  },
+  {
+    "station_id": "fukuoka_0087",
+    "station_name": "上穂波",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.566909,
+    "lon": 130.645151
+  },
+  {
+    "station_id": "fukuoka_0185",
+    "station_name": "上金田",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道伊田線",
+    "lat": 33.672435,
+    "lon": 130.789172
+  },
+  {
+    "station_id": "fukuoka_0188",
+    "station_name": "下伊田",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道伊田線",
+    "lat": 33.651965,
+    "lon": 130.807016
+  },
+  {
+    "station_id": "fukuoka_0284",
+    "station_name": "下大利",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.522431,
+    "lon": 130.489248
+  },
+  {
+    "station_id": "fukuoka_0053",
+    "station_name": "下山門",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.58193,
+    "lon": 130.308217
+  },
+  {
+    "station_id": "fukuoka_0039",
+    "station_name": "下曽根",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.832522,
+    "lon": 130.934829
+  },
+  {
+    "station_id": "fukuoka_0357",
+    "station_name": "下落合",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.518567,
+    "lon": 130.860964
+  },
+  {
+    "station_id": "fukuoka_0017",
+    "station_name": "下鴨生",
+    "prefecture": "福岡県",
+    "line_name": "JR後藤寺線",
+    "lat": 33.614811,
+    "lon": 130.728209
+  },
+  {
+    "station_id": "fukuoka_0179",
+    "station_name": "中泉",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道伊田線",
+    "lat": 33.720992,
+    "lon": 130.742871
+  },
+  {
+    "station_id": "fukuoka_0242",
+    "station_name": "中洲川端",
+    "prefecture": "福岡県",
+    "line_name": "福岡市空港線",
+    "lat": 33.594749,
+    "lon": 130.406418
+  },
+  {
+    "station_id": "fukuoka_0074",
+    "station_name": "中間",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.828132,
+    "lon": 130.709302
+  },
+  {
+    "station_id": "fukuoka_0001",
+    "station_name": "久留米",
+    "prefecture": "福岡県",
+    "line_name": "JR久大本線",
+    "lat": 33.319778,
+    "lon": 130.501408
+  },
+  {
+    "station_id": "fukuoka_0004",
+    "station_name": "久留米大学前",
+    "prefecture": "福岡県",
+    "line_name": "JR久大本線",
+    "lat": 33.310843,
+    "lon": 130.548876
+  },
+  {
+    "station_id": "fukuoka_0002",
+    "station_name": "久留米高校前",
+    "prefecture": "福岡県",
+    "line_name": "JR久大本線",
+    "lat": 33.298431,
+    "lon": 130.517109
+  },
+  {
+    "station_id": "fukuoka_0055",
+    "station_name": "九大学研都市",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.578178,
+    "lon": 130.259832
+  },
+  {
+    "station_id": "fukuoka_0118",
+    "station_name": "九州工大前",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.900396,
+    "lon": 130.840068
+  },
+  {
+    "station_id": "fukuoka_0346",
+    "station_name": "九州鉄道記念館",
+    "prefecture": "福岡県",
+    "line_name": "門司港レトロ観光線",
+    "lat": 33.944392,
+    "lon": 130.962439
+  },
+  {
+    "station_id": "fukuoka_0138",
+    "station_name": "九産大前",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.673743,
+    "lon": 130.441184
+  },
+  {
+    "station_id": "fukuoka_0092",
+    "station_name": "九郎原",
+    "prefecture": "福岡県",
+    "line_name": "JR篠栗線",
+    "lat": 33.592492,
+    "lon": 130.612439
+  },
+  {
+    "station_id": "fukuoka_0070",
+    "station_name": "二島",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.889687,
+    "lon": 130.748413
+  },
+  {
+    "station_id": "fukuoka_0148",
+    "station_name": "二日市",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.494515,
+    "lon": 130.518843
+  },
+  {
+    "station_id": "fukuoka_0335",
+    "station_name": "五郎丸",
+    "prefecture": "福岡県",
+    "line_name": "西鉄甘木線",
+    "lat": 33.330433,
+    "lon": 130.539863
+  },
+  {
+    "station_id": "fukuoka_0279",
+    "station_name": "井尻",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.551896,
+    "lon": 130.44348
+  },
+  {
+    "station_id": "fukuoka_0183",
+    "station_name": "人見",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道伊田線",
+    "lat": 33.687316,
+    "lon": 130.771105
+  },
+  {
+    "station_id": "fukuoka_0054",
+    "station_name": "今宿",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.579449,
+    "lon": 130.273531
+  },
+  {
+    "station_id": "fukuoka_0191",
+    "station_name": "今川河童",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.702983,
+    "lon": 130.965517
+  },
+  {
+    "station_id": "fukuoka_0259",
+    "station_name": "今池(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.845258,
+    "lon": 130.739582
+  },
+  {
+    "station_id": "fukuoka_0211",
+    "station_name": "今隈",
+    "prefecture": "福岡県",
+    "line_name": "甘木鉄道甘木線",
+    "lat": 33.404237,
+    "lon": 130.594426
+  },
+  {
+    "station_id": "fukuoka_0189",
+    "station_name": "令和コスタ行橋",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.716362,
+    "lon": 130.973239
+  },
+  {
+    "station_id": "fukuoka_0172",
+    "station_name": "企救丘",
+    "prefecture": "福岡県",
+    "line_name": "北九州高速鉄道",
+    "lat": 33.819708,
+    "lon": 130.877532
+  },
+  {
+    "station_id": "fukuoka_0110",
+    "station_name": "伊賀",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.6208,
+    "lon": 130.473554
+  },
+  {
+    "station_id": "fukuoka_0319",
+    "station_name": "倉永",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.07215,
+    "lon": 130.463749
+  },
+  {
+    "station_id": "fukuoka_0309",
+    "station_name": "八丁牟田",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.209035,
+    "lon": 130.437744
+  },
+  {
+    "station_id": "fukuoka_0122",
+    "station_name": "八幡(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.868913,
+    "lon": 130.795209
+  },
+  {
+    "station_id": "fukuoka_0227",
+    "station_name": "六本松",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.577678,
+    "lon": 130.377287
+  },
+  {
+    "station_id": "fukuoka_0200",
+    "station_name": "内田",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.637367,
+    "lon": 130.864302
+  },
+  {
+    "station_id": "fukuoka_0347",
+    "station_name": "出光美術館",
+    "prefecture": "福岡県",
+    "line_name": "門司港レトロ観光線",
+    "lat": 33.947792,
+    "lon": 130.965292
+  },
+  {
+    "station_id": "fukuoka_0226",
+    "station_name": "別府(大分)",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.57417,
+    "lon": 130.369629
+  },
+  {
+    "station_id": "fukuoka_0061",
+    "station_name": "加布里",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.54381,
+    "lon": 130.176738
+  },
+  {
+    "station_id": "fukuoka_0080",
+    "station_name": "勝野",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.728339,
+    "lon": 130.715893
+  },
+  {
+    "station_id": "fukuoka_0202",
+    "station_name": "勾金",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.651568,
+    "lon": 130.841939
+  },
+  {
+    "station_id": "fukuoka_0166",
+    "station_name": "北方(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "北九州高速鉄道",
+    "lat": 33.84908,
+    "lon": 130.878039
+  },
+  {
+    "station_id": "fukuoka_0338",
+    "station_name": "北野",
+    "prefecture": "福岡県",
+    "line_name": "西鉄甘木線",
+    "lat": 33.345379,
+    "lon": 130.582822
+  },
+  {
+    "station_id": "fukuoka_0248",
+    "station_name": "千代県庁口",
+    "prefecture": "福岡県",
+    "line_name": "福岡市箱崎線",
+    "lat": 33.602456,
+    "lon": 130.414336
+  },
+  {
+    "station_id": "fukuoka_0139",
+    "station_name": "千早",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.649116,
+    "lon": 130.440486
+  },
+  {
+    "station_id": "fukuoka_0133",
+    "station_name": "千鳥",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.749129,
+    "lon": 130.47632
+  },
+  {
+    "station_id": "fukuoka_0003",
+    "station_name": "南久留米",
+    "prefecture": "福岡県",
+    "line_name": "JR久大本線",
+    "lat": 33.302857,
+    "lon": 130.532204
+  },
+  {
+    "station_id": "fukuoka_0037",
+    "station_name": "南小倉",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.869972,
+    "lon": 130.864895
+  },
+  {
+    "station_id": "fukuoka_0155",
+    "station_name": "南瀬高",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.133699,
+    "lon": 130.471188
+  },
+  {
+    "station_id": "fukuoka_0176",
+    "station_name": "南直方御殿口",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道伊田線",
+    "lat": 33.738729,
+    "lon": 130.724903
+  },
+  {
+    "station_id": "fukuoka_0143",
+    "station_name": "南福岡",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.542092,
+    "lon": 130.460447
+  },
+  {
+    "station_id": "fukuoka_0044",
+    "station_name": "南行橋",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.716332,
+    "lon": 130.981118
+  },
+  {
+    "station_id": "fukuoka_0012",
+    "station_name": "博多",
+    "prefecture": "福岡県",
+    "line_name": "JR博多南線",
+    "lat": 33.590002,
+    "lon": 130.420622
+  },
+  {
+    "station_id": "fukuoka_0013",
+    "station_name": "博多南",
+    "prefecture": "福岡県",
+    "line_name": "JR博多南線",
+    "lat": 33.517955,
+    "lon": 130.436997
+  },
+  {
+    "station_id": "fukuoka_0090",
+    "station_name": "原田(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.451769,
+    "lon": 130.539376
+  },
+  {
+    "station_id": "fukuoka_0098",
+    "station_name": "原町",
+    "prefecture": "福岡県",
+    "line_name": "JR篠栗線",
+    "lat": 33.611748,
+    "lon": 130.470949
+  },
+  {
+    "station_id": "fukuoka_0134",
+    "station_name": "古賀",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.732586,
+    "lon": 130.466898
+  },
+  {
+    "station_id": "fukuoka_0337",
+    "station_name": "古賀茶屋",
+    "prefecture": "福岡県",
+    "line_name": "西鉄甘木線",
+    "lat": 33.34346,
+    "lon": 130.566388
+  },
+  {
+    "station_id": "fukuoka_0100",
+    "station_name": "吉塚",
+    "prefecture": "福岡県",
+    "line_name": "JR篠栗線",
+    "lat": 33.607142,
+    "lon": 130.423674
+  },
+  {
+    "station_id": "fukuoka_0051",
+    "station_name": "吉富",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.604465,
+    "lon": 131.174012
+  },
+  {
+    "station_id": "fukuoka_0157",
+    "station_name": "吉野",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.075599,
+    "lon": 130.466459
+  },
+  {
+    "station_id": "fukuoka_0326",
+    "station_name": "名島",
+    "prefecture": "福岡県",
+    "line_name": "西鉄貝塚線",
+    "lat": 33.642733,
+    "lon": 130.431687
+  },
+  {
+    "station_id": "fukuoka_0247",
+    "station_name": "呉服町(熊本)",
+    "prefecture": "福岡県",
+    "line_name": "福岡市箱崎線",
+    "lat": 33.59829,
+    "lon": 130.409892
+  },
+  {
+    "station_id": "fukuoka_0056",
+    "station_name": "周船寺",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.570762,
+    "lon": 130.245766
+  },
+  {
+    "station_id": "fukuoka_0297",
+    "station_name": "味坂",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.353143,
+    "lon": 130.540616
+  },
+  {
+    "station_id": "fukuoka_0026",
+    "station_name": "呼野",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.754949,
+    "lon": 130.861796
+  },
+  {
+    "station_id": "fukuoka_0105",
+    "station_name": "和白(西鉄)",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.688888,
+    "lon": 130.429918
+  },
+  {
+    "station_id": "fukuoka_0331",
+    "station_name": "唐の原",
+    "prefecture": "福岡県",
+    "line_name": "西鉄貝塚線",
+    "lat": 33.680059,
+    "lon": 130.43449
+  },
+  {
+    "station_id": "fukuoka_0238",
+    "station_name": "唐人町",
+    "prefecture": "福岡県",
+    "line_name": "福岡市空港線",
+    "lat": 33.590235,
+    "lon": 130.370451
+  },
+  {
+    "station_id": "fukuoka_0006",
+    "station_name": "善導寺",
+    "prefecture": "福岡県",
+    "line_name": "JR久大本線",
+    "lat": 33.320141,
+    "lon": 130.608851
+  },
+  {
+    "station_id": "fukuoka_0109",
+    "station_name": "土井",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.634968,
+    "lon": 130.466068
+  },
+  {
+    "station_id": "fukuoka_0093",
+    "station_name": "城戸南蔵院前",
+    "prefecture": "福岡県",
+    "line_name": "JR篠栗線",
+    "lat": 33.61826,
+    "lon": 130.572076
+  },
+  {
+    "station_id": "fukuoka_0021",
+    "station_name": "城野(北九州モノレール)",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.858202,
+    "lon": 130.886242
+  },
+  {
+    "station_id": "fukuoka_0351",
+    "station_name": "塚原",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.558706,
+    "lon": 130.858546
+  },
+  {
+    "station_id": "fukuoka_0314",
+    "station_name": "塩塚",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.143725,
+    "lon": 130.431232
+  },
+  {
+    "station_id": "fukuoka_0294",
+    "station_name": "大保",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.411515,
+    "lon": 130.558035
+  },
+  {
+    "station_id": "fukuoka_0064",
+    "station_name": "大入",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.50891,
+    "lon": 130.105576
+  },
+  {
+    "station_id": "fukuoka_0305",
+    "station_name": "大善寺",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.270432,
+    "lon": 130.473897
+  },
+  {
+    "station_id": "fukuoka_0339",
+    "station_name": "大城",
+    "prefecture": "福岡県",
+    "line_name": "西鉄甘木線",
+    "lat": 33.350915,
+    "lon": 130.607812
+  },
+  {
+    "station_id": "fukuoka_0341",
+    "station_name": "大堰",
+    "prefecture": "福岡県",
+    "line_name": "西鉄甘木線",
+    "lat": 33.372278,
+    "lon": 130.624022
+  },
+  {
+    "station_id": "fukuoka_0209",
+    "station_name": "大板井",
+    "prefecture": "福岡県",
+    "line_name": "甘木鉄道甘木線",
+    "lat": 33.398452,
+    "lon": 130.560727
+  },
+  {
+    "station_id": "fukuoka_0278",
+    "station_name": "大橋(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.559128,
+    "lon": 130.426559
+  },
+  {
+    "station_id": "fukuoka_0308",
+    "station_name": "大溝",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.227009,
+    "lon": 130.449776
+  },
+  {
+    "station_id": "fukuoka_0239",
+    "station_name": "大濠公園",
+    "prefecture": "福岡県",
+    "line_name": "福岡市空港線",
+    "lat": 33.589957,
+    "lon": 130.378784
+  },
+  {
+    "station_id": "fukuoka_0159",
+    "station_name": "大牟田",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.029754,
+    "lon": 130.443784
+  },
+  {
+    "station_id": "fukuoka_0207",
+    "station_name": "大藪",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道糸田線",
+    "lat": 33.64712,
+    "lon": 130.797642
+  },
+  {
+    "station_id": "fukuoka_0363",
+    "station_name": "大行司",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.396897,
+    "lon": 130.874662
+  },
+  {
+    "station_id": "fukuoka_0145",
+    "station_name": "大野城",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.524944,
+    "lon": 130.480063
+  },
+  {
+    "station_id": "fukuoka_0149",
+    "station_name": "天拝山",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.481847,
+    "lon": 130.53024
+  },
+  {
+    "station_id": "fukuoka_0241",
+    "station_name": "天神",
+    "prefecture": "福岡県",
+    "line_name": "福岡市空港線",
+    "lat": 33.591346,
+    "lon": 130.39906
+  },
+  {
+    "station_id": "fukuoka_0232",
+    "station_name": "天神南",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.588197,
+    "lon": 130.401727
+  },
+  {
+    "station_id": "fukuoka_0085",
+    "station_name": "天道",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.605342,
+    "lon": 130.67787
+  },
+  {
+    "station_id": "fukuoka_0214",
+    "station_name": "太刀洗",
+    "prefecture": "福岡県",
+    "line_name": "甘木鉄道甘木線",
+    "lat": 33.413868,
+    "lon": 130.618768
+  },
+  {
+    "station_id": "fukuoka_0325",
+    "station_name": "太宰府",
+    "prefecture": "福岡県",
+    "line_name": "西鉄太宰府線",
+    "lat": 33.51904,
+    "lon": 130.531406
+  },
+  {
+    "station_id": "fukuoka_0104",
+    "station_name": "奈多",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.68646,
+    "lon": 130.411983
+  },
+  {
+    "station_id": "fukuoka_0069",
+    "station_name": "奥洞海",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.889165,
+    "lon": 130.76492
+  },
+  {
+    "station_id": "fukuoka_0052",
+    "station_name": "姪浜",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.583764,
+    "lon": 130.32521
+  },
+  {
+    "station_id": "fukuoka_0336",
+    "station_name": "学校前",
+    "prefecture": "福岡県",
+    "line_name": "西鉄甘木線",
+    "lat": 33.336305,
+    "lon": 130.547431
+  },
+  {
+    "station_id": "fukuoka_0049",
+    "station_name": "宇島",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.62131,
+    "lon": 131.126354
+  },
+  {
+    "station_id": "fukuoka_0115",
+    "station_name": "宇美",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.569251,
+    "lon": 130.513426
+  },
+  {
+    "station_id": "fukuoka_0168",
+    "station_name": "守恒",
+    "prefecture": "福岡県",
+    "line_name": "北九州高速鉄道",
+    "lat": 33.836648,
+    "lon": 130.87287
+  },
+  {
+    "station_id": "fukuoka_0304",
+    "station_name": "安武",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.286311,
+    "lon": 130.489061
+  },
+  {
+    "station_id": "fukuoka_0038",
+    "station_name": "安部山公園",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.844078,
+    "lon": 130.904498
+  },
+  {
+    "station_id": "fukuoka_0364",
+    "station_name": "宝珠山",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.378819,
+    "lon": 130.87942
+  },
+  {
+    "station_id": "fukuoka_0235",
+    "station_name": "室見",
+    "prefecture": "福岡県",
+    "line_name": "福岡市空港線",
+    "lat": 33.581069,
+    "lon": 130.340176
+  },
+  {
+    "station_id": "fukuoka_0298",
+    "station_name": "宮の陣",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.329456,
+    "lon": 130.530902
+  },
+  {
+    "station_id": "fukuoka_0035",
+    "station_name": "小倉(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.886756,
+    "lon": 130.882678
+  },
+  {
+    "station_id": "fukuoka_0117",
+    "station_name": "小森江",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.916352,
+    "lon": 130.938674
+  },
+  {
+    "station_id": "fukuoka_0042",
+    "station_name": "小波瀬西工大前",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.752992,
+    "lon": 130.97197
+  },
+  {
+    "station_id": "fukuoka_0081",
+    "station_name": "小竹",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.697227,
+    "lon": 130.710338
+  },
+  {
+    "station_id": "fukuoka_0208",
+    "station_name": "小郡(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "甘木鉄道甘木線",
+    "lat": 33.397555,
+    "lon": 130.552994
+  },
+  {
+    "station_id": "fukuoka_0358",
+    "station_name": "屋形原",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.515898,
+    "lon": 130.861185
+  },
+  {
+    "station_id": "fukuoka_0174",
+    "station_name": "山上",
+    "prefecture": "福岡県",
+    "line_name": "帆柱ケーブル線",
+    "lat": 33.846759,
+    "lon": 130.795164
+  },
+  {
+    "station_id": "fukuoka_0213",
+    "station_name": "山隈",
+    "prefecture": "福岡県",
+    "line_name": "甘木鉄道甘木線",
+    "lat": 33.414076,
+    "lon": 130.609964
+  },
+  {
+    "station_id": "fukuoka_0173",
+    "station_name": "山麓",
+    "prefecture": "福岡県",
+    "line_name": "帆柱ケーブル線",
+    "lat": 33.856641,
+    "lon": 130.796454
+  },
+  {
+    "station_id": "fukuoka_0196",
+    "station_name": "崎山",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.636285,
+    "lon": 130.917903
+  },
+  {
+    "station_id": "fukuoka_0180",
+    "station_name": "市場",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道伊田線",
+    "lat": 33.708074,
+    "lon": 130.759328
+  },
+  {
+    "station_id": "fukuoka_0266",
+    "station_name": "希望が丘高校前",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.808681,
+    "lon": 130.71151
+  },
+  {
+    "station_id": "fukuoka_0161",
+    "station_name": "平和通",
+    "prefecture": "福岡県",
+    "line_name": "北九州高速鉄道",
+    "lat": 33.883159,
+    "lon": 130.881246
+  },
+  {
+    "station_id": "fukuoka_0360",
+    "station_name": "彦山",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.500728,
+    "lon": 130.869093
+  },
+  {
+    "station_id": "fukuoka_0005",
+    "station_name": "御井",
+    "prefecture": "福岡県",
+    "line_name": "JR久大本線",
+    "lat": 33.312813,
+    "lon": 130.562361
+  },
+  {
+    "station_id": "fukuoka_0169",
+    "station_name": "徳力公団前",
+    "prefecture": "福岡県",
+    "line_name": "北九州高速鉄道",
+    "lat": 33.830421,
+    "lon": 130.867554
+  },
+  {
+    "station_id": "fukuoka_0170",
+    "station_name": "徳力嵐山口",
+    "prefecture": "福岡県",
+    "line_name": "北九州高速鉄道",
+    "lat": 33.824744,
+    "lon": 130.863694
+  },
+  {
+    "station_id": "fukuoka_0313",
+    "station_name": "徳益",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.15541,
+    "lon": 130.426676
+  },
+  {
+    "station_id": "fukuoka_0024",
+    "station_name": "志井(北九州モノレール)",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.803569,
+    "lon": 130.874596
+  },
+  {
+    "station_id": "fukuoka_0023",
+    "station_name": "志井公園",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.818636,
+    "lon": 130.879793
+  },
+  {
+    "station_id": "fukuoka_0272",
+    "station_name": "感田",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.758799,
+    "lon": 130.733137
+  },
+  {
+    "station_id": "fukuoka_0119",
+    "station_name": "戸畑",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.897018,
+    "lon": 130.820692
+  },
+  {
+    "station_id": "fukuoka_0072",
+    "station_name": "折尾",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.863629,
+    "lon": 130.713109
+  },
+  {
+    "station_id": "fukuoka_0027",
+    "station_name": "採銅所",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.707489,
+    "lon": 130.853151
+  },
+  {
+    "station_id": "fukuoka_0128",
+    "station_name": "教育大前",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.808215,
+    "lon": 130.590256
+  },
+  {
+    "station_id": "fukuoka_0078",
+    "station_name": "新入",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.763498,
+    "lon": 130.714152
+  },
+  {
+    "station_id": "fukuoka_0114",
+    "station_name": "新原",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.579061,
+    "lon": 130.508835
+  },
+  {
+    "station_id": "fukuoka_0136",
+    "station_name": "新宮中央",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.711659,
+    "lon": 130.449163
+  },
+  {
+    "station_id": "fukuoka_0269",
+    "station_name": "新木屋瀬",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.783468,
+    "lon": 130.724493
+  },
+  {
+    "station_id": "fukuoka_0322",
+    "station_name": "新栄町(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.038453,
+    "lon": 130.450001
+  },
+  {
+    "station_id": "fukuoka_0045",
+    "station_name": "新田原",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.695152,
+    "lon": 131.008316
+  },
+  {
+    "station_id": "fukuoka_0193",
+    "station_name": "新豊津",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.679717,
+    "lon": 130.963987
+  },
+  {
+    "station_id": "fukuoka_0015",
+    "station_name": "新飯塚",
+    "prefecture": "福岡県",
+    "line_name": "JR後藤寺線",
+    "lat": 33.644261,
+    "lon": 130.694278
+  },
+  {
+    "station_id": "fukuoka_0162",
+    "station_name": "旦過",
+    "prefecture": "福岡県",
+    "line_name": "北九州高速鉄道",
+    "lat": 33.880623,
+    "lon": 130.880194
+  },
+  {
+    "station_id": "fukuoka_0359",
+    "station_name": "旧英彦中学校前",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.509493,
+    "lon": 130.865557
+  },
+  {
+    "station_id": "fukuoka_0144",
+    "station_name": "春日(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.534701,
+    "lon": 130.469308
+  },
+  {
+    "station_id": "fukuoka_0282",
+    "station_name": "春日原",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.537823,
+    "lon": 130.473141
+  },
+  {
+    "station_id": "fukuoka_0288",
+    "station_name": "朝倉街道",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.484174,
+    "lon": 130.532548
+  },
+  {
+    "station_id": "fukuoka_0270",
+    "station_name": "木屋瀬",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.778483,
+    "lon": 130.724957
+  },
+  {
+    "station_id": "fukuoka_0071",
+    "station_name": "本城",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.875135,
+    "lon": 130.722899
+  },
+  {
+    "station_id": "fukuoka_0342",
+    "station_name": "本郷",
+    "prefecture": "福岡県",
+    "line_name": "西鉄甘木線",
+    "lat": 33.385013,
+    "lon": 130.628893
+  },
+  {
+    "station_id": "fukuoka_0040",
+    "station_name": "朽網",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.807384,
+    "lon": 130.955025
+  },
+  {
+    "station_id": "fukuoka_0264",
+    "station_name": "東中間",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.820019,
+    "lon": 130.721317
+  },
+  {
+    "station_id": "fukuoka_0245",
+    "station_name": "東比恵",
+    "prefecture": "福岡県",
+    "line_name": "福岡市空港線",
+    "lat": 33.589958,
+    "lon": 130.43128
+  },
+  {
+    "station_id": "fukuoka_0073",
+    "station_name": "東水巻",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.840852,
+    "lon": 130.70826
+  },
+  {
+    "station_id": "fukuoka_0194",
+    "station_name": "東犀川三四郎",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.661385,
+    "lon": 130.948966
+  },
+  {
+    "station_id": "fukuoka_0320",
+    "station_name": "東甘木",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.062756,
+    "lon": 130.464491
+  },
+  {
+    "station_id": "fukuoka_0131",
+    "station_name": "東福間",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.774118,
+    "lon": 130.511111
+  },
+  {
+    "station_id": "fukuoka_0130",
+    "station_name": "東郷",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.794488,
+    "lon": 130.528822
+  },
+  {
+    "station_id": "fukuoka_0205",
+    "station_name": "松山",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道糸田線",
+    "lat": 33.668496,
+    "lon": 130.780537
+  },
+  {
+    "station_id": "fukuoka_0210",
+    "station_name": "松崎",
+    "prefecture": "福岡県",
+    "line_name": "甘木鉄道甘木線",
+    "lat": 33.399654,
+    "lon": 130.582047
+  },
+  {
+    "station_id": "fukuoka_0120",
+    "station_name": "枝光",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.879367,
+    "lon": 130.813318
+  },
+  {
+    "station_id": "fukuoka_0099",
+    "station_name": "柚須",
+    "prefecture": "福岡県",
+    "line_name": "JR篠栗線",
+    "lat": 33.613206,
+    "lon": 130.445031
+  },
+  {
+    "station_id": "fukuoka_0356",
+    "station_name": "柳原",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.52522,
+    "lon": 130.862833
+  },
+  {
+    "station_id": "fukuoka_0201",
+    "station_name": "柿下温泉口",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.651593,
+    "lon": 130.854116
+  },
+  {
+    "station_id": "fukuoka_0086",
+    "station_name": "桂川",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.584705,
+    "lon": 130.662752
+  },
+  {
+    "station_id": "fukuoka_0281",
+    "station_name": "桜並木",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.544656,
+    "lon": 130.466505
+  },
+  {
+    "station_id": "fukuoka_0289",
+    "station_name": "桜台(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.471636,
+    "lon": 130.542465
+  },
+  {
+    "station_id": "fukuoka_0228",
+    "station_name": "桜坂",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.577292,
+    "lon": 130.386819
+  },
+  {
+    "station_id": "fukuoka_0221",
+    "station_name": "梅林(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.545806,
+    "lon": 130.35494
+  },
+  {
+    "station_id": "fukuoka_0258",
+    "station_name": "森下(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.853885,
+    "lon": 130.741092
+  },
+  {
+    "station_id": "fukuoka_0047",
+    "station_name": "椎田",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.653377,
+    "lon": 131.057965
+  },
+  {
+    "station_id": "fukuoka_0268",
+    "station_name": "楠橋",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.789259,
+    "lon": 130.724523
+  },
+  {
+    "station_id": "fukuoka_0217",
+    "station_name": "橋本(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.555205,
+    "lon": 130.321064
+  },
+  {
+    "station_id": "fukuoka_0299",
+    "station_name": "櫛原",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.319592,
+    "lon": 130.524319
+  },
+  {
+    "station_id": "fukuoka_0233",
+    "station_name": "櫛田神社前",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.591333,
+    "lon": 130.411583
+  },
+  {
+    "station_id": "fukuoka_0218",
+    "station_name": "次郎丸",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.552497,
+    "lon": 130.329538
+  },
+  {
+    "station_id": "fukuoka_0353",
+    "station_name": "歓遊舎ひこさん",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.547909,
+    "lon": 130.859839
+  },
+  {
+    "station_id": "fukuoka_0146",
+    "station_name": "水城",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.51779,
+    "lon": 130.49022
+  },
+  {
+    "station_id": "fukuoka_0125",
+    "station_name": "水巻",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.852287,
+    "lon": 130.694624
+  },
+  {
+    "station_id": "fukuoka_0260",
+    "station_name": "永犬丸",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.838865,
+    "lon": 130.738071
+  },
+  {
+    "station_id": "fukuoka_0316",
+    "station_name": "江の浦",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.108896,
+    "lon": 130.446565
+  },
+  {
+    "station_id": "fukuoka_0031",
+    "station_name": "池尻",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.613121,
+    "lon": 130.805704
+  },
+  {
+    "station_id": "fukuoka_0198",
+    "station_name": "油須原",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.612765,
+    "lon": 130.884384
+  },
+  {
+    "station_id": "fukuoka_0057",
+    "station_name": "波多江",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.563876,
+    "lon": 130.226374
+  },
+  {
+    "station_id": "fukuoka_0291",
+    "station_name": "津古",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.446414,
+    "lon": 130.565538
+  },
+  {
+    "station_id": "fukuoka_0303",
+    "station_name": "津福",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.296505,
+    "lon": 130.497788
+  },
+  {
+    "station_id": "fukuoka_0083",
+    "station_name": "浦田(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.655801,
+    "lon": 130.699277
+  },
+  {
+    "station_id": "fukuoka_0102",
+    "station_name": "海ノ中道",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.664241,
+    "lon": 130.361633
+  },
+  {
+    "station_id": "fukuoka_0127",
+    "station_name": "海老津",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.840248,
+    "lon": 130.62307
+  },
+  {
+    "station_id": "fukuoka_0361",
+    "station_name": "深倉",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.477357,
+    "lon": 130.872491
+  },
+  {
+    "station_id": "fukuoka_0034",
+    "station_name": "添田",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.567352,
+    "lon": 130.856454
+  },
+  {
+    "station_id": "fukuoka_0156",
+    "station_name": "渡瀬",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.099622,
+    "lon": 130.460094
+  },
+  {
+    "station_id": "fukuoka_0231",
+    "station_name": "渡辺通",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.583969,
+    "lon": 130.404843
+  },
+  {
+    "station_id": "fukuoka_0197",
+    "station_name": "源じいの森",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.616179,
+    "lon": 130.895972
+  },
+  {
+    "station_id": "fukuoka_0154",
+    "station_name": "瀬高",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.157,
+    "lon": 130.485181
+  },
+  {
+    "station_id": "fukuoka_0255",
+    "station_name": "熊西",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.866101,
+    "lon": 130.757902
+  },
+  {
+    "station_id": "fukuoka_0164",
+    "station_name": "片野",
+    "prefecture": "福岡県",
+    "line_name": "北九州高速鉄道",
+    "lat": 33.865511,
+    "lon": 130.880039
+  },
+  {
+    "station_id": "fukuoka_0195",
+    "station_name": "犀川",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.650689,
+    "lon": 130.939337
+  },
+  {
+    "station_id": "fukuoka_0307",
+    "station_name": "犬塚",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.247387,
+    "lon": 130.462953
+  },
+  {
+    "station_id": "fukuoka_0216",
+    "station_name": "甘木(甘木鉄道)",
+    "prefecture": "福岡県",
+    "line_name": "甘木鉄道甘木線",
+    "lat": 33.419295,
+    "lon": 130.653325
+  },
+  {
+    "station_id": "fukuoka_0008",
+    "station_name": "田主丸",
+    "prefecture": "福岡県",
+    "line_name": "JR久大本線",
+    "lat": 33.338871,
+    "lon": 130.692353
+  },
+  {
+    "station_id": "fukuoka_0030",
+    "station_name": "田川伊田",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.642046,
+    "lon": 130.817688
+  },
+  {
+    "station_id": "fukuoka_0187",
+    "station_name": "田川市立病院",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道伊田線",
+    "lat": 33.660436,
+    "lon": 130.802697
+  },
+  {
+    "station_id": "fukuoka_0020",
+    "station_name": "田川後藤寺",
+    "prefecture": "福岡県",
+    "line_name": "JR後藤寺線",
+    "lat": 33.630294,
+    "lon": 130.800232
+  },
+  {
+    "station_id": "fukuoka_0350",
+    "station_name": "畑川（医院前）",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.564346,
+    "lon": 130.857715
+  },
+  {
+    "station_id": "fukuoka_0283",
+    "station_name": "白木原",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.528541,
+    "lon": 130.482735
+  },
+  {
+    "station_id": "fukuoka_0079",
+    "station_name": "直方",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.748639,
+    "lon": 130.724339
+  },
+  {
+    "station_id": "fukuoka_0311",
+    "station_name": "矢加部",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.17418,
+    "lon": 130.415685
+  },
+  {
+    "station_id": "fukuoka_0025",
+    "station_name": "石原町",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.784959,
+    "lon": 130.865972
+  },
+  {
+    "station_id": "fukuoka_0022",
+    "station_name": "石田(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.831985,
+    "lon": 130.888847
+  },
+  {
+    "station_id": "fukuoka_0243",
+    "station_name": "祇園(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "福岡市空港線",
+    "lat": 33.594124,
+    "lon": 130.414614
+  },
+  {
+    "station_id": "fukuoka_0065",
+    "station_name": "福吉",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.50166,
+    "lon": 130.079832
+  },
+  {
+    "station_id": "fukuoka_0222",
+    "station_name": "福大前",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.54747,
+    "lon": 130.362228
+  },
+  {
+    "station_id": "fukuoka_0246",
+    "station_name": "福岡空港",
+    "prefecture": "福岡県",
+    "line_name": "福岡市空港線",
+    "lat": 33.59718,
+    "lon": 130.448501
+  },
+  {
+    "station_id": "fukuoka_0137",
+    "station_name": "福工大前",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.698813,
+    "lon": 130.440536
+  },
+  {
+    "station_id": "fukuoka_0132",
+    "station_name": "福間",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.763316,
+    "lon": 130.486088
+  },
+  {
+    "station_id": "fukuoka_0257",
+    "station_name": "穴生",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.857352,
+    "lon": 130.744942
+  },
+  {
+    "station_id": "fukuoka_0296",
+    "station_name": "端間",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.378907,
+    "lon": 130.550814
+  },
+  {
+    "station_id": "fukuoka_0167",
+    "station_name": "競馬場前(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "北九州高速鉄道",
+    "lat": 33.842878,
+    "lon": 130.876526
+  },
+  {
+    "station_id": "fukuoka_0141",
+    "station_name": "竹下",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.568688,
+    "lon": 130.431625
+  },
+  {
+    "station_id": "fukuoka_0142",
+    "station_name": "笹原",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.553612,
+    "lon": 130.448396
+  },
+  {
+    "station_id": "fukuoka_0088",
+    "station_name": "筑前内野",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.539967,
+    "lon": 130.63793
+  },
+  {
+    "station_id": "fukuoka_0059",
+    "station_name": "筑前前原",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.557018,
+    "lon": 130.199332
+  },
+  {
+    "station_id": "fukuoka_0075",
+    "station_name": "筑前垣生",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.818385,
+    "lon": 130.702269
+  },
+  {
+    "station_id": "fukuoka_0091",
+    "station_name": "筑前大分",
+    "prefecture": "福岡県",
+    "line_name": "JR篠栗線",
+    "lat": 33.590006,
+    "lon": 130.630196
+  },
+  {
+    "station_id": "fukuoka_0089",
+    "station_name": "筑前山家",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.477472,
+    "lon": 130.574185
+  },
+  {
+    "station_id": "fukuoka_0094",
+    "station_name": "筑前山手",
+    "prefecture": "福岡県",
+    "line_name": "JR篠栗線",
+    "lat": 33.622251,
+    "lon": 130.55693
+  },
+  {
+    "station_id": "fukuoka_0362",
+    "station_name": "筑前岩屋",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.430539,
+    "lon": 130.881524
+  },
+  {
+    "station_id": "fukuoka_0018",
+    "station_name": "筑前庄内",
+    "prefecture": "福岡県",
+    "line_name": "JR後藤寺線",
+    "lat": 33.61635,
+    "lon": 130.738475
+  },
+  {
+    "station_id": "fukuoka_0077",
+    "station_name": "筑前植木",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.777174,
+    "lon": 130.70795
+  },
+  {
+    "station_id": "fukuoka_0063",
+    "station_name": "筑前深江",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.515099,
+    "lon": 130.139303
+  },
+  {
+    "station_id": "fukuoka_0009",
+    "station_name": "筑後吉井",
+    "prefecture": "福岡県",
+    "line_name": "JR久大本線",
+    "lat": 33.341014,
+    "lon": 130.752193
+  },
+  {
+    "station_id": "fukuoka_0011",
+    "station_name": "筑後大石",
+    "prefecture": "福岡県",
+    "line_name": "JR久大本線",
+    "lat": 33.347215,
+    "lon": 130.816899
+  },
+  {
+    "station_id": "fukuoka_0153",
+    "station_name": "筑後船小屋",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.178023,
+    "lon": 130.491604
+  },
+  {
+    "station_id": "fukuoka_0007",
+    "station_name": "筑後草野",
+    "prefecture": "福岡県",
+    "line_name": "JR久大本線",
+    "lat": 33.321988,
+    "lon": 130.642143
+  },
+  {
+    "station_id": "fukuoka_0290",
+    "station_name": "筑紫",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.462682,
+    "lon": 130.553111
+  },
+  {
+    "station_id": "fukuoka_0265",
+    "station_name": "筑豊中間",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.816647,
+    "lon": 130.716562
+  },
+  {
+    "station_id": "fukuoka_0273",
+    "station_name": "筑豊直方",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.753499,
+    "lon": 130.726299
+  },
+  {
+    "station_id": "fukuoka_0267",
+    "station_name": "筑豊香月",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.799502,
+    "lon": 130.719099
+  },
+  {
+    "station_id": "fukuoka_0140",
+    "station_name": "箱崎",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.618063,
+    "lon": 130.426549
+  },
+  {
+    "station_id": "fukuoka_0251",
+    "station_name": "箱崎九大前",
+    "prefecture": "福岡県",
+    "line_name": "福岡市箱崎線",
+    "lat": 33.622177,
+    "lon": 130.421002
+  },
+  {
+    "station_id": "fukuoka_0250",
+    "station_name": "箱崎宮前",
+    "prefecture": "福岡県",
+    "line_name": "福岡市箱崎線",
+    "lat": 33.615788,
+    "lon": 130.419613
+  },
+  {
+    "station_id": "fukuoka_0046",
+    "station_name": "築城",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.673119,
+    "lon": 131.038069
+  },
+  {
+    "station_id": "fukuoka_0095",
+    "station_name": "篠栗",
+    "prefecture": "福岡県",
+    "line_name": "JR篠栗線",
+    "lat": 33.624045,
+    "lon": 130.524515
+  },
+  {
+    "station_id": "fukuoka_0186",
+    "station_name": "糒",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道伊田線",
+    "lat": 33.664744,
+    "lon": 130.799177
+  },
+  {
+    "station_id": "fukuoka_0058",
+    "station_name": "糸島高校前",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.560708,
+    "lon": 130.213332
+  },
+  {
+    "station_id": "fukuoka_0206",
+    "station_name": "糸田",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道糸田線",
+    "lat": 33.656481,
+    "lon": 130.785773
+  },
+  {
+    "station_id": "fukuoka_0287",
+    "station_name": "紫",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.496009,
+    "lon": 130.522503
+  },
+  {
+    "station_id": "fukuoka_0060",
+    "station_name": "美咲が丘",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.549624,
+    "lon": 130.185039
+  },
+  {
+    "station_id": "fukuoka_0190",
+    "station_name": "美夜古泉",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.709108,
+    "lon": 130.969052
+  },
+  {
+    "station_id": "fukuoka_0152",
+    "station_name": "羽犬塚",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.209822,
+    "lon": 130.49761
+  },
+  {
+    "station_id": "fukuoka_0302",
+    "station_name": "聖マリア病院前",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.301985,
+    "lon": 130.509923
+  },
+  {
+    "station_id": "fukuoka_0108",
+    "station_name": "舞松原",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.645386,
+    "lon": 130.455141
+  },
+  {
+    "station_id": "fukuoka_0019",
+    "station_name": "船尾",
+    "prefecture": "福岡県",
+    "line_name": "JR後藤寺線",
+    "lat": 33.630221,
+    "lon": 130.767387
+  },
+  {
+    "station_id": "fukuoka_0301",
+    "station_name": "花畑",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.306643,
+    "lon": 130.515972
+  },
+  {
+    "station_id": "fukuoka_0041",
+    "station_name": "苅田",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.784462,
+    "lon": 130.979016
+  },
+  {
+    "station_id": "fukuoka_0067",
+    "station_name": "若松",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.901179,
+    "lon": 130.806307
+  },
+  {
+    "station_id": "fukuoka_0225",
+    "station_name": "茶山",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.566065,
+    "lon": 130.36543
+  },
+  {
+    "station_id": "fukuoka_0150",
+    "station_name": "荒木",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.277149,
+    "lon": 130.50268
+  },
+  {
+    "station_id": "fukuoka_0256",
+    "station_name": "萩原(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.861173,
+    "lon": 130.749186
+  },
+  {
+    "station_id": "fukuoka_0310",
+    "station_name": "蒲池",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.189687,
+    "lon": 130.422657
+  },
+  {
+    "station_id": "fukuoka_0230",
+    "station_name": "薬院",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.581747,
+    "lon": 130.401878
+  },
+  {
+    "station_id": "fukuoka_0229",
+    "station_name": "薬院大通",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.580406,
+    "lon": 130.396158
+  },
+  {
+    "station_id": "fukuoka_0068",
+    "station_name": "藤ノ木",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.893426,
+    "lon": 130.781838
+  },
+  {
+    "station_id": "fukuoka_0236",
+    "station_name": "藤崎(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "福岡市空港線",
+    "lat": 33.581347,
+    "lon": 130.348231
+  },
+  {
+    "station_id": "fukuoka_0178",
+    "station_name": "藤棚",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道伊田線",
+    "lat": 33.722017,
+    "lon": 130.735291
+  },
+  {
+    "station_id": "fukuoka_0043",
+    "station_name": "行橋",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.72835,
+    "lon": 130.970313
+  },
+  {
+    "station_id": "fukuoka_0212",
+    "station_name": "西太刀洗",
+    "prefecture": "福岡県",
+    "line_name": "甘木鉄道甘木線",
+    "lat": 33.40774,
+    "lon": 130.599153
+  },
+  {
+    "station_id": "fukuoka_0036",
+    "station_name": "西小倉",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.888673,
+    "lon": 130.873897
+  },
+  {
+    "station_id": "fukuoka_0262",
+    "station_name": "西山(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.829393,
+    "lon": 130.732274
+  },
+  {
+    "station_id": "fukuoka_0101",
+    "station_name": "西戸崎",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.650139,
+    "lon": 130.35777
+  },
+  {
+    "station_id": "fukuoka_0237",
+    "station_name": "西新",
+    "prefecture": "福岡県",
+    "line_name": "福岡市空港線",
+    "lat": 33.583846,
+    "lon": 130.359619
+  },
+  {
+    "station_id": "fukuoka_0033",
+    "station_name": "西添田",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.57344,
+    "lon": 130.847124
+  },
+  {
+    "station_id": "fukuoka_0151",
+    "station_name": "西牟田",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.246243,
+    "lon": 130.500981
+  },
+  {
+    "station_id": "fukuoka_0315",
+    "station_name": "西鉄中島",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.122444,
+    "lon": 130.440129
+  },
+  {
+    "station_id": "fukuoka_0300",
+    "station_name": "西鉄久留米",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.312276,
+    "lon": 130.521053
+  },
+  {
+    "station_id": "fukuoka_0286",
+    "station_name": "西鉄二日市",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.502192,
+    "lon": 130.517871
+  },
+  {
+    "station_id": "fukuoka_0324",
+    "station_name": "西鉄五条",
+    "prefecture": "福岡県",
+    "line_name": "西鉄太宰府線",
+    "lat": 33.51111,
+    "lon": 130.526106
+  },
+  {
+    "station_id": "fukuoka_0327",
+    "station_name": "西鉄千早",
+    "prefecture": "福岡県",
+    "line_name": "西鉄貝塚線",
+    "lat": 33.649199,
+    "lon": 130.440105
+  },
+  {
+    "station_id": "fukuoka_0295",
+    "station_name": "西鉄小郡",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.39633,
+    "lon": 130.5536
+  },
+  {
+    "station_id": "fukuoka_0276",
+    "station_name": "西鉄平尾",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.573631,
+    "lon": 130.406254
+  },
+  {
+    "station_id": "fukuoka_0334",
+    "station_name": "西鉄新宮",
+    "prefecture": "福岡県",
+    "line_name": "西鉄貝塚線",
+    "lat": 33.714067,
+    "lon": 130.436856
+  },
+  {
+    "station_id": "fukuoka_0312",
+    "station_name": "西鉄柳川",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.1651,
+    "lon": 130.419265
+  },
+  {
+    "station_id": "fukuoka_0318",
+    "station_name": "西鉄渡瀬",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.086848,
+    "lon": 130.458729
+  },
+  {
+    "station_id": "fukuoka_0274",
+    "station_name": "西鉄福岡(天神)",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.588937,
+    "lon": 130.399733
+  },
+  {
+    "station_id": "fukuoka_0321",
+    "station_name": "西鉄銀水",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.050935,
+    "lon": 130.458139
+  },
+  {
+    "station_id": "fukuoka_0329",
+    "station_name": "西鉄香椎",
+    "prefecture": "福岡県",
+    "line_name": "西鉄貝塚線",
+    "lat": 33.659809,
+    "lon": 130.441429
+  },
+  {
+    "station_id": "fukuoka_0254",
+    "station_name": "西黒崎",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.866309,
+    "lon": 130.761418
+  },
+  {
+    "station_id": "fukuoka_0204",
+    "station_name": "豊前大熊",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道糸田線",
+    "lat": 33.672646,
+    "lon": 130.780387
+  },
+  {
+    "station_id": "fukuoka_0032",
+    "station_name": "豊前川崎",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.596782,
+    "lon": 130.821989
+  },
+  {
+    "station_id": "fukuoka_0048",
+    "station_name": "豊前松江",
+    "prefecture": "福岡県",
+    "line_name": "JR日豊本線",
+    "lat": 33.622487,
+    "lon": 131.095421
+  },
+  {
+    "station_id": "fukuoka_0355",
+    "station_name": "豊前桝田",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.535777,
+    "lon": 130.86243
+  },
+  {
+    "station_id": "fukuoka_0192",
+    "station_name": "豊津",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.687505,
+    "lon": 130.962984
+  },
+  {
+    "station_id": "fukuoka_0252",
+    "station_name": "貝塚(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "福岡市箱崎線",
+    "lat": 33.632906,
+    "lon": 130.425612
+  },
+  {
+    "station_id": "fukuoka_0354",
+    "station_name": "貴船橋",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.543477,
+    "lon": 130.861016
+  },
+  {
+    "station_id": "fukuoka_0219",
+    "station_name": "賀茂",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.55048,
+    "lon": 130.337879
+  },
+  {
+    "station_id": "fukuoka_0199",
+    "station_name": "赤",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道田川線",
+    "lat": 33.617703,
+    "lon": 130.871827
+  },
+  {
+    "station_id": "fukuoka_0240",
+    "station_name": "赤坂(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "福岡市空港線",
+    "lat": 33.589124,
+    "lon": 130.391005
+  },
+  {
+    "station_id": "fukuoka_0182",
+    "station_name": "赤池",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道伊田線",
+    "lat": 33.69206,
+    "lon": 130.768675
+  },
+  {
+    "station_id": "fukuoka_0129",
+    "station_name": "赤間",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.808237,
+    "lon": 130.569477
+  },
+  {
+    "station_id": "fukuoka_0263",
+    "station_name": "通谷",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.822994,
+    "lon": 130.726978
+  },
+  {
+    "station_id": "fukuoka_0126",
+    "station_name": "遠賀川",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.846684,
+    "lon": 130.673485
+  },
+  {
+    "station_id": "fukuoka_0271",
+    "station_name": "遠賀野",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.768628,
+    "lon": 130.730959
+  },
+  {
+    "station_id": "fukuoka_0285",
+    "station_name": "都府楼前",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.511677,
+    "lon": 130.508011
+  },
+  {
+    "station_id": "fukuoka_0147",
+    "station_name": "都府楼南",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.503153,
+    "lon": 130.506625
+  },
+  {
+    "station_id": "fukuoka_0111",
+    "station_name": "酒殿",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.602652,
+    "lon": 130.486348
+  },
+  {
+    "station_id": "fukuoka_0352",
+    "station_name": "野田",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.553565,
+    "lon": 130.860269
+  },
+  {
+    "station_id": "fukuoka_0220",
+    "station_name": "野芥",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.548111,
+    "lon": 130.347007
+  },
+  {
+    "station_id": "fukuoka_0224",
+    "station_name": "金山(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "福岡市七隈線",
+    "lat": 33.559371,
+    "lon": 130.361561
+  },
+  {
+    "station_id": "fukuoka_0340",
+    "station_name": "金島",
+    "prefecture": "福岡県",
+    "line_name": "西鉄甘木線",
+    "lat": 33.353232,
+    "lon": 130.623016
+  },
+  {
+    "station_id": "fukuoka_0184",
+    "station_name": "金田",
+    "prefecture": "福岡県",
+    "line_name": "平成筑豊鉄道伊田線",
+    "lat": 33.682805,
+    "lon": 130.776491
+  },
+  {
+    "station_id": "fukuoka_0158",
+    "station_name": "銀水",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.054932,
+    "lon": 130.460944
+  },
+  {
+    "station_id": "fukuoka_0097",
+    "station_name": "長者原",
+    "prefecture": "福岡県",
+    "line_name": "JR篠栗線",
+    "lat": 33.613567,
+    "lon": 130.477848
+  },
+  {
+    "station_id": "fukuoka_0014",
+    "station_name": "門司",
+    "prefecture": "福岡県",
+    "line_name": "JR山陽本線",
+    "lat": 33.904309,
+    "lon": 130.933438
+  },
+  {
+    "station_id": "fukuoka_0116",
+    "station_name": "門司港",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.945138,
+    "lon": 130.961549
+  },
+  {
+    "station_id": "fukuoka_0096",
+    "station_name": "門松",
+    "prefecture": "福岡県",
+    "line_name": "JR篠栗線",
+    "lat": 33.620531,
+    "lon": 130.496529
+  },
+  {
+    "station_id": "fukuoka_0317",
+    "station_name": "開",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.097275,
+    "lon": 130.453087
+  },
+  {
+    "station_id": "fukuoka_0349",
+    "station_name": "関門海峡めかり",
+    "prefecture": "福岡県",
+    "line_name": "門司港レトロ観光線",
+    "lat": 33.960627,
+    "lon": 130.967347
+  },
+  {
+    "station_id": "fukuoka_0124",
+    "station_name": "陣原",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.868242,
+    "lon": 130.742656
+  },
+  {
+    "station_id": "fukuoka_0103",
+    "station_name": "雁ノ巣",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.683872,
+    "lon": 130.403312
+  },
+  {
+    "station_id": "fukuoka_0280",
+    "station_name": "雑餉隈",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.547216,
+    "lon": 130.46262
+  },
+  {
+    "station_id": "fukuoka_0076",
+    "station_name": "鞍手",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.797699,
+    "lon": 130.699412
+  },
+  {
+    "station_id": "fukuoka_0112",
+    "station_name": "須恵",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.596803,
+    "lon": 130.498077
+  },
+  {
+    "station_id": "fukuoka_0113",
+    "station_name": "須恵中央",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.587296,
+    "lon": 130.505146
+  },
+  {
+    "station_id": "fukuoka_0084",
+    "station_name": "飯塚",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.628487,
+    "lon": 130.689545
+  },
+  {
+    "station_id": "fukuoka_0028",
+    "station_name": "香春",
+    "prefecture": "福岡県",
+    "line_name": "JR日田彦山線",
+    "lat": 33.666003,
+    "lon": 130.846972
+  },
+  {
+    "station_id": "fukuoka_0163",
+    "station_name": "香春口三萩野",
+    "prefecture": "福岡県",
+    "line_name": "北九州高速鉄道",
+    "lat": 33.873174,
+    "lon": 130.880563
+  },
+  {
+    "station_id": "fukuoka_0106",
+    "station_name": "香椎",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.659228,
+    "lon": 130.444063
+  },
+  {
+    "station_id": "fukuoka_0328",
+    "station_name": "香椎宮前",
+    "prefecture": "福岡県",
+    "line_name": "西鉄貝塚線",
+    "lat": 33.65529,
+    "lon": 130.442674
+  },
+  {
+    "station_id": "fukuoka_0107",
+    "station_name": "香椎神宮",
+    "prefecture": "福岡県",
+    "line_name": "JR香椎線",
+    "lat": 33.649544,
+    "lon": 130.45271
+  },
+  {
+    "station_id": "fukuoka_0330",
+    "station_name": "香椎花園前",
+    "prefecture": "福岡県",
+    "line_name": "西鉄貝塚線",
+    "lat": 33.669924,
+    "lon": 130.434396
+  },
+  {
+    "station_id": "fukuoka_0249",
+    "station_name": "馬出九大病院前",
+    "prefecture": "福岡県",
+    "line_name": "福岡市箱崎線",
+    "lat": 33.6094,
+    "lon": 130.419336
+  },
+  {
+    "station_id": "fukuoka_0344",
+    "station_name": "馬田",
+    "prefecture": "福岡県",
+    "line_name": "西鉄甘木線",
+    "lat": 33.407541,
+    "lon": 130.640656
+  },
+  {
+    "station_id": "fukuoka_0277",
+    "station_name": "高宮(福岡)",
+    "prefecture": "福岡県",
+    "line_name": "西鉄天神大牟田線",
+    "lat": 33.567138,
+    "lon": 130.414743
+  },
+  {
+    "station_id": "fukuoka_0215",
+    "station_name": "高田(長崎)",
+    "prefecture": "福岡県",
+    "line_name": "甘木鉄道甘木線",
+    "lat": 33.414218,
+    "lon": 130.63402
+  },
+  {
+    "station_id": "fukuoka_0082",
+    "station_name": "鯰田",
+    "prefecture": "福岡県",
+    "line_name": "JR筑豊本線",
+    "lat": 33.669341,
+    "lon": 130.703163
+  },
+  {
+    "station_id": "fukuoka_0066",
+    "station_name": "鹿家",
+    "prefecture": "福岡県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.484391,
+    "lon": 130.047904
+  },
+  {
+    "station_id": "fukuoka_0123",
+    "station_name": "黒崎",
+    "prefecture": "福岡県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.866807,
+    "lon": 130.766206
+  },
+  {
+    "station_id": "fukuoka_0253",
+    "station_name": "黒崎駅前",
+    "prefecture": "福岡県",
+    "line_name": "筑豊電鉄線",
+    "lat": 33.86644,
+    "lon": 130.765459
+  }
+]

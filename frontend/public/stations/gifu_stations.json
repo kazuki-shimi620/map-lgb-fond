@@ -1,0 +1,1474 @@
+[
+  {
+    "station_id": "gifu_0157",
+    "station_name": "せきてらす前",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.483434,
+    "lon": 136.914195
+  },
+  {
+    "station_id": "gifu_0169",
+    "station_name": "みなみ子宝温泉",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.627308,
+    "lon": 136.950618
+  },
+  {
+    "station_id": "gifu_0117",
+    "station_name": "モレラ岐阜",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.455112,
+    "lon": 136.669729
+  },
+  {
+    "station_id": "gifu_0181",
+    "station_name": "万場",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.833702,
+    "lon": 136.883093
+  },
+  {
+    "station_id": "gifu_0071",
+    "station_name": "三柿野",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.400156,
+    "lon": 136.876084
+  },
+  {
+    "station_id": "gifu_0182",
+    "station_name": "上万場",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.844429,
+    "lon": 136.876707
+  },
+  {
+    "station_id": "gifu_0044",
+    "station_name": "上呂",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.910717,
+    "lon": 137.204562
+  },
+  {
+    "station_id": "gifu_0051",
+    "station_name": "上枝",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 36.18095,
+    "lon": 137.245789
+  },
+  {
+    "station_id": "gifu_0036",
+    "station_name": "上麻生",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.541293,
+    "lon": 137.11863
+  },
+  {
+    "station_id": "gifu_0015",
+    "station_name": "下切",
+    "prefecture": "岐阜県",
+    "line_name": "JR太多線",
+    "lat": 35.393777,
+    "lon": 137.063734
+  },
+  {
+    "station_id": "gifu_0041",
+    "station_name": "下呂",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.805345,
+    "lon": 137.239778
+  },
+  {
+    "station_id": "gifu_0038",
+    "station_name": "下油井",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.633214,
+    "lon": 137.183137
+  },
+  {
+    "station_id": "gifu_0035",
+    "station_name": "下麻生",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.514973,
+    "lon": 137.087157
+  },
+  {
+    "station_id": "gifu_0095",
+    "station_name": "不破一色",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄竹鼻線",
+    "lat": 35.332959,
+    "lon": 136.721897
+  },
+  {
+    "station_id": "gifu_0034",
+    "station_name": "中川辺",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.487143,
+    "lon": 137.065086
+  },
+  {
+    "station_id": "gifu_0003",
+    "station_name": "中津川",
+    "prefecture": "岐阜県",
+    "line_name": "JR中央本線",
+    "lat": 35.50036,
+    "lon": 137.502867
+  },
+  {
+    "station_id": "gifu_0048",
+    "station_name": "久々野",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 36.052273,
+    "lon": 137.276778
+  },
+  {
+    "station_id": "gifu_0072",
+    "station_name": "二十軒",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.400098,
+    "lon": 136.889307
+  },
+  {
+    "station_id": "gifu_0168",
+    "station_name": "八坂",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.620186,
+    "lon": 136.944966
+  },
+  {
+    "station_id": "gifu_0070",
+    "station_name": "六軒(岐阜)",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.40105,
+    "lon": 136.861554
+  },
+  {
+    "station_id": "gifu_0063",
+    "station_name": "切通",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.400257,
+    "lon": 136.79564
+  },
+  {
+    "station_id": "gifu_0152",
+    "station_name": "前平公園",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.449771,
+    "lon": 137.001652
+  },
+  {
+    "station_id": "gifu_0081",
+    "station_name": "加納(岐阜)",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄名古屋本線",
+    "lat": 35.405209,
+    "lon": 136.765984
+  },
+  {
+    "station_id": "gifu_0153",
+    "station_name": "加茂野",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.460927,
+    "lon": 136.985062
+  },
+  {
+    "station_id": "gifu_0144",
+    "station_name": "北大垣",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.375349,
+    "lon": 136.601979
+  },
+  {
+    "station_id": "gifu_0116",
+    "station_name": "北方真桑",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.439567,
+    "lon": 136.674271
+  },
+  {
+    "station_id": "gifu_0149",
+    "station_name": "北池野",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.44335,
+    "lon": 136.573673
+  },
+  {
+    "station_id": "gifu_0188",
+    "station_name": "北濃",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.92994,
+    "lon": 136.829793
+  },
+  {
+    "station_id": "gifu_0147",
+    "station_name": "北神戸",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.430013,
+    "lon": 136.59441
+  },
+  {
+    "station_id": "gifu_0114",
+    "station_name": "十九条",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.395737,
+    "lon": 136.660945
+  },
+  {
+    "station_id": "gifu_0093",
+    "station_name": "南宿",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄竹鼻線",
+    "lat": 35.347869,
+    "lon": 136.728604
+  },
+  {
+    "station_id": "gifu_0139",
+    "station_name": "友江",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.326501,
+    "lon": 136.600672
+  },
+  {
+    "station_id": "gifu_0033",
+    "station_name": "古井",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.457295,
+    "lon": 137.047497
+  },
+  {
+    "station_id": "gifu_0011",
+    "station_name": "古虎渓",
+    "prefecture": "岐阜県",
+    "line_name": "JR中央本線",
+    "lat": 35.302955,
+    "lon": 137.101011
+  },
+  {
+    "station_id": "gifu_0016",
+    "station_name": "可児",
+    "prefecture": "岐阜県",
+    "line_name": "JR太多線",
+    "lat": 35.422832,
+    "lon": 137.055345
+  },
+  {
+    "station_id": "gifu_0084",
+    "station_name": "可児川",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄広見線",
+    "lat": 35.41812,
+    "lon": 137.01847
+  },
+  {
+    "station_id": "gifu_0030",
+    "station_name": "各務ケ原",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.403812,
+    "lon": 136.901106
+  },
+  {
+    "station_id": "gifu_0069",
+    "station_name": "各務原市役所前",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.400869,
+    "lon": 136.847067
+  },
+  {
+    "station_id": "gifu_0060",
+    "station_name": "名鉄岐阜",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.41163,
+    "lon": 136.760602
+  },
+  {
+    "station_id": "gifu_0073",
+    "station_name": "名電各務原",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.402518,
+    "lon": 136.900981
+  },
+  {
+    "station_id": "gifu_0009",
+    "station_name": "土岐市",
+    "prefecture": "岐阜県",
+    "line_name": "JR中央本線",
+    "lat": 35.359708,
+    "lon": 137.182082
+  },
+  {
+    "station_id": "gifu_0057",
+    "station_name": "坂上",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 36.327902,
+    "lon": 137.140979
+  },
+  {
+    "station_id": "gifu_0001",
+    "station_name": "坂下",
+    "prefecture": "岐阜県",
+    "line_name": "JR中央本線",
+    "lat": 35.574218,
+    "lon": 137.531094
+  },
+  {
+    "station_id": "gifu_0032",
+    "station_name": "坂祝",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.426359,
+    "lon": 136.976868
+  },
+  {
+    "station_id": "gifu_0023",
+    "station_name": "垂井",
+    "prefecture": "岐阜県",
+    "line_name": "JR東海道本線",
+    "lat": 35.369587,
+    "lon": 136.531246
+  },
+  {
+    "station_id": "gifu_0010",
+    "station_name": "多治見",
+    "prefecture": "岐阜県",
+    "line_name": "JR中央本線",
+    "lat": 35.334774,
+    "lon": 137.120294
+  },
+  {
+    "station_id": "gifu_0183",
+    "station_name": "大中",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.853775,
+    "lon": 136.868405
+  },
+  {
+    "station_id": "gifu_0022",
+    "station_name": "大垣",
+    "prefecture": "岐阜県",
+    "line_name": "JR東海道本線",
+    "lat": 35.367096,
+    "lon": 136.618288
+  },
+  {
+    "station_id": "gifu_0138",
+    "station_name": "大外羽",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.315092,
+    "lon": 136.597382
+  },
+  {
+    "station_id": "gifu_0184",
+    "station_name": "大島",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.868426,
+    "lon": 136.859039
+  },
+  {
+    "station_id": "gifu_0170",
+    "station_name": "大矢",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.637327,
+    "lon": 136.95024
+  },
+  {
+    "station_id": "gifu_0014",
+    "station_name": "姫",
+    "prefecture": "岐阜県",
+    "line_name": "JR太多線",
+    "lat": 35.382004,
+    "lon": 137.072078
+  },
+  {
+    "station_id": "gifu_0143",
+    "station_name": "室",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.367272,
+    "lon": 136.606209
+  },
+  {
+    "station_id": "gifu_0154",
+    "station_name": "富加",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.475144,
+    "lon": 136.969658
+  },
+  {
+    "station_id": "gifu_0012",
+    "station_name": "小泉",
+    "prefecture": "岐阜県",
+    "line_name": "JR太多線",
+    "lat": 35.349055,
+    "lon": 137.100421
+  },
+  {
+    "station_id": "gifu_0108",
+    "station_name": "山岡",
+    "prefecture": "岐阜県",
+    "line_name": "明知鉄道",
+    "lat": 35.350132,
+    "lon": 137.395679
+  },
+  {
+    "station_id": "gifu_0178",
+    "station_name": "山田",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.789003,
+    "lon": 136.911709
+  },
+  {
+    "station_id": "gifu_0079",
+    "station_name": "岐南",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄名古屋本線",
+    "lat": 35.389716,
+    "lon": 136.769165
+  },
+  {
+    "station_id": "gifu_0019",
+    "station_name": "岐阜",
+    "prefecture": "岐阜県",
+    "line_name": "JR東海道本線",
+    "lat": 35.409532,
+    "lon": 136.756514
+  },
+  {
+    "station_id": "gifu_0111",
+    "station_name": "岐阜羽島",
+    "prefecture": "岐阜県",
+    "line_name": "東海道新幹線",
+    "lat": 35.316023,
+    "lon": 136.68537
+  },
+  {
+    "station_id": "gifu_0106",
+    "station_name": "岩村",
+    "prefecture": "岐阜県",
+    "line_name": "明知鉄道",
+    "lat": 35.368864,
+    "lon": 137.43434
+  },
+  {
+    "station_id": "gifu_0068",
+    "station_name": "市民公園前",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.400572,
+    "lon": 136.841829
+  },
+  {
+    "station_id": "gifu_0146",
+    "station_name": "広神戸",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.419651,
+    "lon": 136.602096
+  },
+  {
+    "station_id": "gifu_0090",
+    "station_name": "御嵩",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄広見線",
+    "lat": 35.429723,
+    "lon": 137.127527
+  },
+  {
+    "station_id": "gifu_0089",
+    "station_name": "御嵩口",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄広見線",
+    "lat": 35.431281,
+    "lon": 137.121741
+  },
+  {
+    "station_id": "gifu_0179",
+    "station_name": "徳永",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.805087,
+    "lon": 136.903546
+  },
+  {
+    "station_id": "gifu_0005",
+    "station_name": "恵那",
+    "prefecture": "岐阜県",
+    "line_name": "JR中央本線",
+    "lat": 35.455063,
+    "lon": 137.407764
+  },
+  {
+    "station_id": "gifu_0064",
+    "station_name": "手力",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.398269,
+    "lon": 136.804472
+  },
+  {
+    "station_id": "gifu_0058",
+    "station_name": "打保",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 36.383737,
+    "lon": 137.181902
+  },
+  {
+    "station_id": "gifu_0151",
+    "station_name": "揖斐",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.470314,
+    "lon": 136.572536
+  },
+  {
+    "station_id": "gifu_0066",
+    "station_name": "新加納",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.39938,
+    "lon": 136.824414
+  },
+  {
+    "station_id": "gifu_0086",
+    "station_name": "新可児",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄広見線",
+    "lat": 35.423282,
+    "lon": 137.055622
+  },
+  {
+    "station_id": "gifu_0099",
+    "station_name": "新羽島",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄羽島線",
+    "lat": 35.315471,
+    "lon": 136.686582
+  },
+  {
+    "station_id": "gifu_0067",
+    "station_name": "新那加",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.400097,
+    "lon": 136.83386
+  },
+  {
+    "station_id": "gifu_0077",
+    "station_name": "新鵜沼",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.396799,
+    "lon": 136.944314
+  },
+  {
+    "station_id": "gifu_0126",
+    "station_name": "日当",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.582304,
+    "lon": 136.631456
+  },
+  {
+    "station_id": "gifu_0085",
+    "station_name": "日本ライン今渡",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄広見線",
+    "lat": 35.432302,
+    "lon": 137.036818
+  },
+  {
+    "station_id": "gifu_0087",
+    "station_name": "明智",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄広見線",
+    "lat": 35.433208,
+    "lon": 137.087295
+  },
+  {
+    "station_id": "gifu_0167",
+    "station_name": "木尾",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.606394,
+    "lon": 136.938467
+  },
+  {
+    "station_id": "gifu_0121",
+    "station_name": "木知原",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.517759,
+    "lon": 136.650153
+  },
+  {
+    "station_id": "gifu_0119",
+    "station_name": "本巣",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.487599,
+    "lon": 136.670072
+  },
+  {
+    "station_id": "gifu_0059",
+    "station_name": "杉原",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 36.415806,
+    "lon": 137.192102
+  },
+  {
+    "station_id": "gifu_0054",
+    "station_name": "杉崎",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 36.250003,
+    "lon": 137.168638
+  },
+  {
+    "station_id": "gifu_0112",
+    "station_name": "東大垣",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.375338,
+    "lon": 136.646671
+  },
+  {
+    "station_id": "gifu_0145",
+    "station_name": "東赤坂",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.39414,
+    "lon": 136.600971
+  },
+  {
+    "station_id": "gifu_0101",
+    "station_name": "東野",
+    "prefecture": "岐阜県",
+    "line_name": "明知鉄道",
+    "lat": 35.446315,
+    "lon": 137.428788
+  },
+  {
+    "station_id": "gifu_0161",
+    "station_name": "松森",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.526808,
+    "lon": 136.915367
+  },
+  {
+    "station_id": "gifu_0092",
+    "station_name": "柳津(岐阜)",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄竹鼻線",
+    "lat": 35.364925,
+    "lon": 136.737103
+  },
+  {
+    "station_id": "gifu_0013",
+    "station_name": "根本",
+    "prefecture": "岐阜県",
+    "line_name": "JR太多線",
+    "lat": 35.361548,
+    "lon": 137.090008
+  },
+  {
+    "station_id": "gifu_0163",
+    "station_name": "梅山",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.548981,
+    "lon": 136.918025
+  },
+  {
+    "station_id": "gifu_0105",
+    "station_name": "極楽",
+    "prefecture": "岐阜県",
+    "line_name": "明知鉄道",
+    "lat": 35.379944,
+    "lon": 137.432619
+  },
+  {
+    "station_id": "gifu_0113",
+    "station_name": "横屋",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.386996,
+    "lon": 136.659479
+  },
+  {
+    "station_id": "gifu_0129",
+    "station_name": "樽見",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.635119,
+    "lon": 136.615827
+  },
+  {
+    "station_id": "gifu_0006",
+    "station_name": "武並",
+    "prefecture": "岐阜県",
+    "line_name": "JR中央本線",
+    "lat": 35.437938,
+    "lon": 137.35417
+  },
+  {
+    "station_id": "gifu_0166",
+    "station_name": "母野",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.59875,
+    "lon": 136.942009
+  },
+  {
+    "station_id": "gifu_0128",
+    "station_name": "水鳥",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.617813,
+    "lon": 136.620771
+  },
+  {
+    "station_id": "gifu_0098",
+    "station_name": "江吉良",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄竹鼻線",
+    "lat": 35.31543,
+    "lon": 136.699686
+  },
+  {
+    "station_id": "gifu_0148",
+    "station_name": "池野",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.436512,
+    "lon": 136.578712
+  },
+  {
+    "station_id": "gifu_0165",
+    "station_name": "洲原",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.588954,
+    "lon": 136.944848
+  },
+  {
+    "station_id": "gifu_0174",
+    "station_name": "深戸",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.686445,
+    "lon": 136.962498
+  },
+  {
+    "station_id": "gifu_0047",
+    "station_name": "渚(長野)",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 36.001416,
+    "lon": 137.287894
+  },
+  {
+    "station_id": "gifu_0164",
+    "station_name": "湯の洞温泉口",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.571281,
+    "lon": 136.931192
+  },
+  {
+    "station_id": "gifu_0137",
+    "station_name": "烏江",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.305346,
+    "lon": 136.592258
+  },
+  {
+    "station_id": "gifu_0040",
+    "station_name": "焼石",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.725763,
+    "lon": 137.200404
+  },
+  {
+    "station_id": "gifu_0008",
+    "station_name": "瑞浪",
+    "prefecture": "岐阜県",
+    "line_name": "JR中央本線",
+    "lat": 35.369081,
+    "lon": 137.252017
+  },
+  {
+    "station_id": "gifu_0061",
+    "station_name": "田神",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.411261,
+    "lon": 136.772189
+  },
+  {
+    "station_id": "gifu_0187",
+    "station_name": "白山長滝",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.919722,
+    "lon": 136.832312
+  },
+  {
+    "station_id": "gifu_0037",
+    "station_name": "白川口",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.579345,
+    "lon": 137.184824
+  },
+  {
+    "station_id": "gifu_0186",
+    "station_name": "白鳥高原",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.912617,
+    "lon": 136.843028
+  },
+  {
+    "station_id": "gifu_0175",
+    "station_name": "相生",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.715114,
+    "lon": 136.95042
+  },
+  {
+    "station_id": "gifu_0131",
+    "station_name": "石津",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.181032,
+    "lon": 136.627765
+  },
+  {
+    "station_id": "gifu_0123",
+    "station_name": "神海",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.542487,
+    "lon": 136.641739
+  },
+  {
+    "station_id": "gifu_0042",
+    "station_name": "禅昌寺",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.848937,
+    "lon": 137.225184
+  },
+  {
+    "station_id": "gifu_0171",
+    "station_name": "福野",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.646726,
+    "lon": 136.95172
+  },
+  {
+    "station_id": "gifu_0021",
+    "station_name": "穂積",
+    "prefecture": "岐阜県",
+    "line_name": "JR東海道本線",
+    "lat": 35.396345,
+    "lon": 136.693834
+  },
+  {
+    "station_id": "gifu_0096",
+    "station_name": "竹鼻",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄竹鼻線",
+    "lat": 35.326734,
+    "lon": 136.706399
+  },
+  {
+    "station_id": "gifu_0078",
+    "station_name": "笠松",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄名古屋本線",
+    "lat": 35.37466,
+    "lon": 136.764664
+  },
+  {
+    "station_id": "gifu_0118",
+    "station_name": "糸貫",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.462891,
+    "lon": 136.669704
+  },
+  {
+    "station_id": "gifu_0062",
+    "station_name": "細畑",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.401637,
+    "lon": 136.785141
+  },
+  {
+    "station_id": "gifu_0120",
+    "station_name": "織部",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.499017,
+    "lon": 136.667241
+  },
+  {
+    "station_id": "gifu_0172",
+    "station_name": "美並苅安",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.660686,
+    "lon": 136.955047
+  },
+  {
+    "station_id": "gifu_0004",
+    "station_name": "美乃坂本",
+    "prefecture": "岐阜県",
+    "line_name": "JR中央本線",
+    "lat": 35.479286,
+    "lon": 137.450364
+  },
+  {
+    "station_id": "gifu_0115",
+    "station_name": "美江寺",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.413387,
+    "lon": 136.661378
+  },
+  {
+    "station_id": "gifu_0018",
+    "station_name": "美濃太田",
+    "prefecture": "岐阜県",
+    "line_name": "JR太多線",
+    "lat": 35.445617,
+    "lon": 137.019467
+  },
+  {
+    "station_id": "gifu_0132",
+    "station_name": "美濃山崎",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.198658,
+    "lon": 136.621595
+  },
+  {
+    "station_id": "gifu_0017",
+    "station_name": "美濃川合",
+    "prefecture": "岐阜県",
+    "line_name": "JR太多線",
+    "lat": 35.444138,
+    "lon": 137.045309
+  },
+  {
+    "station_id": "gifu_0162",
+    "station_name": "美濃市",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.539618,
+    "lon": 136.915525
+  },
+  {
+    "station_id": "gifu_0150",
+    "station_name": "美濃本郷",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.449874,
+    "lon": 136.571826
+  },
+  {
+    "station_id": "gifu_0130",
+    "station_name": "美濃松山",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.160724,
+    "lon": 136.632644
+  },
+  {
+    "station_id": "gifu_0134",
+    "station_name": "美濃津屋",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.251532,
+    "lon": 136.566651
+  },
+  {
+    "station_id": "gifu_0185",
+    "station_name": "美濃白鳥",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.884946,
+    "lon": 136.860602
+  },
+  {
+    "station_id": "gifu_0026",
+    "station_name": "美濃赤坂",
+    "prefecture": "岐阜県",
+    "line_name": "JR東海道本線",
+    "lat": 35.386677,
+    "lon": 136.582129
+  },
+  {
+    "station_id": "gifu_0140",
+    "station_name": "美濃青柳",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.343591,
+    "lon": 136.603797
+  },
+  {
+    "station_id": "gifu_0136",
+    "station_name": "美濃高田",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.309074,
+    "lon": 136.563602
+  },
+  {
+    "station_id": "gifu_0075",
+    "station_name": "羽場",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.40119,
+    "lon": 136.921535
+  },
+  {
+    "station_id": "gifu_0097",
+    "station_name": "羽島市役所前",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄竹鼻線",
+    "lat": 35.321924,
+    "lon": 136.70003
+  },
+  {
+    "station_id": "gifu_0177",
+    "station_name": "自然園前",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.7702,
+    "lon": 136.931354
+  },
+  {
+    "station_id": "gifu_0107",
+    "station_name": "花白温泉",
+    "prefecture": "岐阜県",
+    "line_name": "明知鉄道",
+    "lat": 35.355071,
+    "lon": 137.407207
+  },
+  {
+    "station_id": "gifu_0074",
+    "station_name": "苧ヶ瀬",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.403273,
+    "lon": 136.912266
+  },
+  {
+    "station_id": "gifu_0080",
+    "station_name": "茶所",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄名古屋本線",
+    "lat": 35.402048,
+    "lon": 136.768917
+  },
+  {
+    "station_id": "gifu_0025",
+    "station_name": "荒尾(岐阜)",
+    "prefecture": "岐阜県",
+    "line_name": "JR東海道本線",
+    "lat": 35.373454,
+    "lon": 136.583276
+  },
+  {
+    "station_id": "gifu_0002",
+    "station_name": "落合川",
+    "prefecture": "岐阜県",
+    "line_name": "JR中央本線",
+    "lat": 35.525116,
+    "lon": 137.530034
+  },
+  {
+    "station_id": "gifu_0029",
+    "station_name": "蘇原",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.403167,
+    "lon": 136.871434
+  },
+  {
+    "station_id": "gifu_0083",
+    "station_name": "西可児",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄広見線",
+    "lat": 35.404685,
+    "lon": 137.010616
+  },
+  {
+    "station_id": "gifu_0141",
+    "station_name": "西大垣",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.360298,
+    "lon": 136.603363
+  },
+  {
+    "station_id": "gifu_0020",
+    "station_name": "西岐阜",
+    "prefecture": "岐阜県",
+    "line_name": "JR東海道本線",
+    "lat": 35.404664,
+    "lon": 136.72341
+  },
+  {
+    "station_id": "gifu_0091",
+    "station_name": "西笠松",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄竹鼻線",
+    "lat": 35.36906,
+    "lon": 136.757901
+  },
+  {
+    "station_id": "gifu_0056",
+    "station_name": "角川",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 36.30016,
+    "lon": 137.113223
+  },
+  {
+    "station_id": "gifu_0122",
+    "station_name": "谷汲口",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.527552,
+    "lon": 136.642187
+  },
+  {
+    "station_id": "gifu_0173",
+    "station_name": "赤池(愛知)",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.671021,
+    "lon": 136.960613
+  },
+  {
+    "station_id": "gifu_0028",
+    "station_name": "那加",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.400538,
+    "lon": 136.835466
+  },
+  {
+    "station_id": "gifu_0176",
+    "station_name": "郡上八幡",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.741877,
+    "lon": 136.947364
+  },
+  {
+    "station_id": "gifu_0180",
+    "station_name": "郡上大和",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.815224,
+    "lon": 136.894872
+  },
+  {
+    "station_id": "gifu_0109",
+    "station_name": "野志",
+    "prefecture": "岐阜県",
+    "line_name": "明知鉄道",
+    "lat": 35.321962,
+    "lon": 137.389516
+  },
+  {
+    "station_id": "gifu_0007",
+    "station_name": "釜戸",
+    "prefecture": "岐阜県",
+    "line_name": "JR中央本線",
+    "lat": 35.411103,
+    "lon": 137.30501
+  },
+  {
+    "station_id": "gifu_0125",
+    "station_name": "鍋原",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.5659,
+    "lon": 136.636606
+  },
+  {
+    "station_id": "gifu_0027",
+    "station_name": "長森",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.402024,
+    "lon": 136.802981
+  },
+  {
+    "station_id": "gifu_0158",
+    "station_name": "関(岐阜)",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.490027,
+    "lon": 136.912758
+  },
+  {
+    "station_id": "gifu_0024",
+    "station_name": "関ヶ原",
+    "prefecture": "岐阜県",
+    "line_name": "JR東海道本線",
+    "lat": 35.363726,
+    "lon": 136.470451
+  },
+  {
+    "station_id": "gifu_0160",
+    "station_name": "関下有知",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.513679,
+    "lon": 136.914582
+  },
+  {
+    "station_id": "gifu_0156",
+    "station_name": "関口",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.479976,
+    "lon": 136.928872
+  },
+  {
+    "station_id": "gifu_0155",
+    "station_name": "関富岡",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.478588,
+    "lon": 136.944923
+  },
+  {
+    "station_id": "gifu_0159",
+    "station_name": "関市役所前",
+    "prefecture": "岐阜県",
+    "line_name": "長良川鉄道越美南線",
+    "lat": 35.499004,
+    "lon": 136.912787
+  },
+  {
+    "station_id": "gifu_0103",
+    "station_name": "阿木",
+    "prefecture": "岐阜県",
+    "line_name": "明知鉄道",
+    "lat": 35.399759,
+    "lon": 137.458962
+  },
+  {
+    "station_id": "gifu_0094",
+    "station_name": "須賀",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄竹鼻線",
+    "lat": 35.340192,
+    "lon": 136.726805
+  },
+  {
+    "station_id": "gifu_0088",
+    "station_name": "顔戸",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄広見線",
+    "lat": 35.434522,
+    "lon": 137.105154
+  },
+  {
+    "station_id": "gifu_0049",
+    "station_name": "飛騨一ノ宮",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 36.08836,
+    "lon": 137.247588
+  },
+  {
+    "station_id": "gifu_0053",
+    "station_name": "飛騨古川",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 36.236727,
+    "lon": 137.189681
+  },
+  {
+    "station_id": "gifu_0052",
+    "station_name": "飛騨国府",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 36.211001,
+    "lon": 137.215895
+  },
+  {
+    "station_id": "gifu_0045",
+    "station_name": "飛騨宮田",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.928442,
+    "lon": 137.235595
+  },
+  {
+    "station_id": "gifu_0046",
+    "station_name": "飛騨小坂",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.950749,
+    "lon": 137.257084
+  },
+  {
+    "station_id": "gifu_0055",
+    "station_name": "飛騨細江",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 36.260926,
+    "lon": 137.146029
+  },
+  {
+    "station_id": "gifu_0043",
+    "station_name": "飛騨萩原",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.874766,
+    "lon": 137.213568
+  },
+  {
+    "station_id": "gifu_0039",
+    "station_name": "飛騨金山",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.662118,
+    "lon": 137.164333
+  },
+  {
+    "station_id": "gifu_0102",
+    "station_name": "飯沼",
+    "prefecture": "岐阜県",
+    "line_name": "明知鉄道",
+    "lat": 35.418529,
+    "lon": 137.461257
+  },
+  {
+    "station_id": "gifu_0104",
+    "station_name": "飯羽間",
+    "prefecture": "岐阜県",
+    "line_name": "明知鉄道",
+    "lat": 35.387222,
+    "lon": 137.437468
+  },
+  {
+    "station_id": "gifu_0135",
+    "station_name": "養老",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.28693,
+    "lon": 136.556739
+  },
+  {
+    "station_id": "gifu_0133",
+    "station_name": "駒野",
+    "prefecture": "岐阜県",
+    "line_name": "養老鉄道",
+    "lat": 35.22385,
+    "lon": 136.603389
+  },
+  {
+    "station_id": "gifu_0127",
+    "station_name": "高尾",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.601806,
+    "lon": 136.625819
+  },
+  {
+    "station_id": "gifu_0050",
+    "station_name": "高山",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 36.140574,
+    "lon": 137.251301
+  },
+  {
+    "station_id": "gifu_0065",
+    "station_name": "高田橋",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.398383,
+    "lon": 136.811488
+  },
+  {
+    "station_id": "gifu_0124",
+    "station_name": "高科",
+    "prefecture": "岐阜県",
+    "line_name": "樽見鉄道樽見",
+    "lat": 35.555099,
+    "lon": 136.641017
+  },
+  {
+    "station_id": "gifu_0031",
+    "station_name": "鵜沼",
+    "prefecture": "岐阜県",
+    "line_name": "JR高山本線",
+    "lat": 35.397897,
+    "lon": 136.945122
+  },
+  {
+    "station_id": "gifu_0076",
+    "station_name": "鵜沼宿",
+    "prefecture": "岐阜県",
+    "line_name": "名鉄各務原線",
+    "lat": 35.400015,
+    "lon": 136.932567
+  }
+]

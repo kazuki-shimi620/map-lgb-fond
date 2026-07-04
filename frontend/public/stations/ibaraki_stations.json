@@ -1,0 +1,1058 @@
+[
+  {
+    "station_id": "ibaraki_0079",
+    "station_name": "つくば",
+    "prefecture": "茨城県",
+    "line_name": "つくばエクスプレス線",
+    "lat": 36.0825,
+    "lon": 140.110604
+  },
+  {
+    "station_id": "ibaraki_0083",
+    "station_name": "ひぐち",
+    "prefecture": "茨城県",
+    "line_name": "真岡鐵道",
+    "lat": 36.357882,
+    "lon": 139.970057
+  },
+  {
+    "station_id": "ibaraki_0006",
+    "station_name": "ひたち野うしく",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.007996,
+    "lon": 140.158408
+  },
+  {
+    "station_id": "ibaraki_0076",
+    "station_name": "みどりの",
+    "prefecture": "茨城県",
+    "line_name": "つくばエクスプレス線",
+    "lat": 36.03025,
+    "lon": 140.056276
+  },
+  {
+    "station_id": "ibaraki_0075",
+    "station_name": "みらい平",
+    "prefecture": "茨城県",
+    "line_name": "つくばエクスプレス線",
+    "lat": 35.99514,
+    "lon": 140.038555
+  },
+  {
+    "station_id": "ibaraki_0099",
+    "station_name": "ゆめみ野",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 35.921129,
+    "lon": 140.034789
+  },
+  {
+    "station_id": "ibaraki_0077",
+    "station_name": "万博記念公園(茨城)",
+    "prefecture": "茨城県",
+    "line_name": "つくばエクスプレス線",
+    "lat": 36.05841,
+    "lon": 140.059256
+  },
+  {
+    "station_id": "ibaraki_0108",
+    "station_name": "三妻",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 36.073507,
+    "lon": 139.983052
+  },
+  {
+    "station_id": "ibaraki_0061",
+    "station_name": "上小川",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.719216,
+    "lon": 140.378604
+  },
+  {
+    "station_id": "ibaraki_0050",
+    "station_name": "上菅谷",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.455378,
+    "lon": 140.492659
+  },
+  {
+    "station_id": "ibaraki_0113",
+    "station_name": "下妻",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 36.182325,
+    "lon": 139.964461
+  },
+  {
+    "station_id": "ibaraki_0059",
+    "station_name": "下小川",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.668975,
+    "lon": 140.387021
+  },
+  {
+    "station_id": "ibaraki_0048",
+    "station_name": "下菅谷",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.435394,
+    "lon": 140.494021
+  },
+  {
+    "station_id": "ibaraki_0064",
+    "station_name": "下野宮",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.815744,
+    "lon": 140.375282
+  },
+  {
+    "station_id": "ibaraki_0036",
+    "station_name": "下館",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.304197,
+    "lon": 139.97866
+  },
+  {
+    "station_id": "ibaraki_0081",
+    "station_name": "下館二高前",
+    "prefecture": "茨城県",
+    "line_name": "真岡鐵道",
+    "lat": 36.319137,
+    "lon": 139.972193
+  },
+  {
+    "station_id": "ibaraki_0107",
+    "station_name": "中妻",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 36.047291,
+    "lon": 139.990714
+  },
+  {
+    "station_id": "ibaraki_0088",
+    "station_name": "中根",
+    "prefecture": "茨城県",
+    "line_name": "ひたちなか海浜鉄道湊線",
+    "lat": 36.367488,
+    "lon": 140.562138
+  },
+  {
+    "station_id": "ibaraki_0058",
+    "station_name": "中舟生",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.645683,
+    "lon": 140.392242
+  },
+  {
+    "station_id": "ibaraki_0049",
+    "station_name": "中菅谷",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.445662,
+    "lon": 140.492626
+  },
+  {
+    "station_id": "ibaraki_0020",
+    "station_name": "佐和",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.430409,
+    "lon": 140.540477
+  },
+  {
+    "station_id": "ibaraki_0119",
+    "station_name": "佐貫",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道竜ヶ崎線",
+    "lat": 35.929636,
+    "lon": 140.138292
+  },
+  {
+    "station_id": "ibaraki_0017",
+    "station_name": "偕楽園",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.373041,
+    "lon": 140.456292
+  },
+  {
+    "station_id": "ibaraki_0120",
+    "station_name": "入地",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道竜ヶ崎線",
+    "lat": 35.91899,
+    "lon": 140.157266
+  },
+  {
+    "station_id": "ibaraki_0015",
+    "station_name": "内原",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.370111,
+    "lon": 140.35282
+  },
+  {
+    "station_id": "ibaraki_0019",
+    "station_name": "勝田",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.394033,
+    "lon": 140.524482
+  },
+  {
+    "station_id": "ibaraki_0106",
+    "station_name": "北水海道",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 36.032123,
+    "lon": 139.9928
+  },
+  {
+    "station_id": "ibaraki_0129",
+    "station_name": "北浦湖畔",
+    "prefecture": "茨城県",
+    "line_name": "鹿島臨海鉄道線",
+    "lat": 36.120453,
+    "lon": 140.536841
+  },
+  {
+    "station_id": "ibaraki_0026",
+    "station_name": "十王",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.671385,
+    "lon": 140.68623
+  },
+  {
+    "station_id": "ibaraki_0028",
+    "station_name": "南中郷",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.753501,
+    "lon": 140.729028
+  },
+  {
+    "station_id": "ibaraki_0102",
+    "station_name": "南守谷",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 35.934224,
+    "lon": 140.00212
+  },
+  {
+    "station_id": "ibaraki_0109",
+    "station_name": "南石下",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 36.102262,
+    "lon": 139.973938
+  },
+  {
+    "station_id": "ibaraki_0065",
+    "station_name": "南酒出",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.477361,
+    "lon": 140.498471
+  },
+  {
+    "station_id": "ibaraki_0014",
+    "station_name": "友部",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.350597,
+    "lon": 140.306306
+  },
+  {
+    "station_id": "ibaraki_0002",
+    "station_name": "取手",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 35.89553,
+    "lon": 140.063004
+  },
+  {
+    "station_id": "ibaraki_0001",
+    "station_name": "古河",
+    "prefecture": "茨城県",
+    "line_name": "JR宇都宮線",
+    "lat": 36.194375,
+    "lon": 139.709726
+  },
+  {
+    "station_id": "ibaraki_0008",
+    "station_name": "土浦",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.078644,
+    "lon": 140.206237
+  },
+  {
+    "station_id": "ibaraki_0038",
+    "station_name": "大和(神奈川)",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.345567,
+    "lon": 140.073216
+  },
+  {
+    "station_id": "ibaraki_0114",
+    "station_name": "大宝",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 36.203159,
+    "lon": 139.970193
+  },
+  {
+    "station_id": "ibaraki_0130",
+    "station_name": "大洋",
+    "prefecture": "茨城県",
+    "line_name": "鹿島臨海鉄道線",
+    "lat": 36.108341,
+    "lon": 140.576413
+  },
+  {
+    "station_id": "ibaraki_0124",
+    "station_name": "大洗",
+    "prefecture": "茨城県",
+    "line_name": "鹿島臨海鉄道線",
+    "lat": 36.315342,
+    "lon": 140.562675
+  },
+  {
+    "station_id": "ibaraki_0030",
+    "station_name": "大津港",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.846085,
+    "lon": 140.778001
+  },
+  {
+    "station_id": "ibaraki_0022",
+    "station_name": "大甕",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.513052,
+    "lon": 140.619362
+  },
+  {
+    "station_id": "ibaraki_0117",
+    "station_name": "大田郷",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 36.278258,
+    "lon": 139.959724
+  },
+  {
+    "station_id": "ibaraki_0074",
+    "station_name": "守谷",
+    "prefecture": "茨城県",
+    "line_name": "つくばエクスプレス線",
+    "lat": 35.950626,
+    "lon": 139.992209
+  },
+  {
+    "station_id": "ibaraki_0044",
+    "station_name": "宍戸",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.344763,
+    "lon": 140.288243
+  },
+  {
+    "station_id": "ibaraki_0112",
+    "station_name": "宗道",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 36.153589,
+    "lon": 139.970573
+  },
+  {
+    "station_id": "ibaraki_0084",
+    "station_name": "宮脇",
+    "prefecture": "茨城県",
+    "line_name": "筑波山鋼索鉄道線",
+    "lat": 36.214052,
+    "lon": 140.099675
+  },
+  {
+    "station_id": "ibaraki_0097",
+    "station_name": "寺原",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 35.911825,
+    "lon": 140.054551
+  },
+  {
+    "station_id": "ibaraki_0025",
+    "station_name": "小木津",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.636533,
+    "lon": 140.67526
+  },
+  {
+    "station_id": "ibaraki_0031",
+    "station_name": "小田林",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.300775,
+    "lon": 139.85353
+  },
+  {
+    "station_id": "ibaraki_0104",
+    "station_name": "小絹",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 35.981151,
+    "lon": 139.983328
+  },
+  {
+    "station_id": "ibaraki_0057",
+    "station_name": "山方宿",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.6246,
+    "lon": 140.401244
+  },
+  {
+    "station_id": "ibaraki_0039",
+    "station_name": "岩瀬",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.359377,
+    "lon": 140.108739
+  },
+  {
+    "station_id": "ibaraki_0013",
+    "station_name": "岩間",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.295508,
+    "lon": 140.276493
+  },
+  {
+    "station_id": "ibaraki_0034",
+    "station_name": "川島",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.295918,
+    "lon": 139.916382
+  },
+  {
+    "station_id": "ibaraki_0086",
+    "station_name": "工機前",
+    "prefecture": "茨城県",
+    "line_name": "ひたちなか海浜鉄道湊線",
+    "lat": 36.388099,
+    "lon": 140.524542
+  },
+  {
+    "station_id": "ibaraki_0123",
+    "station_name": "常澄",
+    "prefecture": "茨城県",
+    "line_name": "鹿島臨海鉄道線",
+    "lat": 36.340683,
+    "lon": 140.558997
+  },
+  {
+    "station_id": "ibaraki_0023",
+    "station_name": "常陸多賀",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.552145,
+    "lon": 140.632682
+  },
+  {
+    "station_id": "ibaraki_0063",
+    "station_name": "常陸大子",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.770657,
+    "lon": 140.350855
+  },
+  {
+    "station_id": "ibaraki_0054",
+    "station_name": "常陸大宮",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.547554,
+    "lon": 140.412431
+  },
+  {
+    "station_id": "ibaraki_0069",
+    "station_name": "常陸太田",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.531225,
+    "lon": 140.52777
+  },
+  {
+    "station_id": "ibaraki_0046",
+    "station_name": "常陸津田",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.404171,
+    "lon": 140.482914
+  },
+  {
+    "station_id": "ibaraki_0045",
+    "station_name": "常陸青柳",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.383582,
+    "lon": 140.484495
+  },
+  {
+    "station_id": "ibaraki_0051",
+    "station_name": "常陸鴻巣",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.472414,
+    "lon": 140.467455
+  },
+  {
+    "station_id": "ibaraki_0092",
+    "station_name": "平磯",
+    "prefecture": "茨城県",
+    "line_name": "ひたちなか海浜鉄道湊線",
+    "lat": 36.357546,
+    "lon": 140.607575
+  },
+  {
+    "station_id": "ibaraki_0071",
+    "station_name": "延方",
+    "prefecture": "茨城県",
+    "line_name": "JR鹿島線",
+    "lat": 35.958072,
+    "lon": 140.58875
+  },
+  {
+    "station_id": "ibaraki_0047",
+    "station_name": "後台",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.423767,
+    "lon": 140.489899
+  },
+  {
+    "station_id": "ibaraki_0127",
+    "station_name": "徳宿",
+    "prefecture": "茨城県",
+    "line_name": "鹿島臨海鉄道線",
+    "lat": 36.190356,
+    "lon": 140.514441
+  },
+  {
+    "station_id": "ibaraki_0101",
+    "station_name": "戸頭",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 35.92951,
+    "lon": 140.014263
+  },
+  {
+    "station_id": "ibaraki_0082",
+    "station_name": "折本",
+    "prefecture": "茨城県",
+    "line_name": "真岡鐵道",
+    "lat": 36.340684,
+    "lon": 139.971232
+  },
+  {
+    "station_id": "ibaraki_0098",
+    "station_name": "新取手",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 35.917657,
+    "lon": 140.0421
+  },
+  {
+    "station_id": "ibaraki_0103",
+    "station_name": "新守谷",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 35.966344,
+    "lon": 139.985864
+  },
+  {
+    "station_id": "ibaraki_0037",
+    "station_name": "新治",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.328082,
+    "lon": 140.039076
+  },
+  {
+    "station_id": "ibaraki_0128",
+    "station_name": "新鉾田",
+    "prefecture": "茨城県",
+    "line_name": "鹿島臨海鉄道線",
+    "lat": 36.152697,
+    "lon": 140.520408
+  },
+  {
+    "station_id": "ibaraki_0024",
+    "station_name": "日立",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.590408,
+    "lon": 140.661883
+  },
+  {
+    "station_id": "ibaraki_0122",
+    "station_name": "東水戸",
+    "prefecture": "茨城県",
+    "line_name": "鹿島臨海鉄道線",
+    "lat": 36.361746,
+    "lon": 140.516012
+  },
+  {
+    "station_id": "ibaraki_0021",
+    "station_name": "東海",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.465378,
+    "lon": 140.565835
+  },
+  {
+    "station_id": "ibaraki_0033",
+    "station_name": "東結城",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.296554,
+    "lon": 139.891485
+  },
+  {
+    "station_id": "ibaraki_0091",
+    "station_name": "殿山",
+    "prefecture": "茨城県",
+    "line_name": "ひたちなか海浜鉄道湊線",
+    "lat": 36.349497,
+    "lon": 140.601087
+  },
+  {
+    "station_id": "ibaraki_0018",
+    "station_name": "水戸",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.370911,
+    "lon": 140.47676
+  },
+  {
+    "station_id": "ibaraki_0105",
+    "station_name": "水海道",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 36.017828,
+    "lon": 139.99137
+  },
+  {
+    "station_id": "ibaraki_0067",
+    "station_name": "河合",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.508241,
+    "lon": 140.517118
+  },
+  {
+    "station_id": "ibaraki_0125",
+    "station_name": "涸沼",
+    "prefecture": "茨城県",
+    "line_name": "鹿島臨海鉄道線",
+    "lat": 36.266054,
+    "lon": 140.527356
+  },
+  {
+    "station_id": "ibaraki_0070",
+    "station_name": "潮来",
+    "prefecture": "茨城県",
+    "line_name": "JR鹿島線",
+    "lat": 35.936904,
+    "lon": 140.549473
+  },
+  {
+    "station_id": "ibaraki_0005",
+    "station_name": "牛久",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 35.975314,
+    "lon": 140.141039
+  },
+  {
+    "station_id": "ibaraki_0055",
+    "station_name": "玉川村",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.579088,
+    "lon": 140.374334
+  },
+  {
+    "station_id": "ibaraki_0035",
+    "station_name": "玉戸",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.298547,
+    "lon": 139.93845
+  },
+  {
+    "station_id": "ibaraki_0111",
+    "station_name": "玉村",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 36.135499,
+    "lon": 139.969959
+  },
+  {
+    "station_id": "ibaraki_0052",
+    "station_name": "瓜連",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.497805,
+    "lon": 140.450438
+  },
+  {
+    "station_id": "ibaraki_0110",
+    "station_name": "石下",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 36.117041,
+    "lon": 139.974323
+  },
+  {
+    "station_id": "ibaraki_0011",
+    "station_name": "石岡",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.191554,
+    "lon": 140.279709
+  },
+  {
+    "station_id": "ibaraki_0078",
+    "station_name": "研究学園",
+    "prefecture": "茨城県",
+    "line_name": "つくばエクスプレス線",
+    "lat": 36.0821,
+    "lon": 140.082256
+  },
+  {
+    "station_id": "ibaraki_0029",
+    "station_name": "磯原",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.790684,
+    "lon": 140.746366
+  },
+  {
+    "station_id": "ibaraki_0094",
+    "station_name": "磯崎",
+    "prefecture": "茨城県",
+    "line_name": "ひたちなか海浜鉄道湊線",
+    "lat": 36.37781,
+    "lon": 140.617934
+  },
+  {
+    "station_id": "ibaraki_0009",
+    "station_name": "神立",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.120424,
+    "lon": 140.248615
+  },
+  {
+    "station_id": "ibaraki_0041",
+    "station_name": "福原",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.351507,
+    "lon": 140.187249
+  },
+  {
+    "station_id": "ibaraki_0100",
+    "station_name": "稲戸井",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 35.926142,
+    "lon": 140.02269
+  },
+  {
+    "station_id": "ibaraki_0042",
+    "station_name": "稲田",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.368903,
+    "lon": 140.21501
+  },
+  {
+    "station_id": "ibaraki_0121",
+    "station_name": "竜ケ崎",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道竜ヶ崎線",
+    "lat": 35.908586,
+    "lon": 140.178937
+  },
+  {
+    "station_id": "ibaraki_0043",
+    "station_name": "笠間",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.373056,
+    "lon": 140.246515
+  },
+  {
+    "station_id": "ibaraki_0085",
+    "station_name": "筑波山頂",
+    "prefecture": "茨城県",
+    "line_name": "筑波山鋼索鉄道線",
+    "lat": 36.225832,
+    "lon": 140.101157
+  },
+  {
+    "station_id": "ibaraki_0032",
+    "station_name": "結城",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.298056,
+    "lon": 139.873028
+  },
+  {
+    "station_id": "ibaraki_0093",
+    "station_name": "美乃浜学園",
+    "prefecture": "茨城県",
+    "line_name": "ひたちなか海浜鉄道湊線",
+    "lat": 36.37263,
+    "lon": 140.616958
+  },
+  {
+    "station_id": "ibaraki_0012",
+    "station_name": "羽鳥",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.247661,
+    "lon": 140.28679
+  },
+  {
+    "station_id": "ibaraki_0040",
+    "station_name": "羽黒",
+    "prefecture": "茨城県",
+    "line_name": "JR水戸線",
+    "lat": 36.355292,
+    "lon": 140.142947
+  },
+  {
+    "station_id": "ibaraki_0007",
+    "station_name": "荒川沖",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.030552,
+    "lon": 140.16592
+  },
+  {
+    "station_id": "ibaraki_0134",
+    "station_name": "荒野台",
+    "prefecture": "茨城県",
+    "line_name": "鹿島臨海鉄道線",
+    "lat": 36.016804,
+    "lon": 140.625194
+  },
+  {
+    "station_id": "ibaraki_0003",
+    "station_name": "藤代",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 35.920565,
+    "lon": 140.118251
+  },
+  {
+    "station_id": "ibaraki_0062",
+    "station_name": "袋田",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.754718,
+    "lon": 140.379583
+  },
+  {
+    "station_id": "ibaraki_0096",
+    "station_name": "西取手",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 35.908584,
+    "lon": 140.059437
+  },
+  {
+    "station_id": "ibaraki_0060",
+    "station_name": "西金",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.69548,
+    "lon": 140.386468
+  },
+  {
+    "station_id": "ibaraki_0068",
+    "station_name": "谷河原",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.519782,
+    "lon": 140.52502
+  },
+  {
+    "station_id": "ibaraki_0016",
+    "station_name": "赤塚",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.381755,
+    "lon": 140.415248
+  },
+  {
+    "station_id": "ibaraki_0090",
+    "station_name": "那珂湊",
+    "prefecture": "茨城県",
+    "line_name": "ひたちなか海浜鉄道湊線",
+    "lat": 36.345453,
+    "lon": 140.587716
+  },
+  {
+    "station_id": "ibaraki_0056",
+    "station_name": "野上原",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.605879,
+    "lon": 140.390127
+  },
+  {
+    "station_id": "ibaraki_0087",
+    "station_name": "金上",
+    "prefecture": "茨城県",
+    "line_name": "ひたちなか海浜鉄道湊線",
+    "lat": 36.382319,
+    "lon": 140.534132
+  },
+  {
+    "station_id": "ibaraki_0133",
+    "station_name": "長者ヶ浜潮騒はまなす公園前",
+    "prefecture": "茨城県",
+    "line_name": "鹿島臨海鉄道線",
+    "lat": 36.031336,
+    "lon": 140.618849
+  },
+  {
+    "station_id": "ibaraki_0095",
+    "station_name": "阿字ヶ浦",
+    "prefecture": "茨城県",
+    "line_name": "ひたちなか海浜鉄道湊線",
+    "lat": 36.383529,
+    "lon": 140.61244
+  },
+  {
+    "station_id": "ibaraki_0053",
+    "station_name": "静",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.506012,
+    "lon": 140.438103
+  },
+  {
+    "station_id": "ibaraki_0066",
+    "station_name": "額田",
+    "prefecture": "茨城県",
+    "line_name": "JR水郡線",
+    "lat": 36.485705,
+    "lon": 140.503462
+  },
+  {
+    "station_id": "ibaraki_0115",
+    "station_name": "騰波ノ江",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 36.223232,
+    "lon": 139.976274
+  },
+  {
+    "station_id": "ibaraki_0010",
+    "station_name": "高浜",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.163882,
+    "lon": 140.294745
+  },
+  {
+    "station_id": "ibaraki_0089",
+    "station_name": "高田の鉄橋",
+    "prefecture": "茨城県",
+    "line_name": "ひたちなか海浜鉄道湊線",
+    "lat": 36.352556,
+    "lon": 140.580028
+  },
+  {
+    "station_id": "ibaraki_0027",
+    "station_name": "高萩",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 36.714873,
+    "lon": 140.716707
+  },
+  {
+    "station_id": "ibaraki_0073",
+    "station_name": "鹿島サッカースタジアム",
+    "prefecture": "茨城県",
+    "line_name": "JR鹿島線",
+    "lat": 35.992707,
+    "lon": 140.63606
+  },
+  {
+    "station_id": "ibaraki_0132",
+    "station_name": "鹿島大野",
+    "prefecture": "茨城県",
+    "line_name": "鹿島臨海鉄道線",
+    "lat": 36.050674,
+    "lon": 140.609855
+  },
+  {
+    "station_id": "ibaraki_0126",
+    "station_name": "鹿島旭",
+    "prefecture": "茨城県",
+    "line_name": "鹿島臨海鉄道線",
+    "lat": 36.224658,
+    "lon": 140.512601
+  },
+  {
+    "station_id": "ibaraki_0131",
+    "station_name": "鹿島灘",
+    "prefecture": "茨城県",
+    "line_name": "鹿島臨海鉄道線",
+    "lat": 36.075568,
+    "lon": 140.596789
+  },
+  {
+    "station_id": "ibaraki_0072",
+    "station_name": "鹿島神宮",
+    "prefecture": "茨城県",
+    "line_name": "JR鹿島線",
+    "lat": 35.970614,
+    "lon": 140.625676
+  },
+  {
+    "station_id": "ibaraki_0116",
+    "station_name": "黒子",
+    "prefecture": "茨城県",
+    "line_name": "関東鉄道常総線",
+    "lat": 36.247396,
+    "lon": 139.97514
+  },
+  {
+    "station_id": "ibaraki_0004",
+    "station_name": "龍ケ崎市",
+    "prefecture": "茨城県",
+    "line_name": "JR常磐線",
+    "lat": 35.930066,
+    "lon": 140.138217
+  }
+]

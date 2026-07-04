@@ -1,0 +1,3116 @@
+[
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2007,
+    "avg_price": 9950000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2008,
+    "avg_price": 11266666.666666666
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2009,
+    "avg_price": 11150000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2010,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2011,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2012,
+    "avg_price": 8766666.666666666
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2013,
+    "avg_price": 5850000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2014,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2015,
+    "avg_price": 7566666.666666667
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2016,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2017,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2018,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2019,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2020,
+    "avg_price": 12750000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2021,
+    "avg_price": 9266666.666666666
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2022,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2023,
+    "avg_price": 12818181.818181818
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2024,
+    "avg_price": 12666666.666666666
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "おごと温泉",
+    "year": 2025,
+    "avg_price": 10114285.714285715
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "ひこね芹川",
+    "year": 2009,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "ひこね芹川",
+    "year": 2022,
+    "avg_price": 200000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "びわ湖浜大津",
+    "year": 2012,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "びわ湖浜大津",
+    "year": 2014,
+    "avg_price": 18766666.666666668
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "びわ湖浜大津",
+    "year": 2015,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "びわ湖浜大津",
+    "year": 2016,
+    "avg_price": 24333333.333333332
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "びわ湖浜大津",
+    "year": 2020,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "びわ湖浜大津",
+    "year": 2021,
+    "avg_price": 21153846.153846152
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "びわ湖浜大津",
+    "year": 2022,
+    "avg_price": 26727272.727272727
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "びわ湖浜大津",
+    "year": 2023,
+    "avg_price": 23307692.307692308
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "びわ湖浜大津",
+    "year": 2024,
+    "avg_price": 23200000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "びわ湖浜大津",
+    "year": 2025,
+    "avg_price": 24615384.615384616
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "三井寺",
+    "year": 2014,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "三井寺",
+    "year": 2017,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "三井寺",
+    "year": 2018,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "三井寺",
+    "year": 2019,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "三井寺",
+    "year": 2020,
+    "avg_price": 33000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "三井寺",
+    "year": 2021,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "三井寺",
+    "year": 2022,
+    "avg_price": 21628571.42857143
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "三井寺",
+    "year": 2023,
+    "avg_price": 27400000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "三井寺",
+    "year": 2024,
+    "avg_price": 13125000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "三井寺",
+    "year": 2025,
+    "avg_price": 22828571.42857143
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "上栄町",
+    "year": 2014,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "上栄町",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "上栄町",
+    "year": 2023,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "上栄町",
+    "year": 2025,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "中ノ庄",
+    "year": 2014,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "中ノ庄",
+    "year": 2017,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "中ノ庄",
+    "year": 2018,
+    "avg_price": 12750000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "中ノ庄",
+    "year": 2019,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "中ノ庄",
+    "year": 2020,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "中ノ庄",
+    "year": 2021,
+    "avg_price": 15700000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "中ノ庄",
+    "year": 2022,
+    "avg_price": 16625000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "中ノ庄",
+    "year": 2023,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "中ノ庄",
+    "year": 2024,
+    "avg_price": 19750000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "中ノ庄",
+    "year": 2025,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "京阪大津京",
+    "year": 2022,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "京阪大津京",
+    "year": 2023,
+    "avg_price": 42000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "京阪膳所",
+    "year": 2022,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "京阪膳所",
+    "year": 2023,
+    "avg_price": 44000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "京阪膳所",
+    "year": 2025,
+    "avg_price": 35000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2007,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2008,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2009,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2011,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2015,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2016,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2017,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2018,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2020,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2021,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2022,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2023,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2024,
+    "avg_price": 16125000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "八日市",
+    "year": 2025,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2007,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2008,
+    "avg_price": 13400000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2009,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2010,
+    "avg_price": 12471428.57142857
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2011,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2012,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2013,
+    "avg_price": 6825000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2014,
+    "avg_price": 15400000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2015,
+    "avg_price": 11400000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2016,
+    "avg_price": 8700000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2017,
+    "avg_price": 15900000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2018,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2019,
+    "avg_price": 14100000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2020,
+    "avg_price": 11933333.333333334
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2021,
+    "avg_price": 7740000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2022,
+    "avg_price": 17800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2023,
+    "avg_price": 16125000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2024,
+    "avg_price": 16625000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南彦根",
+    "year": 2025,
+    "avg_price": 12427272.727272727
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南滋賀",
+    "year": 2021,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南滋賀",
+    "year": 2022,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南滋賀",
+    "year": 2024,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南滋賀",
+    "year": 2025,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2007,
+    "avg_price": 19444444.444444444
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2008,
+    "avg_price": 14565217.391304348
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2009,
+    "avg_price": 15231578.94736842
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2010,
+    "avg_price": 13989473.684210526
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2011,
+    "avg_price": 19159090.90909091
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2012,
+    "avg_price": 19142857.14285714
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2013,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2014,
+    "avg_price": 19108695.652173914
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2015,
+    "avg_price": 23311111.111111112
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2016,
+    "avg_price": 25143478.260869566
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2017,
+    "avg_price": 24590909.09090909
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2018,
+    "avg_price": 25625000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2019,
+    "avg_price": 29166666.666666668
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2020,
+    "avg_price": 29210526.315789472
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2021,
+    "avg_price": 27021311.475409836
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2022,
+    "avg_price": 29236619.71830986
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2023,
+    "avg_price": 33924242.42424242
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2024,
+    "avg_price": 33794520.54794521
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "南草津",
+    "year": 2025,
+    "avg_price": 34957142.85714286
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "和邇",
+    "year": 2008,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "和邇",
+    "year": 2009,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "和邇",
+    "year": 2010,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "和邇",
+    "year": 2012,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "和邇",
+    "year": 2013,
+    "avg_price": 5710000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "和邇",
+    "year": 2014,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "和邇",
+    "year": 2021,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "和邇",
+    "year": 2023,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "和邇",
+    "year": 2024,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "和邇",
+    "year": 2025,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2007,
+    "avg_price": 10033333.333333334
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2008,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2009,
+    "avg_price": 10200000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2010,
+    "avg_price": 6766666.666666667
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2011,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2012,
+    "avg_price": 10120000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2013,
+    "avg_price": 10550000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2014,
+    "avg_price": 8033333.333333333
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2015,
+    "avg_price": 10525000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2016,
+    "avg_price": 9080000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2017,
+    "avg_price": 8820000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2018,
+    "avg_price": 8433333.333333334
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2019,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2020,
+    "avg_price": 9133333.333333334
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2021,
+    "avg_price": 11575000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2022,
+    "avg_price": 13875000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2023,
+    "avg_price": 11787500.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2024,
+    "avg_price": 14555555.555555556
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐崎",
+    "year": 2025,
+    "avg_price": 11275000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐橋前",
+    "year": 2008,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐橋前",
+    "year": 2013,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐橋前",
+    "year": 2017,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐橋前",
+    "year": 2022,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐橋前",
+    "year": 2023,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐橋前",
+    "year": 2024,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "唐橋前",
+    "year": 2025,
+    "avg_price": 19357142.85714286
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "四宮",
+    "year": 2021,
+    "avg_price": 9475000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "四宮",
+    "year": 2022,
+    "avg_price": 12100000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2007,
+    "avg_price": 12090000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2008,
+    "avg_price": 10683333.333333334
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2009,
+    "avg_price": 10653333.333333334
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2010,
+    "avg_price": 17546153.846153848
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2011,
+    "avg_price": 13010526.315789474
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2012,
+    "avg_price": 12350000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2013,
+    "avg_price": 10658823.529411765
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2014,
+    "avg_price": 10281818.181818182
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2015,
+    "avg_price": 10508695.652173912
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2016,
+    "avg_price": 13706666.666666666
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2017,
+    "avg_price": 13138888.888888888
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2018,
+    "avg_price": 12883333.333333334
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2019,
+    "avg_price": 13212500.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2020,
+    "avg_price": 14690476.19047619
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2021,
+    "avg_price": 12317857.142857144
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2022,
+    "avg_price": 15006382.978723405
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2023,
+    "avg_price": 15220689.655172413
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2024,
+    "avg_price": 16135897.435897436
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "堅田",
+    "year": 2025,
+    "avg_price": 17783333.333333332
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2007,
+    "avg_price": 15420000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2008,
+    "avg_price": 18078333.333333332
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2009,
+    "avg_price": 21850000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2010,
+    "avg_price": 15254545.454545455
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2011,
+    "avg_price": 16161904.761904761
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2012,
+    "avg_price": 24776923.076923076
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2013,
+    "avg_price": 25972222.222222224
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2014,
+    "avg_price": 18191304.347826086
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2015,
+    "avg_price": 23870588.23529412
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2016,
+    "avg_price": 22047826.086956523
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2017,
+    "avg_price": 20808333.333333332
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2018,
+    "avg_price": 21139130.43478261
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2019,
+    "avg_price": 27190476.19047619
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2020,
+    "avg_price": 29342857.14285714
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2021,
+    "avg_price": 28800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2022,
+    "avg_price": 29666666.666666668
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2023,
+    "avg_price": 31044117.647058822
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2024,
+    "avg_price": 30552777.777777776
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津",
+    "year": 2025,
+    "avg_price": 31162820.512820512
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2007,
+    "avg_price": 20654545.454545453
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2008,
+    "avg_price": 23538888.888888888
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2009,
+    "avg_price": 19388571.42857143
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2010,
+    "avg_price": 18863157.89473684
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2011,
+    "avg_price": 19361111.111111112
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2012,
+    "avg_price": 20813793.103448275
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2013,
+    "avg_price": 21662790.69767442
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2014,
+    "avg_price": 19160606.060606062
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2015,
+    "avg_price": 21197959.18367347
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2016,
+    "avg_price": 22558974.35897436
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2017,
+    "avg_price": 24068571.42857143
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2018,
+    "avg_price": 21342857.14285714
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2019,
+    "avg_price": 21328125.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2020,
+    "avg_price": 22732142.85714286
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2021,
+    "avg_price": 27196428.57142857
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2022,
+    "avg_price": 28711881.18811881
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2023,
+    "avg_price": 30718072.289156627
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2024,
+    "avg_price": 32109756.097560976
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津京",
+    "year": 2025,
+    "avg_price": 31227419.35483871
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "大津市役所前",
+    "year": 2023,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "守山(滋賀)",
+    "year": 2021,
+    "avg_price": 18326086.95652174
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "守山(滋賀)",
+    "year": 2022,
+    "avg_price": 14209803.921568627
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "守山(滋賀)",
+    "year": 2023,
+    "avg_price": 21100000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "守山(滋賀)",
+    "year": 2024,
+    "avg_price": 18814634.14634146
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "守山(滋賀)",
+    "year": 2025,
+    "avg_price": 19028358.208955225
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "安曇川",
+    "year": 2022,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "安曇川",
+    "year": 2025,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "寺庄",
+    "year": 2010,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "小野(滋賀)",
+    "year": 2007,
+    "avg_price": 7450000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "小野(滋賀)",
+    "year": 2013,
+    "avg_price": 7750000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "小野(滋賀)",
+    "year": 2021,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "小野(滋賀)",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "小野(滋賀)",
+    "year": 2024,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "小野(滋賀)",
+    "year": 2025,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "山科",
+    "year": 2007,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "山科",
+    "year": 2009,
+    "avg_price": 6750000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "山科",
+    "year": 2012,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "山科",
+    "year": 2015,
+    "avg_price": 12800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "山科",
+    "year": 2016,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "山科",
+    "year": 2017,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "山科",
+    "year": 2018,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "山科",
+    "year": 2019,
+    "avg_price": 8300000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "山科",
+    "year": 2020,
+    "avg_price": 13900000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "山科",
+    "year": 2021,
+    "avg_price": 8850000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "山科",
+    "year": 2022,
+    "avg_price": 13066666.666666666
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "島ノ関",
+    "year": 2014,
+    "avg_price": 21666666.666666668
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "島ノ関",
+    "year": 2021,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "島ノ関",
+    "year": 2022,
+    "avg_price": 29500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "島ノ関",
+    "year": 2023,
+    "avg_price": 31500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "島ノ関",
+    "year": 2024,
+    "avg_price": 44250000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "島ノ関",
+    "year": 2025,
+    "avg_price": 33000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2007,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2008,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2009,
+    "avg_price": 11225000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2010,
+    "avg_price": 13225000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2011,
+    "avg_price": 13200000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2012,
+    "avg_price": 13225000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2013,
+    "avg_price": 8987500.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2014,
+    "avg_price": 11862500.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2015,
+    "avg_price": 14342857.142857144
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2016,
+    "avg_price": 15792857.142857144
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2017,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2018,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2019,
+    "avg_price": 12240000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2020,
+    "avg_price": 15750000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2021,
+    "avg_price": 18115000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2022,
+    "avg_price": 14743750.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2023,
+    "avg_price": 15933333.333333334
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2024,
+    "avg_price": 22827777.777777776
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根",
+    "year": 2025,
+    "avg_price": 15128571.42857143
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根口",
+    "year": 2007,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根口",
+    "year": 2008,
+    "avg_price": 7600000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根口",
+    "year": 2011,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根口",
+    "year": 2015,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根口",
+    "year": 2017,
+    "avg_price": 8600000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根口",
+    "year": 2018,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根口",
+    "year": 2019,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根口",
+    "year": 2021,
+    "avg_price": 10266666.666666666
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根口",
+    "year": 2022,
+    "avg_price": 10742857.142857144
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根口",
+    "year": 2023,
+    "avg_price": 11450000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根口",
+    "year": 2024,
+    "avg_price": 9514285.714285715
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "彦根口",
+    "year": 2025,
+    "avg_price": 9414285.714285715
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2007,
+    "avg_price": 6150000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2008,
+    "avg_price": 3083333.3333333335
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2009,
+    "avg_price": 5600000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2010,
+    "avg_price": 4244444.444444444
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2011,
+    "avg_price": 5528571.428571428
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2012,
+    "avg_price": 4854545.454545454
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2013,
+    "avg_price": 4633333.333333333
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2014,
+    "avg_price": 3786000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2015,
+    "avg_price": 4469230.769230769
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2016,
+    "avg_price": 4400000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2017,
+    "avg_price": 3037500.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2018,
+    "avg_price": 3860000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2019,
+    "avg_price": 3177777.777777778
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2020,
+    "avg_price": 4066666.6666666665
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2021,
+    "avg_price": 4050000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2022,
+    "avg_price": 3869230.769230769
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2023,
+    "avg_price": 4950000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2024,
+    "avg_price": 5172727.2727272725
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "志賀",
+    "year": 2025,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "手原",
+    "year": 2022,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "手原",
+    "year": 2023,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "手原",
+    "year": 2024,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "手原",
+    "year": 2025,
+    "avg_price": 17666666.666666668
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "栗東",
+    "year": 2021,
+    "avg_price": 25578947.36842105
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "栗東",
+    "year": 2022,
+    "avg_price": 24637037.037037037
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "栗東",
+    "year": 2023,
+    "avg_price": 25318181.818181816
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "栗東",
+    "year": 2024,
+    "avg_price": 25588235.29411765
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "栗東",
+    "year": 2025,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2008,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2009,
+    "avg_price": 9350000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2010,
+    "avg_price": 8700000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2011,
+    "avg_price": 7166666.666666667
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2012,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2013,
+    "avg_price": 10875000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2014,
+    "avg_price": 14616666.666666666
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2015,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2016,
+    "avg_price": 7033333.333333333
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2017,
+    "avg_price": 11666666.666666666
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2018,
+    "avg_price": 9250000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2019,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2021,
+    "avg_price": 13800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2022,
+    "avg_price": 13650000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2023,
+    "avg_price": 12800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2024,
+    "avg_price": 14620000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比叡山坂本",
+    "year": 2025,
+    "avg_price": 19433333.333333332
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "比良(滋賀)",
+    "year": 2010,
+    "avg_price": 1445000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "滋賀里",
+    "year": 2014,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "滋賀里",
+    "year": 2019,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "滋賀里",
+    "year": 2022,
+    "avg_price": 12933333.333333334
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "滋賀里",
+    "year": 2023,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "滋賀里",
+    "year": 2025,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2007,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2008,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2009,
+    "avg_price": 11907692.307692308
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2010,
+    "avg_price": 14123529.411764706
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2011,
+    "avg_price": 14764285.714285715
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2012,
+    "avg_price": 14354545.454545455
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2013,
+    "avg_price": 14030769.23076923
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2014,
+    "avg_price": 13406250.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2015,
+    "avg_price": 11352380.952380951
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2016,
+    "avg_price": 12650000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2017,
+    "avg_price": 14035000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2018,
+    "avg_price": 13278947.368421054
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2019,
+    "avg_price": 14931818.181818182
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2020,
+    "avg_price": 15950000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2021,
+    "avg_price": 16656521.739130436
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2022,
+    "avg_price": 15496491.228070175
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2023,
+    "avg_price": 17932500.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2024,
+    "avg_price": 19742307.692307692
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瀬田(滋賀)",
+    "year": 2025,
+    "avg_price": 17932653.06122449
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瓦ケ浜",
+    "year": 2014,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瓦ケ浜",
+    "year": 2016,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瓦ケ浜",
+    "year": 2019,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瓦ケ浜",
+    "year": 2021,
+    "avg_price": 25750000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瓦ケ浜",
+    "year": 2022,
+    "avg_price": 33000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瓦ケ浜",
+    "year": 2024,
+    "avg_price": 43000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "瓦ケ浜",
+    "year": 2025,
+    "avg_price": 29500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "甲西",
+    "year": 2021,
+    "avg_price": 9375000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "甲西",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "甲西",
+    "year": 2023,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "甲西",
+    "year": 2024,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石場",
+    "year": 2008,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石場",
+    "year": 2021,
+    "avg_price": 25250000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石場",
+    "year": 2023,
+    "avg_price": 36000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石場",
+    "year": 2024,
+    "avg_price": 35000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2007,
+    "avg_price": 10966666.666666666
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2008,
+    "avg_price": 11505882.352941176
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2009,
+    "avg_price": 14542857.142857144
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2010,
+    "avg_price": 21910000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2011,
+    "avg_price": 12744000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2012,
+    "avg_price": 10815000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2013,
+    "avg_price": 14220000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2014,
+    "avg_price": 16692307.692307692
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2015,
+    "avg_price": 16022222.222222222
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2016,
+    "avg_price": 18933333.333333332
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2017,
+    "avg_price": 15516400.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2018,
+    "avg_price": 16651724.137931034
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2019,
+    "avg_price": 16509090.909090908
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2020,
+    "avg_price": 18062068.96551724
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2021,
+    "avg_price": 20638571.42857143
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2022,
+    "avg_price": 20986585.36585366
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2023,
+    "avg_price": 19567073.17073171
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2024,
+    "avg_price": 20225000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山",
+    "year": 2025,
+    "avg_price": 25254666.666666668
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山寺",
+    "year": 2016,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山寺",
+    "year": 2020,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山寺",
+    "year": 2021,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山寺",
+    "year": 2022,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山寺",
+    "year": 2023,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "石山寺",
+    "year": 2025,
+    "avg_price": 12333333.333333334
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2008,
+    "avg_price": 9450000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2009,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2010,
+    "avg_price": 8075000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2011,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2012,
+    "avg_price": 6466666.666666667
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2013,
+    "avg_price": 7783333.333333333
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2014,
+    "avg_price": 8050000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2018,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2019,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2020,
+    "avg_price": 9866666.666666666
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2021,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2022,
+    "avg_price": 15933333.333333334
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2023,
+    "avg_price": 10666666.666666666
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2024,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "稲枝",
+    "year": 2025,
+    "avg_price": 11975000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "篠原(滋賀)",
+    "year": 2024,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "米原",
+    "year": 2022,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "米原",
+    "year": 2023,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "米原",
+    "year": 2024,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "米原",
+    "year": 2025,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "粟津(滋賀)",
+    "year": 2021,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "粟津(滋賀)",
+    "year": 2025,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2007,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2008,
+    "avg_price": 11625000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2010,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2012,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2013,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2014,
+    "avg_price": 7533333.333333333
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2015,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2018,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2019,
+    "avg_price": 17625000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2021,
+    "avg_price": 9971428.57142857
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2022,
+    "avg_price": 14800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2024,
+    "avg_price": 18860000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "能登川",
+    "year": 2025,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2007,
+    "avg_price": 16156250.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2008,
+    "avg_price": 16470588.235294119
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2009,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2010,
+    "avg_price": 12503703.703703703
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2011,
+    "avg_price": 19636956.52173913
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2012,
+    "avg_price": 16217647.05882353
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2013,
+    "avg_price": 19366666.666666668
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2014,
+    "avg_price": 17369565.217391305
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2015,
+    "avg_price": 21286111.111111112
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2016,
+    "avg_price": 21779310.344827585
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2017,
+    "avg_price": 19757894.736842107
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2018,
+    "avg_price": 17400000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2019,
+    "avg_price": 17784090.90909091
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2020,
+    "avg_price": 18490625.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2021,
+    "avg_price": 23969827.586206898
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2022,
+    "avg_price": 22638636.363636363
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2023,
+    "avg_price": 23478313.25301205
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2024,
+    "avg_price": 24289610.38961039
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所",
+    "year": 2025,
+    "avg_price": 24739534.88372093
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所本町",
+    "year": 2007,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所本町",
+    "year": 2011,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所本町",
+    "year": 2021,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所本町",
+    "year": 2022,
+    "avg_price": 29500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所本町",
+    "year": 2024,
+    "avg_price": 20285714.285714287
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "膳所本町",
+    "year": 2025,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2007,
+    "avg_price": 16816666.666666668
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2008,
+    "avg_price": 19463157.89473684
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2009,
+    "avg_price": 26826470.588235293
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2010,
+    "avg_price": 19058139.534883723
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2011,
+    "avg_price": 18788571.42857143
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2012,
+    "avg_price": 18785000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2013,
+    "avg_price": 23041935.48387097
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2014,
+    "avg_price": 22179545.454545453
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2015,
+    "avg_price": 22778431.37254902
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2016,
+    "avg_price": 22984090.90909091
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2017,
+    "avg_price": 25702702.7027027
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2018,
+    "avg_price": 29500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2019,
+    "avg_price": 27909090.90909091
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2020,
+    "avg_price": 36304347.82608695
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2021,
+    "avg_price": 29495098.039215688
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2022,
+    "avg_price": 30960000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2023,
+    "avg_price": 30188652.482269503
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2024,
+    "avg_price": 32133834.586466167
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "草津(滋賀)",
+    "year": 2025,
+    "avg_price": 33371962.61682243
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "蓬莱",
+    "year": 2021,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "蓬莱",
+    "year": 2023,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江八幡",
+    "year": 2021,
+    "avg_price": 14526666.666666666
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江八幡",
+    "year": 2022,
+    "avg_price": 19866666.666666668
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江八幡",
+    "year": 2023,
+    "avg_price": 20057894.736842107
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江八幡",
+    "year": 2024,
+    "avg_price": 22170000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江八幡",
+    "year": 2025,
+    "avg_price": 23671428.57142857
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江神宮前",
+    "year": 2020,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江神宮前",
+    "year": 2025,
+    "avg_price": 40000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2007,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2008,
+    "avg_price": 3700000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2010,
+    "avg_price": 3180000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2013,
+    "avg_price": 2966666.6666666665
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2015,
+    "avg_price": 2233333.3333333335
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2016,
+    "avg_price": 2600000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2017,
+    "avg_price": 2200000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2018,
+    "avg_price": 2900000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2019,
+    "avg_price": 2400000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2021,
+    "avg_price": 2720000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2022,
+    "avg_price": 2911111.111111111
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2023,
+    "avg_price": 4127272.727272727
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2024,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "近江舞子",
+    "year": 2025,
+    "avg_price": 5433333.333333333
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "追分(滋賀)",
+    "year": 2012,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "追分(滋賀)",
+    "year": 2017,
+    "avg_price": 8300000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "追分(滋賀)",
+    "year": 2021,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "追分(滋賀)",
+    "year": 2022,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "追分(滋賀)",
+    "year": 2023,
+    "avg_price": 11233333.333333334
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "追分(滋賀)",
+    "year": 2024,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "追分(滋賀)",
+    "year": 2025,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "野洲",
+    "year": 2021,
+    "avg_price": 15544000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "野洲",
+    "year": 2022,
+    "avg_price": 19421739.13043478
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "野洲",
+    "year": 2023,
+    "avg_price": 23357894.736842107
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "野洲",
+    "year": 2024,
+    "avg_price": 20088888.888888888
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "野洲",
+    "year": 2025,
+    "avg_price": 21476190.476190478
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "錦",
+    "year": 2021,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "錦",
+    "year": 2022,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "錦",
+    "year": 2023,
+    "avg_price": 34000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "錦",
+    "year": 2025,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2010,
+    "avg_price": 18560000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2011,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2012,
+    "avg_price": 12350000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2013,
+    "avg_price": 14214285.714285715
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2014,
+    "avg_price": 18866666.666666668
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2015,
+    "avg_price": 17566666.666666668
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2016,
+    "avg_price": 17166666.666666668
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2017,
+    "avg_price": 17150000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2018,
+    "avg_price": 27500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2019,
+    "avg_price": 20500000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2020,
+    "avg_price": 17090909.09090909
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2021,
+    "avg_price": 17861111.111111112
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2022,
+    "avg_price": 19300000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2023,
+    "avg_price": 19444444.444444444
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2024,
+    "avg_price": 22750000.0
+  },
+  {
+    "prefecture": "滋賀県",
+    "station": "長浜",
+    "year": 2025,
+    "avg_price": 21254545.454545453
+  }
+]

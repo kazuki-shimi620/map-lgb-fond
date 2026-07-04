@@ -1,0 +1,818 @@
+[
+  {
+    "station_id": "oita_0077",
+    "station_name": "三重町",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.983616,
+    "lon": 131.584389
+  },
+  {
+    "station_id": "oita_0065",
+    "station_name": "上岡",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 32.956302,
+    "lon": 131.8616
+  },
+  {
+    "station_id": "oita_0096",
+    "station_name": "上村",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.331825,
+    "lon": 130.872384
+  },
+  {
+    "station_id": "oita_0057",
+    "station_name": "上臼杵",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.112499,
+    "lon": 131.793015
+  },
+  {
+    "station_id": "oita_0055",
+    "station_name": "下ノ江",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.158653,
+    "lon": 131.811159
+  },
+  {
+    "station_id": "oita_0073",
+    "station_name": "中判田",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 33.164564,
+    "lon": 131.638735
+  },
+  {
+    "station_id": "oita_0037",
+    "station_name": "中山香",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.448636,
+    "lon": 131.505721
+  },
+  {
+    "station_id": "oita_0027",
+    "station_name": "中津(大分)",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.599202,
+    "lon": 131.190769
+  },
+  {
+    "station_id": "oita_0085",
+    "station_name": "乙原",
+    "prefecture": "大分県",
+    "line_name": "別府ラクテンチケーブル線",
+    "lat": 33.274681,
+    "lon": 131.483183
+  },
+  {
+    "station_id": "oita_0043",
+    "station_name": "亀川",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.330688,
+    "lon": 131.493019
+  },
+  {
+    "station_id": "oita_0093",
+    "station_name": "今山",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.345223,
+    "lon": 130.876977
+  },
+  {
+    "station_id": "oita_0029",
+    "station_name": "今津",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.571929,
+    "lon": 131.267462
+  },
+  {
+    "station_id": "oita_0092",
+    "station_name": "伏尾",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.35215,
+    "lon": 130.876872
+  },
+  {
+    "station_id": "oita_0064",
+    "station_name": "佐伯",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 32.972521,
+    "lon": 131.901857
+  },
+  {
+    "station_id": "oita_0054",
+    "station_name": "佐志生",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.174957,
+    "lon": 131.817688
+  },
+  {
+    "station_id": "oita_0002",
+    "station_name": "光岡",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.327668,
+    "lon": 130.919901
+  },
+  {
+    "station_id": "oita_0045",
+    "station_name": "別府(大分)",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.279665,
+    "lon": 131.500319
+  },
+  {
+    "station_id": "oita_0044",
+    "station_name": "別府大学",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.31327,
+    "lon": 131.499255
+  },
+  {
+    "station_id": "oita_0098",
+    "station_name": "北友田",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.325399,
+    "lon": 130.903829
+  },
+  {
+    "station_id": "oita_0008",
+    "station_name": "北山田",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.282004,
+    "lon": 131.100917
+  },
+  {
+    "station_id": "oita_0099",
+    "station_name": "南友田",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.324715,
+    "lon": 130.912872
+  },
+  {
+    "station_id": "oita_0024",
+    "station_name": "南大分",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.214276,
+    "lon": 131.585913
+  },
+  {
+    "station_id": "oita_0015",
+    "station_name": "南由布",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.242116,
+    "lon": 131.333544
+  },
+  {
+    "station_id": "oita_0025",
+    "station_name": "古国府",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.220707,
+    "lon": 131.608305
+  },
+  {
+    "station_id": "oita_0086",
+    "station_name": "吉竹",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.376482,
+    "lon": 130.881122
+  },
+  {
+    "station_id": "oita_0088",
+    "station_name": "名本",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.370463,
+    "lon": 130.887423
+  },
+  {
+    "station_id": "oita_0021",
+    "station_name": "向之原",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.196625,
+    "lon": 131.514075
+  },
+  {
+    "station_id": "oita_0052",
+    "station_name": "坂ノ市",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.236715,
+    "lon": 131.751593
+  },
+  {
+    "station_id": "oita_0001",
+    "station_name": "夜明",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.319541,
+    "lon": 130.866195
+  },
+  {
+    "station_id": "oita_0026",
+    "station_name": "大分",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.232794,
+    "lon": 131.606595
+  },
+  {
+    "station_id": "oita_0072",
+    "station_name": "大分大学前",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 33.177131,
+    "lon": 131.618742
+  },
+  {
+    "station_id": "oita_0051",
+    "station_name": "大在",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.243938,
+    "lon": 131.720487
+  },
+  {
+    "station_id": "oita_0090",
+    "station_name": "大明小中学校前",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.365229,
+    "lon": 130.881959
+  },
+  {
+    "station_id": "oita_0039",
+    "station_name": "大神",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.383576,
+    "lon": 131.57524
+  },
+  {
+    "station_id": "oita_0089",
+    "station_name": "大鶴",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.366868,
+    "lon": 130.885387
+  },
+  {
+    "station_id": "oita_0006",
+    "station_name": "天ヶ瀬",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.254747,
+    "lon": 131.023877
+  },
+  {
+    "station_id": "oita_0030",
+    "station_name": "天津",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.564678,
+    "lon": 131.292962
+  },
+  {
+    "station_id": "oita_0018",
+    "station_name": "天神山",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.187154,
+    "lon": 131.438821
+  },
+  {
+    "station_id": "oita_0034",
+    "station_name": "宇佐",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.531373,
+    "lon": 131.41231
+  },
+  {
+    "station_id": "oita_0069",
+    "station_name": "宗太郎",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 32.78628,
+    "lon": 131.706735
+  },
+  {
+    "station_id": "oita_0019",
+    "station_name": "小野屋",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.185258,
+    "lon": 131.452546
+  },
+  {
+    "station_id": "oita_0095",
+    "station_name": "小鶴",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.34015,
+    "lon": 130.874031
+  },
+  {
+    "station_id": "oita_0053",
+    "station_name": "幸崎",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.233844,
+    "lon": 131.795095
+  },
+  {
+    "station_id": "oita_0017",
+    "station_name": "庄内",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.185126,
+    "lon": 131.402063
+  },
+  {
+    "station_id": "oita_0011",
+    "station_name": "引治",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.229188,
+    "lon": 131.183589
+  },
+  {
+    "station_id": "oita_0010",
+    "station_name": "恵良",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.255224,
+    "lon": 131.174566
+  },
+  {
+    "station_id": "oita_0071",
+    "station_name": "敷戸",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 33.18811,
+    "lon": 131.615128
+  },
+  {
+    "station_id": "oita_0091",
+    "station_name": "方司口",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.359409,
+    "lon": 130.879185
+  },
+  {
+    "station_id": "oita_0060",
+    "station_name": "日代",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.066024,
+    "lon": 131.918735
+  },
+  {
+    "station_id": "oita_0040",
+    "station_name": "日出",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.368921,
+    "lon": 131.543036
+  },
+  {
+    "station_id": "oita_0003",
+    "station_name": "日田",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.317014,
+    "lon": 130.938786
+  },
+  {
+    "station_id": "oita_0102",
+    "station_name": "日田市役所前",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.321157,
+    "lon": 130.940506
+  },
+  {
+    "station_id": "oita_0101",
+    "station_name": "昭和学園前",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.332773,
+    "lon": 130.940686
+  },
+  {
+    "station_id": "oita_0041",
+    "station_name": "暘谷",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.370112,
+    "lon": 131.530581
+  },
+  {
+    "station_id": "oita_0080",
+    "station_name": "朝地",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 33.004356,
+    "lon": 131.432305
+  },
+  {
+    "station_id": "oita_0007",
+    "station_name": "杉河内",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.264391,
+    "lon": 131.065535
+  },
+  {
+    "station_id": "oita_0028",
+    "station_name": "東中津",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.58788,
+    "lon": 131.238664
+  },
+  {
+    "station_id": "oita_0046",
+    "station_name": "東別府",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.267752,
+    "lon": 131.510537
+  },
+  {
+    "station_id": "oita_0038",
+    "station_name": "杵築",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.411081,
+    "lon": 131.575295
+  },
+  {
+    "station_id": "oita_0100",
+    "station_name": "林工西口",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.332779,
+    "lon": 130.931068
+  },
+  {
+    "station_id": "oita_0032",
+    "station_name": "柳ヶ浦",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.564982,
+    "lon": 131.362665
+  },
+  {
+    "station_id": "oita_0059",
+    "station_name": "津久見",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.072853,
+    "lon": 131.863696
+  },
+  {
+    "station_id": "oita_0061",
+    "station_name": "浅海井",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.043539,
+    "lon": 131.919236
+  },
+  {
+    "station_id": "oita_0063",
+    "station_name": "海崎",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 32.996041,
+    "lon": 131.88796
+  },
+  {
+    "station_id": "oita_0016",
+    "station_name": "湯平",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.197339,
+    "lon": 131.354395
+  },
+  {
+    "station_id": "oita_0070",
+    "station_name": "滝尾",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 33.209495,
+    "lon": 131.62311
+  },
+  {
+    "station_id": "oita_0056",
+    "station_name": "熊崎",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.135768,
+    "lon": 131.787632
+  },
+  {
+    "station_id": "oita_0048",
+    "station_name": "牧(大分)",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.237006,
+    "lon": 131.637828
+  },
+  {
+    "station_id": "oita_0075",
+    "station_name": "犬飼",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 33.078158,
+    "lon": 131.63667
+  },
+  {
+    "station_id": "oita_0062",
+    "station_name": "狩生",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.015334,
+    "lon": 131.904908
+  },
+  {
+    "station_id": "oita_0082",
+    "station_name": "玉来",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.947847,
+    "lon": 131.376369
+  },
+  {
+    "station_id": "oita_0014",
+    "station_name": "由布院",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.262551,
+    "lon": 131.355024
+  },
+  {
+    "station_id": "oita_0067",
+    "station_name": "直川",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 32.898667,
+    "lon": 131.779529
+  },
+  {
+    "station_id": "oita_0066",
+    "station_name": "直見",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 32.928396,
+    "lon": 131.807899
+  },
+  {
+    "station_id": "oita_0097",
+    "station_name": "祝原",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.325229,
+    "lon": 130.868811
+  },
+  {
+    "station_id": "oita_0036",
+    "station_name": "立石",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.481829,
+    "lon": 131.476993
+  },
+  {
+    "station_id": "oita_0074",
+    "station_name": "竹中",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 33.121529,
+    "lon": 131.649557
+  },
+  {
+    "station_id": "oita_0087",
+    "station_name": "竹本",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.37341,
+    "lon": 130.885485
+  },
+  {
+    "station_id": "oita_0079",
+    "station_name": "緒方",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.971255,
+    "lon": 131.476678
+  },
+  {
+    "station_id": "oita_0058",
+    "station_name": "臼杵",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.118496,
+    "lon": 131.807574
+  },
+  {
+    "station_id": "oita_0076",
+    "station_name": "菅尾",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 33.014328,
+    "lon": 131.616716
+  },
+  {
+    "station_id": "oita_0047",
+    "station_name": "西大分",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.245184,
+    "lon": 131.582758
+  },
+  {
+    "station_id": "oita_0035",
+    "station_name": "西屋敷",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.504332,
+    "lon": 131.429433
+  },
+  {
+    "station_id": "oita_0031",
+    "station_name": "豊前善光寺",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.566479,
+    "lon": 131.322776
+  },
+  {
+    "station_id": "oita_0033",
+    "station_name": "豊前長洲",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.56465,
+    "lon": 131.383264
+  },
+  {
+    "station_id": "oita_0004",
+    "station_name": "豊後三芳",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.305796,
+    "lon": 130.951557
+  },
+  {
+    "station_id": "oita_0005",
+    "station_name": "豊後中川",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.284482,
+    "lon": 131.005834
+  },
+  {
+    "station_id": "oita_0012",
+    "station_name": "豊後中村",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.226016,
+    "lon": 131.207548
+  },
+  {
+    "station_id": "oita_0022",
+    "station_name": "豊後国分",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.195065,
+    "lon": 131.551219
+  },
+  {
+    "station_id": "oita_0009",
+    "station_name": "豊後森",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.282954,
+    "lon": 131.155202
+  },
+  {
+    "station_id": "oita_0078",
+    "station_name": "豊後清川",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.972974,
+    "lon": 131.523558
+  },
+  {
+    "station_id": "oita_0081",
+    "station_name": "豊後竹田",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.970906,
+    "lon": 131.389814
+  },
+  {
+    "station_id": "oita_0083",
+    "station_name": "豊後荻",
+    "prefecture": "大分県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.926889,
+    "lon": 131.297657
+  },
+  {
+    "station_id": "oita_0042",
+    "station_name": "豊後豊岡",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.361923,
+    "lon": 131.50137
+  },
+  {
+    "station_id": "oita_0023",
+    "station_name": "賀来",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.213091,
+    "lon": 131.562455
+  },
+  {
+    "station_id": "oita_0068",
+    "station_name": "重岡",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 32.840339,
+    "lon": 131.715499
+  },
+  {
+    "station_id": "oita_0013",
+    "station_name": "野矢",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.240391,
+    "lon": 131.25186
+  },
+  {
+    "station_id": "oita_0094",
+    "station_name": "釘原",
+    "prefecture": "大分県",
+    "line_name": "JR日田彦山線BRT",
+    "lat": 33.344328,
+    "lon": 130.874134
+  },
+  {
+    "station_id": "oita_0084",
+    "station_name": "雲泉寺",
+    "prefecture": "大分県",
+    "line_name": "別府ラクテンチケーブル線",
+    "lat": 33.274914,
+    "lon": 131.485558
+  },
+  {
+    "station_id": "oita_0049",
+    "station_name": "高城",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.242837,
+    "lon": 131.655746
+  },
+  {
+    "station_id": "oita_0020",
+    "station_name": "鬼瀬",
+    "prefecture": "大分県",
+    "line_name": "JR久大本線",
+    "lat": 33.195721,
+    "lon": 131.485586
+  },
+  {
+    "station_id": "oita_0050",
+    "station_name": "鶴崎",
+    "prefecture": "大分県",
+    "line_name": "JR日豊本線",
+    "lat": 33.242852,
+    "lon": 131.686899
+  }
+]

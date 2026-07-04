@@ -1,0 +1,1594 @@
+[
+  {
+    "station_id": "niigata_0177",
+    "station_name": "うらがわら",
+    "prefecture": "新潟県",
+    "line_name": "北越急行ほくほく線",
+    "lat": 37.159285,
+    "lon": 138.419047
+  },
+  {
+    "station_id": "niigata_0196",
+    "station_name": "えちご押上ひすい海岸",
+    "prefecture": "新潟県",
+    "line_name": "日本海ひすいライン",
+    "lat": 37.048209,
+    "lon": 137.878394
+  },
+  {
+    "station_id": "niigata_0179",
+    "station_name": "くびき",
+    "prefecture": "新潟県",
+    "line_name": "北越急行ほくほく線",
+    "lat": 37.198168,
+    "lon": 138.361689
+  },
+  {
+    "station_id": "niigata_0057",
+    "station_name": "さつき野",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.812731,
+    "lon": 139.117466
+  },
+  {
+    "station_id": "niigata_0173",
+    "station_name": "しんざ",
+    "prefecture": "新潟県",
+    "line_name": "北越急行ほくほく線",
+    "lat": 37.139675,
+    "lon": 138.768339
+  },
+  {
+    "station_id": "niigata_0175",
+    "station_name": "ほくほく大島",
+    "prefecture": "新潟県",
+    "line_name": "北越急行ほくほく線",
+    "lat": 37.146997,
+    "lon": 138.509551
+  },
+  {
+    "station_id": "niigata_0174",
+    "station_name": "まつだい",
+    "prefecture": "新潟県",
+    "line_name": "北越急行ほくほく線",
+    "lat": 37.132209,
+    "lon": 138.613884
+  },
+  {
+    "station_id": "niigata_0020",
+    "station_name": "ガーラ湯沢",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 36.950315,
+    "lon": 138.799573
+  },
+  {
+    "station_id": "niigata_0095",
+    "station_name": "三川",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.70835,
+    "lon": 139.381482
+  },
+  {
+    "station_id": "niigata_0048",
+    "station_name": "三条(新潟)",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.620962,
+    "lon": 138.960593
+  },
+  {
+    "station_id": "niigata_0026",
+    "station_name": "上下浜",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.252178,
+    "lon": 138.361569
+  },
+  {
+    "station_id": "niigata_0158",
+    "station_name": "上所",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.906961,
+    "lon": 139.04525
+  },
+  {
+    "station_id": "niigata_0064",
+    "station_name": "上条",
+    "prefecture": "新潟県",
+    "line_name": "JR只見線",
+    "lat": 37.346836,
+    "lon": 139.050698
+  },
+  {
+    "station_id": "niigata_0007",
+    "station_name": "上越国際スキー場前",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.028755,
+    "lon": 138.827973
+  },
+  {
+    "station_id": "niigata_0180",
+    "station_name": "上越妙高",
+    "prefecture": "新潟県",
+    "line_name": "北陸新幹線",
+    "lat": 37.081813,
+    "lon": 138.249476
+  },
+  {
+    "station_id": "niigata_0168",
+    "station_name": "下条",
+    "prefecture": "新潟県",
+    "line_name": "JR飯山線",
+    "lat": 37.198324,
+    "lon": 138.779989
+  },
+  {
+    "station_id": "niigata_0117",
+    "station_name": "中条",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 38.049342,
+    "lon": 139.397541
+  },
+  {
+    "station_id": "niigata_0114",
+    "station_name": "中浦",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 37.912202,
+    "lon": 139.302689
+  },
+  {
+    "station_id": "niigata_0059",
+    "station_name": "亀田",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.877154,
+    "lon": 139.108065
+  },
+  {
+    "station_id": "niigata_0183",
+    "station_name": "二本木",
+    "prefecture": "新潟県",
+    "line_name": "妙高はねうまライン",
+    "lat": 36.989608,
+    "lon": 138.232765
+  },
+  {
+    "station_id": "niigata_0096",
+    "station_name": "五十島",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.715974,
+    "lon": 139.353419
+  },
+  {
+    "station_id": "niigata_0010",
+    "station_name": "五日町",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.1199,
+    "lon": 138.908346
+  },
+  {
+    "station_id": "niigata_0101",
+    "station_name": "五泉",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.734373,
+    "lon": 139.179785
+  },
+  {
+    "station_id": "niigata_0110",
+    "station_name": "京ヶ瀬",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 37.817616,
+    "lon": 139.178322
+  },
+  {
+    "station_id": "niigata_0125",
+    "station_name": "今川",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 38.410081,
+    "lon": 139.468389
+  },
+  {
+    "station_id": "niigata_0088",
+    "station_name": "佐々木",
+    "prefecture": "新潟県",
+    "line_name": "JR白新線",
+    "lat": 37.949716,
+    "lon": 139.270099
+  },
+  {
+    "station_id": "niigata_0050",
+    "station_name": "保内",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.639322,
+    "lon": 139.014608
+  },
+  {
+    "station_id": "niigata_0063",
+    "station_name": "入広瀬",
+    "prefecture": "新潟県",
+    "line_name": "JR只見線",
+    "lat": 37.358818,
+    "lon": 139.06599
+  },
+  {
+    "station_id": "niigata_0012",
+    "station_name": "八色",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.191747,
+    "lon": 138.934854
+  },
+  {
+    "station_id": "niigata_0009",
+    "station_name": "六日町",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.067065,
+    "lon": 138.875872
+  },
+  {
+    "station_id": "niigata_0170",
+    "station_name": "内ヶ巻",
+    "prefecture": "新潟県",
+    "line_name": "JR飯山線",
+    "lat": 37.250008,
+    "lon": 138.851833
+  },
+  {
+    "station_id": "niigata_0151",
+    "station_name": "内野",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.85824,
+    "lon": 138.936615
+  },
+  {
+    "station_id": "niigata_0150",
+    "station_name": "内野西が丘",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.846355,
+    "lon": 138.926647
+  },
+  {
+    "station_id": "niigata_0137",
+    "station_name": "出雲崎",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.531857,
+    "lon": 138.716291
+  },
+  {
+    "station_id": "niigata_0142",
+    "station_name": "分水",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.629032,
+    "lon": 138.839038
+  },
+  {
+    "station_id": "niigata_0132",
+    "station_name": "刈羽",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.430047,
+    "lon": 138.61955
+  },
+  {
+    "station_id": "niigata_0041",
+    "station_name": "前川",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.401795,
+    "lon": 138.823865
+  },
+  {
+    "station_id": "niigata_0115",
+    "station_name": "加治",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 37.976411,
+    "lon": 139.358535
+  },
+  {
+    "station_id": "niigata_0051",
+    "station_name": "加茂",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.658806,
+    "lon": 139.048959
+  },
+  {
+    "station_id": "niigata_0127",
+    "station_name": "勝木",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 38.490315,
+    "lon": 139.517468
+  },
+  {
+    "station_id": "niigata_0081",
+    "station_name": "北三条",
+    "prefecture": "新潟県",
+    "line_name": "JR弥彦線",
+    "lat": 37.632702,
+    "lon": 138.956006
+  },
+  {
+    "station_id": "niigata_0102",
+    "station_name": "北五泉",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.746785,
+    "lon": 139.169758
+  },
+  {
+    "station_id": "niigata_0145",
+    "station_name": "北吉田",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.702037,
+    "lon": 138.882209
+  },
+  {
+    "station_id": "niigata_0015",
+    "station_name": "北堀之内",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.25588,
+    "lon": 138.896372
+  },
+  {
+    "station_id": "niigata_0185",
+    "station_name": "北新井",
+    "prefecture": "新潟県",
+    "line_name": "妙高はねうまライン",
+    "lat": 37.05296,
+    "lon": 138.257699
+  },
+  {
+    "station_id": "niigata_0035",
+    "station_name": "北条",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.338262,
+    "lon": 138.636954
+  },
+  {
+    "station_id": "niigata_0043",
+    "station_name": "北長岡",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.468768,
+    "lon": 138.86247
+  },
+  {
+    "station_id": "niigata_0166",
+    "station_name": "十日町",
+    "prefecture": "新潟県",
+    "line_name": "JR飯山線",
+    "lat": 37.134562,
+    "lon": 138.756188
+  },
+  {
+    "station_id": "niigata_0144",
+    "station_name": "南吉田",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.671999,
+    "lon": 138.870984
+  },
+  {
+    "station_id": "niigata_0186",
+    "station_name": "南高田",
+    "prefecture": "新潟県",
+    "line_name": "妙高はねうまライン",
+    "lat": 37.096766,
+    "lon": 138.242973
+  },
+  {
+    "station_id": "niigata_0055",
+    "station_name": "古津",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.7727,
+    "lon": 139.114252
+  },
+  {
+    "station_id": "niigata_0077",
+    "station_name": "吉田",
+    "prefecture": "新潟県",
+    "line_name": "JR弥彦線",
+    "lat": 37.687111,
+    "lon": 138.878377
+  },
+  {
+    "station_id": "niigata_0191",
+    "station_name": "名立",
+    "prefecture": "新潟県",
+    "line_name": "日本海ひすいライン",
+    "lat": 37.15584,
+    "lon": 138.092649
+  },
+  {
+    "station_id": "niigata_0098",
+    "station_name": "咲花",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.735003,
+    "lon": 139.29095
+  },
+  {
+    "station_id": "niigata_0165",
+    "station_name": "土市",
+    "prefecture": "新潟県",
+    "line_name": "JR飯山線",
+    "lat": 37.097457,
+    "lon": 138.72951
+  },
+  {
+    "station_id": "niigata_0024",
+    "station_name": "土底浜",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.222719,
+    "lon": 138.324779
+  },
+  {
+    "station_id": "niigata_0001",
+    "station_name": "土樽",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 36.875277,
+    "lon": 138.861446
+  },
+  {
+    "station_id": "niigata_0109",
+    "station_name": "坂町",
+    "prefecture": "新潟県",
+    "line_name": "JR米坂線",
+    "lat": 38.119277,
+    "lon": 139.445838
+  },
+  {
+    "station_id": "niigata_0038",
+    "station_name": "塚山",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.355114,
+    "lon": 138.729829
+  },
+  {
+    "station_id": "niigata_0008",
+    "station_name": "塩沢",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.041463,
+    "lon": 138.848399
+  },
+  {
+    "station_id": "niigata_0083",
+    "station_name": "大形",
+    "prefecture": "新潟県",
+    "line_name": "JR白新線",
+    "lat": 37.915518,
+    "lon": 139.129272
+  },
+  {
+    "station_id": "niigata_0178",
+    "station_name": "大池いこいの森",
+    "prefecture": "新潟県",
+    "line_name": "北越急行ほくほく線",
+    "lat": 37.18442,
+    "lon": 138.373406
+  },
+  {
+    "station_id": "niigata_0006",
+    "station_name": "大沢",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.02117,
+    "lon": 138.82131
+  },
+  {
+    "station_id": "niigata_0062",
+    "station_name": "大白川",
+    "prefecture": "新潟県",
+    "line_name": "JR只見線",
+    "lat": 37.341687,
+    "lon": 139.121373
+  },
+  {
+    "station_id": "niigata_0138",
+    "station_name": "妙法寺",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.566405,
+    "lon": 138.742037
+  },
+  {
+    "station_id": "niigata_0181",
+    "station_name": "妙高高原",
+    "prefecture": "新潟県",
+    "line_name": "北しなの線",
+    "lat": 36.872175,
+    "lon": 138.211953
+  },
+  {
+    "station_id": "niigata_0073",
+    "station_name": "姫川",
+    "prefecture": "新潟県",
+    "line_name": "JR大糸線",
+    "lat": 37.020339,
+    "lon": 137.860914
+  },
+  {
+    "station_id": "niigata_0034",
+    "station_name": "安田",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.341155,
+    "lon": 138.612057
+  },
+  {
+    "station_id": "niigata_0019",
+    "station_name": "宮内(新潟)",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.422223,
+    "lon": 138.840204
+  },
+  {
+    "station_id": "niigata_0153",
+    "station_name": "寺尾",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.879106,
+    "lon": 138.973742
+  },
+  {
+    "station_id": "niigata_0141",
+    "station_name": "寺泊",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.620349,
+    "lon": 138.814519
+  },
+  {
+    "station_id": "niigata_0013",
+    "station_name": "小出",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.233581,
+    "lon": 138.953526
+  },
+  {
+    "station_id": "niigata_0017",
+    "station_name": "小千谷",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.309822,
+    "lon": 138.813233
+  },
+  {
+    "station_id": "niigata_0139",
+    "station_name": "小島谷",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.57455,
+    "lon": 138.771225
+  },
+  {
+    "station_id": "niigata_0136",
+    "station_name": "小木ノ城",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.515431,
+    "lon": 138.70402
+  },
+  {
+    "station_id": "niigata_0070",
+    "station_name": "小滝",
+    "prefecture": "新潟県",
+    "line_name": "JR大糸線",
+    "lat": 36.938155,
+    "lon": 137.85945
+  },
+  {
+    "station_id": "niigata_0154",
+    "station_name": "小針",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.889591,
+    "lon": 138.991359
+  },
+  {
+    "station_id": "niigata_0003",
+    "station_name": "岩原スキー場前",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 36.924146,
+    "lon": 138.839438
+  },
+  {
+    "station_id": "niigata_0146",
+    "station_name": "岩室",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.721382,
+    "lon": 138.879881
+  },
+  {
+    "station_id": "niigata_0120",
+    "station_name": "岩船町",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 38.183564,
+    "lon": 139.459643
+  },
+  {
+    "station_id": "niigata_0147",
+    "station_name": "巻",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.756753,
+    "lon": 138.889506
+  },
+  {
+    "station_id": "niigata_0199",
+    "station_name": "市振",
+    "prefecture": "新潟県",
+    "line_name": "日本海ひすいライン",
+    "lat": 36.980448,
+    "lon": 137.650373
+  },
+  {
+    "station_id": "niigata_0046",
+    "station_name": "帯織",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.572975,
+    "lon": 138.92848
+  },
+  {
+    "station_id": "niigata_0069",
+    "station_name": "平岩",
+    "prefecture": "新潟県",
+    "line_name": "JR大糸線",
+    "lat": 36.88688,
+    "lon": 137.86561
+  },
+  {
+    "station_id": "niigata_0118",
+    "station_name": "平木田",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 38.094338,
+    "lon": 139.427835
+  },
+  {
+    "station_id": "niigata_0119",
+    "station_name": "平林",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 38.150027,
+    "lon": 139.459045
+  },
+  {
+    "station_id": "niigata_0128",
+    "station_name": "府屋",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 38.513324,
+    "lon": 139.530452
+  },
+  {
+    "station_id": "niigata_0075",
+    "station_name": "弥彦",
+    "prefecture": "新潟県",
+    "line_name": "JR弥彦線",
+    "lat": 37.699161,
+    "lon": 138.831761
+  },
+  {
+    "station_id": "niigata_0044",
+    "station_name": "押切",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.50467,
+    "lon": 138.880988
+  },
+  {
+    "station_id": "niigata_0184",
+    "station_name": "新井",
+    "prefecture": "新潟県",
+    "line_name": "妙高はねうまライン",
+    "lat": 37.026738,
+    "lon": 138.255614
+  },
+  {
+    "station_id": "niigata_0084",
+    "station_name": "新崎",
+    "prefecture": "新潟県",
+    "line_name": "JR白新線",
+    "lat": 37.922478,
+    "lon": 139.158558
+  },
+  {
+    "station_id": "niigata_0056",
+    "station_name": "新津",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.800383,
+    "lon": 139.121445
+  },
+  {
+    "station_id": "niigata_0061",
+    "station_name": "新潟",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.912299,
+    "lon": 139.060869
+  },
+  {
+    "station_id": "niigata_0152",
+    "station_name": "新潟大学前",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.869178,
+    "lon": 138.95442
+  },
+  {
+    "station_id": "niigata_0090",
+    "station_name": "新発田",
+    "prefecture": "新潟県",
+    "line_name": "JR白新線",
+    "lat": 37.94412,
+    "lon": 139.335189
+  },
+  {
+    "station_id": "niigata_0103",
+    "station_name": "新関",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.768096,
+    "lon": 139.162508
+  },
+  {
+    "station_id": "niigata_0092",
+    "station_name": "日出谷",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.705699,
+    "lon": 139.533985
+  },
+  {
+    "station_id": "niigata_0085",
+    "station_name": "早通",
+    "prefecture": "新潟県",
+    "line_name": "JR白新線",
+    "lat": 37.92109,
+    "lon": 139.178172
+  },
+  {
+    "station_id": "niigata_0188",
+    "station_name": "春日山",
+    "prefecture": "新潟県",
+    "line_name": "妙高はねうまライン",
+    "lat": 37.148042,
+    "lon": 138.234922
+  },
+  {
+    "station_id": "niigata_0113",
+    "station_name": "月岡(新潟)",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 37.889334,
+    "lon": 139.272488
+  },
+  {
+    "station_id": "niigata_0190",
+    "station_name": "有間川",
+    "prefecture": "新潟県",
+    "line_name": "日本海ひすいライン",
+    "lat": 37.163323,
+    "lon": 138.136553
+  },
+  {
+    "station_id": "niigata_0121",
+    "station_name": "村上",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 38.219851,
+    "lon": 139.463306
+  },
+  {
+    "station_id": "niigata_0040",
+    "station_name": "来迎寺",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.397136,
+    "lon": 138.783523
+  },
+  {
+    "station_id": "niigata_0049",
+    "station_name": "東三条",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.628491,
+    "lon": 138.973703
+  },
+  {
+    "station_id": "niigata_0097",
+    "station_name": "東下条",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.736876,
+    "lon": 139.321815
+  },
+  {
+    "station_id": "niigata_0047",
+    "station_name": "東光寺",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.593098,
+    "lon": 138.942956
+  },
+  {
+    "station_id": "niigata_0104",
+    "station_name": "東新津",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.787638,
+    "lon": 139.143768
+  },
+  {
+    "station_id": "niigata_0082",
+    "station_name": "東新潟",
+    "prefecture": "新潟県",
+    "line_name": "JR白新線",
+    "lat": 37.908773,
+    "lon": 139.108685
+  },
+  {
+    "station_id": "niigata_0129",
+    "station_name": "東柏崎",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.373867,
+    "lon": 138.565802
+  },
+  {
+    "station_id": "niigata_0032",
+    "station_name": "柏崎",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.363495,
+    "lon": 138.556303
+  },
+  {
+    "station_id": "niigata_0027",
+    "station_name": "柿崎",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.277732,
+    "lon": 138.385933
+  },
+  {
+    "station_id": "niigata_0071",
+    "station_name": "根知",
+    "prefecture": "新潟県",
+    "line_name": "JR大糸線",
+    "lat": 36.966683,
+    "lon": 137.86711
+  },
+  {
+    "station_id": "niigata_0140",
+    "station_name": "桐原(新潟)",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.601553,
+    "lon": 138.792279
+  },
+  {
+    "station_id": "niigata_0124",
+    "station_name": "桑川",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 38.375162,
+    "lon": 139.458838
+  },
+  {
+    "station_id": "niigata_0195",
+    "station_name": "梶屋敷",
+    "prefecture": "新潟県",
+    "line_name": "日本海ひすいライン",
+    "lat": 37.056577,
+    "lon": 137.905738
+  },
+  {
+    "station_id": "niigata_0111",
+    "station_name": "水原",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 37.836712,
+    "lon": 139.217237
+  },
+  {
+    "station_id": "niigata_0161",
+    "station_name": "津南",
+    "prefecture": "新潟県",
+    "line_name": "JR飯山線",
+    "lat": 37.023503,
+    "lon": 138.639326
+  },
+  {
+    "station_id": "niigata_0094",
+    "station_name": "津川",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.68817,
+    "lon": 139.447136
+  },
+  {
+    "station_id": "niigata_0011",
+    "station_name": "浦佐",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.167488,
+    "lon": 138.922798
+  },
+  {
+    "station_id": "niigata_0194",
+    "station_name": "浦本",
+    "prefecture": "新潟県",
+    "line_name": "日本海ひすいライン",
+    "lat": 37.073935,
+    "lon": 137.939659
+  },
+  {
+    "station_id": "niigata_0025",
+    "station_name": "潟町",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.234135,
+    "lon": 138.339902
+  },
+  {
+    "station_id": "niigata_0079",
+    "station_name": "燕",
+    "prefecture": "新潟県",
+    "line_name": "JR弥彦線",
+    "lat": 37.667613,
+    "lon": 138.928419
+  },
+  {
+    "station_id": "niigata_0080",
+    "station_name": "燕三条",
+    "prefecture": "新潟県",
+    "line_name": "JR弥彦線",
+    "lat": 37.648824,
+    "lon": 138.939274
+  },
+  {
+    "station_id": "niigata_0023",
+    "station_name": "犀潟",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.210345,
+    "lon": 138.305154
+  },
+  {
+    "station_id": "niigata_0100",
+    "station_name": "猿和田",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.729594,
+    "lon": 139.222481
+  },
+  {
+    "station_id": "niigata_0053",
+    "station_name": "田上",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.719035,
+    "lon": 139.074599
+  },
+  {
+    "station_id": "niigata_0157",
+    "station_name": "白山(新潟)",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.911829,
+    "lon": 139.029955
+  },
+  {
+    "station_id": "niigata_0021",
+    "station_name": "直江津",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.170251,
+    "lon": 138.242265
+  },
+  {
+    "station_id": "niigata_0054",
+    "station_name": "矢代田",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.748863,
+    "lon": 139.095654
+  },
+  {
+    "station_id": "niigata_0076",
+    "station_name": "矢作",
+    "prefecture": "新潟県",
+    "line_name": "JR弥彦線",
+    "lat": 37.69065,
+    "lon": 138.851669
+  },
+  {
+    "station_id": "niigata_0135",
+    "station_name": "石地",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.484132,
+    "lon": 138.688101
+  },
+  {
+    "station_id": "niigata_0005",
+    "station_name": "石打",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 36.988663,
+    "lon": 138.804221
+  },
+  {
+    "station_id": "niigata_0134",
+    "station_name": "礼拝",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.459221,
+    "lon": 138.66392
+  },
+  {
+    "station_id": "niigata_0112",
+    "station_name": "神山",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 37.862586,
+    "lon": 139.244691
+  },
+  {
+    "station_id": "niigata_0029",
+    "station_name": "笠島",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.335794,
+    "lon": 138.467221
+  },
+  {
+    "station_id": "niigata_0192",
+    "station_name": "筒石",
+    "prefecture": "新潟県",
+    "line_name": "日本海ひすいライン",
+    "lat": 37.127473,
+    "lon": 138.060768
+  },
+  {
+    "station_id": "niigata_0028",
+    "station_name": "米山",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.316804,
+    "lon": 138.431266
+  },
+  {
+    "station_id": "niigata_0143",
+    "station_name": "粟生津",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.653988,
+    "lon": 138.873484
+  },
+  {
+    "station_id": "niigata_0074",
+    "station_name": "糸魚川",
+    "prefecture": "新潟県",
+    "line_name": "JR大糸線",
+    "lat": 37.043631,
+    "lon": 137.861311
+  },
+  {
+    "station_id": "niigata_0172",
+    "station_name": "美佐島",
+    "prefecture": "新潟県",
+    "line_name": "北越急行ほくほく線",
+    "lat": 37.130996,
+    "lon": 138.789774
+  },
+  {
+    "station_id": "niigata_0052",
+    "station_name": "羽生田",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.693613,
+    "lon": 139.060715
+  },
+  {
+    "station_id": "niigata_0193",
+    "station_name": "能生",
+    "prefecture": "新潟県",
+    "line_name": "日本海ひすいライン",
+    "lat": 37.096049,
+    "lon": 137.988405
+  },
+  {
+    "station_id": "niigata_0033",
+    "station_name": "茨目",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.356986,
+    "lon": 138.586714
+  },
+  {
+    "station_id": "niigata_0131",
+    "station_name": "荒浜",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.404699,
+    "lon": 138.601752
+  },
+  {
+    "station_id": "niigata_0058",
+    "station_name": "荻川",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.833307,
+    "lon": 139.111477
+  },
+  {
+    "station_id": "niigata_0068",
+    "station_name": "藪神",
+    "prefecture": "新潟県",
+    "line_name": "JR只見線",
+    "lat": 37.256737,
+    "lon": 138.975698
+  },
+  {
+    "station_id": "niigata_0176",
+    "station_name": "虫川大杉",
+    "prefecture": "新潟県",
+    "line_name": "北越急行ほくほく線",
+    "lat": 37.154897,
+    "lon": 138.441409
+  },
+  {
+    "station_id": "niigata_0130",
+    "station_name": "西中通",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.392456,
+    "lon": 138.592651
+  },
+  {
+    "station_id": "niigata_0133",
+    "station_name": "西山",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.448375,
+    "lon": 138.64177
+  },
+  {
+    "station_id": "niigata_0089",
+    "station_name": "西新発田",
+    "prefecture": "新潟県",
+    "line_name": "JR白新線",
+    "lat": 37.942097,
+    "lon": 139.303474
+  },
+  {
+    "station_id": "niigata_0078",
+    "station_name": "西燕",
+    "prefecture": "新潟県",
+    "line_name": "JR弥彦線",
+    "lat": 37.679819,
+    "lon": 138.909232
+  },
+  {
+    "station_id": "niigata_0045",
+    "station_name": "見附",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.540094,
+    "lon": 138.904792
+  },
+  {
+    "station_id": "niigata_0198",
+    "station_name": "親不知",
+    "prefecture": "新潟県",
+    "line_name": "日本海ひすいライン",
+    "lat": 37.006818,
+    "lon": 137.738104
+  },
+  {
+    "station_id": "niigata_0189",
+    "station_name": "谷浜",
+    "prefecture": "新潟県",
+    "line_name": "日本海ひすいライン",
+    "lat": 37.162399,
+    "lon": 138.173867
+  },
+  {
+    "station_id": "niigata_0091",
+    "station_name": "豊実",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.680541,
+    "lon": 139.576348
+  },
+  {
+    "station_id": "niigata_0086",
+    "station_name": "豊栄",
+    "prefecture": "新潟県",
+    "line_name": "JR白新線",
+    "lat": 37.919351,
+    "lon": 139.215347
+  },
+  {
+    "station_id": "niigata_0107",
+    "station_name": "越後下関",
+    "prefecture": "新潟県",
+    "line_name": "JR米坂線",
+    "lat": 38.090037,
+    "lon": 139.560024
+  },
+  {
+    "station_id": "niigata_0002",
+    "station_name": "越後中里",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 36.910398,
+    "lon": 138.84846
+  },
+  {
+    "station_id": "niigata_0014",
+    "station_name": "越後堀之内",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.23913,
+    "lon": 138.928003
+  },
+  {
+    "station_id": "niigata_0108",
+    "station_name": "越後大島",
+    "prefecture": "新潟県",
+    "line_name": "JR米坂線",
+    "lat": 38.099721,
+    "lon": 139.518209
+  },
+  {
+    "station_id": "niigata_0126",
+    "station_name": "越後寒川",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 38.448689,
+    "lon": 139.489948
+  },
+  {
+    "station_id": "niigata_0039",
+    "station_name": "越後岩塚",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.38629,
+    "lon": 138.756372
+  },
+  {
+    "station_id": "niigata_0169",
+    "station_name": "越後岩沢",
+    "prefecture": "新潟県",
+    "line_name": "JR飯山線",
+    "lat": 37.240753,
+    "lon": 138.797097
+  },
+  {
+    "station_id": "niigata_0016",
+    "station_name": "越後川口",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.272983,
+    "lon": 138.861514
+  },
+  {
+    "station_id": "niigata_0067",
+    "station_name": "越後広瀬",
+    "prefecture": "新潟県",
+    "line_name": "JR只見線",
+    "lat": 37.274363,
+    "lon": 138.981141
+  },
+  {
+    "station_id": "niigata_0036",
+    "station_name": "越後広田",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.357354,
+    "lon": 138.661243
+  },
+  {
+    "station_id": "niigata_0123",
+    "station_name": "越後早川",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 38.316185,
+    "lon": 139.449887
+  },
+  {
+    "station_id": "niigata_0148",
+    "station_name": "越後曽根",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.793544,
+    "lon": 138.911094
+  },
+  {
+    "station_id": "niigata_0164",
+    "station_name": "越後水沢",
+    "prefecture": "新潟県",
+    "line_name": "JR飯山線",
+    "lat": 37.074324,
+    "lon": 138.718056
+  },
+  {
+    "station_id": "niigata_0004",
+    "station_name": "越後湯沢",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 36.935799,
+    "lon": 138.809227
+  },
+  {
+    "station_id": "niigata_0018",
+    "station_name": "越後滝谷",
+    "prefecture": "新潟県",
+    "line_name": "JR上越線",
+    "lat": 37.368723,
+    "lon": 138.834932
+  },
+  {
+    "station_id": "niigata_0106",
+    "station_name": "越後片貝",
+    "prefecture": "新潟県",
+    "line_name": "JR米坂線",
+    "lat": 38.070712,
+    "lon": 139.62239
+  },
+  {
+    "station_id": "niigata_0160",
+    "station_name": "越後田中",
+    "prefecture": "新潟県",
+    "line_name": "JR飯山線",
+    "lat": 37.005316,
+    "lon": 138.627058
+  },
+  {
+    "station_id": "niigata_0163",
+    "station_name": "越後田沢",
+    "prefecture": "新潟県",
+    "line_name": "JR飯山線",
+    "lat": 37.055387,
+    "lon": 138.694731
+  },
+  {
+    "station_id": "niigata_0060",
+    "station_name": "越後石山",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.896407,
+    "lon": 139.095429
+  },
+  {
+    "station_id": "niigata_0149",
+    "station_name": "越後赤塚",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.816008,
+    "lon": 138.908201
+  },
+  {
+    "station_id": "niigata_0105",
+    "station_name": "越後金丸",
+    "prefecture": "新潟県",
+    "line_name": "JR米坂線",
+    "lat": 38.066474,
+    "lon": 139.663522
+  },
+  {
+    "station_id": "niigata_0065",
+    "station_name": "越後須原",
+    "prefecture": "新潟県",
+    "line_name": "JR只見線",
+    "lat": 37.320591,
+    "lon": 139.017463
+  },
+  {
+    "station_id": "niigata_0162",
+    "station_name": "越後鹿渡",
+    "prefecture": "新潟県",
+    "line_name": "JR飯山線",
+    "lat": 37.048054,
+    "lon": 138.671592
+  },
+  {
+    "station_id": "niigata_0159",
+    "station_name": "足滝",
+    "prefecture": "新潟県",
+    "line_name": "JR飯山線",
+    "lat": 36.998958,
+    "lon": 138.603625
+  },
+  {
+    "station_id": "niigata_0116",
+    "station_name": "金塚",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 38.020178,
+    "lon": 139.37949
+  },
+  {
+    "station_id": "niigata_0042",
+    "station_name": "長岡",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.447787,
+    "lon": 138.853927
+  },
+  {
+    "station_id": "niigata_0037",
+    "station_name": "長鳥",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.366405,
+    "lon": 138.684063
+  },
+  {
+    "station_id": "niigata_0122",
+    "station_name": "間島",
+    "prefecture": "新潟県",
+    "line_name": "JR羽越本線",
+    "lat": 38.273078,
+    "lon": 139.450229
+  },
+  {
+    "station_id": "niigata_0156",
+    "station_name": "関屋(新潟)",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.906015,
+    "lon": 139.015087
+  },
+  {
+    "station_id": "niigata_0182",
+    "station_name": "関山",
+    "prefecture": "新潟県",
+    "line_name": "妙高はねうまライン",
+    "lat": 36.933048,
+    "lon": 138.226415
+  },
+  {
+    "station_id": "niigata_0155",
+    "station_name": "青山(愛知)",
+    "prefecture": "新潟県",
+    "line_name": "JR越後線",
+    "lat": 37.898546,
+    "lon": 139.000813
+  },
+  {
+    "station_id": "niigata_0197",
+    "station_name": "青海",
+    "prefecture": "新潟県",
+    "line_name": "日本海ひすいライン",
+    "lat": 37.022469,
+    "lon": 137.795622
+  },
+  {
+    "station_id": "niigata_0030",
+    "station_name": "青海川",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.346143,
+    "lon": 138.486169
+  },
+  {
+    "station_id": "niigata_0072",
+    "station_name": "頸城大野",
+    "prefecture": "新潟県",
+    "line_name": "JR大糸線",
+    "lat": 37.006124,
+    "lon": 137.872447
+  },
+  {
+    "station_id": "niigata_0099",
+    "station_name": "馬下",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.737569,
+    "lon": 139.260466
+  },
+  {
+    "station_id": "niigata_0187",
+    "station_name": "高田(新潟)",
+    "prefecture": "新潟県",
+    "line_name": "妙高はねうまライン",
+    "lat": 37.115226,
+    "lon": 138.242018
+  },
+  {
+    "station_id": "niigata_0171",
+    "station_name": "魚沼丘陵",
+    "prefecture": "新潟県",
+    "line_name": "北越急行ほくほく線",
+    "lat": 37.09614,
+    "lon": 138.877619
+  },
+  {
+    "station_id": "niigata_0167",
+    "station_name": "魚沼中条",
+    "prefecture": "新潟県",
+    "line_name": "JR飯山線",
+    "lat": 37.159467,
+    "lon": 138.772491
+  },
+  {
+    "station_id": "niigata_0066",
+    "station_name": "魚沼田中",
+    "prefecture": "新潟県",
+    "line_name": "JR只見線",
+    "lat": 37.294413,
+    "lon": 138.992578
+  },
+  {
+    "station_id": "niigata_0031",
+    "station_name": "鯨波",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.355828,
+    "lon": 138.517263
+  },
+  {
+    "station_id": "niigata_0093",
+    "station_name": "鹿瀬",
+    "prefecture": "新潟県",
+    "line_name": "JR磐越西線",
+    "lat": 37.695656,
+    "lon": 139.479663
+  },
+  {
+    "station_id": "niigata_0022",
+    "station_name": "黒井",
+    "prefecture": "新潟県",
+    "line_name": "JR信越本線",
+    "lat": 37.1837,
+    "lon": 138.267518
+  },
+  {
+    "station_id": "niigata_0087",
+    "station_name": "黒山",
+    "prefecture": "新潟県",
+    "line_name": "JR白新線",
+    "lat": 37.937128,
+    "lon": 139.241177
+  }
+]

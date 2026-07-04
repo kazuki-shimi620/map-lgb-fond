@@ -1,0 +1,548 @@
+[
+  {
+    "prefecture": "山形県",
+    "station": "かみのやま温泉",
+    "year": 2021,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "かみのやま温泉",
+    "year": 2023,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "かみのやま温泉",
+    "year": 2025,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2007,
+    "avg_price": 16725000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2008,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2009,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2010,
+    "avg_price": 10440000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2011,
+    "avg_price": 9833333.333333334
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2012,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2013,
+    "avg_price": 6350000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2014,
+    "avg_price": 14175000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2015,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2016,
+    "avg_price": 19333333.333333332
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2018,
+    "avg_price": 12666666.666666666
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2019,
+    "avg_price": 15560000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2021,
+    "avg_price": 14600000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2022,
+    "avg_price": 16950000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2023,
+    "avg_price": 15666666.666666666
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2024,
+    "avg_price": 12300000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "北山形",
+    "year": 2025,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "天童",
+    "year": 2025,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2007,
+    "avg_price": 15926086.956521738
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2008,
+    "avg_price": 10710000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2009,
+    "avg_price": 15600000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2010,
+    "avg_price": 13977500.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2011,
+    "avg_price": 13715384.615384616
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2012,
+    "avg_price": 12443750.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2013,
+    "avg_price": 14340540.54054054
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2014,
+    "avg_price": 13927586.206896551
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2015,
+    "avg_price": 15703571.42857143
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2016,
+    "avg_price": 14194736.842105264
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2017,
+    "avg_price": 16156756.756756756
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2018,
+    "avg_price": 16529545.454545455
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2019,
+    "avg_price": 15797368.421052631
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2020,
+    "avg_price": 18665217.391304348
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2021,
+    "avg_price": 18409677.419354837
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2022,
+    "avg_price": 16692307.692307692
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2023,
+    "avg_price": 16985245.901639346
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2024,
+    "avg_price": 17067391.304347824
+  },
+  {
+    "prefecture": "山形県",
+    "station": "山形",
+    "year": 2025,
+    "avg_price": 17672727.272727273
+  },
+  {
+    "prefecture": "山形県",
+    "station": "米沢",
+    "year": 2021,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "米沢",
+    "year": 2022,
+    "avg_price": 16750000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "米沢",
+    "year": 2023,
+    "avg_price": 17857142.85714286
+  },
+  {
+    "prefecture": "山形県",
+    "station": "米沢",
+    "year": 2024,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "米沢",
+    "year": 2025,
+    "avg_price": 5600000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "羽前千歳",
+    "year": 2012,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "羽前千歳",
+    "year": 2013,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "羽前千歳",
+    "year": 2017,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "羽前千歳",
+    "year": 2018,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "羽前千歳",
+    "year": 2025,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "羽前大山",
+    "year": 2023,
+    "avg_price": 2100000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "蔵王",
+    "year": 2009,
+    "avg_price": 18857142.85714286
+  },
+  {
+    "prefecture": "山形県",
+    "station": "蔵王",
+    "year": 2012,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "蔵王",
+    "year": 2013,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "蔵王",
+    "year": 2017,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "蔵王",
+    "year": 2018,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "蔵王",
+    "year": 2019,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "蔵王",
+    "year": 2024,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2009,
+    "avg_price": 11383333.333333334
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2010,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2011,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2012,
+    "avg_price": 10133333.333333334
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2013,
+    "avg_price": 12250000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2015,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2016,
+    "avg_price": 15250000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2017,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2018,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2020,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2021,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2022,
+    "avg_price": 22828571.42857143
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2023,
+    "avg_price": 32250000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2024,
+    "avg_price": 13450000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "酒田",
+    "year": 2025,
+    "avg_price": 13666666.666666666
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2007,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2008,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2009,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2011,
+    "avg_price": 11200000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2012,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2013,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2014,
+    "avg_price": 18800000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2015,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2016,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2017,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2018,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2019,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2020,
+    "avg_price": 11600000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2021,
+    "avg_price": 9816666.666666666
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2022,
+    "avg_price": 16625000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2023,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2024,
+    "avg_price": 11450000.0
+  },
+  {
+    "prefecture": "山形県",
+    "station": "鶴岡",
+    "year": 2025,
+    "avg_price": 22833333.333333332
+  }
+]

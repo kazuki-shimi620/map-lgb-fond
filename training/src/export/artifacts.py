@@ -37,7 +37,13 @@ def build_artifact_paths(output_dir: str | Path, region: str) -> dict[str, Path]
     }
 
 
-def copy_for_frontend(paths: dict[str, Path], frontend_public_dir: str | Path, region: str) -> None:
+def copy_for_frontend(
+    paths: dict[str, Path],
+    frontend_public_dir: str | Path,
+    region: str,
+    *,
+    include_history: bool = True,
+) -> None:
     public = Path(frontend_public_dir)
     destinations = {
         "onnx": public / "models" / f"{region}_latest.onnx",
@@ -47,6 +53,8 @@ def copy_for_frontend(paths: dict[str, Path], frontend_public_dir: str | Path, r
     }
 
     for key, destination in destinations.items():
+        if key == "history" and not include_history:
+            continue
         source = paths.get(key)
         if not source or not source.exists():
             continue
@@ -103,8 +111,11 @@ def export_onnx_if_available(model, feature_count: int, path: str | Path) -> Pat
 
 
 def build_price_history(df) -> list[dict[str, object]]:
+    group_columns = ["station", "transaction_year"]
+    if "prefecture" in df.columns:
+        group_columns.insert(0, "prefecture")
     grouped = (
-        df.groupby(["station", "transaction_year"], as_index=False)["price"]
+        df.groupby(group_columns, as_index=False)["price"]
         .mean()
         .rename(columns={"transaction_year": "year", "price": "avg_price"})
     )

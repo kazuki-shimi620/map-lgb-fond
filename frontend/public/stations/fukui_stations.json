@@ -1,0 +1,1050 @@
+[
+  {
+    "station_id": "fukui_0065",
+    "station_name": "あわら湯のまち",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.223159,
+    "lon": 136.193695
+  },
+  {
+    "station_id": "fukui_0127",
+    "station_name": "しきぶ",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 35.887788,
+    "lon": 136.166285
+  },
+  {
+    "station_id": "fukui_0092",
+    "station_name": "たけふ新",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 35.906426,
+    "lon": 136.170274
+  },
+  {
+    "station_id": "fukui_0048",
+    "station_name": "まつもと町屋",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.076966,
+    "lon": 136.229047
+  },
+  {
+    "station_id": "fukui_0096",
+    "station_name": "サンドーム西",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 35.936514,
+    "lon": 136.180564
+  },
+  {
+    "station_id": "fukui_0094",
+    "station_name": "スポーツ公園",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 35.919093,
+    "lon": 136.168105
+  },
+  {
+    "station_id": "fukui_0105",
+    "station_name": "ハーモニーホール",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 36.014187,
+    "lon": 136.205433
+  },
+  {
+    "station_id": "fukui_0108",
+    "station_name": "ベル前",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 36.033685,
+    "lon": 136.213882
+  },
+  {
+    "station_id": "fukui_0029",
+    "station_name": "一乗谷",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 36.013679,
+    "lon": 136.2974
+  },
+  {
+    "station_id": "fukui_0102",
+    "station_name": "三十八社",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 35.989143,
+    "lon": 136.193805
+  },
+  {
+    "station_id": "fukui_0068",
+    "station_name": "三国",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.217012,
+    "lon": 136.149615
+  },
+  {
+    "station_id": "fukui_0069",
+    "station_name": "三国港",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.220264,
+    "lon": 136.140049
+  },
+  {
+    "station_id": "fukui_0067",
+    "station_name": "三国神社",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.214773,
+    "lon": 136.158037
+  },
+  {
+    "station_id": "fukui_0008",
+    "station_name": "三方",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.555282,
+    "lon": 135.909259
+  },
+  {
+    "station_id": "fukui_0022",
+    "station_name": "三松",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.488767,
+    "lon": 135.520561
+  },
+  {
+    "station_id": "fukui_0013",
+    "station_name": "上中",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.463638,
+    "lon": 135.855728
+  },
+  {
+    "station_id": "fukui_0061",
+    "station_name": "下兵庫こうふく",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.170129,
+    "lon": 136.202507
+  },
+  {
+    "station_id": "fukui_0042",
+    "station_name": "下唯野",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 35.974208,
+    "lon": 136.56027
+  },
+  {
+    "station_id": "fukui_0081",
+    "station_name": "下志比",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.090674,
+    "lon": 136.336346
+  },
+  {
+    "station_id": "fukui_0055",
+    "station_name": "中角",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.10111,
+    "lon": 136.204591
+  },
+  {
+    "station_id": "fukui_0120",
+    "station_name": "丸岡",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 36.162595,
+    "lon": 136.233502
+  },
+  {
+    "station_id": "fukui_0046",
+    "station_name": "九頭竜湖",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 35.904489,
+    "lon": 136.66146
+  },
+  {
+    "station_id": "fukui_0056",
+    "station_name": "仁愛グランド前",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.113511,
+    "lon": 136.204421
+  },
+  {
+    "station_id": "fukui_0115",
+    "station_name": "仁愛女子高校",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 36.069319,
+    "lon": 136.218058
+  },
+  {
+    "station_id": "fukui_0131",
+    "station_name": "今庄",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 35.772947,
+    "lon": 136.199279
+  },
+  {
+    "station_id": "fukui_0088",
+    "station_name": "保田",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.069838,
+    "lon": 136.451611
+  },
+  {
+    "station_id": "fukui_0082",
+    "station_name": "光明寺",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.088463,
+    "lon": 136.344586
+  },
+  {
+    "station_id": "fukui_0053",
+    "station_name": "八ツ島",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.086407,
+    "lon": 136.205943
+  },
+  {
+    "station_id": "fukui_0026",
+    "station_name": "六条",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 36.028175,
+    "lon": 136.239594
+  },
+  {
+    "station_id": "fukui_0018",
+    "station_name": "加斗",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.480672,
+    "lon": 135.666145
+  },
+  {
+    "station_id": "fukui_0044",
+    "station_name": "勝原",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 35.967512,
+    "lon": 136.597151
+  },
+  {
+    "station_id": "fukui_0091",
+    "station_name": "勝山",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.056362,
+    "lon": 136.492079
+  },
+  {
+    "station_id": "fukui_0017",
+    "station_name": "勢浜",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.481192,
+    "lon": 135.708039
+  },
+  {
+    "station_id": "fukui_0038",
+    "station_name": "北大野",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 35.997992,
+    "lon": 136.48795
+  },
+  {
+    "station_id": "fukui_0093",
+    "station_name": "北府",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 35.910114,
+    "lon": 136.166563
+  },
+  {
+    "station_id": "fukui_0124",
+    "station_name": "北鯖江",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 35.971496,
+    "lon": 136.198452
+  },
+  {
+    "station_id": "fukui_0010",
+    "station_name": "十村",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.51595,
+    "lon": 135.896591
+  },
+  {
+    "station_id": "fukui_0132",
+    "station_name": "南今庄",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 35.757424,
+    "lon": 136.184723
+  },
+  {
+    "station_id": "fukui_0129",
+    "station_name": "南条",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 35.831956,
+    "lon": 136.193391
+  },
+  {
+    "station_id": "fukui_0111",
+    "station_name": "商工会議所前",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 36.053613,
+    "lon": 136.215014
+  },
+  {
+    "station_id": "fukui_0123",
+    "station_name": "大土呂",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 36.010546,
+    "lon": 136.216519
+  },
+  {
+    "station_id": "fukui_0062",
+    "station_name": "大関",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.186574,
+    "lon": 136.203687
+  },
+  {
+    "station_id": "fukui_0011",
+    "station_name": "大鳥羽",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.504839,
+    "lon": 135.866872
+  },
+  {
+    "station_id": "fukui_0058",
+    "station_name": "太郎丸エンゼルランド",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.131298,
+    "lon": 136.20574
+  },
+  {
+    "station_id": "fukui_0095",
+    "station_name": "家久",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 35.925988,
+    "lon": 136.17054
+  },
+  {
+    "station_id": "fukui_0032",
+    "station_name": "小和清水",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 36.01732,
+    "lon": 136.351085
+  },
+  {
+    "station_id": "fukui_0016",
+    "station_name": "小浜",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.491643,
+    "lon": 135.745672
+  },
+  {
+    "station_id": "fukui_0087",
+    "station_name": "小舟渡",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.075553,
+    "lon": 136.434054
+  },
+  {
+    "station_id": "fukui_0085",
+    "station_name": "山王(愛知)",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.079143,
+    "lon": 136.39243
+  },
+  {
+    "station_id": "fukui_0031",
+    "station_name": "市波",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 36.019813,
+    "lon": 136.330463
+  },
+  {
+    "station_id": "fukui_0079",
+    "station_name": "志比堺",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.097792,
+    "lon": 136.311021
+  },
+  {
+    "station_id": "fukui_0001",
+    "station_name": "敦賀",
+    "prefecture": "福井県",
+    "line_name": "JR北陸本線",
+    "lat": 35.644767,
+    "lon": 136.076488
+  },
+  {
+    "station_id": "fukui_0014",
+    "station_name": "新平野",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.473069,
+    "lon": 135.807198
+  },
+  {
+    "station_id": "fukui_0054",
+    "station_name": "新田塚",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.092483,
+    "lon": 136.205299
+  },
+  {
+    "station_id": "fukui_0002",
+    "station_name": "新疋田",
+    "prefecture": "福井県",
+    "line_name": "JR北陸本線",
+    "lat": 35.594239,
+    "lon": 136.100558
+  },
+  {
+    "station_id": "fukui_0071",
+    "station_name": "新福井",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.064714,
+    "lon": 136.226721
+  },
+  {
+    "station_id": "fukui_0052",
+    "station_name": "日華化学前",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.080945,
+    "lon": 136.206479
+  },
+  {
+    "station_id": "fukui_0121",
+    "station_name": "春江",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 36.129004,
+    "lon": 136.228487
+  },
+  {
+    "station_id": "fukui_0063",
+    "station_name": "本荘",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.205011,
+    "lon": 136.202881
+  },
+  {
+    "station_id": "fukui_0015",
+    "station_name": "東小浜",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.485234,
+    "lon": 135.781053
+  },
+  {
+    "station_id": "fukui_0005",
+    "station_name": "東美浜",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.614039,
+    "lon": 135.985614
+  },
+  {
+    "station_id": "fukui_0075",
+    "station_name": "東藤島",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.086686,
+    "lon": 136.269837
+  },
+  {
+    "station_id": "fukui_0078",
+    "station_name": "松岡",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.09402,
+    "lon": 136.301703
+  },
+  {
+    "station_id": "fukui_0043",
+    "station_name": "柿ヶ島",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 35.97243,
+    "lon": 136.570938
+  },
+  {
+    "station_id": "fukui_0122",
+    "station_name": "森田",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 36.109381,
+    "lon": 136.222516
+  },
+  {
+    "station_id": "fukui_0126",
+    "station_name": "武生",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 35.903254,
+    "lon": 136.170913
+  },
+  {
+    "station_id": "fukui_0090",
+    "station_name": "比島",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.066011,
+    "lon": 136.483574
+  },
+  {
+    "station_id": "fukui_0007",
+    "station_name": "気山",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.584887,
+    "lon": 135.909531
+  },
+  {
+    "station_id": "fukui_0066",
+    "station_name": "水居",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.219081,
+    "lon": 136.172019
+  },
+  {
+    "station_id": "fukui_0099",
+    "station_name": "水落",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 35.962308,
+    "lon": 136.183191
+  },
+  {
+    "station_id": "fukui_0080",
+    "station_name": "永平寺口",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.095849,
+    "lon": 136.32678
+  },
+  {
+    "station_id": "fukui_0107",
+    "station_name": "江端",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 36.028391,
+    "lon": 136.212379
+  },
+  {
+    "station_id": "fukui_0103",
+    "station_name": "泰澄の里",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 35.999444,
+    "lon": 136.198333
+  },
+  {
+    "station_id": "fukui_0104",
+    "station_name": "浅水",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 36.006724,
+    "lon": 136.201737
+  },
+  {
+    "station_id": "fukui_0106",
+    "station_name": "清明",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 36.022222,
+    "lon": 136.209444
+  },
+  {
+    "station_id": "fukui_0130",
+    "station_name": "湯尾",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 35.803251,
+    "lon": 136.193007
+  },
+  {
+    "station_id": "fukui_0118",
+    "station_name": "牛ノ谷",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 36.259409,
+    "lon": 136.281618
+  },
+  {
+    "station_id": "fukui_0037",
+    "station_name": "牛ヶ原",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 35.998567,
+    "lon": 136.467349
+  },
+  {
+    "station_id": "fukui_0128",
+    "station_name": "王子保",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 35.866259,
+    "lon": 136.165595
+  },
+  {
+    "station_id": "fukui_0050",
+    "station_name": "田原町(福井)",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.074888,
+    "lon": 136.21738
+  },
+  {
+    "station_id": "fukui_0064",
+    "station_name": "番田",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.212358,
+    "lon": 136.202333
+  },
+  {
+    "station_id": "fukui_0089",
+    "station_name": "発坂",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.072643,
+    "lon": 136.465684
+  },
+  {
+    "station_id": "fukui_0100",
+    "station_name": "神明",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 35.972731,
+    "lon": 136.181885
+  },
+  {
+    "station_id": "fukui_0024",
+    "station_name": "福井(福井)",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 36.062057,
+    "lon": 136.223516
+  },
+  {
+    "station_id": "fukui_0047",
+    "station_name": "福井口",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.071386,
+    "lon": 136.233176
+  },
+  {
+    "station_id": "fukui_0113",
+    "station_name": "福井城址大名町",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 36.063523,
+    "lon": 136.217566
+  },
+  {
+    "station_id": "fukui_0114",
+    "station_name": "福井駅",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 36.061871,
+    "lon": 136.220625
+  },
+  {
+    "station_id": "fukui_0051",
+    "station_name": "福大前西福井",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.074218,
+    "lon": 136.210339
+  },
+  {
+    "station_id": "fukui_0004",
+    "station_name": "粟野",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.617234,
+    "lon": 136.027225
+  },
+  {
+    "station_id": "fukui_0119",
+    "station_name": "細呂木",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 36.24125,
+    "lon": 136.256968
+  },
+  {
+    "station_id": "fukui_0033",
+    "station_name": "美山",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 35.998567,
+    "lon": 136.365082
+  },
+  {
+    "station_id": "fukui_0006",
+    "station_name": "美浜",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.605138,
+    "lon": 135.936496
+  },
+  {
+    "station_id": "fukui_0117",
+    "station_name": "芦原温泉",
+    "prefecture": "福井県",
+    "line_name": "北陸新幹線",
+    "lat": 36.214542,
+    "lon": 136.235069
+  },
+  {
+    "station_id": "fukui_0109",
+    "station_name": "花堂",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 36.040851,
+    "lon": 136.215176
+  },
+  {
+    "station_id": "fukui_0020",
+    "station_name": "若狭和田",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.488664,
+    "lon": 135.581564
+  },
+  {
+    "station_id": "fukui_0012",
+    "station_name": "若狭有田",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.485536,
+    "lon": 135.868377
+  },
+  {
+    "station_id": "fukui_0019",
+    "station_name": "若狭本郷",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.482616,
+    "lon": 135.618834
+  },
+  {
+    "station_id": "fukui_0021",
+    "station_name": "若狭高浜",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.486423,
+    "lon": 135.547588
+  },
+  {
+    "station_id": "fukui_0009",
+    "station_name": "藤井",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.532198,
+    "lon": 135.906274
+  },
+  {
+    "station_id": "fukui_0049",
+    "station_name": "西別院",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.07516,
+    "lon": 136.222704
+  },
+  {
+    "station_id": "fukui_0098",
+    "station_name": "西山公園",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 35.952437,
+    "lon": 136.185833
+  },
+  {
+    "station_id": "fukui_0003",
+    "station_name": "西敦賀",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.617975,
+    "lon": 136.067787
+  },
+  {
+    "station_id": "fukui_0059",
+    "station_name": "西春江ハートピア",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.138964,
+    "lon": 136.206187
+  },
+  {
+    "station_id": "fukui_0060",
+    "station_name": "西長田ゆりの里",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.153615,
+    "lon": 136.206472
+  },
+  {
+    "station_id": "fukui_0097",
+    "station_name": "西鯖江",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 35.946352,
+    "lon": 136.1819
+  },
+  {
+    "station_id": "fukui_0077",
+    "station_name": "観音町",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.091726,
+    "lon": 136.289913
+  },
+  {
+    "station_id": "fukui_0036",
+    "station_name": "計石",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 35.997589,
+    "lon": 136.434767
+  },
+  {
+    "station_id": "fukui_0110",
+    "station_name": "赤十字前",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 36.048683,
+    "lon": 136.216623
+  },
+  {
+    "station_id": "fukui_0116",
+    "station_name": "越前たけふ",
+    "prefecture": "福井県",
+    "line_name": "北陸新幹線",
+    "lat": 35.895695,
+    "lon": 136.198935
+  },
+  {
+    "station_id": "fukui_0045",
+    "station_name": "越前下山",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 35.920356,
+    "lon": 136.634832
+  },
+  {
+    "station_id": "fukui_0035",
+    "station_name": "越前大宮",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 36.000064,
+    "lon": 136.409694
+  },
+  {
+    "station_id": "fukui_0039",
+    "station_name": "越前大野",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 35.983294,
+    "lon": 136.496877
+  },
+  {
+    "station_id": "fukui_0041",
+    "station_name": "越前富田",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 35.9909,
+    "lon": 136.541233
+  },
+  {
+    "station_id": "fukui_0076",
+    "station_name": "越前島橋",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.089967,
+    "lon": 136.277123
+  },
+  {
+    "station_id": "fukui_0073",
+    "station_name": "越前新保",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.080392,
+    "lon": 136.251314
+  },
+  {
+    "station_id": "fukui_0028",
+    "station_name": "越前東郷",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 36.018185,
+    "lon": 136.273561
+  },
+  {
+    "station_id": "fukui_0040",
+    "station_name": "越前田野",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 35.987048,
+    "lon": 136.526884
+  },
+  {
+    "station_id": "fukui_0086",
+    "station_name": "越前竹原",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.073945,
+    "lon": 136.413023
+  },
+  {
+    "station_id": "fukui_0025",
+    "station_name": "越前花堂",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 36.038771,
+    "lon": 136.218073
+  },
+  {
+    "station_id": "fukui_0034",
+    "station_name": "越前薬師",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 36.005283,
+    "lon": 136.384336
+  },
+  {
+    "station_id": "fukui_0084",
+    "station_name": "越前野中",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.082887,
+    "lon": 136.37685
+  },
+  {
+    "station_id": "fukui_0072",
+    "station_name": "越前開発",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.075358,
+    "lon": 136.241275
+  },
+  {
+    "station_id": "fukui_0030",
+    "station_name": "越前高田",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 36.024759,
+    "lon": 136.318669
+  },
+  {
+    "station_id": "fukui_0027",
+    "station_name": "足羽",
+    "prefecture": "福井県",
+    "line_name": "JR越美北線",
+    "lat": 36.020821,
+    "lon": 136.253607
+  },
+  {
+    "station_id": "fukui_0112",
+    "station_name": "足羽山公園口",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 36.057737,
+    "lon": 136.215109
+  },
+  {
+    "station_id": "fukui_0083",
+    "station_name": "轟",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.08688,
+    "lon": 136.361071
+  },
+  {
+    "station_id": "fukui_0074",
+    "station_name": "追分口",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道勝山永平寺線",
+    "lat": 36.082478,
+    "lon": 136.261507
+  },
+  {
+    "station_id": "fukui_0023",
+    "station_name": "青郷",
+    "prefecture": "福井県",
+    "line_name": "JR小浜線",
+    "lat": 35.481585,
+    "lon": 135.4998
+  },
+  {
+    "station_id": "fukui_0125",
+    "station_name": "鯖江",
+    "prefecture": "福井県",
+    "line_name": "ハピラインふくい線",
+    "lat": 35.943355,
+    "lon": 136.188852
+  },
+  {
+    "station_id": "fukui_0101",
+    "station_name": "鳥羽中",
+    "prefecture": "福井県",
+    "line_name": "福井鉄道福武線",
+    "lat": 35.981522,
+    "lon": 136.187556
+  },
+  {
+    "station_id": "fukui_0057",
+    "station_name": "鷲塚針原",
+    "prefecture": "福井県",
+    "line_name": "えちぜん鉄道三国芦原線",
+    "lat": 36.12061,
+    "lon": 136.204793
+  }
+]

@@ -16,4 +16,5 @@ training/data/cache/*
 training/outputs/models/*
 training/outputs/reports/*
 training/outputs/datasets/*
+training/outputs/comparisons/*
 !**/.gitkeep

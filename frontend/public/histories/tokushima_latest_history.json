@@ -1,0 +1,962 @@
+[
+  {
+    "prefecture": "徳島県",
+    "station": "中田(徳島)",
+    "year": 2007,
+    "avg_price": 860000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "中田(徳島)",
+    "year": 2018,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "中田(徳島)",
+    "year": 2021,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "中田(徳島)",
+    "year": 2025,
+    "avg_price": 8950000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2007,
+    "avg_price": 9025000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2008,
+    "avg_price": 8350000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2009,
+    "avg_price": 4840000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2010,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2011,
+    "avg_price": 9366666.666666666
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2012,
+    "avg_price": 5775000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2013,
+    "avg_price": 7350000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2014,
+    "avg_price": 6150000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2015,
+    "avg_price": 8666666.666666666
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2016,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2017,
+    "avg_price": 9750000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2018,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2019,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2020,
+    "avg_price": 10087500.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2021,
+    "avg_price": 9333333.333333334
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2022,
+    "avg_price": 9766666.666666666
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2023,
+    "avg_price": 16785714.285714287
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2024,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "二軒屋",
+    "year": 2025,
+    "avg_price": 11790000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2007,
+    "avg_price": 8750000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2008,
+    "avg_price": 7525000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2009,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2010,
+    "avg_price": 7885714.285714285
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2011,
+    "avg_price": 15200000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2012,
+    "avg_price": 8088888.888888889
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2013,
+    "avg_price": 13266666.666666666
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2014,
+    "avg_price": 9557142.857142856
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2015,
+    "avg_price": 9844444.444444444
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2016,
+    "avg_price": 6475000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2017,
+    "avg_price": 10955555.555555556
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2018,
+    "avg_price": 13511111.111111112
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2019,
+    "avg_price": 13571428.57142857
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2020,
+    "avg_price": 16214285.714285715
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2021,
+    "avg_price": 14323076.923076924
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2022,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2023,
+    "avg_price": 14212500.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2024,
+    "avg_price": 14983333.333333334
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "佐古",
+    "year": 2025,
+    "avg_price": 17460000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "勝瑞",
+    "year": 2021,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "勝瑞",
+    "year": 2024,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "勝瑞",
+    "year": 2025,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "吉成",
+    "year": 2009,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "吉成",
+    "year": 2015,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "吉成",
+    "year": 2017,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "吉成",
+    "year": 2019,
+    "avg_price": 8250000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "吉成",
+    "year": 2024,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "吉成",
+    "year": 2025,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "地蔵橋",
+    "year": 2007,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "地蔵橋",
+    "year": 2008,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "地蔵橋",
+    "year": 2012,
+    "avg_price": 10900000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "地蔵橋",
+    "year": 2015,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "地蔵橋",
+    "year": 2016,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "地蔵橋",
+    "year": 2017,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "地蔵橋",
+    "year": 2019,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "地蔵橋",
+    "year": 2020,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "地蔵橋",
+    "year": 2021,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "地蔵橋",
+    "year": 2022,
+    "avg_price": 9666666.666666666
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "地蔵橋",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "地蔵橋",
+    "year": 2024,
+    "avg_price": 9433333.333333334
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "地蔵橋",
+    "year": 2025,
+    "avg_price": 7360000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "府中(徳島)",
+    "year": 2018,
+    "avg_price": 2200000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "府中(徳島)",
+    "year": 2021,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "府中(徳島)",
+    "year": 2024,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "府中(徳島)",
+    "year": 2025,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2007,
+    "avg_price": 9162500.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2008,
+    "avg_price": 11037500.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2009,
+    "avg_price": 11988888.888888888
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2010,
+    "avg_price": 16336666.666666666
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2011,
+    "avg_price": 13593750.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2012,
+    "avg_price": 14916666.666666666
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2013,
+    "avg_price": 11837142.857142856
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2014,
+    "avg_price": 16202857.142857144
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2015,
+    "avg_price": 15100000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2016,
+    "avg_price": 13186956.52173913
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2017,
+    "avg_price": 14050000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2018,
+    "avg_price": 14876190.476190476
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2019,
+    "avg_price": 20155555.555555556
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2020,
+    "avg_price": 16764516.129032258
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2021,
+    "avg_price": 19851162.790697675
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2022,
+    "avg_price": 20300000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2023,
+    "avg_price": 19206000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2024,
+    "avg_price": 18636956.52173913
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "徳島",
+    "year": 2025,
+    "avg_price": 16171739.130434783
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2007,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2008,
+    "avg_price": 8725000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2009,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2010,
+    "avg_price": 5550000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2011,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2012,
+    "avg_price": 6722222.222222222
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2013,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2014,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2015,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2016,
+    "avg_price": 6100000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2017,
+    "avg_price": 7245000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2018,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2019,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2020,
+    "avg_price": 11100000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2021,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2022,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2023,
+    "avg_price": 9666666.666666666
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2024,
+    "avg_price": 10150000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "文化の森",
+    "year": 2025,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2007,
+    "avg_price": 12600000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2008,
+    "avg_price": 8933333.333333334
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2009,
+    "avg_price": 5096666.666666667
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2010,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2011,
+    "avg_price": 3640000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2012,
+    "avg_price": 7133333.333333333
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2013,
+    "avg_price": 4741666.666666667
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2014,
+    "avg_price": 12125000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2015,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2016,
+    "avg_price": 7860000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2018,
+    "avg_price": 5950000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2019,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2021,
+    "avg_price": 8260000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2022,
+    "avg_price": 10925000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2024,
+    "avg_price": 12957142.857142856
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "蔵本",
+    "year": 2025,
+    "avg_price": 14333333.333333334
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "金比羅前",
+    "year": 2021,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "金比羅前",
+    "year": 2022,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "金比羅前",
+    "year": 2023,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿南",
+    "year": 2022,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2007,
+    "avg_price": 8975000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2008,
+    "avg_price": 6250000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2009,
+    "avg_price": 10820000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2010,
+    "avg_price": 9130000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2011,
+    "avg_price": 6820000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2012,
+    "avg_price": 9316666.666666666
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2013,
+    "avg_price": 7688888.888888889
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2014,
+    "avg_price": 10437500.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2015,
+    "avg_price": 8910000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2016,
+    "avg_price": 6075000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2017,
+    "avg_price": 11933333.333333334
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2018,
+    "avg_price": 9028571.42857143
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2019,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2020,
+    "avg_price": 17300000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2021,
+    "avg_price": 15991304.347826088
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2022,
+    "avg_price": 15246666.666666666
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2023,
+    "avg_price": 19383333.333333332
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2024,
+    "avg_price": 13083333.333333334
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "阿波富田",
+    "year": 2025,
+    "avg_price": 19652173.913043477
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鮎喰",
+    "year": 2011,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鮎喰",
+    "year": 2012,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鮎喰",
+    "year": 2014,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鮎喰",
+    "year": 2017,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鮎喰",
+    "year": 2018,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鮎喰",
+    "year": 2021,
+    "avg_price": 10250000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鮎喰",
+    "year": 2022,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鮎喰",
+    "year": 2023,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鮎喰",
+    "year": 2025,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鳴門",
+    "year": 2021,
+    "avg_price": 5054545.454545454
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鳴門",
+    "year": 2022,
+    "avg_price": 7662500.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鳴門",
+    "year": 2023,
+    "avg_price": 5466666.666666667
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鳴門",
+    "year": 2024,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "徳島県",
+    "station": "鳴門",
+    "year": 2025,
+    "avg_price": 7700000.0
+  }
+]

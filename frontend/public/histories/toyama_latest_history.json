@@ -1,0 +1,1808 @@
+[
+  {
+    "prefecture": "富山県",
+    "station": "インテック本社前",
+    "year": 2022,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "インテック本社前",
+    "year": 2023,
+    "avg_price": 8300000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "インテック本社前",
+    "year": 2024,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "インテック本社前",
+    "year": 2025,
+    "avg_price": 16150000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "トヨタモビリティ富山Ｇスクエア五福前",
+    "year": 2016,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "トヨタモビリティ富山Ｇスクエア五福前",
+    "year": 2017,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "トヨタモビリティ富山Ｇスクエア五福前",
+    "year": 2019,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "トヨタモビリティ富山Ｇスクエア五福前",
+    "year": 2020,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "トヨタモビリティ富山Ｇスクエア五福前",
+    "year": 2021,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "富山県",
+    "station": "トヨタモビリティ富山Ｇスクエア五福前",
+    "year": 2022,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "トヨタモビリティ富山Ｇスクエア五福前",
+    "year": 2023,
+    "avg_price": 22266666.666666668
+  },
+  {
+    "prefecture": "富山県",
+    "station": "トヨタモビリティ富山Ｇスクエア五福前",
+    "year": 2024,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "トヨタモビリティ富山Ｇスクエア五福前",
+    "year": 2025,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "上本町(富山)",
+    "year": 2017,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "上本町(富山)",
+    "year": 2021,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "上本町(富山)",
+    "year": 2022,
+    "avg_price": 10400000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "上本町(富山)",
+    "year": 2023,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "上本町(富山)",
+    "year": 2024,
+    "avg_price": 19933333.333333332
+  },
+  {
+    "prefecture": "富山県",
+    "station": "上本町(富山)",
+    "year": 2025,
+    "avg_price": 10266666.666666666
+  },
+  {
+    "prefecture": "富山県",
+    "station": "下奥井",
+    "year": 2008,
+    "avg_price": 14333333.333333334
+  },
+  {
+    "prefecture": "富山県",
+    "station": "下奥井",
+    "year": 2009,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "下奥井",
+    "year": 2011,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "下奥井",
+    "year": 2013,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "下奥井",
+    "year": 2014,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "下奥井",
+    "year": 2016,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "下奥井",
+    "year": 2019,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "下奥井",
+    "year": 2022,
+    "avg_price": 12250000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "下奥井",
+    "year": 2025,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2008,
+    "avg_price": 14450000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2010,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2011,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2013,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2014,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2015,
+    "avg_price": 14300000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2016,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2018,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2019,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2021,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2022,
+    "avg_price": 9750000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2023,
+    "avg_price": 16666666.666666666
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2024,
+    "avg_price": 11400000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "不二越",
+    "year": 2025,
+    "avg_price": 8600000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "中新湊",
+    "year": 2022,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "中新湊",
+    "year": 2023,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "中町",
+    "year": 2021,
+    "avg_price": 42000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "中町",
+    "year": 2022,
+    "avg_price": 36500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "中町",
+    "year": 2023,
+    "avg_price": 42250000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "中町",
+    "year": 2024,
+    "avg_price": 32466666.666666668
+  },
+  {
+    "prefecture": "富山県",
+    "station": "中町",
+    "year": 2025,
+    "avg_price": 42000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "丸の内(富山)",
+    "year": 2022,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "丸の内(富山)",
+    "year": 2024,
+    "avg_price": 38000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "丸の内(富山)",
+    "year": 2025,
+    "avg_price": 4933333.333333333
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2007,
+    "avg_price": 16750000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2008,
+    "avg_price": 10257142.857142856
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2009,
+    "avg_price": 18300000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2010,
+    "avg_price": 11875000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2011,
+    "avg_price": 12625000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2012,
+    "avg_price": 10869230.76923077
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2013,
+    "avg_price": 10041176.470588235
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2014,
+    "avg_price": 11021428.57142857
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2015,
+    "avg_price": 8375000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2016,
+    "avg_price": 5540000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2017,
+    "avg_price": 9680000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2018,
+    "avg_price": 13772727.272727273
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2019,
+    "avg_price": 12342857.142857144
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2020,
+    "avg_price": 10933333.333333334
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2021,
+    "avg_price": 12261111.111111112
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2022,
+    "avg_price": 12323529.411764706
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2023,
+    "avg_price": 16694117.647058824
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2024,
+    "avg_price": 14994736.842105264
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山",
+    "year": 2025,
+    "avg_price": 13825000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山駅前",
+    "year": 2021,
+    "avg_price": 8700000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山駅前",
+    "year": 2022,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山駅前",
+    "year": 2023,
+    "avg_price": 15750000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山駅前",
+    "year": 2024,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "富山県",
+    "station": "南富山駅前",
+    "year": 2025,
+    "avg_price": 19200000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "地鉄ビル前",
+    "year": 2021,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "地鉄ビル前",
+    "year": 2023,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "地鉄ビル前",
+    "year": 2024,
+    "avg_price": 26500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "地鉄ビル前",
+    "year": 2025,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "城川原",
+    "year": 2007,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "城川原",
+    "year": 2014,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "城川原",
+    "year": 2016,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "城川原",
+    "year": 2019,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "城川原",
+    "year": 2021,
+    "avg_price": 11266666.666666666
+  },
+  {
+    "prefecture": "富山県",
+    "station": "城川原",
+    "year": 2023,
+    "avg_price": 8750000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "城川原",
+    "year": 2025,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "堀川小泉",
+    "year": 2025,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大手モール",
+    "year": 2021,
+    "avg_price": 23666666.666666668
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大手モール",
+    "year": 2022,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大手モール",
+    "year": 2023,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大手モール",
+    "year": 2024,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大手モール",
+    "year": 2025,
+    "avg_price": 35666666.666666664
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2008,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2010,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2011,
+    "avg_price": 15600000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2012,
+    "avg_price": 15250000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2013,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2014,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2015,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2016,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2017,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2018,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2019,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2020,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2021,
+    "avg_price": 12775000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2022,
+    "avg_price": 18200000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2023,
+    "avg_price": 19750000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2024,
+    "avg_price": 12750000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "大泉(富山)",
+    "year": 2025,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2009,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2011,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2012,
+    "avg_price": 9120000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2013,
+    "avg_price": 8844444.444444444
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2014,
+    "avg_price": 11583333.333333334
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2015,
+    "avg_price": 6850000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2016,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2017,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2018,
+    "avg_price": 10350000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2019,
+    "avg_price": 12177777.777777778
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2020,
+    "avg_price": 10880000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2021,
+    "avg_price": 12541666.666666666
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2022,
+    "avg_price": 14750000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2023,
+    "avg_price": 11845454.545454545
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2024,
+    "avg_price": 10425000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "奥田中学校前",
+    "year": 2025,
+    "avg_price": 10844444.444444444
+  },
+  {
+    "prefecture": "富山県",
+    "station": "婦中鵜坂",
+    "year": 2021,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "宇奈月温泉",
+    "year": 2021,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "安野屋",
+    "year": 2015,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "安野屋",
+    "year": 2017,
+    "avg_price": 20150000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "安野屋",
+    "year": 2021,
+    "avg_price": 17533333.333333332
+  },
+  {
+    "prefecture": "富山県",
+    "station": "安野屋",
+    "year": 2022,
+    "avg_price": 27400000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "安野屋",
+    "year": 2023,
+    "avg_price": 16600000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "安野屋",
+    "year": 2024,
+    "avg_price": 30625000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "安野屋",
+    "year": 2025,
+    "avg_price": 16600000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2007,
+    "avg_price": 10347058.823529411
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2008,
+    "avg_price": 14407692.307692308
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2009,
+    "avg_price": 14815000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2010,
+    "avg_price": 20010256.410256412
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2011,
+    "avg_price": 20654237.288135592
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2012,
+    "avg_price": 21749836.06557377
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2013,
+    "avg_price": 13993333.333333334
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2014,
+    "avg_price": 17688888.888888888
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2015,
+    "avg_price": 13580769.23076923
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2016,
+    "avg_price": 13187234.042553192
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2017,
+    "avg_price": 19772413.79310345
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2018,
+    "avg_price": 17367857.14285714
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2019,
+    "avg_price": 15784375.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2020,
+    "avg_price": 14297500.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2021,
+    "avg_price": 19158928.57142857
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2022,
+    "avg_price": 26265000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2023,
+    "avg_price": 21770816.326530613
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2024,
+    "avg_price": 29255102.040816326
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山",
+    "year": 2025,
+    "avg_price": 27915217.391304348
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山大学前",
+    "year": 2016,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山大学前",
+    "year": 2019,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山大学前",
+    "year": 2021,
+    "avg_price": 7250000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山大学前",
+    "year": 2022,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山大学前",
+    "year": 2023,
+    "avg_price": 6466666.666666667
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山大学前",
+    "year": 2024,
+    "avg_price": 6466666.666666667
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山大学前",
+    "year": 2025,
+    "avg_price": 6320000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山駅",
+    "year": 2021,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山駅",
+    "year": 2022,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山駅",
+    "year": 2023,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山駅",
+    "year": 2024,
+    "avg_price": 24200000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "富山駅",
+    "year": 2025,
+    "avg_price": 35000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "小泉町(富山)",
+    "year": 2021,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "小泉町(富山)",
+    "year": 2022,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "小泉町(富山)",
+    "year": 2023,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "島尾",
+    "year": 2023,
+    "avg_price": 8300000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "市民病院前",
+    "year": 2023,
+    "avg_price": 10400000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "市民病院前",
+    "year": 2024,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "市民病院前",
+    "year": 2025,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "広小路(富山)",
+    "year": 2022,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "広小路(富山)",
+    "year": 2023,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "広貫堂前",
+    "year": 2023,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "広貫堂前",
+    "year": 2025,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "志貴野中学校前",
+    "year": 2012,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "志貴野中学校前",
+    "year": 2022,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "志貴野中学校前",
+    "year": 2025,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "急患医療センター前",
+    "year": 2021,
+    "avg_price": 2200000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "急患医療センター前",
+    "year": 2024,
+    "avg_price": 2600000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "新富町(富山)",
+    "year": 2022,
+    "avg_price": 45000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "新庄田中",
+    "year": 2021,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "新庄田中",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "新庄田中",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "新町口",
+    "year": 2024,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "新高岡",
+    "year": 2022,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "新高岡",
+    "year": 2024,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "朝菜町",
+    "year": 2019,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "朝菜町",
+    "year": 2020,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "朝菜町",
+    "year": 2021,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "朝菜町",
+    "year": 2022,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "朝菜町",
+    "year": 2023,
+    "avg_price": 10720000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "朝菜町",
+    "year": 2024,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "朝菜町",
+    "year": 2025,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "末広町(富山)",
+    "year": 2024,
+    "avg_price": 27500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "東岩瀬",
+    "year": 2010,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "東岩瀬",
+    "year": 2021,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "東岩瀬",
+    "year": 2023,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "東新庄",
+    "year": 2008,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "東新庄",
+    "year": 2025,
+    "avg_price": 2400000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "栄町(富山)",
+    "year": 2022,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "栄町(富山)",
+    "year": 2024,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "桜橋(富山)",
+    "year": 2021,
+    "avg_price": 33000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "桜橋(富山)",
+    "year": 2022,
+    "avg_price": 24750000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "桜橋(富山)",
+    "year": 2023,
+    "avg_price": 19750000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "桜橋(富山)",
+    "year": 2024,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "桜橋(富山)",
+    "year": 2025,
+    "avg_price": 25333333.333333332
+  },
+  {
+    "prefecture": "富山県",
+    "station": "片原町(富山)",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "片原町(富山)",
+    "year": 2025,
+    "avg_price": 7933333.333333333
+  },
+  {
+    "prefecture": "富山県",
+    "station": "県庁前(富山)",
+    "year": 2023,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "県庁前(富山)",
+    "year": 2024,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "県庁前(富山)",
+    "year": 2025,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "砺波",
+    "year": 2021,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "稲荷町(富山)",
+    "year": 2011,
+    "avg_price": 8025000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "稲荷町(富山)",
+    "year": 2013,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "稲荷町(富山)",
+    "year": 2015,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "稲荷町(富山)",
+    "year": 2016,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "稲荷町(富山)",
+    "year": 2017,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "稲荷町(富山)",
+    "year": 2018,
+    "avg_price": 13600000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "稲荷町(富山)",
+    "year": 2021,
+    "avg_price": 12250000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "稲荷町(富山)",
+    "year": 2022,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "稲荷町(富山)",
+    "year": 2023,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "稲荷町(富山)",
+    "year": 2024,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "稲荷町(富山)",
+    "year": 2025,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "粟島",
+    "year": 2023,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "能町",
+    "year": 2021,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "荒町(富山)",
+    "year": 2021,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "荒町(富山)",
+    "year": 2022,
+    "avg_price": 18250000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "荒町(富山)",
+    "year": 2023,
+    "avg_price": 25500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "荒町(富山)",
+    "year": 2024,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "荒町(富山)",
+    "year": 2025,
+    "avg_price": 19666666.666666668
+  },
+  {
+    "prefecture": "富山県",
+    "station": "蓮町(馬場記念公園前)",
+    "year": 2008,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "蓮町(馬場記念公園前)",
+    "year": 2013,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "蓮町(馬場記念公園前)",
+    "year": 2014,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "蓮町(馬場記念公園前)",
+    "year": 2015,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "蓮町(馬場記念公園前)",
+    "year": 2017,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "蓮町(馬場記念公園前)",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "蓮町(馬場記念公園前)",
+    "year": 2024,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西中野",
+    "year": 2021,
+    "avg_price": 34000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西中野",
+    "year": 2022,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西中野",
+    "year": 2023,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西中野",
+    "year": 2024,
+    "avg_price": 18616666.666666668
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西中野",
+    "year": 2025,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西富山",
+    "year": 2010,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西富山",
+    "year": 2011,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西富山",
+    "year": 2014,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西富山",
+    "year": 2015,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西富山",
+    "year": 2024,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西町",
+    "year": 2021,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西町",
+    "year": 2022,
+    "avg_price": 36333333.333333336
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西町",
+    "year": 2023,
+    "avg_price": 29600000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西町",
+    "year": 2024,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "西町",
+    "year": 2025,
+    "avg_price": 23400000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中島",
+    "year": 2008,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中島",
+    "year": 2011,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中島",
+    "year": 2014,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中島",
+    "year": 2015,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中島",
+    "year": 2018,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中島",
+    "year": 2021,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中島",
+    "year": 2022,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中島",
+    "year": 2023,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中島",
+    "year": 2025,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中川",
+    "year": 2016,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中川",
+    "year": 2021,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中川",
+    "year": 2023,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中川",
+    "year": 2024,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中中川",
+    "year": 2025,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中荏原",
+    "year": 2019,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "越中荏原",
+    "year": 2021,
+    "avg_price": 7250000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "速星",
+    "year": 2021,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "電気ビル前",
+    "year": 2021,
+    "avg_price": 29333333.333333332
+  },
+  {
+    "prefecture": "富山県",
+    "station": "電気ビル前",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "電気ビル前",
+    "year": 2024,
+    "avg_price": 12550000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "電気ビル前",
+    "year": 2025,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "電鉄富山",
+    "year": 2021,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "電鉄富山",
+    "year": 2025,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "電鉄富山駅・エスタ前",
+    "year": 2023,
+    "avg_price": 40000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2007,
+    "avg_price": 4075000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2008,
+    "avg_price": 11157142.857142856
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2009,
+    "avg_price": 16603571.42857143
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2010,
+    "avg_price": 12075000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2011,
+    "avg_price": 7377777.777777778
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2012,
+    "avg_price": 6028571.428571428
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2013,
+    "avg_price": 10246153.846153846
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2014,
+    "avg_price": 9983333.333333334
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2015,
+    "avg_price": 12222222.222222222
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2016,
+    "avg_price": 6200000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2017,
+    "avg_price": 14160000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2018,
+    "avg_price": 10643750.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2019,
+    "avg_price": 12130000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2020,
+    "avg_price": 15833333.333333334
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2021,
+    "avg_price": 16062500.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2022,
+    "avg_price": 12525000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2023,
+    "avg_price": 17683333.333333332
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2024,
+    "avg_price": 18180000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡",
+    "year": 2025,
+    "avg_price": 20047368.42105263
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡駅",
+    "year": 2022,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "高岡駅",
+    "year": 2024,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "富山県",
+    "station": "龍谷富山高校前",
+    "year": 2024,
+    "avg_price": 16000000.0
+  }
+]

@@ -1,0 +1,2204 @@
+[
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2006,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2007,
+    "avg_price": 9133333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2010,
+    "avg_price": 9650000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2011,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2012,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2013,
+    "avg_price": 8700000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2014,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2015,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2016,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2018,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2019,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2020,
+    "avg_price": 8300000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2021,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2022,
+    "avg_price": 10120000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2023,
+    "avg_price": 7550000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2024,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "三柿野",
+    "year": 2025,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "下呂",
+    "year": 2021,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "中津川",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "中津川",
+    "year": 2024,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "中津川",
+    "year": 2025,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "二十軒",
+    "year": 2007,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "二十軒",
+    "year": 2012,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "二十軒",
+    "year": 2017,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "二十軒",
+    "year": 2022,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "二十軒",
+    "year": 2023,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2005,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2006,
+    "avg_price": 8066666.666666667
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2007,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2008,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2009,
+    "avg_price": 10420000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2010,
+    "avg_price": 8020000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2011,
+    "avg_price": 6980000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2012,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2013,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2014,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2015,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2017,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2018,
+    "avg_price": 10933333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2019,
+    "avg_price": 11400000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2021,
+    "avg_price": 16616666.666666666
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2022,
+    "avg_price": 9416666.666666666
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2023,
+    "avg_price": 10433333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2024,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "六軒(岐阜)",
+    "year": 2025,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "切通",
+    "year": 2008,
+    "avg_price": 6200000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "切通",
+    "year": 2020,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "加納(岐阜)",
+    "year": 2025,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "北方真桑",
+    "year": 2022,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "北方真桑",
+    "year": 2024,
+    "avg_price": 4450000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "北方真桑",
+    "year": 2025,
+    "avg_price": 5900000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "友江",
+    "year": 2021,
+    "avg_price": 3200000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "可児",
+    "year": 2025,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務ケ原",
+    "year": 2009,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務ケ原",
+    "year": 2011,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務ケ原",
+    "year": 2021,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2005,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2006,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2008,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2011,
+    "avg_price": 11233333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2012,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2013,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2016,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2017,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2018,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2019,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2020,
+    "avg_price": 20433333.333333332
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2021,
+    "avg_price": 20466666.666666668
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2022,
+    "avg_price": 26400000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2023,
+    "avg_price": 24666666.666666668
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2024,
+    "avg_price": 16550000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "各務原市役所前",
+    "year": 2025,
+    "avg_price": 5350000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名鉄岐阜",
+    "year": 2012,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名鉄岐阜",
+    "year": 2015,
+    "avg_price": 31300000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名鉄岐阜",
+    "year": 2020,
+    "avg_price": 2600000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名鉄岐阜",
+    "year": 2021,
+    "avg_price": 19590909.09090909
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名鉄岐阜",
+    "year": 2022,
+    "avg_price": 28760869.56521739
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名鉄岐阜",
+    "year": 2023,
+    "avg_price": 24976923.076923076
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名鉄岐阜",
+    "year": 2024,
+    "avg_price": 25721428.57142857
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名鉄岐阜",
+    "year": 2025,
+    "avg_price": 30358823.529411763
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2005,
+    "avg_price": 7250000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2007,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2008,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2009,
+    "avg_price": 7233333.333333333
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2010,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2011,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2012,
+    "avg_price": 7025000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2013,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2014,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2016,
+    "avg_price": 13933333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2017,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2018,
+    "avg_price": 11666666.666666666
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2020,
+    "avg_price": 8300000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2021,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2022,
+    "avg_price": 8220000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2023,
+    "avg_price": 11371428.57142857
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2024,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "名電各務原",
+    "year": 2025,
+    "avg_price": 7966666.666666667
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "土岐市",
+    "year": 2006,
+    "avg_price": 4761538.461538462
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "土岐市",
+    "year": 2007,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "土岐市",
+    "year": 2021,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "土岐市",
+    "year": 2022,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "土岐市",
+    "year": 2024,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "土岐市",
+    "year": 2025,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2005,
+    "avg_price": 11950000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2006,
+    "avg_price": 12550000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2007,
+    "avg_price": 14025000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2008,
+    "avg_price": 12260000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2009,
+    "avg_price": 17366666.666666668
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2010,
+    "avg_price": 12566666.666666666
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2011,
+    "avg_price": 14766666.666666666
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2012,
+    "avg_price": 15175000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2013,
+    "avg_price": 14125000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2014,
+    "avg_price": 12450000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2015,
+    "avg_price": 26333333.333333332
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2016,
+    "avg_price": 13300000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2017,
+    "avg_price": 17233333.333333332
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2018,
+    "avg_price": 15128571.42857143
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2019,
+    "avg_price": 17750000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2020,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2021,
+    "avg_price": 12025000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2022,
+    "avg_price": 13850000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2023,
+    "avg_price": 21673684.210526317
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2024,
+    "avg_price": 21877777.777777776
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "多治見",
+    "year": 2025,
+    "avg_price": 23565217.391304348
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2007,
+    "avg_price": 13333333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2008,
+    "avg_price": 12583333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2009,
+    "avg_price": 13040000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2010,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2011,
+    "avg_price": 14738461.538461538
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2012,
+    "avg_price": 12970000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2013,
+    "avg_price": 13971428.57142857
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2014,
+    "avg_price": 9853846.153846154
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2015,
+    "avg_price": 13556250.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2016,
+    "avg_price": 12222222.222222222
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2017,
+    "avg_price": 12922222.222222222
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2018,
+    "avg_price": 16133333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2019,
+    "avg_price": 12392307.692307692
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2020,
+    "avg_price": 18714285.714285713
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2021,
+    "avg_price": 22942424.242424242
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2022,
+    "avg_price": 14892592.592592593
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2023,
+    "avg_price": 17456250.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2024,
+    "avg_price": 16281818.181818182
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "大垣",
+    "year": 2025,
+    "avg_price": 20081250.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "室",
+    "year": 2021,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "室",
+    "year": 2025,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐南",
+    "year": 2007,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐南",
+    "year": 2021,
+    "avg_price": 21666666.666666668
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐南",
+    "year": 2022,
+    "avg_price": 20500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐南",
+    "year": 2023,
+    "avg_price": 22100000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐南",
+    "year": 2024,
+    "avg_price": 19333333.333333332
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐南",
+    "year": 2025,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2005,
+    "avg_price": 14033333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2006,
+    "avg_price": 14290434.782608695
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2007,
+    "avg_price": 16171794.871794872
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2008,
+    "avg_price": 14051428.57142857
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2009,
+    "avg_price": 17869444.444444444
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2010,
+    "avg_price": 18451515.151515152
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2011,
+    "avg_price": 15015254.237288136
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2012,
+    "avg_price": 14888679.245283019
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2013,
+    "avg_price": 16673913.043478262
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2014,
+    "avg_price": 17284313.725490198
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2015,
+    "avg_price": 16081967.213114753
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2016,
+    "avg_price": 18327777.777777776
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2017,
+    "avg_price": 17642307.692307692
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2018,
+    "avg_price": 18198275.862068966
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2019,
+    "avg_price": 18001818.181818184
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2020,
+    "avg_price": 18291111.111111112
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2021,
+    "avg_price": 18853846.153846152
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2022,
+    "avg_price": 22219090.90909091
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2023,
+    "avg_price": 23322413.79310345
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2024,
+    "avg_price": 24211607.14285714
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜",
+    "year": 2025,
+    "avg_price": 23017699.115044247
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜羽島",
+    "year": 2023,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜羽島",
+    "year": 2024,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "岐阜羽島",
+    "year": 2025,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "恵那",
+    "year": 2021,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "恵那",
+    "year": 2022,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "恵那",
+    "year": 2025,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "手力",
+    "year": 2013,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "手力",
+    "year": 2021,
+    "avg_price": 12900000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "手力",
+    "year": 2023,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新加納",
+    "year": 2013,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新加納",
+    "year": 2015,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新可児",
+    "year": 2007,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新可児",
+    "year": 2021,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新可児",
+    "year": 2022,
+    "avg_price": 17666666.666666668
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新可児",
+    "year": 2024,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新可児",
+    "year": 2025,
+    "avg_price": 7033333.333333333
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新那加",
+    "year": 2009,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新那加",
+    "year": 2010,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新那加",
+    "year": 2017,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新那加",
+    "year": 2018,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新那加",
+    "year": 2020,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新那加",
+    "year": 2022,
+    "avg_price": 17666666.666666668
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新那加",
+    "year": 2024,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新那加",
+    "year": 2025,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2007,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2008,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2009,
+    "avg_price": 16325000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2011,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2013,
+    "avg_price": 14950000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2014,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2015,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2016,
+    "avg_price": 13900000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2017,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2019,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2020,
+    "avg_price": 8260000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2021,
+    "avg_price": 10980000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2022,
+    "avg_price": 23833333.333333332
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2023,
+    "avg_price": 14200000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2024,
+    "avg_price": 12250000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "新鵜沼",
+    "year": 2025,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "日本ライン今渡",
+    "year": 2006,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "木曽川",
+    "year": 2021,
+    "avg_price": 36000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "木曽川",
+    "year": 2022,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "木曽川",
+    "year": 2023,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "東大垣",
+    "year": 2022,
+    "avg_price": 5325000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "東大垣",
+    "year": 2023,
+    "avg_price": 2800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "東大垣",
+    "year": 2025,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "柳津(岐阜)",
+    "year": 2007,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "柳津(岐阜)",
+    "year": 2013,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "柳津(岐阜)",
+    "year": 2014,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "柳津(岐阜)",
+    "year": 2015,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "柳津(岐阜)",
+    "year": 2016,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "柳津(岐阜)",
+    "year": 2017,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "柳津(岐阜)",
+    "year": 2018,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "柳津(岐阜)",
+    "year": 2019,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "柳津(岐阜)",
+    "year": 2021,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "柳津(岐阜)",
+    "year": 2022,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "柳津(岐阜)",
+    "year": 2025,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "江吉良",
+    "year": 2021,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "江吉良",
+    "year": 2023,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "瑞浪",
+    "year": 2005,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "瑞浪",
+    "year": 2006,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "瑞浪",
+    "year": 2022,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "瑞浪",
+    "year": 2025,
+    "avg_price": 2900000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "田神",
+    "year": 2007,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "田神",
+    "year": 2009,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "田神",
+    "year": 2011,
+    "avg_price": 9333333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "田神",
+    "year": 2014,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "田神",
+    "year": 2015,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "田神",
+    "year": 2018,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "田神",
+    "year": 2021,
+    "avg_price": 15750000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "田神",
+    "year": 2022,
+    "avg_price": 11840000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "田神",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "田神",
+    "year": 2024,
+    "avg_price": 17266666.666666668
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "田神",
+    "year": 2025,
+    "avg_price": 14181818.181818182
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "穂積",
+    "year": 2007,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "穂積",
+    "year": 2010,
+    "avg_price": 7650000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "穂積",
+    "year": 2011,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "穂積",
+    "year": 2012,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "穂積",
+    "year": 2013,
+    "avg_price": 10300000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "穂積",
+    "year": 2014,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "穂積",
+    "year": 2015,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "穂積",
+    "year": 2023,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "穂積",
+    "year": 2024,
+    "avg_price": 5600000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "穂積",
+    "year": 2025,
+    "avg_price": 8700000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "笠松",
+    "year": 2021,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "笠松",
+    "year": 2025,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "細畑",
+    "year": 2009,
+    "avg_price": 8600000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "細畑",
+    "year": 2010,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "細畑",
+    "year": 2013,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "細畑",
+    "year": 2016,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "細畑",
+    "year": 2019,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "細畑",
+    "year": 2021,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "細畑",
+    "year": 2022,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "細畑",
+    "year": 2024,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "細畑",
+    "year": 2025,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "美江寺",
+    "year": 2024,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "美江寺",
+    "year": 2025,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "美濃太田",
+    "year": 2005,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "美濃太田",
+    "year": 2006,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "茶所",
+    "year": 2009,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "茶所",
+    "year": 2013,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "茶所",
+    "year": 2022,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "茶所",
+    "year": 2023,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "茶所",
+    "year": 2024,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "荒尾(岐阜)",
+    "year": 2024,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2005,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2006,
+    "avg_price": 6933333.333333333
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2007,
+    "avg_price": 6320000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2008,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2009,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2010,
+    "avg_price": 8250000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2011,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2012,
+    "avg_price": 8480000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2014,
+    "avg_price": 11450000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2015,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2018,
+    "avg_price": 4350000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2019,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2020,
+    "avg_price": 7075000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2021,
+    "avg_price": 7280000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2022,
+    "avg_price": 9650000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2023,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2024,
+    "avg_price": 13333333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "蘇原",
+    "year": 2025,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西可児",
+    "year": 2024,
+    "avg_price": 1600000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西大垣",
+    "year": 2021,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2005,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2006,
+    "avg_price": 12025000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2007,
+    "avg_price": 12920000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2008,
+    "avg_price": 7966666.666666667
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2009,
+    "avg_price": 11300000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2010,
+    "avg_price": 11711111.111111112
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2011,
+    "avg_price": 11960000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2012,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2013,
+    "avg_price": 13983333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2014,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2015,
+    "avg_price": 10200000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2016,
+    "avg_price": 14455555.555555556
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2017,
+    "avg_price": 11580000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2018,
+    "avg_price": 10628571.42857143
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2019,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2020,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2021,
+    "avg_price": 18166666.666666668
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2022,
+    "avg_price": 20094117.647058822
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2023,
+    "avg_price": 15570588.235294119
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2024,
+    "avg_price": 16106666.666666666
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西岐阜",
+    "year": 2025,
+    "avg_price": 15823333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西笠松",
+    "year": 2006,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西笠松",
+    "year": 2008,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西笠松",
+    "year": 2012,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西笠松",
+    "year": 2013,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西笠松",
+    "year": 2015,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西笠松",
+    "year": 2016,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西笠松",
+    "year": 2020,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西笠松",
+    "year": 2021,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "西笠松",
+    "year": 2025,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "那加",
+    "year": 2011,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "那加",
+    "year": 2014,
+    "avg_price": 5600000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "那加",
+    "year": 2017,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "那加",
+    "year": 2021,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "那加",
+    "year": 2022,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "長森",
+    "year": 2012,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "長森",
+    "year": 2022,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "長森",
+    "year": 2024,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "関(岐阜)",
+    "year": 2005,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "関(岐阜)",
+    "year": 2006,
+    "avg_price": 8333333.333333333
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "関富岡",
+    "year": 2006,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "高山",
+    "year": 2005,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "高山",
+    "year": 2006,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "高山",
+    "year": 2021,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "高山",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "高山",
+    "year": 2024,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2005,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2006,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2007,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2008,
+    "avg_price": 12333333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2009,
+    "avg_price": 14325000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2010,
+    "avg_price": 8733333.333333334
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2011,
+    "avg_price": 11550000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2013,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2014,
+    "avg_price": 10045000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2015,
+    "avg_price": 11725000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2016,
+    "avg_price": 10600000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2017,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2018,
+    "avg_price": 9100000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2019,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2020,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2021,
+    "avg_price": 11014285.714285715
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2022,
+    "avg_price": 8914285.714285715
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2023,
+    "avg_price": 8555555.555555556
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2024,
+    "avg_price": 14130000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼",
+    "year": 2025,
+    "avg_price": 12200000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼宿",
+    "year": 2012,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岐阜県",
+    "station": "鵜沼宿",
+    "year": 2023,
+    "avg_price": 24000000.0
+  }
+]

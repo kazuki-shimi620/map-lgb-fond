@@ -1,0 +1,1018 @@
+[
+  {
+    "station_id": "nara_0005",
+    "station_name": "JR五位堂",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.527667,
+    "lon": 135.718435
+  },
+  {
+    "station_id": "nara_0100",
+    "station_name": "ファミリー公園前",
+    "prefecture": "奈良県",
+    "line_name": "近鉄橿原線",
+    "lat": 34.597968,
+    "lon": 135.784987
+  },
+  {
+    "station_id": "nara_0122",
+    "station_name": "一分",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒線",
+    "lat": 34.675408,
+    "lon": 135.707992
+  },
+  {
+    "station_id": "nara_0081",
+    "station_name": "三本松",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.578571,
+    "lon": 136.035851
+  },
+  {
+    "station_id": "nara_0028",
+    "station_name": "三輪",
+    "prefecture": "奈良県",
+    "line_name": "JR桜井線",
+    "lat": 34.527138,
+    "lon": 135.848435
+  },
+  {
+    "station_id": "nara_0020",
+    "station_name": "三郷(奈良)",
+    "prefecture": "奈良県",
+    "line_name": "JR大和路線",
+    "lat": 34.588867,
+    "lon": 135.687484
+  },
+  {
+    "station_id": "nara_0059",
+    "station_name": "下市口",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.383998,
+    "lon": 135.786888
+  },
+  {
+    "station_id": "nara_0097",
+    "station_name": "九条(京都)",
+    "prefecture": "奈良県",
+    "line_name": "近鉄橿原線",
+    "lat": 34.659523,
+    "lon": 135.782894
+  },
+  {
+    "station_id": "nara_0066",
+    "station_name": "二上",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.546511,
+    "lon": 135.68811
+  },
+  {
+    "station_id": "nara_0040",
+    "station_name": "二上山",
+    "prefecture": "奈良県",
+    "line_name": "近鉄南大阪線",
+    "lat": 34.53907,
+    "lon": 135.685974
+  },
+  {
+    "station_id": "nara_0041",
+    "station_name": "二上神社口",
+    "prefecture": "奈良県",
+    "line_name": "近鉄南大阪線",
+    "lat": 34.532104,
+    "lon": 135.69414
+  },
+  {
+    "station_id": "nara_0083",
+    "station_name": "二階堂",
+    "prefecture": "奈良県",
+    "line_name": "近鉄天理線",
+    "lat": 34.602121,
+    "lon": 135.79553
+  },
+  {
+    "station_id": "nara_0068",
+    "station_name": "五位堂",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.534763,
+    "lon": 135.717937
+  },
+  {
+    "station_id": "nara_0013",
+    "station_name": "五条(京都市営)",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.355727,
+    "lon": 135.698679
+  },
+  {
+    "station_id": "nara_0021",
+    "station_name": "京終",
+    "prefecture": "奈良県",
+    "line_name": "JR桜井線",
+    "lat": 34.670031,
+    "lon": 135.828446
+  },
+  {
+    "station_id": "nara_0129",
+    "station_name": "但馬",
+    "prefecture": "奈良県",
+    "line_name": "近鉄田原本線",
+    "lat": 34.569462,
+    "lon": 135.768269
+  },
+  {
+    "station_id": "nara_0126",
+    "station_name": "佐味田川",
+    "prefecture": "奈良県",
+    "line_name": "近鉄田原本線",
+    "lat": 34.585213,
+    "lon": 135.731047
+  },
+  {
+    "station_id": "nara_0114",
+    "station_name": "信貴山下",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒線",
+    "lat": 34.600935,
+    "lon": 135.695172
+  },
+  {
+    "station_id": "nara_0118",
+    "station_name": "元山上口",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒線",
+    "lat": 34.640562,
+    "lon": 135.700887
+  },
+  {
+    "station_id": "nara_0106",
+    "station_name": "八木西口",
+    "prefecture": "奈良県",
+    "line_name": "近鉄橿原線",
+    "lat": 34.509309,
+    "lon": 135.790707
+  },
+  {
+    "station_id": "nara_0061",
+    "station_name": "六田",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.390051,
+    "lon": 135.822943
+  },
+  {
+    "station_id": "nara_0084",
+    "station_name": "前栽",
+    "prefecture": "奈良県",
+    "line_name": "近鉄天理線",
+    "lat": 34.600996,
+    "lon": 135.816536
+  },
+  {
+    "station_id": "nara_0115",
+    "station_name": "勢野北口",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒線",
+    "lat": 34.606098,
+    "lon": 135.700979
+  },
+  {
+    "station_id": "nara_0012",
+    "station_name": "北宇智",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.381264,
+    "lon": 135.714722
+  },
+  {
+    "station_id": "nara_0121",
+    "station_name": "南生駒",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒線",
+    "lat": 34.665484,
+    "lon": 135.708769
+  },
+  {
+    "station_id": "nara_0064",
+    "station_name": "吉野",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.376848,
+    "lon": 135.853486
+  },
+  {
+    "station_id": "nara_0011",
+    "station_name": "吉野口",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.420704,
+    "lon": 135.750343
+  },
+  {
+    "station_id": "nara_0063",
+    "station_name": "吉野神宮",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.390191,
+    "lon": 135.848211
+  },
+  {
+    "station_id": "nara_0047",
+    "station_name": "坊城",
+    "prefecture": "奈良県",
+    "line_name": "近鉄南大阪線",
+    "lat": 34.493577,
+    "lon": 135.764876
+  },
+  {
+    "station_id": "nara_0052",
+    "station_name": "壺阪山",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.449508,
+    "lon": 135.794819
+  },
+  {
+    "station_id": "nara_0062",
+    "station_name": "大和上市",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.39572,
+    "lon": 135.845691
+  },
+  {
+    "station_id": "nara_0014",
+    "station_name": "大和二見",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.346125,
+    "lon": 135.684516
+  },
+  {
+    "station_id": "nara_0073",
+    "station_name": "大和八木",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.513208,
+    "lon": 135.791484
+  },
+  {
+    "station_id": "nara_0018",
+    "station_name": "大和小泉",
+    "prefecture": "奈良県",
+    "line_name": "JR大和路線",
+    "lat": 34.622226,
+    "lon": 135.763488
+  },
+  {
+    "station_id": "nara_0007",
+    "station_name": "大和新庄",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.488827,
+    "lon": 135.736001
+  },
+  {
+    "station_id": "nara_0077",
+    "station_name": "大和朝倉",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.51602,
+    "lon": 135.868933
+  },
+  {
+    "station_id": "nara_0039",
+    "station_name": "大和西大寺",
+    "prefecture": "奈良県",
+    "line_name": "近鉄京都線",
+    "lat": 34.69358,
+    "lon": 135.783169
+  },
+  {
+    "station_id": "nara_0070",
+    "station_name": "大和高田",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.519757,
+    "lon": 135.742264
+  },
+  {
+    "station_id": "nara_0075",
+    "station_name": "大福",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.512851,
+    "lon": 135.829756
+  },
+  {
+    "station_id": "nara_0125",
+    "station_name": "大輪田",
+    "prefecture": "奈良県",
+    "line_name": "近鉄田原本線",
+    "lat": 34.589173,
+    "lon": 135.720328
+  },
+  {
+    "station_id": "nara_0058",
+    "station_name": "大阿太",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.388359,
+    "lon": 135.766434
+  },
+  {
+    "station_id": "nara_0024",
+    "station_name": "天理",
+    "prefecture": "奈良県",
+    "line_name": "JR桜井線",
+    "lat": 34.60113,
+    "lon": 135.830283
+  },
+  {
+    "station_id": "nara_0016",
+    "station_name": "奈良",
+    "prefecture": "奈良県",
+    "line_name": "JR大和路線",
+    "lat": 34.680482,
+    "lon": 135.818935
+  },
+  {
+    "station_id": "nara_0088",
+    "station_name": "学園前(奈良)",
+    "prefecture": "奈良県",
+    "line_name": "近鉄奈良線",
+    "lat": 34.697018,
+    "lon": 135.749713
+  },
+  {
+    "station_id": "nara_0035",
+    "station_name": "学研北生駒",
+    "prefecture": "奈良県",
+    "line_name": "近鉄けいはんな線",
+    "lat": 34.724789,
+    "lon": 135.723038
+  },
+  {
+    "station_id": "nara_0036",
+    "station_name": "学研奈良登美ケ丘",
+    "prefecture": "奈良県",
+    "line_name": "近鉄けいはんな線",
+    "lat": 34.726518,
+    "lon": 135.752424
+  },
+  {
+    "station_id": "nara_0109",
+    "station_name": "宝山寺",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒ケーブル線",
+    "lat": 34.686069,
+    "lon": 135.68907
+  },
+  {
+    "station_id": "nara_0080",
+    "station_name": "室生口大野",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.566109,
+    "lon": 136.015252
+  },
+  {
+    "station_id": "nara_0087",
+    "station_name": "富雄",
+    "prefecture": "奈良県",
+    "line_name": "近鉄奈良線",
+    "lat": 34.694229,
+    "lon": 135.734825
+  },
+  {
+    "station_id": "nara_0044",
+    "station_name": "尺土",
+    "prefecture": "奈良県",
+    "line_name": "近鉄南大阪線",
+    "lat": 34.508577,
+    "lon": 135.721404
+  },
+  {
+    "station_id": "nara_0095",
+    "station_name": "尼ケ辻",
+    "prefecture": "奈良県",
+    "line_name": "近鉄橿原線",
+    "lat": 34.681109,
+    "lon": 135.783519
+  },
+  {
+    "station_id": "nara_0050",
+    "station_name": "岡寺",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.473963,
+    "lon": 135.796088
+  },
+  {
+    "station_id": "nara_0027",
+    "station_name": "巻向",
+    "prefecture": "奈良県",
+    "line_name": "JR桜井線",
+    "lat": 34.545147,
+    "lon": 135.840943
+  },
+  {
+    "station_id": "nara_0053",
+    "station_name": "市尾",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.441731,
+    "lon": 135.776488
+  },
+  {
+    "station_id": "nara_0022",
+    "station_name": "帯解",
+    "prefecture": "奈良県",
+    "line_name": "JR桜井線",
+    "lat": 34.643156,
+    "lon": 135.82621
+  },
+  {
+    "station_id": "nara_0038",
+    "station_name": "平城",
+    "prefecture": "奈良県",
+    "line_name": "近鉄京都線",
+    "lat": 34.701496,
+    "lon": 135.784524
+  },
+  {
+    "station_id": "nara_0015",
+    "station_name": "平城山",
+    "prefecture": "奈良県",
+    "line_name": "JR大和路線",
+    "lat": 34.710431,
+    "lon": 135.810252
+  },
+  {
+    "station_id": "nara_0082",
+    "station_name": "平端",
+    "prefecture": "奈良県",
+    "line_name": "近鉄天理線",
+    "lat": 34.606712,
+    "lon": 135.782804
+  },
+  {
+    "station_id": "nara_0117",
+    "station_name": "平群",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒線",
+    "lat": 34.629291,
+    "lon": 135.704345
+  },
+  {
+    "station_id": "nara_0042",
+    "station_name": "当麻寺",
+    "prefecture": "奈良県",
+    "line_name": "近鉄南大阪線",
+    "lat": 34.516412,
+    "lon": 135.705897
+  },
+  {
+    "station_id": "nara_0008",
+    "station_name": "御所",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.465102,
+    "lon": 135.733819
+  },
+  {
+    "station_id": "nara_0093",
+    "station_name": "忍海",
+    "prefecture": "奈良県",
+    "line_name": "近鉄御所線",
+    "lat": 34.476062,
+    "lon": 135.731988
+  },
+  {
+    "station_id": "nara_0003",
+    "station_name": "志都美",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.561515,
+    "lon": 135.701997
+  },
+  {
+    "station_id": "nara_0010",
+    "station_name": "掖上",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.452393,
+    "lon": 135.763127
+  },
+  {
+    "station_id": "nara_0105",
+    "station_name": "新ノ口",
+    "prefecture": "奈良県",
+    "line_name": "近鉄橿原線",
+    "lat": 34.525332,
+    "lon": 135.794631
+  },
+  {
+    "station_id": "nara_0090",
+    "station_name": "新大宮",
+    "prefecture": "奈良県",
+    "line_name": "近鉄奈良線",
+    "lat": 34.685434,
+    "lon": 135.810744
+  },
+  {
+    "station_id": "nara_0124",
+    "station_name": "新王寺",
+    "prefecture": "奈良県",
+    "line_name": "近鉄田原本線",
+    "lat": 34.597722,
+    "lon": 135.704337
+  },
+  {
+    "station_id": "nara_0119",
+    "station_name": "東山(京都)",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒線",
+    "lat": 34.648633,
+    "lon": 135.7085
+  },
+  {
+    "station_id": "nara_0086",
+    "station_name": "東生駒",
+    "prefecture": "奈良県",
+    "line_name": "近鉄奈良線",
+    "lat": 34.691729,
+    "lon": 135.710488
+  },
+  {
+    "station_id": "nara_0071",
+    "station_name": "松塚",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.520601,
+    "lon": 135.761507
+  },
+  {
+    "station_id": "nara_0026",
+    "station_name": "柳本",
+    "prefecture": "奈良県",
+    "line_name": "JR桜井線",
+    "lat": 34.55926,
+    "lon": 135.838715
+  },
+  {
+    "station_id": "nara_0029",
+    "station_name": "桜井(大阪)",
+    "prefecture": "奈良県",
+    "line_name": "JR桜井線",
+    "lat": 34.513143,
+    "lon": 135.846527
+  },
+  {
+    "station_id": "nara_0110",
+    "station_name": "梅屋敷",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒ケーブル線",
+    "lat": 34.683299,
+    "lon": 135.686967
+  },
+  {
+    "station_id": "nara_0079",
+    "station_name": "榛原",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.529887,
+    "lon": 135.954747
+  },
+  {
+    "station_id": "nara_0049",
+    "station_name": "橿原神宮前",
+    "prefecture": "奈良県",
+    "line_name": "近鉄南大阪線",
+    "lat": 34.483987,
+    "lon": 135.79434
+  },
+  {
+    "station_id": "nara_0048",
+    "station_name": "橿原神宮西口",
+    "prefecture": "奈良県",
+    "line_name": "近鉄南大阪線",
+    "lat": 34.486187,
+    "lon": 135.781372
+  },
+  {
+    "station_id": "nara_0023",
+    "station_name": "櫟本",
+    "prefecture": "奈良県",
+    "line_name": "JR桜井線",
+    "lat": 34.621058,
+    "lon": 135.826329
+  },
+  {
+    "station_id": "nara_0127",
+    "station_name": "池部",
+    "prefecture": "奈良県",
+    "line_name": "近鉄田原本線",
+    "lat": 34.578755,
+    "lon": 135.737166
+  },
+  {
+    "station_id": "nara_0019",
+    "station_name": "法隆寺",
+    "prefecture": "奈良県",
+    "line_name": "JR大和路線",
+    "lat": 34.601377,
+    "lon": 135.738604
+  },
+  {
+    "station_id": "nara_0046",
+    "station_name": "浮孔",
+    "prefecture": "奈良県",
+    "line_name": "近鉄南大阪線",
+    "lat": 34.498077,
+    "lon": 135.754749
+  },
+  {
+    "station_id": "nara_0009",
+    "station_name": "玉手",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.458467,
+    "lon": 135.748479
+  },
+  {
+    "station_id": "nara_0001",
+    "station_name": "王寺",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.597448,
+    "lon": 135.704005
+  },
+  {
+    "station_id": "nara_0033",
+    "station_name": "生駒",
+    "prefecture": "奈良県",
+    "line_name": "近鉄けいはんな線",
+    "lat": 34.693082,
+    "lon": 135.698006
+  },
+  {
+    "station_id": "nara_0112",
+    "station_name": "生駒山上",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒ケーブル線",
+    "lat": 34.679594,
+    "lon": 135.68053
+  },
+  {
+    "station_id": "nara_0103",
+    "station_name": "田原本",
+    "prefecture": "奈良県",
+    "line_name": "近鉄橿原線",
+    "lat": 34.553068,
+    "lon": 135.790837
+  },
+  {
+    "station_id": "nara_0031",
+    "station_name": "畝傍",
+    "prefecture": "奈良県",
+    "line_name": "JR桜井線",
+    "lat": 34.508209,
+    "lon": 135.794154
+  },
+  {
+    "station_id": "nara_0107",
+    "station_name": "畝傍御陵前",
+    "prefecture": "奈良県",
+    "line_name": "近鉄橿原線",
+    "lat": 34.492758,
+    "lon": 135.794254
+  },
+  {
+    "station_id": "nara_0002",
+    "station_name": "畠田",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.578427,
+    "lon": 135.703874
+  },
+  {
+    "station_id": "nara_0034",
+    "station_name": "白庭台",
+    "prefecture": "奈良県",
+    "line_name": "近鉄けいはんな線",
+    "lat": 34.720345,
+    "lon": 135.716686
+  },
+  {
+    "station_id": "nara_0072",
+    "station_name": "真菅",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.519585,
+    "lon": 135.772806
+  },
+  {
+    "station_id": "nara_0102",
+    "station_name": "石見",
+    "prefecture": "奈良県",
+    "line_name": "近鉄橿原線",
+    "lat": 34.571499,
+    "lon": 135.785765
+  },
+  {
+    "station_id": "nara_0043",
+    "station_name": "磐城",
+    "prefecture": "奈良県",
+    "line_name": "近鉄南大阪線",
+    "lat": 34.511302,
+    "lon": 135.710869
+  },
+  {
+    "station_id": "nara_0057",
+    "station_name": "福神",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.395466,
+    "lon": 135.750185
+  },
+  {
+    "station_id": "nara_0116",
+    "station_name": "竜田川",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒線",
+    "lat": 34.617272,
+    "lon": 135.704559
+  },
+  {
+    "station_id": "nara_0104",
+    "station_name": "笠縫",
+    "prefecture": "奈良県",
+    "line_name": "近鉄橿原線",
+    "lat": 34.541422,
+    "lon": 135.794076
+  },
+  {
+    "station_id": "nara_0099",
+    "station_name": "筒井(奈良)",
+    "prefecture": "奈良県",
+    "line_name": "近鉄橿原線",
+    "lat": 34.620152,
+    "lon": 135.78067
+  },
+  {
+    "station_id": "nara_0128",
+    "station_name": "箸尾",
+    "prefecture": "奈良県",
+    "line_name": "近鉄田原本線",
+    "lat": 34.570287,
+    "lon": 135.751245
+  },
+  {
+    "station_id": "nara_0069",
+    "station_name": "築山",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.526125,
+    "lon": 135.733036
+  },
+  {
+    "station_id": "nara_0101",
+    "station_name": "結崎",
+    "prefecture": "奈良県",
+    "line_name": "近鉄橿原線",
+    "lat": 34.584586,
+    "lon": 135.784782
+  },
+  {
+    "station_id": "nara_0074",
+    "station_name": "耳成",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.512409,
+    "lon": 135.815071
+  },
+  {
+    "station_id": "nara_0089",
+    "station_name": "菖蒲池",
+    "prefecture": "奈良県",
+    "line_name": "近鉄奈良線",
+    "lat": 34.69796,
+    "lon": 135.761331
+  },
+  {
+    "station_id": "nara_0123",
+    "station_name": "菜畑",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒線",
+    "lat": 34.685535,
+    "lon": 135.706769
+  },
+  {
+    "station_id": "nara_0120",
+    "station_name": "萩の台",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒線",
+    "lat": 34.656974,
+    "lon": 135.708967
+  },
+  {
+    "station_id": "nara_0054",
+    "station_name": "葛",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.431446,
+    "lon": 135.759914
+  },
+  {
+    "station_id": "nara_0056",
+    "station_name": "薬水",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.407806,
+    "lon": 135.74323
+  },
+  {
+    "station_id": "nara_0096",
+    "station_name": "西ノ京",
+    "prefecture": "奈良県",
+    "line_name": "近鉄橿原線",
+    "lat": 34.670652,
+    "lon": 135.783186
+  },
+  {
+    "station_id": "nara_0131",
+    "station_name": "西田原本",
+    "prefecture": "奈良県",
+    "line_name": "近鉄田原本線",
+    "lat": 34.553909,
+    "lon": 135.789512
+  },
+  {
+    "station_id": "nara_0060",
+    "station_name": "越部",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.38614,
+    "lon": 135.80262
+  },
+  {
+    "station_id": "nara_0067",
+    "station_name": "近鉄下田",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.541478,
+    "lon": 135.704033
+  },
+  {
+    "station_id": "nara_0091",
+    "station_name": "近鉄奈良",
+    "prefecture": "奈良県",
+    "line_name": "近鉄奈良線",
+    "lat": 34.684323,
+    "lon": 135.827472
+  },
+  {
+    "station_id": "nara_0094",
+    "station_name": "近鉄御所",
+    "prefecture": "奈良県",
+    "line_name": "近鉄御所線",
+    "lat": 34.46468,
+    "lon": 135.732496
+  },
+  {
+    "station_id": "nara_0092",
+    "station_name": "近鉄新庄",
+    "prefecture": "奈良県",
+    "line_name": "近鉄御所線",
+    "lat": 34.489105,
+    "lon": 135.727338
+  },
+  {
+    "station_id": "nara_0098",
+    "station_name": "近鉄郡山",
+    "prefecture": "奈良県",
+    "line_name": "近鉄橿原線",
+    "lat": 34.646041,
+    "lon": 135.780756
+  },
+  {
+    "station_id": "nara_0017",
+    "station_name": "郡山(奈良)",
+    "prefecture": "奈良県",
+    "line_name": "JR大和路線",
+    "lat": 34.648335,
+    "lon": 135.790441
+  },
+  {
+    "station_id": "nara_0032",
+    "station_name": "金橋",
+    "prefecture": "奈良県",
+    "line_name": "JR桜井線",
+    "lat": 34.509639,
+    "lon": 135.765401
+  },
+  {
+    "station_id": "nara_0025",
+    "station_name": "長柄",
+    "prefecture": "奈良県",
+    "line_name": "JR桜井線",
+    "lat": 34.574252,
+    "lon": 135.835021
+  },
+  {
+    "station_id": "nara_0078",
+    "station_name": "長谷寺",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.526889,
+    "lon": 135.906453
+  },
+  {
+    "station_id": "nara_0065",
+    "station_name": "関屋(奈良)",
+    "prefecture": "奈良県",
+    "line_name": "近鉄大阪線",
+    "lat": 34.553688,
+    "lon": 135.667778
+  },
+  {
+    "station_id": "nara_0111",
+    "station_name": "霞ケ丘(兵庫)",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒ケーブル線",
+    "lat": 34.681341,
+    "lon": 135.683577
+  },
+  {
+    "station_id": "nara_0051",
+    "station_name": "飛鳥",
+    "prefecture": "奈良県",
+    "line_name": "近鉄吉野線",
+    "lat": 34.464928,
+    "lon": 135.79816
+  },
+  {
+    "station_id": "nara_0030",
+    "station_name": "香久山",
+    "prefecture": "奈良県",
+    "line_name": "JR桜井線",
+    "lat": 34.510704,
+    "lon": 135.825092
+  },
+  {
+    "station_id": "nara_0004",
+    "station_name": "香芝",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.543137,
+    "lon": 135.705767
+  },
+  {
+    "station_id": "nara_0037",
+    "station_name": "高の原",
+    "prefecture": "奈良県",
+    "line_name": "近鉄京都線",
+    "lat": 34.723494,
+    "lon": 135.791839
+  },
+  {
+    "station_id": "nara_0006",
+    "station_name": "高田(奈良)",
+    "prefecture": "奈良県",
+    "line_name": "JR和歌山線",
+    "lat": 34.515916,
+    "lon": 135.745033
+  },
+  {
+    "station_id": "nara_0045",
+    "station_name": "高田市",
+    "prefecture": "奈良県",
+    "line_name": "近鉄南大阪線",
+    "lat": 34.507145,
+    "lon": 135.742119
+  },
+  {
+    "station_id": "nara_0108",
+    "station_name": "鳥居前",
+    "prefecture": "奈良県",
+    "line_name": "近鉄生駒ケーブル線",
+    "lat": 34.692439,
+    "lon": 135.696151
+  },
+  {
+    "station_id": "nara_0130",
+    "station_name": "黒田",
+    "prefecture": "奈良県",
+    "line_name": "近鉄田原本線",
+    "lat": 34.56841,
+    "lon": 135.777794
+  }
+]

@@ -1,0 +1,1916 @@
+[
+  {
+    "prefecture": "和歌山県",
+    "station": "下井阪",
+    "year": 2021,
+    "avg_price": 3400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "下井阪",
+    "year": 2022,
+    "avg_price": 4140000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "下井阪",
+    "year": 2023,
+    "avg_price": 3660000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "下井阪",
+    "year": 2024,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "下井阪",
+    "year": 2025,
+    "avg_price": 2400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "下津",
+    "year": 2021,
+    "avg_price": 6200000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "中松江",
+    "year": 2007,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "中松江",
+    "year": 2010,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "中松江",
+    "year": 2015,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "中松江",
+    "year": 2022,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "中松江",
+    "year": 2023,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "中松江",
+    "year": 2024,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "中松江",
+    "year": 2025,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "八幡前(和歌山)",
+    "year": 2008,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "八幡前(和歌山)",
+    "year": 2011,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "八幡前(和歌山)",
+    "year": 2019,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "八幡前(和歌山)",
+    "year": 2022,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "八幡前(和歌山)",
+    "year": 2024,
+    "avg_price": 5733333.333333333
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "八幡前(和歌山)",
+    "year": 2025,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2008,
+    "avg_price": 5600000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2009,
+    "avg_price": 6733333.333333333
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2010,
+    "avg_price": 2400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2012,
+    "avg_price": 3975000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2013,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2014,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2015,
+    "avg_price": 4150000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2016,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2019,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2021,
+    "avg_price": 4350000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2022,
+    "avg_price": 3400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2023,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2024,
+    "avg_price": 2350000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "六十谷",
+    "year": 2025,
+    "avg_price": 1660000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "冷水浦",
+    "year": 2021,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "冷水浦",
+    "year": 2024,
+    "avg_price": 35000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "千旦",
+    "year": 2021,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "吉礼",
+    "year": 2019,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "吉礼",
+    "year": 2023,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "周参見",
+    "year": 2021,
+    "avg_price": 4700000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "周参見",
+    "year": 2025,
+    "avg_price": 4400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2007,
+    "avg_price": 14171428.57142857
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2008,
+    "avg_price": 18015789.47368421
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2009,
+    "avg_price": 17863157.89473684
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2010,
+    "avg_price": 20894736.842105262
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2011,
+    "avg_price": 21830769.230769232
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2012,
+    "avg_price": 18005882.352941178
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2013,
+    "avg_price": 14842857.142857144
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2014,
+    "avg_price": 16864285.714285713
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2015,
+    "avg_price": 13664285.714285715
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2016,
+    "avg_price": 15916666.666666666
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2017,
+    "avg_price": 17123076.923076924
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2018,
+    "avg_price": 21020000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2019,
+    "avg_price": 18572222.222222224
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2020,
+    "avg_price": 16023529.411764706
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2021,
+    "avg_price": 17530612.244897958
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2022,
+    "avg_price": 18094230.769230768
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2023,
+    "avg_price": 19288095.23809524
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2024,
+    "avg_price": 19050000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山",
+    "year": 2025,
+    "avg_price": 21144230.769230768
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山大学前",
+    "year": 2021,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山大学前",
+    "year": 2022,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山大学前",
+    "year": 2023,
+    "avg_price": 22666666.666666668
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山大学前",
+    "year": 2024,
+    "avg_price": 27625000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山大学前",
+    "year": 2025,
+    "avg_price": 30750000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2007,
+    "avg_price": 15025000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2008,
+    "avg_price": 10192307.692307692
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2009,
+    "avg_price": 10589473.684210526
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2010,
+    "avg_price": 16550000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2011,
+    "avg_price": 16446666.666666666
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2012,
+    "avg_price": 10407142.857142856
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2013,
+    "avg_price": 11563636.363636363
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2014,
+    "avg_price": 11269230.76923077
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2015,
+    "avg_price": 11426315.789473685
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2016,
+    "avg_price": 13400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2017,
+    "avg_price": 16600000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2018,
+    "avg_price": 13446666.666666666
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2019,
+    "avg_price": 9683333.333333334
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2020,
+    "avg_price": 11526666.666666666
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2021,
+    "avg_price": 15009090.909090908
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2022,
+    "avg_price": 18406666.666666668
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2023,
+    "avg_price": 19266666.666666668
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2024,
+    "avg_price": 15992857.142857144
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山市",
+    "year": 2025,
+    "avg_price": 19420000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山港",
+    "year": 2011,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山港",
+    "year": 2017,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山港",
+    "year": 2019,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山港",
+    "year": 2021,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山港",
+    "year": 2022,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山港",
+    "year": 2023,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "和歌山港",
+    "year": 2025,
+    "avg_price": 5333333.333333333
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2007,
+    "avg_price": 12250000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2008,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2010,
+    "avg_price": 8150000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2011,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2012,
+    "avg_price": 19550000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2013,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2014,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2015,
+    "avg_price": 14933333.333333334
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2016,
+    "avg_price": 5850000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2017,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2018,
+    "avg_price": 7825000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2019,
+    "avg_price": 23260000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2020,
+    "avg_price": 12466666.666666666
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2021,
+    "avg_price": 5175000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2022,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2023,
+    "avg_price": 12033333.333333334
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2024,
+    "avg_price": 14450000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "宮前",
+    "year": 2025,
+    "avg_price": 15544444.444444444
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "岩出",
+    "year": 2021,
+    "avg_price": 5200000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "岩出",
+    "year": 2022,
+    "avg_price": 3925000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "岩出",
+    "year": 2023,
+    "avg_price": 5120000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "岩出",
+    "year": 2024,
+    "avg_price": 5075000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "岩出",
+    "year": 2025,
+    "avg_price": 4100000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2007,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2008,
+    "avg_price": 6050000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2011,
+    "avg_price": 5266666.666666667
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2012,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2013,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2014,
+    "avg_price": 3850000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2015,
+    "avg_price": 3450000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2016,
+    "avg_price": 4700000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2018,
+    "avg_price": 4533333.333333333
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2020,
+    "avg_price": 3933333.3333333335
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2021,
+    "avg_price": 4140000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2022,
+    "avg_price": 4660000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2023,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2024,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "布施屋",
+    "year": 2025,
+    "avg_price": 3940000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "日前宮",
+    "year": 2007,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "日前宮",
+    "year": 2009,
+    "avg_price": 7266666.666666667
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "日前宮",
+    "year": 2010,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "日前宮",
+    "year": 2012,
+    "avg_price": 5250000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "日前宮",
+    "year": 2015,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "日前宮",
+    "year": 2016,
+    "avg_price": 5900000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "日前宮",
+    "year": 2018,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "日前宮",
+    "year": 2022,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "日前宮",
+    "year": 2023,
+    "avg_price": 6760000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "日前宮",
+    "year": 2024,
+    "avg_price": 6666666.666666667
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "日前宮",
+    "year": 2025,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "東松江(和歌山)",
+    "year": 2008,
+    "avg_price": 6750000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "東松江(和歌山)",
+    "year": 2010,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "東松江(和歌山)",
+    "year": 2013,
+    "avg_price": 9160000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "東松江(和歌山)",
+    "year": 2014,
+    "avg_price": 5400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "東松江(和歌山)",
+    "year": 2016,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "東松江(和歌山)",
+    "year": 2017,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "東松江(和歌山)",
+    "year": 2018,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "東松江(和歌山)",
+    "year": 2019,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "東松江(和歌山)",
+    "year": 2021,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "東松江(和歌山)",
+    "year": 2022,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "東松江(和歌山)",
+    "year": 2023,
+    "avg_price": 9250000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "東松江(和歌山)",
+    "year": 2024,
+    "avg_price": 3766666.6666666665
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "東松江(和歌山)",
+    "year": 2025,
+    "avg_price": 6650000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "林間田園都市",
+    "year": 2021,
+    "avg_price": 12100000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "林間田園都市",
+    "year": 2022,
+    "avg_price": 11687500.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "林間田園都市",
+    "year": 2023,
+    "avg_price": 8633333.333333334
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "林間田園都市",
+    "year": 2024,
+    "avg_price": 7920000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "林間田園都市",
+    "year": 2025,
+    "avg_price": 11777777.777777778
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "椿",
+    "year": 2022,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "椿",
+    "year": 2023,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "椿",
+    "year": 2024,
+    "avg_price": 1600000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2007,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2008,
+    "avg_price": 12520000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2009,
+    "avg_price": 11133333.333333334
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2010,
+    "avg_price": 13285714.285714285
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2011,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2012,
+    "avg_price": 11560000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2013,
+    "avg_price": 11700000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2014,
+    "avg_price": 15166666.666666666
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2015,
+    "avg_price": 16330000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2016,
+    "avg_price": 13125000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2017,
+    "avg_price": 13893750.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2018,
+    "avg_price": 14100000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2019,
+    "avg_price": 13341176.470588235
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2020,
+    "avg_price": 18111111.111111112
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2021,
+    "avg_price": 16875000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2022,
+    "avg_price": 13666666.666666666
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2023,
+    "avg_price": 13941666.666666666
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2024,
+    "avg_price": 18590000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "海南",
+    "year": 2025,
+    "avg_price": 17640000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2008,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2009,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2010,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2011,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2012,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2013,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2015,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2016,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2017,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2018,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2020,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2021,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2022,
+    "avg_price": 4350000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2023,
+    "avg_price": 17220000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2024,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田中口",
+    "year": 2025,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田井ノ瀬",
+    "year": 2007,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田井ノ瀬",
+    "year": 2009,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田井ノ瀬",
+    "year": 2011,
+    "avg_price": 4850000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田井ノ瀬",
+    "year": 2014,
+    "avg_price": 6150000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田井ノ瀬",
+    "year": 2015,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "田井ノ瀬",
+    "year": 2021,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "白浜",
+    "year": 2023,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "白浜",
+    "year": 2024,
+    "avg_price": 3050000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "白浜",
+    "year": 2025,
+    "avg_price": 2050000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "神前(和歌山)",
+    "year": 2018,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "神前(和歌山)",
+    "year": 2024,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2008,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2009,
+    "avg_price": 6250000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2010,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2011,
+    "avg_price": 5400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2012,
+    "avg_price": 3700000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2013,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2014,
+    "avg_price": 6150000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2015,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2016,
+    "avg_price": 5112500.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2017,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2018,
+    "avg_price": 3700000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2020,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2021,
+    "avg_price": 6600000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2022,
+    "avg_price": 5400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2023,
+    "avg_price": 3983333.3333333335
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2024,
+    "avg_price": 5020000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀ノ川",
+    "year": 2025,
+    "avg_price": 3542857.1428571427
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2007,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2008,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2009,
+    "avg_price": 21260000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2010,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2011,
+    "avg_price": 13180000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2012,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2013,
+    "avg_price": 6750000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2014,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2015,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2016,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2017,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2018,
+    "avg_price": 12725000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2019,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2020,
+    "avg_price": 7600000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2021,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2022,
+    "avg_price": 10566666.666666666
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2023,
+    "avg_price": 4066666.6666666665
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2024,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀三井寺",
+    "year": 2025,
+    "avg_price": 9716666.666666666
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2008,
+    "avg_price": 5200000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2010,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2012,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2013,
+    "avg_price": 8050000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2014,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2015,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2016,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2017,
+    "avg_price": 5766666.666666667
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2019,
+    "avg_price": 5650000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2020,
+    "avg_price": 4600000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2021,
+    "avg_price": 5528571.428571428
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2022,
+    "avg_price": 5087500.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2023,
+    "avg_price": 4960000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2024,
+    "avg_price": 5260000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊",
+    "year": 2025,
+    "avg_price": 5345454.545454546
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2007,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2008,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2009,
+    "avg_price": 6450000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2011,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2012,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2015,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2016,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2017,
+    "avg_price": 7675000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2019,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2020,
+    "avg_price": 4350000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2021,
+    "avg_price": 5420000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2022,
+    "avg_price": 7820000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2023,
+    "avg_price": 7600000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2024,
+    "avg_price": 18933333.333333332
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊中ノ島",
+    "year": 2025,
+    "avg_price": 11433333.333333334
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊山田",
+    "year": 2022,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊山田",
+    "year": 2023,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊新庄",
+    "year": 2023,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊田辺",
+    "year": 2022,
+    "avg_price": 14600000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀伊田辺",
+    "year": 2024,
+    "avg_price": 5400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀和",
+    "year": 2008,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀和",
+    "year": 2010,
+    "avg_price": 12750000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀和",
+    "year": 2017,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀和",
+    "year": 2019,
+    "avg_price": 5200000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀和",
+    "year": 2021,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀和",
+    "year": 2022,
+    "avg_price": 7925000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀和",
+    "year": 2023,
+    "avg_price": 4250000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀和",
+    "year": 2024,
+    "avg_price": 5750000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "紀和",
+    "year": 2025,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "船戸",
+    "year": 2010,
+    "avg_price": 1600000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "船戸",
+    "year": 2011,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "船戸",
+    "year": 2014,
+    "avg_price": 840000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "船戸",
+    "year": 2017,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "船戸",
+    "year": 2020,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "船戸",
+    "year": 2022,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "船戸",
+    "year": 2024,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "船戸",
+    "year": 2025,
+    "avg_price": 2700000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "西ノ庄",
+    "year": 2007,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "西ノ庄",
+    "year": 2008,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "西ノ庄",
+    "year": 2009,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "西ノ庄",
+    "year": 2011,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "西ノ庄",
+    "year": 2012,
+    "avg_price": 5150000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "西ノ庄",
+    "year": 2014,
+    "avg_price": 4095000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "西ノ庄",
+    "year": 2015,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "西ノ庄",
+    "year": 2016,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "西ノ庄",
+    "year": 2017,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "西ノ庄",
+    "year": 2022,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "西ノ庄",
+    "year": 2024,
+    "avg_price": 4200000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "西ノ庄",
+    "year": 2025,
+    "avg_price": 6250000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "黒江",
+    "year": 2008,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "黒江",
+    "year": 2011,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "黒江",
+    "year": 2012,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "黒江",
+    "year": 2013,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "黒江",
+    "year": 2016,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "黒江",
+    "year": 2017,
+    "avg_price": 14800000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "黒江",
+    "year": 2018,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "黒江",
+    "year": 2019,
+    "avg_price": 8600000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "黒江",
+    "year": 2021,
+    "avg_price": 12900000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "黒江",
+    "year": 2022,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "黒江",
+    "year": 2023,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "黒江",
+    "year": 2024,
+    "avg_price": 10133333.333333334
+  },
+  {
+    "prefecture": "和歌山県",
+    "station": "黒江",
+    "year": 2025,
+    "avg_price": 22250000.0
+  }
+]

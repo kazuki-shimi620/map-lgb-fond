@@ -1,0 +1,94 @@
+{
+  "region": "regional_tohoku",
+  "modelName": "regional_tohoku_latest",
+  "modelScope": "regional",
+  "cluster": "tohoku",
+  "prefectures": [
+    "青森県",
+    "岩手県",
+    "宮城県",
+    "秋田県",
+    "山形県",
+    "福島県"
+  ],
+  "mae": 3852638.3818828245,
+  "latestTrainingYear": 2025,
+  "generatedAt": "2026-07-04",
+  "featureOrder": [
+    "area",
+    "age",
+    "station_distance",
+    "prefecture",
+    "municipality",
+    "station",
+    "room_layout",
+    "building_type",
+    "transaction_year"
+  ],
+  "evaluation": {
+    "split": "time_holdout",
+    "trainStartYear": 2005,
+    "testYear": 2025,
+    "trainCount": 26584,
+    "testCount": 2408,
+    "metrics": {
+      "mae": 3852638.3818828245,
+      "rmse": 5212047.252564658,
+      "mape": 27.954347189194024
+    }
+  },
+  "deployment": {
+    "trainStartYear": 2005,
+    "latestTrainingYear": 2025,
+    "trainCount": 28992,
+    "trainedWithAllAvailableRows": true
+  },
+  "modelParams": {
+    "objective": "regression",
+    "n_estimators": 160,
+    "learning_rate": 0.08,
+    "num_leaves": 24,
+    "max_depth": 6,
+    "min_child_samples": 80,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "featureImportance": [
+    {
+      "feature": "station",
+      "importance": 1018.0
+    },
+    {
+      "feature": "age",
+      "importance": 740.0
+    },
+    {
+      "feature": "area",
+      "importance": 472.0
+    },
+    {
+      "feature": "transaction_year",
+      "importance": 428.0
+    },
+    {
+      "feature": "station_distance",
+      "importance": 345.0
+    },
+    {
+      "feature": "room_layout",
+      "importance": 275.0
+    },
+    {
+      "feature": "municipality",
+      "importance": 167.0
+    },
+    {
+      "feature": "building_type",
+      "importance": 95.0
+    },
+    {
+      "feature": "prefecture",
+      "importance": 5.0
+    }
+  ]
+}

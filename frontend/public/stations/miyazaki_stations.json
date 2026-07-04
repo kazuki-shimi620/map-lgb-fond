@@ -1,0 +1,610 @@
+[
+  {
+    "station_id": "miyazaki_0002",
+    "station_name": "えびの",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 32.042242,
+    "lon": 130.81621
+  },
+  {
+    "station_id": "miyazaki_0003",
+    "station_name": "えびの上江",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 32.035519,
+    "lon": 130.850133
+  },
+  {
+    "station_id": "miyazaki_0004",
+    "station_name": "えびの飯野",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 32.030295,
+    "lon": 130.871178
+  },
+  {
+    "station_id": "miyazaki_0012",
+    "station_name": "万ヶ塚",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 31.817215,
+    "lon": 131.063991
+  },
+  {
+    "station_id": "miyazaki_0073",
+    "station_name": "三股",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.733794,
+    "lon": 131.119384
+  },
+  {
+    "station_id": "miyazaki_0040",
+    "station_name": "串間",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.462684,
+    "lon": 131.230448
+  },
+  {
+    "station_id": "miyazaki_0075",
+    "station_name": "五十市",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.718448,
+    "lon": 131.033833
+  },
+  {
+    "station_id": "miyazaki_0001",
+    "station_name": "京町温泉",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 32.045379,
+    "lon": 130.767911
+  },
+  {
+    "station_id": "miyazaki_0028",
+    "station_name": "伊比井",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.711069,
+    "lon": 131.456159
+  },
+  {
+    "station_id": "miyazaki_0061",
+    "station_name": "佐土原",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.022412,
+    "lon": 131.477504
+  },
+  {
+    "station_id": "miyazaki_0030",
+    "station_name": "内之田",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.642551,
+    "lon": 131.372594
+  },
+  {
+    "station_id": "miyazaki_0026",
+    "station_name": "内海",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.758508,
+    "lon": 131.46742
+  },
+  {
+    "station_id": "miyazaki_0066",
+    "station_name": "加納(宮崎)",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.876084,
+    "lon": 131.406246
+  },
+  {
+    "station_id": "miyazaki_0044",
+    "station_name": "北川",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.690558,
+    "lon": 131.697691
+  },
+  {
+    "station_id": "miyazaki_0046",
+    "station_name": "北延岡",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.630276,
+    "lon": 131.689869
+  },
+  {
+    "station_id": "miyazaki_0029",
+    "station_name": "北郷",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.678267,
+    "lon": 131.373565
+  },
+  {
+    "station_id": "miyazaki_0018",
+    "station_name": "南宮崎",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.895097,
+    "lon": 131.422329
+  },
+  {
+    "station_id": "miyazaki_0048",
+    "station_name": "南延岡",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.559272,
+    "lon": 131.676829
+  },
+  {
+    "station_id": "miyazaki_0019",
+    "station_name": "南方",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.859592,
+    "lon": 131.434378
+  },
+  {
+    "station_id": "miyazaki_0054",
+    "station_name": "南日向",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.369867,
+    "lon": 131.627784
+  },
+  {
+    "station_id": "miyazaki_0035",
+    "station_name": "南郷",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.535927,
+    "lon": 131.372157
+  },
+  {
+    "station_id": "miyazaki_0050",
+    "station_name": "土々呂",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.507832,
+    "lon": 131.675009
+  },
+  {
+    "station_id": "miyazaki_0034",
+    "station_name": "大堂津",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.556897,
+    "lon": 131.382093
+  },
+  {
+    "station_id": "miyazaki_0023",
+    "station_name": "子供の国",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.807394,
+    "lon": 131.457005
+  },
+  {
+    "station_id": "miyazaki_0065",
+    "station_name": "宮崎",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.915742,
+    "lon": 131.431975
+  },
+  {
+    "station_id": "miyazaki_0064",
+    "station_name": "宮崎神宮",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.938067,
+    "lon": 131.430223
+  },
+  {
+    "station_id": "miyazaki_0017",
+    "station_name": "宮崎空港",
+    "prefecture": "宮崎県",
+    "line_name": "JR宮崎空港線",
+    "lat": 31.872471,
+    "lon": 131.440425
+  },
+  {
+    "station_id": "miyazaki_0027",
+    "station_name": "小内海",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.737838,
+    "lon": 131.466127
+  },
+  {
+    "station_id": "miyazaki_0006",
+    "station_name": "小林",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 31.990749,
+    "lon": 130.976132
+  },
+  {
+    "station_id": "miyazaki_0071",
+    "station_name": "山之口",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.782582,
+    "lon": 131.152735
+  },
+  {
+    "station_id": "miyazaki_0058",
+    "station_name": "川南",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.192224,
+    "lon": 131.553321
+  },
+  {
+    "station_id": "miyazaki_0043",
+    "station_name": "市棚",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.728336,
+    "lon": 131.710255
+  },
+  {
+    "station_id": "miyazaki_0007",
+    "station_name": "広原",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 31.957766,
+    "lon": 130.984877
+  },
+  {
+    "station_id": "miyazaki_0047",
+    "station_name": "延岡",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.589944,
+    "lon": 131.672442
+  },
+  {
+    "station_id": "miyazaki_0025",
+    "station_name": "折生迫",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.789357,
+    "lon": 131.467477
+  },
+  {
+    "station_id": "miyazaki_0032",
+    "station_name": "日南",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.603076,
+    "lon": 131.381267
+  },
+  {
+    "station_id": "miyazaki_0062",
+    "station_name": "日向住吉",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.991244,
+    "lon": 131.457986
+  },
+  {
+    "station_id": "miyazaki_0009",
+    "station_name": "日向前田",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 31.908605,
+    "lon": 131.040386
+  },
+  {
+    "station_id": "miyazaki_0039",
+    "station_name": "日向北方",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.483037,
+    "lon": 131.24318
+  },
+  {
+    "station_id": "miyazaki_0038",
+    "station_name": "日向大束",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.510584,
+    "lon": 131.248745
+  },
+  {
+    "station_id": "miyazaki_0052",
+    "station_name": "日向市",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.4258,
+    "lon": 131.62784
+  },
+  {
+    "station_id": "miyazaki_0014",
+    "station_name": "日向庄内",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 31.762056,
+    "lon": 131.06156
+  },
+  {
+    "station_id": "miyazaki_0060",
+    "station_name": "日向新富",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.072479,
+    "lon": 131.501627
+  },
+  {
+    "station_id": "miyazaki_0068",
+    "station_name": "日向沓掛",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.842241,
+    "lon": 131.344763
+  },
+  {
+    "station_id": "miyazaki_0045",
+    "station_name": "日向長井",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.664325,
+    "lon": 131.700156
+  },
+  {
+    "station_id": "miyazaki_0049",
+    "station_name": "旭ヶ丘",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.52812,
+    "lon": 131.681386
+  },
+  {
+    "station_id": "miyazaki_0022",
+    "station_name": "曽山寺",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.813401,
+    "lon": 131.448309
+  },
+  {
+    "station_id": "miyazaki_0020",
+    "station_name": "木花",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.831544,
+    "lon": 131.43679
+  },
+  {
+    "station_id": "miyazaki_0056",
+    "station_name": "東都農",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.290109,
+    "lon": 131.582054
+  },
+  {
+    "station_id": "miyazaki_0011",
+    "station_name": "東高崎",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 31.840946,
+    "lon": 131.064998
+  },
+  {
+    "station_id": "miyazaki_0037",
+    "station_name": "榎原",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.534688,
+    "lon": 131.306526
+  },
+  {
+    "station_id": "miyazaki_0033",
+    "station_name": "油津",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.586883,
+    "lon": 131.396169
+  },
+  {
+    "station_id": "miyazaki_0067",
+    "station_name": "清武",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.859418,
+    "lon": 131.38931
+  },
+  {
+    "station_id": "miyazaki_0016",
+    "station_name": "田吉",
+    "prefecture": "宮崎県",
+    "line_name": "JR宮崎空港線",
+    "lat": 31.878202,
+    "lon": 131.430697
+  },
+  {
+    "station_id": "miyazaki_0069",
+    "station_name": "田野",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.838438,
+    "lon": 131.304255
+  },
+  {
+    "station_id": "miyazaki_0076",
+    "station_name": "真幸",
+    "prefecture": "宮崎県",
+    "line_name": "JR肥薩線",
+    "lat": 32.074544,
+    "lon": 130.72914
+  },
+  {
+    "station_id": "miyazaki_0041",
+    "station_name": "福島今町",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.456906,
+    "lon": 131.20333
+  },
+  {
+    "station_id": "miyazaki_0042",
+    "station_name": "福島高松",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.458619,
+    "lon": 131.178301
+  },
+  {
+    "station_id": "miyazaki_0055",
+    "station_name": "美々津",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.325892,
+    "lon": 131.602279
+  },
+  {
+    "station_id": "miyazaki_0063",
+    "station_name": "蓮ケ池",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.960113,
+    "lon": 131.442802
+  },
+  {
+    "station_id": "miyazaki_0005",
+    "station_name": "西小林",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 32.009409,
+    "lon": 130.921829
+  },
+  {
+    "station_id": "miyazaki_0074",
+    "station_name": "西都城",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.723381,
+    "lon": 131.057027
+  },
+  {
+    "station_id": "miyazaki_0036",
+    "station_name": "谷之口",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.533372,
+    "lon": 131.344615
+  },
+  {
+    "station_id": "miyazaki_0013",
+    "station_name": "谷頭",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 31.789348,
+    "lon": 131.053901
+  },
+  {
+    "station_id": "miyazaki_0053",
+    "station_name": "財光寺",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.405654,
+    "lon": 131.627602
+  },
+  {
+    "station_id": "miyazaki_0021",
+    "station_name": "運動公園",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.819678,
+    "lon": 131.442629
+  },
+  {
+    "station_id": "miyazaki_0015",
+    "station_name": "都城",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 31.73657,
+    "lon": 131.073992
+  },
+  {
+    "station_id": "miyazaki_0057",
+    "station_name": "都農",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.251084,
+    "lon": 131.568429
+  },
+  {
+    "station_id": "miyazaki_0051",
+    "station_name": "門川",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.477381,
+    "lon": 131.653972
+  },
+  {
+    "station_id": "miyazaki_0070",
+    "station_name": "青井岳",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.827922,
+    "lon": 131.218153
+  },
+  {
+    "station_id": "miyazaki_0024",
+    "station_name": "青島",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.799801,
+    "lon": 131.467121
+  },
+  {
+    "station_id": "miyazaki_0031",
+    "station_name": "飫肥",
+    "prefecture": "宮崎県",
+    "line_name": "JR日南線",
+    "lat": 31.627216,
+    "lon": 131.361506
+  },
+  {
+    "station_id": "miyazaki_0072",
+    "station_name": "餅原",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 31.757094,
+    "lon": 131.132508
+  },
+  {
+    "station_id": "miyazaki_0008",
+    "station_name": "高原",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 31.926899,
+    "lon": 130.999012
+  },
+  {
+    "station_id": "miyazaki_0010",
+    "station_name": "高崎新田",
+    "prefecture": "宮崎県",
+    "line_name": "JR吉都線",
+    "lat": 31.875693,
+    "lon": 131.062669
+  },
+  {
+    "station_id": "miyazaki_0059",
+    "station_name": "高鍋",
+    "prefecture": "宮崎県",
+    "line_name": "JR日豊本線",
+    "lat": 32.122866,
+    "lon": 131.533927
+  }
+]

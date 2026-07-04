@@ -1,0 +1,626 @@
+[
+  {
+    "station_id": "saga_0056",
+    "station_name": "けやき台",
+    "prefecture": "佐賀県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.434537,
+    "lon": 130.533392
+  },
+  {
+    "station_id": "saga_0046",
+    "station_name": "バルーンさが",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.257795,
+    "lon": 130.248942
+  },
+  {
+    "station_id": "saga_0061",
+    "station_name": "三代橋",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.188949,
+    "lon": 129.866336
+  },
+  {
+    "station_id": "saga_0007",
+    "station_name": "三間坂",
+    "prefecture": "佐賀県",
+    "line_name": "JR佐世保線",
+    "lat": 33.194722,
+    "lon": 129.947798
+  },
+  {
+    "station_id": "saga_0035",
+    "station_name": "上伊万里",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥西線",
+    "lat": 33.270066,
+    "lon": 129.892515
+  },
+  {
+    "station_id": "saga_0008",
+    "station_name": "上有田",
+    "prefecture": "佐賀県",
+    "line_name": "JR佐世保線",
+    "lat": 33.190286,
+    "lon": 129.905404
+  },
+  {
+    "station_id": "saga_0040",
+    "station_name": "中原",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.346241,
+    "lon": 130.440046
+  },
+  {
+    "station_id": "saga_0013",
+    "station_name": "中多久",
+    "prefecture": "佐賀県",
+    "line_name": "JR唐津線",
+    "lat": 33.28336,
+    "lon": 130.112308
+  },
+  {
+    "station_id": "saga_0010",
+    "station_name": "久保田",
+    "prefecture": "佐賀県",
+    "line_name": "JR唐津線",
+    "lat": 33.255717,
+    "lon": 130.229594
+  },
+  {
+    "station_id": "saga_0075",
+    "station_name": "久原",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.313973,
+    "lon": 129.811763
+  },
+  {
+    "station_id": "saga_0036",
+    "station_name": "伊万里",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥西線",
+    "lat": 33.271852,
+    "lon": 129.876718
+  },
+  {
+    "station_id": "saga_0043",
+    "station_name": "伊賀屋",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.290195,
+    "lon": 130.336753
+  },
+  {
+    "station_id": "saga_0044",
+    "station_name": "佐賀",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.264212,
+    "lon": 130.297608
+  },
+  {
+    "station_id": "saga_0029",
+    "station_name": "佐里",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥西線",
+    "lat": 33.337476,
+    "lon": 129.978545
+  },
+  {
+    "station_id": "saga_0003",
+    "station_name": "北方(福岡)",
+    "prefecture": "佐賀県",
+    "line_name": "JR佐世保線",
+    "lat": 33.21625,
+    "lon": 130.083206
+  },
+  {
+    "station_id": "saga_0015",
+    "station_name": "厳木",
+    "prefecture": "佐賀県",
+    "line_name": "JR唐津線",
+    "lat": 33.323451,
+    "lon": 130.060148
+  },
+  {
+    "station_id": "saga_0041",
+    "station_name": "吉野ケ里公園",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.324917,
+    "lon": 130.399553
+  },
+  {
+    "station_id": "saga_0026",
+    "station_name": "和多田",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.437048,
+    "lon": 129.980616
+  },
+  {
+    "station_id": "saga_0021",
+    "station_name": "唐津",
+    "prefecture": "佐賀県",
+    "line_name": "JR唐津線",
+    "lat": 33.446038,
+    "lon": 129.96835
+  },
+  {
+    "station_id": "saga_0057",
+    "station_name": "基山",
+    "prefecture": "佐賀県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.420945,
+    "lon": 130.532365
+  },
+  {
+    "station_id": "saga_0014",
+    "station_name": "多久",
+    "prefecture": "佐賀県",
+    "line_name": "JR唐津線",
+    "lat": 33.28838,
+    "lon": 130.096195
+  },
+  {
+    "station_id": "saga_0054",
+    "station_name": "多良",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.02524,
+    "lon": 130.176049
+  },
+  {
+    "station_id": "saga_0031",
+    "station_name": "大川野",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥西線",
+    "lat": 33.307298,
+    "lon": 129.976724
+  },
+  {
+    "station_id": "saga_0065",
+    "station_name": "大木",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.221615,
+    "lon": 129.850119
+  },
+  {
+    "station_id": "saga_0002",
+    "station_name": "大町",
+    "prefecture": "佐賀県",
+    "line_name": "JR佐世保線",
+    "lat": 33.212462,
+    "lon": 130.106398
+  },
+  {
+    "station_id": "saga_0067",
+    "station_name": "夫婦石",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.236927,
+    "lon": 129.850502
+  },
+  {
+    "station_id": "saga_0011",
+    "station_name": "小城",
+    "prefecture": "佐賀県",
+    "line_name": "JR唐津線",
+    "lat": 33.285749,
+    "lon": 130.198679
+  },
+  {
+    "station_id": "saga_0019",
+    "station_name": "山本(佐賀)",
+    "prefecture": "佐賀県",
+    "line_name": "JR唐津線",
+    "lat": 33.393472,
+    "lon": 129.981122
+  },
+  {
+    "station_id": "saga_0066",
+    "station_name": "山谷",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.2293,
+    "lon": 129.849353
+  },
+  {
+    "station_id": "saga_0016",
+    "station_name": "岩屋",
+    "prefecture": "佐賀県",
+    "line_name": "JR唐津線",
+    "lat": 33.330775,
+    "lon": 130.038436
+  },
+  {
+    "station_id": "saga_0069",
+    "station_name": "川東",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.267329,
+    "lon": 129.863812
+  },
+  {
+    "station_id": "saga_0058",
+    "station_name": "弥生が丘",
+    "prefecture": "佐賀県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.401944,
+    "lon": 130.528514
+  },
+  {
+    "station_id": "saga_0038",
+    "station_name": "新鳥栖",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.370278,
+    "lon": 130.491111
+  },
+  {
+    "station_id": "saga_0009",
+    "station_name": "有田",
+    "prefecture": "佐賀県",
+    "line_name": "JR佐世保線",
+    "lat": 33.183779,
+    "lon": 129.881787
+  },
+  {
+    "station_id": "saga_0018",
+    "station_name": "本牟田部",
+    "prefecture": "佐賀県",
+    "line_name": "JR唐津線",
+    "lat": 33.372266,
+    "lon": 129.996529
+  },
+  {
+    "station_id": "saga_0025",
+    "station_name": "東唐津",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.439409,
+    "lon": 129.996876
+  },
+  {
+    "station_id": "saga_0012",
+    "station_name": "東多久",
+    "prefecture": "佐賀県",
+    "line_name": "JR唐津線",
+    "lat": 33.285418,
+    "lon": 130.143188
+  },
+  {
+    "station_id": "saga_0071",
+    "station_name": "東山代",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.277964,
+    "lon": 129.846041
+  },
+  {
+    "station_id": "saga_0033",
+    "station_name": "桃川",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥西線",
+    "lat": 33.271809,
+    "lon": 129.956683
+  },
+  {
+    "station_id": "saga_0073",
+    "station_name": "楠久",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.291426,
+    "lon": 129.826696
+  },
+  {
+    "station_id": "saga_0005",
+    "station_name": "武雄温泉",
+    "prefecture": "佐賀県",
+    "line_name": "JR佐世保線",
+    "lat": 33.196151,
+    "lon": 130.022322
+  },
+  {
+    "station_id": "saga_0006",
+    "station_name": "永尾",
+    "prefecture": "佐賀県",
+    "line_name": "JR佐世保線",
+    "lat": 33.193439,
+    "lon": 129.980476
+  },
+  {
+    "station_id": "saga_0001",
+    "station_name": "江北",
+    "prefecture": "佐賀県",
+    "line_name": "JR佐世保線",
+    "lat": 33.21919,
+    "lon": 130.160858
+  },
+  {
+    "station_id": "saga_0076",
+    "station_name": "波瀬",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.323013,
+    "lon": 129.807296
+  },
+  {
+    "station_id": "saga_0023",
+    "station_name": "浜崎",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.446871,
+    "lon": 130.037369
+  },
+  {
+    "station_id": "saga_0077",
+    "station_name": "浦ノ崎",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.335287,
+    "lon": 129.792524
+  },
+  {
+    "station_id": "saga_0047",
+    "station_name": "牛津",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.247859,
+    "lon": 130.201016
+  },
+  {
+    "station_id": "saga_0059",
+    "station_name": "田代",
+    "prefecture": "佐賀県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.384007,
+    "lon": 130.524496
+  },
+  {
+    "station_id": "saga_0017",
+    "station_name": "相知",
+    "prefecture": "佐賀県",
+    "line_name": "JR唐津線",
+    "lat": 33.347012,
+    "lon": 130.019337
+  },
+  {
+    "station_id": "saga_0042",
+    "station_name": "神埼",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.315851,
+    "lon": 130.374446
+  },
+  {
+    "station_id": "saga_0078",
+    "station_name": "福島口",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.338083,
+    "lon": 129.790271
+  },
+  {
+    "station_id": "saga_0080",
+    "station_name": "立野",
+    "prefecture": "佐賀県",
+    "line_name": "甘木鉄道甘木線",
+    "lat": 33.412412,
+    "lon": 130.539573
+  },
+  {
+    "station_id": "saga_0052",
+    "station_name": "肥前七浦",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.070931,
+    "lon": 130.145245
+  },
+  {
+    "station_id": "saga_0027",
+    "station_name": "肥前久保",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥西線",
+    "lat": 33.355738,
+    "lon": 130.000104
+  },
+  {
+    "station_id": "saga_0055",
+    "station_name": "肥前大浦",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 32.975043,
+    "lon": 130.207159
+  },
+  {
+    "station_id": "saga_0060",
+    "station_name": "肥前旭",
+    "prefecture": "佐賀県",
+    "line_name": "JR鹿児島本線",
+    "lat": 33.350237,
+    "lon": 130.495981
+  },
+  {
+    "station_id": "saga_0051",
+    "station_name": "肥前浜",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.095103,
+    "lon": 130.117079
+  },
+  {
+    "station_id": "saga_0048",
+    "station_name": "肥前白石",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.186679,
+    "lon": 130.135952
+  },
+  {
+    "station_id": "saga_0049",
+    "station_name": "肥前竜王",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.146663,
+    "lon": 130.12042
+  },
+  {
+    "station_id": "saga_0032",
+    "station_name": "肥前長野",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥西線",
+    "lat": 33.29571,
+    "lon": 129.971033
+  },
+  {
+    "station_id": "saga_0053",
+    "station_name": "肥前飯田",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.055701,
+    "lon": 130.158754
+  },
+  {
+    "station_id": "saga_0050",
+    "station_name": "肥前鹿島",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.114445,
+    "lon": 130.097805
+  },
+  {
+    "station_id": "saga_0039",
+    "station_name": "肥前麓",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.36578,
+    "lon": 130.477499
+  },
+  {
+    "station_id": "saga_0063",
+    "station_name": "蔵宿",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.201898,
+    "lon": 129.850559
+  },
+  {
+    "station_id": "saga_0024",
+    "station_name": "虹ノ松原",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥東線",
+    "lat": 33.441035,
+    "lon": 130.016271
+  },
+  {
+    "station_id": "saga_0022",
+    "station_name": "西唐津",
+    "prefecture": "佐賀県",
+    "line_name": "JR唐津線",
+    "lat": 33.46142,
+    "lon": 129.957748
+  },
+  {
+    "station_id": "saga_0064",
+    "station_name": "西有田",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.208839,
+    "lon": 129.8502
+  },
+  {
+    "station_id": "saga_0028",
+    "station_name": "西相知",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥西線",
+    "lat": 33.347686,
+    "lon": 129.99053
+  },
+  {
+    "station_id": "saga_0072",
+    "station_name": "里",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.284513,
+    "lon": 129.835906
+  },
+  {
+    "station_id": "saga_0068",
+    "station_name": "金武",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.251856,
+    "lon": 129.854519
+  },
+  {
+    "station_id": "saga_0034",
+    "station_name": "金石原",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥西線",
+    "lat": 33.265354,
+    "lon": 129.935012
+  },
+  {
+    "station_id": "saga_0045",
+    "station_name": "鍋島",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.259062,
+    "lon": 130.265702
+  },
+  {
+    "station_id": "saga_0030",
+    "station_name": "駒鳴",
+    "prefecture": "佐賀県",
+    "line_name": "JR筑肥西線",
+    "lat": 33.319455,
+    "lon": 129.972469
+  },
+  {
+    "station_id": "saga_0004",
+    "station_name": "高橋",
+    "prefecture": "佐賀県",
+    "line_name": "JR佐世保線",
+    "lat": 33.2081,
+    "lon": 130.042315
+  },
+  {
+    "station_id": "saga_0020",
+    "station_name": "鬼塚",
+    "prefecture": "佐賀県",
+    "line_name": "JR唐津線",
+    "lat": 33.421166,
+    "lon": 129.987138
+  },
+  {
+    "station_id": "saga_0037",
+    "station_name": "鳥栖",
+    "prefecture": "佐賀県",
+    "line_name": "JR長崎本線",
+    "lat": 33.373864,
+    "lon": 130.519374
+  },
+  {
+    "station_id": "saga_0074",
+    "station_name": "鳴石",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.299447,
+    "lon": 129.816699
+  },
+  {
+    "station_id": "saga_0062",
+    "station_name": "黒川",
+    "prefecture": "佐賀県",
+    "line_name": "松浦鉄道",
+    "lat": 33.195093,
+    "lon": 129.85542
+  }
+]

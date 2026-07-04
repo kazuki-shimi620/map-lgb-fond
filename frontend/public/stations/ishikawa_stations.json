@@ -1,0 +1,578 @@
+[
+  {
+    "station_id": "ishikawa_0028",
+    "station_name": "七ツ屋",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道浅野川線",
+    "lat": 36.583108,
+    "lon": 136.651752
+  },
+  {
+    "station_id": "ishikawa_0019",
+    "station_name": "七尾",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 37.041613,
+    "lon": 136.964501
+  },
+  {
+    "station_id": "ishikawa_0033",
+    "station_name": "三ツ屋",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道浅野川線",
+    "lat": 36.611941,
+    "lon": 136.645538
+  },
+  {
+    "station_id": "ishikawa_0032",
+    "station_name": "三口",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道浅野川線",
+    "lat": 36.606572,
+    "lon": 136.647579
+  },
+  {
+    "station_id": "ishikawa_0029",
+    "station_name": "上諸江",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道浅野川線",
+    "lat": 36.590835,
+    "lon": 136.648941
+  },
+  {
+    "station_id": "ishikawa_0002",
+    "station_name": "中津幡",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.67156,
+    "lon": 136.740279
+  },
+  {
+    "station_id": "ishikawa_0047",
+    "station_name": "乙丸",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.511853,
+    "lon": 136.617681
+  },
+  {
+    "station_id": "ishikawa_0052",
+    "station_name": "井口",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.476282,
+    "lon": 136.612307
+  },
+  {
+    "station_id": "ishikawa_0059",
+    "station_name": "倶利伽羅",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.672489,
+    "lon": 136.791605
+  },
+  {
+    "station_id": "ishikawa_0008",
+    "station_name": "免田",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.795806,
+    "lon": 136.747581
+  },
+  {
+    "station_id": "ishikawa_0038",
+    "station_name": "内灘",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道浅野川線",
+    "lat": 36.63336,
+    "lon": 136.63416
+  },
+  {
+    "station_id": "ishikawa_0031",
+    "station_name": "割出",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道浅野川線",
+    "lat": 36.602619,
+    "lon": 136.648474
+  },
+  {
+    "station_id": "ishikawa_0056",
+    "station_name": "加賀温泉",
+    "prefecture": "石川県",
+    "line_name": "北陸新幹線",
+    "lat": 36.320562,
+    "lon": 136.350337
+  },
+  {
+    "station_id": "ishikawa_0066",
+    "station_name": "加賀笠間",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.502935,
+    "lon": 136.527434
+  },
+  {
+    "station_id": "ishikawa_0072",
+    "station_name": "動橋",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.328428,
+    "lon": 136.383027
+  },
+  {
+    "station_id": "ishikawa_0027",
+    "station_name": "北鉄金沢",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道浅野川線",
+    "lat": 36.578637,
+    "lon": 136.649524
+  },
+  {
+    "station_id": "ishikawa_0035",
+    "station_name": "北間",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道浅野川線",
+    "lat": 36.622625,
+    "lon": 136.641265
+  },
+  {
+    "station_id": "ishikawa_0013",
+    "station_name": "千路",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.928139,
+    "lon": 136.801195
+  },
+  {
+    "station_id": "ishikawa_0011",
+    "station_name": "南羽咋",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.870324,
+    "lon": 136.774631
+  },
+  {
+    "station_id": "ishikawa_0020",
+    "station_name": "和倉温泉",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 37.074663,
+    "lon": 136.925884
+  },
+  {
+    "station_id": "ishikawa_0048",
+    "station_name": "四十万",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.498879,
+    "lon": 136.615684
+  },
+  {
+    "station_id": "ishikawa_0034",
+    "station_name": "大河端",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道浅野川線",
+    "lat": 36.616701,
+    "lon": 136.643368
+  },
+  {
+    "station_id": "ishikawa_0073",
+    "station_name": "大聖寺",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.300311,
+    "lon": 136.314205
+  },
+  {
+    "station_id": "ishikawa_0005",
+    "station_name": "宇野気",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.722795,
+    "lon": 136.70306
+  },
+  {
+    "station_id": "ishikawa_0009",
+    "station_name": "宝達",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.819875,
+    "lon": 136.762229
+  },
+  {
+    "station_id": "ishikawa_0057",
+    "station_name": "小松",
+    "prefecture": "石川県",
+    "line_name": "北陸新幹線",
+    "lat": 36.402545,
+    "lon": 136.452926
+  },
+  {
+    "station_id": "ishikawa_0053",
+    "station_name": "小柳",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.470639,
+    "lon": 136.611466
+  },
+  {
+    "station_id": "ishikawa_0068",
+    "station_name": "小舞子",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.476371,
+    "lon": 136.474925
+  },
+  {
+    "station_id": "ishikawa_0018",
+    "station_name": "徳田",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 37.007449,
+    "lon": 136.930295
+  },
+  {
+    "station_id": "ishikawa_0042",
+    "station_name": "押野",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.541805,
+    "lon": 136.622114
+  },
+  {
+    "station_id": "ishikawa_0010",
+    "station_name": "敷浪",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.848094,
+    "lon": 136.773455
+  },
+  {
+    "station_id": "ishikawa_0041",
+    "station_name": "新西金沢",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.553067,
+    "lon": 136.622688
+  },
+  {
+    "station_id": "ishikawa_0054",
+    "station_name": "日御子",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.46479,
+    "lon": 136.615199
+  },
+  {
+    "station_id": "ishikawa_0070",
+    "station_name": "明峰",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.425302,
+    "lon": 136.463114
+  },
+  {
+    "station_id": "ishikawa_0050",
+    "station_name": "曽谷",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.490028,
+    "lon": 136.614407
+  },
+  {
+    "station_id": "ishikawa_0003",
+    "station_name": "本津幡",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.676673,
+    "lon": 136.732202
+  },
+  {
+    "station_id": "ishikawa_0061",
+    "station_name": "東金沢",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.593652,
+    "lon": 136.669806
+  },
+  {
+    "station_id": "ishikawa_0064",
+    "station_name": "松任",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.526706,
+    "lon": 136.566205
+  },
+  {
+    "station_id": "ishikawa_0060",
+    "station_name": "森本",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.612144,
+    "lon": 136.689489
+  },
+  {
+    "station_id": "ishikawa_0006",
+    "station_name": "横山",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.747739,
+    "lon": 136.71685
+  },
+  {
+    "station_id": "ishikawa_0001",
+    "station_name": "津幡",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.657895,
+    "lon": 136.730759
+  },
+  {
+    "station_id": "ishikawa_0021",
+    "station_name": "田鶴浜",
+    "prefecture": "石川県",
+    "line_name": "のと鉄道七尾線",
+    "lat": 37.065719,
+    "lon": 136.891193
+  },
+  {
+    "station_id": "ishikawa_0030",
+    "station_name": "磯部",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道浅野川線",
+    "lat": 36.596554,
+    "lon": 136.648313
+  },
+  {
+    "station_id": "ishikawa_0026",
+    "station_name": "穴水",
+    "prefecture": "石川県",
+    "line_name": "のと鉄道七尾線",
+    "lat": 37.228015,
+    "lon": 136.904592
+  },
+  {
+    "station_id": "ishikawa_0022",
+    "station_name": "笠師保",
+    "prefecture": "石川県",
+    "line_name": "のと鉄道七尾線",
+    "lat": 37.079288,
+    "lon": 136.857587
+  },
+  {
+    "station_id": "ishikawa_0037",
+    "station_name": "粟ケ崎",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道浅野川線",
+    "lat": 36.630224,
+    "lon": 136.638149
+  },
+  {
+    "station_id": "ishikawa_0071",
+    "station_name": "粟津(石川)",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.35575,
+    "lon": 136.424544
+  },
+  {
+    "station_id": "ishikawa_0067",
+    "station_name": "美川",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.486001,
+    "lon": 136.489205
+  },
+  {
+    "station_id": "ishikawa_0012",
+    "station_name": "羽咋",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.897073,
+    "lon": 136.783332
+  },
+  {
+    "station_id": "ishikawa_0004",
+    "station_name": "能瀬",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.693152,
+    "lon": 136.719898
+  },
+  {
+    "station_id": "ishikawa_0023",
+    "station_name": "能登中島",
+    "prefecture": "石川県",
+    "line_name": "のと鉄道七尾線",
+    "lat": 37.109174,
+    "lon": 136.853339
+  },
+  {
+    "station_id": "ishikawa_0017",
+    "station_name": "能登二宮",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.984824,
+    "lon": 136.917389
+  },
+  {
+    "station_id": "ishikawa_0015",
+    "station_name": "能登部",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.960867,
+    "lon": 136.869403
+  },
+  {
+    "station_id": "ishikawa_0025",
+    "station_name": "能登鹿島",
+    "prefecture": "石川県",
+    "line_name": "のと鉄道七尾線",
+    "lat": 37.179723,
+    "lon": 136.897879
+  },
+  {
+    "station_id": "ishikawa_0069",
+    "station_name": "能美根上",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.452053,
+    "lon": 136.459721
+  },
+  {
+    "station_id": "ishikawa_0016",
+    "station_name": "良川",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.976662,
+    "lon": 136.894628
+  },
+  {
+    "station_id": "ishikawa_0036",
+    "station_name": "蚊爪",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道浅野川線",
+    "lat": 36.625886,
+    "lon": 136.64319
+  },
+  {
+    "station_id": "ishikawa_0024",
+    "station_name": "西岸",
+    "prefecture": "石川県",
+    "line_name": "のと鉄道七尾線",
+    "lat": 37.147604,
+    "lon": 136.87443
+  },
+  {
+    "station_id": "ishikawa_0065",
+    "station_name": "西松任",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.51777,
+    "lon": 136.549049
+  },
+  {
+    "station_id": "ishikawa_0040",
+    "station_name": "西泉",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.553445,
+    "lon": 136.633524
+  },
+  {
+    "station_id": "ishikawa_0062",
+    "station_name": "西金沢",
+    "prefecture": "石川県",
+    "line_name": "IRいしかわ鉄道線",
+    "lat": 36.553212,
+    "lon": 136.621225
+  },
+  {
+    "station_id": "ishikawa_0051",
+    "station_name": "道法寺",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.484315,
+    "lon": 136.613535
+  },
+  {
+    "station_id": "ishikawa_0043",
+    "station_name": "野々市(北陸)",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.536459,
+    "lon": 136.620891
+  },
+  {
+    "station_id": "ishikawa_0044",
+    "station_name": "野々市工大前",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.532336,
+    "lon": 136.621767
+  },
+  {
+    "station_id": "ishikawa_0039",
+    "station_name": "野町",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.553779,
+    "lon": 136.644309
+  },
+  {
+    "station_id": "ishikawa_0014",
+    "station_name": "金丸",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.943344,
+    "lon": 136.835874
+  },
+  {
+    "station_id": "ishikawa_0058",
+    "station_name": "金沢",
+    "prefecture": "石川県",
+    "line_name": "北陸新幹線",
+    "lat": 36.578117,
+    "lon": 136.648166
+  },
+  {
+    "station_id": "ishikawa_0049",
+    "station_name": "陽羽里",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.493628,
+    "lon": 136.614869
+  },
+  {
+    "station_id": "ishikawa_0046",
+    "station_name": "額住宅前",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.518507,
+    "lon": 136.618851
+  },
+  {
+    "station_id": "ishikawa_0045",
+    "station_name": "馬替",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.522935,
+    "lon": 136.620576
+  },
+  {
+    "station_id": "ishikawa_0007",
+    "station_name": "高松",
+    "prefecture": "石川県",
+    "line_name": "JR七尾線",
+    "lat": 36.768541,
+    "lon": 136.728823
+  },
+  {
+    "station_id": "ishikawa_0055",
+    "station_name": "鶴来",
+    "prefecture": "石川県",
+    "line_name": "北陸鉄道石川線",
+    "lat": 36.452178,
+    "lon": 136.623818
+  }
+]

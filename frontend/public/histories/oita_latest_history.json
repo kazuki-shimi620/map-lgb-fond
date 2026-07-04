@@ -1,0 +1,1688 @@
+[
+  {
+    "prefecture": "大分県",
+    "station": "上臼杵",
+    "year": 2022,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "中津(大分)",
+    "year": 2021,
+    "avg_price": 11750000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "中津(大分)",
+    "year": 2022,
+    "avg_price": 12400000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "中津(大分)",
+    "year": 2023,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "中津(大分)",
+    "year": 2024,
+    "avg_price": 17375000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "中津(大分)",
+    "year": 2025,
+    "avg_price": 10250000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2007,
+    "avg_price": 5866666.666666667
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2008,
+    "avg_price": 7250000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2009,
+    "avg_price": 9650000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2011,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2012,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2013,
+    "avg_price": 8166666.666666667
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2014,
+    "avg_price": 5650000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2017,
+    "avg_price": 8920000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2018,
+    "avg_price": 4650000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2019,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2020,
+    "avg_price": 7233333.333333333
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2021,
+    "avg_price": 12200000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2022,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2023,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2024,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "亀川",
+    "year": 2025,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "佐伯",
+    "year": 2023,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2007,
+    "avg_price": 10414000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2008,
+    "avg_price": 10813793.103448275
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2009,
+    "avg_price": 14247058.823529411
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2010,
+    "avg_price": 9922727.272727273
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2011,
+    "avg_price": 11007407.407407407
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2012,
+    "avg_price": 8308000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2013,
+    "avg_price": 10489473.684210526
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2014,
+    "avg_price": 10689285.714285715
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2015,
+    "avg_price": 11507894.736842105
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2016,
+    "avg_price": 12789473.684210526
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2017,
+    "avg_price": 13979411.764705881
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2018,
+    "avg_price": 11566190.476190476
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2019,
+    "avg_price": 13548000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2020,
+    "avg_price": 14568000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2021,
+    "avg_price": 14052631.578947369
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2022,
+    "avg_price": 18812500.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2023,
+    "avg_price": 16597435.897435898
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2024,
+    "avg_price": 22684313.725490198
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府(大分)",
+    "year": 2025,
+    "avg_price": 19070270.27027027
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2007,
+    "avg_price": 13390384.615384616
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2008,
+    "avg_price": 15072916.666666666
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2009,
+    "avg_price": 11121875.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2010,
+    "avg_price": 10214285.714285715
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2011,
+    "avg_price": 12582857.142857144
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2012,
+    "avg_price": 10528000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2013,
+    "avg_price": 7185714.285714285
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2014,
+    "avg_price": 6042857.142857143
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2015,
+    "avg_price": 9022222.222222222
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2016,
+    "avg_price": 6275000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2017,
+    "avg_price": 8933333.333333334
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2018,
+    "avg_price": 7956521.739130435
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2019,
+    "avg_price": 10852173.913043479
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2020,
+    "avg_price": 9473333.333333334
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2021,
+    "avg_price": 9544444.444444444
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2022,
+    "avg_price": 11507142.857142856
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2023,
+    "avg_price": 12787500.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2024,
+    "avg_price": 12836363.636363637
+  },
+  {
+    "prefecture": "大分県",
+    "station": "別府大学",
+    "year": 2025,
+    "avg_price": 9940000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2007,
+    "avg_price": 10540000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2008,
+    "avg_price": 9375000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2009,
+    "avg_price": 7260000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2010,
+    "avg_price": 11033333.333333334
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2011,
+    "avg_price": 11925000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2012,
+    "avg_price": 10911111.111111112
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2013,
+    "avg_price": 10442857.142857144
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2014,
+    "avg_price": 10560000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2015,
+    "avg_price": 10866666.666666666
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2016,
+    "avg_price": 7075000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2017,
+    "avg_price": 11362500.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2018,
+    "avg_price": 14333333.333333334
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2019,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2020,
+    "avg_price": 11450000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2021,
+    "avg_price": 14459523.80952381
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2022,
+    "avg_price": 16462500.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2023,
+    "avg_price": 19642307.692307692
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2024,
+    "avg_price": 20013333.333333332
+  },
+  {
+    "prefecture": "大分県",
+    "station": "南大分",
+    "year": 2025,
+    "avg_price": 20160000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2007,
+    "avg_price": 11450000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2008,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2009,
+    "avg_price": 9450000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2010,
+    "avg_price": 5666666.666666667
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2011,
+    "avg_price": 10985714.285714285
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2012,
+    "avg_price": 10400000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2013,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2014,
+    "avg_price": 13542857.142857144
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2015,
+    "avg_price": 13240000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2016,
+    "avg_price": 12616666.666666666
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2017,
+    "avg_price": 13733333.333333334
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2018,
+    "avg_price": 12250000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2019,
+    "avg_price": 14450000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2020,
+    "avg_price": 19900000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2021,
+    "avg_price": 18092592.592592593
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2022,
+    "avg_price": 21576470.588235293
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2023,
+    "avg_price": 17082352.94117647
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2024,
+    "avg_price": 18125000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "古国府",
+    "year": 2025,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "坂ノ市",
+    "year": 2012,
+    "avg_price": 1100000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "坂ノ市",
+    "year": 2014,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "坂ノ市",
+    "year": 2017,
+    "avg_price": 1250000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "坂ノ市",
+    "year": 2018,
+    "avg_price": 2340000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2007,
+    "avg_price": 13284210.52631579
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2008,
+    "avg_price": 10618644.06779661
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2009,
+    "avg_price": 15708333.333333334
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2010,
+    "avg_price": 14580303.030303031
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2011,
+    "avg_price": 11604347.826086957
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2012,
+    "avg_price": 10118644.06779661
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2013,
+    "avg_price": 10569879.518072288
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2014,
+    "avg_price": 10414666.666666666
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2015,
+    "avg_price": 12010666.666666666
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2016,
+    "avg_price": 12791129.032258065
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2017,
+    "avg_price": 12633734.939759037
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2018,
+    "avg_price": 15136585.365853658
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2019,
+    "avg_price": 15223493.975903615
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2020,
+    "avg_price": 17069117.647058822
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2021,
+    "avg_price": 17787421.3836478
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2022,
+    "avg_price": 20469858.156028368
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2023,
+    "avg_price": 20693197.278911564
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2024,
+    "avg_price": 21356250.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大分",
+    "year": 2025,
+    "avg_price": 24500000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2007,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2008,
+    "avg_price": 1612500.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2009,
+    "avg_price": 2033333.3333333333
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2010,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2011,
+    "avg_price": 1037500.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2012,
+    "avg_price": 1294444.4444444445
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2013,
+    "avg_price": 1542857.142857143
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2014,
+    "avg_price": 1325000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2015,
+    "avg_price": 1541666.6666666667
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2016,
+    "avg_price": 1228571.4285714286
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2017,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2018,
+    "avg_price": 1760000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2019,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2020,
+    "avg_price": 7080000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2021,
+    "avg_price": 1344444.4444444445
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2022,
+    "avg_price": 1475000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2023,
+    "avg_price": 1833333.3333333333
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2024,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "大在",
+    "year": 2025,
+    "avg_price": 2250000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "宇佐",
+    "year": 2021,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "敷戸",
+    "year": 2007,
+    "avg_price": 17333333.333333332
+  },
+  {
+    "prefecture": "大分県",
+    "station": "敷戸",
+    "year": 2009,
+    "avg_price": 9250000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "敷戸",
+    "year": 2010,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "敷戸",
+    "year": 2013,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "敷戸",
+    "year": 2014,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "敷戸",
+    "year": 2015,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "敷戸",
+    "year": 2016,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "敷戸",
+    "year": 2020,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "敷戸",
+    "year": 2021,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "敷戸",
+    "year": 2024,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "日田",
+    "year": 2021,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "日田",
+    "year": 2024,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "日田",
+    "year": 2025,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "東別府",
+    "year": 2008,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "東別府",
+    "year": 2014,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "東別府",
+    "year": 2015,
+    "avg_price": 2400000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "東別府",
+    "year": 2018,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "東別府",
+    "year": 2019,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "東別府",
+    "year": 2021,
+    "avg_price": 3200000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "東別府",
+    "year": 2022,
+    "avg_price": 13050000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "東別府",
+    "year": 2025,
+    "avg_price": 4700000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "杵築",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "杵築",
+    "year": 2024,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "海崎",
+    "year": 2013,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2008,
+    "avg_price": 6766666.666666667
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2009,
+    "avg_price": 8150000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2010,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2011,
+    "avg_price": 8333333.333333333
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2012,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2013,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2014,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2015,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2018,
+    "avg_price": 8025000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2019,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2020,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2021,
+    "avg_price": 12260000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "滝尾",
+    "year": 2024,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2007,
+    "avg_price": 14400000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2008,
+    "avg_price": 6166666.666666667
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2009,
+    "avg_price": 7194000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2010,
+    "avg_price": 7623076.923076923
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2011,
+    "avg_price": 9176923.076923076
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2012,
+    "avg_price": 9771428.57142857
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2013,
+    "avg_price": 7755555.555555556
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2014,
+    "avg_price": 9405263.157894736
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2015,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2016,
+    "avg_price": 6147058.823529412
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2017,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2018,
+    "avg_price": 8371428.571428572
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2019,
+    "avg_price": 11200000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2020,
+    "avg_price": 19237500.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2021,
+    "avg_price": 15118421.05263158
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2022,
+    "avg_price": 15628000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2023,
+    "avg_price": 12468750.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2024,
+    "avg_price": 17403571.42857143
+  },
+  {
+    "prefecture": "大分県",
+    "station": "牧(大分)",
+    "year": 2025,
+    "avg_price": 10941176.470588235
+  },
+  {
+    "prefecture": "大分県",
+    "station": "由布院",
+    "year": 2021,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "由布院",
+    "year": 2022,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "由布院",
+    "year": 2023,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "由布院",
+    "year": 2024,
+    "avg_price": 6600000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "臼杵",
+    "year": 2023,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2007,
+    "avg_price": 13666666.666666666
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2008,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2009,
+    "avg_price": 12700000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2010,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2011,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2012,
+    "avg_price": 12083333.333333334
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2013,
+    "avg_price": 13628571.42857143
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2014,
+    "avg_price": 17250000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2015,
+    "avg_price": 15625000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2016,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2017,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2019,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2020,
+    "avg_price": 17750000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2021,
+    "avg_price": 24333333.333333332
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2022,
+    "avg_price": 23562500.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2023,
+    "avg_price": 20708333.333333332
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2024,
+    "avg_price": 25680000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "西大分",
+    "year": 2025,
+    "avg_price": 27375000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "豊前善光寺",
+    "year": 2025,
+    "avg_price": 20250000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "豊後国分",
+    "year": 2014,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "豊後国分",
+    "year": 2015,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "豊後国分",
+    "year": 2016,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "豊後国分",
+    "year": 2018,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "豊後国分",
+    "year": 2019,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "豊後国分",
+    "year": 2020,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "豊後国分",
+    "year": 2022,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "豊後国分",
+    "year": 2023,
+    "avg_price": 26666666.666666668
+  },
+  {
+    "prefecture": "大分県",
+    "station": "豊後国分",
+    "year": 2024,
+    "avg_price": 22750000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "豊後国分",
+    "year": 2025,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "賀来",
+    "year": 2009,
+    "avg_price": 21666666.666666668
+  },
+  {
+    "prefecture": "大分県",
+    "station": "賀来",
+    "year": 2016,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "賀来",
+    "year": 2017,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "賀来",
+    "year": 2018,
+    "avg_price": 6100000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "賀来",
+    "year": 2019,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "賀来",
+    "year": 2020,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "賀来",
+    "year": 2022,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "賀来",
+    "year": 2023,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "賀来",
+    "year": 2024,
+    "avg_price": 17900000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2007,
+    "avg_price": 14879310.344827587
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2008,
+    "avg_price": 13900000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2009,
+    "avg_price": 10850000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2010,
+    "avg_price": 8705652.173913043
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2011,
+    "avg_price": 10183333.333333334
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2012,
+    "avg_price": 10530769.23076923
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2013,
+    "avg_price": 11854545.454545455
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2014,
+    "avg_price": 13305882.352941176
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2015,
+    "avg_price": 12472222.222222222
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2016,
+    "avg_price": 12283333.333333334
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2017,
+    "avg_price": 12350000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2018,
+    "avg_price": 17400000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2019,
+    "avg_price": 9622222.222222222
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2020,
+    "avg_price": 14055000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2021,
+    "avg_price": 14438095.238095239
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2022,
+    "avg_price": 13978125.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2023,
+    "avg_price": 19415625.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2024,
+    "avg_price": 16445238.095238095
+  },
+  {
+    "prefecture": "大分県",
+    "station": "高城",
+    "year": 2025,
+    "avg_price": 15809090.909090908
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2007,
+    "avg_price": 16129411.764705881
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2008,
+    "avg_price": 11425000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2009,
+    "avg_price": 7462500.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2010,
+    "avg_price": 6390000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2011,
+    "avg_price": 6011111.111111111
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2012,
+    "avg_price": 5311111.111111111
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2013,
+    "avg_price": 7341666.666666667
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2014,
+    "avg_price": 10141176.470588235
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2015,
+    "avg_price": 8544444.444444444
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2016,
+    "avg_price": 10072727.272727273
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2017,
+    "avg_price": 8308333.333333333
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2018,
+    "avg_price": 9242857.142857144
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2019,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2020,
+    "avg_price": 9781818.181818182
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2021,
+    "avg_price": 7533333.333333333
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2022,
+    "avg_price": 11983333.333333334
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2023,
+    "avg_price": 10923076.923076924
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2024,
+    "avg_price": 10912500.0
+  },
+  {
+    "prefecture": "大分県",
+    "station": "鶴崎",
+    "year": 2025,
+    "avg_price": 14028571.42857143
+  }
+]

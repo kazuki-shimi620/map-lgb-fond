@@ -1,0 +1,1426 @@
+[
+  {
+    "station_id": "miyagi_0014",
+    "station_name": "あおば通",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.260749,
+    "lon": 140.878514
+  },
+  {
+    "station_id": "miyagi_0134",
+    "station_name": "あぶくま",
+    "prefecture": "宮城県",
+    "line_name": "阿武隈急行",
+    "lat": 37.913443,
+    "lon": 140.68576
+  },
+  {
+    "station_id": "miyagi_0133",
+    "station_name": "くりこま高原",
+    "prefecture": "宮城県",
+    "line_name": "東北新幹線",
+    "lat": 38.749024,
+    "lon": 141.071756
+  },
+  {
+    "station_id": "miyagi_0085",
+    "station_name": "のの岳",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼線",
+    "lat": 38.552567,
+    "lon": 141.225813
+  },
+  {
+    "station_id": "miyagi_0096",
+    "station_name": "万石浦",
+    "prefecture": "宮城県",
+    "line_name": "JR石巻線",
+    "lat": 38.428855,
+    "lon": 141.368555
+  },
+  {
+    "station_id": "miyagi_0089",
+    "station_name": "上涌谷",
+    "prefecture": "宮城県",
+    "line_name": "JR石巻線",
+    "lat": 38.549194,
+    "lon": 141.099473
+  },
+  {
+    "station_id": "miyagi_0109",
+    "station_name": "上野目",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.680563,
+    "lon": 140.859342
+  },
+  {
+    "station_id": "miyagi_0149",
+    "station_name": "上鹿折",
+    "prefecture": "宮城県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 38.960661,
+    "lon": 141.568232
+  },
+  {
+    "station_id": "miyagi_0024",
+    "station_name": "下馬",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.305833,
+    "lon": 141.014965
+  },
+  {
+    "station_id": "miyagi_0182",
+    "station_name": "不動の沢",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.898519,
+    "lon": 141.56236
+  },
+  {
+    "station_id": "miyagi_0114",
+    "station_name": "中山平温泉",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.726568,
+    "lon": 140.668103
+  },
+  {
+    "station_id": "miyagi_0022",
+    "station_name": "中野栄",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.280796,
+    "lon": 140.985236
+  },
+  {
+    "station_id": "miyagi_0135",
+    "station_name": "丸森",
+    "prefecture": "宮城県",
+    "line_name": "阿武隈急行",
+    "lat": 37.930641,
+    "lon": 140.761606
+  },
+  {
+    "station_id": "miyagi_0125",
+    "station_name": "五橋",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.251861,
+    "lon": 140.881014
+  },
+  {
+    "station_id": "miyagi_0052",
+    "station_name": "亘理",
+    "prefecture": "宮城県",
+    "line_name": "JR常磐線",
+    "lat": 38.039776,
+    "lon": 140.861317
+  },
+  {
+    "station_id": "miyagi_0001",
+    "station_name": "仙台",
+    "prefecture": "宮城県",
+    "line_name": "JR仙山線",
+    "lat": 38.260027,
+    "lon": 140.882158
+  },
+  {
+    "station_id": "miyagi_0145",
+    "station_name": "仙台空港",
+    "prefecture": "宮城県",
+    "line_name": "仙台空港鉄道",
+    "lat": 38.138122,
+    "lon": 140.930029
+  },
+  {
+    "station_id": "miyagi_0012",
+    "station_name": "作並",
+    "prefecture": "宮城県",
+    "line_name": "JR仙山線",
+    "lat": 38.317738,
+    "lon": 140.632467
+  },
+  {
+    "station_id": "miyagi_0091",
+    "station_name": "佳景山",
+    "prefecture": "宮城県",
+    "line_name": "JR石巻線",
+    "lat": 38.497975,
+    "lon": 141.239622
+  },
+  {
+    "station_id": "miyagi_0116",
+    "station_name": "八乙女",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.312899,
+    "lon": 140.884037
+  },
+  {
+    "station_id": "miyagi_0147",
+    "station_name": "八幡大橋（東陵高校）",
+    "prefecture": "宮城県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 38.92095,
+    "lon": 141.585128
+  },
+  {
+    "station_id": "miyagi_0150",
+    "station_name": "八木山動物公園",
+    "prefecture": "宮城県",
+    "line_name": "仙台市東西線",
+    "lat": 38.242778,
+    "lon": 140.843472
+  },
+  {
+    "station_id": "miyagi_0160",
+    "station_name": "六丁の目",
+    "prefecture": "宮城県",
+    "line_name": "仙台市東西線",
+    "lat": 38.250972,
+    "lon": 140.935556
+  },
+  {
+    "station_id": "miyagi_0047",
+    "station_name": "利府",
+    "prefecture": "宮城県",
+    "line_name": "JR利府線",
+    "lat": 38.329483,
+    "lon": 140.984652
+  },
+  {
+    "station_id": "miyagi_0083",
+    "station_name": "前谷地",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼線",
+    "lat": 38.512187,
+    "lon": 141.194345
+  },
+  {
+    "station_id": "miyagi_0122",
+    "station_name": "勾当台公園",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.266304,
+    "lon": 140.871292
+  },
+  {
+    "station_id": "miyagi_0136",
+    "station_name": "北丸森",
+    "prefecture": "宮城県",
+    "line_name": "阿武隈急行",
+    "lat": 37.943103,
+    "lon": 140.771832
+  },
+  {
+    "station_id": "miyagi_0003",
+    "station_name": "北仙台",
+    "prefecture": "宮城県",
+    "line_name": "JR仙山線",
+    "lat": 38.281594,
+    "lon": 140.869885
+  },
+  {
+    "station_id": "miyagi_0121",
+    "station_name": "北四番丁",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.272137,
+    "lon": 140.86907
+  },
+  {
+    "station_id": "miyagi_0004",
+    "station_name": "北山(宮城)",
+    "prefecture": "宮城県",
+    "line_name": "JR仙山線",
+    "lat": 38.285154,
+    "lon": 140.851876
+  },
+  {
+    "station_id": "miyagi_0100",
+    "station_name": "北浦",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.55985,
+    "lon": 141.02305
+  },
+  {
+    "station_id": "miyagi_0058",
+    "station_name": "北白川",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.032607,
+    "lon": 140.692613
+  },
+  {
+    "station_id": "miyagi_0165",
+    "station_name": "南三陸町役場・病院前",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.679957,
+    "lon": 141.461602
+  },
+  {
+    "station_id": "miyagi_0064",
+    "station_name": "南仙台",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.197384,
+    "lon": 140.883295
+  },
+  {
+    "station_id": "miyagi_0181",
+    "station_name": "南気仙沼",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.894816,
+    "lon": 141.576753
+  },
+  {
+    "station_id": "miyagi_0137",
+    "station_name": "南角田",
+    "prefecture": "宮城県",
+    "line_name": "阿武隈急行",
+    "lat": 37.964895,
+    "lon": 140.769578
+  },
+  {
+    "station_id": "miyagi_0159",
+    "station_name": "卸町(宮城)",
+    "prefecture": "宮城県",
+    "line_name": "仙台市東西線",
+    "lat": 38.251528,
+    "lon": 140.920833
+  },
+  {
+    "station_id": "miyagi_0102",
+    "station_name": "古川",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.571192,
+    "lon": 140.967876
+  },
+  {
+    "station_id": "miyagi_0119",
+    "station_name": "台原",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.288524,
+    "lon": 140.878512
+  },
+  {
+    "station_id": "miyagi_0063",
+    "station_name": "名取",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.173017,
+    "lon": 140.882753
+  },
+  {
+    "station_id": "miyagi_0084",
+    "station_name": "和渕",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼線",
+    "lat": 38.525772,
+    "lon": 141.220428
+  },
+  {
+    "station_id": "miyagi_0073",
+    "station_name": "品井沼",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.431539,
+    "lon": 141.082408
+  },
+  {
+    "station_id": "miyagi_0148",
+    "station_name": "唐桑大沢",
+    "prefecture": "宮城県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 38.961061,
+    "lon": 141.631467
+  },
+  {
+    "station_id": "miyagi_0069",
+    "station_name": "国府多賀城",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.300933,
+    "lon": 140.99411
+  },
+  {
+    "station_id": "miyagi_0006",
+    "station_name": "国見(宮城)",
+    "prefecture": "宮城県",
+    "line_name": "JR仙山線",
+    "lat": 38.274783,
+    "lon": 140.8335
+  },
+  {
+    "station_id": "miyagi_0153",
+    "station_name": "国際センター(宮城)",
+    "prefecture": "宮城県",
+    "line_name": "仙台市東西線",
+    "lat": 38.260167,
+    "lon": 140.856944
+  },
+  {
+    "station_id": "miyagi_0049",
+    "station_name": "坂元",
+    "prefecture": "宮城県",
+    "line_name": "JR常磐線",
+    "lat": 37.928454,
+    "lon": 140.912727
+  },
+  {
+    "station_id": "miyagi_0103",
+    "station_name": "塚目",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.572474,
+    "lon": 140.937094
+  },
+  {
+    "station_id": "miyagi_0070",
+    "station_name": "塩釜",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.309584,
+    "lon": 141.009564
+  },
+  {
+    "station_id": "miyagi_0023",
+    "station_name": "多賀城",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.291656,
+    "lon": 141.005375
+  },
+  {
+    "station_id": "miyagi_0059",
+    "station_name": "大河原",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.047491,
+    "lon": 140.740142
+  },
+  {
+    "station_id": "miyagi_0154",
+    "station_name": "大町西公園",
+    "prefecture": "宮城県",
+    "line_name": "仙台市東西線",
+    "lat": 38.258889,
+    "lon": 140.864167
+  },
+  {
+    "station_id": "miyagi_0174",
+    "station_name": "大谷海岸",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.813901,
+    "lon": 141.566927
+  },
+  {
+    "station_id": "miyagi_0065",
+    "station_name": "太子堂",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.21711,
+    "lon": 140.883436
+  },
+  {
+    "station_id": "miyagi_0013",
+    "station_name": "奥新川",
+    "prefecture": "宮城県",
+    "line_name": "JR仙山線",
+    "lat": 38.325953,
+    "lon": 140.594329
+  },
+  {
+    "station_id": "miyagi_0099",
+    "station_name": "女川",
+    "prefecture": "宮城県",
+    "line_name": "JR石巻線",
+    "lat": 38.446403,
+    "lon": 141.444919
+  },
+  {
+    "station_id": "miyagi_0016",
+    "station_name": "宮城野原",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.26115,
+    "lon": 140.905155
+  },
+  {
+    "station_id": "miyagi_0156",
+    "station_name": "宮城野通",
+    "prefecture": "宮城県",
+    "line_name": "仙台市東西線",
+    "lat": 38.258333,
+    "lon": 140.885833
+  },
+  {
+    "station_id": "miyagi_0131",
+    "station_name": "富沢",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.214087,
+    "lon": 140.87046
+  },
+  {
+    "station_id": "miyagi_0076",
+    "station_name": "小牛田",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.541111,
+    "lon": 141.064355
+  },
+  {
+    "station_id": "miyagi_0173",
+    "station_name": "小金沢",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.795686,
+    "lon": 141.534755
+  },
+  {
+    "station_id": "miyagi_0019",
+    "station_name": "小鶴新田",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.273455,
+    "lon": 140.935446
+  },
+  {
+    "station_id": "miyagi_0050",
+    "station_name": "山下",
+    "prefecture": "宮城県",
+    "line_name": "JR常磐線",
+    "lat": 37.967292,
+    "lon": 140.900688
+  },
+  {
+    "station_id": "miyagi_0140",
+    "station_name": "岡",
+    "prefecture": "宮城県",
+    "line_name": "阿武隈急行",
+    "lat": 38.019246,
+    "lon": 140.782755
+  },
+  {
+    "station_id": "miyagi_0107",
+    "station_name": "岩出山",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.652508,
+    "lon": 140.871492
+  },
+  {
+    "station_id": "miyagi_0045",
+    "station_name": "岩切",
+    "prefecture": "宮城県",
+    "line_name": "JR利府線",
+    "lat": 38.300773,
+    "lon": 140.954617
+  },
+  {
+    "station_id": "miyagi_0177",
+    "station_name": "岩月",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.862247,
+    "lon": 141.584074
+  },
+  {
+    "station_id": "miyagi_0054",
+    "station_name": "岩沼",
+    "prefecture": "宮城県",
+    "line_name": "JR常磐線",
+    "lat": 38.11205,
+    "lon": 140.863783
+  },
+  {
+    "station_id": "miyagi_0152",
+    "station_name": "川内(宮城)",
+    "prefecture": "宮城県",
+    "line_name": "仙台市東西線",
+    "lat": 38.260556,
+    "lon": 140.85
+  },
+  {
+    "station_id": "miyagi_0111",
+    "station_name": "川渡温泉",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.736834,
+    "lon": 140.779317
+  },
+  {
+    "station_id": "miyagi_0123",
+    "station_name": "広瀬通",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.262971,
+    "lon": 140.875736
+  },
+  {
+    "station_id": "miyagi_0087",
+    "station_name": "御岳堂",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼線",
+    "lat": 38.605662,
+    "lon": 141.264718
+  },
+  {
+    "station_id": "miyagi_0164",
+    "station_name": "志津川",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.678113,
+    "lon": 141.442894
+  },
+  {
+    "station_id": "miyagi_0166",
+    "station_name": "志津川中央団地",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.683885,
+    "lon": 141.450541
+  },
+  {
+    "station_id": "miyagi_0009",
+    "station_name": "愛子",
+    "prefecture": "宮城県",
+    "line_name": "JR仙山線",
+    "lat": 38.272661,
+    "lon": 140.761517
+  },
+  {
+    "station_id": "miyagi_0072",
+    "station_name": "愛宕(宮城)",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.397371,
+    "lon": 141.065
+  },
+  {
+    "station_id": "miyagi_0126",
+    "station_name": "愛宕橋",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.24729,
+    "lon": 140.882036
+  },
+  {
+    "station_id": "miyagi_0031",
+    "station_name": "手樽",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.38715,
+    "lon": 141.092846
+  },
+  {
+    "station_id": "miyagi_0046",
+    "station_name": "新利府",
+    "prefecture": "宮城県",
+    "line_name": "JR利府線",
+    "lat": 38.317059,
+    "lon": 140.972609
+  },
+  {
+    "station_id": "miyagi_0080",
+    "station_name": "新田",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.711475,
+    "lon": 141.119428
+  },
+  {
+    "station_id": "miyagi_0118",
+    "station_name": "旭ケ丘(宮城)",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.295593,
+    "lon": 140.883633
+  },
+  {
+    "station_id": "miyagi_0093",
+    "station_name": "曽波神",
+    "prefecture": "宮城県",
+    "line_name": "JR石巻線",
+    "lat": 38.465993,
+    "lon": 141.287848
+  },
+  {
+    "station_id": "miyagi_0176",
+    "station_name": "最知",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.853516,
+    "lon": 141.581382
+  },
+  {
+    "station_id": "miyagi_0108",
+    "station_name": "有備館",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.658135,
+    "lon": 140.86442
+  },
+  {
+    "station_id": "miyagi_0082",
+    "station_name": "有壁",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.867371,
+    "lon": 141.120994
+  },
+  {
+    "station_id": "miyagi_0172",
+    "station_name": "本吉",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.786042,
+    "lon": 141.501937
+  },
+  {
+    "station_id": "miyagi_0026",
+    "station_name": "本塩釜",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.317715,
+    "lon": 141.022477
+  },
+  {
+    "station_id": "miyagi_0143",
+    "station_name": "杜せきのした",
+    "prefecture": "宮城県",
+    "line_name": "仙台空港鉄道",
+    "lat": 38.165482,
+    "lon": 140.895738
+  },
+  {
+    "station_id": "miyagi_0067",
+    "station_name": "東仙台",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.276512,
+    "lon": 140.920204
+  },
+  {
+    "station_id": "miyagi_0005",
+    "station_name": "東北福祉大前",
+    "prefecture": "宮城県",
+    "line_name": "JR仙山線",
+    "lat": 38.280468,
+    "lon": 140.842683
+  },
+  {
+    "station_id": "miyagi_0034",
+    "station_name": "東名",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.3753,
+    "lon": 141.14548
+  },
+  {
+    "station_id": "miyagi_0027",
+    "station_name": "東塩釜",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.325572,
+    "lon": 141.031665
+  },
+  {
+    "station_id": "miyagi_0105",
+    "station_name": "東大崎",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.605627,
+    "lon": 140.897015
+  },
+  {
+    "station_id": "miyagi_0002",
+    "station_name": "東照宮",
+    "prefecture": "宮城県",
+    "line_name": "JR仙山線",
+    "lat": 38.277262,
+    "lon": 140.88682
+  },
+  {
+    "station_id": "miyagi_0057",
+    "station_name": "東白石",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.034935,
+    "lon": 140.651109
+  },
+  {
+    "station_id": "miyagi_0039",
+    "station_name": "東矢本",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.427994,
+    "lon": 141.22216
+  },
+  {
+    "station_id": "miyagi_0141",
+    "station_name": "東船岡",
+    "prefecture": "宮城県",
+    "line_name": "阿武隈急行",
+    "lat": 38.050095,
+    "lon": 140.789824
+  },
+  {
+    "station_id": "miyagi_0075",
+    "station_name": "松山町",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.512332,
+    "lon": 141.075187
+  },
+  {
+    "station_id": "miyagi_0178",
+    "station_name": "松岩",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.873369,
+    "lon": 141.583768
+  },
+  {
+    "station_id": "miyagi_0071",
+    "station_name": "松島",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.379892,
+    "lon": 141.065982
+  },
+  {
+    "station_id": "miyagi_0029",
+    "station_name": "松島海岸",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.368529,
+    "lon": 141.058523
+  },
+  {
+    "station_id": "miyagi_0088",
+    "station_name": "柳津",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼線",
+    "lat": 38.611693,
+    "lon": 141.305947
+  },
+  {
+    "station_id": "miyagi_0079",
+    "station_name": "梅ヶ沢",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.681678,
+    "lon": 141.085278
+  },
+  {
+    "station_id": "miyagi_0015",
+    "station_name": "榴ケ岡",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.258792,
+    "lon": 140.893782
+  },
+  {
+    "station_id": "miyagi_0061",
+    "station_name": "槻木",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.07864,
+    "lon": 140.809992
+  },
+  {
+    "station_id": "miyagi_0139",
+    "station_name": "横倉",
+    "prefecture": "宮城県",
+    "line_name": "阿武隈急行",
+    "lat": 37.996999,
+    "lon": 140.776045
+  },
+  {
+    "station_id": "miyagi_0168",
+    "station_name": "歌津",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.717661,
+    "lon": 141.519263
+  },
+  {
+    "station_id": "miyagi_0048",
+    "station_name": "気仙沼",
+    "prefecture": "宮城県",
+    "line_name": "JR大船渡線",
+    "lat": 38.910031,
+    "lon": 141.558893
+  },
+  {
+    "station_id": "miyagi_0180",
+    "station_name": "気仙沼市立病院",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.88745,
+    "lon": 141.565422
+  },
+  {
+    "station_id": "miyagi_0110",
+    "station_name": "池月",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.708948,
+    "lon": 140.835732
+  },
+  {
+    "station_id": "miyagi_0097",
+    "station_name": "沢田",
+    "prefecture": "宮城県",
+    "line_name": "JR石巻線",
+    "lat": 38.432397,
+    "lon": 141.38234
+  },
+  {
+    "station_id": "miyagi_0127",
+    "station_name": "河原町(宮城)",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.241112,
+    "lon": 140.887702
+  },
+  {
+    "station_id": "miyagi_0115",
+    "station_name": "泉中央",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.323167,
+    "lon": 140.880796
+  },
+  {
+    "station_id": "miyagi_0051",
+    "station_name": "浜吉田",
+    "prefecture": "宮城県",
+    "line_name": "JR常磐線",
+    "lat": 38.002195,
+    "lon": 140.890083
+  },
+  {
+    "station_id": "miyagi_0098",
+    "station_name": "浦宿",
+    "prefecture": "宮城県",
+    "line_name": "JR石巻線",
+    "lat": 38.436542,
+    "lon": 141.421355
+  },
+  {
+    "station_id": "miyagi_0090",
+    "station_name": "涌谷",
+    "prefecture": "宮城県",
+    "line_name": "JR石巻線",
+    "lat": 38.538151,
+    "lon": 141.127359
+  },
+  {
+    "station_id": "miyagi_0167",
+    "station_name": "清水浜",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.690418,
+    "lon": 141.486798
+  },
+  {
+    "station_id": "miyagi_0095",
+    "station_name": "渡波",
+    "prefecture": "宮城県",
+    "line_name": "JR石巻線",
+    "lat": 38.420051,
+    "lon": 141.365123
+  },
+  {
+    "station_id": "miyagi_0078",
+    "station_name": "瀬峰",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.655153,
+    "lon": 141.07383
+  },
+  {
+    "station_id": "miyagi_0011",
+    "station_name": "熊ヶ根",
+    "prefecture": "宮城県",
+    "line_name": "JR仙山線",
+    "lat": 38.297947,
+    "lon": 140.680633
+  },
+  {
+    "station_id": "miyagi_0077",
+    "station_name": "田尻",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.596246,
+    "lon": 141.058912
+  },
+  {
+    "station_id": "miyagi_0056",
+    "station_name": "白石",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.003581,
+    "lon": 140.626164
+  },
+  {
+    "station_id": "miyagi_0132",
+    "station_name": "白石蔵王",
+    "prefecture": "宮城県",
+    "line_name": "東北新幹線",
+    "lat": 37.995052,
+    "lon": 140.632881
+  },
+  {
+    "station_id": "miyagi_0038",
+    "station_name": "矢本",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.420432,
+    "lon": 141.209148
+  },
+  {
+    "station_id": "miyagi_0044",
+    "station_name": "石巻",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.43538,
+    "lon": 141.303552
+  },
+  {
+    "station_id": "miyagi_0041",
+    "station_name": "石巻あゆみ野",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.436111,
+    "lon": 141.259444
+  },
+  {
+    "station_id": "miyagi_0081",
+    "station_name": "石越",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.768778,
+    "lon": 141.15906
+  },
+  {
+    "station_id": "miyagi_0020",
+    "station_name": "福田町",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.274967,
+    "lon": 140.958252
+  },
+  {
+    "station_id": "miyagi_0144",
+    "station_name": "美田園",
+    "prefecture": "宮城県",
+    "line_name": "仙台空港鉄道",
+    "lat": 38.15965,
+    "lon": 140.917404
+  },
+  {
+    "station_id": "miyagi_0060",
+    "station_name": "船岡(宮城)",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.059298,
+    "lon": 140.767366
+  },
+  {
+    "station_id": "miyagi_0018",
+    "station_name": "苦竹",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.268722,
+    "lon": 140.918867
+  },
+  {
+    "station_id": "miyagi_0161",
+    "station_name": "荒井(宮城)",
+    "prefecture": "宮城県",
+    "line_name": "仙台市東西線",
+    "lat": 38.244861,
+    "lon": 140.948611
+  },
+  {
+    "station_id": "miyagi_0007",
+    "station_name": "葛岡",
+    "prefecture": "宮城県",
+    "line_name": "JR仙山線",
+    "lat": 38.268816,
+    "lon": 140.818583
+  },
+  {
+    "station_id": "miyagi_0170",
+    "station_name": "蔵内",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.753952,
+    "lon": 141.524214
+  },
+  {
+    "station_id": "miyagi_0158",
+    "station_name": "薬師堂(宮城)",
+    "prefecture": "宮城県",
+    "line_name": "仙台市東西線",
+    "lat": 38.249583,
+    "lon": 140.906111
+  },
+  {
+    "station_id": "miyagi_0042",
+    "station_name": "蛇田",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.438218,
+    "lon": 141.277652
+  },
+  {
+    "station_id": "miyagi_0104",
+    "station_name": "西古川",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.578214,
+    "lon": 140.895416
+  },
+  {
+    "station_id": "miyagi_0025",
+    "station_name": "西塩釜",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.31194,
+    "lon": 141.018419
+  },
+  {
+    "station_id": "miyagi_0106",
+    "station_name": "西大崎",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.629986,
+    "lon": 140.889638
+  },
+  {
+    "station_id": "miyagi_0138",
+    "station_name": "角田",
+    "prefecture": "宮城県",
+    "line_name": "阿武隈急行",
+    "lat": 37.979282,
+    "lon": 140.772388
+  },
+  {
+    "station_id": "miyagi_0179",
+    "station_name": "赤岩港",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.884462,
+    "lon": 141.582563
+  },
+  {
+    "station_id": "miyagi_0055",
+    "station_name": "越河",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 37.933616,
+    "lon": 140.604572
+  },
+  {
+    "station_id": "miyagi_0053",
+    "station_name": "逢隈",
+    "prefecture": "宮城県",
+    "line_name": "JR常磐線",
+    "lat": 38.067584,
+    "lon": 140.854669
+  },
+  {
+    "station_id": "miyagi_0157",
+    "station_name": "連坊",
+    "prefecture": "宮城県",
+    "line_name": "仙台市東西線",
+    "lat": 38.251111,
+    "lon": 140.893056
+  },
+  {
+    "station_id": "miyagi_0035",
+    "station_name": "野蒜",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.379,
+    "lon": 141.157035
+  },
+  {
+    "station_id": "miyagi_0066",
+    "station_name": "長町",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.226797,
+    "lon": 140.885986
+  },
+  {
+    "station_id": "miyagi_0128",
+    "station_name": "長町一丁目",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.234085,
+    "lon": 140.887402
+  },
+  {
+    "station_id": "miyagi_0130",
+    "station_name": "長町南",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.224642,
+    "lon": 140.87657
+  },
+  {
+    "station_id": "miyagi_0017",
+    "station_name": "陸前原ノ町",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.266017,
+    "lon": 140.910638
+  },
+  {
+    "station_id": "miyagi_0033",
+    "station_name": "陸前大塚",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.379078,
+    "lon": 141.12947
+  },
+  {
+    "station_id": "miyagi_0032",
+    "station_name": "陸前富山",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.386307,
+    "lon": 141.107208
+  },
+  {
+    "station_id": "miyagi_0171",
+    "station_name": "陸前小泉",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.766786,
+    "lon": 141.509068
+  },
+  {
+    "station_id": "miyagi_0036",
+    "station_name": "陸前小野",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.396018,
+    "lon": 141.174345
+  },
+  {
+    "station_id": "miyagi_0043",
+    "station_name": "陸前山下",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.437718,
+    "lon": 141.288868
+  },
+  {
+    "station_id": "miyagi_0068",
+    "station_name": "陸前山王",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.299586,
+    "lon": 140.97917
+  },
+  {
+    "station_id": "miyagi_0163",
+    "station_name": "陸前戸倉",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.647977,
+    "lon": 141.43338
+  },
+  {
+    "station_id": "miyagi_0162",
+    "station_name": "陸前横山",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.630776,
+    "lon": 141.353981
+  },
+  {
+    "station_id": "miyagi_0028",
+    "station_name": "陸前浜田",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.350747,
+    "lon": 141.041818
+  },
+  {
+    "station_id": "miyagi_0169",
+    "station_name": "陸前港",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.738559,
+    "lon": 141.530859
+  },
+  {
+    "station_id": "miyagi_0010",
+    "station_name": "陸前白沢",
+    "prefecture": "宮城県",
+    "line_name": "JR仙山線",
+    "lat": 38.278117,
+    "lon": 140.702333
+  },
+  {
+    "station_id": "miyagi_0094",
+    "station_name": "陸前稲井",
+    "prefecture": "宮城県",
+    "line_name": "JR石巻線",
+    "lat": 38.445463,
+    "lon": 141.334847
+  },
+  {
+    "station_id": "miyagi_0008",
+    "station_name": "陸前落合",
+    "prefecture": "宮城県",
+    "line_name": "JR仙山線",
+    "lat": 38.273379,
+    "lon": 140.789896
+  },
+  {
+    "station_id": "miyagi_0101",
+    "station_name": "陸前谷地",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.565152,
+    "lon": 140.999453
+  },
+  {
+    "station_id": "miyagi_0086",
+    "station_name": "陸前豊里",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼線",
+    "lat": 38.582481,
+    "lon": 141.244674
+  },
+  {
+    "station_id": "miyagi_0040",
+    "station_name": "陸前赤井",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.432442,
+    "lon": 141.238883
+  },
+  {
+    "station_id": "miyagi_0175",
+    "station_name": "陸前階上",
+    "prefecture": "宮城県",
+    "line_name": "JR気仙沼BRT線",
+    "lat": 38.837113,
+    "lon": 141.580339
+  },
+  {
+    "station_id": "miyagi_0021",
+    "station_name": "陸前高砂",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.27344,
+    "lon": 140.967607
+  },
+  {
+    "station_id": "miyagi_0151",
+    "station_name": "青葉山",
+    "prefecture": "宮城県",
+    "line_name": "仙台市東西線",
+    "lat": 38.254972,
+    "lon": 140.835222
+  },
+  {
+    "station_id": "miyagi_0155",
+    "station_name": "青葉通一番町",
+    "prefecture": "宮城県",
+    "line_name": "仙台市東西線",
+    "lat": 38.259722,
+    "lon": 140.872222
+  },
+  {
+    "station_id": "miyagi_0062",
+    "station_name": "館腰",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.142987,
+    "lon": 140.880208
+  },
+  {
+    "station_id": "miyagi_0030",
+    "station_name": "高城町",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.382731,
+    "lon": 141.07344
+  },
+  {
+    "station_id": "miyagi_0112",
+    "station_name": "鳴子御殿湯",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.744612,
+    "lon": 140.737148
+  },
+  {
+    "station_id": "miyagi_0113",
+    "station_name": "鳴子温泉",
+    "prefecture": "宮城県",
+    "line_name": "JR陸羽東線",
+    "lat": 38.743193,
+    "lon": 140.715939
+  },
+  {
+    "station_id": "miyagi_0092",
+    "station_name": "鹿又",
+    "prefecture": "宮城県",
+    "line_name": "JR石巻線",
+    "lat": 38.485851,
+    "lon": 141.283016
+  },
+  {
+    "station_id": "miyagi_0037",
+    "station_name": "鹿妻",
+    "prefecture": "宮城県",
+    "line_name": "JR仙石線",
+    "lat": 38.403315,
+    "lon": 141.190073
+  },
+  {
+    "station_id": "miyagi_0074",
+    "station_name": "鹿島台",
+    "prefecture": "宮城県",
+    "line_name": "JR東北本線",
+    "lat": 38.474708,
+    "lon": 141.097964
+  },
+  {
+    "station_id": "miyagi_0146",
+    "station_name": "鹿折唐桑",
+    "prefecture": "宮城県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 38.915555,
+    "lon": 141.579457
+  },
+  {
+    "station_id": "miyagi_0117",
+    "station_name": "黒松(宮城)",
+    "prefecture": "宮城県",
+    "line_name": "仙台市南北線",
+    "lat": 38.303142,
+    "lon": 140.886285
+  }
+]

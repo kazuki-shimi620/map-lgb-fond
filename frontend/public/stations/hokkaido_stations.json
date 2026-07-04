@@ -1,0 +1,3306 @@
+[
+  {
+    "station_id": "hokkaido_0203",
+    "station_name": "あいの里公園",
+    "prefecture": "北海道",
+    "line_name": "JR札沼線",
+    "lat": 43.161206,
+    "lon": 141.413276
+  },
+  {
+    "station_id": "hokkaido_0202",
+    "station_name": "あいの里教育大",
+    "prefecture": "北海道",
+    "line_name": "JR札沼線",
+    "lat": 43.15528,
+    "lon": 141.39842
+  },
+  {
+    "station_id": "hokkaido_0353",
+    "station_name": "さっぽろ(札幌市営)",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.06637,
+    "lon": 141.350299
+  },
+  {
+    "station_id": "hokkaido_0355",
+    "station_name": "すすきの(市営)",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.05578,
+    "lon": 141.353257
+  },
+  {
+    "station_id": "hokkaido_0380",
+    "station_name": "ひばりが丘(北海道)",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.032175,
+    "lon": 141.464638
+  },
+  {
+    "station_id": "hokkaido_0047",
+    "station_name": "ほしみ",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.13373,
+    "lon": 141.191402
+  },
+  {
+    "station_id": "hokkaido_0088",
+    "station_name": "サッポロビール庭園",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 42.866812,
+    "lon": 141.605616
+  },
+  {
+    "station_id": "hokkaido_0269",
+    "station_name": "トマム",
+    "prefecture": "北海道",
+    "line_name": "JR石勝線",
+    "lat": 43.055913,
+    "lon": 142.610937
+  },
+  {
+    "station_id": "hokkaido_0032",
+    "station_name": "ニセコ",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.808746,
+    "lon": 140.684588
+  },
+  {
+    "station_id": "hokkaido_0372",
+    "station_name": "バスセンター前",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.061268,
+    "lon": 141.360473
+  },
+  {
+    "station_id": "hokkaido_0187",
+    "station_name": "ラベンダー畑",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.42065,
+    "lon": 142.434032
+  },
+  {
+    "station_id": "hokkaido_0204",
+    "station_name": "ロイズタウン",
+    "prefecture": "北海道",
+    "line_name": "JR札沼線",
+    "lat": 43.17948,
+    "lon": 141.436093
+  },
+  {
+    "station_id": "hokkaido_0403",
+    "station_name": "ロープウェイ入口",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.03367,
+    "lon": 141.337287
+  },
+  {
+    "station_id": "hokkaido_0255",
+    "station_name": "七重浜",
+    "prefecture": "北海道",
+    "line_name": "道南いさりび鉄道線",
+    "lat": 41.817643,
+    "lon": 140.707957
+  },
+  {
+    "station_id": "hokkaido_0013",
+    "station_name": "七飯",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 41.886971,
+    "lon": 140.688556
+  },
+  {
+    "station_id": "hokkaido_0168",
+    "station_name": "三川",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.945029,
+    "lon": 141.800778
+  },
+  {
+    "station_id": "hokkaido_0185",
+    "station_name": "上富良野",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.464046,
+    "lon": 142.468761
+  },
+  {
+    "station_id": "hokkaido_0242",
+    "station_name": "上尾幌",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.032893,
+    "lon": 144.61239
+  },
+  {
+    "station_id": "hokkaido_0278",
+    "station_name": "上川",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.848508,
+    "lon": 142.766895
+  },
+  {
+    "station_id": "hokkaido_0067",
+    "station_name": "上幌向",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.18183,
+    "lon": 141.715391
+  },
+  {
+    "station_id": "hokkaido_0259",
+    "station_name": "上磯",
+    "prefecture": "北海道",
+    "line_name": "道南いさりび鉄道線",
+    "lat": 41.81956,
+    "lon": 140.640599
+  },
+  {
+    "station_id": "hokkaido_0212",
+    "station_name": "上芦別",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.48871,
+    "lon": 142.210855
+  },
+  {
+    "station_id": "hokkaido_0093",
+    "station_name": "上野幌",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 43.016177,
+    "lon": 141.487317
+  },
+  {
+    "station_id": "hokkaido_0125",
+    "station_name": "下沼",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 45.037146,
+    "lon": 141.758218
+  },
+  {
+    "station_id": "hokkaido_0358",
+    "station_name": "中の島",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.037727,
+    "lon": 141.360758
+  },
+  {
+    "station_id": "hokkaido_0396",
+    "station_name": "中央区役所前",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.057823,
+    "lon": 141.34224
+  },
+  {
+    "station_id": "hokkaido_0405",
+    "station_name": "中央図書館前",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.030455,
+    "lon": 141.340227
+  },
+  {
+    "station_id": "hokkaido_0338",
+    "station_name": "中央病院前",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.787121,
+    "lon": 140.751021
+  },
+  {
+    "station_id": "hokkaido_0188",
+    "station_name": "中富良野",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.405704,
+    "lon": 142.420812
+  },
+  {
+    "station_id": "hokkaido_0356",
+    "station_name": "中島公園",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.048892,
+    "lon": 141.354913
+  },
+  {
+    "station_id": "hokkaido_0412",
+    "station_name": "中島公園通",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.045652,
+    "lon": 141.350269
+  },
+  {
+    "station_id": "hokkaido_0276",
+    "station_name": "中愛別",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.896216,
+    "lon": 142.655424
+  },
+  {
+    "station_id": "hokkaido_0313",
+    "station_name": "中斜里",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.874608,
+    "lon": 144.659033
+  },
+  {
+    "station_id": "hokkaido_0280",
+    "station_name": "丸瀬布",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 44.006354,
+    "lon": 143.335817
+  },
+  {
+    "station_id": "hokkaido_0257",
+    "station_name": "久根別",
+    "prefecture": "北海道",
+    "line_name": "道南いさりび鉄道線",
+    "lat": 41.826727,
+    "lon": 140.666468
+  },
+  {
+    "station_id": "hokkaido_0367",
+    "station_name": "二十四軒",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.070221,
+    "lon": 141.314093
+  },
+  {
+    "station_id": "hokkaido_0010",
+    "station_name": "五稜郭",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 41.803557,
+    "lon": 140.733539
+  },
+  {
+    "station_id": "hokkaido_0339",
+    "station_name": "五稜郭公園前",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.789313,
+    "lon": 140.75175
+  },
+  {
+    "station_id": "hokkaido_0038",
+    "station_name": "仁木",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.154091,
+    "lon": 140.770546
+  },
+  {
+    "station_id": "hokkaido_0144",
+    "station_name": "伊達紋別",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.469395,
+    "lon": 140.855802
+  },
+  {
+    "station_id": "hokkaido_0274",
+    "station_name": "伊香牛",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.876025,
+    "lon": 142.525227
+  },
+  {
+    "station_id": "hokkaido_0120",
+    "station_name": "佐久",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.743986,
+    "lon": 142.048562
+  },
+  {
+    "station_id": "hokkaido_0039",
+    "station_name": "余市",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.186558,
+    "lon": 140.794686
+  },
+  {
+    "station_id": "hokkaido_0034",
+    "station_name": "倶知安",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.90164,
+    "lon": 140.745471
+  },
+  {
+    "station_id": "hokkaido_0384",
+    "station_name": "元町(札幌)",
+    "prefecture": "北海道",
+    "line_name": "札幌市東豊線",
+    "lat": 43.094355,
+    "lon": 141.371598
+  },
+  {
+    "station_id": "hokkaido_0070",
+    "station_name": "光珠内",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.292658,
+    "lon": 141.844655
+  },
+  {
+    "station_id": "hokkaido_0127",
+    "station_name": "兜沼",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 45.220236,
+    "lon": 141.6972
+  },
+  {
+    "station_id": "hokkaido_0195",
+    "station_name": "八軒",
+    "prefecture": "北海道",
+    "line_name": "JR札沼線",
+    "lat": 43.085845,
+    "lon": 141.319145
+  },
+  {
+    "station_id": "hokkaido_0022",
+    "station_name": "八雲",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.253391,
+    "lon": 140.273342
+  },
+  {
+    "station_id": "hokkaido_0369",
+    "station_name": "円山公園",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.055582,
+    "lon": 141.318863
+  },
+  {
+    "station_id": "hokkaido_0009",
+    "station_name": "函館",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 41.773709,
+    "lon": 140.726413
+  },
+  {
+    "station_id": "hokkaido_0326",
+    "station_name": "函館どつく前",
+    "prefecture": "北海道",
+    "line_name": "函館市電本線",
+    "lat": 41.772992,
+    "lon": 140.704393
+  },
+  {
+    "station_id": "hokkaido_0345",
+    "station_name": "函館アリーナ前",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.782065,
+    "lon": 140.782006
+  },
+  {
+    "station_id": "hokkaido_0331",
+    "station_name": "函館駅前",
+    "prefecture": "北海道",
+    "line_name": "函館市電本線",
+    "lat": 41.77264,
+    "lon": 140.727997
+  },
+  {
+    "station_id": "hokkaido_0241",
+    "station_name": "別保",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.994384,
+    "lon": 144.469596
+  },
+  {
+    "station_id": "hokkaido_0250",
+    "station_name": "別当賀",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.218427,
+    "lon": 145.423593
+  },
+  {
+    "station_id": "hokkaido_0224",
+    "station_name": "利別",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.934706,
+    "lon": 143.424445
+  },
+  {
+    "station_id": "hokkaido_0105",
+    "station_name": "剣淵",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.09643,
+    "lon": 142.364754
+  },
+  {
+    "station_id": "hokkaido_0192",
+    "station_name": "勇払",
+    "prefecture": "北海道",
+    "line_name": "JR日高本線",
+    "lat": 42.632805,
+    "lon": 141.727667
+  },
+  {
+    "station_id": "hokkaido_0128",
+    "station_name": "勇知",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 45.259339,
+    "lon": 141.685151
+  },
+  {
+    "station_id": "hokkaido_0352",
+    "station_name": "北12条",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.074829,
+    "lon": 141.348403
+  },
+  {
+    "station_id": "hokkaido_0387",
+    "station_name": "北13条東",
+    "prefecture": "北海道",
+    "line_name": "札幌市東豊線",
+    "lat": 43.07689,
+    "lon": 141.354851
+  },
+  {
+    "station_id": "hokkaido_0351",
+    "station_name": "北18条",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.081568,
+    "lon": 141.346686
+  },
+  {
+    "station_id": "hokkaido_0350",
+    "station_name": "北24条",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.089811,
+    "lon": 141.344604
+  },
+  {
+    "station_id": "hokkaido_0349",
+    "station_name": "北34条",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.099883,
+    "lon": 141.342028
+  },
+  {
+    "station_id": "hokkaido_0156",
+    "station_name": "北吉原",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.509119,
+    "lon": 141.286199
+  },
+  {
+    "station_id": "hokkaido_0092",
+    "station_name": "北広島",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 42.979239,
+    "lon": 141.563115
+  },
+  {
+    "station_id": "hokkaido_0100",
+    "station_name": "北永山",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 43.826736,
+    "lon": 142.454493
+  },
+  {
+    "station_id": "hokkaido_0318",
+    "station_name": "北浜",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.958549,
+    "lon": 144.352541
+  },
+  {
+    "station_id": "hokkaido_0207",
+    "station_name": "北海道医療大学",
+    "prefecture": "北海道",
+    "line_name": "JR札沼線",
+    "lat": 43.230925,
+    "lon": 141.54995
+  },
+  {
+    "station_id": "hokkaido_0182",
+    "station_name": "北美瑛",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.617884,
+    "lon": 142.479594
+  },
+  {
+    "station_id": "hokkaido_0145",
+    "station_name": "北舟岡",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.450528,
+    "lon": 140.880259
+  },
+  {
+    "station_id": "hokkaido_0290",
+    "station_name": "北見",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.805504,
+    "lon": 143.898167
+  },
+  {
+    "station_id": "hokkaido_0215",
+    "station_name": "十勝清水",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.012892,
+    "lon": 142.879535
+  },
+  {
+    "station_id": "hokkaido_0322",
+    "station_name": "十字街",
+    "prefecture": "北海道",
+    "line_name": "函館市電宝来・谷地頭線",
+    "lat": 41.763998,
+    "lon": 140.718513
+  },
+  {
+    "station_id": "hokkaido_0226",
+    "station_name": "十弗",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.855781,
+    "lon": 143.500797
+  },
+  {
+    "station_id": "hokkaido_0181",
+    "station_name": "千代ヶ岡",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.643737,
+    "lon": 142.451024
+  },
+  {
+    "station_id": "hokkaido_0337",
+    "station_name": "千代台",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.784257,
+    "lon": 140.748532
+  },
+  {
+    "station_id": "hokkaido_0086",
+    "station_name": "千歳(北海道)",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 42.82811,
+    "lon": 141.651934
+  },
+  {
+    "station_id": "hokkaido_0334",
+    "station_name": "千歳町",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.776161,
+    "lon": 140.738575
+  },
+  {
+    "station_id": "hokkaido_0085",
+    "station_name": "南千歳",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 42.80804,
+    "lon": 141.675388
+  },
+  {
+    "station_id": "hokkaido_0043",
+    "station_name": "南小樽",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.186529,
+    "lon": 141.007883
+  },
+  {
+    "station_id": "hokkaido_0360",
+    "station_name": "南平岸",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.026842,
+    "lon": 141.371355
+  },
+  {
+    "station_id": "hokkaido_0270",
+    "station_name": "南永山",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.780549,
+    "lon": 142.40853
+  },
+  {
+    "station_id": "hokkaido_0129",
+    "station_name": "南稚内",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 45.398166,
+    "lon": 141.683026
+  },
+  {
+    "station_id": "hokkaido_0377",
+    "station_name": "南郷13丁目",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.035783,
+    "lon": 141.422697
+  },
+  {
+    "station_id": "hokkaido_0378",
+    "station_name": "南郷18丁目",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.030229,
+    "lon": 141.435196
+  },
+  {
+    "station_id": "hokkaido_0376",
+    "station_name": "南郷7丁目",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.040091,
+    "lon": 141.411759
+  },
+  {
+    "station_id": "hokkaido_0268",
+    "station_name": "占冠",
+    "prefecture": "北海道",
+    "line_name": "JR石勝線",
+    "lat": 42.993088,
+    "lon": 142.400078
+  },
+  {
+    "station_id": "hokkaido_0230",
+    "station_name": "厚内",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.809539,
+    "lon": 143.814389
+  },
+  {
+    "station_id": "hokkaido_0059",
+    "station_name": "厚別",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.045154,
+    "lon": 141.46369
+  },
+  {
+    "station_id": "hokkaido_0245",
+    "station_name": "厚岸",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.056248,
+    "lon": 144.841355
+  },
+  {
+    "station_id": "hokkaido_0249",
+    "station_name": "厚床",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.228224,
+    "lon": 145.252096
+  },
+  {
+    "station_id": "hokkaido_0317",
+    "station_name": "原生花園",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.941033,
+    "lon": 144.41443
+  },
+  {
+    "station_id": "hokkaido_0169",
+    "station_name": "古山",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.975256,
+    "lon": 141.793969
+  },
+  {
+    "station_id": "hokkaido_0111",
+    "station_name": "名寄",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.349403,
+    "lon": 142.465207
+  },
+  {
+    "station_id": "hokkaido_0110",
+    "station_name": "名寄高校",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.330701,
+    "lon": 142.465477
+  },
+  {
+    "station_id": "hokkaido_0298",
+    "station_name": "呼人",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.963695,
+    "lon": 144.218945
+  },
+  {
+    "station_id": "hokkaido_0104",
+    "station_name": "和寒",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.026932,
+    "lon": 142.415309
+  },
+  {
+    "station_id": "hokkaido_0117",
+    "station_name": "咲来",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.692702,
+    "lon": 142.267569
+  },
+  {
+    "station_id": "hokkaido_0122",
+    "station_name": "問寒別",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.91233,
+    "lon": 142.025562
+  },
+  {
+    "station_id": "hokkaido_0025",
+    "station_name": "国縫",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.439319,
+    "lon": 140.320885
+  },
+  {
+    "station_id": "hokkaido_0336",
+    "station_name": "堀川町",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.780433,
+    "lon": 140.74394
+  },
+  {
+    "station_id": "hokkaido_0303",
+    "station_name": "塘路",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.151739,
+    "lon": 144.496817
+  },
+  {
+    "station_id": "hokkaido_0103",
+    "station_name": "塩狩",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 43.96794,
+    "lon": 142.4552
+  },
+  {
+    "station_id": "hokkaido_0041",
+    "station_name": "塩谷",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.202406,
+    "lon": 140.924546
+  },
+  {
+    "station_id": "hokkaido_0106",
+    "station_name": "士別",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.172536,
+    "lon": 142.388247
+  },
+  {
+    "station_id": "hokkaido_0107",
+    "station_name": "多寄",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.241296,
+    "lon": 142.396315
+  },
+  {
+    "station_id": "hokkaido_0012",
+    "station_name": "大中山",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 41.864641,
+    "lon": 140.71358
+  },
+  {
+    "station_id": "hokkaido_0139",
+    "station_name": "大岸",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.585969,
+    "lon": 140.639036
+  },
+  {
+    "station_id": "hokkaido_0218",
+    "station_name": "大成",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.918662,
+    "lon": 143.071241
+  },
+  {
+    "station_id": "hokkaido_0235",
+    "station_name": "大楽毛",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.009078,
+    "lon": 144.273879
+  },
+  {
+    "station_id": "hokkaido_0001",
+    "station_name": "大沼",
+    "prefecture": "北海道",
+    "line_name": "JR函館支線",
+    "lat": 41.971954,
+    "lon": 140.669347
+  },
+  {
+    "station_id": "hokkaido_0015",
+    "station_name": "大沼公園",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 41.980958,
+    "lon": 140.669758
+  },
+  {
+    "station_id": "hokkaido_0327",
+    "station_name": "大町(北海道)",
+    "prefecture": "北海道",
+    "line_name": "函館市電本線",
+    "lat": 41.770207,
+    "lon": 140.7092
+  },
+  {
+    "station_id": "hokkaido_0379",
+    "station_name": "大谷地",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.028008,
+    "lon": 141.452972
+  },
+  {
+    "station_id": "hokkaido_0354",
+    "station_name": "大通",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.060479,
+    "lon": 141.354526
+  },
+  {
+    "station_id": "hokkaido_0061",
+    "station_name": "大麻",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.072382,
+    "lon": 141.496925
+  },
+  {
+    "station_id": "hokkaido_0121",
+    "station_name": "天塩中川",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.81186,
+    "lon": 142.075335
+  },
+  {
+    "station_id": "hokkaido_0116",
+    "station_name": "天塩川温泉",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.665041,
+    "lon": 142.258682
+  },
+  {
+    "station_id": "hokkaido_0198",
+    "station_name": "太平",
+    "prefecture": "北海道",
+    "line_name": "JR札沼線",
+    "lat": 43.12401,
+    "lon": 141.349526
+  },
+  {
+    "station_id": "hokkaido_0205",
+    "station_name": "太美",
+    "prefecture": "北海道",
+    "line_name": "JR札沼線",
+    "lat": 43.189801,
+    "lon": 141.449066
+  },
+  {
+    "station_id": "hokkaido_0073",
+    "station_name": "奈井江",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.423718,
+    "lon": 141.889115
+  },
+  {
+    "station_id": "hokkaido_0297",
+    "station_name": "女満別",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.915886,
+    "lon": 144.170665
+  },
+  {
+    "station_id": "hokkaido_0078",
+    "station_name": "妹背牛",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.690841,
+    "lon": 141.966591
+  },
+  {
+    "station_id": "hokkaido_0248",
+    "station_name": "姉別",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.196201,
+    "lon": 145.194716
+  },
+  {
+    "station_id": "hokkaido_0389",
+    "station_name": "学園前(札幌)",
+    "prefecture": "北海道",
+    "line_name": "札幌市東豊線",
+    "lat": 43.047448,
+    "lon": 141.36909
+  },
+  {
+    "station_id": "hokkaido_0190",
+    "station_name": "学田",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.366234,
+    "lon": 142.386118
+  },
+  {
+    "station_id": "hokkaido_0283",
+    "station_name": "安国",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.993322,
+    "lon": 143.535762
+  },
+  {
+    "station_id": "hokkaido_0166",
+    "station_name": "安平",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.814007,
+    "lon": 141.825283
+  },
+  {
+    "station_id": "hokkaido_0277",
+    "station_name": "安足間",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.852011,
+    "lon": 142.693868
+  },
+  {
+    "station_id": "hokkaido_0323",
+    "station_name": "宝来町",
+    "prefecture": "北海道",
+    "line_name": "函館市電宝来・谷地頭線",
+    "lat": 41.761085,
+    "lon": 140.7198
+  },
+  {
+    "station_id": "hokkaido_0135",
+    "station_name": "室蘭",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭支線",
+    "lat": 42.317864,
+    "lon": 140.97571
+  },
+  {
+    "station_id": "hokkaido_0364",
+    "station_name": "宮の沢",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.089962,
+    "lon": 141.27717
+  },
+  {
+    "station_id": "hokkaido_0152",
+    "station_name": "富浦",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.441957,
+    "lon": 141.156878
+  },
+  {
+    "station_id": "hokkaido_0191",
+    "station_name": "富良野",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.347114,
+    "lon": 142.391374
+  },
+  {
+    "station_id": "hokkaido_0137",
+    "station_name": "小幌",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.589731,
+    "lon": 140.537361
+  },
+  {
+    "station_id": "hokkaido_0042",
+    "station_name": "小樽",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.197172,
+    "lon": 140.993653
+  },
+  {
+    "station_id": "hokkaido_0044",
+    "station_name": "小樽築港",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.180752,
+    "lon": 141.029051
+  },
+  {
+    "station_id": "hokkaido_0035",
+    "station_name": "小沢",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.97185,
+    "lon": 140.677657
+  },
+  {
+    "station_id": "hokkaido_0243",
+    "station_name": "尾幌",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.018463,
+    "lon": 144.703758
+  },
+  {
+    "station_id": "hokkaido_0006",
+    "station_name": "尾白内",
+    "prefecture": "北海道",
+    "line_name": "JR函館支線",
+    "lat": 42.111232,
+    "lon": 140.613449
+  },
+  {
+    "station_id": "hokkaido_0023",
+    "station_name": "山崎",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.314635,
+    "lon": 140.2746
+  },
+  {
+    "station_id": "hokkaido_0021",
+    "station_name": "山越",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.231172,
+    "lon": 140.326593
+  },
+  {
+    "station_id": "hokkaido_0409",
+    "station_name": "山鼻19条",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.034706,
+    "lon": 141.351514
+  },
+  {
+    "station_id": "hokkaido_0413",
+    "station_name": "山鼻9条",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.048067,
+    "lon": 141.349862
+  },
+  {
+    "station_id": "hokkaido_0068",
+    "station_name": "岩見沢",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.204201,
+    "lon": 141.759359
+  },
+  {
+    "station_id": "hokkaido_0069",
+    "station_name": "峰延",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.264694,
+    "lon": 141.814673
+  },
+  {
+    "station_id": "hokkaido_0091",
+    "station_name": "島松",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 42.922504,
+    "lon": 141.573117
+  },
+  {
+    "station_id": "hokkaido_0148",
+    "station_name": "崎守",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.373968,
+    "lon": 140.927141
+  },
+  {
+    "station_id": "hokkaido_0309",
+    "station_name": "川湯温泉",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.616258,
+    "lon": 144.457749
+  },
+  {
+    "station_id": "hokkaido_0266",
+    "station_name": "川端",
+    "prefecture": "北海道",
+    "line_name": "JR石勝線",
+    "lat": 42.914721,
+    "lon": 141.894791
+  },
+  {
+    "station_id": "hokkaido_0330",
+    "station_name": "市役所前(函館)",
+    "prefecture": "北海道",
+    "line_name": "函館市電本線",
+    "lat": 41.768943,
+    "lon": 140.72495
+  },
+  {
+    "station_id": "hokkaido_0221",
+    "station_name": "帯広",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.917997,
+    "lon": 143.20195
+  },
+  {
+    "station_id": "hokkaido_0151",
+    "station_name": "幌別",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.409782,
+    "lon": 141.107293
+  },
+  {
+    "station_id": "hokkaido_0408",
+    "station_name": "幌南小学校前",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.032196,
+    "lon": 141.351814
+  },
+  {
+    "station_id": "hokkaido_0066",
+    "station_name": "幌向",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.151348,
+    "lon": 141.655839
+  },
+  {
+    "station_id": "hokkaido_0357",
+    "station_name": "幌平橋",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.040073,
+    "lon": 141.355886
+  },
+  {
+    "station_id": "hokkaido_0124",
+    "station_name": "幌延",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 45.014503,
+    "lon": 141.84569
+  },
+  {
+    "station_id": "hokkaido_0223",
+    "station_name": "幕別",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.90784,
+    "lon": 143.359293
+  },
+  {
+    "station_id": "hokkaido_0095",
+    "station_name": "平和",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 43.04695,
+    "lon": 141.437967
+  },
+  {
+    "station_id": "hokkaido_0210",
+    "station_name": "平岸(札幌市営)",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.541401,
+    "lon": 142.123872
+  },
+  {
+    "station_id": "hokkaido_0234",
+    "station_name": "庶路",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.983601,
+    "lon": 144.150018
+  },
+  {
+    "station_id": "hokkaido_0206",
+    "station_name": "当別",
+    "prefecture": "北海道",
+    "line_name": "JR札沼線",
+    "lat": 43.22208,
+    "lon": 141.513764
+  },
+  {
+    "station_id": "hokkaido_0273",
+    "station_name": "当麻",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.825477,
+    "lon": 142.516987
+  },
+  {
+    "station_id": "hokkaido_0133",
+    "station_name": "御崎",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭支線",
+    "lat": 42.329014,
+    "lon": 140.993881
+  },
+  {
+    "station_id": "hokkaido_0216",
+    "station_name": "御影",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.942418,
+    "lon": 142.935739
+  },
+  {
+    "station_id": "hokkaido_0174",
+    "station_name": "志文",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 43.158903,
+    "lon": 141.744443
+  },
+  {
+    "station_id": "hokkaido_0090",
+    "station_name": "恵み野",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 42.902704,
+    "lon": 141.574429
+  },
+  {
+    "station_id": "hokkaido_0089",
+    "station_name": "恵庭",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 42.883076,
+    "lon": 141.586234
+  },
+  {
+    "station_id": "hokkaido_0292",
+    "station_name": "愛し野",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.841426,
+    "lon": 143.932962
+  },
+  {
+    "station_id": "hokkaido_0275",
+    "station_name": "愛別",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.898635,
+    "lon": 142.582176
+  },
+  {
+    "station_id": "hokkaido_0050",
+    "station_name": "手稲",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.120238,
+    "lon": 141.243785
+  },
+  {
+    "station_id": "hokkaido_0201",
+    "station_name": "拓北",
+    "prefecture": "北海道",
+    "line_name": "JR札沼線",
+    "lat": 43.155568,
+    "lon": 141.381013
+  },
+  {
+    "station_id": "hokkaido_0005",
+    "station_name": "掛澗",
+    "prefecture": "北海道",
+    "line_name": "JR函館支線",
+    "lat": 42.119205,
+    "lon": 140.64598
+  },
+  {
+    "station_id": "hokkaido_0307",
+    "station_name": "摩周",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.487372,
+    "lon": 144.463981
+  },
+  {
+    "station_id": "hokkaido_0381",
+    "station_name": "新さっぽろ",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.039141,
+    "lon": 141.473106
+  },
+  {
+    "station_id": "hokkaido_0014",
+    "station_name": "新函館北斗",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 41.9054,
+    "lon": 140.646525
+  },
+  {
+    "station_id": "hokkaido_0096",
+    "station_name": "新千歳空港",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 42.787546,
+    "lon": 141.680823
+  },
+  {
+    "station_id": "hokkaido_0228",
+    "station_name": "新吉野",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.778238,
+    "lon": 143.60826
+  },
+  {
+    "station_id": "hokkaido_0267",
+    "station_name": "新夕張",
+    "prefecture": "北海道",
+    "line_name": "JR石勝線",
+    "lat": 42.936611,
+    "lon": 142.03657
+  },
+  {
+    "station_id": "hokkaido_0236",
+    "station_name": "新大楽毛",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.009423,
+    "lon": 144.295558
+  },
+  {
+    "station_id": "hokkaido_0237",
+    "station_name": "新富士",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.001605,
+    "lon": 144.350758
+  },
+  {
+    "station_id": "hokkaido_0196",
+    "station_name": "新川(北海道)",
+    "prefecture": "北海道",
+    "line_name": "JR札沼線",
+    "lat": 43.098604,
+    "lon": 141.323824
+  },
+  {
+    "station_id": "hokkaido_0333",
+    "station_name": "新川町(函館)",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.77464,
+    "lon": 140.736601
+  },
+  {
+    "station_id": "hokkaido_0214",
+    "station_name": "新得",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.082501,
+    "lon": 142.832432
+  },
+  {
+    "station_id": "hokkaido_0098",
+    "station_name": "新旭川",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 43.780174,
+    "lon": 142.384789
+  },
+  {
+    "station_id": "hokkaido_0094",
+    "station_name": "新札幌",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 43.038732,
+    "lon": 141.47237
+  },
+  {
+    "station_id": "hokkaido_0197",
+    "station_name": "新琴似",
+    "prefecture": "北海道",
+    "line_name": "JR札沼線",
+    "lat": 43.112928,
+    "lon": 141.335105
+  },
+  {
+    "station_id": "hokkaido_0383",
+    "station_name": "新道東",
+    "prefecture": "北海道",
+    "line_name": "札幌市東豊線",
+    "lat": 43.104663,
+    "lon": 141.369086
+  },
+  {
+    "station_id": "hokkaido_0112",
+    "station_name": "日進",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.381713,
+    "lon": 142.467354
+  },
+  {
+    "station_id": "hokkaido_0165",
+    "station_name": "早来",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.765237,
+    "lon": 141.814106
+  },
+  {
+    "station_id": "hokkaido_0082",
+    "station_name": "旭川",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.763492,
+    "lon": 142.357803
+  },
+  {
+    "station_id": "hokkaido_0097",
+    "station_name": "旭川四条",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 43.764056,
+    "lon": 142.375815
+  },
+  {
+    "station_id": "hokkaido_0031",
+    "station_name": "昆布",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.797984,
+    "lon": 140.596107
+  },
+  {
+    "station_id": "hokkaido_0252",
+    "station_name": "昆布盛",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.228593,
+    "lon": 145.542444
+  },
+  {
+    "station_id": "hokkaido_0048",
+    "station_name": "星置",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.132375,
+    "lon": 141.210856
+  },
+  {
+    "station_id": "hokkaido_0335",
+    "station_name": "昭和橋",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.778017,
+    "lon": 140.740893
+  },
+  {
+    "station_id": "hokkaido_0114",
+    "station_name": "智北",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.46103,
+    "lon": 142.394007
+  },
+  {
+    "station_id": "hokkaido_0113",
+    "station_name": "智恵文",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.455553,
+    "lon": 142.414772
+  },
+  {
+    "station_id": "hokkaido_0392",
+    "station_name": "月寒中央",
+    "prefecture": "北海道",
+    "line_name": "札幌市東豊線",
+    "lat": 43.030553,
+    "lon": 141.396263
+  },
+  {
+    "station_id": "hokkaido_0142",
+    "station_name": "有珠",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.513267,
+    "lon": 140.793969
+  },
+  {
+    "station_id": "hokkaido_0045",
+    "station_name": "朝里",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.176868,
+    "lon": 141.063923
+  },
+  {
+    "station_id": "hokkaido_0265",
+    "station_name": "木古内",
+    "prefecture": "北海道",
+    "line_name": "道南いさりび鉄道線",
+    "lat": 41.677642,
+    "lon": 140.434004
+  },
+  {
+    "station_id": "hokkaido_0328",
+    "station_name": "末広町(函館)",
+    "prefecture": "北海道",
+    "line_name": "函館市電本線",
+    "lat": 41.766879,
+    "lon": 140.711989
+  },
+  {
+    "station_id": "hokkaido_0149",
+    "station_name": "本輪西",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.358734,
+    "lon": 140.977561
+  },
+  {
+    "station_id": "hokkaido_0222",
+    "station_name": "札内",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.912697,
+    "lon": 143.256248
+  },
+  {
+    "station_id": "hokkaido_0056",
+    "station_name": "札幌(ＪＲ)",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.068612,
+    "lon": 141.350768
+  },
+  {
+    "station_id": "hokkaido_0311",
+    "station_name": "札弦",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.786574,
+    "lon": 144.531526
+  },
+  {
+    "station_id": "hokkaido_0264",
+    "station_name": "札苅",
+    "prefecture": "北海道",
+    "line_name": "道南いさりび鉄道線",
+    "lat": 41.699271,
+    "lon": 140.468097
+  },
+  {
+    "station_id": "hokkaido_0340",
+    "station_name": "杉並町",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.788689,
+    "lon": 140.759304
+  },
+  {
+    "station_id": "hokkaido_0256",
+    "station_name": "東久根別",
+    "prefecture": "北海道",
+    "line_name": "道南いさりび鉄道線",
+    "lat": 41.826005,
+    "lon": 140.679731
+  },
+  {
+    "station_id": "hokkaido_0386",
+    "station_name": "東区役所前",
+    "prefecture": "北海道",
+    "line_name": "札幌市東豊線",
+    "lat": 43.078197,
+    "lon": 141.364769
+  },
+  {
+    "station_id": "hokkaido_0131",
+    "station_name": "東室蘭",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭支線",
+    "lat": 42.349374,
+    "lon": 141.026411
+  },
+  {
+    "station_id": "hokkaido_0407",
+    "station_name": "東屯田通",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.031051,
+    "lon": 141.347501
+  },
+  {
+    "station_id": "hokkaido_0271",
+    "station_name": "東旭川",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.776571,
+    "lon": 142.441544
+  },
+  {
+    "station_id": "hokkaido_0414",
+    "station_name": "東本願寺前",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.051783,
+    "lon": 141.34939
+  },
+  {
+    "station_id": "hokkaido_0374",
+    "station_name": "東札幌",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.051614,
+    "lon": 141.384922
+  },
+  {
+    "station_id": "hokkaido_0007",
+    "station_name": "東森",
+    "prefecture": "北海道",
+    "line_name": "JR函館支線",
+    "lat": 42.106823,
+    "lon": 140.59353
+  },
+  {
+    "station_id": "hokkaido_0288",
+    "station_name": "東相内",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.805466,
+    "lon": 143.809499
+  },
+  {
+    "station_id": "hokkaido_0239",
+    "station_name": "東釧路",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.995207,
+    "lon": 144.411307
+  },
+  {
+    "station_id": "hokkaido_0332",
+    "station_name": "松風町",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.771296,
+    "lon": 140.733039
+  },
+  {
+    "station_id": "hokkaido_0341",
+    "station_name": "柏木町",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.787937,
+    "lon": 140.765226
+  },
+  {
+    "station_id": "hokkaido_0220",
+    "station_name": "柏林台",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.928877,
+    "lon": 143.1645
+  },
+  {
+    "station_id": "hokkaido_0291",
+    "station_name": "柏陽",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.824911,
+    "lon": 143.916737
+  },
+  {
+    "station_id": "hokkaido_0382",
+    "station_name": "栄町(札幌)",
+    "prefecture": "北海道",
+    "line_name": "札幌市東豊線",
+    "lat": 43.112995,
+    "lon": 141.367142
+  },
+  {
+    "station_id": "hokkaido_0172",
+    "station_name": "栗丘",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 43.085444,
+    "lon": 141.744333
+  },
+  {
+    "station_id": "hokkaido_0171",
+    "station_name": "栗山",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 43.058164,
+    "lon": 141.775603
+  },
+  {
+    "station_id": "hokkaido_0173",
+    "station_name": "栗沢",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 43.120367,
+    "lon": 141.739743
+  },
+  {
+    "station_id": "hokkaido_0254",
+    "station_name": "根室",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.326923,
+    "lon": 145.582707
+  },
+  {
+    "station_id": "hokkaido_0321",
+    "station_name": "桂台",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 44.016913,
+    "lon": 144.273223
+  },
+  {
+    "station_id": "hokkaido_0055",
+    "station_name": "桑園",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.070744,
+    "lon": 141.332036
+  },
+  {
+    "station_id": "hokkaido_0011",
+    "station_name": "桔梗",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 41.846457,
+    "lon": 140.722952
+  },
+  {
+    "station_id": "hokkaido_0272",
+    "station_name": "桜岡",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.801812,
+    "lon": 142.486968
+  },
+  {
+    "station_id": "hokkaido_0008",
+    "station_name": "森",
+    "prefecture": "北海道",
+    "line_name": "JR函館支線",
+    "lat": 42.108917,
+    "lon": 140.573846
+  },
+  {
+    "station_id": "hokkaido_0060",
+    "station_name": "森林公園(北海道)",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.056456,
+    "lon": 141.481332
+  },
+  {
+    "station_id": "hokkaido_0084",
+    "station_name": "植苗",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 42.713645,
+    "lon": 141.735344
+  },
+  {
+    "station_id": "hokkaido_0305",
+    "station_name": "標茶",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.298472,
+    "lon": 144.608435
+  },
+  {
+    "station_id": "hokkaido_0315",
+    "station_name": "止別",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.921558,
+    "lon": 144.519818
+  },
+  {
+    "station_id": "hokkaido_0240",
+    "station_name": "武佐",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.991364,
+    "lon": 144.426681
+  },
+  {
+    "station_id": "hokkaido_0134",
+    "station_name": "母恋",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭支線",
+    "lat": 42.317295,
+    "lon": 140.990018
+  },
+  {
+    "station_id": "hokkaido_0101",
+    "station_name": "比布",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 43.874478,
+    "lon": 142.471294
+  },
+  {
+    "station_id": "hokkaido_0033",
+    "station_name": "比羅夫",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.84856,
+    "lon": 140.722615
+  },
+  {
+    "station_id": "hokkaido_0099",
+    "station_name": "永山",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 43.814158,
+    "lon": 142.434382
+  },
+  {
+    "station_id": "hokkaido_0064",
+    "station_name": "江別",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.110189,
+    "lon": 141.55679
+  },
+  {
+    "station_id": "hokkaido_0077",
+    "station_name": "江部乙",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.627564,
+    "lon": 141.935937
+  },
+  {
+    "station_id": "hokkaido_0225",
+    "station_name": "池田",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.922186,
+    "lon": 143.453033
+  },
+  {
+    "station_id": "hokkaido_0083",
+    "station_name": "沼ノ端",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 42.672057,
+    "lon": 141.693132
+  },
+  {
+    "station_id": "hokkaido_0263",
+    "station_name": "泉沢",
+    "prefecture": "北海道",
+    "line_name": "道南いさりび鉄道線",
+    "lat": 41.700867,
+    "lon": 140.506797
+  },
+  {
+    "station_id": "hokkaido_0141",
+    "station_name": "洞爺",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.55055,
+    "lon": 140.763959
+  },
+  {
+    "station_id": "hokkaido_0247",
+    "station_name": "浜中",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.15754,
+    "lon": 145.099657
+  },
+  {
+    "station_id": "hokkaido_0193",
+    "station_name": "浜厚真",
+    "prefecture": "北海道",
+    "line_name": "JR日高本線",
+    "lat": 42.606725,
+    "lon": 141.837071
+  },
+  {
+    "station_id": "hokkaido_0316",
+    "station_name": "浜小清水",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.934077,
+    "lon": 144.453187
+  },
+  {
+    "station_id": "hokkaido_0229",
+    "station_name": "浦幌",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.810849,
+    "lon": 143.651568
+  },
+  {
+    "station_id": "hokkaido_0342",
+    "station_name": "深堀町",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.787153,
+    "lon": 140.769947
+  },
+  {
+    "station_id": "hokkaido_0079",
+    "station_name": "深川",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.721021,
+    "lon": 142.041642
+  },
+  {
+    "station_id": "hokkaido_0258",
+    "station_name": "清川口",
+    "prefecture": "北海道",
+    "line_name": "道南いさりび鉄道線",
+    "lat": 41.824615,
+    "lon": 140.652906
+  },
+  {
+    "station_id": "hokkaido_0312",
+    "station_name": "清里町",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.83871,
+    "lon": 144.593948
+  },
+  {
+    "station_id": "hokkaido_0261",
+    "station_name": "渡島当別",
+    "prefecture": "北海道",
+    "line_name": "道南いさりび鉄道線",
+    "lat": 41.737309,
+    "lon": 140.579109
+  },
+  {
+    "station_id": "hokkaido_0003",
+    "station_name": "渡島沼尻",
+    "prefecture": "北海道",
+    "line_name": "JR函館支線",
+    "lat": 42.10706,
+    "lon": 140.747596
+  },
+  {
+    "station_id": "hokkaido_0004",
+    "station_name": "渡島砂原",
+    "prefecture": "北海道",
+    "line_name": "JR函館支線",
+    "lat": 42.12164,
+    "lon": 140.689451
+  },
+  {
+    "station_id": "hokkaido_0347",
+    "station_name": "湯の川",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.781073,
+    "lon": 140.789902
+  },
+  {
+    "station_id": "hokkaido_0346",
+    "station_name": "湯の川温泉",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.780129,
+    "lon": 140.784881
+  },
+  {
+    "station_id": "hokkaido_0076",
+    "station_name": "滝川",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.555278,
+    "lon": 141.900807
+  },
+  {
+    "station_id": "hokkaido_0361",
+    "station_name": "澄川",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.016845,
+    "lon": 141.367308
+  },
+  {
+    "station_id": "hokkaido_0281",
+    "station_name": "瀬戸瀬",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 44.008753,
+    "lon": 143.420937
+  },
+  {
+    "station_id": "hokkaido_0037",
+    "station_name": "然別",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.12551,
+    "lon": 140.737211
+  },
+  {
+    "station_id": "hokkaido_0028",
+    "station_name": "熱郛",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.675653,
+    "lon": 140.375084
+  },
+  {
+    "station_id": "hokkaido_0416",
+    "station_name": "狸小路",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.057279,
+    "lon": 141.352927
+  },
+  {
+    "station_id": "hokkaido_0054",
+    "station_name": "琴似(札幌市営)",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.081599,
+    "lon": 141.307418
+  },
+  {
+    "station_id": "hokkaido_0108",
+    "station_name": "瑞穂",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.266349,
+    "lon": 142.396244
+  },
+  {
+    "station_id": "hokkaido_0385",
+    "station_name": "環状通東",
+    "prefecture": "北海道",
+    "line_name": "札幌市東豊線",
+    "lat": 43.082166,
+    "lon": 141.374643
+  },
+  {
+    "station_id": "hokkaido_0284",
+    "station_name": "生田原",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.923674,
+    "lon": 143.534627
+  },
+  {
+    "station_id": "hokkaido_0170",
+    "station_name": "由仁",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 43.012206,
+    "lon": 141.785868
+  },
+  {
+    "station_id": "hokkaido_0286",
+    "station_name": "留辺蘂",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.785534,
+    "lon": 143.621394
+  },
+  {
+    "station_id": "hokkaido_0052",
+    "station_name": "発寒",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.099819,
+    "lon": 141.277273
+  },
+  {
+    "station_id": "hokkaido_0053",
+    "station_name": "発寒中央",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.089271,
+    "lon": 141.294497
+  },
+  {
+    "station_id": "hokkaido_0365",
+    "station_name": "発寒南",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.081732,
+    "lon": 141.289312
+  },
+  {
+    "station_id": "hokkaido_0153",
+    "station_name": "登別",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.45207,
+    "lon": 141.180931
+  },
+  {
+    "station_id": "hokkaido_0279",
+    "station_name": "白滝",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.884435,
+    "lon": 143.180795
+  },
+  {
+    "station_id": "hokkaido_0058",
+    "station_name": "白石(札幌市営)",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.054715,
+    "lon": 141.413612
+  },
+  {
+    "station_id": "hokkaido_0232",
+    "station_name": "白糠",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.956161,
+    "lon": 144.076879
+  },
+  {
+    "station_id": "hokkaido_0158",
+    "station_name": "白老",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.55474,
+    "lon": 141.360054
+  },
+  {
+    "station_id": "hokkaido_0199",
+    "station_name": "百合が原",
+    "prefecture": "北海道",
+    "line_name": "JR札沼線",
+    "lat": 43.131476,
+    "lon": 141.360672
+  },
+  {
+    "station_id": "hokkaido_0029",
+    "station_name": "目名",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.761432,
+    "lon": 140.465742
+  },
+  {
+    "station_id": "hokkaido_0287",
+    "station_name": "相内",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.795948,
+    "lon": 143.756449
+  },
+  {
+    "station_id": "hokkaido_0363",
+    "station_name": "真駒内",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 42.991134,
+    "lon": 141.358499
+  },
+  {
+    "station_id": "hokkaido_0314",
+    "station_name": "知床斜里",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.910749,
+    "lon": 144.661647
+  },
+  {
+    "station_id": "hokkaido_0018",
+    "station_name": "石倉",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.17285,
+    "lon": 140.458436
+  },
+  {
+    "station_id": "hokkaido_0406",
+    "station_name": "石山通",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.030706,
+    "lon": 141.344175
+  },
+  {
+    "station_id": "hokkaido_0075",
+    "station_name": "砂川",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.493468,
+    "lon": 141.909642
+  },
+  {
+    "station_id": "hokkaido_0306",
+    "station_name": "磯分内",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.379389,
+    "lon": 144.554322
+  },
+  {
+    "station_id": "hokkaido_0138",
+    "station_name": "礼文",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.580422,
+    "lon": 140.595013
+  },
+  {
+    "station_id": "hokkaido_0159",
+    "station_name": "社台",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.578682,
+    "lon": 141.417433
+  },
+  {
+    "station_id": "hokkaido_0175",
+    "station_name": "神楽岡",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.745033,
+    "lon": 142.358257
+  },
+  {
+    "station_id": "hokkaido_0393",
+    "station_name": "福住",
+    "prefecture": "北海道",
+    "line_name": "札幌市東豊線",
+    "lat": 43.021621,
+    "lon": 141.403105
+  },
+  {
+    "station_id": "hokkaido_0146",
+    "station_name": "稀府",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.425567,
+    "lon": 140.898836
+  },
+  {
+    "station_id": "hokkaido_0130",
+    "station_name": "稚内",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 45.416995,
+    "lon": 141.676999
+  },
+  {
+    "station_id": "hokkaido_0049",
+    "station_name": "稲穂",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.128115,
+    "lon": 141.222919
+  },
+  {
+    "station_id": "hokkaido_0051",
+    "station_name": "稲積公園",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.112023,
+    "lon": 141.257113
+  },
+  {
+    "station_id": "hokkaido_0293",
+    "station_name": "端野",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.851172,
+    "lon": 143.942336
+  },
+  {
+    "station_id": "hokkaido_0343",
+    "station_name": "競馬場前(函館)",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.784657,
+    "lon": 140.775268
+  },
+  {
+    "station_id": "hokkaido_0155",
+    "station_name": "竹浦",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.49284,
+    "lon": 141.260395
+  },
+  {
+    "station_id": "hokkaido_0119",
+    "station_name": "筬島",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.738884,
+    "lon": 142.197777
+  },
+  {
+    "station_id": "hokkaido_0200",
+    "station_name": "篠路",
+    "prefecture": "北海道",
+    "line_name": "JR札沼線",
+    "lat": 43.145152,
+    "lon": 141.364323
+  },
+  {
+    "station_id": "hokkaido_0123",
+    "station_name": "糠南",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.920778,
+    "lon": 142.000931
+  },
+  {
+    "station_id": "hokkaido_0161",
+    "station_name": "糸井",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.6225,
+    "lon": 141.546187
+  },
+  {
+    "station_id": "hokkaido_0080",
+    "station_name": "納内",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.732509,
+    "lon": 142.130072
+  },
+  {
+    "station_id": "hokkaido_0302",
+    "station_name": "細岡",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.105055,
+    "lon": 144.469683
+  },
+  {
+    "station_id": "hokkaido_0299",
+    "station_name": "網走",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 44.019873,
+    "lon": 144.254156
+  },
+  {
+    "station_id": "hokkaido_0294",
+    "station_name": "緋牛内",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.880431,
+    "lon": 143.999887
+  },
+  {
+    "station_id": "hokkaido_0310",
+    "station_name": "緑",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.718282,
+    "lon": 144.505499
+  },
+  {
+    "station_id": "hokkaido_0176",
+    "station_name": "緑が丘",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.731074,
+    "lon": 142.365701
+  },
+  {
+    "station_id": "hokkaido_0071",
+    "station_name": "美唄",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.330751,
+    "lon": 141.862157
+  },
+  {
+    "station_id": "hokkaido_0391",
+    "station_name": "美園",
+    "prefecture": "北海道",
+    "line_name": "札幌市東豊線",
+    "lat": 43.036338,
+    "lon": 141.385756
+  },
+  {
+    "station_id": "hokkaido_0295",
+    "station_name": "美幌",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.836967,
+    "lon": 144.10563
+  },
+  {
+    "station_id": "hokkaido_0115",
+    "station_name": "美深",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.482951,
+    "lon": 142.350597
+  },
+  {
+    "station_id": "hokkaido_0183",
+    "station_name": "美瑛",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.591186,
+    "lon": 142.461639
+  },
+  {
+    "station_id": "hokkaido_0308",
+    "station_name": "美留和",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.555316,
+    "lon": 144.437656
+  },
+  {
+    "station_id": "hokkaido_0184",
+    "station_name": "美馬牛",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.537408,
+    "lon": 142.447192
+  },
+  {
+    "station_id": "hokkaido_0362",
+    "station_name": "自衛隊前",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.006038,
+    "lon": 141.364776
+  },
+  {
+    "station_id": "hokkaido_0211",
+    "station_name": "芦別",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.516636,
+    "lon": 142.184543
+  },
+  {
+    "station_id": "hokkaido_0217",
+    "station_name": "芽室",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.909846,
+    "lon": 143.047991
+  },
+  {
+    "station_id": "hokkaido_0057",
+    "station_name": "苗穂",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.068574,
+    "lon": 141.377522
+  },
+  {
+    "station_id": "hokkaido_0163",
+    "station_name": "苫小牧",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.639665,
+    "lon": 141.596837
+  },
+  {
+    "station_id": "hokkaido_0209",
+    "station_name": "茂尻",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.537314,
+    "lon": 142.082156
+  },
+  {
+    "station_id": "hokkaido_0260",
+    "station_name": "茂辺地",
+    "prefecture": "北海道",
+    "line_name": "道南いさりび鉄道線",
+    "lat": 41.766604,
+    "lon": 140.600561
+  },
+  {
+    "station_id": "hokkaido_0304",
+    "station_name": "茅沼",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.202097,
+    "lon": 144.503788
+  },
+  {
+    "station_id": "hokkaido_0246",
+    "station_name": "茶内",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.129266,
+    "lon": 145.02801
+  },
+  {
+    "station_id": "hokkaido_0072",
+    "station_name": "茶志内",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.369842,
+    "lon": 141.87336
+  },
+  {
+    "station_id": "hokkaido_0373",
+    "station_name": "菊水",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.057169,
+    "lon": 141.3727
+  },
+  {
+    "station_id": "hokkaido_0157",
+    "station_name": "萩野",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.521159,
+    "lon": 141.30603
+  },
+  {
+    "station_id": "hokkaido_0251",
+    "station_name": "落石",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.198335,
+    "lon": 145.519449
+  },
+  {
+    "station_id": "hokkaido_0019",
+    "station_name": "落部",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.187617,
+    "lon": 140.420755
+  },
+  {
+    "station_id": "hokkaido_0319",
+    "station_name": "藻琴",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.968358,
+    "lon": 144.320079
+  },
+  {
+    "station_id": "hokkaido_0040",
+    "station_name": "蘭島",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.19651,
+    "lon": 140.854643
+  },
+  {
+    "station_id": "hokkaido_0102",
+    "station_name": "蘭留",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 43.925072,
+    "lon": 142.473699
+  },
+  {
+    "station_id": "hokkaido_0030",
+    "station_name": "蘭越",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.804542,
+    "lon": 140.52894
+  },
+  {
+    "station_id": "hokkaido_0154",
+    "station_name": "虎杖浜",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.464695,
+    "lon": 141.215092
+  },
+  {
+    "station_id": "hokkaido_0411",
+    "station_name": "行啓通",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.041544,
+    "lon": 141.35072
+  },
+  {
+    "station_id": "hokkaido_0371",
+    "station_name": "西11丁目",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.058557,
+    "lon": 141.341036
+  },
+  {
+    "station_id": "hokkaido_0397",
+    "station_name": "西15丁目",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.056955,
+    "lon": 141.336108
+  },
+  {
+    "station_id": "hokkaido_0370",
+    "station_name": "西18丁目",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.057168,
+    "lon": 141.330204
+  },
+  {
+    "station_id": "hokkaido_0368",
+    "station_name": "西28丁目",
+    "prefecture": "北海道",
+    "line_name": "札幌市東西線",
+    "lat": 43.060345,
+    "lon": 141.314522
+  },
+  {
+    "station_id": "hokkaido_0394",
+    "station_name": "西4丁目",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.058904,
+    "lon": 141.352148
+  },
+  {
+    "station_id": "hokkaido_0395",
+    "station_name": "西8丁目",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.058033,
+    "lon": 141.345358
+  },
+  {
+    "station_id": "hokkaido_0186",
+    "station_name": "西中",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.429569,
+    "lon": 142.441876
+  },
+  {
+    "station_id": "hokkaido_0289",
+    "station_name": "西北見",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.803114,
+    "lon": 143.841586
+  },
+  {
+    "station_id": "hokkaido_0253",
+    "station_name": "西和田",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.268043,
+    "lon": 145.541817
+  },
+  {
+    "station_id": "hokkaido_0296",
+    "station_name": "西女満別",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.880057,
+    "lon": 144.148372
+  },
+  {
+    "station_id": "hokkaido_0219",
+    "station_name": "西帯広",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.923941,
+    "lon": 143.126351
+  },
+  {
+    "station_id": "hokkaido_0233",
+    "station_name": "西庶路",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.976138,
+    "lon": 144.129826
+  },
+  {
+    "station_id": "hokkaido_0177",
+    "station_name": "西御料",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.720834,
+    "lon": 142.371507
+  },
+  {
+    "station_id": "hokkaido_0178",
+    "station_name": "西瑞穂",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.70242,
+    "lon": 142.381982
+  },
+  {
+    "station_id": "hokkaido_0285",
+    "station_name": "西留辺蘂",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 43.785345,
+    "lon": 143.603257
+  },
+  {
+    "station_id": "hokkaido_0179",
+    "station_name": "西神楽",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.682181,
+    "lon": 142.393677
+  },
+  {
+    "station_id": "hokkaido_0400",
+    "station_name": "西線11条",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.044664,
+    "lon": 141.335957
+  },
+  {
+    "station_id": "hokkaido_0401",
+    "station_name": "西線14条",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.040775,
+    "lon": 141.336429
+  },
+  {
+    "station_id": "hokkaido_0402",
+    "station_name": "西線16条",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.037733,
+    "lon": 141.336772
+  },
+  {
+    "station_id": "hokkaido_0398",
+    "station_name": "西線6条",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.051352,
+    "lon": 141.335088
+  },
+  {
+    "station_id": "hokkaido_0399",
+    "station_name": "西線9条旭山公園通",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.04722,
+    "lon": 141.336365
+  },
+  {
+    "station_id": "hokkaido_0180",
+    "station_name": "西聖和",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.669047,
+    "lon": 142.415209
+  },
+  {
+    "station_id": "hokkaido_0325",
+    "station_name": "谷地頭",
+    "prefecture": "北海道",
+    "line_name": "函館市電宝来・谷地頭線",
+    "lat": 41.753273,
+    "lon": 140.71641
+  },
+  {
+    "station_id": "hokkaido_0126",
+    "station_name": "豊富",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 45.104624,
+    "lon": 141.772088
+  },
+  {
+    "station_id": "hokkaido_0065",
+    "station_name": "豊幌",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.136446,
+    "lon": 141.62466
+  },
+  {
+    "station_id": "hokkaido_0390",
+    "station_name": "豊平公園",
+    "prefecture": "北海道",
+    "line_name": "札幌市東豊線",
+    "lat": 43.041929,
+    "lon": 141.376573
+  },
+  {
+    "station_id": "hokkaido_0388",
+    "station_name": "豊水すすきの",
+    "prefecture": "北海道",
+    "line_name": "札幌市東豊線",
+    "lat": 43.055008,
+    "lon": 141.356838
+  },
+  {
+    "station_id": "hokkaido_0074",
+    "station_name": "豊沼",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.464224,
+    "lon": 141.901032
+  },
+  {
+    "station_id": "hokkaido_0140",
+    "station_name": "豊浦",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.580323,
+    "lon": 140.71536
+  },
+  {
+    "station_id": "hokkaido_0227",
+    "station_name": "豊頃",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.817548,
+    "lon": 143.538615
+  },
+  {
+    "station_id": "hokkaido_0415",
+    "station_name": "資生館小学校前",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.055217,
+    "lon": 141.34969
+  },
+  {
+    "station_id": "hokkaido_0016",
+    "station_name": "赤井川",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.003267,
+    "lon": 140.642678
+  },
+  {
+    "station_id": "hokkaido_0208",
+    "station_name": "赤平",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.555144,
+    "lon": 142.048669
+  },
+  {
+    "station_id": "hokkaido_0132",
+    "station_name": "輪西",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭支線",
+    "lat": 42.333775,
+    "lon": 141.005743
+  },
+  {
+    "station_id": "hokkaido_0081",
+    "station_name": "近文",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.789193,
+    "lon": 142.325327
+  },
+  {
+    "station_id": "hokkaido_0167",
+    "station_name": "追分",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.873316,
+    "lon": 141.810678
+  },
+  {
+    "station_id": "hokkaido_0164",
+    "station_name": "遠浅",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.729533,
+    "lon": 141.769568
+  },
+  {
+    "station_id": "hokkaido_0300",
+    "station_name": "遠矢",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.047878,
+    "lon": 144.458367
+  },
+  {
+    "station_id": "hokkaido_0282",
+    "station_name": "遠軽",
+    "prefecture": "北海道",
+    "line_name": "JR石北本線",
+    "lat": 44.060278,
+    "lon": 143.520667
+  },
+  {
+    "station_id": "hokkaido_0062",
+    "station_name": "野幌",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.092559,
+    "lon": 141.52984
+  },
+  {
+    "station_id": "hokkaido_0020",
+    "station_name": "野田生",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.217104,
+    "lon": 140.37586
+  },
+  {
+    "station_id": "hokkaido_0213",
+    "station_name": "野花南",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.474418,
+    "lon": 142.261772
+  },
+  {
+    "station_id": "hokkaido_0262",
+    "station_name": "釜谷",
+    "prefecture": "北海道",
+    "line_name": "道南いさりび鉄道線",
+    "lat": 41.712153,
+    "lon": 140.53718
+  },
+  {
+    "station_id": "hokkaido_0238",
+    "station_name": "釧路",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.990584,
+    "lon": 144.381983
+  },
+  {
+    "station_id": "hokkaido_0301",
+    "station_name": "釧路湿原",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.100647,
+    "lon": 144.447799
+  },
+  {
+    "station_id": "hokkaido_0036",
+    "station_name": "銀山",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.040888,
+    "lon": 140.715321
+  },
+  {
+    "station_id": "hokkaido_0046",
+    "station_name": "銭函",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.143403,
+    "lon": 141.159868
+  },
+  {
+    "station_id": "hokkaido_0160",
+    "station_name": "錦岡",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.6025,
+    "lon": 141.48722
+  },
+  {
+    "station_id": "hokkaido_0026",
+    "station_name": "長万部",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.512477,
+    "lon": 140.37507
+  },
+  {
+    "station_id": "hokkaido_0143",
+    "station_name": "長和",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.488262,
+    "lon": 140.833783
+  },
+  {
+    "station_id": "hokkaido_0087",
+    "station_name": "長都",
+    "prefecture": "北海道",
+    "line_name": "JR千歳線",
+    "lat": 42.852178,
+    "lon": 141.622987
+  },
+  {
+    "station_id": "hokkaido_0244",
+    "station_name": "門静",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 43.057581,
+    "lon": 144.782638
+  },
+  {
+    "station_id": "hokkaido_0404",
+    "station_name": "電車事業所前",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.031271,
+    "lon": 141.337609
+  },
+  {
+    "station_id": "hokkaido_0324",
+    "station_name": "青柳町",
+    "prefecture": "北海道",
+    "line_name": "函館市電宝来・谷地頭線",
+    "lat": 41.756235,
+    "lon": 140.718255
+  },
+  {
+    "station_id": "hokkaido_0162",
+    "station_name": "青葉",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.62999,
+    "lon": 141.568278
+  },
+  {
+    "station_id": "hokkaido_0410",
+    "station_name": "静修学園前",
+    "prefecture": "北海道",
+    "line_name": "札幌市電",
+    "lat": 43.038329,
+    "lon": 141.351063
+  },
+  {
+    "station_id": "hokkaido_0136",
+    "station_name": "静狩",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.584065,
+    "lon": 140.460025
+  },
+  {
+    "station_id": "hokkaido_0231",
+    "station_name": "音別",
+    "prefecture": "北海道",
+    "line_name": "JR根室本線",
+    "lat": 42.888997,
+    "lon": 143.932442
+  },
+  {
+    "station_id": "hokkaido_0118",
+    "station_name": "音威子府",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.729448,
+    "lon": 142.259883
+  },
+  {
+    "station_id": "hokkaido_0109",
+    "station_name": "風連",
+    "prefecture": "北海道",
+    "line_name": "JR宗谷本線",
+    "lat": 44.292238,
+    "lon": 142.421624
+  },
+  {
+    "station_id": "hokkaido_0017",
+    "station_name": "駒ヶ岳",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.038809,
+    "lon": 140.610476
+  },
+  {
+    "station_id": "hokkaido_0344",
+    "station_name": "駒場車庫前",
+    "prefecture": "北海道",
+    "line_name": "函館市電湯の川線",
+    "lat": 41.783265,
+    "lon": 140.779216
+  },
+  {
+    "station_id": "hokkaido_0063",
+    "station_name": "高砂(北海道)",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 43.100084,
+    "lon": 141.540752
+  },
+  {
+    "station_id": "hokkaido_0329",
+    "station_name": "魚市場通",
+    "prefecture": "北海道",
+    "line_name": "函館市電本線",
+    "lat": 41.765838,
+    "lon": 140.721731
+  },
+  {
+    "station_id": "hokkaido_0320",
+    "station_name": "鱒浦",
+    "prefecture": "北海道",
+    "line_name": "JR釧網本線",
+    "lat": 43.982481,
+    "lon": 144.296526
+  },
+  {
+    "station_id": "hokkaido_0194",
+    "station_name": "鵡川",
+    "prefecture": "北海道",
+    "line_name": "JR日高本線",
+    "lat": 42.578953,
+    "lon": 141.923892
+  },
+  {
+    "station_id": "hokkaido_0150",
+    "station_name": "鷲別",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.35953,
+    "lon": 141.042759
+  },
+  {
+    "station_id": "hokkaido_0189",
+    "station_name": "鹿討",
+    "prefecture": "北海道",
+    "line_name": "JR富良野線",
+    "lat": 43.387499,
+    "lon": 142.404812
+  },
+  {
+    "station_id": "hokkaido_0002",
+    "station_name": "鹿部",
+    "prefecture": "北海道",
+    "line_name": "JR函館支線",
+    "lat": 42.06439,
+    "lon": 140.771393
+  },
+  {
+    "station_id": "hokkaido_0348",
+    "station_name": "麻生",
+    "prefecture": "北海道",
+    "line_name": "札幌市南北線",
+    "lat": 43.109106,
+    "lon": 141.338255
+  },
+  {
+    "station_id": "hokkaido_0147",
+    "station_name": "黄金",
+    "prefecture": "北海道",
+    "line_name": "JR室蘭本線",
+    "lat": 42.386441,
+    "lon": 140.907782
+  },
+  {
+    "station_id": "hokkaido_0024",
+    "station_name": "黒岩",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.368296,
+    "lon": 140.288173
+  },
+  {
+    "station_id": "hokkaido_0027",
+    "station_name": "黒松内",
+    "prefecture": "北海道",
+    "line_name": "JR函館本線",
+    "lat": 42.669608,
+    "lon": 140.305704
+  }
+]

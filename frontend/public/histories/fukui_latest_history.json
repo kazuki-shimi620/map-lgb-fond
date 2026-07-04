@@ -1,0 +1,1214 @@
+[
+  {
+    "prefecture": "福井県",
+    "station": "まつもと町屋",
+    "year": 2016,
+    "avg_price": 9250000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "まつもと町屋",
+    "year": 2017,
+    "avg_price": 2700000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "まつもと町屋",
+    "year": 2018,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "まつもと町屋",
+    "year": 2020,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "まつもと町屋",
+    "year": 2021,
+    "avg_price": 4400000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "まつもと町屋",
+    "year": 2022,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "まつもと町屋",
+    "year": 2023,
+    "avg_price": 30333333.333333332
+  },
+  {
+    "prefecture": "福井県",
+    "station": "まつもと町屋",
+    "year": 2024,
+    "avg_price": 29563333.333333332
+  },
+  {
+    "prefecture": "福井県",
+    "station": "まつもと町屋",
+    "year": 2025,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "ベル前",
+    "year": 2009,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "ベル前",
+    "year": 2013,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "ベル前",
+    "year": 2019,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "ベル前",
+    "year": 2020,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "ベル前",
+    "year": 2024,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "ベル前",
+    "year": 2025,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "仁愛女子高校",
+    "year": 2008,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "仁愛女子高校",
+    "year": 2024,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "仁愛女子高校",
+    "year": 2025,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "八ツ島",
+    "year": 2007,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "八ツ島",
+    "year": 2008,
+    "avg_price": 10900000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "八ツ島",
+    "year": 2010,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "八ツ島",
+    "year": 2016,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "八ツ島",
+    "year": 2017,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "八ツ島",
+    "year": 2021,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "八ツ島",
+    "year": 2023,
+    "avg_price": 16160000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "八ツ島",
+    "year": 2024,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "八ツ島",
+    "year": 2025,
+    "avg_price": 17250000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "商工会議所前",
+    "year": 2022,
+    "avg_price": 16100000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "商工会議所前",
+    "year": 2023,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "敦賀",
+    "year": 2022,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "敦賀",
+    "year": 2023,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "敦賀",
+    "year": 2024,
+    "avg_price": 10400000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "敦賀",
+    "year": 2025,
+    "avg_price": 16333333.333333334
+  },
+  {
+    "prefecture": "福井県",
+    "station": "新田塚",
+    "year": 2009,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "新田塚",
+    "year": 2010,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "新田塚",
+    "year": 2019,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "新福井",
+    "year": 2010,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "新福井",
+    "year": 2012,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "新福井",
+    "year": 2015,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "新福井",
+    "year": 2017,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "新福井",
+    "year": 2019,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "新福井",
+    "year": 2022,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "新福井",
+    "year": 2023,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "新福井",
+    "year": 2024,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "新福井",
+    "year": 2025,
+    "avg_price": 26750000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "日華化学前",
+    "year": 2009,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "日華化学前",
+    "year": 2011,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "日華化学前",
+    "year": 2017,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "日華化学前",
+    "year": 2019,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "日華化学前",
+    "year": 2021,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "日華化学前",
+    "year": 2022,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "日華化学前",
+    "year": 2023,
+    "avg_price": 17360000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "日華化学前",
+    "year": 2024,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "日華化学前",
+    "year": 2025,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "松岡",
+    "year": 2025,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "森田",
+    "year": 2011,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "森田",
+    "year": 2013,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "森田",
+    "year": 2016,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "森田",
+    "year": 2017,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "森田",
+    "year": 2019,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "森田",
+    "year": 2021,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "森田",
+    "year": 2025,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "江端",
+    "year": 2008,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "江端",
+    "year": 2009,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "江端",
+    "year": 2013,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "江端",
+    "year": 2015,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "江端",
+    "year": 2016,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "江端",
+    "year": 2018,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "江端",
+    "year": 2021,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "田原町(福井)",
+    "year": 2008,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "田原町(福井)",
+    "year": 2009,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "田原町(福井)",
+    "year": 2011,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "田原町(福井)",
+    "year": 2012,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "田原町(福井)",
+    "year": 2013,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "田原町(福井)",
+    "year": 2015,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "田原町(福井)",
+    "year": 2017,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "田原町(福井)",
+    "year": 2018,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "田原町(福井)",
+    "year": 2020,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "田原町(福井)",
+    "year": 2021,
+    "avg_price": 19600000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "田原町(福井)",
+    "year": 2022,
+    "avg_price": 22666666.666666668
+  },
+  {
+    "prefecture": "福井県",
+    "station": "田原町(福井)",
+    "year": 2024,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "田原町(福井)",
+    "year": 2025,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2007,
+    "avg_price": 10050000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2008,
+    "avg_price": 12613333.333333334
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2009,
+    "avg_price": 17358823.529411763
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2010,
+    "avg_price": 19354285.714285713
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2011,
+    "avg_price": 18924146.341463413
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2012,
+    "avg_price": 17758620.689655174
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2013,
+    "avg_price": 17618918.91891892
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2014,
+    "avg_price": 10439130.43478261
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2015,
+    "avg_price": 14174193.548387097
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2016,
+    "avg_price": 13121428.57142857
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2017,
+    "avg_price": 9068421.05263158
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2018,
+    "avg_price": 13083333.333333334
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2019,
+    "avg_price": 14600000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2020,
+    "avg_price": 12171428.57142857
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2021,
+    "avg_price": 18528000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2022,
+    "avg_price": 17129411.76470588
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2023,
+    "avg_price": 15135000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2024,
+    "avg_price": 26880000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井(福井)",
+    "year": 2025,
+    "avg_price": 22484000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2008,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2010,
+    "avg_price": 9783333.333333334
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2012,
+    "avg_price": 1200000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2013,
+    "avg_price": 7780000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2014,
+    "avg_price": 1900000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2015,
+    "avg_price": 6450000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2016,
+    "avg_price": 4100000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2017,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2018,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2020,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2021,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2022,
+    "avg_price": 5860000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2023,
+    "avg_price": 7328571.428571428
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2024,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井口",
+    "year": 2025,
+    "avg_price": 12725000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井城址大名町",
+    "year": 2025,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井駅",
+    "year": 2022,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福井駅",
+    "year": 2023,
+    "avg_price": 44000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福大前西福井",
+    "year": 2009,
+    "avg_price": 5100000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福大前西福井",
+    "year": 2010,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福大前西福井",
+    "year": 2011,
+    "avg_price": 4735000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福大前西福井",
+    "year": 2015,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福大前西福井",
+    "year": 2016,
+    "avg_price": 2800000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福大前西福井",
+    "year": 2017,
+    "avg_price": 9950000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福大前西福井",
+    "year": 2020,
+    "avg_price": 1200000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福大前西福井",
+    "year": 2021,
+    "avg_price": 3200000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福大前西福井",
+    "year": 2022,
+    "avg_price": 15800000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福大前西福井",
+    "year": 2023,
+    "avg_price": 22928571.42857143
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福大前西福井",
+    "year": 2024,
+    "avg_price": 17250000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "福大前西福井",
+    "year": 2025,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "花堂",
+    "year": 2012,
+    "avg_price": 3700000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "花堂",
+    "year": 2016,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "花堂",
+    "year": 2019,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "花堂",
+    "year": 2021,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "花堂",
+    "year": 2022,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "花堂",
+    "year": 2023,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "花堂",
+    "year": 2024,
+    "avg_price": 9250000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "花堂",
+    "year": 2025,
+    "avg_price": 6675000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2007,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2008,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2010,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2011,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2012,
+    "avg_price": 13750000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2013,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2014,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2015,
+    "avg_price": 8666666.666666666
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2016,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2017,
+    "avg_price": 8333333.333333333
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2018,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2019,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2020,
+    "avg_price": 5450000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2021,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2022,
+    "avg_price": 12950000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2023,
+    "avg_price": 17125000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2024,
+    "avg_price": 13900000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "西別院",
+    "year": 2025,
+    "avg_price": 17875000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "赤十字前",
+    "year": 2007,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "赤十字前",
+    "year": 2008,
+    "avg_price": 14750000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "赤十字前",
+    "year": 2012,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "赤十字前",
+    "year": 2015,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "赤十字前",
+    "year": 2016,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "赤十字前",
+    "year": 2017,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "赤十字前",
+    "year": 2019,
+    "avg_price": 10166666.666666666
+  },
+  {
+    "prefecture": "福井県",
+    "station": "赤十字前",
+    "year": 2021,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "赤十字前",
+    "year": 2022,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "赤十字前",
+    "year": 2023,
+    "avg_price": 13300000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "赤十字前",
+    "year": 2024,
+    "avg_price": 11900000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "赤十字前",
+    "year": 2025,
+    "avg_price": 17750000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前新保",
+    "year": 2021,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前新保",
+    "year": 2023,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前新保",
+    "year": 2024,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前新保",
+    "year": 2025,
+    "avg_price": 31500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前花堂",
+    "year": 2007,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前花堂",
+    "year": 2010,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前花堂",
+    "year": 2015,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前花堂",
+    "year": 2022,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前花堂",
+    "year": 2023,
+    "avg_price": 18450000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前花堂",
+    "year": 2024,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前花堂",
+    "year": 2025,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2008,
+    "avg_price": 3200000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2009,
+    "avg_price": 13750000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2010,
+    "avg_price": 25587500.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2011,
+    "avg_price": 15375000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2012,
+    "avg_price": 6270000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2013,
+    "avg_price": 9833333.333333334
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2014,
+    "avg_price": 4670000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2015,
+    "avg_price": 3520000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2016,
+    "avg_price": 6180000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2017,
+    "avg_price": 15525000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2018,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2019,
+    "avg_price": 7266666.666666667
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2020,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2021,
+    "avg_price": 2325000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2022,
+    "avg_price": 14360000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2023,
+    "avg_price": 16800000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2024,
+    "avg_price": 26533333.333333332
+  },
+  {
+    "prefecture": "福井県",
+    "station": "越前開発",
+    "year": 2025,
+    "avg_price": 20837500.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "足羽山公園口",
+    "year": 2021,
+    "avg_price": 11133333.333333334
+  },
+  {
+    "prefecture": "福井県",
+    "station": "足羽山公園口",
+    "year": 2022,
+    "avg_price": 1700000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "足羽山公園口",
+    "year": 2023,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "福井県",
+    "station": "足羽山公園口",
+    "year": 2025,
+    "avg_price": 4050000.0
+  }
+]

@@ -1,0 +1,2012 @@
+[
+  {
+    "prefecture": "鹿児島県",
+    "station": "いづろ通",
+    "year": 2014,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "いづろ通",
+    "year": 2021,
+    "avg_price": 35666666.666666664
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "いづろ通",
+    "year": 2022,
+    "avg_price": 19760000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "いづろ通",
+    "year": 2023,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "いづろ通",
+    "year": 2024,
+    "avg_price": 24500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "いづろ通",
+    "year": 2025,
+    "avg_price": 29400000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "上塩屋",
+    "year": 2012,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "上塩屋",
+    "year": 2022,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "上塩屋",
+    "year": 2025,
+    "avg_price": 25500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "上川内",
+    "year": 2014,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "上川内",
+    "year": 2024,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "中洲通",
+    "year": 2021,
+    "avg_price": 37000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "中洲通",
+    "year": 2022,
+    "avg_price": 31142857.14285714
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "中洲通",
+    "year": 2023,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "中洲通",
+    "year": 2024,
+    "avg_price": 29800000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "中洲通",
+    "year": 2025,
+    "avg_price": 29833333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "中福良",
+    "year": 2019,
+    "avg_price": 6600000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "中福良",
+    "year": 2023,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "中郡(鹿児島)",
+    "year": 2022,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "中郡(鹿児島)",
+    "year": 2023,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "二中通",
+    "year": 2014,
+    "avg_price": 7650000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "二中通",
+    "year": 2021,
+    "avg_price": 22666666.666666668
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "二中通",
+    "year": 2022,
+    "avg_price": 26250000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "二中通",
+    "year": 2023,
+    "avg_price": 30666666.666666668
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "二中通",
+    "year": 2024,
+    "avg_price": 33333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "二中通",
+    "year": 2025,
+    "avg_price": 30666666.666666668
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "二軒茶屋(鹿児島)",
+    "year": 2015,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "二軒茶屋(鹿児島)",
+    "year": 2021,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "二軒茶屋(鹿児島)",
+    "year": 2022,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "二軒茶屋(鹿児島)",
+    "year": 2024,
+    "avg_price": 35000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "二軒茶屋(鹿児島)",
+    "year": 2025,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "仙巌園",
+    "year": 2025,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "伊集院",
+    "year": 2021,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "加治屋町",
+    "year": 2014,
+    "avg_price": 34000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "加治屋町",
+    "year": 2021,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "加治屋町",
+    "year": 2022,
+    "avg_price": 25333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "加治屋町",
+    "year": 2023,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "加治屋町",
+    "year": 2024,
+    "avg_price": 25100000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "加治屋町",
+    "year": 2025,
+    "avg_price": 20600000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2007,
+    "avg_price": 15876923.076923076
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2008,
+    "avg_price": 14842105.263157895
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2009,
+    "avg_price": 12650000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2010,
+    "avg_price": 14612500.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2011,
+    "avg_price": 15166666.666666666
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2012,
+    "avg_price": 13800000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2013,
+    "avg_price": 15350000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2014,
+    "avg_price": 14638461.538461538
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2015,
+    "avg_price": 14933333.333333334
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2016,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2017,
+    "avg_price": 15553846.153846154
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2018,
+    "avg_price": 16926086.95652174
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2019,
+    "avg_price": 16717647.05882353
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2020,
+    "avg_price": 17196551.724137932
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2021,
+    "avg_price": 17920689.655172415
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2022,
+    "avg_price": 13609375.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2023,
+    "avg_price": 16918181.818181816
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2024,
+    "avg_price": 15945454.545454545
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島",
+    "year": 2025,
+    "avg_price": 17721428.57142857
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島駅前",
+    "year": 2015,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島駅前",
+    "year": 2023,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "南鹿児島駅前",
+    "year": 2024,
+    "avg_price": 14750000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "嘉例川",
+    "year": 2016,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2009,
+    "avg_price": 13750000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2010,
+    "avg_price": 18428571.42857143
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2011,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2012,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2013,
+    "avg_price": 19333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2014,
+    "avg_price": 8550000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2015,
+    "avg_price": 16250000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2016,
+    "avg_price": 18571428.57142857
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2017,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2018,
+    "avg_price": 21333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2019,
+    "avg_price": 20500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2020,
+    "avg_price": 19636363.636363637
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2021,
+    "avg_price": 16600000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2022,
+    "avg_price": 17142857.14285714
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2023,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2024,
+    "avg_price": 21090909.09090909
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "国分(鹿児島)",
+    "year": 2025,
+    "avg_price": 24285714.285714287
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "天文館通",
+    "year": 2021,
+    "avg_price": 33000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "天文館通",
+    "year": 2022,
+    "avg_price": 18680000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "天文館通",
+    "year": 2023,
+    "avg_price": 19716666.666666668
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "天文館通",
+    "year": 2024,
+    "avg_price": 29500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "天文館通",
+    "year": 2025,
+    "avg_price": 23928571.42857143
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "姶良",
+    "year": 2025,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2007,
+    "avg_price": 8366666.666666667
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2008,
+    "avg_price": 15928571.42857143
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2010,
+    "avg_price": 20666666.666666668
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2011,
+    "avg_price": 10833333.333333334
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2012,
+    "avg_price": 12400000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2013,
+    "avg_price": 15666666.666666666
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2014,
+    "avg_price": 3400000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2015,
+    "avg_price": 13780000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2016,
+    "avg_price": 13340000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2017,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2018,
+    "avg_price": 16028571.42857143
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2019,
+    "avg_price": 11400000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2020,
+    "avg_price": 8025000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2021,
+    "avg_price": 18900000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2022,
+    "avg_price": 13428571.42857143
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2023,
+    "avg_price": 13875000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2024,
+    "avg_price": 18516666.666666668
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿",
+    "year": 2025,
+    "avg_price": 14757142.857142856
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿一丁目",
+    "year": 2020,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿一丁目",
+    "year": 2021,
+    "avg_price": 2800000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "宇宿一丁目",
+    "year": 2025,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2007,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2011,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2012,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2014,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2015,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2016,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2017,
+    "avg_price": 9950000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2018,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2019,
+    "avg_price": 22666666.666666668
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2020,
+    "avg_price": 19333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2021,
+    "avg_price": 17680000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2022,
+    "avg_price": 21800000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2023,
+    "avg_price": 28600000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2024,
+    "avg_price": 22400000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "川内(鹿児島)",
+    "year": 2025,
+    "avg_price": 23333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "工学部前",
+    "year": 2025,
+    "avg_price": 37000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "市役所前(鹿児島)",
+    "year": 2022,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "市役所前(鹿児島)",
+    "year": 2023,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "市役所前(鹿児島)",
+    "year": 2024,
+    "avg_price": 36500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "市役所前(鹿児島)",
+    "year": 2025,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "市立病院前(鹿児島)",
+    "year": 2022,
+    "avg_price": 36000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "市立病院前(鹿児島)",
+    "year": 2023,
+    "avg_price": 41000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "市立病院前(鹿児島)",
+    "year": 2025,
+    "avg_price": 33000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "帖佐",
+    "year": 2024,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "広木",
+    "year": 2020,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "広木",
+    "year": 2021,
+    "avg_price": 14250000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "広木",
+    "year": 2023,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "広木",
+    "year": 2024,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "志布志",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "慈眼寺",
+    "year": 2007,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "慈眼寺",
+    "year": 2008,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "慈眼寺",
+    "year": 2010,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "慈眼寺",
+    "year": 2011,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "慈眼寺",
+    "year": 2012,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "慈眼寺",
+    "year": 2013,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "慈眼寺",
+    "year": 2016,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "慈眼寺",
+    "year": 2017,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "慈眼寺",
+    "year": 2018,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "慈眼寺",
+    "year": 2021,
+    "avg_price": 19333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "慈眼寺",
+    "year": 2022,
+    "avg_price": 17800000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "慈眼寺",
+    "year": 2024,
+    "avg_price": 15666666.666666666
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "慈眼寺",
+    "year": 2025,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "指宿",
+    "year": 2023,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "新屋敷",
+    "year": 2019,
+    "avg_price": 38000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "新屋敷",
+    "year": 2021,
+    "avg_price": 14950000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "新屋敷",
+    "year": 2022,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "新屋敷",
+    "year": 2024,
+    "avg_price": 17900000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "新屋敷",
+    "year": 2025,
+    "avg_price": 11575000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "日当山",
+    "year": 2009,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "朝日通",
+    "year": 2022,
+    "avg_price": 37500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "朝日通",
+    "year": 2023,
+    "avg_price": 30500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "朝日通",
+    "year": 2024,
+    "avg_price": 31500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "桜島桟橋通",
+    "year": 2021,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "桜島桟橋通",
+    "year": 2022,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "桜島桟橋通",
+    "year": 2024,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "桜島桟橋通",
+    "year": 2025,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "武之橋",
+    "year": 2021,
+    "avg_price": 24350000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "武之橋",
+    "year": 2022,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "武之橋",
+    "year": 2023,
+    "avg_price": 21166666.666666668
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "武之橋",
+    "year": 2024,
+    "avg_price": 32750000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "武之橋",
+    "year": 2025,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "水族館口",
+    "year": 2021,
+    "avg_price": 25333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "水族館口",
+    "year": 2022,
+    "avg_price": 25600000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "水族館口",
+    "year": 2023,
+    "avg_price": 34500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "水族館口",
+    "year": 2024,
+    "avg_price": 18800000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "水族館口",
+    "year": 2025,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "涙橋",
+    "year": 2014,
+    "avg_price": 10016666.666666666
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "涙橋",
+    "year": 2021,
+    "avg_price": 12750000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "涙橋",
+    "year": 2022,
+    "avg_price": 12166666.666666666
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "甲東中学校前",
+    "year": 2014,
+    "avg_price": 4200000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "甲東中学校前",
+    "year": 2021,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "甲東中学校前",
+    "year": 2022,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "甲東中学校前",
+    "year": 2023,
+    "avg_price": 2700000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "甲東中学校前",
+    "year": 2024,
+    "avg_price": 35333333.333333336
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "甲東中学校前",
+    "year": 2025,
+    "avg_price": 16250000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "神田(交通局前)",
+    "year": 2021,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "神田(交通局前)",
+    "year": 2022,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "神田(交通局前)",
+    "year": 2023,
+    "avg_price": 21333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "神田(交通局前)",
+    "year": 2024,
+    "avg_price": 26333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "神田(交通局前)",
+    "year": 2025,
+    "avg_price": 22750000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "笹貫",
+    "year": 2012,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "笹貫",
+    "year": 2021,
+    "avg_price": 35666666.666666664
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "笹貫",
+    "year": 2023,
+    "avg_price": 34000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "笹貫",
+    "year": 2024,
+    "avg_price": 34000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "笹貫",
+    "year": 2025,
+    "avg_price": 31500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "純心学園前",
+    "year": 2021,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "純心学園前",
+    "year": 2022,
+    "avg_price": 33000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "純心学園前",
+    "year": 2023,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "純心学園前",
+    "year": 2024,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "純心学園前",
+    "year": 2025,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "脇田",
+    "year": 2021,
+    "avg_price": 7250000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "脇田",
+    "year": 2024,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "脇田",
+    "year": 2025,
+    "avg_price": 17400000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "荒田八幡",
+    "year": 2021,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "荒田八幡",
+    "year": 2022,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "荒田八幡",
+    "year": 2023,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "荒田八幡",
+    "year": 2024,
+    "avg_price": 28333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "荒田八幡",
+    "year": 2025,
+    "avg_price": 29333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(市電)",
+    "year": 2012,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(市電)",
+    "year": 2015,
+    "avg_price": 8650000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(市電)",
+    "year": 2022,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2007,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2008,
+    "avg_price": 20125000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2009,
+    "avg_price": 12100000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2010,
+    "avg_price": 12760000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2011,
+    "avg_price": 15127777.777777778
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2012,
+    "avg_price": 9703333.333333334
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2013,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2014,
+    "avg_price": 13650000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2015,
+    "avg_price": 12687500.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2016,
+    "avg_price": 12900000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2017,
+    "avg_price": 15350000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2018,
+    "avg_price": 17740000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2019,
+    "avg_price": 13250000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2020,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2021,
+    "avg_price": 16450000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2022,
+    "avg_price": 18405882.352941178
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2023,
+    "avg_price": 16757142.857142856
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2024,
+    "avg_price": 19353333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "谷山(ＪＲ)",
+    "year": 2025,
+    "avg_price": 24237500.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(市電)",
+    "year": 2021,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(市電)",
+    "year": 2023,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(市電)",
+    "year": 2024,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(市電)",
+    "year": 2025,
+    "avg_price": 26500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2007,
+    "avg_price": 12975000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2008,
+    "avg_price": 19900000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2009,
+    "avg_price": 13800000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2010,
+    "avg_price": 16490000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2011,
+    "avg_price": 12636363.636363637
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2012,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2013,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2014,
+    "avg_price": 22800000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2015,
+    "avg_price": 21642857.14285714
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2016,
+    "avg_price": 20564285.714285713
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2017,
+    "avg_price": 14238461.538461538
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2018,
+    "avg_price": 15835294.11764706
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2019,
+    "avg_price": 17676190.476190478
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2020,
+    "avg_price": 20650000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2021,
+    "avg_price": 13911111.111111112
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2022,
+    "avg_price": 15571428.57142857
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2023,
+    "avg_price": 20016666.666666668
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2024,
+    "avg_price": 27333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "郡元(ＪＲ)",
+    "year": 2025,
+    "avg_price": 23555555.555555556
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "都通",
+    "year": 2016,
+    "avg_price": 37000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "都通",
+    "year": 2021,
+    "avg_price": 2400000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "都通",
+    "year": 2023,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "都通",
+    "year": 2025,
+    "avg_price": 27333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "隼人",
+    "year": 2014,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "隼人",
+    "year": 2016,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "隼人",
+    "year": 2017,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "隼人",
+    "year": 2018,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "隼人",
+    "year": 2024,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "隼人",
+    "year": 2025,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2007,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2008,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2011,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2014,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2015,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2016,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2017,
+    "avg_price": 200000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2018,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2020,
+    "avg_price": 6842857.142857143
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2021,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2022,
+    "avg_price": 4806666.666666667
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2023,
+    "avg_price": 5650000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2024,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "霧島神宮",
+    "year": 2025,
+    "avg_price": 5575000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "騎射場",
+    "year": 2021,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "騎射場",
+    "year": 2022,
+    "avg_price": 34000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "騎射場",
+    "year": 2023,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "騎射場",
+    "year": 2024,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "騎射場",
+    "year": 2025,
+    "avg_price": 28500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "高見橋",
+    "year": 2021,
+    "avg_price": 4700000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "高見橋",
+    "year": 2022,
+    "avg_price": 25500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "高見橋",
+    "year": 2023,
+    "avg_price": 40000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "高見橋",
+    "year": 2024,
+    "avg_price": 20500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "高見馬場",
+    "year": 2011,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "高見馬場",
+    "year": 2013,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "高見馬場",
+    "year": 2021,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "高見馬場",
+    "year": 2022,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "高見馬場",
+    "year": 2023,
+    "avg_price": 34666666.666666664
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "高見馬場",
+    "year": 2024,
+    "avg_price": 30333333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "高見馬場",
+    "year": 2025,
+    "avg_price": 34166666.666666664
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鴨池",
+    "year": 2021,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鴨池",
+    "year": 2023,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鴨池",
+    "year": 2024,
+    "avg_price": 38000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鴨池",
+    "year": 2025,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2007,
+    "avg_price": 15512500.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2008,
+    "avg_price": 16583333.333333334
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2009,
+    "avg_price": 20030000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2010,
+    "avg_price": 19225000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2011,
+    "avg_price": 16800000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2012,
+    "avg_price": 13670000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2013,
+    "avg_price": 15103846.153846154
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2014,
+    "avg_price": 13716923.076923076
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2015,
+    "avg_price": 16422222.222222222
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2016,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2017,
+    "avg_price": 19394444.444444444
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2018,
+    "avg_price": 20023809.523809522
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2019,
+    "avg_price": 22352941.17647059
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2020,
+    "avg_price": 24526315.789473683
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2021,
+    "avg_price": 19767857.14285714
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2022,
+    "avg_price": 20558333.333333332
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2023,
+    "avg_price": 21434615.384615384
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2024,
+    "avg_price": 24611111.111111112
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島",
+    "year": 2025,
+    "avg_price": 23192857.14285714
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2007,
+    "avg_price": 15569047.61904762
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2008,
+    "avg_price": 13838461.538461538
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2009,
+    "avg_price": 15360714.285714285
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2010,
+    "avg_price": 22728125.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2011,
+    "avg_price": 19151470.588235293
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2012,
+    "avg_price": 16933928.57142857
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2013,
+    "avg_price": 13750545.454545455
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2014,
+    "avg_price": 16222388.059701493
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2015,
+    "avg_price": 16565217.391304348
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2016,
+    "avg_price": 14593421.05263158
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2017,
+    "avg_price": 18125000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2018,
+    "avg_price": 15343589.743589744
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2019,
+    "avg_price": 17659480.51948052
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2020,
+    "avg_price": 20543563.218390804
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2021,
+    "avg_price": 20365000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2022,
+    "avg_price": 20492452.83018868
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2023,
+    "avg_price": 19670873.78640777
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2024,
+    "avg_price": 23142452.83018868
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央",
+    "year": 2025,
+    "avg_price": 22298437.5
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央駅前",
+    "year": 2024,
+    "avg_price": 18400000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島中央駅前",
+    "year": 2025,
+    "avg_price": 33000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島駅前",
+    "year": 2021,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "鹿児島県",
+    "station": "鹿児島駅前",
+    "year": 2024,
+    "avg_price": 17500000.0
+  }
+]

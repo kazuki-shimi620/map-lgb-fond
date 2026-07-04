@@ -1,0 +1,1906 @@
+[
+  {
+    "station_id": "hiroshima_0203",
+    "station_name": "JA広島病院前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.343959,
+    "lon": 132.322404
+  },
+  {
+    "station_id": "hiroshima_0014",
+    "station_name": "あき亀山",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.517264,
+    "lon": 132.4959
+  },
+  {
+    "station_id": "hiroshima_0035",
+    "station_name": "かるが浜",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.263885,
+    "lon": 132.517523
+  },
+  {
+    "station_id": "hiroshima_0116",
+    "station_name": "七塚",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.844391,
+    "lon": 132.98584
+  },
+  {
+    "station_id": "hiroshima_0008",
+    "station_name": "七軒茶屋",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.472609,
+    "lon": 132.481156
+  },
+  {
+    "station_id": "hiroshima_0084",
+    "station_name": "万能倉",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.551092,
+    "lon": 133.338516
+  },
+  {
+    "station_id": "hiroshima_0015",
+    "station_name": "三原",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.400486,
+    "lon": 133.083049
+  },
+  {
+    "station_id": "hiroshima_0121",
+    "station_name": "三次",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.802646,
+    "lon": 132.855976
+  },
+  {
+    "station_id": "hiroshima_0002",
+    "station_name": "三滝",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.417278,
+    "lon": 132.447397
+  },
+  {
+    "station_id": "hiroshima_0103",
+    "station_name": "三良坂",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.766186,
+    "lon": 132.957578
+  },
+  {
+    "station_id": "hiroshima_0130",
+    "station_name": "上三田",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.538646,
+    "lon": 132.64389
+  },
+  {
+    "station_id": "hiroshima_0098",
+    "station_name": "上下",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.694932,
+    "lon": 133.117625
+  },
+  {
+    "station_id": "hiroshima_0010",
+    "station_name": "上八木",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.489805,
+    "lon": 132.506037
+  },
+  {
+    "station_id": "hiroshima_0155",
+    "station_name": "上安",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.475735,
+    "lon": 132.444662
+  },
+  {
+    "station_id": "hiroshima_0124",
+    "station_name": "上川立",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.725373,
+    "lon": 132.784873
+  },
+  {
+    "station_id": "hiroshima_0088",
+    "station_name": "上戸手",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.5515,
+    "lon": 133.282137
+  },
+  {
+    "station_id": "hiroshima_0134",
+    "station_name": "上深川",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.47591,
+    "lon": 132.562619
+  },
+  {
+    "station_id": "hiroshima_0118",
+    "station_name": "下和知",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.797668,
+    "lon": 132.925336
+  },
+  {
+    "station_id": "hiroshima_0093",
+    "station_name": "下川辺",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.554311,
+    "lon": 133.205282
+  },
+  {
+    "station_id": "hiroshima_0136",
+    "station_name": "下深川",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.488683,
+    "lon": 132.524702
+  },
+  {
+    "station_id": "hiroshima_0004",
+    "station_name": "下祇園",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.439354,
+    "lon": 132.462328
+  },
+  {
+    "station_id": "hiroshima_0147",
+    "station_name": "不動院前",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.426921,
+    "lon": 132.469306
+  },
+  {
+    "station_id": "hiroshima_0131",
+    "station_name": "中三田",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.513605,
+    "lon": 132.609329
+  },
+  {
+    "station_id": "hiroshima_0011",
+    "station_name": "中島(広島)",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.500351,
+    "lon": 132.513075
+  },
+  {
+    "station_id": "hiroshima_0135",
+    "station_name": "中深川",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.481076,
+    "lon": 132.533971
+  },
+  {
+    "station_id": "hiroshima_0094",
+    "station_name": "中畑",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.582311,
+    "lon": 133.193301
+  },
+  {
+    "station_id": "hiroshima_0150",
+    "station_name": "中筋",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.451869,
+    "lon": 132.477049
+  },
+  {
+    "station_id": "hiroshima_0062",
+    "station_name": "中野東",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.403275,
+    "lon": 132.578753
+  },
+  {
+    "station_id": "hiroshima_0171",
+    "station_name": "中電前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.388779,
+    "lon": 132.455399
+  },
+  {
+    "station_id": "hiroshima_0068",
+    "station_name": "五日市",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.366798,
+    "lon": 132.367717
+  },
+  {
+    "station_id": "hiroshima_0128",
+    "station_name": "井原市",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.585013,
+    "lon": 132.675569
+  },
+  {
+    "station_id": "hiroshima_0194",
+    "station_name": "井口(広島)",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.371751,
+    "lon": 132.385805
+  },
+  {
+    "station_id": "hiroshima_0028",
+    "station_name": "仁方",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.221784,
+    "lon": 132.655406
+  },
+  {
+    "station_id": "hiroshima_0158",
+    "station_name": "伴",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.469996,
+    "lon": 132.419667
+  },
+  {
+    "station_id": "hiroshima_0160",
+    "station_name": "伴中央",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.455514,
+    "lon": 132.405038
+  },
+  {
+    "station_id": "hiroshima_0197",
+    "station_name": "佐伯区役所前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.365443,
+    "lon": 132.361709
+  },
+  {
+    "station_id": "hiroshima_0195",
+    "station_name": "修大協創中高前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.368218,
+    "lon": 132.374589
+  },
+  {
+    "station_id": "hiroshima_0096",
+    "station_name": "備後三川",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.630201,
+    "lon": 133.110118
+  },
+  {
+    "station_id": "hiroshima_0115",
+    "station_name": "備後三日市",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.85507,
+    "lon": 132.998269
+  },
+  {
+    "station_id": "hiroshima_0106",
+    "station_name": "備後八幡",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.938192,
+    "lon": 133.232086
+  },
+  {
+    "station_id": "hiroshima_0101",
+    "station_name": "備後安田",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.741076,
+    "lon": 133.033978
+  },
+  {
+    "station_id": "hiroshima_0114",
+    "station_name": "備後庄原",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.862317,
+    "lon": 133.016105
+  },
+  {
+    "station_id": "hiroshima_0079",
+    "station_name": "備後本庄",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.493312,
+    "lon": 133.345083
+  },
+  {
+    "station_id": "hiroshima_0097",
+    "station_name": "備後矢野",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.664316,
+    "lon": 133.125736
+  },
+  {
+    "station_id": "hiroshima_0078",
+    "station_name": "備後落合",
+    "prefecture": "広島県",
+    "line_name": "JR木次線",
+    "lat": 35.001167,
+    "lon": 133.148296
+  },
+  {
+    "station_id": "hiroshima_0111",
+    "station_name": "備後西城",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.940345,
+    "lon": 133.119729
+  },
+  {
+    "station_id": "hiroshima_0048",
+    "station_name": "備後赤坂",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.472108,
+    "lon": 133.305417
+  },
+  {
+    "station_id": "hiroshima_0185",
+    "station_name": "元宇品口",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.354048,
+    "lon": 132.459412
+  },
+  {
+    "station_id": "hiroshima_0055",
+    "station_name": "入野",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.46067,
+    "lon": 132.851789
+  },
+  {
+    "station_id": "hiroshima_0214",
+    "station_name": "八丁堀(広島)",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.393897,
+    "lon": 132.463403
+  },
+  {
+    "station_id": "hiroshima_0060",
+    "station_name": "八本松",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.445466,
+    "lon": 132.688048
+  },
+  {
+    "station_id": "hiroshima_0120",
+    "station_name": "八次",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.802244,
+    "lon": 132.878805
+  },
+  {
+    "station_id": "hiroshima_0107",
+    "station_name": "内名",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.964959,
+    "lon": 133.231937
+  },
+  {
+    "station_id": "hiroshima_0226",
+    "station_name": "別院前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄横川線",
+    "lat": 34.404245,
+    "lon": 132.449241
+  },
+  {
+    "station_id": "hiroshima_0073",
+    "station_name": "前空",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.301368,
+    "lon": 132.289815
+  },
+  {
+    "station_id": "hiroshima_0218",
+    "station_name": "十日市町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.397438,
+    "lon": 132.447138
+  },
+  {
+    "station_id": "hiroshima_0243",
+    "station_name": "南区役所前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄皆実線",
+    "lat": 34.380297,
+    "lon": 132.467072
+  },
+  {
+    "station_id": "hiroshima_0216",
+    "station_name": "原爆ドーム前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.396163,
+    "lon": 132.453918
+  },
+  {
+    "station_id": "hiroshima_0151",
+    "station_name": "古市(広島)",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.457863,
+    "lon": 132.47508
+  },
+  {
+    "station_id": "hiroshima_0005",
+    "station_name": "古市橋",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.450516,
+    "lon": 132.468089
+  },
+  {
+    "station_id": "hiroshima_0190",
+    "station_name": "古江",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.386311,
+    "lon": 132.411383
+  },
+  {
+    "station_id": "hiroshima_0012",
+    "station_name": "可部",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.512066,
+    "lon": 132.51073
+  },
+  {
+    "station_id": "hiroshima_0022",
+    "station_name": "吉名",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.320616,
+    "lon": 132.86576
+  },
+  {
+    "station_id": "hiroshima_0034",
+    "station_name": "吉浦",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.257947,
+    "lon": 132.527189
+  },
+  {
+    "station_id": "hiroshima_0126",
+    "station_name": "吉田口",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.664106,
+    "lon": 132.745832
+  },
+  {
+    "station_id": "hiroshima_0102",
+    "station_name": "吉舎",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.727641,
+    "lon": 132.990771
+  },
+  {
+    "station_id": "hiroshima_0127",
+    "station_name": "向原",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.615215,
+    "lon": 132.719883
+  },
+  {
+    "station_id": "hiroshima_0043",
+    "station_name": "向洋",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.376636,
+    "lon": 132.506191
+  },
+  {
+    "station_id": "hiroshima_0032",
+    "station_name": "呉",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.244652,
+    "lon": 132.557578
+  },
+  {
+    "station_id": "hiroshima_0037",
+    "station_name": "呉ポートピア",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.29192,
+    "lon": 132.512951
+  },
+  {
+    "station_id": "hiroshima_0193",
+    "station_name": "商工センター入口",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.375423,
+    "lon": 132.391999
+  },
+  {
+    "station_id": "hiroshima_0219",
+    "station_name": "土橋(広島)",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.3948,
+    "lon": 132.446322
+  },
+  {
+    "station_id": "hiroshima_0204",
+    "station_name": "地御前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.340942,
+    "lon": 132.320049
+  },
+  {
+    "station_id": "hiroshima_0040",
+    "station_name": "坂",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.338635,
+    "lon": 132.510736
+  },
+  {
+    "station_id": "hiroshima_0143",
+    "station_name": "城北",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.405407,
+    "lon": 132.458914
+  },
+  {
+    "station_id": "hiroshima_0104",
+    "station_name": "塩町",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.774265,
+    "lon": 132.913863
+  },
+  {
+    "station_id": "hiroshima_0020",
+    "station_name": "大乗",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.340656,
+    "lon": 132.945311
+  },
+  {
+    "station_id": "hiroshima_0159",
+    "station_name": "大原(広島)",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.462852,
+    "lon": 132.412354
+  },
+  {
+    "station_id": "hiroshima_0161",
+    "station_name": "大塚(広島)",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.441466,
+    "lon": 132.402702
+  },
+  {
+    "station_id": "hiroshima_0006",
+    "station_name": "大町(広島)",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.461136,
+    "lon": 132.470655
+  },
+  {
+    "station_id": "hiroshima_0076",
+    "station_name": "大竹",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.217565,
+    "lon": 132.223479
+  },
+  {
+    "station_id": "hiroshima_0074",
+    "station_name": "大野浦",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.283762,
+    "lon": 132.265263
+  },
+  {
+    "station_id": "hiroshima_0045",
+    "station_name": "大門(広島)",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.498462,
+    "lon": 133.43995
+  },
+  {
+    "station_id": "hiroshima_0036",
+    "station_name": "天応",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.282238,
+    "lon": 132.519617
+  },
+  {
+    "station_id": "hiroshima_0221",
+    "station_name": "天満町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.395216,
+    "lon": 132.440572
+  },
+  {
+    "station_id": "hiroshima_0064",
+    "station_name": "天神川",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.389959,
+    "lon": 132.498311
+  },
+  {
+    "station_id": "hiroshima_0235",
+    "station_name": "女学院前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄白島線",
+    "lat": 34.397827,
+    "lon": 132.464776
+  },
+  {
+    "station_id": "hiroshima_0181",
+    "station_name": "宇品三丁目",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.364216,
+    "lon": 132.464411
+  },
+  {
+    "station_id": "hiroshima_0180",
+    "station_name": "宇品二丁目",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.366164,
+    "lon": 132.464519
+  },
+  {
+    "station_id": "hiroshima_0183",
+    "station_name": "宇品五丁目",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.357343,
+    "lon": 132.46366
+  },
+  {
+    "station_id": "hiroshima_0182",
+    "station_name": "宇品四丁目",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.35922,
+    "lon": 132.463853
+  },
+  {
+    "station_id": "hiroshima_0154",
+    "station_name": "安東",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.475169,
+    "lon": 132.453067
+  },
+  {
+    "station_id": "hiroshima_0025",
+    "station_name": "安浦",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.284013,
+    "lon": 132.744067
+  },
+  {
+    "station_id": "hiroshima_0026",
+    "station_name": "安登",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.254396,
+    "lon": 132.722741
+  },
+  {
+    "station_id": "hiroshima_0063",
+    "station_name": "安芸中野",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.391115,
+    "lon": 132.563291
+  },
+  {
+    "station_id": "hiroshima_0027",
+    "station_name": "安芸川尻",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.232854,
+    "lon": 132.691672
+  },
+  {
+    "station_id": "hiroshima_0017",
+    "station_name": "安芸幸崎",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.338165,
+    "lon": 133.040096
+  },
+  {
+    "station_id": "hiroshima_0023",
+    "station_name": "安芸津",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.318227,
+    "lon": 132.817838
+  },
+  {
+    "station_id": "hiroshima_0138",
+    "station_name": "安芸矢口",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.463579,
+    "lon": 132.495094
+  },
+  {
+    "station_id": "hiroshima_0003",
+    "station_name": "安芸長束",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.428382,
+    "lon": 132.456063
+  },
+  {
+    "station_id": "hiroshima_0019",
+    "station_name": "安芸長浜",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.337805,
+    "lon": 132.962681
+  },
+  {
+    "station_id": "hiroshima_0031",
+    "station_name": "安芸阿賀",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.235843,
+    "lon": 132.599788
+  },
+  {
+    "station_id": "hiroshima_0202",
+    "station_name": "宮内",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.347472,
+    "lon": 132.325226
+  },
+  {
+    "station_id": "hiroshima_0070",
+    "station_name": "宮内串戸",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.347963,
+    "lon": 132.323706
+  },
+  {
+    "station_id": "hiroshima_0207",
+    "station_name": "宮島ボートレース場",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.314425,
+    "lon": 132.305006
+  },
+  {
+    "station_id": "hiroshima_0072",
+    "station_name": "宮島口",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.312081,
+    "lon": 132.302689
+  },
+  {
+    "station_id": "hiroshima_0237",
+    "station_name": "家庭裁判所前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄白島線",
+    "lat": 34.402289,
+    "lon": 132.466106
+  },
+  {
+    "station_id": "hiroshima_0059",
+    "station_name": "寺家",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.439222,
+    "lon": 132.722722
+  },
+  {
+    "station_id": "hiroshima_0225",
+    "station_name": "寺町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄横川線",
+    "lat": 34.401129,
+    "lon": 132.448125
+  },
+  {
+    "station_id": "hiroshima_0108",
+    "station_name": "小奴可",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.994552,
+    "lon": 133.211211
+  },
+  {
+    "station_id": "hiroshima_0038",
+    "station_name": "小屋浦",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.302363,
+    "lon": 132.506446
+  },
+  {
+    "station_id": "hiroshima_0220",
+    "station_name": "小網町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.394543,
+    "lon": 132.44422
+  },
+  {
+    "station_id": "hiroshima_0051",
+    "station_name": "尾道",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.404826,
+    "lon": 133.192884
+  },
+  {
+    "station_id": "hiroshima_0117",
+    "station_name": "山ノ内",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.829608,
+    "lon": 132.957671
+  },
+  {
+    "station_id": "hiroshima_0199",
+    "station_name": "山陽女学園前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.361948,
+    "lon": 132.341251
+  },
+  {
+    "station_id": "hiroshima_0033",
+    "station_name": "川原石",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.248817,
+    "lon": 132.541143
+  },
+  {
+    "station_id": "hiroshima_0172",
+    "station_name": "市役所前(広島)",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.385875,
+    "lon": 132.454455
+  },
+  {
+    "station_id": "hiroshima_0112",
+    "station_name": "平子",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.912879,
+    "lon": 133.100154
+  },
+  {
+    "station_id": "hiroshima_0029",
+    "station_name": "広",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.228613,
+    "lon": 132.628417
+  },
+  {
+    "station_id": "hiroshima_0162",
+    "station_name": "広域公園前",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.43538,
+    "lon": 132.400089
+  },
+  {
+    "station_id": "hiroshima_0178",
+    "station_name": "広大附属学校前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.371654,
+    "lon": 132.464583
+  },
+  {
+    "station_id": "hiroshima_0044",
+    "station_name": "広島",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.397446,
+    "lon": 132.475593
+  },
+  {
+    "station_id": "hiroshima_0186",
+    "station_name": "広島港",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.352755,
+    "lon": 132.455184
+  },
+  {
+    "station_id": "hiroshima_0196",
+    "station_name": "広電五日市",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.366393,
+    "lon": 132.367856
+  },
+  {
+    "station_id": "hiroshima_0208",
+    "station_name": "広電宮島口",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.31217,
+    "lon": 132.304256
+  },
+  {
+    "station_id": "hiroshima_0200",
+    "station_name": "広電廿日市",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.356621,
+    "lon": 132.336179
+  },
+  {
+    "station_id": "hiroshima_0175",
+    "station_name": "広電本社前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.377375,
+    "lon": 132.45821
+  },
+  {
+    "station_id": "hiroshima_0187",
+    "station_name": "広電西広島(己斐)",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.397261,
+    "lon": 132.428255
+  },
+  {
+    "station_id": "hiroshima_0206",
+    "station_name": "広電阿品",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.321933,
+    "lon": 132.31483
+  },
+  {
+    "station_id": "hiroshima_0092",
+    "station_name": "府中(広島)",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.571646,
+    "lon": 133.236021
+  },
+  {
+    "station_id": "hiroshima_0069",
+    "station_name": "廿日市",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.357837,
+    "lon": 132.335657
+  },
+  {
+    "station_id": "hiroshima_0201",
+    "station_name": "廿日市市役所前(平良)",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.352816,
+    "lon": 132.329722
+  },
+  {
+    "station_id": "hiroshima_0176",
+    "station_name": "御幸橋",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.375321,
+    "lon": 132.459605
+  },
+  {
+    "station_id": "hiroshima_0163",
+    "station_name": "御領",
+    "prefecture": "広島県",
+    "line_name": "井原鉄道",
+    "lat": 34.564822,
+    "lon": 133.402319
+  },
+  {
+    "station_id": "hiroshima_0129",
+    "station_name": "志和口",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.554333,
+    "lon": 132.658205
+  },
+  {
+    "station_id": "hiroshima_0123",
+    "station_name": "志和地",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.740475,
+    "lon": 132.80392
+  },
+  {
+    "station_id": "hiroshima_0018",
+    "station_name": "忠海",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.33689,
+    "lon": 132.991289
+  },
+  {
+    "station_id": "hiroshima_0139",
+    "station_name": "戸坂",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.438193,
+    "lon": 132.491246
+  },
+  {
+    "station_id": "hiroshima_0087",
+    "station_name": "戸手",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.546478,
+    "lon": 133.300613
+  },
+  {
+    "station_id": "hiroshima_0067",
+    "station_name": "新井口",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.375601,
+    "lon": 132.391924
+  },
+  {
+    "station_id": "hiroshima_0166",
+    "station_name": "新尾道",
+    "prefecture": "広島県",
+    "line_name": "山陽新幹線",
+    "lat": 34.430034,
+    "lon": 133.190258
+  },
+  {
+    "station_id": "hiroshima_0089",
+    "station_name": "新市",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.554429,
+    "lon": 133.269483
+  },
+  {
+    "station_id": "hiroshima_0030",
+    "station_name": "新広",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.23206,
+    "lon": 132.614557
+  },
+  {
+    "station_id": "hiroshima_0065",
+    "station_name": "新白島(アストラム)",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.408361,
+    "lon": 132.461528
+  },
+  {
+    "station_id": "hiroshima_0174",
+    "station_name": "日赤病院前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.380952,
+    "lon": 132.455871
+  },
+  {
+    "station_id": "hiroshima_0217",
+    "station_name": "本川町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.396942,
+    "lon": 132.450485
+  },
+  {
+    "station_id": "hiroshima_0141",
+    "station_name": "本通",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.393377,
+    "lon": 132.457003
+  },
+  {
+    "station_id": "hiroshima_0053",
+    "station_name": "本郷",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.409617,
+    "lon": 132.987358
+  },
+  {
+    "station_id": "hiroshima_0105",
+    "station_name": "東城",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.901802,
+    "lon": 133.273687
+  },
+  {
+    "station_id": "hiroshima_0050",
+    "station_name": "東尾道",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.434937,
+    "lon": 133.233168
+  },
+  {
+    "station_id": "hiroshima_0167",
+    "station_name": "東広島",
+    "prefecture": "広島県",
+    "line_name": "山陽新幹線",
+    "lat": 34.389269,
+    "lon": 132.759587
+  },
+  {
+    "station_id": "hiroshima_0046",
+    "station_name": "東福山",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.494949,
+    "lon": 133.40539
+  },
+  {
+    "station_id": "hiroshima_0188",
+    "station_name": "東高須",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.391922,
+    "lon": 132.420224
+  },
+  {
+    "station_id": "hiroshima_0240",
+    "station_name": "松川町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄皆実線",
+    "lat": 34.391508,
+    "lon": 132.471424
+  },
+  {
+    "station_id": "hiroshima_0049",
+    "station_name": "松永",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.450958,
+    "lon": 133.258532
+  },
+  {
+    "station_id": "hiroshima_0009",
+    "station_name": "梅林(広島)",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.480877,
+    "lon": 132.494166
+  },
+  {
+    "station_id": "hiroshima_0100",
+    "station_name": "梶田",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.711037,
+    "lon": 133.058919
+  },
+  {
+    "station_id": "hiroshima_0198",
+    "station_name": "楽々園",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.364282,
+    "lon": 132.351988
+  },
+  {
+    "station_id": "hiroshima_0080",
+    "station_name": "横尾",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.52139,
+    "lon": 133.363484
+  },
+  {
+    "station_id": "hiroshima_0001",
+    "station_name": "横川(広島)",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.410173,
+    "lon": 132.45045
+  },
+  {
+    "station_id": "hiroshima_0227",
+    "station_name": "横川一丁目",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄横川線",
+    "lat": 34.406848,
+    "lon": 132.449949
+  },
+  {
+    "station_id": "hiroshima_0239",
+    "station_name": "段原一丁目",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄皆実線",
+    "lat": 34.390833,
+    "lon": 132.475033
+  },
+  {
+    "station_id": "hiroshima_0110",
+    "station_name": "比婆山",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.966298,
+    "lon": 133.123236
+  },
+  {
+    "station_id": "hiroshima_0241",
+    "station_name": "比治山下",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄皆実線",
+    "lat": 34.387858,
+    "lon": 132.471492
+  },
+  {
+    "station_id": "hiroshima_0242",
+    "station_name": "比治山橋",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄皆実線",
+    "lat": 34.383272,
+    "lon": 132.468681
+  },
+  {
+    "station_id": "hiroshima_0153",
+    "station_name": "毘沙門台",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.469417,
+    "lon": 132.462827
+  },
+  {
+    "station_id": "hiroshima_0039",
+    "station_name": "水尻",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.319433,
+    "lon": 132.498763
+  },
+  {
+    "station_id": "hiroshima_0234",
+    "station_name": "江波",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄江波線",
+    "lat": 34.372496,
+    "lon": 132.436044
+  },
+  {
+    "station_id": "hiroshima_0095",
+    "station_name": "河佐",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.589929,
+    "lon": 133.16669
+  },
+  {
+    "station_id": "hiroshima_0054",
+    "station_name": "河内",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.469248,
+    "lon": 132.890113
+  },
+  {
+    "station_id": "hiroshima_0013",
+    "station_name": "河戸帆待川",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.5167,
+    "lon": 132.505003
+  },
+  {
+    "station_id": "hiroshima_0077",
+    "station_name": "油木",
+    "prefecture": "広島県",
+    "line_name": "JR木次線",
+    "lat": 35.044567,
+    "lon": 133.119273
+  },
+  {
+    "station_id": "hiroshima_0184",
+    "station_name": "海岸通",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.354898,
+    "lon": 132.463081
+  },
+  {
+    "station_id": "hiroshima_0042",
+    "station_name": "海田市",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.372089,
+    "lon": 132.530542
+  },
+  {
+    "station_id": "hiroshima_0082",
+    "station_name": "湯田村",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.551918,
+    "lon": 133.371294
+  },
+  {
+    "station_id": "hiroshima_0164",
+    "station_name": "湯野",
+    "prefecture": "広島県",
+    "line_name": "井原鉄道",
+    "lat": 34.552754,
+    "lon": 133.38681
+  },
+  {
+    "station_id": "hiroshima_0061",
+    "station_name": "瀬野",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.421994,
+    "lon": 132.59674
+  },
+  {
+    "station_id": "hiroshima_0146",
+    "station_name": "牛田(広島)",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.417142,
+    "lon": 132.464585
+  },
+  {
+    "station_id": "hiroshima_0133",
+    "station_name": "狩留家",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.486614,
+    "lon": 132.579007
+  },
+  {
+    "station_id": "hiroshima_0137",
+    "station_name": "玖村",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.482039,
+    "lon": 132.507898
+  },
+  {
+    "station_id": "hiroshima_0075",
+    "station_name": "玖波",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.2553,
+    "lon": 132.227963
+  },
+  {
+    "station_id": "hiroshima_0099",
+    "station_name": "甲奴",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.703642,
+    "lon": 133.081331
+  },
+  {
+    "station_id": "hiroshima_0125",
+    "station_name": "甲立",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.692611,
+    "lon": 132.759991
+  },
+  {
+    "station_id": "hiroshima_0145",
+    "station_name": "白島(アストラム)",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.411045,
+    "lon": 132.462674
+  },
+  {
+    "station_id": "hiroshima_0056",
+    "station_name": "白市",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.443022,
+    "lon": 132.83225
+  },
+  {
+    "station_id": "hiroshima_0132",
+    "station_name": "白木山",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.500563,
+    "lon": 132.587867
+  },
+  {
+    "station_id": "hiroshima_0210",
+    "station_name": "的場町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.393277,
+    "lon": 132.475076
+  },
+  {
+    "station_id": "hiroshima_0244",
+    "station_name": "皆実町二丁目",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄皆実線",
+    "lat": 34.377375,
+    "lon": 132.465849
+  },
+  {
+    "station_id": "hiroshima_0177",
+    "station_name": "皆実町六丁目",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.374169,
+    "lon": 132.464454
+  },
+  {
+    "station_id": "hiroshima_0142",
+    "station_name": "県庁前",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.396863,
+    "lon": 132.458231
+  },
+  {
+    "station_id": "hiroshima_0179",
+    "station_name": "県病院前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.36875,
+    "lon": 132.464797
+  },
+  {
+    "station_id": "hiroshima_0140",
+    "station_name": "矢賀",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.399319,
+    "lon": 132.497769
+  },
+  {
+    "station_id": "hiroshima_0041",
+    "station_name": "矢野",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.352081,
+    "lon": 132.531931
+  },
+  {
+    "station_id": "hiroshima_0148",
+    "station_name": "祇園新橋北",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.435148,
+    "lon": 132.47075
+  },
+  {
+    "station_id": "hiroshima_0119",
+    "station_name": "神杉",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.780725,
+    "lon": 132.902747
+  },
+  {
+    "station_id": "hiroshima_0081",
+    "station_name": "神辺",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.537131,
+    "lon": 133.378747
+  },
+  {
+    "station_id": "hiroshima_0047",
+    "station_name": "福山",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.489291,
+    "lon": 133.361429
+  },
+  {
+    "station_id": "hiroshima_0224",
+    "station_name": "福島町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.394985,
+    "lon": 132.433898
+  },
+  {
+    "station_id": "hiroshima_0211",
+    "station_name": "稲荷町(広島)",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.392569,
+    "lon": 132.471728
+  },
+  {
+    "station_id": "hiroshima_0215",
+    "station_name": "立町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.394569,
+    "lon": 132.460871
+  },
+  {
+    "station_id": "hiroshima_0021",
+    "station_name": "竹原",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.33945,
+    "lon": 132.909705
+  },
+  {
+    "station_id": "hiroshima_0052",
+    "station_name": "糸崎",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.392429,
+    "lon": 133.104317
+  },
+  {
+    "station_id": "hiroshima_0168",
+    "station_name": "紙屋町東",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.395101,
+    "lon": 132.458167
+  },
+  {
+    "station_id": "hiroshima_0169",
+    "station_name": "紙屋町西",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.395455,
+    "lon": 132.456965
+  },
+  {
+    "station_id": "hiroshima_0007",
+    "station_name": "緑井",
+    "prefecture": "広島県",
+    "line_name": "JR可部線",
+    "lat": 34.467459,
+    "lon": 132.475851
+  },
+  {
+    "station_id": "hiroshima_0236",
+    "station_name": "縮景園前",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄白島線",
+    "lat": 34.399881,
+    "lon": 132.465334
+  },
+  {
+    "station_id": "hiroshima_0213",
+    "station_name": "胡町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.393401,
+    "lon": 132.465076
+  },
+  {
+    "station_id": "hiroshima_0233",
+    "station_name": "舟入南",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄江波線",
+    "lat": 34.375099,
+    "lon": 132.437224
+  },
+  {
+    "station_id": "hiroshima_0232",
+    "station_name": "舟入川口町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄江波線",
+    "lat": 34.380341,
+    "lon": 132.439499
+  },
+  {
+    "station_id": "hiroshima_0231",
+    "station_name": "舟入幸町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄江波線",
+    "lat": 34.383139,
+    "lon": 132.441151
+  },
+  {
+    "station_id": "hiroshima_0230",
+    "station_name": "舟入本町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄江波線",
+    "lat": 34.385556,
+    "lon": 132.442632
+  },
+  {
+    "station_id": "hiroshima_0229",
+    "station_name": "舟入町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄江波線",
+    "lat": 34.389222,
+    "lon": 132.444928
+  },
+  {
+    "station_id": "hiroshima_0191",
+    "station_name": "草津(広島)",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.3816,
+    "lon": 132.403915
+  },
+  {
+    "station_id": "hiroshima_0192",
+    "station_name": "草津南",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.378092,
+    "lon": 132.398479
+  },
+  {
+    "station_id": "hiroshima_0170",
+    "station_name": "袋町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.391187,
+    "lon": 132.456214
+  },
+  {
+    "station_id": "hiroshima_0122",
+    "station_name": "西三次",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.798524,
+    "lon": 132.840961
+  },
+  {
+    "station_id": "hiroshima_0149",
+    "station_name": "西原(広島)",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.44327,
+    "lon": 132.47478
+  },
+  {
+    "station_id": "hiroshima_0066",
+    "station_name": "西広島",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.397832,
+    "lon": 132.427979
+  },
+  {
+    "station_id": "hiroshima_0058",
+    "station_name": "西条(広島)",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.431394,
+    "lon": 132.743909
+  },
+  {
+    "station_id": "hiroshima_0223",
+    "station_name": "西観音町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.393976,
+    "lon": 132.43686
+  },
+  {
+    "station_id": "hiroshima_0057",
+    "station_name": "西高屋",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.446139,
+    "lon": 132.788246
+  },
+  {
+    "station_id": "hiroshima_0222",
+    "station_name": "観音町(広島)",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.395534,
+    "lon": 132.438405
+  },
+  {
+    "station_id": "hiroshima_0086",
+    "station_name": "近田",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.54627,
+    "lon": 133.31096
+  },
+  {
+    "station_id": "hiroshima_0083",
+    "station_name": "道上",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.553503,
+    "lon": 133.361398
+  },
+  {
+    "station_id": "hiroshima_0109",
+    "station_name": "道後山",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 35.010894,
+    "lon": 133.178269
+  },
+  {
+    "station_id": "hiroshima_0212",
+    "station_name": "銀山町",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄本線",
+    "lat": 34.393135,
+    "lon": 132.467866
+  },
+  {
+    "station_id": "hiroshima_0157",
+    "station_name": "長楽寺",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.472782,
+    "lon": 132.4306
+  },
+  {
+    "station_id": "hiroshima_0071",
+    "station_name": "阿品",
+    "prefecture": "広島県",
+    "line_name": "JR山陽本線",
+    "lat": 34.323152,
+    "lon": 132.314216
+  },
+  {
+    "station_id": "hiroshima_0205",
+    "station_name": "阿品東",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.326488,
+    "lon": 132.318579
+  },
+  {
+    "station_id": "hiroshima_0016",
+    "station_name": "須波",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.370061,
+    "lon": 133.083724
+  },
+  {
+    "station_id": "hiroshima_0024",
+    "station_name": "風早",
+    "prefecture": "広島県",
+    "line_name": "JR呉線",
+    "lat": 34.303234,
+    "lon": 132.795789
+  },
+  {
+    "station_id": "hiroshima_0085",
+    "station_name": "駅家",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.549079,
+    "lon": 133.3259
+  },
+  {
+    "station_id": "hiroshima_0113",
+    "station_name": "高",
+    "prefecture": "広島県",
+    "line_name": "JR芸備線",
+    "lat": 34.87778,
+    "lon": 133.070603
+  },
+  {
+    "station_id": "hiroshima_0156",
+    "station_name": "高取",
+    "prefecture": "広島県",
+    "line_name": "アストラムライン",
+    "lat": 34.475132,
+    "lon": 132.438102
+  },
+  {
+    "station_id": "hiroshima_0090",
+    "station_name": "高木",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.562987,
+    "lon": 133.253231
+  },
+  {
+    "station_id": "hiroshima_0189",
+    "station_name": "高須(広島)",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宮島線",
+    "lat": 34.389872,
+    "lon": 132.417055
+  },
+  {
+    "station_id": "hiroshima_0091",
+    "station_name": "鵜飼",
+    "prefecture": "広島県",
+    "line_name": "JR福塩線",
+    "lat": 34.567905,
+    "lon": 133.244462
+  },
+  {
+    "station_id": "hiroshima_0173",
+    "station_name": "鷹野橋",
+    "prefecture": "広島県",
+    "line_name": "広島電鉄宇品線",
+    "lat": 34.383431,
+    "lon": 132.453918
+  }
+]

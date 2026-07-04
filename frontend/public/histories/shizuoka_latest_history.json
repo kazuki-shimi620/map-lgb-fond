@@ -1,0 +1,5732 @@
+[
+  {
+    "prefecture": "静岡県",
+    "station": "さぎの宮",
+    "year": 2013,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "さぎの宮",
+    "year": 2014,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "さぎの宮",
+    "year": 2021,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "さぎの宮",
+    "year": 2022,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "さぎの宮",
+    "year": 2023,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "さぎの宮",
+    "year": 2024,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "さぎの宮",
+    "year": 2025,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "ジヤトコ前(ジヤトコ１地区前)",
+    "year": 2014,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "ジヤトコ前(ジヤトコ１地区前)",
+    "year": 2021,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "ジヤトコ前(ジヤトコ１地区前)",
+    "year": 2023,
+    "avg_price": 28500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "ジヤトコ前(ジヤトコ１地区前)",
+    "year": 2024,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "ジヤトコ前(ジヤトコ１地区前)",
+    "year": 2025,
+    "avg_price": 30666666.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三ケ日",
+    "year": 2017,
+    "avg_price": 120000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三ケ日",
+    "year": 2018,
+    "avg_price": 500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三ケ日",
+    "year": 2024,
+    "avg_price": 1733333.3333333333
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2007,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2008,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2009,
+    "avg_price": 15592307.692307692
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2010,
+    "avg_price": 15390000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2011,
+    "avg_price": 19426086.95652174
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2012,
+    "avg_price": 19927586.20689655
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2013,
+    "avg_price": 16678260.869565217
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2014,
+    "avg_price": 14488888.888888888
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2015,
+    "avg_price": 15027777.777777778
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2016,
+    "avg_price": 17319047.61904762
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2017,
+    "avg_price": 16992307.692307692
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2018,
+    "avg_price": 15663157.894736841
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2019,
+    "avg_price": 14941176.470588235
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2020,
+    "avg_price": 16870370.37037037
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2021,
+    "avg_price": 18386842.10526316
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2022,
+    "avg_price": 22797058.82352941
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2023,
+    "avg_price": 23787804.87804878
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2024,
+    "avg_price": 27074418.604651164
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島",
+    "year": 2025,
+    "avg_price": 21459183.673469387
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島二日町",
+    "year": 2008,
+    "avg_price": 10733333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島二日町",
+    "year": 2014,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島二日町",
+    "year": 2015,
+    "avg_price": 27500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島二日町",
+    "year": 2017,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島二日町",
+    "year": 2018,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島二日町",
+    "year": 2019,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島二日町",
+    "year": 2020,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島二日町",
+    "year": 2021,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島二日町",
+    "year": 2022,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島二日町",
+    "year": 2023,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島二日町",
+    "year": 2024,
+    "avg_price": 19333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島二日町",
+    "year": 2025,
+    "avg_price": 21333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2008,
+    "avg_price": 40333333.333333336
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2009,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2010,
+    "avg_price": 23250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2011,
+    "avg_price": 29500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2014,
+    "avg_price": 34000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2015,
+    "avg_price": 32250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2016,
+    "avg_price": 33400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2017,
+    "avg_price": 24333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2018,
+    "avg_price": 20725000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2019,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2020,
+    "avg_price": 39000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2021,
+    "avg_price": 23533333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2022,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2023,
+    "avg_price": 30500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2024,
+    "avg_price": 14666666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島広小路",
+    "year": 2025,
+    "avg_price": 30600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2008,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2009,
+    "avg_price": 14740000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2013,
+    "avg_price": 17333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2014,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2015,
+    "avg_price": 22142857.14285714
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2016,
+    "avg_price": 21250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2017,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2018,
+    "avg_price": 23142857.14285714
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2019,
+    "avg_price": 19300000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2021,
+    "avg_price": 30250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2022,
+    "avg_price": 18625000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2023,
+    "avg_price": 17050000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2024,
+    "avg_price": 16400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "三島田町",
+    "year": 2025,
+    "avg_price": 18425000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2008,
+    "avg_price": 13333333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2009,
+    "avg_price": 14666666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2010,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2011,
+    "avg_price": 14300000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2013,
+    "avg_price": 12916666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2014,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2015,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2016,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2017,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2018,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2019,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2020,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2021,
+    "avg_price": 13083333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2022,
+    "avg_price": 9275000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2023,
+    "avg_price": 11800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2024,
+    "avg_price": 17357142.85714286
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "上島",
+    "year": 2025,
+    "avg_price": 13800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "下土狩",
+    "year": 2012,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "下土狩",
+    "year": 2013,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "下土狩",
+    "year": 2014,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "下土狩",
+    "year": 2015,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "下土狩",
+    "year": 2021,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "下土狩",
+    "year": 2022,
+    "avg_price": 16166666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "下土狩",
+    "year": 2023,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "下土狩",
+    "year": 2024,
+    "avg_price": 18250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "下土狩",
+    "year": 2025,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "下泉",
+    "year": 2006,
+    "avg_price": 1450000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊東",
+    "year": 2021,
+    "avg_price": 5475000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊東",
+    "year": 2022,
+    "avg_price": 10660000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊東",
+    "year": 2023,
+    "avg_price": 3240000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊東",
+    "year": 2024,
+    "avg_price": 5133333.333333333
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊東",
+    "year": 2025,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆仁田",
+    "year": 2021,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆仁田",
+    "year": 2022,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆仁田",
+    "year": 2023,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆仁田",
+    "year": 2024,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆仁田",
+    "year": 2025,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆多賀",
+    "year": 2010,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆多賀",
+    "year": 2021,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆多賀",
+    "year": 2022,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆多賀",
+    "year": 2023,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆多賀",
+    "year": 2024,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆多賀",
+    "year": 2025,
+    "avg_price": 14160000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆大川",
+    "year": 2022,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆大川",
+    "year": 2023,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆急下田",
+    "year": 2021,
+    "avg_price": 6033333.333333333
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆急下田",
+    "year": 2022,
+    "avg_price": 5900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆急下田",
+    "year": 2023,
+    "avg_price": 8957142.857142856
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆急下田",
+    "year": 2024,
+    "avg_price": 9240000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆急下田",
+    "year": 2025,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆熱川",
+    "year": 2021,
+    "avg_price": 4166666.6666666665
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆熱川",
+    "year": 2022,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆熱川",
+    "year": 2025,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆稲取",
+    "year": 2021,
+    "avg_price": 5100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆稲取",
+    "year": 2022,
+    "avg_price": 9066666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆長岡",
+    "year": 2015,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆長岡",
+    "year": 2020,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆長岡",
+    "year": 2021,
+    "avg_price": 7425000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆長岡",
+    "year": 2022,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆長岡",
+    "year": 2023,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆長岡",
+    "year": 2024,
+    "avg_price": 4950000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆長岡",
+    "year": 2025,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆高原",
+    "year": 2022,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆高原",
+    "year": 2023,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "伊豆高原",
+    "year": 2025,
+    "avg_price": 10680000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "修善寺",
+    "year": 2021,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "修善寺",
+    "year": 2022,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "修善寺",
+    "year": 2023,
+    "avg_price": 2700000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "入山瀬",
+    "year": 2018,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "入江岡",
+    "year": 2013,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "入江岡",
+    "year": 2015,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "入江岡",
+    "year": 2021,
+    "avg_price": 17400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "入江岡",
+    "year": 2022,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "入江岡",
+    "year": 2023,
+    "avg_price": 12350000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "入江岡",
+    "year": 2024,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "入江岡",
+    "year": 2025,
+    "avg_price": 14714285.714285715
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2008,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2009,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2010,
+    "avg_price": 26500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2011,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2012,
+    "avg_price": 4700000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2014,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2015,
+    "avg_price": 8850000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2018,
+    "avg_price": 24500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2020,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2021,
+    "avg_price": 8075000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2022,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2023,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2024,
+    "avg_price": 16850000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "八幡(静岡)",
+    "year": 2025,
+    "avg_price": 17387500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "函南",
+    "year": 2022,
+    "avg_price": 2200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "助信",
+    "year": 2008,
+    "avg_price": 16625000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "助信",
+    "year": 2012,
+    "avg_price": 16250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "助信",
+    "year": 2013,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "助信",
+    "year": 2014,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "助信",
+    "year": 2015,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "助信",
+    "year": 2016,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "助信",
+    "year": 2017,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "助信",
+    "year": 2021,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "助信",
+    "year": 2022,
+    "avg_price": 14412500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "助信",
+    "year": 2023,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "助信",
+    "year": 2024,
+    "avg_price": 9866666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "助信",
+    "year": 2025,
+    "avg_price": 16750000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "南伊東",
+    "year": 2021,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "南伊東",
+    "year": 2022,
+    "avg_price": 2750000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "南伊東",
+    "year": 2023,
+    "avg_price": 3216666.6666666665
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "南伊東",
+    "year": 2024,
+    "avg_price": 6100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "南伊東",
+    "year": 2025,
+    "avg_price": 6014285.714285715
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2010,
+    "avg_price": 11600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2011,
+    "avg_price": 9160000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2012,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2013,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2014,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2016,
+    "avg_price": 3650000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2017,
+    "avg_price": 9975000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2018,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2019,
+    "avg_price": 6460000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2020,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2021,
+    "avg_price": 9575000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2023,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2024,
+    "avg_price": 7960000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原(静岡)",
+    "year": 2025,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "原木",
+    "year": 2010,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "古庄",
+    "year": 2015,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "古庄",
+    "year": 2016,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "古庄",
+    "year": 2021,
+    "avg_price": 13950000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "古庄",
+    "year": 2022,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "古庄",
+    "year": 2023,
+    "avg_price": 13800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "古庄",
+    "year": 2024,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "古庄",
+    "year": 2025,
+    "avg_price": 14166666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2010,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2011,
+    "avg_price": 8966666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2012,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2014,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2015,
+    "avg_price": 14940000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2016,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2017,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2018,
+    "avg_price": 11320000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2019,
+    "avg_price": 14050000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2020,
+    "avg_price": 13860000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2022,
+    "avg_price": 25200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2023,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2024,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原",
+    "year": 2025,
+    "avg_price": 20250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原本町",
+    "year": 2013,
+    "avg_price": 14750000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原本町",
+    "year": 2015,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原本町",
+    "year": 2016,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原本町",
+    "year": 2018,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原本町",
+    "year": 2019,
+    "avg_price": 37142857.14285714
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原本町",
+    "year": 2021,
+    "avg_price": 16333333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原本町",
+    "year": 2022,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原本町",
+    "year": 2023,
+    "avg_price": 19325000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原本町",
+    "year": 2024,
+    "avg_price": 26500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "吉原本町",
+    "year": 2025,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "城ケ崎海岸",
+    "year": 2021,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "城ケ崎海岸",
+    "year": 2022,
+    "avg_price": 7450000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "城ケ崎海岸",
+    "year": 2023,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "城ケ崎海岸",
+    "year": 2024,
+    "avg_price": 7140000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "城ケ崎海岸",
+    "year": 2025,
+    "avg_price": 8175000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大仁",
+    "year": 2024,
+    "avg_price": 6200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大仁",
+    "year": 2025,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大場",
+    "year": 2008,
+    "avg_price": 12050000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大場",
+    "year": 2009,
+    "avg_price": 9250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大場",
+    "year": 2010,
+    "avg_price": 9666666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大場",
+    "year": 2011,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大場",
+    "year": 2015,
+    "avg_price": 4400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大場",
+    "year": 2016,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大場",
+    "year": 2017,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大場",
+    "year": 2018,
+    "avg_price": 7933333.333333333
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大場",
+    "year": 2019,
+    "avg_price": 10875000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大場",
+    "year": 2022,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大場",
+    "year": 2023,
+    "avg_price": 9875000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大場",
+    "year": 2024,
+    "avg_price": 6266666.666666667
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大場",
+    "year": 2025,
+    "avg_price": 8950000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2009,
+    "avg_price": 16666666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2011,
+    "avg_price": 15460000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2012,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2013,
+    "avg_price": 12050000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2014,
+    "avg_price": 14477777.777777778
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2015,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2018,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2019,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2020,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2021,
+    "avg_price": 12875000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2022,
+    "avg_price": 13633333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2023,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2024,
+    "avg_price": 18400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "大岡(静岡)",
+    "year": 2025,
+    "avg_price": 12666666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2007,
+    "avg_price": 13583333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2008,
+    "avg_price": 10185714.285714285
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2009,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2010,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2011,
+    "avg_price": 11066666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2012,
+    "avg_price": 14862500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2013,
+    "avg_price": 13916666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2014,
+    "avg_price": 14700000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2015,
+    "avg_price": 13120000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2016,
+    "avg_price": 13100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2017,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2018,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2019,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2020,
+    "avg_price": 11528571.42857143
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2021,
+    "avg_price": 14855555.555555556
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2022,
+    "avg_price": 15285714.285714285
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2023,
+    "avg_price": 12966666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2024,
+    "avg_price": 20611111.111111112
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "天竜川",
+    "year": 2025,
+    "avg_price": 16227272.727272727
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "奥浜名湖",
+    "year": 2007,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "宇佐美",
+    "year": 2021,
+    "avg_price": 3850000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "宇佐美",
+    "year": 2022,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "宇佐美",
+    "year": 2024,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "宇佐美",
+    "year": 2025,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2006,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2007,
+    "avg_price": 16333333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2008,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2009,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2011,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2012,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2013,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2014,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2015,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2016,
+    "avg_price": 16075000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2017,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2018,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2019,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2020,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2021,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2022,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2023,
+    "avg_price": 13333333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "安倍川",
+    "year": 2025,
+    "avg_price": 11633333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2007,
+    "avg_price": 12230555.555555556
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2008,
+    "avg_price": 17742857.14285714
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2009,
+    "avg_price": 10406250.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2010,
+    "avg_price": 9936363.636363637
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2011,
+    "avg_price": 10257142.857142856
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2012,
+    "avg_price": 10019230.76923077
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2013,
+    "avg_price": 9313043.47826087
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2014,
+    "avg_price": 10596666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2015,
+    "avg_price": 12836000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2016,
+    "avg_price": 11213043.47826087
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2017,
+    "avg_price": 12219230.76923077
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2018,
+    "avg_price": 11157142.857142856
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2019,
+    "avg_price": 10619354.838709677
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2020,
+    "avg_price": 13142857.142857144
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2021,
+    "avg_price": 13863636.363636363
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2022,
+    "avg_price": 15045000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2023,
+    "avg_price": 22100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2024,
+    "avg_price": 17166666.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士",
+    "year": 2025,
+    "avg_price": 12914814.814814815
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2007,
+    "avg_price": 10250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2008,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2009,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2010,
+    "avg_price": 19166666.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2011,
+    "avg_price": 16166666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2012,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2013,
+    "avg_price": 18100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2014,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2015,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2016,
+    "avg_price": 14375000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2017,
+    "avg_price": 17250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2018,
+    "avg_price": 18750000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2019,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2020,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2021,
+    "avg_price": 21666666.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2022,
+    "avg_price": 22120000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2023,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2024,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士宮",
+    "year": 2025,
+    "avg_price": 13314285.714285715
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士川",
+    "year": 2009,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士川",
+    "year": 2011,
+    "avg_price": 1000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士川",
+    "year": 2012,
+    "avg_price": 8300000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士川",
+    "year": 2014,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士川",
+    "year": 2016,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士川",
+    "year": 2018,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士川",
+    "year": 2020,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士川",
+    "year": 2021,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士川",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士川",
+    "year": 2023,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士川",
+    "year": 2024,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富士川",
+    "year": 2025,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富戸",
+    "year": 2021,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富戸",
+    "year": 2023,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富戸",
+    "year": 2024,
+    "avg_price": 4433333.333333333
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "富戸",
+    "year": 2025,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "尾奈",
+    "year": 2009,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "尾奈",
+    "year": 2015,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "尾奈",
+    "year": 2016,
+    "avg_price": 700000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "尾奈",
+    "year": 2017,
+    "avg_price": 216666.66666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "尾奈",
+    "year": 2021,
+    "avg_price": 100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "尾奈",
+    "year": 2022,
+    "avg_price": 500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "尾奈",
+    "year": 2024,
+    "avg_price": 2400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "島田(静岡)",
+    "year": 2011,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "島田(静岡)",
+    "year": 2014,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "島田(静岡)",
+    "year": 2016,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "島田(静岡)",
+    "year": 2017,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "島田(静岡)",
+    "year": 2019,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "島田(静岡)",
+    "year": 2021,
+    "avg_price": 28500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "島田(静岡)",
+    "year": 2022,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "島田(静岡)",
+    "year": 2024,
+    "avg_price": 36500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "島田(静岡)",
+    "year": 2025,
+    "avg_price": 28500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "川奈",
+    "year": 2022,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "川奈",
+    "year": 2023,
+    "avg_price": 7566666.666666667
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "川奈",
+    "year": 2024,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "川奈",
+    "year": 2025,
+    "avg_price": 7533333.333333333
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2007,
+    "avg_price": 14083333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2008,
+    "avg_price": 10587500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2009,
+    "avg_price": 3814285.714285714
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2010,
+    "avg_price": 3666666.6666666665
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2011,
+    "avg_price": 5820000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2013,
+    "avg_price": 3250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2014,
+    "avg_price": 5483333.333333333
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2015,
+    "avg_price": 1900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2016,
+    "avg_price": 9522222.222222222
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2017,
+    "avg_price": 8077777.777777778
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2018,
+    "avg_price": 12100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2019,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2020,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2021,
+    "avg_price": 6699090.909090909
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2022,
+    "avg_price": 10960000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2023,
+    "avg_price": 5783333.333333333
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2024,
+    "avg_price": 8210000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "弁天島",
+    "year": 2025,
+    "avg_price": 9372727.272727273
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "御厨(静岡)",
+    "year": 2020,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "御厨(静岡)",
+    "year": 2024,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "御殿場",
+    "year": 2021,
+    "avg_price": 11360000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "御殿場",
+    "year": 2022,
+    "avg_price": 9985714.285714285
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "御殿場",
+    "year": 2023,
+    "avg_price": 11366666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "御殿場",
+    "year": 2024,
+    "avg_price": 9720000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "御殿場",
+    "year": 2025,
+    "avg_price": 19600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "御門台",
+    "year": 2021,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "御門台",
+    "year": 2024,
+    "avg_price": 24666666.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "御門台",
+    "year": 2025,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2007,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2008,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2010,
+    "avg_price": 13350000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2011,
+    "avg_price": 13175000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2012,
+    "avg_price": 6616666.666666667
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2013,
+    "avg_price": 10360000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2014,
+    "avg_price": 14400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2015,
+    "avg_price": 17966666.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2016,
+    "avg_price": 14800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2017,
+    "avg_price": 6200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2018,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2019,
+    "avg_price": 10833333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2020,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2021,
+    "avg_price": 17640000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2022,
+    "avg_price": 13377777.777777778
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2023,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2024,
+    "avg_price": 22972727.272727273
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "掛川",
+    "year": 2025,
+    "avg_price": 27500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新富士(静岡)",
+    "year": 2021,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新富士(静岡)",
+    "year": 2024,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新富士(静岡)",
+    "year": 2025,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新浜松",
+    "year": 2021,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新浜松",
+    "year": 2023,
+    "avg_price": 18750000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新浜松",
+    "year": 2024,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新浜松",
+    "year": 2025,
+    "avg_price": 19400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新清水",
+    "year": 2006,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新清水",
+    "year": 2013,
+    "avg_price": 13400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新清水",
+    "year": 2015,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新清水",
+    "year": 2016,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新清水",
+    "year": 2017,
+    "avg_price": 7850000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新清水",
+    "year": 2018,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新清水",
+    "year": 2019,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新清水",
+    "year": 2021,
+    "avg_price": 15745454.545454545
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新清水",
+    "year": 2022,
+    "avg_price": 15270000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新清水",
+    "year": 2023,
+    "avg_price": 12900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新清水",
+    "year": 2024,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新清水",
+    "year": 2025,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新蒲原",
+    "year": 2009,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新静岡",
+    "year": 2017,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新静岡",
+    "year": 2021,
+    "avg_price": 21333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新静岡",
+    "year": 2022,
+    "avg_price": 28100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新静岡",
+    "year": 2023,
+    "avg_price": 24800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新静岡",
+    "year": 2024,
+    "avg_price": 38625000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "新静岡",
+    "year": 2025,
+    "avg_price": 17212500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "日吉町",
+    "year": 2013,
+    "avg_price": 36000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "日吉町",
+    "year": 2017,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "日吉町",
+    "year": 2021,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "日吉町",
+    "year": 2022,
+    "avg_price": 21150000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "日吉町",
+    "year": 2023,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "日吉町",
+    "year": 2024,
+    "avg_price": 32333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "日吉町",
+    "year": 2025,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "春日町",
+    "year": 2012,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "春日町",
+    "year": 2016,
+    "avg_price": 11166666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "春日町",
+    "year": 2019,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "春日町",
+    "year": 2020,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "春日町",
+    "year": 2021,
+    "avg_price": 14250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "春日町",
+    "year": 2022,
+    "avg_price": 11583333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "春日町",
+    "year": 2023,
+    "avg_price": 9640000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "春日町",
+    "year": 2024,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "春日町",
+    "year": 2025,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "曳馬",
+    "year": 2008,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "曳馬",
+    "year": 2014,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "曳馬",
+    "year": 2015,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "曳馬",
+    "year": 2016,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "曳馬",
+    "year": 2017,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "曳馬",
+    "year": 2021,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "曳馬",
+    "year": 2023,
+    "avg_price": 12750000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "曳馬",
+    "year": 2024,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "曳馬",
+    "year": 2025,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "本吉原",
+    "year": 2014,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "本吉原",
+    "year": 2015,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "本吉原",
+    "year": 2021,
+    "avg_price": 23333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "本吉原",
+    "year": 2022,
+    "avg_price": 21200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "本吉原",
+    "year": 2023,
+    "avg_price": 25333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "本吉原",
+    "year": 2024,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "本吉原",
+    "year": 2025,
+    "avg_price": 16666666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "来宮",
+    "year": 2021,
+    "avg_price": 29337500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "来宮",
+    "year": 2022,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "来宮",
+    "year": 2023,
+    "avg_price": 26514285.714285713
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "来宮",
+    "year": 2024,
+    "avg_price": 12700000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "来宮",
+    "year": 2025,
+    "avg_price": 22647619.04761905
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東田子の浦",
+    "year": 2022,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東田子の浦",
+    "year": 2025,
+    "avg_price": 9250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2007,
+    "avg_price": 5320000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2008,
+    "avg_price": 4948888.888888889
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2009,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2010,
+    "avg_price": 1100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2011,
+    "avg_price": 1812000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2012,
+    "avg_price": 1466666.6666666667
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2013,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2014,
+    "avg_price": 2488888.888888889
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2015,
+    "avg_price": 4592000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2016,
+    "avg_price": 1820000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2017,
+    "avg_price": 6100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2018,
+    "avg_price": 5925000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2019,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2020,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2021,
+    "avg_price": 5562500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2022,
+    "avg_price": 1675000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2023,
+    "avg_price": 4814285.714285715
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2024,
+    "avg_price": 800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東都筑",
+    "year": 2025,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2006,
+    "avg_price": 20090909.09090909
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2007,
+    "avg_price": 16376923.076923076
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2008,
+    "avg_price": 19125000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2009,
+    "avg_price": 18550000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2010,
+    "avg_price": 16211111.111111112
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2011,
+    "avg_price": 28555555.555555556
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2012,
+    "avg_price": 21111111.111111112
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2013,
+    "avg_price": 18472727.272727273
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2014,
+    "avg_price": 21333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2015,
+    "avg_price": 17092857.14285714
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2016,
+    "avg_price": 21723076.923076924
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2017,
+    "avg_price": 28312500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2018,
+    "avg_price": 26669230.769230768
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2019,
+    "avg_price": 27225000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2020,
+    "avg_price": 27695652.173913043
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2021,
+    "avg_price": 31245945.945945945
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2022,
+    "avg_price": 30138888.888888888
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2023,
+    "avg_price": 30321052.63157895
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2024,
+    "avg_price": 33937500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "東静岡",
+    "year": 2025,
+    "avg_price": 31675510.204081632
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "柚木(静岡鉄道)",
+    "year": 2018,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "柚木(静岡鉄道)",
+    "year": 2021,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "柚木(静岡鉄道)",
+    "year": 2023,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "柚木(静岡鉄道)",
+    "year": 2024,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "柚木(静岡鉄道)",
+    "year": 2025,
+    "avg_price": 23666666.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "柚木(ＪＲ)",
+    "year": 2012,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "柚木(ＪＲ)",
+    "year": 2021,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "柚木(ＪＲ)",
+    "year": 2022,
+    "avg_price": 4166666.6666666665
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "柚木(ＪＲ)",
+    "year": 2024,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "柚木(ＪＲ)",
+    "year": 2025,
+    "avg_price": 11375000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "桜橋(静岡)",
+    "year": 2014,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "桜橋(静岡)",
+    "year": 2020,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "桜橋(静岡)",
+    "year": 2021,
+    "avg_price": 10900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "桜橋(静岡)",
+    "year": 2023,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "河津",
+    "year": 2022,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2007,
+    "avg_price": 13554166.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2008,
+    "avg_price": 19784444.444444444
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2009,
+    "avg_price": 14605263.157894736
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2010,
+    "avg_price": 14791111.111111112
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2011,
+    "avg_price": 15111864.406779662
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2012,
+    "avg_price": 14032142.857142856
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2013,
+    "avg_price": 14460869.56521739
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2014,
+    "avg_price": 13580028.57142857
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2015,
+    "avg_price": 14714545.454545455
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2016,
+    "avg_price": 13966000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2017,
+    "avg_price": 15968627.450980391
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2018,
+    "avg_price": 13438245.614035089
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2019,
+    "avg_price": 15625000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2020,
+    "avg_price": 14973366.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2021,
+    "avg_price": 14101428.57142857
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2022,
+    "avg_price": 12752444.444444444
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2023,
+    "avg_price": 16130882.352941176
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2024,
+    "avg_price": 15493600.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "沼津",
+    "year": 2025,
+    "avg_price": 15647058.823529411
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2008,
+    "avg_price": 16166666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2009,
+    "avg_price": 5640000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2010,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2011,
+    "avg_price": 10981250.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2012,
+    "avg_price": 1125000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2013,
+    "avg_price": 17333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2014,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2015,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2016,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2017,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2018,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2019,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2020,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2021,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2022,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2023,
+    "avg_price": 13700000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2024,
+    "avg_price": 10300000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜北",
+    "year": 2025,
+    "avg_price": 18200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2007,
+    "avg_price": 14119444.444444444
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2008,
+    "avg_price": 14641447.368421054
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2009,
+    "avg_price": 13471875.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2010,
+    "avg_price": 14652030.07518797
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2011,
+    "avg_price": 12463214.285714285
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2012,
+    "avg_price": 12889189.18918919
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2013,
+    "avg_price": 13993378.378378378
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2014,
+    "avg_price": 12068437.5
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2015,
+    "avg_price": 12241588.235294119
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2016,
+    "avg_price": 13129838.709677419
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2017,
+    "avg_price": 14127020.202020202
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2018,
+    "avg_price": 14893529.411764706
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2019,
+    "avg_price": 16379607.843137255
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2020,
+    "avg_price": 15622331.606217617
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2021,
+    "avg_price": 17077911.111111112
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2022,
+    "avg_price": 15896373.056994818
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2023,
+    "avg_price": 17014000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2024,
+    "avg_price": 17344857.14285714
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "浜松",
+    "year": 2025,
+    "avg_price": 18022248.80382775
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2006,
+    "avg_price": 23450000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2007,
+    "avg_price": 18473333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2008,
+    "avg_price": 15953846.153846154
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2009,
+    "avg_price": 14937307.692307692
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2010,
+    "avg_price": 13895833.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2011,
+    "avg_price": 11800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2012,
+    "avg_price": 13511111.111111112
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2013,
+    "avg_price": 11759090.909090908
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2014,
+    "avg_price": 9662962.962962963
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2015,
+    "avg_price": 12495833.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2016,
+    "avg_price": 12235652.173913043
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2017,
+    "avg_price": 13088888.888888888
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2018,
+    "avg_price": 10280000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2019,
+    "avg_price": 13804761.904761905
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2020,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2021,
+    "avg_price": 14623809.523809524
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2022,
+    "avg_price": 18376923.076923076
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2023,
+    "avg_price": 16072500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2024,
+    "avg_price": 14617391.304347826
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "清水(静岡)",
+    "year": 2025,
+    "avg_price": 19605714.285714287
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "湯河原",
+    "year": 2021,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "湯河原",
+    "year": 2022,
+    "avg_price": 6640000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "湯河原",
+    "year": 2023,
+    "avg_price": 18450000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "湯河原",
+    "year": 2024,
+    "avg_price": 18133333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "湯河原",
+    "year": 2025,
+    "avg_price": 11436111.111111112
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "源道寺",
+    "year": 2009,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "源道寺",
+    "year": 2011,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "源道寺",
+    "year": 2012,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "源道寺",
+    "year": 2014,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "源道寺",
+    "year": 2015,
+    "avg_price": 8600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "源道寺",
+    "year": 2017,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "源道寺",
+    "year": 2018,
+    "avg_price": 6100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "源道寺",
+    "year": 2019,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "源道寺",
+    "year": 2020,
+    "avg_price": 5100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "源道寺",
+    "year": 2021,
+    "avg_price": 4100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "源道寺",
+    "year": 2023,
+    "avg_price": 11400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "源道寺",
+    "year": 2024,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "源道寺",
+    "year": 2025,
+    "avg_price": 9933333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2007,
+    "avg_price": 21545454.545454547
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2008,
+    "avg_price": 16525000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2009,
+    "avg_price": 14287500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2010,
+    "avg_price": 17333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2011,
+    "avg_price": 15100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2012,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2013,
+    "avg_price": 14488888.888888888
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2014,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2015,
+    "avg_price": 10316666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2016,
+    "avg_price": 13575000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2017,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2018,
+    "avg_price": 10062500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2019,
+    "avg_price": 14142857.142857144
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2020,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2021,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2022,
+    "avg_price": 14878571.42857143
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2023,
+    "avg_price": 11712500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2024,
+    "avg_price": 15328571.42857143
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "焼津",
+    "year": 2025,
+    "avg_price": 9657142.857142856
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "熱海",
+    "year": 2010,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "熱海",
+    "year": 2021,
+    "avg_price": 23078787.87878788
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "熱海",
+    "year": 2022,
+    "avg_price": 25360416.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "熱海",
+    "year": 2023,
+    "avg_price": 18874074.074074075
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "熱海",
+    "year": 2024,
+    "avg_price": 17736842.10526316
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "熱海",
+    "year": 2025,
+    "avg_price": 18151851.85185185
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2008,
+    "avg_price": 4200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2010,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2011,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2012,
+    "avg_price": 6433333.333333333
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2013,
+    "avg_price": 9950000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2014,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2015,
+    "avg_price": 11600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2017,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2018,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2019,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2020,
+    "avg_price": 14866666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2021,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2022,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2023,
+    "avg_price": 12975000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2024,
+    "avg_price": 9016666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片浜",
+    "year": 2025,
+    "avg_price": 11600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "片瀬白田",
+    "year": 2025,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "狐ケ崎",
+    "year": 2006,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "狐ケ崎",
+    "year": 2016,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "狐ケ崎",
+    "year": 2019,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "狐ケ崎",
+    "year": 2020,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "狐ケ崎",
+    "year": 2021,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "狐ケ崎",
+    "year": 2022,
+    "avg_price": 8750000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "狐ケ崎",
+    "year": 2024,
+    "avg_price": 5933333.333333333
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "狐ケ崎",
+    "year": 2025,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2006,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2007,
+    "avg_price": 15625000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2008,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2009,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2011,
+    "avg_price": 11800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2012,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2013,
+    "avg_price": 8250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2014,
+    "avg_price": 8133333.333333333
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2015,
+    "avg_price": 7560000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2017,
+    "avg_price": 4900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2018,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2019,
+    "avg_price": 5966666.666666667
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2020,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2021,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2022,
+    "avg_price": 9057142.857142856
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2023,
+    "avg_price": 15750000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "用宗",
+    "year": 2024,
+    "avg_price": 12933333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "田京",
+    "year": 2019,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "県立美術館前",
+    "year": 2018,
+    "avg_price": 40000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "県立美術館前",
+    "year": 2022,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "県立美術館前",
+    "year": 2023,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "県立美術館前",
+    "year": 2024,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "県総合運動場",
+    "year": 2009,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "県総合運動場",
+    "year": 2014,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "県総合運動場",
+    "year": 2018,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "県総合運動場",
+    "year": 2024,
+    "avg_price": 15400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "県総合運動場",
+    "year": 2025,
+    "avg_price": 24666666.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2007,
+    "avg_price": 23596296.296296295
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2008,
+    "avg_price": 15600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2009,
+    "avg_price": 11166666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2010,
+    "avg_price": 7380000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2011,
+    "avg_price": 10925000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2012,
+    "avg_price": 13275000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2013,
+    "avg_price": 11988461.538461538
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2014,
+    "avg_price": 10775000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2015,
+    "avg_price": 7323076.923076923
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2016,
+    "avg_price": 16744444.444444444
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2017,
+    "avg_price": 16937500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2018,
+    "avg_price": 14428571.42857143
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2019,
+    "avg_price": 16930000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2020,
+    "avg_price": 21037500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2021,
+    "avg_price": 16540000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2022,
+    "avg_price": 18760000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2023,
+    "avg_price": 24357142.85714286
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2024,
+    "avg_price": 11457142.857142856
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "磐田",
+    "year": 2025,
+    "avg_price": 18525000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "積志",
+    "year": 2022,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "竪堀",
+    "year": 2023,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "第一通り",
+    "year": 2022,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "第一通り",
+    "year": 2023,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "第一通り",
+    "year": 2024,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "第一通り",
+    "year": 2025,
+    "avg_price": 39714285.71428572
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "網代",
+    "year": 2022,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "網代",
+    "year": 2023,
+    "avg_price": 2833333.3333333335
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "網代",
+    "year": 2024,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "網代",
+    "year": 2025,
+    "avg_price": 7070000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "美薗中央公園",
+    "year": 2010,
+    "avg_price": 49000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "自動車学校前",
+    "year": 2008,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "自動車学校前",
+    "year": 2010,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "自動車学校前",
+    "year": 2015,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "自動車学校前",
+    "year": 2016,
+    "avg_price": 10750000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "自動車学校前",
+    "year": 2019,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "自動車学校前",
+    "year": 2020,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "自動車学校前",
+    "year": 2021,
+    "avg_price": 13333333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "自動車学校前",
+    "year": 2022,
+    "avg_price": 13966666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "自動車学校前",
+    "year": 2025,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "興津",
+    "year": 2008,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "興津",
+    "year": 2009,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "興津",
+    "year": 2010,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "興津",
+    "year": 2015,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "興津",
+    "year": 2017,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "興津",
+    "year": 2018,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "興津",
+    "year": 2023,
+    "avg_price": 4600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "舞阪",
+    "year": 2007,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "舞阪",
+    "year": 2008,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "舞阪",
+    "year": 2011,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "舞阪",
+    "year": 2013,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "舞阪",
+    "year": 2025,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "芝川",
+    "year": 2016,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(静岡鉄道)",
+    "year": 2022,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(静岡鉄道)",
+    "year": 2023,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(静岡鉄道)",
+    "year": 2024,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2006,
+    "avg_price": 24714285.714285713
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2007,
+    "avg_price": 16425000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2008,
+    "avg_price": 12380000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2009,
+    "avg_price": 13152941.176470589
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2010,
+    "avg_price": 16400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2011,
+    "avg_price": 15100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2012,
+    "avg_price": 14085714.285714285
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2013,
+    "avg_price": 12157142.857142856
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2014,
+    "avg_price": 16333333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2015,
+    "avg_price": 17142857.14285714
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2016,
+    "avg_price": 21400000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2017,
+    "avg_price": 14644444.444444444
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2018,
+    "avg_price": 25375000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2019,
+    "avg_price": 18727272.727272727
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2020,
+    "avg_price": 18583333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2021,
+    "avg_price": 14515000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2022,
+    "avg_price": 12812500.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2023,
+    "avg_price": 13545454.545454545
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2024,
+    "avg_price": 16169230.76923077
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "草薙(ＪＲ)",
+    "year": 2025,
+    "avg_price": 27125000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "菊川(静岡)",
+    "year": 2022,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "菊川(静岡)",
+    "year": 2023,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "菊川(静岡)",
+    "year": 2024,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "蓮台寺",
+    "year": 2023,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2007,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2008,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2009,
+    "avg_price": 16750000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2010,
+    "avg_price": 15260000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2011,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2012,
+    "avg_price": 17666666.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2013,
+    "avg_price": 21571428.57142857
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2014,
+    "avg_price": 17873333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2015,
+    "avg_price": 18530769.230769232
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2016,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2017,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2018,
+    "avg_price": 21375000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2019,
+    "avg_price": 24044444.444444444
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2020,
+    "avg_price": 19066666.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2021,
+    "avg_price": 27530000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2022,
+    "avg_price": 26894736.842105262
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2023,
+    "avg_price": 28500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2024,
+    "avg_price": 26004166.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "藤枝",
+    "year": 2025,
+    "avg_price": 26842857.14285714
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "袋井",
+    "year": 2021,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "袋井",
+    "year": 2022,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "袋井",
+    "year": 2023,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "裾野",
+    "year": 2021,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "裾野",
+    "year": 2023,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "裾野",
+    "year": 2024,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "裾野",
+    "year": 2025,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西富士宮",
+    "year": 2008,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西富士宮",
+    "year": 2012,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西富士宮",
+    "year": 2013,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西富士宮",
+    "year": 2018,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西富士宮",
+    "year": 2019,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西富士宮",
+    "year": 2020,
+    "avg_price": 2900000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西富士宮",
+    "year": 2022,
+    "avg_price": 5266666.666666667
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西富士宮",
+    "year": 2023,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西富士宮",
+    "year": 2024,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西富士宮",
+    "year": 2025,
+    "avg_price": 3050000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西焼津",
+    "year": 2009,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西焼津",
+    "year": 2010,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西焼津",
+    "year": 2011,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西焼津",
+    "year": 2012,
+    "avg_price": 16250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西焼津",
+    "year": 2016,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西焼津",
+    "year": 2017,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西焼津",
+    "year": 2018,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西焼津",
+    "year": 2019,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西焼津",
+    "year": 2020,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西焼津",
+    "year": 2021,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西焼津",
+    "year": 2022,
+    "avg_price": 13066666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西焼津",
+    "year": 2023,
+    "avg_price": 14950000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "西焼津",
+    "year": 2025,
+    "avg_price": 11750000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2008,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2009,
+    "avg_price": 20250000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2010,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2011,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2012,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2013,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2014,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2015,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2016,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2017,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2018,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2019,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2020,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2021,
+    "avg_price": 13200000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2022,
+    "avg_price": 15666666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2024,
+    "avg_price": 14266666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "豊田町",
+    "year": 2025,
+    "avg_price": 18333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州小松",
+    "year": 2009,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州小松",
+    "year": 2011,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州小松",
+    "year": 2012,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州小松",
+    "year": 2015,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州小松",
+    "year": 2020,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州病院",
+    "year": 2009,
+    "avg_price": 15850000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州病院",
+    "year": 2011,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州病院",
+    "year": 2021,
+    "avg_price": 23333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州病院",
+    "year": 2022,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州病院",
+    "year": 2023,
+    "avg_price": 15666666.666666666
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州病院",
+    "year": 2024,
+    "avg_price": 28833333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州病院",
+    "year": 2025,
+    "avg_price": 23800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州西ケ崎",
+    "year": 2008,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州西ケ崎",
+    "year": 2009,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州西ケ崎",
+    "year": 2012,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州西ケ崎",
+    "year": 2013,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州西ケ崎",
+    "year": 2014,
+    "avg_price": 14233333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州西ケ崎",
+    "year": 2015,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州西ケ崎",
+    "year": 2018,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州西ケ崎",
+    "year": 2019,
+    "avg_price": 13133333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州西ケ崎",
+    "year": 2021,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州西ケ崎",
+    "year": 2022,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州西ケ崎",
+    "year": 2023,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州西ケ崎",
+    "year": 2024,
+    "avg_price": 11100000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "遠州西ケ崎",
+    "year": 2025,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2007,
+    "avg_price": 7050000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2008,
+    "avg_price": 3572727.272727273
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2009,
+    "avg_price": 8553333.333333334
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2010,
+    "avg_price": 4052608.695652174
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2011,
+    "avg_price": 3753333.3333333335
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2012,
+    "avg_price": 4947058.823529412
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2013,
+    "avg_price": 3764444.4444444445
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2014,
+    "avg_price": 3705000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2015,
+    "avg_price": 3693636.3636363638
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2016,
+    "avg_price": 3434615.3846153845
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2017,
+    "avg_price": 3633529.411764706
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2018,
+    "avg_price": 4457142.857142857
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2019,
+    "avg_price": 4840000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2020,
+    "avg_price": 5007692.307692308
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2021,
+    "avg_price": 4401785.714285715
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2022,
+    "avg_price": 3852083.3333333335
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2023,
+    "avg_price": 4116818.1818181816
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2024,
+    "avg_price": 3123076.923076923
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "都筑",
+    "year": 2025,
+    "avg_price": 2675000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長沼(静岡)",
+    "year": 2013,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長沼(静岡)",
+    "year": 2015,
+    "avg_price": 24500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長沼(静岡)",
+    "year": 2016,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長沼(静岡)",
+    "year": 2018,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長沼(静岡)",
+    "year": 2021,
+    "avg_price": 20800000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長沼(静岡)",
+    "year": 2022,
+    "avg_price": 30333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長沼(静岡)",
+    "year": 2023,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長沼(静岡)",
+    "year": 2024,
+    "avg_price": 23600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長沼(静岡)",
+    "year": 2025,
+    "avg_price": 26311111.111111112
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長泉なめり",
+    "year": 2008,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長泉なめり",
+    "year": 2019,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長泉なめり",
+    "year": 2022,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長泉なめり",
+    "year": 2024,
+    "avg_price": 23666666.666666668
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "長泉なめり",
+    "year": 2025,
+    "avg_price": 41000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2006,
+    "avg_price": 14331250.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2007,
+    "avg_price": 16326984.126984127
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2008,
+    "avg_price": 16585542.168674698
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2009,
+    "avg_price": 16869117.647058822
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2010,
+    "avg_price": 16285981.308411215
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2011,
+    "avg_price": 13429487.17948718
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2012,
+    "avg_price": 13498591.549295774
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2013,
+    "avg_price": 18507549.019607842
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2014,
+    "avg_price": 15217821.782178218
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2015,
+    "avg_price": 18979787.23404255
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2016,
+    "avg_price": 19797222.222222224
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2017,
+    "avg_price": 17777884.615384616
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2018,
+    "avg_price": 18084782.608695652
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2019,
+    "avg_price": 16635164.835164836
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2020,
+    "avg_price": 19383783.783783782
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2021,
+    "avg_price": 22167052.023121387
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2022,
+    "avg_price": 21078014.184397165
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2023,
+    "avg_price": 20705128.205128204
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2024,
+    "avg_price": 23127631.57894737
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "静岡",
+    "year": 2025,
+    "avg_price": 24264256.756756756
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "音羽町",
+    "year": 2013,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "音羽町",
+    "year": 2019,
+    "avg_price": 10600000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "音羽町",
+    "year": 2021,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "音羽町",
+    "year": 2022,
+    "avg_price": 33500000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "音羽町",
+    "year": 2023,
+    "avg_price": 13540000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "音羽町",
+    "year": 2024,
+    "avg_price": 33333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "音羽町",
+    "year": 2025,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "高塚",
+    "year": 2007,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "高塚",
+    "year": 2009,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "高塚",
+    "year": 2014,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "高塚",
+    "year": 2020,
+    "avg_price": 7450000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "高塚",
+    "year": 2022,
+    "avg_price": 8700000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "高塚",
+    "year": 2024,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "高塚",
+    "year": 2025,
+    "avg_price": 7333333.333333333
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "鷲津",
+    "year": 2023,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "静岡県",
+    "station": "鷲津",
+    "year": 2024,
+    "avg_price": 23000000.0
+  }
+]

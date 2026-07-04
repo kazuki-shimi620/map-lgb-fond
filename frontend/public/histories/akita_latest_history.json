@@ -1,0 +1,254 @@
+[
+  {
+    "prefecture": "秋田県",
+    "station": "八郎潟",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "八郎潟",
+    "year": 2025,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "土崎",
+    "year": 2008,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "土崎",
+    "year": 2013,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "土崎",
+    "year": 2014,
+    "avg_price": 5250000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "土崎",
+    "year": 2018,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "土崎",
+    "year": 2019,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "土崎",
+    "year": 2021,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "土崎",
+    "year": 2023,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "土崎",
+    "year": 2025,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "岩城みなと",
+    "year": 2022,
+    "avg_price": 6075000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "岩城みなと",
+    "year": 2023,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "岩城みなと",
+    "year": 2024,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "横手",
+    "year": 2010,
+    "avg_price": 23384615.384615384
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "横手",
+    "year": 2023,
+    "avg_price": 27500000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "泉外旭川",
+    "year": 2021,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "泉外旭川",
+    "year": 2022,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "泉外旭川",
+    "year": 2023,
+    "avg_price": 18642857.14285714
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "泉外旭川",
+    "year": 2024,
+    "avg_price": 19666666.666666668
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "泉外旭川",
+    "year": 2025,
+    "avg_price": 20571428.57142857
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2007,
+    "avg_price": 9280769.23076923
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2008,
+    "avg_price": 13357142.857142856
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2009,
+    "avg_price": 11430909.090909092
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2010,
+    "avg_price": 10300000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2011,
+    "avg_price": 11237777.777777778
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2012,
+    "avg_price": 10529482.75862069
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2013,
+    "avg_price": 10440147.05882353
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2014,
+    "avg_price": 13366666.666666666
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2015,
+    "avg_price": 13640845.070422536
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2016,
+    "avg_price": 12438181.818181818
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2017,
+    "avg_price": 12689473.684210526
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2018,
+    "avg_price": 11162962.962962963
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2019,
+    "avg_price": 13601612.903225806
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2020,
+    "avg_price": 15004477.611940298
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2021,
+    "avg_price": 12580459.770114943
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2022,
+    "avg_price": 10585321.10091743
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2023,
+    "avg_price": 14469633.027522936
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2024,
+    "avg_price": 12050000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "秋田",
+    "year": 2025,
+    "avg_price": 12729382.716049382
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "羽後牛島",
+    "year": 2022,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "羽後牛島",
+    "year": 2023,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "秋田県",
+    "station": "羽後牛島",
+    "year": 2025,
+    "avg_price": 8250000.0
+  }
+]

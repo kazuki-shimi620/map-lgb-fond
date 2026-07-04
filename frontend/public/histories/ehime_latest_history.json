@@ -1,0 +1,4376 @@
+[
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2007,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2008,
+    "avg_price": 14183333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2009,
+    "avg_price": 9425000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2010,
+    "avg_price": 12711111.111111112
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2011,
+    "avg_price": 8650000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2012,
+    "avg_price": 9392857.142857144
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2013,
+    "avg_price": 10466666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2014,
+    "avg_price": 8133333.333333333
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2015,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2016,
+    "avg_price": 9040000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2017,
+    "avg_price": 13225000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2018,
+    "avg_price": 7428571.428571428
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2019,
+    "avg_price": 12425000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2020,
+    "avg_price": 14250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2021,
+    "avg_price": 13642857.142857144
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2022,
+    "avg_price": 8275000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2023,
+    "avg_price": 15300000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2024,
+    "avg_price": 11209090.909090908
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "いよ立花",
+    "year": 2025,
+    "avg_price": 13820000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2007,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2008,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2009,
+    "avg_price": 8633333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2010,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2011,
+    "avg_price": 5750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2012,
+    "avg_price": 9685714.285714285
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2013,
+    "avg_price": 9150000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2014,
+    "avg_price": 10444444.444444444
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2015,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2016,
+    "avg_price": 6562500.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2017,
+    "avg_price": 9783333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2018,
+    "avg_price": 8750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2019,
+    "avg_price": 9100000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2020,
+    "avg_price": 11340000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2021,
+    "avg_price": 10575000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2022,
+    "avg_price": 6763636.363636363
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2023,
+    "avg_price": 10012500.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2024,
+    "avg_price": 9494117.647058824
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津",
+    "year": 2025,
+    "avg_price": 8663636.363636363
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津浜",
+    "year": 2008,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津浜",
+    "year": 2009,
+    "avg_price": 16625000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津浜",
+    "year": 2010,
+    "avg_price": 19666666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津浜",
+    "year": 2012,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津浜",
+    "year": 2014,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津浜",
+    "year": 2015,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津浜",
+    "year": 2016,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津浜",
+    "year": 2018,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津浜",
+    "year": 2020,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津浜",
+    "year": 2021,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津浜",
+    "year": 2022,
+    "avg_price": 20400000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津浜",
+    "year": 2023,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "三津浜",
+    "year": 2024,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2008,
+    "avg_price": 13666666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2009,
+    "avg_price": 15750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2010,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2011,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2012,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2013,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2014,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2015,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2016,
+    "avg_price": 13900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2017,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2019,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2021,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2022,
+    "avg_price": 18800000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2023,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "上一万",
+    "year": 2025,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "中萩",
+    "year": 2021,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "中萩",
+    "year": 2023,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2007,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2008,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2009,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2010,
+    "avg_price": 14666666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2011,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2012,
+    "avg_price": 10025000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2013,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2014,
+    "avg_price": 9933333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2015,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2016,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2017,
+    "avg_price": 22800000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2018,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2019,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2020,
+    "avg_price": 16750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2021,
+    "avg_price": 14666666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2022,
+    "avg_price": 13542857.142857144
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2023,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2024,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "久米",
+    "year": 2025,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2007,
+    "avg_price": 9433333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2008,
+    "avg_price": 13471428.57142857
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2009,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2010,
+    "avg_price": 12750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2011,
+    "avg_price": 12042857.142857144
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2012,
+    "avg_price": 9330000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2013,
+    "avg_price": 11255555.555555556
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2014,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2015,
+    "avg_price": 7221428.571428572
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2016,
+    "avg_price": 13128571.42857143
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2017,
+    "avg_price": 9425000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2018,
+    "avg_price": 11628571.42857143
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2019,
+    "avg_price": 11360000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2020,
+    "avg_price": 19344444.444444444
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2021,
+    "avg_price": 14792307.692307692
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2022,
+    "avg_price": 17507692.307692308
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2023,
+    "avg_price": 13421250.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2024,
+    "avg_price": 13547368.421052631
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "今治",
+    "year": 2025,
+    "avg_price": 21117647.05882353
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予三島",
+    "year": 2021,
+    "avg_price": 6200000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予三島",
+    "year": 2022,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予三島",
+    "year": 2023,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予三島",
+    "year": 2025,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予三芳",
+    "year": 2015,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予和気",
+    "year": 2009,
+    "avg_price": 8750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予和気",
+    "year": 2010,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予和気",
+    "year": 2011,
+    "avg_price": 6450000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予和気",
+    "year": 2012,
+    "avg_price": 7633333.333333333
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予和気",
+    "year": 2013,
+    "avg_price": 8850000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予和気",
+    "year": 2016,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予和気",
+    "year": 2017,
+    "avg_price": 8366666.666666667
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予和気",
+    "year": 2019,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予和気",
+    "year": 2021,
+    "avg_price": 12166666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予和気",
+    "year": 2024,
+    "avg_price": 10400000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予和気",
+    "year": 2025,
+    "avg_price": 8150000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2007,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2008,
+    "avg_price": 16333333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2009,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2010,
+    "avg_price": 11750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2011,
+    "avg_price": 8250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2012,
+    "avg_price": 11916666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2013,
+    "avg_price": 12250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2014,
+    "avg_price": 14060000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2015,
+    "avg_price": 18057894.736842107
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2016,
+    "avg_price": 13022857.142857144
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2017,
+    "avg_price": 13066666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2018,
+    "avg_price": 13050000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2019,
+    "avg_price": 11950000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2020,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2021,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2022,
+    "avg_price": 14163636.363636363
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2023,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2024,
+    "avg_price": 13327272.727272727
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "伊予西条",
+    "year": 2025,
+    "avg_price": 14800000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2008,
+    "avg_price": 11400000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2009,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2010,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2011,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2012,
+    "avg_price": 8650000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2013,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2014,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2015,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2016,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2017,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2020,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2021,
+    "avg_price": 20533333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2022,
+    "avg_price": 14187500.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2023,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2024,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "余戸",
+    "year": 2025,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "八幡浜",
+    "year": 2023,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "八幡浜",
+    "year": 2025,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2007,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2008,
+    "avg_price": 11666666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2009,
+    "avg_price": 13050000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2010,
+    "avg_price": 16260000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2011,
+    "avg_price": 15640000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2012,
+    "avg_price": 14628571.42857143
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2013,
+    "avg_price": 12530000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2014,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2015,
+    "avg_price": 26555555.555555556
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2016,
+    "avg_price": 27555555.555555556
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2017,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2018,
+    "avg_price": 19666666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2019,
+    "avg_price": 11666666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2020,
+    "avg_price": 23833333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2021,
+    "avg_price": 24700000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2022,
+    "avg_price": 30416666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2023,
+    "avg_price": 23390909.09090909
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2024,
+    "avg_price": 28125000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "勝山町",
+    "year": 2025,
+    "avg_price": 24571428.57142857
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2007,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2008,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2009,
+    "avg_price": 10760000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2010,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2011,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2012,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2014,
+    "avg_price": 8650000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2015,
+    "avg_price": 4933333.333333333
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2016,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2018,
+    "avg_price": 11166666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2020,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2021,
+    "avg_price": 12750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2022,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2023,
+    "avg_price": 7040000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2024,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "北久米",
+    "year": 2025,
+    "avg_price": 10716666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南堀端",
+    "year": 2012,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南堀端",
+    "year": 2017,
+    "avg_price": 10900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南堀端",
+    "year": 2018,
+    "avg_price": 16300000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南堀端",
+    "year": 2019,
+    "avg_price": 12533333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南堀端",
+    "year": 2020,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南堀端",
+    "year": 2021,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南堀端",
+    "year": 2022,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南堀端",
+    "year": 2024,
+    "avg_price": 12360000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2007,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2008,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2010,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2012,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2013,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2014,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2015,
+    "avg_price": 17600000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2016,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2017,
+    "avg_price": 29500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2018,
+    "avg_price": 17666666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2019,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2020,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2021,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2022,
+    "avg_price": 28222222.222222224
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2023,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2024,
+    "avg_price": 28285714.285714287
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "南町",
+    "year": 2025,
+    "avg_price": 19583333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2008,
+    "avg_price": 21600000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2009,
+    "avg_price": 11872000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2010,
+    "avg_price": 13166666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2011,
+    "avg_price": 17357142.85714286
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2012,
+    "avg_price": 11466666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2013,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2014,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2015,
+    "avg_price": 19366666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2016,
+    "avg_price": 13225000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2017,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2018,
+    "avg_price": 23250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2019,
+    "avg_price": 19750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2020,
+    "avg_price": 17333333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2021,
+    "avg_price": 18445454.545454547
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2022,
+    "avg_price": 14860000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2023,
+    "avg_price": 16606250.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2024,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "古町",
+    "year": 2025,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2007,
+    "avg_price": 14200000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2008,
+    "avg_price": 12116666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2009,
+    "avg_price": 13375000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2010,
+    "avg_price": 10644444.444444444
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2011,
+    "avg_price": 10212500.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2012,
+    "avg_price": 10750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2013,
+    "avg_price": 12122222.222222222
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2014,
+    "avg_price": 10153333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2015,
+    "avg_price": 9620000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2016,
+    "avg_price": 13316666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2017,
+    "avg_price": 13544444.444444444
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2018,
+    "avg_price": 14700000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2019,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2020,
+    "avg_price": 19400000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2021,
+    "avg_price": 12537500.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2022,
+    "avg_price": 17687500.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2023,
+    "avg_price": 12990909.090909092
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2024,
+    "avg_price": 16394444.444444444
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土居田",
+    "year": 2025,
+    "avg_price": 15354545.454545455
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2007,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2008,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2009,
+    "avg_price": 13316666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2010,
+    "avg_price": 19533333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2011,
+    "avg_price": 18363636.363636363
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2012,
+    "avg_price": 17018181.818181816
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2013,
+    "avg_price": 12083333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2014,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2015,
+    "avg_price": 12677777.777777778
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2016,
+    "avg_price": 13133333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2017,
+    "avg_price": 13987500.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2018,
+    "avg_price": 12037500.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2019,
+    "avg_price": 10766666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2020,
+    "avg_price": 15560000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2021,
+    "avg_price": 14240000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2022,
+    "avg_price": 15600000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2023,
+    "avg_price": 16818181.818181816
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2024,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "土橋(愛媛)",
+    "year": 2025,
+    "avg_price": 15650000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "堀江",
+    "year": 2013,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "堀江",
+    "year": 2017,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "多喜浜",
+    "year": 2014,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "多喜浜",
+    "year": 2015,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "多喜浜",
+    "year": 2016,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "多喜浜",
+    "year": 2018,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "多喜浜",
+    "year": 2019,
+    "avg_price": 800000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "多喜浜",
+    "year": 2022,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "多喜浜",
+    "year": 2023,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2007,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2008,
+    "avg_price": 4200000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2009,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2010,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2011,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2012,
+    "avg_price": 4900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2013,
+    "avg_price": 4314285.714285715
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2014,
+    "avg_price": 8771428.57142857
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2015,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2016,
+    "avg_price": 12066666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2017,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2018,
+    "avg_price": 4740000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2019,
+    "avg_price": 3250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2020,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2021,
+    "avg_price": 14666666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2022,
+    "avg_price": 11480000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2023,
+    "avg_price": 12483333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2024,
+    "avg_price": 9725000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大手町(愛媛)",
+    "year": 2025,
+    "avg_price": 22028571.42857143
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2007,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2011,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2012,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2014,
+    "avg_price": 6950000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2016,
+    "avg_price": 15850000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2017,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2018,
+    "avg_price": 17600000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2019,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2020,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2021,
+    "avg_price": 39000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2022,
+    "avg_price": 34400000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2023,
+    "avg_price": 45250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2024,
+    "avg_price": 27333333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "大街道",
+    "year": 2025,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2008,
+    "avg_price": 13166666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2009,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2010,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2012,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2013,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2014,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2016,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2017,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2018,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2020,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2021,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2022,
+    "avg_price": 24200000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2023,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2024,
+    "avg_price": 28666666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "宮田町",
+    "year": 2025,
+    "avg_price": 26375000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "山西",
+    "year": 2011,
+    "avg_price": 4650000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "山西",
+    "year": 2014,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "山西",
+    "year": 2016,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "山西",
+    "year": 2018,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "山西",
+    "year": 2019,
+    "avg_price": 5750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "山西",
+    "year": 2020,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "山西",
+    "year": 2021,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "山西",
+    "year": 2022,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "山西",
+    "year": 2023,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "山西",
+    "year": 2024,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "山西",
+    "year": 2025,
+    "avg_price": 11850000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "川之江",
+    "year": 2021,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "川之江",
+    "year": 2025,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "市坪",
+    "year": 2009,
+    "avg_price": 25666666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "市坪",
+    "year": 2010,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "市坪",
+    "year": 2012,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "市坪",
+    "year": 2018,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "市坪",
+    "year": 2021,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "市坪",
+    "year": 2024,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "市坪",
+    "year": 2025,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "市役所前(愛媛)",
+    "year": 2018,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "市役所前(愛媛)",
+    "year": 2019,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "市役所前(愛媛)",
+    "year": 2025,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "平井(愛媛)",
+    "year": 2009,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "平井(愛媛)",
+    "year": 2011,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "平井(愛媛)",
+    "year": 2013,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "平井(愛媛)",
+    "year": 2017,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "平井(愛媛)",
+    "year": 2019,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "平和通１丁目",
+    "year": 2011,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "平和通１丁目",
+    "year": 2013,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "平和通１丁目",
+    "year": 2014,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "平和通１丁目",
+    "year": 2017,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "平和通１丁目",
+    "year": 2022,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2007,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2008,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2009,
+    "avg_price": 6826666.666666667
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2010,
+    "avg_price": 5771250.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2011,
+    "avg_price": 11161818.181818182
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2012,
+    "avg_price": 8587727.272727273
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2013,
+    "avg_price": 7103846.153846154
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2014,
+    "avg_price": 8059375.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2015,
+    "avg_price": 8829411.764705881
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2016,
+    "avg_price": 9814375.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2017,
+    "avg_price": 2928571.4285714286
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2018,
+    "avg_price": 6410714.285714285
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2019,
+    "avg_price": 6376470.588235294
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2020,
+    "avg_price": 8974615.384615384
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2021,
+    "avg_price": 11530000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2022,
+    "avg_price": 8915217.391304348
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2023,
+    "avg_price": 14370625.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2024,
+    "avg_price": 13307142.857142856
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新居浜",
+    "year": 2025,
+    "avg_price": 10838461.538461538
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新川(愛媛)",
+    "year": 2022,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新川(愛媛)",
+    "year": 2023,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "新川(愛媛)",
+    "year": 2025,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "木屋町",
+    "year": 2009,
+    "avg_price": 11350000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "木屋町",
+    "year": 2010,
+    "avg_price": 1133333.3333333333
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "木屋町",
+    "year": 2012,
+    "avg_price": 5616666.666666667
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "木屋町",
+    "year": 2013,
+    "avg_price": 1700000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "木屋町",
+    "year": 2015,
+    "avg_price": 6440000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "木屋町",
+    "year": 2016,
+    "avg_price": 11333333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "木屋町",
+    "year": 2020,
+    "avg_price": 6650000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "木屋町",
+    "year": 2021,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "木屋町",
+    "year": 2022,
+    "avg_price": 40333333.333333336
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "木屋町",
+    "year": 2023,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "木屋町",
+    "year": 2024,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "木屋町",
+    "year": 2025,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町３丁目",
+    "year": 2008,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町３丁目",
+    "year": 2010,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町３丁目",
+    "year": 2011,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町３丁目",
+    "year": 2013,
+    "avg_price": 38000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町３丁目",
+    "year": 2014,
+    "avg_price": 25500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町３丁目",
+    "year": 2017,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町３丁目",
+    "year": 2018,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町３丁目",
+    "year": 2020,
+    "avg_price": 29500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町３丁目",
+    "year": 2021,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町３丁目",
+    "year": 2022,
+    "avg_price": 21600000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町３丁目",
+    "year": 2023,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町３丁目",
+    "year": 2024,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町３丁目",
+    "year": 2025,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2008,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2009,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2010,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2011,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2012,
+    "avg_price": 14750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2014,
+    "avg_price": 14900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2015,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2017,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2018,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2019,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2020,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2021,
+    "avg_price": 27500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2022,
+    "avg_price": 22375000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2023,
+    "avg_price": 23250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2024,
+    "avg_price": 25400000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町４丁目",
+    "year": 2025,
+    "avg_price": 19900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町５丁目",
+    "year": 2016,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2007,
+    "avg_price": 6600000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2008,
+    "avg_price": 8416666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2009,
+    "avg_price": 9942857.142857144
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2010,
+    "avg_price": 12633333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2011,
+    "avg_price": 10928571.42857143
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2012,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2013,
+    "avg_price": 11165384.615384616
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2014,
+    "avg_price": 7337500.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2015,
+    "avg_price": 6541666.666666667
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2016,
+    "avg_price": 8144444.444444444
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2017,
+    "avg_price": 5550000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2018,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2019,
+    "avg_price": 11216666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2020,
+    "avg_price": 12925000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2021,
+    "avg_price": 11422222.222222222
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2022,
+    "avg_price": 10400000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2023,
+    "avg_price": 10695833.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2024,
+    "avg_price": 4216666.666666667
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "本町６丁目",
+    "year": 2025,
+    "avg_price": 8726923.076923076
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2007,
+    "avg_price": 8650000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2008,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2009,
+    "avg_price": 11300000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2010,
+    "avg_price": 11620000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2011,
+    "avg_price": 11633333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2012,
+    "avg_price": 11400000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2013,
+    "avg_price": 11385714.285714285
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2014,
+    "avg_price": 12600000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2015,
+    "avg_price": 12900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2016,
+    "avg_price": 17125000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2017,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2018,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2019,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2020,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2021,
+    "avg_price": 15600000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2023,
+    "avg_price": 10060000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2024,
+    "avg_price": 10433333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山(愛媛)",
+    "year": 2025,
+    "avg_price": 9666666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2007,
+    "avg_price": 10850000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2008,
+    "avg_price": 17950000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2009,
+    "avg_price": 25125000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2010,
+    "avg_price": 25285714.285714287
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2011,
+    "avg_price": 13857142.857142856
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2012,
+    "avg_price": 18788888.888888888
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2013,
+    "avg_price": 21250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2014,
+    "avg_price": 18916666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2015,
+    "avg_price": 18750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2016,
+    "avg_price": 17866666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2017,
+    "avg_price": 15733333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2018,
+    "avg_price": 20912500.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2019,
+    "avg_price": 13020000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2020,
+    "avg_price": 20744444.444444444
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2021,
+    "avg_price": 14866666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2022,
+    "avg_price": 23200000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2023,
+    "avg_price": 25031250.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2024,
+    "avg_price": 21833333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市",
+    "year": 2025,
+    "avg_price": 32857142.85714286
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市駅",
+    "year": 2011,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市駅",
+    "year": 2013,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市駅",
+    "year": 2014,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市駅",
+    "year": 2015,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市駅",
+    "year": 2017,
+    "avg_price": 35000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市駅",
+    "year": 2018,
+    "avg_price": 19333333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市駅",
+    "year": 2019,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市駅",
+    "year": 2020,
+    "avg_price": 40000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市駅",
+    "year": 2021,
+    "avg_price": 22666666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市駅",
+    "year": 2022,
+    "avg_price": 26500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市駅",
+    "year": 2023,
+    "avg_price": 25333333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市駅",
+    "year": 2024,
+    "avg_price": 17016666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "松山市駅",
+    "year": 2025,
+    "avg_price": 24444444.444444444
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "梅津寺",
+    "year": 2022,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "横河原",
+    "year": 2022,
+    "avg_price": 10150000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "横河原",
+    "year": 2024,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "清水町",
+    "year": 2007,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "清水町",
+    "year": 2009,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "清水町",
+    "year": 2011,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "清水町",
+    "year": 2014,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "清水町",
+    "year": 2015,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "清水町",
+    "year": 2020,
+    "avg_price": 100000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "清水町",
+    "year": 2021,
+    "avg_price": 10250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "清水町",
+    "year": 2022,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "清水町",
+    "year": 2024,
+    "avg_price": 34000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "清水町",
+    "year": 2025,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "港山",
+    "year": 2010,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "港山",
+    "year": 2013,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "港山",
+    "year": 2015,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "港山",
+    "year": 2016,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "港山",
+    "year": 2020,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "港山",
+    "year": 2022,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "港山",
+    "year": 2024,
+    "avg_price": 14850000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "牛渕団地前",
+    "year": 2021,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2008,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2010,
+    "avg_price": 12333333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2011,
+    "avg_price": 17333333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2012,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2013,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2014,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2016,
+    "avg_price": 10200000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2017,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2018,
+    "avg_price": 11666666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2019,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2020,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2021,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2022,
+    "avg_price": 15250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2023,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2024,
+    "avg_price": 40000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "県庁前(愛媛)",
+    "year": 2025,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2007,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2009,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2011,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2013,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2014,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2015,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2016,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2018,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2019,
+    "avg_price": 14916666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2021,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2022,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2024,
+    "avg_price": 17525000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "石手川公園",
+    "year": 2025,
+    "avg_price": 9166666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2008,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2009,
+    "avg_price": 7766666.666666667
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2010,
+    "avg_price": 6675000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2011,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2012,
+    "avg_price": 10950000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2013,
+    "avg_price": 17800000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2014,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2015,
+    "avg_price": 15183333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2016,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2017,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2018,
+    "avg_price": 7750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2019,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2020,
+    "avg_price": 12800000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2021,
+    "avg_price": 8809090.909090908
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2022,
+    "avg_price": 10740000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2023,
+    "avg_price": 16285714.285714285
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2024,
+    "avg_price": 14250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "福音寺",
+    "year": 2025,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2007,
+    "avg_price": 13700000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2009,
+    "avg_price": 16680000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2010,
+    "avg_price": 13450000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2011,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2012,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2013,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2014,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2015,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2016,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2017,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2018,
+    "avg_price": 17666666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2019,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2020,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2021,
+    "avg_price": 13825000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2022,
+    "avg_price": 14950000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2023,
+    "avg_price": 17857142.85714286
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2024,
+    "avg_price": 18250000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "萱町６丁目",
+    "year": 2025,
+    "avg_price": 16400000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2007,
+    "avg_price": 8325000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2008,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2009,
+    "avg_price": 12257142.857142856
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2010,
+    "avg_price": 12457142.857142856
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2011,
+    "avg_price": 7214285.714285715
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2012,
+    "avg_price": 4450000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2013,
+    "avg_price": 10280000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2014,
+    "avg_price": 4140000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2015,
+    "avg_price": 20500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2016,
+    "avg_price": 5860000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2017,
+    "avg_price": 4375000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2018,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2019,
+    "avg_price": 8050000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2020,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2021,
+    "avg_price": 15275000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2022,
+    "avg_price": 10200000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2023,
+    "avg_price": 14472727.272727273
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2024,
+    "avg_price": 8785714.285714285
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "衣山",
+    "year": 2025,
+    "avg_price": 7650000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西堀端",
+    "year": 2009,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西堀端",
+    "year": 2011,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西堀端",
+    "year": 2012,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西堀端",
+    "year": 2014,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西堀端",
+    "year": 2016,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西堀端",
+    "year": 2019,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西堀端",
+    "year": 2020,
+    "avg_price": 24500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西堀端",
+    "year": 2021,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西堀端",
+    "year": 2024,
+    "avg_price": 17166666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西堀端",
+    "year": 2025,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西衣山",
+    "year": 2009,
+    "avg_price": 11750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西衣山",
+    "year": 2010,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西衣山",
+    "year": 2014,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西衣山",
+    "year": 2017,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西衣山",
+    "year": 2018,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西衣山",
+    "year": 2019,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西衣山",
+    "year": 2020,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西衣山",
+    "year": 2022,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "西衣山",
+    "year": 2025,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2007,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2009,
+    "avg_price": 26285714.285714287
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2010,
+    "avg_price": 33500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2011,
+    "avg_price": 26333333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2012,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2014,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2016,
+    "avg_price": 25200000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2017,
+    "avg_price": 21200000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2018,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2019,
+    "avg_price": 27142857.14285714
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2020,
+    "avg_price": 25750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2021,
+    "avg_price": 29166666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2022,
+    "avg_price": 32500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2023,
+    "avg_price": 22833333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2024,
+    "avg_price": 26200000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "警察署前",
+    "year": 2025,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "赤十字病院前",
+    "year": 2009,
+    "avg_price": 7150000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "赤十字病院前",
+    "year": 2010,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "赤十字病院前",
+    "year": 2011,
+    "avg_price": 600000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "赤十字病院前",
+    "year": 2013,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "赤十字病院前",
+    "year": 2018,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "赤十字病院前",
+    "year": 2020,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "赤十字病院前",
+    "year": 2023,
+    "avg_price": 40000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "赤十字病院前",
+    "year": 2025,
+    "avg_price": 16600000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2007,
+    "avg_price": 15750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2008,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2009,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2010,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2011,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2012,
+    "avg_price": 14214285.714285715
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2013,
+    "avg_price": 17666666.666666668
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2014,
+    "avg_price": 17428571.42857143
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2015,
+    "avg_price": 14980000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2016,
+    "avg_price": 17711111.111111112
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2017,
+    "avg_price": 16833333.333333332
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2018,
+    "avg_price": 17900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2019,
+    "avg_price": 11725000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2020,
+    "avg_price": 20500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2021,
+    "avg_price": 23375000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2022,
+    "avg_price": 16142857.142857144
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2023,
+    "avg_price": 20906250.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2024,
+    "avg_price": 20875000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後公園",
+    "year": 2025,
+    "avg_price": 21150000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2007,
+    "avg_price": 11333333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2008,
+    "avg_price": 16537500.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2009,
+    "avg_price": 13340000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2010,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2011,
+    "avg_price": 2055555.5555555555
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2012,
+    "avg_price": 2100000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2013,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2014,
+    "avg_price": 7110000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2015,
+    "avg_price": 15033333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2016,
+    "avg_price": 12900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2017,
+    "avg_price": 15900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2018,
+    "avg_price": 15744444.444444444
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2019,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2020,
+    "avg_price": 14800000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2021,
+    "avg_price": 17800000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2022,
+    "avg_price": 12941666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2023,
+    "avg_price": 11946666.666666666
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2024,
+    "avg_price": 16900000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "道後温泉",
+    "year": 2025,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2008,
+    "avg_price": 2650000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2009,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2010,
+    "avg_price": 7633333.333333333
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2011,
+    "avg_price": 4440000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2012,
+    "avg_price": 2220000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2013,
+    "avg_price": 7410000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2014,
+    "avg_price": 6180000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2015,
+    "avg_price": 1750000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2016,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2017,
+    "avg_price": 5326666.666666667
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2018,
+    "avg_price": 1200000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2019,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2020,
+    "avg_price": 1200000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2021,
+    "avg_price": 8050000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2022,
+    "avg_price": 1916000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2023,
+    "avg_price": 5606666.666666667
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2024,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鉄砲町",
+    "year": 2025,
+    "avg_price": 2033333.3333333333
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鎌田",
+    "year": 2007,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鎌田",
+    "year": 2009,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鎌田",
+    "year": 2011,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鎌田",
+    "year": 2013,
+    "avg_price": 12950000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鎌田",
+    "year": 2014,
+    "avg_price": 13300000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鎌田",
+    "year": 2018,
+    "avg_price": 9275000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鎌田",
+    "year": 2021,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鎌田",
+    "year": 2022,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鎌田",
+    "year": 2023,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鎌田",
+    "year": 2024,
+    "avg_price": 16333333.333333334
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鎌田",
+    "year": 2025,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "高浜(愛媛)",
+    "year": 2023,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "高砂町",
+    "year": 2008,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "高砂町",
+    "year": 2013,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "高砂町",
+    "year": 2015,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "高砂町",
+    "year": 2016,
+    "avg_price": 1260000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "高砂町",
+    "year": 2021,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "高砂町",
+    "year": 2024,
+    "avg_price": 28500000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "高砂町",
+    "year": 2025,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鷹ノ子",
+    "year": 2008,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鷹ノ子",
+    "year": 2012,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鷹ノ子",
+    "year": 2014,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "鷹ノ子",
+    "year": 2019,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "ＪＲ松山駅前",
+    "year": 2023,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "愛媛県",
+    "station": "ＪＲ松山駅前",
+    "year": 2025,
+    "avg_price": 12750000.0
+  }
+]

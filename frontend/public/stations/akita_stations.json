@@ -1,0 +1,1146 @@
+[
+  {
+    "station_id": "akita_0010",
+    "station_name": "あきた白神",
+    "prefecture": "秋田県",
+    "line_name": "JR五能線",
+    "lat": 40.386583,
+    "lon": 139.987793
+  },
+  {
+    "station_id": "akita_0018",
+    "station_name": "三関",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.110196,
+    "lon": 140.483796
+  },
+  {
+    "station_id": "akita_0070",
+    "station_name": "上二田",
+    "prefecture": "秋田県",
+    "line_name": "JR男鹿線",
+    "lat": 39.869089,
+    "lon": 140.00409
+  },
+  {
+    "station_id": "akita_0122",
+    "station_name": "上杉",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 40.146533,
+    "lon": 140.349495
+  },
+  {
+    "station_id": "akita_0137",
+    "station_name": "上桧木内",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.815858,
+    "lon": 140.584937
+  },
+  {
+    "station_id": "akita_0078",
+    "station_name": "上浜",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.164738,
+    "lon": 139.902823
+  },
+  {
+    "station_id": "akita_0019",
+    "station_name": "上湯沢",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.134221,
+    "lon": 140.485262
+  },
+  {
+    "station_id": "akita_0038",
+    "station_name": "上飯島",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.779337,
+    "lon": 140.06847
+  },
+  {
+    "station_id": "akita_0055",
+    "station_name": "下川沿",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.276408,
+    "lon": 140.496625
+  },
+  {
+    "station_id": "akita_0089",
+    "station_name": "下浜",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.619678,
+    "lon": 140.064567
+  },
+  {
+    "station_id": "akita_0021",
+    "station_name": "下湯沢",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.197196,
+    "lon": 140.50249
+  },
+  {
+    "station_id": "akita_0112",
+    "station_name": "久保田",
+    "prefecture": "秋田県",
+    "line_name": "由利高原鉄道鳥海山ろく線",
+    "lat": 39.296231,
+    "lon": 140.111067
+  },
+  {
+    "station_id": "akita_0050",
+    "station_name": "二ツ井",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.212506,
+    "lon": 140.235729
+  },
+  {
+    "station_id": "akita_0071",
+    "station_name": "二田",
+    "prefecture": "秋田県",
+    "line_name": "JR男鹿線",
+    "lat": 39.88174,
+    "lon": 139.987171
+  },
+  {
+    "station_id": "akita_0042",
+    "station_name": "井川さくら",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.911925,
+    "lon": 140.076022
+  },
+  {
+    "station_id": "akita_0081",
+    "station_name": "仁賀保",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.28979,
+    "lon": 139.964596
+  },
+  {
+    "station_id": "akita_0094",
+    "station_name": "八幡平",
+    "prefecture": "秋田県",
+    "line_name": "JR花輪線",
+    "lat": 40.142881,
+    "lon": 140.804496
+  },
+  {
+    "station_id": "akita_0008",
+    "station_name": "八森",
+    "prefecture": "秋田県",
+    "line_name": "JR五能線",
+    "lat": 40.37135,
+    "lon": 140.017882
+  },
+  {
+    "station_id": "akita_0142",
+    "station_name": "八津",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.687701,
+    "lon": 140.552805
+  },
+  {
+    "station_id": "akita_0043",
+    "station_name": "八郎潟",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.947366,
+    "lon": 140.078382
+  },
+  {
+    "station_id": "akita_0069",
+    "station_name": "出戸浜",
+    "prefecture": "秋田県",
+    "line_name": "JR男鹿線",
+    "lat": 39.844473,
+    "lon": 140.024374
+  },
+  {
+    "station_id": "akita_0029",
+    "station_name": "刈和野",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.547646,
+    "lon": 140.372402
+  },
+  {
+    "station_id": "akita_0060",
+    "station_name": "刺巻",
+    "prefecture": "秋田県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.668563,
+    "lon": 140.69196
+  },
+  {
+    "station_id": "akita_0051",
+    "station_name": "前山",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.214785,
+    "lon": 140.312378
+  },
+  {
+    "station_id": "akita_0126",
+    "station_name": "前田南",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 40.050604,
+    "lon": 140.40227
+  },
+  {
+    "station_id": "akita_0111",
+    "station_name": "前郷",
+    "prefecture": "秋田県",
+    "line_name": "由利高原鉄道鳥海山ろく線",
+    "lat": 39.312649,
+    "lon": 140.112727
+  },
+  {
+    "station_id": "akita_0068",
+    "station_name": "北大曲",
+    "prefecture": "秋田県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.48944,
+    "lon": 140.497966
+  },
+  {
+    "station_id": "akita_0004",
+    "station_name": "北能代",
+    "prefecture": "秋田県",
+    "line_name": "JR五能線",
+    "lat": 40.254138,
+    "lon": 140.033835
+  },
+  {
+    "station_id": "akita_0047",
+    "station_name": "北金岡",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.141895,
+    "lon": 140.063565
+  },
+  {
+    "station_id": "akita_0102",
+    "station_name": "十二所",
+    "prefecture": "秋田県",
+    "line_name": "JR花輪線",
+    "lat": 40.21429,
+    "lon": 140.668211
+  },
+  {
+    "station_id": "akita_0098",
+    "station_name": "十和田南",
+    "prefecture": "秋田県",
+    "line_name": "JR花輪線",
+    "lat": 40.256069,
+    "lon": 140.770716
+  },
+  {
+    "station_id": "akita_0022",
+    "station_name": "十文字",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.221186,
+    "lon": 140.526287
+  },
+  {
+    "station_id": "akita_0121",
+    "station_name": "合川",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 40.161033,
+    "lon": 140.330148
+  },
+  {
+    "station_id": "akita_0114",
+    "station_name": "吉沢",
+    "prefecture": "秋田県",
+    "line_name": "由利高原鉄道鳥海山ろく線",
+    "lat": 39.268145,
+    "lon": 140.116323
+  },
+  {
+    "station_id": "akita_0003",
+    "station_name": "向能代",
+    "prefecture": "秋田県",
+    "line_name": "JR五能線",
+    "lat": 40.225669,
+    "lon": 140.039111
+  },
+  {
+    "station_id": "akita_0033",
+    "station_name": "和田",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.65087,
+    "lon": 140.218754
+  },
+  {
+    "station_id": "akita_0034",
+    "station_name": "四ツ小屋",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.661341,
+    "lon": 140.144946
+  },
+  {
+    "station_id": "akita_0037",
+    "station_name": "土崎",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.758453,
+    "lon": 140.073601
+  },
+  {
+    "station_id": "akita_0100",
+    "station_name": "土深井",
+    "prefecture": "秋田県",
+    "line_name": "JR花輪線",
+    "lat": 40.222452,
+    "lon": 140.713142
+  },
+  {
+    "station_id": "akita_0040",
+    "station_name": "大久保",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.87089,
+    "lon": 140.063079
+  },
+  {
+    "station_id": "akita_0032",
+    "station_name": "大張野",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.663347,
+    "lon": 140.274071
+  },
+  {
+    "station_id": "akita_0027",
+    "station_name": "大曲",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.465712,
+    "lon": 140.479628
+  },
+  {
+    "station_id": "akita_0103",
+    "station_name": "大滝温泉",
+    "prefecture": "秋田県",
+    "line_name": "JR花輪線",
+    "lat": 40.209751,
+    "lon": 140.639625
+  },
+  {
+    "station_id": "akita_0120",
+    "station_name": "大野台",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 40.186975,
+    "lon": 140.340777
+  },
+  {
+    "station_id": "akita_0056",
+    "station_name": "大館",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.288122,
+    "lon": 140.555946
+  },
+  {
+    "station_id": "akita_0072",
+    "station_name": "天王",
+    "prefecture": "秋田県",
+    "line_name": "JR男鹿線",
+    "lat": 39.898782,
+    "lon": 139.963609
+  },
+  {
+    "station_id": "akita_0134",
+    "station_name": "奥阿仁",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.911567,
+    "lon": 140.48946
+  },
+  {
+    "station_id": "akita_0107",
+    "station_name": "子吉",
+    "prefecture": "秋田県",
+    "line_name": "由利高原鉄道鳥海山ろく線",
+    "lat": 39.350399,
+    "lon": 140.059913
+  },
+  {
+    "station_id": "akita_0049",
+    "station_name": "富根",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.217956,
+    "lon": 140.172643
+  },
+  {
+    "station_id": "akita_0013",
+    "station_name": "小松川",
+    "prefecture": "秋田県",
+    "line_name": "JR北上線",
+    "lat": 39.293403,
+    "lon": 140.646094
+  },
+  {
+    "station_id": "akita_0127",
+    "station_name": "小渕",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 40.033817,
+    "lon": 140.40117
+  },
+  {
+    "station_id": "akita_0077",
+    "station_name": "小砂川",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.137507,
+    "lon": 139.885692
+  },
+  {
+    "station_id": "akita_0087",
+    "station_name": "岩城みなと",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.545487,
+    "lon": 140.055122
+  },
+  {
+    "station_id": "akita_0132",
+    "station_name": "岩野目",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.921248,
+    "lon": 140.430639
+  },
+  {
+    "station_id": "akita_0011",
+    "station_name": "岩館",
+    "prefecture": "秋田県",
+    "line_name": "JR五能線",
+    "lat": 40.406241,
+    "lon": 139.966258
+  },
+  {
+    "station_id": "akita_0030",
+    "station_name": "峰吉川",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.566586,
+    "lon": 140.32314
+  },
+  {
+    "station_id": "akita_0115",
+    "station_name": "川辺",
+    "prefecture": "秋田県",
+    "line_name": "由利高原鉄道鳥海山ろく線",
+    "lat": 39.248842,
+    "lon": 140.12036
+  },
+  {
+    "station_id": "akita_0138",
+    "station_name": "左通",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.801867,
+    "lon": 140.586118
+  },
+  {
+    "station_id": "akita_0025",
+    "station_name": "後三年",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.364891,
+    "lon": 140.538397
+  },
+  {
+    "station_id": "akita_0136",
+    "station_name": "戸沢",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.859084,
+    "lon": 140.581208
+  },
+  {
+    "station_id": "akita_0104",
+    "station_name": "扇田",
+    "prefecture": "秋田県",
+    "line_name": "JR花輪線",
+    "lat": 40.229235,
+    "lon": 140.572472
+  },
+  {
+    "station_id": "akita_0085",
+    "station_name": "折渡",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.476423,
+    "lon": 140.091097
+  },
+  {
+    "station_id": "akita_0091",
+    "station_name": "新屋",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.677493,
+    "lon": 140.087799
+  },
+  {
+    "station_id": "akita_0054",
+    "station_name": "早口",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.271315,
+    "lon": 140.447572
+  },
+  {
+    "station_id": "akita_0110",
+    "station_name": "曲沢",
+    "prefecture": "秋田県",
+    "line_name": "由利高原鉄道鳥海山ろく線",
+    "lat": 39.321081,
+    "lon": 140.102178
+  },
+  {
+    "station_id": "akita_0099",
+    "station_name": "末広",
+    "prefecture": "秋田県",
+    "line_name": "JR花輪線",
+    "lat": 40.229788,
+    "lon": 140.737251
+  },
+  {
+    "station_id": "akita_0007",
+    "station_name": "東八森",
+    "prefecture": "秋田県",
+    "line_name": "JR五能線",
+    "lat": 40.332086,
+    "lon": 140.032462
+  },
+  {
+    "station_id": "akita_0105",
+    "station_name": "東大館",
+    "prefecture": "秋田県",
+    "line_name": "JR花輪線",
+    "lat": 40.266005,
+    "lon": 140.554745
+  },
+  {
+    "station_id": "akita_0001",
+    "station_name": "東能代",
+    "prefecture": "秋田県",
+    "line_name": "JR五能線",
+    "lat": 40.191579,
+    "lon": 140.065746
+  },
+  {
+    "station_id": "akita_0140",
+    "station_name": "松葉",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.744107,
+    "lon": 140.590288
+  },
+  {
+    "station_id": "akita_0024",
+    "station_name": "柳田",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.276385,
+    "lon": 140.553856
+  },
+  {
+    "station_id": "akita_0097",
+    "station_name": "柴平",
+    "prefecture": "秋田県",
+    "line_name": "JR花輪線",
+    "lat": 40.230751,
+    "lon": 140.787941
+  },
+  {
+    "station_id": "akita_0090",
+    "station_name": "桂根",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.647566,
+    "lon": 140.066482
+  },
+  {
+    "station_id": "akita_0124",
+    "station_name": "桂瀬",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 40.101634,
+    "lon": 140.417854
+  },
+  {
+    "station_id": "akita_0046",
+    "station_name": "森岳",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.103164,
+    "lon": 140.070886
+  },
+  {
+    "station_id": "akita_0017",
+    "station_name": "横堀",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.064533,
+    "lon": 140.45131
+  },
+  {
+    "station_id": "akita_0015",
+    "station_name": "横手",
+    "prefecture": "秋田県",
+    "line_name": "JR北上線",
+    "lat": 39.310146,
+    "lon": 140.5604
+  },
+  {
+    "station_id": "akita_0133",
+    "station_name": "比立内",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.905078,
+    "lon": 140.452643
+  },
+  {
+    "station_id": "akita_0101",
+    "station_name": "沢尻",
+    "prefecture": "秋田県",
+    "line_name": "JR花輪線",
+    "lat": 40.230342,
+    "lon": 140.693288
+  },
+  {
+    "station_id": "akita_0006",
+    "station_name": "沢目",
+    "prefecture": "秋田県",
+    "line_name": "JR五能線",
+    "lat": 40.295929,
+    "lon": 140.037824
+  },
+  {
+    "station_id": "akita_0036",
+    "station_name": "泉外旭川",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.737795,
+    "lon": 140.113127
+  },
+  {
+    "station_id": "akita_0020",
+    "station_name": "湯沢",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.163443,
+    "lon": 140.487011
+  },
+  {
+    "station_id": "akita_0093",
+    "station_name": "湯瀬温泉",
+    "prefecture": "秋田県",
+    "line_name": "JR花輪線",
+    "lat": 40.122384,
+    "lon": 140.840292
+  },
+  {
+    "station_id": "akita_0009",
+    "station_name": "滝ノ間",
+    "prefecture": "秋田県",
+    "line_name": "JR五能線",
+    "lat": 40.379967,
+    "lon": 140.00221
+  },
+  {
+    "station_id": "akita_0062",
+    "station_name": "生田",
+    "prefecture": "秋田県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.612065,
+    "lon": 140.601203
+  },
+  {
+    "station_id": "akita_0059",
+    "station_name": "田沢湖",
+    "prefecture": "秋田県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.700363,
+    "lon": 140.722139
+  },
+  {
+    "station_id": "akita_0076",
+    "station_name": "男鹿",
+    "prefecture": "秋田県",
+    "line_name": "JR男鹿線",
+    "lat": 39.884571,
+    "lon": 139.848647
+  },
+  {
+    "station_id": "akita_0057",
+    "station_name": "白沢",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.338103,
+    "lon": 140.591657
+  },
+  {
+    "station_id": "akita_0014",
+    "station_name": "相野々",
+    "prefecture": "秋田県",
+    "line_name": "JR北上線",
+    "lat": 39.27805,
+    "lon": 140.619067
+  },
+  {
+    "station_id": "akita_0116",
+    "station_name": "矢島",
+    "prefecture": "秋田県",
+    "line_name": "由利高原鉄道鳥海山ろく線",
+    "lat": 39.230305,
+    "lon": 140.13897
+  },
+  {
+    "station_id": "akita_0061",
+    "station_name": "神代",
+    "prefecture": "秋田県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.622667,
+    "lon": 140.627358
+  },
+  {
+    "station_id": "akita_0028",
+    "station_name": "神宮寺",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.494841,
+    "lon": 140.426518
+  },
+  {
+    "station_id": "akita_0035",
+    "station_name": "秋田",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.716748,
+    "lon": 140.129931
+  },
+  {
+    "station_id": "akita_0131",
+    "station_name": "笑内",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.935151,
+    "lon": 140.413071
+  },
+  {
+    "station_id": "akita_0123",
+    "station_name": "米内沢",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 40.128199,
+    "lon": 140.373477
+  },
+  {
+    "station_id": "akita_0053",
+    "station_name": "糠沢",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.251094,
+    "lon": 140.397827
+  },
+  {
+    "station_id": "akita_0119",
+    "station_name": "縄文小ヶ田",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 40.204973,
+    "lon": 140.349206
+  },
+  {
+    "station_id": "akita_0139",
+    "station_name": "羽後中里",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.771049,
+    "lon": 140.602775
+  },
+  {
+    "station_id": "akita_0086",
+    "station_name": "羽後亀田",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.493884,
+    "lon": 140.063032
+  },
+  {
+    "station_id": "akita_0067",
+    "station_name": "羽後四ツ屋",
+    "prefecture": "秋田県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.501511,
+    "lon": 140.511886
+  },
+  {
+    "station_id": "akita_0031",
+    "station_name": "羽後境",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.618679,
+    "lon": 140.320722
+  },
+  {
+    "station_id": "akita_0144",
+    "station_name": "羽後太田",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.627304,
+    "lon": 140.574249
+  },
+  {
+    "station_id": "akita_0084",
+    "station_name": "羽後岩谷",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.442075,
+    "lon": 140.0906
+  },
+  {
+    "station_id": "akita_0083",
+    "station_name": "羽後本荘",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.386877,
+    "lon": 140.057632
+  },
+  {
+    "station_id": "akita_0092",
+    "station_name": "羽後牛島",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.695834,
+    "lon": 140.116467
+  },
+  {
+    "station_id": "akita_0141",
+    "station_name": "羽後長戸呂",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.727689,
+    "lon": 140.565383
+  },
+  {
+    "station_id": "akita_0065",
+    "station_name": "羽後長野",
+    "prefecture": "秋田県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.546003,
+    "lon": 140.540448
+  },
+  {
+    "station_id": "akita_0041",
+    "station_name": "羽後飯塚",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.898981,
+    "lon": 140.0733
+  },
+  {
+    "station_id": "akita_0075",
+    "station_name": "羽立",
+    "prefecture": "秋田県",
+    "line_name": "JR男鹿線",
+    "lat": 39.904569,
+    "lon": 139.86205
+  },
+  {
+    "station_id": "akita_0002",
+    "station_name": "能代",
+    "prefecture": "秋田県",
+    "line_name": "JR五能線",
+    "lat": 40.206577,
+    "lon": 140.033084
+  },
+  {
+    "station_id": "akita_0074",
+    "station_name": "脇本",
+    "prefecture": "秋田県",
+    "line_name": "JR男鹿線",
+    "lat": 39.915172,
+    "lon": 139.902657
+  },
+  {
+    "station_id": "akita_0073",
+    "station_name": "船越",
+    "prefecture": "秋田県",
+    "line_name": "JR男鹿線",
+    "lat": 39.90473,
+    "lon": 139.946804
+  },
+  {
+    "station_id": "akita_0129",
+    "station_name": "荒瀬",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.980085,
+    "lon": 140.402486
+  },
+  {
+    "station_id": "akita_0130",
+    "station_name": "萱草",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.95846,
+    "lon": 140.412528
+  },
+  {
+    "station_id": "akita_0106",
+    "station_name": "薬師堂(宮城)",
+    "prefecture": "秋田県",
+    "line_name": "由利高原鉄道鳥海山ろく線",
+    "lat": 39.368008,
+    "lon": 140.048788
+  },
+  {
+    "station_id": "akita_0143",
+    "station_name": "西明寺",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.653175,
+    "lon": 140.563191
+  },
+  {
+    "station_id": "akita_0113",
+    "station_name": "西滝沢",
+    "prefecture": "秋田県",
+    "line_name": "由利高原鉄道鳥海山ろく線",
+    "lat": 39.278319,
+    "lon": 140.116448
+  },
+  {
+    "station_id": "akita_0082",
+    "station_name": "西目",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.347536,
+    "lon": 140.018518
+  },
+  {
+    "station_id": "akita_0118",
+    "station_name": "西鷹巣",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 40.224615,
+    "lon": 140.357918
+  },
+  {
+    "station_id": "akita_0063",
+    "station_name": "角館",
+    "prefecture": "秋田県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.591716,
+    "lon": 140.570988
+  },
+  {
+    "station_id": "akita_0079",
+    "station_name": "象潟",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.2078,
+    "lon": 139.902205
+  },
+  {
+    "station_id": "akita_0039",
+    "station_name": "追分",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.809925,
+    "lon": 140.05781
+  },
+  {
+    "station_id": "akita_0088",
+    "station_name": "道川",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.56054,
+    "lon": 140.057049
+  },
+  {
+    "station_id": "akita_0023",
+    "station_name": "醍醐",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.248716,
+    "lon": 140.53853
+  },
+  {
+    "station_id": "akita_0080",
+    "station_name": "金浦",
+    "prefecture": "秋田県",
+    "line_name": "JR羽越本線",
+    "lat": 39.256183,
+    "lon": 139.920662
+  },
+  {
+    "station_id": "akita_0066",
+    "station_name": "鑓見内",
+    "prefecture": "秋田県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.519323,
+    "lon": 140.527744
+  },
+  {
+    "station_id": "akita_0135",
+    "station_name": "阿仁マタギ",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 39.91952,
+    "lon": 140.515793
+  },
+  {
+    "station_id": "akita_0125",
+    "station_name": "阿仁前田温泉",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 40.061322,
+    "lon": 140.417731
+  },
+  {
+    "station_id": "akita_0128",
+    "station_name": "阿仁合",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 40.000782,
+    "lon": 140.401538
+  },
+  {
+    "station_id": "akita_0016",
+    "station_name": "院内",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.049706,
+    "lon": 140.4138
+  },
+  {
+    "station_id": "akita_0058",
+    "station_name": "陣場",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.398864,
+    "lon": 140.607523
+  },
+  {
+    "station_id": "akita_0095",
+    "station_name": "陸中大里",
+    "prefecture": "秋田県",
+    "line_name": "JR花輪線",
+    "lat": 40.158574,
+    "lon": 140.793477
+  },
+  {
+    "station_id": "akita_0026",
+    "station_name": "飯詰",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.406013,
+    "lon": 140.515378
+  },
+  {
+    "station_id": "akita_0108",
+    "station_name": "鮎川",
+    "prefecture": "秋田県",
+    "line_name": "由利高原鉄道鳥海山ろく線",
+    "lat": 39.328693,
+    "lon": 140.071254
+  },
+  {
+    "station_id": "akita_0044",
+    "station_name": "鯉川",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 39.996361,
+    "lon": 140.077474
+  },
+  {
+    "station_id": "akita_0005",
+    "station_name": "鳥形",
+    "prefecture": "秋田県",
+    "line_name": "JR五能線",
+    "lat": 40.271433,
+    "lon": 140.036931
+  },
+  {
+    "station_id": "akita_0064",
+    "station_name": "鶯野",
+    "prefecture": "秋田県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.568536,
+    "lon": 140.557901
+  },
+  {
+    "station_id": "akita_0048",
+    "station_name": "鶴形",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.203879,
+    "lon": 140.118507
+  },
+  {
+    "station_id": "akita_0052",
+    "station_name": "鷹ノ巣",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.232059,
+    "lon": 140.369816
+  },
+  {
+    "station_id": "akita_0117",
+    "station_name": "鷹巣",
+    "prefecture": "秋田県",
+    "line_name": "秋田内陸縦貫鉄道",
+    "lat": 40.232059,
+    "lon": 140.369816
+  },
+  {
+    "station_id": "akita_0045",
+    "station_name": "鹿渡",
+    "prefecture": "秋田県",
+    "line_name": "JR奥羽本線",
+    "lat": 40.044619,
+    "lon": 140.082621
+  },
+  {
+    "station_id": "akita_0096",
+    "station_name": "鹿角花輪",
+    "prefecture": "秋田県",
+    "line_name": "JR花輪線",
+    "lat": 40.188453,
+    "lon": 140.785088
+  },
+  {
+    "station_id": "akita_0012",
+    "station_name": "黒沢",
+    "prefecture": "秋田県",
+    "line_name": "JR北上線",
+    "lat": 39.276243,
+    "lon": 140.699619
+  }
+]

@@ -104,14 +104,13 @@ uv run python src/train/train.py --config configs/tokyo.yaml --db-path db/experi
 駅マスタ再生成:
 
 ```bash
-cd training
-uv run python -m src.export.stations --public-dir ../frontend/public --regions tokyo saitama chiba kanagawa
+make stations-national
 ```
 
 ## 注意点
 
 - ONNX Runtime Web の wasm 配置は壊れやすいため、変更後は必ずブラウザと `npm run build` で確認する。
 - `frontend/public/onnx` はブラウザ実行に必要な静的ファイルとして扱う。
-- 駅マスタは地図クリック時の最寄駅・駅徒歩更新に直結する。更新後は東京、埼玉、千葉、神奈川をまたいで確認する。
+- 駅マスタは地図クリック時の最寄駅・駅徒歩更新に直結する。更新後は首都圏に加え、北海道、東北、近畿、九州・沖縄をまたいで確認する。
 - 駅徒歩は距離kmではなく徒歩分で扱う。地図クリック時は直線距離の簡易補正込みで 60m=1分、切り上げで算出する。
 - APIキー、`.env`、生データZIP、加工済みデータ、SQLite生成DBはコミットしない。

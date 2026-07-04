@@ -1,0 +1,96 @@
+{
+  "region": "regional_kyushu",
+  "modelName": "regional_kyushu_latest",
+  "modelScope": "regional",
+  "cluster": "kyushu",
+  "prefectures": [
+    "福岡県",
+    "佐賀県",
+    "長崎県",
+    "熊本県",
+    "大分県",
+    "宮崎県",
+    "鹿児島県",
+    "沖縄県"
+  ],
+  "mae": 4073981.7249395093,
+  "latestTrainingYear": 2025,
+  "generatedAt": "2026-07-04",
+  "featureOrder": [
+    "area",
+    "age",
+    "station_distance",
+    "prefecture",
+    "municipality",
+    "station",
+    "room_layout",
+    "building_type",
+    "transaction_year"
+  ],
+  "evaluation": {
+    "split": "time_holdout",
+    "trainStartYear": 2005,
+    "testYear": 2025,
+    "trainCount": 74128,
+    "testCount": 6657,
+    "metrics": {
+      "mae": 4073981.7249395093,
+      "rmse": 5824612.33914708,
+      "mape": 25.74055156366843
+    }
+  },
+  "deployment": {
+    "trainStartYear": 2005,
+    "latestTrainingYear": 2025,
+    "trainCount": 80785,
+    "trainedWithAllAvailableRows": true
+  },
+  "modelParams": {
+    "objective": "regression",
+    "n_estimators": 160,
+    "learning_rate": 0.08,
+    "num_leaves": 24,
+    "max_depth": 6,
+    "min_child_samples": 80,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "featureImportance": [
+    {
+      "feature": "station",
+      "importance": 1120.0
+    },
+    {
+      "feature": "age",
+      "importance": 689.0
+    },
+    {
+      "feature": "area",
+      "importance": 582.0
+    },
+    {
+      "feature": "transaction_year",
+      "importance": 435.0
+    },
+    {
+      "feature": "station_distance",
+      "importance": 318.0
+    },
+    {
+      "feature": "municipality",
+      "importance": 242.0
+    },
+    {
+      "feature": "room_layout",
+      "importance": 225.0
+    },
+    {
+      "feature": "building_type",
+      "importance": 65.0
+    },
+    {
+      "feature": "prefecture",
+      "importance": 4.0
+    }
+  ]
+}

@@ -1,0 +1,1490 @@
+[
+  {
+    "station_id": "iwate_0119",
+    "station_name": "いわて沼宮内",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 39.960155,
+    "lon": 141.216955
+  },
+  {
+    "station_id": "iwate_0021",
+    "station_name": "ほっとゆだ",
+    "prefecture": "岩手県",
+    "line_name": "JR北上線",
+    "lat": 39.314493,
+    "lon": 140.775647
+  },
+  {
+    "station_id": "iwate_0020",
+    "station_name": "ゆだ錦秋湖",
+    "prefecture": "岩手県",
+    "line_name": "JR北上線",
+    "lat": 39.295513,
+    "lon": 140.835343
+  },
+  {
+    "station_id": "iwate_0022",
+    "station_name": "ゆだ高原",
+    "prefecture": "岩手県",
+    "line_name": "JR北上線",
+    "lat": 39.301074,
+    "lon": 140.737205
+  },
+  {
+    "station_id": "iwate_0172",
+    "station_name": "一の渡",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.686895,
+    "lon": 141.94264
+  },
+  {
+    "station_id": "iwate_0023",
+    "station_name": "一ノ関",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡線",
+    "lat": 38.926514,
+    "lon": 141.138177
+  },
+  {
+    "station_id": "iwate_0124",
+    "station_name": "一戸",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 40.210092,
+    "lon": 141.297419
+  },
+  {
+    "station_id": "iwate_0154",
+    "station_name": "三陸",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.117194,
+    "lon": 141.809836
+  },
+  {
+    "station_id": "iwate_0107",
+    "station_name": "上有住",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.242013,
+    "lon": 141.681522
+  },
+  {
+    "station_id": "iwate_0037",
+    "station_name": "上盛岡",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.71146,
+    "lon": 141.147937
+  },
+  {
+    "station_id": "iwate_0039",
+    "station_name": "上米内",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.743855,
+    "lon": 141.203825
+  },
+  {
+    "station_id": "iwate_0141",
+    "station_name": "下船渡",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.038362,
+    "lon": 141.721222
+  },
+  {
+    "station_id": "iwate_0158",
+    "station_name": "両石",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.308062,
+    "lon": 141.889112
+  },
+  {
+    "station_id": "iwate_0011",
+    "station_name": "久慈",
+    "prefecture": "岩手県",
+    "line_name": "JR八戸線",
+    "lat": 40.190391,
+    "lon": 141.770891
+  },
+  {
+    "station_id": "iwate_0125",
+    "station_name": "二戸",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 40.25997,
+    "lon": 141.286211
+  },
+  {
+    "station_id": "iwate_0070",
+    "station_name": "仙北町",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.687919,
+    "lon": 141.148814
+  },
+  {
+    "station_id": "iwate_0090",
+    "station_name": "似内",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.406819,
+    "lon": 141.140889
+  },
+  {
+    "station_id": "iwate_0173",
+    "station_name": "佐羽根",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.711131,
+    "lon": 141.935868
+  },
+  {
+    "station_id": "iwate_0009",
+    "station_name": "侍浜",
+    "prefecture": "岩手県",
+    "line_name": "JR八戸線",
+    "lat": 40.261375,
+    "lon": 141.760575
+  },
+  {
+    "station_id": "iwate_0089",
+    "station_name": "兄畑",
+    "prefecture": "岩手県",
+    "line_name": "JR花輪線",
+    "lat": 40.115869,
+    "lon": 140.88302
+  },
+  {
+    "station_id": "iwate_0169",
+    "station_name": "八木沢・宮古短大",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.620372,
+    "lon": 141.948084
+  },
+  {
+    "station_id": "iwate_0060",
+    "station_name": "六原",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.227894,
+    "lon": 141.097605
+  },
+  {
+    "station_id": "iwate_0056",
+    "station_name": "前沢",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.048686,
+    "lon": 141.12624
+  },
+  {
+    "station_id": "iwate_0071",
+    "station_name": "前潟",
+    "prefecture": "岩手県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.713042,
+    "lon": 141.100851
+  },
+  {
+    "station_id": "iwate_0012",
+    "station_name": "北上",
+    "prefecture": "岩手県",
+    "line_name": "JR北上線",
+    "lat": 39.281196,
+    "lon": 141.121221
+  },
+  {
+    "station_id": "iwate_0081",
+    "station_name": "北森",
+    "prefecture": "岩手県",
+    "line_name": "JR花輪線",
+    "lat": 39.959201,
+    "lon": 141.066481
+  },
+  {
+    "station_id": "iwate_0040",
+    "station_name": "区界",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.65177,
+    "lon": 141.351352
+  },
+  {
+    "station_id": "iwate_0184",
+    "station_name": "十府ヶ浦海岸",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 40.100778,
+    "lon": 141.823694
+  },
+  {
+    "station_id": "iwate_0031",
+    "station_name": "千厩",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡線",
+    "lat": 38.924873,
+    "lon": 141.34563
+  },
+  {
+    "station_id": "iwate_0049",
+    "station_name": "千徳",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.63225,
+    "lon": 141.9124
+  },
+  {
+    "station_id": "iwate_0114",
+    "station_name": "厨川",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 39.744637,
+    "lon": 141.129354
+  },
+  {
+    "station_id": "iwate_0067",
+    "station_name": "古館",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.580844,
+    "lon": 141.154575
+  },
+  {
+    "station_id": "iwate_0155",
+    "station_name": "吉浜",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.151122,
+    "lon": 141.836382
+  },
+  {
+    "station_id": "iwate_0161",
+    "station_name": "吉里吉里",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.36957,
+    "lon": 141.938648
+  },
+  {
+    "station_id": "iwate_0019",
+    "station_name": "和賀仙人",
+    "prefecture": "岩手県",
+    "line_name": "JR北上線",
+    "lat": 39.308523,
+    "lon": 140.909485
+  },
+  {
+    "station_id": "iwate_0156",
+    "station_name": "唐丹",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.201816,
+    "lon": 141.86123
+  },
+  {
+    "station_id": "iwate_0093",
+    "station_name": "土沢",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.383381,
+    "lon": 141.232488
+  },
+  {
+    "station_id": "iwate_0144",
+    "station_name": "地ノ森",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.071747,
+    "lon": 141.718089
+  },
+  {
+    "station_id": "iwate_0182",
+    "station_name": "堀内",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 40.051895,
+    "lon": 141.859481
+  },
+  {
+    "station_id": "iwate_0079",
+    "station_name": "大更",
+    "prefecture": "岩手県",
+    "line_name": "JR花輪線",
+    "lat": 39.913746,
+    "lon": 141.100808
+  },
+  {
+    "station_id": "iwate_0160",
+    "station_name": "大槌",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.356734,
+    "lon": 141.902894
+  },
+  {
+    "station_id": "iwate_0143",
+    "station_name": "大船渡",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.063529,
+    "lon": 141.720807
+  },
+  {
+    "station_id": "iwate_0140",
+    "station_name": "大船渡丸森",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.028772,
+    "lon": 141.712629
+  },
+  {
+    "station_id": "iwate_0142",
+    "station_name": "大船渡魚市場前",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.051278,
+    "lon": 141.72075
+  },
+  {
+    "station_id": "iwate_0072",
+    "station_name": "大釜",
+    "prefecture": "岩手県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.711586,
+    "lon": 141.072202
+  },
+  {
+    "station_id": "iwate_0131",
+    "station_name": "奇跡の一本松",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.007679,
+    "lon": 141.625635
+  },
+  {
+    "station_id": "iwate_0121",
+    "station_name": "奥中山高原",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 40.066235,
+    "lon": 141.22844
+  },
+  {
+    "station_id": "iwate_0077",
+    "station_name": "好摩",
+    "prefecture": "岩手県",
+    "line_name": "JR花輪線",
+    "lat": 39.874037,
+    "lon": 141.173685
+  },
+  {
+    "station_id": "iwate_0083",
+    "station_name": "安比高原",
+    "prefecture": "岩手県",
+    "line_name": "JR花輪線",
+    "lat": 40.012587,
+    "lon": 140.997239
+  },
+  {
+    "station_id": "iwate_0050",
+    "station_name": "宮古",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.640287,
+    "lon": 141.946454
+  },
+  {
+    "station_id": "iwate_0096",
+    "station_name": "宮守",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.351066,
+    "lon": 141.350271
+  },
+  {
+    "station_id": "iwate_0005",
+    "station_name": "宿戸",
+    "prefecture": "岩手県",
+    "line_name": "JR八戸線",
+    "lat": 40.366129,
+    "lon": 141.746683
+  },
+  {
+    "station_id": "iwate_0111",
+    "station_name": "小佐野",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.264464,
+    "lon": 141.836515
+  },
+  {
+    "station_id": "iwate_0137",
+    "station_name": "小友",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 38.989242,
+    "lon": 141.699573
+  },
+  {
+    "station_id": "iwate_0085",
+    "station_name": "小屋の畑",
+    "prefecture": "岩手県",
+    "line_name": "JR花輪線",
+    "lat": 40.076539,
+    "lon": 141.020673
+  },
+  {
+    "station_id": "iwate_0092",
+    "station_name": "小山田",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.4086,
+    "lon": 141.193999
+  },
+  {
+    "station_id": "iwate_0073",
+    "station_name": "小岩井",
+    "prefecture": "岩手県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.709731,
+    "lon": 141.02465
+  },
+  {
+    "station_id": "iwate_0032",
+    "station_name": "小梨",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡線",
+    "lat": 38.932493,
+    "lon": 141.38418
+  },
+  {
+    "station_id": "iwate_0122",
+    "station_name": "小繋",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 40.123173,
+    "lon": 141.260437
+  },
+  {
+    "station_id": "iwate_0123",
+    "station_name": "小鳥谷",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 40.171061,
+    "lon": 141.307735
+  },
+  {
+    "station_id": "iwate_0054",
+    "station_name": "山ノ目",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 38.951253,
+    "lon": 141.131921
+  },
+  {
+    "station_id": "iwate_0171",
+    "station_name": "山口団地",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.648464,
+    "lon": 141.93284
+  },
+  {
+    "station_id": "iwate_0038",
+    "station_name": "山岸",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.71596,
+    "lon": 141.171401
+  },
+  {
+    "station_id": "iwate_0026",
+    "station_name": "岩ノ下",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡線",
+    "lat": 38.947699,
+    "lon": 141.245342
+  },
+  {
+    "station_id": "iwate_0104",
+    "station_name": "岩手上郷",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.284658,
+    "lon": 141.585834
+  },
+  {
+    "station_id": "iwate_0100",
+    "station_name": "岩手二日町",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.323441,
+    "lon": 141.45606
+  },
+  {
+    "station_id": "iwate_0118",
+    "station_name": "岩手川口",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 39.918696,
+    "lon": 141.199337
+  },
+  {
+    "station_id": "iwate_0163",
+    "station_name": "岩手船越",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.431369,
+    "lon": 141.974033
+  },
+  {
+    "station_id": "iwate_0069",
+    "station_name": "岩手飯岡",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.65373,
+    "lon": 141.146861
+  },
+  {
+    "station_id": "iwate_0095",
+    "station_name": "岩根橋",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.355264,
+    "lon": 141.318795
+  },
+  {
+    "station_id": "iwate_0018",
+    "station_name": "岩沢",
+    "prefecture": "岩手県",
+    "line_name": "JR北上線",
+    "lat": 39.301016,
+    "lon": 140.931616
+  },
+  {
+    "station_id": "iwate_0177",
+    "station_name": "岩泉小本",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.842724,
+    "lon": 141.958453
+  },
+  {
+    "station_id": "iwate_0178",
+    "station_name": "島越",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.915737,
+    "lon": 141.93968
+  },
+  {
+    "station_id": "iwate_0042",
+    "station_name": "川内(宮城)",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.640744,
+    "lon": 141.597548
+  },
+  {
+    "station_id": "iwate_0115",
+    "station_name": "巣子",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 39.783345,
+    "lon": 141.148674
+  },
+  {
+    "station_id": "iwate_0105",
+    "station_name": "平倉",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.264682,
+    "lon": 141.595661
+  },
+  {
+    "station_id": "iwate_0002",
+    "station_name": "平内",
+    "prefecture": "岩手県",
+    "line_name": "JR八戸線",
+    "lat": 40.42552,
+    "lon": 141.699272
+  },
+  {
+    "station_id": "iwate_0055",
+    "station_name": "平泉",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 38.987935,
+    "lon": 141.117786
+  },
+  {
+    "station_id": "iwate_0157",
+    "station_name": "平田",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.245686,
+    "lon": 141.885923
+  },
+  {
+    "station_id": "iwate_0080",
+    "station_name": "平館",
+    "prefecture": "岩手県",
+    "line_name": "JR花輪線",
+    "lat": 39.950886,
+    "lon": 141.08531
+  },
+  {
+    "station_id": "iwate_0120",
+    "station_name": "御堂",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 40.004412,
+    "lon": 141.23703
+  },
+  {
+    "station_id": "iwate_0152",
+    "station_name": "恋し浜",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.07453,
+    "lon": 141.816365
+  },
+  {
+    "station_id": "iwate_0167",
+    "station_name": "払川",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.564423,
+    "lon": 141.932843
+  },
+  {
+    "station_id": "iwate_0034",
+    "station_name": "折壁",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡線",
+    "lat": 38.939428,
+    "lon": 141.452346
+  },
+  {
+    "station_id": "iwate_0176",
+    "station_name": "摂待",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.809453,
+    "lon": 141.962182
+  },
+  {
+    "station_id": "iwate_0030",
+    "station_name": "摺沢",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡線",
+    "lat": 38.99593,
+    "lon": 141.32146
+  },
+  {
+    "station_id": "iwate_0126",
+    "station_name": "斗米",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 40.285158,
+    "lon": 141.291123
+  },
+  {
+    "station_id": "iwate_0035",
+    "station_name": "新月",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡線",
+    "lat": 38.915598,
+    "lon": 141.488796
+  },
+  {
+    "station_id": "iwate_0175",
+    "station_name": "新田老",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.73551,
+    "lon": 141.96728
+  },
+  {
+    "station_id": "iwate_0091",
+    "station_name": "新花巻",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.405839,
+    "lon": 141.17302
+  },
+  {
+    "station_id": "iwate_0065",
+    "station_name": "日詰",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.538734,
+    "lon": 141.160637
+  },
+  {
+    "station_id": "iwate_0075",
+    "station_name": "春木場",
+    "prefecture": "岩手県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.693396,
+    "lon": 140.943954
+  },
+  {
+    "station_id": "iwate_0180",
+    "station_name": "普代",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 40.002492,
+    "lon": 141.886269
+  },
+  {
+    "station_id": "iwate_0094",
+    "station_name": "晴山",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.366617,
+    "lon": 141.257892
+  },
+  {
+    "station_id": "iwate_0007",
+    "station_name": "有家",
+    "prefecture": "岩手県",
+    "line_name": "JR八戸線",
+    "lat": 40.324007,
+    "lon": 141.773031
+  },
+  {
+    "station_id": "iwate_0061",
+    "station_name": "村崎野",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.323027,
+    "lon": 141.120442
+  },
+  {
+    "station_id": "iwate_0078",
+    "station_name": "東大更",
+    "prefecture": "岩手県",
+    "line_name": "JR花輪線",
+    "lat": 39.902621,
+    "lon": 141.142537
+  },
+  {
+    "station_id": "iwate_0110",
+    "station_name": "松倉",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.256459,
+    "lon": 141.801484
+  },
+  {
+    "station_id": "iwate_0082",
+    "station_name": "松尾八幡平",
+    "prefecture": "岩手県",
+    "line_name": "JR花輪線",
+    "lat": 39.96924,
+    "lon": 141.043903
+  },
+  {
+    "station_id": "iwate_0041",
+    "station_name": "松草",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.635918,
+    "lon": 141.437421
+  },
+  {
+    "station_id": "iwate_0097",
+    "station_name": "柏木平",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.30606,
+    "lon": 141.379862
+  },
+  {
+    "station_id": "iwate_0013",
+    "station_name": "柳原",
+    "prefecture": "岩手県",
+    "line_name": "JR北上線",
+    "lat": 39.294597,
+    "lon": 141.111671
+  },
+  {
+    "station_id": "iwate_0029",
+    "station_name": "柴宿",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡線",
+    "lat": 38.996719,
+    "lon": 141.272312
+  },
+  {
+    "station_id": "iwate_0149",
+    "station_name": "栃ヶ沢公園",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.026995,
+    "lon": 141.625531
+  },
+  {
+    "station_id": "iwate_0017",
+    "station_name": "横川目",
+    "prefecture": "岩手県",
+    "line_name": "JR北上線",
+    "lat": 39.309255,
+    "lon": 140.972143
+  },
+  {
+    "station_id": "iwate_0087",
+    "station_name": "横間",
+    "prefecture": "岩手県",
+    "line_name": "JR花輪線",
+    "lat": 40.107475,
+    "lon": 141.027151
+  },
+  {
+    "station_id": "iwate_0058",
+    "station_name": "水沢",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.138998,
+    "lon": 141.146395
+  },
+  {
+    "station_id": "iwate_0128",
+    "station_name": "水沢江刺",
+    "prefecture": "岩手県",
+    "line_name": "東北新幹線",
+    "lat": 39.14526,
+    "lon": 141.188748
+  },
+  {
+    "station_id": "iwate_0014",
+    "station_name": "江釣子",
+    "prefecture": "岩手県",
+    "line_name": "JR北上線",
+    "lat": 39.298349,
+    "lon": 141.075749
+  },
+  {
+    "station_id": "iwate_0051",
+    "station_name": "油島",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 38.797113,
+    "lon": 141.175706
+  },
+  {
+    "station_id": "iwate_0109",
+    "station_name": "洞泉",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.250671,
+    "lon": 141.760388
+  },
+  {
+    "station_id": "iwate_0168",
+    "station_name": "津軽石",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.581507,
+    "lon": 141.937594
+  },
+  {
+    "station_id": "iwate_0162",
+    "station_name": "浪板海岸",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.383537,
+    "lon": 141.935104
+  },
+  {
+    "station_id": "iwate_0053",
+    "station_name": "清水原",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 38.854915,
+    "lon": 141.156576
+  },
+  {
+    "station_id": "iwate_0117",
+    "station_name": "渋民",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 39.834806,
+    "lon": 141.15449
+  },
+  {
+    "station_id": "iwate_0116",
+    "station_name": "滝沢",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 39.798953,
+    "lon": 141.149362
+  },
+  {
+    "station_id": "iwate_0028",
+    "station_name": "猊鼻渓",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡線",
+    "lat": 38.988939,
+    "lon": 141.25327
+  },
+  {
+    "station_id": "iwate_0004",
+    "station_name": "玉川",
+    "prefecture": "岩手県",
+    "line_name": "JR八戸線",
+    "lat": 40.380424,
+    "lon": 141.735117
+  },
+  {
+    "station_id": "iwate_0153",
+    "station_name": "甫嶺",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.093394,
+    "lon": 141.806571
+  },
+  {
+    "station_id": "iwate_0088",
+    "station_name": "田山",
+    "prefecture": "岩手県",
+    "line_name": "JR花輪線",
+    "lat": 40.139674,
+    "lon": 140.944126
+  },
+  {
+    "station_id": "iwate_0174",
+    "station_name": "田老",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.731848,
+    "lon": 141.964556
+  },
+  {
+    "station_id": "iwate_0145",
+    "station_name": "田茂山",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.080077,
+    "lon": 141.713451
+  },
+  {
+    "station_id": "iwate_0179",
+    "station_name": "田野畑",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.934276,
+    "lon": 141.933847
+  },
+  {
+    "station_id": "iwate_0181",
+    "station_name": "白井海岸",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 40.032628,
+    "lon": 141.883121
+  },
+  {
+    "station_id": "iwate_0146",
+    "station_name": "盛",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.086372,
+    "lon": 141.710734
+  },
+  {
+    "station_id": "iwate_0036",
+    "station_name": "盛岡",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.701547,
+    "lon": 141.136599
+  },
+  {
+    "station_id": "iwate_0024",
+    "station_name": "真滝",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡線",
+    "lat": 38.908239,
+    "lon": 141.17793
+  },
+  {
+    "station_id": "iwate_0068",
+    "station_name": "矢幅",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.613293,
+    "lon": 141.148299
+  },
+  {
+    "station_id": "iwate_0033",
+    "station_name": "矢越",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡線",
+    "lat": 38.935224,
+    "lon": 141.429029
+  },
+  {
+    "station_id": "iwate_0064",
+    "station_name": "石鳥谷",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.490919,
+    "lon": 141.146861
+  },
+  {
+    "station_id": "iwate_0138",
+    "station_name": "碁石海岸口",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.002778,
+    "lon": 141.711
+  },
+  {
+    "station_id": "iwate_0170",
+    "station_name": "磯鶏",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.629883,
+    "lon": 141.960984
+  },
+  {
+    "station_id": "iwate_0003",
+    "station_name": "種市",
+    "prefecture": "岩手県",
+    "line_name": "JR八戸線",
+    "lat": 40.410384,
+    "lon": 141.715232
+  },
+  {
+    "station_id": "iwate_0016",
+    "station_name": "立川目",
+    "prefecture": "岩手県",
+    "line_name": "JR北上線",
+    "lat": 39.307876,
+    "lon": 140.997144
+  },
+  {
+    "station_id": "iwate_0148",
+    "station_name": "竹駒",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.033651,
+    "lon": 141.609729
+  },
+  {
+    "station_id": "iwate_0043",
+    "station_name": "箱石",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.617115,
+    "lon": 141.625829
+  },
+  {
+    "station_id": "iwate_0066",
+    "station_name": "紫波中央",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.5549,
+    "lon": 141.15995
+  },
+  {
+    "station_id": "iwate_0139",
+    "station_name": "細浦",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.015973,
+    "lon": 141.713642
+  },
+  {
+    "station_id": "iwate_0101",
+    "station_name": "綾織",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.328422,
+    "lon": 141.476845
+  },
+  {
+    "station_id": "iwate_0151",
+    "station_name": "綾里",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.054318,
+    "lon": 141.799012
+  },
+  {
+    "station_id": "iwate_0164",
+    "station_name": "織笠",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.447187,
+    "lon": 141.959497
+  },
+  {
+    "station_id": "iwate_0135",
+    "station_name": "脇ノ沢",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.006584,
+    "lon": 141.657359
+  },
+  {
+    "station_id": "iwate_0045",
+    "station_name": "腹帯",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.604539,
+    "lon": 141.767434
+  },
+  {
+    "station_id": "iwate_0048",
+    "station_name": "花原市",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.630233,
+    "lon": 141.861308
+  },
+  {
+    "station_id": "iwate_0062",
+    "station_name": "花巻",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.393182,
+    "lon": 141.110458
+  },
+  {
+    "station_id": "iwate_0063",
+    "station_name": "花巻空港",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.442639,
+    "lon": 141.127625
+  },
+  {
+    "station_id": "iwate_0052",
+    "station_name": "花泉",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 38.83331,
+    "lon": 141.180014
+  },
+  {
+    "station_id": "iwate_0046",
+    "station_name": "茂市",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.620619,
+    "lon": 141.799288
+  },
+  {
+    "station_id": "iwate_0086",
+    "station_name": "荒屋新町",
+    "prefecture": "岩手県",
+    "line_name": "JR花輪線",
+    "lat": 40.097682,
+    "lon": 141.049196
+  },
+  {
+    "station_id": "iwate_0099",
+    "station_name": "荒谷前",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.309928,
+    "lon": 141.428507
+  },
+  {
+    "station_id": "iwate_0015",
+    "station_name": "藤根",
+    "prefecture": "岩手県",
+    "line_name": "JR北上線",
+    "lat": 39.301064,
+    "lon": 141.039571
+  },
+  {
+    "station_id": "iwate_0047",
+    "station_name": "蟇目",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.629341,
+    "lon": 141.838876
+  },
+  {
+    "station_id": "iwate_0136",
+    "station_name": "西下",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.001258,
+    "lon": 141.688796
+  },
+  {
+    "station_id": "iwate_0001",
+    "station_name": "角の浜",
+    "prefecture": "岩手県",
+    "line_name": "JR八戸線",
+    "lat": 40.444478,
+    "lon": 141.681773
+  },
+  {
+    "station_id": "iwate_0166",
+    "station_name": "豊間根",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.534274,
+    "lon": 141.924739
+  },
+  {
+    "station_id": "iwate_0084",
+    "station_name": "赤坂田",
+    "prefecture": "岩手県",
+    "line_name": "JR花輪線",
+    "lat": 40.048464,
+    "lon": 141.00394
+  },
+  {
+    "station_id": "iwate_0076",
+    "station_name": "赤渕",
+    "prefecture": "岩手県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.685112,
+    "lon": 140.907222
+  },
+  {
+    "station_id": "iwate_0106",
+    "station_name": "足ヶ瀬",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.254766,
+    "lon": 141.645807
+  },
+  {
+    "station_id": "iwate_0102",
+    "station_name": "遠野",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.332529,
+    "lon": 141.53072
+  },
+  {
+    "station_id": "iwate_0183",
+    "station_name": "野田玉川",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 40.082728,
+    "lon": 141.828874
+  },
+  {
+    "station_id": "iwate_0059",
+    "station_name": "金ヶ崎",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.199615,
+    "lon": 141.112894
+  },
+  {
+    "station_id": "iwate_0127",
+    "station_name": "金田一温泉",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 40.323503,
+    "lon": 141.303943
+  },
+  {
+    "station_id": "iwate_0112",
+    "station_name": "釜石",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.273321,
+    "lon": 141.87267
+  },
+  {
+    "station_id": "iwate_0129",
+    "station_name": "長部",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 38.986066,
+    "lon": 141.618683
+  },
+  {
+    "station_id": "iwate_0008",
+    "station_name": "陸中中野",
+    "prefecture": "岩手県",
+    "line_name": "JR八戸線",
+    "lat": 40.305165,
+    "lon": 141.787768
+  },
+  {
+    "station_id": "iwate_0006",
+    "station_name": "陸中八木",
+    "prefecture": "岩手県",
+    "line_name": "JR八戸線",
+    "lat": 40.345485,
+    "lon": 141.766517
+  },
+  {
+    "station_id": "iwate_0010",
+    "station_name": "陸中夏井",
+    "prefecture": "岩手県",
+    "line_name": "JR八戸線",
+    "lat": 40.207747,
+    "lon": 141.791906
+  },
+  {
+    "station_id": "iwate_0108",
+    "station_name": "陸中大橋",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.280451,
+    "lon": 141.718436
+  },
+  {
+    "station_id": "iwate_0186",
+    "station_name": "陸中宇部",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 40.132441,
+    "lon": 141.785904
+  },
+  {
+    "station_id": "iwate_0165",
+    "station_name": "陸中山田",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.463449,
+    "lon": 141.951533
+  },
+  {
+    "station_id": "iwate_0044",
+    "station_name": "陸中川井",
+    "prefecture": "岩手県",
+    "line_name": "JR山田線",
+    "lat": 39.597397,
+    "lon": 141.68153
+  },
+  {
+    "station_id": "iwate_0057",
+    "station_name": "陸中折居",
+    "prefecture": "岩手県",
+    "line_name": "JR東北本線",
+    "lat": 39.094185,
+    "lon": 141.140864
+  },
+  {
+    "station_id": "iwate_0027",
+    "station_name": "陸中松川",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡線",
+    "lat": 38.977237,
+    "lon": 141.238046
+  },
+  {
+    "station_id": "iwate_0185",
+    "station_name": "陸中野田",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 40.116115,
+    "lon": 141.81899
+  },
+  {
+    "station_id": "iwate_0025",
+    "station_name": "陸中門崎",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡線",
+    "lat": 38.916908,
+    "lon": 141.251226
+  },
+  {
+    "station_id": "iwate_0130",
+    "station_name": "陸前今泉",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.004453,
+    "lon": 141.613183
+  },
+  {
+    "station_id": "iwate_0147",
+    "station_name": "陸前矢作",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.022554,
+    "lon": 141.579357
+  },
+  {
+    "station_id": "iwate_0150",
+    "station_name": "陸前赤崎",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.068623,
+    "lon": 141.741086
+  },
+  {
+    "station_id": "iwate_0132",
+    "station_name": "陸前高田",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.013021,
+    "lon": 141.625332
+  },
+  {
+    "station_id": "iwate_0074",
+    "station_name": "雫石",
+    "prefecture": "岩手県",
+    "line_name": "JR田沢湖線",
+    "lat": 39.689244,
+    "lon": 140.974762
+  },
+  {
+    "station_id": "iwate_0113",
+    "station_name": "青山(岩手)",
+    "prefecture": "岩手県",
+    "line_name": "いわて銀河鉄道線",
+    "lat": 39.725029,
+    "lon": 141.118462
+  },
+  {
+    "station_id": "iwate_0103",
+    "station_name": "青笹",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.311482,
+    "lon": 141.568957
+  },
+  {
+    "station_id": "iwate_0134",
+    "station_name": "高田病院",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.018808,
+    "lon": 141.662381
+  },
+  {
+    "station_id": "iwate_0133",
+    "station_name": "高田高校前",
+    "prefecture": "岩手県",
+    "line_name": "JR大船渡BRT線",
+    "lat": 39.015475,
+    "lon": 141.635233
+  },
+  {
+    "station_id": "iwate_0098",
+    "station_name": "鱒沢",
+    "prefecture": "岩手県",
+    "line_name": "JR釜石線",
+    "lat": 39.300158,
+    "lon": 141.399252
+  },
+  {
+    "station_id": "iwate_0159",
+    "station_name": "鵜住居",
+    "prefecture": "岩手県",
+    "line_name": "三陸鉄道リアス線",
+    "lat": 39.32694,
+    "lon": 141.887976
+  }
+]

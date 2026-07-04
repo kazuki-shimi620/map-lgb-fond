@@ -50,6 +50,7 @@ export type StationRecord = {
 };
 
 export type PriceHistoryPoint = {
+  prefecture?: string;
   station: string;
   year: number;
   avg_price: number;

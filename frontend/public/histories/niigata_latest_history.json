@@ -1,0 +1,2390 @@
+[
+  {
+    "prefecture": "新潟県",
+    "station": "三条(新潟)",
+    "year": 2013,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "三条(新潟)",
+    "year": 2015,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "上所",
+    "year": 2025,
+    "avg_price": 13592000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "上越妙高",
+    "year": 2020,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "上越妙高",
+    "year": 2023,
+    "avg_price": 34000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "上越妙高",
+    "year": 2024,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "上越妙高",
+    "year": 2025,
+    "avg_price": 21900000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2007,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2008,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2009,
+    "avg_price": 6666666.666666667
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2010,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2011,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2012,
+    "avg_price": 15100000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2013,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2015,
+    "avg_price": 7550000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2016,
+    "avg_price": 8833333.333333334
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2017,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2018,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2019,
+    "avg_price": 4700000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2020,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2021,
+    "avg_price": 6625000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2022,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2024,
+    "avg_price": 10416666.666666666
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "亀田",
+    "year": 2025,
+    "avg_price": 4866666.666666667
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "五泉",
+    "year": 2021,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "内野",
+    "year": 2010,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "分水",
+    "year": 2023,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北三条",
+    "year": 2007,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北三条",
+    "year": 2013,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北三条",
+    "year": 2017,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北三条",
+    "year": 2018,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北三条",
+    "year": 2019,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北三条",
+    "year": 2021,
+    "avg_price": 10625000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北三条",
+    "year": 2022,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北三条",
+    "year": 2023,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北新井",
+    "year": 2017,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北長岡",
+    "year": 2008,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北長岡",
+    "year": 2009,
+    "avg_price": 10150000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北長岡",
+    "year": 2010,
+    "avg_price": 9650000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北長岡",
+    "year": 2011,
+    "avg_price": 8725000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北長岡",
+    "year": 2013,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北長岡",
+    "year": 2019,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北長岡",
+    "year": 2021,
+    "avg_price": 15900000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北長岡",
+    "year": 2023,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "北長岡",
+    "year": 2024,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "南高田",
+    "year": 2009,
+    "avg_price": 5600000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "南高田",
+    "year": 2010,
+    "avg_price": 5200000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "南高田",
+    "year": 2012,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "南高田",
+    "year": 2014,
+    "avg_price": 4250000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "南高田",
+    "year": 2016,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "南高田",
+    "year": 2017,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "南高田",
+    "year": 2019,
+    "avg_price": 5200000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "南高田",
+    "year": 2020,
+    "avg_price": 8366666.666666667
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "南高田",
+    "year": 2021,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "南高田",
+    "year": 2024,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "南高田",
+    "year": 2025,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2007,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2008,
+    "avg_price": 10414285.714285715
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2009,
+    "avg_price": 9911111.111111112
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2010,
+    "avg_price": 16650000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2012,
+    "avg_price": 11175000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2013,
+    "avg_price": 8650000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2014,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2015,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2016,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2017,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2018,
+    "avg_price": 15750000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2019,
+    "avg_price": 13975000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2020,
+    "avg_price": 12525000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2021,
+    "avg_price": 15250000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2022,
+    "avg_price": 12666666.666666666
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2023,
+    "avg_price": 11114285.714285715
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "大形",
+    "year": 2024,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "妙高高原",
+    "year": 2021,
+    "avg_price": 2100000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "妙高高原",
+    "year": 2022,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "妙高高原",
+    "year": 2023,
+    "avg_price": 2550000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "妙高高原",
+    "year": 2024,
+    "avg_price": 2600000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "妙高高原",
+    "year": 2025,
+    "avg_price": 3733333.3333333335
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2007,
+    "avg_price": 1650000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2008,
+    "avg_price": 3450000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2009,
+    "avg_price": 3450000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2011,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2012,
+    "avg_price": 1100000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2013,
+    "avg_price": 880000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2014,
+    "avg_price": 800000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2015,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2016,
+    "avg_price": 850000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2017,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2018,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2019,
+    "avg_price": 675000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2020,
+    "avg_price": 650000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2022,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2023,
+    "avg_price": 4975000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2024,
+    "avg_price": 5383333.333333333
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "宮内(新潟)",
+    "year": 2025,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺尾",
+    "year": 2007,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺尾",
+    "year": 2012,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺尾",
+    "year": 2015,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺尾",
+    "year": 2016,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺尾",
+    "year": 2017,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺尾",
+    "year": 2018,
+    "avg_price": 3700000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺尾",
+    "year": 2020,
+    "avg_price": 4600000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺尾",
+    "year": 2023,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2007,
+    "avg_price": 1600000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2008,
+    "avg_price": 1700000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2009,
+    "avg_price": 2080000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2010,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2011,
+    "avg_price": 2100000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2012,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2013,
+    "avg_price": 2133333.3333333335
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2014,
+    "avg_price": 380000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2015,
+    "avg_price": 1533333.3333333333
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2016,
+    "avg_price": 1350000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2017,
+    "avg_price": 900000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2018,
+    "avg_price": 750000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2019,
+    "avg_price": 1150000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2020,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2021,
+    "avg_price": 1700000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2022,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2023,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2024,
+    "avg_price": 4050000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "寺泊",
+    "year": 2025,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2008,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2009,
+    "avg_price": 11525000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2010,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2011,
+    "avg_price": 5100000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2012,
+    "avg_price": 10850000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2013,
+    "avg_price": 12125000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2014,
+    "avg_price": 10862500.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2015,
+    "avg_price": 16966666.666666668
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2016,
+    "avg_price": 14057142.857142856
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2017,
+    "avg_price": 12185714.285714285
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2018,
+    "avg_price": 9475000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2019,
+    "avg_price": 11357142.857142856
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2020,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2021,
+    "avg_price": 14437500.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2022,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2023,
+    "avg_price": 12571428.57142857
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2024,
+    "avg_price": 13990000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "小針",
+    "year": 2025,
+    "avg_price": 15437500.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "岩原スキー場前",
+    "year": 2023,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "岩原スキー場前",
+    "year": 2025,
+    "avg_price": 3100000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "岩室",
+    "year": 2014,
+    "avg_price": 1300000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "岩室",
+    "year": 2020,
+    "avg_price": 32000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新津",
+    "year": 2008,
+    "avg_price": 2900000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新津",
+    "year": 2011,
+    "avg_price": 3200000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新津",
+    "year": 2012,
+    "avg_price": 2150000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新津",
+    "year": 2015,
+    "avg_price": 6300000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新津",
+    "year": 2016,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新津",
+    "year": 2017,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新津",
+    "year": 2020,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新津",
+    "year": 2021,
+    "avg_price": 2250000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新津",
+    "year": 2023,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新津",
+    "year": 2025,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2007,
+    "avg_price": 9351685.393258426
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2008,
+    "avg_price": 10608849.557522124
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2009,
+    "avg_price": 13111278.195488721
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2010,
+    "avg_price": 14241406.25
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2011,
+    "avg_price": 12558922.155688623
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2012,
+    "avg_price": 11882649.310344828
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2013,
+    "avg_price": 10275641.025641026
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2014,
+    "avg_price": 10986274.509803921
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2015,
+    "avg_price": 12159875.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2016,
+    "avg_price": 11430000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2017,
+    "avg_price": 11615217.391304348
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2018,
+    "avg_price": 15192666.666666666
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2019,
+    "avg_price": 14306969.696969697
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2020,
+    "avg_price": 12745580.110497238
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2021,
+    "avg_price": 13372098.214285715
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2022,
+    "avg_price": 15392378.6407767
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2023,
+    "avg_price": 16378712.44635193
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2024,
+    "avg_price": 16633250.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟",
+    "year": 2025,
+    "avg_price": 20337356.32183908
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2007,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2008,
+    "avg_price": 7250000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2010,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2011,
+    "avg_price": 3600000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2012,
+    "avg_price": 5733333.333333333
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2015,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2017,
+    "avg_price": 4825000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2018,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2019,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2020,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2022,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2023,
+    "avg_price": 4650000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2024,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新潟大学前",
+    "year": 2025,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2007,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2008,
+    "avg_price": 1500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2009,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2010,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2011,
+    "avg_price": 4350000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2012,
+    "avg_price": 6750000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2013,
+    "avg_price": 3850000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2014,
+    "avg_price": 4700000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2015,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2016,
+    "avg_price": 5775000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2017,
+    "avg_price": 5633333.333333333
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2018,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2019,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2020,
+    "avg_price": 3350000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2021,
+    "avg_price": 4760000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2022,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2023,
+    "avg_price": 3350000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "新発田",
+    "year": 2024,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2007,
+    "avg_price": 9750000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2008,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2009,
+    "avg_price": 14350000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2010,
+    "avg_price": 1100000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2011,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2012,
+    "avg_price": 13812500.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2013,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2014,
+    "avg_price": 16860000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2015,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2016,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2017,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2018,
+    "avg_price": 7750000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2019,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2020,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2021,
+    "avg_price": 14250000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2022,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "春日山",
+    "year": 2025,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "月岡(新潟)",
+    "year": 2014,
+    "avg_price": 5100000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2008,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2010,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2011,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2012,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2013,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2014,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2015,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2016,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2018,
+    "avg_price": 11300000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2019,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2020,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2021,
+    "avg_price": 13785714.285714285
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2022,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2023,
+    "avg_price": 13537500.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2024,
+    "avg_price": 11333333.333333334
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東三条",
+    "year": 2025,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2007,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2008,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2009,
+    "avg_price": 16333333.333333334
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2010,
+    "avg_price": 14333333.333333334
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2012,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2013,
+    "avg_price": 14666666.666666666
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2014,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2015,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2017,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2018,
+    "avg_price": 10800000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2019,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2020,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2021,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2022,
+    "avg_price": 15250000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2023,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "東新潟",
+    "year": 2025,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "柏崎",
+    "year": 2021,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "柏崎",
+    "year": 2022,
+    "avg_price": 4900000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "柏崎",
+    "year": 2025,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "桐原(新潟)",
+    "year": 2008,
+    "avg_price": 1490000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "桐原(新潟)",
+    "year": 2009,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "桐原(新潟)",
+    "year": 2021,
+    "avg_price": 2333333.3333333335
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "桐原(新潟)",
+    "year": 2022,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "桐原(新潟)",
+    "year": 2023,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "潟町",
+    "year": 2021,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "燕三条",
+    "year": 2020,
+    "avg_price": 23333333.333333332
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "燕三条",
+    "year": 2022,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "燕三条",
+    "year": 2024,
+    "avg_price": 42000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2007,
+    "avg_price": 4600000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2008,
+    "avg_price": 15055555.555555556
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2009,
+    "avg_price": 10980000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2010,
+    "avg_price": 10240000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2011,
+    "avg_price": 8943750.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2012,
+    "avg_price": 11046153.846153846
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2013,
+    "avg_price": 7964285.714285715
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2014,
+    "avg_price": 10645000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2015,
+    "avg_price": 10600000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2016,
+    "avg_price": 11188888.888888888
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2017,
+    "avg_price": 13840000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2018,
+    "avg_price": 10006666.666666666
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2019,
+    "avg_price": 6146666.666666667
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2020,
+    "avg_price": 17266666.666666668
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2021,
+    "avg_price": 13596296.296296297
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2022,
+    "avg_price": 15345945.945945946
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2023,
+    "avg_price": 15278000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2024,
+    "avg_price": 12461842.105263159
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "白山(新潟)",
+    "year": 2025,
+    "avg_price": 15683333.333333334
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "直江津",
+    "year": 2010,
+    "avg_price": 13233333.333333334
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "直江津",
+    "year": 2011,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "直江津",
+    "year": 2015,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "直江津",
+    "year": 2017,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "直江津",
+    "year": 2018,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "直江津",
+    "year": 2019,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "直江津",
+    "year": 2020,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "直江津",
+    "year": 2021,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "直江津",
+    "year": 2023,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "石打",
+    "year": 2022,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "石打",
+    "year": 2024,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "西新発田",
+    "year": 2013,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "西新発田",
+    "year": 2017,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "西新発田",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "西新発田",
+    "year": 2025,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "豊栄",
+    "year": 2007,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後中里",
+    "year": 2024,
+    "avg_price": 1200000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後湯沢",
+    "year": 2023,
+    "avg_price": 3200000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後湯沢",
+    "year": 2024,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後湯沢",
+    "year": 2025,
+    "avg_price": 2975000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2007,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2008,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2009,
+    "avg_price": 5866666.666666667
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2011,
+    "avg_price": 3850000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2012,
+    "avg_price": 14250000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2013,
+    "avg_price": 5100000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2014,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2015,
+    "avg_price": 10416666.666666666
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2016,
+    "avg_price": 5450000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2018,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2019,
+    "avg_price": 4600000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2020,
+    "avg_price": 6733333.333333333
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2021,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2022,
+    "avg_price": 6566666.666666667
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2023,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "越後石山",
+    "year": 2024,
+    "avg_price": 10140000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2007,
+    "avg_price": 9592307.692307692
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2008,
+    "avg_price": 10796551.72413793
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2009,
+    "avg_price": 16029629.629629629
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2010,
+    "avg_price": 13839512.195121951
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2011,
+    "avg_price": 15041860.46511628
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2012,
+    "avg_price": 11056578.94736842
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2013,
+    "avg_price": 10745000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2014,
+    "avg_price": 11548717.948717948
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2015,
+    "avg_price": 9595217.391304348
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2016,
+    "avg_price": 10915277.777777778
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2017,
+    "avg_price": 10626315.789473685
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2018,
+    "avg_price": 12016666.666666666
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2019,
+    "avg_price": 9227105.263157895
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2020,
+    "avg_price": 10289743.58974359
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2021,
+    "avg_price": 14606849.315068493
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2022,
+    "avg_price": 18017391.304347824
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2023,
+    "avg_price": 22390277.777777776
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2024,
+    "avg_price": 18276666.666666668
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "長岡",
+    "year": 2025,
+    "avg_price": 19164912.280701753
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2007,
+    "avg_price": 3100000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2008,
+    "avg_price": 11700000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2010,
+    "avg_price": 12860000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2011,
+    "avg_price": 10671428.57142857
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2012,
+    "avg_price": 15350000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2013,
+    "avg_price": 10157142.857142856
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2014,
+    "avg_price": 14561538.461538462
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2015,
+    "avg_price": 14310000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2016,
+    "avg_price": 11970000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2017,
+    "avg_price": 12900000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2018,
+    "avg_price": 15700000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2019,
+    "avg_price": 14700000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2020,
+    "avg_price": 16216666.666666666
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2021,
+    "avg_price": 14020000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2022,
+    "avg_price": 11380000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2023,
+    "avg_price": 14528571.42857143
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2024,
+    "avg_price": 16476923.076923076
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関屋(新潟)",
+    "year": 2025,
+    "avg_price": 18214285.714285713
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "関山",
+    "year": 2022,
+    "avg_price": 1400000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2007,
+    "avg_price": 13166666.666666666
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2008,
+    "avg_price": 9833333.333333334
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2009,
+    "avg_price": 12876190.476190476
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2010,
+    "avg_price": 10956086.956521738
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2011,
+    "avg_price": 11104347.826086957
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2012,
+    "avg_price": 6029166.666666667
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2013,
+    "avg_price": 9787500.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2014,
+    "avg_price": 12300000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2015,
+    "avg_price": 8926086.956521738
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2016,
+    "avg_price": 12342857.142857144
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2017,
+    "avg_price": 11639130.43478261
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2018,
+    "avg_price": 15022222.222222222
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2019,
+    "avg_price": 12022727.272727273
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2020,
+    "avg_price": 8845454.545454545
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2021,
+    "avg_price": 10220454.545454545
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2022,
+    "avg_price": 10171428.57142857
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2023,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2024,
+    "avg_price": 11981200.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "青山(新潟)",
+    "year": 2025,
+    "avg_price": 13550000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2007,
+    "avg_price": 13383333.333333334
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2008,
+    "avg_price": 16166666.666666666
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2009,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2010,
+    "avg_price": 5475000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2011,
+    "avg_price": 19666666.666666668
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2012,
+    "avg_price": 16411111.111111112
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2013,
+    "avg_price": 15926666.666666666
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2014,
+    "avg_price": 14375000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2015,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2016,
+    "avg_price": 4633333.333333333
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2017,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2018,
+    "avg_price": 8333333.333333333
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2019,
+    "avg_price": 12300000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2020,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2021,
+    "avg_price": 12025000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2022,
+    "avg_price": 4680000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2023,
+    "avg_price": 9350000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2024,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "新潟県",
+    "station": "高田(新潟)",
+    "year": 2025,
+    "avg_price": 16962500.0
+  }
+]

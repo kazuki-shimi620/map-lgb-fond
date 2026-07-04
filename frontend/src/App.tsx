@@ -12,9 +12,9 @@ import { PredictionResultView } from "./features/prediction/PredictionResultView
 import { reverseGeocode } from "./services/geocodingService";
 import { distanceKmToWalkingMinutes, findNearestStation, loadStations } from "./services/stationService";
 import type { ModelMetadata, PriceHistoryPoint, StationRecord } from "./types/assets";
-import type { PredictionFormState, PredictionResult, SupportedRegion } from "./types/prediction";
+import type { PredictionFormState, PredictionResult, StationRegion } from "./types/prediction";
 import { fetchJson } from "./services/http";
-import { getPrefectureLabel, getRegionFromPrefecture, supportedRegions } from "./utils/region";
+import { getPrefectureLabel, getRegionFromPrefecture, getStationRegionFromPrefecture } from "./utils/region";
 
 const initialForm: PredictionFormState = {
   prefecture: "東京都",
@@ -45,6 +45,10 @@ export function App() {
   const [errorMessage, setErrorMessage] = useState("");
 
   const region = useMemo(() => getRegionFromPrefecture(form.prefecture), [form.prefecture]);
+  const stationRegion = useMemo(
+    () => getStationRegionFromPrefecture(form.prefecture),
+    [form.prefecture]
+  );
   const longRangeWarning =
     metadata && form.predictionYear > metadata.latestTrainingYear + 10
       ? "長期予測のため精度は保証できません"
@@ -59,13 +63,15 @@ export function App() {
   );
 
   useEffect(() => {
-    if (!region) {
+    if (!region || !stationRegion) {
       setIsModelReady(false);
       setErrorMessage("未対応地域です");
       return;
     }
 
     const currentRegion = region;
+    const currentStationRegion = stationRegion;
+    const currentPrefecture = form.prefecture;
     let disposed = false;
     const manager = getModelManager(currentRegion);
     setIsModelReady(false);
@@ -74,12 +80,17 @@ export function App() {
     async function loadRegionAssets() {
       try {
         const [nextStations, nextHistory] = await Promise.all([
-          loadStations(currentRegion),
-          fetchJson<PriceHistoryPoint[]>(`./histories/${currentRegion}_latest_history.json`)
+          loadStations(currentStationRegion),
+          fetchJson<PriceHistoryPoint[]>(`./histories/${currentStationRegion}_latest_history.json`)
         ]);
         if (!disposed) {
           setStations(nextStations);
           setHistory(nextHistory);
+          setForm((current) =>
+            current.prefecture === currentPrefecture && !current.station && nextStations.length > 0
+              ? { ...current, station: nextStations[0].station_name }
+              : current
+          );
         }
       } catch {
         if (!disposed) {
@@ -109,16 +120,10 @@ export function App() {
     return () => {
       disposed = true;
     };
-  }, [region]);
+  }, [form.prefecture, region, stationRegion]);
 
-  async function loadStationCandidates(targetRegion: SupportedRegion | null) {
-    if (targetRegion) {
-      const targetStations = await loadStations(targetRegion);
-      return targetStations;
-    }
-
-    const allStationGroups = await Promise.all(supportedRegions.map((nextRegion) => loadStations(nextRegion)));
-    return allStationGroups.flat();
+  async function loadStationCandidates(targetRegion: StationRegion) {
+    return loadStations(targetRegion);
   }
 
   async function handleMapSelect(lat: number, lon: number) {
@@ -129,24 +134,28 @@ export function App() {
     try {
       const geocode = await reverseGeocode(lat, lon).catch(() => ({ prefecture: "", municipality: "" }));
       const geocodedRegion = getRegionFromPrefecture(geocode.prefecture);
+      const geocodedStationRegion = getStationRegionFromPrefecture(geocode.prefecture);
 
-      if (geocode.prefecture && !geocodedRegion) {
+      if (geocode.prefecture && (!geocodedRegion || !geocodedStationRegion)) {
         setIsSelectionSupported(false);
         setResult(null);
         setForecastPoints([]);
-        setErrorMessage(`${geocode.prefecture}は未対応地域です。現在は東京都、埼玉県、千葉県、神奈川県に対応しています。`);
+        setErrorMessage("日本国外または地域を特定できない場所です");
         return;
       }
 
-      const targetStations = await loadStationCandidates(null);
+      const targetStationRegion = geocodedStationRegion ?? stationRegion;
+      if (!targetStationRegion) {
+        throw new Error("駅マスタの対象地域を特定できません");
+      }
+      const targetStations = await loadStationCandidates(targetStationRegion);
       const nearest = findNearestStation(targetStations, lat, lon);
-      const stationRegion = nearest ? getRegionFromPrefecture(nearest.station.prefecture) : null;
-      const nextRegion = geocodedRegion ?? stationRegion ?? region;
       const nextPrefecture =
-        (geocodedRegion ? geocode.prefecture : "") || nearest?.station.prefecture || currentPrefectureFromRegion(nextRegion);
+        (geocodedRegion ? geocode.prefecture : "") || nearest?.station.prefecture || form.prefecture;
+      const nextRegion = getRegionFromPrefecture(nextPrefecture) ?? region;
 
       if (nextRegion && nextRegion !== region) {
-        setStations(await loadStations(nextRegion));
+        setStations(targetStations);
       }
 
       setIsSelectionSupported(true);
@@ -216,6 +225,19 @@ export function App() {
   }, [form, history, isModelReady, isSelectionSupported, region]);
 
   function handleFormChange(nextForm: PredictionFormState) {
+    if (nextForm.prefecture !== form.prefecture) {
+      setResult(null);
+      setForecastPoints([]);
+      setStationDistanceSource("manual");
+      setForm({
+        ...nextForm,
+        municipality: "",
+        station: "",
+        lat: null,
+        lon: null
+      });
+      return;
+    }
     if (nextForm.stationDistance !== form.stationDistance) {
       setStationDistanceSource("manual");
     }
@@ -224,7 +246,11 @@ export function App() {
   }
 
   const stationOptions = stations.map((station) => station.station_name);
-  const visibleHistory = history.filter((point) => point.station === form.station);
+  const visibleHistory = history.filter(
+    (point) =>
+      point.station === form.station &&
+      (point.prefecture === undefined || point.prefecture === form.prefecture)
+  );
   const chartPoints = buildChartPoints(visibleHistory, forecastPoints, result, form.station, form.predictionYear);
 
   return (
@@ -292,10 +318,6 @@ export function App() {
   );
 }
 
-function currentPrefectureFromRegion(region: SupportedRegion | null) {
-  return region ? getPrefectureLabel(region) : "";
-}
-
 function buildChartPoints(
   history: PriceHistoryPoint[],
   forecastPoints: PriceHistoryPoint[],
@@ -342,7 +364,12 @@ async function predictWithFutureTrend(
 
   const baseYear = metadata.latestTrainingYear;
   const baseResult = await manager.predict({ ...request, predictionYear: baseYear });
-  const annualChange = estimateAnnualPriceChange(history, request.station, baseYear);
+  const annualChange = estimateAnnualPriceChange(
+    history,
+    request.prefecture,
+    request.station,
+    baseYear
+  );
   const forecastPoints: PriceHistoryPoint[] = [];
 
   for (let year = baseYear + 1; year <= request.predictionYear; year += 1) {
@@ -365,15 +392,25 @@ async function predictWithFutureTrend(
   };
 }
 
-function estimateAnnualPriceChange(history: PriceHistoryPoint[], station: string, latestTrainingYear: number) {
-  const stationPoints = history.filter((point) => point.station === station && point.year <= latestTrainingYear);
+function estimateAnnualPriceChange(
+  history: PriceHistoryPoint[],
+  prefecture: string,
+  station: string,
+  latestTrainingYear: number
+) {
+  const prefectureHistory = history.filter(
+    (point) => point.prefecture === undefined || point.prefecture === prefecture
+  );
+  const stationPoints = prefectureHistory.filter(
+    (point) => point.station === station && point.year <= latestTrainingYear
+  );
   const stationTrend = estimateTrendFromPoints(stationPoints);
   if (stationTrend !== null) {
     return stationTrend;
   }
 
   const yearlyPrices = new Map<number, number[]>();
-  for (const point of history) {
+  for (const point of prefectureHistory) {
     if (point.year > latestTrainingYear) {
       continue;
     }

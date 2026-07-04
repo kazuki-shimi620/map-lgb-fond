@@ -1,0 +1,6032 @@
+[
+  {
+    "prefecture": "宮城県",
+    "station": "あおば通",
+    "year": 2007,
+    "avg_price": 10600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "あおば通",
+    "year": 2013,
+    "avg_price": 18360000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "あおば通",
+    "year": 2015,
+    "avg_price": 35200000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "万石浦",
+    "year": 2013,
+    "avg_price": 4600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "万石浦",
+    "year": 2017,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "万石浦",
+    "year": 2018,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "万石浦",
+    "year": 2021,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "万石浦",
+    "year": 2022,
+    "avg_price": 5600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "万石浦",
+    "year": 2024,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "下馬",
+    "year": 2006,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "下馬",
+    "year": 2007,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "下馬",
+    "year": 2021,
+    "avg_price": 10450000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "下馬",
+    "year": 2022,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "下馬",
+    "year": 2023,
+    "avg_price": 14966666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "下馬",
+    "year": 2024,
+    "avg_price": 12666666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "下馬",
+    "year": 2025,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中山平温泉",
+    "year": 2015,
+    "avg_price": 1900000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2006,
+    "avg_price": 11600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2007,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2008,
+    "avg_price": 9550000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2009,
+    "avg_price": 6750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2010,
+    "avg_price": 7675000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2011,
+    "avg_price": 9850000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2012,
+    "avg_price": 12008333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2013,
+    "avg_price": 13200000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2014,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2015,
+    "avg_price": 18625000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2016,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2017,
+    "avg_price": 16250000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2018,
+    "avg_price": 15060000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2019,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2020,
+    "avg_price": 13933333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2021,
+    "avg_price": 14076923.076923076
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2022,
+    "avg_price": 15440000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2023,
+    "avg_price": 14350000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2024,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "中野栄",
+    "year": 2025,
+    "avg_price": 18857142.85714286
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2006,
+    "avg_price": 7780000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2007,
+    "avg_price": 8665714.285714285
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2008,
+    "avg_price": 7718750.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2009,
+    "avg_price": 10254166.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2010,
+    "avg_price": 9491379.310344828
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2011,
+    "avg_price": 12430434.782608695
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2012,
+    "avg_price": 14164864.864864865
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2013,
+    "avg_price": 15912500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2014,
+    "avg_price": 15675862.068965517
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2015,
+    "avg_price": 17389830.508474577
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2016,
+    "avg_price": 19254000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2017,
+    "avg_price": 18475000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2018,
+    "avg_price": 20772413.79310345
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2019,
+    "avg_price": 16310000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2020,
+    "avg_price": 20212121.21212121
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2021,
+    "avg_price": 22290243.902439024
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2022,
+    "avg_price": 23793827.16049383
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2023,
+    "avg_price": 20876136.363636363
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2024,
+    "avg_price": 23420408.163265307
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "五橋",
+    "year": 2025,
+    "avg_price": 27360714.285714287
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2006,
+    "avg_price": 12883050.847457627
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2007,
+    "avg_price": 11243421.05263158
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2008,
+    "avg_price": 9789285.714285715
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2009,
+    "avg_price": 10992941.176470589
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2010,
+    "avg_price": 11147710.843373494
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2011,
+    "avg_price": 12479710.144927537
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2012,
+    "avg_price": 13279000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2013,
+    "avg_price": 15525233.644859813
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2014,
+    "avg_price": 16735454.545454545
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2015,
+    "avg_price": 18317977.52808989
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2016,
+    "avg_price": 17823728.813559324
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2017,
+    "avg_price": 24121739.13043478
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2018,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2019,
+    "avg_price": 19493103.44827586
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2020,
+    "avg_price": 22667647.05882353
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2021,
+    "avg_price": 24754421.768707484
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2022,
+    "avg_price": 23591710.52631579
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2023,
+    "avg_price": 25452631.57894737
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2024,
+    "avg_price": 26506451.612903226
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "仙台",
+    "year": 2025,
+    "avg_price": 24438888.888888888
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2006,
+    "avg_price": 14135294.11764706
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2007,
+    "avg_price": 14633333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2008,
+    "avg_price": 14517142.857142856
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2009,
+    "avg_price": 10961111.111111112
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2010,
+    "avg_price": 11634285.714285715
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2011,
+    "avg_price": 12004761.904761905
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2012,
+    "avg_price": 14867500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2013,
+    "avg_price": 15258823.529411765
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2014,
+    "avg_price": 16805405.405405406
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2015,
+    "avg_price": 17589743.589743588
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2016,
+    "avg_price": 20489743.589743588
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2017,
+    "avg_price": 17700000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2018,
+    "avg_price": 17228947.36842105
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2019,
+    "avg_price": 17436111.111111112
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2020,
+    "avg_price": 17671052.63157895
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2021,
+    "avg_price": 17796341.463414636
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2022,
+    "avg_price": 20110000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2023,
+    "avg_price": 20533846.153846152
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2024,
+    "avg_price": 19993103.44827586
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八乙女",
+    "year": 2025,
+    "avg_price": 19961290.322580647
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八木山動物公園",
+    "year": 2014,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八木山動物公園",
+    "year": 2015,
+    "avg_price": 9860000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八木山動物公園",
+    "year": 2016,
+    "avg_price": 10622222.222222222
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八木山動物公園",
+    "year": 2017,
+    "avg_price": 11083333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八木山動物公園",
+    "year": 2018,
+    "avg_price": 11583333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八木山動物公園",
+    "year": 2019,
+    "avg_price": 12750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八木山動物公園",
+    "year": 2020,
+    "avg_price": 12612500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八木山動物公園",
+    "year": 2021,
+    "avg_price": 10895238.095238095
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八木山動物公園",
+    "year": 2022,
+    "avg_price": 14416666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八木山動物公園",
+    "year": 2023,
+    "avg_price": 13136363.636363637
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八木山動物公園",
+    "year": 2024,
+    "avg_price": 6488888.888888889
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "八木山動物公園",
+    "year": 2025,
+    "avg_price": 9840000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "六丁の目",
+    "year": 2015,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "六丁の目",
+    "year": 2016,
+    "avg_price": 20500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "六丁の目",
+    "year": 2017,
+    "avg_price": 18600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "六丁の目",
+    "year": 2018,
+    "avg_price": 20875000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "六丁の目",
+    "year": 2019,
+    "avg_price": 24400000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "六丁の目",
+    "year": 2020,
+    "avg_price": 23454545.454545453
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "六丁の目",
+    "year": 2021,
+    "avg_price": 20500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "六丁の目",
+    "year": 2022,
+    "avg_price": 26466666.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "六丁の目",
+    "year": 2023,
+    "avg_price": 27600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "六丁の目",
+    "year": 2024,
+    "avg_price": 27666666.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "六丁の目",
+    "year": 2025,
+    "avg_price": 26266666.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "利府",
+    "year": 2021,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "利府",
+    "year": 2022,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "利府",
+    "year": 2024,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2006,
+    "avg_price": 9900000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2007,
+    "avg_price": 12807692.307692308
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2008,
+    "avg_price": 11172222.222222222
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2009,
+    "avg_price": 10921428.57142857
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2010,
+    "avg_price": 11344444.444444444
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2011,
+    "avg_price": 10590000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2012,
+    "avg_price": 12853333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2013,
+    "avg_price": 15640000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2014,
+    "avg_price": 16686486.486486487
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2015,
+    "avg_price": 18097619.04761905
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2016,
+    "avg_price": 16620454.545454545
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2017,
+    "avg_price": 20723529.411764707
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2018,
+    "avg_price": 26185714.285714287
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2019,
+    "avg_price": 22631818.181818184
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2020,
+    "avg_price": 22459259.259259257
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2021,
+    "avg_price": 25019791.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2022,
+    "avg_price": 26936082.474226803
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2023,
+    "avg_price": 28954545.454545453
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2024,
+    "avg_price": 27356470.588235293
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "勾当台公園",
+    "year": 2025,
+    "avg_price": 27326804.12371134
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2006,
+    "avg_price": 13280000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2007,
+    "avg_price": 14300000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2008,
+    "avg_price": 13430000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2009,
+    "avg_price": 13245454.545454545
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2010,
+    "avg_price": 13492592.592592593
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2011,
+    "avg_price": 13865384.615384616
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2012,
+    "avg_price": 16348571.42857143
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2013,
+    "avg_price": 16001315.789473685
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2014,
+    "avg_price": 19593103.44827586
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2015,
+    "avg_price": 15336842.105263159
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2016,
+    "avg_price": 17113793.103448275
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2017,
+    "avg_price": 19304166.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2018,
+    "avg_price": 19140625.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2019,
+    "avg_price": 20526315.789473683
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2020,
+    "avg_price": 21177777.777777776
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2021,
+    "avg_price": 21571641.791044775
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2022,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2023,
+    "avg_price": 22698360.655737706
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2024,
+    "avg_price": 22562820.512820512
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北仙台",
+    "year": 2025,
+    "avg_price": 24262318.84057971
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2006,
+    "avg_price": 11616279.069767442
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2007,
+    "avg_price": 12008196.721311476
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2008,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2009,
+    "avg_price": 11992727.272727273
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2010,
+    "avg_price": 13917073.170731707
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2011,
+    "avg_price": 13289795.918367347
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2012,
+    "avg_price": 15642028.985507246
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2013,
+    "avg_price": 14512500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2014,
+    "avg_price": 18268888.888888888
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2015,
+    "avg_price": 19202985.074626867
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2016,
+    "avg_price": 16621818.181818182
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2017,
+    "avg_price": 20020000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2018,
+    "avg_price": 21291860.465116277
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2019,
+    "avg_price": 18657407.407407407
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2020,
+    "avg_price": 18722891.56626506
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2021,
+    "avg_price": 22135393.258426968
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2022,
+    "avg_price": 22880748.663101606
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2023,
+    "avg_price": 28836842.10526316
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2024,
+    "avg_price": 27074611.39896373
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北四番丁",
+    "year": 2025,
+    "avg_price": 29258823.529411763
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2006,
+    "avg_price": 8410000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2007,
+    "avg_price": 8987500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2008,
+    "avg_price": 10805263.157894736
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2009,
+    "avg_price": 8417647.05882353
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2010,
+    "avg_price": 15743953.488372093
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2011,
+    "avg_price": 11083333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2012,
+    "avg_price": 10731578.94736842
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2013,
+    "avg_price": 11700000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2014,
+    "avg_price": 12129411.764705881
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2015,
+    "avg_price": 12519047.61904762
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2016,
+    "avg_price": 11146153.846153846
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2017,
+    "avg_price": 12987500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2018,
+    "avg_price": 14541666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2019,
+    "avg_price": 12011111.111111112
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2020,
+    "avg_price": 13508333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2021,
+    "avg_price": 13628571.42857143
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2022,
+    "avg_price": 13170588.235294119
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2023,
+    "avg_price": 15527272.727272727
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2024,
+    "avg_price": 13604347.826086957
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "北山(宮城)",
+    "year": 2025,
+    "avg_price": 13884615.384615384
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2006,
+    "avg_price": 11046153.846153846
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2007,
+    "avg_price": 11380769.23076923
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2008,
+    "avg_price": 11258333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2009,
+    "avg_price": 12172093.023255814
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2010,
+    "avg_price": 10608333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2011,
+    "avg_price": 9877419.35483871
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2012,
+    "avg_price": 13692857.142857144
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2013,
+    "avg_price": 15162500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2014,
+    "avg_price": 15623255.813953489
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2015,
+    "avg_price": 15286842.105263159
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2016,
+    "avg_price": 15584375.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2017,
+    "avg_price": 16380000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2018,
+    "avg_price": 16681818.181818182
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2019,
+    "avg_price": 15974193.548387097
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2020,
+    "avg_price": 17175000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2021,
+    "avg_price": 19166666.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2022,
+    "avg_price": 18250000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2023,
+    "avg_price": 16710869.56521739
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2024,
+    "avg_price": 18130909.09090909
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "南仙台",
+    "year": 2025,
+    "avg_price": 21040909.09090909
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "卸町(宮城)",
+    "year": 2015,
+    "avg_price": 11241176.470588235
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "卸町(宮城)",
+    "year": 2016,
+    "avg_price": 13475000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "卸町(宮城)",
+    "year": 2017,
+    "avg_price": 14282758.620689655
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "卸町(宮城)",
+    "year": 2018,
+    "avg_price": 14192592.592592593
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "卸町(宮城)",
+    "year": 2019,
+    "avg_price": 15181818.181818182
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "卸町(宮城)",
+    "year": 2020,
+    "avg_price": 14833333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "卸町(宮城)",
+    "year": 2021,
+    "avg_price": 14106329.11392405
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "卸町(宮城)",
+    "year": 2022,
+    "avg_price": 15882608.695652174
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "卸町(宮城)",
+    "year": 2023,
+    "avg_price": 19129487.17948718
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "卸町(宮城)",
+    "year": 2024,
+    "avg_price": 19755405.405405406
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "卸町(宮城)",
+    "year": 2025,
+    "avg_price": 23728169.014084507
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2006,
+    "avg_price": 7014285.714285715
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2007,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2008,
+    "avg_price": 350000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2009,
+    "avg_price": 12069230.76923077
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2010,
+    "avg_price": 9433333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2011,
+    "avg_price": 5175000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2012,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2013,
+    "avg_price": 7660000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2014,
+    "avg_price": 8762500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2015,
+    "avg_price": 12875000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2016,
+    "avg_price": 6766666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2017,
+    "avg_price": 10066666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2018,
+    "avg_price": 8550000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2019,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2020,
+    "avg_price": 5620000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2021,
+    "avg_price": 7058333.333333333
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2022,
+    "avg_price": 8033333.333333333
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2023,
+    "avg_price": 9157142.857142856
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2024,
+    "avg_price": 8125000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "古川",
+    "year": 2025,
+    "avg_price": 17200000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2006,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2007,
+    "avg_price": 12192307.692307692
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2008,
+    "avg_price": 11066666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2009,
+    "avg_price": 11550000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2010,
+    "avg_price": 11216666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2011,
+    "avg_price": 11090909.090909092
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2012,
+    "avg_price": 12872222.222222222
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2013,
+    "avg_price": 12262500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2014,
+    "avg_price": 14792307.692307692
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2015,
+    "avg_price": 12994736.842105264
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2016,
+    "avg_price": 14551612.903225806
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2017,
+    "avg_price": 13125000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2018,
+    "avg_price": 15857894.736842105
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2019,
+    "avg_price": 9644444.444444444
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2020,
+    "avg_price": 12231818.181818182
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2021,
+    "avg_price": 15557500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2022,
+    "avg_price": 15916666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2023,
+    "avg_price": 17150000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2024,
+    "avg_price": 19436538.46153846
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "台原",
+    "year": 2025,
+    "avg_price": 18519444.444444444
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "名取",
+    "year": 2006,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "名取",
+    "year": 2007,
+    "avg_price": 8200000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "名取",
+    "year": 2021,
+    "avg_price": 19100000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "名取",
+    "year": 2022,
+    "avg_price": 20842857.14285714
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "名取",
+    "year": 2023,
+    "avg_price": 23428571.42857143
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "名取",
+    "year": 2024,
+    "avg_price": 19750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "名取",
+    "year": 2025,
+    "avg_price": 24357142.85714286
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国府多賀城",
+    "year": 2021,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国府多賀城",
+    "year": 2022,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国府多賀城",
+    "year": 2023,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国府多賀城",
+    "year": 2024,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国府多賀城",
+    "year": 2025,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2006,
+    "avg_price": 7675000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2007,
+    "avg_price": 12877777.777777778
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2008,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2009,
+    "avg_price": 10900000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2010,
+    "avg_price": 17020000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2011,
+    "avg_price": 6383333.333333333
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2012,
+    "avg_price": 10488888.888888888
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2013,
+    "avg_price": 12463636.363636363
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2014,
+    "avg_price": 16850000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2015,
+    "avg_price": 15450000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2016,
+    "avg_price": 10607142.857142856
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2017,
+    "avg_price": 12257142.857142856
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2018,
+    "avg_price": 16037500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2019,
+    "avg_price": 13142857.142857144
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2020,
+    "avg_price": 9575000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2021,
+    "avg_price": 13205882.352941176
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2022,
+    "avg_price": 11022222.222222222
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2023,
+    "avg_price": 10520000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2024,
+    "avg_price": 11127777.777777778
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国見(宮城)",
+    "year": 2025,
+    "avg_price": 10220000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国際センター(宮城)",
+    "year": 2015,
+    "avg_price": 31000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国際センター(宮城)",
+    "year": 2016,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国際センター(宮城)",
+    "year": 2017,
+    "avg_price": 26750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国際センター(宮城)",
+    "year": 2018,
+    "avg_price": 29750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国際センター(宮城)",
+    "year": 2019,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国際センター(宮城)",
+    "year": 2020,
+    "avg_price": 29666666.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国際センター(宮城)",
+    "year": 2021,
+    "avg_price": 28083333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国際センター(宮城)",
+    "year": 2022,
+    "avg_price": 22775000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国際センター(宮城)",
+    "year": 2023,
+    "avg_price": 27700000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国際センター(宮城)",
+    "year": 2024,
+    "avg_price": 20366666.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "国際センター(宮城)",
+    "year": 2025,
+    "avg_price": 28750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "塚目",
+    "year": 2015,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "塩釜",
+    "year": 2006,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "塩釜",
+    "year": 2021,
+    "avg_price": 10475000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "塩釜",
+    "year": 2023,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "塩釜",
+    "year": 2024,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "塩釜",
+    "year": 2025,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "多賀城",
+    "year": 2006,
+    "avg_price": 9675000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "多賀城",
+    "year": 2007,
+    "avg_price": 9220000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "多賀城",
+    "year": 2021,
+    "avg_price": 13404347.826086957
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "多賀城",
+    "year": 2022,
+    "avg_price": 13913043.47826087
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "多賀城",
+    "year": 2023,
+    "avg_price": 16976470.588235293
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "多賀城",
+    "year": 2024,
+    "avg_price": 19462500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "多賀城",
+    "year": 2025,
+    "avg_price": 16511538.461538462
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "大町西公園",
+    "year": 2015,
+    "avg_price": 18428571.42857143
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "大町西公園",
+    "year": 2016,
+    "avg_price": 16936363.636363637
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "大町西公園",
+    "year": 2017,
+    "avg_price": 20112500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "大町西公園",
+    "year": 2018,
+    "avg_price": 18833333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "大町西公園",
+    "year": 2019,
+    "avg_price": 17881818.181818184
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "大町西公園",
+    "year": 2020,
+    "avg_price": 25640000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "大町西公園",
+    "year": 2021,
+    "avg_price": 23190666.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "大町西公園",
+    "year": 2022,
+    "avg_price": 21053703.703703705
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "大町西公園",
+    "year": 2023,
+    "avg_price": 22934146.341463413
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "大町西公園",
+    "year": 2024,
+    "avg_price": 30218867.9245283
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "大町西公園",
+    "year": 2025,
+    "avg_price": 29581690.14084507
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2007,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2008,
+    "avg_price": 12150000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2009,
+    "avg_price": 6616666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2010,
+    "avg_price": 9491666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2011,
+    "avg_price": 14453333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2012,
+    "avg_price": 12963636.363636363
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2013,
+    "avg_price": 16890909.09090909
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2014,
+    "avg_price": 19562500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2015,
+    "avg_price": 18752380.95238095
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2016,
+    "avg_price": 20727272.727272727
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2017,
+    "avg_price": 19283333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2018,
+    "avg_price": 25615384.615384616
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2019,
+    "avg_price": 21750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2020,
+    "avg_price": 21223076.923076924
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2021,
+    "avg_price": 23430232.558139537
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2022,
+    "avg_price": 23080000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2023,
+    "avg_price": 25645833.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2024,
+    "avg_price": 26917948.717948716
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "太子堂",
+    "year": 2025,
+    "avg_price": 25193333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2006,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2007,
+    "avg_price": 10412500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2008,
+    "avg_price": 9208333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2009,
+    "avg_price": 8757142.857142856
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2010,
+    "avg_price": 9066666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2011,
+    "avg_price": 8807142.857142856
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2012,
+    "avg_price": 12150000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2013,
+    "avg_price": 16795454.545454547
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2014,
+    "avg_price": 15795238.095238095
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2015,
+    "avg_price": 16580952.38095238
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2016,
+    "avg_price": 14020000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2017,
+    "avg_price": 14270000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2018,
+    "avg_price": 17200000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2019,
+    "avg_price": 15740000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2020,
+    "avg_price": 16422222.222222222
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2021,
+    "avg_price": 14405882.352941176
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2022,
+    "avg_price": 24181818.181818184
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2023,
+    "avg_price": 23210526.315789472
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2024,
+    "avg_price": 27091666.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野原",
+    "year": 2025,
+    "avg_price": 21700000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野通",
+    "year": 2015,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野通",
+    "year": 2017,
+    "avg_price": 33000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野通",
+    "year": 2018,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野通",
+    "year": 2019,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野通",
+    "year": 2020,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野通",
+    "year": 2021,
+    "avg_price": 23181818.181818184
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野通",
+    "year": 2022,
+    "avg_price": 21285714.285714287
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野通",
+    "year": 2023,
+    "avg_price": 27846153.846153848
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野通",
+    "year": 2024,
+    "avg_price": 25988888.888888888
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "宮城野通",
+    "year": 2025,
+    "avg_price": 29455555.555555556
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2006,
+    "avg_price": 13550000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2007,
+    "avg_price": 13311111.111111112
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2008,
+    "avg_price": 13310000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2009,
+    "avg_price": 12550000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2010,
+    "avg_price": 9972222.222222222
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2011,
+    "avg_price": 12457142.857142856
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2012,
+    "avg_price": 14830000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2013,
+    "avg_price": 16375000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2014,
+    "avg_price": 18384615.384615384
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2015,
+    "avg_price": 19200000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2016,
+    "avg_price": 20833333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2017,
+    "avg_price": 17980000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2018,
+    "avg_price": 17127272.727272727
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2019,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2020,
+    "avg_price": 22125000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2021,
+    "avg_price": 23506451.612903226
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2022,
+    "avg_price": 23083333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2023,
+    "avg_price": 27583333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2024,
+    "avg_price": 19571428.57142857
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "富沢",
+    "year": 2025,
+    "avg_price": 26458333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2006,
+    "avg_price": 7080000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2007,
+    "avg_price": 10233333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2008,
+    "avg_price": 3960000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2009,
+    "avg_price": 9322222.222222222
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2010,
+    "avg_price": 15690000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2011,
+    "avg_price": 13914285.714285715
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2012,
+    "avg_price": 18376923.076923076
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2013,
+    "avg_price": 18185714.285714287
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2014,
+    "avg_price": 26875000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2015,
+    "avg_price": 18920000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2016,
+    "avg_price": 19280000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2017,
+    "avg_price": 21157142.85714286
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2018,
+    "avg_price": 17510000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2019,
+    "avg_price": 13580000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2020,
+    "avg_price": 22433333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2021,
+    "avg_price": 23478125.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2022,
+    "avg_price": 22843478.260869566
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2023,
+    "avg_price": 24722727.272727273
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2024,
+    "avg_price": 16387500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "小鶴新田",
+    "year": 2025,
+    "avg_price": 24009090.90909091
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2006,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2007,
+    "avg_price": 8750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2008,
+    "avg_price": 9050000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2010,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2011,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2012,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2014,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2015,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2016,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2017,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2019,
+    "avg_price": 29500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2021,
+    "avg_price": 22090909.09090909
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2022,
+    "avg_price": 23750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2023,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2024,
+    "avg_price": 24800000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩切",
+    "year": 2025,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩沼",
+    "year": 2006,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩沼",
+    "year": 2007,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩沼",
+    "year": 2021,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩沼",
+    "year": 2022,
+    "avg_price": 13633333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩沼",
+    "year": 2023,
+    "avg_price": 12627272.727272727
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩沼",
+    "year": 2024,
+    "avg_price": 14971428.57142857
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "岩沼",
+    "year": 2025,
+    "avg_price": 17125000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "川内(宮城)",
+    "year": 2015,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "川内(宮城)",
+    "year": 2016,
+    "avg_price": 5150000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "川内(宮城)",
+    "year": 2017,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "川内(宮城)",
+    "year": 2018,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "川内(宮城)",
+    "year": 2020,
+    "avg_price": 9066666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "川内(宮城)",
+    "year": 2021,
+    "avg_price": 12971428.57142857
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "川内(宮城)",
+    "year": 2022,
+    "avg_price": 11800000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "川内(宮城)",
+    "year": 2023,
+    "avg_price": 17700000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "川内(宮城)",
+    "year": 2024,
+    "avg_price": 9375000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "川内(宮城)",
+    "year": 2025,
+    "avg_price": 9466666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2006,
+    "avg_price": 8875000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2007,
+    "avg_price": 10657142.857142856
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2008,
+    "avg_price": 12366666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2009,
+    "avg_price": 14133333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2010,
+    "avg_price": 6328571.428571428
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2011,
+    "avg_price": 9009090.909090908
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2012,
+    "avg_price": 10870000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2013,
+    "avg_price": 17462500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2014,
+    "avg_price": 15781818.181818182
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2015,
+    "avg_price": 9676923.076923076
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2016,
+    "avg_price": 18337500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2017,
+    "avg_price": 21400000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2018,
+    "avg_price": 10516666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2019,
+    "avg_price": 14687500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2020,
+    "avg_price": 26550000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2021,
+    "avg_price": 20522222.222222224
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2022,
+    "avg_price": 25060000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2023,
+    "avg_price": 17823076.923076924
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2024,
+    "avg_price": 31350000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "広瀬通",
+    "year": 2025,
+    "avg_price": 32637500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2006,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2007,
+    "avg_price": 8816666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2008,
+    "avg_price": 9185714.285714285
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2009,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2010,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2011,
+    "avg_price": 8366666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2012,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2013,
+    "avg_price": 9375000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2014,
+    "avg_price": 12266666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2015,
+    "avg_price": 11040000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2016,
+    "avg_price": 10200000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2017,
+    "avg_price": 12950000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2018,
+    "avg_price": 14276923.076923076
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2019,
+    "avg_price": 13216666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2020,
+    "avg_price": 11114285.714285715
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2021,
+    "avg_price": 14670000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2022,
+    "avg_price": 12187500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2023,
+    "avg_price": 15833333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2024,
+    "avg_price": 14400000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛子",
+    "year": 2025,
+    "avg_price": 12750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕(宮城)",
+    "year": 2006,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕(宮城)",
+    "year": 2007,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕(宮城)",
+    "year": 2021,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕(宮城)",
+    "year": 2022,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕(宮城)",
+    "year": 2025,
+    "avg_price": 6450000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2006,
+    "avg_price": 7225000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2007,
+    "avg_price": 9685000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2008,
+    "avg_price": 7750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2009,
+    "avg_price": 7207142.857142857
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2010,
+    "avg_price": 7841176.470588235
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2011,
+    "avg_price": 6733333.333333333
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2012,
+    "avg_price": 8192000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2013,
+    "avg_price": 11165625.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2014,
+    "avg_price": 10990322.58064516
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2015,
+    "avg_price": 13334615.384615384
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2016,
+    "avg_price": 19807692.307692308
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2017,
+    "avg_price": 12460000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2018,
+    "avg_price": 10600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2019,
+    "avg_price": 9183333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2020,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2021,
+    "avg_price": 14685714.285714285
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2022,
+    "avg_price": 12503703.703703703
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2023,
+    "avg_price": 18172222.222222224
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2024,
+    "avg_price": 15637931.034482758
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "愛宕橋",
+    "year": 2025,
+    "avg_price": 15269767.441860465
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2006,
+    "avg_price": 14666666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2007,
+    "avg_price": 9425000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2008,
+    "avg_price": 10066666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2010,
+    "avg_price": 9255555.555555556
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2011,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2012,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2013,
+    "avg_price": 11771428.57142857
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2014,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2015,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2016,
+    "avg_price": 18200000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2017,
+    "avg_price": 15230000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2018,
+    "avg_price": 13388888.888888888
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2019,
+    "avg_price": 15444444.444444444
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2020,
+    "avg_price": 13070000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2021,
+    "avg_price": 13556250.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2022,
+    "avg_price": 16494736.842105264
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2023,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2024,
+    "avg_price": 14742857.142857144
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "旭ケ丘(宮城)",
+    "year": 2025,
+    "avg_price": 13056250.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "本塩釜",
+    "year": 2006,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "本塩釜",
+    "year": 2007,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "本塩釜",
+    "year": 2021,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "本塩釜",
+    "year": 2022,
+    "avg_price": 15650000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "本塩釜",
+    "year": 2023,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "本塩釜",
+    "year": 2024,
+    "avg_price": 19083333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "本塩釜",
+    "year": 2025,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "杜せきのした",
+    "year": 2021,
+    "avg_price": 25250000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "杜せきのした",
+    "year": 2022,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "杜せきのした",
+    "year": 2023,
+    "avg_price": 30500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "杜せきのした",
+    "year": 2024,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "杜せきのした",
+    "year": 2025,
+    "avg_price": 35250000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2006,
+    "avg_price": 11333333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2007,
+    "avg_price": 11233333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2008,
+    "avg_price": 11800000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2009,
+    "avg_price": 9860000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2010,
+    "avg_price": 8866666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2011,
+    "avg_price": 10940000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2012,
+    "avg_price": 14660000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2013,
+    "avg_price": 15850000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2014,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2015,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2016,
+    "avg_price": 10600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2017,
+    "avg_price": 20150000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2018,
+    "avg_price": 16750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2019,
+    "avg_price": 15625000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2020,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2021,
+    "avg_price": 18680000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2022,
+    "avg_price": 19364705.88235294
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2023,
+    "avg_price": 18873333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2024,
+    "avg_price": 19447058.82352941
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東仙台",
+    "year": 2025,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2007,
+    "avg_price": 6111111.111111111
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2008,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2009,
+    "avg_price": 6566666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2010,
+    "avg_price": 8100000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2011,
+    "avg_price": 8675000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2012,
+    "avg_price": 8840000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2013,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2014,
+    "avg_price": 9087500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2015,
+    "avg_price": 9757142.857142856
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2016,
+    "avg_price": 7466666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2017,
+    "avg_price": 8457142.857142856
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2018,
+    "avg_price": 8216666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2019,
+    "avg_price": 7125000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2020,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2021,
+    "avg_price": 9222222.222222222
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2022,
+    "avg_price": 10875000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2023,
+    "avg_price": 13637500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2024,
+    "avg_price": 11744444.444444444
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東北福祉大前",
+    "year": 2025,
+    "avg_price": 15542857.142857144
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東塩釜",
+    "year": 2007,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東塩釜",
+    "year": 2021,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東塩釜",
+    "year": 2022,
+    "avg_price": 9450000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東塩釜",
+    "year": 2023,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東塩釜",
+    "year": 2025,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2006,
+    "avg_price": 9615789.47368421
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2007,
+    "avg_price": 13558333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2008,
+    "avg_price": 10868421.05263158
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2009,
+    "avg_price": 16928846.153846152
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2010,
+    "avg_price": 12218181.818181818
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2011,
+    "avg_price": 9631578.94736842
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2012,
+    "avg_price": 11656250.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2013,
+    "avg_price": 16825000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2014,
+    "avg_price": 15092500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2015,
+    "avg_price": 15924000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2016,
+    "avg_price": 18650000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2017,
+    "avg_price": 16433333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2018,
+    "avg_price": 17725000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2019,
+    "avg_price": 14295000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2020,
+    "avg_price": 15506896.551724138
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2021,
+    "avg_price": 15815942.028985508
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2022,
+    "avg_price": 18065671.641791046
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2023,
+    "avg_price": 16284615.384615384
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2024,
+    "avg_price": 22226829.268292684
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東照宮",
+    "year": 2025,
+    "avg_price": 16202857.142857144
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東白石",
+    "year": 2006,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "東白石",
+    "year": 2021,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "松島",
+    "year": 2025,
+    "avg_price": 3750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "松島海岸",
+    "year": 2007,
+    "avg_price": 1200000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2006,
+    "avg_price": 10345454.545454545
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2007,
+    "avg_price": 15027272.727272727
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2008,
+    "avg_price": 15244444.444444444
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2009,
+    "avg_price": 8327272.7272727275
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2010,
+    "avg_price": 10033333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2011,
+    "avg_price": 12287500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2012,
+    "avg_price": 12727272.727272727
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2013,
+    "avg_price": 19846153.846153848
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2014,
+    "avg_price": 21368000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2015,
+    "avg_price": 15147058.823529411
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2016,
+    "avg_price": 26458333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2017,
+    "avg_price": 23991666.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2018,
+    "avg_price": 32626470.588235293
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2019,
+    "avg_price": 18028571.42857143
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2020,
+    "avg_price": 23166666.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2021,
+    "avg_price": 23109677.419354837
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2022,
+    "avg_price": 29150000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2023,
+    "avg_price": 30892592.592592593
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2024,
+    "avg_price": 33470967.741935484
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "榴ケ岡",
+    "year": 2025,
+    "avg_price": 32582978.723404255
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2006,
+    "avg_price": 12380000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2007,
+    "avg_price": 11650000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2008,
+    "avg_price": 11181818.181818182
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2009,
+    "avg_price": 6177777.777777778
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2010,
+    "avg_price": 8714285.714285715
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2011,
+    "avg_price": 9316666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2012,
+    "avg_price": 10183333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2013,
+    "avg_price": 13242105.263157895
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2014,
+    "avg_price": 14285185.185185185
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2015,
+    "avg_price": 14391304.347826088
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2016,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2017,
+    "avg_price": 17680000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2018,
+    "avg_price": 17796153.846153848
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2019,
+    "avg_price": 18085714.285714287
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2020,
+    "avg_price": 15578947.368421054
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2021,
+    "avg_price": 20340384.615384616
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2022,
+    "avg_price": 22022222.222222224
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2023,
+    "avg_price": 16917647.05882353
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2024,
+    "avg_price": 19206666.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "河原町(宮城)",
+    "year": 2025,
+    "avg_price": 23279166.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2006,
+    "avg_price": 14353571.42857143
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2007,
+    "avg_price": 13737037.037037037
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2008,
+    "avg_price": 14565384.615384616
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2009,
+    "avg_price": 14205882.352941176
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2010,
+    "avg_price": 8741666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2011,
+    "avg_price": 12280952.38095238
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2012,
+    "avg_price": 10937837.837837838
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2013,
+    "avg_price": 13929032.258064516
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2014,
+    "avg_price": 17497500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2015,
+    "avg_price": 14966666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2016,
+    "avg_price": 17845238.095238097
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2017,
+    "avg_price": 17300000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2018,
+    "avg_price": 16706470.588235294
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2019,
+    "avg_price": 18444444.444444444
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2020,
+    "avg_price": 20472916.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2021,
+    "avg_price": 19033333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2022,
+    "avg_price": 19720224.719101124
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2023,
+    "avg_price": 20826724.137931034
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2024,
+    "avg_price": 20578191.489361703
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "泉中央",
+    "year": 2025,
+    "avg_price": 22062105.263157893
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "白石蔵王",
+    "year": 2021,
+    "avg_price": 6566666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "白石蔵王",
+    "year": 2022,
+    "avg_price": 6766666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2006,
+    "avg_price": 6766666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2007,
+    "avg_price": 11266666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2008,
+    "avg_price": 8957142.857142856
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2009,
+    "avg_price": 8166666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2010,
+    "avg_price": 6720000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2011,
+    "avg_price": 7737500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2012,
+    "avg_price": 11414285.714285715
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2013,
+    "avg_price": 12666666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2014,
+    "avg_price": 9533333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2015,
+    "avg_price": 10100000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2016,
+    "avg_price": 17400000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2017,
+    "avg_price": 10760000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2018,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2019,
+    "avg_price": 12066666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2020,
+    "avg_price": 8766666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2021,
+    "avg_price": 10550000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2022,
+    "avg_price": 9776923.076923076
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2023,
+    "avg_price": 14147333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2024,
+    "avg_price": 8955555.555555556
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "石巻",
+    "year": 2025,
+    "avg_price": 13240000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2006,
+    "avg_price": 11483333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2007,
+    "avg_price": 11840000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2008,
+    "avg_price": 9071428.57142857
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2009,
+    "avg_price": 8128571.428571428
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2010,
+    "avg_price": 7600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2011,
+    "avg_price": 7285714.285714285
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2012,
+    "avg_price": 9362500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2013,
+    "avg_price": 13875000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2014,
+    "avg_price": 12900000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2015,
+    "avg_price": 11616666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2016,
+    "avg_price": 12160000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2017,
+    "avg_price": 13725000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2018,
+    "avg_price": 14150000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2019,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2020,
+    "avg_price": 13020000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2021,
+    "avg_price": 13615384.615384616
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2022,
+    "avg_price": 14350000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2023,
+    "avg_price": 13888888.888888888
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2024,
+    "avg_price": 15309090.909090908
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "福田町",
+    "year": 2025,
+    "avg_price": 15375000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "美田園",
+    "year": 2021,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "美田園",
+    "year": 2022,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "美田園",
+    "year": 2023,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "美田園",
+    "year": 2024,
+    "avg_price": 27833333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "美田園",
+    "year": 2025,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "船岡(宮城)",
+    "year": 2021,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "船岡(宮城)",
+    "year": 2022,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "船岡(宮城)",
+    "year": 2025,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2006,
+    "avg_price": 7833333.333333333
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2007,
+    "avg_price": 6250000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2008,
+    "avg_price": 9640000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2009,
+    "avg_price": 10434615.384615384
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2010,
+    "avg_price": 9450000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2011,
+    "avg_price": 7716666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2012,
+    "avg_price": 8930769.23076923
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2013,
+    "avg_price": 12778571.42857143
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2014,
+    "avg_price": 13520000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2015,
+    "avg_price": 14990000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2016,
+    "avg_price": 17333333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2017,
+    "avg_price": 12600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2018,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2019,
+    "avg_price": 11362500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2020,
+    "avg_price": 15333333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2021,
+    "avg_price": 15118750.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2022,
+    "avg_price": 14518750.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2023,
+    "avg_price": 17014285.714285713
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2024,
+    "avg_price": 15761538.461538462
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "苦竹",
+    "year": 2025,
+    "avg_price": 17250000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "荒井(宮城)",
+    "year": 2016,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "荒井(宮城)",
+    "year": 2018,
+    "avg_price": 28000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "荒井(宮城)",
+    "year": 2020,
+    "avg_price": 34400000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "荒井(宮城)",
+    "year": 2021,
+    "avg_price": 31142857.14285714
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "荒井(宮城)",
+    "year": 2022,
+    "avg_price": 33000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "荒井(宮城)",
+    "year": 2023,
+    "avg_price": 33600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "荒井(宮城)",
+    "year": 2024,
+    "avg_price": 33333333.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "荒井(宮城)",
+    "year": 2025,
+    "avg_price": 33727272.72727273
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2006,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2007,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2008,
+    "avg_price": 5920000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2009,
+    "avg_price": 5781818.181818182
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2010,
+    "avg_price": 6440000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2011,
+    "avg_price": 8275000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2012,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2013,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2014,
+    "avg_price": 8437500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2015,
+    "avg_price": 13850000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2016,
+    "avg_price": 9040000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2017,
+    "avg_price": 9250000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2018,
+    "avg_price": 8344444.444444444
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2019,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2020,
+    "avg_price": 6866666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2021,
+    "avg_price": 7730000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2022,
+    "avg_price": 7886666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2023,
+    "avg_price": 9454545.454545455
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2024,
+    "avg_price": 7019047.619047619
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "葛岡",
+    "year": 2025,
+    "avg_price": 7040000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "薬師堂(宮城)",
+    "year": 2015,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "薬師堂(宮城)",
+    "year": 2016,
+    "avg_price": 15521428.57142857
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "薬師堂(宮城)",
+    "year": 2017,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "薬師堂(宮城)",
+    "year": 2018,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "薬師堂(宮城)",
+    "year": 2019,
+    "avg_price": 16314285.714285715
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "薬師堂(宮城)",
+    "year": 2020,
+    "avg_price": 13375000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "薬師堂(宮城)",
+    "year": 2021,
+    "avg_price": 19722222.222222224
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "薬師堂(宮城)",
+    "year": 2022,
+    "avg_price": 17491666.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "薬師堂(宮城)",
+    "year": 2023,
+    "avg_price": 16761111.111111112
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "薬師堂(宮城)",
+    "year": 2024,
+    "avg_price": 16850000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "薬師堂(宮城)",
+    "year": 2025,
+    "avg_price": 22138888.888888888
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "西塩釜",
+    "year": 2007,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "西塩釜",
+    "year": 2021,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "西塩釜",
+    "year": 2022,
+    "avg_price": 10475000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "西塩釜",
+    "year": 2023,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "西塩釜",
+    "year": 2024,
+    "avg_price": 8575000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "西塩釜",
+    "year": 2025,
+    "avg_price": 8620000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "連坊",
+    "year": 2015,
+    "avg_price": 16050000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "連坊",
+    "year": 2016,
+    "avg_price": 8950000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "連坊",
+    "year": 2017,
+    "avg_price": 10650000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "連坊",
+    "year": 2018,
+    "avg_price": 7616666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "連坊",
+    "year": 2019,
+    "avg_price": 14460000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "連坊",
+    "year": 2020,
+    "avg_price": 13442857.142857144
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "連坊",
+    "year": 2021,
+    "avg_price": 13843750.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "連坊",
+    "year": 2022,
+    "avg_price": 12261111.111111112
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "連坊",
+    "year": 2023,
+    "avg_price": 23422222.222222224
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "連坊",
+    "year": 2024,
+    "avg_price": 22145454.545454547
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "連坊",
+    "year": 2025,
+    "avg_price": 14238461.538461538
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2006,
+    "avg_price": 11680000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2007,
+    "avg_price": 13794444.444444444
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2008,
+    "avg_price": 10922727.272727273
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2009,
+    "avg_price": 10810000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2010,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2011,
+    "avg_price": 9035714.285714285
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2012,
+    "avg_price": 14300000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2013,
+    "avg_price": 15252380.952380951
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2014,
+    "avg_price": 17520000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2015,
+    "avg_price": 18321875.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2016,
+    "avg_price": 19140000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2017,
+    "avg_price": 17057142.85714286
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2018,
+    "avg_price": 18792592.592592593
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2019,
+    "avg_price": 22950000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2020,
+    "avg_price": 23630000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2021,
+    "avg_price": 29277570.093457945
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2022,
+    "avg_price": 32726190.476190478
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2023,
+    "avg_price": 33389130.43478261
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2024,
+    "avg_price": 36005982.905982904
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町",
+    "year": 2025,
+    "avg_price": 37965714.28571428
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2006,
+    "avg_price": 8300000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2007,
+    "avg_price": 11625000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2008,
+    "avg_price": 6612500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2009,
+    "avg_price": 10069230.76923077
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2010,
+    "avg_price": 9091666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2011,
+    "avg_price": 9737500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2012,
+    "avg_price": 11005882.352941176
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2013,
+    "avg_price": 11075000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2014,
+    "avg_price": 10364285.714285715
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2015,
+    "avg_price": 14576470.588235294
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2016,
+    "avg_price": 15305882.352941176
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2017,
+    "avg_price": 17912500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2018,
+    "avg_price": 19418181.818181816
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2019,
+    "avg_price": 15881250.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2020,
+    "avg_price": 13644444.444444444
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2021,
+    "avg_price": 20191428.57142857
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2022,
+    "avg_price": 21757142.85714286
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2023,
+    "avg_price": 18819230.769230768
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2024,
+    "avg_price": 19344186.046511628
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町一丁目",
+    "year": 2025,
+    "avg_price": 18884375.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2006,
+    "avg_price": 11160000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2007,
+    "avg_price": 12931250.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2008,
+    "avg_price": 17635714.285714287
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2009,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2010,
+    "avg_price": 10356250.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2011,
+    "avg_price": 11607142.857142856
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2012,
+    "avg_price": 12635294.11764706
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2013,
+    "avg_price": 18945833.333333332
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2014,
+    "avg_price": 19819354.83870968
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2015,
+    "avg_price": 21229166.666666668
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2016,
+    "avg_price": 21704545.454545453
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2017,
+    "avg_price": 23064000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2018,
+    "avg_price": 23036842.10526316
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2019,
+    "avg_price": 25181818.181818184
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2020,
+    "avg_price": 22180952.38095238
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2021,
+    "avg_price": 25246341.463414636
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2022,
+    "avg_price": 21871052.63157895
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2023,
+    "avg_price": 28950877.192982458
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2024,
+    "avg_price": 28657142.85714286
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "長町南",
+    "year": 2025,
+    "avg_price": 23750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2006,
+    "avg_price": 10280000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2007,
+    "avg_price": 8011111.111111111
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2008,
+    "avg_price": 8392307.692307692
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2009,
+    "avg_price": 5941666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2010,
+    "avg_price": 9882000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2011,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2012,
+    "avg_price": 9236363.636363637
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2013,
+    "avg_price": 12240000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2014,
+    "avg_price": 14230769.23076923
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2015,
+    "avg_price": 11877777.777777778
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2016,
+    "avg_price": 13575000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2017,
+    "avg_price": 14966666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2018,
+    "avg_price": 10846666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2019,
+    "avg_price": 14655555.555555556
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2020,
+    "avg_price": 14615384.615384616
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2021,
+    "avg_price": 13516666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2022,
+    "avg_price": 9481818.181818182
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2023,
+    "avg_price": 14966666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2024,
+    "avg_price": 13658064.516129032
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前原ノ町",
+    "year": 2025,
+    "avg_price": 15559090.909090908
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2006,
+    "avg_price": 7150000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2007,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2008,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2009,
+    "avg_price": 4650000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2010,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2011,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2013,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2014,
+    "avg_price": 8250000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2015,
+    "avg_price": 8600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2016,
+    "avg_price": 3833333.3333333335
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2017,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2018,
+    "avg_price": 8550000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2019,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2020,
+    "avg_price": 6250000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2021,
+    "avg_price": 8475000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2022,
+    "avg_price": 5550000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2023,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2024,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前山下",
+    "year": 2025,
+    "avg_price": 5100000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2007,
+    "avg_price": 26800000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2008,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2009,
+    "avg_price": 7600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2010,
+    "avg_price": 6420000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2011,
+    "avg_price": 8633333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2012,
+    "avg_price": 9440000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2013,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2014,
+    "avg_price": 10050000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2015,
+    "avg_price": 14475000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2016,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2017,
+    "avg_price": 9660000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2018,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2019,
+    "avg_price": 16380000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2020,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2021,
+    "avg_price": 12133333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2022,
+    "avg_price": 12800000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2023,
+    "avg_price": 10014285.714285715
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2024,
+    "avg_price": 12650000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前落合",
+    "year": 2025,
+    "avg_price": 7216666.666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前谷地",
+    "year": 2014,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前赤井",
+    "year": 2016,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2006,
+    "avg_price": 7837500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2007,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2008,
+    "avg_price": 8158823.529411765
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2009,
+    "avg_price": 6752941.176470588
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2010,
+    "avg_price": 7318750.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2011,
+    "avg_price": 7242857.142857143
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2012,
+    "avg_price": 10190909.090909092
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2013,
+    "avg_price": 12010344.827586208
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2014,
+    "avg_price": 12376000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2015,
+    "avg_price": 14350000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2016,
+    "avg_price": 12280000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2017,
+    "avg_price": 10638888.888888888
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2018,
+    "avg_price": 11740000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2019,
+    "avg_price": 11584615.384615384
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2020,
+    "avg_price": 24279411.76470588
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2021,
+    "avg_price": 22604878.048780486
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2022,
+    "avg_price": 17545161.29032258
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2023,
+    "avg_price": 16478571.42857143
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2024,
+    "avg_price": 17945454.545454547
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "陸前高砂",
+    "year": 2025,
+    "avg_price": 13723076.923076924
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "青葉山",
+    "year": 2015,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "青葉山",
+    "year": 2025,
+    "avg_price": 39000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "青葉通一番町",
+    "year": 2015,
+    "avg_price": 39062500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "青葉通一番町",
+    "year": 2016,
+    "avg_price": 28790476.19047619
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "青葉通一番町",
+    "year": 2017,
+    "avg_price": 26287500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "青葉通一番町",
+    "year": 2018,
+    "avg_price": 32035294.11764706
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "青葉通一番町",
+    "year": 2019,
+    "avg_price": 32150000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "青葉通一番町",
+    "year": 2020,
+    "avg_price": 24717647.05882353
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "青葉通一番町",
+    "year": 2021,
+    "avg_price": 21178378.37837838
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "青葉通一番町",
+    "year": 2022,
+    "avg_price": 38367441.86046512
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "青葉通一番町",
+    "year": 2023,
+    "avg_price": 29462162.162162162
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "青葉通一番町",
+    "year": 2024,
+    "avg_price": 33922448.97959184
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "青葉通一番町",
+    "year": 2025,
+    "avg_price": 34021951.219512194
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子御殿湯",
+    "year": 2007,
+    "avg_price": 2800000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2006,
+    "avg_price": 1075000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2007,
+    "avg_price": 1580000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2008,
+    "avg_price": 1575000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2009,
+    "avg_price": 3775000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2010,
+    "avg_price": 2333333.3333333335
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2011,
+    "avg_price": 1750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2012,
+    "avg_price": 1700000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2013,
+    "avg_price": 1720000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2014,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2015,
+    "avg_price": 1220000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2016,
+    "avg_price": 1343333.3333333333
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2017,
+    "avg_price": 2250000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2018,
+    "avg_price": 2200000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2021,
+    "avg_price": 1475000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2022,
+    "avg_price": 1394444.4444444445
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2023,
+    "avg_price": 1750000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2024,
+    "avg_price": 995000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "鳴子温泉",
+    "year": 2025,
+    "avg_price": 1166666.6666666667
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2006,
+    "avg_price": 11050000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2007,
+    "avg_price": 13150000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2008,
+    "avg_price": 10566666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2009,
+    "avg_price": 8828571.42857143
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2010,
+    "avg_price": 8975000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2011,
+    "avg_price": 7987500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2012,
+    "avg_price": 10888888.888888888
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2013,
+    "avg_price": 10666666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2014,
+    "avg_price": 15237500.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2015,
+    "avg_price": 18114285.714285713
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2016,
+    "avg_price": 13145454.545454545
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2017,
+    "avg_price": 10316666.666666666
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2018,
+    "avg_price": 13370000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2019,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2020,
+    "avg_price": 13977777.777777778
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2021,
+    "avg_price": 15393750.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2022,
+    "avg_price": 16125000.0
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2023,
+    "avg_price": 15533333.333333334
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2024,
+    "avg_price": 13363636.363636363
+  },
+  {
+    "prefecture": "宮城県",
+    "station": "黒松(宮城)",
+    "year": 2025,
+    "avg_price": 16611111.111111112
+  }
+]

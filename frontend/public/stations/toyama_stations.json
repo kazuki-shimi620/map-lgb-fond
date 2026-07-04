@@ -1,0 +1,1498 @@
+[
+  {
+    "station_id": "toyama_0059",
+    "station_name": "インテック本社前",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.703556,
+    "lon": 137.216685
+  },
+  {
+    "station_id": "toyama_0058",
+    "station_name": "オークスカナルパークホテル富山前",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.703755,
+    "lon": 137.214681
+  },
+  {
+    "station_id": "toyama_0163",
+    "station_name": "グランドプラザ前",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.688923,
+    "lon": 137.213386
+  },
+  {
+    "station_id": "toyama_0159",
+    "station_name": "トヨタモビリティ富山Gスクエア五福前（五福末広町）",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.694834,
+    "lon": 137.19542
+  },
+  {
+    "station_id": "toyama_0074",
+    "station_name": "上堀",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道上滝線",
+    "lat": 36.65338,
+    "lon": 137.230127
+  },
+  {
+    "station_id": "toyama_0097",
+    "station_name": "上市",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.704463,
+    "lon": 137.357603
+  },
+  {
+    "station_id": "toyama_0145",
+    "station_name": "上本町(富山)",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.686282,
+    "lon": 137.215762
+  },
+  {
+    "station_id": "toyama_0080",
+    "station_name": "上滝",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道上滝線",
+    "lat": 36.609622,
+    "lon": 137.295564
+  },
+  {
+    "station_id": "toyama_0062",
+    "station_name": "下奥井",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.711311,
+    "lon": 137.224478
+  },
+  {
+    "station_id": "toyama_0131",
+    "station_name": "下段",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道立山線",
+    "lat": 36.647899,
+    "lon": 137.317735
+  },
+  {
+    "station_id": "toyama_0122",
+    "station_name": "下立",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.857707,
+    "lon": 137.541396
+  },
+  {
+    "station_id": "toyama_0121",
+    "station_name": "下立口",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.859571,
+    "lon": 137.532908
+  },
+  {
+    "station_id": "toyama_0085",
+    "station_name": "不二越",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道不二越線",
+    "lat": 36.687848,
+    "lon": 137.232453
+  },
+  {
+    "station_id": "toyama_0056",
+    "station_name": "中伏木",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.788224,
+    "lon": 137.061655
+  },
+  {
+    "station_id": "toyama_0099",
+    "station_name": "中加積",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.735309,
+    "lon": 137.350947
+  },
+  {
+    "station_id": "toyama_0036",
+    "station_name": "中新湊",
+    "prefecture": "富山県",
+    "line_name": "万葉線新湊港線",
+    "lat": 36.775148,
+    "lon": 137.088617
+  },
+  {
+    "station_id": "toyama_0102",
+    "station_name": "中滑川",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.761992,
+    "lon": 137.339963
+  },
+  {
+    "station_id": "toyama_0147",
+    "station_name": "中町",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.690306,
+    "lon": 137.215722
+  },
+  {
+    "station_id": "toyama_0156",
+    "station_name": "丸の内(富山)",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.692563,
+    "lon": 137.208896
+  },
+  {
+    "station_id": "toyama_0003",
+    "station_name": "二塚",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.714339,
+    "lon": 137.006141
+  },
+  {
+    "station_id": "toyama_0129",
+    "station_name": "五百石",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道立山線",
+    "lat": 36.665361,
+    "lon": 137.314097
+  },
+  {
+    "station_id": "toyama_0017",
+    "station_name": "伏木",
+    "prefecture": "富山県",
+    "line_name": "JR氷見線",
+    "lat": 36.792306,
+    "lon": 137.05853
+  },
+  {
+    "station_id": "toyama_0175",
+    "station_name": "入善",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.941296,
+    "lon": 137.499
+  },
+  {
+    "station_id": "toyama_0032",
+    "station_name": "六渡寺",
+    "prefecture": "富山県",
+    "line_name": "万葉線新湊港線",
+    "lat": 36.788935,
+    "lon": 137.066443
+  },
+  {
+    "station_id": "toyama_0124",
+    "station_name": "内山",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.846826,
+    "lon": 137.556733
+  },
+  {
+    "station_id": "toyama_0135",
+    "station_name": "千垣",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道立山線",
+    "lat": 36.573752,
+    "lon": 137.373843
+  },
+  {
+    "station_id": "toyama_0027",
+    "station_name": "千里",
+    "prefecture": "富山県",
+    "line_name": "JR高山本線",
+    "lat": 36.634678,
+    "lon": 137.132396
+  },
+  {
+    "station_id": "toyama_0072",
+    "station_name": "南富山",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道上滝線",
+    "lat": 36.670406,
+    "lon": 137.2205
+  },
+  {
+    "station_id": "toyama_0139",
+    "station_name": "南富山駅前",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.670484,
+    "lon": 137.22044
+  },
+  {
+    "station_id": "toyama_0055",
+    "station_name": "吉久",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.782018,
+    "lon": 137.056369
+  },
+  {
+    "station_id": "toyama_0185",
+    "station_name": "呉羽",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.718845,
+    "lon": 137.164874
+  },
+  {
+    "station_id": "toyama_0161",
+    "station_name": "国際会議場前",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.691654,
+    "lon": 137.21139
+  },
+  {
+    "station_id": "toyama_0151",
+    "station_name": "地鉄ビル前",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.698584,
+    "lon": 137.216105
+  },
+  {
+    "station_id": "toyama_0043",
+    "station_name": "坂下町",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.747367,
+    "lon": 137.014585
+  },
+  {
+    "station_id": "toyama_0065",
+    "station_name": "城川原",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.731103,
+    "lon": 137.226082
+  },
+  {
+    "station_id": "toyama_0014",
+    "station_name": "城端",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.522012,
+    "lon": 136.901673
+  },
+  {
+    "station_id": "toyama_0141",
+    "station_name": "堀川小泉",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.675647,
+    "lon": 137.219281
+  },
+  {
+    "station_id": "toyama_0081",
+    "station_name": "大川寺",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道上滝線",
+    "lat": 36.608322,
+    "lon": 137.308721
+  },
+  {
+    "station_id": "toyama_0079",
+    "station_name": "大庄",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道上滝線",
+    "lat": 36.619565,
+    "lon": 137.275618
+  },
+  {
+    "station_id": "toyama_0162",
+    "station_name": "大手モール",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.689388,
+    "lon": 137.211334
+  },
+  {
+    "station_id": "toyama_0086",
+    "station_name": "大泉(富山)",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道不二越線",
+    "lat": 36.677719,
+    "lon": 137.228979
+  },
+  {
+    "station_id": "toyama_0140",
+    "station_name": "大町",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.673066,
+    "lon": 137.220483
+  },
+  {
+    "station_id": "toyama_0061",
+    "station_name": "奥田中学校前",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.703522,
+    "lon": 137.223637
+  },
+  {
+    "station_id": "toyama_0029",
+    "station_name": "婦中鵜坂",
+    "prefecture": "富山県",
+    "line_name": "JR高山本線",
+    "lat": 36.676084,
+    "lon": 137.167625
+  },
+  {
+    "station_id": "toyama_0165",
+    "station_name": "宇奈月",
+    "prefecture": "富山県",
+    "line_name": "黒部峡谷鉄道",
+    "lat": 36.815038,
+    "lon": 137.58586
+  },
+  {
+    "station_id": "toyama_0126",
+    "station_name": "宇奈月温泉",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.815694,
+    "lon": 137.583541
+  },
+  {
+    "station_id": "toyama_0158",
+    "station_name": "安野屋",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.692838,
+    "lon": 137.201772
+  },
+  {
+    "station_id": "toyama_0031",
+    "station_name": "富山",
+    "prefecture": "富山県",
+    "line_name": "JR高山本線",
+    "lat": 36.701384,
+    "lon": 137.213091
+  },
+  {
+    "station_id": "toyama_0160",
+    "station_name": "富山大学前",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.698688,
+    "lon": 137.191129
+  },
+  {
+    "station_id": "toyama_0153",
+    "station_name": "富山駅",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.70161,
+    "lon": 137.21288
+  },
+  {
+    "station_id": "toyama_0093",
+    "station_name": "寺田",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.698852,
+    "lon": 137.319145
+  },
+  {
+    "station_id": "toyama_0075",
+    "station_name": "小杉",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道上滝線",
+    "lat": 36.649433,
+    "lon": 137.233164
+  },
+  {
+    "station_id": "toyama_0142",
+    "station_name": "小泉町(富山)",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.678745,
+    "lon": 137.217779
+  },
+  {
+    "station_id": "toyama_0082",
+    "station_name": "岩峅寺",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道上滝線",
+    "lat": 36.608214,
+    "lon": 137.319922
+  },
+  {
+    "station_id": "toyama_0071",
+    "station_name": "岩瀬浜",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.761212,
+    "lon": 137.23409
+  },
+  {
+    "station_id": "toyama_0020",
+    "station_name": "島尾",
+    "prefecture": "富山県",
+    "line_name": "JR氷見線",
+    "lat": 36.828423,
+    "lon": 137.01269
+  },
+  {
+    "station_id": "toyama_0047",
+    "station_name": "市民病院前",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.758196,
+    "lon": 137.0261
+  },
+  {
+    "station_id": "toyama_0076",
+    "station_name": "布市",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道上滝線",
+    "lat": 36.645178,
+    "lon": 137.235455
+  },
+  {
+    "station_id": "toyama_0045",
+    "station_name": "広小路(富山)",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.752566,
+    "lon": 137.020615
+  },
+  {
+    "station_id": "toyama_0144",
+    "station_name": "広貫堂前",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.683357,
+    "lon": 137.215934
+  },
+  {
+    "station_id": "toyama_0033",
+    "station_name": "庄川口",
+    "prefecture": "富山県",
+    "line_name": "万葉線新湊港線",
+    "lat": 36.784433,
+    "lon": 137.070729
+  },
+  {
+    "station_id": "toyama_0046",
+    "station_name": "志貴野中学校前",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.755648,
+    "lon": 137.023759
+  },
+  {
+    "station_id": "toyama_0044",
+    "station_name": "急患医療センター前",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.749761,
+    "lon": 137.017788
+  },
+  {
+    "station_id": "toyama_0123",
+    "station_name": "愛本",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.855975,
+    "lon": 137.553769
+  },
+  {
+    "station_id": "toyama_0005",
+    "station_name": "戸出",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.684323,
+    "lon": 136.983898
+  },
+  {
+    "station_id": "toyama_0054",
+    "station_name": "新吉久",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.776086,
+    "lon": 137.052839
+  },
+  {
+    "station_id": "toyama_0098",
+    "station_name": "新宮川",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.717292,
+    "lon": 137.351128
+  },
+  {
+    "station_id": "toyama_0184",
+    "station_name": "新富山口",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.719155,
+    "lon": 137.240256
+  },
+  {
+    "station_id": "toyama_0154",
+    "station_name": "新富町(富山)",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.69886,
+    "lon": 137.211256
+  },
+  {
+    "station_id": "toyama_0088",
+    "station_name": "新庄田中",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.697972,
+    "lon": 137.241417
+  },
+  {
+    "station_id": "toyama_0035",
+    "station_name": "新町口",
+    "prefecture": "富山県",
+    "line_name": "万葉線新湊港線",
+    "lat": 36.778983,
+    "lon": 137.084259
+  },
+  {
+    "station_id": "toyama_0096",
+    "station_name": "新相ノ木",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.703128,
+    "lon": 137.342278
+  },
+  {
+    "station_id": "toyama_0051",
+    "station_name": "新能町",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.770258,
+    "lon": 137.037713
+  },
+  {
+    "station_id": "toyama_0002",
+    "station_name": "新高岡",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.727004,
+    "lon": 137.010459
+  },
+  {
+    "station_id": "toyama_0109",
+    "station_name": "新魚津",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.82657,
+    "lon": 137.405459
+  },
+  {
+    "station_id": "toyama_0116",
+    "station_name": "新黒部",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.873163,
+    "lon": 137.480177
+  },
+  {
+    "station_id": "toyama_0105",
+    "station_name": "早月加積",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.784082,
+    "lon": 137.372079
+  },
+  {
+    "station_id": "toyama_0049",
+    "station_name": "旭ヶ丘",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.763965,
+    "lon": 137.032469
+  },
+  {
+    "station_id": "toyama_0078",
+    "station_name": "月岡(新潟)",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道上滝線",
+    "lat": 36.626475,
+    "lon": 137.263341
+  },
+  {
+    "station_id": "toyama_0136",
+    "station_name": "有峰口",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道立山線",
+    "lat": 36.573066,
+    "lon": 137.380218
+  },
+  {
+    "station_id": "toyama_0073",
+    "station_name": "朝菜町",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道上滝線",
+    "lat": 36.660579,
+    "lon": 137.224883
+  },
+  {
+    "station_id": "toyama_0041",
+    "station_name": "末広町(富山)",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.744825,
+    "lon": 137.013148
+  },
+  {
+    "station_id": "toyama_0137",
+    "station_name": "本宮",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道立山線",
+    "lat": 36.574919,
+    "lon": 137.395716
+  },
+  {
+    "station_id": "toyama_0113",
+    "station_name": "東三日市",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.874677,
+    "lon": 137.450908
+  },
+  {
+    "station_id": "toyama_0025",
+    "station_name": "東八尾",
+    "prefecture": "富山県",
+    "line_name": "JR高山本線",
+    "lat": 36.589645,
+    "lon": 137.174978
+  },
+  {
+    "station_id": "toyama_0183",
+    "station_name": "東富山",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.741589,
+    "lon": 137.248953
+  },
+  {
+    "station_id": "toyama_0069",
+    "station_name": "東岩瀬",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.751935,
+    "lon": 137.230479
+  },
+  {
+    "station_id": "toyama_0089",
+    "station_name": "東新庄",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.698644,
+    "lon": 137.253021
+  },
+  {
+    "station_id": "toyama_0037",
+    "station_name": "東新湊",
+    "prefecture": "富山県",
+    "line_name": "万葉線新湊港線",
+    "lat": 36.777825,
+    "lon": 137.099368
+  },
+  {
+    "station_id": "toyama_0180",
+    "station_name": "東滑川",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.787987,
+    "lon": 137.37805
+  },
+  {
+    "station_id": "toyama_0011",
+    "station_name": "東石黒",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.57605,
+    "lon": 136.898166
+  },
+  {
+    "station_id": "toyama_0008",
+    "station_name": "東野尻",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.618573,
+    "lon": 136.9435
+  },
+  {
+    "station_id": "toyama_0004",
+    "station_name": "林",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.704504,
+    "lon": 136.999379
+  },
+  {
+    "station_id": "toyama_0119",
+    "station_name": "栃屋",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.869788,
+    "lon": 137.505842
+  },
+  {
+    "station_id": "toyama_0084",
+    "station_name": "栄町(富山)",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道不二越線",
+    "lat": 36.691705,
+    "lon": 137.233423
+  },
+  {
+    "station_id": "toyama_0149",
+    "station_name": "桜橋(富山)",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.69461,
+    "lon": 137.215934
+  },
+  {
+    "station_id": "toyama_0023",
+    "station_name": "楡原",
+    "prefecture": "富山県",
+    "line_name": "JR高山本線",
+    "lat": 36.529323,
+    "lon": 137.22872
+  },
+  {
+    "station_id": "toyama_0130",
+    "station_name": "榎町",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道立山線",
+    "lat": 36.657559,
+    "lon": 137.316519
+  },
+  {
+    "station_id": "toyama_0134",
+    "station_name": "横江",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道立山線",
+    "lat": 36.582175,
+    "lon": 137.335605
+  },
+  {
+    "station_id": "toyama_0168",
+    "station_name": "欅平",
+    "prefecture": "富山県",
+    "line_name": "黒部峡谷鉄道",
+    "lat": 36.696732,
+    "lon": 137.658179
+  },
+  {
+    "station_id": "toyama_0182",
+    "station_name": "水橋",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.743454,
+    "lon": 137.298404
+  },
+  {
+    "station_id": "toyama_0021",
+    "station_name": "氷見",
+    "prefecture": "富山県",
+    "line_name": "JR氷見線",
+    "lat": 36.849899,
+    "lon": 136.990631
+  },
+  {
+    "station_id": "toyama_0048",
+    "station_name": "江尻",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.761501,
+    "lon": 137.029761
+  },
+  {
+    "station_id": "toyama_0133",
+    "station_name": "沢中山",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道立山線",
+    "lat": 36.622207,
+    "lon": 137.320972
+  },
+  {
+    "station_id": "toyama_0006",
+    "station_name": "油田",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.655124,
+    "lon": 136.970372
+  },
+  {
+    "station_id": "toyama_0174",
+    "station_name": "泊",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.951897,
+    "lon": 137.556179
+  },
+  {
+    "station_id": "toyama_0104",
+    "station_name": "浜加積",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.77743,
+    "lon": 137.361411
+  },
+  {
+    "station_id": "toyama_0120",
+    "station_name": "浦山",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.8634,
+    "lon": 137.519407
+  },
+  {
+    "station_id": "toyama_0038",
+    "station_name": "海王丸",
+    "prefecture": "富山県",
+    "line_name": "万葉線新湊港線",
+    "lat": 36.776726,
+    "lon": 137.105331
+  },
+  {
+    "station_id": "toyama_0103",
+    "station_name": "滑川",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.768955,
+    "lon": 137.348676
+  },
+  {
+    "station_id": "toyama_0042",
+    "station_name": "片原町(富山)",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.746389,
+    "lon": 137.012838
+  },
+  {
+    "station_id": "toyama_0066",
+    "station_name": "犬島新町",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.735445,
+    "lon": 137.22662
+  },
+  {
+    "station_id": "toyama_0022",
+    "station_name": "猪谷",
+    "prefecture": "富山県",
+    "line_name": "JR高山本線",
+    "lat": 36.471625,
+    "lon": 137.237975
+  },
+  {
+    "station_id": "toyama_0177",
+    "station_name": "生地",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.906031,
+    "lon": 137.426534
+  },
+  {
+    "station_id": "toyama_0128",
+    "station_name": "田添",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道立山線",
+    "lat": 36.679759,
+    "lon": 137.317768
+  },
+  {
+    "station_id": "toyama_0095",
+    "station_name": "相ノ木",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.701963,
+    "lon": 137.335472
+  },
+  {
+    "station_id": "toyama_0155",
+    "station_name": "県庁前(富山)",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.695728,
+    "lon": 137.20984
+  },
+  {
+    "station_id": "toyama_0191",
+    "station_name": "石動",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.672492,
+    "lon": 136.865859
+  },
+  {
+    "station_id": "toyama_0007",
+    "station_name": "砺波",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.636424,
+    "lon": 136.953648
+  },
+  {
+    "station_id": "toyama_0012",
+    "station_name": "福光",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.558121,
+    "lon": 136.878135
+  },
+  {
+    "station_id": "toyama_0190",
+    "station_name": "福岡",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.708239,
+    "lon": 136.932079
+  },
+  {
+    "station_id": "toyama_0010",
+    "station_name": "福野",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.588541,
+    "lon": 136.923166
+  },
+  {
+    "station_id": "toyama_0127",
+    "station_name": "稚子塚",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道立山線",
+    "lat": 36.686595,
+    "lon": 137.317515
+  },
+  {
+    "station_id": "toyama_0083",
+    "station_name": "稲荷町(富山)",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道不二越線",
+    "lat": 36.696597,
+    "lon": 137.231247
+  },
+  {
+    "station_id": "toyama_0138",
+    "station_name": "立山",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道立山線",
+    "lat": 36.583253,
+    "lon": 137.445234
+  },
+  {
+    "station_id": "toyama_0070",
+    "station_name": "競輪場前",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.757454,
+    "lon": 137.233907
+  },
+  {
+    "station_id": "toyama_0034",
+    "station_name": "第一イン新湊クロスベイ前",
+    "prefecture": "富山県",
+    "line_name": "万葉線新湊港線",
+    "lat": 36.780056,
+    "lon": 137.0753
+  },
+  {
+    "station_id": "toyama_0024",
+    "station_name": "笹津",
+    "prefecture": "富山県",
+    "line_name": "JR高山本線",
+    "lat": 36.562129,
+    "lon": 137.211437
+  },
+  {
+    "station_id": "toyama_0052",
+    "station_name": "米島口アルビス米島店前",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.773,
+    "lon": 137.038718
+  },
+  {
+    "station_id": "toyama_0063",
+    "station_name": "粟島",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.719391,
+    "lon": 137.224796
+  },
+  {
+    "station_id": "toyama_0110",
+    "station_name": "経田",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.848846,
+    "lon": 137.416203
+  },
+  {
+    "station_id": "toyama_0170",
+    "station_name": "美女平",
+    "prefecture": "富山県",
+    "line_name": "立山ケーブルカー",
+    "lat": 36.583399,
+    "lon": 137.458695
+  },
+  {
+    "station_id": "toyama_0016",
+    "station_name": "能町",
+    "prefecture": "富山県",
+    "line_name": "JR氷見線",
+    "lat": 36.768259,
+    "lon": 137.039885
+  },
+  {
+    "station_id": "toyama_0053",
+    "station_name": "能町口",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.773239,
+    "lon": 137.049031
+  },
+  {
+    "station_id": "toyama_0117",
+    "station_name": "舌山",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.87187,
+    "lon": 137.485948
+  },
+  {
+    "station_id": "toyama_0118",
+    "station_name": "若栗",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.871151,
+    "lon": 137.493175
+  },
+  {
+    "station_id": "toyama_0148",
+    "station_name": "荒町(富山)",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.691513,
+    "lon": 137.215805
+  },
+  {
+    "station_id": "toyama_0050",
+    "station_name": "荻布",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.76682,
+    "lon": 137.035619
+  },
+  {
+    "station_id": "toyama_0114",
+    "station_name": "荻生",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.875038,
+    "lon": 137.459221
+  },
+  {
+    "station_id": "toyama_0068",
+    "station_name": "萩浦小学校前",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.748602,
+    "lon": 137.228643
+  },
+  {
+    "station_id": "toyama_0067",
+    "station_name": "蓮町(馬場記念公園前)",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.742663,
+    "lon": 137.227463
+  },
+  {
+    "station_id": "toyama_0143",
+    "station_name": "西中野",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.680844,
+    "lon": 137.216663
+  },
+  {
+    "station_id": "toyama_0176",
+    "station_name": "西入善",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.930124,
+    "lon": 137.459298
+  },
+  {
+    "station_id": "toyama_0100",
+    "station_name": "西加積",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.746405,
+    "lon": 137.340139
+  },
+  {
+    "station_id": "toyama_0030",
+    "station_name": "西富山",
+    "prefecture": "富山県",
+    "line_name": "JR高山本線",
+    "lat": 36.699331,
+    "lon": 137.177029
+  },
+  {
+    "station_id": "toyama_0101",
+    "station_name": "西滑川",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.755579,
+    "lon": 137.334617
+  },
+  {
+    "station_id": "toyama_0146",
+    "station_name": "西町",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.689001,
+    "lon": 137.215676
+  },
+  {
+    "station_id": "toyama_0189",
+    "station_name": "西高岡",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.724295,
+    "lon": 136.965295
+  },
+  {
+    "station_id": "toyama_0107",
+    "station_name": "西魚津",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.803775,
+    "lon": 137.394653
+  },
+  {
+    "station_id": "toyama_0157",
+    "station_name": "諏訪川原",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.692322,
+    "lon": 137.206535
+  },
+  {
+    "station_id": "toyama_0039",
+    "station_name": "越ノ潟",
+    "prefecture": "富山県",
+    "line_name": "万葉線新湊港線",
+    "lat": 36.774704,
+    "lon": 137.111839
+  },
+  {
+    "station_id": "toyama_0091",
+    "station_name": "越中三郷",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.703309,
+    "lon": 137.290792
+  },
+  {
+    "station_id": "toyama_0064",
+    "station_name": "越中中島",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.722121,
+    "lon": 137.224844
+  },
+  {
+    "station_id": "toyama_0015",
+    "station_name": "越中中川",
+    "prefecture": "富山県",
+    "line_name": "JR氷見線",
+    "lat": 36.749764,
+    "lon": 137.027851
+  },
+  {
+    "station_id": "toyama_0106",
+    "station_name": "越中中村",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.790673,
+    "lon": 137.382688
+  },
+  {
+    "station_id": "toyama_0026",
+    "station_name": "越中八尾",
+    "prefecture": "富山県",
+    "line_name": "JR高山本線",
+    "lat": 36.591391,
+    "lon": 137.138379
+  },
+  {
+    "station_id": "toyama_0018",
+    "station_name": "越中国分",
+    "prefecture": "富山県",
+    "line_name": "JR氷見線",
+    "lat": 36.805361,
+    "lon": 137.050729
+  },
+  {
+    "station_id": "toyama_0187",
+    "station_name": "越中大門",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.733818,
+    "lon": 137.055904
+  },
+  {
+    "station_id": "toyama_0173",
+    "station_name": "越中宮崎",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.973863,
+    "lon": 137.599423
+  },
+  {
+    "station_id": "toyama_0013",
+    "station_name": "越中山田",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.538513,
+    "lon": 136.887522
+  },
+  {
+    "station_id": "toyama_0094",
+    "station_name": "越中泉",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.699905,
+    "lon": 137.327245
+  },
+  {
+    "station_id": "toyama_0092",
+    "station_name": "越中舟橋",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.705725,
+    "lon": 137.306632
+  },
+  {
+    "station_id": "toyama_0090",
+    "station_name": "越中荏原",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.698978,
+    "lon": 137.266222
+  },
+  {
+    "station_id": "toyama_0028",
+    "station_name": "速星",
+    "prefecture": "富山県",
+    "line_name": "JR高山本線",
+    "lat": 36.664135,
+    "lon": 137.160428
+  },
+  {
+    "station_id": "toyama_0132",
+    "station_name": "釜ヶ淵",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道立山線",
+    "lat": 36.633317,
+    "lon": 137.319288
+  },
+  {
+    "station_id": "toyama_0167",
+    "station_name": "鐘釣",
+    "prefecture": "富山県",
+    "line_name": "黒部峡谷鉄道",
+    "lat": 36.734378,
+    "lon": 137.651315
+  },
+  {
+    "station_id": "toyama_0115",
+    "station_name": "長屋",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.873678,
+    "lon": 137.470803
+  },
+  {
+    "station_id": "toyama_0077",
+    "station_name": "開発",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道上滝線",
+    "lat": 36.636207,
+    "lon": 137.242854
+  },
+  {
+    "station_id": "toyama_0019",
+    "station_name": "雨晴",
+    "prefecture": "富山県",
+    "line_name": "JR氷見線",
+    "lat": 36.816484,
+    "lon": 137.037583
+  },
+  {
+    "station_id": "toyama_0150",
+    "station_name": "電気ビル前",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.697432,
+    "lon": 137.216105
+  },
+  {
+    "station_id": "toyama_0087",
+    "station_name": "電鉄富山",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.700757,
+    "lon": 137.214163
+  },
+  {
+    "station_id": "toyama_0152",
+    "station_name": "電鉄富山駅・エスタ前",
+    "prefecture": "富山県",
+    "line_name": "富山地鉄市内線",
+    "lat": 36.700236,
+    "lon": 137.213316
+  },
+  {
+    "station_id": "toyama_0111",
+    "station_name": "電鉄石田",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.865928,
+    "lon": 137.423194
+  },
+  {
+    "station_id": "toyama_0108",
+    "station_name": "電鉄魚津",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.815113,
+    "lon": 137.400288
+  },
+  {
+    "station_id": "toyama_0112",
+    "station_name": "電鉄黒部",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.874091,
+    "lon": 137.444125
+  },
+  {
+    "station_id": "toyama_0125",
+    "station_name": "音沢",
+    "prefecture": "富山県",
+    "line_name": "富山地方鉄道本線",
+    "lat": 36.840716,
+    "lon": 137.559833
+  },
+  {
+    "station_id": "toyama_0009",
+    "station_name": "高儀",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.606697,
+    "lon": 136.936007
+  },
+  {
+    "station_id": "toyama_0001",
+    "station_name": "高岡",
+    "prefecture": "富山県",
+    "line_name": "JR城端線",
+    "lat": 36.740948,
+    "lon": 137.015274
+  },
+  {
+    "station_id": "toyama_0188",
+    "station_name": "高岡やぶなみ",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.737246,
+    "lon": 136.988638
+  },
+  {
+    "station_id": "toyama_0040",
+    "station_name": "高岡駅",
+    "prefecture": "富山県",
+    "line_name": "万葉線高岡軌道線",
+    "lat": 36.742173,
+    "lon": 137.014722
+  },
+  {
+    "station_id": "toyama_0179",
+    "station_name": "魚津",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.82642,
+    "lon": 137.405693
+  },
+  {
+    "station_id": "toyama_0166",
+    "station_name": "黒薙",
+    "prefecture": "富山県",
+    "line_name": "黒部峡谷鉄道",
+    "lat": 36.786638,
+    "lon": 137.624738
+  },
+  {
+    "station_id": "toyama_0178",
+    "station_name": "黒部",
+    "prefecture": "富山県",
+    "line_name": "あいの風とやま鉄道線",
+    "lat": 36.869322,
+    "lon": 137.434393
+  },
+  {
+    "station_id": "toyama_0164",
+    "station_name": "黒部宇奈月温泉",
+    "prefecture": "富山県",
+    "line_name": "北陸新幹線",
+    "lat": 36.874232,
+    "lon": 137.481326
+  },
+  {
+    "station_id": "toyama_0172",
+    "station_name": "黒部平",
+    "prefecture": "富山県",
+    "line_name": "黒部ケーブルカー",
+    "lat": 36.566999,
+    "lon": 137.650274
+  },
+  {
+    "station_id": "toyama_0171",
+    "station_name": "黒部湖",
+    "prefecture": "富山県",
+    "line_name": "黒部ケーブルカー",
+    "lat": 36.566585,
+    "lon": 137.658591
+  },
+  {
+    "station_id": "toyama_0060",
+    "station_name": "龍谷富山高校前",
+    "prefecture": "富山県",
+    "line_name": "富山ライトレール",
+    "lat": 36.702979,
+    "lon": 137.219736
+  }
+]

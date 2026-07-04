@@ -77,21 +77,20 @@ description: map-lgb-fond 不動産価格予測アプリ専用のプロジェク
 基本コマンド:
 
 ```bash
-cd training
-uv run python -m src.export.stations --public-dir ../frontend/public --regions tokyo saitama chiba kanagawa
+make stations-national
 ```
 
 `uv` が使えない場合:
 
 ```bash
 cd training
-.venv/bin/python -m src.export.stations --public-dir ../frontend/public --regions tokyo saitama chiba kanagawa
+.venv/bin/python -m src.export.stations --public-dir ../frontend/public
 ```
 
 更新後に確認すること:
 
 - `frontend/public/stations/{region}_stations.json` の件数が空でないこと。
-- 東京、埼玉、千葉、神奈川の県境をまたいでも最寄駅と駅徒歩が更新されること。
+- 首都圏に加え、北海道、東北、近畿、九州・沖縄でも最寄駅と駅徒歩が更新されること。
 - 駅徒歩は距離kmではなく徒歩分で扱う。直線距離の簡易補正込みで60m=1分、切り上げで算出する。
 - `cd frontend && npm run build` が通ること。
 

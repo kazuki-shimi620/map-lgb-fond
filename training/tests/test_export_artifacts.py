@@ -1,7 +1,14 @@
 import hashlib
 import json
 
-from export.artifacts import CAPITAL_REGION_PRIORITY, update_model_manifest
+import pandas as pd
+
+from export.artifacts import (
+    CAPITAL_REGION_PRIORITY,
+    build_price_history,
+    copy_for_frontend,
+    update_model_manifest,
+)
 
 
 def test_update_model_manifest_records_hash_size_and_priority(tmp_path):
@@ -22,3 +29,38 @@ def test_update_model_manifest_records_hash_size_and_priority(tmp_path):
         "version": hashlib.sha256(tokyo_model).hexdigest(),
         "bytes": len(tokyo_model),
     }
+
+
+def test_price_history_keeps_prefecture_for_regional_models():
+    dataframe = pd.DataFrame(
+        [
+            {"prefecture": "大阪府", "station": "大阪", "transaction_year": 2025, "price": 1.0},
+            {"prefecture": "大阪府", "station": "大阪", "transaction_year": 2025, "price": 3.0},
+            {"prefecture": "兵庫県", "station": "大阪", "transaction_year": 2025, "price": 9.0},
+        ]
+    )
+
+    assert build_price_history(dataframe) == [
+        {"prefecture": "兵庫県", "station": "大阪", "year": 2025, "avg_price": 9.0},
+        {"prefecture": "大阪府", "station": "大阪", "year": 2025, "avg_price": 2.0},
+    ]
+
+
+def test_copy_for_frontend_can_skip_combined_regional_history(tmp_path):
+    source_dir = tmp_path / "source"
+    source_dir.mkdir()
+    paths = {}
+    for key, suffix in {
+        "onnx": ".onnx",
+        "categories": "_categories.json",
+        "metadata": "_metadata.json",
+        "history": "_history.json",
+    }.items():
+        paths[key] = source_dir / f"model{suffix}"
+        paths[key].write_text(key, encoding="utf-8")
+
+    public_dir = tmp_path / "public"
+    copy_for_frontend(paths, public_dir, "regional_kinki", include_history=False)
+
+    assert (public_dir / "models" / "regional_kinki_latest.onnx").exists()
+    assert not (public_dir / "histories" / "regional_kinki_latest_history.json").exists()

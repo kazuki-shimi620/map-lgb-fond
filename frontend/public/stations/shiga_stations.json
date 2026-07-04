@@ -1,0 +1,962 @@
+[
+  {
+    "station_id": "shiga_0029",
+    "station_name": "おごと温泉",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.097425,
+    "lon": 135.895046
+  },
+  {
+    "station_id": "shiga_0107",
+    "station_name": "ひこね芹川",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.262195,
+    "lon": 136.260939
+  },
+  {
+    "station_id": "shiga_0062",
+    "station_name": "びわ湖浜大津",
+    "prefecture": "滋賀県",
+    "line_name": "京阪京津線",
+    "lat": 35.011283,
+    "lon": 135.863982
+  },
+  {
+    "station_id": "shiga_0090",
+    "station_name": "ほうらい丘",
+    "prefecture": "滋賀県",
+    "line_name": "比叡山鉄道線",
+    "lat": 35.068354,
+    "lon": 135.861192
+  },
+  {
+    "station_id": "shiga_0091",
+    "station_name": "もたて山",
+    "prefecture": "滋賀県",
+    "line_name": "比叡山鉄道線",
+    "lat": 35.067541,
+    "lon": 135.848009
+  },
+  {
+    "station_id": "shiga_0089",
+    "station_name": "ケーブル坂本",
+    "prefecture": "滋賀県",
+    "line_name": "比叡山鉄道線",
+    "lat": 35.069677,
+    "lon": 135.863956
+  },
+  {
+    "station_id": "shiga_0092",
+    "station_name": "ケーブル延暦寺",
+    "prefecture": "滋賀県",
+    "line_name": "比叡山鉄道線",
+    "lat": 35.066551,
+    "lon": 135.843982
+  },
+  {
+    "station_id": "shiga_0101",
+    "station_name": "スクリーン",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道多賀線",
+    "lat": 35.233264,
+    "lon": 136.267258
+  },
+  {
+    "station_id": "shiga_0104",
+    "station_name": "フジテック前",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.294672,
+    "lon": 136.285465
+  },
+  {
+    "station_id": "shiga_0015",
+    "station_name": "マキノ",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.461437,
+    "lon": 136.05978
+  },
+  {
+    "station_id": "shiga_0074",
+    "station_name": "三井寺",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 35.012891,
+    "lon": 135.859793
+  },
+  {
+    "station_id": "shiga_0055",
+    "station_name": "三雲",
+    "prefecture": "滋賀県",
+    "line_name": "JR草津線",
+    "lat": 34.983131,
+    "lon": 136.117777
+  },
+  {
+    "station_id": "shiga_0061",
+    "station_name": "上栄町",
+    "prefecture": "滋賀県",
+    "line_name": "京阪京津線",
+    "lat": 35.00515,
+    "lon": 135.860152
+  },
+  {
+    "station_id": "shiga_0068",
+    "station_name": "中ノ庄",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 34.990857,
+    "lon": 135.891516
+  },
+  {
+    "station_id": "shiga_0112",
+    "station_name": "五箇荘",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.154476,
+    "lon": 136.197146
+  },
+  {
+    "station_id": "shiga_0116",
+    "station_name": "京セラ前",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.074748,
+    "lon": 136.180382
+  },
+  {
+    "station_id": "shiga_0076",
+    "station_name": "京阪大津京",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 35.02274,
+    "lon": 135.855521
+  },
+  {
+    "station_id": "shiga_0065",
+    "station_name": "京阪石山",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 34.978937,
+    "lon": 135.901289
+  },
+  {
+    "station_id": "shiga_0071",
+    "station_name": "京阪膳所",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 34.999823,
+    "lon": 135.880833
+  },
+  {
+    "station_id": "shiga_0002",
+    "station_name": "余呉",
+    "prefecture": "滋賀県",
+    "line_name": "JR北陸本線",
+    "lat": 35.53382,
+    "lon": 136.197591
+  },
+  {
+    "station_id": "shiga_0088",
+    "station_name": "信楽",
+    "prefecture": "滋賀県",
+    "line_name": "信楽高原鐵道",
+    "lat": 34.87713,
+    "lon": 136.061317
+  },
+  {
+    "station_id": "shiga_0093",
+    "station_name": "八日市",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道八日市線",
+    "lat": 35.114264,
+    "lon": 136.194582
+  },
+  {
+    "station_id": "shiga_0086",
+    "station_name": "勅旨",
+    "prefecture": "滋賀県",
+    "line_name": "信楽高原鐵道",
+    "lat": 34.893681,
+    "lon": 136.073102
+  },
+  {
+    "station_id": "shiga_0021",
+    "station_name": "北小松",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.253384,
+    "lon": 135.970293
+  },
+  {
+    "station_id": "shiga_0034",
+    "station_name": "南彦根",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.246097,
+    "lon": 136.248
+  },
+  {
+    "station_id": "shiga_0078",
+    "station_name": "南滋賀",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 35.036691,
+    "lon": 135.85747
+  },
+  {
+    "station_id": "shiga_0045",
+    "station_name": "南草津",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.003855,
+    "lon": 135.947362
+  },
+  {
+    "station_id": "shiga_0026",
+    "station_name": "和邇",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.161588,
+    "lon": 135.922348
+  },
+  {
+    "station_id": "shiga_0031",
+    "station_name": "唐崎",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.049795,
+    "lon": 135.866969
+  },
+  {
+    "station_id": "shiga_0064",
+    "station_name": "唐橋前",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 34.973304,
+    "lon": 135.90297
+  },
+  {
+    "station_id": "shiga_0082",
+    "station_name": "坂本比叡山口",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 35.070592,
+    "lon": 135.871268
+  },
+  {
+    "station_id": "shiga_0009",
+    "station_name": "坂田",
+    "prefecture": "滋賀県",
+    "line_name": "JR北陸本線",
+    "lat": 35.335777,
+    "lon": 136.287743
+  },
+  {
+    "station_id": "shiga_0028",
+    "station_name": "堅田",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.12094,
+    "lon": 135.915107
+  },
+  {
+    "station_id": "shiga_0102",
+    "station_name": "多賀大社前",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道多賀線",
+    "lat": 35.226442,
+    "lon": 136.284077
+  },
+  {
+    "station_id": "shiga_0115",
+    "station_name": "大学前",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.087733,
+    "lon": 136.184698
+  },
+  {
+    "station_id": "shiga_0049",
+    "station_name": "大津",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.002997,
+    "lon": 135.864651
+  },
+  {
+    "station_id": "shiga_0032",
+    "station_name": "大津京",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.024428,
+    "lon": 135.857268
+  },
+  {
+    "station_id": "shiga_0075",
+    "station_name": "大津市役所前",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 35.018335,
+    "lon": 135.855463
+  },
+  {
+    "station_id": "shiga_0060",
+    "station_name": "大谷",
+    "prefecture": "滋賀県",
+    "line_name": "京阪京津線",
+    "lat": 34.994129,
+    "lon": 135.854116
+  },
+  {
+    "station_id": "shiga_0095",
+    "station_name": "太郎坊宮前",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道八日市線",
+    "lat": 35.108608,
+    "lon": 136.183958
+  },
+  {
+    "station_id": "shiga_0042",
+    "station_name": "守山(滋賀)",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.050513,
+    "lon": 135.996037
+  },
+  {
+    "station_id": "shiga_0038",
+    "station_name": "安土",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.142465,
+    "lon": 136.1335
+  },
+  {
+    "station_id": "shiga_0019",
+    "station_name": "安曇川",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.32842,
+    "lon": 136.019887
+  },
+  {
+    "station_id": "shiga_0052",
+    "station_name": "寺庄",
+    "prefecture": "滋賀県",
+    "line_name": "JR草津線",
+    "lat": 34.919078,
+    "lon": 136.185892
+  },
+  {
+    "station_id": "shiga_0027",
+    "station_name": "小野(京都)",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.138832,
+    "lon": 135.922642
+  },
+  {
+    "station_id": "shiga_0109",
+    "station_name": "尼子",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.213967,
+    "lon": 136.246148
+  },
+  {
+    "station_id": "shiga_0073",
+    "station_name": "島ノ関",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 35.007703,
+    "lon": 135.870937
+  },
+  {
+    "station_id": "shiga_0096",
+    "station_name": "市辺",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道八日市線",
+    "lat": 35.103848,
+    "lon": 136.165641
+  },
+  {
+    "station_id": "shiga_0097",
+    "station_name": "平田",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道八日市線",
+    "lat": 35.11023,
+    "lon": 136.146612
+  },
+  {
+    "station_id": "shiga_0033",
+    "station_name": "彦根",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.272216,
+    "lon": 136.263347
+  },
+  {
+    "station_id": "shiga_0108",
+    "station_name": "彦根口",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.254741,
+    "lon": 136.25826
+  },
+  {
+    "station_id": "shiga_0024",
+    "station_name": "志賀",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.202348,
+    "lon": 135.924987
+  },
+  {
+    "station_id": "shiga_0111",
+    "station_name": "愛知川",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.176119,
+    "lon": 136.213378
+  },
+  {
+    "station_id": "shiga_0058",
+    "station_name": "手原",
+    "prefecture": "滋賀県",
+    "line_name": "JR草津線",
+    "lat": 35.027347,
+    "lon": 135.999237
+  },
+  {
+    "station_id": "shiga_0094",
+    "station_name": "新八日市",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道八日市線",
+    "lat": 35.110356,
+    "lon": 136.191141
+  },
+  {
+    "station_id": "shiga_0018",
+    "station_name": "新旭",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.355902,
+    "lon": 136.035796
+  },
+  {
+    "station_id": "shiga_0120",
+    "station_name": "日野",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.012203,
+    "lon": 136.219457
+  },
+  {
+    "station_id": "shiga_0118",
+    "station_name": "朝日大塚",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.05106,
+    "lon": 136.193568
+  },
+  {
+    "station_id": "shiga_0119",
+    "station_name": "朝日野",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.03154,
+    "lon": 136.20572
+  },
+  {
+    "station_id": "shiga_0003",
+    "station_name": "木ノ本",
+    "prefecture": "滋賀県",
+    "line_name": "JR北陸本線",
+    "lat": 35.505933,
+    "lon": 136.221706
+  },
+  {
+    "station_id": "shiga_0081",
+    "station_name": "松ノ馬場",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 35.065348,
+    "lon": 135.870241
+  },
+  {
+    "station_id": "shiga_0011",
+    "station_name": "柏原(大阪)",
+    "prefecture": "滋賀県",
+    "line_name": "JR東海道本線",
+    "lat": 35.344592,
+    "lon": 136.402767
+  },
+  {
+    "station_id": "shiga_0043",
+    "station_name": "栗東",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.037448,
+    "lon": 135.980083
+  },
+  {
+    "station_id": "shiga_0117",
+    "station_name": "桜川(大阪)",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.065052,
+    "lon": 136.187488
+  },
+  {
+    "station_id": "shiga_0098",
+    "station_name": "武佐",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道八日市線",
+    "lat": 35.114894,
+    "lon": 136.130692
+  },
+  {
+    "station_id": "shiga_0030",
+    "station_name": "比叡山坂本",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.070403,
+    "lon": 135.878259
+  },
+  {
+    "station_id": "shiga_0023",
+    "station_name": "比良(滋賀)",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.219918,
+    "lon": 135.944198
+  },
+  {
+    "station_id": "shiga_0122",
+    "station_name": "水口",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 34.974238,
+    "lon": 136.17683
+  },
+  {
+    "station_id": "shiga_0124",
+    "station_name": "水口城南",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 34.968181,
+    "lon": 136.165648
+  },
+  {
+    "station_id": "shiga_0121",
+    "station_name": "水口松尾",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 34.980224,
+    "lon": 136.18644
+  },
+  {
+    "station_id": "shiga_0123",
+    "station_name": "水口石橋",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 34.970072,
+    "lon": 136.171625
+  },
+  {
+    "station_id": "shiga_0014",
+    "station_name": "永原",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.498857,
+    "lon": 136.122326
+  },
+  {
+    "station_id": "shiga_0005",
+    "station_name": "河毛",
+    "prefecture": "滋賀県",
+    "line_name": "JR北陸本線",
+    "lat": 35.448425,
+    "lon": 136.249519
+  },
+  {
+    "station_id": "shiga_0035",
+    "station_name": "河瀬",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.225384,
+    "lon": 136.225285
+  },
+  {
+    "station_id": "shiga_0113",
+    "station_name": "河辺の森",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.135353,
+    "lon": 136.196218
+  },
+  {
+    "station_id": "shiga_0050",
+    "station_name": "油日",
+    "prefecture": "滋賀県",
+    "line_name": "JR草津線",
+    "lat": 34.889691,
+    "lon": 136.22953
+  },
+  {
+    "station_id": "shiga_0079",
+    "station_name": "滋賀里",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 35.043402,
+    "lon": 135.858994
+  },
+  {
+    "station_id": "shiga_0046",
+    "station_name": "瀬田(滋賀)",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 34.987223,
+    "lon": 135.925673
+  },
+  {
+    "station_id": "shiga_0087",
+    "station_name": "玉桂寺前",
+    "prefecture": "滋賀県",
+    "line_name": "信楽高原鐵道",
+    "lat": 34.885257,
+    "lon": 136.06938
+  },
+  {
+    "station_id": "shiga_0067",
+    "station_name": "瓦ケ浜",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 34.988266,
+    "lon": 135.894696
+  },
+  {
+    "station_id": "shiga_0008",
+    "station_name": "田村",
+    "prefecture": "滋賀県",
+    "line_name": "JR北陸本線",
+    "lat": 35.356307,
+    "lon": 136.281813
+  },
+  {
+    "station_id": "shiga_0053",
+    "station_name": "甲南",
+    "prefecture": "滋賀県",
+    "line_name": "JR草津線",
+    "lat": 34.931804,
+    "lon": 136.16899
+  },
+  {
+    "station_id": "shiga_0056",
+    "station_name": "甲西",
+    "prefecture": "滋賀県",
+    "line_name": "JR草津線",
+    "lat": 35.000651,
+    "lon": 136.08236
+  },
+  {
+    "station_id": "shiga_0051",
+    "station_name": "甲賀",
+    "prefecture": "滋賀県",
+    "line_name": "JR草津線",
+    "lat": 34.9013,
+    "lon": 136.212679
+  },
+  {
+    "station_id": "shiga_0072",
+    "station_name": "石場",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 35.004722,
+    "lon": 135.875606
+  },
+  {
+    "station_id": "shiga_0047",
+    "station_name": "石山",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 34.97987,
+    "lon": 135.900228
+  },
+  {
+    "station_id": "shiga_0063",
+    "station_name": "石山寺",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 34.967122,
+    "lon": 135.90347
+  },
+  {
+    "station_id": "shiga_0057",
+    "station_name": "石部",
+    "prefecture": "滋賀県",
+    "line_name": "JR草津線",
+    "lat": 35.017685,
+    "lon": 136.052963
+  },
+  {
+    "station_id": "shiga_0036",
+    "station_name": "稲枝",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.203312,
+    "lon": 136.194469
+  },
+  {
+    "station_id": "shiga_0080",
+    "station_name": "穴太",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 35.055675,
+    "lon": 135.864755
+  },
+  {
+    "station_id": "shiga_0040",
+    "station_name": "篠原(滋賀)",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.099203,
+    "lon": 136.071679
+  },
+  {
+    "station_id": "shiga_0010",
+    "station_name": "米原",
+    "prefecture": "滋賀県",
+    "line_name": "JR北陸本線",
+    "lat": 35.314657,
+    "lon": 136.289992
+  },
+  {
+    "station_id": "shiga_0066",
+    "station_name": "粟津(滋賀)",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 34.984789,
+    "lon": 135.895607
+  },
+  {
+    "station_id": "shiga_0084",
+    "station_name": "紫香楽宮跡",
+    "prefecture": "滋賀県",
+    "line_name": "信楽高原鐵道",
+    "lat": 34.915741,
+    "lon": 136.087967
+  },
+  {
+    "station_id": "shiga_0037",
+    "station_name": "能登川",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.179897,
+    "lon": 136.165987
+  },
+  {
+    "station_id": "shiga_0048",
+    "station_name": "膳所",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 34.999373,
+    "lon": 135.880539
+  },
+  {
+    "station_id": "shiga_0069",
+    "station_name": "膳所本町",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 34.995335,
+    "lon": 135.889249
+  },
+  {
+    "station_id": "shiga_0044",
+    "station_name": "草津(滋賀)",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.022913,
+    "lon": 135.962744
+  },
+  {
+    "station_id": "shiga_0025",
+    "station_name": "蓬莱",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.182594,
+    "lon": 135.915443
+  },
+  {
+    "station_id": "shiga_0006",
+    "station_name": "虎姫",
+    "prefecture": "滋賀県",
+    "line_name": "JR北陸本線",
+    "lat": 35.424539,
+    "lon": 136.257385
+  },
+  {
+    "station_id": "shiga_0110",
+    "station_name": "豊郷",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.197863,
+    "lon": 136.230946
+  },
+  {
+    "station_id": "shiga_0054",
+    "station_name": "貴生川",
+    "prefecture": "滋賀県",
+    "line_name": "JR草津線",
+    "lat": 34.952236,
+    "lon": 136.153806
+  },
+  {
+    "station_id": "shiga_0016",
+    "station_name": "近江中庄",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.441648,
+    "lon": 136.038374
+  },
+  {
+    "station_id": "shiga_0017",
+    "station_name": "近江今津",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.396864,
+    "lon": 136.031882
+  },
+  {
+    "station_id": "shiga_0039",
+    "station_name": "近江八幡",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.122765,
+    "lon": 136.102715
+  },
+  {
+    "station_id": "shiga_0001",
+    "station_name": "近江塩津",
+    "prefecture": "滋賀県",
+    "line_name": "JR北陸本線",
+    "lat": 35.53978,
+    "lon": 136.151236
+  },
+  {
+    "station_id": "shiga_0077",
+    "station_name": "近江神宮前",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 35.028194,
+    "lon": 135.855807
+  },
+  {
+    "station_id": "shiga_0022",
+    "station_name": "近江舞子",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.236342,
+    "lon": 135.959294
+  },
+  {
+    "station_id": "shiga_0012",
+    "station_name": "近江長岡",
+    "prefecture": "滋賀県",
+    "line_name": "JR東海道本線",
+    "lat": 35.359307,
+    "lon": 136.373775
+  },
+  {
+    "station_id": "shiga_0020",
+    "station_name": "近江高島",
+    "prefecture": "滋賀県",
+    "line_name": "JR湖西線",
+    "lat": 35.292657,
+    "lon": 136.010374
+  },
+  {
+    "station_id": "shiga_0059",
+    "station_name": "追分(三重)",
+    "prefecture": "滋賀県",
+    "line_name": "京阪京津線",
+    "lat": 34.991445,
+    "lon": 135.837528
+  },
+  {
+    "station_id": "shiga_0013",
+    "station_name": "醒ヶ井",
+    "prefecture": "滋賀県",
+    "line_name": "JR東海道本線",
+    "lat": 35.327664,
+    "lon": 136.345135
+  },
+  {
+    "station_id": "shiga_0041",
+    "station_name": "野洲",
+    "prefecture": "滋賀県",
+    "line_name": "JR琵琶湖線",
+    "lat": 35.068509,
+    "lon": 136.022487
+  },
+  {
+    "station_id": "shiga_0070",
+    "station_name": "錦",
+    "prefecture": "滋賀県",
+    "line_name": "京阪石山坂本線",
+    "lat": 34.997587,
+    "lon": 135.885649
+  },
+  {
+    "station_id": "shiga_0007",
+    "station_name": "長浜",
+    "prefecture": "滋賀県",
+    "line_name": "JR北陸本線",
+    "lat": 35.378828,
+    "lon": 136.264901
+  },
+  {
+    "station_id": "shiga_0114",
+    "station_name": "長谷野",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.095626,
+    "lon": 136.187561
+  },
+  {
+    "station_id": "shiga_0085",
+    "station_name": "雲井",
+    "prefecture": "滋賀県",
+    "line_name": "信楽高原鐵道",
+    "lat": 34.911249,
+    "lon": 136.084317
+  },
+  {
+    "station_id": "shiga_0100",
+    "station_name": "高宮",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道多賀線",
+    "lat": 35.236266,
+    "lon": 136.260524
+  },
+  {
+    "station_id": "shiga_0004",
+    "station_name": "高月",
+    "prefecture": "滋賀県",
+    "line_name": "JR北陸本線",
+    "lat": 35.470337,
+    "lon": 136.237716
+  },
+  {
+    "station_id": "shiga_0105",
+    "station_name": "鳥居本",
+    "prefecture": "滋賀県",
+    "line_name": "近江鉄道本線",
+    "lat": 35.284788,
+    "lon": 136.283031
+  }
+]

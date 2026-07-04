@@ -1,0 +1,1258 @@
+[
+  {
+    "station_id": "kumamoto_0076",
+    "station_name": "あさぎり",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.236191,
+    "lon": 130.893783
+  },
+  {
+    "station_id": "kumamoto_0030",
+    "station_name": "いこいの村",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.93659,
+    "lon": 131.094666
+  },
+  {
+    "station_id": "kumamoto_0075",
+    "station_name": "おかどめ幸福",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.231011,
+    "lon": 130.873629
+  },
+  {
+    "station_id": "kumamoto_0152",
+    "station_name": "たのうら御立岬公園",
+    "prefecture": "熊本県",
+    "line_name": "肥薩おれんじ鉄道線",
+    "lat": 32.363202,
+    "lon": 130.506705
+  },
+  {
+    "station_id": "kumamoto_0020",
+    "station_name": "一勝地",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.250231,
+    "lon": 130.652399
+  },
+  {
+    "station_id": "kumamoto_0073",
+    "station_name": "一武",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.214551,
+    "lon": 130.839915
+  },
+  {
+    "station_id": "kumamoto_0143",
+    "station_name": "三ツ石",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.864265,
+    "lon": 130.738378
+  },
+  {
+    "station_id": "kumamoto_0009",
+    "station_name": "三角",
+    "prefecture": "熊本県",
+    "line_name": "JR三角線",
+    "lat": 32.607616,
+    "lon": 130.469872
+  },
+  {
+    "station_id": "kumamoto_0039",
+    "station_name": "三里木",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.861634,
+    "lon": 130.796321
+  },
+  {
+    "station_id": "kumamoto_0060",
+    "station_name": "上熊本(市電)",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.817305,
+    "lon": 130.698831
+  },
+  {
+    "station_id": "kumamoto_0151",
+    "station_name": "上田浦",
+    "prefecture": "熊本県",
+    "line_name": "肥薩おれんじ鉄道線",
+    "lat": 32.392952,
+    "lon": 130.5186
+  },
+  {
+    "station_id": "kumamoto_0090",
+    "station_name": "中松",
+    "prefecture": "熊本県",
+    "line_name": "南阿蘇鉄道",
+    "lat": 32.827381,
+    "lon": 131.053594
+  },
+  {
+    "station_id": "kumamoto_0123",
+    "station_name": "九品寺交差点",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電水前寺線",
+    "lat": 32.799576,
+    "lon": 130.7178
+  },
+  {
+    "station_id": "kumamoto_0138",
+    "station_name": "亀井",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.837414,
+    "lon": 130.72224
+  },
+  {
+    "station_id": "kumamoto_0128",
+    "station_name": "二本木口",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電田崎線",
+    "lat": 32.786986,
+    "lon": 130.689368
+  },
+  {
+    "station_id": "kumamoto_0124",
+    "station_name": "交通局前(熊本)",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電水前寺線",
+    "lat": 32.797664,
+    "lon": 130.719945
+  },
+  {
+    "station_id": "kumamoto_0024",
+    "station_name": "人吉",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.216142,
+    "lon": 130.753797
+  },
+  {
+    "station_id": "kumamoto_0069",
+    "station_name": "人吉温泉",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.216142,
+    "lon": 130.753797
+  },
+  {
+    "station_id": "kumamoto_0003",
+    "station_name": "住吉(長崎)",
+    "prefecture": "熊本県",
+    "line_name": "JR三角線",
+    "lat": 32.702066,
+    "lon": 130.597963
+  },
+  {
+    "station_id": "kumamoto_0155",
+    "station_name": "佐敷",
+    "prefecture": "熊本県",
+    "line_name": "肥薩おれんじ鉄道線",
+    "lat": 32.302447,
+    "lon": 130.497277
+  },
+  {
+    "station_id": "kumamoto_0112",
+    "station_name": "健軍交番前",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電健軍線",
+    "lat": 32.779463,
+    "lon": 130.757668
+  },
+  {
+    "station_id": "kumamoto_0110",
+    "station_name": "健軍校前",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電健軍線",
+    "lat": 32.781917,
+    "lon": 130.750952
+  },
+  {
+    "station_id": "kumamoto_0113",
+    "station_name": "健軍町",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電健軍線",
+    "lat": 32.778381,
+    "lon": 130.761209
+  },
+  {
+    "station_id": "kumamoto_0040",
+    "station_name": "光の森",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.857834,
+    "lon": 130.786722
+  },
+  {
+    "station_id": "kumamoto_0108",
+    "station_name": "八丁馬場",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電健軍線",
+    "lat": 32.783739,
+    "lon": 130.741746
+  },
+  {
+    "station_id": "kumamoto_0010",
+    "station_name": "八代",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.503805,
+    "lon": 130.621609
+  },
+  {
+    "station_id": "kumamoto_0139",
+    "station_name": "八景水谷",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.841258,
+    "lon": 130.722812
+  },
+  {
+    "station_id": "kumamoto_0078",
+    "station_name": "公立病院前",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.255906,
+    "lon": 130.921768
+  },
+  {
+    "station_id": "kumamoto_0032",
+    "station_name": "内牧",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.942136,
+    "lon": 131.043648
+  },
+  {
+    "station_id": "kumamoto_0146",
+    "station_name": "再春医療センター前",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.880866,
+    "lon": 130.747938
+  },
+  {
+    "station_id": "kumamoto_0087",
+    "station_name": "加勢",
+    "prefecture": "熊本県",
+    "line_name": "南阿蘇鉄道",
+    "lat": 32.847818,
+    "lon": 131.010139
+  },
+  {
+    "station_id": "kumamoto_0111",
+    "station_name": "動植物園入口",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電健軍線",
+    "lat": 32.78051,
+    "lon": 130.754707
+  },
+  {
+    "station_id": "kumamoto_0132",
+    "station_name": "北熊本",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄藤崎線",
+    "lat": 32.827492,
+    "lon": 130.721981
+  },
+  {
+    "station_id": "kumamoto_0067",
+    "station_name": "千丁",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.532387,
+    "lon": 130.64556
+  },
+  {
+    "station_id": "kumamoto_0046",
+    "station_name": "南熊本",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.785159,
+    "lon": 130.711577
+  },
+  {
+    "station_id": "kumamoto_0050",
+    "station_name": "南荒尾",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.966029,
+    "lon": 130.433012
+  },
+  {
+    "station_id": "kumamoto_0089",
+    "station_name": "南阿蘇水の生まれる里白水高原",
+    "prefecture": "熊本県",
+    "line_name": "南阿蘇鉄道",
+    "lat": 32.83407,
+    "lon": 131.040264
+  },
+  {
+    "station_id": "kumamoto_0092",
+    "station_name": "南阿蘇白川水源",
+    "prefecture": "熊本県",
+    "line_name": "南阿蘇鉄道",
+    "lat": 32.822222,
+    "lon": 131.091667
+  },
+  {
+    "station_id": "kumamoto_0038",
+    "station_name": "原水",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.870625,
+    "lon": 130.829029
+  },
+  {
+    "station_id": "kumamoto_0017",
+    "station_name": "吉尾",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.330958,
+    "lon": 130.600352
+  },
+  {
+    "station_id": "kumamoto_0116",
+    "station_name": "呉服町(熊本)",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電幹線",
+    "lat": 32.795753,
+    "lon": 130.696921
+  },
+  {
+    "station_id": "kumamoto_0125",
+    "station_name": "味噌天神前",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電水前寺線",
+    "lat": 32.795644,
+    "lon": 130.723722
+  },
+  {
+    "station_id": "kumamoto_0107",
+    "station_name": "商業高校前",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電健軍線",
+    "lat": 32.785398,
+    "lon": 130.739107
+  },
+  {
+    "station_id": "kumamoto_0127",
+    "station_name": "国府(熊本)",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電水前寺線",
+    "lat": 32.792217,
+    "lon": 130.729172
+  },
+  {
+    "station_id": "kumamoto_0012",
+    "station_name": "坂本",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.435149,
+    "lon": 130.657898
+  },
+  {
+    "station_id": "kumamoto_0137",
+    "station_name": "坪井川公園",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.821427,
+    "lon": 130.718773
+  },
+  {
+    "station_id": "kumamoto_0140",
+    "station_name": "堀川",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.848988,
+    "lon": 130.725231
+  },
+  {
+    "station_id": "kumamoto_0079",
+    "station_name": "多良木",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.262903,
+    "lon": 130.933362
+  },
+  {
+    "station_id": "kumamoto_0025",
+    "station_name": "大畑",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.16493,
+    "lon": 130.787722
+  },
+  {
+    "station_id": "kumamoto_0052",
+    "station_name": "大野下",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.921737,
+    "lon": 130.502038
+  },
+  {
+    "station_id": "kumamoto_0001",
+    "station_name": "宇土",
+    "prefecture": "熊本県",
+    "line_name": "JR三角線",
+    "lat": 32.694237,
+    "lon": 130.669148
+  },
+  {
+    "station_id": "kumamoto_0029",
+    "station_name": "宮地",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.937305,
+    "lon": 131.117476
+  },
+  {
+    "station_id": "kumamoto_0063",
+    "station_name": "富合",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.713658,
+    "lon": 130.672808
+  },
+  {
+    "station_id": "kumamoto_0065",
+    "station_name": "小川",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.600979,
+    "lon": 130.694339
+  },
+  {
+    "station_id": "kumamoto_0059",
+    "station_name": "崇城大学前",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.83102,
+    "lon": 130.694895
+  },
+  {
+    "station_id": "kumamoto_0062",
+    "station_name": "川尻",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.743772,
+    "lon": 130.679907
+  },
+  {
+    "station_id": "kumamoto_0071",
+    "station_name": "川村",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.207284,
+    "lon": 130.795307
+  },
+  {
+    "station_id": "kumamoto_0033",
+    "station_name": "市ノ川",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.928048,
+    "lon": 131.00759
+  },
+  {
+    "station_id": "kumamoto_0106",
+    "station_name": "市立体育館前",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電健軍線",
+    "lat": 32.788429,
+    "lon": 130.734708
+  },
+  {
+    "station_id": "kumamoto_0047",
+    "station_name": "平成",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.781569,
+    "lon": 130.703539
+  },
+  {
+    "station_id": "kumamoto_0147",
+    "station_name": "御代志",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.884985,
+    "lon": 130.750124
+  },
+  {
+    "station_id": "kumamoto_0118",
+    "station_name": "慶徳校前",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電幹線",
+    "lat": 32.797304,
+    "lon": 130.702457
+  },
+  {
+    "station_id": "kumamoto_0136",
+    "station_name": "打越",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.823765,
+    "lon": 130.713796
+  },
+  {
+    "station_id": "kumamoto_0068",
+    "station_name": "新八代",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.517888,
+    "lon": 130.634919
+  },
+  {
+    "station_id": "kumamoto_0083",
+    "station_name": "新大牟田",
+    "prefecture": "熊本県",
+    "line_name": "九州新幹線",
+    "lat": 33.071012,
+    "lon": 130.488795
+  },
+  {
+    "station_id": "kumamoto_0085",
+    "station_name": "新水俣",
+    "prefecture": "熊本県",
+    "line_name": "九州新幹線",
+    "lat": 32.210825,
+    "lon": 130.428893
+  },
+  {
+    "station_id": "kumamoto_0045",
+    "station_name": "新水前寺",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.793363,
+    "lon": 130.725901
+  },
+  {
+    "station_id": "kumamoto_0126",
+    "station_name": "新水前寺駅前",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電水前寺線",
+    "lat": 32.793516,
+    "lon": 130.727069
+  },
+  {
+    "station_id": "kumamoto_0084",
+    "station_name": "新玉名",
+    "prefecture": "熊本県",
+    "line_name": "九州新幹線",
+    "lat": 32.942461,
+    "lon": 130.573686
+  },
+  {
+    "station_id": "kumamoto_0098",
+    "station_name": "新町(熊本)",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電上熊本線",
+    "lat": 32.799739,
+    "lon": 130.697222
+  },
+  {
+    "station_id": "kumamoto_0141",
+    "station_name": "新須屋",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.853266,
+    "lon": 130.730198
+  },
+  {
+    "station_id": "kumamoto_0081",
+    "station_name": "新鶴羽",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.275372,
+    "lon": 130.966275
+  },
+  {
+    "station_id": "kumamoto_0149",
+    "station_name": "日奈久温泉",
+    "prefecture": "熊本県",
+    "line_name": "肥薩おれんじ鉄道線",
+    "lat": 32.436163,
+    "lon": 130.581635
+  },
+  {
+    "station_id": "kumamoto_0066",
+    "station_name": "有佐",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.562711,
+    "lon": 130.670049
+  },
+  {
+    "station_id": "kumamoto_0074",
+    "station_name": "木上",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.224256,
+    "lon": 130.858888
+  },
+  {
+    "station_id": "kumamoto_0055",
+    "station_name": "木葉",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.916528,
+    "lon": 130.626441
+  },
+  {
+    "station_id": "kumamoto_0102",
+    "station_name": "本妙寺入口",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電上熊本線",
+    "lat": 32.813626,
+    "lon": 130.698466
+  },
+  {
+    "station_id": "kumamoto_0101",
+    "station_name": "杉塘",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電上熊本線",
+    "lat": 32.810308,
+    "lon": 130.696986
+  },
+  {
+    "station_id": "kumamoto_0077",
+    "station_name": "東免田",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.250095,
+    "lon": 130.912947
+  },
+  {
+    "station_id": "kumamoto_0080",
+    "station_name": "東多良木",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.272211,
+    "lon": 130.950765
+  },
+  {
+    "station_id": "kumamoto_0043",
+    "station_name": "東海学園前",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.811267,
+    "lon": 130.742684
+  },
+  {
+    "station_id": "kumamoto_0064",
+    "station_name": "松橋",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.652324,
+    "lon": 130.670588
+  },
+  {
+    "station_id": "kumamoto_0057",
+    "station_name": "植木",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.880226,
+    "lon": 130.680834
+  },
+  {
+    "station_id": "kumamoto_0041",
+    "station_name": "武蔵塚",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.850008,
+    "lon": 130.77024
+  },
+  {
+    "station_id": "kumamoto_0011",
+    "station_name": "段",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.468101,
+    "lon": 130.645736
+  },
+  {
+    "station_id": "kumamoto_0100",
+    "station_name": "段山町",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電上熊本線",
+    "lat": 32.806701,
+    "lon": 130.695505
+  },
+  {
+    "station_id": "kumamoto_0158",
+    "station_name": "水俣",
+    "prefecture": "熊本県",
+    "line_name": "肥薩おれんじ鉄道線",
+    "lat": 32.204919,
+    "lon": 130.395763
+  },
+  {
+    "station_id": "kumamoto_0044",
+    "station_name": "水前寺",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.796962,
+    "lon": 130.729823
+  },
+  {
+    "station_id": "kumamoto_0105",
+    "station_name": "水前寺公園",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電健軍線",
+    "lat": 32.789908,
+    "lon": 130.732455
+  },
+  {
+    "station_id": "kumamoto_0122",
+    "station_name": "水道町",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電幹線",
+    "lat": 32.80239,
+    "lon": 130.712564
+  },
+  {
+    "station_id": "kumamoto_0135",
+    "station_name": "池田(熊本)",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.827082,
+    "lon": 130.70748
+  },
+  {
+    "station_id": "kumamoto_0117",
+    "station_name": "河原町(熊本)",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電幹線",
+    "lat": 32.794742,
+    "lon": 130.701299
+  },
+  {
+    "station_id": "kumamoto_0008",
+    "station_name": "波多浦",
+    "prefecture": "熊本県",
+    "line_name": "JR三角線",
+    "lat": 32.615524,
+    "lon": 130.488117
+  },
+  {
+    "station_id": "kumamoto_0028",
+    "station_name": "波野",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.938562,
+    "lon": 131.195298
+  },
+  {
+    "station_id": "kumamoto_0097",
+    "station_name": "洗馬橋",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電上熊本線",
+    "lat": 32.799234,
+    "lon": 130.698917
+  },
+  {
+    "station_id": "kumamoto_0157",
+    "station_name": "津奈木",
+    "prefecture": "熊本県",
+    "line_name": "肥薩おれんじ鉄道線",
+    "lat": 32.232417,
+    "lon": 130.450165
+  },
+  {
+    "station_id": "kumamoto_0154",
+    "station_name": "海浦",
+    "prefecture": "熊本県",
+    "line_name": "肥薩おれんじ鉄道線",
+    "lat": 32.327997,
+    "lon": 130.488766
+  },
+  {
+    "station_id": "kumamoto_0016",
+    "station_name": "海路",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.349407,
+    "lon": 130.61928
+  },
+  {
+    "station_id": "kumamoto_0022",
+    "station_name": "渡",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.236631,
+    "lon": 130.694801
+  },
+  {
+    "station_id": "kumamoto_0082",
+    "station_name": "湯前",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.281389,
+    "lon": 130.980094
+  },
+  {
+    "station_id": "kumamoto_0156",
+    "station_name": "湯浦",
+    "prefecture": "熊本県",
+    "line_name": "肥薩おれんじ鉄道線",
+    "lat": 32.271231,
+    "lon": 130.504667
+  },
+  {
+    "station_id": "kumamoto_0027",
+    "station_name": "滝水",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.933342,
+    "lon": 131.24263
+  },
+  {
+    "station_id": "kumamoto_0015",
+    "station_name": "瀬戸石",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.371474,
+    "lon": 130.646004
+  },
+  {
+    "station_id": "kumamoto_0036",
+    "station_name": "瀬田",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.872567,
+    "lon": 130.914044
+  },
+  {
+    "station_id": "kumamoto_0048",
+    "station_name": "熊本",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.789207,
+    "lon": 130.688499
+  },
+  {
+    "station_id": "kumamoto_0120",
+    "station_name": "熊本城・市役所前",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電幹線",
+    "lat": 32.802967,
+    "lon": 130.707028
+  },
+  {
+    "station_id": "kumamoto_0114",
+    "station_name": "熊本駅前",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電幹線",
+    "lat": 32.790377,
+    "lon": 130.690398
+  },
+  {
+    "station_id": "kumamoto_0145",
+    "station_name": "熊本高専前",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.878088,
+    "lon": 130.746271
+  },
+  {
+    "station_id": "kumamoto_0053",
+    "station_name": "玉名",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.926021,
+    "lon": 130.548494
+  },
+  {
+    "station_id": "kumamoto_0019",
+    "station_name": "球泉洞",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.267817,
+    "lon": 130.608191
+  },
+  {
+    "station_id": "kumamoto_0056",
+    "station_name": "田原坂",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.899416,
+    "lon": 130.653198
+  },
+  {
+    "station_id": "kumamoto_0129",
+    "station_name": "田崎橋",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電田崎線",
+    "lat": 32.785398,
+    "lon": 130.68866
+  },
+  {
+    "station_id": "kumamoto_0018",
+    "station_name": "白石",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.305694,
+    "lon": 130.608328
+  },
+  {
+    "station_id": "kumamoto_0070",
+    "station_name": "相良藩願成寺",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.218429,
+    "lon": 130.769626
+  },
+  {
+    "station_id": "kumamoto_0103",
+    "station_name": "県立体育館前",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電上熊本線",
+    "lat": 32.815032,
+    "lon": 130.69896
+  },
+  {
+    "station_id": "kumamoto_0026",
+    "station_name": "矢岳",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.104278,
+    "lon": 130.769799
+  },
+  {
+    "station_id": "kumamoto_0007",
+    "station_name": "石打ダム",
+    "prefecture": "熊本県",
+    "line_name": "JR三角線",
+    "lat": 32.642653,
+    "lon": 130.507013
+  },
+  {
+    "station_id": "kumamoto_0115",
+    "station_name": "祇園橋",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電幹線",
+    "lat": 32.792794,
+    "lon": 130.694647
+  },
+  {
+    "station_id": "kumamoto_0109",
+    "station_name": "神水交差点",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電健軍線",
+    "lat": 32.783649,
+    "lon": 130.74518
+  },
+  {
+    "station_id": "kumamoto_0035",
+    "station_name": "立野",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.87757,
+    "lon": 130.965403
+  },
+  {
+    "station_id": "kumamoto_0042",
+    "station_name": "竜田口",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.820455,
+    "lon": 130.746933
+  },
+  {
+    "station_id": "kumamoto_0005",
+    "station_name": "網田",
+    "prefecture": "熊本県",
+    "line_name": "JR三角線",
+    "lat": 32.667493,
+    "lon": 130.547004
+  },
+  {
+    "station_id": "kumamoto_0002",
+    "station_name": "緑川",
+    "prefecture": "熊本県",
+    "line_name": "JR三角線",
+    "lat": 32.694006,
+    "lon": 130.631339
+  },
+  {
+    "station_id": "kumamoto_0150",
+    "station_name": "肥後二見",
+    "prefecture": "熊本県",
+    "line_name": "肥薩おれんじ鉄道線",
+    "lat": 32.420111,
+    "lon": 130.550019
+  },
+  {
+    "station_id": "kumamoto_0054",
+    "station_name": "肥後伊倉",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.913233,
+    "lon": 130.586803
+  },
+  {
+    "station_id": "kumamoto_0037",
+    "station_name": "肥後大津",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.877512,
+    "lon": 130.866218
+  },
+  {
+    "station_id": "kumamoto_0153",
+    "station_name": "肥後田浦",
+    "prefecture": "熊本県",
+    "line_name": "肥薩おれんじ鉄道線",
+    "lat": 32.350698,
+    "lon": 130.504778
+  },
+  {
+    "station_id": "kumamoto_0072",
+    "station_name": "肥後西村",
+    "prefecture": "熊本県",
+    "line_name": "くま川鉄道線",
+    "lat": 32.202271,
+    "lon": 130.808839
+  },
+  {
+    "station_id": "kumamoto_0004",
+    "station_name": "肥後長浜",
+    "prefecture": "熊本県",
+    "line_name": "JR三角線",
+    "lat": 32.690694,
+    "lon": 130.560302
+  },
+  {
+    "station_id": "kumamoto_0148",
+    "station_name": "肥後高田",
+    "prefecture": "熊本県",
+    "line_name": "肥薩おれんじ鉄道線",
+    "lat": 32.475546,
+    "lon": 130.612588
+  },
+  {
+    "station_id": "kumamoto_0119",
+    "station_name": "花畑町",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電幹線",
+    "lat": 32.801128,
+    "lon": 130.705483
+  },
+  {
+    "station_id": "kumamoto_0049",
+    "station_name": "荒尾(熊本)",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.994682,
+    "lon": 130.434717
+  },
+  {
+    "station_id": "kumamoto_0013",
+    "station_name": "葉木",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.410293,
+    "lon": 130.645444
+  },
+  {
+    "station_id": "kumamoto_0099",
+    "station_name": "蔚山町",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電上熊本線",
+    "lat": 32.803959,
+    "lon": 130.696986
+  },
+  {
+    "station_id": "kumamoto_0130",
+    "station_name": "藤崎宮前",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄藤崎線",
+    "lat": 32.808928,
+    "lon": 130.713218
+  },
+  {
+    "station_id": "kumamoto_0159",
+    "station_name": "袋",
+    "prefecture": "熊本県",
+    "line_name": "肥薩おれんじ鉄道線",
+    "lat": 32.165517,
+    "lon": 130.374391
+  },
+  {
+    "station_id": "kumamoto_0023",
+    "station_name": "西人吉",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.22841,
+    "lon": 130.725707
+  },
+  {
+    "station_id": "kumamoto_0061",
+    "station_name": "西熊本",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.762639,
+    "lon": 130.683056
+  },
+  {
+    "station_id": "kumamoto_0096",
+    "station_name": "西辛島町",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電上熊本線",
+    "lat": 32.798801,
+    "lon": 130.702264
+  },
+  {
+    "station_id": "kumamoto_0058",
+    "station_name": "西里",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.854607,
+    "lon": 130.700139
+  },
+  {
+    "station_id": "kumamoto_0093",
+    "station_name": "見晴台",
+    "prefecture": "熊本県",
+    "line_name": "南阿蘇鉄道",
+    "lat": 32.817613,
+    "lon": 131.109621
+  },
+  {
+    "station_id": "kumamoto_0034",
+    "station_name": "赤水",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.913261,
+    "lon": 130.9929
+  },
+  {
+    "station_id": "kumamoto_0006",
+    "station_name": "赤瀬",
+    "prefecture": "熊本県",
+    "line_name": "JR三角線",
+    "lat": 32.653252,
+    "lon": 130.510167
+  },
+  {
+    "station_id": "kumamoto_0095",
+    "station_name": "辛島町",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電上熊本線",
+    "lat": 32.798891,
+    "lon": 130.705075
+  },
+  {
+    "station_id": "kumamoto_0121",
+    "station_name": "通町筋",
+    "prefecture": "熊本県",
+    "line_name": "熊本市電幹線",
+    "lat": 32.803364,
+    "lon": 130.709817
+  },
+  {
+    "station_id": "kumamoto_0021",
+    "station_name": "那良口",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.243732,
+    "lon": 130.667479
+  },
+  {
+    "station_id": "kumamoto_0014",
+    "station_name": "鎌瀬",
+    "prefecture": "熊本県",
+    "line_name": "JR肥薩線",
+    "lat": 32.391092,
+    "lon": 130.65458
+  },
+  {
+    "station_id": "kumamoto_0051",
+    "station_name": "長洲",
+    "prefecture": "熊本県",
+    "line_name": "JR鹿児島本線",
+    "lat": 32.935205,
+    "lon": 130.455652
+  },
+  {
+    "station_id": "kumamoto_0086",
+    "station_name": "長陽",
+    "prefecture": "熊本県",
+    "line_name": "南阿蘇鉄道",
+    "lat": 32.854287,
+    "lon": 131.003945
+  },
+  {
+    "station_id": "kumamoto_0031",
+    "station_name": "阿蘇",
+    "prefecture": "熊本県",
+    "line_name": "JR豊肥本線",
+    "lat": 32.937393,
+    "lon": 131.079959
+  },
+  {
+    "station_id": "kumamoto_0088",
+    "station_name": "阿蘇下田城",
+    "prefecture": "熊本県",
+    "line_name": "南阿蘇鉄道",
+    "lat": 32.844413,
+    "lon": 131.024654
+  },
+  {
+    "station_id": "kumamoto_0091",
+    "station_name": "阿蘇白川",
+    "prefecture": "熊本県",
+    "line_name": "南阿蘇鉄道",
+    "lat": 32.822368,
+    "lon": 131.084345
+  },
+  {
+    "station_id": "kumamoto_0134",
+    "station_name": "韓々坂",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.824201,
+    "lon": 130.701917
+  },
+  {
+    "station_id": "kumamoto_0142",
+    "station_name": "須屋",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.858493,
+    "lon": 130.736481
+  },
+  {
+    "station_id": "kumamoto_0094",
+    "station_name": "高森",
+    "prefecture": "熊本県",
+    "line_name": "南阿蘇鉄道",
+    "lat": 32.81954,
+    "lon": 131.122561
+  },
+  {
+    "station_id": "kumamoto_0144",
+    "station_name": "黒石",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄菊池線",
+    "lat": 32.870636,
+    "lon": 130.742164
+  },
+  {
+    "station_id": "kumamoto_0131",
+    "station_name": "黒髪町",
+    "prefecture": "熊本県",
+    "line_name": "熊本電鉄藤崎線",
+    "lat": 32.818408,
+    "lon": 130.717232
+  }
+]

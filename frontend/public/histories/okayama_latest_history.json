@@ -1,0 +1,2816 @@
+[
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2008,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2009,
+    "avg_price": 12050000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2010,
+    "avg_price": 11100000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2011,
+    "avg_price": 14712500.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2012,
+    "avg_price": 10740000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2013,
+    "avg_price": 11560000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2014,
+    "avg_price": 18328571.42857143
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2015,
+    "avg_price": 12250000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2016,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2017,
+    "avg_price": 25500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2019,
+    "avg_price": 11633333.333333334
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2020,
+    "avg_price": 22250000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2021,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2022,
+    "avg_price": 17420000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2023,
+    "avg_price": 12441666.666666666
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2024,
+    "avg_price": 18291666.666666668
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中庄",
+    "year": 2025,
+    "avg_price": 19025000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中納言",
+    "year": 2021,
+    "avg_price": 19250000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中納言",
+    "year": 2022,
+    "avg_price": 25466666.666666668
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中納言",
+    "year": 2023,
+    "avg_price": 21457142.85714286
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中納言",
+    "year": 2024,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "中納言",
+    "year": 2025,
+    "avg_price": 20750000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2007,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2008,
+    "avg_price": 12164285.714285715
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2009,
+    "avg_price": 12070588.235294119
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2010,
+    "avg_price": 12130000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2011,
+    "avg_price": 11688461.538461538
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2012,
+    "avg_price": 13546153.846153846
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2013,
+    "avg_price": 14416129.032258065
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2014,
+    "avg_price": 15427272.727272727
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2015,
+    "avg_price": 14882051.282051282
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2016,
+    "avg_price": 12458620.689655172
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2017,
+    "avg_price": 18503571.42857143
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2018,
+    "avg_price": 18362500.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2019,
+    "avg_price": 16261538.461538462
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2020,
+    "avg_price": 17421428.57142857
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2021,
+    "avg_price": 22250617.283950616
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2022,
+    "avg_price": 20997196.261682242
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2023,
+    "avg_price": 22061000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2024,
+    "avg_price": 22409183.673469387
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷",
+    "year": 2025,
+    "avg_price": 22749333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "倉敷市",
+    "year": 2025,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中箕島",
+    "year": 2013,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中箕島",
+    "year": 2014,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中箕島",
+    "year": 2019,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中箕島",
+    "year": 2021,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中箕島",
+    "year": 2023,
+    "avg_price": 13250000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中箕島",
+    "year": 2025,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中高松",
+    "year": 2007,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中高松",
+    "year": 2008,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中高松",
+    "year": 2009,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中高松",
+    "year": 2010,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中高松",
+    "year": 2011,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中高松",
+    "year": 2014,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中高松",
+    "year": 2015,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中高松",
+    "year": 2019,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中高松",
+    "year": 2022,
+    "avg_price": 16500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備中高松",
+    "year": 2025,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前一宮",
+    "year": 2011,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前一宮",
+    "year": 2024,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2009,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2010,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2011,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2012,
+    "avg_price": 17333333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2013,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2015,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2016,
+    "avg_price": 5200000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2017,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2018,
+    "avg_price": 5200000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2019,
+    "avg_price": 9400000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2020,
+    "avg_price": 5900000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2021,
+    "avg_price": 7971428.571428572
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2022,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2023,
+    "avg_price": 4125000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2024,
+    "avg_price": 5750000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前三門",
+    "year": 2025,
+    "avg_price": 15300000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前片上",
+    "year": 2018,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2007,
+    "avg_price": 11650000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2008,
+    "avg_price": 10818181.818181818
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2009,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2010,
+    "avg_price": 12783333.333333334
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2011,
+    "avg_price": 10780000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2012,
+    "avg_price": 12428571.42857143
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2013,
+    "avg_price": 14250000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2014,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2015,
+    "avg_price": 15460000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2016,
+    "avg_price": 13111111.111111112
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2017,
+    "avg_price": 12331578.94736842
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2018,
+    "avg_price": 12307692.307692308
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2019,
+    "avg_price": 15233333.333333334
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2020,
+    "avg_price": 13055555.555555556
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2021,
+    "avg_price": 16929032.258064516
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2022,
+    "avg_price": 14996153.846153846
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2023,
+    "avg_price": 16972222.222222224
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2024,
+    "avg_price": 17287500.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "備前西市",
+    "year": 2025,
+    "avg_price": 17339130.43478261
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "児島",
+    "year": 2008,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "児島",
+    "year": 2010,
+    "avg_price": 6700000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "児島",
+    "year": 2012,
+    "avg_price": 12425000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "児島",
+    "year": 2014,
+    "avg_price": 6900000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "児島",
+    "year": 2017,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "児島",
+    "year": 2018,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "児島",
+    "year": 2020,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "児島",
+    "year": 2022,
+    "avg_price": 28500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "児島",
+    "year": 2024,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "児島",
+    "year": 2025,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2007,
+    "avg_price": 21200000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2008,
+    "avg_price": 18250000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2009,
+    "avg_price": 15575000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2010,
+    "avg_price": 19200000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2011,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2012,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2013,
+    "avg_price": 20750000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2014,
+    "avg_price": 21666666.666666668
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2015,
+    "avg_price": 24400000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2016,
+    "avg_price": 23750000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2017,
+    "avg_price": 21571428.57142857
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2018,
+    "avg_price": 27750000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2019,
+    "avg_price": 23333333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2020,
+    "avg_price": 28777777.777777776
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2021,
+    "avg_price": 32827586.20689655
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2022,
+    "avg_price": 30941176.470588237
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2023,
+    "avg_price": 29035714.285714287
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2024,
+    "avg_price": 27388888.888888888
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "北長瀬",
+    "year": 2025,
+    "avg_price": 31105263.157894738
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "城下(岡山)",
+    "year": 2021,
+    "avg_price": 36500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "城下(岡山)",
+    "year": 2022,
+    "avg_price": 37500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "城下(岡山)",
+    "year": 2023,
+    "avg_price": 30500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "城下(岡山)",
+    "year": 2024,
+    "avg_price": 34500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "城下(岡山)",
+    "year": 2025,
+    "avg_price": 30333333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2007,
+    "avg_price": 10817647.05882353
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2008,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2009,
+    "avg_price": 12664864.864864865
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2010,
+    "avg_price": 14336363.636363637
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2011,
+    "avg_price": 14168000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2012,
+    "avg_price": 13800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2013,
+    "avg_price": 11634615.384615384
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2014,
+    "avg_price": 13985714.285714285
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2015,
+    "avg_price": 14124390.24390244
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2016,
+    "avg_price": 14088372.093023255
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2017,
+    "avg_price": 16777419.35483871
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2018,
+    "avg_price": 15539285.714285715
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2019,
+    "avg_price": 19407692.307692308
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2020,
+    "avg_price": 17847169.811320756
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2021,
+    "avg_price": 19551648.351648353
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2022,
+    "avg_price": 21108247.42268041
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2023,
+    "avg_price": 20957843.1372549
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2024,
+    "avg_price": 22294771.241830066
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大元",
+    "year": 2025,
+    "avg_price": 22606862.74509804
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大安寺",
+    "year": 2012,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大雲寺前",
+    "year": 2021,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大雲寺前",
+    "year": 2022,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大雲寺前",
+    "year": 2024,
+    "avg_price": 9333333.333333334
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "大雲寺前",
+    "year": 2025,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2008,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2009,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2010,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2011,
+    "avg_price": 14800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2012,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2013,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2014,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2015,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2016,
+    "avg_price": 16750000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2017,
+    "avg_price": 14100000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2018,
+    "avg_price": 19750000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2019,
+    "avg_price": 16750000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2020,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2021,
+    "avg_price": 19250000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2022,
+    "avg_price": 19916666.666666668
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "妹尾",
+    "year": 2024,
+    "avg_price": 19200000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "宇野",
+    "year": 2022,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "宇野",
+    "year": 2023,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "宇野",
+    "year": 2024,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "小橋",
+    "year": 2025,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2007,
+    "avg_price": 11211428.57142857
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2008,
+    "avg_price": 19586197.183098592
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2009,
+    "avg_price": 14523214.285714285
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2010,
+    "avg_price": 12865882.352941176
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2011,
+    "avg_price": 10704565.217391305
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2012,
+    "avg_price": 12866785.714285715
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2013,
+    "avg_price": 14720760.869565217
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2014,
+    "avg_price": 14888101.265822785
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2015,
+    "avg_price": 15292659.574468086
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2016,
+    "avg_price": 15768000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2017,
+    "avg_price": 14856043.956043957
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2018,
+    "avg_price": 19092105.263157893
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2019,
+    "avg_price": 16819890.10989011
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2020,
+    "avg_price": 20448453.60824742
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2021,
+    "avg_price": 19297574.257425744
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2022,
+    "avg_price": 23263793.103448275
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2023,
+    "avg_price": 24719650.655021835
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2024,
+    "avg_price": 25247679.324894514
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山",
+    "year": 2025,
+    "avg_price": 25680102.040816326
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山駅前",
+    "year": 2021,
+    "avg_price": 32000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山駅前",
+    "year": 2022,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "岡山駅前",
+    "year": 2024,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "常盤(岡山)",
+    "year": 2011,
+    "avg_price": 8600000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "常盤(岡山)",
+    "year": 2013,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "常盤(岡山)",
+    "year": 2014,
+    "avg_price": 8650000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "常盤(岡山)",
+    "year": 2023,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "常盤(岡山)",
+    "year": 2025,
+    "avg_price": 6850000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2007,
+    "avg_price": 4600000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2008,
+    "avg_price": 4700000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2009,
+    "avg_price": 12833333.333333334
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2010,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2013,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2014,
+    "avg_price": 15400000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2015,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2016,
+    "avg_price": 12666666.666666666
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2017,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2020,
+    "avg_price": 18842857.14285714
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2021,
+    "avg_price": 24800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2022,
+    "avg_price": 22028571.42857143
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2023,
+    "avg_price": 20266666.666666668
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2024,
+    "avg_price": 20483333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "庭瀬",
+    "year": 2025,
+    "avg_price": 18808333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "弥生",
+    "year": 2009,
+    "avg_price": 4300000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "弥生",
+    "year": 2010,
+    "avg_price": 6200000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "弥生",
+    "year": 2011,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "弥生",
+    "year": 2014,
+    "avg_price": 5900000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "弥生",
+    "year": 2016,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "弥生",
+    "year": 2021,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "弥生",
+    "year": 2022,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "弥生",
+    "year": 2024,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "弥生",
+    "year": 2025,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新倉敷",
+    "year": 2008,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新倉敷",
+    "year": 2012,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新倉敷",
+    "year": 2013,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新倉敷",
+    "year": 2015,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新倉敷",
+    "year": 2017,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新倉敷",
+    "year": 2019,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新倉敷",
+    "year": 2021,
+    "avg_price": 24500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新倉敷",
+    "year": 2022,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新倉敷",
+    "year": 2023,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新倉敷",
+    "year": 2024,
+    "avg_price": 22833333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新倉敷",
+    "year": 2025,
+    "avg_price": 38666666.666666664
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新西大寺町筋",
+    "year": 2021,
+    "avg_price": 26833333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新西大寺町筋",
+    "year": 2022,
+    "avg_price": 36000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新西大寺町筋",
+    "year": 2023,
+    "avg_price": 23666666.666666668
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新西大寺町筋",
+    "year": 2024,
+    "avg_price": 24750000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "新西大寺町筋",
+    "year": 2025,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "日生",
+    "year": 2021,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "日生",
+    "year": 2022,
+    "avg_price": 9875000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "日生",
+    "year": 2023,
+    "avg_price": 8833333.333333334
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "日生",
+    "year": 2024,
+    "avg_price": 7700000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "日生",
+    "year": 2025,
+    "avg_price": 9100000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "早島",
+    "year": 2022,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "早島",
+    "year": 2024,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東中央町",
+    "year": 2021,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東中央町",
+    "year": 2022,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東中央町",
+    "year": 2023,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東中央町",
+    "year": 2024,
+    "avg_price": 2700000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東中央町",
+    "year": 2025,
+    "avg_price": 2200000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東山・おかでんミュージアム駅",
+    "year": 2021,
+    "avg_price": 20333333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東山・おかでんミュージアム駅",
+    "year": 2022,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東山・おかでんミュージアム駅",
+    "year": 2023,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東山・おかでんミュージアム駅",
+    "year": 2024,
+    "avg_price": 16560000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東山・おかでんミュージアム駅",
+    "year": 2025,
+    "avg_price": 27625000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2007,
+    "avg_price": 7860000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2008,
+    "avg_price": 8060000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2009,
+    "avg_price": 6050000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2010,
+    "avg_price": 10250000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2011,
+    "avg_price": 4100000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2012,
+    "avg_price": 10450000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2013,
+    "avg_price": 5533333.333333333
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2014,
+    "avg_price": 6950000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2015,
+    "avg_price": 6933333.333333333
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2016,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2018,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2019,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2021,
+    "avg_price": 12183333.333333334
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2022,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2023,
+    "avg_price": 10500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2024,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東岡山",
+    "year": 2025,
+    "avg_price": 8450000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2007,
+    "avg_price": 9800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2009,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2010,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2012,
+    "avg_price": 9300000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2013,
+    "avg_price": 9600000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2014,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2016,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2017,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2020,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2021,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2022,
+    "avg_price": 5000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2023,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2024,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東津山",
+    "year": 2025,
+    "avg_price": 9700000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "東総社",
+    "year": 2023,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "柳川",
+    "year": 2022,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "柳川",
+    "year": 2023,
+    "avg_price": 34333333.333333336
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "柳川",
+    "year": 2025,
+    "avg_price": 38000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "栄(岡山)",
+    "year": 2007,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "栄(岡山)",
+    "year": 2013,
+    "avg_price": 4750000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "栄(岡山)",
+    "year": 2015,
+    "avg_price": 5200000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "栄(岡山)",
+    "year": 2017,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "栄(岡山)",
+    "year": 2021,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "栄(岡山)",
+    "year": 2023,
+    "avg_price": 3200000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "栄(岡山)",
+    "year": 2024,
+    "avg_price": 7100000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "栄(岡山)",
+    "year": 2025,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "水島",
+    "year": 2012,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "水島",
+    "year": 2015,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "水島",
+    "year": 2017,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "水島",
+    "year": 2020,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "水島",
+    "year": 2022,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2007,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2008,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2009,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2010,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2011,
+    "avg_price": 6550000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2012,
+    "avg_price": 16900000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2013,
+    "avg_price": 15800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2014,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2015,
+    "avg_price": 12625000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2016,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2017,
+    "avg_price": 8400000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2018,
+    "avg_price": 15233333.333333334
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2019,
+    "avg_price": 17462500.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2020,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2021,
+    "avg_price": 17385000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2022,
+    "avg_price": 15392307.692307692
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2023,
+    "avg_price": 18716666.666666668
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2024,
+    "avg_price": 19553846.153846152
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "法界院",
+    "year": 2025,
+    "avg_price": 22416666.666666668
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2010,
+    "avg_price": 12333333.333333334
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2011,
+    "avg_price": 3460000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2012,
+    "avg_price": 4065000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2013,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2014,
+    "avg_price": 5330000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2017,
+    "avg_price": 3483333.3333333335
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2018,
+    "avg_price": 10750000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2019,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2020,
+    "avg_price": 6400000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2021,
+    "avg_price": 10150000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2022,
+    "avg_price": 12666666.666666666
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2023,
+    "avg_price": 10950000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2024,
+    "avg_price": 15250000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "津山",
+    "year": 2025,
+    "avg_price": 13266666.666666666
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "清輝橋",
+    "year": 2020,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "清輝橋",
+    "year": 2021,
+    "avg_price": 8677272.727272727
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "清輝橋",
+    "year": 2022,
+    "avg_price": 5960000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "清輝橋",
+    "year": 2023,
+    "avg_price": 7927272.7272727275
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "清輝橋",
+    "year": 2024,
+    "avg_price": 8845454.545454545
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "清輝橋",
+    "year": 2025,
+    "avg_price": 8626666.666666666
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "瀬戸",
+    "year": 2017,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "瀬戸",
+    "year": 2020,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "瀬戸",
+    "year": 2022,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "瀬戸",
+    "year": 2023,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "球場前(岡山)",
+    "year": 2009,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "球場前(岡山)",
+    "year": 2010,
+    "avg_price": 4700000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "球場前(岡山)",
+    "year": 2012,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "球場前(岡山)",
+    "year": 2013,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "球場前(岡山)",
+    "year": 2015,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "球場前(岡山)",
+    "year": 2016,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "球場前(岡山)",
+    "year": 2021,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "球場前(岡山)",
+    "year": 2023,
+    "avg_price": 17285714.285714287
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "球場前(岡山)",
+    "year": 2024,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "球場前(岡山)",
+    "year": 2025,
+    "avg_price": 24150000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "田町(岡山)",
+    "year": 2021,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "田町(岡山)",
+    "year": 2022,
+    "avg_price": 4128571.4285714286
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "田町(岡山)",
+    "year": 2023,
+    "avg_price": 5400000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "田町(岡山)",
+    "year": 2024,
+    "avg_price": 10083333.333333334
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "田町(岡山)",
+    "year": 2025,
+    "avg_price": 22633333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "県庁通り",
+    "year": 2021,
+    "avg_price": 31625000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "県庁通り",
+    "year": 2022,
+    "avg_price": 39000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "県庁通り",
+    "year": 2023,
+    "avg_price": 49000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "県庁通り",
+    "year": 2024,
+    "avg_price": 15162500.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "県庁通り",
+    "year": 2025,
+    "avg_price": 28500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "福井(岡山)",
+    "year": 2008,
+    "avg_price": 3800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "福井(岡山)",
+    "year": 2013,
+    "avg_price": 10900000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "福井(岡山)",
+    "year": 2016,
+    "avg_price": 5500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "福井(岡山)",
+    "year": 2018,
+    "avg_price": 13900000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "福井(岡山)",
+    "year": 2021,
+    "avg_price": 10600000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "福井(岡山)",
+    "year": 2022,
+    "avg_price": 18300000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "福井(岡山)",
+    "year": 2023,
+    "avg_price": 12375000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "福井(岡山)",
+    "year": 2024,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "福井(岡山)",
+    "year": 2025,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "笠岡",
+    "year": 2021,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "総社",
+    "year": 2021,
+    "avg_price": 20750000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "総社",
+    "year": 2022,
+    "avg_price": 19666666.666666668
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "総社",
+    "year": 2023,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "総社",
+    "year": 2024,
+    "avg_price": 27000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "総社",
+    "year": 2025,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "茶屋町",
+    "year": 2009,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "茶屋町",
+    "year": 2011,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "茶屋町",
+    "year": 2013,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "茶屋町",
+    "year": 2014,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "茶屋町",
+    "year": 2017,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "茶屋町",
+    "year": 2018,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "茶屋町",
+    "year": 2024,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "茶屋町",
+    "year": 2025,
+    "avg_price": 23500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西大寺",
+    "year": 2012,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西大寺",
+    "year": 2017,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西大寺",
+    "year": 2019,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西大寺",
+    "year": 2021,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西大寺",
+    "year": 2022,
+    "avg_price": 22250000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西大寺",
+    "year": 2023,
+    "avg_price": 19666666.666666668
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西大寺",
+    "year": 2024,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西大寺",
+    "year": 2025,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西大寺町・岡山芸術創造劇場ハレノワ前",
+    "year": 2021,
+    "avg_price": 3700000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西大寺町・岡山芸術創造劇場ハレノワ前",
+    "year": 2022,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西大寺町・岡山芸術創造劇場ハレノワ前",
+    "year": 2023,
+    "avg_price": 19500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西大寺町・岡山芸術創造劇場ハレノワ前",
+    "year": 2024,
+    "avg_price": 29300000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西大寺町・岡山芸術創造劇場ハレノワ前",
+    "year": 2025,
+    "avg_price": 27425000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西富井",
+    "year": 2010,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西富井",
+    "year": 2011,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西富井",
+    "year": 2021,
+    "avg_price": 10900000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西富井",
+    "year": 2022,
+    "avg_price": 27250000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西富井",
+    "year": 2023,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西富井",
+    "year": 2025,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2008,
+    "avg_price": 12972727.272727273
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2009,
+    "avg_price": 11366666.666666666
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2010,
+    "avg_price": 11215000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2011,
+    "avg_price": 10577777.777777778
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2012,
+    "avg_price": 7314285.714285715
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2013,
+    "avg_price": 17540000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2014,
+    "avg_price": 20583333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2015,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2016,
+    "avg_price": 17666666.666666668
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2017,
+    "avg_price": 15566666.666666666
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2018,
+    "avg_price": 22333333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2019,
+    "avg_price": 15300000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2020,
+    "avg_price": 21125000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2021,
+    "avg_price": 23312500.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2022,
+    "avg_price": 21870588.23529412
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2023,
+    "avg_price": 20161904.76190476
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2024,
+    "avg_price": 19019230.769230768
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川原",
+    "year": 2025,
+    "avg_price": 21727777.777777776
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西川緑道公園",
+    "year": 2024,
+    "avg_price": 3900000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西相生",
+    "year": 2025,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西阿知",
+    "year": 2008,
+    "avg_price": 9350000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西阿知",
+    "year": 2009,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西阿知",
+    "year": 2010,
+    "avg_price": 5600000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西阿知",
+    "year": 2013,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西阿知",
+    "year": 2016,
+    "avg_price": 11000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西阿知",
+    "year": 2022,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "西阿知",
+    "year": 2023,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "邑久",
+    "year": 2021,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "邑久",
+    "year": 2022,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "邑久",
+    "year": 2023,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "邑久",
+    "year": 2025,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "郵便局前",
+    "year": 2021,
+    "avg_price": 30000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "郵便局前",
+    "year": 2023,
+    "avg_price": 26733333.333333332
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "郵便局前",
+    "year": 2024,
+    "avg_price": 3450000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "門田屋敷",
+    "year": 2021,
+    "avg_price": 16900000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "門田屋敷",
+    "year": 2022,
+    "avg_price": 21100000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "門田屋敷",
+    "year": 2023,
+    "avg_price": 25857142.85714286
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "門田屋敷",
+    "year": 2024,
+    "avg_price": 22750000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "門田屋敷",
+    "year": 2025,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2007,
+    "avg_price": 12500000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2008,
+    "avg_price": 11175000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2009,
+    "avg_price": 10133333.333333334
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2010,
+    "avg_price": 14000000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2011,
+    "avg_price": 11372727.272727273
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2012,
+    "avg_price": 10160000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2013,
+    "avg_price": 13116666.666666666
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2014,
+    "avg_price": 11920000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2015,
+    "avg_price": 12800000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2016,
+    "avg_price": 16100000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2017,
+    "avg_price": 15088888.888888888
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2018,
+    "avg_price": 11066666.666666666
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2019,
+    "avg_price": 15250000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2020,
+    "avg_price": 20428571.42857143
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2021,
+    "avg_price": 14416666.666666666
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2022,
+    "avg_price": 14250000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2023,
+    "avg_price": 14818181.818181818
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2024,
+    "avg_price": 14350000.0
+  },
+  {
+    "prefecture": "岡山県",
+    "station": "高島(岡山)",
+    "year": 2025,
+    "avg_price": 13283333.333333334
+  }
+]

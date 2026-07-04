@@ -1,0 +1,2026 @@
+[
+  {
+    "station_id": "nagano_0003",
+    "station_name": "すずらんの里",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.930288,
+    "lon": 138.211775
+  },
+  {
+    "station_id": "nagano_0009",
+    "station_name": "みどり湖",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 36.094176,
+    "lon": 137.981928
+  },
+  {
+    "station_id": "nagano_0195",
+    "station_name": "テクノさかき",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.440584,
+    "lon": 138.188203
+  },
+  {
+    "station_id": "nagano_0042",
+    "station_name": "一日市場",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.2596,
+    "lon": 137.904136
+  },
+  {
+    "station_id": "nagano_0161",
+    "station_name": "七久保",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.654645,
+    "lon": 137.911346
+  },
+  {
+    "station_id": "nagano_0203",
+    "station_name": "三好町",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.391712,
+    "lon": 138.235585
+  },
+  {
+    "station_id": "nagano_0095",
+    "station_name": "三岡",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.30415,
+    "lon": 138.44846
+  },
+  {
+    "station_id": "nagano_0256",
+    "station_name": "三才",
+    "prefecture": "長野県",
+    "line_name": "北しなの線",
+    "lat": 36.686674,
+    "lon": 138.244079
+  },
+  {
+    "station_id": "nagano_0224",
+    "station_name": "三溝",
+    "prefecture": "長野県",
+    "line_name": "松本電鉄上高地線",
+    "lat": 36.212863,
+    "lon": 137.891469
+  },
+  {
+    "station_id": "nagano_0114",
+    "station_name": "上今井",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.753947,
+    "lon": 138.319478
+  },
+  {
+    "station_id": "nagano_0121",
+    "station_name": "上境",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.937916,
+    "lon": 138.419151
+  },
+  {
+    "station_id": "nagano_0253",
+    "station_name": "上条",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.749641,
+    "lon": 138.407619
+  },
+  {
+    "station_id": "nagano_0020",
+    "station_name": "上松",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.784068,
+    "lon": 137.693283
+  },
+  {
+    "station_id": "nagano_0122",
+    "station_name": "上桑名川",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.962559,
+    "lon": 138.441204
+  },
+  {
+    "station_id": "nagano_0158",
+    "station_name": "上片桐",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.617583,
+    "lon": 137.904064
+  },
+  {
+    "station_id": "nagano_0193",
+    "station_name": "上田",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.396579,
+    "lon": 138.249298
+  },
+  {
+    "station_id": "nagano_0205",
+    "station_name": "上田原",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.390488,
+    "lon": 138.221439
+  },
+  {
+    "station_id": "nagano_0006",
+    "station_name": "上諏訪",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 36.046618,
+    "lon": 138.116306
+  },
+  {
+    "station_id": "nagano_0209",
+    "station_name": "下之郷",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.363249,
+    "lon": 138.217227
+  },
+  {
+    "station_id": "nagano_0146",
+    "station_name": "下山村",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.50426,
+    "lon": 137.83959
+  },
+  {
+    "station_id": "nagano_0172",
+    "station_name": "下島",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.812706,
+    "lon": 137.940055
+  },
+  {
+    "station_id": "nagano_0153",
+    "station_name": "下市田",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.544165,
+    "lon": 137.87641
+  },
+  {
+    "station_id": "nagano_0155",
+    "station_name": "下平",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.572597,
+    "lon": 137.895922
+  },
+  {
+    "station_id": "nagano_0221",
+    "station_name": "下新",
+    "prefecture": "長野県",
+    "line_name": "松本電鉄上高地線",
+    "lat": 36.22513,
+    "lon": 137.922564
+  },
+  {
+    "station_id": "nagano_0007",
+    "station_name": "下諏訪",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 36.071949,
+    "lon": 138.084953
+  },
+  {
+    "station_id": "nagano_0129",
+    "station_name": "中井侍",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.235913,
+    "lon": 137.834912
+  },
+  {
+    "station_id": "nagano_0093",
+    "station_name": "中佐都",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.280856,
+    "lon": 138.453549
+  },
+  {
+    "station_id": "nagano_0070",
+    "station_name": "中土",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.80558,
+    "lon": 137.907879
+  },
+  {
+    "station_id": "nagano_0210",
+    "station_name": "中塩田",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.363212,
+    "lon": 138.204728
+  },
+  {
+    "station_id": "nagano_0043",
+    "station_name": "中萱",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.273434,
+    "lon": 137.903353
+  },
+  {
+    "station_id": "nagano_0184",
+    "station_name": "中軽井沢",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.347576,
+    "lon": 138.593147
+  },
+  {
+    "station_id": "nagano_0088",
+    "station_name": "中込",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.23062,
+    "lon": 138.479389
+  },
+  {
+    "station_id": "nagano_0212",
+    "station_name": "中野",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.360654,
+    "lon": 138.193438
+  },
+  {
+    "station_id": "nagano_0250",
+    "station_name": "中野松川",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.750615,
+    "lon": 138.374252
+  },
+  {
+    "station_id": "nagano_0096",
+    "station_name": "乙女",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.311371,
+    "lon": 138.440527
+  },
+  {
+    "station_id": "nagano_0033",
+    "station_name": "今井",
+    "prefecture": "長野県",
+    "line_name": "JR信越本線",
+    "lat": 36.595732,
+    "lon": 138.145347
+  },
+  {
+    "station_id": "nagano_0151",
+    "station_name": "伊那上郷",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.520164,
+    "lon": 137.838984
+  },
+  {
+    "station_id": "nagano_0145",
+    "station_name": "伊那八幡",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.49683,
+    "lon": 137.84154
+  },
+  {
+    "station_id": "nagano_0174",
+    "station_name": "伊那北",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.84524,
+    "lon": 137.964368
+  },
+  {
+    "station_id": "nagano_0157",
+    "station_name": "伊那大島",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.595698,
+    "lon": 137.913222
+  },
+  {
+    "station_id": "nagano_0130",
+    "station_name": "伊那小沢",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.25406,
+    "lon": 137.834709
+  },
+  {
+    "station_id": "nagano_0173",
+    "station_name": "伊那市",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.838435,
+    "lon": 137.959196
+  },
+  {
+    "station_id": "nagano_0181",
+    "station_name": "伊那新町",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.9688,
+    "lon": 137.984057
+  },
+  {
+    "station_id": "nagano_0162",
+    "station_name": "伊那本郷",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.66543,
+    "lon": 137.93248
+  },
+  {
+    "station_id": "nagano_0178",
+    "station_name": "伊那松島",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.913865,
+    "lon": 137.988647
+  },
+  {
+    "station_id": "nagano_0159",
+    "station_name": "伊那田島",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.627221,
+    "lon": 137.910338
+  },
+  {
+    "station_id": "nagano_0165",
+    "station_name": "伊那福岡",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.712233,
+    "lon": 137.93398
+  },
+  {
+    "station_id": "nagano_0092",
+    "station_name": "佐久平",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.277929,
+    "lon": 138.464367
+  },
+  {
+    "station_id": "nagano_0074",
+    "station_name": "佐久広瀬",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.003724,
+    "lon": 138.519349
+  },
+  {
+    "station_id": "nagano_0075",
+    "station_name": "佐久海ノ口",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.021128,
+    "lon": 138.490807
+  },
+  {
+    "station_id": "nagano_0249",
+    "station_name": "信州中野",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.74476,
+    "lon": 138.364901
+  },
+  {
+    "station_id": "nagano_0237",
+    "station_name": "信濃吉田",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.667428,
+    "lon": 138.220904
+  },
+  {
+    "station_id": "nagano_0192",
+    "station_name": "信濃国分寺",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.378592,
+    "lon": 138.273385
+  },
+  {
+    "station_id": "nagano_0001",
+    "station_name": "信濃境",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.884952,
+    "lon": 138.275419
+  },
+  {
+    "station_id": "nagano_0056",
+    "station_name": "信濃大町",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.50031,
+    "lon": 137.861674
+  },
+  {
+    "station_id": "nagano_0073",
+    "station_name": "信濃川上",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 35.975939,
+    "lon": 138.527345
+  },
+  {
+    "station_id": "nagano_0030",
+    "station_name": "信濃川島",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線支線",
+    "lat": 36.013642,
+    "lon": 137.97185
+  },
+  {
+    "station_id": "nagano_0054",
+    "station_name": "信濃常盤",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.467403,
+    "lon": 137.847148
+  },
+  {
+    "station_id": "nagano_0119",
+    "station_name": "信濃平",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.884918,
+    "lon": 138.378479
+  },
+  {
+    "station_id": "nagano_0058",
+    "station_name": "信濃木崎",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.535643,
+    "lon": 137.846189
+  },
+  {
+    "station_id": "nagano_0052",
+    "station_name": "信濃松川",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.424456,
+    "lon": 137.858631
+  },
+  {
+    "station_id": "nagano_0066",
+    "station_name": "信濃森上",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.711132,
+    "lon": 137.871991
+  },
+  {
+    "station_id": "nagano_0112",
+    "station_name": "信濃浅野",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.722011,
+    "lon": 138.294784
+  },
+  {
+    "station_id": "nagano_0125",
+    "station_name": "信濃白鳥",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.983591,
+    "lon": 138.50302
+  },
+  {
+    "station_id": "nagano_0251",
+    "station_name": "信濃竹原",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.761045,
+    "lon": 138.393672
+  },
+  {
+    "station_id": "nagano_0219",
+    "station_name": "信濃荒井",
+    "prefecture": "長野県",
+    "line_name": "松本電鉄上高地線",
+    "lat": 36.229019,
+    "lon": 137.949484
+  },
+  {
+    "station_id": "nagano_0185",
+    "station_name": "信濃追分",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.335538,
+    "lon": 138.558582
+  },
+  {
+    "station_id": "nagano_0021",
+    "station_name": "倉本",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.732939,
+    "lon": 137.714338
+  },
+  {
+    "station_id": "nagano_0152",
+    "station_name": "元善光寺",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.533843,
+    "lon": 137.861375
+  },
+  {
+    "station_id": "nagano_0081",
+    "station_name": "八千穂",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.133281,
+    "lon": 138.477345
+  },
+  {
+    "station_id": "nagano_0214",
+    "station_name": "八木沢",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.358365,
+    "lon": 138.175786
+  },
+  {
+    "station_id": "nagano_0108",
+    "station_name": "冠着",
+    "prefecture": "長野県",
+    "line_name": "JR篠ノ井線",
+    "lat": 36.457215,
+    "lon": 138.079223
+  },
+  {
+    "station_id": "nagano_0148",
+    "station_name": "切石",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.512339,
+    "lon": 137.809098
+  },
+  {
+    "station_id": "nagano_0215",
+    "station_name": "別所温泉",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.353121,
+    "lon": 138.161924
+  },
+  {
+    "station_id": "nagano_0090",
+    "station_name": "北中込",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.254923,
+    "lon": 138.476661
+  },
+  {
+    "station_id": "nagano_0057",
+    "station_name": "北大町",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.517558,
+    "lon": 137.857913
+  },
+  {
+    "station_id": "nagano_0071",
+    "station_name": "北小谷",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.842567,
+    "lon": 137.906451
+  },
+  {
+    "station_id": "nagano_0222",
+    "station_name": "北新・松本大学前",
+    "prefecture": "長野県",
+    "line_name": "松本電鉄上高地線",
+    "lat": 36.219816,
+    "lon": 137.913823
+  },
+  {
+    "station_id": "nagano_0038",
+    "station_name": "北松本",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.236971,
+    "lon": 137.960983
+  },
+  {
+    "station_id": "nagano_0176",
+    "station_name": "北殿",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.879377,
+    "lon": 137.984059
+  },
+  {
+    "station_id": "nagano_0051",
+    "station_name": "北細野",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.40644,
+    "lon": 137.862725
+  },
+  {
+    "station_id": "nagano_0255",
+    "station_name": "北長野",
+    "prefecture": "長野県",
+    "line_name": "北しなの線",
+    "lat": 36.665123,
+    "lon": 138.222534
+  },
+  {
+    "station_id": "nagano_0244",
+    "station_name": "北須坂",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.678283,
+    "lon": 138.308705
+  },
+  {
+    "station_id": "nagano_0118",
+    "station_name": "北飯山",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.85883,
+    "lon": 138.363765
+  },
+  {
+    "station_id": "nagano_0025",
+    "station_name": "十二兼",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.645418,
+    "lon": 137.617569
+  },
+  {
+    "station_id": "nagano_0139",
+    "station_name": "千代",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.428949,
+    "lon": 137.816754
+  },
+  {
+    "station_id": "nagano_0068",
+    "station_name": "千国",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.763249,
+    "lon": 137.900895
+  },
+  {
+    "station_id": "nagano_0198",
+    "station_name": "千曲",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.509039,
+    "lon": 138.141661
+  },
+  {
+    "station_id": "nagano_0055",
+    "station_name": "南大町",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.491535,
+    "lon": 137.856268
+  },
+  {
+    "station_id": "nagano_0069",
+    "station_name": "南小谷",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.774604,
+    "lon": 137.908372
+  },
+  {
+    "station_id": "nagano_0026",
+    "station_name": "南木曽",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.598896,
+    "lon": 137.608672
+  },
+  {
+    "station_id": "nagano_0102",
+    "station_name": "南松本",
+    "prefecture": "長野県",
+    "line_name": "JR篠ノ井線",
+    "lat": 36.210447,
+    "lon": 137.969505
+  },
+  {
+    "station_id": "nagano_0062",
+    "station_name": "南神城",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.637105,
+    "lon": 137.841551
+  },
+  {
+    "station_id": "nagano_0044",
+    "station_name": "南豊科",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.291124,
+    "lon": 137.903457
+  },
+  {
+    "station_id": "nagano_0018",
+    "station_name": "原野",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.871245,
+    "lon": 137.741536
+  },
+  {
+    "station_id": "nagano_0258",
+    "station_name": "古間",
+    "prefecture": "長野県",
+    "line_name": "北しなの線",
+    "lat": 36.792295,
+    "lon": 138.230461
+  },
+  {
+    "station_id": "nagano_0137",
+    "station_name": "唐笠",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.402338,
+    "lon": 137.810254
+  },
+  {
+    "station_id": "nagano_0234",
+    "station_name": "善光寺下",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.658673,
+    "lon": 138.193513
+  },
+  {
+    "station_id": "nagano_0106",
+    "station_name": "坂北",
+    "prefecture": "長野県",
+    "line_name": "JR篠ノ井線",
+    "lat": 36.430663,
+    "lon": 138.015754
+  },
+  {
+    "station_id": "nagano_0196",
+    "station_name": "坂城",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.46195,
+    "lon": 138.181315
+  },
+  {
+    "station_id": "nagano_0202",
+    "station_name": "城下",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.392454,
+    "lon": 138.242712
+  },
+  {
+    "station_id": "nagano_0010",
+    "station_name": "塩尻",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 36.114364,
+    "lon": 137.947961
+  },
+  {
+    "station_id": "nagano_0211",
+    "station_name": "塩田町",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.360888,
+    "lon": 138.198445
+  },
+  {
+    "station_id": "nagano_0252",
+    "station_name": "夜間瀬",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.759998,
+    "lon": 138.403322
+  },
+  {
+    "station_id": "nagano_0208",
+    "station_name": "大学前",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.371287,
+    "lon": 138.215171
+  },
+  {
+    "station_id": "nagano_0191",
+    "station_name": "大屋",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.369566,
+    "lon": 138.297109
+  },
+  {
+    "station_id": "nagano_0220",
+    "station_name": "大庭",
+    "prefecture": "長野県",
+    "line_name": "松本電鉄上高地線",
+    "lat": 36.226961,
+    "lon": 137.941346
+  },
+  {
+    "station_id": "nagano_0023",
+    "station_name": "大桑",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.684477,
+    "lon": 137.664224
+  },
+  {
+    "station_id": "nagano_0168",
+    "station_name": "大田切",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.748162,
+    "lon": 137.940159
+  },
+  {
+    "station_id": "nagano_0140",
+    "station_name": "天竜峡",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.441114,
+    "lon": 137.81732
+  },
+  {
+    "station_id": "nagano_0087",
+    "station_name": "太田部",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.220307,
+    "lon": 138.4878
+  },
+  {
+    "station_id": "nagano_0015",
+    "station_name": "奈良井",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.969476,
+    "lon": 137.816195
+  },
+  {
+    "station_id": "nagano_0109",
+    "station_name": "姨捨",
+    "prefecture": "長野県",
+    "line_name": "JR篠ノ井線",
+    "lat": 36.502649,
+    "lon": 138.093388
+  },
+  {
+    "station_id": "nagano_0053",
+    "station_name": "安曇沓掛",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.447795,
+    "lon": 137.854784
+  },
+  {
+    "station_id": "nagano_0049",
+    "station_name": "安曇追分",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.371795,
+    "lon": 137.872736
+  },
+  {
+    "station_id": "nagano_0035",
+    "station_name": "安茂里",
+    "prefecture": "長野県",
+    "line_name": "JR信越本線",
+    "lat": 36.630262,
+    "lon": 138.161791
+  },
+  {
+    "station_id": "nagano_0017",
+    "station_name": "宮ノ越",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.888337,
+    "lon": 137.763794
+  },
+  {
+    "station_id": "nagano_0182",
+    "station_name": "宮木",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.976247,
+    "lon": 137.990509
+  },
+  {
+    "station_id": "nagano_0169",
+    "station_name": "宮田",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.76726,
+    "lon": 137.938897
+  },
+  {
+    "station_id": "nagano_0002",
+    "station_name": "富士見",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.912183,
+    "lon": 138.238071
+  },
+  {
+    "station_id": "nagano_0206",
+    "station_name": "寺下",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.38388,
+    "lon": 138.21634
+  },
+  {
+    "station_id": "nagano_0245",
+    "station_name": "小布施",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.698942,
+    "lon": 138.312771
+  },
+  {
+    "station_id": "nagano_0078",
+    "station_name": "小海",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.08862,
+    "lon": 138.482806
+  },
+  {
+    "station_id": "nagano_0166",
+    "station_name": "小町屋",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.726781,
+    "lon": 137.935207
+  },
+  {
+    "station_id": "nagano_0098",
+    "station_name": "小諸",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.326337,
+    "lon": 138.422021
+  },
+  {
+    "station_id": "nagano_0031",
+    "station_name": "小野",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線支線",
+    "lat": 36.04693,
+    "lon": 137.9706
+  },
+  {
+    "station_id": "nagano_0199",
+    "station_name": "屋代",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.532062,
+    "lon": 138.128191
+  },
+  {
+    "station_id": "nagano_0200",
+    "station_name": "屋代高校前",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.547853,
+    "lon": 138.132489
+  },
+  {
+    "station_id": "nagano_0156",
+    "station_name": "山吹",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.577758,
+    "lon": 137.903282
+  },
+  {
+    "station_id": "nagano_0008",
+    "station_name": "岡谷",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 36.056693,
+    "lon": 138.045001
+  },
+  {
+    "station_id": "nagano_0091",
+    "station_name": "岩村田",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.27446,
+    "lon": 138.4724
+  },
+  {
+    "station_id": "nagano_0039",
+    "station_name": "島内",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.246991,
+    "lon": 137.944817
+  },
+  {
+    "station_id": "nagano_0040",
+    "station_name": "島高松",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.246322,
+    "lon": 137.931576
+  },
+  {
+    "station_id": "nagano_0034",
+    "station_name": "川中島",
+    "prefecture": "長野県",
+    "line_name": "JR信越本線",
+    "lat": 36.614167,
+    "lon": 138.150679
+  },
+  {
+    "station_id": "nagano_0028",
+    "station_name": "川岸",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線支線",
+    "lat": 36.03296,
+    "lon": 138.021937
+  },
+  {
+    "station_id": "nagano_0141",
+    "station_name": "川路",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.452946,
+    "lon": 137.815564
+  },
+  {
+    "station_id": "nagano_0232",
+    "station_name": "市役所前(長野)",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.649141,
+    "lon": 138.191488
+  },
+  {
+    "station_id": "nagano_0154",
+    "station_name": "市田",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.549325,
+    "lon": 137.886578
+  },
+  {
+    "station_id": "nagano_0187",
+    "station_name": "平原",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.308606,
+    "lon": 138.453926
+  },
+  {
+    "station_id": "nagano_0132",
+    "station_name": "平岡",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.273652,
+    "lon": 137.853574
+  },
+  {
+    "station_id": "nagano_0126",
+    "station_name": "平滝",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.986041,
+    "lon": 138.533723
+  },
+  {
+    "station_id": "nagano_0101",
+    "station_name": "平田(長野)",
+    "prefecture": "長野県",
+    "line_name": "JR篠ノ井線",
+    "lat": 36.191161,
+    "lon": 137.962017
+  },
+  {
+    "station_id": "nagano_0099",
+    "station_name": "広丘",
+    "prefecture": "長野県",
+    "line_name": "JR篠ノ井線",
+    "lat": 36.148032,
+    "lon": 137.949578
+  },
+  {
+    "station_id": "nagano_0248",
+    "station_name": "延徳",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.726973,
+    "lon": 138.362693
+  },
+  {
+    "station_id": "nagano_0186",
+    "station_name": "御代田",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.318986,
+    "lon": 138.50619
+  },
+  {
+    "station_id": "nagano_0197",
+    "station_name": "戸倉",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.492913,
+    "lon": 138.153017
+  },
+  {
+    "station_id": "nagano_0120",
+    "station_name": "戸狩野沢温泉",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.916673,
+    "lon": 138.392952
+  },
+  {
+    "station_id": "nagano_0229",
+    "station_name": "新島々",
+    "prefecture": "長野県",
+    "line_name": "松本電鉄上高地線",
+    "lat": 36.18977,
+    "lon": 137.821689
+  },
+  {
+    "station_id": "nagano_0223",
+    "station_name": "新村",
+    "prefecture": "長野県",
+    "line_name": "松本電鉄上高地線",
+    "lat": 36.216441,
+    "lon": 137.905304
+  },
+  {
+    "station_id": "nagano_0012",
+    "station_name": "日出塩",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 36.049004,
+    "lon": 137.894804
+  },
+  {
+    "station_id": "nagano_0242",
+    "station_name": "日野",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.655621,
+    "lon": 138.289574
+  },
+  {
+    "station_id": "nagano_0104",
+    "station_name": "明科",
+    "prefecture": "長野県",
+    "line_name": "JR篠ノ井線",
+    "lat": 36.353948,
+    "lon": 137.929967
+  },
+  {
+    "station_id": "nagano_0142",
+    "station_name": "時又",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.46402,
+    "lon": 137.82776
+  },
+  {
+    "station_id": "nagano_0115",
+    "station_name": "替佐",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.768999,
+    "lon": 138.323385
+  },
+  {
+    "station_id": "nagano_0048",
+    "station_name": "有明",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.359949,
+    "lon": 137.878236
+  },
+  {
+    "station_id": "nagano_0238",
+    "station_name": "朝陽",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.666326,
+    "lon": 138.240635
+  },
+  {
+    "station_id": "nagano_0177",
+    "station_name": "木ノ下",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.900892,
+    "lon": 137.988022
+  },
+  {
+    "station_id": "nagano_0014",
+    "station_name": "木曽平沢",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.979108,
+    "lon": 137.832613
+  },
+  {
+    "station_id": "nagano_0019",
+    "station_name": "木曽福島",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.843669,
+    "lon": 137.69343
+  },
+  {
+    "station_id": "nagano_0235",
+    "station_name": "本郷(愛知)",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.662567,
+    "lon": 138.204014
+  },
+  {
+    "station_id": "nagano_0100",
+    "station_name": "村井",
+    "prefecture": "長野県",
+    "line_name": "JR篠ノ井線",
+    "lat": 36.174226,
+    "lon": 137.956007
+  },
+  {
+    "station_id": "nagano_0241",
+    "station_name": "村山",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.659295,
+    "lon": 138.279556
+  },
+  {
+    "station_id": "nagano_0097",
+    "station_name": "東小諸",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.317057,
+    "lon": 138.432144
+  },
+  {
+    "station_id": "nagano_0077",
+    "station_name": "松原湖",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.060995,
+    "lon": 138.470509
+  },
+  {
+    "station_id": "nagano_0037",
+    "station_name": "松本",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.230393,
+    "lon": 137.96445
+  },
+  {
+    "station_id": "nagano_0046",
+    "station_name": "柏矢町",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.322529,
+    "lon": 137.888349
+  },
+  {
+    "station_id": "nagano_0240",
+    "station_name": "柳原",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.663438,
+    "lon": 138.258317
+  },
+  {
+    "station_id": "nagano_0236",
+    "station_name": "桐原(新潟)",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.665642,
+    "lon": 138.21303
+  },
+  {
+    "station_id": "nagano_0123",
+    "station_name": "桑名川",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.975882,
+    "lon": 138.458007
+  },
+  {
+    "station_id": "nagano_0247",
+    "station_name": "桜沢",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.712641,
+    "lon": 138.349642
+  },
+  {
+    "station_id": "nagano_0150",
+    "station_name": "桜町(長野)",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.522147,
+    "lon": 137.829601
+  },
+  {
+    "station_id": "nagano_0041",
+    "station_name": "梓橋",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.250162,
+    "lon": 137.918027
+  },
+  {
+    "station_id": "nagano_0225",
+    "station_name": "森口",
+    "prefecture": "長野県",
+    "line_name": "松本電鉄上高地線",
+    "lat": 36.208136,
+    "lon": 137.881315
+  },
+  {
+    "station_id": "nagano_0128",
+    "station_name": "森宮野原",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.989447,
+    "lon": 138.57733
+  },
+  {
+    "station_id": "nagano_0233",
+    "station_name": "権堂",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.653088,
+    "lon": 138.19188
+  },
+  {
+    "station_id": "nagano_0127",
+    "station_name": "横倉",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.979875,
+    "lon": 138.55031
+  },
+  {
+    "station_id": "nagano_0144",
+    "station_name": "毛賀",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.487445,
+    "lon": 137.839332
+  },
+  {
+    "station_id": "nagano_0179",
+    "station_name": "沢",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.936385,
+    "lon": 137.985477
+  },
+  {
+    "station_id": "nagano_0171",
+    "station_name": "沢渡",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.803681,
+    "lon": 137.944035
+  },
+  {
+    "station_id": "nagano_0227",
+    "station_name": "波田",
+    "prefecture": "長野県",
+    "line_name": "松本電鉄上高地線",
+    "lat": 36.200358,
+    "lon": 137.856412
+  },
+  {
+    "station_id": "nagano_0011",
+    "station_name": "洗馬",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 36.087164,
+    "lon": 137.916842
+  },
+  {
+    "station_id": "nagano_0060",
+    "station_name": "海ノ口",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.565652,
+    "lon": 137.841824
+  },
+  {
+    "station_id": "nagano_0076",
+    "station_name": "海尻",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.041276,
+    "lon": 138.473536
+  },
+  {
+    "station_id": "nagano_0082",
+    "station_name": "海瀬",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.155743,
+    "lon": 138.485894
+  },
+  {
+    "station_id": "nagano_0228",
+    "station_name": "渕東",
+    "prefecture": "長野県",
+    "line_name": "松本電鉄上高地線",
+    "lat": 36.195325,
+    "lon": 137.840313
+  },
+  {
+    "station_id": "nagano_0218",
+    "station_name": "渚(長野)",
+    "prefecture": "長野県",
+    "line_name": "松本電鉄上高地線",
+    "lat": 36.227169,
+    "lon": 137.956006
+  },
+  {
+    "station_id": "nagano_0134",
+    "station_name": "温田",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.336273,
+    "lon": 137.841294
+  },
+  {
+    "station_id": "nagano_0254",
+    "station_name": "湯田中",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.741659,
+    "lon": 138.414877
+  },
+  {
+    "station_id": "nagano_0189",
+    "station_name": "滋野",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.342586,
+    "lon": 138.363543
+  },
+  {
+    "station_id": "nagano_0089",
+    "station_name": "滑津",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.238715,
+    "lon": 138.475003
+  },
+  {
+    "station_id": "nagano_0133",
+    "station_name": "為栗",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.311687,
+    "lon": 137.848503
+  },
+  {
+    "station_id": "nagano_0257",
+    "station_name": "牟礼",
+    "prefecture": "長野県",
+    "line_name": "北しなの線",
+    "lat": 36.753239,
+    "lon": 138.247121
+  },
+  {
+    "station_id": "nagano_0190",
+    "station_name": "田中",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.354433,
+    "lon": 138.329414
+  },
+  {
+    "station_id": "nagano_0164",
+    "station_name": "田切",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.695613,
+    "lon": 137.933092
+  },
+  {
+    "station_id": "nagano_0135",
+    "station_name": "田本",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.348988,
+    "lon": 137.837922
+  },
+  {
+    "station_id": "nagano_0103",
+    "station_name": "田沢",
+    "prefecture": "長野県",
+    "line_name": "JR篠ノ井線",
+    "lat": 36.301583,
+    "lon": 137.941029
+  },
+  {
+    "station_id": "nagano_0175",
+    "station_name": "田畑",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.860791,
+    "lon": 137.97781
+  },
+  {
+    "station_id": "nagano_0027",
+    "station_name": "田立",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.588281,
+    "lon": 137.54893
+  },
+  {
+    "station_id": "nagano_0065",
+    "station_name": "白馬",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.695922,
+    "lon": 137.863819
+  },
+  {
+    "station_id": "nagano_0067",
+    "station_name": "白馬大池",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.739918,
+    "lon": 137.885531
+  },
+  {
+    "station_id": "nagano_0063",
+    "station_name": "神城",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.658287,
+    "lon": 137.846586
+  },
+  {
+    "station_id": "nagano_0207",
+    "station_name": "神畑",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.377841,
+    "lon": 138.216965
+  },
+  {
+    "station_id": "nagano_0059",
+    "station_name": "稲尾",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.554058,
+    "lon": 137.842575
+  },
+  {
+    "station_id": "nagano_0110",
+    "station_name": "稲荷山",
+    "prefecture": "長野県",
+    "line_name": "JR篠ノ井線",
+    "lat": 36.552633,
+    "lon": 138.108061
+  },
+  {
+    "station_id": "nagano_0047",
+    "station_name": "穂高",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.33906,
+    "lon": 137.881869
+  },
+  {
+    "station_id": "nagano_0113",
+    "station_name": "立ヶ花",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.731257,
+    "lon": 138.307057
+  },
+  {
+    "station_id": "nagano_0032",
+    "station_name": "篠ノ井",
+    "prefecture": "長野県",
+    "line_name": "JR信越本線",
+    "lat": 36.5771,
+    "lon": 138.138046
+  },
+  {
+    "station_id": "nagano_0061",
+    "station_name": "簗場",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.594666,
+    "lon": 137.844724
+  },
+  {
+    "station_id": "nagano_0050",
+    "station_name": "細野",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.397107,
+    "lon": 137.865722
+  },
+  {
+    "station_id": "nagano_0094",
+    "station_name": "美里",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.292243,
+    "lon": 138.450177
+  },
+  {
+    "station_id": "nagano_0180",
+    "station_name": "羽場",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.953094,
+    "lon": 137.985126
+  },
+  {
+    "station_id": "nagano_0083",
+    "station_name": "羽黒下",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.166411,
+    "lon": 138.489618
+  },
+  {
+    "station_id": "nagano_0107",
+    "station_name": "聖高原",
+    "prefecture": "長野県",
+    "line_name": "JR篠ノ井線",
+    "lat": 36.455069,
+    "lon": 138.047603
+  },
+  {
+    "station_id": "nagano_0085",
+    "station_name": "臼田",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.194013,
+    "lon": 138.488309
+  },
+  {
+    "station_id": "nagano_0213",
+    "station_name": "舞田",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.359621,
+    "lon": 138.18288
+  },
+  {
+    "station_id": "nagano_0005",
+    "station_name": "茅野",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.995062,
+    "lon": 138.151674
+  },
+  {
+    "station_id": "nagano_0116",
+    "station_name": "蓮",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.80888,
+    "lon": 138.349026
+  },
+  {
+    "station_id": "nagano_0016",
+    "station_name": "藪原",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.930152,
+    "lon": 137.784368
+  },
+  {
+    "station_id": "nagano_0194",
+    "station_name": "西上田",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.417318,
+    "lon": 138.20855
+  },
+  {
+    "station_id": "nagano_0124",
+    "station_name": "西大滝",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.979169,
+    "lon": 138.480872
+  },
+  {
+    "station_id": "nagano_0105",
+    "station_name": "西条",
+    "prefecture": "長野県",
+    "line_name": "JR篠ノ井線",
+    "lat": 36.400353,
+    "lon": 138.012377
+  },
+  {
+    "station_id": "nagano_0217",
+    "station_name": "西松本",
+    "prefecture": "長野県",
+    "line_name": "松本電鉄上高地線",
+    "lat": 36.227111,
+    "lon": 137.963299
+  },
+  {
+    "station_id": "nagano_0045",
+    "station_name": "豊科",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.299957,
+    "lon": 137.900896
+  },
+  {
+    "station_id": "nagano_0111",
+    "station_name": "豊野",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.710642,
+    "lon": 138.274458
+  },
+  {
+    "station_id": "nagano_0013",
+    "station_name": "贄川",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 36.014008,
+    "lon": 137.86091
+  },
+  {
+    "station_id": "nagano_0204",
+    "station_name": "赤坂上",
+    "prefecture": "長野県",
+    "line_name": "上田電鉄別所線",
+    "lat": 36.391301,
+    "lon": 138.227224
+  },
+  {
+    "station_id": "nagano_0170",
+    "station_name": "赤木",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.777887,
+    "lon": 137.943943
+  },
+  {
+    "station_id": "nagano_0183",
+    "station_name": "軽井沢",
+    "prefecture": "長野県",
+    "line_name": "しなの鉄道線",
+    "lat": 36.342889,
+    "lon": 138.635096
+  },
+  {
+    "station_id": "nagano_0029",
+    "station_name": "辰野",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線支線",
+    "lat": 35.984565,
+    "lon": 137.997238
+  },
+  {
+    "station_id": "nagano_0246",
+    "station_name": "都住",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.704122,
+    "lon": 138.322086
+  },
+  {
+    "station_id": "nagano_0024",
+    "station_name": "野尻",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.673042,
+    "lon": 137.636152
+  },
+  {
+    "station_id": "nagano_0072",
+    "station_name": "野辺山",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 35.955289,
+    "lon": 138.474448
+  },
+  {
+    "station_id": "nagano_0138",
+    "station_name": "金野",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.419128,
+    "lon": 137.817149
+  },
+  {
+    "station_id": "nagano_0036",
+    "station_name": "長野(長野電鉄)",
+    "prefecture": "長野県",
+    "line_name": "JR信越本線",
+    "lat": 36.643307,
+    "lon": 138.189101
+  },
+  {
+    "station_id": "nagano_0136",
+    "station_name": "門島",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.375306,
+    "lon": 137.814151
+  },
+  {
+    "station_id": "nagano_0239",
+    "station_name": "附属中学前",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.662488,
+    "lon": 138.248298
+  },
+  {
+    "station_id": "nagano_0004",
+    "station_name": "青柳",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.942581,
+    "lon": 138.197612
+  },
+  {
+    "station_id": "nagano_0084",
+    "station_name": "青沼",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.181259,
+    "lon": 138.489162
+  },
+  {
+    "station_id": "nagano_0022",
+    "station_name": "須原",
+    "prefecture": "長野県",
+    "line_name": "JR中央本線",
+    "lat": 35.69769,
+    "lon": 137.694844
+  },
+  {
+    "station_id": "nagano_0243",
+    "station_name": "須坂",
+    "prefecture": "長野県",
+    "line_name": "長野電鉄長野線",
+    "lat": 36.656841,
+    "lon": 138.304239
+  },
+  {
+    "station_id": "nagano_0117",
+    "station_name": "飯山",
+    "prefecture": "長野県",
+    "line_name": "JR飯山線",
+    "lat": 36.847642,
+    "lon": 138.359335
+  },
+  {
+    "station_id": "nagano_0163",
+    "station_name": "飯島",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.677571,
+    "lon": 137.929004
+  },
+  {
+    "station_id": "nagano_0064",
+    "station_name": "飯森",
+    "prefecture": "長野県",
+    "line_name": "JR大糸線",
+    "lat": 36.670563,
+    "lon": 137.85006
+  },
+  {
+    "station_id": "nagano_0149",
+    "station_name": "飯田",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.519544,
+    "lon": 137.821244
+  },
+  {
+    "station_id": "nagano_0079",
+    "station_name": "馬流",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.101824,
+    "lon": 138.485963
+  },
+  {
+    "station_id": "nagano_0143",
+    "station_name": "駄科",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.4754,
+    "lon": 137.839625
+  },
+  {
+    "station_id": "nagano_0167",
+    "station_name": "駒ヶ根",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.736219,
+    "lon": 137.936862
+  },
+  {
+    "station_id": "nagano_0080",
+    "station_name": "高岩",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.115711,
+    "lon": 138.477438
+  },
+  {
+    "station_id": "nagano_0160",
+    "station_name": "高遠原",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.644693,
+    "lon": 137.90055
+  },
+  {
+    "station_id": "nagano_0131",
+    "station_name": "鶯巣",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.267286,
+    "lon": 137.832595
+  },
+  {
+    "station_id": "nagano_0259",
+    "station_name": "黒姫",
+    "prefecture": "長野県",
+    "line_name": "北しなの線",
+    "lat": 36.807214,
+    "lon": 138.197195
+  },
+  {
+    "station_id": "nagano_0147",
+    "station_name": "鼎",
+    "prefecture": "長野県",
+    "line_name": "JR飯田線",
+    "lat": 35.506726,
+    "lon": 137.828383
+  },
+  {
+    "station_id": "nagano_0086",
+    "station_name": "龍岡城",
+    "prefecture": "長野県",
+    "line_name": "JR小海線",
+    "lat": 36.204184,
+    "lon": 138.490708
+  }
+]

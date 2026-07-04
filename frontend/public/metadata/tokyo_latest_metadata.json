@@ -1,8 +1,9 @@
 {
   "region": "tokyo",
   "modelName": "tokyo_latest",
-  "mae": 7386067.341281644,
+  "mae": 6431985.815128814,
   "latestTrainingYear": 2025,
+  "generatedAt": "2026-07-04",
   "featureOrder": [
     "area",
     "age",
@@ -16,85 +17,84 @@
   ],
   "evaluation": {
     "split": "time_holdout",
-    "trainStartYear": 2020,
+    "trainStartYear": 2005,
     "testYear": 2025,
-    "trainCount": 156436,
-    "testCount": 35487,
+    "trainCount": 336956,
+    "testCount": 33025,
     "metrics": {
-      "mae": 7386067.341281644,
-      "rmse": 10572906.105285898,
-      "mape": 17.286215829623362
+      "mae": 6431985.815128814,
+      "rmse": 8819728.278872006,
+      "mape": 17.234394597306018
     }
   },
   "deployment": {
-    "trainStartYear": 2020,
+    "trainStartYear": 2005,
     "latestTrainingYear": 2025,
-    "trainCount": 191923,
+    "trainCount": 369981,
     "trainedWithAllAvailableRows": true
   },
   "modelParams": {
     "objective": "regression",
-    "n_estimators": 475,
-    "learning_rate": 0.07140097115313421,
+    "n_estimators": 718,
+    "learning_rate": 0.06394879811524627,
     "random_state": 42,
     "verbosity": -1,
-    "num_leaves": 69,
+    "num_leaves": 70,
     "max_depth": 8,
-    "min_child_samples": 72,
-    "subsample": 0.708778576993277,
-    "colsample_bytree": 0.787217021549209,
-    "reg_alpha": 0.00011561217176656156,
-    "reg_lambda": 0.08289625886107502
+    "min_child_samples": 112,
+    "subsample": 0.9993427691587307,
+    "colsample_bytree": 0.8879629529377686,
+    "reg_alpha": 6.158825617965165,
+    "reg_lambda": 4.045666625074409
   },
-  "tuning": {
-    "enabled": true,
-    "nTrials": 30,
-    "completedTrials": 30,
-    "validationYear": 2024,
-    "bestValidationMae": 6583044.819908666,
-    "bestTuningScore": 6701794.819908666,
-    "maxEstimators": 800,
-    "numLeavesMax": 80,
-    "maxDepthMax": 9,
-    "sizePenaltyPerIteration": 250.0
-  },
-  "generatedAt": "2026-06-24",
   "featureImportance": [
     {
       "feature": "station",
-      "importance": 7515.0
+      "importance": 15832.0
     },
     {
       "feature": "age",
-      "importance": 5544.0
+      "importance": 6653.0
     },
     {
       "feature": "area",
-      "importance": 4399.0
-    },
-    {
-      "feature": "municipality",
-      "importance": 3772.0
-    },
-    {
-      "feature": "station_distance",
-      "importance": 3699.0
+      "importance": 5913.0
     },
     {
       "feature": "room_layout",
-      "importance": 3185.0
+      "importance": 5556.0
+    },
+    {
+      "feature": "municipality",
+      "importance": 4810.0
     },
     {
       "feature": "transaction_year",
-      "importance": 2029.0
+      "importance": 4643.0
+    },
+    {
+      "feature": "station_distance",
+      "importance": 4020.0
     },
     {
       "feature": "building_type",
-      "importance": 759.0
+      "importance": 956.0
     },
     {
       "feature": "prefecture",
       "importance": 0.0
     }
-  ]
+  ],
+  "tuning": {
+    "enabled": true,
+    "nTrials": 30,
+    "completedTrials": 30,
+    "validationYear": 2024,
+    "bestValidationMae": 5761272.150632111,
+    "bestTuningScore": 5940772.150632111,
+    "maxEstimators": 800,
+    "numLeavesMax": 80,
+    "maxDepthMax": 9,
+    "sizePenaltyPerIteration": 250.0
+  }
 }

@@ -1,0 +1,956 @@
+[
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2010,
+    "avg_price": 8650000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2012,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2013,
+    "avg_price": 20666666.666666668
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2014,
+    "avg_price": 350000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2015,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2016,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2017,
+    "avg_price": 27090909.09090909
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2018,
+    "avg_price": 23722222.222222224
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2019,
+    "avg_price": 15600000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2020,
+    "avg_price": 9833333.333333334
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2021,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2022,
+    "avg_price": 26500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2023,
+    "avg_price": 26000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2024,
+    "avg_price": 7950000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "一ノ関",
+    "year": 2025,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2007,
+    "avg_price": 10260000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2008,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2009,
+    "avg_price": 6225000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2010,
+    "avg_price": 18500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2012,
+    "avg_price": 2300000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2013,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2015,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2016,
+    "avg_price": 17500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2017,
+    "avg_price": 6333333.333333333
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2018,
+    "avg_price": 7066666.666666667
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2020,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2021,
+    "avg_price": 19125000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2022,
+    "avg_price": 17930769.230769232
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2023,
+    "avg_price": 18111111.111111112
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2024,
+    "avg_price": 12160000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "上盛岡",
+    "year": 2025,
+    "avg_price": 11800000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2007,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2008,
+    "avg_price": 17666666.666666668
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2009,
+    "avg_price": 11250000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2010,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2011,
+    "avg_price": 14900000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2012,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2013,
+    "avg_price": 11550000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2014,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2015,
+    "avg_price": 10300000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2016,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2017,
+    "avg_price": 16185714.285714285
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2018,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2019,
+    "avg_price": 7400000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2020,
+    "avg_price": 10888888.888888888
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2021,
+    "avg_price": 15140000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2022,
+    "avg_price": 18816666.666666668
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2023,
+    "avg_price": 15850000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2024,
+    "avg_price": 21500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "仙北町",
+    "year": 2025,
+    "avg_price": 20625000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "北上",
+    "year": 2022,
+    "avg_price": 25833333.333333332
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "北上",
+    "year": 2023,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "北上",
+    "year": 2024,
+    "avg_price": 12000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "北上",
+    "year": 2025,
+    "avg_price": 30333333.333333332
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "土沢",
+    "year": 2020,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "土沢",
+    "year": 2022,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "土沢",
+    "year": 2025,
+    "avg_price": 8050000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "大釜",
+    "year": 2009,
+    "avg_price": 3450000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "大釜",
+    "year": 2015,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "安比高原",
+    "year": 2025,
+    "avg_price": 3150000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小佐野",
+    "year": 2023,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2007,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2008,
+    "avg_price": 3100000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2009,
+    "avg_price": 3625000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2010,
+    "avg_price": 2640000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2011,
+    "avg_price": 2750000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2012,
+    "avg_price": 2633333.3333333335
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2013,
+    "avg_price": 4250000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2014,
+    "avg_price": 3400000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2015,
+    "avg_price": 2900000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2016,
+    "avg_price": 3966666.6666666665
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2019,
+    "avg_price": 3250000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2020,
+    "avg_price": 3133333.3333333335
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2021,
+    "avg_price": 2960000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2022,
+    "avg_price": 4455555.555555556
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2023,
+    "avg_price": 2560000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2024,
+    "avg_price": 3100000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "小岩井",
+    "year": 2025,
+    "avg_price": 3533333.3333333335
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "山岸",
+    "year": 2011,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "山岸",
+    "year": 2025,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2007,
+    "avg_price": 8500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2008,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2009,
+    "avg_price": 7766666.666666667
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2010,
+    "avg_price": 6066666.666666667
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2011,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2012,
+    "avg_price": 13300000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2013,
+    "avg_price": 9500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2014,
+    "avg_price": 13150000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2015,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2016,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2017,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2018,
+    "avg_price": 9000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2021,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2022,
+    "avg_price": 12460000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2023,
+    "avg_price": 29000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2024,
+    "avg_price": 19700000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "岩手飯岡",
+    "year": 2025,
+    "avg_price": 15666666.666666666
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2008,
+    "avg_price": 22500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2009,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2014,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2015,
+    "avg_price": 18666666.666666668
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2016,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2017,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2018,
+    "avg_price": 11100000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2019,
+    "avg_price": 6100000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2020,
+    "avg_price": 22000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2021,
+    "avg_price": 11500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2022,
+    "avg_price": 17400000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2023,
+    "avg_price": 13666666.666666666
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2024,
+    "avg_price": 17125000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "水沢",
+    "year": 2025,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2007,
+    "avg_price": 8747222.222222222
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2008,
+    "avg_price": 11446296.296296297
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2009,
+    "avg_price": 8330136.98630137
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2010,
+    "avg_price": 8291898.734177215
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2011,
+    "avg_price": 9957777.777777778
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2012,
+    "avg_price": 9784810.126582278
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2013,
+    "avg_price": 11737349.397590362
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2014,
+    "avg_price": 12552173.913043479
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2015,
+    "avg_price": 11664666.666666666
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2016,
+    "avg_price": 12806363.636363637
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2017,
+    "avg_price": 13550000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2018,
+    "avg_price": 13072500.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2019,
+    "avg_price": 14051162.790697675
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2020,
+    "avg_price": 15050000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2021,
+    "avg_price": 13884806.629834253
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2022,
+    "avg_price": 16385081.081081081
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2023,
+    "avg_price": 16767333.333333334
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2024,
+    "avg_price": 18839155.844155844
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "盛岡",
+    "year": 2025,
+    "avg_price": 17108677.685950413
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "矢幅",
+    "year": 2013,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "花巻",
+    "year": 2008,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "花巻",
+    "year": 2010,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "花巻",
+    "year": 2011,
+    "avg_price": 15000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "花巻",
+    "year": 2013,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "花巻",
+    "year": 2014,
+    "avg_price": 17000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "花巻",
+    "year": 2019,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "花巻",
+    "year": 2022,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "花巻",
+    "year": 2024,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "雫石",
+    "year": 2015,
+    "avg_price": 6000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "雫石",
+    "year": 2018,
+    "avg_price": 2466666.6666666665
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "雫石",
+    "year": 2021,
+    "avg_price": 1800000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "雫石",
+    "year": 2025,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2008,
+    "avg_price": 20200000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2009,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2010,
+    "avg_price": 9025000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2011,
+    "avg_price": 4800000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2013,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2015,
+    "avg_price": 11180000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2016,
+    "avg_price": 10333333.333333334
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2017,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2018,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2019,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2020,
+    "avg_price": 15050000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2021,
+    "avg_price": 11475000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2022,
+    "avg_price": 18475000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2023,
+    "avg_price": 14450000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2024,
+    "avg_price": 25000000.0
+  },
+  {
+    "prefecture": "岩手県",
+    "station": "青山(岩手)",
+    "year": 2025,
+    "avg_price": 18933333.333333332
+  }
+]

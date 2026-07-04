@@ -72,15 +72,14 @@ uv run python src/preprocess/preprocess.py \
 基本コマンド:
 
 ```bash
-cd training
-uv run python -m src.export.stations --public-dir ../frontend/public --regions tokyo saitama chiba kanagawa
+make stations-national
 ```
 
 `uv` が使えない場合:
 
 ```bash
 cd training
-.venv/bin/python -m src.export.stations --public-dir ../frontend/public --regions tokyo saitama chiba kanagawa
+.venv/bin/python -m src.export.stations --public-dir ../frontend/public
 ```
 
 更新後の確認:

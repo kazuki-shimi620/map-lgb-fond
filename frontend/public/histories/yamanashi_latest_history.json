@@ -1,0 +1,896 @@
+[
+  {
+    "prefecture": "山梨県",
+    "station": "勝沼ぶどう郷",
+    "year": 2025,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2007,
+    "avg_price": 6850000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2008,
+    "avg_price": 7475000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2009,
+    "avg_price": 10037500.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2010,
+    "avg_price": 10175000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2011,
+    "avg_price": 11125000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2012,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2013,
+    "avg_price": 8600000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2014,
+    "avg_price": 12050000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2015,
+    "avg_price": 20000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2016,
+    "avg_price": 9350000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2017,
+    "avg_price": 11800000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2018,
+    "avg_price": 13666666.666666666
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2019,
+    "avg_price": 7066666.666666667
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2020,
+    "avg_price": 8928571.42857143
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2021,
+    "avg_price": 8862500.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2022,
+    "avg_price": 8666666.666666666
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2023,
+    "avg_price": 10345454.545454545
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2024,
+    "avg_price": 15233333.333333334
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "南甲府",
+    "year": 2025,
+    "avg_price": 11280000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2008,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2009,
+    "avg_price": 3500000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2010,
+    "avg_price": 4700000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2011,
+    "avg_price": 3725000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2012,
+    "avg_price": 3010000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2013,
+    "avg_price": 4214285.714285715
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2014,
+    "avg_price": 4050000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2015,
+    "avg_price": 5150000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2016,
+    "avg_price": 3150000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2017,
+    "avg_price": 1350000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2019,
+    "avg_price": 3150000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2020,
+    "avg_price": 6216666.666666667
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2021,
+    "avg_price": 4694000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2022,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "善光寺",
+    "year": 2025,
+    "avg_price": 5928571.428571428
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2007,
+    "avg_price": 9766666.666666666
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2009,
+    "avg_price": 3100000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2011,
+    "avg_price": 7900000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2012,
+    "avg_price": 8950000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2014,
+    "avg_price": 18000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2016,
+    "avg_price": 19000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2017,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2018,
+    "avg_price": 13666666.666666666
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2020,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2021,
+    "avg_price": 12685714.285714285
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2022,
+    "avg_price": 15500000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2023,
+    "avg_price": 16483333.333333334
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2024,
+    "avg_price": 21000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "国母",
+    "year": 2025,
+    "avg_price": 20500000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "塩山",
+    "year": 2022,
+    "avg_price": 5450000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "塩山",
+    "year": 2023,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "富士山",
+    "year": 2021,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "富士山",
+    "year": 2024,
+    "avg_price": 3750000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "富士山",
+    "year": 2025,
+    "avg_price": 8080000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "富士急ハイランド",
+    "year": 2025,
+    "avg_price": 14500000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "寿",
+    "year": 2025,
+    "avg_price": 2900000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "小淵沢",
+    "year": 2022,
+    "avg_price": 9200000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "春日居町",
+    "year": 2021,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "春日居町",
+    "year": 2022,
+    "avg_price": 7800000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "春日居町",
+    "year": 2023,
+    "avg_price": 7820000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "春日居町",
+    "year": 2024,
+    "avg_price": 7000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "春日居町",
+    "year": 2025,
+    "avg_price": 7200000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "河口湖",
+    "year": 2021,
+    "avg_price": 8900000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "河口湖",
+    "year": 2023,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "河口湖",
+    "year": 2024,
+    "avg_price": 8800000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "河口湖",
+    "year": 2025,
+    "avg_price": 6650000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "清里",
+    "year": 2021,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "清里",
+    "year": 2024,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "清里",
+    "year": 2025,
+    "avg_price": 6450000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2007,
+    "avg_price": 12106250.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2008,
+    "avg_price": 7676470.588235294
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2009,
+    "avg_price": 12169230.76923077
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2010,
+    "avg_price": 20201012.65822785
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2011,
+    "avg_price": 8946153.846153846
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2012,
+    "avg_price": 13529411.764705881
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2013,
+    "avg_price": 13292307.692307692
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2014,
+    "avg_price": 13975000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2015,
+    "avg_price": 14429629.629629629
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2016,
+    "avg_price": 9312903.225806452
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2017,
+    "avg_price": 14043478.260869564
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2018,
+    "avg_price": 16235294.11764706
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2019,
+    "avg_price": 15129166.666666666
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2020,
+    "avg_price": 16422058.823529411
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2021,
+    "avg_price": 18121153.846153848
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2022,
+    "avg_price": 18598039.215686273
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2023,
+    "avg_price": 23738461.53846154
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2024,
+    "avg_price": 21581967.213114753
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲府",
+    "year": 2025,
+    "avg_price": 25353787.87878788
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲斐住吉",
+    "year": 2007,
+    "avg_price": 8000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲斐住吉",
+    "year": 2010,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲斐住吉",
+    "year": 2013,
+    "avg_price": 10000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲斐住吉",
+    "year": 2014,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲斐住吉",
+    "year": 2015,
+    "avg_price": 6800000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲斐住吉",
+    "year": 2021,
+    "avg_price": 13750000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲斐住吉",
+    "year": 2022,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲斐住吉",
+    "year": 2023,
+    "avg_price": 4000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲斐住吉",
+    "year": 2024,
+    "avg_price": 13500000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "甲斐住吉",
+    "year": 2025,
+    "avg_price": 9625000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2007,
+    "avg_price": 4766666.666666667
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2008,
+    "avg_price": 4742857.142857143
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2009,
+    "avg_price": 4666666.666666667
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2010,
+    "avg_price": 7500000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2011,
+    "avg_price": 5033333.333333333
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2012,
+    "avg_price": 6150000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2013,
+    "avg_price": 6433333.333333333
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2014,
+    "avg_price": 11733333.333333334
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2016,
+    "avg_price": 4350000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2017,
+    "avg_price": 6100000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2018,
+    "avg_price": 13000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2020,
+    "avg_price": 9733333.333333334
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2021,
+    "avg_price": 6140000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2022,
+    "avg_price": 5970000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2023,
+    "avg_price": 7168181.818181818
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2024,
+    "avg_price": 5428571.428571428
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "石和温泉",
+    "year": 2025,
+    "avg_price": 6850000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "禾生",
+    "year": 2023,
+    "avg_price": 6500000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "竜王",
+    "year": 2021,
+    "avg_price": 23000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "竜王",
+    "year": 2022,
+    "avg_price": 2333333.3333333335
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "竜王",
+    "year": 2023,
+    "avg_price": 24000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "竜王",
+    "year": 2024,
+    "avg_price": 2800000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "竜王",
+    "year": 2025,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2008,
+    "avg_price": 5800000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2009,
+    "avg_price": 2400000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2010,
+    "avg_price": 1566666.6666666667
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2011,
+    "avg_price": 2800000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2012,
+    "avg_price": 5200000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2013,
+    "avg_price": 1000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2014,
+    "avg_price": 5300000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2016,
+    "avg_price": 1533333.3333333333
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2017,
+    "avg_price": 3700000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2018,
+    "avg_price": 1650000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2021,
+    "avg_price": 6575000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2022,
+    "avg_price": 8650000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2023,
+    "avg_price": 6600000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2024,
+    "avg_price": 2000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "酒折",
+    "year": 2025,
+    "avg_price": 2500000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "金手",
+    "year": 2008,
+    "avg_price": 5750000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "金手",
+    "year": 2010,
+    "avg_price": 3000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "金手",
+    "year": 2014,
+    "avg_price": 3271428.5714285714
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "金手",
+    "year": 2015,
+    "avg_price": 3300000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "金手",
+    "year": 2017,
+    "avg_price": 7300000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "金手",
+    "year": 2018,
+    "avg_price": 5866666.666666667
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "金手",
+    "year": 2019,
+    "avg_price": 4500000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "金手",
+    "year": 2020,
+    "avg_price": 2700000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "金手",
+    "year": 2021,
+    "avg_price": 16000000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "金手",
+    "year": 2022,
+    "avg_price": 5700000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "金手",
+    "year": 2023,
+    "avg_price": 13400000.0
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "金手",
+    "year": 2024,
+    "avg_price": 10422222.222222222
+  },
+  {
+    "prefecture": "山梨県",
+    "station": "金手",
+    "year": 2025,
+    "avg_price": 12770000.0
+  }
+]
