@@ -17,6 +17,7 @@ from common.regions import (  # noqa: E402
 )
 from evaluate.metrics import calculate_metrics  # noqa: E402
 from export.artifacts import (  # noqa: E402
+    RECENT_HISTORY_START_YEAR,
     build_artifact_paths,
     build_price_history,
     copy_for_frontend,
@@ -144,7 +145,7 @@ def train_regional_models(
             ),
             paths["metadata"],
         )
-        save_json(build_price_history(group_data), paths["history"])
+        save_json(build_price_history(group_data), paths["history"], compact=True)
         exported = export_onnx_if_available(deployment_model, len(FEATURES), paths["onnx"])
         if exported is None:
             raise RuntimeError(f"ONNX export failed: {model_id}")
@@ -232,8 +233,17 @@ def _build_feature_importance(model) -> list[dict[str, object]]:
 def _publish_prefecture_histories(group_data, prefectures: list[str], public_dir: Path) -> None:
     for prefecture in prefectures:
         slug = PREFECTURE_TO_SLUG[prefecture]
-        history = build_price_history(group_data[group_data["prefecture"] == prefecture])
-        save_json(history, public_dir / "histories" / f"{slug}_latest_history.json")
+        prefecture_data = group_data[group_data["prefecture"] == prefecture]
+        save_json(
+            build_price_history(prefecture_data, min_year=RECENT_HISTORY_START_YEAR),
+            public_dir / "histories" / f"{slug}_latest_history.json",
+            compact=True,
+        )
+        save_json(
+            build_price_history(prefecture_data, max_year=RECENT_HISTORY_START_YEAR - 1),
+            public_dir / "histories" / f"{slug}_archive_history.json",
+            compact=True,
+        )
 
 
 if __name__ == "__main__":

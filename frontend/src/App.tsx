@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { PropertyMap } from "./features/map/PropertyMap";
 import {
   getModelManager,
@@ -7,13 +7,18 @@ import {
   prefetchCapitalRegionModels
 } from "./features/model/modelManagerFactory";
 import { PriceHistoryChart } from "./features/prediction/PriceHistoryChart";
-import { PredictionForm, PredictionYearControl } from "./features/prediction/PredictionForm";
+import {
+  PredictionForm,
+  PredictionSheetHandle,
+  PredictionYearControl
+} from "./features/prediction/PredictionForm";
 import { PredictionResultView } from "./features/prediction/PredictionResultView";
 import { reverseGeocode } from "./services/geocodingService";
 import { distanceKmToWalkingMinutes, findNearestStation, loadStations } from "./services/stationService";
 import type { ModelMetadata, PriceHistoryPoint, StationRecord } from "./types/assets";
 import type { PredictionFormState, PredictionResult, StationRegion } from "./types/prediction";
 import { fetchJson } from "./services/http";
+import { haversineKm } from "./utils/distance";
 import { getPrefectureLabel, getRegionFromPrefecture, getStationRegionFromPrefecture } from "./utils/region";
 
 const initialForm: PredictionFormState = {
@@ -26,15 +31,23 @@ const initialForm: PredictionFormState = {
   roomLayout: "2LDK",
   buildingType: "ＲＣ",
   predictionYear: new Date().getFullYear(),
-  lat: null,
-  lon: null
+  lat: 35.681236,
+  lon: 139.767125
 };
+
+const RECENT_HISTORY_START_YEAR = 2020;
 
 export function App() {
   const [form, setForm] = useState<PredictionFormState>(initialForm);
   const [result, setResult] = useState<PredictionResult | null>(null);
   const [forecastPoints, setForecastPoints] = useState<PriceHistoryPoint[]>([]);
+  const [historyModelAnchor, setHistoryModelAnchor] = useState<{
+    year: number;
+    price: number;
+  } | null>(null);
   const [history, setHistory] = useState<PriceHistoryPoint[]>([]);
+  const [isArchiveLoaded, setIsArchiveLoaded] = useState(false);
+  const [isArchiveLoading, setIsArchiveLoading] = useState(false);
   const [stations, setStations] = useState<StationRecord[]>([]);
   const [metadata, setMetadata] = useState<ModelMetadata | null>(null);
   const [isModelReady, setIsModelReady] = useState(false);
@@ -43,6 +56,10 @@ export function App() {
   const [stationDistanceSource, setStationDistanceSource] = useState<"map" | "manual">("manual");
   const [formSheetState, setFormSheetState] = useState<"collapsed" | "half" | "open">("collapsed");
   const [errorMessage, setErrorMessage] = useState("");
+  const activeStationRegionRef = useRef<StationRegion | null>(null);
+  const formPanelRef = useRef<HTMLElement | null>(null);
+  const sheetStackRef = useRef<HTMLDivElement | null>(null);
+  const scrollAnimationRef = useRef<number | null>(null);
 
   const region = useMemo(() => getRegionFromPrefecture(form.prefecture), [form.prefecture]);
   const stationRegion = useMemo(
@@ -74,7 +91,12 @@ export function App() {
     const currentPrefecture = form.prefecture;
     let disposed = false;
     const manager = getModelManager(currentRegion);
+    activeStationRegionRef.current = currentStationRegion;
     setIsModelReady(false);
+    setHistory([]);
+    setHistoryModelAnchor(null);
+    setIsArchiveLoaded(false);
+    setIsArchiveLoading(false);
     setErrorMessage("");
 
     async function loadRegionAssets() {
@@ -122,6 +144,35 @@ export function App() {
     };
   }, [form.prefecture, region, stationRegion]);
 
+  async function loadArchiveHistory() {
+    if (!stationRegion || isArchiveLoaded || isArchiveLoading) {
+      return;
+    }
+
+    setIsArchiveLoading(true);
+    try {
+      const archive = await fetchJson<PriceHistoryPoint[]>(
+        `./histories/${stationRegion}_archive_history.json`
+      );
+      if (activeStationRegionRef.current !== stationRegion) {
+        return;
+      }
+      setHistory((current) => [...archive, ...current]);
+      setIsArchiveLoaded(true);
+    } catch {
+      setErrorMessage("過去の価格推移データを読み込めませんでした");
+    } finally {
+      setIsArchiveLoading(false);
+    }
+  }
+
+  function closeArchiveHistory() {
+    setHistory((current) =>
+      current.filter((point) => point.year >= RECENT_HISTORY_START_YEAR)
+    );
+    setIsArchiveLoaded(false);
+  }
+
   async function loadStationCandidates(targetRegion: StationRegion) {
     return loadStations(targetRegion);
   }
@@ -130,6 +181,15 @@ export function App() {
     interruptModelPrefetch();
     setFormSheetState("half");
     setForm((current) => ({ ...current, lat, lon }));
+    window.requestAnimationFrame(() => {
+      if (window.matchMedia("(max-width: 760px)").matches) {
+        sheetStackRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+        return;
+      }
+      if (formPanelRef.current) {
+        animateScrollToElement(formPanelRef.current, scrollAnimationRef);
+      }
+    });
 
     try {
       const geocode = await reverseGeocode(lat, lon).catch(() => ({ prefecture: "", municipality: "" }));
@@ -140,6 +200,7 @@ export function App() {
         setIsSelectionSupported(false);
         setResult(null);
         setForecastPoints([]);
+        setHistoryModelAnchor(null);
         setErrorMessage("日本国外または地域を特定できない場所です");
         return;
       }
@@ -197,14 +258,18 @@ export function App() {
           ...form,
           stationDistance: Math.round(form.stationDistance)
         };
-        const { result: nextResult, forecastPoints: nextForecastPoints } = await predictWithFutureTrend(
-          manager,
-          predictionRequest,
-          history
-        );
+        const {
+          result: nextResult,
+          forecastPoints: nextForecastPoints,
+          basePrice
+        } = await predictWithFutureTrend(manager, predictionRequest, history);
         if (!disposed) {
           setResult(nextResult);
           setForecastPoints(nextForecastPoints);
+          setHistoryModelAnchor({
+            year: manager.getMetadata()?.latestTrainingYear ?? form.predictionYear,
+            price: basePrice
+          });
           setErrorMessage("");
           setIsPredicting(false);
         }
@@ -212,6 +277,7 @@ export function App() {
         if (!disposed) {
           setResult(null);
           setForecastPoints([]);
+          setHistoryModelAnchor(null);
           setErrorMessage("価格予測に失敗しました");
           setIsPredicting(false);
         }
@@ -228,6 +294,7 @@ export function App() {
     if (nextForm.prefecture !== form.prefecture) {
       setResult(null);
       setForecastPoints([]);
+      setHistoryModelAnchor(null);
       setStationDistanceSource("manual");
       setForm({
         ...nextForm,
@@ -246,12 +313,28 @@ export function App() {
   }
 
   const stationOptions = stations.map((station) => station.station_name);
-  const visibleHistory = history.filter(
+  const targetHistory = history.filter(
     (point) =>
       point.station === form.station &&
       (point.prefecture === undefined || point.prefecture === form.prefecture)
   );
-  const chartPoints = buildChartPoints(visibleHistory, forecastPoints, result, form.station, form.predictionYear);
+  const comparableHistory = buildHistoryWithEstimates({
+    history,
+    targetHistory,
+    stations,
+    targetStation: form.station,
+    prefecture: form.prefecture,
+    area: form.area,
+    age: form.age,
+    modelAnchor: historyModelAnchor
+  });
+  const chartPoints = buildChartPoints(
+    comparableHistory,
+    forecastPoints,
+    result,
+    form.station,
+    form.predictionYear
+  );
 
   return (
     <main className="app-shell">
@@ -274,14 +357,18 @@ export function App() {
 
       <div className={`layout form-sheet-${formSheetState}`}>
         <PropertyMap lat={form.lat} lon={form.lon} onSelect={handleMapSelect} />
-        <div className={`sheet-stack sheet-${formSheetState}`}>
+        <div ref={sheetStackRef} className={`sheet-stack sheet-${formSheetState}`}>
+          <PredictionSheetHandle
+            sheetState={formSheetState}
+            onSheetStateChange={setFormSheetState}
+          />
           <PredictionForm
+            formRef={formPanelRef}
             value={form}
             onChange={handleFormChange}
             stationOptions={stationOptions}
             stationDistanceSource={stationDistanceSource}
             sheetState={formSheetState}
-            onSheetStateChange={setFormSheetState}
             predictionYearRange={predictionYearRange}
           />
           <PredictionResultView
@@ -311,11 +398,55 @@ export function App() {
               predictionYearRange={predictionYearRange}
             />
           </section>
-          <PriceHistoryChart points={chartPoints} />
+          <PriceHistoryChart
+            points={chartPoints}
+            hasHistory={history.length > 0}
+            isArchiveLoaded={isArchiveLoaded}
+            isArchiveLoading={isArchiveLoading}
+            onLoadArchive={loadArchiveHistory}
+            onCloseArchive={closeArchiveHistory}
+          />
         </div>
       </div>
     </main>
   );
+}
+
+function animateScrollToElement(
+  element: HTMLElement,
+  animationRef: { current: number | null }
+) {
+  if (animationRef.current !== null) {
+    window.cancelAnimationFrame(animationRef.current);
+  }
+
+  const startY = window.scrollY;
+  const targetY = startY + element.getBoundingClientRect().top;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    window.scrollTo(0, targetY);
+    animationRef.current = null;
+    return;
+  }
+
+  const distance = targetY - startY;
+  const duration = 1000;
+  const startTime = performance.now();
+
+  function step(now: number) {
+    const progress = Math.min(1, (now - startTime) / duration);
+    const eased =
+      progress < 0.5
+        ? 4 * progress * progress * progress
+        : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+    window.scrollTo(0, startY + distance * eased);
+    if (progress < 1) {
+      animationRef.current = window.requestAnimationFrame(step);
+    } else {
+      animationRef.current = null;
+    }
+  }
+
+  animationRef.current = window.requestAnimationFrame(step);
 }
 
 function buildChartPoints(
@@ -326,19 +457,22 @@ function buildChartPoints(
   predictionYear: number
 ) {
   const sortedHistory = [...history]
-    .map((point) => ({ ...point, kind: "actual" as const }))
+    .map((point) => ({
+      ...point,
+      kind: point.kind === "estimated" ? ("estimated" as const) : ("actual" as const)
+    }))
     .sort((a, b) => a.year - b.year);
   if (!result) {
     return sortedHistory;
   }
 
-  const existingYears = new Set(sortedHistory.map((point) => point.year));
-  const missingForecasts = forecastPoints
-    .filter((point) => !existingYears.has(point.year))
-    .map((point) => ({ ...point, kind: "forecast" as const }));
-
-  if (!existingYears.has(predictionYear) && !missingForecasts.some((point) => point.year === predictionYear)) {
-    missingForecasts.push({
+  const predictionsByYear = new Map(
+    forecastPoints
+      .filter((point) => point.year > (sortedHistory.at(-1)?.year ?? 0))
+      .map((point) => [point.year, { ...point, kind: "forecast" as const }])
+  );
+  if (predictionYear > (sortedHistory.at(-1)?.year ?? 0)) {
+    predictionsByYear.set(predictionYear, {
       station,
       year: predictionYear,
       avg_price: result.predictedPrice,
@@ -346,7 +480,180 @@ function buildChartPoints(
     });
   }
 
-  return [...sortedHistory, ...missingForecasts].sort((a, b) => a.year - b.year);
+  return [...sortedHistory, ...predictionsByYear.values()].sort((a, b) => a.year - b.year);
+}
+
+function buildHistoryWithEstimates({
+  history,
+  targetHistory,
+  stations,
+  targetStation,
+  prefecture,
+  area,
+  age,
+  modelAnchor
+}: {
+  history: PriceHistoryPoint[];
+  targetHistory: PriceHistoryPoint[];
+  stations: StationRecord[];
+  targetStation: string;
+  prefecture: string;
+  area: number;
+  age: number;
+  modelAnchor: { year: number; price: number } | null;
+}) {
+  const actual = buildComparableHistory(targetHistory, area, age).map((point) => ({
+    ...point,
+    kind: "actual" as const
+  }));
+  if (!modelAnchor) {
+    return actual;
+  }
+
+  const nearbyStationNames = findNearbyStationNames(stations, targetStation);
+  const nearbySet = new Set(nearbyStationNames);
+  const nearbyHistory = history.filter(
+    (point) =>
+      nearbySet.has(point.station) &&
+      (point.prefecture === undefined || point.prefecture === prefecture)
+  );
+  const comparableNearby = nearbyStationNames.flatMap((station) =>
+    buildComparableHistory(
+      nearbyHistory.filter((point) => point.station === station),
+      area,
+      age
+    )
+  );
+  const marketByYear = aggregateMarketByYear(comparableNearby);
+  const anchorMarket = findClosestMarketPoint(marketByYear, modelAnchor.year);
+  if (!anchorMarket || anchorMarket.avgPrice <= 0) {
+    return actual;
+  }
+
+  const actualYears = new Set(actual.map((point) => point.year));
+  const levelAdjustment = modelAnchor.price / anchorMarket.avgPrice;
+  const estimates: PriceHistoryPoint[] = [...marketByYear.entries()]
+    .filter(([year]) => !actualYears.has(year) && year <= modelAnchor.year)
+    .map(([year, market]) => ({
+      prefecture,
+      station: targetStation,
+      year,
+      avg_price: market.avgPrice * levelAdjustment,
+      transaction_count: market.transactionCount,
+      kind: "estimated"
+    }));
+
+  return [...actual, ...estimates].sort((a, b) => a.year - b.year);
+}
+
+function findNearbyStationNames(stations: StationRecord[], targetStation: string) {
+  const target = stations.find((station) => station.station_name === targetStation);
+  if (!target) {
+    return [];
+  }
+
+  const distanceByName = new Map<string, number>();
+  for (const station of stations) {
+    if (station.station_name === targetStation) {
+      continue;
+    }
+    const distance = haversineKm(target.lat, target.lon, station.lat, station.lon);
+    const current = distanceByName.get(station.station_name);
+    if (distance <= 5 && (current === undefined || distance < current)) {
+      distanceByName.set(station.station_name, distance);
+    }
+  }
+
+  return [...distanceByName.entries()]
+    .sort((left, right) => left[1] - right[1])
+    .slice(0, 12)
+    .map(([station]) => station);
+}
+
+function aggregateMarketByYear(points: PriceHistoryPoint[]) {
+  const totals = new Map<number, { weightedPrice: number; transactionCount: number }>();
+  for (const point of points) {
+    const transactionCount = Math.max(1, point.transaction_count ?? 1);
+    const total = totals.get(point.year) ?? { weightedPrice: 0, transactionCount: 0 };
+    total.weightedPrice += point.avg_price * transactionCount;
+    total.transactionCount += transactionCount;
+    totals.set(point.year, total);
+  }
+
+  return new Map(
+    [...totals.entries()].map(([year, total]) => [
+      year,
+      {
+        avgPrice: total.weightedPrice / total.transactionCount,
+        transactionCount: total.transactionCount
+      }
+    ])
+  );
+}
+
+function findClosestMarketPoint(
+  marketByYear: Map<number, { avgPrice: number; transactionCount: number }>,
+  targetYear: number
+) {
+  return [...marketByYear.entries()]
+    .sort((left, right) => Math.abs(left[0] - targetYear) - Math.abs(right[0] - targetYear))
+    .at(0)?.[1];
+}
+
+function buildComparableHistory(history: PriceHistoryPoint[], area: number, age: number) {
+  const areaBand = Math.min(100, Math.floor(area / 5) * 5);
+  const ageBand = Math.min(60, Math.floor(age / 5) * 5);
+
+  return history.map((point) => {
+    const nearbyPoints = history.filter((candidate) => Math.abs(candidate.year - point.year) <= 2);
+    const exactMatch = aggregateComparableBuckets(
+      nearbyPoints,
+      (bucket) => bucket[0] === areaBand && bucket[1] === ageBand
+    );
+    const areaMatch = aggregateComparableBuckets(
+      nearbyPoints,
+      (bucket) => bucket[0] === areaBand
+    );
+    const comparable =
+      exactMatch.transactionCount >= 3
+        ? exactMatch
+        : areaMatch.transactionCount >= 3
+          ? areaMatch
+          : {
+              avgUnitPrice: point.avg_unit_price ?? 0,
+              transactionCount: point.transaction_count ?? 0
+            };
+
+    return {
+      ...point,
+      avg_price:
+        comparable.avgUnitPrice > 0 && area > 0
+          ? comparable.avgUnitPrice * area
+          : point.avg_price,
+      transaction_count: comparable.transactionCount
+    };
+  });
+}
+
+function aggregateComparableBuckets(
+  points: PriceHistoryPoint[],
+  predicate: (bucket: NonNullable<PriceHistoryPoint["comparable_buckets"]>[number]) => boolean
+) {
+  let weightedUnitPrice = 0;
+  let transactionCount = 0;
+  for (const point of points) {
+    for (const bucket of point.comparable_buckets ?? []) {
+      if (!predicate(bucket)) {
+        continue;
+      }
+      weightedUnitPrice += bucket[2] * bucket[3];
+      transactionCount += bucket[3];
+    }
+  }
+  return {
+    avgUnitPrice: transactionCount > 0 ? weightedUnitPrice / transactionCount : 0,
+    transactionCount
+  };
 }
 
 async function predictWithFutureTrend(
@@ -356,9 +663,11 @@ async function predictWithFutureTrend(
 ) {
   const metadata = manager.getMetadata();
   if (!metadata || request.predictionYear <= metadata.latestTrainingYear) {
+    const result = await manager.predict(request);
     return {
-      result: await manager.predict(request),
-      forecastPoints: []
+      result,
+      forecastPoints: [] as PriceHistoryPoint[],
+      basePrice: result.predictedPrice
     };
   }
 
@@ -388,7 +697,8 @@ async function predictWithFutureTrend(
       lowerPrice: Math.max(0, predictedPrice - metadata.mae),
       upperPrice: predictedPrice + metadata.mae
     },
-    forecastPoints
+    forecastPoints,
+    basePrice: baseResult.predictedPrice
   };
 }
 

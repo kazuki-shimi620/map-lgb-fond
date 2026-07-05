@@ -34,15 +34,75 @@ def test_update_model_manifest_records_hash_size_and_priority(tmp_path):
 def test_price_history_keeps_prefecture_for_regional_models():
     dataframe = pd.DataFrame(
         [
-            {"prefecture": "大阪府", "station": "大阪", "transaction_year": 2025, "price": 1.0},
-            {"prefecture": "大阪府", "station": "大阪", "transaction_year": 2025, "price": 3.0},
-            {"prefecture": "兵庫県", "station": "大阪", "transaction_year": 2025, "price": 9.0},
+            {
+                "prefecture": "大阪府",
+                "station": "大阪",
+                "transaction_year": 2025,
+                "price": 10.0,
+                "area": 50.0,
+                "age": 15.0,
+            },
+            {
+                "prefecture": "大阪府",
+                "station": "大阪",
+                "transaction_year": 2025,
+                "price": 30.0,
+                "area": 50.0,
+                "age": 15.0,
+            },
+            {
+                "prefecture": "兵庫県",
+                "station": "大阪",
+                "transaction_year": 2025,
+                "price": 90.0,
+                "area": 30.0,
+                "age": 35.0,
+            },
         ]
     )
 
     assert build_price_history(dataframe) == [
-        {"prefecture": "兵庫県", "station": "大阪", "year": 2025, "avg_price": 9.0},
-        {"prefecture": "大阪府", "station": "大阪", "year": 2025, "avg_price": 2.0},
+        {
+            "prefecture": "兵庫県",
+            "station": "大阪",
+            "year": 2025,
+            "avg_price": 90.0,
+            "avg_unit_price": 3.0,
+            "transaction_count": 1,
+            "comparable_buckets": [[30, 35, 3.0, 1]],
+        },
+        {
+            "prefecture": "大阪府",
+            "station": "大阪",
+            "year": 2025,
+            "avg_price": 20.0,
+            "avg_unit_price": 0.4,
+            "transaction_count": 2,
+            "comparable_buckets": [[50, 15, 0.4, 2]],
+        },
+    ]
+
+
+def test_price_history_can_limit_transaction_years():
+    dataframe = pd.DataFrame(
+        [
+            {
+                "station": "東京",
+                "transaction_year": year,
+                "price": 50.0,
+                "area": 50.0,
+                "age": 10.0,
+            }
+            for year in (2019, 2020, 2025)
+        ]
+    )
+
+    assert [point["year"] for point in build_price_history(dataframe, min_year=2020)] == [
+        2020,
+        2025,
+    ]
+    assert [point["year"] for point in build_price_history(dataframe, max_year=2019)] == [
+        2019
     ]
 
 

@@ -29,7 +29,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models compare-models compare-national-models stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models compare-models compare-national-models histories-national stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -72,6 +72,7 @@ help:
 	@echo "  make compare-models     首都圏の共通・軽量モデルを現行4モデルと比較"
 	@echo "  make compare-national-models"
 	@echo "                          全国1モデルと8地方モデルを比較"
+	@echo "  make histories-national 類似条件比較用の全国価格推移JSONを再生成"
 	@echo "  make stations           駅マスタJSONを再生成"
 	@echo "  make stations-national  全国47都道府県の駅マスタJSONを再生成"
 	@echo ""
@@ -155,6 +156,9 @@ compare-models:
 
 compare-national-models:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_national_models.py
+
+histories-national:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.histories --public-dir ../$(FRONTEND_DIR)/public
 
 stations:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public --regions $(REGIONS)
