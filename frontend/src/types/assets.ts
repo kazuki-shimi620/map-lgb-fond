@@ -54,7 +54,15 @@ export type PriceHistoryPoint = {
   station: string;
   year: number;
   avg_price: number;
-  kind?: "actual" | "forecast";
+  avg_unit_price?: number;
+  transaction_count?: number;
+  comparable_buckets?: Array<[
+    areaBand: number,
+    ageBand: number,
+    avgUnitPrice: number,
+    transactionCount: number
+  ]>;
+  kind?: "actual" | "estimated" | "forecast";
 };
 
 export type ModelAsset = {

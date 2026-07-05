@@ -677,6 +677,29 @@ dd {
   height: 280px;
 }
 
+.history-archive-button {
+  display: block;
+  margin: 10px auto 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: #fff;
+  padding: 8px 14px;
+  color: #344054;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.history-archive-button:hover:not(:disabled) {
+  background: #f8fafc;
+}
+
+.history-archive-button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
 @media (max-width: 760px) {
   html,
   body,
@@ -765,8 +788,12 @@ dd {
   }
 
   .sheet-stack.sheet-collapsed {
-    max-height: 96px;
+    max-height: calc(60px + env(safe-area-inset-bottom));
     overflow: hidden;
+  }
+
+  .sheet-stack.sheet-collapsed > :not(.sheet-header) {
+    display: none;
   }
 
   .sheet-stack.sheet-half {
@@ -846,7 +873,8 @@ dd {
     display: grid;
     margin: 0;
     border-color: #c4cfdd;
-    border-radius: 18px 18px 8px 8px;
+    border-radius: 0 0 8px 8px;
+    border-top: 0;
     box-shadow: 0 -12px 28px rgb(15 23 42 / 16%);
     transition:
       max-height 320ms ease,
@@ -854,35 +882,28 @@ dd {
       transform 320ms ease;
   }
 
-  .form-panel.sheet-collapsed {
-    max-height: 96px;
-    overflow: hidden;
-  }
-
-  .form-panel.sheet-collapsed label,
-  .form-panel.sheet-collapsed .form-field {
-    pointer-events: none;
-  }
-
   .form-prediction-year {
     display: grid;
   }
 
   .sheet-header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
     display: flex;
-    width: calc(100% + 24px);
+    width: 100%;
     min-height: 48px;
-    grid-column: 1 / -1;
     align-items: center;
     justify-content: center;
-    justify-self: stretch;
-    margin: -12px -12px 0;
-    border: 0;
+    margin: 0 0 -12px;
+    border: 1px solid #c4cfdd;
+    border-bottom: 0;
     border-radius: 18px 18px 0 0;
-    background: transparent;
+    background: #fff;
     padding: 0;
     cursor: grab;
     touch-action: none;
+    box-shadow: 0 -12px 28px rgb(15 23 42 / 16%);
   }
 
   .sheet-header:active {

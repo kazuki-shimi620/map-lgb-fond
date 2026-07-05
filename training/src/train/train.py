@@ -23,6 +23,7 @@ from experiment.database import (
     upsert_features,
 )
 from export.artifacts import (
+    RECENT_HISTORY_START_YEAR,
     build_artifact_paths,
     build_price_history,
     copy_for_frontend,
@@ -120,7 +121,11 @@ def main() -> int:
                 ),
                 paths["metadata"],
             )
-            save_json(build_price_history(df), paths["history"])
+            save_json(
+                build_price_history(df, min_year=RECENT_HISTORY_START_YEAR),
+                paths["history"],
+                compact=True,
+            )
 
             if args.export_onnx:
                 export_onnx_if_available(deployment_model, len(config.features), paths["onnx"])
@@ -138,6 +143,13 @@ def main() -> int:
             should_publish = is_latest or args.publish_policy == "latest"
             if should_publish:
                 copy_for_frontend(paths, config.frontend_public_dir, config.region)
+                save_json(
+                    build_price_history(df, max_year=RECENT_HISTORY_START_YEAR - 1),
+                    Path(config.frontend_public_dir)
+                    / "histories"
+                    / f"{config.region}_archive_history.json",
+                    compact=True,
+                )
             print(
                 f"success train: {config.region} split={split_name} "
                 f"train={len(train_x)} test={len(test_x)} deploy_train={len(deployment_x)} "

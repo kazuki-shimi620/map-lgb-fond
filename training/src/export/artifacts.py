@@ -8,6 +8,7 @@ from hashlib import sha256
 from pathlib import Path
 
 CAPITAL_REGION_PRIORITY = ["tokyo", "kanagawa", "saitama", "chiba"]
+RECENT_HISTORY_START_YEAR = 2020
 
 
 def save_pickle(model, path: str | Path) -> Path:
@@ -18,10 +19,18 @@ def save_pickle(model, path: str | Path) -> Path:
     return output
 
 
-def save_json(data: object, path: str | Path) -> Path:
+def save_json(data: object, path: str | Path, *, compact: bool = False) -> Path:
     output = Path(path)
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    output.write_text(
+        json.dumps(
+            data,
+            ensure_ascii=False,
+            indent=None if compact else 2,
+            separators=(",", ":") if compact else None,
+        ),
+        encoding="utf-8",
+    )
     return output
 
 
@@ -110,13 +119,53 @@ def export_onnx_if_available(model, feature_count: int, path: str | Path) -> Pat
     return output
 
 
-def build_price_history(df) -> list[dict[str, object]]:
+def build_price_history(
+    df,
+    *,
+    min_year: int | None = None,
+    max_year: int | None = None,
+) -> list[dict[str, object]]:
+    target = df.copy()
+    if min_year is not None:
+        target = target[target["transaction_year"] >= min_year].copy()
+    if max_year is not None:
+        target = target[target["transaction_year"] <= max_year].copy()
+    target["unit_price"] = target["price"] / target["area"]
+    target["area_band"] = ((target["area"] // 5) * 5).clip(upper=100).astype(int)
+    target["age_band"] = ((target["age"] // 5) * 5).clip(upper=60).astype(int)
     group_columns = ["station", "transaction_year"]
-    if "prefecture" in df.columns:
+    if "prefecture" in target.columns:
         group_columns.insert(0, "prefecture")
-    grouped = (
-        df.groupby(group_columns, as_index=False)["price"]
-        .mean()
-        .rename(columns={"transaction_year": "year", "price": "avg_price"})
+
+    grouped = target.groupby(group_columns, as_index=False).agg(
+        avg_price=("price", "mean"),
+        avg_unit_price=("unit_price", "mean"),
+        transaction_count=("price", "size"),
     )
-    return grouped.to_dict(orient="records")
+    grouped = grouped.rename(columns={"transaction_year": "year"})
+
+    bucket_columns = [*group_columns, "area_band", "age_band"]
+    buckets = target.groupby(bucket_columns, as_index=False).agg(
+        avg_unit_price=("unit_price", "mean"),
+        transaction_count=("price", "size"),
+    )
+    bucket_lookup: dict[tuple[object, ...], list[list[float | int]]] = {}
+    for row in buckets.itertuples(index=False):
+        key = tuple(getattr(row, column) for column in group_columns)
+        bucket_lookup.setdefault(key, []).append(
+            [
+                int(row.area_band),
+                int(row.age_band),
+                float(row.avg_unit_price),
+                int(row.transaction_count),
+            ]
+        )
+
+    records = grouped.to_dict(orient="records")
+    for record in records:
+        key = tuple(
+            record["year"] if column == "transaction_year" else record[column]
+            for column in group_columns
+        )
+        record["comparable_buckets"] = bucket_lookup.get(key, [])
+    return records
