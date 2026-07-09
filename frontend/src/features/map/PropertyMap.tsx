@@ -9,8 +9,10 @@ import { searchPlace } from "../../services/geocodingService";
 type Props = {
   lat: number | null;
   lon: number | null;
-  onSelect: (lat: number, lon: number) => void;
+  onSelect: (lat: number, lon: number, options?: { mapMoveDurationMs?: number }) => void;
 };
+
+const SEARCH_FLY_TO_DURATION_MS = 800;
 
 const propertyMarkerIcon = new Icon({
   iconUrl: markerIconUrl,
@@ -81,8 +83,7 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
         return;
       }
       setSearchCenter([result.lat, result.lon]);
-      onSelect(result.lat, result.lon);
-      setSearchStatus("検索した位置にピンを設定しました");
+      onSelect(result.lat, result.lon, { mapMoveDurationMs: SEARCH_FLY_TO_DURATION_MS });
     } catch {
       setSearchStatus("検索に失敗しました");
     } finally {

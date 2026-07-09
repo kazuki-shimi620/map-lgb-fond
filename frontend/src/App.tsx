@@ -36,6 +36,13 @@ const initialForm: PredictionFormState = {
 };
 
 const RECENT_HISTORY_START_YEAR = 2020;
+const MAX_SUPPORTED_STATION_DISTANCE_KM = 30;
+const MAP_SELECTION_SCROLL_DELAY_MS = 2000;
+const UNSUPPORTED_MAP_SELECTION_MESSAGE =
+  "対応エリア外です。離島・海上などは現在対応していません。対応地域内の駅に近い地点を選択してください";
+type MapSelectOptions = {
+  mapMoveDurationMs?: number;
+};
 
 export function App() {
   const [form, setForm] = useState<PredictionFormState>(initialForm);
@@ -60,6 +67,7 @@ export function App() {
   const formPanelRef = useRef<HTMLElement | null>(null);
   const sheetStackRef = useRef<HTMLDivElement | null>(null);
   const scrollAnimationRef = useRef<number | null>(null);
+  const mapSelectionScrollTimerRef = useRef<number | null>(null);
 
   const region = useMemo(() => getRegionFromPrefecture(form.prefecture), [form.prefecture]);
   const stationRegion = useMemo(
@@ -144,6 +152,14 @@ export function App() {
     };
   }, [form.prefecture, region, stationRegion]);
 
+  useEffect(() => {
+    return () => {
+      if (mapSelectionScrollTimerRef.current !== null) {
+        window.clearTimeout(mapSelectionScrollTimerRef.current);
+      }
+    };
+  }, []);
+
   async function loadArchiveHistory() {
     if (!stationRegion || isArchiveLoaded || isArchiveLoading) {
       return;
@@ -177,61 +193,131 @@ export function App() {
     return loadStations(targetRegion);
   }
 
-  async function handleMapSelect(lat: number, lon: number) {
+  function clearPredictionState() {
+    setResult(null);
+    setForecastPoints([]);
+    setHistoryModelAnchor(null);
+  }
+
+  function rejectMapSelection(message = UNSUPPORTED_MAP_SELECTION_MESSAGE) {
+    setIsSelectionSupported(false);
+    setStationDistanceSource("manual");
+    clearPredictionState();
+    setErrorMessage(message);
+  }
+
+  function scrollToFormAfterMapSelection(delayMs = MAP_SELECTION_SCROLL_DELAY_MS) {
+    if (mapSelectionScrollTimerRef.current !== null) {
+      window.clearTimeout(mapSelectionScrollTimerRef.current);
+    }
+
+    mapSelectionScrollTimerRef.current = window.setTimeout(() => {
+      mapSelectionScrollTimerRef.current = null;
+      setFormSheetState("half");
+      window.requestAnimationFrame(() => {
+        if (window.matchMedia("(max-width: 760px)").matches) {
+          sheetStackRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+          return;
+        }
+        if (formPanelRef.current) {
+          animateScrollToElement(formPanelRef.current, scrollAnimationRef);
+        }
+      });
+    }, delayMs);
+  }
+
+  function clearPendingMapSelectionTimers() {
+    if (mapSelectionScrollTimerRef.current !== null) {
+      window.clearTimeout(mapSelectionScrollTimerRef.current);
+      mapSelectionScrollTimerRef.current = null;
+    }
+  }
+
+  function applyMapSelection({
+    geocode,
+    lat,
+    lon,
+    nearest,
+    nextPrefecture,
+    targetStations,
+    nextRegion,
+    scrollDelayMs
+  }: {
+    geocode: { municipality: string };
+    lat: number;
+    lon: number;
+    nearest: { station: StationRecord; distanceKm: number };
+    nextPrefecture: string;
+    targetStations: StationRecord[];
+    nextRegion: string | null;
+    scrollDelayMs: number;
+  }) {
+    if (nextRegion && nextRegion !== region) {
+      setStations(targetStations);
+    }
+
+    setIsSelectionSupported(true);
+    setStationDistanceSource("map");
+    setForm((current) => ({
+      ...current,
+      prefecture: nextPrefecture || current.prefecture,
+      municipality: geocode.municipality || current.municipality,
+      station: nearest.station.station_name,
+      stationDistance: distanceKmToWalkingMinutes(nearest.distanceKm),
+      lat,
+      lon
+    }));
+    scrollToFormAfterMapSelection(scrollDelayMs);
+  }
+
+  async function handleMapSelect(lat: number, lon: number, options: MapSelectOptions = {}) {
+    const selectionStartedAt = window.performance.now();
     interruptModelPrefetch();
-    setFormSheetState("half");
+    clearPendingMapSelectionTimers();
+    setIsSelectionSupported(false);
+    clearPredictionState();
+    setErrorMessage("");
     setForm((current) => ({ ...current, lat, lon }));
-    window.requestAnimationFrame(() => {
-      if (window.matchMedia("(max-width: 760px)").matches) {
-        sheetStackRef.current?.scrollTo({ top: 0, behavior: "smooth" });
-        return;
-      }
-      if (formPanelRef.current) {
-        animateScrollToElement(formPanelRef.current, scrollAnimationRef);
-      }
-    });
 
     try {
       const geocode = await reverseGeocode(lat, lon).catch(() => ({ prefecture: "", municipality: "" }));
       const geocodedRegion = getRegionFromPrefecture(geocode.prefecture);
       const geocodedStationRegion = getStationRegionFromPrefecture(geocode.prefecture);
 
-      if (geocode.prefecture && (!geocodedRegion || !geocodedStationRegion)) {
-        setIsSelectionSupported(false);
-        setResult(null);
-        setForecastPoints([]);
-        setHistoryModelAnchor(null);
-        setErrorMessage("日本国外または地域を特定できない場所です");
+      if (
+        !geocode.prefecture ||
+        !geocodedRegion ||
+        !geocodedStationRegion
+      ) {
+        rejectMapSelection();
         return;
       }
 
-      const targetStationRegion = geocodedStationRegion ?? stationRegion;
-      if (!targetStationRegion) {
-        throw new Error("駅マスタの対象地域を特定できません");
-      }
-      const targetStations = await loadStationCandidates(targetStationRegion);
+      const targetStations = await loadStationCandidates(geocodedStationRegion);
       const nearest = findNearestStation(targetStations, lat, lon);
-      const nextPrefecture =
-        (geocodedRegion ? geocode.prefecture : "") || nearest?.station.prefecture || form.prefecture;
-      const nextRegion = getRegionFromPrefecture(nextPrefecture) ?? region;
-
-      if (nextRegion && nextRegion !== region) {
-        setStations(targetStations);
+      const allowOkinawaMainIsland = geocode.prefecture === "沖縄県" && isOkinawaMainIsland(lat, lon);
+      if (!nearest || (!allowOkinawaMainIsland && nearest.distanceKm > MAX_SUPPORTED_STATION_DISTANCE_KM)) {
+        rejectMapSelection();
+        return;
       }
 
-      setIsSelectionSupported(true);
-      setStationDistanceSource(nearest ? "map" : "manual");
-      setForm((current) => ({
-        ...current,
-        prefecture: nextPrefecture || current.prefecture,
-        municipality: geocode.municipality || current.municipality,
-        station: nearest?.station.station_name ?? current.station,
-        stationDistance: nearest ? distanceKmToWalkingMinutes(nearest.distanceKm) : current.stationDistance,
+      const nextPrefecture = geocode.prefecture;
+      const nextRegion = getRegionFromPrefecture(nextPrefecture) ?? region;
+      const elapsedMs = window.performance.now() - selectionStartedAt;
+      const remainingMapMoveMs = Math.max(0, (options.mapMoveDurationMs ?? 0) - elapsedMs);
+      const scrollDelayMs = remainingMapMoveMs + MAP_SELECTION_SCROLL_DELAY_MS;
+      applyMapSelection({
+        geocode,
         lat,
-        lon
-      }));
+        lon,
+        nearest,
+        nextPrefecture,
+        targetStations,
+        nextRegion,
+        scrollDelayMs
+      });
     } catch {
-      setErrorMessage("地域または駅情報の取得に失敗しました。フォームを手入力してください");
+      rejectMapSelection("地域または駅情報の取得に失敗しました。別の地点を選択してください");
     }
   }
 
@@ -568,6 +654,10 @@ function findNearbyStationNames(stations: StationRecord[], targetStation: string
     .sort((left, right) => left[1] - right[1])
     .slice(0, 12)
     .map(([station]) => station);
+}
+
+function isOkinawaMainIsland(lat: number, lon: number) {
+  return lat >= 26.0 && lat <= 26.95 && lon >= 127.55 && lon <= 128.4;
 }
 
 function aggregateMarketByYear(points: PriceHistoryPoint[]) {
