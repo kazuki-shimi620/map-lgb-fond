@@ -9,8 +9,8 @@ export class PredictionPage {
   constructor(page: Page) {
     this.page = page;
     this.map = page.getByRole("region", { name: "地図" });
-    this.predictionResult = page.getByRole("heading", { name: "予測結果" }).locator("..");
-    this.priceHistory = page.getByRole("heading", { name: "価格推移" }).locator("..");
+    this.predictionResult = page.getByTestId("prediction-result");
+    this.priceHistory = page.getByTestId("price-history-chart");
   }
 
   async goto() {
@@ -35,9 +35,9 @@ export class PredictionPage {
   }
 
   async waitForPredictionResult() {
-    await expect(this.predictionResult.getByText("予測価格")).toBeVisible();
-    await expect(this.predictionResult.getByText("平米単価")).toBeVisible();
-    await expect(this.predictionResult.getByText("信頼区間")).toBeVisible();
+    await expect(this.predictionResult.getByText("予測価格", { exact: true })).toBeVisible();
+    await expect(this.predictionResult.getByText("平米単価", { exact: true })).toBeVisible();
+    await expect(this.predictionResult.getByText("信頼区間", { exact: true })).toBeVisible();
   }
 
   async fillArea(value: number) {
