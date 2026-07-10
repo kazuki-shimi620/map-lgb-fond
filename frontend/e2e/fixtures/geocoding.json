@@ -1,0 +1,23 @@
+{
+  "reverseTokyo": {
+    "address": {
+      "ISO3166-2-lvl4": "JP-13",
+      "city": "千代田区",
+      "province": "東京都"
+    }
+  },
+  "reverseUnsupported": {
+    "address": {
+      "country": "Norway",
+      "city": "Oslo"
+    }
+  },
+  "searchTokyoStation": [
+    {
+      "display_name": "東京駅, 千代田区, 東京都, 日本",
+      "lat": "35.681236",
+      "lon": "139.767125"
+    }
+  ],
+  "searchEmpty": []
+}
