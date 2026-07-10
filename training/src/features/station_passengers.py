@@ -49,14 +49,17 @@ def add_station_passenger_features(property_df, station_passengers_df):
     if station_passengers_df.empty:
         return _fill_missing_features(result)
 
-    stations = _aggregate_by_station_name(station_passengers_df)
-    result["_normalized_station_name"] = result["station"].map(normalize_station_name)
-    result = result.merge(
-        stations,
-        how="left",
-        left_on="_normalized_station_name",
-        right_on="normalized_station_name",
-    ).drop(columns=["_normalized_station_name", "normalized_station_name"])
+    if _has_coordinate_columns(result) and _has_coordinate_columns(station_passengers_df):
+        result = _join_by_station_name_and_coordinates(result, station_passengers_df)
+    else:
+        stations = _aggregate_by_station_name(station_passengers_df)
+        result["_normalized_station_name"] = result["station"].map(normalize_station_name)
+        result = result.merge(
+            stations,
+            how="left",
+            left_on="_normalized_station_name",
+            right_on="normalized_station_name",
+        ).drop(columns=["_normalized_station_name", "normalized_station_name"])
 
     result = result.rename(
         columns={
@@ -110,6 +113,94 @@ def _aggregate_by_station_name(stations):
     ]
     existing_columns = [column for column in columns if column in selected.columns]
     return pd.DataFrame(selected[existing_columns])
+
+
+def _join_by_station_name_and_coordinates(properties, stations):
+    import pandas as pd
+
+    scoped = stations.copy()
+    scoped["normalized_station_name"] = scoped["normalized_station_name"].map(
+        normalize_station_name
+    )
+    scoped = scoped[scoped["normalized_station_name"] != ""]
+    candidates = {
+        station_name: records
+        for station_name, records in scoped.groupby("normalized_station_name")
+    }
+
+    passenger_rows = []
+    for property_row in properties.to_dict(orient="records"):
+        normalized_name = normalize_station_name(property_row.get("station"))
+        selected = _select_nearest_station_candidate(
+            candidates.get(normalized_name),
+            property_row.get("lat"),
+            property_row.get("lon"),
+        )
+        passenger_rows.append(selected or {})
+
+    passenger_df = pd.DataFrame(passenger_rows)
+    if passenger_df.empty:
+        return properties.copy()
+    columns = [
+        "latest_passenger_count",
+        "latest_passenger_year",
+        "rank",
+        "log_passenger_count",
+        "line_count",
+        "operator_count",
+    ]
+    existing_columns = [column for column in columns if column in passenger_df.columns]
+    return properties.reset_index(drop=True).join(passenger_df[existing_columns])
+
+
+def _select_nearest_station_candidate(candidates, lat, lon):
+    if candidates is None or candidates.empty:
+        return None
+    try:
+        property_lat = float(lat)
+        property_lon = float(lon)
+    except (TypeError, ValueError):
+        return _largest_passenger_candidate(candidates)
+
+    ranked = []
+    for record in candidates.to_dict(orient="records"):
+        try:
+            station_lat = float(record["lat"])
+            station_lon = float(record["lon"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        ranked.append(
+            (
+                _haversine_km(property_lat, property_lon, station_lat, station_lon),
+                -(record.get("latest_passenger_count") or 0),
+                record,
+            )
+        )
+    if not ranked:
+        return _largest_passenger_candidate(candidates)
+    return min(ranked, key=lambda item: (item[0], item[1]))[2]
+
+
+def _largest_passenger_candidate(candidates):
+    sorted_candidates = candidates.sort_values("latest_passenger_count", ascending=False)
+    return sorted_candidates.iloc[0].to_dict()
+
+
+def _has_coordinate_columns(df) -> bool:
+    return "lat" in df.columns and "lon" in df.columns
+
+
+def _haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    radius_km = 6371.0088
+    lat1_rad = math.radians(lat1)
+    lat2_rad = math.radians(lat2)
+    delta_lat = math.radians(lat2 - lat1)
+    delta_lon = math.radians(lon2 - lon1)
+    a = (
+        math.sin(delta_lat / 2) ** 2
+        + math.cos(lat1_rad) * math.cos(lat2_rad) * math.sin(delta_lon / 2) ** 2
+    )
+    return 2 * radius_km * math.asin(math.sqrt(a))
 
 
 def _fill_missing_features(result):
