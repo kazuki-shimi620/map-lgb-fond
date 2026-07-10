@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import argparse
+import gzip
+import json
 import sys
 import time
 from dataclasses import dataclass
@@ -12,7 +14,7 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from evaluate.metrics import calculate_metrics  # noqa: E402
-from export.artifacts import save_json  # noqa: E402
+from export.artifacts import export_onnx_if_available, save_json  # noqa: E402
 from features.category_dictionary import build_and_apply_category_dictionary  # noqa: E402
 from features.commercial_facilities import (  # noqa: E402
     add_commercial_facility_features,
@@ -145,13 +147,17 @@ def compare_commercial_features(
     output_dir.mkdir(parents=True, exist_ok=True)
     rows = []
     for candidate in CANDIDATES:
-        rows.append(
-            _backtest_candidate(
-                candidate=candidate,
-                data=data,
-                test_years=test_years,
-            )
+        row = _backtest_candidate(
+            candidate=candidate,
+            data=data,
+            test_years=test_years,
         )
+        row["deploymentArtifacts"] = _export_deployment_artifacts(
+            candidate=candidate,
+            data=data,
+            output_dir=output_dir / "commercial_feature_models",
+        )
+        rows.append(row)
 
     report = {
         "generatedAt": datetime.now().astimezone().isoformat(timespec="seconds"),
@@ -172,11 +178,7 @@ def compare_commercial_features(
 
 
 def _backtest_candidate(*, candidate: CommercialCandidate, data, test_years: list[int]):
-    features = BASE_FEATURES + candidate.commercial_features
-    categorical_features = list(BASE_CATEGORICAL_FEATURES)
-    if not candidate.include_station:
-        features.remove("station")
-        categorical_features.remove("station")
+    features, categorical_features = _feature_lists(candidate)
     encoding = build_and_apply_category_dictionary(data, categorical_features)
     encoded = encoding.dataframe
     folds = []
@@ -192,15 +194,7 @@ def _backtest_candidate(*, candidate: CommercialCandidate, data, test_years: lis
             encoded.loc[train_mask, features],
             encoded.loc[train_mask, "price"],
             categorical_features,
-            {
-                "n_estimators": candidate.n_estimators,
-                "learning_rate": candidate.learning_rate,
-                "num_leaves": candidate.num_leaves,
-                "max_depth": candidate.max_depth,
-                "min_child_samples": candidate.min_child_samples,
-                "random_state": 42,
-                "n_jobs": -1,
-            },
+            _model_params(candidate),
         )
         predictions = model.predict(encoded.loc[test_mask, features])
         fold_metrics = calculate_metrics(encoded.loc[test_mask, "price"], predictions)
@@ -222,6 +216,55 @@ def _backtest_candidate(*, candidate: CommercialCandidate, data, test_years: lis
         "folds": folds,
         "metrics": _weighted_metrics(folds),
         "featureImportance": _average_feature_importance(folds),
+    }
+
+
+def _export_deployment_artifacts(*, candidate: CommercialCandidate, data, output_dir: Path):
+    features, categorical_features = _feature_lists(candidate)
+    encoding = build_and_apply_category_dictionary(data, categorical_features)
+    encoded = encoding.dataframe
+    model = train_model(
+        encoded[features],
+        encoded["price"],
+        categorical_features,
+        _model_params(candidate),
+    )
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    onnx_path = output_dir / f"{candidate.name}.onnx"
+    categories_path = output_dir / f"{candidate.name}_categories.json"
+    export_onnx_if_available(model, len(features), onnx_path)
+    save_json(encoding.dictionary, categories_path)
+
+    categories_json = json.dumps(encoding.dictionary, ensure_ascii=False).encode("utf-8")
+    return {
+        "onnxPath": str(onnx_path),
+        "onnxBytes": onnx_path.stat().st_size if onnx_path.exists() else None,
+        "onnxGzipBytes": _gzip_file_size(onnx_path) if onnx_path.exists() else None,
+        "categoriesPath": str(categories_path),
+        "categoriesBytes": categories_path.stat().st_size if categories_path.exists() else None,
+        "categoriesGzipBytes": _gzip_bytes_size(categories_json),
+    }
+
+
+def _feature_lists(candidate: CommercialCandidate) -> tuple[list[str], list[str]]:
+    features = BASE_FEATURES + candidate.commercial_features
+    categorical_features = list(BASE_CATEGORICAL_FEATURES)
+    if not candidate.include_station:
+        features.remove("station")
+        categorical_features.remove("station")
+    return features, categorical_features
+
+
+def _model_params(candidate: CommercialCandidate) -> dict[str, object]:
+    return {
+        "n_estimators": candidate.n_estimators,
+        "learning_rate": candidate.learning_rate,
+        "num_leaves": candidate.num_leaves,
+        "max_depth": candidate.max_depth,
+        "min_child_samples": candidate.min_child_samples,
+        "random_state": 42,
+        "n_jobs": -1,
     }
 
 
@@ -263,6 +306,14 @@ def _average_feature_importance(folds: list[dict[str, object]]) -> list[dict[str
     return sorted(averaged, key=lambda row: row["importance"], reverse=True)
 
 
+def _gzip_file_size(path: Path) -> int:
+    return len(gzip.compress(path.read_bytes(), mtime=0))
+
+
+def _gzip_bytes_size(value: bytes) -> int:
+    return len(gzip.compress(value, mtime=0))
+
+
 def render_markdown(report: dict[str, object]) -> str:
     lines = [
         "# 商業施設特徴量バックテスト",
@@ -273,15 +324,19 @@ def render_markdown(report: dict[str, object]) -> str:
         f"物件件数: {report['rowCount']:,}",
         f"SC件数: {report['facilityCount']:,}",
         "",
-        "| 候補 | 商業施設特徴量 | MAE | RMSE | MAPE | 学習秒 |",
-        "|---|---|---:|---:|---:|---:|",
+        "| 候補 | 商業施設特徴量 | MAE | RMSE | MAPE | ONNX | gzip | 辞書gzip | 学習秒 |",
+        "|---|---|---:|---:|---:|---:|---:|---:|---:|",
     ]
     for row in report["candidates"]:
         metrics = row["metrics"]
+        artifacts = row["deploymentArtifacts"]
         commercial_features = ", ".join(row["commercialFeatures"]) or "-"
         lines.append(
             f"| {row['name']} | {commercial_features} | {metrics['mae']:,.0f} | "
             f"{metrics['rmse']:,.0f} | {metrics['mape']:.2f}% | "
+            f"{_format_bytes(artifacts['onnxBytes'])} | "
+            f"{_format_bytes(artifacts['onnxGzipBytes'])} | "
+            f"{_format_bytes(artifacts['categoriesGzipBytes'])} | "
             f"{row['trainingSeconds']:.1f} |"
         )
     lines.append("")
@@ -294,6 +349,14 @@ def render_markdown(report: dict[str, object]) -> str:
         lines.append(f"- {row['name']}: {top_features}")
     lines.append("")
     return "\n".join(lines)
+
+
+def _format_bytes(value: int | None) -> str:
+    if value is None:
+        return "-"
+    if value < 1024 * 1024:
+        return f"{value / 1024:.1f} KB"
+    return f"{value / 1024 / 1024:.2f} MB"
 
 
 if __name__ == "__main__":
