@@ -894,7 +894,29 @@ sc_tenant_count_sum_within_3km
 路線数
 
 乗換数
+
+station_passenger_count
+
+station_passenger_log
+
+station_line_count
 ```
+
+駅別乗降客数は不動産情報ライブラリの国土数値情報（駅別乗降客数）API `XKT015` から取得する。
+
+取得・正規化仕様は `docs/station-passengers.md` に記載する。
+
+初期比較では `station_passenger_log`、`station_line_count`、`station_operator_count`、`effective_station_scale`、`has_station_passenger_data` を優先し、`station_rank` は小さなカテゴリ特徴量として比較候補に含める。
+
+バックテストは以下で実行する。
+
+```bash
+make compare-station-passenger-features
+```
+
+首都圏の初期比較では、既存の `station` カテゴリを残すなら数値の駅規模特徴量は小さな改善に留まる。一方で `station` カテゴリを外す軽量モデルでは駅規模特徴量の効果が大きく、ブラウザ配布サイズを抑える候補として有望。
+
+ブラウザ推論ではAPIを呼ばず、学習側で生成した軽量JSONまたはモデル入力済み特徴量を利用する。
 
 ---
 

@@ -21,6 +21,8 @@ CSV_DOWNLOAD_TIMEOUT_MS ?= 120000
 SC_YEAR ?= 2026
 SC_FROM_YEAR ?= 2015
 SC_TO_YEAR ?= 2026
+PASSENGER_AREA ?= capital
+PASSENGER_ZOOM ?= 11
 UV := $(shell command -v uv 2>/dev/null)
 
 ifeq ($(UV),)
@@ -32,7 +34,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models compare-models compare-national-models compare-commercial-features histories-national stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models compare-models compare-national-models compare-commercial-features compare-station-passenger-features histories-national stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -56,7 +58,9 @@ help:
 	@echo "  make collect-property   公式画面から不動産CSVを取得"
 	@echo "  make collect-sc SC_YEAR=2026"
 	@echo "                          JCSCオープンSC一覧を取得してJSON/CSV化"
-	@echo "  make collect-data       不動産CSVとJCSCオープンSC一覧をまとめて取得"
+	@echo "  make collect-station-passengers PASSENGER_AREA=capital"
+	@echo "                          駅別乗降客数を取得してJSON/CSV化"
+	@echo "  make collect-data       不動産CSV、JCSC、駅別乗降客数をまとめて取得"
 	@echo "  make download-csv CSV_PREFECTURES=tokyo CSV_FROM_YEAR=2025 CSV_TO_YEAR=2025"
 	@echo "                          公式画面から中古マンションCSVを取得"
 	@echo "  make download-csv-all   全国・2005〜2025年のCSVを取得"
@@ -81,6 +85,8 @@ help:
 	@echo "                          全国1モデルと8地方モデルを比較"
 	@echo "  make compare-commercial-features"
 	@echo "                          JCSC商業施設特徴量のバックテストを実行"
+	@echo "  make compare-station-passenger-features"
+	@echo "                          駅別乗降客数特徴量のバックテストを実行"
 	@echo "  make histories-national 類似条件比較用の全国価格推移JSONを再生成"
 	@echo "  make stations           駅マスタJSONを再生成"
 	@echo "  make stations-national  全国47都道府県の駅マスタJSONを再生成"
@@ -133,7 +139,10 @@ collect-sc:
 collect-sc-all:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/jcsc_sc_open.py --from-year $(SC_FROM_YEAR) --to-year $(SC_TO_YEAR) --cache
 
-collect-data: collect-property collect-sc
+collect-station-passengers:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area $(PASSENGER_AREA) --zoom $(PASSENGER_ZOOM) --cache
+
+collect-data: collect-property collect-sc collect-station-passengers
 
 download-csv:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/download_csv.py --prefectures $(CSV_PREFECTURES) --from-year $(CSV_FROM_YEAR) --to-year $(CSV_TO_YEAR) --delay-seconds $(CSV_DELAY_SECONDS) --chunk-years $(CSV_CHUNK_YEARS) --download-timeout-ms $(CSV_DOWNLOAD_TIMEOUT_MS)
@@ -180,6 +189,9 @@ compare-national-models:
 
 compare-commercial-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_commercial_features.py
+
+compare-station-passenger-features:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_station_passenger_features.py
 
 histories-national:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.histories --public-dir ../$(FRONTEND_DIR)/public
