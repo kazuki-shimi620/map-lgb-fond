@@ -54,4 +54,20 @@ test.describe("価格予測", () => {
     await expect(page.getByText("手入力")).toBeVisible();
     await expect.poll(() => predictionPage.getPredictedPriceText()).not.toBe(before);
   });
+
+  test("都道府県変更時に地域モデルを切り替える", async ({ page }) => {
+    const predictionPage = new PredictionPage(page);
+    await predictionPage.goto();
+    await predictionPage.waitForPredictionResult();
+
+    await predictionPage.selectPrefecture("埼玉県");
+    await expect(page.getByTestId("prediction-result")).toContainText(
+      "条件を入力して予測してください。"
+    );
+
+    await predictionPage.fillMunicipality("さいたま市");
+    await predictionPage.fillStation("大宮");
+    await predictionPage.waitForPredictionResult();
+    await expect(predictionPage.selectTrigger("都道府県")).toContainText("埼玉県");
+  });
 });
