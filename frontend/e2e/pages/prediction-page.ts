@@ -77,6 +77,14 @@ export class PredictionPage {
     await this.page.getByRole("button", { name: "検索" }).click();
   }
 
+  async clickMapCenter() {
+    const box = await this.map.boundingBox();
+    if (!box) {
+      throw new Error("Map is not visible");
+    }
+    await this.page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
+  }
+
   async loadArchiveHistory() {
     await this.page.getByRole("button", { name: /以前の実績を表示/ }).click();
   }
