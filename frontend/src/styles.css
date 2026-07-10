@@ -515,6 +515,10 @@ select {
   min-height: 0;
 }
 
+.hazard-card {
+  align-self: start;
+}
+
 .panel-title-row {
   display: flex;
   align-items: center;
@@ -690,6 +694,50 @@ select {
   color: #5b6675;
   font-size: 12px;
   line-height: 1.5;
+}
+
+.hazard-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 14px 0 0;
+}
+
+.hazard-summary-grid div {
+  display: grid;
+  gap: 4px;
+}
+
+.hazard-summary-grid dd {
+  font-size: 14px;
+}
+
+.hazard-note {
+  margin: 12px 0 0;
+  color: #5b6675;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.hazard-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.hazard-links a {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 7px 10px;
+  color: #0f766e;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hazard-links a:hover {
+  background: #eef4f8;
 }
 
 dt {

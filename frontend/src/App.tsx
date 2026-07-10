@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { HazardRiskCard } from "./features/hazard/HazardRiskCard";
 import { PropertyMap } from "./features/map/PropertyMap";
 import {
   getModelManager,
@@ -481,6 +482,7 @@ export function App() {
                 : undefined
             }
           />
+          <HazardRiskCard latitude={form.lat} longitude={form.lon} />
           <section className="panel prediction-year-panel" aria-label="予測年シミュレーション">
             <PredictionYearControl
               className="desktop-prediction-year"

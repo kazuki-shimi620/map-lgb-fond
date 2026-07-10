@@ -83,7 +83,7 @@ P3 = 将来拡張または検証後に着手するもの
 * [x] 重ねるハザードマップのラスタタイルレイヤー定義を `frontend/public/hazards/layers.json` に作成する
 * [x] Leafletにハザードレイヤートグルを追加する
 * [x] ハザードレイヤーの出典表記をUIに表示する
-* [ ] 災害リスクカードのUIを作り、価格予測カードとは分離して表示する
+* [x] 災害リスクカードのUIを作り、価格予測カードとは分離して表示する
 * [x] `HazardType`、`HazardDetail`、`HazardAssessmentResponse` のフロント型を追加する
 * [ ] MVPの地点判定方式をCloudflare Workers中継APIにするか、静的H3 JSONにするか決める
 * [ ] Cloudflare Workersを使う場合、`/api/v1/hazards/assessment` の中継API仕様を実装する
