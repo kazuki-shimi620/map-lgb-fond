@@ -15,7 +15,13 @@ const FEATURE_ALIASES: Record<string, keyof EncodedPredictionRequest> = {
   station_distance: "stationDistance",
   room_layout: "roomLayout",
   building_type: "buildingType",
-  transaction_year: "predictionYear"
+  transaction_year: "predictionYear",
+  station_passenger_log: "stationPassengerLog",
+  station_line_count: "stationLineCount",
+  station_operator_count: "stationOperatorCount",
+  effective_station_scale: "effectiveStationScale",
+  has_station_passenger_data: "hasStationPassengerData",
+  station_rank: "stationRank"
 };
 
 function encodeCategory(dictionary: Record<string, number>, value: string, unknownId: number): number {
@@ -90,17 +96,29 @@ export class ModelManager {
     }
 
     const unknownId = this.dictionary.unknownId;
+    const stationPassengerLog = request.stationPassengerLog ?? 0;
 
     return {
-      prefecture: encodeCategory(this.dictionary.prefectures, request.prefecture, unknownId),
-      municipality: encodeCategory(this.dictionary.municipalities, request.municipality, unknownId),
-      station: encodeCategory(this.dictionary.stations, request.station, unknownId),
+      prefecture: encodeCategory(this.dictionary.prefectures ?? {}, request.prefecture, unknownId),
+      municipality: encodeCategory(this.dictionary.municipalities ?? {}, request.municipality, unknownId),
+      station: encodeCategory(this.dictionary.stations ?? {}, request.station, unknownId),
       area: request.area,
       age: request.age,
       stationDistance: request.stationDistance,
-      roomLayout: encodeCategory(this.dictionary.roomLayouts, request.roomLayout, unknownId),
-      buildingType: encodeCategory(this.dictionary.buildingTypes, request.buildingType, unknownId),
-      predictionYear: request.predictionYear
+      roomLayout: encodeCategory(this.dictionary.roomLayouts ?? {}, request.roomLayout, unknownId),
+      buildingType: encodeCategory(this.dictionary.buildingTypes ?? {}, request.buildingType, unknownId),
+      predictionYear: request.predictionYear,
+      stationPassengerLog,
+      stationLineCount: request.stationLineCount ?? 0,
+      stationOperatorCount: request.stationOperatorCount ?? 0,
+      effectiveStationScale:
+        stationPassengerLog * Math.exp(-(request.stationDistance * 60) / 1000),
+      hasStationPassengerData: stationPassengerLog > 0 ? 1 : 0,
+      stationRank: encodeCategory(
+        this.dictionary.station_rank ?? {},
+        request.stationRank ?? "unknown",
+        unknownId
+      )
     };
   }
 

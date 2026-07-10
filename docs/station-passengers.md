@@ -220,6 +220,17 @@ make compare-station-passenger-features
 
 2026-07-10時点の首都圏バックテストでは、`station` カテゴリを残す場合は `station_scale_numeric` がベースラインよりMAEを約2.5万円改善した。`station` カテゴリを外す軽量案では、`station_scale_numeric_rank_no_station` が `baseline_no_station` よりMAEを約41.8万円改善した。ブラウザ配布サイズを優先する場合は、駅カテゴリ辞書を持たない軽量案を候補にする。
 
+4都県の個別モデル設定は、この軽量案に合わせて `station` カテゴリを外し、以下を利用する。
+
+```text
+station_passenger_log
+station_line_count
+station_operator_count
+effective_station_scale
+has_station_passenger_data
+station_rank
+```
+
 出力:
 
 ```text

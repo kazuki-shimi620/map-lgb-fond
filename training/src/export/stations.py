@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 
 from ..common.regions import PREFECTURE_TO_SLUG, build_model_by_prefecture
+from ..features.station_passengers import load_station_passengers_csv, normalize_station_name
 
 REGION_TO_PREFECTURE = {slug: prefecture for prefecture, slug in PREFECTURE_TO_SLUG.items()}
 MODEL_BY_PREFECTURE = build_model_by_prefecture()
@@ -16,7 +17,7 @@ MODEL_BY_PREFECTURE = build_model_by_prefecture()
 HEARTRAILS_API = "https://express.heartrails.com/api/json"
 
 
-def normalize_station_name(name: str) -> str:
+def normalize_api_station_name(name: str) -> str:
     return (
         name.replace("（", "(")
         .replace("）", ")")
@@ -35,6 +36,8 @@ def fetch_json(params: dict[str, str]) -> dict[str, Any]:
 
 def load_category_station_names(public_dir: Path, model_region: str) -> list[str]:
     path = public_dir / "metadata" / f"{model_region}_latest_categories.json"
+    if not path.exists():
+        return []
     data = json.loads(path.read_text(encoding="utf-8"))
     return list(data.get("stations", {}).keys())
 
@@ -42,7 +45,32 @@ def load_category_station_names(public_dir: Path, model_region: str) -> list[str
 def build_category_name_lookup(category_names: list[str]) -> dict[str, str]:
     lookup: dict[str, str] = {}
     for name in category_names:
-        lookup.setdefault(normalize_station_name(name), name)
+        lookup.setdefault(normalize_api_station_name(name), name)
+    return lookup
+
+
+def build_station_passenger_lookup(path: Path) -> dict[str, dict[str, Any]]:
+    if not path.exists():
+        return {}
+    stations = load_station_passengers_csv(path)
+    stations = stations.sort_values(
+        ["normalized_station_name", "latest_passenger_count"],
+        ascending=[True, False],
+    )
+    lookup = {}
+    for row in stations.to_dict(orient="records"):
+        normalized_name = normalize_station_name(row.get("normalized_station_name", ""))
+        if not normalized_name:
+            continue
+        lookup.setdefault(
+            normalized_name,
+            {
+                "station_passenger_log": float(row.get("log_passenger_count") or 0.0),
+                "station_line_count": float(row.get("line_count") or 0.0),
+                "station_operator_count": float(row.get("operator_count") or 0.0),
+                "station_rank": str(row.get("rank") or "unknown"),
+            },
+        )
     return lookup
 
 
@@ -64,19 +92,24 @@ def fetch_prefecture_stations(prefecture: str, interval_seconds: float) -> list[
 
 
 def build_station_records(
-    public_dir: Path, region: str, interval_seconds: float
+    public_dir: Path,
+    region: str,
+    interval_seconds: float,
+    station_passengers_csv: Path,
 ) -> list[dict[str, Any]]:
     prefecture = REGION_TO_PREFECTURE[region]
     model_region = MODEL_BY_PREFECTURE[prefecture]
     category_lookup = build_category_name_lookup(
         load_category_station_names(public_dir, model_region)
     )
+    passenger_lookup = build_station_passenger_lookup(station_passengers_csv)
     stations = fetch_prefecture_stations(prefecture, interval_seconds)
     records_by_name: dict[str, dict[str, Any]] = {}
 
     for index, station in enumerate(stations, start=1):
         api_name = station["name"]
-        station_name = category_lookup.get(normalize_station_name(api_name), api_name)
+        station_name = category_lookup.get(normalize_api_station_name(api_name), api_name)
+        passenger = passenger_lookup.get(normalize_station_name(station_name), {})
         records_by_name.setdefault(
             station_name,
             {
@@ -86,14 +119,25 @@ def build_station_records(
                 "line_name": station.get("line", ""),
                 "lat": float(station["y"]),
                 "lon": float(station["x"]),
+                **passenger,
             },
         )
 
     return sorted(records_by_name.values(), key=lambda record: record["station_name"])
 
 
-def export_station_records(public_dir: Path, region: str, interval_seconds: float) -> Path:
-    records = build_station_records(public_dir, region, interval_seconds)
+def export_station_records(
+    public_dir: Path,
+    region: str,
+    interval_seconds: float,
+    station_passengers_csv: Path,
+) -> Path:
+    records = build_station_records(
+        public_dir,
+        region,
+        interval_seconds,
+        station_passengers_csv,
+    )
     output = public_dir / "stations" / f"{region}_stations.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -107,12 +151,22 @@ def main() -> int:
     parser.add_argument("--public-dir", type=Path, default=Path("../frontend/public"))
     parser.add_argument("--regions", nargs="*", default=list(REGION_TO_PREFECTURE))
     parser.add_argument("--interval-seconds", type=float, default=0.05)
+    parser.add_argument(
+        "--station-passengers-csv",
+        type=Path,
+        default=Path("data/processed/station_passengers/station_groups.csv"),
+    )
     args = parser.parse_args()
 
     for region in args.regions:
         if region not in REGION_TO_PREFECTURE:
             raise ValueError(f"Unsupported region: {region}")
-        output = export_station_records(args.public_dir, region, args.interval_seconds)
+        output = export_station_records(
+            args.public_dir,
+            region,
+            args.interval_seconds,
+            args.station_passengers_csv,
+        )
         records = json.loads(output.read_text(encoding="utf-8"))
         print(f"{region}: exported {len(records)} stations to {output}")
 

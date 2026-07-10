@@ -9,9 +9,9 @@ SRC_ROOT = Path(__file__).resolve().parents[1]
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from common.config import TrainingConfig, load_config
-from evaluate.metrics import calculate_metrics
-from experiment.database import (
+from common.config import TrainingConfig, load_config  # noqa: E402
+from evaluate.metrics import calculate_metrics  # noqa: E402
+from experiment.database import (  # noqa: E402
     complete_experiment,
     connect,
     create_dataset,
@@ -22,7 +22,7 @@ from experiment.database import (
     register_model_if_best,
     upsert_features,
 )
-from export.artifacts import (
+from export.artifacts import (  # noqa: E402
     RECENT_HISTORY_START_YEAR,
     build_artifact_paths,
     build_price_history,
@@ -31,9 +31,14 @@ from export.artifacts import (
     save_json,
     save_pickle,
 )
-from features.category_dictionary import build_and_apply_category_dictionary
-from features.providers import create_mvp_feature_pipeline
-from train.model import train_model, tune_model
+from features.category_dictionary import build_and_apply_category_dictionary  # noqa: E402
+from features.providers import create_mvp_feature_pipeline  # noqa: E402
+from features.station_passengers import (  # noqa: E402
+    STATION_PASSENGER_FEATURES,
+    add_station_passenger_features,
+    load_station_passengers_csv,
+)
+from train.model import train_model, tune_model  # noqa: E402
 
 
 def main() -> int:
@@ -55,6 +60,7 @@ def main() -> int:
     df = pd.read_parquet(data_path)
     pipeline = create_mvp_feature_pipeline()
     feature_df, _context = pipeline.fit_transform(df)
+    feature_df = _add_external_features_if_needed(feature_df, config)
     encoding = build_and_apply_category_dictionary(feature_df, config.categorical_features)
 
     features = encoding.dataframe[config.features]
@@ -99,10 +105,20 @@ def main() -> int:
             )
             model_params = tuning_result["params"] if tuning_result else base_model_params
 
-            evaluation_model = train_model(train_x, train_y, config.categorical_features, model_params)
+            evaluation_model = train_model(
+                train_x,
+                train_y,
+                config.categorical_features,
+                model_params,
+            )
             predictions = evaluation_model.predict(test_x)
             metrics = calculate_metrics(test_y, predictions)
-            deployment_model = train_model(deployment_x, deployment_y, config.categorical_features, model_params)
+            deployment_model = train_model(
+                deployment_x,
+                deployment_y,
+                config.categorical_features,
+                model_params,
+            )
 
             paths = build_artifact_paths(config.output_dir, config.region)
             save_pickle(deployment_model, paths["pkl"])
@@ -175,6 +191,24 @@ def _resolve_data_path(config: TrainingConfig) -> Path | None:
     return None
 
 
+def _add_external_features_if_needed(feature_df, config: TrainingConfig):
+    requested_features = set(config.features) | set(config.categorical_features)
+    if requested_features.isdisjoint(STATION_PASSENGER_FEATURES):
+        return feature_df
+
+    station_passengers_csv = Path(
+        config.station_passengers_csv
+        or "data/processed/station_passengers/station_groups.csv"
+    )
+    if not station_passengers_csv.exists():
+        raise FileNotFoundError(f"Station passenger CSV not found: {station_passengers_csv}")
+
+    return add_station_passenger_features(
+        feature_df,
+        load_station_passengers_csv(station_passengers_csv),
+    )
+
+
 def _build_train_test_split(df, config: TrainingConfig):
     import pandas as pd
 
@@ -225,7 +259,11 @@ def _run_tuning_if_enabled(
     if not config.tuning.enabled:
         return None
 
-    tuning_train_mask, tuning_valid_mask, validation_year = _build_tuning_split(dataframe, train_mask, config)
+    tuning_train_mask, tuning_valid_mask, validation_year = _build_tuning_split(
+        dataframe,
+        train_mask,
+        config,
+    )
     result = tune_model(
         features[tuning_train_mask],
         target[tuning_train_mask],

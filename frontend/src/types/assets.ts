@@ -1,9 +1,10 @@
 export type CategoryDictionary = {
-  prefectures: Record<string, number>;
-  municipalities: Record<string, number>;
-  stations: Record<string, number>;
-  roomLayouts: Record<string, number>;
-  buildingTypes: Record<string, number>;
+  prefectures?: Record<string, number>;
+  municipalities?: Record<string, number>;
+  stations?: Record<string, number>;
+  roomLayouts?: Record<string, number>;
+  buildingTypes?: Record<string, number>;
+  station_rank?: Record<string, number>;
   unknownId: number;
 };
 
@@ -47,6 +48,10 @@ export type StationRecord = {
   line_name: string;
   lat: number;
   lon: number;
+  station_passenger_log?: number;
+  station_line_count?: number;
+  station_operator_count?: number;
+  station_rank?: string;
 };
 
 export type PriceHistoryPoint = {

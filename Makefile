@@ -23,6 +23,7 @@ SC_FROM_YEAR ?= 2015
 SC_TO_YEAR ?= 2026
 PASSENGER_AREA ?= capital
 PASSENGER_ZOOM ?= 11
+STATION_PASSENGERS_CSV ?= data/processed/station_passengers/station_groups.csv
 UV := $(shell command -v uv 2>/dev/null)
 
 ifeq ($(UV),)
@@ -197,7 +198,7 @@ histories-national:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.histories --public-dir ../$(FRONTEND_DIR)/public
 
 stations:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public --regions $(REGIONS)
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public --regions $(REGIONS) --station-passengers-csv $(STATION_PASSENGERS_CSV)
 
 stations-national:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public --station-passengers-csv $(STATION_PASSENGERS_CSV)

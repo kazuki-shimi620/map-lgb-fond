@@ -71,6 +71,10 @@ export type PredictionRequest = {
   roomLayout: string;
   buildingType: string;
   predictionYear: number;
+  stationPassengerLog?: number;
+  stationLineCount?: number;
+  stationOperatorCount?: number;
+  stationRank?: string;
 };
 
 export type PredictionResult = {
@@ -90,6 +94,12 @@ export type EncodedPredictionRequest = {
   roomLayout: number;
   buildingType: number;
   predictionYear: number;
+  stationPassengerLog: number;
+  stationLineCount: number;
+  stationOperatorCount: number;
+  effectiveStationScale: number;
+  hasStationPassengerData: number;
+  stationRank: number;
 };
 
 export type PredictionFormState = PredictionRequest & {

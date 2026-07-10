@@ -502,13 +502,27 @@ region: tokyo
 features:
   - area
   - age
-  - station
   - municipality
   - station_distance
   - room_layout
   - building_type
   - transaction_year
+  - station_passenger_log
+  - station_line_count
+  - station_operator_count
+  - effective_station_scale
+  - has_station_passenger_data
+  - station_rank
+
+categorical_features:
+  - prefecture
+  - municipality
+  - room_layout
+  - building_type
+  - station_rank
 ```
+
+4都県の個別モデルは、ブラウザ配布サイズを抑えるため `station` カテゴリを外し、駅別乗降客数から作る軽量な駅規模特徴量を利用する。駅別乗降客数CSVは `station_passengers_csv` で指定する。
 
 ---
 

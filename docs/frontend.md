@@ -197,7 +197,17 @@ station
 
 lat
 lon
+
+station_passenger_log
+
+station_line_count
+
+station_operator_count
+
+station_rank
 ```
+
+駅規模項目は任意。モデルの `featureOrder` に駅別乗降客数特徴量が含まれる場合、駅マスタJSONに含まれる値からブラウザ側で `effective_station_scale` と `has_station_passenger_data` を計算してONNX入力に渡す。
 
 ---
 
