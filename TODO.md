@@ -79,7 +79,7 @@ P3 = 将来拡張または検証後に着手するもの
 
 ### P1 ハザードマップ・災害リスク評価
 
-* [ ] `docs/hazard-maps.md` をもとにMVP実装範囲を確定する
+* [x] `docs/hazard-maps.md` をもとにMVP実装範囲を確定する
 * [ ] 重ねるハザードマップのラスタタイルレイヤー定義を `frontend/public/hazards/layers.json` に作成する
 * [ ] Leafletにハザードレイヤートグルを追加する
 * [ ] ハザードレイヤーの出典表記をUIに表示する
