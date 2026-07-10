@@ -161,6 +161,8 @@ make train REGION=tokyo
 
 APIキーは `training/.env` の `REINFOLIB_API_KEY` に設定します。実際のAPIキーをコードやコマンドラインへ直接記載しません。
 
+商業施設、駅別乗降客数、ハザード情報などの外部特徴量を含む更新手順は [docs/external-data-workflow.md](docs/external-data-workflow.md) を参照してください。
+
 全国47都道府県、2005年から2025年までのCSVを取得する場合は、以下を実行します。
 
 ```bash
