@@ -24,6 +24,8 @@ SC_TO_YEAR ?= 2026
 PASSENGER_AREA ?= capital
 PASSENGER_ZOOM ?= 11
 STATION_PASSENGERS_CSV ?= data/processed/station_passengers/station_groups.csv
+HAZARD_INPUT ?=
+HAZARD_URL ?=
 UV := $(shell command -v uv 2>/dev/null)
 
 ifeq ($(UV),)
@@ -35,7 +37,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models compare-models compare-national-models compare-commercial-features compare-station-passenger-features histories-national stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models compare-models compare-national-models compare-commercial-features compare-station-passenger-features histories-national stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -61,6 +63,8 @@ help:
 	@echo "                          JCSCオープンSC一覧を取得してJSON/CSV化"
 	@echo "  make collect-station-passengers PASSENGER_AREA=capital"
 	@echo "                          駅別乗降客数を取得してJSON/CSV化"
+	@echo "  make collect-hazards HAZARD_INPUT=path/to/hazards.json"
+	@echo "                          ハザード情報を正規化して学習用CSV化"
 	@echo "  make collect-data       不動産CSV、JCSC、駅別乗降客数をまとめて取得"
 	@echo "  make download-csv CSV_PREFECTURES=tokyo CSV_FROM_YEAR=2025 CSV_TO_YEAR=2025"
 	@echo "                          公式画面から中古マンションCSVを取得"
@@ -142,6 +146,17 @@ collect-sc-all:
 
 collect-station-passengers:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area $(PASSENGER_AREA) --zoom $(PASSENGER_ZOOM) --cache
+
+collect-hazards:
+	cd $(TRAINING_DIR) && \
+	if [ -n "$(HAZARD_INPUT)" ]; then \
+		$(TRAINING_PYTHON) src/collect/hazards.py --input "$(HAZARD_INPUT)"; \
+	elif [ -n "$(HAZARD_URL)" ]; then \
+		$(TRAINING_PYTHON) src/collect/hazards.py --url "$(HAZARD_URL)"; \
+	else \
+		echo "HAZARD_INPUT or HAZARD_URL is required"; \
+		exit 1; \
+	fi
 
 collect-data: collect-property collect-sc collect-station-passengers
 

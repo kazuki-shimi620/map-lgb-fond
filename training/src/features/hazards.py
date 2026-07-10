@@ -42,7 +42,7 @@ def add_hazard_features(property_df, hazards_df):
     if hazards_df.empty:
         return _fill_missing_hazard_features(result)
 
-    hazards = _to_wide_hazard_features(hazards_df)
+    hazards = to_wide_hazard_features(hazards_df)
     join_keys = _hazard_join_keys(result, hazards)
     if not join_keys:
         return _fill_missing_hazard_features(result)
@@ -205,7 +205,7 @@ def calculate_overall_hazard_score(scores: dict[str, float | None]) -> float | N
     return min(available.values()) * 0.6 + weighted * 0.4
 
 
-def _to_wide_hazard_features(hazards):
+def to_wide_hazard_features(hazards):
     import pandas as pd
 
     if all(feature in hazards.columns for feature in HAZARD_FEATURES):
