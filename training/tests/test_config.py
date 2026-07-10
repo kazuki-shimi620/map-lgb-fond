@@ -35,3 +35,25 @@ def test_load_config_resolves_hazard_features_csv(tmp_path) -> None:
     assert config.hazard_features_csv.endswith(
         "data/processed/hazards/hazard_features.csv"
     )
+
+
+def test_load_config_resolves_commercial_facilities_csv(tmp_path) -> None:
+    config_path = tmp_path / "config.yaml"
+    config_path.write_text(
+        "\n".join(
+            [
+                "region: sample",
+                "features:",
+                "  - area",
+                "commercial_facilities_csv: data/processed/jcsc/jcsc_sc_open.csv",
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    config = load_config(config_path)
+
+    assert config.commercial_facilities_csv
+    assert config.commercial_facilities_csv.endswith(
+        "data/processed/jcsc/jcsc_sc_open.csv"
+    )

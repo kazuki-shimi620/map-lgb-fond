@@ -42,6 +42,7 @@ class TrainingConfig:
     raw_path: str | None = None
     processed_path: str | None = None
     station_passengers_csv: str | None = None
+    commercial_facilities_csv: str | None = None
     hazard_features_csv: str | None = None
     output_dir: str = "outputs/models"
     frontend_public_dir: str = "../frontend/public"
@@ -76,6 +77,10 @@ def load_config(path: str | Path) -> TrainingConfig:
         station_passengers_csv=_resolve_optional_path(
             base_dir,
             data.get("station_passengers_csv"),
+        ),
+        commercial_facilities_csv=_resolve_optional_path(
+            base_dir,
+            data.get("commercial_facilities_csv"),
         ),
         hazard_features_csv=_resolve_optional_path(
             base_dir,

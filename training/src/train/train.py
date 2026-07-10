@@ -32,6 +32,11 @@ from export.artifacts import (  # noqa: E402
     save_pickle,
 )
 from features.category_dictionary import build_and_apply_category_dictionary  # noqa: E402
+from features.commercial_facilities import (  # noqa: E402
+    COMMERCIAL_FEATURES,
+    add_commercial_facility_features,
+    load_commercial_facilities_csv,
+)
 from features.hazards import (  # noqa: E402
     HAZARD_FEATURES,
     add_hazard_features,
@@ -211,6 +216,21 @@ def _add_external_features_if_needed(feature_df, config: TrainingConfig):
         result = add_station_passenger_features(
             result,
             load_station_passengers_csv(station_passengers_csv),
+        )
+
+    if not requested_features.isdisjoint(COMMERCIAL_FEATURES):
+        commercial_facilities_csv = Path(
+            config.commercial_facilities_csv or "data/processed/jcsc/jcsc_sc_open.csv"
+        )
+        if not commercial_facilities_csv.exists():
+            raise FileNotFoundError(
+                f"Commercial facility CSV not found: {commercial_facilities_csv}"
+            )
+
+        result = add_commercial_facility_features(
+            result,
+            load_commercial_facilities_csv(commercial_facilities_csv),
+            data_start_year=config.train_start_year,
         )
 
     if not requested_features.isdisjoint(HAZARD_FEATURES):
