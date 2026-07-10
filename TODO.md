@@ -84,7 +84,7 @@ P3 = 将来拡張または検証後に着手するもの
 * [x] Leafletにハザードレイヤートグルを追加する
 * [x] ハザードレイヤーの出典表記をUIに表示する
 * [ ] 災害リスクカードのUIを作り、価格予測カードとは分離して表示する
-* [ ] `HazardType`、`HazardDetail`、`HazardAssessmentResponse` のフロント型を追加する
+* [x] `HazardType`、`HazardDetail`、`HazardAssessmentResponse` のフロント型を追加する
 * [ ] MVPの地点判定方式をCloudflare Workers中継APIにするか、静的H3 JSONにするか決める
 * [ ] Cloudflare Workersを使う場合、`/api/v1/hazards/assessment` の中継API仕様を実装する
 * [ ] 中継APIで不動産情報ライブラリAPIキーを秘匿し、キャッシュを必須にする
