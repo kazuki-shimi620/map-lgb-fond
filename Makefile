@@ -65,7 +65,7 @@ help:
 	@echo "                          駅別乗降客数を取得してJSON/CSV化"
 	@echo "  make collect-hazards HAZARD_INPUT=path/to/hazards.json"
 	@echo "                          ハザード情報を正規化して学習用CSV化"
-	@echo "  make collect-data       不動産CSV、JCSC、駅別乗降客数をまとめて取得"
+	@echo "  make collect-data       不動産CSV、2015年以降のJCSC、駅別乗降客数をまとめて取得"
 	@echo "  make download-csv CSV_PREFECTURES=tokyo CSV_FROM_YEAR=2025 CSV_TO_YEAR=2025"
 	@echo "                          公式画面から中古マンションCSVを取得"
 	@echo "  make download-csv-all   全国・2005〜2025年のCSVを取得"
@@ -158,7 +158,7 @@ collect-hazards:
 		exit 1; \
 	fi
 
-collect-data: collect-property collect-sc collect-station-passengers
+collect-data: collect-property collect-sc-all collect-station-passengers
 
 download-csv:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/download_csv.py --prefectures $(CSV_PREFECTURES) --from-year $(CSV_FROM_YEAR) --to-year $(CSV_TO_YEAR) --delay-seconds $(CSV_DELAY_SECONDS) --chunk-years $(CSV_CHUNK_YEARS) --download-timeout-ms $(CSV_DOWNLOAD_TIMEOUT_MS)
