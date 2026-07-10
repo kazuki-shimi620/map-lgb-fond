@@ -304,6 +304,26 @@ transaction_year
 
 特徴量追加容易性を確保する。
 
+外部特徴量も同じFeatureProvider境界に寄せる。学習設定の `features` または `categorical_features` に外部特徴量が含まれる場合だけ、対応するProviderを実行する。
+
+初期対象:
+
+```text
+StationPassengerProvider
+CommercialFacilityProvider
+HazardProvider
+```
+
+各Providerは以下を責務とする。
+
+* 入力CSVの存在確認
+* 正規化済みCSVの読み込み
+* 学習データへの結合
+* 欠損時の既定値付与
+* 出力特徴量のcontext登録
+
+モデル本体は外部データソースへ直接依存しない。外部データの取得・正規化は `training/src/collect`、特徴量結合は `training/src/features` に分ける。
+
 ---
 
 ## Interface

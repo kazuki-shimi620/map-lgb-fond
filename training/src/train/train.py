@@ -32,21 +32,9 @@ from export.artifacts import (  # noqa: E402
     save_pickle,
 )
 from features.category_dictionary import build_and_apply_category_dictionary  # noqa: E402
-from features.commercial_facilities import (  # noqa: E402
-    COMMERCIAL_FEATURES,
-    add_commercial_facility_features,
-    load_commercial_facilities_csv,
-)
-from features.hazards import (  # noqa: E402
-    HAZARD_FEATURES,
-    add_hazard_features,
-    load_hazard_features_csv,
-)
-from features.providers import create_mvp_feature_pipeline  # noqa: E402
-from features.station_passengers import (  # noqa: E402
-    STATION_PASSENGER_FEATURES,
-    add_station_passenger_features,
-    load_station_passengers_csv,
+from features.providers import (  # noqa: E402
+    create_external_feature_pipeline,
+    create_mvp_feature_pipeline,
 )
 from train.model import train_model, tune_model  # noqa: E402
 
@@ -203,48 +191,16 @@ def _resolve_data_path(config: TrainingConfig) -> Path | None:
 
 def _add_external_features_if_needed(feature_df, config: TrainingConfig):
     requested_features = set(config.features) | set(config.categorical_features)
-    result = feature_df
-
-    if not requested_features.isdisjoint(STATION_PASSENGER_FEATURES):
-        station_passengers_csv = Path(
-            config.station_passengers_csv
-            or "data/processed/station_passengers/station_groups.csv"
-        )
-        if not station_passengers_csv.exists():
-            raise FileNotFoundError(f"Station passenger CSV not found: {station_passengers_csv}")
-
-        result = add_station_passenger_features(
-            result,
-            load_station_passengers_csv(station_passengers_csv),
-        )
-
-    if not requested_features.isdisjoint(COMMERCIAL_FEATURES):
-        commercial_facilities_csv = Path(
-            config.commercial_facilities_csv or "data/processed/jcsc/jcsc_sc_open.csv"
-        )
-        if not commercial_facilities_csv.exists():
-            raise FileNotFoundError(
-                f"Commercial facility CSV not found: {commercial_facilities_csv}"
-            )
-
-        result = add_commercial_facility_features(
-            result,
-            load_commercial_facilities_csv(commercial_facilities_csv),
-            data_start_year=config.train_start_year,
-        )
-
-    if not requested_features.isdisjoint(HAZARD_FEATURES):
-        hazard_features_csv = Path(
-            config.hazard_features_csv or "data/processed/hazards/hazard_features.csv"
-        )
-        if not hazard_features_csv.exists():
-            raise FileNotFoundError(f"Hazard feature CSV not found: {hazard_features_csv}")
-
-        result = add_hazard_features(
-            result,
-            load_hazard_features_csv(hazard_features_csv),
-        )
-
+    pipeline = create_external_feature_pipeline(
+        requested_features=requested_features,
+        station_passengers_csv=config.station_passengers_csv,
+        commercial_facilities_csv=config.commercial_facilities_csv,
+        hazard_features_csv=config.hazard_features_csv,
+        commercial_data_start_year=config.train_start_year,
+    )
+    if pipeline is None:
+        return feature_df
+    result, _context = pipeline.fit_transform(feature_df)
     return result
 
 
