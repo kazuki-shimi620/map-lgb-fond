@@ -92,7 +92,7 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
   }
 
   return (
-    <section className="panel map-panel" aria-label="地図">
+    <section className="panel map-panel" aria-label="地図" data-testid="property-map">
       <div className="map-frame">
         <img className="app-icon map-app-icon" src="./app-icon.svg" alt="" aria-hidden="true" />
         <form className="map-search" onSubmit={handleSearch}>

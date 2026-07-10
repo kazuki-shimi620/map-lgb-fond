@@ -106,7 +106,7 @@ P3 = 将来拡張または検証後に着手するもの
 * [x] `frontend/playwright.config.ts` を作成し、Vite previewをwebServerで起動する
 * [x] `frontend/package.json` に `test:e2e`、`test:e2e:ui`、`test:e2e:headed`、`test:e2e:report`、`test:e2e:screenshots` を追加する
 * [x] `frontend/e2e/pages/prediction-page.ts` を作成し、主要操作をPage Object化する
-* [ ] 地図、フォーム、予測結果、価格推移グラフ、ボトムシートへ必要な `data-testid` を追加する
+* [x] 地図、フォーム、予測結果、価格推移グラフ、ボトムシートへ必要な `data-testid` を追加する
 * [ ] 外部ジオコーディングAPIをモックするfixtureを追加する
 * [ ] 初期表示と初期値のE2Eテストを追加する
 * [ ] 初期価格予測のE2Eテストを追加する

@@ -60,7 +60,11 @@ export function PredictionForm({
   }
 
   return (
-    <section ref={formRef} className={`panel form-panel form-grid sheet-${sheetState}`}>
+    <section
+      ref={formRef}
+      className={`panel form-panel form-grid sheet-${sheetState}`}
+      data-testid="prediction-form"
+    >
       <SelectField
         label="都道府県"
         value={value.prefecture}
@@ -189,6 +193,7 @@ export function PredictionSheetHandle({
     <button
       type="button"
       className="sheet-header"
+      data-testid="sheet-handle"
       aria-label={sheetState === "open" ? "条件入力フォームを下げる" : "条件入力フォームを上げる"}
       onClick={(event) => {
         event.preventDefault();

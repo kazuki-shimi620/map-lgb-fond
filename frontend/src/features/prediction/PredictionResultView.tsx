@@ -60,7 +60,7 @@ export function PredictionResultView({ result, summary }: Props) {
 
   if (!result) {
     return (
-      <section className="panel result-panel">
+      <section className="panel result-panel" data-testid="prediction-result">
         <h2>予測結果</h2>
         <p className="muted">条件を入力して予測してください。</p>
       </section>
@@ -68,7 +68,7 @@ export function PredictionResultView({ result, summary }: Props) {
   }
 
   return (
-    <section className="panel result-panel">
+    <section className="panel result-panel" data-testid="prediction-result">
       <div className="panel-title-row">
         <h2>予測結果</h2>
       </div>

@@ -26,7 +26,7 @@ export function PriceHistoryChart({
   const xAxisStart = Math.min(earliestYear, RECENT_HISTORY_START_YEAR);
 
   return (
-    <section className="panel chart-panel">
+    <section className="panel chart-panel" data-testid="price-history-chart">
       <h2>価格推移</h2>
       {points.length === 0 ? (
         <p className="muted">価格推移データがありません。</p>

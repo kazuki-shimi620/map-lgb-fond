@@ -444,7 +444,11 @@ export function App() {
 
       <div className={`layout form-sheet-${formSheetState}`}>
         <PropertyMap lat={form.lat} lon={form.lon} onSelect={handleMapSelect} />
-        <div ref={sheetStackRef} className={`sheet-stack sheet-${formSheetState}`}>
+        <div
+          ref={sheetStackRef}
+          className={`sheet-stack sheet-${formSheetState}`}
+          data-testid="prediction-sheet"
+        >
           <PredictionSheetHandle
             sheetState={formSheetState}
             onSheetStateChange={setFormSheetState}
