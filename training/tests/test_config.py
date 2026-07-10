@@ -13,3 +13,25 @@ def test_load_config_resolves_station_passengers_csv() -> None:
     assert "station" not in config.features
     assert "station_passenger_log" in config.features
     assert "station_rank" in config.categorical_features
+
+
+def test_load_config_resolves_hazard_features_csv(tmp_path) -> None:
+    config_path = tmp_path / "config.yaml"
+    config_path.write_text(
+        "\n".join(
+            [
+                "region: sample",
+                "features:",
+                "  - area",
+                "hazard_features_csv: data/processed/hazards/hazard_features.csv",
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    config = load_config(config_path)
+
+    assert config.hazard_features_csv
+    assert config.hazard_features_csv.endswith(
+        "data/processed/hazards/hazard_features.csv"
+    )

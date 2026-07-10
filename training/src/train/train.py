@@ -32,6 +32,11 @@ from export.artifacts import (  # noqa: E402
     save_pickle,
 )
 from features.category_dictionary import build_and_apply_category_dictionary  # noqa: E402
+from features.hazards import (  # noqa: E402
+    HAZARD_FEATURES,
+    add_hazard_features,
+    load_hazard_features_csv,
+)
 from features.providers import create_mvp_feature_pipeline  # noqa: E402
 from features.station_passengers import (  # noqa: E402
     STATION_PASSENGER_FEATURES,
@@ -193,20 +198,34 @@ def _resolve_data_path(config: TrainingConfig) -> Path | None:
 
 def _add_external_features_if_needed(feature_df, config: TrainingConfig):
     requested_features = set(config.features) | set(config.categorical_features)
-    if requested_features.isdisjoint(STATION_PASSENGER_FEATURES):
-        return feature_df
+    result = feature_df
 
-    station_passengers_csv = Path(
-        config.station_passengers_csv
-        or "data/processed/station_passengers/station_groups.csv"
-    )
-    if not station_passengers_csv.exists():
-        raise FileNotFoundError(f"Station passenger CSV not found: {station_passengers_csv}")
+    if not requested_features.isdisjoint(STATION_PASSENGER_FEATURES):
+        station_passengers_csv = Path(
+            config.station_passengers_csv
+            or "data/processed/station_passengers/station_groups.csv"
+        )
+        if not station_passengers_csv.exists():
+            raise FileNotFoundError(f"Station passenger CSV not found: {station_passengers_csv}")
 
-    return add_station_passenger_features(
-        feature_df,
-        load_station_passengers_csv(station_passengers_csv),
-    )
+        result = add_station_passenger_features(
+            result,
+            load_station_passengers_csv(station_passengers_csv),
+        )
+
+    if not requested_features.isdisjoint(HAZARD_FEATURES):
+        hazard_features_csv = Path(
+            config.hazard_features_csv or "data/processed/hazards/hazard_features.csv"
+        )
+        if not hazard_features_csv.exists():
+            raise FileNotFoundError(f"Hazard feature CSV not found: {hazard_features_csv}")
+
+        result = add_hazard_features(
+            result,
+            load_hazard_features_csv(hazard_features_csv),
+        )
+
+    return result
 
 
 def _build_train_test_split(df, config: TrainingConfig):
