@@ -120,7 +120,7 @@ P3 = 将来拡張または検証後に着手するもの
 * [x] モデル、駅マスタ、価格推論失敗時のエラー表示テストを追加する
 * [x] GitHub ActionsでChromiumのE2Eテストを実行する
 * [x] PlaywrightのHTMLレポート、trace、動画、失敗時スクリーンショットをCI artifactに保存する
-* [ ] Mobile Safari相当のWebKitテストを手動または定期実行へ追加する
+* [x] Mobile Safari相当のWebKitテストを手動または定期実行へ追加する
 
 ## P3 モデル説明機能
 
