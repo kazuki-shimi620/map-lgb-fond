@@ -32,6 +32,9 @@ target_year = 2026
 
 最新年はベースURLで表示される。過去年はベースURL内の年別リンクからURLを解決する。
 
+2026年7月10日時点でベースURLから解決できる過去年リンクは2015年以降である。
+それ以前の年を利用する場合は、別アーカイブや追加データソースの有無を確認してから取得対象に含める。
+
 ## 利用制約
 
 * 取得は `training` 側のスクリプトだけで行う。
@@ -86,8 +89,12 @@ JCSC由来のraw HTML、正規化JSON、エラーログはGit管理しない。
 ```text
 training/data/raw/jcsc/jcsc_sc_open_2026_raw.html
 training/data/processed/jcsc/jcsc_sc_open_2026.json
+training/data/processed/jcsc/jcsc_sc_open_2026.csv
+training/data/processed/jcsc/jcsc_sc_open.csv
 training/data/cache/jcsc/jcsc_sc_open_2026_errors.json
 ```
+
+`jcsc_sc_open_YYYY.csv` は年別CSV、`jcsc_sc_open.csv` は取得対象年を結合したCSVとする。
 
 ブラウザ推論に必要な集計済み成果物を出す場合だけ `frontend/public` へ配置する。
 
