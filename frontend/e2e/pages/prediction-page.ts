@@ -2,14 +2,12 @@ import { expect, type Locator, type Page } from "@playwright/test";
 
 export class PredictionPage {
   readonly page: Page;
-  readonly heading: Locator;
   readonly map: Locator;
   readonly predictionResult: Locator;
   readonly priceHistory: Locator;
 
   constructor(page: Page) {
     this.page = page;
-    this.heading = page.getByRole("heading", { name: "不動産価格予測" });
     this.map = page.getByRole("region", { name: "地図" });
     this.predictionResult = page.getByRole("heading", { name: "予測結果" }).locator("..");
     this.priceHistory = page.getByRole("heading", { name: "価格推移" }).locator("..");
@@ -20,9 +18,10 @@ export class PredictionPage {
   }
 
   async expectLoaded() {
-    await expect(this.heading).toBeVisible();
     await expect(this.map).toBeVisible();
-    await expect(this.page.getByText("Real Estate Price Prediction")).toBeVisible();
+    await expect(this.page.getByTestId("prediction-form")).toBeVisible();
+    await expect(this.page.getByTestId("prediction-result")).toBeVisible();
+    await expect(this.page.getByTestId("price-history-chart")).toBeVisible();
   }
 
   async expectInitialFormValues() {
