@@ -103,7 +103,7 @@ P3 = 将来拡張または検証後に着手するもの
 
 * [x] フロントエンドE2Eテスト仕様を作る
 * [x] `@playwright/test` をfrontendへ追加する
-* [ ] `frontend/playwright.config.ts` を作成し、Vite previewをwebServerで起動する
+* [x] `frontend/playwright.config.ts` を作成し、Vite previewをwebServerで起動する
 * [ ] `frontend/package.json` に `test:e2e`、`test:e2e:ui`、`test:e2e:headed`、`test:e2e:report`、`test:e2e:screenshots` を追加する
 * [ ] `frontend/e2e/pages/prediction-page.ts` を作成し、主要操作をPage Object化する
 * [ ] 地図、フォーム、予測結果、価格推移グラフ、ボトムシートへ必要な `data-testid` を追加する
