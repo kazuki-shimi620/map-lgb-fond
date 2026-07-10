@@ -43,23 +43,21 @@ def add_hazard_features(property_df, hazards_df):
         return _fill_missing_hazard_features(result)
 
     hazards = to_wide_hazard_features(hazards_df)
-    join_keys = _hazard_join_keys(result, hazards)
-    if not join_keys:
+    join_plan = _build_hazard_join_plan(result, hazards)
+    if join_plan is None:
         return _fill_missing_hazard_features(result)
 
-    left_on = [
-        "transaction_year" if key == "feature_year" else key
-        for key in join_keys
-    ]
+    result, hazards, left_on, right_on, temporary_columns = join_plan
     result = result.merge(
         hazards,
         how="left",
         left_on=left_on,
-        right_on=join_keys,
+        right_on=right_on,
     )
     drop_columns = [
-        key for key, left_key in zip(join_keys, left_on, strict=False) if key != left_key
+        key for key, left_key in zip(right_on, left_on, strict=False) if key != left_key
     ]
+    drop_columns.extend([column for column in temporary_columns if column in result.columns])
     if drop_columns:
         result = result.drop(columns=drop_columns)
     return _fill_missing_hazard_features(result)
@@ -208,7 +206,7 @@ def calculate_overall_hazard_score(scores: dict[str, float | None]) -> float | N
 def to_wide_hazard_features(hazards):
     import pandas as pd
 
-    if all(feature in hazards.columns for feature in HAZARD_FEATURES):
+    if any(feature in hazards.columns for feature in HAZARD_FEATURES):
         return hazards.copy()
 
     required = {"prefecture", "municipality", "feature_year", "hazard_type"}
@@ -286,14 +284,53 @@ def _is_missing(value: object) -> bool:
         return False
 
 
-def _hazard_join_keys(properties, hazards) -> list[str]:
-    keys = ["prefecture", "municipality", "feature_year"]
-    return [
+def _build_hazard_join_plan(properties, hazards):
+    if "property_id" in properties.columns and "property_id" in hazards.columns:
+        return properties, hazards, ["property_id"], ["property_id"], []
+
+    property_lat = _find_first_column(properties, ["lat", "latitude"])
+    property_lon = _find_first_column(properties, ["lon", "lng", "longitude"])
+    hazard_lat = _find_first_column(hazards, ["lat", "latitude"])
+    hazard_lon = _find_first_column(hazards, ["lon", "lng", "longitude"])
+    if property_lat and property_lon and hazard_lat and hazard_lon:
+        next_properties = properties.copy()
+        next_hazards = hazards.copy()
+        next_properties["_hazard_lat_key"] = next_properties[property_lat].map(_coordinate_key)
+        next_properties["_hazard_lon_key"] = next_properties[property_lon].map(_coordinate_key)
+        next_hazards["_hazard_lat_key"] = next_hazards[hazard_lat].map(_coordinate_key)
+        next_hazards["_hazard_lon_key"] = next_hazards[hazard_lon].map(_coordinate_key)
+        left_on = ["_hazard_lat_key", "_hazard_lon_key"]
+        right_on = ["_hazard_lat_key", "_hazard_lon_key"]
+        temporary_columns = ["_hazard_lat_key", "_hazard_lon_key"]
+        if "feature_year" in next_hazards.columns and "transaction_year" in next_properties.columns:
+            left_on.append("transaction_year")
+            right_on.append("feature_year")
+        return next_properties, next_hazards, left_on, right_on, temporary_columns
+
+    keys = [
         key
-        for key in keys
+        for key in ["prefecture", "municipality", "feature_year"]
         if key in hazards.columns
         and (key in properties.columns or (key == "feature_year" and "transaction_year" in properties.columns))
     ]
+    if not keys:
+        return None
+    left_on = ["transaction_year" if key == "feature_year" else key for key in keys]
+    return properties, hazards, left_on, keys, []
+
+
+def _find_first_column(df, candidates: list[str]) -> str | None:
+    for candidate in candidates:
+        if candidate in df.columns:
+            return candidate
+    return None
+
+
+def _coordinate_key(value: object) -> float | None:
+    try:
+        return round(float(value), 4)
+    except (TypeError, ValueError):
+        return None
 
 
 def _fill_missing_hazard_features(result):

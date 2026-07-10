@@ -81,3 +81,32 @@ def test_add_hazard_features_pivots_long_records_by_municipality_and_year() -> N
     assert actual.loc[0, "hazard_landslide_risk_level"] == 0
     assert actual.loc[0, "hazard_available_count"] == 2
     assert actual.loc[1, "hazard_available_count"] == 0
+
+
+def test_add_hazard_features_can_join_by_coordinates() -> None:
+    properties = pd.DataFrame(
+        [
+            {
+                "lat": 35.681236,
+                "lon": 139.767125,
+                "transaction_year": 2024,
+            }
+        ]
+    )
+    hazards = pd.DataFrame(
+        [
+            {
+                "latitude": 35.6812361,
+                "longitude": 139.7671251,
+                "feature_year": 2024,
+                "hazard_overall_score": 55.0,
+                "hazard_available_count": 1,
+                "hazard_flood_risk_level": 3,
+            }
+        ]
+    )
+
+    actual = add_hazard_features(properties, hazards)
+
+    assert actual.loc[0, "hazard_overall_score"] == 55.0
+    assert actual.loc[0, "hazard_flood_risk_level"] == 3
