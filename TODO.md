@@ -137,18 +137,18 @@ P3 = 将来拡張または検証後に着手するもの
 
 ## P0 README強化
 
-* [ ] README上部を「タイトル、概要、公開デモ、メインスクリーンショット、特徴」の順に並べ替える
+* [x] README上部を「タイトル、概要、公開デモ、メインスクリーンショット、特徴」の順に並べ替える
 * [x] `docs/images/app-desktop.png` をPlaywrightで生成する
 * [x] `docs/images/app-prediction-result.png` をPlaywrightで生成する
 * [x] `docs/images/app-price-history.png` をPlaywrightで生成する
 * [x] `docs/images/app-mobile.png` をPlaywrightで生成する
-* [ ] READMEにメインスクリーンショットを追加する
-* [ ] READMEに価格予測結果、価格推移、スマートフォン表示の操作イメージを追加する
-* [ ] READMEにE2Eテスト実行方法を追加する
-* [ ] READMEにREADME用スクリーンショット生成方法を追加する
-* [ ] READMEの技術構成へPlaywrightを追加する
-* [ ] READMEの注意事項を末尾に整理する
-* [ ] README内の画像リンクがGitHub上で表示できることを確認する
+* [x] READMEにメインスクリーンショットを追加する
+* [x] READMEに価格予測結果、価格推移、スマートフォン表示の操作イメージを追加する
+* [x] READMEにE2Eテスト実行方法を追加する
+* [x] READMEにREADME用スクリーンショット生成方法を追加する
+* [x] READMEの技術構成へPlaywrightを追加する
+* [x] READMEの注意事項を末尾に整理する
+* [x] README内の画像リンクがGitHub上で表示できることを確認する
 
 ## P3 将来的な改善
 
