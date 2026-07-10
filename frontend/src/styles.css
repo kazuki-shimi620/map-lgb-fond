@@ -245,6 +245,50 @@ h2 {
   box-shadow: 0 8px 22px rgb(15 23 42 / 14%);
 }
 
+.hazard-layer-control {
+  position: absolute;
+  z-index: 520;
+  right: 12px;
+  bottom: 28px;
+  display: grid;
+  gap: 8px;
+  width: min(220px, calc(100% - 24px));
+  border: 1px solid #d9dee7;
+  border-radius: 8px;
+  background: rgb(255 255 255 / 94%);
+  padding: 10px;
+  color: #344054;
+  font-size: 12px;
+  box-shadow: 0 10px 26px rgb(15 23 42 / 16%);
+}
+
+.hazard-layer-control strong {
+  color: #172033;
+  font-size: 13px;
+}
+
+.hazard-layer-toggle {
+  display: flex;
+  min-height: 0;
+  align-items: center;
+  gap: 8px;
+  color: #344054;
+  font-size: 12px;
+}
+
+.hazard-layer-toggle input {
+  width: 16px;
+  min-height: 16px;
+  accent-color: #0f766e;
+}
+
+.hazard-layer-control a {
+  color: #0f766e;
+  font-size: 11px;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
 .form-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -769,6 +813,13 @@ dd {
     position: relative;
     height: 100%;
     overflow: hidden;
+  }
+
+  .hazard-layer-control {
+    right: 10px;
+    bottom: 82px;
+    width: min(190px, calc(100% - 20px));
+    padding: 8px;
   }
 
   .sheet-stack {

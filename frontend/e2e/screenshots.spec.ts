@@ -8,6 +8,11 @@ import { PredictionPage } from "./pages/prediction-page";
 
 const screenshotsDir = path.resolve(process.cwd(), "../docs/images");
 
+test.skip(
+  process.env.README_SCREENSHOTS !== "1",
+  "README用スクリーンショット生成コマンドでだけ実行する"
+);
+
 async function prepareReadmeView(page: PredictionPage) {
   await mockSuccessfulGeocoding(page.page);
   await page.goto();

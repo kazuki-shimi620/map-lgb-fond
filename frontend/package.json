@@ -12,7 +12,7 @@
     "test:e2e:headed": "playwright test --headed",
     "test:e2e:webkit": "playwright test --project=mobile-safari",
     "test:e2e:report": "playwright show-report",
-    "test:e2e:screenshots": "playwright test e2e/screenshots.spec.ts --project=chromium"
+    "test:e2e:screenshots": "README_SCREENSHOTS=1 playwright test e2e/screenshots.spec.ts --project=chromium"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.0",
