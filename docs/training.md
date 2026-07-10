@@ -856,12 +856,21 @@ parquet
 例
 
 ```text
-コンビニ件数
-
-スーパー件数
-
-最寄施設距離
+sc_count_within_1km
+sc_count_within_3km
+nearest_sc_distance_km
+nearest_sc_opened_years
+sc_store_area_sum_within_3km
+sc_tenant_count_sum_within_3km
 ```
+
+データソースは日本ショッピングセンター協会（JCSC）のオープンSC一覧表を利用する。
+
+取得・正規化仕様は `docs/commercial-facilities.md` に記載する。
+
+初期モデル投入時は、取引年以前に開業済みのSCだけを集計し、未来情報の混入を避ける。
+
+店舗面積、テナント数、ディベロッパー、キーテナントは分析用に保持し、欠損率・重要度・評価指標を確認して採否を判断する。
 
 ---
 

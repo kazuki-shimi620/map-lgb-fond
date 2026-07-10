@@ -619,21 +619,24 @@ MAEはモデルメタデータJSONから読み込む。
 
 # 21. 商業施設特徴量
 
-MVP対象外。
+MVP後の特徴量追加対象とする。
 
 追加時はFeatureProviderとして実装する。
 
 想定特徴量
 
 ```text
-コンビニ件数
-スーパー件数
-
-最寄コンビニ距離
-最寄スーパー距離
+sc_count_within_1km
+sc_count_within_3km
+nearest_sc_distance_km
+nearest_sc_opened_years
+sc_store_area_sum_within_3km
+sc_tenant_count_sum_within_3km
 ```
 
-データソースはCSVを利用する。
+データソースは日本ショッピングセンター協会（JCSC）のオープンSC一覧表を利用する。
+
+取得・正規化仕様は `docs/commercial-facilities.md` に記載する。
 
 必要に応じてSQLiteへ移行する。
 
