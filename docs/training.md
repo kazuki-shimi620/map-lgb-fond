@@ -28,23 +28,40 @@
 training/
 
 ├── configs/
+│   └── 地域別学習設定
+│
+├── browser/
+│   └── 公式画面CSVダウンロード用Playwrightスクリプト
+│
+├── scripts/
+│   └── 複数モデル学習や長時間更新のラッパー
 │
 ├── src/
 │
-│   ├── collect/
-│   ├── preprocess/
-│   ├── features/
-│   ├── train/
-│   ├── evaluate/
-│   ├── export/
-│   └── experiment/
+│   ├── collect/     外部データ取得・正規化
+│   ├── preprocess/  不動産CSV/ZIPの前処理
+│   ├── features/    FeatureProviderと外部特徴量結合
+│   ├── train/       LightGBM学習とONNX出力
+│   ├── evaluate/    バックテスト・比較・更新前後レポート
+│   ├── export/      frontend/public向け静的成果物生成
+│   └── experiment/  SQLite実験管理
 │
 ├── outputs/
+│   ├── models/
+│   ├── comparisons/
+│   └── reports/
 │
 ├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── cache/
 │
 └── db/
 ```
+
+`training/data`、`training/outputs`、`training/db` はローカル生成物を置く作業領域であり、原則Git管理しない。
+
+ブラウザ実行に必要な最新成果物だけを `frontend/public` へexportする。
 
 ---
 

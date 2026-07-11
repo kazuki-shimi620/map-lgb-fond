@@ -95,9 +95,11 @@ React + ONNX Runtime Web
 ## ディレクトリ構成
 
 ```text
-frontend/  React、TypeScript、Vite、Playwright
-training/  データ取得、前処理、学習、評価、ONNX出力
-docs/      要件定義、実装仕様、テスト仕様、画面画像
+frontend/          React、TypeScript、Vite、Playwright
+frontend/public/   ブラウザ配信用ONNX、メタデータ、駅マスタ、価格推移JSON
+training/          データ取得、前処理、学習、評価、ONNX出力
+training/browser/  公式画面CSVダウンロード用Playwrightスクリプト
+docs/              要件定義、実装仕様、テスト仕様、画面画像
 ```
 
 ## セットアップ

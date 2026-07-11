@@ -65,9 +65,12 @@ frontend/
 src/
 
 ├── features/
+│   ├── facilities/
+│   ├── hazard/
 │   ├── map/
+│   ├── model/
 │   ├── prediction/
-│   └── model/
+│   └── stations/
 │
 ├── components/
 │
@@ -85,11 +88,16 @@ public/
 │   ├── tokyo_latest.onnx
 │   ├── saitama_latest.onnx
 │   ├── chiba_latest.onnx
-│   └── kanagawa_latest.onnx
+│   ├── kanagawa_latest.onnx
+│   └── regional_*.onnx
 │
 ├── metadata/
 │
+├── facilities/
+│
 ├── histories/
+│
+├── hazards/
 │
 └── stations/
 ```

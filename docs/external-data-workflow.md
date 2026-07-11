@@ -1,4 +1,4 @@
-# external-data-workflow.md
+# 外部データ取得・成果物更新ワークフロー
 
 # 1. 目的
 
@@ -12,13 +12,24 @@
 
 | データ | 取得コマンド | 主な出力 |
 | --- | --- | --- |
-| 不動産取引CSV | `make download-csv-all` | `training/data/raw/` |
+| 不動産取引CSV | `make download-csv-all` | `training/data/raw/mlit_{prefecture}_{year}.zip` |
 | JCSCオープンSC一覧 | `make collect-sc-all` | `training/data/processed/jcsc/jcsc_sc_open.csv` |
 | 駅別乗降客数 | `make collect-station-passengers` | `training/data/processed/station_passengers/station_groups.csv` |
 | ハザード情報 | `make collect-hazards HAZARD_INPUT=...` | `training/data/processed/hazards/hazard_features.csv` |
 | 周辺施設候補 | 未実装 | `docs/surrounding-features.md` で候補管理 |
 
 ハザード情報は自治体APIやダウンロード済みJSON/CSVを入力にし、学習側で正規化する。ブラウザから外部APIを直接呼ばない。
+
+## データソース別の扱い
+
+| データ | 主入力 | 認証 | Git管理 | 備考 |
+| --- | --- | --- | --- | --- |
+| 不動産取引 | 公式画面CSV/ZIP | 不要 | raw/processedは管理しない | 最寄駅名と駅徒歩分を使うためAPIではなくCSV/ZIPを主入力にする |
+| 駅別乗降客数 | XKT015 API | `REINFOLIB_API_KEY` | raw/processedは管理しない | 学習特徴量と駅マスタJSONの駅規模表示に利用する |
+| JCSCオープンSC一覧 | JCSC公開ページ | 不要 | raw/processedは管理しない | `frontend/public/facilities` には市区町村/都道府県集計だけを配布する |
+| ハザード | 入力JSON/CSVまたは公開データ | 入力元に依存 | raw/processedは管理しない | まずモデル特徴量CSVとして扱い、ブラウザから外部APIを直接呼ばない |
+
+`training/data` と `training/outputs` は再生成可能な作業領域として扱う。Git管理するのは、ブラウザ実行に必要な `frontend/public` 配下の静的成果物だけに限定する。
 
 ---
 
