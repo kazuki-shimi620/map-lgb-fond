@@ -41,6 +41,15 @@ P3 = 将来拡張または検証後に着手するもの
 
 * [ ] 商業施設特徴量をハザード特徴量と組み合わせる比較時に再評価する
 
+### P1 現行仕様に合わせたコード整理
+
+* [ ] `Makefile` の `collect` / `collect-all` を不動産価格API取得ではなく legacy 検証用へ退避、または削除する
+* [ ] `Makefile` のhelpから不動産価格API取得の案内を消し、公式画面CSV取得だけを主経路として表示する
+* [ ] `training/src/collect/mlit.py` の `REINFOLIB_API_KEY_ENV` を駅別乗降客数などの共通定数へ移し、駅規模取得が不動産価格API実装に依存しないようにする
+* [ ] `training/src/collect/collect.py` と `training/src/collect/mlit.py` を削除するか、`legacy` 配下へ移して通常導線から外す
+* [ ] `training/tests/test_collect_mlit.py` を削除または legacy 検証用へ移し、通常テストの主対象から外す
+* [ ] `model-update-background` の多重起動を検出し、SQLite `database is locked` を起こす前に分かりやすく終了する
+
 ### P2 追加特徴量の比較候補
 
 * [ ] 公示地価/基準地価を取得し、地価水準と地価変化率を比較する
@@ -52,8 +61,6 @@ P3 = 将来拡張または検証後に着手するもの
 ## P3 将来的な改善
 
 * [x] GitHub Actionsの手動実行から成果物更新PRを作る仕組みの検討
-* [ ] モデル更新完了後に、不動産価格API取得用の `make collect` / `make collect-all` / `training/src/collect/collect.py` / `training/src/collect/mlit.py` を廃止または検証用へ隔離する
-* [ ] モデル更新完了後に、`REINFOLIB_API_KEY` の説明を駅別乗降客数・ハザードなど必要な収集処理に限定し、不動産取引CSV取得の説明から外す
 * [ ] データ量を増やす、県と年度
 * [ ] 大型公園特徴量の取得・比較
 * [ ] 病院特徴量の取得・比較
