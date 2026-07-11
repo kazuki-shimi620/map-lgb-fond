@@ -10,10 +10,13 @@ import {
 import { PriceHistoryChart } from "./features/prediction/PriceHistoryChart";
 import {
   PredictionForm,
-  PredictionSheetHandle,
-  PredictionYearControl
+  PredictionSheetHandle
 } from "./features/prediction/PredictionForm";
-import { PredictionResultView } from "./features/prediction/PredictionResultView";
+import {
+  PredictionDetailsPanel,
+  PredictionResultView,
+  type PredictionSummary
+} from "./features/prediction/PredictionResultView";
 import { buildStationScaleRequestFields } from "./features/stations/stationScale";
 import { reverseGeocode } from "./services/geocodingService";
 import { distanceKmToWalkingMinutes, findNearestStation, loadStations } from "./services/stationService";
@@ -430,6 +433,20 @@ export function App() {
     form.station,
     form.predictionYear
   );
+  const predictionSummary: PredictionSummary | undefined = region
+    ? {
+        station: form.station,
+        stationDistance: Math.round(form.stationDistance),
+        modelRegion: getPrefectureLabel(region),
+        latestTrainingYear: metadata?.latestTrainingYear ?? null,
+        trainStartYear: metadata?.deployment?.trainStartYear ?? metadata?.evaluation?.trainStartYear ?? null,
+        evaluationMae: metadata?.evaluation?.metrics.mae ?? metadata?.mae ?? null,
+        evaluationRmse: metadata?.evaluation?.metrics.rmse ?? null,
+        trainCount: metadata?.deployment?.trainCount ?? metadata?.evaluation?.trainCount ?? null,
+        generatedAt: metadata?.generatedAt ?? null,
+        featureImportance: metadata?.featureImportance ?? []
+      }
+    : undefined;
 
   return (
     <main className="app-shell">
@@ -470,34 +487,7 @@ export function App() {
             sheetState={formSheetState}
             predictionYearRange={predictionYearRange}
           />
-          <PredictionResultView
-            result={result}
-            summary={
-              region
-                ? {
-                    station: form.station,
-                    stationDistance: Math.round(form.stationDistance),
-                    modelRegion: getPrefectureLabel(region),
-                    latestTrainingYear: metadata?.latestTrainingYear ?? null,
-                    trainStartYear: metadata?.deployment?.trainStartYear ?? metadata?.evaluation?.trainStartYear ?? null,
-                    evaluationMae: metadata?.evaluation?.metrics.mae ?? metadata?.mae ?? null,
-                    evaluationRmse: metadata?.evaluation?.metrics.rmse ?? null,
-                    trainCount: metadata?.deployment?.trainCount ?? metadata?.evaluation?.trainCount ?? null,
-                    generatedAt: metadata?.generatedAt ?? null,
-                    featureImportance: metadata?.featureImportance ?? []
-                  }
-                : undefined
-            }
-          />
-          <HazardRiskCard latitude={form.lat} longitude={form.lon} />
-          <section className="panel prediction-year-panel" aria-label="予測年シミュレーション">
-            <PredictionYearControl
-              className="desktop-prediction-year"
-              value={form.predictionYear}
-              onChange={(predictionYear) => handleFormChange({ ...form, predictionYear })}
-              predictionYearRange={predictionYearRange}
-            />
-          </section>
+          <PredictionResultView result={result} />
           <PriceHistoryChart
             points={chartPoints}
             hasHistory={history.length > 0}
@@ -506,6 +496,8 @@ export function App() {
             onLoadArchive={loadArchiveHistory}
             onCloseArchive={closeArchiveHistory}
           />
+          <HazardRiskCard latitude={form.lat} longitude={form.lon} />
+          <PredictionDetailsPanel summary={predictionSummary} />
         </div>
       </div>
     </main>

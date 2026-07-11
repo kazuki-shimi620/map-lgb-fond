@@ -19,6 +19,30 @@ test.describe("レスポンシブ表示", () => {
     await expect(page.getByTestId("prediction-form")).toBeVisible();
     await expect(page.getByTestId("prediction-result")).toBeVisible();
     await expect(page.getByTestId("price-history-chart")).toBeVisible();
+    await expect(page.getByTestId("hazard-risk-card")).toBeVisible();
+    await expect(page.getByTestId("model-detail-panel")).toBeVisible();
+
+    const panelOrder = await page.evaluate(() => {
+      const ids = [
+        "property-map",
+        "prediction-form",
+        "prediction-result",
+        "price-history-chart",
+        "hazard-risk-card",
+        "model-detail-panel"
+      ];
+      return ids.map((id) => document.querySelector(`[data-testid="${id}"]`)).every(Boolean)
+        ? ids.every((id, index) => {
+            if (index === 0) {
+              return true;
+            }
+            const previous = document.querySelector(`[data-testid="${ids[index - 1]}"]`);
+            const current = document.querySelector(`[data-testid="${id}"]`);
+            return Boolean(previous?.compareDocumentPosition(current!) & Node.DOCUMENT_POSITION_FOLLOWING);
+          })
+        : false;
+    });
+    expect(panelOrder).toBe(true);
 
     const hasHorizontalOverflow = await page.evaluate(
       () => document.documentElement.scrollWidth > document.documentElement.clientWidth

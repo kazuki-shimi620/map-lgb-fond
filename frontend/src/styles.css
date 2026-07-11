@@ -325,7 +325,7 @@ label,
 }
 
 .form-prediction-year {
-  display: none;
+  display: grid;
 }
 
 .prediction-year-panel {
@@ -590,6 +590,10 @@ select {
   color: #344054;
   cursor: pointer;
   font-weight: 700;
+}
+
+.model-detail-panel .detail-toggle {
+  margin-top: 0;
 }
 
 .detail-toggle:hover {
@@ -979,10 +983,6 @@ dd {
       max-height 320ms ease,
       margin-top 320ms ease,
       transform 320ms ease;
-  }
-
-  .form-prediction-year {
-    display: grid;
   }
 
   .sheet-header {

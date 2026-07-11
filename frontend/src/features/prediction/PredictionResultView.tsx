@@ -3,21 +3,22 @@ import type { PredictionResult } from "../../types/prediction";
 
 type Props = {
   result: PredictionResult | null;
-  summary?: {
-    station: string;
-    stationDistance: number;
-    modelRegion: string;
-    latestTrainingYear: number | null;
-    trainStartYear: number | null;
-    evaluationMae: number | null;
-    evaluationRmse: number | null;
-    trainCount: number | null;
-    generatedAt: string | null;
-    featureImportance: Array<{
-      feature: string;
-      importance: number;
-    }>;
-  };
+};
+
+export type PredictionSummary = {
+  station: string;
+  stationDistance: number;
+  modelRegion: string;
+  latestTrainingYear: number | null;
+  trainStartYear: number | null;
+  evaluationMae: number | null;
+  evaluationRmse: number | null;
+  trainCount: number | null;
+  generatedAt: string | null;
+  featureImportance: Array<{
+    feature: string;
+    importance: number;
+  }>;
 };
 
 const FEATURE_LABELS: Record<string, string> = {
@@ -55,9 +56,7 @@ function formatDate(value: string | null): string {
   }).format(date);
 }
 
-export function PredictionResultView({ result, summary }: Props) {
-  const [isDetailOpen, setIsDetailOpen] = useState(false);
-
+export function PredictionResultView({ result }: Props) {
   if (!result) {
     return (
       <section className="panel result-panel" data-testid="prediction-result">
@@ -94,83 +93,92 @@ export function PredictionResultView({ result, summary }: Props) {
           </dd>
         </div>
       </dl>
-      {summary ? (
-        <>
-          <button
-            type="button"
-            className="detail-toggle"
-            aria-expanded={isDetailOpen}
-            onClick={() => setIsDetailOpen((current) => !current)}
-          >
-            {isDetailOpen ? "詳細を閉じる" : "条件・モデル詳細を表示"}
-          </button>
-          <div className={`result-detail ${isDetailOpen ? "is-open" : ""}`} aria-hidden={!isDetailOpen}>
-            <section className="detail-section">
-              <h3>条件</h3>
-              <dl className="detail-grid">
-                <div>
-                  <dt>最寄駅</dt>
-                  <dd>{summary.station}</dd>
-                </div>
-                <div>
-                  <dt>駅徒歩</dt>
-                  <dd>{summary.stationDistance}分</dd>
-                </div>
-                <div>
-                  <dt>対応地域</dt>
-                  <dd>{summary.modelRegion}</dd>
-                </div>
-              </dl>
-            </section>
-            <section className="detail-section">
-              <h3>モデル評価</h3>
-              <dl className="detail-grid">
-                <div className="detail-wide">
-                  <dt>学習データ</dt>
-                  <dd>
-                    {summary.modelRegion}中古マンション取引データ
-                    <span className="summary-note">
-                      ({summary.trainStartYear ?? "-"}-{summary.latestTrainingYear ?? "-"})
-                    </span>
-                  </dd>
-                </div>
-                <div>
-                  <dt>最終学習日</dt>
-                  <dd>{formatDate(summary.generatedAt)}</dd>
-                </div>
-                <div>
-                  <dt>MAE</dt>
-                  <dd>{summary.evaluationMae !== null ? formatManYen(summary.evaluationMae) : "-"}</dd>
-                </div>
-                <div>
-                  <dt>RMSE</dt>
-                  <dd>{summary.evaluationRmse !== null ? formatManYen(summary.evaluationRmse) : "-"}</dd>
-                </div>
-                <div>
-                  <dt>学習件数</dt>
-                  <dd>{summary.trainCount !== null ? `${summary.trainCount.toLocaleString("ja-JP")}件` : "-"}</dd>
-                </div>
-              </dl>
-            </section>
-            {summary.featureImportance.length > 0 ? (
-              <section className="detail-section importance-panel" aria-label="特徴量重要度">
-                <h3>特徴量重要度</h3>
-                <ol>
-                  {summary.featureImportance.slice(0, 5).map((item) => (
-                    <li key={item.feature}>
-                      <span>{FEATURE_LABELS[item.feature] ?? item.feature}</span>
-                      <meter min="0" max={summary.featureImportance[0].importance || 1} value={item.importance} />
-                    </li>
-                  ))}
-                </ol>
-              </section>
-            ) : null}
-          </div>
-        </>
-      ) : null}
       <p className="result-disclaimer">
         予測価格は公開取引データに基づく参考値です。実際の査定額や成約価格を保証するものではありません。
       </p>
+    </section>
+  );
+}
+
+export function PredictionDetailsPanel({ summary }: { summary?: PredictionSummary }) {
+  const [isDetailOpen, setIsDetailOpen] = useState(false);
+
+  if (!summary) {
+    return null;
+  }
+
+  return (
+    <section className="panel model-detail-panel" aria-label="条件・モデル詳細" data-testid="model-detail-panel">
+      <button
+        type="button"
+        className="detail-toggle"
+        aria-expanded={isDetailOpen}
+        onClick={() => setIsDetailOpen((current) => !current)}
+      >
+        {isDetailOpen ? "条件・モデル詳細を閉じる" : "条件・モデル詳細を表示"}
+      </button>
+      <div className={`result-detail ${isDetailOpen ? "is-open" : ""}`} aria-hidden={!isDetailOpen}>
+        <section className="detail-section">
+          <h3>条件</h3>
+          <dl className="detail-grid">
+            <div>
+              <dt>最寄駅</dt>
+              <dd>{summary.station}</dd>
+            </div>
+            <div>
+              <dt>駅徒歩</dt>
+              <dd>{summary.stationDistance}分</dd>
+            </div>
+            <div>
+              <dt>対応地域</dt>
+              <dd>{summary.modelRegion}</dd>
+            </div>
+          </dl>
+        </section>
+        <section className="detail-section">
+          <h3>モデル評価</h3>
+          <dl className="detail-grid">
+            <div className="detail-wide">
+              <dt>学習データ</dt>
+              <dd>
+                {summary.modelRegion}中古マンション取引データ
+                <span className="summary-note">
+                  ({summary.trainStartYear ?? "-"}-{summary.latestTrainingYear ?? "-"})
+                </span>
+              </dd>
+            </div>
+            <div>
+              <dt>最終学習日</dt>
+              <dd>{formatDate(summary.generatedAt)}</dd>
+            </div>
+            <div>
+              <dt>MAE</dt>
+              <dd>{summary.evaluationMae !== null ? formatManYen(summary.evaluationMae) : "-"}</dd>
+            </div>
+            <div>
+              <dt>RMSE</dt>
+              <dd>{summary.evaluationRmse !== null ? formatManYen(summary.evaluationRmse) : "-"}</dd>
+            </div>
+            <div>
+              <dt>学習件数</dt>
+              <dd>{summary.trainCount !== null ? `${summary.trainCount.toLocaleString("ja-JP")}件` : "-"}</dd>
+            </div>
+          </dl>
+        </section>
+        {summary.featureImportance.length > 0 ? (
+          <section className="detail-section importance-panel" aria-label="特徴量重要度">
+            <h3>特徴量重要度</h3>
+            <ol>
+              {summary.featureImportance.slice(0, 5).map((item) => (
+                <li key={item.feature}>
+                  <span>{FEATURE_LABELS[item.feature] ?? item.feature}</span>
+                  <meter min="0" max={summary.featureImportance[0].importance || 1} value={item.importance} />
+                </li>
+              ))}
+            </ol>
+          </section>
+        ) : null}
+      </div>
     </section>
   );
 }
