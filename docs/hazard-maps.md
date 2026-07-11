@@ -175,55 +175,7 @@ APIで地点属性を直接取得できない場合は、国土数値情報を�
 
 ---
 
-# 5. 内部API
-
-## 5.1 地点ハザード評価API
-
-```http
-GET /api/v1/hazards/assessment
-```
-
-Query:
-
-| パラメータ | 型 | 必須 | 内容 |
-| --- | --- | ---: | --- |
-| `lat` | number | ○ | 緯度 |
-| `lng` | number | ○ | 経度 |
-| `radius` | number | - | 周辺検索半径m |
-| `types` | string | - | カンマ区切りのハザード種別 |
-| `detail` | boolean | - | 詳細情報を返すか |
-| `version` | string | - | 評価ロジックバージョン |
-
-Response概要:
-
-```json
-{
-  "location": {
-    "latitude": 35.681236,
-    "longitude": 139.767125,
-    "meshCode": "53394611",
-    "h3Index": "892f5a37583ffff"
-  },
-  "assessment": {
-    "score": 72,
-    "grade": "B",
-    "level": "moderate",
-    "label": "一部の災害リスクに注意",
-    "confidence": "medium",
-    "evaluatedHazardCount": 4,
-    "availableHazardCount": 4
-  },
-  "hazards": {},
-  "metadata": {
-    "scoringVersion": "1.0.0",
-    "dataSource": ["MLIT_REAL_ESTATE_INFORMATION_LIBRARY", "GSI_HAZARD_MAP_PORTAL"],
-    "evaluatedAt": "2026-07-10T02:00:00Z",
-    "disclaimer": "本結果は公開データを機械的に整理した参考情報です。正式な判断には自治体等の最新ハザードマップをご確認ください。"
-  }
-}
-```
-
-## 5.2 地図レイヤー定義
+# 5. 地図レイヤー定義
 
 レイヤーURLはコードへ分散して書かず、定義ファイルで一元管理する。
 

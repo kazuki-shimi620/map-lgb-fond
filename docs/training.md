@@ -131,49 +131,13 @@ make train-all PUBLISH_POLICY=latest
 https://www.reinfolib.mlit.go.jp/realEstatePrices/
 ```
 
-不動産情報ライブラリの不動産価格（取引価格・成約価格）情報取得APIを利用する。
-
-APIキーは環境変数で管理する。
-
-```text
-REINFOLIB_API_KEY
-```
-
-ローカルでは `training/.env.example` を `training/.env` にコピーして設定する。`training/.env` は
-Git管理しない。collect CLIはこのファイルを自動で読み込むため、APIキーをコマンドライン引数へ
-直接記載しない。
-
-MVPでは価格情報区分を不動産取引価格情報のみにする。
-
-```text
-priceClassification=01
-```
-
-APIはブラウザから直接呼び出さず、training側のcollect処理で利用する。
-
-単一地域・単一年の取得:
-
-```bash
-make collect REGION=tokyo YEAR=2025
-```
-
-対象4地域・2005〜2025年の一括取得:
-
-```bash
-make collect-all
-```
-
-APIキー未設定、HTTPエラー、不正なJSON、`status != OK` はエラー終了とする。
-
-XIT001のJSONには最寄駅名と駅徒歩分が含まれない。現行モデルは両項目を特徴量と価格推移の集計に
-使用しているため、同等情報を持つCSV/ZIP経路は削除しない。APIレスポンスの `DistrictName` を
-駅名として代用せず、APIデータだけで前処理条件を満たせない場合は明示的にエラー終了する。
-したがって現時点のAPI取得はraw JSONの保存とAPI連携確認までを責務とし、現行モデルの再学習には
-最寄駅名・駅徒歩分を含むCSV/ZIPを使用する。
-
 CSV/ZIPは公式ダウンロード画面をPlaywrightで操作して取得する。内部APIを直接呼び出さず、
 Chrome上で都道府県、期間、中古マンション等、取引価格情報、成約価格情報を選択して
 ダウンロードボタンを実行する。
+
+現行モデルは最寄駅名と駅徒歩分を特徴量と価格推移集計に使用する。XIT001などの不動産価格API
+レスポンスだけではこの2項目が揃わないため、地区名などで代用せず、学習用の不動産取引データは
+CSV/ZIPを主入力にする。
 
 ```bash
 make setup-csv-download
@@ -182,7 +146,8 @@ make download-csv-all
 ```
 
 全国取得ではアクセス回数を抑えるため、都道府県ごとに全期間を1回取得し、ローカルで年別ZIPへ
-分割する。正常な既存ZIPは再取得せず、各ファイルの完了状況を `TODO.md` に同期する。
+分割する。正常な既存ZIPは再取得しない。CSV取得状況を確認したい場合だけ、`make csv-checklist`
+で `TODO.md` のチェックリストを明示的に再生成する。
 
 ---
 

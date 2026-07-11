@@ -177,19 +177,12 @@ export
 https://www.reinfolib.mlit.go.jp/realEstatePrices/
 ```
 
-不動産情報ライブラリAPIを利用する。
-
-APIキーは `REINFOLIB_API_KEY` 環境変数から読み込む。
-
-ローカル実行ではGit管理外の `training/.env` も自動で読み込む。APIキーはコマンドライン引数では
-受け取らず、未設定やAPIエラーを正常終了として扱わない。
-
-XIT001レスポンスは中古マンション等に絞って前処理する。ただし同APIには最寄駅名と駅徒歩分が
-含まれないため、地区名などで代用しない。現行特徴量を維持する間はCSV/ZIP入力も残す。
-
 CSVの自動取得は `training/browser/download.mjs` が公式画面をChromeで操作し、
 `training/src/collect/download_csv.py` が都道府県単位のZIPを年別ZIPへ分割する。内部APIを
-直接利用せず、既存ZIPの検証、中断後の再開、`TODO.md` のチェックリスト同期を行う。
+直接利用せず、既存ZIPの検証と中断後の再開を行う。
+
+現行モデルは最寄駅名と駅徒歩分を使うため、この2項目を持つCSV/ZIPを学習用の不動産取引データの
+主入力にする。不動産価格APIだけでは同等情報を揃えられないため、地区名などで代用しない。
 
 ブラウザからAPIを直接呼ばない。
 

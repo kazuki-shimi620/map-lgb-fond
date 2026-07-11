@@ -151,15 +151,13 @@ CI/CDの詳細は [docs/cicd.md](docs/cicd.md) を参照してください。
 ```bash
 make setup-training
 make init-db
-cp training/.env.example training/.env
-make collect REGION=tokyo YEAR=2025
+make setup-csv-download
+make download-csv CSV_PREFECTURES=tokyo CSV_FROM_YEAR=2025 CSV_TO_YEAR=2025
 make preprocess-zip REGION=tokyo
 make train REGION=tokyo
 ```
 
-国土交通省の不動産情報ライブラリからデータを取得します。
-
-APIキーは `training/.env` の `REINFOLIB_API_KEY` に設定します。実際のAPIキーをコードやコマンドラインへ直接記載しません。
+国土交通省の不動産情報ライブラリ公式画面から、中古マンションCSVを取得します。現行モデルで使う最寄駅名と駅徒歩分はAPIレスポンスだけでは揃わないため、学習用の不動産取引データはCSV/ZIPを主入力にします。
 
 商業施設、駅別乗降客数、ハザード情報などの外部特徴量を含む更新手順は [docs/external-data-workflow.md](docs/external-data-workflow.md) を参照してください。
 

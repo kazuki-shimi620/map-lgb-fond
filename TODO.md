@@ -52,6 +52,8 @@ P3 = 将来拡張または検証後に着手するもの
 ## P3 将来的な改善
 
 * [x] GitHub Actionsの手動実行から成果物更新PRを作る仕組みの検討
+* [ ] モデル更新完了後に、不動産価格API取得用の `make collect` / `make collect-all` / `training/src/collect/collect.py` / `training/src/collect/mlit.py` を廃止または検証用へ隔離する
+* [ ] モデル更新完了後に、`REINFOLIB_API_KEY` の説明を駅別乗降客数・ハザードなど必要な収集処理に限定し、不動産取引CSV取得の説明から外す
 * [ ] データ量を増やす、県と年度
 * [ ] 大型公園特徴量の取得・比較
 * [ ] 病院特徴量の取得・比較
@@ -65,7 +67,7 @@ P3 = 将来拡張または検証後に着手するもの
 理想フロー:
 
 ```text
-ローカルまたは手動workflowでAPI取得
+ローカルまたは手動workflowでデータ取得
 ↓
 前処理
 ↓
