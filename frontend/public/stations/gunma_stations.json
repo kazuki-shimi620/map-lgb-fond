@@ -21,7 +21,11 @@
     "prefecture": "群馬県",
     "line_name": "東武桐生線",
     "lat": 36.313369,
-    "lon": 139.354938
+    "lon": 139.354938,
+    "station_passenger_log": 6.459904454377535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0080",
@@ -29,7 +33,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.253053,
-    "lon": 138.863924
+    "lon": 138.863924,
+    "station_passenger_log": 5.030437921392435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0079",
@@ -37,7 +45,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.258666,
-    "lon": 138.874536
+    "lon": 138.874536,
+    "station_passenger_log": 5.5254529391317835,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0077",
@@ -45,7 +57,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.26046,
-    "lon": 138.891851
+    "lon": 138.891851,
+    "station_passenger_log": 6.0112671744041615,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0074",
@@ -53,7 +69,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.256036,
-    "lon": 138.951776
+    "lon": 138.951776,
+    "station_passenger_log": 4.955827057601261,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0075",
@@ -61,7 +81,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.256408,
-    "lon": 138.92944
+    "lon": 138.92944,
+    "station_passenger_log": 5.568344503761097,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0108",
@@ -101,7 +125,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.210484,
-    "lon": 138.786681
+    "lon": 138.786681,
+    "station_passenger_log": 5.153291594497779,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0052",
@@ -117,7 +145,11 @@
     "prefecture": "群馬県",
     "line_name": "東武伊勢崎線",
     "lat": 36.272931,
-    "lon": 139.282038
+    "lon": 139.282038,
+    "station_passenger_log": 6.1070228877422545,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0039",
@@ -173,7 +205,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.302389,
-    "lon": 139.018139
+    "lon": 139.018139,
+    "station_passenger_log": 4.9344739331306915,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0033",
@@ -181,7 +217,11 @@
     "prefecture": "群馬県",
     "line_name": "JR八高線",
     "lat": 36.300216,
-    "lon": 139.049474
+    "lon": 139.049474,
+    "station_passenger_log": 8.185628891147607,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0006",
@@ -213,7 +253,11 @@
     "prefecture": "群馬県",
     "line_name": "東武伊勢崎線",
     "lat": 36.295428,
-    "lon": 139.223792
+    "lon": 139.223792,
+    "station_passenger_log": 7.352441100243583,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0095",
@@ -229,7 +273,11 @@
     "prefecture": "群馬県",
     "line_name": "JR八高線",
     "lat": 36.282469,
-    "lon": 139.080779
+    "lon": 139.080779,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0024",
@@ -245,7 +293,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.230021,
-    "lon": 138.798543
+    "lon": 138.798543,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0082",
@@ -253,7 +305,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.23826,
-    "lon": 138.813838
+    "lon": 138.813838,
+    "station_passenger_log": 4.356708826689592,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0065",
@@ -261,7 +317,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.31247,
-    "lon": 139.012315
+    "lon": 139.012315,
+    "station_passenger_log": 4.060443010546419,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0072",
@@ -269,7 +329,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.256036,
-    "lon": 138.984418
+    "lon": 138.984418,
+    "station_passenger_log": 5.75890177387728,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0021",
@@ -301,7 +365,11 @@
     "prefecture": "群馬県",
     "line_name": "東武伊勢崎線",
     "lat": 36.277191,
-    "lon": 139.256177
+    "lon": 139.256177,
+    "station_passenger_log": 7.232733136177615,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0112",
@@ -309,7 +377,11 @@
     "prefecture": "群馬県",
     "line_name": "東武伊勢崎線",
     "lat": 36.273732,
-    "lon": 139.500179
+    "lon": 139.500179,
+    "station_passenger_log": 6.253828811575473,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0050",
@@ -389,7 +461,11 @@
     "prefecture": "群馬県",
     "line_name": "東武小泉線",
     "lat": 36.261562,
-    "lon": 139.42021
+    "lon": 139.42021,
+    "station_passenger_log": 5.849324779946859,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0036",
@@ -413,7 +489,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.277587,
-    "lon": 139.038098
+    "lon": 139.038098,
+    "station_passenger_log": 4.852030263919617,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0022",
@@ -445,7 +525,11 @@
     "prefecture": "群馬県",
     "line_name": "東武伊勢崎線",
     "lat": 36.208778,
-    "lon": 139.52652
+    "lon": 139.52652,
+    "station_passenger_log": 7.8504931808711405,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0044",
@@ -485,7 +569,11 @@
     "prefecture": "群馬県",
     "line_name": "東武小泉線",
     "lat": 36.249171,
-    "lon": 139.505682
+    "lon": 139.505682,
+    "station_passenger_log": 6.502790045915623,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0008",
@@ -557,7 +645,11 @@
     "prefecture": "群馬県",
     "line_name": "東武伊勢崎線",
     "lat": 36.271393,
-    "lon": 139.312988
+    "lon": 139.312988,
+    "station_passenger_log": 7.717796211013582,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0124",
@@ -565,7 +657,11 @@
     "prefecture": "群馬県",
     "line_name": "東武小泉線",
     "lat": 36.25843,
-    "lon": 139.469546
+    "lon": 139.469546,
+    "station_passenger_log": 6.77078942390898,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0057",
@@ -581,7 +677,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.260816,
-    "lon": 138.901898
+    "lon": 138.901898,
+    "station_passenger_log": 5.356586274672012,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0126",
@@ -589,7 +689,11 @@
     "prefecture": "群馬県",
     "line_name": "東武小泉線",
     "lat": 36.259696,
-    "lon": 139.428456
+    "lon": 139.428456,
+    "station_passenger_log": 7.10085190894405,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0101",
@@ -605,7 +709,11 @@
     "prefecture": "群馬県",
     "line_name": "JR信越本線",
     "lat": 36.309151,
-    "lon": 138.797705
+    "lon": 138.797705,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0130",
@@ -613,7 +721,11 @@
     "prefecture": "群馬県",
     "line_name": "東武日光線",
     "lat": 36.222404,
-    "lon": 139.648493
+    "lon": 139.648493,
+    "station_passenger_log": 8.133000218583613,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0067",
@@ -621,7 +733,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.291114,
-    "lon": 139.019177
+    "lon": 139.019177,
+    "station_passenger_log": 4.836281906951478,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0023",
@@ -725,7 +841,11 @@
     "prefecture": "群馬県",
     "line_name": "東武佐野線",
     "lat": 36.261807,
-    "lon": 139.537515
+    "lon": 139.537515,
+    "station_passenger_log": 5.720311776607412,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0015",
@@ -765,7 +885,11 @@
     "prefecture": "群馬県",
     "line_name": "JR信越本線",
     "lat": 36.298397,
-    "lon": 138.84965
+    "lon": 138.84965,
+    "station_passenger_log": 7.556427969440253,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0035",
@@ -789,7 +913,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.242629,
-    "lon": 138.843835
+    "lon": 138.843835,
+    "station_passenger_log": 4.204692619390966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0129",
@@ -797,7 +925,11 @@
     "prefecture": "群馬県",
     "line_name": "東武小泉線",
     "lat": 36.278894,
-    "lon": 139.409002
+    "lon": 139.409002,
+    "station_passenger_log": 6.327936783729195,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0125",
@@ -805,7 +937,11 @@
     "prefecture": "群馬県",
     "line_name": "東武小泉線",
     "lat": 36.256788,
-    "lon": 139.446077
+    "lon": 139.446077,
+    "station_passenger_log": 5.3612921657094255,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0097",
@@ -861,7 +997,11 @@
     "prefecture": "群馬県",
     "line_name": "JR八高線",
     "lat": 36.250336,
-    "lon": 139.08338
+    "lon": 139.08338,
+    "station_passenger_log": 7.674617497364363,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0047",
@@ -893,7 +1033,11 @@
     "prefecture": "群馬県",
     "line_name": "東武伊勢崎線",
     "lat": 36.226331,
-    "lon": 139.527058
+    "lon": 139.527058,
+    "station_passenger_log": 7.252762418053187,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0133",
@@ -917,7 +1061,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.255753,
-    "lon": 138.965914
+    "lon": 138.965914,
+    "station_passenger_log": 4.912654885736052,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0078",
@@ -925,7 +1073,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.260182,
-    "lon": 138.882786
+    "lon": 138.882786,
+    "station_passenger_log": 4.852030263919617,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0128",
@@ -933,7 +1085,11 @@
     "prefecture": "群馬県",
     "line_name": "東武小泉線",
     "lat": 36.258712,
-    "lon": 139.408525
+    "lon": 139.408525,
+    "station_passenger_log": 7.091742115095153,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0070",
@@ -941,7 +1097,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.270841,
-    "lon": 139.032046
+    "lon": 139.032046,
+    "station_passenger_log": 4.762173934797756,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0029",
@@ -1021,7 +1181,11 @@
     "prefecture": "群馬県",
     "line_name": "東武伊勢崎線",
     "lat": 36.307913,
-    "lon": 139.401704
+    "lon": 139.401704,
+    "station_passenger_log": 7.62608275807238,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0111",
@@ -1029,7 +1193,11 @@
     "prefecture": "群馬県",
     "line_name": "東武伊勢崎線",
     "lat": 36.246606,
-    "lon": 139.527811
+    "lon": 139.527811,
+    "station_passenger_log": 9.189116735524555,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "gunma_0071",
@@ -1037,7 +1205,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.261428,
-    "lon": 139.009321
+    "lon": 139.009321,
+    "station_passenger_log": 5.823045895483019,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0019",
@@ -1061,7 +1233,11 @@
     "prefecture": "群馬県",
     "line_name": "上信電鉄上信線",
     "lat": 36.284295,
-    "lon": 139.029654
+    "lon": 139.029654,
+    "station_passenger_log": 5.308267697401205,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "gunma_0002",

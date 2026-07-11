@@ -205,7 +205,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.069838,
-    "lon": 136.451611
+    "lon": 136.451611,
+    "station_passenger_log": 5.8944028342648505,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0082",
@@ -645,7 +649,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.212358,
-    "lon": 136.202333
+    "lon": 136.202333,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0089",

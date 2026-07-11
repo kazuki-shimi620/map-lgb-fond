@@ -453,7 +453,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.012203,
-    "lon": 136.219457
+    "lon": 136.219457,
+    "station_passenger_log": 10.710253554880849,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "shiga_0118",

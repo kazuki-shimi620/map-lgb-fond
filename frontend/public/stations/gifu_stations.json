@@ -149,7 +149,11 @@
     "prefecture": "岐阜県",
     "line_name": "長良川鉄道越美南線",
     "lat": 35.620186,
-    "lon": 136.944966
+    "lon": 136.944966,
+    "station_passenger_log": 8.715880102296456,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "gifu_0070",
@@ -397,7 +401,11 @@
     "prefecture": "岐阜県",
     "line_name": "長良川鉄道越美南線",
     "lat": 35.868426,
-    "lon": 136.859039
+    "lon": 136.859039,
+    "station_passenger_log": 10.331105465285424,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "gifu_0170",
@@ -453,7 +461,11 @@
     "prefecture": "岐阜県",
     "line_name": "長良川鉄道越美南線",
     "lat": 35.789003,
-    "lon": 136.911709
+    "lon": 136.911709,
+    "station_passenger_log": 8.517793011488205,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "gifu_0079",
@@ -1429,7 +1441,11 @@
     "prefecture": "岐阜県",
     "line_name": "樽見鉄道樽見",
     "lat": 35.601806,
-    "lon": 136.625819
+    "lon": 136.625819,
+    "station_passenger_log": 10.815991122155705,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "gifu_0050",

@@ -173,7 +173,11 @@
     "prefecture": "香川県",
     "line_name": "高松琴平電鉄志度線",
     "lat": 34.32641,
-    "lon": 134.163654
+    "lon": 134.163654,
+    "station_passenger_log": 8.262558973010657,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagawa_0058",
@@ -245,7 +249,11 @@
     "prefecture": "香川県",
     "line_name": "高松琴平電鉄志度線",
     "lat": 34.337333,
-    "lon": 134.141354
+    "lon": 134.141354,
+    "station_passenger_log": 7.434847875211999,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagawa_0087",
@@ -557,7 +565,11 @@
     "prefecture": "香川県",
     "line_name": "高松琴平電鉄長尾線",
     "lat": 34.266707,
-    "lon": 134.150461
+    "lon": 134.150461,
+    "station_passenger_log": 10.723905946624765,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "kagawa_0041",
@@ -789,7 +801,11 @@
     "prefecture": "香川県",
     "line_name": "高松琴平電鉄長尾線",
     "lat": 34.288506,
-    "lon": 134.112155
+    "lon": 134.112155,
+    "station_passenger_log": 9.64930472862475,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "kagawa_0003",
@@ -821,6 +837,10 @@
     "prefecture": "香川県",
     "line_name": "JR土讃線",
     "lat": 34.133145,
-    "lon": 133.82011
+    "lon": 133.82011,
+    "station_passenger_log": 9.063694791634695,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   }
 ]

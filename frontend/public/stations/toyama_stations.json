@@ -333,7 +333,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.673066,
-    "lon": 137.220483
+    "lon": 137.220483,
+    "station_passenger_log": 7.434847875211999,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0061",

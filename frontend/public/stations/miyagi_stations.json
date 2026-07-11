@@ -501,7 +501,11 @@
     "prefecture": "宮城県",
     "line_name": "JR常磐線",
     "lat": 37.967292,
-    "lon": 140.900688
+    "lon": 140.900688,
+    "station_passenger_log": 8.959954084268098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "miyagi_0140",
@@ -637,7 +641,11 @@
     "prefecture": "宮城県",
     "line_name": "JR東北本線",
     "lat": 38.711475,
-    "lon": 141.119428
+    "lon": 141.119428,
+    "station_passenger_log": 10.258781543397928,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "miyagi_0118",

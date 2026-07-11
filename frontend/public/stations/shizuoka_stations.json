@@ -69,7 +69,11 @@
     "prefecture": "静岡県",
     "line_name": "JR東海道本線",
     "lat": 35.126253,
-    "lon": 138.911133
+    "lon": 138.911133,
+    "station_passenger_log": 10.924840755657286,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "shizuoka_0100",
@@ -77,7 +81,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆箱根鉄道駿豆線",
     "lat": 35.111039,
-    "lon": 138.926001
+    "lon": 138.926001,
+    "station_passenger_log": 7.875499292445208,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0098",
@@ -85,7 +93,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆箱根鉄道駿豆線",
     "lat": 35.119272,
-    "lon": 138.911202
+    "lon": 138.911202,
+    "station_passenger_log": 8.116118431609365,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0099",
@@ -93,7 +105,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆箱根鉄道駿豆線",
     "lat": 35.116205,
-    "lon": 138.918421
+    "lon": 138.918421,
+    "station_passenger_log": 7.724888439323074,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0199",
@@ -125,7 +141,11 @@
     "prefecture": "静岡県",
     "line_name": "JR御殿場線",
     "lat": 35.128379,
-    "lon": 138.895126
+    "lon": 138.895126,
+    "station_passenger_log": 7.839525581704678,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0071",
@@ -189,7 +209,11 @@
     "prefecture": "静岡県",
     "line_name": "JR伊東線",
     "lat": 34.9747,
-    "lon": 139.092125
+    "lon": 139.092125,
+    "station_passenger_log": 9.47523988153072,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shizuoka_0102",
@@ -197,7 +221,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆箱根鉄道駿豆線",
     "lat": 35.078821,
-    "lon": 138.941509
+    "lon": 138.941509,
+    "station_passenger_log": 7.97728198675515,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0086",
@@ -213,7 +241,11 @@
     "prefecture": "静岡県",
     "line_name": "JR伊東線",
     "lat": 35.059411,
-    "lon": 139.066847
+    "lon": 139.066847,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0085",
@@ -253,7 +285,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆箱根鉄道駿豆線",
     "lat": 35.039907,
-    "lon": 138.947539
+    "lon": 138.947539,
+    "station_passenger_log": 8.333991247194975,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0084",
@@ -277,7 +313,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆箱根鉄道駿豆線",
     "lat": 34.979091,
-    "lon": 138.950545
+    "lon": 138.950545,
+    "station_passenger_log": 8.259975659768276,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0059",
@@ -285,7 +325,11 @@
     "prefecture": "静岡県",
     "line_name": "JR身延線",
     "lat": 35.188276,
-    "lon": 138.647622
+    "lon": 138.647622,
+    "station_passenger_log": 7.404887575616125,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0223",
@@ -333,7 +377,11 @@
     "prefecture": "静岡県",
     "line_name": "JR東海道本線",
     "lat": 35.108773,
-    "lon": 138.970984
+    "lon": 138.970984,
+    "station_passenger_log": 8.001689978099135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0197",
@@ -373,7 +421,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆急行線",
     "lat": 34.95757,
-    "lon": 139.087893
+    "lon": 139.087893,
+    "station_passenger_log": 6.727431724850855,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0010",
@@ -381,7 +433,11 @@
     "prefecture": "静岡県",
     "line_name": "JR御殿場線",
     "lat": 35.277269,
-    "lon": 138.925789
+    "lon": 138.925789,
+    "station_passenger_log": 6.295266001439646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0021",
@@ -397,7 +453,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆箱根鉄道駿豆線",
     "lat": 35.065653,
-    "lon": 138.943695
+    "lon": 138.943695,
+    "station_passenger_log": 6.315358001522335,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0150",
@@ -437,7 +497,11 @@
     "prefecture": "静岡県",
     "line_name": "JR東海道本線",
     "lat": 35.143845,
-    "lon": 138.702768
+    "lon": 138.702768,
+    "station_passenger_log": 8.70201162840878,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shizuoka_0184",
@@ -445,7 +509,11 @@
     "prefecture": "静岡県",
     "line_name": "岳南鉄道",
     "lat": 35.160821,
-    "lon": 138.689774
+    "lon": 138.689774,
+    "station_passenger_log": 6.717804695023691,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0076",
@@ -501,7 +569,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆箱根鉄道駿豆線",
     "lat": 34.994467,
-    "lon": 138.937527
+    "lon": 138.937527,
+    "station_passenger_log": 7.631431664576906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0132",
@@ -509,7 +581,11 @@
     "prefecture": "静岡県",
     "line_name": "大井川鉄道本線",
     "lat": 34.921104,
-    "lon": 138.08215
+    "lon": 138.08215,
+    "station_passenger_log": 9.82946419218734,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shizuoka_0101",
@@ -517,7 +593,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆箱根鉄道駿豆線",
     "lat": 35.092569,
-    "lon": 138.939414
+    "lon": 138.939414,
+    "station_passenger_log": 8.344267356262645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0016",
@@ -541,7 +621,11 @@
     "prefecture": "静岡県",
     "line_name": "天竜浜名湖鉄道",
     "lat": 34.737865,
-    "lon": 137.509636
+    "lon": 137.509636,
+    "station_passenger_log": 11.960600404107888,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "shizuoka_0159",
@@ -589,7 +673,11 @@
     "prefecture": "静岡県",
     "line_name": "JR伊東線",
     "lat": 35.005602,
-    "lon": 139.079778
+    "lon": 139.079778,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0034",
@@ -621,7 +709,11 @@
     "prefecture": "静岡県",
     "line_name": "JR東海道本線",
     "lat": 35.151497,
-    "lon": 138.651225
+    "lon": 138.651225,
+    "station_passenger_log": 9.559869847754044,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shizuoka_0062",
@@ -629,7 +721,11 @@
     "prefecture": "静岡県",
     "line_name": "JR身延線",
     "lat": 35.221409,
-    "lon": 138.614924
+    "lon": 138.614924,
+    "station_passenger_log": 8.374707543119483,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0011",
@@ -637,7 +733,11 @@
     "prefecture": "静岡県",
     "line_name": "JR御殿場線",
     "lat": 35.257299,
-    "lon": 138.920504
+    "lon": 138.920504,
+    "station_passenger_log": 7.518607216815252,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0025",
@@ -645,7 +745,11 @@
     "prefecture": "静岡県",
     "line_name": "JR東海道本線",
     "lat": 35.141119,
-    "lon": 138.618571
+    "lon": 138.618571,
+    "station_passenger_log": 7.8160138391590275,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0060",
@@ -653,7 +757,11 @@
     "prefecture": "静岡県",
     "line_name": "JR身延線",
     "lat": 35.205251,
-    "lon": 138.63562
+    "lon": 138.63562,
+    "station_passenger_log": 6.829793737512425,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0082",
@@ -661,7 +769,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆急行線",
     "lat": 34.91005,
-    "lon": 139.131676
+    "lon": 139.131676,
+    "station_passenger_log": 5.541263545158426,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0171",
@@ -717,7 +829,11 @@
     "prefecture": "静岡県",
     "line_name": "JR御殿場線",
     "lat": 35.21498,
-    "lon": 138.919296
+    "lon": 138.919296,
+    "station_passenger_log": 8.10258642539079,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0186",
@@ -725,7 +841,11 @@
     "prefecture": "静岡県",
     "line_name": "岳南鉄道",
     "lat": 35.166076,
-    "lon": 138.704517
+    "lon": 138.704517,
+    "station_passenger_log": 5.472270673671475,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0188",
@@ -733,7 +853,11 @@
     "prefecture": "静岡県",
     "line_name": "岳南鉄道",
     "lat": 35.160949,
-    "lon": 138.723356
+    "lon": 138.723356,
+    "station_passenger_log": 5.541263545158426,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0191",
@@ -741,7 +865,11 @@
     "prefecture": "静岡県",
     "line_name": "岳南鉄道",
     "lat": 35.155261,
-    "lon": 138.751793
+    "lon": 138.751793,
+    "station_passenger_log": 5.123963979403259,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0040",
@@ -765,7 +893,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆急行線",
     "lat": 34.950906,
-    "lon": 139.124936
+    "lon": 139.124936,
+    "station_passenger_log": 7.010311867307229,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0111",
@@ -821,7 +953,11 @@
     "prefecture": "静岡県",
     "line_name": "JR御殿場線",
     "lat": 35.299933,
-    "lon": 138.93424
+    "lon": 138.93424,
+    "station_passenger_log": 9.071193240566023,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shizuoka_0220",
@@ -933,7 +1069,11 @@
     "prefecture": "静岡県",
     "line_name": "JR東海道本線",
     "lat": 35.119599,
-    "lon": 138.608117
+    "lon": 138.608117,
+    "station_passenger_log": 7.7823903355874595,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0125",
@@ -997,7 +1137,11 @@
     "prefecture": "静岡県",
     "line_name": "岳南鉄道",
     "lat": 35.161946,
-    "lon": 138.692716
+    "lon": 138.692716,
+    "station_passenger_log": 5.655991810819852,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0002",
@@ -1005,7 +1149,11 @@
     "prefecture": "静岡県",
     "line_name": "JR伊東線",
     "lat": 35.098723,
-    "lon": 139.065575
+    "lon": 139.065575,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0022",
@@ -1013,7 +1161,11 @@
     "prefecture": "静岡県",
     "line_name": "JR東海道本線",
     "lat": 35.136255,
-    "lon": 138.745441
+    "lon": 138.745441,
+    "station_passenger_log": 7.3613754289773485,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0173",
@@ -1045,7 +1197,11 @@
     "prefecture": "静岡県",
     "line_name": "天竜浜名湖鉄道",
     "lat": 34.778216,
-    "lon": 137.972764
+    "lon": 137.972764,
+    "station_passenger_log": 8.158802490694002,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0222",
@@ -1069,7 +1225,11 @@
     "prefecture": "静岡県",
     "line_name": "岳南鉄道",
     "lat": 35.161485,
-    "lon": 138.713602
+    "lon": 138.713602,
+    "station_passenger_log": 4.736198448394496,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0169",
@@ -1109,7 +1269,11 @@
     "prefecture": "静岡県",
     "line_name": "JR身延線",
     "lat": 35.199278,
-    "lon": 138.584283
+    "lon": 138.584283,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0017",
@@ -1117,7 +1281,11 @@
     "prefecture": "静岡県",
     "line_name": "JR御殿場線",
     "lat": 35.103011,
-    "lon": 138.860104
+    "lon": 138.860104,
+    "station_passenger_log": 10.51888938447122,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "shizuoka_0205",
@@ -1165,7 +1333,11 @@
     "prefecture": "静岡県",
     "line_name": "JR身延線",
     "lat": 35.214463,
-    "lon": 138.627057
+    "lon": 138.627057,
+    "station_passenger_log": 7.22983877815125,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0036",
@@ -1181,7 +1353,11 @@
     "prefecture": "静岡県",
     "line_name": "JR伊東線",
     "lat": 35.103573,
-    "lon": 139.077679
+    "lon": 139.077679,
+    "station_passenger_log": 9.983914801648742,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "shizuoka_0020",
@@ -1189,7 +1365,11 @@
     "prefecture": "静岡県",
     "line_name": "JR東海道本線",
     "lat": 35.11825,
-    "lon": 138.818937
+    "lon": 138.818937,
+    "station_passenger_log": 8.398860004454372,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0088",
@@ -1205,7 +1385,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆箱根鉄道駿豆線",
     "lat": 34.988677,
-    "lon": 138.954317
+    "lon": 138.954317,
+    "station_passenger_log": 6.156978985585555,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0221",
@@ -1229,7 +1413,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆箱根鉄道駿豆線",
     "lat": 35.014551,
-    "lon": 138.945767
+    "lon": 138.945767,
+    "station_passenger_log": 7.687538766201629,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0139",
@@ -1245,7 +1433,11 @@
     "prefecture": "静岡県",
     "line_name": "JR東海道本線",
     "lat": 35.097108,
-    "lon": 138.552756
+    "lon": 138.552756,
+    "station_passenger_log": 7.362010551259734,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0074",
@@ -1301,7 +1493,11 @@
     "prefecture": "静岡県",
     "line_name": "岳南鉄道",
     "lat": 35.16103,
-    "lon": 138.74303
+    "lon": 138.74303,
+    "station_passenger_log": 4.718498871295094,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0131",
@@ -1317,7 +1513,11 @@
     "prefecture": "静岡県",
     "line_name": "JR身延線",
     "lat": 35.230454,
-    "lon": 138.536892
+    "lon": 138.536892,
+    "station_passenger_log": 2.772588722239781,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0092",
@@ -1341,7 +1541,11 @@
     "prefecture": "静岡県",
     "line_name": "JR身延線",
     "lat": 35.168075,
-    "lon": 138.645881
+    "lon": 138.645881,
+    "station_passenger_log": 7.629003889652957,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0194",
@@ -1357,7 +1561,11 @@
     "prefecture": "静岡県",
     "line_name": "天竜浜名湖鉄道",
     "lat": 34.792705,
-    "lon": 137.961606
+    "lon": 137.961606,
+    "station_passenger_log": 7.776535028185241,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0004",
@@ -1365,7 +1573,11 @@
     "prefecture": "静岡県",
     "line_name": "JR伊東線",
     "lat": 35.043545,
-    "lon": 139.081245
+    "lon": 139.081245,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0206",
@@ -1389,7 +1601,11 @@
     "prefecture": "静岡県",
     "line_name": "JR東海道本線",
     "lat": 35.052539,
-    "lon": 138.521865
+    "lon": 138.521865,
+    "station_passenger_log": 8.202756381655638,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0052",
@@ -1405,7 +1621,11 @@
     "prefecture": "静岡県",
     "line_name": "JR身延線",
     "lat": 35.197272,
-    "lon": 138.563845
+    "lon": 138.563845,
+    "station_passenger_log": 5.303304908059076,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0031",
@@ -1429,7 +1649,11 @@
     "prefecture": "静岡県",
     "line_name": "JR東海道本線",
     "lat": 35.114005,
-    "lon": 138.582752
+    "lon": 138.582752,
+    "station_passenger_log": 7.112327444710911,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0093",
@@ -1461,7 +1685,11 @@
     "prefecture": "静岡県",
     "line_name": "JR御殿場線",
     "lat": 35.171372,
-    "lon": 138.909293
+    "lon": 138.909293,
+    "station_passenger_log": 8.385716828627851,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0063",
@@ -1469,7 +1697,11 @@
     "prefecture": "静岡県",
     "line_name": "JR身延線",
     "lat": 35.225456,
-    "lon": 138.602567
+    "lon": 138.602567,
+    "station_passenger_log": 7.7458682297922685,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0145",
@@ -1525,7 +1757,11 @@
     "prefecture": "静岡県",
     "line_name": "JR御殿場線",
     "lat": 35.332233,
-    "lon": 138.981687
+    "lon": 138.981687,
+    "station_passenger_log": 6.654152520183219,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0204",
@@ -1645,7 +1881,11 @@
     "prefecture": "静岡県",
     "line_name": "JR御殿場線",
     "lat": 35.147633,
-    "lon": 138.899364
+    "lon": 138.899364,
+    "station_passenger_log": 7.541683099882111,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0129",
@@ -1685,7 +1925,11 @@
     "prefecture": "静岡県",
     "line_name": "伊豆箱根鉄道駿豆線",
     "lat": 35.053547,
-    "lon": 138.945467
+    "lon": 138.945467,
+    "station_passenger_log": 7.930925372483388,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0212",
@@ -1701,7 +1945,11 @@
     "prefecture": "静岡県",
     "line_name": "岳南鉄道",
     "lat": 35.160444,
-    "lon": 138.733944
+    "lon": 138.733944,
+    "station_passenger_log": 5.209486152841421,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0007",
@@ -1709,7 +1957,11 @@
     "prefecture": "静岡県",
     "line_name": "JR御殿場線",
     "lat": 35.359113,
-    "lon": 138.997689
+    "lon": 138.997689,
+    "station_passenger_log": 6.453624998892692,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shizuoka_0140",

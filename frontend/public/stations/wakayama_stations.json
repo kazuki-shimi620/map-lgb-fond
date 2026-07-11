@@ -373,7 +373,11 @@
     "prefecture": "和歌山県",
     "line_name": "紀州鉄道",
     "lat": 33.889565,
-    "lon": 135.152905
+    "lon": 135.152905,
+    "station_passenger_log": 8.633552992532433,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "wakayama_0019",

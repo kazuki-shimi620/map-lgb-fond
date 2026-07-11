@@ -1813,7 +1813,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪御堂筋線",
     "lat": 34.598821,
-    "lon": 135.512747
+    "lon": 135.512747,
+    "station_passenger_log": 10.928722371399465,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0192",

@@ -13,7 +13,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄蒲郡線",
     "lat": 34.788791,
-    "lon": 137.162721
+    "lon": 137.162721,
+    "station_passenger_log": 9.181014542594356,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0084",
@@ -1109,7 +1113,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄犬山線",
     "lat": 35.263508,
-    "lon": 136.874748
+    "lon": 136.874748,
+    "station_passenger_log": 2.995732273553991,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0031",

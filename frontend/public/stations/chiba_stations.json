@@ -5,7 +5,11 @@
     "prefecture": "千葉県",
     "line_name": "京成千原線",
     "lat": 35.550029,
-    "lon": 140.166264
+    "lon": 140.166264,
+    "station_passenger_log": 8.591001118560957,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0282",
@@ -13,7 +17,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.782343,
-    "lon": 139.975707
+    "lon": 139.975707,
+    "station_passenger_log": 8.7937637591133,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0183",
@@ -21,7 +29,11 @@
     "prefecture": "千葉県",
     "line_name": "京成千原線",
     "lat": 35.534017,
-    "lon": 140.17029
+    "lon": 140.17029,
+    "station_passenger_log": 8.690137586397595,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0247",
@@ -29,7 +41,11 @@
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール2号線",
     "lat": 35.6387,
-    "lon": 140.134873
+    "lon": 140.134873,
+    "station_passenger_log": 8.145259566516865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0189",
@@ -37,7 +53,11 @@
     "prefecture": "千葉県",
     "line_name": "京成千葉線",
     "lat": 35.624994,
-    "lon": 140.097413
+    "lon": 140.097413,
+    "station_passenger_log": 8.946765374867635,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0277",
@@ -45,7 +65,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.789346,
-    "lon": 139.929466
+    "lon": 139.929466,
+    "station_passenger_log": 9.107421317968342,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0245",
@@ -53,7 +77,11 @@
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール2号線",
     "lat": 35.643164,
-    "lon": 140.11611
+    "lon": 140.11611,
+    "station_passenger_log": 8.485083137498004,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0176",
@@ -61,7 +89,11 @@
     "prefecture": "千葉県",
     "line_name": "ディズニーリゾートライン",
     "lat": 35.627884,
-    "lon": 139.876397
+    "lon": 139.876397,
+    "station_passenger_log": 10.004056607457825,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0212",
@@ -69,7 +101,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.721801,
-    "lon": 140.156354
+    "lon": 140.156354,
+    "station_passenger_log": 9.855871698594465,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0174",
@@ -77,7 +113,11 @@
     "prefecture": "千葉県",
     "line_name": "ディズニーリゾートライン",
     "lat": 35.635218,
-    "lon": 139.885166
+    "lon": 139.885166,
+    "station_passenger_log": 10.606312749647344,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0304",
@@ -85,7 +125,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.970884,
-    "lon": 139.852906
+    "lon": 139.852906,
+    "station_passenger_log": 8.832441791585824,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0288",
@@ -93,7 +137,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.749217,
-    "lon": 140.028514
+    "lon": 140.028514,
+    "station_passenger_log": 9.506213803454251,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0071",
@@ -101,7 +149,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.282377,
-    "lon": 140.391567
+    "lon": 140.391567,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0275",
@@ -109,7 +161,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.789524,
-    "lon": 139.916031
+    "lon": 139.916031,
+    "station_passenger_log": 8.848078421168667,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0067",
@@ -117,7 +173,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.373401,
-    "lon": 140.365138
+    "lon": 140.365138,
+    "station_passenger_log": 8.56845648535378,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0255",
@@ -125,7 +185,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.46592,
-    "lon": 140.12672
+    "lon": 140.12672,
+    "station_passenger_log": 4.465908118654584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0160",
@@ -133,7 +197,11 @@
     "prefecture": "千葉県",
     "line_name": "いすみ鉄道",
     "lat": 35.282763,
-    "lon": 140.280636
+    "lon": 140.280636,
+    "station_passenger_log": 2.6390573296152584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0168",
@@ -141,7 +209,11 @@
     "prefecture": "千葉県",
     "line_name": "いすみ鉄道",
     "lat": 35.250051,
-    "lon": 140.199571
+    "lon": 140.199571,
+    "station_passenger_log": 4.465908118654584,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0262",
@@ -149,7 +221,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.367481,
-    "lon": 140.154438
+    "lon": 140.154438,
+    "station_passenger_log": 2.0794415416798357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0014",
@@ -157,7 +233,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.233153,
-    "lon": 140.089479
+    "lon": 140.089479,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0267",
@@ -165,7 +245,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.283367,
-    "lon": 140.145924
+    "lon": 140.145924,
+    "station_passenger_log": 1.791759469228055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0256",
@@ -173,7 +257,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.454105,
-    "lon": 140.126128
+    "lon": 140.126128,
+    "station_passenger_log": 4.48863636973214,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0260",
@@ -181,7 +269,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.388047,
-    "lon": 140.150968
+    "lon": 140.150968,
+    "station_passenger_log": 4.04305126783455,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0253",
@@ -189,7 +281,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.496171,
-    "lon": 140.100355
+    "lon": 140.100355,
+    "station_passenger_log": 4.02535169073515,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0157",
@@ -197,7 +293,11 @@
     "prefecture": "千葉県",
     "line_name": "いすみ鉄道",
     "lat": 35.263313,
-    "lon": 140.344974
+    "lon": 140.344974,
+    "station_passenger_log": 3.7612001156935624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0013",
@@ -205,7 +305,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.258226,
-    "lon": 140.064046
+    "lon": 140.064046,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0003",
@@ -213,7 +317,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.390981,
-    "lon": 139.965612
+    "lon": 139.965612,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0041",
@@ -221,7 +329,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.221855,
-    "lon": 139.871016
+    "lon": 139.871016,
+    "station_passenger_log": 6.792344427470809,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0259",
@@ -229,7 +341,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.400213,
-    "lon": 140.142255
+    "lon": 140.142255,
+    "station_passenger_log": 5.8888779583328805,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0077",
@@ -237,7 +353,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.137146,
-    "lon": 140.250487
+    "lon": 140.250487,
+    "station_passenger_log": 5.645446897643238,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0261",
@@ -245,7 +365,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.381346,
-    "lon": 140.165006
+    "lon": 140.165006,
+    "station_passenger_log": 2.302585092994046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0146",
@@ -253,7 +377,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武線",
     "lat": 35.714276,
-    "lon": 139.943092
+    "lon": 139.943092,
+    "station_passenger_log": 10.679343115468964,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0109",
@@ -261,7 +389,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線我孫子支線",
     "lat": 35.807806,
-    "lon": 140.27749
+    "lon": 140.27749,
+    "station_passenger_log": 6.900730664045173,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0105",
@@ -269,7 +401,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.818673,
-    "lon": 140.702273
+    "lon": 140.702273,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0098",
@@ -277,7 +413,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.8948,
-    "lon": 140.410657
+    "lon": 140.410657,
+    "station_passenger_log": 7.198183577101943,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0106",
@@ -285,7 +425,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.792899,
-    "lon": 140.721011
+    "lon": 140.721011,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0008",
@@ -293,7 +437,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.355018,
-    "lon": 140.055372
+    "lon": 140.055372,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0273",
@@ -301,7 +449,11 @@
     "prefecture": "千葉県",
     "line_name": "山万ユーカリが丘線",
     "lat": 35.740123,
-    "lon": 140.14841
+    "lon": 140.14841,
+    "station_passenger_log": 7.247792581767846,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0096",
@@ -309,7 +461,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.832232,
-    "lon": 140.338929
+    "lon": 140.338929,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0165",
@@ -317,7 +473,11 @@
     "prefecture": "千葉県",
     "line_name": "いすみ鉄道",
     "lat": 35.250265,
-    "lon": 140.247718
+    "lon": 140.247718,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0011",
@@ -325,7 +485,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.295812,
-    "lon": 140.075613
+    "lon": 140.075613,
+    "station_passenger_log": 6.297109319933935,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0050",
@@ -333,7 +497,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 34.99752,
-    "lon": 139.911383
+    "lon": 139.911383,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0019",
@@ -341,7 +509,11 @@
     "prefecture": "千葉県",
     "line_name": "JR京葉線",
     "lat": 35.691273,
-    "lon": 139.959525
+    "lon": 139.959525,
+    "station_passenger_log": 9.229260256828692,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0287",
@@ -349,7 +521,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.753825,
-    "lon": 140.023731
+    "lon": 140.023731,
+    "station_passenger_log": 9.689613407229068,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0032",
@@ -357,7 +533,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.512985,
-    "lon": 140.089522
+    "lon": 140.089522,
+    "station_passenger_log": 10.4560499522822,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0280",
@@ -365,15 +545,23 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.797281,
-    "lon": 139.965796
+    "lon": 139.965796,
+    "station_passenger_log": 10.211082540319786,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0274",
-    "station_name": "井野(千葉)",
+    "station_name": "井野",
     "prefecture": "千葉県",
     "line_name": "山万ユーカリが丘線",
     "lat": 35.732605,
-    "lon": 140.148497
+    "lon": 140.148497,
+    "station_passenger_log": 6.1779441140506,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0198",
@@ -381,7 +569,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.716998,
-    "lon": 139.944203
+    "lon": 139.944203,
+    "station_passenger_log": 8.185628891147607,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0214",
@@ -389,7 +581,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.725205,
-    "lon": 140.229633
+    "lon": 140.229633,
+    "station_passenger_log": 9.697815482133922,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0196",
@@ -397,7 +593,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.723811,
-    "lon": 139.92816
+    "lon": 139.92816,
+    "station_passenger_log": 10.431789570603357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0192",
@@ -405,7 +605,11 @@
     "prefecture": "千葉県",
     "line_name": "京成千葉線",
     "lat": 35.6116,
-    "lon": 140.114273
+    "lon": 140.114273,
+    "station_passenger_log": 10.318143627345878,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0206",
@@ -413,7 +617,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.686016,
-    "lon": 140.048629
+    "lon": 140.048629,
+    "station_passenger_log": 10.445521103426312,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0209",
@@ -421,7 +629,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.712309,
-    "lon": 140.108578
+    "lon": 140.108578,
+    "station_passenger_log": 9.373903755841548,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0186",
@@ -429,7 +641,11 @@
     "prefecture": "千葉県",
     "line_name": "京成千葉線",
     "lat": 35.66078,
-    "lon": 140.05591
+    "lon": 140.05591,
+    "station_passenger_log": 8.961237781491876,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0185",
@@ -437,7 +653,11 @@
     "prefecture": "千葉県",
     "line_name": "京成千葉線",
     "lat": 35.672551,
-    "lon": 140.042091
+    "lon": 140.042091,
+    "station_passenger_log": 9.676586952344206,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0219",
@@ -445,7 +665,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.776308,
-    "lon": 140.315473
+    "lon": 140.315473,
+    "station_passenger_log": 10.449873351700669,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0184",
@@ -453,7 +677,11 @@
     "prefecture": "千葉県",
     "line_name": "京成千葉線",
     "lat": 35.68364,
-    "lon": 140.024823
+    "lon": 140.024823,
+    "station_passenger_log": 10.955217855304108,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "chiba_0188",
@@ -461,7 +689,11 @@
     "prefecture": "千葉県",
     "line_name": "京成千葉線",
     "lat": 35.637783,
-    "lon": 140.085505
+    "lon": 140.085505,
+    "station_passenger_log": 8.893984438939794,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0213",
@@ -469,7 +701,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.730017,
-    "lon": 140.180796
+    "lon": 140.180796,
+    "station_passenger_log": 9.71414138080521,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0202",
@@ -477,7 +713,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.700161,
-    "lon": 139.985451
+    "lon": 139.985451,
+    "station_passenger_log": 11.386182407942334,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "chiba_0200",
@@ -485,7 +725,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.711627,
-    "lon": 139.958863
+    "lon": 139.958863,
+    "station_passenger_log": 9.266342562091468,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0216",
@@ -493,7 +737,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.736867,
-    "lon": 140.270132
+    "lon": 140.270132,
+    "station_passenger_log": 8.679312040892672,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0342",
@@ -501,7 +749,11 @@
     "prefecture": "千葉県",
     "line_name": "銚子電鉄線",
     "lat": 35.728813,
-    "lon": 140.833871
+    "lon": 140.833871,
+    "station_passenger_log": 3.295836866004329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0091",
@@ -509,7 +761,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.709743,
-    "lon": 140.226722
+    "lon": 140.226722,
+    "station_passenger_log": 9.76898425919765,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0100",
@@ -517,7 +773,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.894522,
-    "lon": 140.494074
+    "lon": 140.494074,
+    "station_passenger_log": 8.6020856584342,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0040",
@@ -525,7 +785,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.260113,
-    "lon": 139.876106
+    "lon": 139.876106,
+    "station_passenger_log": 5.75890177387728,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0242",
@@ -533,7 +797,11 @@
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール2号線",
     "lat": 35.625806,
-    "lon": 140.115314
+    "lon": 140.115314,
+    "station_passenger_log": 8.340933226000878,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0044",
@@ -541,7 +809,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.14148,
-    "lon": 139.838114
+    "lon": 139.838114,
+    "station_passenger_log": 5.8944028342648505,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0010",
@@ -549,7 +821,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.314495,
-    "lon": 140.061386
+    "lon": 140.061386,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0141",
@@ -557,23 +833,35 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.737836,
-    "lon": 140.714018
+    "lon": 140.714018,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0281",
-    "station_name": "元山(千葉)",
+    "station_name": "元山",
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.790229,
-    "lon": 139.975831
+    "lon": 139.975831,
+    "station_passenger_log": 9.648272670221848,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0257",
-    "station_name": "光風台(千葉)",
+    "station_name": "光風台",
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.439662,
-    "lon": 140.114174
+    "lon": 140.114174,
+    "station_passenger_log": 5.43372200355424,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0330",
@@ -581,7 +869,11 @@
     "prefecture": "千葉県",
     "line_name": "東葉高速鉄道",
     "lat": 35.727807,
-    "lon": 140.103713
+    "lon": 140.103713,
+    "station_passenger_log": 10.033726029459856,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0208",
@@ -589,7 +881,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.701465,
-    "lon": 140.090942
+    "lon": 140.090942,
+    "station_passenger_log": 10.666463921439238,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0329",
@@ -597,7 +893,11 @@
     "prefecture": "千葉県",
     "line_name": "東葉高速鉄道",
     "lat": 35.728884,
-    "lon": 140.073461
+    "lon": 140.073461,
+    "station_passenger_log": 10.58729121809292,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0031",
@@ -605,7 +905,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.536189,
-    "lon": 140.120072
+    "lon": 140.120072,
+    "station_passenger_log": 9.973619774716504,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0137",
@@ -613,7 +917,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.699317,
-    "lon": 140.552419
+    "lon": 140.552419,
+    "station_passenger_log": 7.985824666418917,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0278",
@@ -621,7 +929,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.791394,
-    "lon": 139.937362
+    "lon": 139.937362,
+    "station_passenger_log": 10.615750850288304,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0066",
@@ -629,7 +941,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.403971,
-    "lon": 140.345367
+    "lon": 140.345367,
+    "station_passenger_log": 7.172424577124845,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0132",
@@ -637,7 +953,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.663228,
-    "lon": 140.317304
+    "lon": 140.317304,
+    "station_passenger_log": 9.167537249650874,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0271",
@@ -645,7 +965,11 @@
     "prefecture": "千葉県",
     "line_name": "山万ユーカリが丘線",
     "lat": 35.730758,
-    "lon": 140.153755
+    "lon": 140.153755,
+    "station_passenger_log": 5.645446897643238,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0218",
@@ -653,7 +977,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.760446,
-    "lon": 140.294904
+    "lon": 140.294904,
+    "station_passenger_log": 9.529230371552156,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0318",
@@ -661,7 +989,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.793715,
-    "lon": 139.999195
+    "lon": 139.999195,
+    "station_passenger_log": 9.430118265814093,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0285",
@@ -669,7 +1001,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.771992,
-    "lon": 140.000493
+    "lon": 140.000493,
+    "station_passenger_log": 8.53954159508,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0311",
@@ -677,7 +1013,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.883783,
-    "lon": 139.917861
+    "lon": 139.917861,
+    "station_passenger_log": 9.821843563495618,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0295",
@@ -685,7 +1025,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.700666,
-    "lon": 140.027542
+    "lon": 140.027542,
+    "station_passenger_log": 9.208739090609209,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0246",
@@ -693,7 +1037,11 @@
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール2号線",
     "lat": 35.642585,
-    "lon": 140.125437
+    "lon": 140.125437,
+    "station_passenger_log": 7.32052696227274,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0075",
@@ -701,7 +1049,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.152722,
-    "lon": 140.312142
+    "lon": 140.312142,
+    "station_passenger_log": 7.390798521735676,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0210",
@@ -709,7 +1061,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.715445,
-    "lon": 140.126053
+    "lon": 140.126053,
+    "station_passenger_log": 10.768758636788569,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0283",
@@ -717,7 +1073,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.77728,
-    "lon": 139.991978
+    "lon": 139.991978,
+    "station_passenger_log": 8.575273402492762,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0227",
@@ -725,7 +1085,11 @@
     "prefecture": "千葉県",
     "line_name": "北総鉄道",
     "lat": 35.762916,
-    "lon": 139.914252
+    "lon": 139.914252,
+    "station_passenger_log": 8.974871170971337,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0085",
@@ -733,7 +1097,11 @@
     "prefecture": "千葉県",
     "line_name": "JR常磐線各駅停車",
     "lat": 35.833436,
-    "lon": 139.931303
+    "lon": 139.931303,
+    "station_passenger_log": 10.66066531275321,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0082",
@@ -741,7 +1109,11 @@
     "prefecture": "千葉県",
     "line_name": "JR常磐線各駅停車",
     "lat": 35.800459,
-    "lon": 139.911528
+    "lon": 139.911528,
+    "station_passenger_log": 10.581749495596627,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0088",
@@ -749,7 +1121,11 @@
     "prefecture": "千葉県",
     "line_name": "JR常磐線各駅停車",
     "lat": 35.875623,
-    "lon": 139.988035
+    "lon": 139.988035,
+    "station_passenger_log": 10.44386226975867,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0292",
@@ -757,7 +1133,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.721328,
-    "lon": 140.042195
+    "lon": 140.042195,
+    "station_passenger_log": 10.650815105859214,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0155",
@@ -765,7 +1145,11 @@
     "prefecture": "千葉県",
     "line_name": "JR鹿島線",
     "lat": 35.916984,
-    "lon": 140.545707
+    "lon": 140.545707,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0051",
@@ -773,7 +1157,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 34.976704,
-    "lon": 139.954738
+    "lon": 139.954738,
+    "station_passenger_log": 6.259581464064923,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0252",
@@ -781,7 +1169,11 @@
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール2号線",
     "lat": 35.622314,
-    "lon": 140.18856
+    "lon": 140.18856,
+    "station_passenger_log": 8.931816237309167,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0251",
@@ -789,7 +1181,11 @@
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール2号線",
     "lat": 35.627436,
-    "lon": 140.181972
+    "lon": 140.181972,
+    "station_passenger_log": 7.692569648067906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0052",
@@ -797,7 +1193,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 34.991701,
-    "lon": 139.966378
+    "lon": 139.966378,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0028",
@@ -805,7 +1205,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.613425,
-    "lon": 140.112837
+    "lon": 140.112837,
+    "station_passenger_log": 12.211313886200143,
+    "station_line_count": 4.0,
+    "station_operator_count": 2.0,
+    "station_rank": "A"
   },
   {
     "station_id": "chiba_0026",
@@ -813,7 +1217,11 @@
     "prefecture": "千葉県",
     "line_name": "JR京葉線",
     "lat": 35.606172,
-    "lon": 140.10341
+    "lon": 140.10341,
+    "station_passenger_log": 10.410455745974811,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0223",
@@ -821,7 +1229,11 @@
     "prefecture": "千葉県",
     "line_name": "京成成田空港線",
     "lat": 35.800175,
-    "lon": 140.116159
+    "lon": 140.116159,
+    "station_passenger_log": 10.025129798518233,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0178",
@@ -829,7 +1241,11 @@
     "prefecture": "千葉県",
     "line_name": "京成千原線",
     "lat": 35.607354,
-    "lon": 140.117809
+    "lon": 140.117809,
+    "station_passenger_log": 9.871377498617894,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0241",
@@ -837,7 +1253,11 @@
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール2号線",
     "lat": 35.619774,
-    "lon": 140.117944
+    "lon": 140.117944,
+    "station_passenger_log": 7.615298339825815,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0179",
@@ -845,7 +1265,11 @@
     "prefecture": "千葉県",
     "line_name": "京成千原線",
     "lat": 35.590311,
-    "lon": 140.132236
+    "lon": 140.132236,
+    "station_passenger_log": 8.545391845774915,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0053",
@@ -853,7 +1277,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.021065,
-    "lon": 139.979204
+    "lon": 139.979204,
+    "station_passenger_log": 6.705639094860003,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0086",
@@ -861,7 +1289,11 @@
     "prefecture": "千葉県",
     "line_name": "JR常磐線各駅停車",
     "lat": 35.844655,
-    "lon": 139.954111
+    "lon": 139.954111,
+    "station_passenger_log": 11.002749630045734,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "chiba_0121",
@@ -869,7 +1301,11 @@
     "prefecture": "千葉県",
     "line_name": "JR武蔵野線",
     "lat": 35.838035,
-    "lon": 139.903865
+    "lon": 139.903865,
+    "station_passenger_log": 11.227919807721856,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "chiba_0020",
@@ -877,7 +1313,11 @@
     "prefecture": "千葉県",
     "line_name": "JR京葉線",
     "lat": 35.681804,
-    "lon": 139.995773
+    "lon": 139.995773,
+    "station_passenger_log": 10.677223445528032,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0298",
@@ -885,7 +1325,11 @@
     "prefecture": "千葉県",
     "line_name": "東京メトロ東西線",
     "lat": 35.672687,
-    "lon": 139.902311
+    "lon": 139.902311,
+    "station_passenger_log": 10.8073412643066,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0130",
@@ -893,7 +1337,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.704217,
-    "lon": 140.267828
+    "lon": 140.267828,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0224",
@@ -901,7 +1349,11 @@
     "prefecture": "千葉県",
     "line_name": "京成成田空港線",
     "lat": 35.787512,
-    "lon": 140.203112
+    "lon": 140.203112,
+    "station_passenger_log": 8.504715669905124,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0234",
@@ -909,7 +1361,11 @@
     "prefecture": "千葉県",
     "line_name": "北総鉄道",
     "lat": 35.803608,
-    "lon": 140.166911
+    "lon": 140.166911,
+    "station_passenger_log": 9.678780279245736,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0301",
@@ -917,7 +1373,11 @@
     "prefecture": "千葉県",
     "line_name": "東京メトロ東西線",
     "lat": 35.703517,
-    "lon": 139.942029
+    "lon": 139.942029,
+    "station_passenger_log": 10.179223553969509,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0348",
@@ -925,7 +1385,11 @@
     "prefecture": "千葉県",
     "line_name": "銚子電鉄線",
     "lat": 35.714093,
-    "lon": 140.860527
+    "lon": 140.860527,
+    "station_passenger_log": 2.4849066497880004,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0037",
@@ -933,7 +1397,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.333619,
-    "lon": 139.895697
+    "lon": 139.895697,
+    "station_passenger_log": 9.54029139160713,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0054",
@@ -941,7 +1409,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.041885,
-    "lon": 140.019569
+    "lon": 140.019569,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0128",
@@ -949,7 +1421,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.662756,
-    "lon": 140.165023
+    "lon": 140.165023,
+    "station_passenger_log": 10.60080104196549,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0159",
@@ -957,7 +1433,11 @@
     "prefecture": "千葉県",
     "line_name": "いすみ鉄道",
     "lat": 35.280497,
-    "lon": 140.314046
+    "lon": 140.314046,
+    "station_passenger_log": 4.110873864173311,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0193",
@@ -965,7 +1445,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.736301,
-    "lon": 139.90322
+    "lon": 139.90322,
+    "station_passenger_log": 9.370671910878524,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0060",
@@ -973,7 +1457,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.530866,
-    "lon": 140.269783
+    "lon": 140.269783,
+    "station_passenger_log": 9.993099711225817,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0270",
@@ -981,7 +1469,11 @@
     "prefecture": "千葉県",
     "line_name": "山万ユーカリが丘線",
     "lat": 35.726225,
-    "lon": 140.155041
+    "lon": 140.155041,
+    "station_passenger_log": 5.929589143389895,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0161",
@@ -989,7 +1481,11 @@
     "prefecture": "千葉県",
     "line_name": "いすみ鉄道",
     "lat": 35.291741,
-    "lon": 140.252693
+    "lon": 140.252693,
+    "station_passenger_log": 3.367295829986474,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0322",
@@ -997,7 +1493,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.722102,
-    "lon": 139.982859
+    "lon": 139.982859,
+    "station_passenger_log": 9.764110536067486,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0315",
@@ -1005,7 +1505,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.829704,
-    "lon": 139.976604
+    "lon": 139.976604,
+    "station_passenger_log": 9.41865450904439,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0350",
@@ -1013,7 +1517,11 @@
     "prefecture": "千葉県",
     "line_name": "銚子電鉄線",
     "lat": 35.699314,
-    "lon": 140.857322
+    "lon": 140.857322,
+    "station_passenger_log": 5.442417710521793,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0215",
@@ -1021,15 +1529,23 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.729908,
-    "lon": 140.25079
+    "lon": 140.25079,
+    "station_passenger_log": 5.840641657373398,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0072",
-    "station_name": "大原(千葉)",
+    "station_name": "大原",
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.251097,
-    "lon": 140.390864
+    "lon": 140.390864,
+    "station_passenger_log": 7.755767170102998,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0162",
@@ -1037,7 +1553,11 @@
     "prefecture": "千葉県",
     "line_name": "いすみ鉄道",
     "lat": 35.286466,
-    "lon": 140.243833
+    "lon": 140.243833,
+    "station_passenger_log": 4.990432586778736,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0099",
@@ -1045,7 +1565,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.890004,
-    "lon": 140.457828
+    "lon": 140.457828,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0180",
@@ -1053,15 +1577,23 @@
     "prefecture": "千葉県",
     "line_name": "京成千原線",
     "lat": 35.584126,
-    "lon": 140.149398
+    "lon": 140.149398,
+    "station_passenger_log": 8.062747901086354,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0230",
-    "station_name": "大町(千葉)",
+    "station_name": "大町",
     "prefecture": "千葉県",
     "line_name": "北総鉄道",
     "lat": 35.775103,
-    "lon": 139.973567
+    "lon": 139.973567,
+    "station_passenger_log": 7.434847875211999,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0203",
@@ -1069,7 +1601,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.693945,
-    "lon": 139.991431
+    "lon": 139.991431,
+    "station_passenger_log": 8.576216531865699,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0061",
@@ -1077,7 +1613,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.522427,
-    "lon": 140.311111
+    "lon": 140.311111,
+    "station_passenger_log": 9.750394646402302,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0039",
@@ -1085,7 +1625,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.291661,
-    "lon": 139.855541
+    "lon": 139.855541,
+    "station_passenger_log": 7.449498005382849,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0243",
@@ -1093,7 +1637,11 @@
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール2号線",
     "lat": 35.631447,
-    "lon": 140.112902
+    "lon": 140.112902,
+    "station_passenger_log": 8.301025253838453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0090",
@@ -1101,7 +1649,11 @@
     "prefecture": "千葉県",
     "line_name": "JR常磐線各駅停車",
     "lat": 35.872558,
-    "lon": 140.04121
+    "lon": 140.04121,
+    "station_passenger_log": 10.372521962240311,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0069",
@@ -1109,7 +1661,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.319942,
-    "lon": 140.381184
+    "lon": 140.381184,
+    "station_passenger_log": 6.5722825426940075,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0056",
@@ -1117,7 +1673,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.081435,
-    "lon": 140.096229
+    "lon": 140.096229,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0272",
@@ -1125,7 +1685,11 @@
     "prefecture": "千葉県",
     "line_name": "山万ユーカリが丘線",
     "lat": 35.738357,
-    "lon": 140.155054
+    "lon": 140.155054,
+    "station_passenger_log": 6.0014148779611505,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0300",
@@ -1133,7 +1697,11 @@
     "prefecture": "千葉県",
     "line_name": "東京メトロ東西線",
     "lat": 35.690935,
-    "lon": 139.924209
+    "lon": 139.924209,
+    "station_passenger_log": 10.789112870099398,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0033",
@@ -1145,11 +1713,15 @@
   },
   {
     "station_id": "chiba_0181",
-    "station_name": "学園前(千葉)",
+    "station_name": "学園前",
     "prefecture": "千葉県",
     "line_name": "京成千原線",
     "lat": 35.560364,
-    "lon": 140.158416
+    "lon": 140.158416,
+    "station_passenger_log": 8.61323037961318,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0045",
@@ -1157,7 +1729,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.114022,
-    "lon": 139.83339
+    "lon": 139.83339,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0080",
@@ -1165,7 +1741,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.125473,
-    "lon": 140.154487
+    "lon": 140.154487,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0079",
@@ -1173,7 +1753,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.128597,
-    "lon": 140.190337
+    "lon": 140.190337,
+    "station_passenger_log": 5.58724865840025,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0057",
@@ -1181,7 +1765,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.107465,
-    "lon": 140.103566
+    "lon": 140.103566,
+    "station_passenger_log": 7.703007682479236,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0110",
@@ -1189,7 +1777,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線我孫子支線",
     "lat": 35.835682,
-    "lon": 140.242051
+    "lon": 140.242051,
+    "station_passenger_log": 8.279697133877628,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0217",
@@ -1197,7 +1789,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.752669,
-    "lon": 140.280975
+    "lon": 140.280975,
+    "station_passenger_log": 7.90100705199242,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0207",
@@ -1205,7 +1801,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.686852,
-    "lon": 140.068289
+    "lon": 140.068289,
+    "station_passenger_log": 10.04953405346537,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0047",
@@ -1213,7 +1813,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.04614,
-    "lon": 139.837811
+    "lon": 139.837811,
+    "station_passenger_log": 5.860786223465865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0250",
@@ -1221,7 +1825,11 @@
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール2号線",
     "lat": 35.627755,
-    "lon": 140.171873
+    "lon": 140.171873,
+    "station_passenger_log": 8.003028666384733,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0233",
@@ -1229,7 +1837,11 @@
     "prefecture": "千葉県",
     "line_name": "北総鉄道",
     "lat": 35.787004,
-    "lon": 140.076073
+    "lon": 140.076073,
+    "station_passenger_log": 8.319473692442186,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0111",
@@ -1237,7 +1849,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線我孫子支線",
     "lat": 35.830783,
-    "lon": 140.193028
+    "lon": 140.193028,
+    "station_passenger_log": 8.052933036797567,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0009",
@@ -1245,7 +1861,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.328252,
-    "lon": 140.059794
+    "lon": 140.059794,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0103",
@@ -1253,7 +1873,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.849971,
-    "lon": 140.604587
+    "lon": 140.604587,
+    "station_passenger_log": 7.5883236773352225,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0163",
@@ -1261,7 +1885,11 @@
     "prefecture": "千葉県",
     "line_name": "いすみ鉄道",
     "lat": 35.268938,
-    "lon": 140.251142
+    "lon": 140.251142,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0335",
@@ -1269,7 +1897,11 @@
     "prefecture": "千葉県",
     "line_name": "流鉄流山線",
     "lat": 35.83601,
-    "lon": 139.916887
+    "lon": 139.916887,
+    "station_passenger_log": 7.421177528595393,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0046",
@@ -1277,7 +1909,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.093062,
-    "lon": 139.849839
+    "lon": 139.849839,
+    "station_passenger_log": 6.129050210060545,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0036",
@@ -1285,7 +1921,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.414285,
-    "lon": 139.933229
+    "lon": 139.933229,
+    "station_passenger_log": 8.058643712215618,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0303",
@@ -1293,7 +1933,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.979172,
-    "lon": 139.83385
+    "lon": 139.83385,
+    "station_passenger_log": 9.658034484302055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0144",
@@ -1301,7 +1945,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武線",
     "lat": 35.728903,
-    "lon": 139.908142
+    "lon": 139.908142,
+    "station_passenger_log": 11.606260969112531,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "chiba_0017",
@@ -1309,7 +1957,11 @@
     "prefecture": "千葉県",
     "line_name": "JR京葉線",
     "lat": 35.666554,
-    "lon": 139.923684
+    "lon": 139.923684,
+    "station_passenger_log": 9.644781588320864,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0124",
@@ -1317,7 +1969,11 @@
     "prefecture": "千葉県",
     "line_name": "JR武蔵野線",
     "lat": 35.755432,
-    "lon": 139.951227
+    "lon": 139.951227,
+    "station_passenger_log": 9.993739506513156,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0194",
@@ -1325,15 +1981,23 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.73121,
-    "lon": 139.911717
+    "lon": 139.911717,
+    "station_passenger_log": 8.813884558025606,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0236",
-    "station_name": "市役所前(千葉)",
+    "station_name": "市役所前",
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール1号線",
     "lat": 35.606878,
-    "lon": 140.107757
+    "lon": 140.107757,
+    "station_passenger_log": 8.633552992532433,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0113",
@@ -1341,7 +2005,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線我孫子支線",
     "lat": 35.849371,
-    "lon": 140.13293
+    "lon": 140.13293,
+    "station_passenger_log": 8.618123909994678,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0279",
@@ -1349,7 +2017,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.803191,
-    "lon": 139.949522
+    "lon": 139.949522,
+    "station_passenger_log": 9.788805952452512,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0151",
@@ -1357,7 +2029,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武線",
     "lat": 35.6594,
-    "lon": 140.0579
+    "lon": 140.0579,
+    "station_passenger_log": 10.294075881413862,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0150",
@@ -1365,7 +2041,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武線",
     "lat": 35.672664,
-    "lon": 140.042241
+    "lon": 140.042241,
+    "station_passenger_log": 10.850520851744797,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "chiba_0022",
@@ -1373,7 +2053,11 @@
     "prefecture": "千葉県",
     "line_name": "JR京葉線",
     "lat": 35.657991,
-    "lon": 140.027061
+    "lon": 140.027061,
+    "station_passenger_log": 9.364005219520331,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0138",
@@ -1381,15 +2065,23 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.718308,
-    "lon": 140.603304
+    "lon": 140.603304,
+    "station_passenger_log": 7.456454555176209,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0337",
-    "station_name": "平和台(千葉)",
+    "station_name": "平和台",
     "prefecture": "千葉県",
     "line_name": "流鉄流山線",
     "lat": 35.85123,
-    "lon": 139.901108
+    "lon": 139.901108,
+    "station_passenger_log": 7.768110378525988,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0012",
@@ -1397,7 +2089,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.274312,
-    "lon": 140.064682
+    "lon": 140.064682,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0334",
@@ -1405,7 +2101,11 @@
     "prefecture": "千葉県",
     "line_name": "流鉄流山線",
     "lat": 35.826642,
-    "lon": 139.919912
+    "lon": 139.919912,
+    "station_passenger_log": 8.316789127071518,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0074",
@@ -1413,7 +2113,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.188028,
-    "lon": 140.35197
+    "lon": 140.35197,
+    "station_passenger_log": 6.710523109452428,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0211",
@@ -1421,15 +2125,23 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.717406,
-    "lon": 140.144982
+    "lon": 140.144982,
+    "station_passenger_log": 9.522007489678424,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0306",
-    "station_name": "愛宕(千葉)",
+    "station_name": "愛宕",
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.950154,
-    "lon": 139.864817
+    "lon": 139.864817,
+    "station_passenger_log": 9.202509792860994,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0120",
@@ -1437,7 +2149,11 @@
     "prefecture": "千葉県",
     "line_name": "JR東金線",
     "lat": 35.608513,
-    "lon": 140.410109
+    "lon": 140.410109,
+    "station_passenger_log": 8.533656917446903,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0093",
@@ -1445,7 +2161,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.777796,
-    "lon": 140.313853
+    "lon": 140.313853,
+    "station_passenger_log": 10.299541850890105,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0225",
@@ -1453,7 +2173,11 @@
     "prefecture": "千葉県",
     "line_name": "京成成田空港線",
     "lat": 35.799115,
-    "lon": 140.291596
+    "lon": 140.291596,
+    "station_passenger_log": 7.509335266016592,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0095",
@@ -1461,7 +2185,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.763983,
-    "lon": 140.384644
+    "lon": 140.384644,
+    "station_passenger_log": 10.26049744037489,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0089",
@@ -1469,7 +2197,11 @@
     "prefecture": "千葉県",
     "line_name": "JR常磐線各駅停車",
     "lat": 35.87279,
-    "lon": 140.010466
+    "lon": 140.010466,
+    "station_passenger_log": 10.928722371399465,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "chiba_0122",
@@ -1477,7 +2209,11 @@
     "prefecture": "千葉県",
     "line_name": "JR武蔵野線",
     "lat": 35.792013,
-    "lon": 139.938393
+    "lon": 139.938393,
+    "station_passenger_log": 10.742746040739314,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0191",
@@ -1485,7 +2221,11 @@
     "prefecture": "千葉県",
     "line_name": "京成千葉線",
     "lat": 35.612455,
-    "lon": 140.108557
+    "lon": 140.108557,
+    "station_passenger_log": 7.676473646389156,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0114",
@@ -1493,7 +2233,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線我孫子支線",
     "lat": 35.862352,
-    "lon": 140.107047
+    "lon": 140.107047,
+    "station_passenger_log": 8.577911926450943,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0084",
@@ -1501,7 +2245,11 @@
     "prefecture": "千葉県",
     "line_name": "JR常磐線各駅停車",
     "lat": 35.825467,
-    "lon": 139.921076
+    "lon": 139.921076,
+    "station_passenger_log": 11.161621784221122,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "chiba_0314",
@@ -1509,7 +2257,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.838128,
-    "lon": 139.966994
+    "lon": 139.966994,
+    "station_passenger_log": 9.90503635252598,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0152",
@@ -1517,7 +2269,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武線",
     "lat": 35.65169,
-    "lon": 140.073025
+    "lon": 140.073025,
+    "station_passenger_log": 10.617539693775967,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0296",
@@ -1525,7 +2281,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.690184,
-    "lon": 140.023745
+    "lon": 140.023745,
+    "station_passenger_log": 10.993260892537034,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "chiba_0016",
@@ -1533,7 +2293,11 @@
     "prefecture": "千葉県",
     "line_name": "JR京葉線",
     "lat": 35.649526,
-    "lon": 139.912553
+    "lon": 139.912553,
+    "station_passenger_log": 11.52050665499054,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "chiba_0158",
@@ -1541,7 +2305,11 @@
     "prefecture": "千葉県",
     "line_name": "いすみ鉄道",
     "lat": 35.276408,
-    "lon": 140.328081
+    "lon": 140.328081,
+    "station_passenger_log": 2.6390573296152584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0021",
@@ -1549,7 +2317,11 @@
     "prefecture": "千葉県",
     "line_name": "JR京葉線",
     "lat": 35.667342,
-    "lon": 140.012825
+    "lon": 140.012825,
+    "station_passenger_log": 10.056680631152522,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0323",
@@ -1557,7 +2329,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.710993,
-    "lon": 139.979765
+    "lon": 139.979765,
+    "station_passenger_log": 9.499721001063543,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0064",
@@ -1565,15 +2341,23 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.449477,
-    "lon": 140.29983
+    "lon": 140.29983,
+    "station_passenger_log": 7.81237820598861,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0222",
-    "station_name": "新鎌ケ谷",
+    "station_name": "新鎌ヶ谷",
     "prefecture": "千葉県",
     "line_name": "京成成田空港線",
     "lat": 35.779481,
-    "lon": 139.998361
+    "lon": 139.998361,
+    "station_passenger_log": 10.685515195589948,
+    "station_line_count": 4.0,
+    "station_operator_count": 4.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0133",
@@ -1581,7 +2365,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.628402,
-    "lon": 140.362447
+    "lon": 140.362447,
+    "station_passenger_log": 7.226209010100671,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0139",
@@ -1589,7 +2377,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.721832,
-    "lon": 140.655041
+    "lon": 140.655041,
+    "station_passenger_log": 8.067462667010057,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0266",
@@ -1597,7 +2389,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.302203,
-    "lon": 140.139394
+    "lon": 140.139394,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0112",
@@ -1605,7 +2401,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線我孫子支線",
     "lat": 35.838817,
-    "lon": 140.147954
+    "lon": 140.147954,
+    "station_passenger_log": 8.213110697596676,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0001",
@@ -1613,7 +2413,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.381668,
-    "lon": 139.92611
+    "lon": 139.92611,
+    "station_passenger_log": 10.133845020868533,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0145",
@@ -1621,7 +2425,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武線",
     "lat": 35.720898,
-    "lon": 139.92741
+    "lon": 139.92741,
+    "station_passenger_log": 11.589006489375564,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "A"
   },
   {
     "station_id": "chiba_0029",
@@ -1629,7 +2437,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.601202,
-    "lon": 140.120987
+    "lon": 140.120987,
+    "station_passenger_log": 10.110542371500753,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0063",
@@ -1637,7 +2449,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.48227,
-    "lon": 140.30758
+    "lon": 140.30758,
+    "station_passenger_log": 8.001355025826703,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0344",
@@ -1645,15 +2461,23 @@
     "prefecture": "千葉県",
     "line_name": "銚子電鉄線",
     "lat": 35.731055,
-    "lon": 140.847844
+    "lon": 140.847844,
+    "station_passenger_log": 4.04305126783455,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0331",
-    "station_name": "村上(千葉)",
+    "station_name": "村上",
     "prefecture": "千葉県",
     "line_name": "東葉高速鉄道",
     "lat": 35.72371,
-    "lon": 140.118375
+    "lon": 140.118375,
+    "station_passenger_log": 8.815221555922163,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0199",
@@ -1661,7 +2485,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.714385,
-    "lon": 139.952683
+    "lon": 139.952683,
+    "station_passenger_log": 8.814033201652784,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0177",
@@ -1669,7 +2497,11 @@
     "prefecture": "千葉県",
     "line_name": "ディズニーリゾートライン",
     "lat": 35.627359,
-    "lon": 139.889502
+    "lon": 139.889502,
+    "station_passenger_log": 10.613319760626345,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0175",
@@ -1677,7 +2509,11 @@
     "prefecture": "千葉県",
     "line_name": "ディズニーリゾートライン",
     "lat": 35.63595,
-    "lon": 139.878657
+    "lon": 139.878657,
+    "station_passenger_log": 9.709295823171686,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0126",
@@ -1685,7 +2521,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.617014,
-    "lon": 140.122261
+    "lon": 140.122261,
+    "station_passenger_log": 8.617400451833262,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0339",
@@ -1693,7 +2533,11 @@
     "prefecture": "千葉県",
     "line_name": "芝山鉄道線",
     "lat": 35.770091,
-    "lon": 140.387225
+    "lon": 140.387225,
+    "station_passenger_log": 7.564757012905729,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0116",
@@ -1701,7 +2545,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線我孫子支線",
     "lat": 35.868945,
-    "lon": 140.047754
+    "lon": 140.047754,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0123",
@@ -1709,7 +2557,11 @@
     "prefecture": "千葉県",
     "line_name": "JR武蔵野線",
     "lat": 35.770611,
-    "lon": 139.943848
+    "lon": 139.943848,
+    "station_passenger_log": 10.633617366693608,
+    "station_line_count": 3.0,
+    "station_operator_count": 3.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0006",
@@ -1717,7 +2569,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.386185,
-    "lon": 140.035995
+    "lon": 140.035995,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0068",
@@ -1725,7 +2581,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.34669,
-    "lon": 140.376706
+    "lon": 140.376706,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0325",
@@ -1733,7 +2593,11 @@
     "prefecture": "千葉県",
     "line_name": "東葉高速鉄道",
     "lat": 35.705888,
-    "lon": 139.980343
+    "lon": 139.980343,
+    "station_passenger_log": 9.07280095795412,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0004",
@@ -1741,7 +2605,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.390017,
-    "lon": 139.985847
+    "lon": 139.985847,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0164",
@@ -1749,7 +2617,11 @@
     "prefecture": "千葉県",
     "line_name": "いすみ鉄道",
     "lat": 35.259314,
-    "lon": 140.247381
+    "lon": 140.247381,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0148",
@@ -1757,7 +2629,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武線",
     "lat": 35.699811,
-    "lon": 140.00393
+    "lon": 140.00393,
+    "station_passenger_log": 10.575691956076149,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0332",
@@ -1765,7 +2641,11 @@
     "prefecture": "千葉県",
     "line_name": "東葉高速鉄道",
     "lat": 35.715458,
-    "lon": 140.126075
+    "lon": 140.126075,
+    "station_passenger_log": 10.219757081839822,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0118",
@@ -1773,7 +2653,11 @@
     "prefecture": "千葉県",
     "line_name": "JR東金線",
     "lat": 35.560172,
-    "lon": 140.363743
+    "lon": 140.363743,
+    "station_passenger_log": 8.96405612822033,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0134",
@@ -1781,7 +2665,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.63604,
-    "lon": 140.457587
+    "lon": 140.457587,
+    "station_passenger_log": 7.290974778142981,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0108",
@@ -1789,7 +2677,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.739386,
-    "lon": 140.795143
+    "lon": 140.795143,
+    "station_passenger_log": 6.732210706467206,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0081",
@@ -1797,7 +2689,11 @@
     "prefecture": "千葉県",
     "line_name": "JR常磐線各駅停車",
     "lat": 35.784472,
-    "lon": 139.900779
+    "lon": 139.900779,
+    "station_passenger_log": 12.080515091473,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "A"
   },
   {
     "station_id": "chiba_0276",
@@ -1805,7 +2701,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.790652,
-    "lon": 139.922833
+    "lon": 139.922833,
+    "station_passenger_log": 8.87332798950246,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0229",
@@ -1813,7 +2713,11 @@
     "prefecture": "千葉県",
     "line_name": "北総鉄道",
     "lat": 35.775377,
-    "lon": 139.957739
+    "lon": 139.957739,
+    "station_passenger_log": 8.54461378699223,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0087",
@@ -1821,7 +2725,11 @@
     "prefecture": "千葉県",
     "line_name": "JR常磐線各駅停車",
     "lat": 35.862316,
-    "lon": 139.971148
+    "lon": 139.971148,
+    "station_passenger_log": 12.337999626774812,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "A"
   },
   {
     "station_id": "chiba_0173",
@@ -1829,7 +2737,11 @@
     "prefecture": "千葉県",
     "line_name": "つくばエクスプレス線",
     "lat": 35.9109,
-    "lon": 139.957533
+    "lon": 139.957533,
+    "station_passenger_log": 9.62251624577579,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0172",
@@ -1837,23 +2749,35 @@
     "prefecture": "千葉県",
     "line_name": "つくばエクスプレス線",
     "lat": 35.89308,
-    "lon": 139.952454
+    "lon": 139.952454,
+    "station_passenger_log": 10.529452721013085,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0238",
-    "station_name": "栄町(千葉)",
+    "station_name": "栄町",
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール1号線",
     "lat": 35.612822,
-    "lon": 140.118592
+    "lon": 140.118592,
+    "station_passenger_log": 6.320768294250582,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0249",
-    "station_name": "桜木(千葉)",
+    "station_name": "桜木",
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール2号線",
     "lat": 35.631308,
-    "lon": 140.160935
+    "lon": 140.160935,
+    "station_passenger_log": 8.158802490694002,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0308",
@@ -1861,7 +2785,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.931575,
-    "lon": 139.891086
+    "lon": 139.891086,
+    "station_passenger_log": 9.625029474611878,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0107",
@@ -1869,7 +2797,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.765204,
-    "lon": 140.758875
+    "lon": 140.758875,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0187",
@@ -1877,7 +2809,11 @@
     "prefecture": "千葉県",
     "line_name": "京成千葉線",
     "lat": 35.652512,
-    "lon": 140.066656
+    "lon": 140.066656,
+    "station_passenger_log": 8.321907968230423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0024",
@@ -1885,7 +2821,11 @@
     "prefecture": "千葉県",
     "line_name": "JR京葉線",
     "lat": 35.637291,
-    "lon": 140.058888
+    "lon": 140.058888,
+    "station_passenger_log": 10.27294544533829,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0131",
@@ -1893,7 +2833,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.683967,
-    "lon": 140.288136
+    "lon": 140.288136,
+    "station_passenger_log": 8.12533508671429,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0005",
@@ -1901,7 +2845,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.386207,
-    "lon": 140.020138
+    "lon": 140.020138,
+    "station_passenger_log": 5.645446897643238,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0135",
@@ -1909,7 +2857,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.661739,
-    "lon": 140.490736
+    "lon": 140.490736,
+    "station_passenger_log": 7.738488122494646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0102",
@@ -1917,7 +2869,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.885508,
-    "lon": 140.570181
+    "lon": 140.570181,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0062",
@@ -1925,7 +2881,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.503129,
-    "lon": 140.311162
+    "lon": 140.311162,
+    "station_passenger_log": 7.3632795869630385,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0119",
@@ -1933,7 +2893,11 @@
     "prefecture": "千葉県",
     "line_name": "JR東金線",
     "lat": 35.579947,
-    "lon": 140.39626
+    "lon": 140.39626,
+    "station_passenger_log": 8.217978203150732,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0310",
@@ -1941,7 +2905,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.897344,
-    "lon": 139.91045
+    "lon": 139.91045,
+    "station_passenger_log": 10.02963550452414,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0055",
@@ -1949,7 +2917,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.062513,
-    "lon": 140.061026
+    "lon": 140.061026,
+    "station_passenger_log": 4.634728988229636,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0149",
@@ -1957,7 +2929,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武線",
     "lat": 35.691367,
-    "lon": 140.020179
+    "lon": 140.020179,
+    "station_passenger_log": 12.07619741812335,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "chiba_0338",
@@ -1965,7 +2941,11 @@
     "prefecture": "千葉県",
     "line_name": "流鉄流山線",
     "lat": 35.855771,
-    "lon": 139.901766
+    "lon": 139.901766,
+    "station_passenger_log": 7.804659297056102,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0171",
@@ -1973,7 +2953,11 @@
     "prefecture": "千葉県",
     "line_name": "つくばエクスプレス線",
     "lat": 35.871799,
-    "lon": 139.925044
+    "lon": 139.925044,
+    "station_passenger_log": 11.315705475634308,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "chiba_0170",
@@ -1981,7 +2965,11 @@
     "prefecture": "千葉県",
     "line_name": "つくばエクスプレス線",
     "lat": 35.854552,
-    "lon": 139.915223
+    "lon": 139.915223,
+    "station_passenger_log": 9.268703615273097,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0030",
@@ -1989,7 +2977,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.551876,
-    "lon": 140.132089
+    "lon": 140.132089,
+    "station_passenger_log": 9.584039577320697,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0043",
@@ -1997,15 +2989,23 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.168215,
-    "lon": 139.822141
+    "lon": 139.822141,
+    "station_passenger_log": 6.07073772800249,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0297",
-    "station_name": "浦安(千葉)",
+    "station_name": "浦安",
     "prefecture": "千葉県",
     "line_name": "東京メトロ東西線",
     "lat": 35.665932,
-    "lon": 139.893193
+    "lon": 139.893193,
+    "station_passenger_log": 11.246078166706276,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "chiba_0073",
@@ -2013,7 +3013,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.222674,
-    "lon": 140.379428
+    "lon": 140.379428,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0254",
@@ -2021,7 +3025,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.481729,
-    "lon": 140.124264
+    "lon": 140.124264,
+    "station_passenger_log": 4.74493212836325,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0023",
@@ -2029,7 +3037,11 @@
     "prefecture": "千葉県",
     "line_name": "JR京葉線",
     "lat": 35.648373,
-    "lon": 140.041917
+    "lon": 140.041917,
+    "station_passenger_log": 11.6118020050178,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "chiba_0201",
@@ -2037,7 +3049,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.705888,
-    "lon": 139.971888
+    "lon": 139.971888,
+    "station_passenger_log": 8.66785206770135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0347",
@@ -2045,7 +3061,11 @@
     "prefecture": "千葉県",
     "line_name": "銚子電鉄線",
     "lat": 35.722089,
-    "lon": 140.863096
+    "lon": 140.863096,
+    "station_passenger_log": 3.951243718581427,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0305",
@@ -2053,7 +3073,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.959364,
-    "lon": 139.85967
+    "lon": 139.85967,
+    "station_passenger_log": 8.458504195067558,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0115",
@@ -2061,7 +3085,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線我孫子支線",
     "lat": 35.867165,
-    "lon": 140.077959
+    "lon": 140.077959,
+    "station_passenger_log": 8.90449432889673,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0097",
@@ -2069,7 +3097,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.877079,
-    "lon": 140.347871
+    "lon": 140.347871,
+    "station_passenger_log": 7.044905117129371,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0289",
@@ -2077,7 +3109,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.737957,
-    "lon": 140.02622
+    "lon": 140.02622,
+    "station_passenger_log": 8.9085593751449,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0129",
@@ -2085,7 +3121,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.68566,
-    "lon": 140.200263
+    "lon": 140.200263,
+    "station_passenger_log": 8.975503722070927,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0349",
@@ -2093,7 +3133,11 @@
     "prefecture": "千葉県",
     "line_name": "銚子電鉄線",
     "lat": 35.706258,
-    "lon": 140.860935
+    "lon": 140.860935,
+    "station_passenger_log": 4.330733340286331,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0142",
@@ -2101,7 +3145,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.747383,
-    "lon": 140.7374
+    "lon": 140.7374,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0232",
@@ -2109,15 +3157,23 @@
     "prefecture": "千葉県",
     "line_name": "北総鉄道",
     "lat": 35.784723,
-    "lon": 140.0541
+    "lon": 140.0541,
+    "station_passenger_log": 9.146654820290047,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0240",
-    "station_name": "県庁前(千葉)",
+    "station_name": "県庁前",
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール1号線",
     "lat": 35.603958,
-    "lon": 140.12222
+    "lon": 140.12222,
+    "station_passenger_log": 7.382124365737512,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0226",
@@ -2125,7 +3181,11 @@
     "prefecture": "千葉県",
     "line_name": "北総鉄道",
     "lat": 35.757503,
-    "lon": 139.899742
+    "lon": 139.899742,
+    "station_passenger_log": 9.006509131694346,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0002",
@@ -2133,7 +3193,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.391528,
-    "lon": 139.948111
+    "lon": 139.948111,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0117",
@@ -2141,7 +3205,11 @@
     "prefecture": "千葉県",
     "line_name": "JR東金線",
     "lat": 35.54617,
-    "lon": 140.341904
+    "lon": 140.341904,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0228",
@@ -2149,7 +3217,11 @@
     "prefecture": "千葉県",
     "line_name": "北総鉄道",
     "lat": 35.765299,
-    "lon": 139.930723
+    "lon": 139.930723,
+    "station_passenger_log": 8.986946789406764,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0153",
@@ -2157,7 +3229,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武線",
     "lat": 35.637264,
-    "lon": 140.09256
+    "lon": 140.09256,
+    "station_passenger_log": 11.411213839563404,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "chiba_0025",
@@ -2165,15 +3241,23 @@
     "prefecture": "千葉県",
     "line_name": "JR京葉線",
     "lat": 35.629501,
-    "lon": 140.074034
+    "lon": 140.074034,
+    "station_passenger_log": 10.575947214398957,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0244",
-    "station_name": "穴川(千葉)",
+    "station_name": "穴川",
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール2号線",
     "lat": 35.639645,
-    "lon": 140.111849
+    "lon": 140.111849,
+    "station_passenger_log": 8.223090551161533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0094",
@@ -2181,7 +3265,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.773327,
-    "lon": 140.387871
+    "lon": 140.387871,
+    "station_passenger_log": 10.278733974060293,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0042",
@@ -2189,7 +3277,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.197582,
-    "lon": 139.830159
+    "lon": 139.830159,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0345",
@@ -2197,7 +3289,11 @@
     "prefecture": "千葉県",
     "line_name": "銚子電鉄線",
     "lat": 35.728427,
-    "lon": 140.856893
+    "lon": 140.856893,
+    "station_passenger_log": 4.0943445622221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0104",
@@ -2205,7 +3301,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.839753,
-    "lon": 140.655716
+    "lon": 140.655716,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0166",
@@ -2213,7 +3313,11 @@
     "prefecture": "千葉県",
     "line_name": "いすみ鉄道",
     "lat": 35.240588,
-    "lon": 140.240413
+    "lon": 140.240413,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0293",
@@ -2221,7 +3325,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.715293,
-    "lon": 140.042787
+    "lon": 140.042787,
+    "station_passenger_log": 9.453129675537228,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0015",
@@ -2229,7 +3337,11 @@
     "prefecture": "千葉県",
     "line_name": "JR京葉線",
     "lat": 35.636115,
-    "lon": 139.883714
+    "lon": 139.883714,
+    "station_passenger_log": 11.933692893086835,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "chiba_0147",
@@ -2237,7 +3349,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武線",
     "lat": 35.701865,
-    "lon": 139.984707
+    "lon": 139.984707,
+    "station_passenger_log": 12.433483080734137,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "A"
   },
   {
     "station_id": "chiba_0328",
@@ -2245,7 +3361,11 @@
     "prefecture": "千葉県",
     "line_name": "東葉高速鉄道",
     "lat": 35.726931,
-    "lon": 140.058962
+    "lon": 140.058962,
+    "station_passenger_log": 9.955652966516809,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0125",
@@ -2253,7 +3373,11 @@
     "prefecture": "千葉県",
     "line_name": "JR武蔵野線",
     "lat": 35.730435,
-    "lon": 139.966771
+    "lon": 139.966771,
+    "station_passenger_log": 10.451984613023129,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0204",
@@ -2261,7 +3385,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.689606,
-    "lon": 139.997998
+    "lon": 139.997998,
+    "station_passenger_log": 9.820594954446562,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0340",
@@ -2269,7 +3397,11 @@
     "prefecture": "千葉県",
     "line_name": "芝山鉄道線",
     "lat": 35.754248,
-    "lon": 140.399215
+    "lon": 140.399215,
+    "station_passenger_log": 7.258412150595307,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0065",
@@ -2277,7 +3409,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.426733,
-    "lon": 140.304121
+    "lon": 140.304121,
+    "station_passenger_log": 9.816676155549164,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0195",
@@ -2285,7 +3421,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.728272,
-    "lon": 139.919413
+    "lon": 139.919413,
+    "station_passenger_log": 8.478452363099807,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0239",
@@ -2293,7 +3433,11 @@
     "prefecture": "千葉県",
     "line_name": "千葉都市モノレール1号線",
     "lat": 35.608551,
-    "lon": 140.120142
+    "lon": 140.120142,
+    "station_passenger_log": 7.696212639346407,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0294",
@@ -2301,7 +3445,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.710271,
-    "lon": 140.037599
+    "lon": 140.037599,
+    "station_passenger_log": 9.570040734716605,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0027",
@@ -2309,7 +3457,11 @@
     "prefecture": "千葉県",
     "line_name": "JR京葉線",
     "lat": 35.582065,
-    "lon": 140.130767
+    "lon": 140.130767,
+    "station_passenger_log": 11.045430685926252,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "chiba_0078",
@@ -2317,7 +3469,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.11832,
-    "lon": 140.226962
+    "lon": 140.226962,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0299",
@@ -2325,7 +3481,11 @@
     "prefecture": "千葉県",
     "line_name": "東京メトロ東西線",
     "lat": 35.682686,
-    "lon": 139.914254
+    "lon": 139.914254,
+    "station_passenger_log": 10.872408684473482,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "chiba_0035",
@@ -2341,7 +3501,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武線",
     "lat": 35.622639,
-    "lon": 140.103337
+    "lon": 140.103337,
+    "station_passenger_log": 10.599904381963697,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0156",
@@ -2349,7 +3513,11 @@
     "prefecture": "千葉県",
     "line_name": "いすみ鉄道",
     "lat": 35.260407,
-    "lon": 140.378029
+    "lon": 140.378029,
+    "station_passenger_log": 2.833213344056216,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0346",
@@ -2357,7 +3525,11 @@
     "prefecture": "千葉県",
     "line_name": "銚子電鉄線",
     "lat": 35.725131,
-    "lon": 140.860207
+    "lon": 140.860207,
+    "station_passenger_log": 3.5263605246161616,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0167",
@@ -2365,7 +3537,11 @@
     "prefecture": "千葉県",
     "line_name": "いすみ鉄道",
     "lat": 35.25051,
-    "lon": 140.215176
+    "lon": 140.215176,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0190",
@@ -2373,7 +3549,11 @@
     "prefecture": "千葉県",
     "line_name": "京成千葉線",
     "lat": 35.617615,
-    "lon": 140.102801
+    "lon": 140.102801,
+    "station_passenger_log": 8.025516386489008,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0231",
@@ -2381,7 +3561,11 @@
     "prefecture": "千葉県",
     "line_name": "北総鉄道",
     "lat": 35.784364,
-    "lon": 140.031545
+    "lon": 140.031545,
+    "station_passenger_log": 9.442245428958966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0018",
@@ -2389,7 +3573,11 @@
     "prefecture": "千葉県",
     "line_name": "JR京葉線",
     "lat": 35.707283,
-    "lon": 139.959536
+    "lon": 139.959536,
+    "station_passenger_log": 12.82689372699571,
+    "station_line_count": 5.0,
+    "station_operator_count": 3.0,
+    "station_rank": "A"
   },
   {
     "station_id": "chiba_0343",
@@ -2397,7 +3585,11 @@
     "prefecture": "千葉県",
     "line_name": "銚子電鉄線",
     "lat": 35.728952,
-    "lon": 140.840112
+    "lon": 140.840112,
+    "station_passenger_log": 3.871201010907891,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0059",
@@ -2405,7 +3597,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.546996,
-    "lon": 140.213748
+    "lon": 140.213748,
+    "station_passenger_log": 9.49589518341179,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0205",
@@ -2413,7 +3609,11 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.685257,
-    "lon": 140.007658
+    "lon": 140.007658,
+    "station_passenger_log": 9.22217012372976,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0313",
@@ -2421,7 +3621,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.86657,
-    "lon": 139.93929
+    "lon": 139.93929,
+    "station_passenger_log": 9.613536240640304,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0316",
@@ -2429,7 +3633,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.823336,
-    "lon": 139.983812
+    "lon": 139.983812,
+    "station_passenger_log": 9.46179923427044,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0309",
@@ -2437,7 +3645,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.914392,
-    "lon": 139.906063
+    "lon": 139.906063,
+    "station_passenger_log": 9.945588728554764,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0048",
@@ -2445,7 +3657,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.028987,
-    "lon": 139.851388
+    "lon": 139.851388,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0127",
@@ -2453,7 +3669,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.636088,
-    "lon": 140.149222
+    "lon": 140.149222,
+    "station_passenger_log": 10.564963451139608,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0092",
@@ -2461,7 +3681,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.731737,
-    "lon": 140.275271
+    "lon": 140.275271,
+    "station_passenger_log": 8.84404789894249,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0264",
@@ -2469,7 +3693,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.336685,
-    "lon": 140.145505
+    "lon": 140.145505,
+    "station_passenger_log": 2.6390573296152584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0307",
@@ -2477,7 +3705,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.943652,
-    "lon": 139.870728
+    "lon": 139.870728,
+    "station_passenger_log": 9.07211225269274,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0143",
@@ -2485,23 +3717,35 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.729449,
-    "lon": 140.827557
+    "lon": 140.827557,
+    "station_passenger_log": 8.619208116822968,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0320",
-    "station_name": "鎌ケ谷",
+    "station_name": "鎌ヶ谷",
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.763765,
-    "lon": 139.997266
+    "lon": 139.997266,
+    "station_passenger_log": 9.955415645396489,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0286",
-    "station_name": "鎌ケ谷大仏",
+    "station_name": "鎌ヶ谷大仏",
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.757827,
-    "lon": 140.013823
+    "lon": 140.013823,
+    "station_passenger_log": 9.5253700659462,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0058",
@@ -2509,15 +3753,23 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.562795,
-    "lon": 140.178583
+    "lon": 140.178583,
+    "station_passenger_log": 10.525648805362788,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0034",
-    "station_name": "長浦(千葉)",
+    "station_name": "長浦",
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.450234,
-    "lon": 139.995478
+    "lon": 139.995478,
+    "station_passenger_log": 9.327323087461798,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0070",
@@ -2525,7 +3777,11 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.295839,
-    "lon": 140.385021
+    "lon": 140.385021,
+    "station_passenger_log": 6.3578422665081,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0038",
@@ -2533,7 +3789,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 35.330304,
-    "lon": 139.858189
+    "lon": 139.858189,
+    "station_passenger_log": 7.865187954187467,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0136",
@@ -2541,7 +3801,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.685638,
-    "lon": 140.522328
+    "lon": 140.522328,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0326",
@@ -2549,7 +3813,11 @@
     "prefecture": "千葉県",
     "line_name": "東葉高速鉄道",
     "lat": 35.71407,
-    "lon": 140.0223
+    "lon": 140.0223,
+    "station_passenger_log": 9.866667954397592,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0140",
@@ -2557,7 +3825,11 @@
     "prefecture": "千葉県",
     "line_name": "JR総武本線",
     "lat": 35.729339,
-    "lon": 140.683896
+    "lon": 140.683896,
+    "station_passenger_log": 7.1284959456800365,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0265",
@@ -2565,7 +3837,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.320512,
-    "lon": 140.142358
+    "lon": 140.142358,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0268",
@@ -2573,7 +3849,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.266409,
-    "lon": 140.159382
+    "lon": 140.159382,
+    "station_passenger_log": 4.356708826689592,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0049",
@@ -2581,7 +3861,11 @@
     "prefecture": "千葉県",
     "line_name": "JR内房線",
     "lat": 34.9959,
-    "lon": 139.861888
+    "lon": 139.861888,
+    "station_passenger_log": 7.964503363551548,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0101",
@@ -2589,7 +3873,11 @@
     "prefecture": "千葉県",
     "line_name": "JR成田線",
     "lat": 35.897856,
-    "lon": 140.532367
+    "lon": 140.532367,
+    "station_passenger_log": 0.0,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0007",
@@ -2597,7 +3885,11 @@
     "prefecture": "千葉県",
     "line_name": "JR久留里線",
     "lat": 35.36681,
-    "lon": 140.058485
+    "lon": 140.058485,
+    "station_passenger_log": 5.60947179518496,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0083",
@@ -2605,7 +3897,11 @@
     "prefecture": "千葉県",
     "line_name": "JR常磐線各駅停車",
     "lat": 35.811683,
-    "lon": 139.917305
+    "lon": 139.917305,
+    "station_passenger_log": 10.737374458155468,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0258",
@@ -2613,7 +3909,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.423795,
-    "lon": 140.114719
+    "lon": 140.114719,
+    "station_passenger_log": 4.897839799950911,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0321",
@@ -2621,7 +3921,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.741586,
-    "lon": 139.992199
+    "lon": 139.992199,
+    "station_passenger_log": 10.134956352596328,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "chiba_0317",
@@ -2629,7 +3933,11 @@
     "prefecture": "千葉県",
     "line_name": "東武野田線",
     "lat": 35.808211,
-    "lon": 139.998936
+    "lon": 139.998936,
+    "station_passenger_log": 9.638284261844774,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0290",
@@ -2637,7 +3945,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.730436,
-    "lon": 140.029382
+    "lon": 140.029382,
+    "station_passenger_log": 9.573802232603889,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0291",
@@ -2645,7 +3957,11 @@
     "prefecture": "千葉県",
     "line_name": "京成松戸線",
     "lat": 35.726625,
-    "lon": 140.034923
+    "lon": 140.034923,
+    "station_passenger_log": 8.989194823324645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0263",
@@ -2653,7 +3969,11 @@
     "prefecture": "千葉県",
     "line_name": "小湊鉄道",
     "lat": 35.353074,
-    "lon": 140.150246
+    "lon": 140.150246,
+    "station_passenger_log": 3.332204510175204,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0197",
@@ -2661,15 +3981,23 @@
     "prefecture": "千葉県",
     "line_name": "京成本線",
     "lat": 35.719776,
-    "lon": 139.937932
+    "lon": 139.937932,
+    "station_passenger_log": 8.626406276389554,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "chiba_0336",
-    "station_name": "鰭ケ崎",
+    "station_name": "鰭ヶ崎",
     "prefecture": "千葉県",
     "line_name": "流鉄流山線",
     "lat": 35.840948,
-    "lon": 139.911121
+    "lon": 139.911121,
+    "station_passenger_log": 7.051855622955894,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "chiba_0076",
@@ -2677,6 +4005,10 @@
     "prefecture": "千葉県",
     "line_name": "JR外房線",
     "lat": 35.140828,
-    "lon": 140.278446
+    "lon": 140.278446,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

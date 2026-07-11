@@ -2605,7 +2605,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 35.117029,
-    "lon": 134.748103
+    "lon": 134.748103,
+    "station_passenger_log": 9.145481799627689,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0328",

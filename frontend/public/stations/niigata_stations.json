@@ -813,7 +813,11 @@
     "prefecture": "新潟県",
     "line_name": "JR羽越本線",
     "lat": 38.219851,
-    "lon": 139.463306
+    "lon": 139.463306,
+    "station_passenger_log": 8.815221555922163,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "niigata_0040",
@@ -1501,7 +1505,11 @@
     "prefecture": "新潟県",
     "line_name": "日本海ひすいライン",
     "lat": 37.022469,
-    "lon": 137.795622
+    "lon": 137.795622,
+    "station_passenger_log": 7.302496423727326,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "niigata_0030",
