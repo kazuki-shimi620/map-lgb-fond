@@ -18,6 +18,7 @@ import {
   PredictionResultView,
   type PredictionSummary
 } from "./features/prediction/PredictionResultView";
+import { StationScaleCard } from "./features/stations/StationScaleCard";
 import { buildStationScaleRequestFields } from "./features/stations/stationScale";
 import { reverseGeocode } from "./services/geocodingService";
 import { distanceKmToWalkingMinutes, findNearestStation, loadStations } from "./services/stationService";
@@ -436,6 +437,7 @@ export function App() {
   }
 
   const stationOptions = stations.map((station) => station.station_name);
+  const selectedStation = stations.find((station) => station.station_name === form.station);
   const targetHistory = history.filter(
     (point) =>
       point.station === form.station &&
@@ -526,6 +528,7 @@ export function App() {
             prefecture={form.prefecture}
             municipality={form.municipality}
           />
+          <StationScaleCard station={selectedStation} stationName={form.station} />
           <HazardRiskCard latitude={form.lat} longitude={form.lon} />
           <PredictionDetailsPanel summary={predictionSummary} />
         </div>

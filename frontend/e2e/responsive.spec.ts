@@ -20,6 +20,7 @@ test.describe("レスポンシブ表示", () => {
     await expect(page.getByTestId("prediction-result")).toBeVisible();
     await expect(page.getByTestId("price-history-chart")).toBeVisible();
     await expect(page.getByTestId("commercial-facility-card")).toBeVisible();
+    await expect(page.getByTestId("station-scale-card")).toBeVisible();
     await expect(page.getByTestId("hazard-risk-card")).toBeVisible();
     await expect(page.getByTestId("model-detail-panel")).toBeVisible();
 
@@ -30,6 +31,7 @@ test.describe("レスポンシブ表示", () => {
         "prediction-result",
         "price-history-chart",
         "commercial-facility-card",
+        "station-scale-card",
         "hazard-risk-card",
         "model-detail-panel"
       ];
