@@ -11,10 +11,10 @@ cd "${ROOT_DIR}"
 echo "[model-update] run_id=${RUN_ID}"
 echo "[model-update] output_dir=${OUTPUT_DIR}"
 
-make snapshot-model-metrics SNAPSHOT_OUTPUT="${OUTPUT_DIR}/before_model_metrics.json"
-make refresh-production-artifacts ALLOW_MODEL_UPDATE=1
-make snapshot-model-metrics SNAPSHOT_OUTPUT="${OUTPUT_DIR}/after_model_metrics.json"
-make compare-model-metrics \
+make snapshot-model-metrics TRAINING_PYTHON=.venv/bin/python SNAPSHOT_OUTPUT="${OUTPUT_DIR}/before_model_metrics.json"
+make refresh-production-artifacts TRAINING_PYTHON=.venv/bin/python ALLOW_MODEL_UPDATE=1
+make snapshot-model-metrics TRAINING_PYTHON=.venv/bin/python SNAPSHOT_OUTPUT="${OUTPUT_DIR}/after_model_metrics.json"
+make compare-model-metrics TRAINING_PYTHON=.venv/bin/python \
   BEFORE_SNAPSHOT="${OUTPUT_DIR}/before_model_metrics.json" \
   AFTER_SNAPSHOT="${OUTPUT_DIR}/after_model_metrics.json" \
   REPORT_OUTPUT="${OUTPUT_DIR}/model_update_comparison.json" \
