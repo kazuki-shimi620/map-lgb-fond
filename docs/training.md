@@ -976,6 +976,24 @@ make compare-station-passenger-features
 
 ブラウザ推論ではAPIを呼ばず、学習側で生成した軽量JSONまたはモデル入力済み特徴量を利用する。
 
+## SurroundingFacilityProvider
+
+候補:
+
+```text
+nearest_large_park_distance_km
+large_park_count_within_3km
+nearest_hospital_distance_km
+hospital_count_within_3km
+nearest_university_distance_km
+university_count_within_3km
+redevelopment_project_count_last_5y
+```
+
+周辺特徴量の追加方針は `docs/surrounding-features.md` に記載する。
+
+初期実装では、施設名を大量のカテゴリ特徴量にせず、距離、件数、面積合計、データ有無に絞って比較する。
+
 ---
 
 # 22. 非目標

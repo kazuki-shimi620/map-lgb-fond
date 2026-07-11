@@ -16,6 +16,7 @@
 | JCSCオープンSC一覧 | `make collect-sc-all` | `training/data/processed/jcsc/jcsc_sc_open.csv` |
 | 駅別乗降客数 | `make collect-station-passengers` | `training/data/processed/station_passengers/station_groups.csv` |
 | ハザード情報 | `make collect-hazards HAZARD_INPUT=...` | `training/data/processed/hazards/hazard_features.csv` |
+| 周辺施設候補 | 未実装 | `docs/surrounding-features.md` で候補管理 |
 
 ハザード情報は自治体APIやダウンロード済みJSON/CSVを入力にし、学習側で正規化する。ブラウザから外部APIを直接呼ばない。
 
@@ -100,6 +101,8 @@ make compare-station-passenger-features
 5. 将来のデータ更新が自動化しやすい
 
 駅規模特徴量は、`station` カテゴリを削る軽量モデルとの相性も確認する。
+
+大学、病院、大型公園、再開発エリアなどの周辺特徴量は、`docs/surrounding-features.md` の採用基準に沿って個別に比較する。
 
 ---
 
