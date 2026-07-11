@@ -261,6 +261,21 @@ training/outputs/reports/{region}_edge_cases.md
 
 このレポートで件数、中央値、平米単価、駅徒歩、築年数の分布を確認し、前処理で除外するか、特徴量として残してモデルに学習させるかを判断する。高級物件や駅遠物件を一律に削除すると、実運用で入力された条件への外挿が弱くなるため、除外ルールはバックテストで確認してから採用する。
 
+外れ値処理候補の比較は、モデル成果物を更新せずに次のコマンドで実行する。
+
+```bash
+make compare-outlier-filters
+```
+
+出力:
+
+```text
+training/outputs/comparisons/outlier_filter_backtest.json
+training/outputs/comparisons/outlier_filter_backtest.md
+```
+
+初期候補は、現行前処理、高平米単価除外、高額帯除外、面積端除外、駅遠・築古除外、厳しめの複合除外を比較する。MAEだけでなく、除外率とテスト年ごとの件数を見て、実運用で入力されやすい築古・駅遠・高額物件を削りすぎないか確認する。
+
 ---
 
 ## 出力
