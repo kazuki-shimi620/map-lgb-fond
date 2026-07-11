@@ -279,6 +279,12 @@ export function App() {
     setIsSelectionSupported(false);
     clearPredictionState();
     setErrorMessage("");
+
+    if (!isLikelyJapanCoordinate(lat, lon)) {
+      rejectMapSelection();
+      return;
+    }
+
     setForm((current) => ({ ...current, lat, lon }));
 
     try {
@@ -666,6 +672,10 @@ function findNearbyStationNames(stations: StationRecord[], targetStation: string
 
 function isOkinawaMainIsland(lat: number, lon: number) {
   return lat >= 26.0 && lat <= 26.95 && lon >= 127.55 && lon <= 128.4;
+}
+
+function isLikelyJapanCoordinate(lat: number, lon: number) {
+  return lat >= 20.0 && lat <= 46.5 && lon >= 122.0 && lon <= 154.0;
 }
 
 function aggregateMarketByYear(points: PriceHistoryPoint[]) {
