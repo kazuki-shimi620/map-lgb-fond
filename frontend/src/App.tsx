@@ -14,6 +14,7 @@ import {
   PredictionYearControl
 } from "./features/prediction/PredictionForm";
 import { PredictionResultView } from "./features/prediction/PredictionResultView";
+import { buildStationScaleRequestFields } from "./features/stations/stationScale";
 import { reverseGeocode } from "./services/geocodingService";
 import { distanceKmToWalkingMinutes, findNearestStation, loadStations } from "./services/stationService";
 import type { ModelMetadata, PriceHistoryPoint, StationRecord } from "./types/assets";
@@ -750,16 +751,6 @@ function aggregateComparableBuckets(
   return {
     avgUnitPrice: transactionCount > 0 ? weightedUnitPrice / transactionCount : 0,
     transactionCount
-  };
-}
-
-function buildStationScaleRequestFields(stations: StationRecord[], stationName: string) {
-  const station = stations.find((candidate) => candidate.station_name === stationName);
-  return {
-    stationPassengerLog: station?.station_passenger_log ?? 0,
-    stationLineCount: station?.station_line_count ?? 0,
-    stationOperatorCount: station?.station_operator_count ?? 0,
-    stationRank: station?.station_rank ?? "unknown"
   };
 }
 

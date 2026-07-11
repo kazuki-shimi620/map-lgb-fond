@@ -209,6 +209,8 @@ station_rank
 
 駅規模項目は任意。モデルの `featureOrder` に駅別乗降客数特徴量が含まれる場合、駅マスタJSONに含まれる値からブラウザ側で `effective_station_scale` と `has_station_passenger_data` を計算してONNX入力に渡す。
 
+駅マスタに乗降客数がない駅を選んだ場合は、`stationPassengerLog`、`stationLineCount`、`stationOperatorCount` を `0`、`stationRank` を `unknown` として推論する。`ModelManager` は `stationPassengerLog > 0` の場合だけ `hasStationPassengerData = 1` として扱うため、欠損駅でもONNX入力の特徴量数と順序は変わらない。
+
 ---
 
 ## 動作
