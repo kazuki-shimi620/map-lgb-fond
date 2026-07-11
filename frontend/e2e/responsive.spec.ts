@@ -17,6 +17,7 @@ test.describe("レスポンシブ表示", () => {
 
     await expect(page.getByTestId("property-map")).toBeVisible();
     await expect(page.getByTestId("prediction-form")).toBeVisible();
+    await expect(page.getByRole("radiogroup", { name: "将来シナリオ" })).toBeVisible();
     await expect(page.getByTestId("prediction-result")).toBeVisible();
     await expect(page.getByTestId("price-history-chart")).toBeVisible();
     await expect(page.getByTestId("commercial-facility-card")).toBeVisible();

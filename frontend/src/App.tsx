@@ -11,7 +11,8 @@ import {
 import { PriceHistoryChart } from "./features/prediction/PriceHistoryChart";
 import {
   PredictionForm,
-  PredictionSheetHandle
+  PredictionSheetHandle,
+  type FutureScenario
 } from "./features/prediction/PredictionForm";
 import {
   PredictionDetailsPanel,
@@ -26,6 +27,8 @@ import type {
   CommercialFacilitySummary,
   ModelMetadata,
   PriceHistoryPoint,
+  PriceTrend,
+  PriceTrendSummary,
   StationRecord
 } from "./types/assets";
 import type { PredictionFormState, PredictionResult, StationRegion } from "./types/prediction";
@@ -65,6 +68,8 @@ export function App() {
     price: number;
   } | null>(null);
   const [history, setHistory] = useState<PriceHistoryPoint[]>([]);
+  const [trendSummary, setTrendSummary] = useState<PriceTrendSummary | null>(null);
+  const [futureScenario, setFutureScenario] = useState<FutureScenario>("base");
   const [isArchiveLoaded, setIsArchiveLoaded] = useState(false);
   const [isArchiveLoading, setIsArchiveLoading] = useState(false);
   const [stations, setStations] = useState<StationRecord[]>([]);
@@ -115,6 +120,7 @@ export function App() {
     activeStationRegionRef.current = currentStationRegion;
     setIsModelReady(false);
     setHistory([]);
+    setTrendSummary(null);
     setHistoryModelAnchor(null);
     setIsArchiveLoaded(false);
     setIsArchiveLoading(false);
@@ -122,13 +128,15 @@ export function App() {
 
     async function loadRegionAssets() {
       try {
-        const [nextStations, nextHistory] = await Promise.all([
+        const [nextStations, nextHistory, nextTrendSummary] = await Promise.all([
           loadStations(currentStationRegion),
-          fetchJson<PriceHistoryPoint[]>(`./histories/${currentStationRegion}_latest_history.json`)
+          fetchJson<PriceHistoryPoint[]>(`./histories/${currentStationRegion}_latest_history.json`),
+          fetchJson<PriceTrendSummary>(`./histories/${currentStationRegion}_trend_summary.json`).catch(() => null)
         ]);
         if (!disposed) {
           setStations(nextStations);
           setHistory(nextHistory);
+          setTrendSummary(nextTrendSummary);
           setForm((current) =>
             current.prefecture === currentPrefecture && !current.station && nextStations.length > 0
               ? { ...current, station: nextStations[0].station_name }
@@ -386,7 +394,13 @@ export function App() {
           result: nextResult,
           forecastPoints: nextForecastPoints,
           basePrice
-        } = await predictWithFutureTrend(manager, predictionRequest, history);
+        } = await predictWithFutureTrend(
+          manager,
+          predictionRequest,
+          history,
+          trendSummary,
+          futureScenario
+        );
         if (!disposed) {
           setResult(nextResult);
           setForecastPoints(nextForecastPoints);
@@ -412,7 +426,7 @@ export function App() {
       disposed = true;
       window.clearTimeout(timer);
     };
-  }, [form, history, isModelReady, isSelectionSupported, region]);
+  }, [form, futureScenario, history, isModelReady, isSelectionSupported, region, trendSummary]);
 
   function handleFormChange(nextForm: PredictionFormState) {
     if (nextForm.prefecture !== form.prefecture) {
@@ -510,6 +524,8 @@ export function App() {
             value={form}
             onChange={handleFormChange}
             stationOptions={stationOptions}
+            futureScenario={futureScenario}
+            onFutureScenarioChange={setFutureScenario}
             stationDistanceSource={stationDistanceSource}
             sheetState={formSheetState}
             predictionYearRange={predictionYearRange}
@@ -792,7 +808,9 @@ function aggregateComparableBuckets(
 async function predictWithFutureTrend(
   manager: ReturnType<typeof getModelManager>,
   request: PredictionFormState,
-  history: PriceHistoryPoint[]
+  history: PriceHistoryPoint[],
+  trendSummary: PriceTrendSummary | null,
+  scenario: FutureScenario
 ) {
   const metadata = manager.getMetadata();
   if (!metadata || request.predictionYear <= metadata.latestTrainingYear) {
@@ -806,6 +824,10 @@ async function predictWithFutureTrend(
 
   const baseYear = metadata.latestTrainingYear;
   const baseResult = await manager.predict({ ...request, predictionYear: baseYear });
+  const scenarioAnnualRate = buildScenarioAnnualRate(
+    selectFutureTrend(trendSummary, request.station),
+    scenario
+  );
   const annualChange = estimateAnnualPriceChange(
     history,
     request.prefecture,
@@ -815,10 +837,16 @@ async function predictWithFutureTrend(
   const forecastPoints: PriceHistoryPoint[] = [];
 
   for (let year = baseYear + 1; year <= request.predictionYear; year += 1) {
+    const yearsFromBase = year - baseYear;
     forecastPoints.push({
       station: request.station,
       year,
-      avg_price: Math.max(1000000, baseResult.predictedPrice + annualChange * (year - baseYear))
+      avg_price: Math.max(
+        1000000,
+        scenarioAnnualRate === null
+          ? baseResult.predictedPrice + annualChange * yearsFromBase
+          : baseResult.predictedPrice * Math.pow(1 + scenarioAnnualRate, yearsFromBase)
+      )
     });
   }
 
@@ -833,6 +861,43 @@ async function predictWithFutureTrend(
     forecastPoints,
     basePrice: baseResult.predictedPrice
   };
+}
+
+function selectFutureTrend(
+  trendSummary: PriceTrendSummary | null,
+  station: string
+): PriceTrend | null {
+  if (!trendSummary) {
+    return null;
+  }
+
+  const stationTrend = trendSummary.stationTrends[station];
+  if (stationTrend?.annualizedRate !== null && stationTrend?.annualizedRate !== undefined) {
+    return stationTrend;
+  }
+
+  return trendSummary.regionalTrend.annualizedRate !== null
+    ? trendSummary.regionalTrend
+    : null;
+}
+
+function buildScenarioAnnualRate(trend: PriceTrend | null, scenario: FutureScenario) {
+  if (!trend || trend.annualizedRate === null) {
+    return null;
+  }
+
+  if (scenario === "flat") {
+    return 0;
+  }
+
+  const width = Math.min(0.015, Math.max(0.01, (trend.volatility ?? 0.02) * 0.5));
+  if (scenario === "bear") {
+    return trend.annualizedRate - width;
+  }
+  if (scenario === "bull") {
+    return trend.annualizedRate + width;
+  }
+  return trend.annualizedRate;
 }
 
 function estimateAnnualPriceChange(

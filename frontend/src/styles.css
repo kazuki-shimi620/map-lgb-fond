@@ -324,6 +324,44 @@ label,
   grid-column: 1 / -1;
 }
 
+.future-scenario-field {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 8px;
+  min-height: 0;
+}
+
+.segmented-control {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 4px;
+  min-height: 44px;
+  border: 1px solid #c9d2df;
+  border-radius: 6px;
+  background: #f8fafc;
+  padding: 4px;
+}
+
+.segmented-control button {
+  min-width: 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: #344054;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.segmented-control button:hover {
+  background: #eaf7f5;
+}
+
+.segmented-control button.is-selected {
+  background: #0f766e;
+  color: #fff;
+}
+
 .form-prediction-year {
   display: grid;
 }
@@ -485,6 +523,7 @@ select {
   input:focus-visible,
   select:focus-visible,
   .custom-select-trigger:focus-visible,
+  .segmented-control button:focus-visible,
   .detail-toggle:focus-visible,
   .map-search button:focus-visible,
   .map-search input:focus-visible {

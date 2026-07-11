@@ -15,6 +15,8 @@ type Props = {
   value: PredictionFormState;
   onChange: (next: PredictionFormState) => void;
   stationOptions: string[];
+  futureScenario: FutureScenario;
+  onFutureScenarioChange: (next: FutureScenario) => void;
   stationDistanceSource?: "map" | "manual";
   sheetState?: "collapsed" | "half" | "open";
   predictionYearRange?: {
@@ -39,6 +41,13 @@ type PredictionYearControlProps = {
   className?: string;
 };
 
+export type FutureScenario = "bear" | "flat" | "base" | "bull";
+
+type FutureScenarioControlProps = {
+  value: FutureScenario;
+  onChange: (next: FutureScenario) => void;
+};
+
 type SelectFieldProps = {
   label: string;
   value: string;
@@ -50,6 +59,8 @@ export function PredictionForm({
   value,
   onChange,
   stationOptions,
+  futureScenario,
+  onFutureScenarioChange,
   stationDistanceSource = "manual",
   sheetState = "open",
   predictionYearRange,
@@ -140,6 +151,11 @@ export function PredictionForm({
         value={value.predictionYear}
         onChange={(nextValue) => update("predictionYear", nextValue)}
         predictionYearRange={predictionYearRange}
+      />
+
+      <FutureScenarioControl
+        value={futureScenario}
+        onChange={onFutureScenarioChange}
       />
     </section>
   );
@@ -249,6 +265,39 @@ export function PredictionYearControl({
         onChange={(event) => onChange(Number(event.target.value))}
       />
     </label>
+  );
+}
+
+function FutureScenarioControl({ value, onChange }: FutureScenarioControlProps) {
+  const scenarios: Array<{ value: FutureScenario; label: string }> = [
+    { value: "bear", label: "弱気" },
+    { value: "flat", label: "横ばい" },
+    { value: "base", label: "標準" },
+    { value: "bull", label: "強気" }
+  ];
+
+  return (
+    <div className="future-scenario-field">
+      <span className="field-heading">
+        将来シナリオ
+        <strong>{scenarios.find((scenario) => scenario.value === value)?.label}</strong>
+      </span>
+      <div className="segmented-control" role="radiogroup" aria-label="将来シナリオ">
+        {scenarios.map((scenario) => (
+          <button
+            key={scenario.value}
+            type="button"
+            role="radio"
+            aria-checked={scenario.value === value}
+            className={scenario.value === value ? "is-selected" : ""}
+            onClick={() => onChange(scenario.value)}
+          >
+            {scenario.label}
+          </button>
+        ))}
+      </div>
+      <span className="field-note">過去トレンドから作る参考レンジ</span>
+    </div>
   );
 }
 

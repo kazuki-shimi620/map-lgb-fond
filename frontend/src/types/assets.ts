@@ -83,6 +83,22 @@ export type ModelManifest = {
   models: Record<string, ModelAsset>;
 };
 
+export type PriceTrend = {
+  annualizedRate: number | null;
+  volatility: number | null;
+  sampleYears: number;
+  startYear: number | null;
+  endYear: number | null;
+};
+
+export type PriceTrendSummary = {
+  schemaVersion: number;
+  region: string;
+  latestTrainingYear: number | null;
+  regionalTrend: PriceTrend;
+  stationTrends: Record<string, PriceTrend>;
+};
+
 export type CommercialFacilityAreaSummary = {
   prefecture?: string;
   city?: string;
