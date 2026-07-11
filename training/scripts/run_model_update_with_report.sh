@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+trap 'status=$?; echo "[model-update] failed status=${status} line=${LINENO}"; exit ${status}' ERR
 
 RUN_ID="${MODEL_UPDATE_RUN_ID:-$(date +%Y%m%d_%H%M%S)}"
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"

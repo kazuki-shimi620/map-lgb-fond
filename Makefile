@@ -248,7 +248,7 @@ refresh-production-artifacts:
 
 model-update-background:
 	@mkdir -p training/outputs/comparisons
-	@MODEL_UPDATE_RUN_ID=$(MODEL_UPDATE_RUN_ID) nohup bash training/scripts/run_model_update_with_report.sh > "$(MODEL_UPDATE_LOG)" 2>&1 & \
+	@MODEL_UPDATE_RUN_ID=$(MODEL_UPDATE_RUN_ID) PYTHONUNBUFFERED=1 nohup bash training/scripts/run_model_update_with_report.sh > "$(MODEL_UPDATE_LOG)" 2>&1 < /dev/null & \
 		echo $$! > "$(MODEL_UPDATE_PID)"; \
 		echo "model update started"; \
 		echo "run_id=$(MODEL_UPDATE_RUN_ID)"; \
