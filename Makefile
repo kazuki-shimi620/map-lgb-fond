@@ -37,7 +37,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models compare-models compare-national-models compare-commercial-features compare-station-passenger-features histories-national stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models compare-models compare-national-models compare-commercial-features compare-station-passenger-features check-feature-order histories-national stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -92,6 +92,8 @@ help:
 	@echo "                          JCSC商業施設特徴量のバックテストを実行"
 	@echo "  make compare-station-passenger-features"
 	@echo "                          駅別乗降客数特徴量のバックテストを実行"
+	@echo "  make check-feature-order"
+	@echo "                          config/metadata の特徴量がフロント推論で扱えるか確認"
 	@echo "  make histories-national 類似条件比較用の全国価格推移JSONを再生成"
 	@echo "  make stations           駅マスタJSONを再生成"
 	@echo "  make stations-national  全国47都道府県の駅マスタJSONを再生成"
@@ -208,6 +210,10 @@ compare-commercial-features:
 
 compare-station-passenger-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_station_passenger_features.py
+
+check-feature-order:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.feature_order \
+		--config configs/tokyo.yaml configs/kanagawa.yaml configs/saitama.yaml configs/chiba.yaml
 
 histories-national:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.histories --public-dir ../$(FRONTEND_DIR)/public

@@ -131,6 +131,10 @@ frontend/public/histories/
 
 成果物反映後は `featureOrder` とフロントエンドの推論入力順が一致していることを確認する。
 
+```bash
+make check-feature-order
+```
+
 ---
 
 # 8. 検証
@@ -152,4 +156,3 @@ npm run test:e2e:screenshots
 ```
 
 スクリーンショットは `docs/images/` に出力し、差分を確認してからコミットする。
-
