@@ -117,6 +117,40 @@ make stations
 make histories-national
 ```
 
+チャットやターミナル接続が途中で切れる可能性がある場合は、更新前後の指標記録を含むバックグラウンド実行を使う。
+
+```bash
+make model-update-background
+```
+
+このコマンドは以下を順に実行する。
+
+```text
+更新前の frontend/public モデル指標を保存
+↓
+make refresh-production-artifacts ALLOW_MODEL_UPDATE=1
+↓
+更新後の frontend/public モデル指標を保存
+↓
+更新前後のMAE/RMSE/MAPE/ONNXサイズ差分をMarkdown/JSONで保存
+```
+
+出力例:
+
+```text
+training/outputs/comparisons/model_update_YYYYMMDD_HHMMSS/
+├── before_model_metrics.json
+├── after_model_metrics.json
+├── model_update_comparison.json
+└── model_update_comparison.md
+```
+
+ログを追う場合:
+
+```bash
+make model-update-log MODEL_UPDATE_LOG=training/outputs/comparisons/model_update_YYYYMMDD_HHMMSS.log
+```
+
 全国駅マスタを更新する場合:
 
 ```bash

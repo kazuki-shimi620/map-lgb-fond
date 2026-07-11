@@ -30,6 +30,14 @@ HAZARD_INPUT ?=
 HAZARD_URL ?=
 FEATURE_ORDER_CONFIGS ?= configs/tokyo.yaml configs/kanagawa.yaml configs/saitama.yaml configs/chiba.yaml
 FEATURE_ORDER_METADATA ?= ../$(FRONTEND_DIR)/public/metadata/tokyo_latest_metadata.json ../$(FRONTEND_DIR)/public/metadata/kanagawa_latest_metadata.json ../$(FRONTEND_DIR)/public/metadata/saitama_latest_metadata.json ../$(FRONTEND_DIR)/public/metadata/chiba_latest_metadata.json
+MODEL_UPDATE_RUN_ID := $(or $(MODEL_UPDATE_RUN_ID),$(shell date +%Y%m%d_%H%M%S))
+MODEL_UPDATE_LOG ?= training/outputs/comparisons/model_update_$(MODEL_UPDATE_RUN_ID).log
+MODEL_UPDATE_PID ?= training/outputs/comparisons/model_update_$(MODEL_UPDATE_RUN_ID).pid
+SNAPSHOT_OUTPUT ?= outputs/comparisons/model_metrics_snapshot.json
+BEFORE_SNAPSHOT ?= outputs/comparisons/model_update_before.json
+AFTER_SNAPSHOT ?= outputs/comparisons/model_update_after.json
+REPORT_OUTPUT ?= outputs/comparisons/model_update_comparison.json
+MARKDOWN_OUTPUT ?= outputs/comparisons/model_update_comparison.md
 UV := $(shell command -v uv 2>/dev/null)
 
 ifeq ($(UV),)
@@ -41,7 +49,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -93,6 +101,14 @@ help:
 	@echo "                          首都圏専用＋8地方モデルを本番用に一括生成"
 	@echo "  make refresh-production-artifacts ALLOW_MODEL_UPDATE=1"
 	@echo "                          データ取得から本番用モデル・静的成果物検証までを一括実行"
+	@echo "  make model-update-background"
+	@echo "                          モデル更新をバックグラウンドで実行し、更新前後の指標差分を記録"
+	@echo "  make model-update-log MODEL_UPDATE_LOG=path/to/log"
+	@echo "                          バックグラウンド実行ログを追尾"
+	@echo "  make snapshot-model-metrics SNAPSHOT_OUTPUT=path/to/json"
+	@echo "                          public配下の現行モデル指標をスナップショット保存"
+	@echo "  make compare-model-metrics BEFORE_SNAPSHOT=... AFTER_SNAPSHOT=..."
+	@echo "                          モデル指標スナップショットを比較"
 	@echo "  make compare-models     首都圏の共通・軽量モデルを現行4モデルと比較"
 	@echo "  make compare-national-models"
 	@echo "                          全国1モデル、8地方モデル、地域補正モデルを比較"
@@ -229,6 +245,25 @@ refresh-production-artifacts:
 	$(MAKE) stations-national
 	$(MAKE) check-feature-order
 	$(MAKE) build
+
+model-update-background:
+	@mkdir -p training/outputs/comparisons
+	@MODEL_UPDATE_RUN_ID=$(MODEL_UPDATE_RUN_ID) nohup bash training/scripts/run_model_update_with_report.sh > "$(MODEL_UPDATE_LOG)" 2>&1 & \
+		echo $$! > "$(MODEL_UPDATE_PID)"; \
+		echo "model update started"; \
+		echo "run_id=$(MODEL_UPDATE_RUN_ID)"; \
+		echo "pid=$$(cat "$(MODEL_UPDATE_PID)")"; \
+		echo "log=$(MODEL_UPDATE_LOG)"; \
+		echo "report=training/outputs/comparisons/model_update_$(MODEL_UPDATE_RUN_ID)/model_update_comparison.md"
+
+model-update-log:
+	tail -f "$(MODEL_UPDATE_LOG)"
+
+snapshot-model-metrics:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/model_update_report.py snapshot --public-dir ../$(FRONTEND_DIR)/public --output "$(SNAPSHOT_OUTPUT)"
+
+compare-model-metrics:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/model_update_report.py compare --before "$(BEFORE_SNAPSHOT)" --after "$(AFTER_SNAPSHOT)" --output "$(REPORT_OUTPUT)" --markdown-output "$(MARKDOWN_OUTPUT)"
 
 compare-models:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_models.py
