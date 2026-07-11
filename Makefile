@@ -41,7 +41,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features check-feature-order histories-national stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features summarize-edge-cases check-feature-order histories-national stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -102,6 +102,8 @@ help:
 	@echo "                          駅別乗降客数特徴量のバックテストを実行"
 	@echo "  make compare-external-features"
 	@echo "                          商業施設と駅規模の組み合わせバックテストを実行"
+	@echo "  make summarize-edge-cases REGION=tokyo"
+	@echo "                          築古・駅遠・高額帯などの件数と分布を集計"
 	@echo "  make check-feature-order"
 	@echo "                          config/metadata の特徴量がフロント推論で扱えるか確認"
 	@echo "  make histories-national 類似条件比較用の全国価格推移JSONを再生成"
@@ -238,6 +240,9 @@ compare-station-passenger-features:
 
 compare-external-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_external_features.py
+
+summarize-edge-cases:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/dataset_edge_cases.py --input $(PROCESSED_OUTPUT) --region $(REGION)
 
 check-feature-order:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.feature_order \

@@ -246,6 +246,21 @@ price
 area
 ```
 
+築古、駅遠、高額帯、極端な平米単価は、すぐに除外せずエッジケースとして分布を確認する。
+
+```bash
+make summarize-edge-cases REGION=tokyo
+```
+
+出力:
+
+```text
+training/outputs/reports/{region}_edge_cases.json
+training/outputs/reports/{region}_edge_cases.md
+```
+
+このレポートで件数、中央値、平米単価、駅徒歩、築年数の分布を確認し、前処理で除外するか、特徴量として残してモデルに学習させるかを判断する。高級物件や駅遠物件を一律に削除すると、実運用で入力された条件への外挿が弱くなるため、除外ルールはバックテストで確認してから採用する。
+
 ---
 
 ## 出力
