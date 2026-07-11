@@ -366,6 +366,19 @@ sc_tenant_count_sum_within_3km
 
 改善が小さい、地域により効果が不安定、重要度が低い、欠損が多い特徴量は採用しない。
 
+2026-07-10時点の首都圏バックテストでは、2015〜2025年学習、2023〜2025年評価で、商業施設特徴量を追加してもベースラインを安定して上回らなかった。
+
+```text
+baseline_2015_window MAE: 5,447,875円
+city_counts MAE: 5,449,008円
+city_counts_and_scale MAE: 5,450,699円
+city_counts_scale_prefecture_trend MAE: 5,502,511円
+baseline_no_station MAE: 6,128,259円
+city_counts_no_station MAE: 6,126,680円
+```
+
+現時点では、商業施設特徴量は本番モデルの初期採用候補から外す。`station` カテゴリなしの軽量モデルでは `city_counts_no_station` がごく小さく改善したが、改善幅が小さいため、駅規模特徴量やハザード特徴量と組み合わせる比較時に再評価する。
+
 ---
 
 # 13. 将来拡張

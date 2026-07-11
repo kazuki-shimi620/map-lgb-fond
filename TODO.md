@@ -23,20 +23,12 @@ P3 = 将来拡張または検証後に着手するもの
 
 ### P1 データ更新
 
-* [ ] `make collect-sc-all` で2015年以降のJCSCオープンSC一覧を再取得する
-* [ ] `make collect-station-passengers` で駅別乗降客数を再取得する
-* [ ] `make collect-data` が不動産CSV、JCSC、駅別乗降客数を意図通り一括更新できるか確認する
 * [ ] `make stations` で首都圏4都県の駅マスタJSONを駅規模特徴量付きで再生成する
 * [ ] `make stations-national` を実行する場合、全国駅マスタに首都圏以外の駅規模欠損がどの程度出るか確認する
 
 ### P1 ショッピングセンター特徴量
 
-* [ ] `make compare-commercial-features` の結果を確認し、採用する商業施設特徴量セットを決める
-* [ ] 商業施設特徴量を4都県モデル、全国8地方モデル、全国ベース補正モデルのどこまで入れるか比較する
-
-### P1 駅規模特徴量
-
-* [ ] `make compare-station-passenger-features` の結果を最新データで再確認する
+* [ ] 商業施設特徴量を駅規模・ハザード特徴量と組み合わせる比較時に再評価する
 
 ### P2 モデル更新時にまとめて実施
 

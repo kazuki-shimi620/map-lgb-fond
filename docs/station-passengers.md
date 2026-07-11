@@ -210,7 +210,7 @@ has_station_passenger_data
 
 `station_rank` はカテゴリ数が少ないため比較候補に含めるが、効果が薄い場合は外す。`station_passenger_count` は歪みが大きいため、原則として `station_passenger_log` を優先する。
 
-最寄駅との結合は、まず駅名を正規化して一致させる。同名駅が複数ある場合は、乗降客数が最大の駅グループを代表値にする。将来、駅マスタの座標と物件位置を使える段階では、駅名と距離の両方で照合する。
+最寄駅との結合は、まず駅名を正規化して一致させる。同名駅が複数あり、駅別乗降客数と物件データの両方に座標がある場合は、駅名一致候補の中から物件座標に最も近い駅グループを採用する。座標がない場合は、乗降客数が最大の駅グループを代表値にする。
 
 バックテストは以下で実行する。
 
@@ -218,7 +218,7 @@ has_station_passenger_data
 make compare-station-passenger-features
 ```
 
-2026-07-10時点の首都圏バックテストでは、`station` カテゴリを残す場合は `station_scale_numeric` がベースラインよりMAEを約2.5万円改善した。`station` カテゴリを外す軽量案では、`station_scale_numeric_rank_no_station` が `baseline_no_station` よりMAEを約41.8万円改善した。ブラウザ配布サイズを優先する場合は、駅カテゴリ辞書を持たない軽量案を候補にする。
+2026-07-10時点の首都圏バックテストでは、`station` カテゴリを残す場合は `station_scale_numeric` がベースラインよりMAEを約2.5万円改善した。`station` カテゴリを外す軽量案では、`station_scale_numeric_rank_no_station` が `baseline_no_station` よりMAEを約41.8万円改善した。駅乗降客数マッチ件数は477,133件中419,802件だった。ブラウザ配布サイズを優先する場合は、駅カテゴリ辞書を持たない軽量案を候補にする。
 
 4都県の個別モデル設定は、この軽量案に合わせて `station` カテゴリを外し、以下を利用する。
 
