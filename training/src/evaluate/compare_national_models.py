@@ -83,6 +83,27 @@ def compare_national_models(
         )
         for candidate, group_column in candidates
     ]
+    correction_candidate = Candidate("nationwide_balanced_220", 220, 0.065, 31, 7, 50)
+    rows.extend(
+        [
+            _train_residual_correction_candidate(
+                name="nationwide_regional_residual_220",
+                candidate=correction_candidate,
+                correction_column="model_group",
+                data=data,
+                test_year=test_year,
+                output_dir=output_dir,
+            ),
+            _train_residual_correction_candidate(
+                name="nationwide_prefecture_residual_220",
+                candidate=correction_candidate,
+                correction_column="prefecture",
+                data=data,
+                test_year=test_year,
+                output_dir=output_dir,
+            ),
+        ]
+    )
     report = {
         "generatedAt": datetime.now().astimezone().isoformat(timespec="seconds"),
         "trainStartYear": train_start_year,
@@ -170,6 +191,105 @@ def _train_grouped_candidate(
     }
 
 
+def _train_residual_correction_candidate(
+    *, name: str, candidate: Candidate, correction_column: str, data, test_year: int, output_dir: Path
+):
+    group_train_mask = data["transaction_year"] < test_year
+    group_test_mask = ~group_train_mask
+    encoding = build_and_apply_category_dictionary(data, BASE_CATEGORICAL_FEATURES)
+    encoded = encoding.dataframe
+    params = {
+        "n_estimators": candidate.n_estimators,
+        "learning_rate": candidate.learning_rate,
+        "num_leaves": candidate.num_leaves,
+        "max_depth": candidate.max_depth,
+        "min_child_samples": candidate.min_child_samples,
+        "random_state": 42,
+        "n_jobs": -1,
+    }
+    started = time.perf_counter()
+    model = train_model(
+        encoded.loc[group_train_mask, BASE_FEATURES],
+        encoded.loc[group_train_mask, "price"],
+        BASE_CATEGORICAL_FEATURES,
+        params,
+    )
+    training_seconds = time.perf_counter() - started
+
+    train_predictions = model.predict(encoded.loc[group_train_mask, BASE_FEATURES])
+    corrections = build_residual_corrections(
+        groups=data.loc[group_train_mask, correction_column],
+        residuals=encoded.loc[group_train_mask, "price"].to_numpy() - train_predictions,
+    )
+    test_predictions = model.predict(encoded.loc[group_test_mask, BASE_FEATURES])
+    corrected_predictions = test_predictions + map_residual_corrections(
+        data.loc[group_test_mask, correction_column],
+        corrections,
+    )
+
+    group_dir = output_dir / name
+    group_dir.mkdir(parents=True, exist_ok=True)
+    onnx_path = group_dir / "nationwide.onnx"
+    corrections_path = group_dir / "residual_corrections.json"
+    export_onnx_if_available(model, len(BASE_FEATURES), onnx_path)
+    save_json(encoding.dictionary, group_dir / "nationwide_categories.json")
+    save_json(corrections, corrections_path)
+
+    onnx_bytes = onnx_path.stat().st_size
+    gzip_bytes = len(gzip.compress(onnx_path.read_bytes(), mtime=0))
+    correction_bytes = corrections_path.stat().st_size
+    correction_gzip_bytes = len(gzip.compress(corrections_path.read_bytes(), mtime=0))
+    return {
+        "name": name,
+        "modelCount": 1,
+        "onnxBytes": onnx_bytes + correction_bytes,
+        "maxOnnxBytes": onnx_bytes,
+        "onnxGzipBytes": gzip_bytes + correction_gzip_bytes,
+        "maxOnnxGzipBytes": gzip_bytes,
+        "correctionBytes": correction_bytes,
+        "correctionGzipBytes": correction_gzip_bytes,
+        "trainingSeconds": training_seconds,
+        "metrics": calculate_metrics(
+            encoded.loc[group_test_mask, "price"],
+            corrected_predictions,
+        ),
+        "groups": [
+            {
+                "group": group,
+                "correction": correction,
+            }
+            for group, correction in corrections["groups"].items()
+        ],
+    }
+
+
+def build_residual_corrections(*, groups, residuals, shrinkage_count: int = 2000):
+    import pandas as pd
+
+    correction_df = pd.DataFrame({"group": groups.astype(str).to_numpy(), "residual": residuals})
+    fallback = float(correction_df["residual"].mean())
+    rows = correction_df.groupby("group")["residual"].agg(["mean", "count"]).reset_index()
+    corrections: dict[str, float] = {}
+    for row in rows.itertuples(index=False):
+        weight = float(row.count / (row.count + shrinkage_count))
+        corrections[str(row.group)] = float(row.mean * weight + fallback * (1.0 - weight))
+    return {
+        "schemaVersion": 1,
+        "fallback": fallback,
+        "shrinkageCount": shrinkage_count,
+        "groups": corrections,
+    }
+
+
+def map_residual_corrections(groups, corrections) -> np.ndarray:
+    fallback = float(corrections["fallback"])
+    correction_by_group = corrections["groups"]
+    return np.array(
+        [float(correction_by_group.get(str(group), fallback)) for group in groups],
+        dtype=float,
+    )
+
+
 def render_national_markdown(report: dict[str, object]) -> str:
     lines = [
         "# 全国モデル比較",
@@ -179,15 +299,16 @@ def render_national_markdown(report: dict[str, object]) -> str:
         f"学習件数: {report['trainCount']:,}",
         f"評価件数: {report['testCount']:,}",
         "",
-        "| 候補 | モデル数 | MAE | MAPE | 合計容量 | 最大1モデル | gzip最大 | 学習秒 |",
-        "|---|---:|---:|---:|---:|---:|---:|---:|",
+        "| 候補 | モデル数 | MAE | MAPE | 合計容量 | 最大1モデル | 補正JSON | gzip最大 | 学習秒 |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|---:|",
     ]
     for row in report["candidates"]:
         metrics = row["metrics"]
+        correction_bytes = row.get("correctionBytes", 0)
         lines.append(
             f"| {row['name']} | {row['modelCount']} | {metrics['mae']:,.0f} | "
             f"{metrics['mape']:.2f}% | {_format_bytes(row['onnxBytes'])} | "
-            f"{_format_bytes(row['maxOnnxBytes'])} | "
+            f"{_format_bytes(row['maxOnnxBytes'])} | {_format_bytes(correction_bytes)} | "
             f"{_format_bytes(row['maxOnnxGzipBytes'])} | {row['trainingSeconds']:.1f} |"
         )
     lines.append("")

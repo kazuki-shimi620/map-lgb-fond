@@ -87,7 +87,7 @@ help:
 	@echo "                          首都圏専用＋8地方モデルを本番用に一括生成"
 	@echo "  make compare-models     首都圏の共通・軽量モデルを現行4モデルと比較"
 	@echo "  make compare-national-models"
-	@echo "                          全国1モデルと8地方モデルを比較"
+	@echo "                          全国1モデル、8地方モデル、地域補正モデルを比較"
 	@echo "  make compare-commercial-features"
 	@echo "                          JCSC商業施設特徴量のバックテストを実行"
 	@echo "  make compare-station-passenger-features"
