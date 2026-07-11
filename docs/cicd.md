@@ -156,6 +156,18 @@ frontend/public/onnx
 * OpenStreetMap の地図タイル
 * Nominatim の geocoding / reverse geocoding
 
+## 本番成果物更新との接続
+
+モデルや駅マスタなどの静的成果物は、ローカルで次を実行して更新する。
+
+```bash
+make refresh-production-artifacts ALLOW_MODEL_UPDATE=1
+```
+
+このコマンドで `frontend/public` 配下の成果物とフロントエンドビルドを確認した後、変更をコミットして `main` へ取り込む。GitHub Pagesへの公開は、`main` への反映後に既存のGitHub Actionsが行う。
+
+学習処理や外部API取得をGitHub Actions上で直接実行しない。APIキー、生データ、長時間ジョブをCI/CDへ持ち込まず、公開対象は静的成果物に限定する。
+
 ---
 
 # 9. 注意点

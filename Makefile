@@ -41,7 +41,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features check-feature-order histories-national stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features check-feature-order histories-national stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -91,6 +91,8 @@ help:
 	@echo "                          8地方160木モデルを生成してpublicへ反映"
 	@echo "  make train-production-models"
 	@echo "                          首都圏専用＋8地方モデルを本番用に一括生成"
+	@echo "  make refresh-production-artifacts ALLOW_MODEL_UPDATE=1"
+	@echo "                          データ取得から本番用モデル・静的成果物検証までを一括実行"
 	@echo "  make compare-models     首都圏の共通・軽量モデルを現行4モデルと比較"
 	@echo "  make compare-national-models"
 	@echo "                          全国1モデル、8地方モデル、地域補正モデルを比較"
@@ -209,6 +211,18 @@ train-regional-models:
 train-production-models: preprocess-capital-all-years preprocess-national
 	PUBLISH_POLICY=latest $(TRAINING_DIR)/scripts/train_all_models.sh
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/train/train_regional_models.py --publish
+
+refresh-production-artifacts:
+	@if [ "$(ALLOW_MODEL_UPDATE)" != "1" ]; then \
+		echo "ALLOW_MODEL_UPDATE=1 is required because this target updates browser model artifacts."; \
+		exit 1; \
+	fi
+	$(MAKE) collect-data
+	$(MAKE) train-production-models
+	$(MAKE) histories-national
+	$(MAKE) stations-national
+	$(MAKE) check-feature-order
+	$(MAKE) build
 
 compare-models:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_models.py

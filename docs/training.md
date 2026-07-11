@@ -818,6 +818,24 @@ make train-production-models
 make train-regional-models
 ```
 
+## 本番成果物更新ワークフロー
+
+データ取得、前処理、本番用モデル生成、価格推移、駅マスタ、特徴量順序チェック、フロントエンドビルドまでをローカルでまとめて実行する場合は次を使う。
+
+```bash
+make refresh-production-artifacts ALLOW_MODEL_UPDATE=1
+```
+
+このコマンドはブラウザ配信用のONNX、メタデータ、価格推移、駅マスタを更新するため、誤実行を避ける目的で `ALLOW_MODEL_UPDATE=1` を必須にする。
+
+実行前に手順だけ確認する場合は、Makeのドライランを使う。
+
+```bash
+make -n refresh-production-artifacts ALLOW_MODEL_UPDATE=1
+```
+
+ハザード特徴量や全国範囲の駅別乗降客数を本番モデルへ採用する場合は、先に対応する取得・比較TODOを完了し、設定ファイルの特徴量を確定してからこのワークフローへ組み込む。
+
 全国47都道府県の駅マスタを再生成する場合は、外部駅APIへ接続できる環境で次を実行する。
 
 ```bash
