@@ -23,6 +23,8 @@ SC_FROM_YEAR ?= 2015
 SC_TO_YEAR ?= 2026
 PASSENGER_AREA ?= capital
 PASSENGER_ZOOM ?= 11
+PASSENGER_NATIONAL_ZOOM ?= 11
+PASSENGER_REQUEST_INTERVAL_SECONDS ?= 1.0
 STATION_PASSENGERS_CSV ?= data/processed/station_passengers/station_groups.csv
 HAZARD_INPUT ?=
 HAZARD_URL ?=
@@ -153,10 +155,10 @@ collect-sc-all:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/jcsc_sc_open.py --from-year $(SC_FROM_YEAR) --to-year $(SC_TO_YEAR) --cache
 
 collect-station-passengers:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area $(PASSENGER_AREA) --zoom $(PASSENGER_ZOOM) --cache
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area $(PASSENGER_AREA) --zoom $(PASSENGER_ZOOM) --request-interval-seconds $(PASSENGER_REQUEST_INTERVAL_SECONDS) --cache
 
 collect-station-passengers-national:
-	$(MAKE) collect-station-passengers PASSENGER_AREA=japan
+	$(MAKE) collect-station-passengers PASSENGER_AREA=japan PASSENGER_ZOOM=$(PASSENGER_NATIONAL_ZOOM) PASSENGER_REQUEST_INTERVAL_SECONDS=$(PASSENGER_REQUEST_INTERVAL_SECONDS)
 
 collect-hazards:
 	cd $(TRAINING_DIR) && \

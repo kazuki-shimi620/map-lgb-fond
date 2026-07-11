@@ -228,6 +228,8 @@ make compare-station-passenger-features
 make collect-station-passengers-national
 ```
 
+XKT015はズーム値に制約があり、現時点では `z=11` を使用する。全国範囲では約18,477タイルになるため、API制限と実行時間を見ながら実行する。必要に応じて `PASSENGER_REQUEST_INTERVAL_SECONDS` を調整する。
+
 4都県の個別モデル設定は、この軽量案に合わせて `station` カテゴリを外し、以下を利用する。
 
 ```text

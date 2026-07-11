@@ -13,6 +13,7 @@ import time
 import unicodedata
 from dataclasses import dataclass
 from datetime import UTC, datetime
+from http.client import RemoteDisconnected
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
@@ -205,7 +206,13 @@ def fetch_tile(
                     f"XKT015 returned HTTP {error.code} for tile {tile}: {detail}"
                 ) from error
             time.sleep(_retry_wait_seconds(error, attempt))
-        except (URLError, TimeoutError, json.JSONDecodeError, UnicodeDecodeError) as error:
+        except (
+            URLError,
+            TimeoutError,
+            RemoteDisconnected,
+            json.JSONDecodeError,
+            UnicodeDecodeError,
+        ) as error:
             if attempt >= max_retries:
                 raise StationPassengerCollectError(
                     f"failed to fetch XKT015 tile {tile}: {error}"
@@ -614,6 +621,7 @@ def collect_station_passengers(
     timeout_seconds: int,
     max_retries: int,
     request_interval_seconds: float,
+    progress_interval: int,
 ) -> dict[str, Path | int]:
     fetched_at = datetime.now(UTC).isoformat(timespec="seconds")
     raw_records = []
@@ -621,7 +629,9 @@ def collect_station_passengers(
     failed_tiles = []
     manifest_tiles = []
 
-    for tile in tiles:
+    for tile_index, tile in enumerate(tiles, start=1):
+        if progress_interval > 0 and (tile_index == 1 or tile_index % progress_interval == 0):
+            print(f"station passenger tiles: {tile_index}/{len(tiles)}", file=sys.stderr)
         path = raw_tile_path(raw_dir, run_id, tile)
         try:
             if cache and path.exists() and not force:
@@ -739,6 +749,7 @@ def main() -> int:
     parser.add_argument("--timeout-seconds", type=int, default=30)
     parser.add_argument("--max-retries", type=int, default=5)
     parser.add_argument("--request-interval-seconds", type=float, default=1.0)
+    parser.add_argument("--progress-interval", type=int, default=100)
     args = parser.parse_args()
 
     load_env_file(Path(__file__).resolve().parents[2] / ".env")
@@ -764,6 +775,7 @@ def main() -> int:
             timeout_seconds=args.timeout_seconds,
             max_retries=args.max_retries,
             request_interval_seconds=args.request_interval_seconds,
+            progress_interval=args.progress_interval,
         )
     except (StationPassengerCollectError, ValueError) as error:
         print(f"station passenger collect failed: {error}", file=sys.stderr)
