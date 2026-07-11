@@ -41,7 +41,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features summarize-edge-cases check-feature-order histories-national stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features summarize-edge-cases check-feature-order histories-national facilities stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -107,6 +107,7 @@ help:
 	@echo "  make check-feature-order"
 	@echo "                          config/metadata の特徴量がフロント推論で扱えるか確認"
 	@echo "  make histories-national 類似条件比較用の全国価格推移JSONを再生成"
+	@echo "  make facilities         商業施設の配信用軽量JSONを再生成"
 	@echo "  make stations           駅マスタJSONを再生成"
 	@echo "  make stations-national  全国47都道府県の駅マスタJSONを再生成"
 	@echo ""
@@ -222,6 +223,7 @@ refresh-production-artifacts:
 	$(MAKE) collect-data
 	$(MAKE) train-production-models
 	$(MAKE) histories-national
+	$(MAKE) facilities
 	$(MAKE) stations-national
 	$(MAKE) check-feature-order
 	$(MAKE) build
@@ -251,6 +253,9 @@ check-feature-order:
 
 histories-national:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.histories --public-dir ../$(FRONTEND_DIR)/public
+
+facilities:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.commercial_facilities --output ../$(FRONTEND_DIR)/public/facilities/commercial_facilities.json
 
 stations:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public --regions $(REGIONS) --station-passengers-csv $(STATION_PASSENGERS_CSV)

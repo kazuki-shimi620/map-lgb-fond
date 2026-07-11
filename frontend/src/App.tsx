@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { CommercialFacilityCard } from "./features/facilities/CommercialFacilityCard";
 import { HazardRiskCard } from "./features/hazard/HazardRiskCard";
 import { PropertyMap } from "./features/map/PropertyMap";
 import {
@@ -20,7 +21,12 @@ import {
 import { buildStationScaleRequestFields } from "./features/stations/stationScale";
 import { reverseGeocode } from "./services/geocodingService";
 import { distanceKmToWalkingMinutes, findNearestStation, loadStations } from "./services/stationService";
-import type { ModelMetadata, PriceHistoryPoint, StationRecord } from "./types/assets";
+import type {
+  CommercialFacilitySummary,
+  ModelMetadata,
+  PriceHistoryPoint,
+  StationRecord
+} from "./types/assets";
 import type { PredictionFormState, PredictionResult, StationRegion } from "./types/prediction";
 import { fetchJson } from "./services/http";
 import { haversineKm } from "./utils/distance";
@@ -61,6 +67,7 @@ export function App() {
   const [isArchiveLoaded, setIsArchiveLoaded] = useState(false);
   const [isArchiveLoading, setIsArchiveLoading] = useState(false);
   const [stations, setStations] = useState<StationRecord[]>([]);
+  const [commercialFacilities, setCommercialFacilities] = useState<CommercialFacilitySummary | null>(null);
   const [metadata, setMetadata] = useState<ModelMetadata | null>(null);
   const [isModelReady, setIsModelReady] = useState(false);
   const [isPredicting, setIsPredicting] = useState(false);
@@ -162,6 +169,24 @@ export function App() {
       if (mapSelectionScrollTimerRef.current !== null) {
         window.clearTimeout(mapSelectionScrollTimerRef.current);
       }
+    };
+  }, []);
+
+  useEffect(() => {
+    let disposed = false;
+    fetchJson<CommercialFacilitySummary>("./facilities/commercial_facilities.json")
+      .then((summary) => {
+        if (!disposed) {
+          setCommercialFacilities(summary);
+        }
+      })
+      .catch(() => {
+        if (!disposed) {
+          setCommercialFacilities(null);
+        }
+      });
+    return () => {
+      disposed = true;
     };
   }, []);
 
@@ -495,6 +520,11 @@ export function App() {
             isArchiveLoading={isArchiveLoading}
             onLoadArchive={loadArchiveHistory}
             onCloseArchive={closeArchiveHistory}
+          />
+          <CommercialFacilityCard
+            summary={commercialFacilities}
+            prefecture={form.prefecture}
+            municipality={form.municipality}
           />
           <HazardRiskCard latitude={form.lat} longitude={form.lon} />
           <PredictionDetailsPanel summary={predictionSummary} />

@@ -82,3 +82,29 @@ export type ModelManifest = {
   capitalRegionPriority: string[];
   models: Record<string, ModelAsset>;
 };
+
+export type CommercialFacilityAreaSummary = {
+  prefecture?: string;
+  city?: string;
+  scCount: number;
+  storeAreaSumSqm: number;
+  tenantCountSum: number;
+  latestOpenYear: number | null;
+  recentOpenings: Array<{
+    name: string;
+    openYear: number | null;
+    openMonth: number | null;
+    storeAreaSqm: number | null;
+    tenantCount: number | null;
+  }>;
+};
+
+export type CommercialFacilitySummary = {
+  schemaVersion: number;
+  source: string;
+  sourceLabel: string;
+  generatedAt: string;
+  latestOpenYear: number | null;
+  prefectures: Record<string, CommercialFacilityAreaSummary>;
+  cities: Record<string, CommercialFacilityAreaSummary>;
+};

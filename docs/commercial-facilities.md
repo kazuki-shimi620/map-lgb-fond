@@ -102,6 +102,20 @@ training/data/cache/jcsc/jcsc_sc_open_2026_errors.json
 frontend/public/facilities/
 ```
 
+画面表示用の軽量JSONは以下で生成する。
+
+```bash
+make facilities
+```
+
+出力:
+
+```text
+frontend/public/facilities/commercial_facilities.json
+```
+
+このJSONは市区町村/都道府県単位の集計だけを保持し、JCSCのraw HTMLや年別CSVはブラウザへ配布しない。
+
 ---
 
 # 5. JSON出力IF
@@ -349,7 +363,9 @@ sc_store_area_sum_within_3km
 sc_tenant_count_sum_within_3km
 ```
 
-フロントエンドでの商業施設地図表示や `frontend/public/facilities/` へのGeoJSON配信は、価格モデル上の有効性を確認した後の拡張とする。初期MVPでは配信用JSON/GeoJSONを作らない。
+フロントエンドでの商業施設地図表示やGeoJSON配信は、価格モデル上の有効性を確認した後の拡張とする。初期MVPでは地点マーカー用GeoJSONを作らない。
+
+ただし、価格モデルへの採用とは分けた参考情報カードとして、市区町村/都道府県単位の集計済み軽量JSONを表示する。初期表示はSC件数、直近開業SC、店舗面積合計、テナント数合計、データ更新年、出典に限定する。
 
 ---
 

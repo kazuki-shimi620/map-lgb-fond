@@ -700,20 +700,45 @@ select {
   line-height: 1.5;
 }
 
-.hazard-summary-grid {
+.hazard-summary-grid,
+.facility-summary-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
   margin: 14px 0 0;
 }
 
-.hazard-summary-grid div {
+.hazard-summary-grid div,
+.facility-summary-grid div {
   display: grid;
   gap: 4px;
 }
 
-.hazard-summary-grid dd {
+.hazard-summary-grid dd,
+.facility-summary-grid dd {
   font-size: 14px;
+}
+
+.facility-recent-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.facility-recent-list h3 {
+  margin: 0;
+  color: #344054;
+  font-size: 14px;
+}
+
+.facility-recent-list ul {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding-left: 18px;
+  color: #344054;
+  font-size: 13px;
+  line-height: 1.45;
 }
 
 .hazard-note {
