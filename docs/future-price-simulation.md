@@ -89,6 +89,12 @@ bull = base_rate + scenario_width
 frontend/public/histories/{region}_trend_summary.json
 ```
 
+生成コマンド:
+
+```bash
+make histories-national
+```
+
 候補:
 
 ```json
@@ -111,6 +117,8 @@ frontend/public/histories/{region}_trend_summary.json
 ```
 
 生の取引データや詳細な駅別履歴を増やしすぎない。
+
+`annualizedRate` は配信済みの学習データから年別平均平米単価を作り、開始年から終了年までの年率換算で算出する。`volatility` は年次変化率の標準偏差とし、シナリオ幅や参考レンジの初期値に利用する。
 
 ## UI方針
 

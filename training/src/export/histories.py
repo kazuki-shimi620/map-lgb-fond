@@ -4,7 +4,12 @@ import argparse
 from pathlib import Path
 
 from ..common.regions import CAPITAL_MODEL_BY_PREFECTURE, PREFECTURE_TO_SLUG
-from .artifacts import RECENT_HISTORY_START_YEAR, build_price_history, save_json
+from .artifacts import (
+    RECENT_HISTORY_START_YEAR,
+    build_price_history,
+    build_price_trend_summary,
+    save_json,
+)
 
 
 def export_histories(processed_dir: Path, public_dir: Path) -> list[Path]:
@@ -20,6 +25,7 @@ def export_histories(processed_dir: Path, public_dir: Path) -> list[Path]:
             data = national[national["prefecture"] == prefecture].copy()
         recent_output = public_dir / "histories" / f"{slug}_latest_history.json"
         archive_output = public_dir / "histories" / f"{slug}_archive_history.json"
+        trend_output = public_dir / "histories" / f"{slug}_trend_summary.json"
         outputs.append(
             save_json(
                 build_price_history(data, min_year=RECENT_HISTORY_START_YEAR),
@@ -34,9 +40,16 @@ def export_histories(processed_dir: Path, public_dir: Path) -> list[Path]:
                 compact=True,
             )
         )
+        outputs.append(
+            save_json(
+                build_price_trend_summary(data, region=slug, min_year=RECENT_HISTORY_START_YEAR),
+                trend_output,
+                compact=True,
+            )
+        )
         print(
             f"{slug}: exported {len(data)} transactions to "
-            f"{recent_output} and {archive_output}"
+            f"{recent_output}, {archive_output}, and {trend_output}"
         )
     return outputs
 

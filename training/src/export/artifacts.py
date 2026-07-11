@@ -169,3 +169,103 @@ def build_price_history(
         )
         record["comparable_buckets"] = bucket_lookup.get(key, [])
     return records
+
+
+def build_price_trend_summary(
+    df,
+    *,
+    region: str,
+    min_year: int | None = None,
+    max_year: int | None = None,
+    min_station_years: int = 2,
+) -> dict[str, object]:
+    target = df.copy()
+    if min_year is not None:
+        target = target[target["transaction_year"] >= min_year].copy()
+    if max_year is not None:
+        target = target[target["transaction_year"] <= max_year].copy()
+    target["unit_price"] = target["price"] / target["area"]
+
+    latest_year = int(target["transaction_year"].max()) if not target.empty else None
+    regional_series = _yearly_unit_price_series(target)
+    station_trends = {}
+    if "station" in target.columns:
+        for station, group in target.groupby("station"):
+            series = _yearly_unit_price_series(group)
+            trend = _trend_from_series(series)
+            if trend["sampleYears"] >= min_station_years:
+                station_trends[str(station)] = trend
+
+    return {
+        "schemaVersion": 1,
+        "region": region,
+        "latestTrainingYear": latest_year,
+        "regionalTrend": _trend_from_series(regional_series),
+        "stationTrends": dict(sorted(station_trends.items())),
+    }
+
+
+def _yearly_unit_price_series(df):
+    if df.empty:
+        return []
+    grouped = (
+        df.groupby("transaction_year", as_index=False)
+        .agg(avg_unit_price=("unit_price", "mean"))
+        .sort_values("transaction_year")
+    )
+    return [
+        (int(row.transaction_year), float(row.avg_unit_price))
+        for row in grouped.itertuples(index=False)
+        if row.avg_unit_price > 0
+    ]
+
+
+def _trend_from_series(series: list[tuple[int, float]]) -> dict[str, float | int | None]:
+    if not series:
+        return {
+            "annualizedRate": None,
+            "volatility": None,
+            "sampleYears": 0,
+            "startYear": None,
+            "endYear": None,
+        }
+
+    if len(series) == 1:
+        year, _value = series[0]
+        return {
+            "annualizedRate": None,
+            "volatility": None,
+            "sampleYears": 1,
+            "startYear": year,
+            "endYear": year,
+        }
+
+    start_year, start_value = series[0]
+    end_year, end_value = series[-1]
+    elapsed_years = max(1, end_year - start_year)
+    annualized_rate = (end_value / start_value) ** (1 / elapsed_years) - 1
+    yearly_changes = [
+        current_value / previous_value - 1
+        for (_previous_year, previous_value), (_current_year, current_value) in zip(
+            series,
+            series[1:],
+            strict=False,
+        )
+        if previous_value > 0
+    ]
+    volatility = _population_std(yearly_changes)
+    return {
+        "annualizedRate": float(annualized_rate),
+        "volatility": volatility,
+        "sampleYears": len(series),
+        "startYear": start_year,
+        "endYear": end_year,
+    }
+
+
+def _population_std(values: list[float]) -> float | None:
+    if not values:
+        return None
+    mean = sum(values) / len(values)
+    variance = sum((value - mean) ** 2 for value in values) / len(values)
+    return float(variance**0.5)

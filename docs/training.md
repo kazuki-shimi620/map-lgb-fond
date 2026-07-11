@@ -731,6 +731,20 @@ MVPでは信頼区間を以下で表示するために利用する。
 
 学習データ全件はブラウザへ配布しない。
 
+将来価格シミュレーション用の駅別・地域別トレンド集計も同じ履歴エクスポートで生成する。
+
+```bash
+make histories-national
+```
+
+出力:
+
+```text
+frontend/public/histories/{region}_trend_summary.json
+```
+
+このJSONは年別平均平米単価から年率トレンドと変動幅を集約したもので、生の取引明細は含めない。
+
 例
 
 ```json

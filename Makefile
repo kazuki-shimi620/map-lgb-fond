@@ -106,7 +106,7 @@ help:
 	@echo "                          築古・駅遠・高額帯などの件数と分布を集計"
 	@echo "  make check-feature-order"
 	@echo "                          config/metadata の特徴量がフロント推論で扱えるか確認"
-	@echo "  make histories-national 類似条件比較用の全国価格推移JSONを再生成"
+	@echo "  make histories-national 類似条件比較用の全国価格推移JSONとトレンドJSONを再生成"
 	@echo "  make facilities         商業施設の配信用軽量JSONを再生成"
 	@echo "  make stations           駅マスタJSONを再生成"
 	@echo "  make stations-national  全国47都道府県の駅マスタJSONを再生成"
