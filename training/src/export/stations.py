@@ -6,6 +6,7 @@ import math
 import time
 import urllib.parse
 import urllib.request
+from http.client import RemoteDisconnected
 from pathlib import Path
 from typing import Any
 
@@ -16,6 +17,7 @@ REGION_TO_PREFECTURE = {slug: prefecture for prefecture, slug in PREFECTURE_TO_S
 MODEL_BY_PREFECTURE = build_model_by_prefecture()
 
 HEARTRAILS_API = "https://express.heartrails.com/api/json"
+MAX_API_RETRIES = 3
 
 
 def normalize_api_station_name(name: str) -> str:
@@ -31,8 +33,16 @@ def normalize_api_station_name(name: str) -> str:
 
 def fetch_json(params: dict[str, str]) -> dict[str, Any]:
     query = urllib.parse.urlencode(params)
-    with urllib.request.urlopen(f"{HEARTRAILS_API}?{query}", timeout=30) as response:
-        return json.loads(response.read().decode("utf-8"))
+    url = f"{HEARTRAILS_API}?{query}"
+    for attempt in range(1, MAX_API_RETRIES + 1):
+        try:
+            with urllib.request.urlopen(url, timeout=30) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except (OSError, RemoteDisconnected):
+            if attempt == MAX_API_RETRIES:
+                raise
+            time.sleep(float(attempt))
+    raise RuntimeError("unreachable")
 
 
 def load_category_station_names(public_dir: Path, model_region: str) -> list[str]:

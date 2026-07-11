@@ -21,12 +21,10 @@ P3 = 将来拡張または検証後に着手するもの
 
 * [ ] 4都県モデルを `station` カテゴリなし + 駅規模特徴量ありで再学習する
 * [ ] `make train-all PUBLISH_POLICY=latest` 後のONNXサイズ、カテゴリ辞書サイズ、MAEを確認する
-* [ ] `make stations` で首都圏4都県の駅マスタJSONを駅規模特徴量付きで再生成する
-* [ ] `make stations-national` を実行する場合、全国駅マスタに首都圏以外の駅規模欠損がどの程度出るか確認する
 * [ ] 採用モデルを `frontend/public/models`、`frontend/public/metadata`、`frontend/public/stations` に反映する
 * [ ] 採用モデル反映後に `make check-feature-order` で `featureOrder` とフロント推論入力の対応を確認する
 * [ ] 軽量モデル候補をブラウザで実測し、初回ロード時間と推論時間を確認する
-* [ ] 首都圏以外の地方モデルにも駅規模特徴量を入れるか、データ取得範囲と容量を見て判断する
+* [ ] 首都圏以外の地方モデルにも駅規模特徴量を入れる場合、全国範囲の駅別乗降客数を取得して再評価する
 
 ### P2 モデル比較と採用判断
 

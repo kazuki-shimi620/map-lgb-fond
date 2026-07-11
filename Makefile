@@ -26,6 +26,8 @@ PASSENGER_ZOOM ?= 11
 STATION_PASSENGERS_CSV ?= data/processed/station_passengers/station_groups.csv
 HAZARD_INPUT ?=
 HAZARD_URL ?=
+FEATURE_ORDER_CONFIGS ?= configs/tokyo.yaml configs/kanagawa.yaml configs/saitama.yaml configs/chiba.yaml
+FEATURE_ORDER_METADATA ?= ../$(FRONTEND_DIR)/public/metadata/tokyo_latest_metadata.json ../$(FRONTEND_DIR)/public/metadata/kanagawa_latest_metadata.json ../$(FRONTEND_DIR)/public/metadata/saitama_latest_metadata.json ../$(FRONTEND_DIR)/public/metadata/chiba_latest_metadata.json
 UV := $(shell command -v uv 2>/dev/null)
 
 ifeq ($(UV),)
@@ -213,7 +215,8 @@ compare-station-passenger-features:
 
 check-feature-order:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.feature_order \
-		--config configs/tokyo.yaml configs/kanagawa.yaml configs/saitama.yaml configs/chiba.yaml
+		--config $(FEATURE_ORDER_CONFIGS) \
+		--metadata $(FEATURE_ORDER_METADATA)
 
 histories-national:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.histories --public-dir ../$(FRONTEND_DIR)/public
