@@ -39,7 +39,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models compare-models compare-national-models compare-commercial-features compare-station-passenger-features check-feature-order histories-national stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features check-feature-order histories-national stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -65,6 +65,8 @@ help:
 	@echo "                          JCSCオープンSC一覧を取得してJSON/CSV化"
 	@echo "  make collect-station-passengers PASSENGER_AREA=capital"
 	@echo "                          駅別乗降客数を取得してJSON/CSV化"
+	@echo "  make collect-station-passengers-national"
+	@echo "                          全国範囲の駅別乗降客数を取得してJSON/CSV化"
 	@echo "  make collect-hazards HAZARD_INPUT=path/to/hazards.json"
 	@echo "                          ハザード情報を正規化して学習用CSV化"
 	@echo "  make collect-data       不動産CSV、2015年以降のJCSC、駅別乗降客数をまとめて取得"
@@ -94,6 +96,8 @@ help:
 	@echo "                          JCSC商業施設特徴量のバックテストを実行"
 	@echo "  make compare-station-passenger-features"
 	@echo "                          駅別乗降客数特徴量のバックテストを実行"
+	@echo "  make compare-external-features"
+	@echo "                          商業施設と駅規模の組み合わせバックテストを実行"
 	@echo "  make check-feature-order"
 	@echo "                          config/metadata の特徴量がフロント推論で扱えるか確認"
 	@echo "  make histories-national 類似条件比較用の全国価格推移JSONを再生成"
@@ -150,6 +154,9 @@ collect-sc-all:
 
 collect-station-passengers:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area $(PASSENGER_AREA) --zoom $(PASSENGER_ZOOM) --cache
+
+collect-station-passengers-national:
+	$(MAKE) collect-station-passengers PASSENGER_AREA=japan
 
 collect-hazards:
 	cd $(TRAINING_DIR) && \
@@ -212,6 +219,9 @@ compare-commercial-features:
 
 compare-station-passenger-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_station_passenger_features.py
+
+compare-external-features:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_external_features.py
 
 check-feature-order:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.feature_order \
