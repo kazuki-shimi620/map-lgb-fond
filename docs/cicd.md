@@ -168,6 +168,43 @@ make refresh-production-artifacts ALLOW_MODEL_UPDATE=1
 
 学習処理や外部API取得をGitHub Actions上で直接実行しない。APIキー、生データ、長時間ジョブをCI/CDへ持ち込まず、公開対象は静的成果物に限定する。
 
+## 成果物更新PRの自動化方針
+
+現時点では、成果物更新PRを作成するGitHub Actionsは追加しない。
+
+理由:
+
+* 国交省APIキー、外部データ取得、PlaywrightによるCSV取得など、実行環境依存の処理が多い
+* 生データや中間成果物をCI上で扱うと、秘匿情報や大容量ファイルの管理範囲が広がる
+* モデル再学習は時間がかかり、失敗時の切り分けもローカル実行の方が容易
+* ブラウザ公開に必要なのは最終的な静的成果物だけであり、現行のGitHub Pages workflowで十分に配信できる
+
+将来、手動workflowから成果物更新PRを作る場合は、次の条件を満たしてから導入する。
+
+```text
+workflow_dispatch
+↓
+外部データ取得は明示的な入力で対象範囲を限定
+↓
+学習・成果物生成
+↓
+frontend/public の差分だけを検証
+↓
+自動commitではなくPull Requestを作成
+↓
+人間が差分、容量、評価指標を確認してmerge
+```
+
+導入条件:
+
+* `REINFOLIB_API_KEY` などのsecret利用範囲が学習jobだけに閉じている
+* `training/data`、`training/outputs`、DB、raw ZIPをartifactやcommitに含めない
+* モデル評価指標、ONNXサイズ、メタデータ差分をPR本文に出す
+* 失敗時に公開中のGitHub Pages成果物へ影響しない
+* コストと実行時間が許容範囲に収まる
+
+したがって当面は、`make refresh-production-artifacts ALLOW_MODEL_UPDATE=1` をローカルまたは管理された手動環境で実行し、生成された `frontend/public` の差分を通常のPull Requestで確認する。
+
 ---
 
 # 9. 注意点
