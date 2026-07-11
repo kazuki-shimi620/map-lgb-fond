@@ -597,6 +597,8 @@ sequenceDiagram
 信頼区間
 ```
 
+特徴量重要度を表示する場合は、モデル全体の重要度として扱う。個別予測の厳密なSHAP寄与度ではないことを前提に、UI文言と設計は `docs/model-explainability.md` に従う。
+
 ---
 
 ## 表示例
