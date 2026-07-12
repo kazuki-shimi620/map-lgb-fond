@@ -20,9 +20,16 @@ test.describe("レスポンシブ表示", () => {
     await expect(page.getByRole("radiogroup", { name: "将来シナリオ" })).toBeVisible();
     await expect(page.getByTestId("prediction-result")).toBeVisible();
     await expect(page.getByTestId("price-history-chart")).toBeVisible();
+    await expect(page.getByTestId("supporting-info-tabs")).toBeVisible();
     await expect(page.getByTestId("commercial-facility-card")).toBeVisible();
+
+    await page.getByRole("tab", { name: "駅規模" }).click();
     await expect(page.getByTestId("station-scale-card")).toBeVisible();
+
+    await page.getByRole("tab", { name: "災害リスク" }).click();
     await expect(page.getByTestId("hazard-risk-card")).toBeVisible();
+
+    await page.getByRole("tab", { name: "モデル" }).click();
     await expect(page.getByTestId("model-detail-panel")).toBeVisible();
 
     const panelOrder = await page.evaluate(() => {
@@ -31,10 +38,7 @@ test.describe("レスポンシブ表示", () => {
         "prediction-form",
         "prediction-result",
         "price-history-chart",
-        "commercial-facility-card",
-        "station-scale-card",
-        "hazard-risk-card",
-        "model-detail-panel"
+        "supporting-info-tabs"
       ];
       return ids.map((id) => document.querySelector(`[data-testid="${id}"]`)).every(Boolean)
         ? ids.every((id, index) => {

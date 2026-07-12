@@ -603,6 +603,7 @@ select {
   .custom-select-trigger:focus-visible,
   .segmented-control button:focus-visible,
   .info-icon-button:focus-visible,
+  .supporting-info-tabs button:focus-visible,
   .map-search button:focus-visible,
   .map-search input:focus-visible {
     border-color: #0f766e;
@@ -639,11 +640,65 @@ select {
 .supporting-info-section {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  gap: 12px;
 }
 
-.supporting-info-section > .panel {
+.supporting-info-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  align-items: end;
+}
+
+.supporting-info-header .muted {
+  margin: 4px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.supporting-info-tabs {
+  display: inline-grid;
+  grid-auto-flow: column;
+  gap: 4px;
+  border: 1px solid #c9d2df;
+  border-radius: 6px;
+  background: #f8fafc;
+  padding: 4px;
+}
+
+.supporting-info-tabs button {
+  min-width: 88px;
+  min-height: 36px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: #344054;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.supporting-info-tabs button:hover {
+  background: #eaf7f5;
+}
+
+.supporting-info-tabs button.is-selected {
+  background: #0f766e;
+  color: #ffffff;
+}
+
+.supporting-info-content {
+  display: grid;
+  gap: 10px;
+}
+
+.supporting-info-description {
+  margin: 0;
+  color: #667085;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.supporting-info-content > .panel {
   align-self: start;
 }
 
@@ -989,8 +1044,7 @@ dd {
   }
 
   .layout,
-  .form-grid,
-  .supporting-info-section {
+  .form-grid {
     grid-template-columns: 1fr;
     gap: 12px;
   }
@@ -1123,6 +1177,23 @@ dd {
     margin: 0;
     border-color: #c4cfdd;
     box-shadow: 0 -6px 18px rgb(15 23 42 / 10%);
+  }
+
+  .supporting-info-header {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .supporting-info-tabs {
+    display: flex;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .supporting-info-tabs button {
+    min-width: max-content;
+    padding-inline: 12px;
   }
 
   .sheet-header {

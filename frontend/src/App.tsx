@@ -19,6 +19,7 @@ import {
   PredictionResultView,
   type PredictionSummary
 } from "./features/prediction/PredictionResultView";
+import { SupportingInfoTabs } from "./features/prediction/SupportingInfoTabs";
 import { StationScaleCard } from "./features/stations/StationScaleCard";
 import { buildStationScaleRequestFields } from "./features/stations/stationScale";
 import { reverseGeocode } from "./services/geocodingService";
@@ -539,16 +540,40 @@ export function App() {
             onLoadArchive={loadArchiveHistory}
             onCloseArchive={closeArchiveHistory}
           />
-          <section className="supporting-info-section" aria-label="周辺情報とモデル詳細">
-            <CommercialFacilityCard
-              summary={commercialFacilities}
-              prefecture={form.prefecture}
-              municipality={form.municipality}
-            />
-            <StationScaleCard station={selectedStation} stationName={form.station} />
-            <HazardRiskCard latitude={form.lat} longitude={form.lon} />
-            <PredictionDetailsPanel summary={predictionSummary} />
-          </section>
+          <SupportingInfoTabs
+            tabs={[
+              {
+                id: "facilities",
+                label: "商業施設",
+                description: "対象エリア周辺のショッピングセンター開業状況を確認できます。",
+                content: (
+                  <CommercialFacilityCard
+                    summary={commercialFacilities}
+                    prefecture={form.prefecture}
+                    municipality={form.municipality}
+                  />
+                )
+              },
+              {
+                id: "station",
+                label: "駅規模",
+                description: "最寄駅の乗降客数や路線数を確認できます。",
+                content: <StationScaleCard station={selectedStation} stationName={form.station} />
+              },
+              {
+                id: "hazard",
+                label: "災害リスク",
+                description: "選択地点の災害リスクに関する参考情報を確認できます。",
+                content: <HazardRiskCard latitude={form.lat} longitude={form.lon} />
+              },
+              {
+                id: "model",
+                label: "モデル",
+                description: "予測に使った条件、モデル評価、特徴量重要度を確認できます。",
+                content: <PredictionDetailsPanel summary={predictionSummary} />
+              }
+            ]}
+          />
         </div>
       </div>
     </main>

@@ -49,6 +49,7 @@ repo/
 │   ├── implementation.md
 │   ├── architecture.md
 │   ├── frontend.md
+│   ├── ui-ux.md
 │   ├── training.md
 │   └── database.md
 │
