@@ -29,7 +29,12 @@ const FEATURE_LABELS: Record<string, string> = {
   station: "駅",
   room_layout: "間取り",
   building_type: "建物構造",
-  transaction_year: "取引年"
+  transaction_year: "取引年",
+  station_passenger_log: "駅乗降客数",
+  station_line_count: "駅路線数",
+  station_operator_count: "駅運営会社数",
+  effective_station_scale: "駅規模",
+  has_station_passenger_data: "駅規模データ有無"
 };
 
 function formatExactYen(value: number): string {
