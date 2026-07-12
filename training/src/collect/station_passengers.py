@@ -127,9 +127,7 @@ def enumerate_tiles(bbox: BoundingBox, zoom: int) -> list[Tile]:
     min_x, min_y = lat_lon_to_tile(bbox.north, bbox.west, zoom)
     max_x, max_y = lat_lon_to_tile(bbox.south, bbox.east, zoom)
     return [
-        Tile(z=zoom, x=x, y=y)
-        for x in range(min_x, max_x + 1)
-        for y in range(min_y, max_y + 1)
+        Tile(z=zoom, x=x, y=y) for x in range(min_x, max_x + 1) for y in range(min_y, max_y + 1)
     ]
 
 
@@ -418,9 +416,7 @@ def create_station_group_id(record: dict[str, Any]) -> str:
         return f"sta:{station_code}"
     location = record["location"]
     source = (
-        f"{record['normalizedStationName']}:"
-        f"{location['latitude']:.5f}:"
-        f"{location['longitude']:.5f}"
+        f"{record['normalizedStationName']}:{location['latitude']:.5f}:{location['longitude']:.5f}"
     )
     digest = hashlib.sha256(source.encode("utf-8")).hexdigest()[:16]
     return f"generated:{digest}"

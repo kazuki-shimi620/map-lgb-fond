@@ -20,11 +20,9 @@ from features.station_passengers import (
 class IFeatureProvider(Protocol):
     output_features: list[str]
 
-    def fit(self, df) -> None:
-        ...
+    def fit(self, df) -> None: ...
 
-    def transform(self, df, context: dict):
-        ...
+    def transform(self, df, context: dict): ...
 
 
 @dataclass
@@ -157,8 +155,7 @@ def create_external_feature_pipeline(
         providers.append(
             StationPassengerProvider(
                 csv_path=Path(
-                    station_passengers_csv
-                    or "data/processed/station_passengers/station_groups.csv"
+                    station_passengers_csv or "data/processed/station_passengers/station_groups.csv"
                 )
             )
         )

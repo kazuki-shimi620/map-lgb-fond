@@ -17,7 +17,9 @@ class CategoryEncodingResult:
     dictionary: dict
 
 
-def build_and_apply_category_dictionary(df, categorical_features: list[str]) -> CategoryEncodingResult:
+def build_and_apply_category_dictionary(
+    df, categorical_features: list[str]
+) -> CategoryEncodingResult:
     encoded = df.copy()
     dictionary: dict = {"unknownId": 0}
 

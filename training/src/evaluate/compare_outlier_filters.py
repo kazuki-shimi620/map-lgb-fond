@@ -81,7 +81,9 @@ def main() -> int:
     parser.add_argument("--regions", nargs="+", default=DEFAULT_REGIONS)
     parser.add_argument("--processed-dir", type=Path, default=Path("data/processed"))
     parser.add_argument("--output-dir", type=Path, default=Path("outputs/comparisons"))
-    parser.add_argument("--train-start-years", nargs="+", type=int, default=DEFAULT_TRAIN_START_YEARS)
+    parser.add_argument(
+        "--train-start-years", nargs="+", type=int, default=DEFAULT_TRAIN_START_YEARS
+    )
     parser.add_argument("--test-years", nargs="+", type=int, default=DEFAULT_TEST_YEARS)
     args = parser.parse_args()
 
@@ -140,7 +142,9 @@ def compare_outlier_filters(
         "candidates": rows,
     }
     save_json(report, output_dir / "outlier_filter_backtest.json")
-    (output_dir / "outlier_filter_backtest.md").write_text(render_markdown(report), encoding="utf-8")
+    (output_dir / "outlier_filter_backtest.md").write_text(
+        render_markdown(report), encoding="utf-8"
+    )
     return report
 
 
@@ -242,9 +246,7 @@ def _weighted_metrics(folds: list[dict[str, object]]) -> dict[str, float]:
 
     total = sum(fold["testCount"] for fold in folds)
     mae = sum(fold["metrics"]["mae"] * fold["testCount"] for fold in folds) / total
-    rmse = (
-        sum(fold["metrics"]["rmse"] ** 2 * fold["testCount"] for fold in folds) / total
-    ) ** 0.5
+    rmse = (sum(fold["metrics"]["rmse"] ** 2 * fold["testCount"] for fold in folds) / total) ** 0.5
     mape = sum(fold["metrics"]["mape"] * fold["testCount"] for fold in folds) / total
     return {"mae": mae, "rmse": rmse, "mape": mape}
 

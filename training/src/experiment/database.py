@@ -84,7 +84,9 @@ def upsert_features(connection: sqlite3.Connection, features: list[str]) -> None
     )
 
 
-def link_experiment_features(connection: sqlite3.Connection, experiment_id: int, features: list[str]) -> None:
+def link_experiment_features(
+    connection: sqlite3.Connection, experiment_id: int, features: list[str]
+) -> None:
     rows = connection.execute(
         "SELECT id, feature_name FROM features WHERE feature_name IN ({})".format(
             ",".join("?" for _ in features)
@@ -97,7 +99,9 @@ def link_experiment_features(connection: sqlite3.Connection, experiment_id: int,
     )
 
 
-def create_dataset(connection: sqlite3.Connection, *, name: str, source_url: str, region: str, record_count: int) -> int:
+def create_dataset(
+    connection: sqlite3.Connection, *, name: str, source_url: str, region: str, record_count: int
+) -> int:
     cursor = connection.execute(
         "INSERT INTO datasets(name, source_url, region, record_count) VALUES (?, ?, ?, ?)",
         (name, source_url, region, record_count),
@@ -113,7 +117,9 @@ def create_experiment(connection: sqlite3.Connection, *, name: str, dataset_id: 
     return int(cursor.lastrowid)
 
 
-def complete_experiment(connection: sqlite3.Connection, experiment_id: int, metrics: dict[str, float]) -> None:
+def complete_experiment(
+    connection: sqlite3.Connection, experiment_id: int, metrics: dict[str, float]
+) -> None:
     connection.execute(
         """
         UPDATE experiments
@@ -157,13 +163,22 @@ def register_model_if_best(
     should_update_latest = current is None or current[0] is None or mae < float(current[0])
 
     if should_update_latest:
-        connection.execute("UPDATE models SET is_latest = 0 WHERE region = ? AND is_latest = 1", (region,))
+        connection.execute(
+            "UPDATE models SET is_latest = 0 WHERE region = ? AND is_latest = 1", (region,)
+        )
 
     connection.execute(
         """
         INSERT INTO models(experiment_id, model_type, region, model_path, onnx_path, is_latest)
         VALUES (?, ?, ?, ?, ?, ?)
         """,
-        (experiment_id, model_type, region, model_path, onnx_path, 1 if should_update_latest else 0),
+        (
+            experiment_id,
+            model_type,
+            region,
+            model_path,
+            onnx_path,
+            1 if should_update_latest else 0,
+        ),
     )
     return should_update_latest

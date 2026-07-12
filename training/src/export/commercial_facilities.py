@@ -50,7 +50,9 @@ def read_jcsc_csv(path: Path) -> list[dict[str, str]]:
 
 def write_summary(summary: dict[str, Any], output_path: Path) -> Path:
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(json.dumps(summary, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    output_path.write_text(
+        json.dumps(summary, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8"
+    )
     return output_path
 
 
@@ -72,7 +74,8 @@ def _summarize_group(rows: list[dict[str, str]]) -> dict[str, Any]:
             2,
         ),
         "tenantCountSum": sum(_to_int(row.get("tenant_count")) or 0 for row in rows),
-        "latestOpenYear": max((_to_int(row.get("open_year")) or 0 for row in rows), default=0) or None,
+        "latestOpenYear": max((_to_int(row.get("open_year")) or 0 for row in rows), default=0)
+        or None,
         "recentOpenings": [
             {
                 "name": row.get("name") or "",

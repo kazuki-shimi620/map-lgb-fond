@@ -32,9 +32,7 @@ def test_load_config_resolves_hazard_features_csv(tmp_path) -> None:
     config = load_config(config_path)
 
     assert config.hazard_features_csv
-    assert config.hazard_features_csv.endswith(
-        "data/processed/hazards/hazard_features.csv"
-    )
+    assert config.hazard_features_csv.endswith("data/processed/hazards/hazard_features.csv")
 
 
 def test_load_config_resolves_commercial_facilities_csv(tmp_path) -> None:
@@ -54,6 +52,4 @@ def test_load_config_resolves_commercial_facilities_csv(tmp_path) -> None:
     config = load_config(config_path)
 
     assert config.commercial_facilities_csv
-    assert config.commercial_facilities_csv.endswith(
-        "data/processed/jcsc/jcsc_sc_open.csv"
-    )
+    assert config.commercial_facilities_csv.endswith("data/processed/jcsc/jcsc_sc_open.csv")

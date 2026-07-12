@@ -14,5 +14,7 @@ def calculate_metrics(y_true, y_pred) -> dict[str, float]:
     return {
         "mae": float(np.mean(np.abs(errors))),
         "rmse": float(sqrt(np.mean(errors**2))),
-        "mape": float(np.mean(np.abs(errors[non_zero] / actual[non_zero])) * 100) if non_zero.any() else 0.0,
+        "mape": float(np.mean(np.abs(errors[non_zero] / actual[non_zero])) * 100)
+        if non_zero.any()
+        else 0.0,
     }

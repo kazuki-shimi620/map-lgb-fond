@@ -52,7 +52,9 @@ def main() -> int:
         region = metadata_path.name.removesuffix("_latest_metadata.json")
         categories_path = metadata_path.with_name(f"{region}_latest_categories.json")
         model_path = metadata_path.parents[1] / "models" / f"{region}_latest.onnx"
-        errors.extend(validate_frontend_artifact_contract(metadata_path, categories_path, model_path))
+        errors.extend(
+            validate_frontend_artifact_contract(metadata_path, categories_path, model_path)
+        )
 
     if errors:
         for error in errors:

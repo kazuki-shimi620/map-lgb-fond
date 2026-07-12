@@ -98,8 +98,7 @@ def train_regional_models(
 
     data = pd.read_parquet(input_path)
     data = data[
-        (data["transaction_year"] >= train_start_year)
-        & (data["transaction_year"] <= test_year)
+        (data["transaction_year"] >= train_start_year) & (data["transaction_year"] <= test_year)
     ].copy()
     validate_cluster_coverage(data["prefecture"].unique())
     data["model_group"] = data["prefecture"].map(build_cluster_by_prefecture())

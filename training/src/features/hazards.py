@@ -197,9 +197,10 @@ def calculate_overall_hazard_score(scores: dict[str, float | None]) -> float | N
         "storm_surge": 0.15,
     }
     total_weight = sum(weights[hazard_type] for hazard_type in available)
-    weighted = sum(
-        available[hazard_type] * weights[hazard_type] for hazard_type in available
-    ) / total_weight
+    weighted = (
+        sum(available[hazard_type] * weights[hazard_type] for hazard_type in available)
+        / total_weight
+    )
     return min(available.values()) * 0.6 + weighted * 0.4
 
 
@@ -232,7 +233,9 @@ def to_wide_hazard_features(hazards):
             score = record.get("score")
             if hazard_type == "landslide" and _is_missing(score) and _is_missing(risk_level):
                 risk_level, score, _ = landslide_zone_to_features(record.get("zone_type"))
-            scores[hazard_type] = score if not _is_missing(score) else score_from_risk_level(risk_level)
+            scores[hazard_type] = (
+                score if not _is_missing(score) else score_from_risk_level(risk_level)
+            )
             _assign_hazard_record(row, hazard_type, record)
         row["hazard_available_count"] = float(
             sum(1 for value in scores.values() if value is not None)
@@ -311,7 +314,10 @@ def _build_hazard_join_plan(properties, hazards):
         key
         for key in ["prefecture", "municipality", "feature_year"]
         if key in hazards.columns
-        and (key in properties.columns or (key == "feature_year" and "transaction_year" in properties.columns))
+        and (
+            key in properties.columns
+            or (key == "feature_year" and "transaction_year" in properties.columns)
+        )
     ]
     if not keys:
         return None

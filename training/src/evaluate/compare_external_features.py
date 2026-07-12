@@ -108,7 +108,9 @@ def main() -> int:
         default=Path("data/processed/station_passengers/station_groups.csv"),
     )
     parser.add_argument("--output-dir", type=Path, default=Path("outputs/comparisons"))
-    parser.add_argument("--train-start-years", nargs="+", type=int, default=DEFAULT_TRAIN_START_YEARS)
+    parser.add_argument(
+        "--train-start-years", nargs="+", type=int, default=DEFAULT_TRAIN_START_YEARS
+    )
     parser.add_argument("--test-years", nargs="+", type=int, default=DEFAULT_TEST_YEARS)
     args = parser.parse_args()
 
@@ -149,7 +151,9 @@ def compare_external_features(
     data = pd.concat(frames, ignore_index=True)
     facilities = load_commercial_facilities_csv(facilities_csv)
     station_passengers = load_station_passengers_csv(station_passengers_csv)
-    data = add_commercial_facility_features(data, facilities, data_start_year=min(train_start_years))
+    data = add_commercial_facility_features(
+        data, facilities, data_start_year=min(train_start_years)
+    )
     data = add_station_passenger_features(data, station_passengers)
 
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -245,11 +249,7 @@ def _backtest_candidate(
 
 
 def feature_lists(candidate: ExternalFeatureCandidate) -> tuple[list[str], list[str]]:
-    features = (
-        BASE_FEATURES
-        + candidate.commercial_features
-        + candidate.station_passenger_features
-    )
+    features = BASE_FEATURES + candidate.commercial_features + candidate.station_passenger_features
     categorical_features = list(BASE_CATEGORICAL_FEATURES)
     if candidate.include_station_rank:
         features += STATION_PASSENGER_CATEGORICAL_FEATURES
@@ -313,9 +313,7 @@ def _weighted_metrics(folds: list[dict[str, object]]) -> dict[str, float]:
 
     total = sum(fold["testCount"] for fold in folds)
     mae = sum(fold["metrics"]["mae"] * fold["testCount"] for fold in folds) / total
-    rmse = (
-        sum(fold["metrics"]["rmse"] ** 2 * fold["testCount"] for fold in folds) / total
-    ) ** 0.5
+    rmse = (sum(fold["metrics"]["rmse"] ** 2 * fold["testCount"] for fold in folds) / total) ** 0.5
     mape = sum(fold["metrics"]["mape"] * fold["testCount"] for fold in folds) / total
     return {"mae": mae, "rmse": rmse, "mape": mape}
 
@@ -365,7 +363,8 @@ def render_markdown(report: dict[str, object]) -> str:
         f"駅件数: {report['stationPassengerCount']:,}",
         f"駅乗降客数マッチ件数: {report['matchedRowCount']:,}",
         "",
-        "| 候補 | trainStart | station | rank | 商業施設 | 駅規模 | MAE | RMSE | MAPE | ONNX | gzip | 辞書gzip | 学習秒 |",
+        "| 候補 | trainStart | station | rank | 商業施設 | 駅規模 | MAE | RMSE | "
+        "MAPE | ONNX | gzip | 辞書gzip | 学習秒 |",
         "|---|---:|---:|---:|---|---|---:|---:|---:|---:|---:|---:|---:|",
     ]
     for row in report["candidates"]:
@@ -387,8 +386,7 @@ def render_markdown(report: dict[str, object]) -> str:
     lines.append("## 上位特徴量")
     for row in report["candidates"]:
         top_features = ", ".join(
-            f"{item['feature']}={item['importance']:.0f}"
-            for item in row["featureImportance"][:8]
+            f"{item['feature']}={item['importance']:.0f}" for item in row["featureImportance"][:8]
         )
         lines.append(f"- {row['name']}: {top_features}")
     lines.append("")

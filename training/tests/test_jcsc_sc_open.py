@@ -86,8 +86,7 @@ def test_fetch_sc_open_data_normalizes_rows() -> None:
 
 def test_resolve_year_url_uses_link_or_current_page() -> None:
     assert (
-        resolve_year_url(2025, SAMPLE_HTML)
-        == "https://www.jcsc.or.jp/sc_data/sc_open/sc_list2025"
+        resolve_year_url(2025, SAMPLE_HTML) == "https://www.jcsc.or.jp/sc_data/sc_open/sc_list2025"
     )
     assert resolve_year_url(2026, SAMPLE_HTML) == SC_OPEN_LIST_URL
 

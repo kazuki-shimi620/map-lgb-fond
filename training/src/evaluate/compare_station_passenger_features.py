@@ -50,13 +50,9 @@ STATION_SCALE_NUMERIC_FEATURES = [
     "has_station_passenger_data",
 ]
 STATION_SCALE_NUMERIC_FEATURES_WITHOUT_COVERAGE_FLAG = [
-    feature
-    for feature in STATION_SCALE_NUMERIC_FEATURES
-    if feature != "has_station_passenger_data"
+    feature for feature in STATION_SCALE_NUMERIC_FEATURES if feature != "has_station_passenger_data"
 ]
-STATION_SCALE_WITH_AGE_FEATURES = STATION_SCALE_NUMERIC_FEATURES + [
-    "station_passenger_age"
-]
+STATION_SCALE_WITH_AGE_FEATURES = STATION_SCALE_NUMERIC_FEATURES + ["station_passenger_age"]
 
 
 @dataclass(frozen=True)
@@ -290,9 +286,7 @@ def _weighted_metrics(folds: list[dict[str, object]]) -> dict[str, float]:
 
     total = sum(fold["testCount"] for fold in folds)
     mae = sum(fold["metrics"]["mae"] * fold["testCount"] for fold in folds) / total
-    rmse = (
-        sum(fold["metrics"]["rmse"] ** 2 * fold["testCount"] for fold in folds) / total
-    ) ** 0.5
+    rmse = (sum(fold["metrics"]["rmse"] ** 2 * fold["testCount"] for fold in folds) / total) ** 0.5
     mape = sum(fold["metrics"]["mape"] * fold["testCount"] for fold in folds) / total
     return {"mae": mae, "rmse": rmse, "mape": mape}
 
@@ -363,8 +357,7 @@ def render_markdown(report: dict[str, object]) -> str:
     lines.append("## 上位特徴量")
     for row in report["candidates"]:
         top_features = ", ".join(
-            f"{item['feature']}={item['importance']:.0f}"
-            for item in row["featureImportance"][:8]
+            f"{item['feature']}={item['importance']:.0f}" for item in row["featureImportance"][:8]
         )
         lines.append(f"- {row['name']}: {top_features}")
     lines.append("")

@@ -26,13 +26,15 @@ def build_edge_case_report(df, *, region: str, source_path: str) -> dict[str, An
     for name, selector in SEGMENTS.items():
         segments.append(_summarize_segment(name, prepared[selector(prepared)]))
 
-    return _attach_share({
-        "region": region,
-        "sourcePath": source_path,
-        "generatedAt": datetime.now(UTC).isoformat(timespec="seconds"),
-        "recordCount": int(len(prepared)),
-        "segments": segments,
-    })
+    return _attach_share(
+        {
+            "region": region,
+            "sourcePath": source_path,
+            "generatedAt": datetime.now(UTC).isoformat(timespec="seconds"),
+            "recordCount": int(len(prepared)),
+            "segments": segments,
+        }
+    )
 
 
 def save_report(report: dict[str, Any], output_dir: Path) -> dict[str, Path]:

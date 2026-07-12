@@ -102,9 +102,7 @@ def test_price_history_can_limit_transaction_years():
         2020,
         2025,
     ]
-    assert [point["year"] for point in build_price_history(dataframe, max_year=2019)] == [
-        2019
-    ]
+    assert [point["year"] for point in build_price_history(dataframe, max_year=2019)] == [2019]
 
 
 def test_price_trend_summary_builds_regional_and_station_trends():

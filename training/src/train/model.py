@@ -14,7 +14,9 @@ class BaselineMeanModel:
         return np.full(len(features), self.mean_price)
 
 
-def train_model(features, target, categorical_features: list[str], model_params: dict[str, Any] | None = None):
+def train_model(
+    features, target, categorical_features: list[str], model_params: dict[str, Any] | None = None
+):
     try:
         import lightgbm as lgb
 
@@ -57,8 +59,12 @@ def tune_model(
             {
                 **base_params,
                 "n_estimators": max_estimators,
-                "learning_rate": trial.suggest_float("learning_rate", learning_rate_min, learning_rate_max, log=True),
-                "num_leaves": trial.suggest_int("num_leaves", num_leaves_min, num_leaves_max, log=True),
+                "learning_rate": trial.suggest_float(
+                    "learning_rate", learning_rate_min, learning_rate_max, log=True
+                ),
+                "num_leaves": trial.suggest_int(
+                    "num_leaves", num_leaves_min, num_leaves_max, log=True
+                ),
                 "max_depth": trial.suggest_int("max_depth", max_depth_min, max_depth_max),
                 "min_child_samples": trial.suggest_int(
                     "min_child_samples",
@@ -94,11 +100,15 @@ def tune_model(
     study.optimize(objective, n_trials=n_trials, timeout=timeout_seconds)
 
     best_params = _build_model_params({**base_params, **study.best_trial.params})
-    best_params["n_estimators"] = int(study.best_trial.user_attrs.get("best_iteration", best_params["n_estimators"]))
+    best_params["n_estimators"] = int(
+        study.best_trial.user_attrs.get("best_iteration", best_params["n_estimators"])
+    )
     return {
         "params": best_params,
         "best_value": float(study.best_value),
-        "best_validation_mae": float(study.best_trial.user_attrs.get("validation_mae", study.best_value)),
+        "best_validation_mae": float(
+            study.best_trial.user_attrs.get("validation_mae", study.best_value)
+        ),
         "trials": len(study.trials),
     }
 

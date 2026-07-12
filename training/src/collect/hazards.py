@@ -63,7 +63,9 @@ def collect_hazards(
 
     output_dir.mkdir(parents=True, exist_ok=True)
     raw_dir.mkdir(parents=True, exist_ok=True)
-    payload = _load_payload(input_path=input_path, url=url, raw_dir=raw_dir, api_key_env=api_key_env)
+    payload = _load_payload(
+        input_path=input_path, url=url, raw_dir=raw_dir, api_key_env=api_key_env
+    )
     records = normalize_hazard_records(_extract_records(payload), source_url=url or str(input_path))
 
     normalized_json = output_dir / "hazard_records.json"
@@ -113,7 +115,9 @@ def normalize_hazard_records(records: list[dict[str, Any]], *, source_url: str |
             "depth_max": _to_float(_pick(record, "depth_max", "depthMax")),
             "zone_type": _pick(record, "zone_type", "zoneType") or "",
             "special_warning": _to_float(_pick(record, "special_warning", "specialWarning")),
-            "source_available": _to_bool(_pick(record, "source_available", "sourceAvailable", "data_available")),
+            "source_available": _to_bool(
+                _pick(record, "source_available", "sourceAvailable", "data_available")
+            ),
             "evaluated_at": _pick(record, "evaluated_at", "evaluatedAt") or evaluated_at,
         }
         _complete_hazard_values(row, record)
@@ -177,7 +181,11 @@ def _extract_records(payload: object) -> list[dict[str, Any]]:
             value = payload.get(key)
             if isinstance(value, list):
                 if key == "features":
-                    return [_feature_to_record(feature) for feature in value if isinstance(feature, dict)]
+                    return [
+                        _feature_to_record(feature)
+                        for feature in value
+                        if isinstance(feature, dict)
+                    ]
                 return [record for record in value if isinstance(record, dict)]
         return [payload]
     return []
