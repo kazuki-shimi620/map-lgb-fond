@@ -32,6 +32,7 @@ features:
   - station_distance
   - prefecture
   - municipality
+  - station
   - room_layout
   - building_type
   - transaction_year
@@ -44,6 +45,7 @@ features:
 categorical_features:
   - prefecture
   - municipality
+  - station
   - room_layout
   - building_type
   - station_rank
