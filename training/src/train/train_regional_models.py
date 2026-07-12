@@ -15,7 +15,7 @@ from common.regions import (  # noqa: E402
     build_cluster_by_prefecture,
     validate_cluster_coverage,
 )
-from evaluate.metrics import calculate_metrics  # noqa: E402
+from evaluate.metrics import calculate_metrics, calculate_residual_quantiles  # noqa: E402
 from export.artifacts import (  # noqa: E402
     RECENT_HISTORY_START_YEAR,
     build_artifact_paths,
@@ -122,6 +122,10 @@ def train_regional_models(
         )
         predictions = evaluation_model.predict(encoded.loc[test_mask, FEATURES])
         metrics = calculate_metrics(encoded.loc[test_mask, "price"], predictions)
+        residual_quantiles = calculate_residual_quantiles(
+            encoded.loc[test_mask, "price"],
+            predictions,
+        )
         deployment_model = train_model(
             encoded[FEATURES], encoded["price"], CATEGORICAL_FEATURES, MODEL_PARAMS
         )
@@ -140,6 +144,7 @@ def train_regional_models(
                 test_count=int(test_mask.sum()),
                 deployment_count=len(encoded),
                 metrics=metrics,
+                residual_quantiles=residual_quantiles,
                 model=deployment_model,
             ),
             paths["metadata"],
@@ -187,6 +192,7 @@ def _build_metadata(
     test_count: int,
     deployment_count: int,
     metrics: dict[str, float],
+    residual_quantiles: dict[str, float],
     model,
 ) -> dict[str, object]:
     return {
@@ -206,6 +212,7 @@ def _build_metadata(
             "trainCount": train_count,
             "testCount": test_count,
             "metrics": metrics,
+            "residualQuantiles": residual_quantiles,
         },
         "deployment": {
             "trainStartYear": train_start_year,

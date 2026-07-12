@@ -186,12 +186,15 @@ export class ModelManager {
 
   private toResult(predictedPrice: number, area: number): PredictionResult {
     const mae = this.metadata?.mae ?? 0;
+    const residualQuantiles = this.metadata?.evaluation?.residualQuantiles;
+    const lowerOffset = residualQuantiles?.p025 ?? -mae;
+    const upperOffset = residualQuantiles?.p975 ?? mae;
 
     return {
       predictedPrice,
       pricePerSquareMeter: area > 0 ? predictedPrice / area : 0,
-      lowerPrice: Math.max(0, predictedPrice - mae),
-      upperPrice: predictedPrice + mae
+      lowerPrice: Math.max(0, predictedPrice + lowerOffset),
+      upperPrice: Math.max(0, predictedPrice + upperOffset)
     };
   }
 

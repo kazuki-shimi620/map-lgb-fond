@@ -26,6 +26,10 @@ export type ModelMetadata = {
       rmse: number;
       mape: number;
     };
+    residualQuantiles?: {
+      p025: number;
+      p975: number;
+    };
   };
   deployment?: {
     trainStartYear: number;
