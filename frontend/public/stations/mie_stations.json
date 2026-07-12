@@ -965,7 +965,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道北勢線",
     "lat": 35.064398,
-    "lon": 136.630113
+    "lon": 136.630113,
+    "station_passenger_log": 10.292382802315128,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "mie_0085",
@@ -1061,7 +1065,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄志摩線",
     "lat": 34.432726,
-    "lon": 136.840144
+    "lon": 136.840144,
+    "station_passenger_log": 7.290974778142981,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0011",
@@ -1429,7 +1437,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄志摩線",
     "lat": 34.358742,
-    "lon": 136.815975
+    "lon": 136.815975,
+    "station_passenger_log": 8.223090551161533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0150",

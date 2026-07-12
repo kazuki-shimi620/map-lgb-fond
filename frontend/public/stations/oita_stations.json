@@ -157,7 +157,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.282004,
-    "lon": 131.100917
+    "lon": 131.100917,
+    "station_passenger_log": 10.14112555000079,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "oita_0099",

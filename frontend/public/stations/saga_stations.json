@@ -197,7 +197,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR佐世保線",
     "lat": 33.212462,
-    "lon": 130.106398
+    "lon": 130.106398,
+    "station_passenger_log": 7.434847875211999,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0067",
@@ -341,7 +345,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR佐世保線",
     "lat": 33.21919,
-    "lon": 130.160858
+    "lon": 130.160858,
+    "station_passenger_log": 9.44359265743868,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "saga_0076",
@@ -621,6 +629,10 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.195093,
-    "lon": 129.85542
+    "lon": 129.85542,
+    "station_passenger_log": 9.063694791634695,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   }
 ]

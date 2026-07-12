@@ -741,7 +741,11 @@
     "prefecture": "島根県",
     "line_name": "一畑電車大社線",
     "lat": 35.390677,
-    "lon": 132.746684
+    "lon": 132.746684,
+    "station_passenger_log": 7.489412083508719,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shimane_0036",

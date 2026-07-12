@@ -245,7 +245,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.195011,
-    "lon": 130.5992
+    "lon": 130.5992,
+    "station_passenger_log": 10.750599681390584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "kagoshima_0039",

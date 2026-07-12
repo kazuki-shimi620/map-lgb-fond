@@ -53,7 +53,11 @@
     "prefecture": "福岡県",
     "line_name": "JR日田彦山線",
     "lat": 33.65607,
-    "lon": 130.835781
+    "lon": 130.835781,
+    "station_passenger_log": 8.353968130313271,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukuoka_0062",
@@ -197,7 +201,11 @@
     "prefecture": "福岡県",
     "line_name": "JR日田彦山線BRT",
     "lat": 33.518567,
-    "lon": 130.860964
+    "lon": 130.860964,
+    "station_passenger_log": 9.338029733117072,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "fukuoka_0017",
@@ -485,7 +493,11 @@
     "prefecture": "福岡県",
     "line_name": "西鉄甘木線",
     "lat": 33.345379,
-    "lon": 130.582822
+    "lon": 130.582822,
+    "station_passenger_log": 9.914971360477416,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "fukuoka_0248",
@@ -733,7 +745,11 @@
     "prefecture": "福岡県",
     "line_name": "JR日田彦山線BRT",
     "lat": 33.558706,
-    "lon": 130.858546
+    "lon": 130.858546,
+    "station_passenger_log": 7.600902459542082,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukuoka_0314",
@@ -1653,7 +1669,11 @@
     "prefecture": "福岡県",
     "line_name": "JR鹿児島本線",
     "lat": 33.099622,
-    "lon": 130.460094
+    "lon": 130.460094,
+    "station_passenger_log": 5.720311776607412,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukuoka_0231",

@@ -765,7 +765,11 @@
     "prefecture": "福島県",
     "line_name": "阿武隈急行",
     "lat": 37.83776,
-    "lon": 140.592986
+    "lon": 140.592986,
+    "station_passenger_log": 10.258781543397928,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "fukushima_0061",
@@ -853,7 +857,11 @@
     "prefecture": "福島県",
     "line_name": "JR東北本線",
     "lat": 37.563307,
-    "lon": 140.413663
+    "lon": 140.413663,
+    "station_passenger_log": 10.338155412452387,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "fukushima_0079",
@@ -893,7 +901,11 @@
     "prefecture": "福島県",
     "line_name": "JR只見線",
     "lat": 37.501885,
-    "lon": 139.828603
+    "lon": 139.828603,
+    "station_passenger_log": 10.596709730283711,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "fukushima_0051",
@@ -925,7 +937,11 @@
     "prefecture": "福島県",
     "line_name": "阿武隈急行",
     "lat": 37.845815,
-    "lon": 140.603279
+    "lon": 140.603279,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukushima_0033",
@@ -941,7 +957,11 @@
     "prefecture": "福島県",
     "line_name": "JR磐越東線",
     "lat": 37.179389,
-    "lon": 140.82609
+    "lon": 140.82609,
+    "station_passenger_log": 10.353097129628477,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "fukushima_0034",

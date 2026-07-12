@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-04T16:24:28+09:00",
+  "generatedAt": "2026-07-12T11:35:30+09:00",
   "capitalRegionPriority": [
     "tokyo",
     "kanagawa",
@@ -10,62 +10,62 @@
   "models": {
     "tokyo": {
       "path": "models/tokyo_latest.onnx",
-      "version": "16ace6aab11bdd35e5807e484d642be2c96416e1fc79a4bf1113c539b6afa94c",
-      "bytes": 18429098
+      "version": "fc0b7470f0fe3a890b015af07e72c0893df29167cd878fd2f0083b572dcceb49",
+      "bytes": 11682829
     },
     "kanagawa": {
       "path": "models/kanagawa_latest.onnx",
-      "version": "e9d2d0b81acc4caef4794a8c0f695c8934209e5f78ac41bfa3ecd1ba0b27bf02",
-      "bytes": 14243905
+      "version": "4b531234e0995a04b09c06ef5c7584f71a63e4dcaea877185b1718c2e653b1a0",
+      "bytes": 12548544
     },
     "saitama": {
       "path": "models/saitama_latest.onnx",
-      "version": "1a4732b6793bdee6fa7ba5462a159d7261a90042175af2ee0811940b0712e4eb",
-      "bytes": 7671595
+      "version": "f92827e2008a1d49053b586ebb4b10981f528b10994bfc3fc602038b6366d27f",
+      "bytes": 5074931
     },
     "chiba": {
       "path": "models/chiba_latest.onnx",
-      "version": "918811c0a4b1908737d0c4a0bb2a3afad319f32d275e8342b531eccee0e02450",
-      "bytes": 10243428
+      "version": "e6c46b2903f56d69ed2404da20ad8fa1add3134a8082d0bdafe2ed2859dc5cac",
+      "bytes": 5144277
     },
     "regional_chubu": {
       "path": "models/regional_chubu_latest.onnx",
-      "version": "5d1db876ec25814e40cf50391fbe70aafd76ca64dc663ea0be792ff17cb1686e",
+      "version": "548a206a1ba25b457e0543f7435369f2ac4c25f3f9f08fe7db1a9b074c99337f",
       "bytes": 1649033
     },
     "regional_chugoku": {
       "path": "models/regional_chugoku_latest.onnx",
-      "version": "95870badee21ad628f744c490fc6b19780130cca0a0e2bf84a09e57b774c2644",
+      "version": "431a4ed30f01fec7be25aa98ca7bf41751fd3ff5cc89e3863194db4f2010106c",
       "bytes": 879584
     },
     "regional_hokkaido": {
       "path": "models/regional_hokkaido_latest.onnx",
-      "version": "da5b8b0f9bb050ad026006ed097f8def2e617559a759a668a9863977fac286b5",
+      "version": "db149f2a3de471b1500ab6ce2d87f61292cb1c8ae87145216b39d508057c0cb8",
       "bytes": 1042308
     },
     "regional_kanto": {
       "path": "models/regional_kanto_latest.onnx",
-      "version": "1aa93fe9bfd956bf63c409ce68cd5db065adeca729801751b346e0da90cb6f7d",
+      "version": "cd22693d1c4017ac395b36849859b7f9d81892f29b01a7f1fe1493da20e8c416",
       "bytes": 2493178
     },
     "regional_kinki": {
       "path": "models/regional_kinki_latest.onnx",
-      "version": "897e557da9790885b4fc00fee5116ef18106d21060c5d2fd640d2f2a2e337410",
+      "version": "275da95997bfd975a7b56dd25415df895a6a4352fcc405eae50d1f49c15243f5",
       "bytes": 2281955
     },
     "regional_kyushu": {
       "path": "models/regional_kyushu_latest.onnx",
-      "version": "336472a568521e03a2a28de5f3095910ff4540a773ed2df42add4e159a3d8a52",
+      "version": "3d27ca784cafe374ae58fe0da95a684bb92d20d2ca3b2113b70c66a97aa36b3f",
       "bytes": 1393618
     },
     "regional_shikoku": {
       "path": "models/regional_shikoku_latest.onnx",
-      "version": "91b3f603147ef7ff372edb4026997512fa1b6b11482ad426e4afd28e04ff5e6a",
+      "version": "3e097c47442de2c8ec43609897b3a7d79410dde014116a50afac53593cc39551",
       "bytes": 657092
     },
     "regional_tohoku": {
       "path": "models/regional_tohoku_latest.onnx",
-      "version": "fdf3d71a92e0168d5561c443632bec73ab670e9640d8476a68dadd97412b3e7c",
+      "version": "97032dd95763c80973aa589777f36b19414e8acdcaab2b6d5d14ed94f2116a7b",
       "bytes": 808518
     }
   }

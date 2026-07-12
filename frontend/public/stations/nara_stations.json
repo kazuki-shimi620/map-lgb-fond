@@ -581,7 +581,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄生駒ケーブル線",
     "lat": 34.683299,
-    "lon": 135.686967
+    "lon": 135.686967,
+    "station_passenger_log": 9.65726726989194,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0079",

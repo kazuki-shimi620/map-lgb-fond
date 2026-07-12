@@ -6,11 +6,11 @@ import os
 import sys
 from pathlib import Path
 
-SRC_ROOT = Path(__file__).resolve().parents[1]
+SRC_ROOT = Path(__file__).resolve().parents[2]
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from collect.mlit import (  # noqa: E402
+from collect.legacy.mlit import (  # noqa: E402
     PREFECTURE_CODES,
     ReinfolibApiError,
     collect_mlit_data,
@@ -42,7 +42,7 @@ def main() -> int:
     parser.add_argument("--convert-output")
     args = parser.parse_args()
 
-    load_env_file(Path(__file__).resolve().parents[2] / ".env")
+    load_env_file(Path(__file__).resolve().parents[3] / ".env")
 
     if args.convert_source and args.convert_output:
         output = convert_shift_jis_to_utf8(args.convert_source, args.convert_output)

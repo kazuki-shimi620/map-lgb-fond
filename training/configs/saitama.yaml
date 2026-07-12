@@ -4,6 +4,7 @@ latest_training_year: 2025
 train_start_year: 2005
 test_year: 2025
 processed_path: data/processed/saitama.parquet
+station_passengers_csv: data/processed/station_passengers/station_groups.csv
 output_dir: outputs/models
 frontend_public_dir: ../frontend/public
 model:
@@ -35,9 +36,16 @@ features:
   - room_layout
   - building_type
   - transaction_year
+  - station_passenger_log
+  - station_line_count
+  - station_operator_count
+  - effective_station_scale
+  - has_station_passenger_data
+  - station_rank
 categorical_features:
   - prefecture
   - municipality
   - station
   - room_layout
   - building_type
+  - station_rank

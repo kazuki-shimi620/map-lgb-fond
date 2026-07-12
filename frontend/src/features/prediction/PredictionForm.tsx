@@ -15,6 +15,8 @@ type Props = {
   value: PredictionFormState;
   onChange: (next: PredictionFormState) => void;
   stationOptions: string[];
+  futureScenario: FutureScenario;
+  onFutureScenarioChange: (next: FutureScenario) => void;
   stationDistanceSource?: "map" | "manual";
   sheetState?: "collapsed" | "half" | "open";
   predictionYearRange?: {
@@ -22,6 +24,26 @@ type Props = {
     max: number;
   };
   formRef?: Ref<HTMLElement>;
+};
+
+type PropertyConditionFormProps = {
+  value: PredictionFormState;
+  onChange: (next: PredictionFormState) => void;
+  stationOptions: string[];
+  stationDistanceSource?: "map" | "manual";
+  sheetState?: "collapsed" | "half" | "open";
+  formRef?: Ref<HTMLElement>;
+};
+
+type ForecastControlsProps = {
+  value: PredictionFormState;
+  onChange: (next: PredictionFormState) => void;
+  futureScenario: FutureScenario;
+  onFutureScenarioChange: (next: FutureScenario) => void;
+  predictionYearRange?: {
+    min: number;
+    max: number;
+  };
 };
 
 type PredictionSheetHandleProps = {
@@ -39,6 +61,13 @@ type PredictionYearControlProps = {
   className?: string;
 };
 
+export type FutureScenario = "bear" | "flat" | "base" | "bull";
+
+type FutureScenarioControlProps = {
+  value: FutureScenario;
+  onChange: (next: FutureScenario) => void;
+};
+
 type SelectFieldProps = {
   label: string;
   value: string;
@@ -50,17 +79,52 @@ export function PredictionForm({
   value,
   onChange,
   stationOptions,
+  futureScenario,
+  onFutureScenarioChange,
   stationDistanceSource = "manual",
   sheetState = "open",
   predictionYearRange,
   formRef
 }: Props) {
+  return (
+    <>
+      <PropertyConditionForm
+        formRef={formRef}
+        value={value}
+        onChange={onChange}
+        stationOptions={stationOptions}
+        stationDistanceSource={stationDistanceSource}
+        sheetState={sheetState}
+      />
+      <ForecastControls
+        value={value}
+        onChange={onChange}
+        futureScenario={futureScenario}
+        onFutureScenarioChange={onFutureScenarioChange}
+        predictionYearRange={predictionYearRange}
+      />
+    </>
+  );
+}
+
+export function PropertyConditionForm({
+  value,
+  onChange,
+  stationOptions,
+  stationDistanceSource = "manual",
+  sheetState = "open",
+  formRef
+}: PropertyConditionFormProps) {
   function update<K extends keyof PredictionFormState>(key: K, nextValue: PredictionFormState[K]) {
     onChange({ ...value, [key]: nextValue });
   }
 
   return (
-    <section ref={formRef} className={`panel form-panel form-grid sheet-${sheetState}`}>
+    <section
+      ref={formRef}
+      className={`panel form-panel form-grid sheet-${sheetState}`}
+      data-testid="prediction-form"
+    >
       <SelectField
         label="都道府県"
         value={value.prefecture}
@@ -130,12 +194,37 @@ export function PredictionForm({
         options={buildingTypes}
         onChange={(nextValue) => update("buildingType", nextValue)}
       />
+    </section>
+  );
+}
 
+export function ForecastControls({
+  value,
+  onChange,
+  futureScenario,
+  onFutureScenarioChange,
+  predictionYearRange
+}: ForecastControlsProps) {
+  function update<K extends keyof PredictionFormState>(key: K, nextValue: PredictionFormState[K]) {
+    onChange({ ...value, [key]: nextValue });
+  }
+
+  return (
+    <section
+      className="panel forecast-panel"
+      aria-label="予測年と将来シナリオ"
+      data-testid="prediction-forecast-controls"
+    >
       <PredictionYearControl
         className="form-prediction-year"
         value={value.predictionYear}
         onChange={(nextValue) => update("predictionYear", nextValue)}
         predictionYearRange={predictionYearRange}
+      />
+
+      <FutureScenarioControl
+        value={futureScenario}
+        onChange={onFutureScenarioChange}
       />
     </section>
   );
@@ -189,6 +278,7 @@ export function PredictionSheetHandle({
     <button
       type="button"
       className="sheet-header"
+      data-testid="sheet-handle"
       aria-label={sheetState === "open" ? "条件入力フォームを下げる" : "条件入力フォームを上げる"}
       onClick={(event) => {
         event.preventDefault();
@@ -244,6 +334,50 @@ export function PredictionYearControl({
         onChange={(event) => onChange(Number(event.target.value))}
       />
     </label>
+  );
+}
+
+function FutureScenarioControl({ value, onChange }: FutureScenarioControlProps) {
+  const tooltipId = useId();
+  const scenarios: Array<{ value: FutureScenario; label: string }> = [
+    { value: "bear", label: "弱気" },
+    { value: "flat", label: "横ばい" },
+    { value: "base", label: "標準" },
+    { value: "bull", label: "強気" }
+  ];
+
+  return (
+    <div className="future-scenario-field">
+      <span className="field-heading">
+        <span className="scenario-label">
+          将来シナリオ
+          <span className="scenario-info">
+            <button type="button" className="info-icon-button" aria-label="将来シナリオの説明" aria-describedby={tooltipId}>
+              i
+            </button>
+            <span className="scenario-tooltip" id={tooltipId} role="tooltip">
+              横ばいは将来補正を0%に固定します。標準は駅または地域の過去トレンドを使い、弱気・強気は標準を基準に上下へ補正します。
+            </span>
+          </span>
+        </span>
+        <strong>{scenarios.find((scenario) => scenario.value === value)?.label}</strong>
+      </span>
+      <div className="segmented-control" role="radiogroup" aria-label="将来シナリオ">
+        {scenarios.map((scenario) => (
+          <button
+            key={scenario.value}
+            type="button"
+            role="radio"
+            aria-checked={scenario.value === value}
+            className={scenario.value === value ? "is-selected" : ""}
+            onClick={() => onChange(scenario.value)}
+          >
+            {scenario.label}
+          </button>
+        ))}
+      </div>
+      <span className="field-note">過去トレンドから作る参考レンジ</span>
+    </div>
   );
 }
 

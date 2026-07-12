@@ -533,7 +533,11 @@
     "prefecture": "広島県",
     "line_name": "JR芸備線",
     "lat": 34.615215,
-    "lon": 132.719883
+    "lon": 132.719883,
+    "station_passenger_log": 7.2868764117507,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hiroshima_0043",
@@ -1517,7 +1521,11 @@
     "prefecture": "広島県",
     "line_name": "アストラムライン",
     "lat": 34.396863,
-    "lon": 132.458231
+    "lon": 132.458231,
+    "station_passenger_log": 7.382124365737512,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hiroshima_0179",

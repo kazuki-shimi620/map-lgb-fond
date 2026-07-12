@@ -53,7 +53,11 @@
     "prefecture": "山形県",
     "line_name": "JR奥羽本線",
     "lat": 38.093349,
-    "lon": 140.203553
+    "lon": 140.203553,
+    "station_passenger_log": 9.754987544217684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "yamagata_0056",
@@ -373,7 +377,11 @@
     "prefecture": "山形県",
     "line_name": "JR米坂線",
     "lat": 37.94335,
-    "lon": 140.075584
+    "lon": 140.075584,
+    "station_passenger_log": 6.502790045915623,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamagata_0062",

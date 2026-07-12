@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { CommercialFacilityCard } from "./features/facilities/CommercialFacilityCard";
+import { HazardRiskCard } from "./features/hazard/HazardRiskCard";
 import { PropertyMap } from "./features/map/PropertyMap";
 import {
   getModelManager,
@@ -8,14 +10,29 @@ import {
 } from "./features/model/modelManagerFactory";
 import { PriceHistoryChart } from "./features/prediction/PriceHistoryChart";
 import {
-  PredictionForm,
+  ForecastControls,
+  PropertyConditionForm,
   PredictionSheetHandle,
-  PredictionYearControl
+  type FutureScenario
 } from "./features/prediction/PredictionForm";
-import { PredictionResultView } from "./features/prediction/PredictionResultView";
+import {
+  PredictionDetailsPanel,
+  PredictionResultView,
+  type PredictionSummary
+} from "./features/prediction/PredictionResultView";
+import { SupportingInfoTabs } from "./features/prediction/SupportingInfoTabs";
+import { StationScaleCard } from "./features/stations/StationScaleCard";
+import { buildStationScaleRequestFields } from "./features/stations/stationScale";
 import { reverseGeocode } from "./services/geocodingService";
 import { distanceKmToWalkingMinutes, findNearestStation, loadStations } from "./services/stationService";
-import type { ModelMetadata, PriceHistoryPoint, StationRecord } from "./types/assets";
+import type {
+  CommercialFacilitySummary,
+  ModelMetadata,
+  PriceHistoryPoint,
+  PriceTrend,
+  PriceTrendSummary,
+  StationRecord
+} from "./types/assets";
 import type { PredictionFormState, PredictionResult, StationRegion } from "./types/prediction";
 import { fetchJson } from "./services/http";
 import { haversineKm } from "./utils/distance";
@@ -36,6 +53,13 @@ const initialForm: PredictionFormState = {
 };
 
 const RECENT_HISTORY_START_YEAR = 2020;
+const MAX_SUPPORTED_STATION_DISTANCE_KM = 30;
+const MAP_SELECTION_SCROLL_DELAY_MS = 2000;
+const UNSUPPORTED_MAP_SELECTION_MESSAGE =
+  "対応エリア外です。離島・海上などは現在対応していません。対応地域内の駅に近い地点を選択してください";
+type MapSelectOptions = {
+  mapMoveDurationMs?: number;
+};
 
 export function App() {
   const [form, setForm] = useState<PredictionFormState>(initialForm);
@@ -46,9 +70,12 @@ export function App() {
     price: number;
   } | null>(null);
   const [history, setHistory] = useState<PriceHistoryPoint[]>([]);
+  const [trendSummary, setTrendSummary] = useState<PriceTrendSummary | null>(null);
+  const [futureScenario, setFutureScenario] = useState<FutureScenario>("base");
   const [isArchiveLoaded, setIsArchiveLoaded] = useState(false);
   const [isArchiveLoading, setIsArchiveLoading] = useState(false);
   const [stations, setStations] = useState<StationRecord[]>([]);
+  const [commercialFacilities, setCommercialFacilities] = useState<CommercialFacilitySummary | null>(null);
   const [metadata, setMetadata] = useState<ModelMetadata | null>(null);
   const [isModelReady, setIsModelReady] = useState(false);
   const [isPredicting, setIsPredicting] = useState(false);
@@ -60,6 +87,7 @@ export function App() {
   const formPanelRef = useRef<HTMLElement | null>(null);
   const sheetStackRef = useRef<HTMLDivElement | null>(null);
   const scrollAnimationRef = useRef<number | null>(null);
+  const mapSelectionScrollTimerRef = useRef<number | null>(null);
 
   const region = useMemo(() => getRegionFromPrefecture(form.prefecture), [form.prefecture]);
   const stationRegion = useMemo(
@@ -94,6 +122,7 @@ export function App() {
     activeStationRegionRef.current = currentStationRegion;
     setIsModelReady(false);
     setHistory([]);
+    setTrendSummary(null);
     setHistoryModelAnchor(null);
     setIsArchiveLoaded(false);
     setIsArchiveLoading(false);
@@ -101,13 +130,15 @@ export function App() {
 
     async function loadRegionAssets() {
       try {
-        const [nextStations, nextHistory] = await Promise.all([
+        const [nextStations, nextHistory, nextTrendSummary] = await Promise.all([
           loadStations(currentStationRegion),
-          fetchJson<PriceHistoryPoint[]>(`./histories/${currentStationRegion}_latest_history.json`)
+          fetchJson<PriceHistoryPoint[]>(`./histories/${currentStationRegion}_latest_history.json`),
+          fetchJson<PriceTrendSummary>(`./histories/${currentStationRegion}_trend_summary.json`).catch(() => null)
         ]);
         if (!disposed) {
           setStations(nextStations);
           setHistory(nextHistory);
+          setTrendSummary(nextTrendSummary);
           setForm((current) =>
             current.prefecture === currentPrefecture && !current.station && nextStations.length > 0
               ? { ...current, station: nextStations[0].station_name }
@@ -144,6 +175,32 @@ export function App() {
     };
   }, [form.prefecture, region, stationRegion]);
 
+  useEffect(() => {
+    return () => {
+      if (mapSelectionScrollTimerRef.current !== null) {
+        window.clearTimeout(mapSelectionScrollTimerRef.current);
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    let disposed = false;
+    fetchJson<CommercialFacilitySummary>("./facilities/commercial_facilities.json")
+      .then((summary) => {
+        if (!disposed) {
+          setCommercialFacilities(summary);
+        }
+      })
+      .catch(() => {
+        if (!disposed) {
+          setCommercialFacilities(null);
+        }
+      });
+    return () => {
+      disposed = true;
+    };
+  }, []);
+
   async function loadArchiveHistory() {
     if (!stationRegion || isArchiveLoaded || isArchiveLoading) {
       return;
@@ -177,61 +234,137 @@ export function App() {
     return loadStations(targetRegion);
   }
 
-  async function handleMapSelect(lat: number, lon: number) {
+  function clearPredictionState() {
+    setResult(null);
+    setForecastPoints([]);
+    setHistoryModelAnchor(null);
+  }
+
+  function rejectMapSelection(message = UNSUPPORTED_MAP_SELECTION_MESSAGE) {
+    setIsSelectionSupported(false);
+    setStationDistanceSource("manual");
+    clearPredictionState();
+    setErrorMessage(message);
+  }
+
+  function scrollToFormAfterMapSelection(delayMs = MAP_SELECTION_SCROLL_DELAY_MS) {
+    if (mapSelectionScrollTimerRef.current !== null) {
+      window.clearTimeout(mapSelectionScrollTimerRef.current);
+    }
+
+    mapSelectionScrollTimerRef.current = window.setTimeout(() => {
+      mapSelectionScrollTimerRef.current = null;
+      setFormSheetState("half");
+      window.requestAnimationFrame(() => {
+        if (window.matchMedia("(max-width: 760px)").matches) {
+          sheetStackRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+          return;
+        }
+        if (formPanelRef.current) {
+          animateScrollToElement(formPanelRef.current, scrollAnimationRef);
+        }
+      });
+    }, delayMs);
+  }
+
+  function clearPendingMapSelectionTimers() {
+    if (mapSelectionScrollTimerRef.current !== null) {
+      window.clearTimeout(mapSelectionScrollTimerRef.current);
+      mapSelectionScrollTimerRef.current = null;
+    }
+  }
+
+  function applyMapSelection({
+    geocode,
+    lat,
+    lon,
+    nearest,
+    nextPrefecture,
+    targetStations,
+    nextRegion,
+    scrollDelayMs
+  }: {
+    geocode: { municipality: string };
+    lat: number;
+    lon: number;
+    nearest: { station: StationRecord; distanceKm: number };
+    nextPrefecture: string;
+    targetStations: StationRecord[];
+    nextRegion: string | null;
+    scrollDelayMs: number;
+  }) {
+    if (nextRegion && nextRegion !== region) {
+      setStations(targetStations);
+    }
+
+    setIsSelectionSupported(true);
+    setStationDistanceSource("map");
+    setForm((current) => ({
+      ...current,
+      prefecture: nextPrefecture || current.prefecture,
+      municipality: geocode.municipality || current.municipality,
+      station: nearest.station.station_name,
+      stationDistance: distanceKmToWalkingMinutes(nearest.distanceKm),
+      lat,
+      lon
+    }));
+    scrollToFormAfterMapSelection(scrollDelayMs);
+  }
+
+  async function handleMapSelect(lat: number, lon: number, options: MapSelectOptions = {}) {
+    const selectionStartedAt = window.performance.now();
     interruptModelPrefetch();
-    setFormSheetState("half");
+    clearPendingMapSelectionTimers();
+    setIsSelectionSupported(false);
+    clearPredictionState();
+    setErrorMessage("");
+
+    if (!isLikelyJapanCoordinate(lat, lon)) {
+      rejectMapSelection();
+      return;
+    }
+
     setForm((current) => ({ ...current, lat, lon }));
-    window.requestAnimationFrame(() => {
-      if (window.matchMedia("(max-width: 760px)").matches) {
-        sheetStackRef.current?.scrollTo({ top: 0, behavior: "smooth" });
-        return;
-      }
-      if (formPanelRef.current) {
-        animateScrollToElement(formPanelRef.current, scrollAnimationRef);
-      }
-    });
 
     try {
       const geocode = await reverseGeocode(lat, lon).catch(() => ({ prefecture: "", municipality: "" }));
       const geocodedRegion = getRegionFromPrefecture(geocode.prefecture);
       const geocodedStationRegion = getStationRegionFromPrefecture(geocode.prefecture);
 
-      if (geocode.prefecture && (!geocodedRegion || !geocodedStationRegion)) {
-        setIsSelectionSupported(false);
-        setResult(null);
-        setForecastPoints([]);
-        setHistoryModelAnchor(null);
-        setErrorMessage("日本国外または地域を特定できない場所です");
+      if (
+        !geocode.prefecture ||
+        !geocodedRegion ||
+        !geocodedStationRegion
+      ) {
+        rejectMapSelection();
         return;
       }
 
-      const targetStationRegion = geocodedStationRegion ?? stationRegion;
-      if (!targetStationRegion) {
-        throw new Error("駅マスタの対象地域を特定できません");
-      }
-      const targetStations = await loadStationCandidates(targetStationRegion);
+      const targetStations = await loadStationCandidates(geocodedStationRegion);
       const nearest = findNearestStation(targetStations, lat, lon);
-      const nextPrefecture =
-        (geocodedRegion ? geocode.prefecture : "") || nearest?.station.prefecture || form.prefecture;
-      const nextRegion = getRegionFromPrefecture(nextPrefecture) ?? region;
-
-      if (nextRegion && nextRegion !== region) {
-        setStations(targetStations);
+      const allowOkinawaMainIsland = geocode.prefecture === "沖縄県" && isOkinawaMainIsland(lat, lon);
+      if (!nearest || (!allowOkinawaMainIsland && nearest.distanceKm > MAX_SUPPORTED_STATION_DISTANCE_KM)) {
+        rejectMapSelection();
+        return;
       }
 
-      setIsSelectionSupported(true);
-      setStationDistanceSource(nearest ? "map" : "manual");
-      setForm((current) => ({
-        ...current,
-        prefecture: nextPrefecture || current.prefecture,
-        municipality: geocode.municipality || current.municipality,
-        station: nearest?.station.station_name ?? current.station,
-        stationDistance: nearest ? distanceKmToWalkingMinutes(nearest.distanceKm) : current.stationDistance,
+      const nextPrefecture = geocode.prefecture;
+      const nextRegion = getRegionFromPrefecture(nextPrefecture) ?? region;
+      const elapsedMs = window.performance.now() - selectionStartedAt;
+      const remainingMapMoveMs = Math.max(0, (options.mapMoveDurationMs ?? 0) - elapsedMs);
+      const scrollDelayMs = remainingMapMoveMs + MAP_SELECTION_SCROLL_DELAY_MS;
+      applyMapSelection({
+        geocode,
         lat,
-        lon
-      }));
+        lon,
+        nearest,
+        nextPrefecture,
+        targetStations,
+        nextRegion,
+        scrollDelayMs
+      });
     } catch {
-      setErrorMessage("地域または駅情報の取得に失敗しました。フォームを手入力してください");
+      rejectMapSelection("地域または駅情報の取得に失敗しました。別の地点を選択してください");
     }
   }
 
@@ -256,13 +389,20 @@ export function App() {
         const manager = getModelManager(region);
         const predictionRequest = {
           ...form,
-          stationDistance: Math.round(form.stationDistance)
+          stationDistance: Math.round(form.stationDistance),
+          ...buildStationScaleRequestFields(stations, form.station)
         };
         const {
           result: nextResult,
           forecastPoints: nextForecastPoints,
           basePrice
-        } = await predictWithFutureTrend(manager, predictionRequest, history);
+        } = await predictWithFutureTrend(
+          manager,
+          predictionRequest,
+          history,
+          trendSummary,
+          futureScenario
+        );
         if (!disposed) {
           setResult(nextResult);
           setForecastPoints(nextForecastPoints);
@@ -288,7 +428,7 @@ export function App() {
       disposed = true;
       window.clearTimeout(timer);
     };
-  }, [form, history, isModelReady, isSelectionSupported, region]);
+  }, [form, futureScenario, history, isModelReady, isSelectionSupported, region, trendSummary]);
 
   function handleFormChange(nextForm: PredictionFormState) {
     if (nextForm.prefecture !== form.prefecture) {
@@ -313,6 +453,7 @@ export function App() {
   }
 
   const stationOptions = stations.map((station) => station.station_name);
+  const selectedStation = stations.find((station) => station.station_name === form.station);
   const targetHistory = history.filter(
     (point) =>
       point.station === form.station &&
@@ -335,6 +476,20 @@ export function App() {
     form.station,
     form.predictionYear
   );
+  const predictionSummary: PredictionSummary | undefined = region
+    ? {
+        station: form.station,
+        stationDistance: Math.round(form.stationDistance),
+        modelRegion: getPrefectureLabel(region),
+        latestTrainingYear: metadata?.latestTrainingYear ?? null,
+        trainStartYear: metadata?.deployment?.trainStartYear ?? metadata?.evaluation?.trainStartYear ?? null,
+        evaluationMae: metadata?.evaluation?.metrics.mae ?? metadata?.mae ?? null,
+        evaluationRmse: metadata?.evaluation?.metrics.rmse ?? null,
+        trainCount: metadata?.deployment?.trainCount ?? metadata?.evaluation?.trainCount ?? null,
+        generatedAt: metadata?.generatedAt ?? null,
+        featureImportance: metadata?.featureImportance ?? []
+      }
+    : undefined;
 
   return (
     <main className="app-shell">
@@ -357,54 +512,78 @@ export function App() {
 
       <div className={`layout form-sheet-${formSheetState}`}>
         <PropertyMap lat={form.lat} lon={form.lon} onSelect={handleMapSelect} />
-        <div ref={sheetStackRef} className={`sheet-stack sheet-${formSheetState}`}>
+        <div
+          ref={sheetStackRef}
+          className={`sheet-stack sheet-${formSheetState}`}
+          data-testid="prediction-sheet"
+        >
           <PredictionSheetHandle
             sheetState={formSheetState}
             onSheetStateChange={setFormSheetState}
           />
-          <PredictionForm
-            formRef={formPanelRef}
-            value={form}
-            onChange={handleFormChange}
-            stationOptions={stationOptions}
-            stationDistanceSource={stationDistanceSource}
-            sheetState={formSheetState}
-            predictionYearRange={predictionYearRange}
-          />
-          <PredictionResultView
-            result={result}
-            summary={
-              region
-                ? {
-                    station: form.station,
-                    stationDistance: Math.round(form.stationDistance),
-                    modelRegion: getPrefectureLabel(region),
-                    latestTrainingYear: metadata?.latestTrainingYear ?? null,
-                    trainStartYear: metadata?.deployment?.trainStartYear ?? metadata?.evaluation?.trainStartYear ?? null,
-                    evaluationMae: metadata?.evaluation?.metrics.mae ?? metadata?.mae ?? null,
-                    evaluationRmse: metadata?.evaluation?.metrics.rmse ?? null,
-                    trainCount: metadata?.deployment?.trainCount ?? metadata?.evaluation?.trainCount ?? null,
-                    generatedAt: metadata?.generatedAt ?? null,
-                    featureImportance: metadata?.featureImportance ?? []
-                  }
-                : undefined
-            }
-          />
-          <section className="panel prediction-year-panel" aria-label="予測年シミュレーション">
-            <PredictionYearControl
-              className="desktop-prediction-year"
-              value={form.predictionYear}
-              onChange={(predictionYear) => handleFormChange({ ...form, predictionYear })}
-              predictionYearRange={predictionYearRange}
-            />
-          </section>
-          <PriceHistoryChart
-            points={chartPoints}
-            hasHistory={history.length > 0}
-            isArchiveLoaded={isArchiveLoaded}
-            isArchiveLoading={isArchiveLoading}
-            onLoadArchive={loadArchiveHistory}
-            onCloseArchive={closeArchiveHistory}
+          <div className="prediction-workflow">
+            <div className="prediction-main-column">
+              <PropertyConditionForm
+                formRef={formPanelRef}
+                value={form}
+                onChange={handleFormChange}
+                stationOptions={stationOptions}
+                stationDistanceSource={stationDistanceSource}
+                sheetState={formSheetState}
+              />
+              <PredictionResultView result={result} />
+            </div>
+            <div className="prediction-side-column">
+              <ForecastControls
+                value={form}
+                onChange={handleFormChange}
+                futureScenario={futureScenario}
+                onFutureScenarioChange={setFutureScenario}
+                predictionYearRange={predictionYearRange}
+              />
+              <PriceHistoryChart
+                points={chartPoints}
+                hasHistory={history.length > 0}
+                isArchiveLoaded={isArchiveLoaded}
+                isArchiveLoading={isArchiveLoading}
+                onLoadArchive={loadArchiveHistory}
+                onCloseArchive={closeArchiveHistory}
+              />
+            </div>
+          </div>
+          <SupportingInfoTabs
+            tabs={[
+              {
+                id: "facilities",
+                label: "商業施設",
+                description: "対象エリア周辺のショッピングセンター開業状況を確認できます。",
+                content: (
+                  <CommercialFacilityCard
+                    summary={commercialFacilities}
+                    prefecture={form.prefecture}
+                    municipality={form.municipality}
+                  />
+                )
+              },
+              {
+                id: "station",
+                label: "駅規模",
+                description: "最寄駅の乗降客数や路線数を確認できます。",
+                content: <StationScaleCard station={selectedStation} stationName={form.station} />
+              },
+              {
+                id: "hazard",
+                label: "災害リスク",
+                description: "選択地点の災害リスクに関する参考情報を確認できます。",
+                content: <HazardRiskCard latitude={form.lat} longitude={form.lon} />
+              },
+              {
+                id: "model",
+                label: "モデル",
+                description: "予測に使った条件、モデル評価、特徴量重要度を確認できます。",
+                content: <PredictionDetailsPanel summary={predictionSummary} />
+              }
+            ]}
           />
         </div>
       </div>
@@ -570,6 +749,14 @@ function findNearbyStationNames(stations: StationRecord[], targetStation: string
     .map(([station]) => station);
 }
 
+function isOkinawaMainIsland(lat: number, lon: number) {
+  return lat >= 26.0 && lat <= 26.95 && lon >= 127.55 && lon <= 128.4;
+}
+
+function isLikelyJapanCoordinate(lat: number, lon: number) {
+  return lat >= 20.0 && lat <= 46.5 && lon >= 122.0 && lon <= 154.0;
+}
+
 function aggregateMarketByYear(points: PriceHistoryPoint[]) {
   const totals = new Map<number, { weightedPrice: number; transactionCount: number }>();
   for (const point of points) {
@@ -659,7 +846,9 @@ function aggregateComparableBuckets(
 async function predictWithFutureTrend(
   manager: ReturnType<typeof getModelManager>,
   request: PredictionFormState,
-  history: PriceHistoryPoint[]
+  history: PriceHistoryPoint[],
+  trendSummary: PriceTrendSummary | null,
+  scenario: FutureScenario
 ) {
   const metadata = manager.getMetadata();
   if (!metadata || request.predictionYear <= metadata.latestTrainingYear) {
@@ -673,6 +862,10 @@ async function predictWithFutureTrend(
 
   const baseYear = metadata.latestTrainingYear;
   const baseResult = await manager.predict({ ...request, predictionYear: baseYear });
+  const scenarioAnnualRate = buildScenarioAnnualRate(
+    selectFutureTrend(trendSummary, request.station),
+    scenario
+  );
   const annualChange = estimateAnnualPriceChange(
     history,
     request.prefecture,
@@ -682,10 +875,16 @@ async function predictWithFutureTrend(
   const forecastPoints: PriceHistoryPoint[] = [];
 
   for (let year = baseYear + 1; year <= request.predictionYear; year += 1) {
+    const yearsFromBase = year - baseYear;
     forecastPoints.push({
       station: request.station,
       year,
-      avg_price: Math.max(1000000, baseResult.predictedPrice + annualChange * (year - baseYear))
+      avg_price: Math.max(
+        1000000,
+        scenarioAnnualRate === null
+          ? baseResult.predictedPrice + annualChange * yearsFromBase
+          : baseResult.predictedPrice * Math.pow(1 + scenarioAnnualRate, yearsFromBase)
+      )
     });
   }
 
@@ -700,6 +899,43 @@ async function predictWithFutureTrend(
     forecastPoints,
     basePrice: baseResult.predictedPrice
   };
+}
+
+function selectFutureTrend(
+  trendSummary: PriceTrendSummary | null,
+  station: string
+): PriceTrend | null {
+  if (!trendSummary) {
+    return null;
+  }
+
+  const stationTrend = trendSummary.stationTrends[station];
+  if (stationTrend?.annualizedRate !== null && stationTrend?.annualizedRate !== undefined) {
+    return stationTrend;
+  }
+
+  return trendSummary.regionalTrend.annualizedRate !== null
+    ? trendSummary.regionalTrend
+    : null;
+}
+
+function buildScenarioAnnualRate(trend: PriceTrend | null, scenario: FutureScenario) {
+  if (!trend || trend.annualizedRate === null) {
+    return null;
+  }
+
+  if (scenario === "flat") {
+    return 0;
+  }
+
+  const width = Math.min(0.015, Math.max(0.01, (trend.volatility ?? 0.02) * 0.5));
+  if (scenario === "bear") {
+    return trend.annualizedRate - width;
+  }
+  if (scenario === "bull") {
+    return trend.annualizedRate + width;
+  }
+  return trend.annualizedRate;
 }
 
 function estimateAnnualPriceChange(

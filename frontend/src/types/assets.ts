@@ -1,9 +1,10 @@
 export type CategoryDictionary = {
-  prefectures: Record<string, number>;
-  municipalities: Record<string, number>;
-  stations: Record<string, number>;
-  roomLayouts: Record<string, number>;
-  buildingTypes: Record<string, number>;
+  prefectures?: Record<string, number>;
+  municipalities?: Record<string, number>;
+  stations?: Record<string, number>;
+  roomLayouts?: Record<string, number>;
+  buildingTypes?: Record<string, number>;
+  station_rank?: Record<string, number>;
   unknownId: number;
 };
 
@@ -47,6 +48,10 @@ export type StationRecord = {
   line_name: string;
   lat: number;
   lon: number;
+  station_passenger_log?: number;
+  station_line_count?: number;
+  station_operator_count?: number;
+  station_rank?: string;
 };
 
 export type PriceHistoryPoint = {
@@ -76,4 +81,46 @@ export type ModelManifest = {
   generatedAt: string;
   capitalRegionPriority: string[];
   models: Record<string, ModelAsset>;
+};
+
+export type PriceTrend = {
+  annualizedRate: number | null;
+  volatility: number | null;
+  sampleYears: number;
+  startYear: number | null;
+  endYear: number | null;
+};
+
+export type PriceTrendSummary = {
+  schemaVersion: number;
+  region: string;
+  latestTrainingYear: number | null;
+  regionalTrend: PriceTrend;
+  stationTrends: Record<string, PriceTrend>;
+};
+
+export type CommercialFacilityAreaSummary = {
+  prefecture?: string;
+  city?: string;
+  scCount: number;
+  storeAreaSumSqm: number;
+  tenantCountSum: number;
+  latestOpenYear: number | null;
+  recentOpenings: Array<{
+    name: string;
+    openYear: number | null;
+    openMonth: number | null;
+    storeAreaSqm: number | null;
+    tenantCount: number | null;
+  }>;
+};
+
+export type CommercialFacilitySummary = {
+  schemaVersion: number;
+  source: string;
+  sourceLabel: string;
+  generatedAt: string;
+  latestOpenYear: number | null;
+  prefectures: Record<string, CommercialFacilityAreaSummary>;
+  cities: Record<string, CommercialFacilityAreaSummary>;
 };

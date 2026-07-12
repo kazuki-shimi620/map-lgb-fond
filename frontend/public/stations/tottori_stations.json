@@ -421,7 +421,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.499695,
-    "lon": 133.693462
+    "lon": 133.693462,
+    "station_passenger_log": 11.246078166706276,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "tottori_0062",

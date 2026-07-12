@@ -8,8 +8,8 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
-REINFOLIB_BASE_URL = "https://www.reinfolib.mlit.go.jp/ex-api/external"
-REINFOLIB_API_KEY_ENV = "REINFOLIB_API_KEY"
+from collect.reinfolib import REINFOLIB_API_KEY_ENV, REINFOLIB_BASE_URL
+
 PREFECTURE_CODES = {
     "tokyo": "13",
     "saitama": "11",

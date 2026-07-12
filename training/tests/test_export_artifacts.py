@@ -6,6 +6,7 @@ import pandas as pd
 from export.artifacts import (
     CAPITAL_REGION_PRIORITY,
     build_price_history,
+    build_price_trend_summary,
     copy_for_frontend,
     update_model_manifest,
 )
@@ -104,6 +105,48 @@ def test_price_history_can_limit_transaction_years():
     assert [point["year"] for point in build_price_history(dataframe, max_year=2019)] == [
         2019
     ]
+
+
+def test_price_trend_summary_builds_regional_and_station_trends():
+    dataframe = pd.DataFrame(
+        [
+            {
+                "station": "東京",
+                "transaction_year": 2020,
+                "price": 50.0,
+                "area": 50.0,
+            },
+            {
+                "station": "東京",
+                "transaction_year": 2021,
+                "price": 55.0,
+                "area": 50.0,
+            },
+            {
+                "station": "東京",
+                "transaction_year": 2022,
+                "price": 60.5,
+                "area": 50.0,
+            },
+            {
+                "station": "大手町",
+                "transaction_year": 2022,
+                "price": 30.0,
+                "area": 30.0,
+            },
+        ]
+    )
+
+    summary = build_price_trend_summary(dataframe, region="tokyo", min_year=2020)
+
+    assert summary["schemaVersion"] == 1
+    assert summary["region"] == "tokyo"
+    assert summary["latestTrainingYear"] == 2022
+    assert summary["regionalTrend"]["sampleYears"] == 3
+    assert round(summary["regionalTrend"]["annualizedRate"], 6) == 0.05119
+    assert summary["stationTrends"]["東京"]["sampleYears"] == 3
+    assert round(summary["stationTrends"]["東京"]["annualizedRate"], 6) == 0.1
+    assert "大手町" not in summary["stationTrends"]
 
 
 def test_copy_for_frontend_can_skip_combined_regional_history(tmp_path):

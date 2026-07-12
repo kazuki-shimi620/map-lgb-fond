@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-07-10",
+  "source": {
+    "name": "ハザードマップポータルサイト 重ねるハザードマップ",
+    "url": "https://disaportal.gsi.go.jp/",
+    "dataCopyrightUrl": "https://disaportal.gsi.go.jp/hazardmapportal/hazardmap/copyright/copyright_data.html",
+    "termsUrl": "https://disaportal.gsi.go.jp/hazardmapportal/hazardmap/copyright/copyright.html",
+    "attribution": "ハザードマップポータルサイト"
+  },
+  "disclaimer": "本レイヤーは公開ハザード情報を地図上に重ねるための参考表示です。正式な判断には自治体等の最新ハザードマップをご確認ください。",
+  "layers": [
+    {
+      "id": "flood",
+      "name": "洪水浸水想定区域",
+      "hazardType": "flood",
+      "type": "raster",
+      "tileUrl": "https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_data/{z}/{x}/{y}.png",
+      "portalUrl": "https://disaportal.gsi.go.jp/hazardmap/maps/index.html?layerset=kouzui",
+      "minZoom": 2,
+      "maxZoom": 17,
+      "defaultOpacity": 0.65,
+      "enabled": true,
+      "requiresTileUrlVerification": false,
+      "legendLabel": "想定最大規模の浸水深"
+    },
+    {
+      "id": "landslide",
+      "name": "土砂災害警戒区域",
+      "hazardType": "landslide",
+      "type": "raster",
+      "tileUrl": null,
+      "portalUrl": "https://disaportal.gsi.go.jp/hazardmap/maps/index.html?layerset=dosya",
+      "minZoom": 2,
+      "maxZoom": 17,
+      "defaultOpacity": 0.65,
+      "enabled": false,
+      "requiresTileUrlVerification": true,
+      "legendLabel": "警戒区域・特別警戒区域"
+    },
+    {
+      "id": "tsunami",
+      "name": "津波浸水想定",
+      "hazardType": "tsunami",
+      "type": "raster",
+      "tileUrl": null,
+      "portalUrl": "https://disaportal.gsi.go.jp/hazardmap/maps/index.html?layerset=tsunami",
+      "minZoom": 2,
+      "maxZoom": 17,
+      "defaultOpacity": 0.65,
+      "enabled": false,
+      "requiresTileUrlVerification": true,
+      "legendLabel": "津波による想定浸水深"
+    },
+    {
+      "id": "storm_surge",
+      "name": "高潮浸水想定区域",
+      "hazardType": "storm_surge",
+      "type": "raster",
+      "tileUrl": null,
+      "portalUrl": "https://disaportal.gsi.go.jp/hazardmap/maps/index.html?layerset=takashio",
+      "minZoom": 2,
+      "maxZoom": 17,
+      "defaultOpacity": 0.65,
+      "enabled": false,
+      "requiresTileUrlVerification": true,
+      "legendLabel": "高潮による想定浸水深"
+    }
+  ]
+}

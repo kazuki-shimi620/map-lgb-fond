@@ -6,11 +6,37 @@ import markerIconUrl from "leaflet/dist/images/marker-icon.png";
 import markerShadowUrl from "leaflet/dist/images/marker-shadow.png";
 import { searchPlace } from "../../services/geocodingService";
 
+type HazardLayerDefinition = {
+  id: string;
+  name: string;
+  type: "raster";
+  tileUrl: string | null;
+  portalUrl: string;
+  minZoom: number;
+  maxZoom: number;
+  defaultOpacity: number;
+  enabled: boolean;
+  legendLabel: string;
+};
+
+type HazardLayerConfig = {
+  source: {
+    name: string;
+    url: string;
+    dataCopyrightUrl: string;
+    attribution: string;
+  };
+  disclaimer: string;
+  layers: HazardLayerDefinition[];
+};
+
 type Props = {
   lat: number | null;
   lon: number | null;
-  onSelect: (lat: number, lon: number) => void;
+  onSelect: (lat: number, lon: number, options?: { mapMoveDurationMs?: number }) => void;
 };
+
+const SEARCH_FLY_TO_DURATION_MS = 800;
 
 const propertyMarkerIcon = new Icon({
   iconUrl: markerIconUrl,
@@ -50,6 +76,14 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
   const [searchCenter, setSearchCenter] = useState<LatLngExpression | null>(null);
   const [searchStatus, setSearchStatus] = useState("");
   const [isSearching, setIsSearching] = useState(false);
+  const [hazardConfig, setHazardConfig] = useState<HazardLayerConfig | null>(null);
+  const [activeHazardLayerIds, setActiveHazardLayerIds] = useState<Set<string>>(new Set());
+
+  const hazardLayers = useMemo(
+    () => hazardConfig?.layers.filter((layer) => layer.type === "raster" && layer.tileUrl) ?? [],
+    [hazardConfig]
+  );
+  const activeHazardLayers = hazardLayers.filter((layer) => activeHazardLayerIds.has(layer.id));
 
   useEffect(() => {
     if (!searchStatus) {
@@ -58,6 +92,53 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
     const timer = window.setTimeout(() => setSearchStatus(""), 3000);
     return () => window.clearTimeout(timer);
   }, [searchStatus]);
+
+  useEffect(() => {
+    let disposed = false;
+
+    async function loadHazardLayers() {
+      try {
+        const response = await fetch("./hazards/layers.json");
+        if (!response.ok) {
+          return;
+        }
+        const config = (await response.json()) as HazardLayerConfig;
+        if (disposed) {
+          return;
+        }
+        setHazardConfig(config);
+        setActiveHazardLayerIds(
+          new Set(
+            config.layers
+              .filter((layer) => layer.enabled && layer.tileUrl)
+              .map((layer) => layer.id)
+          )
+        );
+      } catch {
+        if (!disposed) {
+          setHazardConfig(null);
+        }
+      }
+    }
+
+    loadHazardLayers();
+
+    return () => {
+      disposed = true;
+    };
+  }, []);
+
+  function toggleHazardLayer(layerId: string) {
+    setActiveHazardLayerIds((current) => {
+      const next = new Set(current);
+      if (next.has(layerId)) {
+        next.delete(layerId);
+      } else {
+        next.add(layerId);
+      }
+      return next;
+    });
+  }
 
   function handleMapSelect(nextLat: number, nextLon: number) {
     setSearchStatus("");
@@ -81,8 +162,7 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
         return;
       }
       setSearchCenter([result.lat, result.lon]);
-      onSelect(result.lat, result.lon);
-      setSearchStatus("検索した位置にピンを設定しました");
+      onSelect(result.lat, result.lon, { mapMoveDurationMs: SEARCH_FLY_TO_DURATION_MS });
     } catch {
       setSearchStatus("検索に失敗しました");
     } finally {
@@ -91,7 +171,7 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
   }
 
   return (
-    <section className="panel map-panel" aria-label="地図">
+    <section className="panel map-panel" aria-label="地図" data-testid="property-map">
       <div className="map-frame">
         <img className="app-icon map-app-icon" src="./app-icon.svg" alt="" aria-hidden="true" />
         <form className="map-search" onSubmit={handleSearch}>
@@ -112,9 +192,38 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
           <MapMover center={searchCenter} />
+          {activeHazardLayers.map((layer, index) => (
+            <TileLayer
+              key={layer.id}
+              attribution={hazardConfig?.source.attribution}
+              maxZoom={layer.maxZoom}
+              minZoom={layer.minZoom}
+              opacity={layer.defaultOpacity}
+              url={layer.tileUrl ?? ""}
+              zIndex={300 + index}
+            />
+          ))}
           <ClickHandler onSelect={handleMapSelect} />
           {lat !== null && lon !== null ? <Marker icon={propertyMarkerIcon} position={[lat, lon]} /> : null}
         </MapContainer>
+        {hazardLayers.length > 0 && hazardConfig ? (
+          <div className="hazard-layer-control" aria-label="ハザードレイヤー" data-testid="hazard-layer-control">
+            <strong>ハザード</strong>
+            {hazardLayers.map((layer) => (
+              <label className="hazard-layer-toggle" key={layer.id}>
+                <input
+                  type="checkbox"
+                  checked={activeHazardLayerIds.has(layer.id)}
+                  onChange={() => toggleHazardLayer(layer.id)}
+                />
+                <span>{layer.name}</span>
+              </label>
+            ))}
+            <a href={hazardConfig.source.dataCopyrightUrl} target="_blank" rel="noreferrer">
+              出典: {hazardConfig.source.attribution}
+            </a>
+          </div>
+        ) : null}
       </div>
     </section>
   );

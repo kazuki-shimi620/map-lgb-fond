@@ -140,8 +140,8 @@ def main() -> int:
     output_dir = args.output_dir.resolve()
     todo_file = args.todo_file.resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
-    sync_checklist(todo_file, output_dir, CHECKLIST_FROM_YEAR, CHECKLIST_TO_YEAR)
     if args.checklist_only:
+        sync_checklist(todo_file, output_dir, CHECKLIST_FROM_YEAR, CHECKLIST_TO_YEAR)
         return 0
 
     node = shutil.which("node")
@@ -208,7 +208,6 @@ def main() -> int:
                 )
                 if not args.keep_aggregate:
                     aggregate_path.unlink(missing_ok=True)
-                sync_checklist(todo_file, output_dir, CHECKLIST_FROM_YEAR, CHECKLIST_TO_YEAR)
             except (
                 OSError,
                 RuntimeError,
@@ -221,7 +220,6 @@ def main() -> int:
                 if not args.continue_on_error:
                     raise
 
-    sync_checklist(todo_file, output_dir, CHECKLIST_FROM_YEAR, CHECKLIST_TO_YEAR)
     if failures:
         print("download failures:")
         for failure in failures:

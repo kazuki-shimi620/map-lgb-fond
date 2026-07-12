@@ -1085,7 +1085,11 @@
     "prefecture": "京都府",
     "line_name": "天橋立鋼索鉄道",
     "lat": 35.583263,
-    "lon": 135.195302
+    "lon": 135.195302,
+    "station_passenger_log": 11.286789942169964,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "kyoto_0080",
@@ -1141,7 +1145,11 @@
     "prefecture": "京都府",
     "line_name": "JR山陰本線",
     "lat": 35.162151,
-    "lon": 135.503432
+    "lon": 135.503432,
+    "station_passenger_log": 12.51318595279107,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "A"
   },
   {
     "station_id": "kyoto_0073",
@@ -1245,7 +1253,11 @@
     "prefecture": "京都府",
     "line_name": "京都丹後鉄道宮舞線",
     "lat": 35.475018,
-    "lon": 135.284927
+    "lon": 135.284927,
+    "station_passenger_log": 9.552439604462528,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "kyoto_0118",
@@ -1453,7 +1465,11 @@
     "prefecture": "京都府",
     "line_name": "JR山陰本線",
     "lat": 35.300904,
-    "lon": 135.180241
+    "lon": 135.180241,
+    "station_passenger_log": 7.00397413672268,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kyoto_0142",
@@ -1829,7 +1845,11 @@
     "prefecture": "京都府",
     "line_name": "JR山陰本線",
     "lat": 35.304982,
-    "lon": 135.207158
+    "lon": 135.207158,
+    "station_passenger_log": 10.22875438531518,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "kyoto_0150",

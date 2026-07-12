@@ -93,7 +93,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.787424,
-    "lon": 140.364505
+    "lon": 140.364505,
+    "station_passenger_log": 9.728896041804084,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aomori_0143",

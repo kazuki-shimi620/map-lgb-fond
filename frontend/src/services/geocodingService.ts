@@ -84,6 +84,11 @@ export async function reverseGeocode(lat: number, lon: number): Promise<ReverseG
 
   const data = await response.json();
   const address = data.address ?? {};
+  const countryCode = String(address.country_code ?? "").toLowerCase();
+  if (countryCode && countryCode !== "jp") {
+    return { prefecture: "", municipality: "" };
+  }
+
   const prefecture = address.province ?? address.state ?? address.region ?? "";
   const isoCode = address["ISO3166-2-lvl4"] ?? address["ISO3166-2-lvl3"] ?? "";
 

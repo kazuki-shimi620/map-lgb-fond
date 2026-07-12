@@ -1,55 +1,108 @@
 # 不動産価格予測システム
 
-中古マンションの価格をブラウザ上で予測するWebアプリケーション。
+中古マンションの参考価格を、地図と物件条件からブラウザ上で予測するWebアプリケーションです。
 
-地図上で場所を選択すると、最寄駅・駅徒歩・地域情報を自動補完し、物件条件から参考価格と価格推移グラフを表示する。
+地図上で物件位置を選択すると、都道府県、市区町村、最寄駅、駅徒歩を自動補完します。面積、築年数、間取り、建物構造、予測年を変更すると、ブラウザ内のLightGBMモデルが価格を自動で再計算します。
 
-将来予測は学習最終年のモデル予測値を基点に、駅別または地域別の価格推移トレンドで補正する参考値として扱う。長期予測の精度は保証しない。
+[公開デモを開く](https://kazuki-shimi620.github.io/map-lgb-fond/)
 
-## できること
+![不動産価格予測システムのデスクトップ画面](docs/images/app-desktop.png)
 
-- 地図クリックまたは駅名・住所検索から物件位置を指定
-- 最寄駅と駅徒歩を駅マスタから自動算出
-- 面積、築年数、間取り、建物構造、予測年をもとに中古マンション価格を推定
-- 予測価格、平米単価、信頼区間、価格推移グラフをブラウザだけで表示
-- 首都圏4都県の専用モデルと8地方モデルを切り替えて全国を推論
+## 主な機能
 
-## 構成
+- 地図クリックによる物件位置の指定
+- 住所・駅名検索による地図移動
+- 最寄駅と駅徒歩の自動算出
+- 面積、築年数、間取り、建物構造を使用した価格予測
+- 入力変更に連動した自動再予測
+- 予測価格、平米単価、信頼区間の表示
+- 過去価格と将来参考価格のグラフ表示
+- 首都圏4都県の専用モデルと8地方モデルによる全国推論
+- スマートフォン向けボトムシートUI
 
-```text
-frontend/  React + TypeScript + Vite
-training/  データ取得、前処理、学習、評価、export
-docs/      要件定義と実装仕様
-```
+## 画面イメージ
+
+### 価格予測結果
+
+入力された物件条件をもとに、予測価格、平米単価、信頼区間を表示します。
+
+![価格予測結果](docs/images/app-prediction-result.png)
+
+### 価格推移
+
+過去の取引傾向とモデル予測を組み合わせ、対象駅周辺の価格推移を表示します。
+
+将来価格は学習最終年のモデル予測値を基点に、駅別または地域別の価格推移トレンドで補正した参考値です。長期予測の精度は保証しません。
+
+![価格推移グラフ](docs/images/app-price-history.png)
+
+### スマートフォン表示
+
+スマートフォンでは、地図操作を妨げないよう物件条件と予測結果をボトムシートで表示します。
+
+地図上の位置を選択するとシートが中間位置まで開き、上方向へ展開すると予測結果と価格推移を確認できます。
+
+<p align="center">
+  <img
+    src="docs/images/app-mobile.png"
+    alt="スマートフォン版の不動産価格予測画面"
+    width="360"
+  >
+</p>
 
 ## 推論アーキテクチャ
 
 ```text
-React
-↓
-ONNX Runtime Web
-↓
-LightGBM(ONNX)
+国土交通省 不動産情報ライブラリ
+              ↓
+       Pythonによる前処理
+              ↓
+         LightGBM学習
+              ↓
+          ONNX変換
+              ↓
+React + ONNX Runtime Web
+              ↓
+      ブラウザ内で価格推論
 ```
 
-学習は Python / LightGBM で行い、ブラウザ配布用に ONNX へ変換する。推論APIサーバーを持たず、GitHub Pages 上の静的ファイルだけで価格予測を実行する。
+学習はPythonとLightGBMで実施し、学習済みモデルをONNXへ変換します。
 
-サーバーレス推論にした理由:
+フロントエンドではONNX Runtime Webを使用し、推論APIサーバーを経由せずブラウザ内で価格を計算します。
 
-- サーバー不要で公開できる
-- 運用コストを抑えられる
-- 推論がブラウザ内で完結する
-- GitHub Pages だけでポートフォリオとして共有できる
+### ブラウザ推論を採用した理由
 
-## AI向け入口
+- 推論サーバーを運用する必要がない
+- GitHub Pagesだけで公開できる
+- ランニングコストを抑えられる
+- 価格予測がブラウザ内で完結する
+- ポートフォリオとして常時公開しやすい
 
-AIエージェントはまず `AGENTS.md` を読む。
+## 技術構成
 
-Codexで再利用する場合は、リポジトリ内skillとして `skills/map-lgb-fond/SKILL.md` も参照する。
+| 分類 | 技術 |
+| --- | --- |
+| フロントエンド | React、TypeScript、Vite |
+| 地図 | Leaflet、React Leaflet |
+| グラフ | Recharts |
+| 機械学習 | Python、LightGBM |
+| ブラウザ推論 | ONNX、ONNX Runtime Web |
+| データ形式 | CSV、ZIP、Parquet、JSON |
+| E2Eテスト | Playwright |
+| CI/CD | GitHub Actions |
+| ホスティング | GitHub Pages |
 
-GitHub Copilot系の補助には `.github/copilot-instructions.md` を用意している。
+## ディレクトリ構成
 
-## フロントエンド
+```text
+frontend/          React、TypeScript、Vite、Playwright
+frontend/public/   ブラウザ配信用ONNX、メタデータ、駅マスタ、価格推移JSON
+training/          データ取得、前処理、学習、評価、ONNX出力
+training/browser/  公式画面CSVダウンロード用Playwrightスクリプト
+docs/              要件定義、実装仕様、テスト仕様、画面画像
+```
+
+## セットアップ
 
 ```bash
 cd frontend
@@ -57,44 +110,34 @@ npm install
 npm run dev
 ```
 
-Makefile を使う場合:
+Makefileを使用する場合は次のコマンドでも起動できます。
 
 ```bash
 make setup
 make dev
 ```
 
-実モデルのONNXが未配置でも、開発用メタデータがある地域ではサンプル予測で画面フローを確認できる。
+実モデルのONNXが未配置の場合でも、開発用メタデータが用意されている地域ではサンプル予測により画面フローを確認できます。
 
 ## GitHub Pages
 
-フロントエンドは `frontend/` だけをビルドし、GitHub Pages に静的サイトとしてデプロイする。
-
-公開URL:
+フロントエンドは `frontend/` をビルドし、GitHub Pagesへデプロイします。
 
 ```text
-https://kazuki-shimi620.github.io/map-lgb-fond/
+developで開発
+        ↓
+main向けPull Request
+        ↓
+ビルドおよびE2Eテスト
+        ↓
+mainへマージ
+        ↓
+GitHub Actions
+        ↓
+GitHub Pagesへデプロイ
 ```
 
-CI/CD は `.github/workflows/deploy-frontend.yml` で管理する。
-
-詳細は `docs/cicd.md` を参照する。
-
-運用イメージ:
-
-```text
-develop で開発
-↓
-main 向け Pull Request を作成
-↓
-Pull Request では frontend build を確認
-↓
-main に merge / push
-↓
-GitHub Actions が frontend/dist を GitHub Pages に deploy
-```
-
-ローカル確認:
+ローカルで本番相当のビルドを確認する場合は、以下を実行します。
 
 ```bash
 cd frontend
@@ -103,96 +146,158 @@ npm run build
 npm run preview
 ```
 
+CI/CDの詳細は [docs/cicd.md](docs/cicd.md) を参照してください。
+
 ## 学習
 
 ```bash
 make setup-training
 make init-db
-cp training/.env.example training/.env
-# training/.env に発行済みの REINFOLIB_API_KEY を設定
-make collect REGION=tokyo YEAR=2025
+make setup-csv-download
+make download-csv CSV_PREFECTURES=tokyo CSV_FROM_YEAR=2025 CSV_TO_YEAR=2025
 make preprocess-zip REGION=tokyo
 make train REGION=tokyo
 ```
 
-`make collect` はAPI認証とJSON取得に使用する。現行モデルの再学習では最寄駅名・駅徒歩分が必要なため、
-これらを含む既存CSV/ZIPを `make preprocess` または `make preprocess-zip` で前処理する。
+国土交通省の不動産情報ライブラリ公式画面から、中古マンションCSVを取得します。現行モデルで使う最寄駅名と駅徒歩分はAPIレスポンスだけでは揃わないため、学習用の不動産取引データはCSV/ZIPを主入力にします。
 
-4地域・2005〜2025年をまとめて取得する場合は、次を実行する。
+商業施設、駅別乗降客数、ハザード情報などの外部特徴量を含む更新手順は [docs/external-data-workflow.md](docs/external-data-workflow.md) を参照してください。
 
-```bash
-make collect-all
-```
-
-最寄駅名・駅徒歩分を含むCSVは、公式ダウンロード画面をChromeで操作して取得できる。
-
-```bash
-make setup-csv-download
-make download-csv CSV_PREFECTURES=tokyo CSV_FROM_YEAR=2025 CSV_TO_YEAR=2025
-```
-
-全国47都道府県・2005〜2025年を取得する場合は、次を実行する。
+全国47都道府県、2005年から2025年までのCSVを取得する場合は、以下を実行します。
 
 ```bash
 make download-csv-all
 ```
 
-都道府県ごとに期間全体を1回ダウンロードし、`training/data/raw/mlit_{prefecture}_{year}.zip`
-へ年別分割する。データ量が多い大都市圏はタイムアウトを避けるため1年単位で取得する。正常な
-既存ZIPはスキップし、完了状況を `TODO.md` へ反映する。公式画面の変更で動かなくなる可能性が
-あるため、エラー時は画面仕様とセレクタを確認する。
-
-ZIPで取得した場合は、複数年をまとめて前処理できる。
-
-```bash
-make preprocess-zip REGION=tokyo
-```
-
-評価MAEが過去ベストより少し悪くても、軽量化した最新モデルをブラウザ配布用に反映したい場合は `PUBLISH_POLICY=latest` を指定する。
+地域別モデルをまとめて学習する場合は、以下を実行します。
 
 ```bash
 make train-all PUBLISH_POLICY=latest
 ```
 
-国交省データは不動産情報ライブラリから取得する。
-
-```text
-https://www.reinfolib.mlit.go.jp/realEstatePrices/
-```
-
-APIキーがない場合、collect処理は設定漏れが分かるようエラー終了する。
-
-APIキーは `training/.env.example` を参考に `REINFOLIB_API_KEY` として設定する。
-`training/.env` はGit管理対象外であり、実際のキーをコードやコマンドラインへ直接記載しない。
-
-XIT001 APIのJSONには、現行モデルで利用している最寄駅名と駅徒歩分が含まれない。API取得と認証確認は
-`make collect` で行えるが、既存モデルと同じ特徴量で再学習する間は、これらの項目を含むCSV/ZIPの
-前処理経路を維持する。APIデータの地区名を駅名として代用しない。
-
-利用できるコマンドは以下で確認できる。
+利用できるコマンドは以下で確認できます。
 
 ```bash
 make help
 ```
 
-## 実装で工夫した点
+## 実装上の工夫
 
 ### 学習時と推論時の特徴量整合
 
-LightGBMでは駅名、自治体、間取り、建物構造などのカテゴリ変数を利用して学習している。ブラウザ推論時にも同じ変換を再現する必要があるため、学習時にカテゴリ辞書とメタデータをJSONとして出力し、フロントエンドの `ModelManager` が同じ順序・同じIDで特徴量を組み立てる。
+LightGBMでは、駅名、自治体、間取り、建物構造などのカテゴリ変数を使用しています。
 
-### ブラウザ推論化
+学習時にカテゴリ辞書とモデルメタデータをJSONとして出力し、フロントエンドの `ModelManager` が同じ順序と同じIDで特徴量を組み立てます。
 
-FastAPI構成も検討したが、運用コスト削減と静的ホスティングを優先して ONNX Runtime Web を採用した。LightGBMモデルをONNXへ変換し、ブラウザ内で推論できる形にしている。
+これにより、Pythonでの学習とブラウザでの推論の変換差異を抑えています。
 
-### 地図と不動産データの紐付け
+### 地図と不動産データの連携
 
-地図クリック位置から緯度経度を取得し、逆ジオコーディングと駅マスタの距離計算を組み合わせて、予測に必要な都道府県、市区町村、最寄駅、駅徒歩へ変換している。
+地図上で選択された緯度経度に対して、以下の処理を行います。
+
+```text
+緯度経度
+   ↓
+逆ジオコーディング
+   ↓
+都道府県・市区町村
+   ↓
+駅マスタとの距離計算
+   ↓
+最寄駅・駅徒歩
+   ↓
+価格予測
+```
 
 ### データクレンジング
 
-国交省データの文字コード、欠損値、数値表記、外れ値に対応する前処理を `training/src/preprocess` に分離した。複数年ZIPをまとめて処理し、地域別の parquet を生成できる。APIレスポンスは中古マンションだけを抽出し、APIに存在しない最寄駅情報を別項目から補完しない。
+国土交通省データの以下の差異を前処理します。
 
-### GitHub Pages対応
+- 文字コード
+- 欠損値
+- 数値表記
+- カテゴリ表記
+- 外れ値
+- 都道府県および地域区分
 
-ローカル環境と公開環境で静的ファイル参照の基準パスが異なるため、ONNXモデル、wasm、メタデータ、価格推移JSONの配置を `frontend/public` に統一し、Vite の Pages 向け設定と合わせて読み込めるようにした。
+前処理は `training/src/preprocess` に分離し、複数年のZIPから地域別Parquetを生成できます。
+
+## E2Eテスト
+
+フロントエンドの主要なユーザー操作は、PlaywrightによるE2Eテストで確認します。
+
+対象となる主な操作は以下です。
+
+- 初期画面と初期値の表示
+- モデル読み込み
+- 初期価格予測
+- 入力変更による自動再予測
+- 地図クリックによる物件位置変更
+- 住所検索
+- 価格推移グラフ
+- デスクトップ表示
+- スマートフォン用ボトムシート
+- モデルおよびデータ読み込み失敗時の表示
+
+### テスト実行
+
+```bash
+cd frontend
+npm run test:e2e
+```
+
+UIモードで確認する場合は以下を実行します。
+
+```bash
+npm run test:e2e:ui
+```
+
+Mobile Safari相当のWebKitテストだけを実行する場合は以下を実行します。
+
+```bash
+npm run test:e2e:webkit
+```
+
+### README用スクリーンショットの生成
+
+READMEで使用する画面画像は、Playwrightで固定された画面サイズと入力条件を使用して生成します。
+
+```bash
+npm run test:e2e:screenshots
+```
+
+生成先は以下です。
+
+```text
+docs/images/
+├── app-desktop.png
+├── app-prediction-result.png
+├── app-price-history.png
+└── app-mobile.png
+```
+
+スクリーンショット生成時は、外部ジオコーディングAPIをモックし、実行環境によって画面内容が変化しにくい構成とします。
+
+テストの詳細は [docs/frontend-e2e-test.md](docs/frontend-e2e-test.md) を参照してください。
+
+## AI向け入口
+
+AIエージェントはまず `AGENTS.md` を読んでください。
+
+Codexで再利用する場合は、リポジトリ内skillとして `skills/map-lgb-fond/SKILL.md` も参照します。
+
+GitHub Copilot系の補助には `.github/copilot-instructions.md` を用意しています。
+
+## 注意事項
+
+本システムが表示する価格は、国土交通省の取引データと機械学習モデルを使用した参考値です。
+
+以下の用途を保証するものではありません。
+
+- 不動産鑑定
+- 売買価格の保証
+- 投資判断
+- 金融機関の担保評価
+- 将来価格の保証
+
+実際の価格は、物件状態、階数、方角、管理状況、周辺環境、市場状況などによって変動します。

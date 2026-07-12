@@ -429,7 +429,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.600979,
-    "lon": 130.694339
+    "lon": 130.694339,
+    "station_passenger_log": 10.15673344766678,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "kumamoto_0059",

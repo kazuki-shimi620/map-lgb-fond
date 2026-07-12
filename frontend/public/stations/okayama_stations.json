@@ -653,7 +653,11 @@
     "prefecture": "岡山県",
     "line_name": "JR伯備線",
     "lat": 35.082087,
-    "lon": 133.367786
+    "lon": 133.367786,
+    "station_passenger_log": 5.552959584921617,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "okayama_0011",
@@ -1293,7 +1297,11 @@
     "prefecture": "岡山県",
     "line_name": "JR因美線",
     "lat": 35.080505,
-    "lon": 134.065834
+    "lon": 134.065834,
+    "station_passenger_log": 8.733755131364893,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "okayama_0086",

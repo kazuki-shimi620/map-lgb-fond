@@ -1,0 +1,47 @@
+name: フロントエンドWebKit E2E
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 19 * * 0"
+
+permissions:
+  contents: read
+
+jobs:
+  webkit-e2e:
+    name: Mobile Safari相当のE2E
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+
+      - name: Node.jsをセットアップ
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: 依存関係をインストール
+        working-directory: frontend
+        run: npm ci
+
+      - name: Playwright WebKitをインストール
+        working-directory: frontend
+        run: npx playwright install --with-deps webkit
+
+      - name: Mobile Safari相当のE2Eテストを実行
+        working-directory: frontend
+        run: npm run test:e2e:webkit
+
+      - name: Playwrightレポートをアップロード
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: webkit-playwright-report
+          path: |
+            frontend/playwright-report/
+            frontend/test-results/
+          retention-days: 7

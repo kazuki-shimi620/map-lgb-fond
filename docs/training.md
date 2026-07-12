@@ -28,23 +28,40 @@
 training/
 
 ├── configs/
+│   └── 地域別学習設定
+│
+├── browser/
+│   └── 公式画面CSVダウンロード用Playwrightスクリプト
+│
+├── scripts/
+│   └── 複数モデル学習や長時間更新のラッパー
 │
 ├── src/
 │
-│   ├── collect/
-│   ├── preprocess/
-│   ├── features/
-│   ├── train/
-│   ├── evaluate/
-│   ├── export/
-│   └── experiment/
+│   ├── collect/     外部データ取得・正規化
+│   ├── preprocess/  不動産CSV/ZIPの前処理
+│   ├── features/    FeatureProviderと外部特徴量結合
+│   ├── train/       LightGBM学習とONNX出力
+│   ├── evaluate/    バックテスト・比較・更新前後レポート
+│   ├── export/      frontend/public向け静的成果物生成
+│   └── experiment/  SQLite実験管理
 │
 ├── outputs/
+│   ├── models/
+│   ├── comparisons/
+│   └── reports/
 │
 ├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── cache/
 │
 └── db/
 ```
+
+`training/data`、`training/outputs`、`training/db` はローカル生成物を置く作業領域であり、原則Git管理しない。
+
+ブラウザ実行に必要な最新成果物だけを `frontend/public` へexportする。
 
 ---
 
@@ -131,49 +148,13 @@ make train-all PUBLISH_POLICY=latest
 https://www.reinfolib.mlit.go.jp/realEstatePrices/
 ```
 
-不動産情報ライブラリの不動産価格（取引価格・成約価格）情報取得APIを利用する。
-
-APIキーは環境変数で管理する。
-
-```text
-REINFOLIB_API_KEY
-```
-
-ローカルでは `training/.env.example` を `training/.env` にコピーして設定する。`training/.env` は
-Git管理しない。collect CLIはこのファイルを自動で読み込むため、APIキーをコマンドライン引数へ
-直接記載しない。
-
-MVPでは価格情報区分を不動産取引価格情報のみにする。
-
-```text
-priceClassification=01
-```
-
-APIはブラウザから直接呼び出さず、training側のcollect処理で利用する。
-
-単一地域・単一年の取得:
-
-```bash
-make collect REGION=tokyo YEAR=2025
-```
-
-対象4地域・2005〜2025年の一括取得:
-
-```bash
-make collect-all
-```
-
-APIキー未設定、HTTPエラー、不正なJSON、`status != OK` はエラー終了とする。
-
-XIT001のJSONには最寄駅名と駅徒歩分が含まれない。現行モデルは両項目を特徴量と価格推移の集計に
-使用しているため、同等情報を持つCSV/ZIP経路は削除しない。APIレスポンスの `DistrictName` を
-駅名として代用せず、APIデータだけで前処理条件を満たせない場合は明示的にエラー終了する。
-したがって現時点のAPI取得はraw JSONの保存とAPI連携確認までを責務とし、現行モデルの再学習には
-最寄駅名・駅徒歩分を含むCSV/ZIPを使用する。
-
 CSV/ZIPは公式ダウンロード画面をPlaywrightで操作して取得する。内部APIを直接呼び出さず、
 Chrome上で都道府県、期間、中古マンション等、取引価格情報、成約価格情報を選択して
 ダウンロードボタンを実行する。
+
+現行モデルは最寄駅名と駅徒歩分を特徴量と価格推移集計に使用する。XIT001などの不動産価格API
+レスポンスだけではこの2項目が揃わないため、地区名などで代用せず、学習用の不動産取引データは
+CSV/ZIPを主入力にする。
 
 ```bash
 make setup-csv-download
@@ -182,7 +163,8 @@ make download-csv-all
 ```
 
 全国取得ではアクセス回数を抑えるため、都道府県ごとに全期間を1回取得し、ローカルで年別ZIPへ
-分割する。正常な既存ZIPは再取得せず、各ファイルの完了状況を `TODO.md` に同期する。
+分割する。正常な既存ZIPは再取得しない。CSV取得状況を確認したい場合だけ、`make csv-checklist`
+で `TODO.md` のチェックリストを明示的に再生成する。
 
 ---
 
@@ -246,6 +228,36 @@ price
 area
 ```
 
+築古、駅遠、高額帯、極端な平米単価は、すぐに除外せずエッジケースとして分布を確認する。
+
+```bash
+make summarize-edge-cases REGION=tokyo
+```
+
+出力:
+
+```text
+training/outputs/reports/{region}_edge_cases.json
+training/outputs/reports/{region}_edge_cases.md
+```
+
+このレポートで件数、中央値、平米単価、駅徒歩、築年数の分布を確認し、前処理で除外するか、特徴量として残してモデルに学習させるかを判断する。高級物件や駅遠物件を一律に削除すると、実運用で入力された条件への外挿が弱くなるため、除外ルールはバックテストで確認してから採用する。
+
+外れ値処理候補の比較は、モデル成果物を更新せずに次のコマンドで実行する。
+
+```bash
+make compare-outlier-filters
+```
+
+出力:
+
+```text
+training/outputs/comparisons/outlier_filter_backtest.json
+training/outputs/comparisons/outlier_filter_backtest.md
+```
+
+初期候補は、現行前処理、高平米単価除外、高額帯除外、面積端除外、駅遠・築古除外、厳しめの複合除外を比較する。MAEだけでなく、除外率とテスト年ごとの件数を見て、実運用で入力されやすい築古・駅遠・高額物件を削りすぎないか確認する。
+
 ---
 
 ## 出力
@@ -303,6 +315,26 @@ transaction_year
 ## 目的
 
 特徴量追加容易性を確保する。
+
+外部特徴量も同じFeatureProvider境界に寄せる。学習設定の `features` または `categorical_features` に外部特徴量が含まれる場合だけ、対応するProviderを実行する。
+
+初期対象:
+
+```text
+StationPassengerProvider
+CommercialFacilityProvider
+HazardProvider
+```
+
+各Providerは以下を責務とする。
+
+* 入力CSVの存在確認
+* 正規化済みCSVの読み込み
+* 学習データへの結合
+* 欠損時の既定値付与
+* 出力特徴量のcontext登録
+
+モデル本体は外部データソースへ直接依存しない。外部データの取得・正規化は `training/src/collect`、特徴量結合は `training/src/features` に分ける。
 
 ---
 
@@ -502,13 +534,27 @@ region: tokyo
 features:
   - area
   - age
-  - station
   - municipality
   - station_distance
   - room_layout
   - building_type
   - transaction_year
+  - station_passenger_log
+  - station_line_count
+  - station_operator_count
+  - effective_station_scale
+  - has_station_passenger_data
+  - station_rank
+
+categorical_features:
+  - prefecture
+  - municipality
+  - room_layout
+  - building_type
+  - station_rank
 ```
+
+4都県の個別モデルは、ブラウザ配布サイズを抑えるため `station` カテゴリを外し、駅別乗降客数から作る軽量な駅規模特徴量を利用する。駅別乗降客数CSVは `station_passengers_csv` で指定する。
 
 ---
 
@@ -682,6 +728,20 @@ MVPでは信頼区間を以下で表示するために利用する。
 
 学習データ全件はブラウザへ配布しない。
 
+将来価格シミュレーション用の駅別・地域別トレンド集計も同じ履歴エクスポートで生成する。
+
+```bash
+make histories-national
+```
+
+出力:
+
+```text
+frontend/public/histories/{region}_trend_summary.json
+```
+
+このJSONは年別平均平米単価から年率トレンドと変動幅を集約したもので、生の取引明細は含めない。
+
 例
 
 ```json
@@ -760,6 +820,12 @@ make compare-national-models
 
 全国比較では、北海道、東北、関東、中部、近畿、中国、四国、九州・沖縄の8クラスタを使用する。合計ONNX容量に加えて、ユーザーが地域選択時に取得する最大1モデル容量も記録する。
 
+## モデル説明
+
+モデル全体の特徴量重要度は、学習時にメタデータへ出力する。
+
+個別予測の説明にSHAPを使う場合は、ブラウザ上では計算せず、学習側で集計JSONを生成する方式を優先する。詳細は `docs/model-explainability.md` に記載する。
+
 ## 推奨構成の本番生成
 
 首都圏4都県の専用モデルと8地方160木モデルを、前処理から配信用コピーまで一括生成する。
@@ -783,6 +849,24 @@ make train-production-models
 ```bash
 make train-regional-models
 ```
+
+## 本番成果物更新ワークフロー
+
+データ取得、前処理、本番用モデル生成、価格推移、駅マスタ、特徴量順序チェック、フロントエンドビルドまでをローカルでまとめて実行する場合は次を使う。
+
+```bash
+make refresh-production-artifacts ALLOW_MODEL_UPDATE=1
+```
+
+このコマンドはブラウザ配信用のONNX、メタデータ、価格推移、駅マスタを更新するため、誤実行を避ける目的で `ALLOW_MODEL_UPDATE=1` を必須にする。
+
+実行前に手順だけ確認する場合は、Makeのドライランを使う。
+
+```bash
+make -n refresh-production-artifacts ALLOW_MODEL_UPDATE=1
+```
+
+ハザード特徴量や全国範囲の駅別乗降客数を本番モデルへ採用する場合は、先に対応する取得・比較TODOを完了し、設定ファイルの特徴量を確定してからこのワークフローへ組み込む。
 
 全国47都道府県の駅マスタを再生成する場合は、外部駅APIへ接続できる環境で次を実行する。
 
@@ -856,12 +940,21 @@ parquet
 例
 
 ```text
-コンビニ件数
-
-スーパー件数
-
-最寄施設距離
+sc_count_within_1km
+sc_count_within_3km
+nearest_sc_distance_km
+nearest_sc_opened_years
+sc_store_area_sum_within_3km
+sc_tenant_count_sum_within_3km
 ```
+
+データソースは日本ショッピングセンター協会（JCSC）のオープンSC一覧表を利用する。
+
+取得・正規化仕様は `docs/commercial-facilities.md` に記載する。
+
+初期モデル投入時は、取引年以前に開業済みのSCだけを集計し、未来情報の混入を避ける。
+
+店舗面積、テナント数、ディベロッパー、キーテナントは分析用に保持し、欠損率・重要度・評価指標を確認して採否を判断する。
 
 ---
 
@@ -885,7 +978,47 @@ parquet
 路線数
 
 乗換数
+
+station_passenger_count
+
+station_passenger_log
+
+station_line_count
 ```
+
+駅別乗降客数は不動産情報ライブラリの国土数値情報（駅別乗降客数）API `XKT015` から取得する。
+
+取得・正規化仕様は `docs/station-passengers.md` に記載する。
+
+初期比較では `station_passenger_log`、`station_line_count`、`station_operator_count`、`effective_station_scale`、`has_station_passenger_data` を優先し、`station_rank` は小さなカテゴリ特徴量として比較候補に含める。
+
+バックテストは以下で実行する。
+
+```bash
+make compare-station-passenger-features
+```
+
+首都圏の初期比較では、既存の `station` カテゴリを残すなら数値の駅規模特徴量は小さな改善に留まる。一方で `station` カテゴリを外す軽量モデルでは駅規模特徴量の効果が大きく、ブラウザ配布サイズを抑える候補として有望。
+
+ブラウザ推論ではAPIを呼ばず、学習側で生成した軽量JSONまたはモデル入力済み特徴量を利用する。
+
+## SurroundingFacilityProvider
+
+候補:
+
+```text
+nearest_large_park_distance_km
+large_park_count_within_3km
+nearest_hospital_distance_km
+hospital_count_within_3km
+nearest_university_distance_km
+university_count_within_3km
+redevelopment_project_count_last_5y
+```
+
+周辺特徴量の追加方針は `docs/surrounding-features.md` に記載する。
+
+初期実装では、施設名を大量のカテゴリ特徴量にせず、距離、件数、面積合計、データ有無に絞って比較する。
 
 ---
 
