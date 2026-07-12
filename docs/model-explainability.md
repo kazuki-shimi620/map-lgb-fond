@@ -88,6 +88,45 @@ LightGBMの `pred_contrib` またはSHAP相当の計算を学習側で実行し�
 * 入力1件ごとの厳密な寄与度ではない
 * セグメント設計を粗くしすぎると説明が一般論になる
 
+配信用JSONは次の最小形にする。`baselineValue` と `meanContribution` は円単位の目安として扱い、UIでは「代表条件での説明」と明示する。
+
+```json
+{
+  "schemaVersion": 1,
+  "region": "tokyo",
+  "modelName": "lightgbm_tokyo",
+  "generatedAt": "2026-07-13T00:00:00Z",
+  "method": "lightgbm_pred_contrib",
+  "baselineValue": 52000000,
+  "globalTopContributions": [
+    {
+      "feature": "station",
+      "label": "駅",
+      "meanAbsContribution": 8200000,
+      "direction": "mixed"
+    }
+  ],
+  "segments": [
+    {
+      "id": "walk_minutes_0_10",
+      "label": "駅徒歩10分以内",
+      "conditions": { "stationDistanceMax": 10 },
+      "sampleCount": 12000,
+      "topContributions": [
+        {
+          "feature": "station_distance",
+          "label": "駅徒歩",
+          "meanContribution": 2400000,
+          "direction": "positive"
+        }
+      ]
+    }
+  ]
+}
+```
+
+`direction` は `positive`、`negative`、`mixed` のいずれかにする。セグメントに該当する取引が少ない場合は `sampleCount` を見てUI表示を省略する。
+
 ### 3. ブラウザ内の簡易差分説明
 
 入力条件を少し変えた場合の予測差分を表示する。
@@ -118,6 +157,15 @@ LightGBMの `pred_contrib` またはSHAP相当の計算を学習側で実行し�
 3. UIでは代表セグメント説明または簡易差分説明だけを表示する
 4. 個別予測の厳密SHAPは、容量・速度・保守性を見て後回しにする
 
+UI文言は以下を使い分ける。
+
+```text
+モデル全体の特徴量重要度
+代表条件での価格寄与の目安
+```
+
+「この物件の価格を上げた/下げた理由」と断定しない。代表セグメント説明を出す場合も、入力条件に近い過去データから見た傾向として表示する。
+
 ## 出力先
 
 学習側の成果物:
@@ -141,6 +189,8 @@ frontend/public/explanations/
 * 商業施設、駅規模、ハザード特徴量が地域差だけを代理していない
 * JSONサイズが地域ごとに数十KB程度へ収まる
 * モバイルで追加通信しても初期表示を遅くしない
+* `schemaVersion`、`region`、`modelName` がメタデータと一致する
+* `feature` が `metadata.featureOrder` または説明専用の派生名として定義されている
 
 ## 非目標
 
