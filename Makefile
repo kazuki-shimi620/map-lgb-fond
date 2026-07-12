@@ -33,6 +33,7 @@ FEATURE_ORDER_METADATA ?= ../$(FRONTEND_DIR)/public/metadata/tokyo_latest_metada
 MODEL_UPDATE_RUN_ID := $(or $(MODEL_UPDATE_RUN_ID),$(shell date +%Y%m%d_%H%M%S))
 MODEL_UPDATE_LOG ?= training/outputs/comparisons/model_update_$(MODEL_UPDATE_RUN_ID).log
 MODEL_UPDATE_PID ?= training/outputs/comparisons/model_update_$(MODEL_UPDATE_RUN_ID).pid
+MODEL_UPDATE_LOCK_DIR ?= training/outputs/comparisons/model_update.lock
 SNAPSHOT_OUTPUT ?= outputs/comparisons/model_metrics_snapshot.json
 BEFORE_SNAPSHOT ?= outputs/comparisons/model_update_before.json
 AFTER_SNAPSHOT ?= outputs/comparisons/model_update_after.json
@@ -251,8 +252,18 @@ refresh-production-artifacts:
 
 model-update-background:
 	@mkdir -p training/outputs/comparisons
-	@MODEL_UPDATE_RUN_ID=$(MODEL_UPDATE_RUN_ID) PYTHONUNBUFFERED=1 nohup bash training/scripts/run_model_update_with_report.sh > "$(MODEL_UPDATE_LOG)" 2>&1 < /dev/null & \
+	@if ! mkdir "$(MODEL_UPDATE_LOCK_DIR)" 2>/dev/null; then \
+		echo "model update is already running or lock remains: $(MODEL_UPDATE_LOCK_DIR)"; \
+		if [ -f "$(MODEL_UPDATE_LOCK_DIR)/run_id" ]; then echo "run_id=$$(cat "$(MODEL_UPDATE_LOCK_DIR)/run_id")"; fi; \
+		if [ -f "$(MODEL_UPDATE_LOCK_DIR)/pid" ]; then echo "pid=$$(cat "$(MODEL_UPDATE_LOCK_DIR)/pid")"; fi; \
+		if [ -f "$(MODEL_UPDATE_LOCK_DIR)/log" ]; then echo "log=$$(cat "$(MODEL_UPDATE_LOCK_DIR)/log")"; fi; \
+		exit 1; \
+	fi
+	@printf '%s\n' "$(MODEL_UPDATE_RUN_ID)" > "$(MODEL_UPDATE_LOCK_DIR)/run_id"
+	@printf '%s\n' "$(MODEL_UPDATE_LOG)" > "$(MODEL_UPDATE_LOCK_DIR)/log"
+	@MODEL_UPDATE_RUN_ID=$(MODEL_UPDATE_RUN_ID) MODEL_UPDATE_LOCK_DIR="$(MODEL_UPDATE_LOCK_DIR)" PYTHONUNBUFFERED=1 nohup bash training/scripts/run_model_update_with_report.sh > "$(MODEL_UPDATE_LOG)" 2>&1 < /dev/null & \
 		echo $$! > "$(MODEL_UPDATE_PID)"; \
+		echo $$! > "$(MODEL_UPDATE_LOCK_DIR)/pid"; \
 		echo "model update started"; \
 		echo "run_id=$(MODEL_UPDATE_RUN_ID)"; \
 		echo "pid=$$(cat "$(MODEL_UPDATE_PID)")"; \

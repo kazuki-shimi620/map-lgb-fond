@@ -1,10 +1,21 @@
 #!/usr/bin/env bash
 set -euo pipefail
-trap 'status=$?; echo "[model-update] failed status=${status} line=${LINENO}"; exit ${status}' ERR
 
 RUN_ID="${MODEL_UPDATE_RUN_ID:-$(date +%Y%m%d_%H%M%S)}"
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 OUTPUT_DIR="${ROOT_DIR}/training/outputs/comparisons/model_update_${RUN_ID}"
+LOCK_DIR="${MODEL_UPDATE_LOCK_DIR:-}"
+
+cleanup_lock() {
+  if [[ -n "${LOCK_DIR}" && -d "${LOCK_DIR}" ]]; then
+    if [[ ! -f "${LOCK_DIR}/run_id" ]] || [[ "$(cat "${LOCK_DIR}/run_id")" == "${RUN_ID}" ]]; then
+      rm -rf "${LOCK_DIR}"
+    fi
+  fi
+}
+
+trap 'status=$?; echo "[model-update] failed status=${status} line=${LINENO}"; exit ${status}' ERR
+trap cleanup_lock EXIT
 
 mkdir -p "${OUTPUT_DIR}"
 cd "${ROOT_DIR}"

@@ -54,7 +54,7 @@ P3 = 将来拡張または検証後に着手するもの
 * [x] `training/src/collect/mlit.py` の `REINFOLIB_API_KEY_ENV` を駅別乗降客数などの共通定数へ移し、駅規模取得が不動産価格API実装に依存しないようにする
 * [x] `training/src/collect/collect.py` と `training/src/collect/mlit.py` を削除するか、`legacy` 配下へ移して通常導線から外す
 * [x] `training/tests/test_collect_mlit.py` を削除または legacy 検証用へ移し、通常テストの主対象から外す
-* [ ] `model-update-background` の多重起動を検出し、SQLite `database is locked` を起こす前に分かりやすく終了する
+* [x] `model-update-background` の多重起動を検出し、SQLite `database is locked` を起こす前に分かりやすく終了する
 
 ### P2 追加特徴量の比較候補
 
