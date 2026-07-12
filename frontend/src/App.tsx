@@ -1,12 +1,8 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { CommercialFacilityCard } from "./features/facilities/CommercialFacilityCard";
 import { HazardRiskCard } from "./features/hazard/HazardRiskCard";
 import { PropertyMap } from "./features/map/PropertyMap";
-import {
-  getModelManager,
-  markModelManagerUsed,
-  prefetchCapitalRegionModels
-} from "./features/model/modelManagerFactory";
+import { getModelManager } from "./features/model/modelManagerFactory";
 import { PriceHistoryChart } from "./features/prediction/PriceHistoryChart";
 import {
   ForecastControls,
@@ -21,21 +17,18 @@ import {
 } from "./features/prediction/PredictionResultView";
 import { SupportingInfoTabs } from "./features/prediction/SupportingInfoTabs";
 import { usePropertySelection } from "./features/prediction/usePropertySelection";
+import { useRegionAssets } from "./features/prediction/useRegionAssets";
 import { StationScaleCard } from "./features/stations/StationScaleCard";
 import { buildStationScaleRequestFields } from "./features/stations/stationScale";
-import { loadStations } from "./services/stationService";
 import type {
-  CommercialFacilitySummary,
-  ModelMetadata,
   PriceHistoryPoint,
   PriceTrend,
   PriceTrendSummary,
   StationRecord
 } from "./types/assets";
-import type { PredictionFormState, PredictionResult, StationRegion } from "./types/prediction";
-import { fetchJson } from "./services/http";
+import type { PredictionFormState, PredictionResult } from "./types/prediction";
 import { haversineKm } from "./utils/distance";
-import { getPrefectureLabel, getRegionFromPrefecture, getStationRegionFromPrefecture } from "./utils/region";
+import { getPrefectureLabel } from "./utils/region";
 
 const initialForm: PredictionFormState = {
   prefecture: "東京都",
@@ -51,8 +44,6 @@ const initialForm: PredictionFormState = {
   lon: 139.767125
 };
 
-const RECENT_HISTORY_START_YEAR = 2020;
-
 export function App() {
   const [form, setForm] = useState<PredictionFormState>(initialForm);
   const [result, setResult] = useState<PredictionResult | null>(null);
@@ -61,25 +52,31 @@ export function App() {
     year: number;
     price: number;
   } | null>(null);
-  const [history, setHistory] = useState<PriceHistoryPoint[]>([]);
-  const [trendSummary, setTrendSummary] = useState<PriceTrendSummary | null>(null);
   const [futureScenario, setFutureScenario] = useState<FutureScenario>("base");
-  const [isArchiveLoaded, setIsArchiveLoaded] = useState(false);
-  const [isArchiveLoading, setIsArchiveLoading] = useState(false);
-  const [stations, setStations] = useState<StationRecord[]>([]);
-  const [commercialFacilities, setCommercialFacilities] = useState<CommercialFacilitySummary | null>(null);
-  const [metadata, setMetadata] = useState<ModelMetadata | null>(null);
-  const [isModelReady, setIsModelReady] = useState(false);
   const [isPredicting, setIsPredicting] = useState(false);
   const [formSheetState, setFormSheetState] = useState<"collapsed" | "half" | "open">("collapsed");
   const [errorMessage, setErrorMessage] = useState("");
-  const activeStationRegionRef = useRef<StationRegion | null>(null);
 
-  const region = useMemo(() => getRegionFromPrefecture(form.prefecture), [form.prefecture]);
-  const stationRegion = useMemo(
-    () => getStationRegionFromPrefecture(form.prefecture),
-    [form.prefecture]
-  );
+  const {
+    closeArchiveHistory,
+    commercialFacilities,
+    history,
+    isArchiveLoaded,
+    isArchiveLoading,
+    isModelReady,
+    loadArchiveHistory,
+    metadata,
+    region,
+    setStations,
+    stations,
+    trendSummary
+  } = useRegionAssets({
+    prefecture: form.prefecture,
+    setForm,
+    setHistoryModelAnchor,
+    setErrorMessage
+  });
+
   const longRangeWarning =
     metadata && form.predictionYear > metadata.latestTrainingYear + 10
       ? "長期予測のため精度は保証できません"
@@ -92,121 +89,6 @@ export function App() {
     }),
     [metadata]
   );
-
-  useEffect(() => {
-    if (!region || !stationRegion) {
-      setIsModelReady(false);
-      setErrorMessage("未対応地域です");
-      return;
-    }
-
-    const currentRegion = region;
-    const currentStationRegion = stationRegion;
-    const currentPrefecture = form.prefecture;
-    let disposed = false;
-    const manager = getModelManager(currentRegion);
-    activeStationRegionRef.current = currentStationRegion;
-    setIsModelReady(false);
-    setHistory([]);
-    setTrendSummary(null);
-    setHistoryModelAnchor(null);
-    setIsArchiveLoaded(false);
-    setIsArchiveLoading(false);
-    setErrorMessage("");
-
-    async function loadRegionAssets() {
-      try {
-        const [nextStations, nextHistory, nextTrendSummary] = await Promise.all([
-          loadStations(currentStationRegion),
-          fetchJson<PriceHistoryPoint[]>(`./histories/${currentStationRegion}_latest_history.json`),
-          fetchJson<PriceTrendSummary>(`./histories/${currentStationRegion}_trend_summary.json`).catch(() => null)
-        ]);
-        if (!disposed) {
-          setStations(nextStations);
-          setHistory(nextHistory);
-          setTrendSummary(nextTrendSummary);
-          setForm((current) =>
-            current.prefecture === currentPrefecture && !current.station && nextStations.length > 0
-              ? { ...current, station: nextStations[0].station_name }
-              : current
-          );
-        }
-      } catch {
-        if (!disposed) {
-          setErrorMessage("駅マスタまたは価格推移データを読み込めませんでした");
-        }
-      }
-
-      try {
-        await manager.loadAll();
-        if (!disposed) {
-          markModelManagerUsed(currentRegion);
-          setMetadata(manager.getMetadata());
-          setIsModelReady(true);
-          prefetchCapitalRegionModels(currentRegion);
-        }
-      } catch {
-        if (!disposed) {
-          setMetadata(manager.getMetadata());
-          setIsModelReady(false);
-          setErrorMessage("モデルの読み込みに失敗しました");
-        }
-      }
-    }
-
-    loadRegionAssets();
-
-    return () => {
-      disposed = true;
-    };
-  }, [form.prefecture, region, stationRegion]);
-
-  useEffect(() => {
-    let disposed = false;
-    fetchJson<CommercialFacilitySummary>("./facilities/commercial_facilities.json")
-      .then((summary) => {
-        if (!disposed) {
-          setCommercialFacilities(summary);
-        }
-      })
-      .catch(() => {
-        if (!disposed) {
-          setCommercialFacilities(null);
-        }
-      });
-    return () => {
-      disposed = true;
-    };
-  }, []);
-
-  async function loadArchiveHistory() {
-    if (!stationRegion || isArchiveLoaded || isArchiveLoading) {
-      return;
-    }
-
-    setIsArchiveLoading(true);
-    try {
-      const archive = await fetchJson<PriceHistoryPoint[]>(
-        `./histories/${stationRegion}_archive_history.json`
-      );
-      if (activeStationRegionRef.current !== stationRegion) {
-        return;
-      }
-      setHistory((current) => [...archive, ...current]);
-      setIsArchiveLoaded(true);
-    } catch {
-      setErrorMessage("過去の価格推移データを読み込めませんでした");
-    } finally {
-      setIsArchiveLoading(false);
-    }
-  }
-
-  function closeArchiveHistory() {
-    setHistory((current) =>
-      current.filter((point) => point.year >= RECENT_HISTORY_START_YEAR)
-    );
-    setIsArchiveLoaded(false);
-  }
 
   function clearPredictionState() {
     setResult(null);
