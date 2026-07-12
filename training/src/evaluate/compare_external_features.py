@@ -20,6 +20,7 @@ from evaluate.compare_commercial_features import (  # noqa: E402
 from evaluate.compare_models import BASE_CATEGORICAL_FEATURES, BASE_FEATURES  # noqa: E402
 from evaluate.compare_station_passenger_features import (  # noqa: E402
     STATION_SCALE_NUMERIC_FEATURES,
+    STATION_SCALE_NUMERIC_FEATURES_WITHOUT_COVERAGE_FLAG,
 )
 from evaluate.metrics import calculate_metrics  # noqa: E402
 from export.artifacts import export_onnx_if_available, save_json  # noqa: E402
@@ -60,9 +61,19 @@ CANDIDATES = [
     ExternalFeatureCandidate("commercial", COMMERCIAL_FEATURES, []),
     ExternalFeatureCandidate("station_passenger", [], STATION_SCALE_NUMERIC_FEATURES),
     ExternalFeatureCandidate(
+        "station_passenger_no_coverage_flag",
+        [],
+        STATION_SCALE_NUMERIC_FEATURES_WITHOUT_COVERAGE_FLAG,
+    ),
+    ExternalFeatureCandidate(
         "commercial_station",
         COMMERCIAL_FEATURES,
         STATION_SCALE_NUMERIC_FEATURES,
+    ),
+    ExternalFeatureCandidate(
+        "commercial_station_no_coverage_flag",
+        COMMERCIAL_FEATURES,
+        STATION_SCALE_NUMERIC_FEATURES_WITHOUT_COVERAGE_FLAG,
     ),
     ExternalFeatureCandidate("baseline_no_station", [], [], include_station=False),
     ExternalFeatureCandidate(

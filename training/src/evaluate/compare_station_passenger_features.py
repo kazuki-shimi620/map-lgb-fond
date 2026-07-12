@@ -49,6 +49,11 @@ STATION_SCALE_NUMERIC_FEATURES = [
     "effective_station_scale",
     "has_station_passenger_data",
 ]
+STATION_SCALE_NUMERIC_FEATURES_WITHOUT_COVERAGE_FLAG = [
+    feature
+    for feature in STATION_SCALE_NUMERIC_FEATURES
+    if feature != "has_station_passenger_data"
+]
 STATION_SCALE_WITH_AGE_FEATURES = STATION_SCALE_NUMERIC_FEATURES + [
     "station_passenger_age"
 ]
@@ -70,6 +75,10 @@ class StationPassengerCandidate:
 CANDIDATES = [
     StationPassengerCandidate("baseline_2015_window", []),
     StationPassengerCandidate("station_scale_numeric", STATION_SCALE_NUMERIC_FEATURES),
+    StationPassengerCandidate(
+        "station_scale_numeric_no_coverage_flag",
+        STATION_SCALE_NUMERIC_FEATURES_WITHOUT_COVERAGE_FLAG,
+    ),
     StationPassengerCandidate(
         "station_scale_numeric_with_age",
         STATION_SCALE_WITH_AGE_FEATURES,
