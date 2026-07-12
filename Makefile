@@ -26,6 +26,7 @@ PASSENGER_ZOOM ?= 11
 PASSENGER_NATIONAL_ZOOM ?= 11
 PASSENGER_REQUEST_INTERVAL_SECONDS ?= 1.0
 STATION_PASSENGERS_CSV ?= data/processed/station_passengers/station_groups.csv
+HAZARDS_CSV ?= data/processed/hazards/hazard_features.csv
 HAZARD_INPUT ?=
 HAZARD_URL ?=
 FEATURE_ORDER_CONFIGS ?= configs/tokyo.yaml configs/kanagawa.yaml configs/saitama.yaml configs/chiba.yaml
@@ -117,7 +118,7 @@ help:
 	@echo "  make compare-station-passenger-features"
 	@echo "                          駅別乗降客数特徴量のバックテストを実行"
 	@echo "  make compare-external-features"
-	@echo "                          商業施設と駅規模の組み合わせバックテストを実行"
+	@echo "                          商業施設、駅規模、ハザードの組み合わせバックテストを実行"
 	@echo "  make compare-outlier-filters"
 	@echo "                          外れ値処理候補のバックテストを実行"
 	@echo "  make summarize-edge-cases REGION=tokyo"
@@ -292,7 +293,7 @@ compare-station-passenger-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_station_passenger_features.py
 
 compare-external-features:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_external_features.py
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_external_features.py --hazards-csv "$(HAZARDS_CSV)"
 
 compare-outlier-filters:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_outlier_filters.py

@@ -55,6 +55,8 @@
 make compare-external-features
 ```
 
+`training/data/processed/hazards/hazard_features.csv` が存在する場合は、`hazard` と `commercial_station_hazard` も候補に含める。ハザードCSVが未作成の場合は、既存の商業施設・駅規模候補だけを比較し、レポートにはハザード候補をスキップしたことを記録する。
+
 採用判断では以下を確認する。
 
 * MAE改善が複数地域で安定している
