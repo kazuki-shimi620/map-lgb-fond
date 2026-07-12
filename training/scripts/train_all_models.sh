@@ -5,7 +5,9 @@ cd "$(dirname "$0")/.."
 
 publish_policy="${PUBLISH_POLICY:-best}"
 
-if command -v uv >/dev/null 2>&1; then
+if [[ -n "${TRAINING_PYTHON:-}" ]]; then
+  read -r -a python_command <<< "${TRAINING_PYTHON}"
+elif command -v uv >/dev/null 2>&1; then
   python_command=(uv run python)
 elif [[ -x .venv/bin/python ]]; then
   python_command=(.venv/bin/python)

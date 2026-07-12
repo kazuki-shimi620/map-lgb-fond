@@ -228,13 +228,13 @@ train:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/train/train.py --config configs/$(REGION).yaml --db-path $(DB_PATH) --export-onnx --publish-policy $(PUBLISH_POLICY)
 
 train-all:
-	PUBLISH_POLICY=$(PUBLISH_POLICY) $(TRAINING_DIR)/scripts/train_all_models.sh
+	TRAINING_PYTHON="$(TRAINING_PYTHON)" PUBLISH_POLICY=$(PUBLISH_POLICY) $(TRAINING_DIR)/scripts/train_all_models.sh
 
 train-regional-models:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/train/train_regional_models.py --publish
 
 train-production-models: preprocess-capital-all-years preprocess-national
-	PUBLISH_POLICY=latest $(TRAINING_DIR)/scripts/train_all_models.sh
+	TRAINING_PYTHON="$(TRAINING_PYTHON)" PUBLISH_POLICY=latest $(TRAINING_DIR)/scripts/train_all_models.sh
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/train/train_regional_models.py --publish
 
 refresh-production-artifacts:
