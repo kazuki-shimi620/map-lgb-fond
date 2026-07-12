@@ -140,7 +140,10 @@ export class ModelManager {
     const featureValues = this.metadata.featureOrder.map((featureName) => {
       const encodedKey = FEATURE_ALIASES[featureName] ?? (featureName as keyof EncodedPredictionRequest);
       const value = encoded[encodedKey];
-      return typeof value === "number" ? value : 0;
+      if (typeof value !== "number") {
+        throw new Error(`未対応の特徴量です: ${featureName}`);
+      }
+      return value;
     });
 
     const inputTensor = new this.ort.Tensor("float32", Float32Array.from(featureValues), [

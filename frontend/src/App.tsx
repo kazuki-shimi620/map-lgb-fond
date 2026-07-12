@@ -580,7 +580,7 @@ export function App() {
               {
                 id: "model",
                 label: "モデル",
-                description: "予測に使った条件、モデル評価、特徴量重要度を確認できます。",
+                description: "予測に使った条件、モデル評価、モデル全体の特徴量重要度を確認できます。",
                 content: <PredictionDetailsPanel summary={predictionSummary} />
               }
             ]}

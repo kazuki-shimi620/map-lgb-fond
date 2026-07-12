@@ -91,14 +91,14 @@ export function PredictionResultView({ result }: Props) {
           </dd>
         </div>
         <div>
-          <dt>信頼区間</dt>
+          <dt>参考価格帯</dt>
           <dd>
             {formatManYen(result.lowerPrice)} - {formatManYen(result.upperPrice)}
           </dd>
         </div>
       </dl>
       <p className="result-disclaimer">
-        予測価格は公開取引データに基づく参考値です。実際の査定額や成約価格を保証するものではありません。
+        予測価格と価格帯は公開取引データに基づく参考値です。価格帯は予測価格に検証データのMAEを足し引きした目安で、実際の査定額や成約価格を保証するものではありません。
       </p>
     </section>
   );
@@ -165,7 +165,7 @@ export function PredictionDetailsPanel({ summary }: { summary?: PredictionSummar
         </section>
         {summary.featureImportance.length > 0 ? (
           <section className="detail-section importance-panel" aria-label="特徴量重要度">
-            <h3>特徴量重要度</h3>
+            <h3>モデル全体の特徴量重要度</h3>
             <ol>
               {summary.featureImportance.slice(0, 5).map((item) => (
                 <li key={item.feature}>
