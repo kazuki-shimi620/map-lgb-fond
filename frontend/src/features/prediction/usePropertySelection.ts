@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type Dispatch, type SetStateAction } from "react";
+import { useState, type Dispatch, type SetStateAction } from "react";
 import type { StationRecord } from "../../types/assets";
 import type { PredictionFormState, SupportedRegion } from "../../types/prediction";
 import { reverseGeocode } from "../../services/geocodingService";
@@ -15,8 +15,6 @@ const MAP_SELECTION_SCROLL_DELAY_MS = 2000;
 const UNSUPPORTED_MAP_SELECTION_MESSAGE =
   "対応エリア外です。離島・海上などは現在対応していません。対応地域内の駅に近い地点を選択してください";
 
-type SheetState = "collapsed" | "half" | "open";
-
 type MapSelectOptions = {
   mapMoveDurationMs?: number;
 };
@@ -27,8 +25,9 @@ type UsePropertySelectionParams = {
   region: SupportedRegion | null;
   setStations: Dispatch<SetStateAction<StationRecord[]>>;
   clearPredictionState: () => void;
+  clearPendingMapSelectionScroll: () => void;
+  scrollToFormAfterMapSelection: (delayMs: number) => void;
   setErrorMessage: Dispatch<SetStateAction<string>>;
-  setFormSheetState: Dispatch<SetStateAction<SheetState>>;
 };
 
 export function usePropertySelection({
@@ -37,56 +36,18 @@ export function usePropertySelection({
   region,
   setStations,
   clearPredictionState,
-  setErrorMessage,
-  setFormSheetState
+  clearPendingMapSelectionScroll,
+  scrollToFormAfterMapSelection,
+  setErrorMessage
 }: UsePropertySelectionParams) {
   const [isSelectionSupported, setIsSelectionSupported] = useState(true);
   const [stationDistanceSource, setStationDistanceSource] = useState<"map" | "manual">("manual");
-  const formPanelRef = useRef<HTMLElement | null>(null);
-  const sheetStackRef = useRef<HTMLDivElement | null>(null);
-  const scrollAnimationRef = useRef<number | null>(null);
-  const mapSelectionScrollTimerRef = useRef<number | null>(null);
-
-  useEffect(() => {
-    return () => {
-      if (mapSelectionScrollTimerRef.current !== null) {
-        window.clearTimeout(mapSelectionScrollTimerRef.current);
-      }
-    };
-  }, []);
 
   function rejectMapSelection(message = UNSUPPORTED_MAP_SELECTION_MESSAGE) {
     setIsSelectionSupported(false);
     setStationDistanceSource("manual");
     clearPredictionState();
     setErrorMessage(message);
-  }
-
-  function scrollToFormAfterMapSelection(delayMs = MAP_SELECTION_SCROLL_DELAY_MS) {
-    if (mapSelectionScrollTimerRef.current !== null) {
-      window.clearTimeout(mapSelectionScrollTimerRef.current);
-    }
-
-    mapSelectionScrollTimerRef.current = window.setTimeout(() => {
-      mapSelectionScrollTimerRef.current = null;
-      setFormSheetState("half");
-      window.requestAnimationFrame(() => {
-        if (window.matchMedia("(max-width: 760px)").matches) {
-          sheetStackRef.current?.scrollTo({ top: 0, behavior: "smooth" });
-          return;
-        }
-        if (formPanelRef.current) {
-          animateScrollToElement(formPanelRef.current, scrollAnimationRef);
-        }
-      });
-    }, delayMs);
-  }
-
-  function clearPendingMapSelectionTimers() {
-    if (mapSelectionScrollTimerRef.current !== null) {
-      window.clearTimeout(mapSelectionScrollTimerRef.current);
-      mapSelectionScrollTimerRef.current = null;
-    }
   }
 
   function applyMapSelection({
@@ -129,7 +90,7 @@ export function usePropertySelection({
   async function handleMapSelect(lat: number, lon: number, options: MapSelectOptions = {}) {
     const selectionStartedAt = window.performance.now();
     interruptModelPrefetch();
-    clearPendingMapSelectionTimers();
+    clearPendingMapSelectionScroll();
     setIsSelectionSupported(false);
     clearPredictionState();
     setErrorMessage("");
@@ -207,50 +168,11 @@ export function usePropertySelection({
   }
 
   return {
-    formPanelRef,
     handleFormChange,
     handleMapSelect,
     isSelectionSupported,
-    sheetStackRef,
     stationDistanceSource
   };
-}
-
-function animateScrollToElement(
-  element: HTMLElement,
-  animationRef: { current: number | null }
-) {
-  if (animationRef.current !== null) {
-    window.cancelAnimationFrame(animationRef.current);
-  }
-
-  const startY = window.scrollY;
-  const targetY = startY + element.getBoundingClientRect().top;
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    window.scrollTo(0, targetY);
-    animationRef.current = null;
-    return;
-  }
-
-  const distance = targetY - startY;
-  const duration = 1000;
-  const startTime = performance.now();
-
-  function step(now: number) {
-    const progress = Math.min(1, (now - startTime) / duration);
-    const eased =
-      progress < 0.5
-        ? 4 * progress * progress * progress
-        : 1 - Math.pow(-2 * progress + 2, 3) / 2;
-    window.scrollTo(0, startY + distance * eased);
-    if (progress < 1) {
-      animationRef.current = window.requestAnimationFrame(step);
-    } else {
-      animationRef.current = null;
-    }
-  }
-
-  animationRef.current = window.requestAnimationFrame(step);
 }
 
 function isOkinawaMainIsland(lat: number, lon: number) {

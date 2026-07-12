@@ -30,7 +30,7 @@ P3 = 将来拡張または検証後に着手するもの
 
 * [x] `usePricePrediction` を切り出し、予測実行、モデル切り替え、将来予測、エラー処理をAppから分離する
 * [x] `usePriceHistory` を切り出し、履歴読み込み、アーカイブ履歴、将来価格シミュレーション用ポイント生成をAppから分離する
-* [ ] `useMobilePredictionSheet` を切り出し、モバイルシート状態とスクロール処理をAppから分離する
+* [x] `useMobilePredictionSheet` を切り出し、モバイルシート状態とスクロール処理をAppから分離する
 * [x] Python CIを追加し、構文チェック、Ruff、前処理/FeatureProvider/カテゴリ辞書生成を含む単体テストを段階的に実行する
 * [ ] Python CIへ型チェックを追加する
 * [ ] Ruffの段階導入で一時的に除外している `E501`、`E402` を解消し、Lint対象へ戻す

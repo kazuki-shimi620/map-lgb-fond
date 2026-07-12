@@ -15,6 +15,7 @@ import {
   type PredictionSummary
 } from "./features/prediction/PredictionResultView";
 import { SupportingInfoTabs } from "./features/prediction/SupportingInfoTabs";
+import { useMobilePredictionSheet } from "./features/prediction/useMobilePredictionSheet";
 import { usePriceHistory } from "./features/prediction/usePriceHistory";
 import { usePricePrediction } from "./features/prediction/usePricePrediction";
 import { usePropertySelection } from "./features/prediction/usePropertySelection";
@@ -40,8 +41,15 @@ const initialForm: PredictionFormState = {
 export function App() {
   const [form, setForm] = useState<PredictionFormState>(initialForm);
   const [futureScenario, setFutureScenario] = useState<FutureScenario>("base");
-  const [formSheetState, setFormSheetState] = useState<"collapsed" | "half" | "open">("collapsed");
   const [errorMessage, setErrorMessage] = useState("");
+  const {
+    clearPendingMapSelectionScroll,
+    formPanelRef,
+    formSheetState,
+    scrollToFormAfterMapSelection,
+    setFormSheetState,
+    sheetStackRef
+  } = useMobilePredictionSheet();
 
   const {
     assetStatus,
@@ -78,11 +86,9 @@ export function App() {
   );
 
   const {
-    formPanelRef,
     handleFormChange,
     handleMapSelect,
     isSelectionSupported,
-    sheetStackRef,
     stationDistanceSource
   } = usePropertySelection({
     form,
@@ -90,8 +96,9 @@ export function App() {
     region,
     setStations,
     clearPredictionState: () => clearPredictionStateRef.current(),
+    clearPendingMapSelectionScroll,
+    scrollToFormAfterMapSelection,
     setErrorMessage,
-    setFormSheetState
   });
 
   const {
