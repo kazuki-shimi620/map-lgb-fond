@@ -49,15 +49,11 @@
   },
   {
     "station_id": "tokyo_0200",
-    "station_name": "つつじヶ丘",
+    "station_name": "つつじケ丘",
     "prefecture": "東京都",
     "line_name": "京王線",
     "lat": 35.657936,
-    "lon": 139.575103,
-    "station_passenger_log": 10.589912187335246,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.575103
   },
   {
     "station_id": "tokyo_0545",
@@ -73,27 +69,19 @@
   },
   {
     "station_id": "tokyo_0562",
-    "station_name": "ときわ台",
+    "station_name": "ときわ台(東京)",
     "prefecture": "東京都",
     "line_name": "東武東上本線",
     "lat": 35.758771,
-    "lon": 139.689015,
-    "station_passenger_log": 10.643995304455911,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.689015
   },
   {
     "station_id": "tokyo_0619",
-    "station_name": "ひばりヶ丘",
+    "station_name": "ひばりケ丘(東京)",
     "prefecture": "東京都",
     "line_name": "西武池袋線",
     "lat": 35.751485,
-    "lon": 139.545852,
-    "station_passenger_log": 11.110161704933724,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.545852
   },
   {
     "station_id": "tokyo_0249",
@@ -205,15 +193,11 @@
   },
   {
     "station_id": "tokyo_0625",
-    "station_name": "三田",
+    "station_name": "三田(東京)",
     "prefecture": "東京都",
     "line_name": "都営三田線",
     "lat": 35.64818,
-    "lon": 139.748775,
-    "station_passenger_log": 11.507862670627766,
-    "station_line_count": 2.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.748775
   },
   {
     "station_id": "tokyo_0374",
@@ -457,15 +441,11 @@
   },
   {
     "station_id": "tokyo_0589",
-    "station_name": "下落合",
+    "station_name": "下落合(東京)",
     "prefecture": "東京都",
     "line_name": "西武新宿線",
     "lat": 35.715846,
-    "lon": 139.695391,
-    "station_passenger_log": 9.338029733117072,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.695391
   },
   {
     "station_id": "tokyo_0565",
@@ -637,15 +617,11 @@
   },
   {
     "station_id": "tokyo_0014",
-    "station_name": "中野",
+    "station_name": "中野(東京)",
     "prefecture": "東京都",
     "line_name": "JR中央線",
     "lat": 35.705765,
-    "lon": 139.665835,
-    "station_passenger_log": 12.86529586037014,
-    "station_line_count": 2.0,
-    "station_operator_count": 2.0,
-    "station_rank": "A"
+    "lon": 139.665835
   },
   {
     "station_id": "tokyo_0323",
@@ -973,15 +949,11 @@
   },
   {
     "station_id": "tokyo_0452",
-    "station_name": "京橋",
+    "station_name": "京橋(東京)",
     "prefecture": "東京都",
     "line_name": "東京メトロ銀座線",
     "lat": 35.676856,
-    "lon": 139.770126,
-    "station_passenger_log": 10.83366146551888,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.770126
   },
   {
     "station_id": "tokyo_0240",
@@ -1177,15 +1149,11 @@
   },
   {
     "station_id": "tokyo_0377",
-    "station_name": "住吉",
+    "station_name": "住吉(東京)",
     "prefecture": "東京都",
     "line_name": "東京メトロ半蔵門線",
     "lat": 35.689073,
-    "lon": 139.815681,
-    "station_passenger_log": 10.866528273599233,
-    "station_line_count": 2.0,
-    "station_operator_count": 2.0,
-    "station_rank": "B"
+    "lon": 139.815681
   },
   {
     "station_id": "tokyo_0618",
@@ -1225,39 +1193,27 @@
   },
   {
     "station_id": "tokyo_0397",
-    "station_name": "入谷",
+    "station_name": "入谷(東京)",
     "prefecture": "東京都",
     "line_name": "東京メトロ日比谷線",
     "lat": 35.719862,
-    "lon": 139.783924,
-    "station_passenger_log": 10.497918760156915,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.783924
   },
   {
     "station_id": "tokyo_0060",
-    "station_name": "八丁堀",
+    "station_name": "八丁堀(東京)",
     "prefecture": "東京都",
     "line_name": "JR京葉線",
     "lat": 35.674617,
-    "lon": 139.777705,
-    "station_passenger_log": 11.502107157534349,
-    "station_line_count": 2.0,
-    "station_operator_count": 2.0,
-    "station_rank": "B"
+    "lon": 139.777705
   },
   {
     "station_id": "tokyo_0580",
-    "station_name": "八坂",
+    "station_name": "八坂(東京)",
     "prefecture": "東京都",
     "line_name": "西武多摩湖線",
     "lat": 35.744925,
-    "lon": 139.467676,
-    "station_passenger_log": 8.715880102296456,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.467676
   },
   {
     "station_id": "tokyo_0196",
@@ -1513,27 +1469,19 @@
   },
   {
     "station_id": "tokyo_0218",
-    "station_name": "北野",
+    "station_name": "北野(東京)",
     "prefecture": "東京都",
     "line_name": "京王線",
     "lat": 35.644479,
-    "lon": 139.354489,
-    "station_passenger_log": 9.914971360477416,
-    "station_line_count": 2.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.354489
   },
   {
     "station_id": "tokyo_0083",
-    "station_name": "十条",
+    "station_name": "十条(東京)",
     "prefecture": "東京都",
     "line_name": "JR埼京線",
     "lat": 35.760321,
-    "lon": 139.722233,
-    "station_passenger_log": 11.108334974272726,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.722233
   },
   {
     "station_id": "tokyo_0161",
@@ -1725,15 +1673,11 @@
   },
   {
     "station_id": "tokyo_0349",
-    "station_name": "南阿佐ヶ谷",
+    "station_name": "南阿佐ケ谷",
     "prefecture": "東京都",
     "line_name": "東京メトロ丸ノ内線",
     "lat": 35.699624,
-    "lon": 139.63576,
-    "station_passenger_log": 10.19073202925686,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.63576
   },
   {
     "station_id": "tokyo_0089",
@@ -1761,15 +1705,11 @@
   },
   {
     "station_id": "tokyo_0140",
-    "station_name": "古里",
+    "station_name": "古里(東京)",
     "prefecture": "東京都",
     "line_name": "JR青梅線",
     "lat": 35.816247,
-    "lon": 139.152102,
-    "station_passenger_log": 0.0,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.152102
   },
   {
     "station_id": "tokyo_0307",
@@ -1797,15 +1737,11 @@
   },
   {
     "station_id": "tokyo_0732",
-    "station_name": "向原",
+    "station_name": "向原(東京)",
     "prefecture": "東京都",
     "line_name": "都電荒川線",
     "lat": 35.728938,
-    "lon": 139.724894,
-    "station_passenger_log": 7.2868764117507,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.724894
   },
   {
     "station_id": "tokyo_0295",
@@ -2121,15 +2057,11 @@
   },
   {
     "station_id": "tokyo_0012",
-    "station_name": "大久保",
+    "station_name": "大久保(東京)",
     "prefecture": "東京都",
     "line_name": "JR中央線",
     "lat": 35.700784,
-    "lon": 139.69732,
-    "station_passenger_log": 10.79185194896944,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.69732
   },
   {
     "station_id": "tokyo_0057",
@@ -2157,15 +2089,11 @@
   },
   {
     "station_id": "tokyo_0093",
-    "station_name": "大塚",
+    "station_name": "大塚(東京)",
     "prefecture": "東京都",
     "line_name": "JR山手線",
     "lat": 35.731412,
-    "lon": 139.728584,
-    "station_passenger_log": 11.556990196132327,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "A"
+    "lon": 139.728584
   },
   {
     "station_id": "tokyo_0273",
@@ -2193,15 +2121,11 @@
   },
   {
     "station_id": "tokyo_0560",
-    "station_name": "大山",
+    "station_name": "大山(東京)",
     "prefecture": "東京都",
     "line_name": "東武東上本線",
     "lat": 35.748398,
-    "lon": 139.702589,
-    "station_passenger_log": 10.750599681390584,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.702589
   },
   {
     "station_id": "tokyo_0500",
@@ -2217,15 +2141,11 @@
   },
   {
     "station_id": "tokyo_0690",
-    "station_name": "大島",
+    "station_name": "大島(東京)",
     "prefecture": "東京都",
     "line_name": "都営新宿線",
     "lat": 35.689905,
-    "lon": 139.83565,
-    "station_passenger_log": 10.331105465285424,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.83565
   },
   {
     "station_id": "tokyo_0078",
@@ -2265,27 +2185,19 @@
   },
   {
     "station_id": "tokyo_0334",
-    "station_name": "大手町",
+    "station_name": "大手町(東京)",
     "prefecture": "東京都",
     "line_name": "東京メトロ丸ノ内線",
     "lat": 35.686564,
-    "lon": 139.7662,
-    "station_passenger_log": 12.650893073116396,
-    "station_line_count": 5.0,
-    "station_operator_count": 2.0,
-    "station_rank": "A"
+    "lon": 139.7662
   },
   {
     "station_id": "tokyo_0058",
-    "station_name": "大森",
+    "station_name": "大森(東京)",
     "prefecture": "東京都",
     "line_name": "JR京浜東北線",
     "lat": 35.588903,
-    "lon": 139.728079,
-    "station_passenger_log": 11.960600404107888,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "A"
+    "lon": 139.728079
   },
   {
     "station_id": "tokyo_0176",
@@ -2325,15 +2237,11 @@
   },
   {
     "station_id": "tokyo_0663",
-    "station_name": "大門",
+    "station_name": "大門(東京)",
     "prefecture": "東京都",
     "line_name": "都営大江戸線",
     "lat": 35.656785,
-    "lon": 139.75466,
-    "station_passenger_log": 11.466577815431828,
-    "station_line_count": 2.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.75466
   },
   {
     "station_id": "tokyo_0184",
@@ -2469,15 +2377,11 @@
   },
   {
     "station_id": "tokyo_0234",
-    "station_name": "富士見ヶ丘",
+    "station_name": "富士見ケ丘",
     "prefecture": "東京都",
     "line_name": "京王井の頭線",
     "lat": 35.684805,
-    "lon": 139.607072,
-    "station_passenger_log": 9.439545514668987,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.607072
   },
   {
     "station_id": "tokyo_0614",
@@ -2553,27 +2457,19 @@
   },
   {
     "station_id": "tokyo_0569",
-    "station_name": "小川",
+    "station_name": "小川(東京)",
     "prefecture": "東京都",
     "line_name": "西武国分寺線",
     "lat": 35.737573,
-    "lon": 139.463493,
-    "station_passenger_log": 10.15673344766678,
-    "station_line_count": 2.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.463493
   },
   {
     "station_id": "tokyo_0684",
-    "station_name": "小川町",
+    "station_name": "小川町(東京)",
     "prefecture": "東京都",
     "line_name": "都営新宿線",
     "lat": 35.695487,
-    "lon": 139.767551,
-    "station_passenger_log": 11.144351435445811,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.767551
   },
   {
     "station_id": "tokyo_0583",
@@ -2673,27 +2569,19 @@
   },
   {
     "station_id": "tokyo_0485",
-    "station_name": "山下",
+    "station_name": "山下(東京)",
     "prefecture": "東京都",
     "line_name": "東急世田谷線",
     "lat": 35.653844,
-    "lon": 139.646509,
-    "station_passenger_log": 8.959954084268098,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.646509
   },
   {
     "station_id": "tokyo_0248",
-    "station_name": "山田",
+    "station_name": "山田(東京)",
     "prefecture": "東京都",
     "line_name": "京王高尾線",
     "lat": 35.644411,
-    "lon": 139.321082,
-    "station_passenger_log": 8.517793011488205,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.321082
   },
   {
     "station_id": "tokyo_0685",
@@ -2752,18 +2640,6 @@
     "lon": 139.735241
   },
   {
-    "station_id": "tokyo_0111",
-    "station_name": "市ヶ谷",
-    "prefecture": "東京都",
-    "line_name": "JR総武線",
-    "lat": 35.692594,
-    "lon": 139.735794,
-    "station_passenger_log": 11.75269798539986,
-    "station_line_count": 4.0,
-    "station_operator_count": 3.0,
-    "station_rank": "A"
-  },
-  {
     "station_id": "tokyo_0314",
     "station_name": "市場前",
     "prefecture": "東京都",
@@ -2789,39 +2665,27 @@
   },
   {
     "station_id": "tokyo_0222",
-    "station_name": "幡ヶ谷",
+    "station_name": "幡ケ谷",
     "prefecture": "東京都",
     "line_name": "京王新線",
     "lat": 35.677061,
-    "lon": 139.676183,
-    "station_passenger_log": 10.293534407915912,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.676183
   },
   {
     "station_id": "tokyo_0116",
-    "station_name": "平井",
+    "station_name": "平井(東京)",
     "prefecture": "東京都",
     "line_name": "JR総武線",
     "lat": 35.70643,
-    "lon": 139.842181,
-    "station_passenger_log": 11.001216117502114,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.842181
   },
   {
     "station_id": "tokyo_0416",
-    "station_name": "平和台",
+    "station_name": "平和台(東京)",
     "prefecture": "東京都",
     "line_name": "東京メトロ有楽町線",
     "lat": 35.757863,
-    "lon": 139.653762,
-    "station_passenger_log": 10.627891122746629,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.653762
   },
   {
     "station_id": "tokyo_0177",
@@ -2873,15 +2737,11 @@
   },
   {
     "station_id": "tokyo_0210",
-    "station_name": "府中",
+    "station_name": "府中(東京)",
     "prefecture": "東京都",
     "line_name": "京王線",
     "lat": 35.672245,
-    "lon": 139.4799,
-    "station_passenger_log": 11.286789942169964,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.4799
   },
   {
     "station_id": "tokyo_0072",
@@ -3029,15 +2889,11 @@
   },
   {
     "station_id": "tokyo_0567",
-    "station_name": "恋ヶ窪",
+    "station_name": "恋ケ窪",
     "prefecture": "東京都",
     "line_name": "西武国分寺線",
     "lat": 35.711385,
-    "lon": 139.463944,
-    "station_passenger_log": 9.402859753746585,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.463944
   },
   {
     "station_id": "tokyo_0079",
@@ -3293,15 +3149,11 @@
   },
   {
     "station_id": "tokyo_0430",
-    "station_name": "新富町",
+    "station_name": "新富町(東京)",
     "prefecture": "東京都",
     "line_name": "東京メトロ有楽町線",
     "lat": 35.670462,
-    "lon": 139.773711,
-    "station_passenger_log": 10.48315803683599,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.773711
   },
   {
     "station_id": "tokyo_0117",
@@ -3601,15 +3453,11 @@
   },
   {
     "station_id": "tokyo_0442",
-    "station_name": "日本橋",
+    "station_name": "日本橋(東京)",
     "prefecture": "東京都",
     "line_name": "東京メトロ東西線",
     "lat": 35.682078,
-    "lon": 139.773516,
-    "station_passenger_log": 12.002290447694584,
-    "station_line_count": 3.0,
-    "station_operator_count": 2.0,
-    "station_rank": "A"
+    "lon": 139.773516
   },
   {
     "station_id": "tokyo_0361",
@@ -3625,27 +3473,19 @@
   },
   {
     "station_id": "tokyo_0028",
-    "station_name": "日野",
+    "station_name": "日野(東京)",
     "prefecture": "東京都",
     "line_name": "JR中央線",
     "lat": 35.679244,
-    "lon": 139.39393,
-    "station_passenger_log": 10.710253554880849,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.39393
   },
   {
     "station_id": "tokyo_0437",
-    "station_name": "早稲田",
+    "station_name": "早稲田(メトロ)",
     "prefecture": "東京都",
     "line_name": "東京メトロ東西線",
     "lat": 35.705723,
-    "lon": 139.721319,
-    "station_passenger_log": 11.238685968214936,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.721319
   },
   {
     "station_id": "tokyo_0192",
@@ -3681,15 +3521,11 @@
   },
   {
     "station_id": "tokyo_0633",
-    "station_name": "春日",
+    "station_name": "春日(東京)",
     "prefecture": "東京都",
     "line_name": "都営三田線",
     "lat": 35.709598,
-    "lon": 139.75325,
-    "station_passenger_log": 11.117331476657329,
-    "station_line_count": 2.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.75325
   },
   {
     "station_id": "tokyo_0472",
@@ -3765,15 +3601,11 @@
   },
   {
     "station_id": "tokyo_0312",
-    "station_name": "有明",
+    "station_name": "有明(東京)",
     "prefecture": "東京都",
     "line_name": "新交通ゆりかもめ",
     "lat": 35.634596,
-    "lon": 139.793269,
-    "station_passenger_log": 9.131621787264775,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.793269
   },
   {
     "station_id": "tokyo_0313",
@@ -3813,15 +3645,11 @@
   },
   {
     "station_id": "tokyo_0455",
-    "station_name": "末広町",
+    "station_name": "末広町(東京)",
     "prefecture": "東京都",
     "line_name": "東京メトロ銀座線",
     "lat": 35.702972,
-    "lon": 139.771713,
-    "station_passenger_log": 10.11058301942873,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.771713
   },
   {
     "station_id": "tokyo_0708",
@@ -4233,15 +4061,11 @@
   },
   {
     "station_id": "tokyo_0317",
-    "station_name": "東雲",
+    "station_name": "東雲(東京)",
     "prefecture": "東京都",
     "line_name": "東京りんかい線",
     "lat": 35.640987,
-    "lon": 139.804395,
-    "station_passenger_log": 9.552439604462528,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.804395
   },
   {
     "station_id": "tokyo_0130",
@@ -4281,15 +4105,11 @@
   },
   {
     "station_id": "tokyo_0486",
-    "station_name": "松原",
+    "station_name": "松原(東京)",
     "prefecture": "東京都",
     "line_name": "東急世田谷線",
     "lat": 35.660048,
-    "lon": 139.642,
-    "station_passenger_log": 8.043663352393944,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.642
   },
   {
     "station_id": "tokyo_0481",
@@ -4377,15 +4197,11 @@
   },
   {
     "station_id": "tokyo_0723",
-    "station_name": "栄町",
+    "station_name": "栄町(東京)",
     "prefecture": "東京都",
     "line_name": "都電荒川線",
     "lat": 35.750909,
-    "lon": 139.742124,
-    "station_passenger_log": 6.672032945461067,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.742124
   },
   {
     "station_id": "tokyo_0356",
@@ -4413,15 +4229,11 @@
   },
   {
     "station_id": "tokyo_0612",
-    "station_name": "桜台",
+    "station_name": "桜台(東京)",
     "prefecture": "東京都",
     "line_name": "西武池袋線",
     "lat": 35.738797,
-    "lon": 139.662602,
-    "station_passenger_log": 9.595942850988097,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.662602
   },
   {
     "station_id": "tokyo_0529",
@@ -4461,27 +4273,19 @@
   },
   {
     "station_id": "tokyo_0287",
-    "station_name": "梅ヶ丘",
+    "station_name": "梅ケ丘",
     "prefecture": "東京都",
     "line_name": "小田急小田原線",
     "lat": 35.656024,
-    "lon": 139.653628,
-    "station_passenger_log": 10.347243454377017,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.653628
   },
   {
     "station_id": "tokyo_0179",
-    "station_name": "梅屋敷",
+    "station_name": "梅屋敷(東京)",
     "prefecture": "東京都",
     "line_name": "京浜急行本線",
     "lat": 35.566873,
-    "lon": 139.728266,
-    "station_passenger_log": 9.65726726989194,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.728266
   },
   {
     "station_id": "tokyo_0553",
@@ -4509,15 +4313,11 @@
   },
   {
     "station_id": "tokyo_0659",
-    "station_name": "森下",
+    "station_name": "森下(東京)",
     "prefecture": "東京都",
     "line_name": "都営大江戸線",
     "lat": 35.68796,
-    "lon": 139.797042,
-    "station_passenger_log": 11.159772881657789,
-    "station_line_count": 2.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.797042
   },
   {
     "station_id": "tokyo_0609",
@@ -4737,15 +4537,11 @@
   },
   {
     "station_id": "tokyo_0746",
-    "station_name": "江北",
+    "station_name": "江北(東京)",
     "prefecture": "東京都",
     "line_name": "日暮里・舎人ライナー",
     "lat": 35.774021,
-    "lon": 139.770306,
-    "station_passenger_log": 9.44359265743868,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.770306
   },
   {
     "station_id": "tokyo_0611",
@@ -4941,15 +4737,11 @@
   },
   {
     "station_id": "tokyo_0146",
-    "station_name": "浅草",
+    "station_name": "浅草(つくばＥＸＰ)",
     "prefecture": "東京都",
     "line_name": "つくばエクスプレス線",
     "lat": 35.713817,
-    "lon": 139.792389,
-    "station_passenger_log": 10.016860879703811,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.792389
   },
   {
     "station_id": "tokyo_0112",
@@ -5181,15 +4973,11 @@
   },
   {
     "station_id": "tokyo_0549",
-    "station_name": "牛田",
+    "station_name": "牛田(東京)",
     "prefecture": "東京都",
     "line_name": "東武伊勢崎線",
     "lat": 35.744555,
-    "lon": 139.811816,
-    "station_passenger_log": 9.9281801651265,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.811816
   },
   {
     "station_id": "tokyo_0652",
@@ -5325,15 +5113,11 @@
   },
   {
     "station_id": "tokyo_0458",
-    "station_name": "田原町",
+    "station_name": "田原町(東京)",
     "prefecture": "東京都",
     "line_name": "東京メトロ銀座線",
     "lat": 35.709897,
-    "lon": 139.790897,
-    "station_passenger_log": 10.413042369168672,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.790897
   },
   {
     "station_id": "tokyo_0512",
@@ -5361,15 +5145,11 @@
   },
   {
     "station_id": "tokyo_0054",
-    "station_name": "田町",
+    "station_name": "田町(東京)",
     "prefecture": "東京都",
     "line_name": "JR京浜東北線",
     "lat": 35.645737,
-    "lon": 139.747575,
-    "station_passenger_log": 12.383017272511305,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "A"
+    "lon": 139.747575
   },
   {
     "station_id": "tokyo_0044",
@@ -5457,15 +5237,11 @@
   },
   {
     "station_id": "tokyo_0634",
-    "station_name": "白山",
+    "station_name": "白山(東京)",
     "prefecture": "東京都",
     "line_name": "都営三田線",
     "lat": 35.721408,
-    "lon": 139.752136,
-    "station_passenger_log": 10.723905946624765,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.752136
   },
   {
     "station_id": "tokyo_0573",
@@ -5649,15 +5425,11 @@
   },
   {
     "station_id": "tokyo_0291",
-    "station_name": "祖師ヶ谷大蔵",
+    "station_name": "祖師ケ谷大蔵",
     "prefecture": "東京都",
     "line_name": "小田急小田原線",
     "lat": 35.643236,
-    "lon": 139.609659,
-    "station_passenger_log": 10.734939091973205,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.609659
   },
   {
     "station_id": "tokyo_0372",
@@ -5697,15 +5469,11 @@
   },
   {
     "station_id": "tokyo_0002",
-    "station_name": "神田",
+    "station_name": "神田(東京)",
     "prefecture": "東京都",
     "line_name": "JR中央線",
     "lat": 35.691173,
-    "lon": 139.770641,
-    "station_passenger_log": 12.076869017465611,
-    "station_line_count": 3.0,
-    "station_operator_count": 2.0,
-    "station_rank": "A"
+    "lon": 139.770641
   },
   {
     "station_id": "tokyo_0409",
@@ -5805,15 +5573,11 @@
   },
   {
     "station_id": "tokyo_0457",
-    "station_name": "稲荷町",
+    "station_name": "稲荷町(東京)",
     "prefecture": "東京都",
     "line_name": "東京メトロ銀座線",
     "lat": 35.711273,
-    "lon": 139.782593,
-    "station_passenger_log": 9.771897132148531,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.782593
   },
   {
     "station_id": "tokyo_0185",
@@ -5961,15 +5725,11 @@
   },
   {
     "station_id": "tokyo_0068",
-    "station_name": "箱根ヶ崎",
+    "station_name": "箱根ケ崎",
     "prefecture": "東京都",
     "line_name": "JR八高線",
     "lat": 35.771158,
-    "lon": 139.346805,
-    "station_passenger_log": 8.980801413573113,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.346805
   },
   {
     "station_id": "tokyo_0405",
@@ -6045,15 +5805,11 @@
   },
   {
     "station_id": "tokyo_0501",
-    "station_name": "緑が丘",
+    "station_name": "緑が丘(東京)",
     "prefecture": "東京都",
     "line_name": "東急大井町線",
     "lat": 35.60638,
-    "lon": 139.679482,
-    "station_passenger_log": 9.18881025342582,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.679482
   },
   {
     "station_id": "tokyo_0606",
@@ -6153,27 +5909,19 @@
   },
   {
     "station_id": "tokyo_0212",
-    "station_name": "聖蹟桜ヶ丘",
+    "station_name": "聖蹟桜ケ丘",
     "prefecture": "東京都",
     "line_name": "京王線",
     "lat": 35.650814,
-    "lon": 139.446979,
-    "station_passenger_log": 10.951209974200845,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.446979
   },
   {
     "station_id": "tokyo_0502",
-    "station_name": "自由が丘",
+    "station_name": "自由が丘(東京)",
     "prefecture": "東京都",
     "line_name": "東急大井町線",
     "lat": 35.607224,
-    "lon": 139.668664,
-    "station_passenger_log": 11.793733968478836,
-    "station_line_count": 2.0,
-    "station_operator_count": 1.0,
-    "station_rank": "A"
+    "lon": 139.668664
   },
   {
     "station_id": "tokyo_0750",
@@ -6273,15 +6021,11 @@
   },
   {
     "station_id": "tokyo_0480",
-    "station_name": "若林",
+    "station_name": "若林(東京)",
     "prefecture": "東京都",
     "line_name": "東急世田谷線",
     "lat": 35.645933,
-    "lon": 139.659911,
-    "station_passenger_log": 8.936824154997302,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.659911
   },
   {
     "station_id": "tokyo_0403",
@@ -6417,15 +6161,11 @@
   },
   {
     "station_id": "tokyo_0688",
-    "station_name": "菊川",
+    "station_name": "菊川(東京)",
     "prefecture": "東京都",
     "line_name": "都営新宿線",
     "lat": 35.688379,
-    "lon": 139.806016,
-    "station_passenger_log": 10.049361215025671,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.806016
   },
   {
     "station_id": "tokyo_0579",
@@ -6581,15 +6321,11 @@
   },
   {
     "station_id": "tokyo_0727",
-    "station_name": "西ヶ原四丁目",
+    "station_name": "西ケ原四丁目",
     "prefecture": "東京都",
     "line_name": "都電荒川線",
     "lat": 35.744501,
-    "lon": 139.732779,
-    "station_passenger_log": 7.830425617820331,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.732779
   },
   {
     "station_id": "tokyo_0031",
@@ -7049,15 +6785,11 @@
   },
   {
     "station_id": "tokyo_0362",
-    "station_name": "赤坂",
+    "station_name": "赤坂(東京)",
     "prefecture": "東京都",
     "line_name": "東京メトロ千代田線",
     "lat": 35.67323,
-    "lon": 139.738348,
-    "station_passenger_log": 11.214182445159022,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.738348
   },
   {
     "station_id": "tokyo_0339",
@@ -7193,15 +6925,11 @@
   },
   {
     "station_id": "tokyo_0734",
-    "station_name": "都電雑司ヶ谷",
+    "station_name": "都電雑司ケ谷",
     "prefecture": "東京都",
     "line_name": "都電荒川線",
     "lat": 35.724261,
-    "lon": 139.718006,
-    "station_passenger_log": 6.97354301952014,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.718006
   },
   {
     "station_id": "tokyo_0593",
@@ -7265,39 +6993,27 @@
   },
   {
     "station_id": "tokyo_0547",
-    "station_name": "鐘ヶ淵",
+    "station_name": "鐘ケ淵",
     "prefecture": "東京都",
     "line_name": "東武伊勢崎線",
     "lat": 35.733712,
-    "lon": 139.820344,
-    "station_passenger_log": 9.417191926513414,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.820344
   },
   {
     "station_id": "tokyo_0517",
-    "station_name": "長原",
+    "station_name": "長原(東京)",
     "prefecture": "東京都",
     "line_name": "東急池上線",
     "lat": 35.60219,
-    "lon": 139.697881,
-    "station_passenger_log": 9.57609397984812,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.697881
   },
   {
     "station_id": "tokyo_0217",
-    "station_name": "長沼",
+    "station_name": "長沼(東京)",
     "prefecture": "東京都",
     "line_name": "京王線",
     "lat": 35.642788,
-    "lon": 139.365849,
-    "station_passenger_log": 8.214194414852564,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.365849
   },
   {
     "station_id": "tokyo_0443",
@@ -7321,15 +7037,11 @@
   },
   {
     "station_id": "tokyo_0461",
-    "station_name": "雑司が谷",
+    "station_name": "雑司が谷(東京メトロ)",
     "prefecture": "東京都",
     "line_name": "東京メトロ副都心線",
     "lat": 35.720233,
-    "lon": 139.714795,
-    "station_passenger_log": 9.847816267665664,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.714795
   },
   {
     "station_id": "tokyo_0181",
@@ -7593,15 +7305,11 @@
   },
   {
     "station_id": "tokyo_0032",
-    "station_name": "高尾",
+    "station_name": "高尾(東京)",
     "prefecture": "東京都",
     "line_name": "JR中央線",
     "lat": 35.642026,
-    "lon": 139.282288,
-    "station_passenger_log": 10.815991122155705,
-    "station_line_count": 2.0,
-    "station_operator_count": 2.0,
-    "station_rank": "C"
+    "lon": 139.282288
   },
   {
     "station_id": "tokyo_0739",
@@ -7653,15 +7361,11 @@
   },
   {
     "station_id": "tokyo_0263",
-    "station_name": "高松",
+    "station_name": "高松(東京)",
     "prefecture": "東京都",
     "line_name": "多摩モノレール",
     "lat": 35.710158,
-    "lon": 139.413242,
-    "station_passenger_log": 8.848652886213905,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.413242
   },
   {
     "station_id": "tokyo_0091",
@@ -7701,15 +7405,11 @@
   },
   {
     "station_id": "tokyo_0745",
-    "station_name": "高野",
+    "station_name": "高野(東京)",
     "prefecture": "東京都",
     "line_name": "日暮里・舎人ライナー",
     "lat": 35.768359,
-    "lon": 139.770679,
-    "station_passenger_log": 8.733755131364893,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.770679
   },
   {
     "station_id": "tokyo_0735",

@@ -61,15 +61,11 @@
   },
   {
     "station_id": "kanagawa_0232",
-    "station_name": "こどもの国",
+    "station_name": "こどもの国(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "東急こどもの国線",
     "lat": 35.558035,
-    "lon": 139.486657,
-    "station_passenger_log": 9.181014542594356,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.486657
   },
   {
     "station_id": "kanagawa_0357",
@@ -169,15 +165,11 @@
   },
   {
     "station_id": "kanagawa_0318",
-    "station_name": "七里ヶ浜",
+    "station_name": "七里ケ浜",
     "prefecture": "神奈川県",
     "line_name": "江ノ島電鉄線",
     "lat": 35.306243,
-    "lon": 139.510101,
-    "station_passenger_log": 8.93260863037757,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.510101
   },
   {
     "station_id": "kanagawa_0353",
@@ -397,27 +389,19 @@
   },
   {
     "station_id": "kanagawa_0064",
-    "station_name": "中山",
+    "station_name": "中山(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "JR横浜線",
     "lat": 35.514745,
-    "lon": 139.539692,
-    "station_passenger_log": 11.223281469204906,
-    "station_line_count": 2.0,
-    "station_operator_count": 2.0,
-    "station_rank": "B"
+    "lon": 139.539692
   },
   {
     "station_id": "kanagawa_0296",
-    "station_name": "中川",
+    "station_name": "中川(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "横浜市ブルーライン",
     "lat": 35.562973,
-    "lon": 139.569846,
-    "station_passenger_log": 9.754987544217684,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.569846
   },
   {
     "station_id": "kanagawa_0372",
@@ -433,15 +417,11 @@
   },
   {
     "station_id": "kanagawa_0269",
-    "station_name": "中田",
+    "station_name": "中田(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "横浜市ブルーライン",
     "lat": 35.411161,
-    "lon": 139.511301,
-    "station_passenger_log": 9.728896041804084,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.511301
   },
   {
     "station_id": "kanagawa_0025",
@@ -541,15 +521,11 @@
   },
   {
     "station_id": "kanagawa_0143",
-    "station_name": "井土ヶ谷",
+    "station_name": "井土ケ谷",
     "prefecture": "神奈川県",
     "line_name": "京浜急行本線",
     "lat": 35.433895,
-    "lon": 139.60061,
-    "station_passenger_log": 10.19798385529558,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.60061
   },
   {
     "station_id": "kanagawa_0170",
@@ -721,15 +697,11 @@
   },
   {
     "station_id": "kanagawa_0074",
-    "station_name": "保土ヶ谷",
+    "station_name": "保土ケ谷",
     "prefecture": "神奈川県",
     "line_name": "JR横須賀線",
     "lat": 35.446746,
-    "lon": 139.599671,
-    "station_passenger_log": 10.954920878352576,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.599671
   },
   {
     "station_id": "kanagawa_0088",
@@ -781,15 +753,11 @@
   },
   {
     "station_id": "kanagawa_0093",
-    "station_name": "入谷",
+    "station_name": "入谷(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "JR相模線",
     "lat": 35.478478,
-    "lon": 139.391913,
-    "station_passenger_log": 0.0,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.391913
   },
   {
     "station_id": "kanagawa_0009",
@@ -877,15 +845,11 @@
   },
   {
     "station_id": "kanagawa_0380",
-    "station_name": "北山田",
+    "station_name": "北山田(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "グリーンライン",
     "lat": 35.561077,
-    "lon": 139.592258,
-    "station_passenger_log": 10.14112555000079,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.592258
   },
   {
     "station_id": "kanagawa_0291",
@@ -901,15 +865,11 @@
   },
   {
     "station_id": "kanagawa_0084",
-    "station_name": "北茅ヶ崎",
+    "station_name": "北茅ケ崎",
     "prefecture": "神奈川県",
     "line_name": "JR相模線",
     "lat": 35.339167,
-    "lon": 139.407569,
-    "station_passenger_log": 8.636752426473876,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.407569
   },
   {
     "station_id": "kanagawa_0076",
@@ -925,15 +885,11 @@
   },
   {
     "station_id": "kanagawa_0065",
-    "station_name": "十日市場",
+    "station_name": "十日市場(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "JR横浜線",
     "lat": 35.526254,
-    "lon": 139.51669,
-    "station_passenger_log": 10.519186573336931,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.51669
   },
   {
     "station_id": "kanagawa_0336",
@@ -1057,15 +1013,11 @@
   },
   {
     "station_id": "kanagawa_0189",
-    "station_name": "向ヶ丘遊園",
+    "station_name": "向ケ丘遊園",
     "prefecture": "神奈川県",
     "line_name": "小田急小田原線",
     "lat": 35.617273,
-    "lon": 139.564719,
-    "station_passenger_log": 10.91175564380625,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.564719
   },
   {
     "station_id": "kanagawa_0016",
@@ -1177,27 +1129,19 @@
   },
   {
     "station_id": "kanagawa_0176",
-    "station_name": "塚原",
+    "station_name": "塚原(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "伊豆箱根鉄道大雄山線",
     "lat": 35.301305,
-    "lon": 139.126632,
-    "station_passenger_log": 7.600902459542082,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.126632
   },
   {
     "station_id": "kanagawa_0238",
-    "station_name": "大倉山",
+    "station_name": "大倉山(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "東急東横線",
     "lat": 35.52243,
-    "lon": 139.629808,
-    "station_passenger_log": 10.791131865820162,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.629808
   },
   {
     "station_id": "kanagawa_0059",
@@ -1213,15 +1157,11 @@
   },
   {
     "station_id": "kanagawa_0218",
-    "station_name": "大和",
+    "station_name": "大和(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "小田急江ノ島線",
     "lat": 35.46965,
-    "lon": 139.461553,
-    "station_passenger_log": 11.613892342721352,
-    "station_line_count": 2.0,
-    "station_operator_count": 2.0,
-    "station_rank": "A"
+    "lon": 139.461553
   },
   {
     "station_id": "kanagawa_0180",
@@ -1449,15 +1389,11 @@
   },
   {
     "station_id": "kanagawa_0328",
-    "station_name": "富士見町",
+    "station_name": "富士見町(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "湘南モノレール",
     "lat": 35.345389,
-    "lon": 139.529277,
-    "station_passenger_log": 8.568646473005153,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.529277
   },
   {
     "station_id": "kanagawa_0210",
@@ -1701,15 +1637,11 @@
   },
   {
     "station_id": "kanagawa_0352",
-    "station_name": "希望ヶ丘",
+    "station_name": "希望ケ丘",
     "prefecture": "神奈川県",
     "line_name": "相模鉄道本線",
     "lat": 35.460399,
-    "lon": 139.5143,
-    "station_passenger_log": 10.336924443719042,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.5143
   },
   {
     "station_id": "kanagawa_0040",
@@ -1785,15 +1717,11 @@
   },
   {
     "station_id": "kanagawa_0144",
-    "station_name": "弘明寺",
+    "station_name": "弘明寺(京急)",
     "prefecture": "神奈川県",
     "line_name": "京浜急行本線",
     "lat": 35.42437,
-    "lon": 139.596791,
-    "station_passenger_log": 10.18990632736338,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.596791
   },
   {
     "station_id": "kanagawa_0338",
@@ -1977,15 +1905,11 @@
   },
   {
     "station_id": "kanagawa_0183",
-    "station_name": "新百合ヶ丘",
+    "station_name": "新百合ケ丘",
     "prefecture": "神奈川県",
     "line_name": "小田急多摩線",
     "lat": 35.603705,
-    "lon": 139.507608,
-    "station_passenger_log": 11.63471822868936,
-    "station_line_count": 2.0,
-    "station_operator_count": 1.0,
-    "station_rank": "A"
+    "lon": 139.507608
   },
   {
     "station_id": "kanagawa_0387",
@@ -2049,15 +1973,11 @@
   },
   {
     "station_id": "kanagawa_0236",
-    "station_name": "日吉",
+    "station_name": "日吉(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "東急東横線",
     "lat": 35.5539,
-    "lon": 139.646944,
-    "station_passenger_log": 12.51318595279107,
-    "station_line_count": 3.0,
-    "station_operator_count": 2.0,
-    "station_rank": "A"
+    "lon": 139.646944
   },
   {
     "station_id": "kanagawa_0383",
@@ -2109,15 +2029,11 @@
   },
   {
     "station_id": "kanagawa_0347",
-    "station_name": "星川",
+    "station_name": "星川(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "相模鉄道本線",
     "lat": 35.458634,
-    "lon": 139.594816,
-    "station_passenger_log": 10.292382802315128,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.594816
   },
   {
     "station_id": "kanagawa_0110",
@@ -2169,15 +2085,11 @@
   },
   {
     "station_id": "kanagawa_0147",
-    "station_name": "杉田",
+    "station_name": "杉田(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "京浜急行本線",
     "lat": 35.383796,
-    "lon": 139.615734,
-    "station_passenger_log": 10.338155412452387,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.615734
   },
   {
     "station_id": "kanagawa_0032",
@@ -2349,15 +2261,11 @@
   },
   {
     "station_id": "kanagawa_0053",
-    "station_name": "根岸",
+    "station_name": "根岸(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "JR根岸線",
     "lat": 35.415887,
-    "lon": 139.636034,
-    "station_passenger_log": 10.596709730283711,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.636034
   },
   {
     "station_id": "kanagawa_0046",
@@ -2373,15 +2281,11 @@
   },
   {
     "station_id": "kanagawa_0219",
-    "station_name": "桜ヶ丘",
+    "station_name": "桜ケ丘",
     "prefecture": "神奈川県",
     "line_name": "小田急江ノ島線",
     "lat": 35.450486,
-    "lon": 139.465734,
-    "station_passenger_log": 9.831937843696052,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.465734
   },
   {
     "station_id": "kanagawa_0049",
@@ -2457,15 +2361,11 @@
   },
   {
     "station_id": "kanagawa_0071",
-    "station_name": "橋本",
+    "station_name": "橋本(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "JR横浜線",
     "lat": 35.594975,
-    "lon": 139.344586,
-    "station_passenger_log": 11.688499307056802,
-    "station_line_count": 3.0,
-    "station_operator_count": 2.0,
-    "station_rank": "A"
+    "lon": 139.344586
   },
   {
     "station_id": "kanagawa_0018",
@@ -2553,15 +2453,11 @@
   },
   {
     "station_id": "kanagawa_0254",
-    "station_name": "江田",
+    "station_name": "江田(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "東急田園都市線",
     "lat": 35.558671,
-    "lon": 139.551518,
-    "station_passenger_log": 10.353097129628477,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.551518
   },
   {
     "station_id": "kanagawa_0056",
@@ -2877,15 +2773,11 @@
   },
   {
     "station_id": "kanagawa_0190",
-    "station_name": "生田",
+    "station_name": "生田(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "小田急小田原線",
     "lat": 35.614954,
-    "lon": 139.542024,
-    "station_passenger_log": 10.670837343628586,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.542024
   },
   {
     "station_id": "kanagawa_0132",
@@ -2937,27 +2829,19 @@
   },
   {
     "station_id": "kanagawa_0314",
-    "station_name": "由比ヶ浜",
+    "station_name": "由比ケ浜",
     "prefecture": "神奈川県",
     "line_name": "江ノ島電鉄線",
     "lat": 35.312857,
-    "lon": 139.54157,
-    "station_passenger_log": 7.734558844354756,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.54157
   },
   {
     "station_id": "kanagawa_0097",
-    "station_name": "番田",
+    "station_name": "番田(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "JR相模線",
     "lat": 35.545392,
-    "lon": 139.362988,
-    "station_passenger_log": 0.0,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.362988
   },
   {
     "station_id": "kanagawa_0024",
@@ -2985,15 +2869,11 @@
   },
   {
     "station_id": "kanagawa_0192",
-    "station_name": "百合ヶ丘",
+    "station_name": "百合ケ丘",
     "prefecture": "神奈川県",
     "line_name": "小田急小田原線",
     "lat": 35.60903,
-    "lon": 139.516121,
-    "station_passenger_log": 9.913586387213542,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.516121
   },
   {
     "station_id": "kanagawa_0333",
@@ -3261,15 +3141,11 @@
   },
   {
     "station_id": "kanagawa_0317",
-    "station_name": "稲村ヶ崎",
+    "station_name": "稲村ケ崎",
     "prefecture": "神奈川県",
     "line_name": "江ノ島電鉄線",
     "lat": 35.30426,
-    "lon": 139.522322,
-    "station_passenger_log": 8.279697133877628,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.522322
   },
   {
     "station_id": "kanagawa_0026",
@@ -3441,15 +3317,11 @@
   },
   {
     "station_id": "kanagawa_0039",
-    "station_name": "茅ヶ崎",
+    "station_name": "茅ケ崎",
     "prefecture": "神奈川県",
     "line_name": "JR東海道本線",
     "lat": 35.330741,
-    "lon": 139.407197,
-    "station_passenger_log": 11.54264930213645,
-    "station_line_count": 2.0,
-    "station_operator_count": 1.0,
-    "station_rank": "A"
+    "lon": 139.407197
   },
   {
     "station_id": "kanagawa_0060",
@@ -3477,15 +3349,11 @@
   },
   {
     "station_id": "kanagawa_0256",
-    "station_name": "藤が丘",
+    "station_name": "藤が丘(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "東急田園都市線",
     "lat": 35.543454,
-    "lon": 139.527655,
-    "station_passenger_log": 10.131738041218483,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.527655
   },
   {
     "station_id": "kanagawa_0037",
@@ -3609,15 +3477,11 @@
   },
   {
     "station_id": "kanagawa_0212",
-    "station_name": "足柄",
+    "station_name": "足柄(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "小田急小田原線",
     "lat": 35.271763,
-    "lon": 139.15447,
-    "station_passenger_log": 8.18088094199639,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.15447
   },
   {
     "station_id": "kanagawa_0270",
@@ -3801,15 +3665,11 @@
   },
   {
     "station_id": "kanagawa_0315",
-    "station_name": "長谷",
+    "station_name": "長谷(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "江ノ島電鉄線",
     "lat": 35.311265,
-    "lon": 139.536168,
-    "station_passenger_log": 9.145481799627689,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.536168
   },
   {
     "station_id": "kanagawa_0089",
@@ -3909,15 +3769,11 @@
   },
   {
     "station_id": "kanagawa_0085",
-    "station_name": "香川",
+    "station_name": "香川(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "JR相模線",
     "lat": 35.35655,
-    "lon": 139.400044,
-    "station_passenger_log": 9.325720523016257,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.400044
   },
   {
     "station_id": "kanagawa_0160",
@@ -3969,27 +3825,19 @@
   },
   {
     "station_id": "kanagawa_0246",
-    "station_name": "高津",
+    "station_name": "高津(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "東急田園都市線",
     "lat": 35.603248,
-    "lon": 139.616934,
-    "station_passenger_log": 10.22875438531518,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.616934
   },
   {
     "station_id": "kanagawa_0382",
-    "station_name": "高田",
+    "station_name": "高田(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "グリーンライン",
     "lat": 35.549713,
-    "lon": 139.619944,
-    "station_passenger_log": 9.64930472862475,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.619944
   },
   {
     "station_id": "kanagawa_0300",
@@ -4053,15 +3901,11 @@
   },
   {
     "station_id": "kanagawa_0351",
-    "station_name": "鶴ヶ峰",
+    "station_name": "鶴ケ峰",
     "prefecture": "神奈川県",
     "line_name": "相模鉄道本線",
     "lat": 35.475031,
-    "lon": 139.549586,
-    "station_passenger_log": 10.905845882847675,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "B"
+    "lon": 139.549586
   },
   {
     "station_id": "kanagawa_0203",
@@ -4161,14 +4005,10 @@
   },
   {
     "station_id": "kanagawa_0186",
-    "station_name": "黒川",
+    "station_name": "黒川(神奈川)",
     "prefecture": "神奈川県",
     "line_name": "小田急多摩線",
     "lat": 35.613203,
-    "lon": 139.470731,
-    "station_passenger_log": 9.063694791634695,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.470731
   }
 ]

@@ -157,15 +157,11 @@
   },
   {
     "station_id": "saitama_0061",
-    "station_name": "三郷",
+    "station_name": "三郷(埼玉)",
     "prefecture": "埼玉県",
     "line_name": "JR武蔵野線",
     "lat": 35.845004,
-    "lon": 139.886341,
-    "station_passenger_log": 10.156539359589004,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.886341
   },
   {
     "station_id": "saitama_0078",
@@ -277,15 +273,11 @@
   },
   {
     "station_id": "saitama_0088",
-    "station_name": "丸山",
+    "station_name": "丸山(埼玉)",
     "prefecture": "埼玉県",
     "line_name": "埼玉新都市交通伊奈線",
     "lat": 35.97989,
-    "lon": 139.624711,
-    "station_passenger_log": 8.156797046675651,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.624711
   },
   {
     "station_id": "saitama_0023",
@@ -637,15 +629,11 @@
   },
   {
     "station_id": "saitama_0171",
-    "station_name": "南桜井",
+    "station_name": "南桜井(埼玉)",
     "prefecture": "埼玉県",
     "line_name": "東武野田線",
     "lat": 35.980441,
-    "lon": 139.807988,
-    "station_passenger_log": 9.490544554572004,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.807988
   },
   {
     "station_id": "saitama_0006",
@@ -685,15 +673,11 @@
   },
   {
     "station_id": "saitama_0094",
-    "station_name": "南鳩ヶ谷",
+    "station_name": "南鳩ケ谷",
     "prefecture": "埼玉県",
     "line_name": "埼玉高速鉄道",
     "lat": 35.816839,
-    "lon": 139.736059,
-    "station_passenger_log": 9.66147968357552,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.736059
   },
   {
     "station_id": "saitama_0086",
@@ -745,15 +729,11 @@
   },
   {
     "station_id": "saitama_0069",
-    "station_name": "吹上",
+    "station_name": "吹上(埼玉)",
     "prefecture": "埼玉県",
     "line_name": "JR高崎線",
     "lat": 36.103062,
-    "lon": 139.45312,
-    "station_passenger_log": 9.65290856803585,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.45312
   },
   {
     "station_id": "saitama_0230",
@@ -817,39 +797,27 @@
   },
   {
     "station_id": "saitama_0142",
-    "station_name": "坂戸",
+    "station_name": "坂戸(埼玉)",
     "prefecture": "埼玉県",
     "line_name": "東武東上本線",
     "lat": 35.957181,
-    "lon": 139.394032,
-    "station_passenger_log": 10.21563050341292,
-    "station_line_count": 2.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.394032
   },
   {
     "station_id": "saitama_0164",
-    "station_name": "大和田",
+    "station_name": "大和田(埼玉)",
     "prefecture": "埼玉県",
     "line_name": "東武野田線",
     "lat": 35.929359,
-    "lon": 139.65051,
-    "station_passenger_log": 9.82946419218734,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "D"
+    "lon": 139.65051
   },
   {
     "station_id": "saitama_0001",
-    "station_name": "大宮",
+    "station_name": "大宮(埼玉)",
     "prefecture": "埼玉県",
     "line_name": "JR京浜東北線",
     "lat": 35.906439,
-    "lon": 139.62405,
-    "station_passenger_log": 13.099682090741169,
-    "station_line_count": 7.0,
-    "station_operator_count": 3.0,
-    "station_rank": "A"
+    "lon": 139.62405
   },
   {
     "station_id": "saitama_0163",
@@ -949,15 +917,11 @@
   },
   {
     "station_id": "saitama_0016",
-    "station_name": "小川町",
+    "station_name": "小川町(埼玉)",
     "prefecture": "埼玉県",
     "line_name": "JR八高線",
     "lat": 36.05903,
-    "lon": 139.260412,
-    "station_passenger_log": 9.0953783535065,
-    "station_line_count": 2.0,
-    "station_operator_count": 2.0,
-    "station_rank": "D"
+    "lon": 139.260412
   },
   {
     "station_id": "saitama_0219",
@@ -1129,15 +1093,11 @@
   },
   {
     "station_id": "saitama_0025",
-    "station_name": "戸田",
+    "station_name": "戸田(埼玉)",
     "prefecture": "埼玉県",
     "line_name": "JR埼京線",
     "lat": 35.817665,
-    "lon": 139.669548,
-    "station_passenger_log": 10.615775376623455,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.669548
   },
   {
     "station_id": "saitama_0024",
@@ -1285,15 +1245,11 @@
   },
   {
     "station_id": "saitama_0104",
-    "station_name": "新田",
+    "station_name": "新田(埼玉)",
     "prefecture": "埼玉県",
     "line_name": "東武伊勢崎線",
     "lat": 35.854086,
-    "lon": 139.795391,
-    "station_passenger_log": 10.258781543397928,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.795391
   },
   {
     "station_id": "saitama_0036",
@@ -1333,15 +1289,11 @@
   },
   {
     "station_id": "saitama_0040",
-    "station_name": "日進",
+    "station_name": "日進(埼玉)",
     "prefecture": "埼玉県",
     "line_name": "JR川越線",
     "lat": 35.931555,
-    "lon": 139.606111,
-    "station_passenger_log": 10.10834492616302,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.606111
   },
   {
     "station_id": "saitama_0184",
@@ -1993,15 +1945,11 @@
   },
   {
     "station_id": "saitama_0220",
-    "station_name": "狭山ヶ丘",
+    "station_name": "狭山ケ丘",
     "prefecture": "埼玉県",
     "line_name": "西武池袋線",
     "lat": 35.810445,
-    "lon": 139.416975,
-    "station_passenger_log": 10.00550247794286,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.416975
   },
   {
     "station_id": "saitama_0214",
@@ -2113,15 +2061,11 @@
   },
   {
     "station_id": "saitama_0181",
-    "station_name": "石原",
+    "station_name": "石原(埼玉)",
     "prefecture": "埼玉県",
     "line_name": "秩父本線",
     "lat": 36.147612,
-    "lon": 139.368901,
-    "station_passenger_log": 7.00397413672268,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "E"
+    "lon": 139.368901
   },
   {
     "station_id": "saitama_0076",
@@ -2617,15 +2561,11 @@
   },
   {
     "station_id": "saitama_0139",
-    "station_name": "霞ヶ関",
+    "station_name": "霞ケ関(埼玉)",
     "prefecture": "埼玉県",
     "line_name": "東武東上本線",
     "lat": 35.925635,
-    "lon": 139.442897,
-    "station_passenger_log": 10.128229825214037,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.442897
   },
   {
     "station_id": "saitama_0226",
@@ -2677,15 +2617,11 @@
   },
   {
     "station_id": "saitama_0095",
-    "station_name": "鳩ヶ谷",
+    "station_name": "鳩ケ谷",
     "prefecture": "埼玉県",
     "line_name": "埼玉高速鉄道",
     "lat": 35.830859,
-    "lon": 139.735967,
-    "station_passenger_log": 10.012386799492118,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.735967
   },
   {
     "station_id": "saitama_0067",
@@ -2701,15 +2637,11 @@
   },
   {
     "station_id": "saitama_0140",
-    "station_name": "鶴ヶ島",
+    "station_name": "鶴ケ島",
     "prefecture": "埼玉県",
     "line_name": "東武東上本線",
     "lat": 35.936771,
-    "lon": 139.423825,
-    "station_passenger_log": 10.300080082140694,
-    "station_line_count": 1.0,
-    "station_operator_count": 1.0,
-    "station_rank": "C"
+    "lon": 139.423825
   },
   {
     "station_id": "saitama_0134",
