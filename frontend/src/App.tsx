@@ -4,7 +4,6 @@ import { HazardRiskCard } from "./features/hazard/HazardRiskCard";
 import { PropertyMap } from "./features/map/PropertyMap";
 import {
   getModelManager,
-  interruptModelPrefetch,
   markModelManagerUsed,
   prefetchCapitalRegionModels
 } from "./features/model/modelManagerFactory";
@@ -21,10 +20,10 @@ import {
   type PredictionSummary
 } from "./features/prediction/PredictionResultView";
 import { SupportingInfoTabs } from "./features/prediction/SupportingInfoTabs";
+import { usePropertySelection } from "./features/prediction/usePropertySelection";
 import { StationScaleCard } from "./features/stations/StationScaleCard";
 import { buildStationScaleRequestFields } from "./features/stations/stationScale";
-import { reverseGeocode } from "./services/geocodingService";
-import { distanceKmToWalkingMinutes, findNearestStation, loadStations } from "./services/stationService";
+import { loadStations } from "./services/stationService";
 import type {
   CommercialFacilitySummary,
   ModelMetadata,
@@ -53,13 +52,6 @@ const initialForm: PredictionFormState = {
 };
 
 const RECENT_HISTORY_START_YEAR = 2020;
-const MAX_SUPPORTED_STATION_DISTANCE_KM = 30;
-const MAP_SELECTION_SCROLL_DELAY_MS = 2000;
-const UNSUPPORTED_MAP_SELECTION_MESSAGE =
-  "対応エリア外です。離島・海上などは現在対応していません。対応地域内の駅に近い地点を選択してください";
-type MapSelectOptions = {
-  mapMoveDurationMs?: number;
-};
 
 export function App() {
   const [form, setForm] = useState<PredictionFormState>(initialForm);
@@ -79,15 +71,9 @@ export function App() {
   const [metadata, setMetadata] = useState<ModelMetadata | null>(null);
   const [isModelReady, setIsModelReady] = useState(false);
   const [isPredicting, setIsPredicting] = useState(false);
-  const [isSelectionSupported, setIsSelectionSupported] = useState(true);
-  const [stationDistanceSource, setStationDistanceSource] = useState<"map" | "manual">("manual");
   const [formSheetState, setFormSheetState] = useState<"collapsed" | "half" | "open">("collapsed");
   const [errorMessage, setErrorMessage] = useState("");
   const activeStationRegionRef = useRef<StationRegion | null>(null);
-  const formPanelRef = useRef<HTMLElement | null>(null);
-  const sheetStackRef = useRef<HTMLDivElement | null>(null);
-  const scrollAnimationRef = useRef<number | null>(null);
-  const mapSelectionScrollTimerRef = useRef<number | null>(null);
 
   const region = useMemo(() => getRegionFromPrefecture(form.prefecture), [form.prefecture]);
   const stationRegion = useMemo(
@@ -176,14 +162,6 @@ export function App() {
   }, [form.prefecture, region, stationRegion]);
 
   useEffect(() => {
-    return () => {
-      if (mapSelectionScrollTimerRef.current !== null) {
-        window.clearTimeout(mapSelectionScrollTimerRef.current);
-      }
-    };
-  }, []);
-
-  useEffect(() => {
     let disposed = false;
     fetchJson<CommercialFacilitySummary>("./facilities/commercial_facilities.json")
       .then((summary) => {
@@ -230,143 +208,28 @@ export function App() {
     setIsArchiveLoaded(false);
   }
 
-  async function loadStationCandidates(targetRegion: StationRegion) {
-    return loadStations(targetRegion);
-  }
-
   function clearPredictionState() {
     setResult(null);
     setForecastPoints([]);
     setHistoryModelAnchor(null);
   }
 
-  function rejectMapSelection(message = UNSUPPORTED_MAP_SELECTION_MESSAGE) {
-    setIsSelectionSupported(false);
-    setStationDistanceSource("manual");
-    clearPredictionState();
-    setErrorMessage(message);
-  }
-
-  function scrollToFormAfterMapSelection(delayMs = MAP_SELECTION_SCROLL_DELAY_MS) {
-    if (mapSelectionScrollTimerRef.current !== null) {
-      window.clearTimeout(mapSelectionScrollTimerRef.current);
-    }
-
-    mapSelectionScrollTimerRef.current = window.setTimeout(() => {
-      mapSelectionScrollTimerRef.current = null;
-      setFormSheetState("half");
-      window.requestAnimationFrame(() => {
-        if (window.matchMedia("(max-width: 760px)").matches) {
-          sheetStackRef.current?.scrollTo({ top: 0, behavior: "smooth" });
-          return;
-        }
-        if (formPanelRef.current) {
-          animateScrollToElement(formPanelRef.current, scrollAnimationRef);
-        }
-      });
-    }, delayMs);
-  }
-
-  function clearPendingMapSelectionTimers() {
-    if (mapSelectionScrollTimerRef.current !== null) {
-      window.clearTimeout(mapSelectionScrollTimerRef.current);
-      mapSelectionScrollTimerRef.current = null;
-    }
-  }
-
-  function applyMapSelection({
-    geocode,
-    lat,
-    lon,
-    nearest,
-    nextPrefecture,
-    targetStations,
-    nextRegion,
-    scrollDelayMs
-  }: {
-    geocode: { municipality: string };
-    lat: number;
-    lon: number;
-    nearest: { station: StationRecord; distanceKm: number };
-    nextPrefecture: string;
-    targetStations: StationRecord[];
-    nextRegion: string | null;
-    scrollDelayMs: number;
-  }) {
-    if (nextRegion && nextRegion !== region) {
-      setStations(targetStations);
-    }
-
-    setIsSelectionSupported(true);
-    setStationDistanceSource("map");
-    setForm((current) => ({
-      ...current,
-      prefecture: nextPrefecture || current.prefecture,
-      municipality: geocode.municipality || current.municipality,
-      station: nearest.station.station_name,
-      stationDistance: distanceKmToWalkingMinutes(nearest.distanceKm),
-      lat,
-      lon
-    }));
-    scrollToFormAfterMapSelection(scrollDelayMs);
-  }
-
-  async function handleMapSelect(lat: number, lon: number, options: MapSelectOptions = {}) {
-    const selectionStartedAt = window.performance.now();
-    interruptModelPrefetch();
-    clearPendingMapSelectionTimers();
-    setIsSelectionSupported(false);
-    clearPredictionState();
-    setErrorMessage("");
-
-    if (!isLikelyJapanCoordinate(lat, lon)) {
-      rejectMapSelection();
-      return;
-    }
-
-    setForm((current) => ({ ...current, lat, lon }));
-
-    try {
-      const geocode = await reverseGeocode(lat, lon).catch(() => ({ prefecture: "", municipality: "" }));
-      const geocodedRegion = getRegionFromPrefecture(geocode.prefecture);
-      const geocodedStationRegion = getStationRegionFromPrefecture(geocode.prefecture);
-
-      if (
-        !geocode.prefecture ||
-        !geocodedRegion ||
-        !geocodedStationRegion
-      ) {
-        rejectMapSelection();
-        return;
-      }
-
-      const targetStations = await loadStationCandidates(geocodedStationRegion);
-      const nearest = findNearestStation(targetStations, lat, lon);
-      const allowOkinawaMainIsland = geocode.prefecture === "沖縄県" && isOkinawaMainIsland(lat, lon);
-      if (!nearest || (!allowOkinawaMainIsland && nearest.distanceKm > MAX_SUPPORTED_STATION_DISTANCE_KM)) {
-        rejectMapSelection();
-        return;
-      }
-
-      const nextPrefecture = geocode.prefecture;
-      const nextRegion = getRegionFromPrefecture(nextPrefecture) ?? region;
-      const elapsedMs = window.performance.now() - selectionStartedAt;
-      const remainingMapMoveMs = Math.max(0, (options.mapMoveDurationMs ?? 0) - elapsedMs);
-      const scrollDelayMs = remainingMapMoveMs + MAP_SELECTION_SCROLL_DELAY_MS;
-      applyMapSelection({
-        geocode,
-        lat,
-        lon,
-        nearest,
-        nextPrefecture,
-        targetStations,
-        nextRegion,
-        scrollDelayMs
-      });
-    } catch {
-      rejectMapSelection("地域または駅情報の取得に失敗しました。別の地点を選択してください");
-    }
-  }
+  const {
+    formPanelRef,
+    handleFormChange,
+    handleMapSelect,
+    isSelectionSupported,
+    sheetStackRef,
+    stationDistanceSource
+  } = usePropertySelection({
+    form,
+    setForm,
+    region,
+    setStations,
+    clearPredictionState,
+    setErrorMessage,
+    setFormSheetState
+  });
 
   useEffect(() => {
     if (!region) {
@@ -429,28 +292,6 @@ export function App() {
       window.clearTimeout(timer);
     };
   }, [form, futureScenario, history, isModelReady, isSelectionSupported, region, trendSummary]);
-
-  function handleFormChange(nextForm: PredictionFormState) {
-    if (nextForm.prefecture !== form.prefecture) {
-      setResult(null);
-      setForecastPoints([]);
-      setHistoryModelAnchor(null);
-      setStationDistanceSource("manual");
-      setForm({
-        ...nextForm,
-        municipality: "",
-        station: "",
-        lat: null,
-        lon: null
-      });
-      return;
-    }
-    if (nextForm.stationDistance !== form.stationDistance) {
-      setStationDistanceSource("manual");
-    }
-    setIsSelectionSupported(true);
-    setForm(nextForm);
-  }
 
   const stationOptions = stations.map((station) => station.station_name);
   const selectedStation = stations.find((station) => station.station_name === form.station);
@@ -591,43 +432,6 @@ export function App() {
   );
 }
 
-function animateScrollToElement(
-  element: HTMLElement,
-  animationRef: { current: number | null }
-) {
-  if (animationRef.current !== null) {
-    window.cancelAnimationFrame(animationRef.current);
-  }
-
-  const startY = window.scrollY;
-  const targetY = startY + element.getBoundingClientRect().top;
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    window.scrollTo(0, targetY);
-    animationRef.current = null;
-    return;
-  }
-
-  const distance = targetY - startY;
-  const duration = 1000;
-  const startTime = performance.now();
-
-  function step(now: number) {
-    const progress = Math.min(1, (now - startTime) / duration);
-    const eased =
-      progress < 0.5
-        ? 4 * progress * progress * progress
-        : 1 - Math.pow(-2 * progress + 2, 3) / 2;
-    window.scrollTo(0, startY + distance * eased);
-    if (progress < 1) {
-      animationRef.current = window.requestAnimationFrame(step);
-    } else {
-      animationRef.current = null;
-    }
-  }
-
-  animationRef.current = window.requestAnimationFrame(step);
-}
-
 function buildChartPoints(
   history: PriceHistoryPoint[],
   forecastPoints: PriceHistoryPoint[],
@@ -747,14 +551,6 @@ function findNearbyStationNames(stations: StationRecord[], targetStation: string
     .sort((left, right) => left[1] - right[1])
     .slice(0, 12)
     .map(([station]) => station);
-}
-
-function isOkinawaMainIsland(lat: number, lon: number) {
-  return lat >= 26.0 && lat <= 26.95 && lon >= 127.55 && lon <= 128.4;
-}
-
-function isLikelyJapanCoordinate(lat: number, lon: number) {
-  return lat >= 20.0 && lat <= 46.5 && lon >= 122.0 && lon <= 154.0;
 }
 
 function aggregateMarketByYear(points: PriceHistoryPoint[]) {
