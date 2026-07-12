@@ -1,4 +1,4 @@
-import { Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { Legend, Line, LineChart, ReferenceDot, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import type { PriceHistoryPoint } from "../../types/assets";
 
 const ARCHIVE_END_YEAR = 2019;
@@ -24,6 +24,12 @@ export function PriceHistoryChart({
   const chartData = buildChartData(points);
   const earliestYear = chartData.at(0)?.year ?? RECENT_HISTORY_START_YEAR;
   const xAxisStart = Math.min(earliestYear, RECENT_HISTORY_START_YEAR);
+  const estimatedDots = chartData.filter(
+    (point) => point.estimated_price !== null && point.actual_price === null
+  );
+  const forecastDots = chartData.filter(
+    (point) => point.forecast_price !== null && !point.forecast_anchor
+  );
 
   return (
     <section className="panel chart-panel" data-testid="price-history-chart">
@@ -87,28 +93,7 @@ export function PriceHistoryChart({
                   stroke="#0f766e"
                   strokeWidth={2}
                   strokeDasharray="3 4"
-                  dot={(props) =>
-                    props.value == null || props.payload?.actual_price !== null ? (
-                      <circle
-                        key={`estimated-hidden-${props.payload?.year ?? props.index}`}
-                        cx={props.cx}
-                        cy={props.cy}
-                        r={0}
-                        fill="transparent"
-                        opacity={0}
-                      />
-                    ) : (
-                      <circle
-                        key={`estimated-${props.payload?.year ?? props.index}`}
-                        cx={props.cx}
-                        cy={props.cy}
-                        r={2.5}
-                        fill="#fff"
-                        stroke="#0f766e"
-                        strokeWidth={2}
-                      />
-                    )
-                  }
+                  dot={false}
                   connectNulls
                 />
                 <Line
@@ -118,30 +103,33 @@ export function PriceHistoryChart({
                   stroke="#d97706"
                   strokeWidth={2}
                   strokeDasharray="6 5"
-                  dot={(props) =>
-                    props.value == null || props.payload?.forecast_anchor ? (
-                      <circle
-                        key={`forecast-hidden-${props.payload?.year ?? props.index}`}
-                        cx={props.cx}
-                        cy={props.cy}
-                        r={0}
-                        fill="transparent"
-                        opacity={0}
-                      />
-                    ) : (
-                      <circle
-                        key={`forecast-${props.payload?.year ?? props.index}`}
-                        cx={props.cx}
-                        cy={props.cy}
-                        r={3}
-                        fill="#fff"
-                        stroke="#d97706"
-                        strokeWidth={2}
-                      />
-                    )
-                  }
+                  dot={false}
                   connectNulls
                 />
+                {estimatedDots.map((point) => (
+                  <ReferenceDot
+                    key={`estimated-dot-${point.year}`}
+                    x={point.year}
+                    y={point.estimated_price ?? 0}
+                    r={2.5}
+                    fill="#fff"
+                    stroke="#0f766e"
+                    strokeWidth={2}
+                    ifOverflow="discard"
+                  />
+                ))}
+                {forecastDots.map((point) => (
+                  <ReferenceDot
+                    key={`forecast-dot-${point.year}`}
+                    x={point.year}
+                    y={point.forecast_price ?? 0}
+                    r={3}
+                    fill="#fff"
+                    stroke="#d97706"
+                    strokeWidth={2}
+                    ifOverflow="discard"
+                  />
+                ))}
               </LineChart>
             </ResponsiveContainer>
           </div>
