@@ -24,7 +24,7 @@ SRC_ROOT = Path(__file__).resolve().parents[1]
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from collect.mlit import REINFOLIB_API_KEY_ENV  # noqa: E402
+from collect.reinfolib import REINFOLIB_API_KEY_ENV  # noqa: E402
 
 ENDPOINT = "https://www.reinfolib.mlit.go.jp/ex-api/external/XKT015"
 SCHEMA_VERSION = "1.0.0"

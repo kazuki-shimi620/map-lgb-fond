@@ -14,6 +14,7 @@ SRC_ROOT = Path(__file__).resolve().parents[1]
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
+from collect.reinfolib import REINFOLIB_API_KEY_ENV  # noqa: E402
 from features.hazards import (  # noqa: E402
     landslide_zone_to_features,
     parse_depth_range,
@@ -55,7 +56,7 @@ def collect_hazards(
     url: str | None,
     output_dir: Path = DEFAULT_OUTPUT_DIR,
     raw_dir: Path = DEFAULT_RAW_DIR,
-    api_key_env: str = "REINFOLIB_API_KEY",
+    api_key_env: str = REINFOLIB_API_KEY_ENV,
 ) -> dict[str, Path]:
     if not input_path and not url:
         raise HazardCollectError("--input or --url is required")
@@ -242,7 +243,7 @@ def main() -> int:
     parser.add_argument("--url")
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--raw-dir", type=Path, default=DEFAULT_RAW_DIR)
-    parser.add_argument("--api-key-env", default="REINFOLIB_API_KEY")
+    parser.add_argument("--api-key-env", default=REINFOLIB_API_KEY_ENV)
     args = parser.parse_args()
 
     outputs = collect_hazards(
