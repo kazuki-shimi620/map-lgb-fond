@@ -165,10 +165,10 @@ collect: collect-property
 collect-all: collect-property-all
 
 collect-legacy-api:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/collect.py --region $(REGION) --year $(YEAR) --output-dir data/raw
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/legacy/collect.py --region $(REGION) --year $(YEAR) --output-dir data/raw
 
 collect-legacy-api-all:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/collect.py --region $(REGIONS) --year $(YEARS) --output-dir data/raw
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/legacy/collect.py --region $(REGIONS) --year $(YEARS) --output-dir data/raw
 
 collect-property: download-csv
 

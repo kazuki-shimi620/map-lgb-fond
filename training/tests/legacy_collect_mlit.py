@@ -4,7 +4,7 @@ import json
 
 import pytest
 
-from collect import mlit
+from collect.legacy import mlit
 
 
 def test_collect_requires_api_key(monkeypatch, tmp_path) -> None:
