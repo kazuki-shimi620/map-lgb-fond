@@ -14,6 +14,7 @@ export type ModelMetadata = {
   mae: number;
   latestTrainingYear: number;
   featureOrder: string[];
+  featureDefaults?: Record<string, number>;
   generatedAt?: string;
   evaluation?: {
     split: string;

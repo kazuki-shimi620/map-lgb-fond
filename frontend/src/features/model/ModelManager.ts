@@ -141,6 +141,10 @@ export class ModelManager {
       const encodedKey = FEATURE_ALIASES[featureName] ?? (featureName as keyof EncodedPredictionRequest);
       const value = encoded[encodedKey];
       if (typeof value !== "number") {
+        const defaultValue = this.metadata?.featureDefaults?.[featureName];
+        if (typeof defaultValue === "number") {
+          return defaultValue;
+        }
         throw new Error(`未対応の特徴量です: ${featureName}`);
       }
       return value;

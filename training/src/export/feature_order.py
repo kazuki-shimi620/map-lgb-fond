@@ -66,7 +66,13 @@ def main() -> int:
 
 def validate_metadata_feature_order(path: Path) -> list[str]:
     metadata = json.loads(path.read_text(encoding="utf-8"))
-    return validate_feature_names(path, metadata.get("featureOrder", []))
+    errors = validate_feature_names(
+        path,
+        metadata.get("featureOrder", []),
+        metadata.get("featureDefaults", {}),
+    )
+    errors.extend(validate_feature_defaults(path, metadata.get("featureDefaults", {})))
+    return errors
 
 
 def validate_config_features(path: Path) -> list[str]:
@@ -83,8 +89,10 @@ def validate_frontend_artifact_contract(
     metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
     categories = json.loads(categories_path.read_text(encoding="utf-8"))
     feature_order = metadata.get("featureOrder", [])
+    feature_defaults = metadata.get("featureDefaults", {})
 
-    errors.extend(validate_feature_names(metadata_path, feature_order))
+    errors.extend(validate_feature_names(metadata_path, feature_order, feature_defaults))
+    errors.extend(validate_feature_defaults(metadata_path, feature_defaults))
     errors.extend(validate_category_dictionary(categories_path, feature_order, categories))
 
     input_dimension = read_onnx_feature_dimension(model_path)
@@ -118,6 +126,18 @@ def validate_category_dictionary(
     return errors
 
 
+def validate_feature_defaults(path: Path, feature_defaults: dict) -> list[str]:
+    errors = []
+    if not isinstance(feature_defaults, dict):
+        return [f"{path}: featureDefaults must be an object"]
+    for feature_name, value in feature_defaults.items():
+        if not isinstance(feature_name, str):
+            errors.append(f"{path}: featureDefaults keys must be strings")
+        if not isinstance(value, (int, float)) or isinstance(value, bool):
+            errors.append(f"{path}: featureDefaults.{feature_name} must be numeric")
+    return errors
+
+
 def read_onnx_feature_dimension(path: Path) -> int:
     onnx = importlib.import_module("onnx")
     model = onnx.load(path)
@@ -129,8 +149,19 @@ def read_onnx_feature_dimension(path: Path) -> int:
     return shape.dim[1].dim_value
 
 
-def validate_feature_names(path: Path, features: list[str]) -> list[str]:
-    unsupported = [feature for feature in features if feature not in FRONTEND_SUPPORTED_FEATURES]
+def validate_feature_names(
+    path: Path,
+    features: list[str],
+    feature_defaults: dict | None = None,
+) -> list[str]:
+    defaulted_features = (
+        set(feature_defaults.keys()) if isinstance(feature_defaults, dict) else set()
+    )
+    unsupported = [
+        feature
+        for feature in features
+        if feature not in FRONTEND_SUPPORTED_FEATURES and feature not in defaulted_features
+    ]
     if not unsupported:
         return []
     unsupported_list = ", ".join(unsupported)
