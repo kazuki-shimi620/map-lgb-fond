@@ -71,93 +71,97 @@ export function PredictionForm({
   }
 
   return (
-    <section
-      ref={formRef}
-      className={`panel form-panel form-grid sheet-${sheetState}`}
-      data-testid="prediction-form"
-    >
-      <SelectField
-        label="都道府県"
-        value={value.prefecture}
-        options={supportedPrefectures}
-        onChange={(nextValue) => update("prefecture", nextValue)}
-      />
-
-      <label>
-        市区町村
-        <input value={value.municipality} onChange={(event) => update("municipality", event.target.value)} />
-      </label>
-
-      <label>
-        最寄駅
-        <input list="station-suggestions" value={value.station} onChange={(event) => update("station", event.target.value)} />
-        <datalist id="station-suggestions">
-          {stationOptions.map((station) => (
-            <option key={station} value={station} />
-          ))}
-        </datalist>
-      </label>
-
-      <label>
-        面積
-        <input
-          type="number"
-          min="1"
-          value={value.area}
-          onChange={(event) => update("area", Number(event.target.value))}
+    <>
+      <section
+        ref={formRef}
+        className={`panel form-panel form-grid sheet-${sheetState}`}
+        data-testid="prediction-form"
+      >
+        <SelectField
+          label="都道府県"
+          value={value.prefecture}
+          options={supportedPrefectures}
+          onChange={(nextValue) => update("prefecture", nextValue)}
         />
-      </label>
 
-      <label>
-        築年数
-        <input
-          type="number"
-          min="0"
-          value={value.age}
-          onChange={(event) => update("age", Number(event.target.value))}
+        <label>
+          市区町村
+          <input value={value.municipality} onChange={(event) => update("municipality", event.target.value)} />
+        </label>
+
+        <label>
+          最寄駅
+          <input list="station-suggestions" value={value.station} onChange={(event) => update("station", event.target.value)} />
+          <datalist id="station-suggestions">
+            {stationOptions.map((station) => (
+              <option key={station} value={station} />
+            ))}
+          </datalist>
+        </label>
+
+        <label>
+          面積
+          <input
+            type="number"
+            min="1"
+            value={value.area}
+            onChange={(event) => update("area", Number(event.target.value))}
+          />
+        </label>
+
+        <label>
+          築年数
+          <input
+            type="number"
+            min="0"
+            value={value.age}
+            onChange={(event) => update("age", Number(event.target.value))}
+          />
+        </label>
+
+        <label>
+          駅徒歩
+          <input
+            type="number"
+            min="0"
+            step="any"
+            value={value.stationDistance}
+            onChange={(event) => update("stationDistance", Number(event.target.value))}
+          />
+          <span className="field-note">
+            {stationDistanceSource === "map" ? "地図から自動算出" : "手入力"}
+          </span>
+        </label>
+
+        <SelectField
+          label="間取り"
+          value={value.roomLayout}
+          options={roomLayouts}
+          onChange={(nextValue) => update("roomLayout", nextValue)}
         />
-      </label>
 
-      <label>
-        駅徒歩
-        <input
-          type="number"
-          min="0"
-          step="any"
-          value={value.stationDistance}
-          onChange={(event) => update("stationDistance", Number(event.target.value))}
+        <SelectField
+          label="建物構造"
+          value={value.buildingType}
+          options={buildingTypes}
+          onChange={(nextValue) => update("buildingType", nextValue)}
         />
-        <span className="field-note">
-          {stationDistanceSource === "map" ? "地図から自動算出" : "手入力"}
-        </span>
-      </label>
+      </section>
 
-      <SelectField
-        label="間取り"
-        value={value.roomLayout}
-        options={roomLayouts}
-        onChange={(nextValue) => update("roomLayout", nextValue)}
-      />
+      <section className="panel forecast-panel" aria-label="予測年と将来シナリオ">
+        <PredictionYearControl
+          className="form-prediction-year"
+          value={value.predictionYear}
+          onChange={(nextValue) => update("predictionYear", nextValue)}
+          predictionYearRange={predictionYearRange}
+        />
 
-      <SelectField
-        label="建物構造"
-        value={value.buildingType}
-        options={buildingTypes}
-        onChange={(nextValue) => update("buildingType", nextValue)}
-      />
-
-      <PredictionYearControl
-        className="form-prediction-year"
-        value={value.predictionYear}
-        onChange={(nextValue) => update("predictionYear", nextValue)}
-        predictionYearRange={predictionYearRange}
-      />
-
-      <FutureScenarioControl
-        value={futureScenario}
-        onChange={onFutureScenarioChange}
-      />
-    </section>
+        <FutureScenarioControl
+          value={futureScenario}
+          onChange={onFutureScenarioChange}
+        />
+      </section>
+    </>
   );
 }
 
@@ -269,6 +273,7 @@ export function PredictionYearControl({
 }
 
 function FutureScenarioControl({ value, onChange }: FutureScenarioControlProps) {
+  const tooltipId = useId();
   const scenarios: Array<{ value: FutureScenario; label: string }> = [
     { value: "bear", label: "弱気" },
     { value: "flat", label: "横ばい" },
@@ -279,7 +284,17 @@ function FutureScenarioControl({ value, onChange }: FutureScenarioControlProps) 
   return (
     <div className="future-scenario-field">
       <span className="field-heading">
-        将来シナリオ
+        <span className="scenario-label">
+          将来シナリオ
+          <span className="scenario-info">
+            <button type="button" className="info-icon-button" aria-label="将来シナリオの説明" aria-describedby={tooltipId}>
+              i
+            </button>
+            <span className="scenario-tooltip" id={tooltipId} role="tooltip">
+              横ばいは将来補正を0%に固定します。標準は駅または地域の過去トレンドを使い、弱気・強気は標準を基準に上下へ補正します。
+            </span>
+          </span>
+        </span>
         <strong>{scenarios.find((scenario) => scenario.value === value)?.label}</strong>
       </span>
       <div className="segmented-control" role="radiogroup" aria-label="将来シナリオ">

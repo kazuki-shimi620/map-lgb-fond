@@ -539,14 +539,16 @@ export function App() {
             onLoadArchive={loadArchiveHistory}
             onCloseArchive={closeArchiveHistory}
           />
-          <CommercialFacilityCard
-            summary={commercialFacilities}
-            prefecture={form.prefecture}
-            municipality={form.municipality}
-          />
-          <StationScaleCard station={selectedStation} stationName={form.station} />
-          <HazardRiskCard latitude={form.lat} longitude={form.lon} />
-          <PredictionDetailsPanel summary={predictionSummary} />
+          <section className="supporting-info-section" aria-label="周辺情報とモデル詳細">
+            <CommercialFacilityCard
+              summary={commercialFacilities}
+              prefecture={form.prefecture}
+              municipality={form.municipality}
+            />
+            <StationScaleCard station={selectedStation} stationName={form.station} />
+            <HazardRiskCard latitude={form.lat} longitude={form.lon} />
+            <PredictionDetailsPanel summary={predictionSummary} />
+          </section>
         </div>
       </div>
     </main>

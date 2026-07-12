@@ -1,4 +1,3 @@
-import { useState } from "react";
 import type { PredictionResult } from "../../types/prediction";
 
 type Props = {
@@ -101,23 +100,17 @@ export function PredictionResultView({ result }: Props) {
 }
 
 export function PredictionDetailsPanel({ summary }: { summary?: PredictionSummary }) {
-  const [isDetailOpen, setIsDetailOpen] = useState(false);
-
   if (!summary) {
     return null;
   }
 
   return (
     <section className="panel model-detail-panel" aria-label="条件・モデル詳細" data-testid="model-detail-panel">
-      <button
-        type="button"
-        className="detail-toggle"
-        aria-expanded={isDetailOpen}
-        onClick={() => setIsDetailOpen((current) => !current)}
-      >
-        {isDetailOpen ? "条件・モデル詳細を閉じる" : "条件・モデル詳細を表示"}
-      </button>
-      <div className={`result-detail ${isDetailOpen ? "is-open" : ""}`} aria-hidden={!isDetailOpen}>
+      <div className="panel-title-row">
+        <h2>条件・モデル詳細</h2>
+        <span className="inline-status">参考情報</span>
+      </div>
+      <div className="result-detail is-open">
         <section className="detail-section">
           <h3>条件</h3>
           <dl className="detail-grid">
