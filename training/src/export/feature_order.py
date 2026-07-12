@@ -1,11 +1,11 @@
 from __future__ import annotations
 
 import argparse
+import importlib
 import json
 import sys
 from pathlib import Path
 
-import onnx
 import yaml
 
 FRONTEND_SUPPORTED_FEATURES = {
@@ -117,6 +117,7 @@ def validate_category_dictionary(
 
 
 def read_onnx_feature_dimension(path: Path) -> int:
+    onnx = importlib.import_module("onnx")
     model = onnx.load(path)
     if not model.graph.input:
         raise ValueError(f"{path}: ONNX model has no inputs")

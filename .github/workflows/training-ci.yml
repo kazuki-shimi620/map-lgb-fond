@@ -50,6 +50,10 @@ jobs:
         working-directory: training
         run: uv run ruff check src tests
 
+      - name: 型チェックを実行
+        working-directory: training
+        run: uv run mypy
+
       - name: 単体テストを実行
         working-directory: training
         run: uv run pytest
