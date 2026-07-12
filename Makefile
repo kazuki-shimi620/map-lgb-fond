@@ -51,7 +51,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -119,6 +119,8 @@ help:
 	@echo "                          駅別乗降客数特徴量のバックテストを実行"
 	@echo "  make compare-external-features"
 	@echo "                          商業施設、駅規模、ハザードの組み合わせバックテストを実行"
+	@echo "  make compare-train-start-years"
+	@echo "                          学習開始年を複数holdout年で比較"
 	@echo "  make compare-outlier-filters"
 	@echo "                          外れ値処理候補のバックテストを実行"
 	@echo "  make summarize-edge-cases REGION=tokyo"
@@ -294,6 +296,9 @@ compare-station-passenger-features:
 
 compare-external-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_external_features.py --hazards-csv "$(HAZARDS_CSV)"
+
+compare-train-start-years:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_train_start_years.py
 
 compare-outlier-filters:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_outlier_filters.py
