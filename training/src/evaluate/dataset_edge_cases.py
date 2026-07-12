@@ -6,7 +6,6 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-
 SEGMENTS = {
     "old_building": lambda df: df["age"] >= 40,
     "very_old_building": lambda df: df["age"] >= 50,

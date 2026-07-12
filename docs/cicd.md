@@ -1,6 +1,6 @@
 # CI/CD運用
 
-本ドキュメントは、フロントエンドを GitHub Pages に公開するための CI/CD フローを定義する。
+本ドキュメントは、フロントエンドを GitHub Pages に公開するための CI/CD フローと、学習パイプラインの軽量CIを定義する。
 
 ---
 
@@ -9,6 +9,7 @@
 以下を実現する。
 
 * Pull Request 時にフロントエンドのビルドが通ることを確認する
+* Pull Request 時に学習パイプラインの構文チェック、Lint、単体テストが通ることを確認する
 * `main` に取り込まれた内容だけを GitHub Pages に公開する
 * 学習環境や生データに依存せず、`frontend/` の静的成果物だけをデプロイする
 
@@ -16,7 +17,7 @@
 
 # 2. 対象
 
-CI/CD の対象はフロントエンドのみ。
+GitHub Pages のデプロイ対象はフロントエンドのみ。
 
 ```text
 frontend/
@@ -28,7 +29,14 @@ GitHub Pages に公開する成果物は以下。
 frontend/dist
 ```
 
-学習処理、データ収集、モデル再学習はこの CI/CD では実行しない。
+学習処理、データ収集、モデル再学習は GitHub Actions では実行しない。
+
+学習パイプラインは軽量CIだけを実行する。
+
+```text
+training/src
+training/tests
+```
 
 ---
 
@@ -63,6 +71,7 @@ workflow ファイル:
 
 ```text
 .github/workflows/deploy-frontend.yml
+.github/workflows/training-ci.yml
 ```
 
 実行タイミング:
@@ -75,7 +84,18 @@ workflow ファイル:
 
 ```text
 frontend/**
+training/**
 .github/workflows/deploy-frontend.yml
+.github/workflows/training-ci.yml
+```
+
+学習パイプラインCIで実行する内容:
+
+```text
+uv sync --locked --dev
+python -m compileall src
+ruff check src tests
+pytest
 ```
 
 ---
@@ -167,6 +187,8 @@ make refresh-production-artifacts ALLOW_MODEL_UPDATE=1
 このコマンドで `frontend/public` 配下の成果物とフロントエンドビルドを確認した後、変更をコミットして `main` へ取り込む。GitHub Pagesへの公開は、`main` への反映後に既存のGitHub Actionsが行う。
 
 学習処理や外部API取得をGitHub Actions上で直接実行しない。APIキー、生データ、長時間ジョブをCI/CDへ持ち込まず、公開対象は静的成果物に限定する。
+
+学習パイプラインCIは、モデル再学習ではなく、前処理関数、FeatureProvider、カテゴリ辞書生成、成果物エクスポートなどの単体テストを対象にする。Pythonで生成した成果物をTypeScriptで読む契約テストは、追加後に同じCIで実行する。
 
 ## 成果物更新PRの自動化方針
 

@@ -179,7 +179,7 @@ def render_markdown(comparison: dict[str, Any]) -> str:
 
 
 def _aggregate_regions(regions: list[dict[str, Any]]) -> dict[str, float | int | None]:
-    test_count = sum(int((row["evaluation"].get("testCount") or 0)) for row in regions)
+    test_count = sum(int(row["evaluation"].get("testCount") or 0) for row in regions)
     if test_count == 0:
         mae = rmse = mape = None
     else:

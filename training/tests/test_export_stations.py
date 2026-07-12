@@ -2,7 +2,11 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from src.export.stations import build_station_passenger_candidates, build_station_passenger_lookup, select_station_passenger
+from src.export.stations import (
+    build_station_passenger_candidates,
+    build_station_passenger_lookup,
+    select_station_passenger,
+)
 
 
 def test_build_station_passenger_lookup_uses_largest_same_name_station(tmp_path: Path) -> None:
