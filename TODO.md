@@ -49,8 +49,8 @@ P3 = 将来拡張または検証後に着手するもの
 
 ### P1 現行仕様に合わせたコード整理
 
-* [ ] `Makefile` の `collect` / `collect-all` を不動産価格API取得ではなく legacy 検証用へ退避、または削除する
-* [ ] `Makefile` のhelpから不動産価格API取得の案内を消し、公式画面CSV取得だけを主経路として表示する
+* [x] `Makefile` の `collect` / `collect-all` を不動産価格API取得ではなく legacy 検証用へ退避、または削除する
+* [x] `Makefile` のhelpから不動産価格API取得の案内を消し、公式画面CSV取得だけを主経路として表示する
 * [ ] `training/src/collect/mlit.py` の `REINFOLIB_API_KEY_ENV` を駅別乗降客数などの共通定数へ移し、駅規模取得が不動産価格API実装に依存しないようにする
 * [ ] `training/src/collect/collect.py` と `training/src/collect/mlit.py` を削除するか、`legacy` 配下へ移して通常導線から外す
 * [ ] `training/tests/test_collect_mlit.py` を削除または legacy 検証用へ移し、通常テストの主対象から外す

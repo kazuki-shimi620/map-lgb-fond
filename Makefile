@@ -49,7 +49,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -67,9 +67,8 @@ help:
 	@echo ""
 	@echo "Training:"
 	@echo "  make init-db            実験管理DBを初期化"
-	@echo "  make collect REGION=tokyo YEAR=2025"
-	@echo "                          国交省APIからraw JSONを取得"
-	@echo "  make collect-all        4地域・2005〜2025年をAPIから取得"
+	@echo "  make collect            公式画面から中古マンションCSVを取得"
+	@echo "  make collect-all        全国・2005〜2025年の中古マンションCSVを取得"
 	@echo "  make collect-property   公式画面から不動産CSVを取得"
 	@echo "  make collect-sc SC_YEAR=2026"
 	@echo "                          JCSCオープンSC一覧を取得してJSON/CSV化"
@@ -161,10 +160,14 @@ python-check:
 init-db:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/experiment/init_db.py --db-path $(DB_PATH)
 
-collect:
+collect: collect-property
+
+collect-all: collect-property-all
+
+collect-legacy-api:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/collect.py --region $(REGION) --year $(YEAR) --output-dir data/raw
 
-collect-all:
+collect-legacy-api-all:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/collect.py --region $(REGIONS) --year $(YEARS) --output-dir data/raw
 
 collect-property: download-csv
