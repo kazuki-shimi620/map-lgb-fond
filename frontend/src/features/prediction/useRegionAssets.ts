@@ -19,22 +19,15 @@ import { getRegionFromPrefecture, getStationRegionFromPrefecture } from "../../u
 const RECENT_HISTORY_START_YEAR = 2020;
 type AssetStatus = "idle" | "loading" | "ready" | "error";
 
-type HistoryModelAnchor = {
-  year: number;
-  price: number;
-};
-
 type UseRegionAssetsParams = {
   prefecture: string;
   setForm: Dispatch<SetStateAction<PredictionFormState>>;
-  setHistoryModelAnchor: Dispatch<SetStateAction<HistoryModelAnchor | null>>;
   setErrorMessage: Dispatch<SetStateAction<string>>;
 };
 
 export function useRegionAssets({
   prefecture,
   setForm,
-  setHistoryModelAnchor,
   setErrorMessage
 }: UseRegionAssetsParams) {
   const [history, setHistory] = useState<PriceHistoryPoint[]>([]);
@@ -80,7 +73,6 @@ export function useRegionAssets({
     setHistoryStatus("loading");
     setHistory([]);
     setTrendSummary(null);
-    setHistoryModelAnchor(null);
     setIsArchiveLoaded(false);
     setIsArchiveLoading(false);
     setErrorMessage("");
@@ -148,7 +140,7 @@ export function useRegionAssets({
     return () => {
       disposed = true;
     };
-  }, [prefecture, region, setErrorMessage, setForm, setHistoryModelAnchor, stationRegion]);
+  }, [prefecture, region, setErrorMessage, setForm, stationRegion]);
 
   useEffect(() => {
     let disposed = false;
