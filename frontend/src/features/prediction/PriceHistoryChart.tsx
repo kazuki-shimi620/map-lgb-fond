@@ -89,9 +89,17 @@ export function PriceHistoryChart({
                   strokeDasharray="3 4"
                   dot={(props) =>
                     props.value == null || props.payload?.actual_price !== null ? (
-                      <></>
+                      <circle
+                        key={`estimated-hidden-${props.payload?.year ?? props.index}`}
+                        cx={props.cx}
+                        cy={props.cy}
+                        r={0}
+                        fill="transparent"
+                        opacity={0}
+                      />
                     ) : (
                       <circle
+                        key={`estimated-${props.payload?.year ?? props.index}`}
                         cx={props.cx}
                         cy={props.cy}
                         r={2.5}
@@ -112,9 +120,17 @@ export function PriceHistoryChart({
                   strokeDasharray="6 5"
                   dot={(props) =>
                     props.value == null || props.payload?.forecast_anchor ? (
-                      <></>
+                      <circle
+                        key={`forecast-hidden-${props.payload?.year ?? props.index}`}
+                        cx={props.cx}
+                        cy={props.cy}
+                        r={0}
+                        fill="transparent"
+                        opacity={0}
+                      />
                     ) : (
                       <circle
+                        key={`forecast-${props.payload?.year ?? props.index}`}
                         cx={props.cx}
                         cy={props.cy}
                         r={3}

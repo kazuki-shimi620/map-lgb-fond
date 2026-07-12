@@ -9,6 +9,14 @@ test.describe("価格推移グラフ", () => {
   });
 
   test("価格推移グラフを表示できる", async ({ page }) => {
+    const keyWarnings: string[] = [];
+    page.on("console", (message) => {
+      const text = message.text();
+      if (text.includes("Each child in a list should have a unique \"key\" prop")) {
+        keyWarnings.push(text);
+      }
+    });
+
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
     await predictionPage.waitForPredictionResult();
@@ -16,6 +24,7 @@ test.describe("価格推移グラフ", () => {
     await expect(predictionPage.priceHistory).toContainText("価格推移");
     await expect(predictionPage.priceHistory.getByText("対象駅の類似実績")).toBeVisible();
     await expect(predictionPage.priceHistory.getByText("入力条件の予測")).toBeVisible();
+    expect(keyWarnings).toEqual([]);
   });
 
   test("過去データを追加表示して閉じられる", async ({ page }) => {
