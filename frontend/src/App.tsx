@@ -58,6 +58,8 @@ export function App() {
   const [errorMessage, setErrorMessage] = useState("");
 
   const {
+    assetStatus,
+    assetWarnings,
     closeArchiveHistory,
     commercialFacilities,
     history,
@@ -81,7 +83,12 @@ export function App() {
     metadata && form.predictionYear > metadata.latestTrainingYear + 10
       ? "長期予測のため精度は保証できません"
       : "";
-  const loadingMessage = !isModelReady && region ? "モデルを読み込んでいます" : isPredicting ? "予測を更新しています" : "";
+  const loadingMessage =
+    assetStatus.modelStatus === "loading" && region
+      ? "モデルを読み込んでいます"
+      : isPredicting
+        ? "予測を更新しています"
+        : "";
   const predictionYearRange = useMemo(
     () => ({
       min: metadata?.latestTrainingYear ?? new Date().getFullYear(),
@@ -226,6 +233,11 @@ export function App() {
 
       {longRangeWarning ? <p className="warning">{longRangeWarning}</p> : null}
       {errorMessage ? <p className="warning">{errorMessage}</p> : null}
+      {assetWarnings.map((message) => (
+        <p className="warning" key={message}>
+          {message}
+        </p>
+      ))}
       {loadingMessage ? (
         <div className="loading-toast" role="status" aria-live="polite">
           <span className="loading-spinner" aria-hidden="true" />

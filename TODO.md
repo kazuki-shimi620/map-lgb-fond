@@ -24,7 +24,7 @@ P3 = 将来拡張または検証後に着手するもの
 * [x] `ModelManager` で `featureOrder` に未対応の特徴量が来た場合は `0` で埋めず、例外を投げてfail-fastにする
 * [x] `App.tsx` から `usePropertySelection` を切り出し、逆ジオコーディング、対応地域判定、駅マスタ取得、最寄駅計算、フォーム更新を集約する
 * [x] `useRegionAssets` を切り出し、モデル、メタデータ、カテゴリ辞書、駅マスタ、価格履歴、商業施設などの読み込み責務をAppから分離する
-* [ ] 地域アセット読み込みを `modelStatus`、`stationStatus`、`historyStatus`、`facilityStatus`、`hazardStatus` に分け、予測可能な縮退運転と周辺情報の部分失敗をUIで区別する
+* [x] 地域アセット読み込みを `modelStatus`、`stationStatus`、`historyStatus`、`facilityStatus`、`hazardStatus` に分け、予測可能な縮退運転と周辺情報の部分失敗をUIで区別する
 
 ### P1 分割・テスト強化
 
