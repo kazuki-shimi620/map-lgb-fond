@@ -148,7 +148,11 @@ export function PredictionForm({
         />
       </section>
 
-      <section className="panel forecast-panel" aria-label="予測年と将来シナリオ">
+      <section
+        className="panel forecast-panel"
+        aria-label="予測年と将来シナリオ"
+        data-testid="prediction-forecast-controls"
+      >
         <PredictionYearControl
           className="form-prediction-year"
           value={value.predictionYear}

@@ -17,6 +17,7 @@ test.describe("レスポンシブ表示", () => {
 
     await expect(page.getByTestId("property-map")).toBeVisible();
     await expect(page.getByTestId("prediction-form")).toBeVisible();
+    await expect(page.getByTestId("prediction-forecast-controls")).toBeVisible();
     await expect(page.getByRole("radiogroup", { name: "将来シナリオ" })).toBeVisible();
     await expect(page.getByTestId("prediction-result")).toBeVisible();
     await expect(page.getByTestId("price-history-chart")).toBeVisible();
@@ -52,6 +53,20 @@ test.describe("レスポンシブ表示", () => {
         : false;
     });
     expect(panelOrder).toBe(true);
+
+    const desktopFlow = await page.evaluate(() => {
+      const forecast = document.querySelector('[data-testid="prediction-forecast-controls"]');
+      const result = document.querySelector('[data-testid="prediction-result"]');
+      const chart = document.querySelector('[data-testid="price-history-chart"]');
+      if (!forecast || !result || !chart) {
+        return false;
+      }
+      const forecastRect = forecast.getBoundingClientRect();
+      const resultRect = result.getBoundingClientRect();
+      const chartRect = chart.getBoundingClientRect();
+      return chartRect.top >= forecastRect.bottom - 1 && chartRect.left >= resultRect.right - 1;
+    });
+    expect(desktopFlow).toBe(true);
 
     const hasHorizontalOverflow = await page.evaluate(
       () => document.documentElement.scrollWidth > document.documentElement.clientWidth

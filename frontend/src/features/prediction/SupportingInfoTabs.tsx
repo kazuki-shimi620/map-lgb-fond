@@ -24,7 +24,7 @@ export function SupportingInfoTabs({ tabs }: Props) {
   }
 
   return (
-    <section className="supporting-info-section" aria-label="参考情報" data-testid="supporting-info-tabs">
+    <section className="panel supporting-info-section" aria-label="参考情報" data-testid="supporting-info-tabs">
       <div className="supporting-info-header">
         <div>
           <h2>参考情報</h2>

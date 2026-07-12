@@ -162,7 +162,6 @@ h2 {
 }
 
 .map-panel,
-.chart-panel,
 .prediction-year-panel {
   grid-column: 1 / -1;
 }
@@ -640,7 +639,7 @@ select {
 .supporting-info-section {
   grid-column: 1 / -1;
   display: grid;
-  gap: 12px;
+  gap: 14px;
 }
 
 .supporting-info-header {
@@ -700,6 +699,9 @@ select {
 
 .supporting-info-content > .panel {
   align-self: start;
+  border: 0;
+  background: transparent;
+  padding: 0;
 }
 
 .panel-title-row {
