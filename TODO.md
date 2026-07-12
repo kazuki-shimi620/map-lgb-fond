@@ -34,7 +34,7 @@ P3 = 将来拡張または検証後に着手するもの
 * [x] Python CIを追加し、構文チェック、Ruff、前処理/FeatureProvider/カテゴリ辞書生成を含む単体テストを段階的に実行する
 * [ ] Python CIへ型チェックを追加する
 * [ ] Ruffの段階導入で一時的に除外している `E501`、`E402` を解消し、Lint対象へ戻す
-* [ ] Python成果物とTypeScript推論入力の契約テストを追加し、`metadata.featureOrder`、カテゴリ辞書、`unknownId`、ONNX入力次元の整合性を検証する
+* [x] Python成果物とTypeScript推論入力の契約テストを追加し、`metadata.featureOrder`、カテゴリ辞書、`unknownId`、ONNX入力次元の整合性を検証する
 
 ### P2 モデル成果物更新時に検討
 
