@@ -172,6 +172,21 @@ h2 {
   align-self: start;
 }
 
+.prediction-workflow {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.prediction-main-column,
+.prediction-side-column {
+  display: grid;
+  gap: 16px;
+  align-content: start;
+}
+
 .map-frame {
   position: relative;
 }
@@ -1046,7 +1061,8 @@ dd {
   }
 
   .layout,
-  .form-grid {
+  .form-grid,
+  .prediction-workflow {
     grid-template-columns: 1fr;
     gap: 12px;
   }
@@ -1164,6 +1180,7 @@ dd {
 
   .form-panel {
     display: grid;
+    order: 1;
     margin: 0;
     border-color: #c4cfdd;
     border-radius: 0 0 8px 8px;
@@ -1176,9 +1193,28 @@ dd {
   }
 
   .forecast-panel {
+    order: 2;
     margin: 0;
     border-color: #c4cfdd;
     box-shadow: 0 -6px 18px rgb(15 23 42 / 10%);
+  }
+
+  .prediction-workflow,
+  .prediction-main-column,
+  .prediction-side-column {
+    display: contents;
+  }
+
+  .result-panel {
+    order: 3;
+  }
+
+  .chart-panel {
+    order: 4;
+  }
+
+  .supporting-info-section {
+    order: 5;
   }
 
   .supporting-info-header {

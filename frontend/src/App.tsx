@@ -10,7 +10,8 @@ import {
 } from "./features/model/modelManagerFactory";
 import { PriceHistoryChart } from "./features/prediction/PriceHistoryChart";
 import {
-  PredictionForm,
+  ForecastControls,
+  PropertyConditionForm,
   PredictionSheetHandle,
   type FutureScenario
 } from "./features/prediction/PredictionForm";
@@ -520,26 +521,36 @@ export function App() {
             sheetState={formSheetState}
             onSheetStateChange={setFormSheetState}
           />
-          <PredictionForm
-            formRef={formPanelRef}
-            value={form}
-            onChange={handleFormChange}
-            stationOptions={stationOptions}
-            futureScenario={futureScenario}
-            onFutureScenarioChange={setFutureScenario}
-            stationDistanceSource={stationDistanceSource}
-            sheetState={formSheetState}
-            predictionYearRange={predictionYearRange}
-          />
-          <PredictionResultView result={result} />
-          <PriceHistoryChart
-            points={chartPoints}
-            hasHistory={history.length > 0}
-            isArchiveLoaded={isArchiveLoaded}
-            isArchiveLoading={isArchiveLoading}
-            onLoadArchive={loadArchiveHistory}
-            onCloseArchive={closeArchiveHistory}
-          />
+          <div className="prediction-workflow">
+            <div className="prediction-main-column">
+              <PropertyConditionForm
+                formRef={formPanelRef}
+                value={form}
+                onChange={handleFormChange}
+                stationOptions={stationOptions}
+                stationDistanceSource={stationDistanceSource}
+                sheetState={formSheetState}
+              />
+              <PredictionResultView result={result} />
+            </div>
+            <div className="prediction-side-column">
+              <ForecastControls
+                value={form}
+                onChange={handleFormChange}
+                futureScenario={futureScenario}
+                onFutureScenarioChange={setFutureScenario}
+                predictionYearRange={predictionYearRange}
+              />
+              <PriceHistoryChart
+                points={chartPoints}
+                hasHistory={history.length > 0}
+                isArchiveLoaded={isArchiveLoaded}
+                isArchiveLoading={isArchiveLoading}
+                onLoadArchive={loadArchiveHistory}
+                onCloseArchive={closeArchiveHistory}
+              />
+            </div>
+          </div>
           <SupportingInfoTabs
             tabs={[
               {

@@ -26,6 +26,26 @@ type Props = {
   formRef?: Ref<HTMLElement>;
 };
 
+type PropertyConditionFormProps = {
+  value: PredictionFormState;
+  onChange: (next: PredictionFormState) => void;
+  stationOptions: string[];
+  stationDistanceSource?: "map" | "manual";
+  sheetState?: "collapsed" | "half" | "open";
+  formRef?: Ref<HTMLElement>;
+};
+
+type ForecastControlsProps = {
+  value: PredictionFormState;
+  onChange: (next: PredictionFormState) => void;
+  futureScenario: FutureScenario;
+  onFutureScenarioChange: (next: FutureScenario) => void;
+  predictionYearRange?: {
+    min: number;
+    max: number;
+  };
+};
+
 type PredictionSheetHandleProps = {
   sheetState: "collapsed" | "half" | "open";
   onSheetStateChange: (state: "collapsed" | "half" | "open") => void;
@@ -66,106 +86,147 @@ export function PredictionForm({
   predictionYearRange,
   formRef
 }: Props) {
+  return (
+    <>
+      <PropertyConditionForm
+        formRef={formRef}
+        value={value}
+        onChange={onChange}
+        stationOptions={stationOptions}
+        stationDistanceSource={stationDistanceSource}
+        sheetState={sheetState}
+      />
+      <ForecastControls
+        value={value}
+        onChange={onChange}
+        futureScenario={futureScenario}
+        onFutureScenarioChange={onFutureScenarioChange}
+        predictionYearRange={predictionYearRange}
+      />
+    </>
+  );
+}
+
+export function PropertyConditionForm({
+  value,
+  onChange,
+  stationOptions,
+  stationDistanceSource = "manual",
+  sheetState = "open",
+  formRef
+}: PropertyConditionFormProps) {
   function update<K extends keyof PredictionFormState>(key: K, nextValue: PredictionFormState[K]) {
     onChange({ ...value, [key]: nextValue });
   }
 
   return (
-    <>
-      <section
-        ref={formRef}
-        className={`panel form-panel form-grid sheet-${sheetState}`}
-        data-testid="prediction-form"
-      >
-        <SelectField
-          label="都道府県"
-          value={value.prefecture}
-          options={supportedPrefectures}
-          onChange={(nextValue) => update("prefecture", nextValue)}
+    <section
+      ref={formRef}
+      className={`panel form-panel form-grid sheet-${sheetState}`}
+      data-testid="prediction-form"
+    >
+      <SelectField
+        label="都道府県"
+        value={value.prefecture}
+        options={supportedPrefectures}
+        onChange={(nextValue) => update("prefecture", nextValue)}
+      />
+
+      <label>
+        市区町村
+        <input value={value.municipality} onChange={(event) => update("municipality", event.target.value)} />
+      </label>
+
+      <label>
+        最寄駅
+        <input list="station-suggestions" value={value.station} onChange={(event) => update("station", event.target.value)} />
+        <datalist id="station-suggestions">
+          {stationOptions.map((station) => (
+            <option key={station} value={station} />
+          ))}
+        </datalist>
+      </label>
+
+      <label>
+        面積
+        <input
+          type="number"
+          min="1"
+          value={value.area}
+          onChange={(event) => update("area", Number(event.target.value))}
         />
+      </label>
 
-        <label>
-          市区町村
-          <input value={value.municipality} onChange={(event) => update("municipality", event.target.value)} />
-        </label>
-
-        <label>
-          最寄駅
-          <input list="station-suggestions" value={value.station} onChange={(event) => update("station", event.target.value)} />
-          <datalist id="station-suggestions">
-            {stationOptions.map((station) => (
-              <option key={station} value={station} />
-            ))}
-          </datalist>
-        </label>
-
-        <label>
-          面積
-          <input
-            type="number"
-            min="1"
-            value={value.area}
-            onChange={(event) => update("area", Number(event.target.value))}
-          />
-        </label>
-
-        <label>
-          築年数
-          <input
-            type="number"
-            min="0"
-            value={value.age}
-            onChange={(event) => update("age", Number(event.target.value))}
-          />
-        </label>
-
-        <label>
-          駅徒歩
-          <input
-            type="number"
-            min="0"
-            step="any"
-            value={value.stationDistance}
-            onChange={(event) => update("stationDistance", Number(event.target.value))}
-          />
-          <span className="field-note">
-            {stationDistanceSource === "map" ? "地図から自動算出" : "手入力"}
-          </span>
-        </label>
-
-        <SelectField
-          label="間取り"
-          value={value.roomLayout}
-          options={roomLayouts}
-          onChange={(nextValue) => update("roomLayout", nextValue)}
+      <label>
+        築年数
+        <input
+          type="number"
+          min="0"
+          value={value.age}
+          onChange={(event) => update("age", Number(event.target.value))}
         />
+      </label>
 
-        <SelectField
-          label="建物構造"
-          value={value.buildingType}
-          options={buildingTypes}
-          onChange={(nextValue) => update("buildingType", nextValue)}
+      <label>
+        駅徒歩
+        <input
+          type="number"
+          min="0"
+          step="any"
+          value={value.stationDistance}
+          onChange={(event) => update("stationDistance", Number(event.target.value))}
         />
-      </section>
+        <span className="field-note">
+          {stationDistanceSource === "map" ? "地図から自動算出" : "手入力"}
+        </span>
+      </label>
 
-      <section
-        className="panel forecast-panel"
-        aria-label="予測年と将来シナリオ"
-        data-testid="prediction-forecast-controls"
-      >
-        <PredictionYearControl
-          className="form-prediction-year"
-          value={value.predictionYear}
-          onChange={(nextValue) => update("predictionYear", nextValue)}
-          predictionYearRange={predictionYearRange}
-        />
+      <SelectField
+        label="間取り"
+        value={value.roomLayout}
+        options={roomLayouts}
+        onChange={(nextValue) => update("roomLayout", nextValue)}
+      />
 
-        <FutureScenarioControl
-          value={futureScenario}
-          onChange={onFutureScenarioChange}
-        />
-      </section>
-    </>
+      <SelectField
+        label="建物構造"
+        value={value.buildingType}
+        options={buildingTypes}
+        onChange={(nextValue) => update("buildingType", nextValue)}
+      />
+    </section>
+  );
+}
+
+export function ForecastControls({
+  value,
+  onChange,
+  futureScenario,
+  onFutureScenarioChange,
+  predictionYearRange
+}: ForecastControlsProps) {
+  function update<K extends keyof PredictionFormState>(key: K, nextValue: PredictionFormState[K]) {
+    onChange({ ...value, [key]: nextValue });
+  }
+
+  return (
+    <section
+      className="panel forecast-panel"
+      aria-label="予測年と将来シナリオ"
+      data-testid="prediction-forecast-controls"
+    >
+      <PredictionYearControl
+        className="form-prediction-year"
+        value={value.predictionYear}
+        onChange={(nextValue) => update("predictionYear", nextValue)}
+        predictionYearRange={predictionYearRange}
+      />
+
+      <FutureScenarioControl
+        value={futureScenario}
+        onChange={onFutureScenarioChange}
+      />
+    </section>
   );
 }
 
