@@ -105,6 +105,7 @@ def test_add_rail_access_features_uses_station_name_and_missing_sentinel() -> No
 
     actual = add_rail_access_features(properties, rail_access)
 
+    assert actual.loc[0, "station"] == "新宿駅"
     assert actual.loc[0, "nearest_station_is_terminal"] == 1.0
     assert actual.loc[0, "nearest_station_time_to_tokyo"] == pytest.approx(14.0)
     assert actual.loc[0, "closest_major_terminal"] == "shinjuku"

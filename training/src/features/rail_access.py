@@ -60,6 +60,7 @@ def add_rail_access_features(property_df, rail_access_df):
         normalize_station_name
     )
     access = access[access["normalized_station_name"] != ""]
+    access = access.drop(columns=["station"], errors="ignore")
     access = access.sort_values(["normalized_station_name", "destination_count"], ascending=False)
     access = access.drop_duplicates(subset=["normalized_station_name"], keep="first")
     result["_normalized_station_name"] = result["station"].map(normalize_station_name)
