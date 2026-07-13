@@ -116,11 +116,11 @@ P3 = 将来拡張または検証後に着手するもの
 
 #### 路線利便性・ターミナル駅フラグ
 
-* [ ] ターミナル駅リストと主要目的地駅リストを自前JSON/CSVとして設計する
+* [x] ターミナル駅リストと主要目的地駅リストを自前JSON/CSVとして設計する
 * [ ] Google Routes API、駅すぱあと、NAVITIMEは事前計算用途に限定し、料金・商用利用・キャッシュ可否を確認する
-* [ ] `training/data/manual/rail/terminal_stations.csv` と `major_station_travel_times.csv` の初期fixtureを作る
-* [ ] `training/src/collect/rail_access.py` の設計を固め、リアルタイムAPIなしで特徴量CSVを生成できるようにする
-* [ ] `FeatureProvider` に主要駅所要時間、最短ターミナル所要時間、ターミナル駅フラグを追加する
+* [x] `training/data/manual/rail/terminal_stations.csv` と `major_station_travel_times.csv` の初期fixtureを作る
+* [x] `training/src/collect/rail_access.py` の設計を固め、リアルタイムAPIなしで特徴量CSVを生成できるようにする
+* [x] `FeatureProvider` に主要駅所要時間、最短ターミナル所要時間、ターミナル駅フラグを追加する
 * [ ] 路線利便性として主要駅までの所要時間、乗換回数、ターミナル駅フラグを比較する
 
 #### 学区・保育園・学校距離

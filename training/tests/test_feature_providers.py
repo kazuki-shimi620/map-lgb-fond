@@ -15,6 +15,7 @@ def test_create_external_feature_pipeline_registers_requested_providers(tmp_path
     hazard_csv = tmp_path / "hazard_features.csv"
     land_prices_dir = tmp_path / "land_prices"
     population_csv = tmp_path / "municipality_population.csv"
+    rail_access_csv = tmp_path / "rail_access.csv"
 
     pipeline = create_external_feature_pipeline(
         requested_features={
@@ -23,12 +24,14 @@ def test_create_external_feature_pipeline_registers_requested_providers(tmp_path
             "hazard_overall_score",
             "land_price_city_avg_yen_per_sqm",
             "municipality_population",
+            "nearest_station_time_to_tokyo",
         },
         station_passengers_csv=str(station_csv),
         commercial_facilities_csv=str(commercial_csv),
         hazard_features_csv=str(hazard_csv),
         land_prices_dir=str(land_prices_dir),
         population_stats_csv=str(population_csv),
+        rail_access_csv=str(rail_access_csv),
     )
 
     assert pipeline is not None
@@ -44,3 +47,4 @@ def test_create_external_feature_pipeline_registers_requested_providers(tmp_path
         == land_prices_dir / "land_price_city_summary.csv"
     )
     assert pipeline.providers[4].csv_path == population_csv
+    assert pipeline.providers[5].csv_path == rail_access_csv

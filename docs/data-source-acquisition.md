@@ -478,6 +478,38 @@ training/data/manual/rail/terminal_stations.csv
 training/data/manual/rail/major_station_travel_times.csv
 ```
 
+`terminal_stations.csv`:
+
+```text
+station_name
+station_aliases
+is_terminal
+terminal_group
+source
+source_year
+```
+
+`major_station_travel_times.csv`:
+
+```text
+origin_station
+destination_station
+travel_time_minutes
+transfer_count
+is_direct
+source
+source_year
+```
+
+collector出力:
+
+```text
+training/data/processed/rail/rail_access.csv
+training/data/processed/rail/metadata.json
+```
+
+`rail_access.csv` は駅名正規化後に1駅1行へ集約し、東京、新宿、渋谷、横浜までの所要時間、乗換回数、最短主要ターミナル、ターミナル駅フラグを持つ。未収録駅はFeatureProvider側で `has_rail_access_data=0` とし、所要時間は `999` 分の番兵値を入れる。
+
 特徴量候補:
 
 ```text

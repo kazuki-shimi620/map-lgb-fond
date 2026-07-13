@@ -21,6 +21,11 @@ from features.population_stats import (
     add_population_features,
     load_population_stats_csv,
 )
+from features.rail_access import (
+    RAIL_ACCESS_FEATURES,
+    add_rail_access_features,
+    load_rail_access_csv,
+)
 from features.station_passengers import (
     STATION_PASSENGER_FEATURES,
     add_station_passenger_features,
@@ -186,6 +191,22 @@ class PopulationStatsProvider:
         return result
 
 
+@dataclass
+class RailAccessProvider:
+    csv_path: Path = Path("data/processed/rail/rail_access.csv")
+    output_features: list[str] = field(default_factory=lambda: list(RAIL_ACCESS_FEATURES))
+
+    def fit(self, df) -> None:
+        if not self.csv_path.exists():
+            raise FileNotFoundError(f"Rail access CSV not found: {self.csv_path}")
+        self._rail_access = load_rail_access_csv(self.csv_path)
+
+    def transform(self, df, context: dict):
+        result = add_rail_access_features(df, self._rail_access)
+        _store_output_features(context, result, self.output_features)
+        return result
+
+
 def create_mvp_feature_pipeline() -> FeaturePipeline:
     return FeaturePipeline(
         providers=[
@@ -206,6 +227,7 @@ def create_external_feature_pipeline(
     hazard_features_csv: str | None = None,
     land_prices_dir: str | None = None,
     population_stats_csv: str | None = None,
+    rail_access_csv: str | None = None,
     commercial_data_start_year: int = 2015,
 ) -> FeaturePipeline | None:
     providers: list[IFeatureProvider] = []
@@ -250,6 +272,13 @@ def create_external_feature_pipeline(
                     population_stats_csv
                     or "data/processed/population/municipality_population.csv"
                 )
+            )
+        )
+
+    if not requested_features.isdisjoint(RAIL_ACCESS_FEATURES):
+        providers.append(
+            RailAccessProvider(
+                csv_path=Path(rail_access_csv or "data/processed/rail/rail_access.csv")
             )
         )
 
