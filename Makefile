@@ -31,6 +31,8 @@ LAND_PRICE_AREA ?= capital
 LAND_PRICE_ZOOM ?= 14
 LAND_PRICE_USE_CATEGORY_CODES ?= 00,05
 LAND_PRICE_REQUEST_INTERVAL_SECONDS ?= 1.0
+LAND_PRICE_POINTS_CSV ?= data/processed/land_prices/land_price_points.csv
+LAND_PRICE_CITY_SUMMARY_CSV ?= data/processed/land_prices/land_price_city_summary.csv
 HAZARDS_CSV ?= data/processed/hazards/hazard_features.csv
 HAZARD_INPUT ?=
 HAZARD_URL ?=
@@ -56,7 +58,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-land-prices collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-land-prices collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -124,6 +126,8 @@ help:
 	@echo "                          JCSC商業施設特徴量のバックテストを実行"
 	@echo "  make compare-station-passenger-features"
 	@echo "                          駅別乗降客数特徴量のバックテストを実行"
+	@echo "  make compare-land-price-features"
+	@echo "                          地価公示・基準地価特徴量のバックテストを実行"
 	@echo "  make compare-external-features"
 	@echo "                          商業施設、駅規模、ハザードの組み合わせバックテストを実行"
 	@echo "  make compare-train-start-years"
@@ -303,6 +307,9 @@ compare-commercial-features:
 
 compare-station-passenger-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_station_passenger_features.py
+
+compare-land-price-features:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_land_price_features.py --land-price-points-csv "$(LAND_PRICE_POINTS_CSV)" --land-price-city-summary-csv "$(LAND_PRICE_CITY_SUMMARY_CSV)"
 
 compare-external-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_external_features.py --hazards-csv "$(HAZARDS_CSV)"
