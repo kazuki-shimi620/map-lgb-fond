@@ -728,6 +728,15 @@ has_rail_access_data
 * 都道府県警、市区町村オープンデータ
 * e-Statの一部統計
 
+公式・公的データ候補の初期判断:
+
+| 候補 | 初期判断 | 注意点 |
+| --- | --- | --- |
+| 都道府県警の犯罪統計 | 優先候補。無料公開が多いが、CSV/Excel/PDFなど形式が都道府県で異なる | 市区町村、警察署、町丁目など粒度が揃わない。罪種分類も地域で差が出る |
+| 市区町村オープンデータ | 補助候補。自治体によって町丁目単位など細かい場合がある | 全国統一には向かない。更新停止や年度欠落に注意 |
+| e-Stat | 補助候補。統計表IDが固定できる範囲で確認する | 市区町村単位で必要な罪種・年度が揃うとは限らない |
+| 民間治安スコア/有料API | 採用しない | 有料、算出根拠不明、再配布条件不明のものは後回し |
+
 初期collector:
 
 ```text
@@ -739,12 +748,31 @@ training/src/collect/crime_stats.py
 ```text
 training/data/raw/crime/
 training/data/processed/crime/crime_municipality.csv
+training/data/processed/crime/metadata.json
+```
+
+正規化CSVスキーマ:
+
+```text
+year
+prefecture
+municipality
+city_code
+area_unit
+crime_type
+crime_count
+population_total
+crime_count_per_1000_population
+source
+source_url
+notes
 ```
 
 特徴量候補:
 
 ```text
 crime_count_per_1000_population
+crime_count
 crime_year
 crime_area_unit
 has_crime_data
@@ -753,6 +781,14 @@ has_crime_data
 難易度: 高。
 
 全国統一APIがないため、最初からモデル特徴量にはしない。表示する場合も星評価を避け、出典、年度、集計単位を必ず併記する。
+
+表示方針:
+
+* 星評価、治安偏差値、安全/危険の断定表現は使わない。
+* 初期表示は「人口1000人あたり刑法犯認知件数」「件数」「年度」「集計単位」「出典」に限定する。
+* 罪種を分ける場合は、総数、窃盗、侵入窃盗、自転車盗など自治体で比較的公開されやすい分類から始める。
+* 人口あたり件数は都市規模や昼夜間人口の影響を受けるため、ランキングや優劣判断には使わない。
+* モデル特徴量に入れる場合は、人口統計データと結合して `crime_count_per_1000_population` を算出し、欠損時は `has_crime_data=0` を明示する。
 
 ## 実装優先順位
 
