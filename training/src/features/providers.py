@@ -31,6 +31,11 @@ from features.station_passengers import (
     add_station_passenger_features,
     load_station_passengers_csv,
 )
+from features.urban_planning import (
+    URBAN_PLANNING_FEATURES,
+    add_urban_planning_features,
+    load_urban_planning_areas_csv,
+)
 
 
 class IFeatureProvider(Protocol):
@@ -207,6 +212,22 @@ class RailAccessProvider:
         return result
 
 
+@dataclass
+class UrbanPlanningProvider:
+    csv_path: Path = Path("data/processed/urban_planning/urban_planning_areas.csv")
+    output_features: list[str] = field(default_factory=lambda: list(URBAN_PLANNING_FEATURES))
+
+    def fit(self, df) -> None:
+        if not self.csv_path.exists():
+            raise FileNotFoundError(f"Urban planning CSV not found: {self.csv_path}")
+        self._urban_planning_areas = load_urban_planning_areas_csv(self.csv_path)
+
+    def transform(self, df, context: dict):
+        result = add_urban_planning_features(df, self._urban_planning_areas)
+        _store_output_features(context, result, self.output_features)
+        return result
+
+
 def create_mvp_feature_pipeline() -> FeaturePipeline:
     return FeaturePipeline(
         providers=[
@@ -228,6 +249,7 @@ def create_external_feature_pipeline(
     land_prices_dir: str | None = None,
     population_stats_csv: str | None = None,
     rail_access_csv: str | None = None,
+    urban_planning_csv: str | None = None,
     commercial_data_start_year: int = 2015,
 ) -> FeaturePipeline | None:
     providers: list[IFeatureProvider] = []
@@ -279,6 +301,16 @@ def create_external_feature_pipeline(
         providers.append(
             RailAccessProvider(
                 csv_path=Path(rail_access_csv or "data/processed/rail/rail_access.csv")
+            )
+        )
+
+    if not requested_features.isdisjoint(URBAN_PLANNING_FEATURES):
+        providers.append(
+            UrbanPlanningProvider(
+                csv_path=Path(
+                    urban_planning_csv
+                    or "data/processed/urban_planning/urban_planning_areas.csv"
+                )
             )
         )
 
