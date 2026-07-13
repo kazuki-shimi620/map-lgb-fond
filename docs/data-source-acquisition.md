@@ -57,6 +57,58 @@ comparison
 * 不動産情報ライブラリ `XPT002`: 地価公示・地価調査のポイント API
 * 不動産情報ライブラリ `XCT001`: 鑑定評価書情報 API
 
+公式仕様確認日: 2026-07-13。
+
+`XPT002` はXYZタイルを指定して地価公示・地価調査のポイントデータを取得するAPIとして扱う。初期実装では `XPT002` を主経路にし、`XCT001` は鑑定評価書の詳細確認や補助データとして後段で扱う。
+
+`XPT002` の取得パラメータ:
+
+| パラメータ | 必須 | 初期方針 |
+| --- | ---: | --- |
+| `response_format` | ○ | `geojson` 固定。PBFは使わない |
+| `z` | ○ | 初期は `14`。必要に応じて `13` から `15` の範囲で調整 |
+| `x` | ○ | 首都圏4県のbboxからXYZタイルを列挙 |
+| `y` | ○ | 首都圏4県のbboxからXYZタイルを列挙 |
+| `year` | ○ | まず `2024` と `2025` を対象にし、前年比特徴量はAPIの `year_on_year_change_rate` を優先 |
+| `priceClassification` |  | 未指定で地価公示・地価調査の両方を取得。比較時に `0` / `1` の分離も試す |
+| `useCategoryCode` |  | 初期は住宅地 `00` と商業地 `05` を優先。全用途取得は件数・サイズ確認後 |
+
+`XPT002` で正規化対象にする主な出力:
+
+```text
+point_id
+target_year_name_ja
+land_price_type
+prefecture_code
+prefecture_name_ja
+city_code
+city_county_name_ja
+ward_town_village_name_ja
+use_category_name_ja
+standard_lot_number_ja
+u_current_years_price_ja
+last_years_price
+year_on_year_change_rate
+u_cadastral_ja
+nearest_station_name_ja
+u_road_distance_to_nearest_station_name_ja
+area_division_name_ja
+regulations_use_category_name_ja
+u_regulations_building_coverage_ratio_ja
+u_regulations_floor_area_ratio_ja
+geometry.coordinates
+```
+
+`XCT001` の取得パラメータ:
+
+| パラメータ | 必須 | 初期方針 |
+| --- | ---: | --- |
+| `year` | ○ | 直近5年分のみ。初期は最新年を指定 |
+| `area` | ○ | 都道府県コード。首都圏4県をカンマ区切りまたは県別に取得 |
+| `division` | ○ | 住宅地 `00` と商業地 `05` を優先 |
+
+`XCT001` はgzipで返る場合がある。既存の駅別乗降客数collectorと同じくgzip展開、raw保存、リトライ、キャッシュを共通実装に寄せる。
+
 初期collector:
 
 ```text
@@ -67,8 +119,70 @@ training/src/collect/land_prices.py
 
 ```text
 training/data/raw/land_prices/
+training/data/cache/land_prices/
 training/data/processed/land_prices/land_price_points.csv
 training/data/processed/land_prices/land_price_city_summary.csv
+training/data/processed/land_prices/metadata.json
+```
+
+collector設計:
+
+```text
+首都圏4県bbox
+↓
+z=14 のXYZタイルを列挙
+↓
+XPT002?response_format=geojson&z=...&x=...&y=...&year=...
+↓
+raw GeoJSONをタイル単位で保存
+↓
+features[].properties と geometry.coordinates を正規化
+↓
+point_id + year + land_price_type で重複排除
+↓
+land_price_points.csv と land_price_city_summary.csv を生成
+```
+
+正規化CSVスキーマ:
+
+```text
+source_api
+point_id
+year
+land_price_type
+prefecture
+prefecture_code
+municipality
+city_code
+use_category
+standard_lot_number
+lat
+lon
+current_price_yen_per_sqm
+last_year_price_yen_per_sqm
+year_on_year_change_rate
+land_area_sqm
+nearest_station
+station_distance_m
+area_division
+zoning
+building_coverage_ratio
+floor_area_ratio
+source_url
+```
+
+市区町村集計CSVスキーマ:
+
+```text
+year
+prefecture
+municipality
+city_code
+use_category
+point_count
+avg_price_yen_per_sqm
+median_price_yen_per_sqm
+avg_yoy_rate
 ```
 
 特徴量候補:
