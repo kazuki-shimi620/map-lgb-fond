@@ -17,6 +17,7 @@ def test_create_external_feature_pipeline_registers_requested_providers(tmp_path
     population_csv = tmp_path / "municipality_population.csv"
     rail_access_csv = tmp_path / "rail_access.csv"
     urban_planning_csv = tmp_path / "urban_planning_areas.csv"
+    crime_csv = tmp_path / "crime_municipality.csv"
 
     pipeline = create_external_feature_pipeline(
         requested_features={
@@ -27,6 +28,7 @@ def test_create_external_feature_pipeline_registers_requested_providers(tmp_path
             "municipality_population",
             "nearest_station_time_to_tokyo",
             "zoning_type",
+            "crime_count_per_1000_population",
         },
         station_passengers_csv=str(station_csv),
         commercial_facilities_csv=str(commercial_csv),
@@ -35,6 +37,7 @@ def test_create_external_feature_pipeline_registers_requested_providers(tmp_path
         population_stats_csv=str(population_csv),
         rail_access_csv=str(rail_access_csv),
         urban_planning_csv=str(urban_planning_csv),
+        crime_stats_csv=str(crime_csv),
     )
 
     assert pipeline is not None
@@ -52,3 +55,4 @@ def test_create_external_feature_pipeline_registers_requested_providers(tmp_path
     assert pipeline.providers[4].csv_path == population_csv
     assert pipeline.providers[5].csv_path == rail_access_csv
     assert pipeline.providers[6].csv_path == urban_planning_csv
+    assert pipeline.providers[7].csv_path == crime_csv

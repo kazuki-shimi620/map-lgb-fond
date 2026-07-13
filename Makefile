@@ -49,6 +49,7 @@ EDUCATION_ADMINISTRATIVE_AREA_CODES ?=
 URBAN_PLANNING_APIS ?= XKT001,XKT002,XKT003
 URBAN_PLANNING_AREA ?= capital
 URBAN_PLANNING_ZOOM ?= 13
+CRIME_INPUT ?=
 HAZARDS_CSV ?= data/processed/hazards/hazard_features.csv
 HAZARD_INPUT ?=
 HAZARD_URL ?=
@@ -74,7 +75,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-land-prices collect-population-stats collect-rail-access collect-education-facilities collect-urban-planning collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-land-prices collect-population-stats collect-rail-access collect-education-facilities collect-urban-planning collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -113,6 +114,8 @@ help:
 	@echo "                          学校区・学校・保育園データを取得してCSV化"
 	@echo "  make collect-urban-planning"
 	@echo "                          用途地域・都市計画データを取得してCSV化"
+	@echo "  make collect-crime-stats CRIME_INPUT=path/to/crime.csv"
+	@echo "                          自治体単位の犯罪統計CSVを正規化"
 	@echo "  make collect-hazards HAZARD_INPUT=path/to/hazards.json"
 	@echo "                          ハザード情報を正規化して学習用CSV化"
 	@echo "  make collect-data       不動産CSV、2015年以降のJCSC、駅別乗降客数をまとめて取得"
@@ -257,6 +260,15 @@ collect-education-facilities:
 
 collect-urban-planning:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --area $(URBAN_PLANNING_AREA) --zoom $(URBAN_PLANNING_ZOOM) --cache
+
+collect-crime-stats:
+	cd $(TRAINING_DIR) && \
+	if [ -n "$(CRIME_INPUT)" ]; then \
+		$(TRAINING_PYTHON) src/collect/crime_stats.py --input "$(CRIME_INPUT)"; \
+	else \
+		echo "CRIME_INPUT is required"; \
+		exit 1; \
+	fi
 
 collect-hazards:
 	cd $(TRAINING_DIR) && \

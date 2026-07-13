@@ -9,6 +9,7 @@ from features.commercial_facilities import (
     add_commercial_facility_features,
     load_commercial_facilities_csv,
 )
+from features.crime_stats import CRIME_FEATURES, add_crime_features, load_crime_stats_csv
 from features.hazards import HAZARD_FEATURES, add_hazard_features, load_hazard_features_csv
 from features.land_prices import (
     LAND_PRICE_FEATURES,
@@ -228,6 +229,27 @@ class UrbanPlanningProvider:
         return result
 
 
+@dataclass
+class CrimeStatsProvider:
+    csv_path: Path = Path("data/processed/crime/crime_municipality.csv")
+    population_stats_csv_path: Path = Path("data/processed/population/municipality_population.csv")
+    output_features: list[str] = field(default_factory=lambda: list(CRIME_FEATURES))
+
+    def fit(self, df) -> None:
+        if not self.csv_path.exists():
+            raise FileNotFoundError(f"Crime stats CSV not found: {self.csv_path}")
+        self._crime_stats = load_crime_stats_csv(self.csv_path)
+        if self.population_stats_csv_path.exists():
+            self._population_stats = load_population_stats_csv(self.population_stats_csv_path)
+        else:
+            self._population_stats = None
+
+    def transform(self, df, context: dict):
+        result = add_crime_features(df, self._crime_stats, self._population_stats)
+        _store_output_features(context, result, self.output_features)
+        return result
+
+
 def create_mvp_feature_pipeline() -> FeaturePipeline:
     return FeaturePipeline(
         providers=[
@@ -250,6 +272,7 @@ def create_external_feature_pipeline(
     population_stats_csv: str | None = None,
     rail_access_csv: str | None = None,
     urban_planning_csv: str | None = None,
+    crime_stats_csv: str | None = None,
     commercial_data_start_year: int = 2015,
 ) -> FeaturePipeline | None:
     providers: list[IFeatureProvider] = []
@@ -311,6 +334,17 @@ def create_external_feature_pipeline(
                     urban_planning_csv
                     or "data/processed/urban_planning/urban_planning_areas.csv"
                 )
+            )
+        )
+
+    if not requested_features.isdisjoint(CRIME_FEATURES):
+        providers.append(
+            CrimeStatsProvider(
+                csv_path=Path(crime_stats_csv or "data/processed/crime/crime_municipality.csv"),
+                population_stats_csv_path=Path(
+                    population_stats_csv
+                    or "data/processed/population/municipality_population.csv"
+                ),
             )
         )
 
