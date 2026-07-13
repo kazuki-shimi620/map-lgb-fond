@@ -678,23 +678,33 @@ def main() -> int:
     parser.add_argument("--run-id", default="latest")
     parser.add_argument("--cache", action="store_true")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--timeout-seconds", type=int, default=30)
     parser.add_argument("--max-retries", type=int, default=5)
     parser.add_argument("--request-interval-seconds", type=float, default=1.0)
     parser.add_argument("--progress-interval", type=int, default=100)
     args = parser.parse_args()
 
-    load_env_file(Path(__file__).resolve().parents[2] / ".env")
-    api_key = os.getenv(REINFOLIB_API_KEY_ENV)
-    if not api_key:
-        print(f"land price collect failed: {REINFOLIB_API_KEY_ENV} is not set", file=sys.stderr)
-        return 1
-
     try:
         tiles = build_tiles(args)
+        years = _parse_years(args.years)
+        if args.dry_run:
+            print(
+                "land price dry-run: "
+                f"tiles={len(tiles)} years={len(years)} requests={len(tiles) * len(years)} "
+                f"area={args.area} zoom={args.zoom}"
+            )
+            return 0
+
+        load_env_file(Path(__file__).resolve().parents[2] / ".env")
+        api_key = os.getenv(REINFOLIB_API_KEY_ENV)
+        if not api_key:
+            print(f"land price collect failed: {REINFOLIB_API_KEY_ENV} is not set", file=sys.stderr)
+            return 1
+
         outputs = collect_land_prices(
             tiles=tiles,
-            years=_parse_years(args.years),
+            years=years,
             raw_dir=args.raw_dir,
             processed_dir=args.processed_dir,
             cache_dir=args.cache_dir,
