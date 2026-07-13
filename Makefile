@@ -34,6 +34,10 @@ LAND_PRICE_REQUEST_INTERVAL_SECONDS ?= 1.0
 LAND_PRICE_POINTS_CSV ?= data/processed/land_prices/land_price_points.csv
 LAND_PRICE_CITY_SUMMARY_CSV ?= data/processed/land_prices/land_price_city_summary.csv
 POPULATION_INPUT ?=
+ESTAT_STATS_DATA_ID ?=
+ESTAT_AREA_CODES ?=
+ESTAT_TIME_CODES ?=
+ESTAT_ITEMS ?=
 POPULATION_STATS_CSV ?= data/processed/population/municipality_population.csv
 HAZARDS_CSV ?= data/processed/hazards/hazard_features.csv
 HAZARD_INPUT ?=
@@ -91,6 +95,8 @@ help:
 	@echo "                          地価公示・地価調査ポイントを取得してCSV化"
 	@echo "  make collect-population-stats POPULATION_INPUT=path/to/population.csv"
 	@echo "                          自治体人口統計CSVを正規化"
+	@echo "  make collect-population-stats ESTAT_STATS_DATA_ID=... ESTAT_ITEMS='population_total=cat01:001 ...'"
+	@echo "                          e-Stat APIから自治体人口統計CSVを生成"
 	@echo "  make collect-hazards HAZARD_INPUT=path/to/hazards.json"
 	@echo "                          ハザード情報を正規化して学習用CSV化"
 	@echo "  make collect-data       不動産CSV、2015年以降のJCSC、駅別乗降客数をまとめて取得"
@@ -214,8 +220,14 @@ collect-population-stats:
 	cd $(TRAINING_DIR) && \
 	if [ -n "$(POPULATION_INPUT)" ]; then \
 		$(TRAINING_PYTHON) src/collect/population_stats.py --input "$(POPULATION_INPUT)"; \
+	elif [ -n "$(ESTAT_STATS_DATA_ID)" ]; then \
+		$(TRAINING_PYTHON) src/collect/population_stats.py \
+			--estat-stats-data-id "$(ESTAT_STATS_DATA_ID)" \
+			--estat-area-codes $(ESTAT_AREA_CODES) \
+			--estat-time-codes $(ESTAT_TIME_CODES) \
+			$(foreach item,$(ESTAT_ITEMS),--estat-item "$(item)"); \
 	else \
-		echo "POPULATION_INPUT is required"; \
+		echo "POPULATION_INPUT or ESTAT_STATS_DATA_ID is required"; \
 		exit 1; \
 	fi
 

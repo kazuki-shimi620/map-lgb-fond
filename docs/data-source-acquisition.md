@@ -257,9 +257,9 @@ has_zoning_data
 
 公式仕様確認日: 2026-07-13。
 
-e-Stat APIはユーザー登録後に取得するアプリケーションIDを使う。現行のAPI仕様はバージョン3.0で、JSON、CSV、XML形式に対応する。HTTPSとgzipレスポンスに対応しているため、collectorでは `Accept-Encoding: gzip` を指定し、rawレスポンスを保存する。
+e-Stat APIはユーザー登録後に取得するアプリケーションIDを使う。現行のAPI仕様はバージョン3.0で、JSON、CSV、XML形式に対応する。HTTPSとgzipレスポンスに対応している。collectorでは `getStatsData` のJSONレスポンスを `training/data/raw/population/` に保存し、同じ正規化CSVへ落とす。
 
-初期実装では、e-Stat API直結の前に、自治体単位CSVを正規化できるcollectorを作る。理由は、e-Statの統計表ID、地域コード、年齢階級、時点が統計ごとに異なり、API実装より先にアプリ内の正規化スキーマを固定した方が安全なため。
+初期実装では、自治体単位CSVを正規化できる経路と、e-Stat APIレスポンスを正規化する経路を同じcollectorに持たせる。e-Statの統計表ID、地域コード、年齢階級、時点は統計ごとに異なるため、統計表IDをコードへ固定せず、項目マッピングを引数で渡す。
 
 初期入力CSVスキーマ:
 
@@ -280,6 +280,24 @@ source_url
 ```
 
 collectorは、上記CSVを `municipality_population.csv` へ正規化する。e-Stat API実装後も同じ正規化スキーマへ落とす。
+
+CSV持ち込み:
+
+```bash
+make collect-population-stats POPULATION_INPUT=path/to/population.csv
+```
+
+e-Stat API直結:
+
+```bash
+ESTAT_APP_ID=... make collect-population-stats \
+  ESTAT_STATS_DATA_ID=0000000000 \
+  ESTAT_AREA_CODES="13101 13102" \
+  ESTAT_TIME_CODES="2020000000 2025000000" \
+  ESTAT_ITEMS="population_total=cat01:001 households_total=cat01:002 population_under_15=cat01:003 population_15_to_64=cat01:004 population_65_plus=cat01:005"
+```
+
+`ESTAT_ITEMS` は `正規化列=次元:コード` の形式で指定する。統計表によって年齢階級や男女区分の次元が変わる場合は、`population_total=cat01:001,cat02:000` のように複数条件を指定する。
 
 e-Stat API実装時の候補:
 

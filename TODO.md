@@ -107,7 +107,7 @@ P3 = 将来拡張または検証後に着手するもの
 * [ ] e-Stat APIで使う統計表ID、地域コード、年度、取得粒度を調査し、自治体単位の初期仕様を決める
 * [x] `training/src/collect/population_stats.py` の設計を固め、人口・世帯数・年齢構成の正規化CSVスキーマを決める
 * [x] 自治体人口統計CSVを正規化し、人口、世帯数、人口密度、高齢化率、生産年齢人口比率を生成するcollectorを実装する
-* [ ] e-Stat APIから自治体人口統計CSVを直接生成するcollectorを実装する
+* [x] e-Stat APIから自治体人口統計CSVを直接生成するcollectorを実装する
 * [ ] 不動産情報ライブラリ `XKT013` の将来推計人口250mメッシュを使うか、自治体単位に留めるか比較方針を決める
 * [x] `FeatureProvider` に人口統計特徴量を追加し、人口変化率を比較候補にする
 * [x] `make compare-population-features` で人口統計特徴量の単独効果と `station` なし構成を比較できるようにする
