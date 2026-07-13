@@ -97,8 +97,8 @@ P3 = 将来拡張または検証後に着手するもの
 * [x] `training/src/collect/land_prices.py` の設計を固め、raw/processed/cache/error logの出力形式を決める
 * [x] 地価公示・基準地価collectorを実装する
 * [ ] `make collect-land-prices` で首都圏4県の地価ポイントCSVを生成する
-* [ ] 地価ポイントから市区町村平均、前年比、最寄地価ポイント距離を生成するFeatureBuilderを実装する
-* [ ] `FeatureProvider` に地価特徴量を追加し、欠損時の `has_land_price_data` を明示する
+* [x] 地価ポイントから市区町村平均、前年比、最寄地価ポイント距離を生成するFeatureBuilderを実装する
+* [x] `FeatureProvider` に地価特徴量を追加し、欠損時の `has_land_price_data` を明示する
 * [ ] 公示地価/基準地価を取得し、地価水準と地価変化率を比較する
 
 #### 人口・世帯数・年齢構成

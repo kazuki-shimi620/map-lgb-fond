@@ -13,21 +13,30 @@ def test_create_external_feature_pipeline_registers_requested_providers(tmp_path
     station_csv = tmp_path / "station_groups.csv"
     commercial_csv = tmp_path / "jcsc_sc_open.csv"
     hazard_csv = tmp_path / "hazard_features.csv"
+    land_prices_dir = tmp_path / "land_prices"
 
     pipeline = create_external_feature_pipeline(
         requested_features={
             "station_passenger_log",
             "sc_city_open_count_cumulative",
             "hazard_overall_score",
+            "land_price_city_avg_yen_per_sqm",
         },
         station_passengers_csv=str(station_csv),
         commercial_facilities_csv=str(commercial_csv),
         hazard_features_csv=str(hazard_csv),
+        land_prices_dir=str(land_prices_dir),
     )
 
     assert pipeline is not None
-    assert [provider.csv_path for provider in pipeline.providers] == [
+    assert [provider.csv_path for provider in pipeline.providers[:3]] == [
         station_csv,
         commercial_csv,
         hazard_csv,
     ]
+    land_price_provider = pipeline.providers[3]
+    assert land_price_provider.points_csv_path == land_prices_dir / "land_price_points.csv"
+    assert (
+        land_price_provider.city_summary_csv_path
+        == land_prices_dir / "land_price_city_summary.csv"
+    )

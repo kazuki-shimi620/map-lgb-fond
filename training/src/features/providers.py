@@ -10,6 +10,12 @@ from features.commercial_facilities import (
     load_commercial_facilities_csv,
 )
 from features.hazards import HAZARD_FEATURES, add_hazard_features, load_hazard_features_csv
+from features.land_prices import (
+    LAND_PRICE_FEATURES,
+    add_land_price_features,
+    load_land_price_city_summary_csv,
+    load_land_price_points_csv,
+)
 from features.station_passengers import (
     STATION_PASSENGER_FEATURES,
     add_station_passenger_features,
@@ -129,6 +135,36 @@ class HazardProvider:
         return result
 
 
+@dataclass
+class LandPriceProvider:
+    points_csv_path: Path = Path("data/processed/land_prices/land_price_points.csv")
+    city_summary_csv_path: Path = Path(
+        "data/processed/land_prices/land_price_city_summary.csv"
+    )
+    output_features: list[str] = field(default_factory=lambda: list(LAND_PRICE_FEATURES))
+
+    def fit(self, df) -> None:
+        if not self.points_csv_path.exists():
+            raise FileNotFoundError(f"Land price points CSV not found: {self.points_csv_path}")
+        if not self.city_summary_csv_path.exists():
+            raise FileNotFoundError(
+                f"Land price city summary CSV not found: {self.city_summary_csv_path}"
+            )
+        self._land_price_points = load_land_price_points_csv(self.points_csv_path)
+        self._land_price_city_summary = load_land_price_city_summary_csv(
+            self.city_summary_csv_path
+        )
+
+    def transform(self, df, context: dict):
+        result = add_land_price_features(
+            df,
+            self._land_price_points,
+            self._land_price_city_summary,
+        )
+        _store_output_features(context, result, self.output_features)
+        return result
+
+
 def create_mvp_feature_pipeline() -> FeaturePipeline:
     return FeaturePipeline(
         providers=[
@@ -147,6 +183,7 @@ def create_external_feature_pipeline(
     station_passengers_csv: str | None = None,
     commercial_facilities_csv: str | None = None,
     hazard_features_csv: str | None = None,
+    land_prices_dir: str | None = None,
     commercial_data_start_year: int = 2015,
 ) -> FeaturePipeline | None:
     providers: list[IFeatureProvider] = []
@@ -172,6 +209,15 @@ def create_external_feature_pipeline(
         providers.append(
             HazardProvider(
                 csv_path=Path(hazard_features_csv or "data/processed/hazards/hazard_features.csv")
+            )
+        )
+
+    if not requested_features.isdisjoint(LAND_PRICE_FEATURES):
+        base_dir = Path(land_prices_dir or "data/processed/land_prices")
+        providers.append(
+            LandPriceProvider(
+                points_csv_path=base_dir / "land_price_points.csv",
+                city_summary_csv_path=base_dir / "land_price_city_summary.csv",
             )
         )
 
