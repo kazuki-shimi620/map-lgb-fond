@@ -17,6 +17,7 @@
 | 駅別乗降客数 | `make collect-station-passengers` | `training/data/processed/station_passengers/station_groups.csv` |
 | ハザード情報 | `make collect-hazards HAZARD_INPUT=...` | `training/data/processed/hazards/hazard_features.csv` |
 | 周辺施設候補 | 未実装 | `docs/surrounding-features.md` で候補管理 |
+| 住みやすさ・将来性データ | 未実装 | `docs/data-source-acquisition.md` で取得設計を管理 |
 
 ハザード情報は自治体APIやダウンロード済みJSON/CSVを入力にし、学習側で正規化する。ブラウザから外部APIを直接呼ばない。
 
@@ -114,6 +115,8 @@ make compare-station-passenger-features
 駅規模特徴量は、`station` カテゴリを削る軽量モデルとの相性も確認する。
 
 大学、病院、大型公園、再開発エリアなどの周辺特徴量は、`docs/surrounding-features.md` の採用基準に沿って個別に比較する。
+
+地価公示・基準地価、人口統計、用途地域、学区、保育園、路線利便性、犯罪・治安などは、`docs/data-source-acquisition.md` の難易度分類と実装単位に沿って、collector設計から着手する。
 
 ---
 
