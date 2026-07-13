@@ -117,7 +117,7 @@ P3 = 将来拡張または検証後に着手するもの
 #### 路線利便性・ターミナル駅フラグ
 
 * [x] ターミナル駅リストと主要目的地駅リストを自前JSON/CSVとして設計する
-* [ ] Google Routes API、駅すぱあと、NAVITIMEは事前計算用途に限定し、料金・商用利用・キャッシュ可否を確認する
+* [x] Google Routes API、駅すぱあと、NAVITIMEは事前計算用途に限定し、料金・商用利用・キャッシュ可否を確認する
 * [x] `training/data/manual/rail/terminal_stations.csv` と `major_station_travel_times.csv` の初期fixtureを作る
 * [x] `training/src/collect/rail_access.py` の設計を固め、リアルタイムAPIなしで特徴量CSVを生成できるようにする
 * [x] `FeatureProvider` に主要駅所要時間、最短ターミナル所要時間、ターミナル駅フラグを追加する
