@@ -216,6 +216,30 @@ has_land_price_data
 * 不動産情報ライブラリ `XKT002`: 用途地域
 * 不動産情報ライブラリ `XKT003`: 立地適正化計画
 
+公式仕様確認日: 2026-07-14。
+
+API仕様:
+
+| API | 種別 | パラメータ | ズーム | 主な属性 | 初期用途 |
+| --- | --- | --- | --- | --- | --- |
+| `XKT001` | 都市計画区域/区域区分 | `response_format`, `z`, `x`, `y` | 11-15 | `prefecture`, `city_code`, `city_name`, `kubun_id`, `area_classification_ja` | 市街化区域/市街化調整区域などの区域区分 |
+| `XKT002` | 用途地域 | `response_format`, `z`, `x`, `y` | 11-15 | `youto_id`, `prefecture`, `city_code`, `city_name`, `use_area_ja`, `u_floor_area_ratio_ja`, `u_building_coverage_ratio_ja` | 用途地域、容積率、建ぺい率 |
+| `XKT003` | 立地適正化計画 | `response_format`, `z`, `x`, `y` | 11-15 | `prefecture`, `city_code`, `city_name`, `kubun_id`, `kubun_name_ja`, `area_classification_ja` | 居住誘導区域/都市機能誘導区域などの将来性説明 |
+
+取得方針:
+
+```text
+首都圏4県bbox
+↓
+XKT001 / XKT002 / XKT003 を z=13 から開始してXYZタイル取得
+↓
+raw GeoJSONをAPI・タイル単位で保存
+↓
+都市計画ポリゴンを normalized CSV へ保存
+↓
+取引地点または選択地点とポリゴンを結合し、用途地域特徴量を生成
+```
+
 初期collector:
 
 ```text
@@ -226,7 +250,47 @@ training/src/collect/urban_planning.py
 
 ```text
 training/data/raw/urban_planning/
+training/data/processed/urban_planning/urban_planning_areas.csv
 training/data/processed/urban_planning/zoning_features.csv
+training/data/processed/urban_planning/metadata.json
+```
+
+`urban_planning_areas.csv`:
+
+```text
+source_api
+area_type
+prefecture
+city_code
+city_name
+area_code
+area_name
+zoning_type
+floor_area_ratio
+building_coverage_ratio
+decision_date
+decision_classification
+decision_maker
+geometry_type
+geometry_json
+source_url
+```
+
+`zoning_features.csv`:
+
+```text
+prefecture
+municipality
+lat
+lon
+city_planning_area_type
+zoning_type
+is_commercial_zone
+is_residential_zone
+floor_area_ratio
+building_coverage_ratio
+location_optimization_area
+has_zoning_data
 ```
 
 特徴量候補:
@@ -242,7 +306,7 @@ has_zoning_data
 
 難易度: 低から中。
 
-ポリゴン属性を取引地点へ付与する必要があるため、地価ポイント取得の後に実装する。
+ポリゴン属性を取引地点へ付与する必要があるため、collectorとFeatureBuilderを分ける。初期は価格モデル特徴量としても参考表示としても価値が高い `XKT002` の用途地域、容積率、建ぺい率を優先し、`XKT001` と `XKT003` は表示・将来性説明の補助として扱う。
 
 ### 人口・世帯数・年齢構成
 
