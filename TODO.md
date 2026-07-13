@@ -13,6 +13,8 @@ P3 = 将来拡張または検証後に着手するもの
 
 当面はP0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/public/metadata`、`frontend/public/stations` の成果物反映、`make train-all PUBLISH_POLICY=latest` はP2として後でまとめて実施する。
 
+有料API、有料契約前提、料金不明、またはキャッシュ・再配布条件が曖昧な外部サービスは使わず、P3または調査保留へ回す。無料の公式APIやオープンデータだけを優先し、APIキーが必要な無料APIもブラウザから直接呼ばず学習側の取得処理に閉じ込める。
+
 コミットはTODOの細かい単位で行う。TODO以外の仕様書・実装ファイルは、関連するTODO単位で先にコミットしてよい。
 
 ## コード品質・運用安全性の改善
