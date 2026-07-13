@@ -255,6 +255,56 @@ has_zoning_data
 * e-Stat API: 国勢調査、住民基本台帳、人口推計
 * 不動産情報ライブラリ `XKT013`: 将来推計人口250mメッシュ
 
+公式仕様確認日: 2026-07-13。
+
+e-Stat APIはユーザー登録後に取得するアプリケーションIDを使う。現行のAPI仕様はバージョン3.0で、JSON、CSV、XML形式に対応する。HTTPSとgzipレスポンスに対応しているため、collectorでは `Accept-Encoding: gzip` を指定し、rawレスポンスを保存する。
+
+初期実装では、e-Stat API直結の前に、自治体単位CSVを正規化できるcollectorを作る。理由は、e-Statの統計表ID、地域コード、年齢階級、時点が統計ごとに異なり、API実装より先にアプリ内の正規化スキーマを固定した方が安全なため。
+
+初期入力CSVスキーマ:
+
+```text
+year
+prefecture
+municipality
+city_code
+population_total
+households_total
+population_density_per_km2
+population_under_15
+population_15_to_64
+population_65_plus
+area_km2
+source
+source_url
+```
+
+collectorは、上記CSVを `municipality_population.csv` へ正規化する。e-Stat API実装後も同じ正規化スキーマへ落とす。
+
+e-Stat API実装時の候補:
+
+| 段階 | 方針 |
+| --- | --- |
+| 統計表検索 | `getStatsList` で国勢調査、住民基本台帳、人口推計の候補を調査 |
+| メタ情報取得 | `getMetaInfo` で地域階層、年齢階級、男女、時点を固定 |
+| 統計データ取得 | `getStatsData` で市区町村単位、必要項目だけ取得 |
+| raw保存 | APIレスポンスJSON/CSVを `training/data/raw/population/` へ保存 |
+| 正規化 | 統計表ごとの階級名をアプリ共通列へマッピング |
+
+アプリケーションID:
+
+```text
+ESTAT_APP_ID
+```
+
+環境変数または `training/.env` から読み込む。ブラウザへは置かない。
+
+`XKT013` は将来推計人口250mメッシュとして扱う。初期のモデル比較では自治体単位の人口統計を優先し、メッシュは以下の条件がそろった後に追加する。
+
+* 取引データまたは推論地点に緯度経度がある
+* メッシュ集計の配布サイズが現実的
+* 将来人口を価格予測に入れても未来情報リークにならない年度設計ができる
+
 初期collector:
 
 ```text
@@ -265,8 +315,48 @@ training/src/collect/population_stats.py
 
 ```text
 training/data/raw/population/
+training/data/cache/population/
 training/data/processed/population/municipality_population.csv
 training/data/processed/population/population_mesh.csv
+training/data/processed/population/metadata.json
+```
+
+正規化CSVスキーマ:
+
+```text
+year
+prefecture
+municipality
+city_code
+population_total
+households_total
+population_density_per_km2
+aging_rate
+working_age_rate
+under_15_rate
+population_change_5y_rate
+household_persons_avg
+area_km2
+source
+source_url
+```
+
+collector設計:
+
+```text
+入力CSVまたはe-Stat APIレスポンス
+↓
+year / city_code / municipality を標準化
+↓
+年齢階級を 0-14 / 15-64 / 65+ に集約
+↓
+population_density_per_km2 がなければ population_total / area_km2 で算出
+↓
+aging_rate / working_age_rate / under_15_rate を算出
+↓
+city_code単位で5年前人口を結合し population_change_5y_rate を算出
+↓
+municipality_population.csv と metadata.json を生成
 ```
 
 特徴量候補:
