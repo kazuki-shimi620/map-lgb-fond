@@ -42,6 +42,10 @@ POPULATION_STATS_CSV ?= data/processed/population/municipality_population.csv
 RAIL_TERMINAL_STATIONS_CSV ?= data/manual/rail/terminal_stations.csv
 RAIL_TRAVEL_TIMES_CSV ?= data/manual/rail/major_station_travel_times.csv
 RAIL_ACCESS_CSV ?= data/processed/rail/rail_access.csv
+EDUCATION_APIS ?= XKT004,XKT005,XKT006,XKT007
+EDUCATION_AREA ?= capital
+EDUCATION_ZOOM ?= 13
+EDUCATION_ADMINISTRATIVE_AREA_CODES ?=
 HAZARDS_CSV ?= data/processed/hazards/hazard_features.csv
 HAZARD_INPUT ?=
 HAZARD_URL ?=
@@ -67,7 +71,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-land-prices collect-population-stats collect-rail-access collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-land-prices collect-population-stats collect-rail-access collect-education-facilities collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -102,6 +106,8 @@ help:
 	@echo "                          e-Stat APIから自治体人口統計CSVを生成"
 	@echo "  make collect-rail-access"
 	@echo "                          路線利便性の手動マスタから特徴量CSVを生成"
+	@echo "  make collect-education-facilities"
+	@echo "                          学校区・学校・保育園データを取得してCSV化"
 	@echo "  make collect-hazards HAZARD_INPUT=path/to/hazards.json"
 	@echo "                          ハザード情報を正規化して学習用CSV化"
 	@echo "  make collect-data       不動産CSV、2015年以降のJCSC、駅別乗降客数をまとめて取得"
@@ -240,6 +246,9 @@ collect-population-stats:
 
 collect-rail-access:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/rail_access.py --terminal-stations-csv "$(RAIL_TERMINAL_STATIONS_CSV)" --travel-times-csv "$(RAIL_TRAVEL_TIMES_CSV)"
+
+collect-education-facilities:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/education_facilities.py --apis "$(EDUCATION_APIS)" --area $(EDUCATION_AREA) --zoom $(EDUCATION_ZOOM) --administrative-area-codes "$(EDUCATION_ADMINISTRATIVE_AREA_CODES)" --cache
 
 collect-hazards:
 	cd $(TRAINING_DIR) && \
