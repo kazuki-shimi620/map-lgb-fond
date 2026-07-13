@@ -67,7 +67,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-land-prices collect-population-stats collect-rail-access collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-land-prices collect-population-stats collect-rail-access collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -145,6 +145,8 @@ help:
 	@echo "                          地価公示・基準地価特徴量のバックテストを実行"
 	@echo "  make compare-population-features"
 	@echo "                          人口統計特徴量のバックテストを実行"
+	@echo "  make compare-rail-access-features"
+	@echo "                          路線利便性特徴量のバックテストを実行"
 	@echo "  make compare-external-features"
 	@echo "                          商業施設、駅規模、ハザードの組み合わせバックテストを実行"
 	@echo "  make compare-train-start-years"
@@ -348,6 +350,9 @@ compare-land-price-features:
 
 compare-population-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_population_features.py --population-stats-csv "$(POPULATION_STATS_CSV)"
+
+compare-rail-access-features:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_rail_access_features.py --rail-access-csv "$(RAIL_ACCESS_CSV)"
 
 compare-external-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_external_features.py --hazards-csv "$(HAZARDS_CSV)"
