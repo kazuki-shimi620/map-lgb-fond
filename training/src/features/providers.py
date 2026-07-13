@@ -16,6 +16,11 @@ from features.land_prices import (
     load_land_price_city_summary_csv,
     load_land_price_points_csv,
 )
+from features.population_stats import (
+    POPULATION_FEATURES,
+    add_population_features,
+    load_population_stats_csv,
+)
 from features.station_passengers import (
     STATION_PASSENGER_FEATURES,
     add_station_passenger_features,
@@ -165,6 +170,22 @@ class LandPriceProvider:
         return result
 
 
+@dataclass
+class PopulationStatsProvider:
+    csv_path: Path = Path("data/processed/population/municipality_population.csv")
+    output_features: list[str] = field(default_factory=lambda: list(POPULATION_FEATURES))
+
+    def fit(self, df) -> None:
+        if not self.csv_path.exists():
+            raise FileNotFoundError(f"Population stats CSV not found: {self.csv_path}")
+        self._population_stats = load_population_stats_csv(self.csv_path)
+
+    def transform(self, df, context: dict):
+        result = add_population_features(df, self._population_stats)
+        _store_output_features(context, result, self.output_features)
+        return result
+
+
 def create_mvp_feature_pipeline() -> FeaturePipeline:
     return FeaturePipeline(
         providers=[
@@ -184,6 +205,7 @@ def create_external_feature_pipeline(
     commercial_facilities_csv: str | None = None,
     hazard_features_csv: str | None = None,
     land_prices_dir: str | None = None,
+    population_stats_csv: str | None = None,
     commercial_data_start_year: int = 2015,
 ) -> FeaturePipeline | None:
     providers: list[IFeatureProvider] = []
@@ -218,6 +240,16 @@ def create_external_feature_pipeline(
             LandPriceProvider(
                 points_csv_path=base_dir / "land_price_points.csv",
                 city_summary_csv_path=base_dir / "land_price_city_summary.csv",
+            )
+        )
+
+    if not requested_features.isdisjoint(POPULATION_FEATURES):
+        providers.append(
+            PopulationStatsProvider(
+                csv_path=Path(
+                    population_stats_csv
+                    or "data/processed/population/municipality_population.csv"
+                )
             )
         )
 

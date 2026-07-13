@@ -14,6 +14,7 @@ def test_create_external_feature_pipeline_registers_requested_providers(tmp_path
     commercial_csv = tmp_path / "jcsc_sc_open.csv"
     hazard_csv = tmp_path / "hazard_features.csv"
     land_prices_dir = tmp_path / "land_prices"
+    population_csv = tmp_path / "municipality_population.csv"
 
     pipeline = create_external_feature_pipeline(
         requested_features={
@@ -21,11 +22,13 @@ def test_create_external_feature_pipeline_registers_requested_providers(tmp_path
             "sc_city_open_count_cumulative",
             "hazard_overall_score",
             "land_price_city_avg_yen_per_sqm",
+            "municipality_population",
         },
         station_passengers_csv=str(station_csv),
         commercial_facilities_csv=str(commercial_csv),
         hazard_features_csv=str(hazard_csv),
         land_prices_dir=str(land_prices_dir),
+        population_stats_csv=str(population_csv),
     )
 
     assert pipeline is not None
@@ -40,3 +43,4 @@ def test_create_external_feature_pipeline_registers_requested_providers(tmp_path
         land_price_provider.city_summary_csv_path
         == land_prices_dir / "land_price_city_summary.csv"
     )
+    assert pipeline.providers[4].csv_path == population_csv
