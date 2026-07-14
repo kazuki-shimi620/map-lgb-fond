@@ -27,6 +27,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
   * [x] `make summarize-land-price-coverage` を追加し、取得後に地価水準・変化率・マッチ率・配布サイズを確認できるようにする
 * [ ] 人口・世帯数・人口密度・年齢構成を自治体単位で比較する
   * [x] 自治体人口統計CSVの入力スキーマ、テンプレート、生成ターゲットを追加する
+  * [x] `make summarize-population-coverage` を追加し、取得後に人口・世帯・人口密度・年齢構成・マッチ率・配布サイズを確認できるようにする
 * [ ] 用途地域データを取得し、用途地域、建ぺい率、容積率、区域区分のマッチ率と配布サイズを確認する
   * [x] `make collect-urban-planning-dry-run` を追加し、首都圏4県・z=13・3 APIで6,480リクエストになることを確認する
   * [x] `make collect-urban-planning-tile` を追加し、1タイル疎通できる導線を用意する
