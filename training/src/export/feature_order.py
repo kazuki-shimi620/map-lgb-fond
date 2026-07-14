@@ -66,12 +66,15 @@ def main() -> int:
 
 def validate_metadata_feature_order(path: Path) -> list[str]:
     metadata = json.loads(path.read_text(encoding="utf-8"))
+    feature_order = metadata.get("featureOrder", [])
     errors = validate_feature_names(
         path,
-        metadata.get("featureOrder", []),
+        feature_order,
         metadata.get("featureDefaults", {}),
     )
-    errors.extend(validate_feature_defaults(path, metadata.get("featureDefaults", {})))
+    errors.extend(
+        validate_feature_defaults(path, metadata.get("featureDefaults", {}), feature_order)
+    )
     return errors
 
 
@@ -92,7 +95,7 @@ def validate_frontend_artifact_contract(
     feature_defaults = metadata.get("featureDefaults", {})
 
     errors.extend(validate_feature_names(metadata_path, feature_order, feature_defaults))
-    errors.extend(validate_feature_defaults(metadata_path, feature_defaults))
+    errors.extend(validate_feature_defaults(metadata_path, feature_defaults, feature_order))
     errors.extend(validate_category_dictionary(categories_path, feature_order, categories))
 
     input_dimension = read_onnx_feature_dimension(model_path)
@@ -126,13 +129,20 @@ def validate_category_dictionary(
     return errors
 
 
-def validate_feature_defaults(path: Path, feature_defaults: dict) -> list[str]:
+def validate_feature_defaults(
+    path: Path,
+    feature_defaults: dict,
+    feature_order: list[str] | None = None,
+) -> list[str]:
     errors = []
     if not isinstance(feature_defaults, dict):
         return [f"{path}: featureDefaults must be an object"]
+    feature_names = set(feature_order or [])
     for feature_name, value in feature_defaults.items():
         if not isinstance(feature_name, str):
             errors.append(f"{path}: featureDefaults keys must be strings")
+        elif feature_order is not None and feature_name not in feature_names:
+            errors.append(f"{path}: featureDefaults.{feature_name} is not in featureOrder")
         if not isinstance(value, (int, float)) or isinstance(value, bool):
             errors.append(f"{path}: featureDefaults.{feature_name} must be numeric")
     return errors

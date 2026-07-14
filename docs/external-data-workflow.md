@@ -186,7 +186,7 @@ frontend/public/histories/
 make check-feature-order
 ```
 
-このコマンドは4都県の学習configと `frontend/public/metadata/*_latest_metadata.json` を確認する。ハザードなど、フロント推論入力に未対応の特徴量を追加した場合はここで検出する。
+このコマンドは4都県の学習configと `frontend/public/metadata/*_latest_metadata.json` を確認する。ハザードなど、フロント推論入力に未対応の特徴量を追加した場合はここで検出する。`featureDefaults` は `featureOrder` に含まれる特徴量だけ許可し、余ったdefault値が残っている場合も失敗させる。
 
 ---
 

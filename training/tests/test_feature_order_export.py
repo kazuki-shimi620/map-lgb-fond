@@ -58,6 +58,24 @@ def test_validate_metadata_feature_order_rejects_non_numeric_default(tmp_path) -
     assert "featureDefaults.experimental_feature" in errors[0]
 
 
+def test_validate_metadata_feature_order_rejects_unused_default(tmp_path) -> None:
+    metadata_path = tmp_path / "metadata.json"
+    metadata_path.write_text(
+        json.dumps(
+            {
+                "featureOrder": ["area"],
+                "featureDefaults": {"unused_feature": 0.0},
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    errors = validate_metadata_feature_order(metadata_path)
+
+    assert len(errors) == 1
+    assert "featureDefaults.unused_feature is not in featureOrder" in errors[0]
+
+
 def test_validate_config_features_reports_unsupported_features(tmp_path) -> None:
     config_path = tmp_path / "config.yaml"
     config_path.write_text(
