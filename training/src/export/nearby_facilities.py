@@ -143,7 +143,11 @@ def export_nearby_facilities(
 def write_csv_template(output: Path) -> Path:
     output.parent.mkdir(parents=True, exist_ok=True)
     with output.open("w", encoding="utf-8", newline="") as file:
-        writer = csv.DictWriter(file, fieldnames=NEARBY_FACILITY_FIELDNAMES)
+        writer = csv.DictWriter(
+            file,
+            fieldnames=NEARBY_FACILITY_FIELDNAMES,
+            lineterminator="\n",
+        )
         writer.writeheader()
     return output
 

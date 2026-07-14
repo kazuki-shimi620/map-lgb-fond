@@ -48,8 +48,7 @@ frontend/public/facilities/nearby_facilities.json
 テンプレートを再生成する場合:
 
 ```bash
-cd training
-uv run python -m src.export.nearby_facilities --write-template data/manual/facilities/nearby_facilities_template.csv
+make nearby-facilities-template
 ```
 
 ## 実データ投入時の注意
