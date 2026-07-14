@@ -11,7 +11,7 @@ import { interruptModelPrefetch } from "../model/modelManagerFactory";
 import { getRegionFromPrefecture, getStationRegionFromPrefecture } from "../../utils/region";
 
 const MAX_SUPPORTED_STATION_DISTANCE_KM = 30;
-const MAP_SELECTION_SCROLL_DELAY_MS = 2000;
+const MAP_SELECTION_SHEET_DELAY_MS = 300;
 const UNSUPPORTED_MAP_SELECTION_MESSAGE =
   "対応エリア外です。離島・海上などは現在対応していません。対応地域内の駅に近い地点を選択してください";
 
@@ -131,7 +131,7 @@ export function usePropertySelection({
       const nextRegion = getRegionFromPrefecture(nextPrefecture) ?? region;
       const elapsedMs = window.performance.now() - selectionStartedAt;
       const remainingMapMoveMs = Math.max(0, (options.mapMoveDurationMs ?? 0) - elapsedMs);
-      const scrollDelayMs = remainingMapMoveMs + MAP_SELECTION_SCROLL_DELAY_MS;
+      const scrollDelayMs = remainingMapMoveMs + MAP_SELECTION_SHEET_DELAY_MS;
       applyMapSelection({
         geocode,
         lat,

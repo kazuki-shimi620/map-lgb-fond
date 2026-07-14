@@ -129,3 +129,39 @@ export type CommercialFacilitySummary = {
   prefectures: Record<string, CommercialFacilityAreaSummary>;
   cities: Record<string, CommercialFacilityAreaSummary>;
 };
+
+export type NearbyFacilityCategoryId =
+  | "hospital"
+  | "supermarket"
+  | "commercial_facility"
+  | "park"
+  | "convenience_store";
+
+export type NearbyFacilityCategory = {
+  id: NearbyFacilityCategoryId;
+  label: string;
+  color: string;
+  enabled: boolean;
+};
+
+export type NearbyFacilityPoint = {
+  id: string;
+  categoryId: NearbyFacilityCategoryId;
+  name: string;
+  lat: number;
+  lon: number;
+  prefecture?: string;
+  municipality?: string;
+  address?: string;
+  source?: string;
+  updatedAt?: string;
+};
+
+export type NearbyFacilityCollection = {
+  schemaVersion: number;
+  source: string;
+  sourceLabel: string;
+  generatedAt: string | null;
+  categories: NearbyFacilityCategory[];
+  facilities: NearbyFacilityPoint[];
+};

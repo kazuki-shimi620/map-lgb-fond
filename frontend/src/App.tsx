@@ -88,8 +88,7 @@ export function App() {
   const {
     handleFormChange,
     handleMapSelect,
-    isSelectionSupported,
-    stationDistanceSource
+    isSelectionSupported
   } = usePropertySelection({
     form,
     setForm,
@@ -135,8 +134,13 @@ export function App() {
     result,
     stations
   });
-  const stationOptions = stations.map((station) => station.station_name);
   const selectedStation = stations.find((station) => station.station_name === form.station);
+  const locationSummary = {
+    prefecture: form.prefecture,
+    municipality: form.municipality,
+    station: form.station,
+    stationDistance: form.stationDistance
+  };
   const predictionSummary: PredictionSummary | undefined = region
     ? {
         station: form.station,
@@ -177,7 +181,12 @@ export function App() {
       ) : null}
 
       <div className={`layout form-sheet-${formSheetState}`}>
-        <PropertyMap lat={form.lat} lon={form.lon} onSelect={handleMapSelect} />
+        <PropertyMap
+          lat={form.lat}
+          lon={form.lon}
+          onSelect={handleMapSelect}
+          locationSummary={locationSummary}
+        />
         <div
           ref={sheetStackRef}
           className={`sheet-stack sheet-${formSheetState}`}
@@ -193,8 +202,6 @@ export function App() {
                 formRef={formPanelRef}
                 value={form}
                 onChange={handleFormChange}
-                stationOptions={stationOptions}
-                stationDistanceSource={stationDistanceSource}
                 sheetState={formSheetState}
               />
               <PredictionResultView result={result} />

@@ -8,16 +8,13 @@ import {
   type Ref
 } from "react";
 import type { PredictionFormState } from "../../types/prediction";
-import { supportedPrefectures } from "../../utils/region";
 import { buildingTypes, roomLayouts } from "./constants";
 
 type Props = {
   value: PredictionFormState;
   onChange: (next: PredictionFormState) => void;
-  stationOptions: string[];
   futureScenario: FutureScenario;
   onFutureScenarioChange: (next: FutureScenario) => void;
-  stationDistanceSource?: "map" | "manual";
   sheetState?: "collapsed" | "half" | "open";
   predictionYearRange?: {
     min: number;
@@ -29,8 +26,6 @@ type Props = {
 type PropertyConditionFormProps = {
   value: PredictionFormState;
   onChange: (next: PredictionFormState) => void;
-  stationOptions: string[];
-  stationDistanceSource?: "map" | "manual";
   sheetState?: "collapsed" | "half" | "open";
   formRef?: Ref<HTMLElement>;
 };
@@ -78,10 +73,8 @@ type SelectFieldProps = {
 export function PredictionForm({
   value,
   onChange,
-  stationOptions,
   futureScenario,
   onFutureScenarioChange,
-  stationDistanceSource = "manual",
   sheetState = "open",
   predictionYearRange,
   formRef
@@ -92,8 +85,6 @@ export function PredictionForm({
         formRef={formRef}
         value={value}
         onChange={onChange}
-        stationOptions={stationOptions}
-        stationDistanceSource={stationDistanceSource}
         sheetState={sheetState}
       />
       <ForecastControls
@@ -110,8 +101,6 @@ export function PredictionForm({
 export function PropertyConditionForm({
   value,
   onChange,
-  stationOptions,
-  stationDistanceSource = "manual",
   sheetState = "open",
   formRef
 }: PropertyConditionFormProps) {
@@ -125,28 +114,6 @@ export function PropertyConditionForm({
       className={`panel form-panel form-grid sheet-${sheetState}`}
       data-testid="prediction-form"
     >
-      <SelectField
-        label="都道府県"
-        value={value.prefecture}
-        options={supportedPrefectures}
-        onChange={(nextValue) => update("prefecture", nextValue)}
-      />
-
-      <label>
-        市区町村
-        <input value={value.municipality} onChange={(event) => update("municipality", event.target.value)} />
-      </label>
-
-      <label>
-        最寄駅
-        <input list="station-suggestions" value={value.station} onChange={(event) => update("station", event.target.value)} />
-        <datalist id="station-suggestions">
-          {stationOptions.map((station) => (
-            <option key={station} value={station} />
-          ))}
-        </datalist>
-      </label>
-
       <label>
         面積
         <input
@@ -165,20 +132,6 @@ export function PropertyConditionForm({
           value={value.age}
           onChange={(event) => update("age", Number(event.target.value))}
         />
-      </label>
-
-      <label>
-        駅徒歩
-        <input
-          type="number"
-          min="0"
-          step="any"
-          value={value.stationDistance}
-          onChange={(event) => update("stationDistance", Number(event.target.value))}
-        />
-        <span className="field-note">
-          {stationDistanceSource === "map" ? "地図から自動算出" : "手入力"}
-        </span>
       </label>
 
       <SelectField
@@ -235,6 +188,7 @@ export function PredictionSheetHandle({
   onSheetStateChange
 }: PredictionSheetHandleProps) {
   const dragState = useRef<{ pointerId: number; startY: number; didDrag: boolean } | null>(null);
+  const suppressNextClick = useRef(false);
 
   function handleDragStart(event: ReactPointerEvent<HTMLButtonElement>) {
     dragState.current = {
@@ -261,6 +215,7 @@ export function PredictionSheetHandle({
   }
 
   function handleDragEnd(event: ReactPointerEvent<HTMLButtonElement>) {
+    suppressNextClick.current = dragState.current?.didDrag ?? false;
     dragState.current = null;
     if (event.currentTarget.hasPointerCapture(event.pointerId)) {
       event.currentTarget.releasePointerCapture(event.pointerId);
@@ -279,13 +234,19 @@ export function PredictionSheetHandle({
       type="button"
       className="sheet-header"
       data-testid="sheet-handle"
-      aria-label={sheetState === "open" ? "条件入力フォームを下げる" : "条件入力フォームを上げる"}
+      aria-label={sheetState === "collapsed" ? "条件メニューを開く" : "条件メニューを閉じる"}
       onClick={(event) => {
         event.preventDefault();
+        if (suppressNextClick.current) {
+          suppressNextClick.current = false;
+          return;
+        }
+        onSheetStateChange(sheetState === "collapsed" ? "open" : "collapsed");
       }}
       onKeyDown={(event) => {
         if (event.key === "Enter" || event.key === " ") {
           event.preventDefault();
+          onSheetStateChange(sheetState === "collapsed" ? "open" : "collapsed");
         }
       }}
       onPointerDown={handleDragStart}
@@ -293,6 +254,7 @@ export function PredictionSheetHandle({
       onPointerUp={handleDragEnd}
       onPointerCancel={handleDragCancel}
     >
+      <span className="sidebar-title">条件・予測</span>
       <span className="sheet-handle" aria-hidden="true" />
     </button>
   );

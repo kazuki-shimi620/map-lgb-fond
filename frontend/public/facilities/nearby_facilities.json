@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "source": "not_generated",
+  "sourceLabel": "周辺施設データ未生成",
+  "generatedAt": null,
+  "categories": [
+    {
+      "id": "hospital",
+      "label": "病院",
+      "color": "#dc2626",
+      "enabled": true
+    },
+    {
+      "id": "supermarket",
+      "label": "スーパー",
+      "color": "#16a34a",
+      "enabled": true
+    },
+    {
+      "id": "commercial_facility",
+      "label": "商業施設",
+      "color": "#9333ea",
+      "enabled": true
+    },
+    {
+      "id": "park",
+      "label": "公園",
+      "color": "#15803d",
+      "enabled": true
+    },
+    {
+      "id": "convenience_store",
+      "label": "コンビニ",
+      "color": "#f97316",
+      "enabled": true
+    }
+  ],
+  "facilities": []
+}

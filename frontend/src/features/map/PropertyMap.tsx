@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState, type FormEvent } from "react";
-import { MapContainer, Marker, TileLayer, useMap, useMapEvents } from "react-leaflet";
+import { CircleMarker, MapContainer, Marker, TileLayer, Tooltip, useMap, useMapEvents } from "react-leaflet";
 import { Icon, type LatLngExpression } from "leaflet";
 import markerIcon2xUrl from "leaflet/dist/images/marker-icon-2x.png";
 import markerIconUrl from "leaflet/dist/images/marker-icon.png";
 import markerShadowUrl from "leaflet/dist/images/marker-shadow.png";
 import { searchPlace } from "../../services/geocodingService";
+import type { NearbyFacilityCategoryId, NearbyFacilityCollection } from "../../types/assets";
 
 type HazardLayerDefinition = {
   id: string;
@@ -34,6 +35,12 @@ type Props = {
   lat: number | null;
   lon: number | null;
   onSelect: (lat: number, lon: number, options?: { mapMoveDurationMs?: number }) => void;
+  locationSummary?: {
+    prefecture: string;
+    municipality: string;
+    station: string;
+    stationDistance: number;
+  };
 };
 
 const SEARCH_FLY_TO_DURATION_MS = 800;
@@ -70,7 +77,7 @@ function MapMover({ center }: { center: LatLngExpression | null }) {
   return null;
 }
 
-export function PropertyMap({ lat, lon, onSelect }: Props) {
+export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
   const center = useMemo<LatLngExpression>(() => [lat ?? 35.681236, lon ?? 139.767125], [lat, lon]);
   const [query, setQuery] = useState("");
   const [searchCenter, setSearchCenter] = useState<LatLngExpression | null>(null);
@@ -78,12 +85,26 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
   const [isSearching, setIsSearching] = useState(false);
   const [hazardConfig, setHazardConfig] = useState<HazardLayerConfig | null>(null);
   const [activeHazardLayerIds, setActiveHazardLayerIds] = useState<Set<string>>(new Set());
+  const [nearbyFacilities, setNearbyFacilities] = useState<NearbyFacilityCollection | null>(null);
+  const [activeFacilityCategoryIds, setActiveFacilityCategoryIds] = useState<Set<NearbyFacilityCategoryId>>(new Set());
 
   const hazardLayers = useMemo(
     () => hazardConfig?.layers.filter((layer) => layer.type === "raster" && layer.tileUrl) ?? [],
     [hazardConfig]
   );
   const activeHazardLayers = hazardLayers.filter((layer) => activeHazardLayerIds.has(layer.id));
+  const activeFacilityPoints = useMemo(() => {
+    if (!nearbyFacilities) {
+      return [];
+    }
+    return nearbyFacilities.facilities.filter((facility) =>
+      activeFacilityCategoryIds.has(facility.categoryId)
+    );
+  }, [activeFacilityCategoryIds, nearbyFacilities]);
+  const facilityCategoryById = useMemo(() => {
+    const entries = nearbyFacilities?.categories.map((category) => [category.id, category] as const) ?? [];
+    return new Map(entries);
+  }, [nearbyFacilities]);
 
   useEffect(() => {
     if (!searchStatus) {
@@ -96,32 +117,53 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
   useEffect(() => {
     let disposed = false;
 
-    async function loadHazardLayers() {
+    async function loadMapLayers() {
       try {
         const response = await fetch("./hazards/layers.json");
         if (!response.ok) {
-          return;
+          throw new Error("hazard config not found");
         }
         const config = (await response.json()) as HazardLayerConfig;
-        if (disposed) {
-          return;
+        if (!disposed) {
+          setHazardConfig(config);
+          setActiveHazardLayerIds(
+            new Set(
+              config.layers
+                .filter((layer) => layer.enabled && layer.tileUrl)
+                .map((layer) => layer.id)
+            )
+          );
         }
-        setHazardConfig(config);
-        setActiveHazardLayerIds(
-          new Set(
-            config.layers
-              .filter((layer) => layer.enabled && layer.tileUrl)
-              .map((layer) => layer.id)
-          )
-        );
       } catch {
         if (!disposed) {
           setHazardConfig(null);
         }
       }
+
+      try {
+        const response = await fetch("./facilities/nearby_facilities.json");
+        if (!response.ok) {
+          throw new Error("facility config not found");
+        }
+        const collection = (await response.json()) as NearbyFacilityCollection;
+        if (!disposed) {
+          setNearbyFacilities(collection);
+          setActiveFacilityCategoryIds(
+            new Set(
+              collection.categories
+                .filter((category) => category.enabled)
+                .map((category) => category.id)
+            )
+          );
+        }
+      } catch {
+        if (!disposed) {
+          setNearbyFacilities(null);
+        }
+      }
     }
 
-    loadHazardLayers();
+    loadMapLayers();
 
     return () => {
       disposed = true;
@@ -135,6 +177,18 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
         next.delete(layerId);
       } else {
         next.add(layerId);
+      }
+      return next;
+    });
+  }
+
+  function toggleFacilityCategory(categoryId: NearbyFacilityCategoryId) {
+    setActiveFacilityCategoryIds((current) => {
+      const next = new Set(current);
+      if (next.has(categoryId)) {
+        next.delete(categoryId);
+      } else {
+        next.add(categoryId);
       }
       return next;
     });
@@ -203,14 +257,101 @@ export function PropertyMap({ lat, lon, onSelect }: Props) {
               zIndex={300 + index}
             />
           ))}
+          {activeFacilityPoints.map((facility) => {
+            const category = facilityCategoryById.get(facility.categoryId);
+            const color = category?.color ?? "#0f766e";
+            return (
+              <CircleMarker
+                key={facility.id}
+                center={[facility.lat, facility.lon]}
+                pathOptions={{
+                  color,
+                  fillColor: color,
+                  fillOpacity: 0.85,
+                  weight: 2
+                }}
+                radius={7}
+                eventHandlers={{
+                  click(event) {
+                    event.originalEvent.stopPropagation();
+                  }
+                }}
+              >
+                <Tooltip className="facility-marker-tooltip" direction="top" offset={[0, -8]}>
+                  <strong>{facility.name}</strong>
+                  <span>{category?.label ?? "周辺施設"}</span>
+                  {facility.address ? <small>{facility.address}</small> : null}
+                </Tooltip>
+              </CircleMarker>
+            );
+          })}
           <ClickHandler onSelect={handleMapSelect} />
-          {lat !== null && lon !== null ? <Marker icon={propertyMarkerIcon} position={[lat, lon]} /> : null}
+          {lat !== null && lon !== null ? (
+            <Marker icon={propertyMarkerIcon} position={[lat, lon]}>
+              {locationSummary ? (
+                <Tooltip
+                  className="map-location-tooltip"
+                  direction="top"
+                  offset={[0, -38]}
+                  opacity={1}
+                  permanent
+                >
+                  <dl className="map-location-popup">
+                    <div>
+                      <dt>都道府県</dt>
+                      <dd>{locationSummary.prefecture || "-"}</dd>
+                    </div>
+                    <div>
+                      <dt>市区町村</dt>
+                      <dd>{locationSummary.municipality || "-"}</dd>
+                    </div>
+                    <div>
+                      <dt>最寄駅</dt>
+                      <dd>{locationSummary.station || "-"}</dd>
+                    </div>
+                    <div>
+                      <dt>駅徒歩</dt>
+                      <dd>{Math.round(locationSummary.stationDistance)}分</dd>
+                    </div>
+                  </dl>
+                </Tooltip>
+              ) : null}
+            </Marker>
+          ) : null}
         </MapContainer>
+        {nearbyFacilities ? (
+          <div className="facility-layer-control" aria-label="周辺施設レイヤー" data-testid="facility-layer-control">
+            <strong>周辺施設</strong>
+            {nearbyFacilities.categories.map((category) => {
+              const count = nearbyFacilities.facilities.filter(
+                (facility) => facility.categoryId === category.id
+              ).length;
+              return (
+                <label className="map-layer-toggle" key={category.id}>
+                  <input
+                    type="checkbox"
+                    checked={activeFacilityCategoryIds.has(category.id)}
+                    disabled={count === 0}
+                    onChange={() => toggleFacilityCategory(category.id)}
+                  />
+                  <span className="facility-layer-swatch" style={{ backgroundColor: category.color }} aria-hidden="true" />
+                  <span>{category.label}</span>
+                  <small>{count}件</small>
+                </label>
+              );
+            })}
+            {nearbyFacilities.facilities.length === 0 ? (
+              <p>周辺施設データは未生成です。</p>
+            ) : (
+              <p>出典: {nearbyFacilities.sourceLabel}</p>
+            )}
+          </div>
+        ) : null}
         {hazardLayers.length > 0 && hazardConfig ? (
           <div className="hazard-layer-control" aria-label="ハザードレイヤー" data-testid="hazard-layer-control">
             <strong>ハザード</strong>
             {hazardLayers.map((layer) => (
-              <label className="hazard-layer-toggle" key={layer.id}>
+              <label className="map-layer-toggle" key={layer.id}>
                 <input
                   type="checkbox"
                   checked={activeHazardLayerIds.has(layer.id)}
