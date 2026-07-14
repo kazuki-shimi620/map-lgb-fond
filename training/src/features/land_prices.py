@@ -122,7 +122,7 @@ def _build_nearest_point_features(property_df, points_df):
         lon = _getattr(row, "lon")
         year = _getattr(row, "transaction_year")
         prefecture = _getattr(row, "prefecture")
-        if lat is None or lon is None or year is None:
+        if _is_missing_number(lat) or _is_missing_number(lon) or year is None:
             rows.append(_empty_nearest_features())
             continue
         scoped = points[(points["year"] <= int(year)) & (points["prefecture"] == prefecture)]
@@ -139,7 +139,10 @@ def _build_nearest_point_features(property_df, points_df):
                 point["lon"],
             ),
             axis=1,
-        )
+        ).dropna()
+        if distances.empty:
+            rows.append(_empty_nearest_features())
+            continue
         nearest_index = distances.idxmin()
         within_2km = float((distances <= 2.0).sum())
         nearest = scoped.loc[nearest_index]
@@ -174,6 +177,15 @@ def _weighted_average(df, value_column: str, weight_column: str) -> float:
     if weights.sum() == 0:
         return float(values[value_column].astype(float).mean())
     return float((values[value_column].astype(float) * weights).sum() / weights.sum())
+
+
+def _is_missing_number(value: object) -> bool:
+    if value is None:
+        return True
+    try:
+        return math.isnan(float(value))
+    except (TypeError, ValueError):
+        return True
 
 
 def _fill_missing_land_price_features(result):

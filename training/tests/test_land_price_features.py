@@ -90,5 +90,37 @@ def test_add_land_price_features_adds_nearest_point_when_coordinates_exist() -> 
     assert actual.loc[0, "has_land_price_data"] == 1.0
 
 
+def test_add_land_price_features_handles_missing_property_coordinates() -> None:
+    properties = pd.DataFrame(
+        [
+            {
+                "prefecture": "東京都",
+                "municipality": "未整備区",
+                "transaction_year": 2025,
+                "lat": None,
+                "lon": None,
+            }
+        ]
+    )
+    points = pd.DataFrame(
+        [
+            {
+                "year": 2025,
+                "prefecture": "東京都",
+                "municipality": "千代田区",
+                "lat": 35.6813,
+                "lon": 139.7672,
+                "current_price_yen_per_sqm": 3000.0,
+            }
+        ]
+    )
+
+    actual = add_land_price_features(properties, points, pd.DataFrame())
+
+    assert actual.loc[0, "nearest_land_price_yen_per_sqm"] == 0.0
+    assert actual.loc[0, "nearest_land_price_distance_km"] == 0.0
+    assert actual.loc[0, "has_land_price_data"] == 0.0
+
+
 def test_haversine_km_returns_zero_for_same_point() -> None:
     assert haversine_km(35.0, 139.0, 35.0, 139.0) == pytest.approx(0.0)
