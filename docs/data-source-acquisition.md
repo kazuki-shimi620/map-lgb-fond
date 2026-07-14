@@ -758,6 +758,14 @@ has_rail_access_data
 training/src/collect/crime_stats.py
 ```
 
+入力形式:
+
+* `.csv` / `.txt`: UTF-8 BOM付きCSVを含むカンマ区切り
+* `.tsv`: タブ区切り
+* `.xlsx`: 先頭シートの単純な表形式。標準ライブラリだけで読むため、結合セル、複数ヘッダー、注釈行がある公開Excelは事前に整形する
+
+2026-07-14時点で、CSV/TSV/XLSXのfixtureから `crime_municipality.csv` を生成できることを確認済み。全国統一の特徴量化は急がず、自治体ごとに無料公開データの粒度と列名を確認してから取り込む。
+
 出力:
 
 ```text
