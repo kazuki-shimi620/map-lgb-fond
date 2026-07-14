@@ -13,8 +13,8 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
 ### モデル採用判断
 
 * [ ] 新規外部特徴量を本番モデルへ入れる前に、各 `compare-*-features` のMAE/RMSE/MAPE、ONNXサイズ、辞書サイズ、Feature Importance、データマッチ率を一覧化する
-* [ ] 外部特徴量ごとに「モデル採用」「参考表示のみ」「保留/不採用」を決める採用表を作る
-* [ ] 本番モデル候補はまず `地価`、`用途地域`、`人口統計` を優先し、教育施設・犯罪統計は初期は参考表示優先で扱う
+* [x] 外部特徴量ごとに「モデル採用」「参考表示のみ」「保留/不採用」を決める採用表を作る
+* [x] 本番モデル候補はまず `地価`、`用途地域`、`人口統計` を優先し、教育施設・犯罪統計は初期は参考表示優先で扱う
 * [ ] 採用候補だけを `configs/*.yaml` の `features` / `categorical_features` に追加し、モデル再生成、metadata更新、TypeScript推論契約テスト、フロントbuildをまとめて実施する
 * [ ] `featureOrder` に新特徴量を追加する場合は、TypeScript側のエンコード対応、カテゴリ辞書、default値の必要性を同じPR/commitで確認する
 
