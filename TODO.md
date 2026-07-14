@@ -29,6 +29,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
 * [ ] 用途地域データを取得し、用途地域、建ぺい率、容積率、区域区分のマッチ率と配布サイズを確認する
   * [x] `make collect-urban-planning-dry-run` を追加し、首都圏4県・z=13・3 APIで6,480リクエストになることを確認する
   * [x] `make collect-urban-planning-tile` を追加し、1タイル疎通できる導線を用意する
+  * [x] `make summarize-urban-planning-coverage` を追加し、取得後にマッチ率と配布サイズを確認できるようにする
 * [ ] 教育施設データを取得し、小学校/中学校距離、保育園/幼稚園件数のマッチ率と表示価値を確認する
   * [x] `make collect-education-facilities-dry-run` を追加し、首都圏4県・z=13・4 APIで8,640リクエストになることを確認する
   * [x] `make collect-education-facilities-tile` を追加し、1タイル疎通できる導線を用意する
