@@ -41,6 +41,18 @@ CATEGORIES = [
 ]
 
 CATEGORY_IDS = {category["id"] for category in CATEGORIES}
+NEARBY_FACILITY_FIELDNAMES = [
+    "id",
+    "category_id",
+    "name",
+    "lat",
+    "lon",
+    "prefecture",
+    "municipality",
+    "address",
+    "source",
+    "updated_at",
+]
 
 
 def load_facility_rows(path: Path) -> list[dict[str, Any]]:
@@ -128,6 +140,14 @@ def export_nearby_facilities(
     return output
 
 
+def write_csv_template(output: Path) -> Path:
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with output.open("w", encoding="utf-8", newline="") as file:
+        writer = csv.DictWriter(file, fieldnames=NEARBY_FACILITY_FIELDNAMES)
+        writer.writeheader()
+    return output
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Export nearby facility markers for frontend map.")
     parser.add_argument(
@@ -142,7 +162,17 @@ def main() -> int:
     )
     parser.add_argument("--source", default="manual_or_processed")
     parser.add_argument("--source-label", default="周辺施設データ")
+    parser.add_argument(
+        "--write-template",
+        type=Path,
+        help="Write a nearby facility CSV template and exit.",
+    )
     args = parser.parse_args()
+
+    if args.write_template:
+        output = write_csv_template(args.write_template)
+        print(f"wrote nearby facilities template: {output}")
+        return 0
 
     try:
         output = export_nearby_facilities(

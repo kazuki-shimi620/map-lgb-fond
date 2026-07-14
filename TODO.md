@@ -31,6 +31,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
   * [x] `make collect-education-facilities-dry-run` を追加し、首都圏4県・z=13・4 APIで8,640リクエストになることを確認する
 * [x] 病院、スーパー、商業施設、公園、コンビニの周辺施設データを静的配信用JSONへ生成する
 * [ ] 病院、スーパー、商業施設、公園、コンビニの実データCSVを作成または取得する
+  * [x] 周辺施設CSVの入力スキーマ、テンプレート、exporterテストを追加する
 * [x] 犯罪統計は無料公開CSV/Excelがある自治体だけでfixture検証し、全国統一のモデル特徴量としては急がない
 
 ### 参考表示・UI
