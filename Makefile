@@ -26,6 +26,36 @@ PASSENGER_ZOOM ?= 11
 PASSENGER_NATIONAL_ZOOM ?= 11
 PASSENGER_REQUEST_INTERVAL_SECONDS ?= 1.0
 STATION_PASSENGERS_CSV ?= data/processed/station_passengers/station_groups.csv
+LAND_PRICE_YEARS ?= 2024,2025
+LAND_PRICE_AREA ?= capital
+LAND_PRICE_ZOOM ?= 14
+LAND_PRICE_TILE_Z ?= 14
+LAND_PRICE_TILE_X ?= 14550
+LAND_PRICE_TILE_Y ?= 6449
+LAND_PRICE_USE_CATEGORY_CODES ?= 00,05
+LAND_PRICE_REQUEST_INTERVAL_SECONDS ?= 1.0
+LAND_PRICE_POINTS_CSV ?= data/processed/land_prices/land_price_points.csv
+LAND_PRICE_CITY_SUMMARY_CSV ?= data/processed/land_prices/land_price_city_summary.csv
+POPULATION_INPUT ?=
+ESTAT_STATS_DATA_ID ?=
+ESTAT_AREA_CODES ?=
+ESTAT_TIME_CODES ?=
+ESTAT_ITEMS ?=
+POPULATION_STATS_CSV ?= data/processed/population/municipality_population.csv
+RAIL_TERMINAL_STATIONS_CSV ?= data/manual/rail/terminal_stations.csv
+RAIL_TRAVEL_TIMES_CSV ?= data/manual/rail/major_station_travel_times.csv
+RAIL_ACCESS_CSV ?= data/processed/rail/rail_access.csv
+NEARBY_FACILITIES_CSV ?= data/processed/facilities/nearby_facilities.csv
+NEARBY_FACILITIES_JSON ?= ../$(FRONTEND_DIR)/public/facilities/nearby_facilities.json
+EDUCATION_APIS ?= XKT004,XKT005,XKT006,XKT007
+EDUCATION_AREA ?= capital
+EDUCATION_ZOOM ?= 13
+EDUCATION_ADMINISTRATIVE_AREA_CODES ?=
+URBAN_PLANNING_APIS ?= XKT001,XKT002,XKT003
+URBAN_PLANNING_AREA ?= capital
+URBAN_PLANNING_ZOOM ?= 13
+CRIME_INPUT ?=
+HAZARDS_CSV ?= data/processed/hazards/hazard_features.csv
 HAZARD_INPUT ?=
 HAZARD_URL ?=
 FEATURE_ORDER_CONFIGS ?= configs/tokyo.yaml configs/kanagawa.yaml configs/saitama.yaml configs/chiba.yaml
@@ -50,7 +80,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-external-features compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-population-stats collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-urban-planning collect-urban-planning-dry-run collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities nearby-facilities stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -75,8 +105,34 @@ help:
 	@echo "                          JCSCオープンSC一覧を取得してJSON/CSV化"
 	@echo "  make collect-station-passengers PASSENGER_AREA=capital"
 	@echo "                          駅別乗降客数を取得してJSON/CSV化"
+	@echo "  make collect-station-passengers-dry-run PASSENGER_AREA=capital"
+	@echo "                          駅別乗降客数取得のリクエスト数を確認"
 	@echo "  make collect-station-passengers-national"
 	@echo "                          全国範囲の駅別乗降客数を取得してJSON/CSV化"
+	@echo "  make collect-station-passengers-national-dry-run"
+	@echo "                          全国範囲の駅別乗降客数取得リクエスト数を確認"
+	@echo "  make collect-land-prices LAND_PRICE_YEARS=2024,2025"
+	@echo "                          地価公示・地価調査ポイントを取得してCSV化"
+	@echo "  make collect-land-prices-dry-run LAND_PRICE_ZOOM=14"
+	@echo "                          地価ポイント取得のリクエスト数を確認"
+	@echo "  make collect-land-prices-tile LAND_PRICE_TILE_Z=14 LAND_PRICE_TILE_X=14550 LAND_PRICE_TILE_Y=6449"
+	@echo "                          地価ポイント取得を1タイルで疎通確認"
+	@echo "  make collect-population-stats POPULATION_INPUT=path/to/population.csv"
+	@echo "                          自治体人口統計CSVを正規化"
+	@echo "  make collect-population-stats ESTAT_STATS_DATA_ID=... ESTAT_ITEMS='population_total=cat01:001 ...'"
+	@echo "                          e-Stat APIから自治体人口統計CSVを生成"
+	@echo "  make collect-rail-access"
+	@echo "                          路線利便性の手動マスタから特徴量CSVを生成"
+	@echo "  make collect-education-facilities"
+	@echo "                          学校区・学校・保育園データを取得してCSV化"
+	@echo "  make collect-education-facilities-dry-run"
+	@echo "                          教育施設取得のリクエスト数を確認"
+	@echo "  make collect-urban-planning"
+	@echo "                          用途地域・都市計画データを取得してCSV化"
+	@echo "  make collect-urban-planning-dry-run"
+	@echo "                          用途地域・都市計画取得のリクエスト数を確認"
+	@echo "  make collect-crime-stats CRIME_INPUT=path/to/crime.csv"
+	@echo "                          自治体単位の犯罪統計CSVを正規化"
 	@echo "  make collect-hazards HAZARD_INPUT=path/to/hazards.json"
 	@echo "                          ハザード情報を正規化して学習用CSV化"
 	@echo "  make collect-data       不動産CSV、2015年以降のJCSC、駅別乗降客数をまとめて取得"
@@ -116,8 +172,16 @@ help:
 	@echo "                          JCSC商業施設特徴量のバックテストを実行"
 	@echo "  make compare-station-passenger-features"
 	@echo "                          駅別乗降客数特徴量のバックテストを実行"
+	@echo "  make compare-land-price-features"
+	@echo "                          地価公示・基準地価特徴量のバックテストを実行"
+	@echo "  make compare-population-features"
+	@echo "                          人口統計特徴量のバックテストを実行"
+	@echo "  make compare-rail-access-features"
+	@echo "                          路線利便性特徴量のバックテストを実行"
 	@echo "  make compare-external-features"
-	@echo "                          商業施設と駅規模の組み合わせバックテストを実行"
+	@echo "                          商業施設、駅規模、ハザードの組み合わせバックテストを実行"
+	@echo "  make compare-train-start-years"
+	@echo "                          学習開始年を複数holdout年で比較"
 	@echo "  make compare-outlier-filters"
 	@echo "                          外れ値処理候補のバックテストを実行"
 	@echo "  make summarize-edge-cases REGION=tokyo"
@@ -184,8 +248,62 @@ collect-sc-all:
 collect-station-passengers:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area $(PASSENGER_AREA) --zoom $(PASSENGER_ZOOM) --request-interval-seconds $(PASSENGER_REQUEST_INTERVAL_SECONDS) --cache
 
+collect-station-passengers-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area $(PASSENGER_AREA) --zoom $(PASSENGER_ZOOM) --dry-run
+
 collect-station-passengers-national:
 	$(MAKE) collect-station-passengers PASSENGER_AREA=japan PASSENGER_ZOOM=$(PASSENGER_NATIONAL_ZOOM) PASSENGER_REQUEST_INTERVAL_SECONDS=$(PASSENGER_REQUEST_INTERVAL_SECONDS)
+
+collect-station-passengers-national-dry-run:
+	$(MAKE) collect-station-passengers-dry-run PASSENGER_AREA=japan PASSENGER_ZOOM=$(PASSENGER_NATIONAL_ZOOM)
+
+collect-land-prices:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/land_prices.py --area $(LAND_PRICE_AREA) --zoom $(LAND_PRICE_ZOOM) --years "$(LAND_PRICE_YEARS)" --use-category-codes "$(LAND_PRICE_USE_CATEGORY_CODES)" --request-interval-seconds $(LAND_PRICE_REQUEST_INTERVAL_SECONDS) --cache
+
+collect-land-prices-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/land_prices.py --area $(LAND_PRICE_AREA) --zoom $(LAND_PRICE_ZOOM) --years "$(LAND_PRICE_YEARS)" --use-category-codes "$(LAND_PRICE_USE_CATEGORY_CODES)" --dry-run
+
+collect-land-prices-tile:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/land_prices.py --tile $(LAND_PRICE_TILE_Z) $(LAND_PRICE_TILE_X) $(LAND_PRICE_TILE_Y) --years "$(LAND_PRICE_YEARS)" --use-category-codes "$(LAND_PRICE_USE_CATEGORY_CODES)" --request-interval-seconds $(LAND_PRICE_REQUEST_INTERVAL_SECONDS) --cache
+
+collect-population-stats:
+	cd $(TRAINING_DIR) && \
+	if [ -n "$(POPULATION_INPUT)" ]; then \
+		$(TRAINING_PYTHON) src/collect/population_stats.py --input "$(POPULATION_INPUT)"; \
+	elif [ -n "$(ESTAT_STATS_DATA_ID)" ]; then \
+		$(TRAINING_PYTHON) src/collect/population_stats.py \
+			--estat-stats-data-id "$(ESTAT_STATS_DATA_ID)" \
+			--estat-area-codes $(ESTAT_AREA_CODES) \
+			--estat-time-codes $(ESTAT_TIME_CODES) \
+			$(foreach item,$(ESTAT_ITEMS),--estat-item "$(item)"); \
+	else \
+		echo "POPULATION_INPUT or ESTAT_STATS_DATA_ID is required"; \
+		exit 1; \
+	fi
+
+collect-rail-access:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/rail_access.py --terminal-stations-csv "$(RAIL_TERMINAL_STATIONS_CSV)" --travel-times-csv "$(RAIL_TRAVEL_TIMES_CSV)"
+
+collect-education-facilities:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/education_facilities.py --apis "$(EDUCATION_APIS)" --area $(EDUCATION_AREA) --zoom $(EDUCATION_ZOOM) --administrative-area-codes "$(EDUCATION_ADMINISTRATIVE_AREA_CODES)" --cache
+
+collect-education-facilities-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/education_facilities.py --apis "$(EDUCATION_APIS)" --area $(EDUCATION_AREA) --zoom $(EDUCATION_ZOOM) --administrative-area-codes "$(EDUCATION_ADMINISTRATIVE_AREA_CODES)" --dry-run
+
+collect-urban-planning:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --area $(URBAN_PLANNING_AREA) --zoom $(URBAN_PLANNING_ZOOM) --cache
+
+collect-urban-planning-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --area $(URBAN_PLANNING_AREA) --zoom $(URBAN_PLANNING_ZOOM) --dry-run
+
+collect-crime-stats:
+	cd $(TRAINING_DIR) && \
+	if [ -n "$(CRIME_INPUT)" ]; then \
+		$(TRAINING_PYTHON) src/collect/crime_stats.py --input "$(CRIME_INPUT)"; \
+	else \
+		echo "CRIME_INPUT is required"; \
+		exit 1; \
+	fi
 
 collect-hazards:
 	cd $(TRAINING_DIR) && \
@@ -291,8 +409,20 @@ compare-commercial-features:
 compare-station-passenger-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_station_passenger_features.py
 
+compare-land-price-features:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_land_price_features.py --land-price-points-csv "$(LAND_PRICE_POINTS_CSV)" --land-price-city-summary-csv "$(LAND_PRICE_CITY_SUMMARY_CSV)"
+
+compare-population-features:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_population_features.py --population-stats-csv "$(POPULATION_STATS_CSV)"
+
+compare-rail-access-features:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_rail_access_features.py --rail-access-csv "$(RAIL_ACCESS_CSV)"
+
 compare-external-features:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_external_features.py
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_external_features.py --hazards-csv "$(HAZARDS_CSV)"
+
+compare-train-start-years:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_train_start_years.py
 
 compare-outlier-filters:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_outlier_filters.py
@@ -310,6 +440,9 @@ histories-national:
 
 facilities:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.commercial_facilities --output ../$(FRONTEND_DIR)/public/facilities/commercial_facilities.json
+
+nearby-facilities:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --input-csv "$(NEARBY_FACILITIES_CSV)" --output "$(NEARBY_FACILITIES_JSON)"
 
 stations:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public --regions $(REGIONS) --station-passengers-csv $(STATION_PASSENGERS_CSV)

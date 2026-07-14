@@ -10,7 +10,7 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from common.config import TrainingConfig, load_config  # noqa: E402
-from evaluate.metrics import calculate_metrics  # noqa: E402
+from evaluate.metrics import calculate_metrics, calculate_residual_quantiles  # noqa: E402
 from experiment.database import (  # noqa: E402
     complete_experiment,
     connect,
@@ -111,6 +111,7 @@ def main() -> int:
             )
             predictions = evaluation_model.predict(test_x)
             metrics = calculate_metrics(test_y, predictions)
+            residual_quantiles = calculate_residual_quantiles(test_y, predictions)
             deployment_model = train_model(
                 deployment_x,
                 deployment_y,
@@ -131,6 +132,7 @@ def main() -> int:
                     deployment_count=len(deployment_x),
                     model_params=model_params,
                     feature_importance=_build_feature_importance(deployment_model, config.features),
+                    residual_quantiles=residual_quantiles,
                     tuning_result=tuning_result,
                 ),
                 paths["metadata"],
@@ -318,6 +320,7 @@ def _build_metadata(
     deployment_count: int,
     model_params: dict[str, object],
     feature_importance: list[dict[str, object]],
+    residual_quantiles: dict[str, float],
     tuning_result: dict[str, object] | None,
 ) -> dict[str, object]:
     return {
@@ -334,6 +337,7 @@ def _build_metadata(
             "trainCount": train_count,
             "testCount": test_count,
             "metrics": metrics,
+            "residualQuantiles": residual_quantiles,
         },
         "deployment": {
             "trainStartYear": config.train_start_year,

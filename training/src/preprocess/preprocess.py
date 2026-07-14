@@ -8,7 +8,7 @@ SRC_ROOT = Path(__file__).resolve().parents[1]
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from preprocess.cleaning import preprocess_csv, preprocess_files
+from preprocess.cleaning import preprocess_csv, preprocess_files  # noqa: E402
 
 
 def main() -> int:

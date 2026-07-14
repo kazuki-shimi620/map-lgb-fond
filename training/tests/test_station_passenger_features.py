@@ -66,7 +66,9 @@ def test_add_station_passenger_features_uses_largest_same_name_station() -> None
     assert actual.loc[1, "station_rank"] == "unknown"
 
 
-def test_add_station_passenger_features_uses_nearest_same_name_station_when_coordinates_exist() -> None:
+def test_add_station_passenger_features_uses_nearest_same_name_station_when_coordinates_exist() -> (
+    None
+):
     properties = pd.DataFrame(
         [
             {

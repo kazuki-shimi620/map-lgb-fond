@@ -17,9 +17,7 @@ from evaluate.compare_national_models import (
 
 
 def test_regional_clusters_cover_all_prefectures_once():
-    prefectures = [
-        prefecture for cluster in REGIONAL_CLUSTERS.values() for prefecture in cluster
-    ]
+    prefectures = [prefecture for cluster in REGIONAL_CLUSTERS.values() for prefecture in cluster]
 
     assert len(prefectures) == 47
     assert len(set(prefectures)) == 47

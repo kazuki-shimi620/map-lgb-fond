@@ -9,22 +9,42 @@ from features.commercial_facilities import (
     add_commercial_facility_features,
     load_commercial_facilities_csv,
 )
+from features.crime_stats import CRIME_FEATURES, add_crime_features, load_crime_stats_csv
 from features.hazards import HAZARD_FEATURES, add_hazard_features, load_hazard_features_csv
+from features.land_prices import (
+    LAND_PRICE_FEATURES,
+    add_land_price_features,
+    load_land_price_city_summary_csv,
+    load_land_price_points_csv,
+)
+from features.population_stats import (
+    POPULATION_FEATURES,
+    add_population_features,
+    load_population_stats_csv,
+)
+from features.rail_access import (
+    RAIL_ACCESS_FEATURES,
+    add_rail_access_features,
+    load_rail_access_csv,
+)
 from features.station_passengers import (
     STATION_PASSENGER_FEATURES,
     add_station_passenger_features,
     load_station_passengers_csv,
+)
+from features.urban_planning import (
+    URBAN_PLANNING_FEATURES,
+    add_urban_planning_features,
+    load_urban_planning_areas_csv,
 )
 
 
 class IFeatureProvider(Protocol):
     output_features: list[str]
 
-    def fit(self, df) -> None:
-        ...
+    def fit(self, df) -> None: ...
 
-    def transform(self, df, context: dict):
-        ...
+    def transform(self, df, context: dict): ...
 
 
 @dataclass
@@ -131,6 +151,105 @@ class HazardProvider:
         return result
 
 
+@dataclass
+class LandPriceProvider:
+    points_csv_path: Path = Path("data/processed/land_prices/land_price_points.csv")
+    city_summary_csv_path: Path = Path(
+        "data/processed/land_prices/land_price_city_summary.csv"
+    )
+    output_features: list[str] = field(default_factory=lambda: list(LAND_PRICE_FEATURES))
+
+    def fit(self, df) -> None:
+        if not self.points_csv_path.exists():
+            raise FileNotFoundError(f"Land price points CSV not found: {self.points_csv_path}")
+        if not self.city_summary_csv_path.exists():
+            raise FileNotFoundError(
+                f"Land price city summary CSV not found: {self.city_summary_csv_path}"
+            )
+        self._land_price_points = load_land_price_points_csv(self.points_csv_path)
+        self._land_price_city_summary = load_land_price_city_summary_csv(
+            self.city_summary_csv_path
+        )
+
+    def transform(self, df, context: dict):
+        result = add_land_price_features(
+            df,
+            self._land_price_points,
+            self._land_price_city_summary,
+        )
+        _store_output_features(context, result, self.output_features)
+        return result
+
+
+@dataclass
+class PopulationStatsProvider:
+    csv_path: Path = Path("data/processed/population/municipality_population.csv")
+    output_features: list[str] = field(default_factory=lambda: list(POPULATION_FEATURES))
+
+    def fit(self, df) -> None:
+        if not self.csv_path.exists():
+            raise FileNotFoundError(f"Population stats CSV not found: {self.csv_path}")
+        self._population_stats = load_population_stats_csv(self.csv_path)
+
+    def transform(self, df, context: dict):
+        result = add_population_features(df, self._population_stats)
+        _store_output_features(context, result, self.output_features)
+        return result
+
+
+@dataclass
+class RailAccessProvider:
+    csv_path: Path = Path("data/processed/rail/rail_access.csv")
+    output_features: list[str] = field(default_factory=lambda: list(RAIL_ACCESS_FEATURES))
+
+    def fit(self, df) -> None:
+        if not self.csv_path.exists():
+            raise FileNotFoundError(f"Rail access CSV not found: {self.csv_path}")
+        self._rail_access = load_rail_access_csv(self.csv_path)
+
+    def transform(self, df, context: dict):
+        result = add_rail_access_features(df, self._rail_access)
+        _store_output_features(context, result, self.output_features)
+        return result
+
+
+@dataclass
+class UrbanPlanningProvider:
+    csv_path: Path = Path("data/processed/urban_planning/urban_planning_areas.csv")
+    output_features: list[str] = field(default_factory=lambda: list(URBAN_PLANNING_FEATURES))
+
+    def fit(self, df) -> None:
+        if not self.csv_path.exists():
+            raise FileNotFoundError(f"Urban planning CSV not found: {self.csv_path}")
+        self._urban_planning_areas = load_urban_planning_areas_csv(self.csv_path)
+
+    def transform(self, df, context: dict):
+        result = add_urban_planning_features(df, self._urban_planning_areas)
+        _store_output_features(context, result, self.output_features)
+        return result
+
+
+@dataclass
+class CrimeStatsProvider:
+    csv_path: Path = Path("data/processed/crime/crime_municipality.csv")
+    population_stats_csv_path: Path = Path("data/processed/population/municipality_population.csv")
+    output_features: list[str] = field(default_factory=lambda: list(CRIME_FEATURES))
+
+    def fit(self, df) -> None:
+        if not self.csv_path.exists():
+            raise FileNotFoundError(f"Crime stats CSV not found: {self.csv_path}")
+        self._crime_stats = load_crime_stats_csv(self.csv_path)
+        if self.population_stats_csv_path.exists():
+            self._population_stats = load_population_stats_csv(self.population_stats_csv_path)
+        else:
+            self._population_stats = None
+
+    def transform(self, df, context: dict):
+        result = add_crime_features(df, self._crime_stats, self._population_stats)
+        _store_output_features(context, result, self.output_features)
+        return result
+
+
 def create_mvp_feature_pipeline() -> FeaturePipeline:
     return FeaturePipeline(
         providers=[
@@ -149,6 +268,11 @@ def create_external_feature_pipeline(
     station_passengers_csv: str | None = None,
     commercial_facilities_csv: str | None = None,
     hazard_features_csv: str | None = None,
+    land_prices_dir: str | None = None,
+    population_stats_csv: str | None = None,
+    rail_access_csv: str | None = None,
+    urban_planning_csv: str | None = None,
+    crime_stats_csv: str | None = None,
     commercial_data_start_year: int = 2015,
 ) -> FeaturePipeline | None:
     providers: list[IFeatureProvider] = []
@@ -157,8 +281,7 @@ def create_external_feature_pipeline(
         providers.append(
             StationPassengerProvider(
                 csv_path=Path(
-                    station_passengers_csv
-                    or "data/processed/station_passengers/station_groups.csv"
+                    station_passengers_csv or "data/processed/station_passengers/station_groups.csv"
                 )
             )
         )
@@ -175,6 +298,53 @@ def create_external_feature_pipeline(
         providers.append(
             HazardProvider(
                 csv_path=Path(hazard_features_csv or "data/processed/hazards/hazard_features.csv")
+            )
+        )
+
+    if not requested_features.isdisjoint(LAND_PRICE_FEATURES):
+        base_dir = Path(land_prices_dir or "data/processed/land_prices")
+        providers.append(
+            LandPriceProvider(
+                points_csv_path=base_dir / "land_price_points.csv",
+                city_summary_csv_path=base_dir / "land_price_city_summary.csv",
+            )
+        )
+
+    if not requested_features.isdisjoint(POPULATION_FEATURES):
+        providers.append(
+            PopulationStatsProvider(
+                csv_path=Path(
+                    population_stats_csv
+                    or "data/processed/population/municipality_population.csv"
+                )
+            )
+        )
+
+    if not requested_features.isdisjoint(RAIL_ACCESS_FEATURES):
+        providers.append(
+            RailAccessProvider(
+                csv_path=Path(rail_access_csv or "data/processed/rail/rail_access.csv")
+            )
+        )
+
+    if not requested_features.isdisjoint(URBAN_PLANNING_FEATURES):
+        providers.append(
+            UrbanPlanningProvider(
+                csv_path=Path(
+                    urban_planning_csv
+                    or "data/processed/urban_planning/urban_planning_areas.csv"
+                )
+            )
+        )
+
+    if not requested_features.isdisjoint(CRIME_FEATURES):
+        providers.append(
+            CrimeStatsProvider(
+                csv_path=Path(crime_stats_csv or "data/processed/crime/crime_municipality.csv"),
+                population_stats_csv_path=Path(
+                    population_stats_csv
+                    or "data/processed/population/municipality_population.csv"
+                ),
             )
         )
 

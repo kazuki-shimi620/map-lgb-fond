@@ -102,8 +102,7 @@ def compare_models(
 
     data = pd.concat(frames, ignore_index=True)
     data = data[
-        (data["transaction_year"] >= train_start_year)
-        & (data["transaction_year"] <= test_year)
+        (data["transaction_year"] >= train_start_year) & (data["transaction_year"] <= test_year)
     ].copy()
     train_mask = data["transaction_year"] < test_year
     test_mask = data["transaction_year"] == test_year
@@ -160,9 +159,7 @@ def _published_baseline(regions: list[str], public_dir: Path) -> dict[str, objec
 
     test_count = sum(row["testCount"] for row in metrics)
     mae = sum(row["mae"] * row["testCount"] for row in metrics) / test_count
-    rmse = (
-        sum(row["rmse"] ** 2 * row["testCount"] for row in metrics) / test_count
-    ) ** 0.5
+    rmse = (sum(row["rmse"] ** 2 * row["testCount"] for row in metrics) / test_count) ** 0.5
     mape = sum(row["mape"] * row["testCount"] for row in metrics) / test_count
     return {
         "name": "published_prefecture_models",

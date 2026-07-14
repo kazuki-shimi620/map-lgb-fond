@@ -77,8 +77,7 @@ def update_model_manifest(frontend_public_dir: str | Path) -> Path:
     public = Path(frontend_public_dir)
     model_dir = public / "models"
     discovered = {
-        path.name.removesuffix("_latest.onnx"): path
-        for path in model_dir.glob("*_latest.onnx")
+        path.name.removesuffix("_latest.onnx"): path for path in model_dir.glob("*_latest.onnx")
     }
     ordered_regions = [region for region in CAPITAL_REGION_PRIORITY if region in discovered]
     ordered_regions.extend(sorted(set(discovered) - set(ordered_regions)))

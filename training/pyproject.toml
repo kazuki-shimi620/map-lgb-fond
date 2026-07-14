@@ -18,8 +18,9 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+  "mypy>=2.2.0",
   "pytest>=8.3.0",
-  "ruff>=0.8.0"
+  "ruff>=0.8.0",
 ]
 
 [tool.uv]
@@ -33,5 +34,18 @@ target-version = "py311"
 select = ["E", "F", "I", "UP", "B"]
 
 [tool.pytest.ini_options]
-pythonpath = ["src"]
+pythonpath = [".", "src"]
 testpaths = ["tests"]
+
+[tool.mypy]
+python_version = "3.12"
+mypy_path = "src"
+explicit_package_bases = true
+ignore_missing_imports = true
+check_untyped_defs = true
+files = [
+  "src/common/regions.py",
+  "src/export/feature_order.py",
+  "tests/test_feature_order_export.py",
+  "tests/test_frontend_artifact_contract.py"
+]

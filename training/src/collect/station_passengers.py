@@ -127,9 +127,7 @@ def enumerate_tiles(bbox: BoundingBox, zoom: int) -> list[Tile]:
     min_x, min_y = lat_lon_to_tile(bbox.north, bbox.west, zoom)
     max_x, max_y = lat_lon_to_tile(bbox.south, bbox.east, zoom)
     return [
-        Tile(z=zoom, x=x, y=y)
-        for x in range(min_x, max_x + 1)
-        for y in range(min_y, max_y + 1)
+        Tile(z=zoom, x=x, y=y) for x in range(min_x, max_x + 1) for y in range(min_y, max_y + 1)
     ]
 
 
@@ -418,9 +416,7 @@ def create_station_group_id(record: dict[str, Any]) -> str:
         return f"sta:{station_code}"
     location = record["location"]
     source = (
-        f"{record['normalizedStationName']}:"
-        f"{location['latitude']:.5f}:"
-        f"{location['longitude']:.5f}"
+        f"{record['normalizedStationName']}:{location['latitude']:.5f}:{location['longitude']:.5f}"
     )
     digest = hashlib.sha256(source.encode("utf-8")).hexdigest()[:16]
     return f"generated:{digest}"
@@ -750,9 +746,23 @@ def main() -> int:
     parser.add_argument("--max-retries", type=int, default=5)
     parser.add_argument("--request-interval-seconds", type=float, default=1.0)
     parser.add_argument("--progress-interval", type=int, default=100)
+    parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     load_env_file(Path(__file__).resolve().parents[2] / ".env")
+    try:
+        tiles = build_tiles(args)
+    except (StationPassengerCollectError, ValueError) as error:
+        print(f"station passenger collect failed: {error}", file=sys.stderr)
+        return 1
+
+    if args.dry_run:
+        print(
+            "station passenger dry-run: "
+            f"tiles={len(tiles)} requests={len(tiles)} area={args.area} zoom={args.zoom}"
+        )
+        return 0
+
     api_key = os.getenv(REINFOLIB_API_KEY_ENV)
     if not api_key:
         print(
@@ -762,7 +772,6 @@ def main() -> int:
         return 1
 
     try:
-        tiles = build_tiles(args)
         outputs = collect_station_passengers(
             tiles=tiles,
             raw_dir=args.raw_dir,

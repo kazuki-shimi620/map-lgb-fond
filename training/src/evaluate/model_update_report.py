@@ -160,7 +160,8 @@ def render_markdown(comparison: dict[str, Any]) -> str:
             "",
             "## 地域別",
             "",
-            "| 地域 | MAE before | MAE after | MAE差分 | RMSE差分 | MAPE差分 | ONNX差分 | 特徴量数 |",
+            "| 地域 | MAE before | MAE after | MAE差分 | RMSE差分 | MAPE差分 | "
+            "ONNX差分 | 特徴量数 |",
             "|---|---:|---:|---:|---:|---:|---:|---:|",
         ]
     )
@@ -172,21 +173,26 @@ def render_markdown(comparison: dict[str, Any]) -> str:
             f"| {row['region']} | {_format_number(before.get('mae'))} | "
             f"{_format_number(after.get('mae'))} | {_format_signed(delta.get('mae'))} | "
             f"{_format_signed(delta.get('rmse'))} | {_format_signed(delta.get('mape'))} | "
-            f"{_format_signed(delta.get('onnxBytes'))} | {_format_number(after.get('featureCount'))} |"
+            f"{_format_signed(delta.get('onnxBytes'))} | "
+            f"{_format_number(after.get('featureCount'))} |"
         )
     lines.append("")
     return "\n".join(lines)
 
 
 def _aggregate_regions(regions: list[dict[str, Any]]) -> dict[str, float | int | None]:
-    test_count = sum(int((row["evaluation"].get("testCount") or 0)) for row in regions)
+    test_count = sum(int(row["evaluation"].get("testCount") or 0) for row in regions)
     if test_count == 0:
         mae = rmse = mape = None
     else:
-        mae = sum(
-            (row["evaluation"]["metrics"].get("mae") or 0.0) * int(row["evaluation"].get("testCount") or 0)
-            for row in regions
-        ) / test_count
+        mae = (
+            sum(
+                (row["evaluation"]["metrics"].get("mae") or 0.0)
+                * int(row["evaluation"].get("testCount") or 0)
+                for row in regions
+            )
+            / test_count
+        )
         rmse = (
             sum(
                 ((row["evaluation"]["metrics"].get("rmse") or 0.0) ** 2)
@@ -195,10 +201,14 @@ def _aggregate_regions(regions: list[dict[str, Any]]) -> dict[str, float | int |
             )
             / test_count
         ) ** 0.5
-        mape = sum(
-            (row["evaluation"]["metrics"].get("mape") or 0.0) * int(row["evaluation"].get("testCount") or 0)
-            for row in regions
-        ) / test_count
+        mape = (
+            sum(
+                (row["evaluation"]["metrics"].get("mape") or 0.0)
+                * int(row["evaluation"].get("testCount") or 0)
+                for row in regions
+            )
+            / test_count
+        )
 
     return {
         "modelCount": len(regions),

@@ -1,0 +1,59 @@
+name: 学習パイプラインCI
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "training/**"
+      - ".github/workflows/training-ci.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "training/**"
+      - ".github/workflows/training-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  python-checks:
+    name: Python品質チェック
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+
+      - name: Pythonをセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: uvをセットアップ
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: training/uv.lock
+
+      - name: 依存関係をインストール
+        working-directory: training
+        run: uv sync --locked --dev
+
+      - name: Python構文チェック
+        working-directory: training
+        run: uv run python -m compileall src
+
+      - name: Ruffを実行
+        working-directory: training
+        run: uv run ruff check src tests
+
+      - name: 型チェックを実行
+        working-directory: training
+        run: uv run mypy
+
+      - name: 単体テストを実行
+        working-directory: training
+        run: uv run pytest

@@ -140,7 +140,14 @@ export class ModelManager {
     const featureValues = this.metadata.featureOrder.map((featureName) => {
       const encodedKey = FEATURE_ALIASES[featureName] ?? (featureName as keyof EncodedPredictionRequest);
       const value = encoded[encodedKey];
-      return typeof value === "number" ? value : 0;
+      if (typeof value !== "number") {
+        const defaultValue = this.metadata?.featureDefaults?.[featureName];
+        if (typeof defaultValue === "number") {
+          return defaultValue;
+        }
+        throw new Error(`未対応の特徴量です: ${featureName}`);
+      }
+      return value;
     });
 
     const inputTensor = new this.ort.Tensor("float32", Float32Array.from(featureValues), [
@@ -183,12 +190,15 @@ export class ModelManager {
 
   private toResult(predictedPrice: number, area: number): PredictionResult {
     const mae = this.metadata?.mae ?? 0;
+    const residualQuantiles = this.metadata?.evaluation?.residualQuantiles;
+    const lowerOffset = residualQuantiles?.p025 ?? -mae;
+    const upperOffset = residualQuantiles?.p975 ?? mae;
 
     return {
       predictedPrice,
       pricePerSquareMeter: area > 0 ? predictedPrice / area : 0,
-      lowerPrice: Math.max(0, predictedPrice - mae),
-      upperPrice: predictedPrice + mae
+      lowerPrice: Math.max(0, predictedPrice + lowerOffset),
+      upperPrice: Math.max(0, predictedPrice + upperOffset)
     };
   }
 

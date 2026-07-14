@@ -54,8 +54,7 @@ def compare_national_models(
 
     data = pd.read_parquet(input_path)
     data = data[
-        (data["transaction_year"] >= train_start_year)
-        & (data["transaction_year"] <= test_year)
+        (data["transaction_year"] >= train_start_year) & (data["transaction_year"] <= test_year)
     ].copy()
     train_mask = data["transaction_year"] < test_year
     test_mask = data["transaction_year"] == test_year
@@ -192,7 +191,13 @@ def _train_grouped_candidate(
 
 
 def _train_residual_correction_candidate(
-    *, name: str, candidate: Candidate, correction_column: str, data, test_year: int, output_dir: Path
+    *,
+    name: str,
+    candidate: Candidate,
+    correction_column: str,
+    data,
+    test_year: int,
+    output_dir: Path,
 ):
     group_train_mask = data["transaction_year"] < test_year
     group_test_mask = ~group_train_mask

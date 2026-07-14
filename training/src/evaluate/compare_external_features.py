@@ -5,7 +5,7 @@ import gzip
 import json
 import sys
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
 
@@ -29,6 +29,11 @@ from features.commercial_facilities import (  # noqa: E402
     add_commercial_facility_features,
     load_commercial_facilities_csv,
 )
+from features.hazards import (  # noqa: E402
+    HAZARD_FEATURES,
+    add_hazard_features,
+    load_hazard_features_csv,
+)
 from features.station_passengers import (  # noqa: E402
     STATION_PASSENGER_CATEGORICAL_FEATURES,
     add_station_passenger_features,
@@ -47,6 +52,7 @@ class ExternalFeatureCandidate:
     name: str
     commercial_features: list[str]
     station_passenger_features: list[str]
+    hazard_features: list[str] = field(default_factory=list)
     include_station: bool = True
     include_station_rank: bool = False
     n_estimators: int = 180
@@ -60,6 +66,7 @@ CANDIDATES = [
     ExternalFeatureCandidate("baseline", [], []),
     ExternalFeatureCandidate("commercial", COMMERCIAL_FEATURES, []),
     ExternalFeatureCandidate("station_passenger", [], STATION_SCALE_NUMERIC_FEATURES),
+    ExternalFeatureCandidate("hazard", [], [], hazard_features=HAZARD_FEATURES),
     ExternalFeatureCandidate(
         "station_passenger_no_coverage_flag",
         [],
@@ -69,6 +76,12 @@ CANDIDATES = [
         "commercial_station",
         COMMERCIAL_FEATURES,
         STATION_SCALE_NUMERIC_FEATURES,
+    ),
+    ExternalFeatureCandidate(
+        "commercial_station_hazard",
+        COMMERCIAL_FEATURES,
+        STATION_SCALE_NUMERIC_FEATURES,
+        hazard_features=HAZARD_FEATURES,
     ),
     ExternalFeatureCandidate(
         "commercial_station_no_coverage_flag",
@@ -107,8 +120,15 @@ def main() -> int:
         type=Path,
         default=Path("data/processed/station_passengers/station_groups.csv"),
     )
+    parser.add_argument(
+        "--hazards-csv",
+        type=Path,
+        default=Path("data/processed/hazards/hazard_features.csv"),
+    )
     parser.add_argument("--output-dir", type=Path, default=Path("outputs/comparisons"))
-    parser.add_argument("--train-start-years", nargs="+", type=int, default=DEFAULT_TRAIN_START_YEARS)
+    parser.add_argument(
+        "--train-start-years", nargs="+", type=int, default=DEFAULT_TRAIN_START_YEARS
+    )
     parser.add_argument("--test-years", nargs="+", type=int, default=DEFAULT_TEST_YEARS)
     args = parser.parse_args()
 
@@ -117,6 +137,7 @@ def main() -> int:
         processed_dir=args.processed_dir,
         facilities_csv=args.facilities_csv,
         station_passengers_csv=args.station_passengers_csv,
+        hazards_csv=args.hazards_csv,
         output_dir=args.output_dir,
         train_start_years=args.train_start_years,
         test_years=args.test_years,
@@ -131,6 +152,7 @@ def compare_external_features(
     processed_dir: Path,
     facilities_csv: Path,
     station_passengers_csv: Path,
+    hazards_csv: Path,
     output_dir: Path,
     train_start_years: list[int],
     test_years: list[int],
@@ -149,14 +171,23 @@ def compare_external_features(
     data = pd.concat(frames, ignore_index=True)
     facilities = load_commercial_facilities_csv(facilities_csv)
     station_passengers = load_station_passengers_csv(station_passengers_csv)
-    data = add_commercial_facility_features(data, facilities, data_start_year=min(train_start_years))
+    hazard_enabled = hazards_csv.exists()
+    data = add_commercial_facility_features(
+        data, facilities, data_start_year=min(train_start_years)
+    )
     data = add_station_passenger_features(data, station_passengers)
+    hazard_count = 0
+    if hazard_enabled:
+        hazards = load_hazard_features_csv(hazards_csv)
+        hazard_count = len(hazards)
+        data = add_hazard_features(data, hazards)
 
     output_dir.mkdir(parents=True, exist_ok=True)
     rows = []
+    candidates = _active_candidates(hazard_enabled=hazard_enabled)
     for train_start_year in train_start_years:
         scoped = data[data["transaction_year"] >= train_start_year].copy()
-        for candidate in CANDIDATES:
+        for candidate in candidates:
             rows.append(
                 _backtest_candidate(
                     candidate=candidate,
@@ -178,6 +209,9 @@ def compare_external_features(
         "stationPassengersCsv": str(station_passengers_csv),
         "stationPassengerCount": len(station_passengers),
         "matchedRowCount": int(data["has_station_passenger_data"].sum()),
+        "hazardsCsv": str(hazards_csv),
+        "hazardEnabled": hazard_enabled,
+        "hazardCount": hazard_count,
         "candidates": rows,
     }
     save_json(report, output_dir / "external_feature_backtest.json")
@@ -229,6 +263,7 @@ def _backtest_candidate(
         "features": features,
         "commercialFeatures": candidate.commercial_features,
         "stationPassengerFeatures": candidate.station_passenger_features,
+        "hazardFeatures": candidate.hazard_features,
         "includeStation": candidate.include_station,
         "includeStationRank": candidate.include_station_rank,
         "trainingSeconds": time.perf_counter() - started,
@@ -249,6 +284,7 @@ def feature_lists(candidate: ExternalFeatureCandidate) -> tuple[list[str], list[
         BASE_FEATURES
         + candidate.commercial_features
         + candidate.station_passenger_features
+        + candidate.hazard_features
     )
     categorical_features = list(BASE_CATEGORICAL_FEATURES)
     if candidate.include_station_rank:
@@ -258,6 +294,12 @@ def feature_lists(candidate: ExternalFeatureCandidate) -> tuple[list[str], list[
         features.remove("station")
         categorical_features.remove("station")
     return features, categorical_features
+
+
+def _active_candidates(*, hazard_enabled: bool) -> list[ExternalFeatureCandidate]:
+    if hazard_enabled:
+        return CANDIDATES
+    return [candidate for candidate in CANDIDATES if not candidate.hazard_features]
 
 
 def _export_deployment_artifacts(
@@ -313,9 +355,7 @@ def _weighted_metrics(folds: list[dict[str, object]]) -> dict[str, float]:
 
     total = sum(fold["testCount"] for fold in folds)
     mae = sum(fold["metrics"]["mae"] * fold["testCount"] for fold in folds) / total
-    rmse = (
-        sum(fold["metrics"]["rmse"] ** 2 * fold["testCount"] for fold in folds) / total
-    ) ** 0.5
+    rmse = (sum(fold["metrics"]["rmse"] ** 2 * fold["testCount"] for fold in folds) / total) ** 0.5
     mape = sum(fold["metrics"]["mape"] * fold["testCount"] for fold in folds) / total
     return {"mae": mae, "rmse": rmse, "mape": mape}
 
@@ -364,9 +404,13 @@ def render_markdown(report: dict[str, object]) -> str:
         f"SC件数: {report['facilityCount']:,}",
         f"駅件数: {report['stationPassengerCount']:,}",
         f"駅乗降客数マッチ件数: {report['matchedRowCount']:,}",
+        f"ハザードCSV: {report['hazardsCsv']}",
+        f"ハザード候補: {'有効' if report['hazardEnabled'] else 'CSV未検出のためスキップ'}",
+        f"ハザード件数: {report['hazardCount']:,}",
         "",
-        "| 候補 | trainStart | station | rank | 商業施設 | 駅規模 | MAE | RMSE | MAPE | ONNX | gzip | 辞書gzip | 学習秒 |",
-        "|---|---:|---:|---:|---|---|---:|---:|---:|---:|---:|---:|---:|",
+        "| 候補 | trainStart | station | rank | 商業施設 | 駅規模 | ハザード | "
+        "MAE | RMSE | MAPE | ONNX | gzip | 辞書gzip | 学習秒 |",
+        "|---|---:|---:|---:|---|---|---|---:|---:|---:|---:|---:|---:|---:|",
     ]
     for row in report["candidates"]:
         metrics = row["metrics"]
@@ -377,6 +421,7 @@ def render_markdown(report: dict[str, object]) -> str:
             f"{'yes' if row['includeStationRank'] else 'no'} | "
             f"{_features_label(row['commercialFeatures'])} | "
             f"{_features_label(row['stationPassengerFeatures'])} | "
+            f"{_features_label(row['hazardFeatures'])} | "
             f"{metrics['mae']:,.0f} | {metrics['rmse']:,.0f} | {metrics['mape']:.2f}% | "
             f"{_format_bytes(artifacts['onnxBytes'])} | "
             f"{_format_bytes(artifacts['onnxGzipBytes'])} | "
@@ -387,8 +432,7 @@ def render_markdown(report: dict[str, object]) -> str:
     lines.append("## 上位特徴量")
     for row in report["candidates"]:
         top_features = ", ".join(
-            f"{item['feature']}={item['importance']:.0f}"
-            for item in row["featureImportance"][:8]
+            f"{item['feature']}={item['importance']:.0f}" for item in row["featureImportance"][:8]
         )
         lines.append(f"- {row['name']}: {top_features}")
     lines.append("")

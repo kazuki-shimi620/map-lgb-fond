@@ -124,8 +124,7 @@ def _join_by_station_name_and_coordinates(properties, stations):
     )
     scoped = scoped[scoped["normalized_station_name"] != ""]
     candidates = {
-        station_name: records
-        for station_name, records in scoped.groupby("normalized_station_name")
+        station_name: records for station_name, records in scoped.groupby("normalized_station_name")
     }
 
     passenger_rows = []

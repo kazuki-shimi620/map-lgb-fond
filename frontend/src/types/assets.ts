@@ -14,6 +14,7 @@ export type ModelMetadata = {
   mae: number;
   latestTrainingYear: number;
   featureOrder: string[];
+  featureDefaults?: Record<string, number>;
   generatedAt?: string;
   evaluation?: {
     split: string;
@@ -25,6 +26,10 @@ export type ModelMetadata = {
       mae: number;
       rmse: number;
       mape: number;
+    };
+    residualQuantiles?: {
+      p025: number;
+      p975: number;
     };
   };
   deployment?: {
@@ -123,4 +128,40 @@ export type CommercialFacilitySummary = {
   latestOpenYear: number | null;
   prefectures: Record<string, CommercialFacilityAreaSummary>;
   cities: Record<string, CommercialFacilityAreaSummary>;
+};
+
+export type NearbyFacilityCategoryId =
+  | "hospital"
+  | "supermarket"
+  | "commercial_facility"
+  | "park"
+  | "convenience_store";
+
+export type NearbyFacilityCategory = {
+  id: NearbyFacilityCategoryId;
+  label: string;
+  color: string;
+  enabled: boolean;
+};
+
+export type NearbyFacilityPoint = {
+  id: string;
+  categoryId: NearbyFacilityCategoryId;
+  name: string;
+  lat: number;
+  lon: number;
+  prefecture?: string;
+  municipality?: string;
+  address?: string;
+  source?: string;
+  updatedAt?: string;
+};
+
+export type NearbyFacilityCollection = {
+  schemaVersion: number;
+  source: string;
+  sourceLabel: string;
+  generatedAt: string | null;
+  categories: NearbyFacilityCategory[];
+  facilities: NearbyFacilityPoint[];
 };

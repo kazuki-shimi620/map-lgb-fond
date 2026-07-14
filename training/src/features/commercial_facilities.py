@@ -91,12 +91,8 @@ def _build_city_year_features(facilities, years: list[int], lookback_years: int)
                     "feature_year": year,
                     "sc_city_open_count_cumulative": float(len(cumulative)),
                     "sc_city_open_count_last_3y": float(len(recent)),
-                    "sc_city_store_area_sum_cumulative": float(
-                        cumulative["store_area_sqm"].sum()
-                    ),
-                    "sc_city_tenant_count_sum_cumulative": float(
-                        cumulative["tenant_count"].sum()
-                    ),
+                    "sc_city_store_area_sum_cumulative": float(cumulative["store_area_sqm"].sum()),
+                    "sc_city_tenant_count_sum_cumulative": float(cumulative["tenant_count"].sum()),
                 }
             )
     return pd.DataFrame(rows)

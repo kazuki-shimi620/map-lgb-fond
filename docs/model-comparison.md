@@ -55,6 +55,8 @@
 make compare-external-features
 ```
 
+`training/data/processed/hazards/hazard_features.csv` が存在する場合は、`hazard` と `commercial_station_hazard` も候補に含める。ハザードCSVが未作成の場合は、既存の商業施設・駅規模候補だけを比較し、レポートにはハザード候補をスキップしたことを記録する。
+
 採用判断では以下を確認する。
 
 * MAE改善が複数地域で安定している
@@ -208,3 +210,11 @@ make compare-external-features
 * 東京ONNXが大きく増え、ブラウザ配布サイズ面でも不利になった
 * この候補は本番成果物として採用しない
 * 2015開始は捨てず、採用前に複数holdout年や木数上限を変えた比較で再確認する
+
+複数holdout年での学習開始年比較は以下で実行する。
+
+```bash
+make compare-train-start-years
+```
+
+結果は `training/outputs/comparisons/train_start_year_backtest.md` とJSONに保存する。公開成果物は更新しない。
