@@ -127,6 +127,21 @@ training/data/processed/land_prices/land_price_city_summary.csv
 training/data/processed/land_prices/metadata.json
 ```
 
+実行前の確認:
+
+```bash
+make collect-land-prices-dry-run LAND_PRICE_YEARS=2025 LAND_PRICE_ZOOM=14
+make collect-land-prices-tile LAND_PRICE_YEARS=2025 LAND_PRICE_REQUEST_INTERVAL_SECONDS=0
+```
+
+2026-07-14時点の実測では、首都圏4県・`z=14`・2024/2025年は 8,480タイル x 2年 = 16,960リクエストになる。API応答時間を考えると長時間ジョブになるため、本番CSV生成前に `collect-land-prices-dry-run` で件数を確認し、必要に応じて `LAND_PRICE_ZOOM=12` / `13` や1年分で段階実行する。
+
+疎通確認:
+
+* `LAND_PRICE_TILE_Z=14 LAND_PRICE_TILE_X=14550 LAND_PRICE_TILE_Y=6449 LAND_PRICE_YEARS=2025 LAND_PRICE_REQUEST_INTERVAL_SECONDS=0` で1タイル取得を確認済み。
+* 結果は26ポイント、5自治体集計、失敗0件。
+* サンドボックスやCIではDNS制限で失敗する場合があるため、実取得はネットワーク許可済みのローカル環境または手動workflowで実行する。
+
 collector設計:
 
 ```text
