@@ -5,10 +5,12 @@ import csv
 import pytest
 
 from collect.population_stats import (
+    POPULATION_INPUT_FIELDNAMES,
     collect_population_stats,
     normalize_estat_population_response,
     normalize_population_rows,
     parse_estat_item_specs,
+    write_population_input_template,
 )
 
 
@@ -75,6 +77,17 @@ def test_collect_population_stats_writes_normalized_csv(tmp_path) -> None:
     assert outputs["row_count"] == 1
     assert rows[0]["municipality"] == "千代田区"
     assert rows[0]["population_density_per_km2"] == "100.0"
+
+
+def test_write_population_input_template_writes_expected_header(tmp_path) -> None:
+    output = tmp_path / "municipality_population_template.csv"
+
+    write_population_input_template(output)
+
+    with output.open(encoding="utf-8", newline="") as file:
+        rows = list(csv.reader(file))
+
+    assert rows == [POPULATION_INPUT_FIELDNAMES]
 
 
 def test_normalize_estat_population_response_uses_item_specs() -> None:

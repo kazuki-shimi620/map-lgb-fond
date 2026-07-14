@@ -368,12 +368,24 @@ source
 source_url
 ```
 
+テンプレート:
+
+```text
+training/data/manual/population/municipality_population_template.csv
+```
+
 collectorは、上記CSVを `municipality_population.csv` へ正規化する。e-Stat API実装後も同じ正規化スキーマへ落とす。
 
 CSV持ち込み:
 
 ```bash
 make collect-population-stats POPULATION_INPUT=path/to/population.csv
+```
+
+テンプレート再生成:
+
+```bash
+make collect-population-stats-template
 ```
 
 e-Stat API直結:

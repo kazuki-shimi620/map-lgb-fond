@@ -37,6 +37,7 @@ LAND_PRICE_REQUEST_INTERVAL_SECONDS ?= 1.0
 LAND_PRICE_POINTS_CSV ?= data/processed/land_prices/land_price_points.csv
 LAND_PRICE_CITY_SUMMARY_CSV ?= data/processed/land_prices/land_price_city_summary.csv
 POPULATION_INPUT ?=
+POPULATION_TEMPLATE ?= data/manual/population/municipality_population_template.csv
 ESTAT_STATS_DATA_ID ?=
 ESTAT_AREA_CODES ?=
 ESTAT_TIME_CODES ?=
@@ -87,7 +88,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-population-stats collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities nearby-facilities nearby-facilities-template stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities nearby-facilities nearby-facilities-template stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -128,6 +129,8 @@ help:
 	@echo "                          自治体人口統計CSVを正規化"
 	@echo "  make collect-population-stats ESTAT_STATS_DATA_ID=... ESTAT_ITEMS='population_total=cat01:001 ...'"
 	@echo "                          e-Stat APIから自治体人口統計CSVを生成"
+	@echo "  make collect-population-stats-template"
+	@echo "                          自治体人口統計CSVテンプレートを再生成"
 	@echo "  make collect-rail-access"
 	@echo "                          路線利便性の手動マスタから特徴量CSVを生成"
 	@echo "  make collect-education-facilities"
@@ -294,6 +297,9 @@ collect-population-stats:
 		echo "POPULATION_INPUT or ESTAT_STATS_DATA_ID is required"; \
 		exit 1; \
 	fi
+
+collect-population-stats-template:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/population_stats.py --write-template "$(POPULATION_TEMPLATE)"
 
 collect-rail-access:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/rail_access.py --terminal-stations-csv "$(RAIL_TERMINAL_STATIONS_CSV)" --travel-times-csv "$(RAIL_TRAVEL_TIMES_CSV)"

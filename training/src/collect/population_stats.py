@@ -33,6 +33,21 @@ FIELDNAMES = [
     "source",
     "source_url",
 ]
+POPULATION_INPUT_FIELDNAMES = [
+    "year",
+    "prefecture",
+    "municipality",
+    "city_code",
+    "population_total",
+    "households_total",
+    "population_density_per_km2",
+    "population_under_15",
+    "population_15_to_64",
+    "population_65_plus",
+    "area_km2",
+    "source",
+    "source_url",
+]
 ESTAT_VALUE_FIELDS = {
     "population_total",
     "households_total",
@@ -369,9 +384,21 @@ def _read_csv(path: Path) -> list[dict[str, Any]]:
 
 def _write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
     with path.open("w", encoding="utf-8", newline="") as file:
-        writer = csv.DictWriter(file, fieldnames=FIELDNAMES)
+        writer = csv.DictWriter(file, fieldnames=FIELDNAMES, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
+
+
+def write_population_input_template(output: Path) -> Path:
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with output.open("w", encoding="utf-8", newline="") as file:
+        writer = csv.DictWriter(
+            file,
+            fieldnames=POPULATION_INPUT_FIELDNAMES,
+            lineterminator="\n",
+        )
+        writer.writeheader()
+    return output
 
 
 def _estat_class_map(payload: dict[str, Any]) -> dict[str, dict[str, str]]:
@@ -514,9 +541,18 @@ def main() -> int:
     parser.add_argument("--estat-item", action="append", default=[])
     parser.add_argument("--raw-dir", type=Path, default=DEFAULT_RAW_DIR)
     parser.add_argument("--timeout-seconds", type=int, default=60)
+    parser.add_argument(
+        "--write-template",
+        type=Path,
+        help="Write a population input CSV template and exit.",
+    )
     args = parser.parse_args()
 
     try:
+        if args.write_template:
+            output = write_population_input_template(args.write_template)
+            print(f"wrote population stats template: {output}")
+            return 0
         if args.estat_stats_data_id:
             outputs = collect_population_stats_from_estat(
                 app_id=args.estat_app_id,
