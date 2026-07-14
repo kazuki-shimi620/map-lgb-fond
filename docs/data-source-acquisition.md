@@ -261,6 +261,14 @@ raw GeoJSONをAPI・タイル単位で保存
 training/src/collect/urban_planning.py
 ```
 
+実行前の確認:
+
+```bash
+make collect-urban-planning-dry-run URBAN_PLANNING_ZOOM=13
+```
+
+2026-07-14時点のdry-runでは、首都圏4県・`z=13`・`XKT001,XKT002,XKT003` で 2,160タイル x 3 API = 6,480リクエストになる。地価と同様に長時間ジョブとして扱い、まず `XKT002` 単独や低zoomでの段階取得を検討する。
+
 出力:
 
 ```text
@@ -570,6 +578,14 @@ raw GeoJSONをAPI・タイル単位で保存
 ```text
 training/src/collect/education_facilities.py
 ```
+
+実行前の確認:
+
+```bash
+make collect-education-facilities-dry-run EDUCATION_ZOOM=13
+```
+
+2026-07-14時点のdry-runでは、首都圏4県・`z=13`・`XKT004,XKT005,XKT006,XKT007` で 2,160タイル x 4 API = 8,640リクエストになる。学校区と施設ポイントは利用目的が異なるため、本番取得時は学区APIと施設APIを分けて段階実行する。
 
 出力:
 

@@ -383,14 +383,24 @@ def main() -> int:
     parser.add_argument("--max-retries", type=int, default=2)
     parser.add_argument("--request-interval-seconds", type=float, default=1.0)
     parser.add_argument("--api-key", default=os.environ.get(REINFOLIB_API_KEY_ENV, ""))
+    parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     try:
+        api_ids = [item.strip() for item in args.apis.split(",") if item.strip()]
+        tiles = build_tiles(args)
+        if args.dry_run:
+            print(
+                "urban planning dry-run: "
+                f"apis={len(api_ids)} tiles={len(tiles)} "
+                f"requests={len(api_ids) * len(tiles)} area={args.area} zoom={args.zoom}"
+            )
+            return 0
         if not args.api_key:
             raise UrbanPlanningCollectError(f"{REINFOLIB_API_KEY_ENV} is required")
         outputs = collect_urban_planning(
-            api_ids=[item.strip() for item in args.apis.split(",") if item.strip()],
-            tiles=build_tiles(args),
+            api_ids=api_ids,
+            tiles=tiles,
             raw_dir=args.raw_dir,
             processed_dir=args.processed_dir,
             api_key=args.api_key,
