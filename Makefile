@@ -42,6 +42,8 @@ POPULATION_STATS_CSV ?= data/processed/population/municipality_population.csv
 RAIL_TERMINAL_STATIONS_CSV ?= data/manual/rail/terminal_stations.csv
 RAIL_TRAVEL_TIMES_CSV ?= data/manual/rail/major_station_travel_times.csv
 RAIL_ACCESS_CSV ?= data/processed/rail/rail_access.csv
+NEARBY_FACILITIES_CSV ?= data/processed/facilities/nearby_facilities.csv
+NEARBY_FACILITIES_JSON ?= ../$(FRONTEND_DIR)/public/facilities/nearby_facilities.json
 EDUCATION_APIS ?= XKT004,XKT005,XKT006,XKT007
 EDUCATION_AREA ?= capital
 EDUCATION_ZOOM ?= 13
@@ -75,7 +77,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-land-prices collect-population-stats collect-rail-access collect-education-facilities collect-urban-planning collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-land-prices collect-population-stats collect-rail-access collect-education-facilities collect-urban-planning collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities nearby-facilities stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -405,6 +407,9 @@ histories-national:
 
 facilities:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.commercial_facilities --output ../$(FRONTEND_DIR)/public/facilities/commercial_facilities.json
+
+nearby-facilities:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --input-csv "$(NEARBY_FACILITIES_CSV)" --output "$(NEARBY_FACILITIES_JSON)"
 
 stations:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public --regions $(REGIONS) --station-passengers-csv $(STATION_PASSENGERS_CSV)
