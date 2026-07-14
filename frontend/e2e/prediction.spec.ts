@@ -11,6 +11,7 @@ test.describe("価格予測", () => {
   test("初期条件で価格を予測できる", async ({ page }) => {
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
 
     await predictionPage.waitForPredictionResult();
     await expect(page.getByTestId("price-history-chart")).toContainText("価格推移");
@@ -21,6 +22,7 @@ test.describe("価格予測", () => {
   test("専有面積変更時に予測を自動更新する", async ({ page }) => {
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
     await predictionPage.waitForPredictionResult();
 
     const before = await predictionPage.getPredictedPriceText();
@@ -33,6 +35,7 @@ test.describe("価格予測", () => {
   test("築年数変更時に予測を自動更新する", async ({ page }) => {
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
     await predictionPage.waitForPredictionResult();
 
     const before = await predictionPage.getPredictedPriceText();
@@ -42,32 +45,28 @@ test.describe("価格予測", () => {
     await expect.poll(() => predictionPage.getPredictedPriceText()).not.toBe(before);
   });
 
-  test("駅徒歩変更時に手入力値で予測を自動更新する", async ({ page }) => {
+  test("間取りを変更できる", async ({ page }) => {
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
+    await predictionPage.waitForPredictionResult();
+
+    await predictionPage.selectRoomLayout("3LDK");
+
+    await expect(predictionPage.selectTrigger("間取り")).toContainText("3LDK");
+    await predictionPage.waitForPredictionResult();
+  });
+
+  test("建物構造変更時に予測を自動更新する", async ({ page }) => {
+    const predictionPage = new PredictionPage(page);
+    await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
     await predictionPage.waitForPredictionResult();
 
     const before = await predictionPage.getPredictedPriceText();
-    await predictionPage.fillStationDistance(15);
+    await predictionPage.selectBuildingType("ＳＲＣ");
 
-    await expect(page.getByLabel("駅徒歩")).toHaveValue("15");
-    await expect(page.getByText("手入力")).toBeVisible();
+    await expect(predictionPage.selectTrigger("建物構造")).toContainText("ＳＲＣ");
     await expect.poll(() => predictionPage.getPredictedPriceText()).not.toBe(before);
-  });
-
-  test("都道府県変更時に地域モデルを切り替える", async ({ page }) => {
-    const predictionPage = new PredictionPage(page);
-    await predictionPage.goto();
-    await predictionPage.waitForPredictionResult();
-
-    await predictionPage.selectPrefecture("埼玉県");
-    await expect(page.getByTestId("prediction-result")).toContainText(
-      "条件を入力して予測してください。"
-    );
-
-    await predictionPage.fillMunicipality("さいたま市");
-    await predictionPage.fillStation("大宮");
-    await predictionPage.waitForPredictionResult();
-    await expect(predictionPage.selectTrigger("都道府県")).toContainText("埼玉県");
   });
 });

@@ -3,12 +3,14 @@ import { expect, type Locator, type Page } from "@playwright/test";
 export class PredictionPage {
   readonly page: Page;
   readonly map: Locator;
+  readonly locationTooltip: Locator;
   readonly predictionResult: Locator;
   readonly priceHistory: Locator;
 
   constructor(page: Page) {
     this.page = page;
     this.map = page.getByRole("region", { name: "地図" });
+    this.locationTooltip = page.locator(".map-location-tooltip");
     this.predictionResult = page.getByTestId("prediction-result");
     this.priceHistory = page.getByTestId("price-history-chart");
   }
@@ -19,25 +21,33 @@ export class PredictionPage {
 
   async expectLoaded() {
     await expect(this.map).toBeVisible();
+    await expect(this.page.getByTestId("prediction-sheet")).toBeVisible();
+  }
+
+  async openDetailsPanel() {
+    const form = this.page.getByTestId("prediction-form");
+    if (!(await form.isVisible())) {
+      await this.page.getByTestId("sheet-handle").dispatchEvent("click");
+    }
     await expect(this.page.getByTestId("prediction-form")).toBeVisible();
     await expect(this.page.getByTestId("prediction-result")).toBeVisible();
     await expect(this.page.getByTestId("price-history-chart")).toBeVisible();
   }
 
   async expectInitialFormValues() {
-    await expect(this.selectTrigger("都道府県")).toContainText("東京都");
-    await expect(this.page.getByLabel("市区町村")).toHaveValue("千代田区");
-    await expect(this.page.getByLabel("最寄駅")).toHaveValue("東京");
+    await expect(this.locationTooltip).toContainText("東京都");
+    await expect(this.locationTooltip).toContainText("千代田区");
+    await expect(this.locationTooltip).toContainText("東京");
+    await expect(this.locationTooltip).toContainText("8分");
     await expect(this.page.getByLabel("面積")).toHaveValue("55");
     await expect(this.page.getByLabel("築年数")).toHaveValue("15");
-    await expect(this.page.getByLabel("駅徒歩")).toHaveValue("8");
     await expect(this.selectTrigger("間取り")).toContainText("2LDK");
   }
 
   async waitForPredictionResult() {
     await expect(this.predictionResult.getByText("予測価格", { exact: true })).toBeVisible();
     await expect(this.predictionResult.getByText("平米単価", { exact: true })).toBeVisible();
-    await expect(this.predictionResult.getByText("信頼区間", { exact: true })).toBeVisible();
+    await expect(this.predictionResult.getByText("参考価格帯", { exact: true })).toBeVisible();
   }
 
   async fillArea(value: number) {

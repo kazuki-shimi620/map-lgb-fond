@@ -19,6 +19,7 @@ test.describe("価格推移グラフ", () => {
 
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
     await predictionPage.waitForPredictionResult();
 
     await expect(predictionPage.priceHistory).toContainText("価格推移");
@@ -30,6 +31,7 @@ test.describe("価格推移グラフ", () => {
   test("過去データを追加表示して閉じられる", async ({ page }) => {
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
     await predictionPage.waitForPredictionResult();
 
     await predictionPage.loadArchiveHistory();

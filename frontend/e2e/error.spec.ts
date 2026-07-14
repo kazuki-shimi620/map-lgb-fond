@@ -19,6 +19,7 @@ test.describe("エラー処理", () => {
 
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
 
     await expect(page.getByText("モデルの読み込みに失敗しました")).toBeVisible();
     await expect(predictionPage.predictionResult).toContainText("条件を入力して予測してください。");
@@ -37,7 +38,7 @@ test.describe("エラー処理", () => {
     await predictionPage.goto();
 
     await expect(
-      page.getByText("駅マスタまたは価格推移データを読み込めませんでした")
+      page.getByText("駅マスタを読み込めませんでした。地図選択時の最寄駅・駅徒歩の自動更新は利用できません。")
     ).toBeVisible();
   });
 
@@ -55,6 +56,7 @@ test.describe("エラー処理", () => {
 
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
 
     await expect(page.getByText("価格予測に失敗しました")).toBeVisible();
     await expect(predictionPage.predictionResult).toContainText("条件を入力して予測してください。");

@@ -16,6 +16,7 @@ test.describe("初期表示", () => {
     await predictionPage.goto();
 
     await predictionPage.expectLoaded();
+    await predictionPage.openDetailsPanel();
     await expect(page.getByTestId("prediction-form")).toBeVisible();
     await expect(page.getByTestId("prediction-result")).toBeVisible();
     await expect(page.getByTestId("price-history-chart")).toBeVisible();
@@ -25,6 +26,7 @@ test.describe("初期表示", () => {
   test("初期値が設定される", async ({ page }) => {
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
 
     await predictionPage.expectInitialFormValues();
   });

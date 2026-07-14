@@ -13,6 +13,7 @@ test.describe("レスポンシブ表示", () => {
     await page.setViewportSize({ width: 1440, height: 900 });
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
     await predictionPage.waitForPredictionResult();
 
     await expect(page.getByTestId("property-map")).toBeVisible();
@@ -54,19 +55,23 @@ test.describe("レスポンシブ表示", () => {
     });
     expect(panelOrder).toBe(true);
 
-    const desktopFlow = await page.evaluate(() => {
-      const forecast = document.querySelector('[data-testid="prediction-forecast-controls"]');
-      const result = document.querySelector('[data-testid="prediction-result"]');
-      const chart = document.querySelector('[data-testid="price-history-chart"]');
-      if (!forecast || !result || !chart) {
+    const desktopMapSidebarLayout = await page.evaluate(() => {
+      const map = document.querySelector('[data-testid="property-map"]');
+      const sheet = document.querySelector('[data-testid="prediction-sheet"]');
+      if (!map || !sheet) {
         return false;
       }
-      const forecastRect = forecast.getBoundingClientRect();
-      const resultRect = result.getBoundingClientRect();
-      const chartRect = chart.getBoundingClientRect();
-      return chartRect.top >= forecastRect.bottom - 1 && chartRect.left >= resultRect.right - 1;
+      const mapRect = map.getBoundingClientRect();
+      const sheetRect = sheet.getBoundingClientRect();
+      return (
+        mapRect.width >= window.innerWidth - 1 &&
+        mapRect.height >= window.innerHeight - 1 &&
+        sheetRect.left <= 1 &&
+        sheetRect.top <= 1 &&
+        sheetRect.width >= 320
+      );
     });
-    expect(desktopFlow).toBe(true);
+    expect(desktopMapSidebarLayout).toBe(true);
 
     const hasHorizontalOverflow = await page.evaluate(
       () => document.documentElement.scrollWidth > document.documentElement.clientWidth
@@ -85,7 +90,7 @@ test.describe("レスポンシブ表示", () => {
     await expect(page.getByTestId("sheet-handle")).toBeVisible();
 
     await predictionPage.clickMapCenter();
-    await expect(page.getByText("地図から自動算出")).toBeVisible();
+    await expect(predictionPage.locationTooltip).toContainText("駅徒歩");
 
     const hasHorizontalOverflow = await page.evaluate(
       () => document.documentElement.scrollWidth > document.documentElement.clientWidth
