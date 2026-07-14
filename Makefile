@@ -80,7 +80,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-national collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-population-stats collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-urban-planning collect-urban-planning-dry-run collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities nearby-facilities stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-population-stats collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-urban-planning collect-urban-planning-dry-run collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases check-feature-order histories-national facilities nearby-facilities stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -105,8 +105,12 @@ help:
 	@echo "                          JCSCオープンSC一覧を取得してJSON/CSV化"
 	@echo "  make collect-station-passengers PASSENGER_AREA=capital"
 	@echo "                          駅別乗降客数を取得してJSON/CSV化"
+	@echo "  make collect-station-passengers-dry-run PASSENGER_AREA=capital"
+	@echo "                          駅別乗降客数取得のリクエスト数を確認"
 	@echo "  make collect-station-passengers-national"
 	@echo "                          全国範囲の駅別乗降客数を取得してJSON/CSV化"
+	@echo "  make collect-station-passengers-national-dry-run"
+	@echo "                          全国範囲の駅別乗降客数取得リクエスト数を確認"
 	@echo "  make collect-land-prices LAND_PRICE_YEARS=2024,2025"
 	@echo "                          地価公示・地価調査ポイントを取得してCSV化"
 	@echo "  make collect-land-prices-dry-run LAND_PRICE_ZOOM=14"
@@ -244,8 +248,14 @@ collect-sc-all:
 collect-station-passengers:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area $(PASSENGER_AREA) --zoom $(PASSENGER_ZOOM) --request-interval-seconds $(PASSENGER_REQUEST_INTERVAL_SECONDS) --cache
 
+collect-station-passengers-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area $(PASSENGER_AREA) --zoom $(PASSENGER_ZOOM) --dry-run
+
 collect-station-passengers-national:
 	$(MAKE) collect-station-passengers PASSENGER_AREA=japan PASSENGER_ZOOM=$(PASSENGER_NATIONAL_ZOOM) PASSENGER_REQUEST_INTERVAL_SECONDS=$(PASSENGER_REQUEST_INTERVAL_SECONDS)
+
+collect-station-passengers-national-dry-run:
+	$(MAKE) collect-station-passengers-dry-run PASSENGER_AREA=japan PASSENGER_ZOOM=$(PASSENGER_NATIONAL_ZOOM)
 
 collect-land-prices:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/land_prices.py --area $(LAND_PRICE_AREA) --zoom $(LAND_PRICE_ZOOM) --years "$(LAND_PRICE_YEARS)" --use-category-codes "$(LAND_PRICE_USE_CATEGORY_CODES)" --request-interval-seconds $(LAND_PRICE_REQUEST_INTERVAL_SECONDS) --cache

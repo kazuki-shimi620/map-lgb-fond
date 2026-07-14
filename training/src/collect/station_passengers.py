@@ -746,9 +746,23 @@ def main() -> int:
     parser.add_argument("--max-retries", type=int, default=5)
     parser.add_argument("--request-interval-seconds", type=float, default=1.0)
     parser.add_argument("--progress-interval", type=int, default=100)
+    parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     load_env_file(Path(__file__).resolve().parents[2] / ".env")
+    try:
+        tiles = build_tiles(args)
+    except (StationPassengerCollectError, ValueError) as error:
+        print(f"station passenger collect failed: {error}", file=sys.stderr)
+        return 1
+
+    if args.dry_run:
+        print(
+            "station passenger dry-run: "
+            f"tiles={len(tiles)} requests={len(tiles)} area={args.area} zoom={args.zoom}"
+        )
+        return 0
+
     api_key = os.getenv(REINFOLIB_API_KEY_ENV)
     if not api_key:
         print(
@@ -758,7 +772,6 @@ def main() -> int:
         return 1
 
     try:
-        tiles = build_tiles(args)
         outputs = collect_station_passengers(
             tiles=tiles,
             raw_dir=args.raw_dir,
