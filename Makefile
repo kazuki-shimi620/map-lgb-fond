@@ -49,6 +49,7 @@ RAIL_ACCESS_CSV ?= data/processed/rail/rail_access.csv
 NEARBY_FACILITIES_CSV ?= data/processed/facilities/nearby_facilities.csv
 NEARBY_FACILITIES_JSON ?= ../$(FRONTEND_DIR)/public/facilities/nearby_facilities.json
 NEARBY_FACILITIES_TEMPLATE ?= data/manual/facilities/nearby_facilities_template.csv
+COMMERCIAL_FACILITIES_CSV ?= data/processed/jcsc/jcsc_sc_open.csv
 EDUCATION_APIS ?= XKT004,XKT005,XKT006,XKT007
 EDUCATION_AREA ?= capital
 EDUCATION_ZOOM ?= 13
@@ -488,7 +489,7 @@ facilities:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.commercial_facilities --output ../$(FRONTEND_DIR)/public/facilities/commercial_facilities.json
 
 nearby-facilities:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --input-csv "$(NEARBY_FACILITIES_CSV)" --output "$(NEARBY_FACILITIES_JSON)"
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --input-csv "$(NEARBY_FACILITIES_CSV)" --commercial-facilities-csv "$(COMMERCIAL_FACILITIES_CSV)" --output "$(NEARBY_FACILITIES_JSON)"
 
 nearby-facilities-template:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --write-template "$(NEARBY_FACILITIES_TEMPLATE)"

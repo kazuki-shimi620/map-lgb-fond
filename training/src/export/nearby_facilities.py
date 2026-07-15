@@ -69,6 +69,20 @@ def load_facility_rows(path: Path) -> list[dict[str, Any]]:
     return sorted(rows, key=lambda row: (row["categoryId"], row["prefecture"], row["name"]))
 
 
+def load_commercial_facility_rows(path: Path) -> list[dict[str, Any]]:
+    if not path.exists():
+        return []
+
+    rows = []
+    with path.open(encoding="utf-8", newline="") as file:
+        reader = csv.DictReader(file)
+        for line_number, row in enumerate(reader, start=2):
+            record = normalize_commercial_facility_row(row, line_number=line_number)
+            if record is not None:
+                rows.append(record)
+    return sorted(rows, key=lambda row: (row["prefecture"], row["municipality"], row["name"]))
+
+
 def normalize_facility_row(row: dict[str, str], *, line_number: int) -> dict[str, Any] | None:
     category_id = (row.get("category_id") or row.get("categoryId") or "").strip()
     name = (row.get("name") or "").strip()
@@ -108,6 +122,47 @@ def normalize_facility_row(row: dict[str, str], *, line_number: int) -> dict[str
     }
 
 
+def normalize_commercial_facility_row(
+    row: dict[str, str],
+    *,
+    line_number: int,
+) -> dict[str, Any] | None:
+    name = (row.get("name") or row.get("facility_name") or "").strip()
+    lat = parse_float(row.get("lat") or row.get("latitude"))
+    lon = parse_float(row.get("lon") or row.get("longitude"))
+
+    if not name and lat is None and lon is None:
+        return None
+    if lat is None and lon is None:
+        return None
+    if not name:
+        raise ValueError(f"commercial line {line_number}: name is required")
+    if lat is None or lon is None:
+        raise ValueError(f"commercial line {line_number}: lat and lon are required together")
+    if not -90 <= lat <= 90 or not -180 <= lon <= 180:
+        raise ValueError(f"commercial line {line_number}: lat/lon is outside valid range")
+
+    prefecture = (row.get("prefecture") or "").strip()
+    municipality = (row.get("municipality") or row.get("city") or "").strip()
+    address = (row.get("address") or "").strip()
+    source = (row.get("source") or "jcsc").strip()
+    updated_at = (row.get("updated_at") or row.get("updatedAt") or "").strip()
+    explicit_id = (row.get("id") or "").strip()
+    record_id = explicit_id or build_facility_id("commercial_facility", name, lat, lon)
+    return {
+        "id": record_id,
+        "categoryId": "commercial_facility",
+        "name": name,
+        "lat": lat,
+        "lon": lon,
+        "prefecture": prefecture,
+        "municipality": municipality,
+        "address": address,
+        "source": source,
+        "updatedAt": updated_at,
+    }
+
+
 def build_facility_id(category_id: str, name: str, lat: float, lon: float) -> str:
     safe_name = "".join(char if char.isalnum() else "_" for char in name.lower()).strip("_")
     return f"{category_id}_{safe_name}_{lat:.6f}_{lon:.6f}"
@@ -122,11 +177,15 @@ def parse_float(value: str | None) -> float | None:
 def export_nearby_facilities(
     *,
     input_csv: Path,
+    commercial_facilities_csv: Path | None = None,
     output: Path,
     source: str,
     source_label: str,
 ) -> Path:
     facilities = load_facility_rows(input_csv)
+    if commercial_facilities_csv is not None:
+        facilities.extend(load_commercial_facility_rows(commercial_facilities_csv))
+        facilities = deduplicate_facilities(facilities)
     payload = {
         "schemaVersion": 1,
         "source": source if facilities else "not_generated",
@@ -138,6 +197,14 @@ def export_nearby_facilities(
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return output
+
+
+def deduplicate_facilities(facilities: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    records = {}
+    for facility in facilities:
+        key = facility["id"]
+        records[key] = facility
+    return sorted(records.values(), key=lambda row: (row["categoryId"], row["prefecture"], row["name"]))
 
 
 def write_csv_template(output: Path) -> Path:
@@ -164,6 +231,12 @@ def main() -> int:
         type=Path,
         default=Path("../frontend/public/facilities/nearby_facilities.json"),
     )
+    parser.add_argument(
+        "--commercial-facilities-csv",
+        type=Path,
+        default=Path("data/processed/jcsc/jcsc_sc_open.csv"),
+        help="Optional commercial facility CSV. Rows with lat/lon are exported as markers.",
+    )
     parser.add_argument("--source", default="manual_or_processed")
     parser.add_argument("--source-label", default="周辺施設データ")
     parser.add_argument(
@@ -181,6 +254,7 @@ def main() -> int:
     try:
         output = export_nearby_facilities(
             input_csv=args.input_csv,
+            commercial_facilities_csv=args.commercial_facilities_csv,
             output=args.output,
             source=args.source,
             source_label=args.source_label,

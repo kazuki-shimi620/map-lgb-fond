@@ -18,6 +18,14 @@ training/data/manual/facilities/nearby_facilities_template.csv
 training/data/processed/facilities/nearby_facilities.csv
 ```
 
+JCSC商業施設CSVに `lat` / `lon` を付与した場合は、`make nearby-facilities` 実行時に `commercial_facility` マーカーとして同じJSONへ取り込む。既定の参照先は次の通り。
+
+```text
+training/data/processed/jcsc/jcsc_sc_open.csv
+```
+
+緯度経度がない商業施設行は地図マーカーへ出力しない。
+
 | column | required | description |
 | --- | --- | --- |
 | `id` | no | 空の場合はカテゴリ、施設名、緯度経度から自動生成する |
