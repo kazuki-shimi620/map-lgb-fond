@@ -1,7 +1,7 @@
 {
   "region": "tokyo",
   "modelName": "tokyo_latest",
-  "mae": 6402713.222927691,
+  "mae": 6363206.064646203,
   "latestTrainingYear": 2025,
   "generatedAt": "2026-07-15",
   "featureOrder": [
@@ -18,7 +18,14 @@
     "station_line_count",
     "station_operator_count",
     "effective_station_scale",
-    "station_rank"
+    "station_rank",
+    "land_price_city_avg_yen_per_sqm",
+    "land_price_city_yoy_rate",
+    "land_price_points_city_count",
+    "nearest_land_price_yen_per_sqm",
+    "nearest_land_price_distance_km",
+    "land_price_points_within_2km",
+    "has_land_price_data"
   ],
   "evaluation": {
     "split": "time_holdout",
@@ -27,13 +34,13 @@
     "trainCount": 226075,
     "testCount": 33025,
     "metrics": {
-      "mae": 6402713.222927691,
-      "rmse": 8793363.56632417,
-      "mape": 17.11235198924876
+      "mae": 6363206.064646203,
+      "rmse": 8738253.687037392,
+      "mape": 17.00911011940878
     },
     "residualQuantiles": {
-      "p025": -11246118.116350072,
-      "p975": 21579924.644867316
+      "p025": -11359213.31040845,
+      "p975": 21382668.275252827
     }
   },
   "deployment": {
@@ -44,73 +51,101 @@
   },
   "modelParams": {
     "objective": "regression",
-    "n_estimators": 602,
-    "learning_rate": 0.06691719819217118,
+    "n_estimators": 798,
+    "learning_rate": 0.052313704656387086,
     "random_state": 42,
     "verbosity": -1,
-    "num_leaves": 78,
-    "max_depth": 9,
-    "min_child_samples": 189,
-    "subsample": 0.7611851473603198,
-    "colsample_bytree": 0.7525768351068537,
-    "reg_alpha": 0.12035523485448622,
-    "reg_lambda": 0.003595604062575829
+    "num_leaves": 70,
+    "max_depth": 8,
+    "min_child_samples": 46,
+    "subsample": 0.9586845420891329,
+    "colsample_bytree": 0.6888437431882408,
+    "reg_alpha": 0.00010297712312750064,
+    "reg_lambda": 1.6438259363686263e-06
   },
   "featureImportance": [
     {
       "feature": "station",
-      "importance": 13901.0
+      "importance": 11725.0
     },
     {
       "feature": "age",
-      "importance": 5823.0
-    },
-    {
-      "feature": "room_layout",
-      "importance": 5140.0
+      "importance": 7560.0
     },
     {
       "feature": "area",
-      "importance": 5005.0
-    },
-    {
-      "feature": "municipality",
-      "importance": 4895.0
+      "importance": 6286.0
     },
     {
       "feature": "effective_station_scale",
-      "importance": 3542.0
+      "importance": 5403.0
+    },
+    {
+      "feature": "municipality",
+      "importance": 4827.0
+    },
+    {
+      "feature": "room_layout",
+      "importance": 4680.0
     },
     {
       "feature": "station_distance",
-      "importance": 2732.0
+      "importance": 4456.0
     },
     {
       "feature": "transaction_year",
-      "importance": 2421.0
-    },
-    {
-      "feature": "building_type",
-      "importance": 916.0
+      "importance": 2894.0
     },
     {
       "feature": "station_passenger_log",
-      "importance": 633.0
+      "importance": 1799.0
+    },
+    {
+      "feature": "land_price_city_avg_yen_per_sqm",
+      "importance": 1368.0
+    },
+    {
+      "feature": "land_price_city_yoy_rate",
+      "importance": 1077.0
+    },
+    {
+      "feature": "building_type",
+      "importance": 992.0
+    },
+    {
+      "feature": "land_price_points_city_count",
+      "importance": 694.0
     },
     {
       "feature": "station_rank",
-      "importance": 341.0
+      "importance": 354.0
     },
     {
       "feature": "station_line_count",
-      "importance": 61.0
+      "importance": 296.0
     },
     {
       "feature": "station_operator_count",
-      "importance": 36.0
+      "importance": 166.0
+    },
+    {
+      "feature": "has_land_price_data",
+      "importance": 2.0
     },
     {
       "feature": "prefecture",
+      "importance": 0.0
+    },
+    {
+      "feature": "nearest_land_price_yen_per_sqm",
+      "importance": 0.0
+    },
+    {
+      "feature": "nearest_land_price_distance_km",
+      "importance": 0.0
+    },
+    {
+      "feature": "land_price_points_within_2km",
       "importance": 0.0
     }
   ],
@@ -119,8 +154,8 @@
     "nTrials": 30,
     "completedTrials": 30,
     "validationYear": 2024,
-    "bestValidationMae": 5767599.0073002195,
-    "bestTuningScore": 5918099.0073002195,
+    "bestValidationMae": 5740930.540727553,
+    "bestTuningScore": 5940430.540727553,
     "maxEstimators": 800,
     "numLeavesMax": 80,
     "maxDepthMax": 9,

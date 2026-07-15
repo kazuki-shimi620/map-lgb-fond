@@ -41,6 +41,13 @@ features:
   - station_operator_count
   - effective_station_scale
   - station_rank
+  - land_price_city_avg_yen_per_sqm
+  - land_price_city_yoy_rate
+  - land_price_points_city_count
+  - nearest_land_price_yen_per_sqm
+  - nearest_land_price_distance_km
+  - land_price_points_within_2km
+  - has_land_price_data
 categorical_features:
   - prefecture
   - municipality

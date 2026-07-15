@@ -360,6 +360,28 @@ make compare-train-start-years
 * ブラウザ推論で同じ市区町村地価特徴量を再現する静的JSONとTypeScript実装は追加済み
 * 次は首都圏4県configへ地価特徴量を追加し、公開成果物を再生成して差分を確認する
 
+同日に首都圏4県configへ地価特徴量を追加し、`make train-all PUBLISH_POLICY=latest` で公開成果物を再生成した。比較結果は `training/outputs/comparisons/land_price_feature_model_comparison.md` に保存した。
+
+| 指標 | 更新前 | 更新後 | 差分 |
+| --- | ---: | ---: | ---: |
+| MAE | 4,967,492円 | 4,961,928円 | -5,564円 |
+| RMSE | 6,838,398円 | 6,827,461円 | -10,937円 |
+| MAPE | 24.07% | 24.03% | -0.03pt |
+| ONNX合計 | 48.35 MB | 44.75 MB | -3.59 MB |
+
+| 地域 | MAE差分 | RMSE差分 | ONNX差分 | 特徴量数 |
+| --- | ---: | ---: | ---: | ---: |
+| 東京 | -39,507円 | -55,110円 | -0.91 MB | 21 |
+| 神奈川 | +20,255円 | +23,491円 | -3.25 MB | 21 |
+| 埼玉 | +578円 | +12,125円 | +0.78 MB | 21 |
+| 千葉 | -4,881円 | -13,533円 | -0.22 MB | 21 |
+
+判断:
+
+* 全体MAE/RMSEは改善し、ONNX合計も減ったため、地価特徴量は首都圏4県公開モデルに採用する
+* 神奈川は単県で悪化したため、次回は地域別チューニングや地価特徴量の採用範囲を確認する
+* 近傍地価特徴量は依然として物件座標が無く0のため、改善は市区町村地価水準・変化率・ポイント数によるもの
+
 ## 2026-07-15 駅規模coverageフラグ削除モデル
 
 `station_passenger_no_coverage_flag` の比較で同一結果だったため、首都圏4県configから `has_station_passenger_data` を外してモデルを再生成した。更新前後の比較は `training/outputs/comparisons/remove_station_coverage_comparison.md` に保存した。
