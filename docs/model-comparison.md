@@ -386,6 +386,8 @@ make compare-train-start-years
 
 用途地域はデータ取得自体はできたが、モデル比較には物件座標の付与が先に必要になる。地価の市区町村集計と違い、用途地域は点-in-ポリゴン判定が必要なため、座標なしでは代替特徴量を作りにくい。
 
+座標付与方針として、最寄駅座標は物件座標に代用しないことにした。Geolonia住所データを初期代表点データソースとして取得し、277,189町丁目代表点、CSV 25.3MBを生成した。現行Parquetはまだ `district_name` を持たないため町丁目代表点マッチは0.00%だが、市区町村代表点へのフォールバックは683,996件、99.74%にマッチした。市区町村代表点は用途地域・ハザード・近傍距離には粗すぎるため、次は首都圏4県の再前処理で `district_name` を保持してから町丁目代表点マッチ率を確認する。
+
 ## 2026-07-15 駅規模coverageフラグ削除モデル
 
 `station_passenger_no_coverage_flag` の比較で同一結果だったため、首都圏4県configから `has_station_passenger_data` を外してモデルを再生成した。更新前後の比較は `training/outputs/comparisons/remove_station_coverage_comparison.md` に保存した。

@@ -37,6 +37,9 @@ LAND_PRICE_REQUEST_INTERVAL_SECONDS ?= 1.0
 LAND_PRICE_POINTS_CSV ?= data/processed/land_prices/land_price_points.csv
 LAND_PRICE_CITY_SUMMARY_CSV ?= data/processed/land_prices/land_price_city_summary.csv
 LAND_PRICE_PUBLIC_JSON ?= ../$(FRONTEND_DIR)/public/land-prices/municipality_land_prices.json
+ADDRESS_POINTS_INPUT ?=
+ADDRESS_POINTS_SOURCE_URL ?= https://geolonia.github.io/japanese-addresses/latest.csv
+ADDRESS_POINTS_CSV ?= data/processed/address_points/town_points.csv
 POPULATION_INPUT ?=
 POPULATION_TEMPLATE ?= data/manual/population/municipality_population_template.csv
 ESTAT_STATS_DATA_ID ?=
@@ -91,7 +94,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage check-feature-order histories-national facilities land-prices nearby-facilities nearby-facilities-template stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage check-feature-order histories-national facilities land-prices nearby-facilities nearby-facilities-template stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -128,6 +131,8 @@ help:
 	@echo "                          地価ポイント取得のリクエスト数を確認"
 	@echo "  make collect-land-prices-tile LAND_PRICE_TILE_Z=14 LAND_PRICE_TILE_X=14550 LAND_PRICE_TILE_Y=6449"
 	@echo "                          地価ポイント取得を1タイルで疎通確認"
+	@echo "  make collect-address-points"
+	@echo "                          町丁目代表点CSVを取得または正規化"
 	@echo "  make collect-population-stats POPULATION_INPUT=path/to/population.csv"
 	@echo "                          自治体人口統計CSVを正規化"
 	@echo "  make collect-population-stats ESTAT_STATS_DATA_ID=... ESTAT_ITEMS='population_total=cat01:001 ...'"
@@ -205,6 +210,8 @@ help:
 	@echo "                          築古・駅遠・高額帯などの件数と分布を集計"
 	@echo "  make summarize-land-price-coverage"
 	@echo "                          地価データのマッチ率、価格水準、変化率、配布サイズを集計"
+	@echo "  make summarize-coordinate-coverage"
+	@echo "                          町丁目代表点による取引座標付与カバレッジを集計"
 	@echo "  make summarize-population-coverage"
 	@echo "                          人口統計のマッチ率、人口密度、年齢構成、配布サイズを集計"
 	@echo "  make summarize-urban-planning-coverage"
@@ -294,6 +301,14 @@ collect-land-prices-dry-run:
 
 collect-land-prices-tile:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/land_prices.py --tile $(LAND_PRICE_TILE_Z) $(LAND_PRICE_TILE_X) $(LAND_PRICE_TILE_Y) --years "$(LAND_PRICE_YEARS)" --use-category-codes "$(LAND_PRICE_USE_CATEGORY_CODES)" --request-interval-seconds $(LAND_PRICE_REQUEST_INTERVAL_SECONDS) --cache
+
+collect-address-points:
+	cd $(TRAINING_DIR) && \
+	if [ -n "$(ADDRESS_POINTS_INPUT)" ]; then \
+		$(TRAINING_PYTHON) src/collect/address_points.py --input "$(ADDRESS_POINTS_INPUT)"; \
+	else \
+		$(TRAINING_PYTHON) src/collect/address_points.py --source-url "$(ADDRESS_POINTS_SOURCE_URL)"; \
+	fi
 
 collect-population-stats:
 	cd $(TRAINING_DIR) && \
@@ -470,6 +485,9 @@ summarize-edge-cases:
 
 summarize-land-price-coverage:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/land_price_coverage.py --regions $(REGIONS) --land-price-points-csv "$(LAND_PRICE_POINTS_CSV)" --land-price-city-summary-csv "$(LAND_PRICE_CITY_SUMMARY_CSV)"
+
+summarize-coordinate-coverage:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/address_coordinate_coverage.py --regions $(REGIONS) --address-points-csv "$(ADDRESS_POINTS_CSV)"
 
 summarize-population-coverage:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/population_coverage.py --regions $(REGIONS) --population-stats-csv "$(POPULATION_STATS_CSV)"
