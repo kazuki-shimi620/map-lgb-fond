@@ -81,6 +81,9 @@ OSM_PARK_AREA ?= tokyo
 OSM_PARK_BBOX ?=
 OSM_PARK_RUN_ID ?= latest_park_$(OSM_PARK_AREA)_geometry
 OSM_PARK_PROCESSED_DIR ?= data/processed/osm_nearby/park_$(OSM_PARK_AREA)_geometry
+OSM_PARK_SPLIT_SIZE_DEGREES ?=
+OSM_PARK_REQUEST_INTERVAL_SECONDS ?= 1.0
+OSM_PARK_CONTINUE_ON_ERROR ?=
 URBAN_PLANNING_APIS ?= XKT001,XKT002,XKT003
 URBAN_PLANNING_AREA ?= capital
 URBAN_PLANNING_ZOOM ?= 13
@@ -397,7 +400,7 @@ collect-osm-nearby-facilities-dry-run:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py --area $(OSM_NEARBY_AREA) --categories "$(OSM_NEARBY_CATEGORIES)" --timeout-seconds $(OSM_NEARBY_TIMEOUT_SECONDS) --dry-run
 
 collect-osm-park-areas:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py $(if $(strip $(OSM_PARK_BBOX)),--bbox $(OSM_PARK_BBOX),--area $(OSM_PARK_AREA)) --categories park --timeout-seconds $(OSM_NEARBY_TIMEOUT_SECONDS) --run-id "$(OSM_PARK_RUN_ID)" --processed-dir "$(OSM_PARK_PROCESSED_DIR)" --include-geometry --cache
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py $(if $(strip $(OSM_PARK_BBOX)),--bbox $(OSM_PARK_BBOX),--area $(OSM_PARK_AREA)) --categories park --timeout-seconds $(OSM_NEARBY_TIMEOUT_SECONDS) --run-id "$(OSM_PARK_RUN_ID)" --processed-dir "$(OSM_PARK_PROCESSED_DIR)" --include-geometry --request-interval-seconds $(OSM_PARK_REQUEST_INTERVAL_SECONDS) $(if $(strip $(OSM_PARK_SPLIT_SIZE_DEGREES)),--split-size-degrees $(OSM_PARK_SPLIT_SIZE_DEGREES),) $(if $(strip $(OSM_PARK_CONTINUE_ON_ERROR)),--continue-on-error,) --cache
 
 collect-urban-planning:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --area $(URBAN_PLANNING_AREA) --zoom $(URBAN_PLANNING_ZOOM) --request-interval-seconds $(URBAN_PLANNING_REQUEST_INTERVAL_SECONDS) --cache

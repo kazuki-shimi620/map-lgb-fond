@@ -5,8 +5,10 @@ import csv
 from collect.osm_nearby_facilities import (
     build_overpass_query,
     collect_osm_nearby_facilities,
+    collect_osm_nearby_facilities_grid,
     normalize_overpass_element,
     normalize_park_area_element,
+    split_area,
 )
 
 
@@ -137,6 +139,60 @@ def test_collect_osm_nearby_facilities_writes_park_areas_from_geometry_cache(tmp
     assert float(rows[0]["area_sqm"]) > 9_000
 
 
+def test_collect_osm_nearby_facilities_grid_merges_split_cache(tmp_path) -> None:
+    raw_dir = tmp_path / "raw"
+    processed_dir = tmp_path / "processed"
+    raw_dir.mkdir()
+    payload = """
+        {
+          "elements": [
+            {
+              "type": "way",
+              "id": 456,
+              "bounds": {
+                "minlat": 35.0000,
+                "minlon": 139.0000,
+                "maxlat": 35.0010,
+                "maxlon": 139.0010
+              },
+              "geometry": [
+                {"lat": 35.0000, "lon": 139.0000},
+                {"lat": 35.0000, "lon": 139.0010},
+                {"lat": 35.0010, "lon": 139.0010},
+                {"lat": 35.0010, "lon": 139.0000},
+                {"lat": 35.0000, "lon": 139.0000}
+              ],
+              "tags": {"leisure": "park", "name": "分割公園"}
+            }
+          ]
+        }
+        """
+    (raw_dir / "latest_r00_c00.json").write_text(payload, encoding="utf-8")
+    (raw_dir / "latest_r00_c01.json").write_text(payload, encoding="utf-8")
+
+    outputs = collect_osm_nearby_facilities_grid(
+        categories=["park"],
+        area={"south": 35.0, "west": 139.0, "north": 35.1, "east": 139.2},
+        split_size_degrees=0.1,
+        raw_dir=raw_dir,
+        processed_dir=processed_dir,
+        run_id="latest",
+        endpoint="https://example.test",
+        timeout_seconds=1,
+        cache=True,
+        force=False,
+        include_geometry=True,
+        request_interval_seconds=0,
+    )
+
+    assert outputs["element_count"] == 2
+    assert outputs["nearby_facility_count"] == 1
+    assert outputs["park_area_count"] == 1
+    with outputs["park_areas_csv"].open(encoding="utf-8", newline="") as file:
+        rows = list(csv.DictReader(file))
+    assert rows[0]["id"] == "osm_way_456"
+
+
 def test_normalize_park_area_element_uses_bounds_for_relation() -> None:
     row = normalize_park_area_element(
         {
@@ -215,3 +271,16 @@ def test_build_overpass_query_can_request_geometry() -> None:
 
     assert '["leisure"="park"]' in query
     assert "out center tags geom" in query
+
+
+def test_split_area_returns_grid_cells() -> None:
+    cells = split_area(
+        {"south": 35.0, "west": 139.0, "north": 35.2, "east": 139.2},
+        split_size_degrees=0.1,
+    )
+
+    assert len(cells) == 4
+    assert cells[0]["row"] == 0
+    assert cells[0]["col"] == 0
+    assert cells[-1]["row"] == 1
+    assert cells[-1]["col"] == 1

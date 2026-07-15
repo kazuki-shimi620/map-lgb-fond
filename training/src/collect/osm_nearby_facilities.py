@@ -5,6 +5,7 @@ import csv
 import json
 import math
 import sys
+import time
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
@@ -136,6 +137,32 @@ def fetch_overpass(
         raise OsmNearbyFacilityCollectError(f"failed to fetch Overpass data: {error}") from error
 
 
+def load_overpass_payload(
+    *,
+    query: str,
+    raw_path: Path,
+    query_path: Path,
+    endpoint: str,
+    timeout_seconds: int,
+    cache: bool,
+    force: bool,
+) -> dict[str, Any]:
+    if cache and raw_path.exists() and not force:
+        return json.loads(raw_path.read_text(encoding="utf-8"))
+    payload = fetch_overpass(
+        query=query,
+        endpoint=endpoint,
+        timeout_seconds=timeout_seconds,
+    )
+    raw_path.parent.mkdir(parents=True, exist_ok=True)
+    raw_path.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    query_path.write_text(query + "\n", encoding="utf-8")
+    return payload
+
+
 def collect_osm_nearby_facilities(
     *,
     categories: list[str],
@@ -160,20 +187,15 @@ def collect_osm_nearby_facilities(
     )
     raw_path = raw_dir / f"{run_id}.json"
     query_path = raw_dir / f"{run_id}.overpassql"
-    if cache and raw_path.exists() and not force:
-        payload = json.loads(raw_path.read_text(encoding="utf-8"))
-    else:
-        payload = fetch_overpass(
-            query=query,
-            endpoint=endpoint,
-            timeout_seconds=timeout_seconds,
-        )
-        raw_dir.mkdir(parents=True, exist_ok=True)
-        raw_path.write_text(
-            json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
-        query_path.write_text(query + "\n", encoding="utf-8")
+    payload = load_overpass_payload(
+        query=query,
+        raw_path=raw_path,
+        query_path=query_path,
+        endpoint=endpoint,
+        timeout_seconds=timeout_seconds,
+        cache=cache,
+        force=force,
+    )
 
     rows = normalize_overpass_elements(payload.get("elements", []))
     park_area_rows = (
@@ -181,6 +203,105 @@ def collect_osm_nearby_facilities(
         if include_geometry
         else []
     )
+    return write_collection_outputs(
+        processed_dir=processed_dir,
+        categories=categories,
+        include_geometry=include_geometry,
+        rows=rows,
+        park_area_rows=park_area_rows,
+        element_count=len(payload.get("elements", [])),
+        raw_refs=[str(raw_path)],
+        query_refs=[str(query_path)],
+    )
+
+
+def collect_osm_nearby_facilities_grid(
+    *,
+    categories: list[str],
+    area: dict[str, float],
+    split_size_degrees: float,
+    raw_dir: Path,
+    processed_dir: Path,
+    run_id: str,
+    endpoint: str,
+    timeout_seconds: int,
+    cache: bool,
+    force: bool,
+    include_geometry: bool = False,
+    request_interval_seconds: float = 1.0,
+    continue_on_error: bool = False,
+) -> dict[str, Path | int]:
+    rows: list[dict[str, Any]] = []
+    park_area_rows: list[dict[str, Any]] = []
+    element_count = 0
+    raw_refs: list[str] = []
+    query_refs: list[str] = []
+    errors: list[dict[str, str]] = []
+    cells = split_area(area, split_size_degrees)
+    for index, cell in enumerate(cells):
+        query = build_overpass_query(
+            categories=categories,
+            south=cell["south"],
+            west=cell["west"],
+            north=cell["north"],
+            east=cell["east"],
+            timeout_seconds=timeout_seconds,
+            include_geometry=include_geometry,
+        )
+        suffix = f"r{cell['row']:02d}_c{cell['col']:02d}"
+        raw_path = raw_dir / f"{run_id}_{suffix}.json"
+        query_path = raw_dir / f"{run_id}_{suffix}.overpassql"
+        try:
+            payload = load_overpass_payload(
+                query=query,
+                raw_path=raw_path,
+                query_path=query_path,
+                endpoint=endpoint,
+                timeout_seconds=timeout_seconds,
+                cache=cache,
+                force=force,
+            )
+        except OsmNearbyFacilityCollectError as error:
+            if not continue_on_error:
+                raise
+            errors.append({"cell": suffix, "error": str(error)})
+            continue
+        elements = payload.get("elements", [])
+        element_count += len(elements) if isinstance(elements, list) else 0
+        rows.extend(normalize_overpass_elements(elements))
+        if include_geometry:
+            park_area_rows.extend(normalize_park_area_elements(elements))
+        raw_refs.append(str(raw_path))
+        query_refs.append(str(query_path))
+        if index < len(cells) - 1 and request_interval_seconds > 0:
+            time.sleep(request_interval_seconds)
+    return write_collection_outputs(
+        processed_dir=processed_dir,
+        categories=categories,
+        include_geometry=include_geometry,
+        rows=deduplicate(rows),
+        park_area_rows=deduplicate_park_area_rows(park_area_rows),
+        element_count=element_count,
+        raw_refs=raw_refs,
+        query_refs=query_refs,
+        split_count=len(cells),
+        errors=errors,
+    )
+
+
+def write_collection_outputs(
+    *,
+    processed_dir: Path,
+    categories: list[str],
+    include_geometry: bool,
+    rows: list[dict[str, Any]],
+    park_area_rows: list[dict[str, Any]],
+    element_count: int,
+    raw_refs: list[str],
+    query_refs: list[str],
+    split_count: int | None = None,
+    errors: list[dict[str, str]] | None = None,
+) -> dict[str, Path | int]:
     processed_dir.mkdir(parents=True, exist_ok=True)
     nearby_path = processed_dir / "nearby_osm_facilities.csv"
     park_areas_path = processed_dir / "park_areas.csv"
@@ -195,12 +316,17 @@ def collect_osm_nearby_facilities(
         "license": "Open Database License (ODbL)",
         "categories": categories,
         "includeGeometry": include_geometry,
-        "elementCount": len(payload.get("elements", [])),
+        "elementCount": element_count,
         "nearbyFacilityCount": len(rows),
         "parkAreaCount": len(park_area_rows),
-        "raw": str(raw_path),
-        "query": str(query_path),
+        "raw": raw_refs[0] if len(raw_refs) == 1 else raw_refs,
+        "query": query_refs[0] if len(query_refs) == 1 else query_refs,
     }
+    if split_count is not None:
+        metadata["splitCount"] = split_count
+    if errors is not None:
+        metadata["errorCount"] = len(errors)
+        metadata["errors"] = errors
     metadata_path.write_text(
         json.dumps(metadata, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
@@ -209,7 +335,7 @@ def collect_osm_nearby_facilities(
         "nearby_facilities_csv": nearby_path,
         "metadata": metadata_path,
         "park_areas_csv": park_areas_path,
-        "element_count": len(payload.get("elements", [])),
+        "element_count": element_count,
         "nearby_facility_count": len(rows),
         "park_area_count": len(park_area_rows),
     }
@@ -226,6 +352,36 @@ def normalize_overpass_elements(elements: object) -> list[dict[str, Any]]:
         if row:
             rows.append(row)
     return deduplicate(rows)
+
+
+def split_area(area: dict[str, float], split_size_degrees: float) -> list[dict[str, float | int]]:
+    if split_size_degrees <= 0:
+        raise OsmNearbyFacilityCollectError("--split-size-degrees must be greater than 0")
+    cells: list[dict[str, float | int]] = []
+    epsilon = 1e-10
+    south = area["south"]
+    row = 0
+    while south < area["north"] - epsilon:
+        north = min(south + split_size_degrees, area["north"])
+        west = area["west"]
+        col = 0
+        while west < area["east"] - epsilon:
+            east = min(west + split_size_degrees, area["east"])
+            cells.append(
+                {
+                    "south": south,
+                    "west": west,
+                    "north": north,
+                    "east": east,
+                    "row": row,
+                    "col": col,
+                }
+            )
+            west = east
+            col += 1
+        south = north
+        row += 1
+    return cells
 
 
 def normalize_overpass_element(element: dict[str, Any]) -> dict[str, Any] | None:
@@ -272,8 +428,7 @@ def normalize_park_area_elements(elements: object) -> list[dict[str, Any]]:
         row = normalize_park_area_element(element)
         if row:
             rows.append(row)
-    by_id = {row["id"]: row for row in rows}
-    return sorted(by_id.values(), key=lambda row: (row["name"], row["id"]))
+    return deduplicate_park_area_rows(rows)
 
 
 def normalize_park_area_element(element: dict[str, Any]) -> dict[str, Any] | None:
@@ -423,6 +578,11 @@ def deduplicate(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return sorted(by_id.values(), key=lambda row: (row["category_id"], row["name"], row["id"]))
 
 
+def deduplicate_park_area_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    by_id = {row["id"]: row for row in rows}
+    return sorted(by_id.values(), key=lambda row: (row["name"], row["id"]))
+
+
 def write_csv(path: Path, rows: list[dict[str, Any]], fieldnames: list[str]) -> Path:
     with path.open("w", encoding="utf-8", newline="") as file:
         writer = csv.DictWriter(file, fieldnames=fieldnames, extrasaction="ignore")
@@ -457,6 +617,9 @@ def main() -> int:
     parser.add_argument("--cache", action="store_true")
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--include-geometry", action="store_true")
+    parser.add_argument("--split-size-degrees", type=float, default=0.0)
+    parser.add_argument("--request-interval-seconds", type=float, default=1.0)
+    parser.add_argument("--continue-on-error", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -482,24 +645,46 @@ def main() -> int:
             **area,
         )
         if args.dry_run:
+            split_count = (
+                len(split_area(area, args.split_size_degrees))
+                if args.split_size_degrees > 0
+                else 1
+            )
             print(
                 "osm nearby facilities dry-run: "
                 f"categories={','.join(categories)} area={area_label} "
-                f"bbox={area} queryBytes={len(query.encode('utf-8'))}"
+                f"bbox={area} splitCount={split_count} queryBytes={len(query.encode('utf-8'))}"
             )
             return 0
-        outputs = collect_osm_nearby_facilities(
-            categories=categories,
-            area=area,
-            raw_dir=args.raw_dir,
-            processed_dir=args.processed_dir,
-            run_id=args.run_id,
-            endpoint=args.endpoint,
-            timeout_seconds=args.timeout_seconds,
-            cache=args.cache,
-            force=args.force,
-            include_geometry=args.include_geometry,
-        )
+        if args.split_size_degrees > 0:
+            outputs = collect_osm_nearby_facilities_grid(
+                categories=categories,
+                area=area,
+                split_size_degrees=args.split_size_degrees,
+                raw_dir=args.raw_dir,
+                processed_dir=args.processed_dir,
+                run_id=args.run_id,
+                endpoint=args.endpoint,
+                timeout_seconds=args.timeout_seconds,
+                cache=args.cache,
+                force=args.force,
+                include_geometry=args.include_geometry,
+                request_interval_seconds=args.request_interval_seconds,
+                continue_on_error=args.continue_on_error,
+            )
+        else:
+            outputs = collect_osm_nearby_facilities(
+                categories=categories,
+                area=area,
+                raw_dir=args.raw_dir,
+                processed_dir=args.processed_dir,
+                run_id=args.run_id,
+                endpoint=args.endpoint,
+                timeout_seconds=args.timeout_seconds,
+                cache=args.cache,
+                force=args.force,
+                include_geometry=args.include_geometry,
+            )
     except OsmNearbyFacilityCollectError as error:
         print(f"osm nearby facility collect failed: {error}", file=sys.stderr)
         return 1
