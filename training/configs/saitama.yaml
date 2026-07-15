@@ -3,7 +3,7 @@ target: price
 latest_training_year: 2025
 train_start_year: 2015
 test_year: 2025
-processed_path: data/processed/saitama.parquet
+processed_path: data/processed/with_address_coordinates/saitama.parquet
 station_passengers_csv: data/processed/station_passengers/station_groups.csv
 output_dir: outputs/models
 frontend_public_dir: ../frontend/public
@@ -48,6 +48,14 @@ features:
   - nearest_land_price_distance_km
   - land_price_points_within_2km
   - has_land_price_data
+  - is_commercial_zone
+  - is_residential_zone
+  - floor_area_ratio
+  - building_coverage_ratio
+  - has_zoning_data
+  - city_planning_area_type
+  - zoning_type
+  - location_optimization_area
 categorical_features:
   - prefecture
   - municipality
@@ -55,3 +63,6 @@ categorical_features:
   - room_layout
   - building_type
   - station_rank
+  - city_planning_area_type
+  - zoning_type
+  - location_optimization_area
