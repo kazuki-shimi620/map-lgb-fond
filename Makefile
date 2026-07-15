@@ -57,6 +57,7 @@ NEARBY_FACILITIES_CSV ?= data/processed/facilities/nearby_facilities.csv
 NEARBY_FACILITIES_JSON ?= ../$(FRONTEND_DIR)/public/facilities/nearby_facilities.json
 NEARBY_FACILITIES_TEMPLATE ?= data/manual/facilities/nearby_facilities_template.csv
 COMMERCIAL_FACILITIES_CSV ?= data/processed/jcsc/jcsc_sc_open.csv
+COMMERCIAL_FACILITIES_COORDINATED_CSV ?= data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
 EDUCATION_APIS ?= XKT004,XKT005,XKT006,XKT007
 EDUCATION_AREA ?= capital
 EDUCATION_ZOOM ?= 13
@@ -98,7 +99,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-urban-planning-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices nearby-facilities nearby-facilities-template stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-urban-planning-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices nearby-facilities nearby-facilities-template stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -174,6 +175,8 @@ help:
 	@echo "                          首都圏4都県の2005〜2025年ZIPを個別に前処理"
 	@echo "  make preprocess-national 全国の2005〜2025年ZIPを比較用Parquetへ変換"
 	@echo "  make enrich-coordinates  町丁目代表点で検証用lat/lon付きParquetを生成"
+	@echo "  make enrich-commercial-facilities"
+	@echo "                          JCSC商業施設CSVへ町丁目代表点のlat/lonを付与"
 	@echo "  make train REGION=tokyo 指定地域のモデルを再学習"
 	@echo "  make train-all          4地域のモデルを再学習"
 	@echo "  make train-all PUBLISH_POLICY=latest"
@@ -411,6 +414,9 @@ enrich-coordinates:
 	else \
 		$(TRAINING_PYTHON) src/preprocess/enrich_coordinates.py --regions $(REGIONS) --address-points-csv "$(ADDRESS_POINTS_CSV)" --output-dir "$(COORDINATE_ENRICHED_DIR)"; \
 	fi
+
+enrich-commercial-facilities:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/enrich_commercial_facilities.py --input-csv "$(COMMERCIAL_FACILITIES_CSV)" --address-points-csv "$(ADDRESS_POINTS_CSV)" --output-csv "$(COMMERCIAL_FACILITIES_COORDINATED_CSV)"
 
 train:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/train/train.py --config configs/$(REGION).yaml --db-path $(DB_PATH) --export-onnx --publish-policy $(PUBLISH_POLICY)

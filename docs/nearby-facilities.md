@@ -26,6 +26,15 @@ training/data/processed/jcsc/jcsc_sc_open.csv
 
 緯度経度がない商業施設行は地図マーカーへ出力しない。
 
+JCSC商業施設CSVへ町丁目代表点を付与する場合は、次を実行する。
+
+```bash
+make enrich-commercial-facilities
+make nearby-facilities COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
+```
+
+2026-07-15時点では、Geolonia住所データの町丁目代表点により429件中144件へ代表座標を付与し、`frontend/public/facilities/nearby_facilities.json` へ `commercial_facility` マーカーとして出力した。町丁目代表点のため、施設入口や建物中心点の精密座標ではない。
+
 | column | required | description |
 | --- | --- | --- |
 | `id` | no | 空の場合はカテゴリ、施設名、緯度経度から自動生成する |
