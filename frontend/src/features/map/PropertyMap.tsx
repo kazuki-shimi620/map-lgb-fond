@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type FormEvent } from "react";
+import { useCallback, useEffect, useMemo, useState, type FormEvent } from "react";
 import { CircleMarker, MapContainer, Marker, TileLayer, Tooltip, useMap, useMapEvents } from "react-leaflet";
 import { Icon, type LatLngExpression } from "leaflet";
 import markerIcon2xUrl from "leaflet/dist/images/marker-icon-2x.png";
@@ -44,6 +44,16 @@ type Props = {
 };
 
 const SEARCH_FLY_TO_DURATION_MS = 800;
+const MAX_VISIBLE_FACILITY_MARKERS = 1200;
+
+type MapViewport = {
+  north: number;
+  south: number;
+  east: number;
+  west: number;
+  centerLat: number;
+  centerLon: number;
+};
 
 const propertyMarkerIcon = new Icon({
   iconUrl: markerIconUrl,
@@ -77,6 +87,41 @@ function MapMover({ center }: { center: LatLngExpression | null }) {
   return null;
 }
 
+function ViewportTracker({ onChange }: { onChange: (viewport: MapViewport) => void }) {
+  const map = useMap();
+
+  const updateViewport = useCallback(() => {
+    const bounds = map.getBounds();
+    const center = map.getCenter();
+    onChange({
+      north: bounds.getNorth(),
+      south: bounds.getSouth(),
+      east: bounds.getEast(),
+      west: bounds.getWest(),
+      centerLat: center.lat,
+      centerLon: center.lng
+    });
+  }, [map, onChange]);
+
+  useEffect(() => {
+    updateViewport();
+  }, [updateViewport]);
+
+  useMapEvents({
+    moveend: updateViewport,
+    zoomend: updateViewport
+  });
+
+  return null;
+}
+
+function isLongitudeInBounds(lon: number, west: number, east: number) {
+  if (west <= east) {
+    return lon >= west && lon <= east;
+  }
+  return lon >= west || lon <= east;
+}
+
 export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
   const center = useMemo<LatLngExpression>(() => [lat ?? 35.681236, lon ?? 139.767125], [lat, lon]);
   const [query, setQuery] = useState("");
@@ -87,6 +132,7 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
   const [activeHazardLayerIds, setActiveHazardLayerIds] = useState<Set<string>>(new Set());
   const [nearbyFacilities, setNearbyFacilities] = useState<NearbyFacilityCollection | null>(null);
   const [activeFacilityCategoryIds, setActiveFacilityCategoryIds] = useState<Set<NearbyFacilityCategoryId>>(new Set());
+  const [mapViewport, setMapViewport] = useState<MapViewport | null>(null);
 
   const hazardLayers = useMemo(
     () => hazardConfig?.layers.filter((layer) => layer.type === "raster" && layer.tileUrl) ?? [],
@@ -101,6 +147,45 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
       activeFacilityCategoryIds.has(facility.categoryId)
     );
   }, [activeFacilityCategoryIds, nearbyFacilities]);
+  const visibleFacilityResult = useMemo(() => {
+    if (!mapViewport) {
+      return { points: [], inBoundsCount: 0, isLimited: false };
+    }
+
+    const inBounds = activeFacilityPoints.filter(
+      (facility) =>
+        facility.lat >= mapViewport.south &&
+        facility.lat <= mapViewport.north &&
+        isLongitudeInBounds(facility.lon, mapViewport.west, mapViewport.east)
+    );
+
+    if (inBounds.length <= MAX_VISIBLE_FACILITY_MARKERS) {
+      return { points: inBounds, inBoundsCount: inBounds.length, isLimited: false };
+    }
+
+    const nearestPoints = [...inBounds]
+      .sort((a, b) => {
+        const aDistance =
+          (a.lat - mapViewport.centerLat) ** 2 + (a.lon - mapViewport.centerLon) ** 2;
+        const bDistance =
+          (b.lat - mapViewport.centerLat) ** 2 + (b.lon - mapViewport.centerLon) ** 2;
+        return aDistance - bDistance;
+      })
+      .slice(0, MAX_VISIBLE_FACILITY_MARKERS);
+
+    return { points: nearestPoints, inBoundsCount: inBounds.length, isLimited: true };
+  }, [activeFacilityPoints, mapViewport]);
+  const facilityCountsByCategoryId = useMemo(() => {
+    const counts = new Map<NearbyFacilityCategoryId, number>();
+    for (const facility of nearbyFacilities?.facilities ?? []) {
+      counts.set(facility.categoryId, (counts.get(facility.categoryId) ?? 0) + 1);
+    }
+    return counts;
+  }, [nearbyFacilities]);
+  const hasOpenStreetMapFacilities = useMemo(
+    () => nearbyFacilities?.facilities.some((facility) => facility.source === "openstreetmap_odbl") ?? false,
+    [nearbyFacilities]
+  );
   const facilityCategoryById = useMemo(() => {
     const entries = nearbyFacilities?.categories.map((category) => [category.id, category] as const) ?? [];
     return new Map(entries);
@@ -241,6 +326,7 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
           {searchStatus ? <p>{searchStatus}</p> : null}
         </form>
         <MapContainer center={center} zoom={12} className="map">
+          <ViewportTracker onChange={setMapViewport} />
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -257,7 +343,7 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
               zIndex={300 + index}
             />
           ))}
-          {activeFacilityPoints.map((facility) => {
+          {visibleFacilityResult.points.map((facility) => {
             const category = facilityCategoryById.get(facility.categoryId);
             const color = category?.color ?? "#0f766e";
             return (
@@ -323,9 +409,7 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
           <div className="facility-layer-control" aria-label="周辺施設レイヤー" data-testid="facility-layer-control">
             <strong>周辺施設</strong>
             {nearbyFacilities.categories.map((category) => {
-              const count = nearbyFacilities.facilities.filter(
-                (facility) => facility.categoryId === category.id
-              ).length;
+              const count = facilityCountsByCategoryId.get(category.id) ?? 0;
               return (
                 <label className="map-layer-toggle" key={category.id}>
                   <input
@@ -343,7 +427,20 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
             {nearbyFacilities.facilities.length === 0 ? (
               <p>周辺施設データは未生成です。</p>
             ) : (
-              <p>出典: {nearbyFacilities.sourceLabel}</p>
+              <p>
+                表示: {visibleFacilityResult.points.length}件
+                {visibleFacilityResult.isLimited ? ` / 範囲内${visibleFacilityResult.inBoundsCount}件` : ""}
+                <br />
+                出典: {nearbyFacilities.sourceLabel}
+                {hasOpenStreetMapFacilities ? (
+                  <>
+                    <br />
+                    <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">
+                      OpenStreetMap contributors (ODbL)
+                    </a>
+                  </>
+                ) : null}
+              </p>
             )}
           </div>
         ) : null}

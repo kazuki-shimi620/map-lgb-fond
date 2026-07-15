@@ -44,7 +44,7 @@ make collect-medical-facilities MEDICAL_REQUEST_INTERVAL_SECONDS=0.05
 make nearby-facilities NEARBY_FACILITIES_CSV=data/processed/medical/nearby_medical_facilities.csv COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
 ```
 
-スーパー、コンビニ、公園はOpenStreetMapのOverpass APIから取得する。OpenStreetMapデータはOpen Database License (ODbL) として扱い、表示時の帰属表記と大量マーカー描画負荷は別途確認する。2026-07-15時点では、スーパー6,345件、コンビニ17,190件、公園27,231件を取得し、病院・商業施設と合わせて合計109,972件、38MBの周辺施設JSONを生成した。
+スーパー、コンビニ、公園はOpenStreetMapのOverpass APIから取得する。OpenStreetMapデータはOpen Database License (ODbL) として扱う。2026-07-15時点では、スーパー6,345件、コンビニ17,190件、公園27,231件を取得し、病院・商業施設と合わせて合計109,972件、38MBの周辺施設JSONを生成した。表示側では周辺施設パネルにOpenStreetMap contributors (ODbL)への帰属リンクを出し、地図内マーカーは現在の表示範囲内かつ中心に近い最大1,200件へ制限して大量描画を避ける。
 
 ```bash
 make collect-osm-nearby-facilities-dry-run
