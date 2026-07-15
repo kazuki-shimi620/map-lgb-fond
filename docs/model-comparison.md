@@ -218,3 +218,46 @@ make compare-train-start-years
 ```
 
 結果は `training/outputs/comparisons/train_start_year_backtest.md` とJSONに保存する。公開成果物は更新しない。
+
+## 2026-07-15 実データ疎通後の比較更新
+
+以下のdry-runと1タイル取得を実行した。
+
+| データ | 実行内容 | 結果 |
+| --- | --- | --- |
+| 地価 | `make collect-land-prices-dry-run` | 8,480タイル x 2年 = 16,960リクエスト |
+| 用途地域 | `make collect-urban-planning-dry-run` | 2,160タイル x 3 API = 6,480リクエスト |
+| 教育施設 | `make collect-education-facilities-dry-run` | 2,160タイル x 4 API = 8,640リクエスト |
+| 駅乗降客数 | `make collect-station-passengers-national-dry-run` | 全国18,477リクエスト |
+| 地価 | `make collect-land-prices-tile LAND_PRICE_YEARS=2025` | 26ポイント、5自治体集計 |
+| 用途地域 | `make collect-urban-planning-tile URBAN_PLANNING_APIS=XKT002` | 82エリア |
+| 教育施設 | `make collect-education-facilities-tile EDUCATION_APIS=XKT005` | 学校区11件、施設0件 |
+
+1タイル取得後のカバレッジは以下。これは疎通確認用であり、採用判断に使う本番比較ではない。
+
+| データ | レポート | マッチ状況 |
+| --- | --- | --- |
+| 地価 | `training/outputs/reports/land_price_coverage.md` | 26ポイント、3,252件、0.47% |
+| 用途地域 | `training/outputs/reports/urban_planning_coverage.md` | 82エリア、0件、0.00% |
+| 教育施設 | `training/outputs/reports/education_coverage.md` | 施設0件、0件、0.00% |
+
+同日にモデル比較系も再実行した。
+
+| 候補 | MAE | RMSE | MAPE | 判断 |
+| --- | ---: | ---: | ---: | --- |
+| commercial baseline | 5,447,875円 | 7,504,698円 | 21.81% | 基準 |
+| city_counts | 5,449,008円 | 7,507,512円 | 21.81% | 微悪化 |
+| city_counts_and_scale | 5,450,699円 | 7,509,891円 | 21.82% | 悪化 |
+| spatial_distance_counts | 5,447,875円 | 7,504,698円 | 21.81% | 現CSVは緯度経度なしのため基準同等 |
+| land_price | 5,447,875円 | 7,504,698円 | 21.81% | 1タイルのみで基準同等 |
+| station_scale_numeric | 5,423,317円 | 7,478,760円 | 21.73% | 継続して有効 |
+| rail_access | 5,448,964円 | 7,505,684円 | 21.83% | stationありでは微悪化 |
+| rail_access_no_station | 6,107,822円 | 8,408,803円 | 23.84% | stationなし基準より改善 |
+
+判断:
+
+* 駅乗降客数特徴量は引き続き安定して効いている
+* 鉄道アクセス特徴量は `station` カテゴリありでは弱く、駅カテゴリなしの軽量候補でのみ改善がある
+* 地価は1タイルのみなので効果判断不可。首都圏4県または段階取得後に再比較する
+* 商業施設の距離系特徴量は、JCSC CSVに緯度経度が付与されるまで効果検証できない
+* 用途地域と教育施設は取得タイルが取引地点と重ならず、カバレッジ検証用の広域取得が必要
