@@ -40,7 +40,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
   * [x] 用途地域判定をグリッド索引とユニーク座標単位に高速化し、座標付き検証用Parquetで全件カバレッジを再実行する。zoningマッチ656,910件・95.79%
   * [x] 用途地域特徴量のバックテスト導線を追加し、座標付き検証用Parquetで再実行する。stationありMAE -13,846円、stationなしMAE -163,364円
   * [ ] 首都圏4県・2024/2025年・z=14は16,960リクエストになるため、ネットワーク許可済み環境で長時間ジョブとして実行する
-* [ ] 公示地価/基準地価を取得し、地価水準と地価変化率を比較する
+* [x] 公示地価/基準地価を取得し、地価水準と地価変化率を比較する
   * [x] `make summarize-land-price-coverage` を追加し、取得後に地価水準・変化率・マッチ率・配布サイズを確認できるようにする
   * [x] 2026-07-15にz=13・2025年データで `make compare-land-price-features` を再実行し、現特徴量ではベースライン同等と確認する
   * [x] 2026-07-15にz=13・2024/2025年データで `make compare-land-price-features` を再実行し、stationありでMAE -17,671円、stationなしでMAE -5,099円を確認する
@@ -50,7 +50,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
 * [ ] 人口・世帯数・人口密度・年齢構成を自治体単位で比較する
   * [x] 自治体人口統計CSVの入力スキーマ、テンプレート、生成ターゲットを追加する
   * [x] `make summarize-population-coverage` を追加し、取得後に人口・世帯・人口密度・年齢構成・マッチ率・配布サイズを確認できるようにする
-* [ ] 用途地域データを取得し、用途地域、建ぺい率、容積率、区域区分のマッチ率と配布サイズを確認する
+* [x] 用途地域データを取得し、用途地域、建ぺい率、容積率、区域区分のマッチ率と配布サイズを確認する
   * [x] `make collect-urban-planning-dry-run` を追加し、首都圏4県・z=13・3 APIで6,480リクエストになることを確認する
   * [x] `make collect-urban-planning-tile` を追加し、1タイル疎通できる導線を用意する
   * [x] `make summarize-urban-planning-coverage` を追加し、取得後にマッチ率と配布サイズを確認できるようにする
