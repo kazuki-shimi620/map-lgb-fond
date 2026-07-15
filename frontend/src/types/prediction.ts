@@ -75,6 +75,13 @@ export type PredictionRequest = {
   stationLineCount?: number;
   stationOperatorCount?: number;
   stationRank?: string;
+  landPriceCityAvgYenPerSqm?: number;
+  landPriceCityYoyRate?: number;
+  landPricePointsCityCount?: number;
+  nearestLandPriceYenPerSqm?: number;
+  nearestLandPriceDistanceKm?: number;
+  landPricePointsWithin2km?: number;
+  hasLandPriceData?: number;
 };
 
 export type PredictionResult = {
@@ -100,6 +107,13 @@ export type EncodedPredictionRequest = {
   effectiveStationScale: number;
   hasStationPassengerData: number;
   stationRank: number;
+  landPriceCityAvgYenPerSqm: number;
+  landPriceCityYoyRate: number;
+  landPricePointsCityCount: number;
+  nearestLandPriceYenPerSqm: number;
+  nearestLandPriceDistanceKm: number;
+  landPricePointsWithin2km: number;
+  hasLandPriceData: number;
 };
 
 export type PredictionFormState = PredictionRequest & {

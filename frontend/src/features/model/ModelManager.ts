@@ -21,7 +21,14 @@ const FEATURE_ALIASES: Record<string, keyof EncodedPredictionRequest> = {
   station_operator_count: "stationOperatorCount",
   effective_station_scale: "effectiveStationScale",
   has_station_passenger_data: "hasStationPassengerData",
-  station_rank: "stationRank"
+  station_rank: "stationRank",
+  land_price_city_avg_yen_per_sqm: "landPriceCityAvgYenPerSqm",
+  land_price_city_yoy_rate: "landPriceCityYoyRate",
+  land_price_points_city_count: "landPricePointsCityCount",
+  nearest_land_price_yen_per_sqm: "nearestLandPriceYenPerSqm",
+  nearest_land_price_distance_km: "nearestLandPriceDistanceKm",
+  land_price_points_within_2km: "landPricePointsWithin2km",
+  has_land_price_data: "hasLandPriceData"
 };
 
 function encodeCategory(dictionary: Record<string, number>, value: string, unknownId: number): number {
@@ -118,7 +125,14 @@ export class ModelManager {
         this.dictionary.station_rank ?? {},
         request.stationRank ?? "unknown",
         unknownId
-      )
+      ),
+      landPriceCityAvgYenPerSqm: request.landPriceCityAvgYenPerSqm ?? 0,
+      landPriceCityYoyRate: request.landPriceCityYoyRate ?? 0,
+      landPricePointsCityCount: request.landPricePointsCityCount ?? 0,
+      nearestLandPriceYenPerSqm: request.nearestLandPriceYenPerSqm ?? 0,
+      nearestLandPriceDistanceKm: request.nearestLandPriceDistanceKm ?? 0,
+      landPricePointsWithin2km: request.landPricePointsWithin2km ?? 0,
+      hasLandPriceData: request.hasLandPriceData ?? 0
     };
   }
 

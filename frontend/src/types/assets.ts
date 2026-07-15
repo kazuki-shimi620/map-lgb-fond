@@ -130,6 +130,27 @@ export type CommercialFacilitySummary = {
   cities: Record<string, CommercialFacilityAreaSummary>;
 };
 
+export type LandPriceYearSummary = {
+  avgPriceYenPerSqm: number;
+  yoyRate: number;
+  pointCount: number;
+};
+
+export type LandPriceCitySummary = {
+  prefecture: string;
+  municipality: string;
+  years: Record<string, LandPriceYearSummary>;
+};
+
+export type LandPriceSummary = {
+  schemaVersion: number;
+  source: string;
+  sourceLabel: string;
+  generatedAt: string;
+  latestYear: number | null;
+  cities: Record<string, LandPriceCitySummary>;
+};
+
 export type NearbyFacilityCategoryId =
   | "hospital"
   | "supermarket"

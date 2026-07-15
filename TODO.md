@@ -34,7 +34,8 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
   * [x] `make summarize-land-price-coverage` を追加し、取得後に地価水準・変化率・マッチ率・配布サイズを確認できるようにする
   * [x] 2026-07-15にz=13・2025年データで `make compare-land-price-features` を再実行し、現特徴量ではベースライン同等と確認する
   * [x] 2026-07-15にz=13・2024/2025年データで `make compare-land-price-features` を再実行し、stationありでMAE -17,671円、stationなしでMAE -5,099円を確認する
-  * [ ] 地価特徴量を本番configへ入れる前に、ブラウザ推論で同じ市区町村地価特徴量を再現する静的データ配信とTypeScript実装を追加する
+  * [x] 地価特徴量を本番configへ入れる前に、ブラウザ推論で同じ市区町村地価特徴量を再現する静的データ配信とTypeScript実装を追加する
+  * [ ] 地価特徴量を首都圏4県configへ追加し、モデル再生成、metadata更新、TypeScript推論契約テスト、フロントbuildを実施する
 * [ ] 人口・世帯数・人口密度・年齢構成を自治体単位で比較する
   * [x] 自治体人口統計CSVの入力スキーマ、テンプレート、生成ターゲットを追加する
   * [x] `make summarize-population-coverage` を追加し、取得後に人口・世帯・人口密度・年齢構成・マッチ率・配布サイズを確認できるようにする

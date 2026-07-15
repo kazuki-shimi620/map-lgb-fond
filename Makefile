@@ -36,6 +36,7 @@ LAND_PRICE_USE_CATEGORY_CODES ?= 00,05
 LAND_PRICE_REQUEST_INTERVAL_SECONDS ?= 1.0
 LAND_PRICE_POINTS_CSV ?= data/processed/land_prices/land_price_points.csv
 LAND_PRICE_CITY_SUMMARY_CSV ?= data/processed/land_prices/land_price_city_summary.csv
+LAND_PRICE_PUBLIC_JSON ?= ../$(FRONTEND_DIR)/public/land-prices/municipality_land_prices.json
 POPULATION_INPUT ?=
 POPULATION_TEMPLATE ?= data/manual/population/municipality_population_template.csv
 ESTAT_STATS_DATA_ID ?=
@@ -89,7 +90,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage check-feature-order histories-national facilities nearby-facilities nearby-facilities-template stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage check-feature-order histories-national facilities land-prices nearby-facilities nearby-facilities-template stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -213,6 +214,7 @@ help:
 	@echo "                          config/metadata の特徴量がフロント推論で扱えるか確認"
 	@echo "  make histories-national 類似条件比較用の全国価格推移JSONとトレンドJSONを再生成"
 	@echo "  make facilities         商業施設の配信用軽量JSONを再生成"
+	@echo "  make land-prices        地価の市区町村別軽量JSONを再生成"
 	@echo "  make nearby-facilities  周辺施設マーカー用JSONを再生成"
 	@echo "  make nearby-facilities-template"
 	@echo "                          周辺施設CSVテンプレートを再生成"
@@ -487,6 +489,9 @@ histories-national:
 
 facilities:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.commercial_facilities --output ../$(FRONTEND_DIR)/public/facilities/commercial_facilities.json
+
+land-prices:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.land_prices --input "$(LAND_PRICE_CITY_SUMMARY_CSV)" --output "$(LAND_PRICE_PUBLIC_JSON)"
 
 nearby-facilities:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --input-csv "$(NEARBY_FACILITIES_CSV)" --commercial-facilities-csv "$(COMMERCIAL_FACILITIES_CSV)" --output "$(NEARBY_FACILITIES_JSON)"

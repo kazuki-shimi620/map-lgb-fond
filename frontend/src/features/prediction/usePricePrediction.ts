@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { getModelManager } from "../model/modelManagerFactory";
 import { buildStationScaleRequestFields } from "../stations/stationScale";
+import { buildLandPriceRequestFields } from "./landPriceFeatures";
 import type {
+  LandPriceSummary,
   PriceHistoryPoint,
   PriceTrend,
   PriceTrendSummary,
@@ -25,6 +27,7 @@ type UsePricePredictionParams = {
   history: PriceHistoryPoint[];
   isModelReady: boolean;
   isSelectionSupported: boolean;
+  landPrices: LandPriceSummary | null;
   region: SupportedRegion | null;
   setErrorMessage: (message: string) => void;
   stations: StationRecord[];
@@ -37,6 +40,7 @@ export function usePricePrediction({
   history,
   isModelReady,
   isSelectionSupported,
+  landPrices,
   region,
   setErrorMessage,
   stations,
@@ -75,7 +79,13 @@ export function usePricePrediction({
         const predictionRequest = {
           ...form,
           stationDistance: Math.round(form.stationDistance),
-          ...buildStationScaleRequestFields(stations, form.station)
+          ...buildStationScaleRequestFields(stations, form.station),
+          ...buildLandPriceRequestFields(
+            landPrices,
+            form.prefecture,
+            form.municipality,
+            form.predictionYear
+          )
         };
         const {
           result: nextResult,
@@ -117,6 +127,7 @@ export function usePricePrediction({
     history,
     isModelReady,
     isSelectionSupported,
+    landPrices,
     region,
     stations,
     trendSummary

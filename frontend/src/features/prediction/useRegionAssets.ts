@@ -8,6 +8,7 @@ import { loadStations } from "../../services/stationService";
 import { fetchJson } from "../../services/http";
 import type {
   CommercialFacilitySummary,
+  LandPriceSummary,
   ModelMetadata,
   PriceHistoryPoint,
   PriceTrendSummary,
@@ -15,6 +16,7 @@ import type {
 } from "../../types/assets";
 import type { PredictionFormState, StationRegion } from "../../types/prediction";
 import { getRegionFromPrefecture, getStationRegionFromPrefecture } from "../../utils/region";
+import { loadLandPriceSummary } from "../../services/landPriceService";
 
 const RECENT_HISTORY_START_YEAR = 2020;
 type AssetStatus = "idle" | "loading" | "ready" | "error";
@@ -36,12 +38,14 @@ export function useRegionAssets({
   const [isArchiveLoading, setIsArchiveLoading] = useState(false);
   const [stations, setStations] = useState<StationRecord[]>([]);
   const [commercialFacilities, setCommercialFacilities] = useState<CommercialFacilitySummary | null>(null);
+  const [landPrices, setLandPrices] = useState<LandPriceSummary | null>(null);
   const [metadata, setMetadata] = useState<ModelMetadata | null>(null);
   const [isModelReady, setIsModelReady] = useState(false);
   const [modelStatus, setModelStatus] = useState<AssetStatus>("idle");
   const [stationStatus, setStationStatus] = useState<AssetStatus>("idle");
   const [historyStatus, setHistoryStatus] = useState<AssetStatus>("idle");
   const [facilityStatus, setFacilityStatus] = useState<AssetStatus>("idle");
+  const [landPriceStatus, setLandPriceStatus] = useState<AssetStatus>("idle");
   const hazardStatus: AssetStatus = "ready";
   const activeStationRegionRef = useRef<StationRegion | null>(null);
 
@@ -145,6 +149,7 @@ export function useRegionAssets({
   useEffect(() => {
     let disposed = false;
     setFacilityStatus("loading");
+    setLandPriceStatus("loading");
     fetchJson<CommercialFacilitySummary>("./facilities/commercial_facilities.json")
       .then((summary) => {
         if (!disposed) {
@@ -156,6 +161,19 @@ export function useRegionAssets({
         if (!disposed) {
           setCommercialFacilities(null);
           setFacilityStatus("error");
+        }
+      });
+    loadLandPriceSummary()
+      .then((summary) => {
+        if (!disposed) {
+          setLandPrices(summary);
+          setLandPriceStatus("ready");
+        }
+      })
+      .catch(() => {
+        if (!disposed) {
+          setLandPrices(null);
+          setLandPriceStatus("error");
         }
       });
     return () => {
@@ -197,6 +215,7 @@ export function useRegionAssets({
       facilityStatus,
       hazardStatus,
       historyStatus,
+      landPriceStatus,
       modelStatus,
       stationStatus
     },
@@ -211,6 +230,7 @@ export function useRegionAssets({
     isArchiveLoaded,
     isArchiveLoading,
     isModelReady,
+    landPrices,
     loadArchiveHistory,
     metadata,
     region,

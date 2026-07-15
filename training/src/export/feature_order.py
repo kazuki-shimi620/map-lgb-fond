@@ -24,6 +24,13 @@ FRONTEND_SUPPORTED_FEATURES = {
     "effective_station_scale",
     "has_station_passenger_data",
     "station_rank",
+    "land_price_city_avg_yen_per_sqm",
+    "land_price_city_yoy_rate",
+    "land_price_points_city_count",
+    "nearest_land_price_yen_per_sqm",
+    "nearest_land_price_distance_km",
+    "land_price_points_within_2km",
+    "has_land_price_data",
 }
 
 CATEGORY_DICTIONARY_KEYS = {
