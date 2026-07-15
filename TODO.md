@@ -79,6 +79,8 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
   * [x] JCSC商業施設CSVへGeolonia町丁目代表点で代表座標を付与し、429件中144件を `commercial_facility` マーカーとして周辺施設JSONへ出力する
   * [ ] JCSCの全国商業施設一覧PDFを追加ソースとして取り込み、既存JCSC CSVの不足分を補完する
     * [ ] 対象PDF: `https://www.jcsc.or.jp/wpjcsc/wp-content/uploads/2026/05/35212d5b060e16d7f8db21681d51d151.pdf`
+    * [ ] 2026-07-15にPDFを手動ダウンロード済み。生PDFはGit管理せず、作業時は `training/data/raw/jcsc_pdf/` などGit管理外のraw領域へ配置して解析する
+    * [ ] `pdfplumber`、`pypdf`、`PyMuPDF`、Poppler系CLIのいずれかを使えるようにし、PDFテキスト抽出と表抽出の再現手順をMakefileまたはcollectorへ追加する
     * [ ] PDFからSC名、オープン日、店舗面積/施設面積など、表に含まれる列を抽出する。PDF表解析は時間がかかる前提で、まずサンプル数十件を手動確認する
     * [ ] 既存の `training/data/processed/jcsc/jcsc_sc_open.csv` とSC名、開業日、都道府県、市区町村、面積で突合し、既存データにない施設・既存より情報が詳しい施設を差分CSVへ分ける
     * [ ] PDF由来データは住所や緯度経度が不足する可能性が高いため、SC名、都道府県、施設名表記ゆれを使って段階的に所在地を補完する
