@@ -17,6 +17,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
 * [x] 本番モデル候補はまず `地価`、`用途地域`、`人口統計` を優先し、教育施設・犯罪統計は初期は参考表示優先で扱う
 * [ ] 採用候補だけを `configs/*.yaml` の `features` / `categorical_features` に追加し、モデル再生成、metadata更新、TypeScript推論契約テスト、フロントbuildをまとめて実施する
   * [x] 2026-07-15に効果差のなかった `has_station_passenger_data` を首都圏4県configから外し、ONNX/metadata再生成、feature orderチェック、frontend buildを実行する
+  * [x] 2026-07-15に首都圏4県configを `train_start_year: 2015` へ切り替え、ONNX/metadata再生成、feature orderチェック、frontend buildを実行する
 * [x] `featureOrder` に新特徴量を追加する場合は、TypeScript側のエンコード対応、カテゴリ辞書、default値の必要性を同じPR/commitで確認する
 
 ### 実データ取得・比較
@@ -61,6 +62,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
 * [ ] ハザード特徴量は商業施設特徴量の比較後に追加し、精度改善よりもリスク説明力・表示価値も含めて採用判断する
 * [ ] 2015年開始はバックテストでは良いが2025年holdoutで微悪化したため、採用前に複数holdout年で再検証する
   * [x] 2026-07-15に `make compare-train-start-years` を実行し、2023/2024/2025 holdoutすべてで2015開始が2005開始より良いことを確認する
+  * [x] 2026-07-15に2015開始モデルを再生成し、更新前比で全体MAE -82円、ONNX合計 -8.71MB を確認する
 * [ ] 首都圏以外の地方モデルにも駅規模特徴量を入れる場合、全国範囲の駅別乗降客数を取得して再評価する
   * [x] `make collect-station-passengers-national-dry-run` を追加し、全国範囲・z=11で18,477リクエストになることを確認する
   * [x] 2026-07-15に首都圏の駅乗降客数特徴量バックテストを再実行し、2015開始・stationありでMAE 5,423,317円を確認する

@@ -1,7 +1,7 @@
 region: chiba
 target: price
 latest_training_year: 2025
-train_start_year: 2005
+train_start_year: 2015
 test_year: 2025
 processed_path: data/processed/chiba.parquet
 station_passengers_csv: data/processed/station_passengers/station_groups.csv
