@@ -87,6 +87,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
     * [x] OSM公園取得に `--include-geometry` と `park_areas.csv` 出力を追加し、geometry面積またはbounds概算面積を保存できるようにする
     * [x] 2026-07-15に東京サンプルbboxで実取得し、827公園マーカー・799面積行を生成できることを確認する
     * [x] `--split-size-degrees` と `--continue-on-error` を追加し、小bbox 4分割で3セル成功・1セル429をmetadataへ記録しながら575公園マーカー・549面積行を結合できることを確認する
+    * [x] 2026-07-15に東京全域0.1度グリッドを実行し、40セル中12セル成功・28セル失敗で2,801公園マーカー・2,717面積行を生成するところまで確認する
     * [ ] 東京全域 `out geom` はOverpass 504のため、小bbox分割で首都圏全域の `park_areas.csv` を生成する
 * [x] 犯罪統計は無料公開CSV/Excelがある自治体だけでfixture検証し、全国統一のモデル特徴量としては急がない
 
