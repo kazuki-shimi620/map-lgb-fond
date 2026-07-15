@@ -18,6 +18,11 @@ REQUIRED_COLUMNS = [
     "building_type",
     "transaction_year",
 ]
+OPTIONAL_COLUMNS = [
+    "district_name",
+    "lat",
+    "lon",
+]
 
 
 def preprocess_csv(input_path: str | Path, output_path: str | Path) -> Path:
@@ -114,10 +119,13 @@ def normalize_japanese_mlit_columns(df):
         "station_distance": target["最寄駅：距離（分）"].map(_parse_station_distance),
         "prefecture": target["都道府県名"],
         "municipality": target["市区町村名"],
+        "district_name": target["地区名"].fillna("") if "地区名" in target.columns else "",
         "station": target["最寄駅：名称"],
         "room_layout": target["間取り"].fillna("unknown"),
         "building_type": target["建物の構造"].fillna("unknown"),
         "transaction_year": transaction_year,
+        "lat": _optional_number_series(target, ["緯度", "lat", "latitude"]),
+        "lon": _optional_number_series(target, ["経度", "lon", "lng", "longitude"]),
     }
 
     import pandas as pd
@@ -150,6 +158,8 @@ def normalize_mlit_records(records: list[dict]):
                 ),
                 "prefecture": _pick(record, "Prefecture", "prefecture"),
                 "municipality": _pick(record, "Municipality", "municipality"),
+                "district_name": _pick(record, "DistrictName", "districtName", "district_name")
+                or "",
                 "station": _pick(
                     record,
                     "NearestStation",
@@ -159,6 +169,8 @@ def normalize_mlit_records(records: list[dict]):
                 "room_layout": _pick(record, "FloorPlan", "floorPlan") or "unknown",
                 "building_type": _pick(record, "Structure", "structure") or "unknown",
                 "transaction_year": transaction_year,
+                "lat": _to_number(_pick(record, "Latitude", "latitude", "lat")),
+                "lon": _to_number(_pick(record, "Longitude", "longitude", "lng", "lon")),
             }
         )
 
@@ -170,9 +182,14 @@ def normalize_columns(df):
     for column in REQUIRED_COLUMNS:
         if column not in next_df.columns:
             next_df[column] = None
+    for column in OPTIONAL_COLUMNS:
+        if column not in next_df.columns:
+            next_df[column] = None
 
     numeric_columns = ["price", "area", "age", "station_distance", "transaction_year"]
     for column in numeric_columns:
+        next_df[column] = next_df[column].astype("float64")
+    for column in ["lat", "lon"]:
         next_df[column] = next_df[column].astype("float64")
 
     next_df["transaction_year"] = next_df["transaction_year"].astype("int64")
@@ -213,6 +230,15 @@ def _pick(record: dict, *keys: str):
         if value not in (None, ""):
             return value
     return None
+
+
+def _optional_number_series(df, columns: list[str]):
+    import pandas as pd
+
+    for column in columns:
+        if column in df.columns:
+            return df[column].map(_to_number)
+    return pd.Series([None] * len(df), index=df.index)
 
 
 def _to_number(value) -> float | None:
