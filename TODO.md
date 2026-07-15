@@ -66,6 +66,8 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
   * [x] `make collect-education-facilities-tile` を追加し、1タイル疎通できる導線を用意する
   * [x] `make summarize-education-coverage` を追加し、取得後にマッチ率と配布サイズを確認できるようにする
   * [x] 2026-07-15に `XKT005` の1タイル実取得とカバレッジ集計を再実行する
+  * [x] 2026-07-15に `XKT006,XKT007` を首都圏4県z=13で取得し、23,941施設・CSV 6.2MBを確認する
+  * [x] 教育施設距離計算をBallTreeとユニーク座標単位に高速化し、座標付き検証用Parquetでマッチ率99.57%を確認する
 * [x] 病院、スーパー、商業施設、公園、コンビニの周辺施設データを静的配信用JSONへ生成する
 * [ ] 病院、スーパー、商業施設、公園、コンビニの実データCSVを作成または取得する
   * [x] 周辺施設CSVの入力スキーマ、テンプレート、exporterテストを追加する

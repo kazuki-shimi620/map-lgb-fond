@@ -64,6 +64,7 @@ EDUCATION_TILE_Z ?= 13
 EDUCATION_TILE_X ?= 7269
 EDUCATION_TILE_Y ?= 3235
 EDUCATION_ADMINISTRATIVE_AREA_CODES ?=
+EDUCATION_REQUEST_INTERVAL_SECONDS ?= 1.0
 URBAN_PLANNING_APIS ?= XKT001,XKT002,XKT003
 URBAN_PLANNING_AREA ?= capital
 URBAN_PLANNING_ZOOM ?= 13
@@ -340,13 +341,13 @@ collect-rail-access:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/rail_access.py --terminal-stations-csv "$(RAIL_TERMINAL_STATIONS_CSV)" --travel-times-csv "$(RAIL_TRAVEL_TIMES_CSV)"
 
 collect-education-facilities:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/education_facilities.py --apis "$(EDUCATION_APIS)" --area $(EDUCATION_AREA) --zoom $(EDUCATION_ZOOM) --administrative-area-codes "$(EDUCATION_ADMINISTRATIVE_AREA_CODES)" --cache
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/education_facilities.py --apis "$(EDUCATION_APIS)" --area $(EDUCATION_AREA) --zoom $(EDUCATION_ZOOM) --administrative-area-codes "$(EDUCATION_ADMINISTRATIVE_AREA_CODES)" --request-interval-seconds $(EDUCATION_REQUEST_INTERVAL_SECONDS) --cache
 
 collect-education-facilities-dry-run:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/education_facilities.py --apis "$(EDUCATION_APIS)" --area $(EDUCATION_AREA) --zoom $(EDUCATION_ZOOM) --administrative-area-codes "$(EDUCATION_ADMINISTRATIVE_AREA_CODES)" --dry-run
 
 collect-education-facilities-tile:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/education_facilities.py --apis "$(EDUCATION_APIS)" --tile $(EDUCATION_TILE_Z) $(EDUCATION_TILE_X) $(EDUCATION_TILE_Y) --administrative-area-codes "$(EDUCATION_ADMINISTRATIVE_AREA_CODES)" --cache
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/education_facilities.py --apis "$(EDUCATION_APIS)" --tile $(EDUCATION_TILE_Z) $(EDUCATION_TILE_X) $(EDUCATION_TILE_Y) --administrative-area-codes "$(EDUCATION_ADMINISTRATIVE_AREA_CODES)" --request-interval-seconds $(EDUCATION_REQUEST_INTERVAL_SECONDS) --cache
 
 collect-urban-planning:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --area $(URBAN_PLANNING_AREA) --zoom $(URBAN_PLANNING_ZOOM) --request-interval-seconds $(URBAN_PLANNING_REQUEST_INTERVAL_SECONDS) --cache

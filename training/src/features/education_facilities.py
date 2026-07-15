@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import math
 from pathlib import Path
 
 EDUCATION_FEATURES = [
@@ -42,73 +41,128 @@ def add_education_features(property_df, facilities_df):
     nursery = facilities[facilities["facility_type"].map(_is_nursery)]
     kindergarten = facilities[facilities["facility_type"].map(_is_kindergarten)]
 
-    nearest_elementary = []
-    nearest_junior_high = []
-    nursery_500m_counts = []
-    nursery_1km_counts = []
-    kindergarten_1km_counts = []
-    has_data = []
+    coordinate_features = _build_coordinate_features(
+        result,
+        elementary=elementary,
+        junior_high=junior_high,
+        nursery=nursery,
+        kindergarten=kindergarten,
+    )
+    if coordinate_features.empty:
+        result["nearest_elementary_school_distance_km"] = MISSING_DISTANCE_KM
+        result["nearest_junior_high_school_distance_km"] = MISSING_DISTANCE_KM
+        return _fill_missing_features(result)
 
-    for row in result.to_dict(orient="records"):
-        try:
-            lat = float(row["lat"])
-            lon = float(row["lon"])
-        except (KeyError, TypeError, ValueError):
-            nearest_elementary.append(MISSING_DISTANCE_KM)
-            nearest_junior_high.append(MISSING_DISTANCE_KM)
-            nursery_500m_counts.append(0.0)
-            nursery_1km_counts.append(0.0)
-            kindergarten_1km_counts.append(0.0)
-            has_data.append(0.0)
-            continue
+    import pandas as pd
 
-        elementary_distance = _nearest_distance_km(lat, lon, elementary)
-        junior_high_distance = _nearest_distance_km(lat, lon, junior_high)
-        nursery_500m = _count_within_km(lat, lon, nursery, 0.5)
-        nursery_1km = _count_within_km(lat, lon, nursery, 1.0)
-        kindergarten_1km = _count_within_km(lat, lon, kindergarten, 1.0)
-        nearest_elementary.append(elementary_distance)
-        nearest_junior_high.append(junior_high_distance)
-        nursery_500m_counts.append(nursery_500m)
-        nursery_1km_counts.append(nursery_1km)
-        kindergarten_1km_counts.append(kindergarten_1km)
-        has_data.append(
-            1.0
-            if (
-                elementary_distance < MISSING_DISTANCE_KM
-                or junior_high_distance < MISSING_DISTANCE_KM
-                or nursery_1km > 0
-                or kindergarten_1km > 0
-            )
-            else 0.0
-        )
-
-    result["nearest_elementary_school_distance_km"] = nearest_elementary
-    result["nearest_junior_high_school_distance_km"] = nearest_junior_high
-    result["nursery_count_within_500m"] = nursery_500m_counts
-    result["nursery_count_within_1km"] = nursery_1km_counts
-    result["kindergarten_count_within_1km"] = kindergarten_1km_counts
-    result["has_education_data"] = has_data
+    coordinate_keys = pd.DataFrame(
+        {
+            "_education_lat": pd.to_numeric(result["lat"], errors="coerce"),
+            "_education_lon": pd.to_numeric(result["lon"], errors="coerce"),
+        },
+        index=result.index,
+    )
+    result = result.drop(columns=EDUCATION_FEATURES).join(coordinate_keys)
+    result = result.merge(coordinate_features, how="left", on=["_education_lat", "_education_lon"])
+    result = result.drop(columns=["_education_lat", "_education_lon"])
     return _fill_missing_features(result)
 
 
-def _nearest_distance_km(lat: float, lon: float, facilities) -> float:
-    distances = _distances_km(lat, lon, facilities)
-    return min(distances) if distances else MISSING_DISTANCE_KM
+def _build_coordinate_features(result, *, elementary, junior_high, nursery, kindergarten):
+    import numpy as np
+    import pandas as pd
+    from sklearn.neighbors import BallTree
 
-
-def _count_within_km(lat: float, lon: float, facilities, radius_km: float) -> float:
-    count = sum(
-        1 for distance in _distances_km(lat, lon, facilities) if distance <= radius_km
+    coordinates = pd.DataFrame(
+        {
+            "_education_lat": pd.to_numeric(result["lat"], errors="coerce"),
+            "_education_lon": pd.to_numeric(result["lon"], errors="coerce"),
+        }
     )
-    return float(count)
+    coordinates = coordinates.dropna().drop_duplicates()
+    if coordinates.empty:
+        return pd.DataFrame()
+
+    coordinate_values = coordinates[["_education_lat", "_education_lon"]].to_numpy(dtype=float)
+    coordinate_values_rad = np.radians(coordinate_values)
+    coordinate_features = coordinates.copy()
+    coordinate_features["nearest_elementary_school_distance_km"] = _nearest_distances_km(
+        coordinate_values_rad,
+        elementary,
+        BallTree,
+    )
+    coordinate_features["nearest_junior_high_school_distance_km"] = _nearest_distances_km(
+        coordinate_values_rad,
+        junior_high,
+        BallTree,
+    )
+    coordinate_features["nursery_count_within_500m"] = _counts_within_km(
+        coordinate_values_rad,
+        nursery,
+        0.5,
+        BallTree,
+    )
+    coordinate_features["nursery_count_within_1km"] = _counts_within_km(
+        coordinate_values_rad,
+        nursery,
+        1.0,
+        BallTree,
+    )
+    coordinate_features["kindergarten_count_within_1km"] = _counts_within_km(
+        coordinate_values_rad,
+        kindergarten,
+        1.0,
+        BallTree,
+    )
+    coordinate_features["has_education_data"] = (
+        (
+            coordinate_features["nearest_elementary_school_distance_km"]
+            < MISSING_DISTANCE_KM
+        )
+        | (
+            coordinate_features["nearest_junior_high_school_distance_km"]
+            < MISSING_DISTANCE_KM
+        )
+        | (coordinate_features["nursery_count_within_1km"] > 0)
+        | (coordinate_features["kindergarten_count_within_1km"] > 0)
+    ).astype(float)
+    return coordinate_features
 
 
-def _distances_km(lat: float, lon: float, facilities) -> list[float]:
-    return [
-        _haversine_km(lat, lon, float(row["lat"]), float(row["lon"]))
-        for row in facilities.to_dict(orient="records")
-    ]
+def _nearest_distances_km(coordinates_rad, facilities, ball_tree_class):
+    import numpy as np
+
+    tree = _facility_tree(facilities, ball_tree_class)
+    if tree is None:
+        return np.full(len(coordinates_rad), MISSING_DISTANCE_KM, dtype=float)
+    distances_rad, _ = tree.query(coordinates_rad, k=1)
+    return distances_rad[:, 0] * 6371.0088
+
+
+def _counts_within_km(coordinates_rad, facilities, radius_km: float, ball_tree_class):
+    import numpy as np
+
+    tree = _facility_tree(facilities, ball_tree_class)
+    if tree is None:
+        return np.zeros(len(coordinates_rad), dtype=float)
+    counts = tree.query_radius(
+        coordinates_rad,
+        r=radius_km / 6371.0088,
+        count_only=True,
+    )
+    return counts.astype(float)
+
+
+def _facility_tree(facilities, ball_tree_class):
+    import numpy as np
+    import pandas as pd
+
+    if facilities.empty:
+        return None
+    coordinates = facilities[["lat", "lon"]].apply(pd.to_numeric, errors="coerce").dropna()
+    if coordinates.empty:
+        return None
+    return ball_tree_class(np.radians(coordinates.to_numpy(dtype=float)), metric="haversine")
 
 
 def _is_elementary_school(value: object) -> bool:
@@ -145,19 +199,6 @@ def _fill_missing_features(result):
     ]:
         result[feature] = result[feature].fillna(0.0)
     return result
-
-
-def _haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
-    radius_km = 6371.0088
-    lat1_rad = math.radians(lat1)
-    lat2_rad = math.radians(lat2)
-    delta_lat = math.radians(lat2 - lat1)
-    delta_lon = math.radians(lon2 - lon1)
-    a = (
-        math.sin(delta_lat / 2) ** 2
-        + math.cos(lat1_rad) * math.cos(lat2_rad) * math.sin(delta_lon / 2) ** 2
-    )
-    return 2 * radius_km * math.asin(math.sqrt(a))
 
 
 def _text(value: object) -> str:
