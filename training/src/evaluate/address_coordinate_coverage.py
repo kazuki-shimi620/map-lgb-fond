@@ -28,6 +28,9 @@ def build_address_coordinate_coverage_report(
     matched = match_address_points(property_df, address_points_df)
     matched_count = int(matched["coordinate_match_level"].ne("none").sum()) if record_count else 0
     town_matched_count = int(matched["coordinate_match_level"].eq("town").sum()) if record_count else 0
+    district_prefix_matched_count = (
+        int(matched["coordinate_match_level"].eq("district_prefix").sum()) if record_count else 0
+    )
     municipality_matched_count = (
         int(matched["coordinate_match_level"].eq("municipality").sum()) if record_count else 0
     )
@@ -49,6 +52,10 @@ def build_address_coordinate_coverage_report(
         "matchRate": matched_count / record_count if record_count else 0.0,
         "townMatchedRowCount": town_matched_count,
         "townMatchRate": town_matched_count / record_count if record_count else 0.0,
+        "districtPrefixMatchedRowCount": district_prefix_matched_count,
+        "districtPrefixMatchRate": district_prefix_matched_count / record_count
+        if record_count
+        else 0.0,
         "municipalityMatchedRowCount": municipality_matched_count,
         "municipalityMatchRate": municipality_matched_count / record_count
         if record_count
@@ -85,6 +92,20 @@ def match_address_points(property_df, address_points_df):
         town_match = town["_town_lat"].notna() & town["_town_lon"].notna()
         result.loc[town_match, "coordinate_match_level"] = "town"
 
+        prefix_points = _build_district_prefix_points(result, address)
+        if not prefix_points.empty:
+            prefix = result.merge(
+                prefix_points,
+                how="left",
+                on=["prefecture", "municipality", "district_name"],
+            )
+            prefix_match = (
+                result["coordinate_match_level"].eq("none")
+                & prefix["_district_prefix_lat"].notna()
+                & prefix["_district_prefix_lon"].notna()
+            )
+            result.loc[prefix_match, "coordinate_match_level"] = "district_prefix"
+
     municipality_points = (
         address.groupby(["prefecture", "municipality"], dropna=False)[["lat", "lon"]]
         .mean()
@@ -103,6 +124,38 @@ def match_address_points(property_df, address_points_df):
     )
     result.loc[municipality_match, "coordinate_match_level"] = "municipality"
     return result
+
+
+def _build_district_prefix_points(property_df, address_points_df):
+    import pandas as pd
+
+    keys = (
+        property_df[["prefecture", "municipality", "district_name"]]
+        .dropna()
+        .drop_duplicates()
+    )
+    rows = []
+    for key in keys.itertuples(index=False):
+        district_name = str(key.district_name).strip()
+        if not district_name:
+            continue
+        scoped = address_points_df[
+            (address_points_df["prefecture"] == key.prefecture)
+            & (address_points_df["municipality"] == key.municipality)
+            & (address_points_df["district_name"].astype(str).str.startswith(district_name))
+        ]
+        if scoped.empty:
+            continue
+        rows.append(
+            {
+                "prefecture": key.prefecture,
+                "municipality": key.municipality,
+                "district_name": district_name,
+                "_district_prefix_lat": float(scoped["lat"].mean()),
+                "_district_prefix_lon": float(scoped["lon"].mean()),
+            }
+        )
+    return pd.DataFrame(rows)
 
 
 def save_report(report: dict[str, Any], output_dir: Path) -> dict[str, Path]:
@@ -131,6 +184,8 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"* matchRate: {report['matchRate']:.2%}",
         f"* townMatchedRows: {report['townMatchedRowCount']:,}",
         f"* townMatchRate: {report['townMatchRate']:.2%}",
+        f"* districtPrefixMatchedRows: {report['districtPrefixMatchedRowCount']:,}",
+        f"* districtPrefixMatchRate: {report['districtPrefixMatchRate']:.2%}",
         f"* municipalityMatchedRows: {report['municipalityMatchedRowCount']:,}",
         f"* municipalityMatchRate: {report['municipalityMatchRate']:.2%}",
         "",
