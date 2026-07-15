@@ -64,6 +64,8 @@ def test_build_land_price_coverage_report_counts_matches(tmp_path) -> None:
     )
 
     assert report["recordCount"] == 2
+    assert report["propertyCoordinateCount"] == 1
+    assert report["propertyCoordinateRate"] == pytest.approx(0.5)
     assert report["pointCount"] == 1
     assert report["citySummaryCount"] == 1
     assert report["matchedRowCount"] == 1
@@ -81,6 +83,8 @@ def test_render_markdown_includes_match_rate() -> None:
             "landPriceCitySummaryCsv": "land_price_city_summary.csv",
             "landPriceCitySummaryCsvBytes": 200,
             "recordCount": 10,
+            "propertyCoordinateCount": 5,
+            "propertyCoordinateRate": 0.5,
             "pointCount": 3,
             "citySummaryCount": 2,
             "matchedRowCount": 8,
@@ -94,4 +98,5 @@ def test_render_markdown_includes_match_rate() -> None:
     )
 
     assert "matchRate: 80.00%" in markdown
+    assert "propertyCoordinateRate: 50.00%" in markdown
     assert "| cityYoyRate | 0.000 | 1.000 | 2.000 | 3.000 |" in markdown

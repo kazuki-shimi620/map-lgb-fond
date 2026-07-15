@@ -36,6 +36,7 @@ def build_land_price_coverage_report(
     )
     record_count = int(len(enriched))
     matched = int(enriched["has_land_price_data"].sum()) if record_count else 0
+    coordinate_count = _coordinate_count(property_df)
 
     return {
         "generatedAt": datetime.now(UTC).isoformat(timespec="seconds"),
@@ -45,6 +46,8 @@ def build_land_price_coverage_report(
         "landPriceCitySummaryCsv": str(land_price_city_summary_csv),
         "landPriceCitySummaryCsvBytes": _file_size(land_price_city_summary_csv),
         "recordCount": record_count,
+        "propertyCoordinateCount": coordinate_count,
+        "propertyCoordinateRate": coordinate_count / record_count if record_count else 0.0,
         "pointCount": int(len(land_price_points_df)),
         "citySummaryCount": int(len(land_price_city_summary_df)),
         "matchedRowCount": matched,
@@ -79,6 +82,8 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"* landPriceCitySummaryCsv: `{report['landPriceCitySummaryCsv']}`",
         f"* landPriceCitySummaryCsvBytes: {report['landPriceCitySummaryCsvBytes']:,}",
         f"* propertyRecords: {report['recordCount']:,}",
+        f"* propertyCoordinateRows: {report.get('propertyCoordinateCount', 0):,}",
+        f"* propertyCoordinateRate: {report.get('propertyCoordinateRate', 0.0):.2%}",
         f"* pointRecords: {report['pointCount']:,}",
         f"* citySummaryRecords: {report['citySummaryCount']:,}",
         f"* matchedRows: {report['matchedRowCount']:,}",
@@ -105,6 +110,12 @@ def render_markdown(report: dict[str, Any]) -> str:
 
 def _file_size(path: Path) -> int:
     return path.stat().st_size if path.exists() else 0
+
+
+def _coordinate_count(df) -> int:
+    if df.empty or not {"lat", "lon"}.issubset(df.columns):
+        return 0
+    return int((df["lat"].notna() & df["lon"].notna()).sum())
 
 
 def _numeric_summary(df, column: str) -> dict[str, float]:
