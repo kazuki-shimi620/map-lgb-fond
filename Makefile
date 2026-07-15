@@ -40,6 +40,8 @@ LAND_PRICE_PUBLIC_JSON ?= ../$(FRONTEND_DIR)/public/land-prices/municipality_lan
 ADDRESS_POINTS_INPUT ?=
 ADDRESS_POINTS_SOURCE_URL ?= https://geolonia.github.io/japanese-addresses/latest.csv
 ADDRESS_POINTS_CSV ?= data/processed/address_points/town_points.csv
+COORDINATE_ENRICHED_DIR ?= data/processed/with_address_coordinates
+COORDINATE_INCLUDE_MUNICIPALITY_FALLBACK ?= 0
 POPULATION_INPUT ?=
 POPULATION_TEMPLATE ?= data/manual/population/municipality_population_template.csv
 ESTAT_STATS_DATA_ID ?=
@@ -94,7 +96,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage check-feature-order histories-national facilities land-prices nearby-facilities nearby-facilities-template stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage check-feature-order histories-national facilities land-prices nearby-facilities nearby-facilities-template stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -169,6 +171,7 @@ help:
 	@echo "  make preprocess-capital-all-years"
 	@echo "                          首都圏4都県の2005〜2025年ZIPを個別に前処理"
 	@echo "  make preprocess-national 全国の2005〜2025年ZIPを比較用Parquetへ変換"
+	@echo "  make enrich-coordinates  町丁目代表点で検証用lat/lon付きParquetを生成"
 	@echo "  make train REGION=tokyo 指定地域のモデルを再学習"
 	@echo "  make train-all          4地域のモデルを再学習"
 	@echo "  make train-all PUBLISH_POLICY=latest"
@@ -394,6 +397,14 @@ preprocess-capital-all-years:
 
 preprocess-national:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/preprocess.py --input $(NATIONAL_RAW_INPUTS) --output data/processed/national.parquet
+
+enrich-coordinates:
+	cd $(TRAINING_DIR) && \
+	if [ "$(COORDINATE_INCLUDE_MUNICIPALITY_FALLBACK)" = "1" ]; then \
+		$(TRAINING_PYTHON) src/preprocess/enrich_coordinates.py --regions $(REGIONS) --address-points-csv "$(ADDRESS_POINTS_CSV)" --output-dir "$(COORDINATE_ENRICHED_DIR)" --include-municipality-fallback; \
+	else \
+		$(TRAINING_PYTHON) src/preprocess/enrich_coordinates.py --regions $(REGIONS) --address-points-csv "$(ADDRESS_POINTS_CSV)" --output-dir "$(COORDINATE_ENRICHED_DIR)"; \
+	fi
 
 train:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/train/train.py --config configs/$(REGION).yaml --db-path $(DB_PATH) --export-onnx --publish-policy $(PUBLISH_POLICY)

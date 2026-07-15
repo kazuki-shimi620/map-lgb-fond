@@ -166,6 +166,18 @@ make download-csv-all
 分割する。正常な既存ZIPは再取得しない。CSV取得状況を確認したい場合だけ、`make csv-checklist`
 で `TODO.md` のチェックリストを明示的に再生成する。
 
+地価近傍、用途地域、教育施設などの空間特徴量を検証する場合は、公式CSV/ZIPの前処理後に
+町丁目代表点を使って検証用の座標付きParquetを生成する。
+
+```bash
+make collect-address-points
+make enrich-coordinates
+```
+
+出力先は `training/data/processed/with_address_coordinates` で、通常の学習用Parquetを上書きしない。
+市区町村代表点フォールバックは粗いため標準では使わず、必要な比較時だけ
+`COORDINATE_INCLUDE_MUNICIPALITY_FALLBACK=1` を指定する。
+
 ---
 
 ## 入力
