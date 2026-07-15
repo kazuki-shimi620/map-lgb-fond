@@ -61,7 +61,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
   * [x] 取引データへ緯度経度を付与した検証用Parquetで、200件サンプルの用途地域zoningマッチ97.50%を確認する
   * [x] 取引データへ緯度経度を付与した後に、用途地域特徴量の全件カバレッジを再実行し、zoningマッチ656,910件・95.79%を確認する
   * [x] 取引データへ緯度経度を付与した後に、用途地域特徴量のバックテストを再実行し、stationありMAE -13,846円、stationなしMAE -163,364円を確認する
-* [ ] 教育施設データを取得し、小学校/中学校距離、保育園/幼稚園件数のマッチ率と表示価値を確認する
+* [x] 教育施設データを取得し、小学校/中学校距離、保育園/幼稚園件数のマッチ率と表示価値を確認する
   * [x] `make collect-education-facilities-dry-run` を追加し、首都圏4県・z=13・4 APIで8,640リクエストになることを確認する
   * [x] `make collect-education-facilities-tile` を追加し、1タイル疎通できる導線を用意する
   * [x] `make summarize-education-coverage` を追加し、取得後にマッチ率と配布サイズを確認できるようにする
