@@ -1,9 +1,9 @@
 {
   "region": "chiba",
   "modelName": "chiba_latest",
-  "mae": 4175802.4341822998,
+  "mae": 4154832.6238383786,
   "latestTrainingYear": 2025,
-  "generatedAt": "2026-07-12",
+  "generatedAt": "2026-07-15",
   "featureOrder": [
     "area",
     "age",
@@ -18,7 +18,6 @@
     "station_line_count",
     "station_operator_count",
     "effective_station_scale",
-    "has_station_passenger_data",
     "station_rank"
   ],
   "evaluation": {
@@ -28,9 +27,13 @@
     "trainCount": 60823,
     "testCount": 6946,
     "metrics": {
-      "mae": 4175802.4341822998,
-      "rmse": 5642103.72498371,
-      "mape": 30.641004736885325
+      "mae": 4154832.6238383786,
+      "rmse": 5627681.795472783,
+      "mape": 30.70070601930818
+    },
+    "residualQuantiles": {
+      "p025": -8803785.916436302,
+      "p975": 12879315.835982576
     }
   },
   "deployment": {
@@ -41,77 +44,73 @@
   },
   "modelParams": {
     "objective": "regression",
-    "n_estimators": 611,
-    "learning_rate": 0.06306232234149771,
+    "n_estimators": 587,
+    "learning_rate": 0.06759962731125717,
     "random_state": 42,
     "verbosity": -1,
-    "num_leaves": 42,
+    "num_leaves": 74,
     "max_depth": 10,
-    "min_child_samples": 55,
-    "subsample": 0.8685993664524212,
-    "colsample_bytree": 0.7763894332058884,
-    "reg_alpha": 0.008416301263436295,
-    "reg_lambda": 0.213609505345202
+    "min_child_samples": 59,
+    "subsample": 0.8765230626973993,
+    "colsample_bytree": 0.6385200826924883,
+    "reg_alpha": 0.008080356338970425,
+    "reg_lambda": 4.201648835828637e-07
   },
   "featureImportance": [
     {
       "feature": "station",
-      "importance": 4933.0
-    },
-    {
-      "feature": "age",
-      "importance": 4373.0
+      "importance": 7144.0
     },
     {
       "feature": "effective_station_scale",
-      "importance": 3676.0
+      "importance": 6994.0
     },
     {
-      "feature": "transaction_year",
-      "importance": 2653.0
-    },
-    {
-      "feature": "area",
-      "importance": 2316.0
+      "feature": "age",
+      "importance": 6801.0
     },
     {
       "feature": "station_distance",
-      "importance": 2294.0
+      "importance": 4424.0
+    },
+    {
+      "feature": "transaction_year",
+      "importance": 4238.0
+    },
+    {
+      "feature": "area",
+      "importance": 4089.0
     },
     {
       "feature": "municipality",
-      "importance": 1647.0
+      "importance": 2648.0
     },
     {
       "feature": "room_layout",
-      "importance": 1397.0
+      "importance": 2392.0
     },
     {
       "feature": "station_passenger_log",
-      "importance": 977.0
+      "importance": 2343.0
     },
     {
       "feature": "building_type",
-      "importance": 489.0
+      "importance": 861.0
     },
     {
       "feature": "station_rank",
-      "importance": 155.0
+      "importance": 451.0
     },
     {
       "feature": "station_line_count",
-      "importance": 83.0
+      "importance": 277.0
     },
     {
       "feature": "station_operator_count",
-      "importance": 58.0
+      "importance": 172.0
     },
     {
       "feature": "prefecture",
-      "importance": 0.0
-    },
-    {
-      "feature": "has_station_passenger_data",
       "importance": 0.0
     }
   ],
@@ -120,8 +119,8 @@
     "nTrials": 30,
     "completedTrials": 30,
     "validationYear": 2024,
-    "bestValidationMae": 4063502.5125374966,
-    "bestTuningScore": 4185702.5125374966,
+    "bestValidationMae": 4050891.3881905014,
+    "bestTuningScore": 4168291.3881905014,
     "maxEstimators": 1000,
     "numLeavesMax": 96,
     "maxDepthMax": 10,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-12T11:35:30+09:00",
+  "generatedAt": "2026-07-15T15:02:38+09:00",
   "capitalRegionPriority": [
     "tokyo",
     "kanagawa",
@@ -10,23 +10,23 @@
   "models": {
     "tokyo": {
       "path": "models/tokyo_latest.onnx",
-      "version": "fc0b7470f0fe3a890b015af07e72c0893df29167cd878fd2f0083b572dcceb49",
-      "bytes": 11682829
+      "version": "37b9ec89a1ed34d1f3acf16c5e25e7fa16d262c68cce02c2397824270480a91c",
+      "bytes": 18445592
     },
     "kanagawa": {
       "path": "models/kanagawa_latest.onnx",
-      "version": "4b531234e0995a04b09c06ef5c7584f71a63e4dcaea877185b1718c2e653b1a0",
-      "bytes": 12548544
+      "version": "459b7fd8e8175e9e2b0023b8c728cc17d1ae379aa1c5021b9fe7f32adc362851",
+      "bytes": 12674077
     },
     "saitama": {
       "path": "models/saitama_latest.onnx",
-      "version": "f92827e2008a1d49053b586ebb4b10981f528b10994bfc3fc602038b6366d27f",
-      "bytes": 5074931
+      "version": "302c220652f0c3174e5885b673abb620e1166c449613e0be26b51563f6df9c7a",
+      "bytes": 7187983
     },
     "chiba": {
       "path": "models/chiba_latest.onnx",
-      "version": "e6c46b2903f56d69ed2404da20ad8fa1add3134a8082d0bdafe2ed2859dc5cac",
-      "bytes": 5144277
+      "version": "f0bfb1f1f3a9342bde2227c27226f63a967b17af5069b9b99999f13269f9ca2d",
+      "bytes": 7546617
     },
     "regional_chubu": {
       "path": "models/regional_chubu_latest.onnx",

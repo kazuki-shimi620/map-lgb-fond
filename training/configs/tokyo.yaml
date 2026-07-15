@@ -40,7 +40,6 @@ features:
   - station_line_count
   - station_operator_count
   - effective_station_scale
-  - has_station_passenger_data
   - station_rank
 categorical_features:
   - prefecture

@@ -1,9 +1,9 @@
 {
   "region": "kanagawa",
   "modelName": "kanagawa_latest",
-  "mae": 4935645.395978195,
+  "mae": 4934678.946054055,
   "latestTrainingYear": 2025,
-  "generatedAt": "2026-07-12",
+  "generatedAt": "2026-07-15",
   "featureOrder": [
     "area",
     "age",
@@ -18,7 +18,6 @@
     "station_line_count",
     "station_operator_count",
     "effective_station_scale",
-    "has_station_passenger_data",
     "station_rank"
   ],
   "evaluation": {
@@ -28,9 +27,13 @@
     "trainCount": 157867,
     "testCount": 16479,
     "metrics": {
-      "mae": 4935645.395978195,
-      "rmse": 6634632.458404248,
-      "mape": 23.694217009834087
+      "mae": 4934678.946054055,
+      "rmse": 6633218.018299749,
+      "mape": 23.828534518396864
+    },
+    "residualQuantiles": {
+      "p025": -11146013.658370102,
+      "p975": 14843525.330557168
     }
   },
   "deployment": {
@@ -41,77 +44,73 @@
   },
   "modelParams": {
     "objective": "regression",
-    "n_estimators": 756,
-    "learning_rate": 0.06993363249879164,
+    "n_estimators": 513,
+    "learning_rate": 0.070547203482355,
     "random_state": 42,
     "verbosity": -1,
-    "num_leaves": 62,
-    "max_depth": 7,
-    "min_child_samples": 33,
-    "subsample": 0.8936985122891112,
-    "colsample_bytree": 0.8777519831349593,
-    "reg_alpha": 2.1273801615698923e-06,
-    "reg_lambda": 0.2351798470832265
+    "num_leaves": 96,
+    "max_depth": 9,
+    "min_child_samples": 229,
+    "subsample": 0.829092111079508,
+    "colsample_bytree": 0.640189204405935,
+    "reg_alpha": 0.0006820170250764595,
+    "reg_lambda": 2.1746851875684725e-06
   },
   "featureImportance": [
     {
       "feature": "station",
-      "importance": 9755.0
+      "importance": 11229.0
     },
     {
       "feature": "age",
-      "importance": 7262.0
-    },
-    {
-      "feature": "area",
-      "importance": 5272.0
-    },
-    {
-      "feature": "transaction_year",
-      "importance": 4913.0
-    },
-    {
-      "feature": "effective_station_scale",
-      "importance": 4482.0
-    },
-    {
-      "feature": "station_distance",
-      "importance": 4426.0
+      "importance": 5362.0
     },
     {
       "feature": "municipality",
-      "importance": 4023.0
+      "importance": 5166.0
+    },
+    {
+      "feature": "effective_station_scale",
+      "importance": 4744.0
+    },
+    {
+      "feature": "station_distance",
+      "importance": 4260.0
     },
     {
       "feature": "room_layout",
-      "importance": 3373.0
+      "importance": 4037.0
+    },
+    {
+      "feature": "area",
+      "importance": 3821.0
+    },
+    {
+      "feature": "transaction_year",
+      "importance": 3589.0
     },
     {
       "feature": "station_passenger_log",
-      "importance": 1290.0
+      "importance": 1144.0
     },
     {
       "feature": "building_type",
-      "importance": 682.0
+      "importance": 905.0
     },
     {
       "feature": "station_rank",
-      "importance": 210.0
+      "importance": 863.0
     },
     {
       "feature": "station_line_count",
-      "importance": 129.0
+      "importance": 142.0
     },
     {
       "feature": "station_operator_count",
-      "importance": 68.0
+      "importance": 87.0
     },
     {
       "feature": "prefecture",
-      "importance": 0.0
-    },
-    {
-      "feature": "has_station_passenger_data",
       "importance": 0.0
     }
   ],
@@ -120,8 +119,8 @@
     "nTrials": 30,
     "completedTrials": 30,
     "validationYear": 2024,
-    "bestValidationMae": 4708797.48761693,
-    "bestTuningScore": 4859997.48761693,
+    "bestValidationMae": 4715662.00419489,
+    "bestTuningScore": 4818262.00419489,
     "maxEstimators": 1000,
     "numLeavesMax": 96,
     "maxDepthMax": 10,

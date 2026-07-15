@@ -16,6 +16,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
 * [x] 外部特徴量ごとに「モデル採用」「参考表示のみ」「保留/不採用」を決める採用表を作る
 * [x] 本番モデル候補はまず `地価`、`用途地域`、`人口統計` を優先し、教育施設・犯罪統計は初期は参考表示優先で扱う
 * [ ] 採用候補だけを `configs/*.yaml` の `features` / `categorical_features` に追加し、モデル再生成、metadata更新、TypeScript推論契約テスト、フロントbuildをまとめて実施する
+  * [x] 2026-07-15に効果差のなかった `has_station_passenger_data` を首都圏4県configから外し、ONNX/metadata再生成、feature orderチェック、frontend buildを実行する
 * [x] `featureOrder` に新特徴量を追加する場合は、TypeScript側のエンコード対応、カテゴリ辞書、default値の必要性を同じPR/commitで確認する
 
 ### 実データ取得・比較
