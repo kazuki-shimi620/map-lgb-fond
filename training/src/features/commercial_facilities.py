@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import math
 from pathlib import Path
 
 COMMERCIAL_FEATURES = [
@@ -8,6 +9,12 @@ COMMERCIAL_FEATURES = [
     "sc_city_store_area_sum_cumulative",
     "sc_city_tenant_count_sum_cumulative",
     "sc_prefecture_open_count_last_3y",
+    "nearest_sc_distance_km",
+    "nearest_sc_opened_years",
+    "sc_count_within_1km",
+    "sc_count_within_3km",
+    "sc_store_area_sum_within_3km",
+    "sc_tenant_count_sum_within_3km",
     "has_sc_data_coverage",
 ]
 
@@ -16,9 +23,10 @@ def load_commercial_facilities_csv(path: str | Path):
     import pandas as pd
 
     facilities = pd.read_csv(path)
-    numeric_columns = ["open_year", "store_area_sqm", "tenant_count"]
+    numeric_columns = ["open_year", "store_area_sqm", "tenant_count", "lat", "lon"]
     for column in numeric_columns:
-        facilities[column] = pd.to_numeric(facilities[column], errors="coerce")
+        if column in facilities.columns:
+            facilities[column] = pd.to_numeric(facilities[column], errors="coerce")
     return facilities
 
 
@@ -61,6 +69,7 @@ def add_commercial_facility_features(
         left_on=["prefecture", "transaction_year"],
         right_on=["prefecture", "feature_year"],
     ).drop(columns=["feature_year"])
+    result = _add_spatial_features(result, facilities)
 
     for feature in COMMERCIAL_FEATURES:
         if feature not in result.columns:
@@ -96,6 +105,93 @@ def _build_city_year_features(facilities, years: list[int], lookback_years: int)
                 }
             )
     return pd.DataFrame(rows)
+
+
+def _add_spatial_features(result, facilities):
+    if not {"lat", "lon"}.issubset(result.columns) or not {"lat", "lon"}.issubset(
+        facilities.columns
+    ):
+        return result
+
+    located = facilities.dropna(subset=["lat", "lon", "open_year"]).copy()
+    if located.empty:
+        return result
+
+    rows = []
+    for property_row in result.itertuples(index=False):
+        property_lat = getattr(property_row, "lat", None)
+        property_lon = getattr(property_row, "lon", None)
+        transaction_year = getattr(property_row, "transaction_year", None)
+        if (
+            _is_missing_number(property_lat)
+            or _is_missing_number(property_lon)
+            or _is_missing_number(transaction_year)
+        ):
+            rows.append(_empty_spatial_features())
+            continue
+
+        opened = located[located["open_year"] < int(transaction_year)].copy()
+        if opened.empty:
+            rows.append(_empty_spatial_features())
+            continue
+
+        opened["distance_km"] = opened.apply(
+            lambda facility, base_lat=float(property_lat), base_lon=float(property_lon): (
+                _haversine_km(base_lat, base_lon, float(facility["lat"]), float(facility["lon"]))
+            ),
+            axis=1,
+        )
+        nearest = opened.loc[opened["distance_km"].idxmin()]
+        within_1km = opened[opened["distance_km"] <= 1.0]
+        within_3km = opened[opened["distance_km"] <= 3.0]
+        rows.append(
+            {
+                "nearest_sc_distance_km": float(nearest["distance_km"]),
+                "nearest_sc_opened_years": float(int(transaction_year) - int(nearest["open_year"])),
+                "sc_count_within_1km": float(len(within_1km)),
+                "sc_count_within_3km": float(len(within_3km)),
+                "sc_store_area_sum_within_3km": float(within_3km["store_area_sqm"].sum()),
+                "sc_tenant_count_sum_within_3km": float(within_3km["tenant_count"].sum()),
+            }
+        )
+
+    import pandas as pd
+
+    spatial = pd.DataFrame(rows, index=result.index)
+    return result.join(spatial)
+
+
+def _empty_spatial_features() -> dict[str, float]:
+    return {
+        "nearest_sc_distance_km": 0.0,
+        "nearest_sc_opened_years": 0.0,
+        "sc_count_within_1km": 0.0,
+        "sc_count_within_3km": 0.0,
+        "sc_store_area_sum_within_3km": 0.0,
+        "sc_tenant_count_sum_within_3km": 0.0,
+    }
+
+
+def _is_missing_number(value: object) -> bool:
+    if value is None:
+        return True
+    try:
+        return math.isnan(float(value))
+    except (TypeError, ValueError):
+        return True
+
+
+def _haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    radius_km = 6371.0088
+    phi1 = math.radians(lat1)
+    phi2 = math.radians(lat2)
+    delta_phi = math.radians(lat2 - lat1)
+    delta_lambda = math.radians(lon2 - lon1)
+    a = (
+        math.sin(delta_phi / 2) ** 2
+        + math.cos(phi1) * math.cos(phi2) * math.sin(delta_lambda / 2) ** 2
+    )
+    return radius_km * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
 
 def _build_prefecture_year_features(facilities, years: list[int], lookback_years: int):

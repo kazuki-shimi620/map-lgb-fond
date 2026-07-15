@@ -53,6 +53,14 @@ CITY_SCALE_FEATURES = [
 PREFECTURE_TREND_FEATURES = [
     "sc_prefecture_open_count_last_3y",
 ]
+SPATIAL_FEATURES = [
+    "nearest_sc_distance_km",
+    "nearest_sc_opened_years",
+    "sc_count_within_1km",
+    "sc_count_within_3km",
+    "sc_store_area_sum_within_3km",
+    "sc_tenant_count_sum_within_3km",
+]
 
 
 @dataclass(frozen=True)
@@ -75,6 +83,7 @@ CANDIDATES = [
         "city_counts_scale_prefecture_trend",
         CITY_COUNT_FEATURES + CITY_SCALE_FEATURES + PREFECTURE_TREND_FEATURES,
     ),
+    CommercialCandidate("spatial_distance_counts", SPATIAL_FEATURES),
     CommercialCandidate("baseline_no_station", [], include_station=False),
     CommercialCandidate(
         "city_counts_no_station",
