@@ -12,14 +12,26 @@ import type {
   ModelMetadata,
   PriceHistoryPoint,
   PriceTrendSummary,
-  StationRecord
+  StationRecord,
+  UrbanPlanningCollection
 } from "../../types/assets";
 import type { PredictionFormState, StationRegion } from "../../types/prediction";
 import { getRegionFromPrefecture, getStationRegionFromPrefecture } from "../../utils/region";
 import { loadLandPriceSummary } from "../../services/landPriceService";
+import { loadUrbanPlanningCollection } from "../../services/urbanPlanningService";
 
 const RECENT_HISTORY_START_YEAR = 2020;
 type AssetStatus = "idle" | "loading" | "ready" | "error";
+const URBAN_PLANNING_FEATURE_NAMES = new Set([
+  "is_commercial_zone",
+  "is_residential_zone",
+  "floor_area_ratio",
+  "building_coverage_ratio",
+  "has_zoning_data",
+  "city_planning_area_type",
+  "zoning_type",
+  "location_optimization_area"
+]);
 
 type UseRegionAssetsParams = {
   prefecture: string;
@@ -39,6 +51,7 @@ export function useRegionAssets({
   const [stations, setStations] = useState<StationRecord[]>([]);
   const [commercialFacilities, setCommercialFacilities] = useState<CommercialFacilitySummary | null>(null);
   const [landPrices, setLandPrices] = useState<LandPriceSummary | null>(null);
+  const [urbanPlanning, setUrbanPlanning] = useState<UrbanPlanningCollection | null>(null);
   const [metadata, setMetadata] = useState<ModelMetadata | null>(null);
   const [isModelReady, setIsModelReady] = useState(false);
   const [modelStatus, setModelStatus] = useState<AssetStatus>("idle");
@@ -46,6 +59,7 @@ export function useRegionAssets({
   const [historyStatus, setHistoryStatus] = useState<AssetStatus>("idle");
   const [facilityStatus, setFacilityStatus] = useState<AssetStatus>("idle");
   const [landPriceStatus, setLandPriceStatus] = useState<AssetStatus>("idle");
+  const [urbanPlanningStatus, setUrbanPlanningStatus] = useState<AssetStatus>("idle");
   const hazardStatus: AssetStatus = "ready";
   const activeStationRegionRef = useRef<StationRegion | null>(null);
 
@@ -181,6 +195,33 @@ export function useRegionAssets({
     };
   }, []);
 
+  useEffect(() => {
+    if (!metadata || !modelNeedsUrbanPlanning(metadata)) {
+      setUrbanPlanning(null);
+      setUrbanPlanningStatus("idle");
+      return;
+    }
+
+    let disposed = false;
+    setUrbanPlanningStatus("loading");
+    loadUrbanPlanningCollection()
+      .then((collection) => {
+        if (!disposed) {
+          setUrbanPlanning(collection);
+          setUrbanPlanningStatus("ready");
+        }
+      })
+      .catch(() => {
+        if (!disposed) {
+          setUrbanPlanning(null);
+          setUrbanPlanningStatus("error");
+        }
+      });
+    return () => {
+      disposed = true;
+    };
+  }, [metadata]);
+
   async function loadArchiveHistory() {
     if (!stationRegion || isArchiveLoaded || isArchiveLoading) {
       return;
@@ -217,12 +258,14 @@ export function useRegionAssets({
       historyStatus,
       landPriceStatus,
       modelStatus,
-      stationStatus
+      stationStatus,
+      urbanPlanningStatus
     },
     assetWarnings: buildAssetWarnings({
       facilityStatus,
       historyStatus,
-      stationStatus
+      stationStatus,
+      urbanPlanningStatus
     }),
     closeArchiveHistory,
     commercialFacilities,
@@ -237,18 +280,25 @@ export function useRegionAssets({
     setStations,
     stationRegion,
     stations,
-    trendSummary
+    trendSummary,
+    urbanPlanning
   };
+}
+
+function modelNeedsUrbanPlanning(metadata: ModelMetadata): boolean {
+  return metadata.featureOrder.some((feature) => URBAN_PLANNING_FEATURE_NAMES.has(feature));
 }
 
 function buildAssetWarnings({
   facilityStatus,
   historyStatus,
-  stationStatus
+  stationStatus,
+  urbanPlanningStatus
 }: {
   facilityStatus: AssetStatus;
   historyStatus: AssetStatus;
   stationStatus: AssetStatus;
+  urbanPlanningStatus: AssetStatus;
 }) {
   return [
     stationStatus === "error"
@@ -259,6 +309,9 @@ function buildAssetWarnings({
       : null,
     facilityStatus === "error"
       ? "商業施設データを読み込めませんでした。価格予測は利用できます。"
+      : null,
+    urbanPlanningStatus === "error"
+      ? "用途地域データを読み込めませんでした。用途地域特徴量は既定値で予測します。"
       : null
   ].filter((message): message is string => message !== null);
 }

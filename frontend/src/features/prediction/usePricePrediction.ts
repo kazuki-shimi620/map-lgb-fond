@@ -2,12 +2,14 @@ import { useEffect, useState } from "react";
 import { getModelManager } from "../model/modelManagerFactory";
 import { buildStationScaleRequestFields } from "../stations/stationScale";
 import { buildLandPriceRequestFields } from "./landPriceFeatures";
+import { buildUrbanPlanningRequestFields } from "./urbanPlanningFeatures";
 import type {
   LandPriceSummary,
   PriceHistoryPoint,
   PriceTrend,
   PriceTrendSummary,
-  StationRecord
+  StationRecord,
+  UrbanPlanningCollection
 } from "../../types/assets";
 import type {
   PredictionFormState,
@@ -32,6 +34,7 @@ type UsePricePredictionParams = {
   setErrorMessage: (message: string) => void;
   stations: StationRecord[];
   trendSummary: PriceTrendSummary | null;
+  urbanPlanning: UrbanPlanningCollection | null;
 };
 
 export function usePricePrediction({
@@ -44,7 +47,8 @@ export function usePricePrediction({
   region,
   setErrorMessage,
   stations,
-  trendSummary
+  trendSummary,
+  urbanPlanning
 }: UsePricePredictionParams) {
   const [result, setResult] = useState<PredictionResult | null>(null);
   const [forecastPoints, setForecastPoints] = useState<PriceHistoryPoint[]>([]);
@@ -85,7 +89,8 @@ export function usePricePrediction({
             form.prefecture,
             form.municipality,
             form.predictionYear
-          )
+          ),
+          ...buildUrbanPlanningRequestFields(urbanPlanning, form.lat, form.lon)
         };
         const {
           result: nextResult,
@@ -130,7 +135,8 @@ export function usePricePrediction({
     landPrices,
     region,
     stations,
-    trendSummary
+    trendSummary,
+    urbanPlanning
   ]);
 
   return {

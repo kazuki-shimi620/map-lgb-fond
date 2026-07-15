@@ -31,6 +31,14 @@ FRONTEND_SUPPORTED_FEATURES = {
     "nearest_land_price_distance_km",
     "land_price_points_within_2km",
     "has_land_price_data",
+    "is_commercial_zone",
+    "is_residential_zone",
+    "floor_area_ratio",
+    "building_coverage_ratio",
+    "has_zoning_data",
+    "city_planning_area_type",
+    "zoning_type",
+    "location_optimization_area",
 }
 
 CATEGORY_DICTIONARY_KEYS = {
@@ -40,6 +48,9 @@ CATEGORY_DICTIONARY_KEYS = {
     "room_layout": "roomLayouts",
     "building_type": "buildingTypes",
     "station_rank": "station_rank",
+    "city_planning_area_type": "city_planning_area_type",
+    "zoning_type": "zoning_type",
+    "location_optimization_area": "location_optimization_area",
 }
 
 

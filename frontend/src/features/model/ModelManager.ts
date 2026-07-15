@@ -28,7 +28,15 @@ const FEATURE_ALIASES: Record<string, keyof EncodedPredictionRequest> = {
   nearest_land_price_yen_per_sqm: "nearestLandPriceYenPerSqm",
   nearest_land_price_distance_km: "nearestLandPriceDistanceKm",
   land_price_points_within_2km: "landPricePointsWithin2km",
-  has_land_price_data: "hasLandPriceData"
+  has_land_price_data: "hasLandPriceData",
+  is_commercial_zone: "isCommercialZone",
+  is_residential_zone: "isResidentialZone",
+  floor_area_ratio: "floorAreaRatio",
+  building_coverage_ratio: "buildingCoverageRatio",
+  has_zoning_data: "hasZoningData",
+  city_planning_area_type: "cityPlanningAreaType",
+  zoning_type: "zoningType",
+  location_optimization_area: "locationOptimizationArea"
 };
 
 function encodeCategory(dictionary: Record<string, number>, value: string, unknownId: number): number {
@@ -132,7 +140,27 @@ export class ModelManager {
       nearestLandPriceYenPerSqm: request.nearestLandPriceYenPerSqm ?? 0,
       nearestLandPriceDistanceKm: request.nearestLandPriceDistanceKm ?? 0,
       landPricePointsWithin2km: request.landPricePointsWithin2km ?? 0,
-      hasLandPriceData: request.hasLandPriceData ?? 0
+      hasLandPriceData: request.hasLandPriceData ?? 0,
+      isCommercialZone: request.isCommercialZone ?? 0,
+      isResidentialZone: request.isResidentialZone ?? 0,
+      floorAreaRatio: request.floorAreaRatio ?? 0,
+      buildingCoverageRatio: request.buildingCoverageRatio ?? 0,
+      hasZoningData: request.hasZoningData ?? 0,
+      cityPlanningAreaType: encodeCategory(
+        this.dictionary.city_planning_area_type ?? {},
+        request.cityPlanningAreaType ?? "unknown",
+        unknownId
+      ),
+      zoningType: encodeCategory(
+        this.dictionary.zoning_type ?? {},
+        request.zoningType ?? "unknown",
+        unknownId
+      ),
+      locationOptimizationArea: encodeCategory(
+        this.dictionary.location_optimization_area ?? {},
+        request.locationOptimizationArea ?? "unknown",
+        unknownId
+      )
     };
   }
 

@@ -82,6 +82,14 @@ export type PredictionRequest = {
   nearestLandPriceDistanceKm?: number;
   landPricePointsWithin2km?: number;
   hasLandPriceData?: number;
+  isCommercialZone?: number;
+  isResidentialZone?: number;
+  floorAreaRatio?: number;
+  buildingCoverageRatio?: number;
+  hasZoningData?: number;
+  cityPlanningAreaType?: string;
+  zoningType?: string;
+  locationOptimizationArea?: string;
 };
 
 export type PredictionResult = {
@@ -114,6 +122,14 @@ export type EncodedPredictionRequest = {
   nearestLandPriceDistanceKm: number;
   landPricePointsWithin2km: number;
   hasLandPriceData: number;
+  isCommercialZone: number;
+  isResidentialZone: number;
+  floorAreaRatio: number;
+  buildingCoverageRatio: number;
+  hasZoningData: number;
+  cityPlanningAreaType: number;
+  zoningType: number;
+  locationOptimizationArea: number;
 };
 
 export type PredictionFormState = PredictionRequest & {

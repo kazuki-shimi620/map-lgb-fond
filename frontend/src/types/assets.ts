@@ -5,6 +5,9 @@ export type CategoryDictionary = {
   roomLayouts?: Record<string, number>;
   buildingTypes?: Record<string, number>;
   station_rank?: Record<string, number>;
+  city_planning_area_type?: Record<string, number>;
+  zoning_type?: Record<string, number>;
+  location_optimization_area?: Record<string, number>;
   unknownId: number;
 };
 
@@ -149,6 +152,32 @@ export type LandPriceSummary = {
   generatedAt: string;
   latestYear: number | null;
   cities: Record<string, LandPriceCitySummary>;
+};
+
+export type UrbanPlanningGeometry = {
+  type: "Polygon" | "MultiPolygon";
+  coordinates: unknown;
+};
+
+export type UrbanPlanningArea = {
+  areaType: string;
+  prefecture?: string;
+  municipality?: string;
+  areaName?: string;
+  zoningType?: string;
+  floorAreaRatio: number;
+  buildingCoverageRatio: number;
+  bbox: [number, number, number, number];
+  geometry: UrbanPlanningGeometry;
+};
+
+export type UrbanPlanningCollection = {
+  schemaVersion: number;
+  source: string;
+  sourceLabel: string;
+  generatedAt: string;
+  areaCount: number;
+  areas: UrbanPlanningArea[];
 };
 
 export type NearbyFacilityCategoryId =

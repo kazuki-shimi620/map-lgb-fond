@@ -66,7 +66,8 @@ export function App() {
     region,
     setStations,
     stations,
-    trendSummary
+    trendSummary,
+    urbanPlanning
   } = useRegionAssets({
     prefecture: form.prefecture,
     setForm,
@@ -117,7 +118,8 @@ export function App() {
     region,
     setErrorMessage,
     stations,
-    trendSummary
+    trendSummary,
+    urbanPlanning
   });
   clearPredictionStateRef.current = clearPredictionState;
 

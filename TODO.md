@@ -20,7 +20,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
   * [x] 2026-07-15に首都圏4県configを `train_start_year: 2015` へ切り替え、ONNX/metadata再生成、feature orderチェック、frontend buildを実行する
   * [x] 2026-07-15に地価特徴量を首都圏4県configへ追加し、ONNX/metadata再生成、feature orderチェック、frontend buildを実行する。全体MAE -5,564円、RMSE -10,937円、ONNX合計 -3.59MB
   * [x] 2026-07-15に座標付き検証用Parquetで地価・用途地域の同時投入バックテストを追加実行し、stationありMAE -53,516円、stationなしMAE -252,236円を確認する
-  * [ ] 用途地域特徴量を本番configへ入れる前に、ブラウザ推論で同じ用途地域特徴量を再現する静的データ配信とTypeScript実装を追加する
+  * [x] 用途地域特徴量を本番configへ入れる前に、ブラウザ推論で同じ用途地域特徴量を再現する静的データ配信とTypeScript実装を追加する
 * [x] `featureOrder` に新特徴量を追加する場合は、TypeScript側のエンコード対応、カテゴリ辞書、default値の必要性を同じPR/commitで確認する
 
 ### 実データ取得・比較
@@ -64,6 +64,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
   * [x] 取引データへ緯度経度を付与した後に、用途地域特徴量の全件カバレッジを再実行し、zoningマッチ656,910件・95.79%を確認する
   * [x] 取引データへ緯度経度を付与した後に、用途地域特徴量のバックテストを再実行し、stationありMAE -13,846円、stationなしMAE -163,364円を確認する
   * [x] 地価・用途地域の同時投入バックテスト導線を追加し、座標付き検証用Parquetで再実行する。stationありMAE -53,516円、stationなしMAE -252,236円
+  * [x] `make urban-planning` を追加し、用途地域ポリゴンを `frontend/public/urban-planning/urban_planning_areas.json` として配信し、TypeScript側でピン座標から同じ特徴量を再現する
 * [x] 教育施設データを取得し、小学校/中学校距離、保育園/幼稚園件数のマッチ率と表示価値を確認する
   * [x] `make collect-education-facilities-dry-run` を追加し、首都圏4県・z=13・4 APIで8,640リクエストになることを確認する
   * [x] `make collect-education-facilities-tile` を追加し、1タイル疎通できる導線を用意する
