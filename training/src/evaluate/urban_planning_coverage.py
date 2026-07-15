@@ -27,6 +27,7 @@ def build_urban_planning_coverage_report(
     enriched = add_urban_planning_features(property_df, urban_planning_areas_df)
     record_count = int(len(enriched))
     zoning_matched = int(enriched["has_zoning_data"].sum()) if record_count else 0
+    coordinate_count = _coordinate_count(property_df)
 
     return {
         "generatedAt": datetime.now(UTC).isoformat(timespec="seconds"),
@@ -36,6 +37,8 @@ def build_urban_planning_coverage_report(
         if urban_planning_csv.exists()
         else 0,
         "recordCount": record_count,
+        "propertyCoordinateCount": coordinate_count,
+        "propertyCoordinateRate": coordinate_count / record_count if record_count else 0.0,
         "areaCount": int(len(urban_planning_areas_df)),
         "zoningMatchedRowCount": zoning_matched,
         "zoningMatchRate": zoning_matched / record_count if record_count else 0.0,
@@ -62,6 +65,8 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"* urbanPlanningCsv: `{report['urbanPlanningCsv']}`",
         f"* urbanPlanningCsvBytes: {report['urbanPlanningCsvBytes']:,}",
         f"* propertyRecords: {report['recordCount']:,}",
+        f"* propertyCoordinateRows: {report.get('propertyCoordinateCount', 0):,}",
+        f"* propertyCoordinateRate: {report.get('propertyCoordinateRate', 0.0):.2%}",
         f"* areaRecords: {report['areaCount']:,}",
         f"* zoningMatchedRows: {report['zoningMatchedRowCount']:,}",
         f"* zoningMatchRate: {report['zoningMatchRate']:.2%}",
@@ -95,6 +100,12 @@ def _counts_table(counts: dict[str, int]) -> str:
 def _value_counts(df, column: str) -> dict[str, int]:
     values = Counter(str(value) for value in df[column].fillna("unknown"))
     return dict(sorted(values.items(), key=lambda item: (-item[1], item[0])))
+
+
+def _coordinate_count(df) -> int:
+    if df.empty or not {"lat", "lon"}.issubset(df.columns):
+        return 0
+    return int((df["lat"].notna() & df["lon"].notna()).sum())
 
 
 def _load_property_frames(regions: list[str], processed_dir: Path):

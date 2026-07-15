@@ -24,7 +24,7 @@ URBAN_PLANNING_FEATURES = (
 def load_urban_planning_areas_csv(path: str | Path):
     import pandas as pd
 
-    areas = pd.read_csv(path)
+    areas = pd.read_csv(path, low_memory=False)
     for column in ["floor_area_ratio", "building_coverage_ratio"]:
         if column in areas.columns:
             areas[column] = pd.to_numeric(areas[column], errors="coerce")

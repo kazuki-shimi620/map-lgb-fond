@@ -64,6 +64,7 @@ URBAN_PLANNING_ZOOM ?= 13
 URBAN_PLANNING_TILE_Z ?= 13
 URBAN_PLANNING_TILE_X ?= 7269
 URBAN_PLANNING_TILE_Y ?= 3235
+URBAN_PLANNING_REQUEST_INTERVAL_SECONDS ?= 1.0
 CRIME_INPUT ?=
 HAZARDS_CSV ?= data/processed/hazards/hazard_features.csv
 HAZARD_INPUT ?=
@@ -325,13 +326,13 @@ collect-education-facilities-tile:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/education_facilities.py --apis "$(EDUCATION_APIS)" --tile $(EDUCATION_TILE_Z) $(EDUCATION_TILE_X) $(EDUCATION_TILE_Y) --administrative-area-codes "$(EDUCATION_ADMINISTRATIVE_AREA_CODES)" --cache
 
 collect-urban-planning:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --area $(URBAN_PLANNING_AREA) --zoom $(URBAN_PLANNING_ZOOM) --cache
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --area $(URBAN_PLANNING_AREA) --zoom $(URBAN_PLANNING_ZOOM) --request-interval-seconds $(URBAN_PLANNING_REQUEST_INTERVAL_SECONDS) --cache
 
 collect-urban-planning-dry-run:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --area $(URBAN_PLANNING_AREA) --zoom $(URBAN_PLANNING_ZOOM) --dry-run
 
 collect-urban-planning-tile:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --tile $(URBAN_PLANNING_TILE_Z) $(URBAN_PLANNING_TILE_X) $(URBAN_PLANNING_TILE_Y) --cache
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --tile $(URBAN_PLANNING_TILE_Z) $(URBAN_PLANNING_TILE_X) $(URBAN_PLANNING_TILE_Y) --request-interval-seconds $(URBAN_PLANNING_REQUEST_INTERVAL_SECONDS) --cache
 
 collect-crime-stats:
 	cd $(TRAINING_DIR) && \

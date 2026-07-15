@@ -45,6 +45,9 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
   * [x] `make collect-urban-planning-tile` を追加し、1タイル疎通できる導線を用意する
   * [x] `make summarize-urban-planning-coverage` を追加し、取得後にマッチ率と配布サイズを確認できるようにする
   * [x] 2026-07-15に `XKT002` の1タイル実取得とカバレッジ集計を再実行する
+  * [x] 2026-07-15に `XKT002` を首都圏4県z=13で広域取得し、38,110エリア・CSV 55.2MBを確認する
+  * [x] 用途地域カバレッジレポートへ取引データの座標件数を追加し、現Parquetは `lat` / `lon` 未保持のためマッチ率0.00%になることを確認する
+  * [ ] 用途地域特徴量を比較する前に、取引データへ緯度経度を付与する方針を決める
 * [ ] 教育施設データを取得し、小学校/中学校距離、保育園/幼稚園件数のマッチ率と表示価値を確認する
   * [x] `make collect-education-facilities-dry-run` を追加し、首都圏4県・z=13・4 APIで8,640リクエストになることを確認する
   * [x] `make collect-education-facilities-tile` を追加し、1タイル疎通できる導線を用意する

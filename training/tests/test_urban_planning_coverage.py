@@ -52,6 +52,8 @@ def test_build_urban_planning_coverage_report_counts_matches(tmp_path) -> None:
     )
 
     assert report["recordCount"] == 2
+    assert report["propertyCoordinateCount"] == 2
+    assert report["propertyCoordinateRate"] == pytest.approx(1.0)
     assert report["areaCount"] == 2
     assert report["zoningMatchedRowCount"] == 1
     assert report["zoningMatchRate"] == pytest.approx(0.5)
@@ -66,6 +68,8 @@ def test_render_markdown_includes_match_rate() -> None:
             "urbanPlanningCsv": "urban_planning_areas.csv",
             "urbanPlanningCsvBytes": 100,
             "recordCount": 10,
+            "propertyCoordinateCount": 5,
+            "propertyCoordinateRate": 0.5,
             "areaCount": 3,
             "zoningMatchedRowCount": 8,
             "zoningMatchRate": 0.8,
@@ -76,4 +80,5 @@ def test_render_markdown_includes_match_rate() -> None:
     )
 
     assert "zoningMatchRate: 80.00%" in markdown
+    assert "propertyCoordinateRate: 50.00%" in markdown
     assert "| 商業地域 | 8 |" in markdown

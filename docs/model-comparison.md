@@ -382,6 +382,10 @@ make compare-train-start-years
 * 神奈川は単県で悪化したため、次回は地域別チューニングや地価特徴量の採用範囲を確認する
 * 近傍地価特徴量は依然として物件座標が無く0のため、改善は市区町村地価水準・変化率・ポイント数によるもの
 
+同日に `XKT002` 用途地域も首都圏4県z=13で広域取得した。2,160リクエストで38,110エリア、CSV 55.2MBを生成した。`make summarize-urban-planning-coverage` の結果、現Parquetに `lat` / `lon` が無いため取引座標件数は0、用途地域マッチ率も0.00%だった。
+
+用途地域はデータ取得自体はできたが、モデル比較には物件座標の付与が先に必要になる。地価の市区町村集計と違い、用途地域は点-in-ポリゴン判定が必要なため、座標なしでは代替特徴量を作りにくい。
+
 ## 2026-07-15 駅規模coverageフラグ削除モデル
 
 `station_passenger_no_coverage_flag` の比較で同一結果だったため、首都圏4県configから `has_station_passenger_data` を外してモデルを再生成した。更新前後の比較は `training/outputs/comparisons/remove_station_coverage_comparison.md` に保存した。
