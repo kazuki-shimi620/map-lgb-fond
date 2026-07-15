@@ -80,7 +80,9 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
   * [x] 不動産情報ライブラリ `XKT010` 医療機関APIから病院マーカー用CSVを生成するcollector、dry-run、1タイル疎通ターゲットを追加する
   * [x] 2026-07-15に `XKT010` 医療機関APIを1タイル実取得し、病院210件を周辺施設JSONへ反映する
   * [x] `make collect-medical-facilities` で首都圏4県の医療機関を長時間ジョブとして取得し、59,062件の病院マーカーを全域反映する
-  * [ ] 病院、スーパー、公園、コンビニの公式または再配布条件が明確な実データを取得する
+  * [x] OpenStreetMap/Overpass APIからスーパー6,345件、コンビニ17,190件、公園27,231件を取得し、周辺施設JSONへ反映する
+  * [ ] OpenStreetMap ODbLの表示上の帰属表記と、地図レイヤーでの大量マーカー描画負荷を確認する
+  * [ ] 公園は大型公園特徴量用に面積またはway/relation面積を別途集計する
 * [x] 犯罪統計は無料公開CSV/Excelがある自治体だけでfixture検証し、全国統一のモデル特徴量としては急がない
 
 ### 参考表示・UI

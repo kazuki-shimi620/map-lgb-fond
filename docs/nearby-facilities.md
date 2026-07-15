@@ -44,6 +44,16 @@ make collect-medical-facilities MEDICAL_REQUEST_INTERVAL_SECONDS=0.05
 make nearby-facilities NEARBY_FACILITIES_CSV=data/processed/medical/nearby_medical_facilities.csv COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
 ```
 
+スーパー、コンビニ、公園はOpenStreetMapのOverpass APIから取得する。OpenStreetMapデータはOpen Database License (ODbL) として扱い、表示時の帰属表記と大量マーカー描画負荷は別途確認する。2026-07-15時点では、スーパー6,345件、コンビニ17,190件、公園27,231件を取得し、病院・商業施設と合わせて合計109,972件、38MBの周辺施設JSONを生成した。
+
+```bash
+make collect-osm-nearby-facilities-dry-run
+make collect-osm-nearby-facilities OSM_NEARBY_CATEGORIES=supermarket
+make collect-osm-nearby-facilities OSM_NEARBY_CATEGORIES=convenience_store
+cd training && uv run python src/collect/osm_nearby_facilities.py --area tokyo --categories park --cache --run-id latest_park_tokyo --processed-dir data/processed/osm_nearby/park_tokyo
+make nearby-facilities NEARBY_FACILITIES_INPUTS="data/processed/medical/nearby_medical_facilities.csv data/processed/osm_nearby/supermarket/nearby_osm_facilities.csv data/processed/osm_nearby/convenience_store/nearby_osm_facilities.csv data/processed/osm_nearby/park_tokyo/nearby_osm_facilities.csv data/processed/osm_nearby/park_kanagawa/nearby_osm_facilities.csv data/processed/osm_nearby/park_saitama/nearby_osm_facilities.csv data/processed/osm_nearby/park_chiba/nearby_osm_facilities.csv" COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
+```
+
 | column | required | description |
 | --- | --- | --- |
 | `id` | no | 空の場合はカテゴリ、施設名、緯度経度から自動生成する |

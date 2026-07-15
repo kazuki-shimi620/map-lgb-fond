@@ -122,6 +122,44 @@ def test_export_nearby_facilities_merges_commercial_facility_coordinates(tmp_pat
     ]
 
 
+def test_export_nearby_facilities_merges_multiple_input_csvs(tmp_path) -> None:
+    hospital_csv = tmp_path / "nearby_hospitals.csv"
+    hospital_csv.write_text(
+        "\n".join(
+            [
+                ",".join(NEARBY_FACILITY_FIELDNAMES),
+                ",hospital,東京テスト病院,35.68,139.76,東京都,千代田区,,,",
+            ]
+        ),
+        encoding="utf-8",
+    )
+    osm_csv = tmp_path / "nearby_osm.csv"
+    osm_csv.write_text(
+        "\n".join(
+            [
+                ",".join(NEARBY_FACILITY_FIELDNAMES),
+                ",supermarket,テストスーパー,35.69,139.77,東京都,千代田区,,,",
+            ]
+        ),
+        encoding="utf-8",
+    )
+    output = tmp_path / "nearby_facilities.json"
+
+    export_nearby_facilities(
+        input_csv=[hospital_csv, osm_csv],
+        commercial_facilities_csv=None,
+        output=output,
+        source="manual_or_processed",
+        source_label="周辺施設データ",
+    )
+
+    payload = json.loads(output.read_text(encoding="utf-8"))
+    assert [facility["categoryId"] for facility in payload["facilities"]] == [
+        "hospital",
+        "supermarket",
+    ]
+
+
 def test_load_facility_rows_rejects_unsupported_category(tmp_path) -> None:
     input_csv = tmp_path / "nearby_facilities.csv"
     input_csv.write_text(

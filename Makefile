@@ -55,6 +55,7 @@ RAIL_TERMINAL_STATIONS_CSV ?= data/manual/rail/terminal_stations.csv
 RAIL_TRAVEL_TIMES_CSV ?= data/manual/rail/major_station_travel_times.csv
 RAIL_ACCESS_CSV ?= data/processed/rail/rail_access.csv
 NEARBY_FACILITIES_CSV ?= data/processed/facilities/nearby_facilities.csv
+NEARBY_FACILITIES_INPUTS ?= $(NEARBY_FACILITIES_CSV)
 NEARBY_FACILITIES_JSON ?= ../$(FRONTEND_DIR)/public/facilities/nearby_facilities.json
 NEARBY_FACILITIES_TEMPLATE ?= data/manual/facilities/nearby_facilities_template.csv
 COMMERCIAL_FACILITIES_CSV ?= data/processed/jcsc/jcsc_sc_open.csv
@@ -73,6 +74,9 @@ MEDICAL_TILE_Z ?= 13
 MEDICAL_TILE_X ?= 7269
 MEDICAL_TILE_Y ?= 3235
 MEDICAL_REQUEST_INTERVAL_SECONDS ?= 1.0
+OSM_NEARBY_AREA ?= capital
+OSM_NEARBY_CATEGORIES ?= supermarket,convenience_store,park
+OSM_NEARBY_TIMEOUT_SECONDS ?= 180
 URBAN_PLANNING_APIS ?= XKT001,XKT002,XKT003
 URBAN_PLANNING_AREA ?= capital
 URBAN_PLANNING_ZOOM ?= 13
@@ -107,7 +111,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-medical-facilities collect-medical-facilities-dry-run collect-medical-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-medical-facilities collect-medical-facilities-dry-run collect-medical-facilities-tile collect-osm-nearby-facilities collect-osm-nearby-facilities-dry-run collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -166,6 +170,10 @@ help:
 	@echo "                          医療機関取得のリクエスト数を確認"
 	@echo "  make collect-medical-facilities-tile"
 	@echo "                          医療機関取得を1タイルで疎通確認"
+	@echo "  make collect-osm-nearby-facilities"
+	@echo "                          OSMからスーパー・コンビニ・公園を取得してCSV化"
+	@echo "  make collect-osm-nearby-facilities-dry-run"
+	@echo "                          OSM周辺施設取得クエリを確認"
 	@echo "  make collect-urban-planning"
 	@echo "                          用途地域・都市計画データを取得してCSV化"
 	@echo "  make collect-urban-planning-dry-run"
@@ -378,6 +386,12 @@ collect-medical-facilities-dry-run:
 collect-medical-facilities-tile:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/medical_facilities.py --tile $(MEDICAL_TILE_Z) $(MEDICAL_TILE_X) $(MEDICAL_TILE_Y) --request-interval-seconds $(MEDICAL_REQUEST_INTERVAL_SECONDS) --cache
 
+collect-osm-nearby-facilities:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py --area $(OSM_NEARBY_AREA) --categories "$(OSM_NEARBY_CATEGORIES)" --timeout-seconds $(OSM_NEARBY_TIMEOUT_SECONDS) --cache
+
+collect-osm-nearby-facilities-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py --area $(OSM_NEARBY_AREA) --categories "$(OSM_NEARBY_CATEGORIES)" --timeout-seconds $(OSM_NEARBY_TIMEOUT_SECONDS) --dry-run
+
 collect-urban-planning:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --area $(URBAN_PLANNING_AREA) --zoom $(URBAN_PLANNING_ZOOM) --request-interval-seconds $(URBAN_PLANNING_REQUEST_INTERVAL_SECONDS) --cache
 
@@ -576,7 +590,7 @@ urban-planning:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.urban_planning --input "$(URBAN_PLANNING_CSV)" --output "$(URBAN_PLANNING_PUBLIC_JSON)"
 
 nearby-facilities:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --input-csv "$(NEARBY_FACILITIES_CSV)" --commercial-facilities-csv "$(COMMERCIAL_FACILITIES_CSV)" --output "$(NEARBY_FACILITIES_JSON)"
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --input-csv $(NEARBY_FACILITIES_INPUTS) --commercial-facilities-csv "$(COMMERCIAL_FACILITIES_CSV)" --output "$(NEARBY_FACILITIES_JSON)"
 
 nearby-facilities-template:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --write-template "$(NEARBY_FACILITIES_TEMPLATE)"

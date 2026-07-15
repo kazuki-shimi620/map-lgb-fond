@@ -176,13 +176,16 @@ def parse_float(value: str | None) -> float | None:
 
 def export_nearby_facilities(
     *,
-    input_csv: Path,
+    input_csv: Path | list[Path],
     commercial_facilities_csv: Path | None = None,
     output: Path,
     source: str,
     source_label: str,
 ) -> Path:
-    facilities = load_facility_rows(input_csv)
+    input_paths = [input_csv] if isinstance(input_csv, Path) else input_csv
+    facilities = []
+    for path in input_paths:
+        facilities.extend(load_facility_rows(path))
     if commercial_facilities_csv is not None:
         facilities.extend(load_commercial_facility_rows(commercial_facilities_csv))
         facilities = deduplicate_facilities(facilities)
@@ -204,7 +207,10 @@ def deduplicate_facilities(facilities: list[dict[str, Any]]) -> list[dict[str, A
     for facility in facilities:
         key = facility["id"]
         records[key] = facility
-    return sorted(records.values(), key=lambda row: (row["categoryId"], row["prefecture"], row["name"]))
+    return sorted(
+        records.values(),
+        key=lambda row: (row["categoryId"], row["prefecture"], row["name"]),
+    )
 
 
 def write_csv_template(output: Path) -> Path:
@@ -224,6 +230,7 @@ def main() -> int:
     parser.add_argument(
         "--input-csv",
         type=Path,
+        nargs="+",
         default=Path("data/processed/facilities/nearby_facilities.csv"),
     )
     parser.add_argument(
