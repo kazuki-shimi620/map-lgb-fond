@@ -28,6 +28,7 @@ def build_land_price_coverage_report(
     source_paths: list[str],
     land_price_points_csv: Path,
     land_price_city_summary_csv: Path,
+    sample_size: int | None = None,
 ) -> dict[str, Any]:
     enriched = add_land_price_features(
         property_df,
@@ -41,6 +42,7 @@ def build_land_price_coverage_report(
     return {
         "generatedAt": datetime.now(UTC).isoformat(timespec="seconds"),
         "sourcePaths": source_paths,
+        "sampleSize": sample_size,
         "landPricePointsCsv": str(land_price_points_csv),
         "landPricePointsCsvBytes": _file_size(land_price_points_csv),
         "landPriceCitySummaryCsv": str(land_price_city_summary_csv),
@@ -81,6 +83,7 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"* landPricePointsCsvBytes: {report['landPricePointsCsvBytes']:,}",
         f"* landPriceCitySummaryCsv: `{report['landPriceCitySummaryCsv']}`",
         f"* landPriceCitySummaryCsvBytes: {report['landPriceCitySummaryCsvBytes']:,}",
+        f"* sampleSize: {report.get('sampleSize') or 'all'}",
         f"* propertyRecords: {report['recordCount']:,}",
         f"* propertyCoordinateRows: {report.get('propertyCoordinateCount', 0):,}",
         f"* propertyCoordinateRate: {report.get('propertyCoordinateRate', 0.0):.2%}",
@@ -146,6 +149,17 @@ def _load_property_frames(regions: list[str], processed_dir: Path):
     return pd.concat(frames, ignore_index=True), source_paths
 
 
+def _sample_property_df(property_df, sample_size: int | None):
+    if sample_size is None or sample_size <= 0 or len(property_df) <= sample_size:
+        return property_df
+    sample_source = property_df
+    if {"lat", "lon"}.issubset(property_df.columns):
+        with_coordinates = property_df[property_df["lat"].notna() & property_df["lon"].notna()]
+        if not with_coordinates.empty:
+            sample_source = with_coordinates
+    return sample_source.sample(n=min(sample_size, len(sample_source)), random_state=42)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Summarize land price data coverage.")
     parser.add_argument("--regions", nargs="+", default=DEFAULT_REGIONS)
@@ -161,9 +175,17 @@ def main() -> int:
         default=Path("data/processed/land_prices/land_price_city_summary.csv"),
     )
     parser.add_argument("--output-dir", type=Path, default=Path("outputs/reports"))
+    parser.add_argument(
+        "--sample-size",
+        type=int,
+        default=0,
+        help="空間特徴量のdry-run用に物件行を決定的サンプルへ絞る。0なら全件。",
+    )
     args = parser.parse_args()
 
     property_df, source_paths = _load_property_frames(args.regions, args.processed_dir)
+    sample_size = args.sample_size if args.sample_size > 0 else None
+    property_df = _sample_property_df(property_df, sample_size)
     points = load_land_price_points_csv(args.land_price_points_csv)
     city_summary = load_land_price_city_summary_csv(args.land_price_city_summary_csv)
     report = build_land_price_coverage_report(
@@ -173,6 +195,7 @@ def main() -> int:
         source_paths=source_paths,
         land_price_points_csv=args.land_price_points_csv,
         land_price_city_summary_csv=args.land_price_city_summary_csv,
+        sample_size=sample_size,
     )
     paths = save_report(report, args.output_dir)
     print(f"land price coverage report: {paths['markdown']}")

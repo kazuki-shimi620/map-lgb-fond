@@ -42,6 +42,7 @@ ADDRESS_POINTS_SOURCE_URL ?= https://geolonia.github.io/japanese-addresses/lates
 ADDRESS_POINTS_CSV ?= data/processed/address_points/town_points.csv
 COORDINATE_ENRICHED_DIR ?= data/processed/with_address_coordinates
 COORDINATE_INCLUDE_MUNICIPALITY_FALLBACK ?= 0
+SPATIAL_DRY_RUN_SAMPLE_SIZE ?= 200
 POPULATION_INPUT ?=
 POPULATION_TEMPLATE ?= data/manual/population/municipality_population_template.csv
 ESTAT_STATS_DATA_ID ?=
@@ -96,7 +97,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage check-feature-order histories-national facilities land-prices nearby-facilities nearby-facilities-template stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices nearby-facilities nearby-facilities-template stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -221,6 +222,8 @@ help:
 	@echo "                          用途地域・都市計画データのマッチ率と配布サイズを集計"
 	@echo "  make summarize-education-coverage"
 	@echo "                          教育施設データのマッチ率と配布サイズを集計"
+	@echo "  make summarize-spatial-dry-run"
+	@echo "                          座標付き検証Parquetで空間特徴量をサンプル評価"
 	@echo "  make check-feature-order"
 	@echo "                          config/metadata の特徴量がフロント推論で扱えるか確認"
 	@echo "  make histories-national 類似条件比較用の全国価格推移JSONとトレンドJSONを再生成"
@@ -508,6 +511,11 @@ summarize-urban-planning-coverage:
 
 summarize-education-coverage:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/education_coverage.py --regions $(REGIONS)
+
+summarize-spatial-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/land_price_coverage.py --regions $(REGIONS) --processed-dir "$(COORDINATE_ENRICHED_DIR)" --land-price-points-csv "$(LAND_PRICE_POINTS_CSV)" --land-price-city-summary-csv "$(LAND_PRICE_CITY_SUMMARY_CSV)" --output-dir outputs/reports/spatial_dry_run/land_prices --sample-size $(SPATIAL_DRY_RUN_SAMPLE_SIZE)
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/urban_planning_coverage.py --regions $(REGIONS) --processed-dir "$(COORDINATE_ENRICHED_DIR)" --output-dir outputs/reports/spatial_dry_run/urban_planning --sample-size $(SPATIAL_DRY_RUN_SAMPLE_SIZE)
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/education_coverage.py --regions $(REGIONS) --processed-dir "$(COORDINATE_ENRICHED_DIR)" --output-dir outputs/reports/spatial_dry_run/education --sample-size $(SPATIAL_DRY_RUN_SAMPLE_SIZE)
 
 check-feature-order:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.feature_order \

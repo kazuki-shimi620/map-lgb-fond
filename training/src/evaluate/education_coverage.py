@@ -23,19 +23,24 @@ def build_education_coverage_report(
     education_facilities_df,
     source_paths: list[str],
     education_facilities_csv: Path,
+    sample_size: int | None = None,
 ) -> dict[str, Any]:
     enriched = add_education_features(property_df, education_facilities_df)
     record_count = int(len(enriched))
     matched = int(enriched["has_education_data"].sum()) if record_count else 0
+    coordinate_count = _coordinate_count(property_df)
 
     return {
         "generatedAt": datetime.now(UTC).isoformat(timespec="seconds"),
         "sourcePaths": source_paths,
+        "sampleSize": sample_size,
         "educationFacilitiesCsv": str(education_facilities_csv),
         "educationFacilitiesCsvBytes": education_facilities_csv.stat().st_size
         if education_facilities_csv.exists()
         else 0,
         "recordCount": record_count,
+        "propertyCoordinateCount": coordinate_count,
+        "propertyCoordinateRate": coordinate_count / record_count if record_count else 0.0,
         "facilityCount": int(len(education_facilities_df)),
         "matchedRowCount": matched,
         "matchRate": matched / record_count if record_count else 0.0,
@@ -70,7 +75,10 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"* generatedAt: {report['generatedAt']}",
         f"* educationFacilitiesCsv: `{report['educationFacilitiesCsv']}`",
         f"* educationFacilitiesCsvBytes: {report['educationFacilitiesCsvBytes']:,}",
+        f"* sampleSize: {report.get('sampleSize') or 'all'}",
         f"* propertyRecords: {report['recordCount']:,}",
+        f"* propertyCoordinateRows: {report.get('propertyCoordinateCount', 0):,}",
+        f"* propertyCoordinateRate: {report.get('propertyCoordinateRate', 0.0):.2%}",
         f"* facilityRecords: {report['facilityCount']:,}",
         f"* matchedRows: {report['matchedRowCount']:,}",
         f"* matchRate: {report['matchRate']:.2%}",
@@ -129,6 +137,12 @@ def _numeric_summary(df, column: str) -> dict[str, float]:
     }
 
 
+def _coordinate_count(df) -> int:
+    if df.empty or not {"lat", "lon"}.issubset(df.columns):
+        return 0
+    return int((df["lat"].notna() & df["lon"].notna()).sum())
+
+
 def _load_property_frames(regions: list[str], processed_dir: Path):
     import pandas as pd
 
@@ -145,6 +159,17 @@ def _load_property_frames(regions: list[str], processed_dir: Path):
     return pd.concat(frames, ignore_index=True), source_paths
 
 
+def _sample_property_df(property_df, sample_size: int | None):
+    if sample_size is None or sample_size <= 0 or len(property_df) <= sample_size:
+        return property_df
+    sample_source = property_df
+    if {"lat", "lon"}.issubset(property_df.columns):
+        with_coordinates = property_df[property_df["lat"].notna() & property_df["lon"].notna()]
+        if not with_coordinates.empty:
+            sample_source = with_coordinates
+    return sample_source.sample(n=min(sample_size, len(sample_source)), random_state=42)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Summarize education facility data coverage.")
     parser.add_argument("--regions", nargs="+", default=DEFAULT_REGIONS)
@@ -155,15 +180,24 @@ def main() -> int:
         default=Path("data/processed/education/education_facilities.csv"),
     )
     parser.add_argument("--output-dir", type=Path, default=Path("outputs/reports"))
+    parser.add_argument(
+        "--sample-size",
+        type=int,
+        default=0,
+        help="空間特徴量のdry-run用に物件行を決定的サンプルへ絞る。0なら全件。",
+    )
     args = parser.parse_args()
 
     property_df, source_paths = _load_property_frames(args.regions, args.processed_dir)
+    sample_size = args.sample_size if args.sample_size > 0 else None
+    property_df = _sample_property_df(property_df, sample_size)
     education_facilities = load_education_facilities_csv(args.education_facilities_csv)
     report = build_education_coverage_report(
         property_df=property_df,
         education_facilities_df=education_facilities,
         source_paths=source_paths,
         education_facilities_csv=args.education_facilities_csv,
+        sample_size=sample_size,
     )
     paths = save_report(report, args.output_dir)
     print(f"education coverage report: {paths['markdown']}")

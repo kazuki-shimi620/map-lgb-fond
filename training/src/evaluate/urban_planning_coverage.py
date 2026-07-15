@@ -23,6 +23,7 @@ def build_urban_planning_coverage_report(
     urban_planning_areas_df,
     source_paths: list[str],
     urban_planning_csv: Path,
+    sample_size: int | None = None,
 ) -> dict[str, Any]:
     enriched = add_urban_planning_features(property_df, urban_planning_areas_df)
     record_count = int(len(enriched))
@@ -32,6 +33,7 @@ def build_urban_planning_coverage_report(
     return {
         "generatedAt": datetime.now(UTC).isoformat(timespec="seconds"),
         "sourcePaths": source_paths,
+        "sampleSize": sample_size,
         "urbanPlanningCsv": str(urban_planning_csv),
         "urbanPlanningCsvBytes": urban_planning_csv.stat().st_size
         if urban_planning_csv.exists()
@@ -64,6 +66,7 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"* generatedAt: {report['generatedAt']}",
         f"* urbanPlanningCsv: `{report['urbanPlanningCsv']}`",
         f"* urbanPlanningCsvBytes: {report['urbanPlanningCsvBytes']:,}",
+        f"* sampleSize: {report.get('sampleSize') or 'all'}",
         f"* propertyRecords: {report['recordCount']:,}",
         f"* propertyCoordinateRows: {report.get('propertyCoordinateCount', 0):,}",
         f"* propertyCoordinateRate: {report.get('propertyCoordinateRate', 0.0):.2%}",
@@ -124,6 +127,17 @@ def _load_property_frames(regions: list[str], processed_dir: Path):
     return pd.concat(frames, ignore_index=True), source_paths
 
 
+def _sample_property_df(property_df, sample_size: int | None):
+    if sample_size is None or sample_size <= 0 or len(property_df) <= sample_size:
+        return property_df
+    sample_source = property_df
+    if {"lat", "lon"}.issubset(property_df.columns):
+        with_coordinates = property_df[property_df["lat"].notna() & property_df["lon"].notna()]
+        if not with_coordinates.empty:
+            sample_source = with_coordinates
+    return sample_source.sample(n=min(sample_size, len(sample_source)), random_state=42)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Summarize urban planning data coverage.")
     parser.add_argument("--regions", nargs="+", default=DEFAULT_REGIONS)
@@ -134,15 +148,24 @@ def main() -> int:
         default=Path("data/processed/urban_planning/urban_planning_areas.csv"),
     )
     parser.add_argument("--output-dir", type=Path, default=Path("outputs/reports"))
+    parser.add_argument(
+        "--sample-size",
+        type=int,
+        default=0,
+        help="空間特徴量のdry-run用に物件行を決定的サンプルへ絞る。0なら全件。",
+    )
     args = parser.parse_args()
 
     property_df, source_paths = _load_property_frames(args.regions, args.processed_dir)
+    sample_size = args.sample_size if args.sample_size > 0 else None
+    property_df = _sample_property_df(property_df, sample_size)
     urban_planning_areas = load_urban_planning_areas_csv(args.urban_planning_csv)
     report = build_urban_planning_coverage_report(
         property_df=property_df,
         urban_planning_areas_df=urban_planning_areas,
         source_paths=source_paths,
         urban_planning_csv=args.urban_planning_csv,
+        sample_size=sample_size,
     )
     paths = save_report(report, args.output_dir)
     print(f"urban planning coverage report: {paths['markdown']}")

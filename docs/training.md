@@ -172,11 +172,14 @@ make download-csv-all
 ```bash
 make collect-address-points
 make enrich-coordinates
+make summarize-spatial-dry-run
 ```
 
 出力先は `training/data/processed/with_address_coordinates` で、通常の学習用Parquetを上書きしない。
 市区町村代表点フォールバックは粗いため標準では使わず、必要な比較時だけ
 `COORDINATE_INCLUDE_MUNICIPALITY_FALLBACK=1` を指定する。
+`summarize-spatial-dry-run` は標準で200件の決定的サンプルに絞り、地価近傍、用途地域、
+教育施設のカバレッジを `training/outputs/reports/spatial_dry_run` に出力する。
 
 ---
 
