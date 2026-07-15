@@ -84,6 +84,9 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
   * [x] OpenStreetMap ODbLの表示上の帰属表記と、地図レイヤーでの大量マーカー描画負荷を確認する
     * [x] 周辺施設パネルにOpenStreetMap contributors (ODbL)への帰属リンクを表示し、表示範囲内・中心近傍の最大1,200件だけを描画する
   * [ ] 公園は大型公園特徴量用に面積またはway/relation面積を別途集計する
+    * [x] OSM公園取得に `--include-geometry` と `park_areas.csv` 出力を追加し、geometry面積またはbounds概算面積を保存できるようにする
+    * [x] 2026-07-15に東京サンプルbboxで実取得し、827公園マーカー・799面積行を生成できることを確認する
+    * [ ] 東京全域 `out geom` はOverpass 504のため、小bbox分割で首都圏全域の `park_areas.csv` を生成する
 * [x] 犯罪統計は無料公開CSV/Excelがある自治体だけでfixture検証し、全国統一のモデル特徴量としては急がない
 
 ### 参考表示・UI

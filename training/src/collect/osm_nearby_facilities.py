@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import math
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
@@ -64,6 +65,22 @@ NEARBY_FACILITY_FIELDNAMES = [
     "source",
     "updated_at",
 ]
+PARK_AREA_FIELDNAMES = [
+    "id",
+    "name",
+    "lat",
+    "lon",
+    "prefecture",
+    "municipality",
+    "address",
+    "osm_type",
+    "osm_id",
+    "area_sqm",
+    "area_source",
+    "source",
+    "updated_at",
+]
+EARTH_RADIUS_METERS = 6_371_008.8
 
 
 class OsmNearbyFacilityCollectError(RuntimeError):
@@ -78,6 +95,7 @@ def build_overpass_query(
     north: float,
     east: float,
     timeout_seconds: int,
+    include_geometry: bool = False,
 ) -> str:
     clauses = []
     for category in categories:
@@ -87,7 +105,8 @@ def build_overpass_query(
             selector = f'["{key}"="{value}"]({south},{west},{north},{east})'
             clauses.extend([f"node{selector};", f"way{selector};", f"relation{selector};"])
     joined = "\n  ".join(clauses)
-    return f"[out:json][timeout:{timeout_seconds}];\n(\n  {joined}\n);\nout center tags;"
+    output = "out center tags geom;" if include_geometry else "out center tags;"
+    return f"[out:json][timeout:{timeout_seconds}];\n(\n  {joined}\n);\n{output}"
 
 
 def fetch_overpass(
@@ -128,6 +147,7 @@ def collect_osm_nearby_facilities(
     timeout_seconds: int,
     cache: bool,
     force: bool,
+    include_geometry: bool = False,
 ) -> dict[str, Path | int]:
     query = build_overpass_query(
         categories=categories,
@@ -136,6 +156,7 @@ def collect_osm_nearby_facilities(
         north=area["north"],
         east=area["east"],
         timeout_seconds=timeout_seconds,
+        include_geometry=include_geometry,
     )
     raw_path = raw_dir / f"{run_id}.json"
     query_path = raw_dir / f"{run_id}.overpassql"
@@ -155,18 +176,28 @@ def collect_osm_nearby_facilities(
         query_path.write_text(query + "\n", encoding="utf-8")
 
     rows = normalize_overpass_elements(payload.get("elements", []))
+    park_area_rows = (
+        normalize_park_area_elements(payload.get("elements", []))
+        if include_geometry
+        else []
+    )
     processed_dir.mkdir(parents=True, exist_ok=True)
     nearby_path = processed_dir / "nearby_osm_facilities.csv"
+    park_areas_path = processed_dir / "park_areas.csv"
     metadata_path = processed_dir / "metadata.json"
     write_csv(nearby_path, rows, NEARBY_FACILITY_FIELDNAMES)
+    if include_geometry:
+        write_csv(park_areas_path, park_area_rows, PARK_AREA_FIELDNAMES)
     metadata = {
         "schemaVersion": SCHEMA_VERSION,
         "generatedAt": datetime.now(UTC).isoformat(timespec="seconds"),
         "source": "OpenStreetMap Overpass API",
         "license": "Open Database License (ODbL)",
         "categories": categories,
+        "includeGeometry": include_geometry,
         "elementCount": len(payload.get("elements", [])),
         "nearbyFacilityCount": len(rows),
+        "parkAreaCount": len(park_area_rows),
         "raw": str(raw_path),
         "query": str(query_path),
     }
@@ -177,8 +208,10 @@ def collect_osm_nearby_facilities(
     return {
         "nearby_facilities_csv": nearby_path,
         "metadata": metadata_path,
+        "park_areas_csv": park_areas_path,
         "element_count": len(payload.get("elements", [])),
         "nearby_facility_count": len(rows),
+        "park_area_count": len(park_area_rows),
     }
 
 
@@ -229,6 +262,51 @@ def normalize_overpass_element(element: dict[str, Any]) -> dict[str, Any] | None
     }
 
 
+def normalize_park_area_elements(elements: object) -> list[dict[str, Any]]:
+    if not isinstance(elements, list):
+        return []
+    rows = []
+    for element in elements:
+        if not isinstance(element, dict):
+            continue
+        row = normalize_park_area_element(element)
+        if row:
+            rows.append(row)
+    by_id = {row["id"]: row for row in rows}
+    return sorted(by_id.values(), key=lambda row: (row["name"], row["id"]))
+
+
+def normalize_park_area_element(element: dict[str, Any]) -> dict[str, Any] | None:
+    tags = element.get("tags")
+    if not isinstance(tags, dict) or category_from_tags(tags) != "park":
+        return None
+    area_sqm, area_source = element_area_sqm(element)
+    if area_sqm is None:
+        return None
+    lat, lon = element_lat_lon(element)
+    if lat is None or lon is None:
+        return None
+    name = _text(tags.get("name") or tags.get("name:ja")) or "公園"
+    address = build_address(tags)
+    osm_type = _text(element.get("type"))
+    osm_id = _text(element.get("id"))
+    return {
+        "id": f"osm_{osm_type}_{osm_id}",
+        "name": name,
+        "lat": lat,
+        "lon": lon,
+        "prefecture": _text(tags.get("addr:province")),
+        "municipality": _text(tags.get("addr:city") or tags.get("addr:town")),
+        "address": address,
+        "osm_type": osm_type,
+        "osm_id": osm_id,
+        "area_sqm": round(area_sqm, 2),
+        "area_source": area_source,
+        "source": "openstreetmap_odbl",
+        "updated_at": "",
+    }
+
+
 def category_from_tags(tags: dict[str, Any]) -> str | None:
     if _text(tags.get("shop")) == "supermarket":
         return "supermarket"
@@ -239,6 +317,69 @@ def category_from_tags(tags: dict[str, Any]) -> str | None:
     return None
 
 
+def element_area_sqm(element: dict[str, Any]) -> tuple[float | None, str]:
+    geometry = element.get("geometry")
+    if isinstance(geometry, list):
+        area = polygon_area_sqm(geometry)
+        if area is not None:
+            return area, "geometry"
+    bounds = element.get("bounds")
+    if isinstance(bounds, dict):
+        area = bounds_area_sqm(bounds)
+        if area is not None:
+            return area, "bounds"
+    return None, ""
+
+
+def polygon_area_sqm(points: list[object]) -> float | None:
+    coordinates: list[tuple[float, float]] = []
+    for point in points:
+        if not isinstance(point, dict):
+            continue
+        lat = _to_float(point.get("lat"))
+        lon = _to_float(point.get("lon"))
+        if lat is None or lon is None:
+            continue
+        coordinates.append((lat, lon))
+    if len(coordinates) < 3:
+        return None
+    if coordinates[0] != coordinates[-1]:
+        coordinates.append(coordinates[0])
+    mean_lat_rad = math.radians(sum(lat for lat, _lon in coordinates) / len(coordinates))
+    projected = [
+        (
+            EARTH_RADIUS_METERS * math.radians(lon) * math.cos(mean_lat_rad),
+            EARTH_RADIUS_METERS * math.radians(lat),
+        )
+        for lat, lon in coordinates
+    ]
+    area = 0.0
+    for (x1, y1), (x2, y2) in zip(projected, projected[1:], strict=False):
+        area += x1 * y2 - x2 * y1
+    return abs(area) / 2
+
+
+def bounds_area_sqm(bounds: dict[str, Any]) -> float | None:
+    minlat = _to_float(bounds.get("minlat"))
+    minlon = _to_float(bounds.get("minlon"))
+    maxlat = _to_float(bounds.get("maxlat"))
+    maxlon = _to_float(bounds.get("maxlon"))
+    if None in (minlat, minlon, maxlat, maxlon):
+        return None
+    assert minlat is not None
+    assert minlon is not None
+    assert maxlat is not None
+    assert maxlon is not None
+    return polygon_area_sqm(
+        [
+            {"lat": minlat, "lon": minlon},
+            {"lat": minlat, "lon": maxlon},
+            {"lat": maxlat, "lon": maxlon},
+            {"lat": maxlat, "lon": minlon},
+        ]
+    )
+
+
 def element_lat_lon(element: dict[str, Any]) -> tuple[float | None, float | None]:
     lat = _to_float(element.get("lat"))
     lon = _to_float(element.get("lon"))
@@ -247,6 +388,18 @@ def element_lat_lon(element: dict[str, Any]) -> tuple[float | None, float | None
     center = element.get("center")
     if isinstance(center, dict):
         return _to_float(center.get("lat")), _to_float(center.get("lon"))
+    bounds = element.get("bounds")
+    if isinstance(bounds, dict):
+        minlat = _to_float(bounds.get("minlat"))
+        minlon = _to_float(bounds.get("minlon"))
+        maxlat = _to_float(bounds.get("maxlat"))
+        maxlon = _to_float(bounds.get("maxlon"))
+        if None not in (minlat, minlon, maxlat, maxlon):
+            assert minlat is not None
+            assert minlon is not None
+            assert maxlat is not None
+            assert maxlon is not None
+            return (minlat + maxlat) / 2, (minlon + maxlon) / 2
     return None, None
 
 
@@ -294,6 +447,7 @@ def _to_float(value: object) -> float | None:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Collect nearby facilities from OpenStreetMap.")
     parser.add_argument("--area", default=DEFAULT_AREA)
+    parser.add_argument("--bbox", nargs=4, type=float, metavar=("SOUTH", "WEST", "NORTH", "EAST"))
     parser.add_argument("--categories", default=",".join(DEFAULT_CATEGORIES))
     parser.add_argument("--raw-dir", type=Path, default=Path("data/raw/osm_nearby"))
     parser.add_argument("--processed-dir", type=Path, default=Path("data/processed/osm_nearby"))
@@ -302,28 +456,41 @@ def main() -> int:
     parser.add_argument("--timeout-seconds", type=int, default=180)
     parser.add_argument("--cache", action="store_true")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--include-geometry", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     try:
-        if args.area not in AREAS:
-            raise OsmNearbyFacilityCollectError(f"unsupported area: {args.area}")
+        if args.bbox:
+            area = {
+                "south": args.bbox[0],
+                "west": args.bbox[1],
+                "north": args.bbox[2],
+                "east": args.bbox[3],
+            }
+            area_label = "bbox"
+        else:
+            if args.area not in AREAS:
+                raise OsmNearbyFacilityCollectError(f"unsupported area: {args.area}")
+            area = AREAS[args.area]
+            area_label = args.area
         categories = [item.strip() for item in args.categories.split(",") if item.strip()]
         query = build_overpass_query(
             categories=categories,
             timeout_seconds=args.timeout_seconds,
-            **AREAS[args.area],
+            include_geometry=args.include_geometry,
+            **area,
         )
         if args.dry_run:
             print(
                 "osm nearby facilities dry-run: "
-                f"categories={','.join(categories)} area={args.area} "
-                f"bbox={AREAS[args.area]} queryBytes={len(query.encode('utf-8'))}"
+                f"categories={','.join(categories)} area={area_label} "
+                f"bbox={area} queryBytes={len(query.encode('utf-8'))}"
             )
             return 0
         outputs = collect_osm_nearby_facilities(
             categories=categories,
-            area=AREAS[args.area],
+            area=area,
             raw_dir=args.raw_dir,
             processed_dir=args.processed_dir,
             run_id=args.run_id,
@@ -331,6 +498,7 @@ def main() -> int:
             timeout_seconds=args.timeout_seconds,
             cache=args.cache,
             force=args.force,
+            include_geometry=args.include_geometry,
         )
     except OsmNearbyFacilityCollectError as error:
         print(f"osm nearby facility collect failed: {error}", file=sys.stderr)
@@ -340,6 +508,7 @@ def main() -> int:
         "collected osm nearby facilities: "
         f"elements={outputs['element_count']} "
         f"nearby={outputs['nearby_facility_count']} "
+        f"parkAreas={outputs['park_area_count']} "
         f"csv={outputs['nearby_facilities_csv']}"
     )
     return 0

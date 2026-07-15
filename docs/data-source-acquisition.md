@@ -88,7 +88,7 @@ make collect-medical-facilities MEDICAL_REQUEST_INTERVAL_SECONDS=0.05
 make nearby-facilities NEARBY_FACILITIES_CSV=data/processed/medical/nearby_medical_facilities.csv COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
 ```
 
-スーパー、コンビニ、公園はOpenStreetMap/Overpass APIを初期データソースにする。OpenStreetMapデータはOpen Database License (ODbL) として扱い、`training/src/collect/osm_nearby_facilities.py` で `shop=supermarket`、`shop=convenience`、`leisure=park` を `nearby_facilities` スキーマへ正規化する。2026-07-15に首都圏bboxでスーパー6,345件、コンビニ17,190件を取得した。公園は首都圏bbox一括ではOverpassが504を返したため、東京・神奈川・埼玉・千葉のbboxへ分割し、合計27,231件を取得した。
+スーパー、コンビニ、公園はOpenStreetMap/Overpass APIを初期データソースにする。OpenStreetMapデータはOpen Database License (ODbL) として扱い、`training/src/collect/osm_nearby_facilities.py` で `shop=supermarket`、`shop=convenience`、`leisure=park` を `nearby_facilities` スキーマへ正規化する。2026-07-15に首都圏bboxでスーパー6,345件、コンビニ17,190件を取得した。公園は首都圏bbox一括ではOverpassが504を返したため、東京・神奈川・埼玉・千葉のbboxへ分割し、合計27,231件を取得した。大型公園特徴量用の面積は `--include-geometry` で `park_areas.csv` に出力する。東京全域のgeometry取得もOverpass 504となるため、`OSM_PARK_BBOX` で小bboxへ分割して取得する。
 
 ## 取得候補
 
