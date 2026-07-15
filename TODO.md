@@ -25,9 +25,11 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
 * [ ] `make collect-land-prices` で首都圏4県の地価ポイントCSVを生成する
   * [x] `make collect-land-prices-dry-run` と `make collect-land-prices-tile` を追加し、1タイル疎通で26ポイント・5自治体集計を確認する
   * [x] 2026-07-15に `LAND_PRICE_YEARS=2025` の1タイル実取得とカバレッジ集計、地価特徴量バックテストを再実行する
+  * [x] 2026-07-15に `LAND_PRICE_YEARS=2025 LAND_PRICE_ZOOM=13` の段階取得を実行し、12,235ポイント・630自治体集計・マッチ率9.25%を確認する
   * [ ] 首都圏4県・2024/2025年・z=14は16,960リクエストになるため、ネットワーク許可済み環境で長時間ジョブとして実行する
 * [ ] 公示地価/基準地価を取得し、地価水準と地価変化率を比較する
   * [x] `make summarize-land-price-coverage` を追加し、取得後に地価水準・変化率・マッチ率・配布サイズを確認できるようにする
+  * [x] 2026-07-15にz=13・2025年データで `make compare-land-price-features` を再実行し、現特徴量ではベースライン同等と確認する
 * [ ] 人口・世帯数・人口密度・年齢構成を自治体単位で比較する
   * [x] 自治体人口統計CSVの入力スキーマ、テンプレート、生成ターゲットを追加する
   * [x] `make summarize-population-coverage` を追加し、取得後に人口・世帯・人口密度・年齢構成・マッチ率・配布サイズを確認できるようにする

@@ -302,6 +302,32 @@ make compare-train-start-years
 * 商業施設の距離系特徴量は、JCSC CSVに緯度経度が付与されるまで効果検証できない
 * 用途地域と教育施設は取得タイルが取引地点と重ならず、カバレッジ検証用の広域取得が必要
 
+2026-07-15に `LAND_PRICE_YEARS=2025 LAND_PRICE_ZOOM=13` で地価を段階取得した。2,160リクエストで12,235ポイント、630自治体集計を生成し、失敗タイルは0だった。
+
+| 指標 | 結果 |
+| --- | ---: |
+| 地価ポイント | 12,235 |
+| 自治体集計 | 630 |
+| 取引マッチ件数 | 63,464 |
+| マッチ率 | 9.25% |
+| points CSV | 4.18 MB |
+| city summary CSV | 54.1 KB |
+
+このデータで `make compare-land-price-features` を再実行したが、現特徴量セットでは `land_price` / `land_price_no_station` ともにベースライン同等だった。
+
+| 候補 | station | MAE | RMSE | MAPE | 判断 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| baseline | yes | 5,447,875円 | 7,504,698円 | 21.81% | 基準 |
+| land_price | yes | 5,447,875円 | 7,504,698円 | 21.81% | 同等 |
+| baseline_no_station | no | 6,128,259円 | 8,431,375円 | 23.91% | 軽量基準 |
+| land_price_no_station | no | 6,128,259円 | 8,431,375円 | 23.91% | 同等 |
+
+判断:
+
+* 2025年単年・z=13では地価特徴量の改善は確認できない
+* `nearest_land_price_*` は現時点の集計で0が多いため、緯度経度マッチ処理と対象年の広げ方を再確認する
+* 次に進めるなら2024/2025年の両年取得、またはz=14長時間ジョブでカバレッジを上げる
+
 ## 2026-07-15 駅規模coverageフラグ削除モデル
 
 `station_passenger_no_coverage_flag` の比較で同一結果だったため、首都圏4県configから `has_station_passenger_data` を外してモデルを再生成した。更新前後の比較は `training/outputs/comparisons/remove_station_coverage_comparison.md` に保存した。
