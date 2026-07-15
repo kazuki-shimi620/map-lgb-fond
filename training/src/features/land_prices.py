@@ -113,47 +113,97 @@ def _build_city_year_features(city_summary_df):
 
 
 def _build_nearest_point_features(property_df, points_df):
+    import numpy as np
     import pandas as pd
+    from sklearn.neighbors import BallTree
 
     points = points_df.dropna(subset=["lat", "lon", "current_price_yen_per_sqm"]).copy()
-    rows = []
-    for row in property_df.itertuples(index=False):
-        lat = _getattr(row, "lat")
-        lon = _getattr(row, "lon")
-        year = _getattr(row, "transaction_year")
-        prefecture = _getattr(row, "prefecture")
-        if _is_missing_number(lat) or _is_missing_number(lon) or year is None:
-            rows.append(_empty_nearest_features())
+    result = pd.DataFrame(
+        [_empty_nearest_features() for _ in range(len(property_df))],
+        index=property_df.index,
+    )
+    if points.empty or property_df.empty:
+        return result
+
+    for column in ["year", "lat", "lon"]:
+        points[column] = pd.to_numeric(points[column], errors="coerce")
+    points = points.dropna(subset=["year", "lat", "lon"])
+    if points.empty:
+        return result
+
+    tree_cache = _build_land_price_tree_cache(points, BallTree)
+    properties = property_df[["prefecture", "transaction_year", "lat", "lon"]].copy()
+    properties["transaction_year"] = pd.to_numeric(
+        properties["transaction_year"],
+        errors="coerce",
+    )
+    properties["lat"] = pd.to_numeric(properties["lat"], errors="coerce")
+    properties["lon"] = pd.to_numeric(properties["lon"], errors="coerce")
+    valid = properties.dropna(subset=["prefecture", "transaction_year", "lat", "lon"])
+    if valid.empty:
+        return result
+
+    for (prefecture, year), scoped in valid.groupby(
+        ["prefecture", valid["transaction_year"].astype(int)],
+        sort=False,
+    ):
+        cache = _select_tree_cache(tree_cache, prefecture=prefecture, year=int(year))
+        if cache is None:
             continue
-        scoped = points[(points["year"] <= int(year)) & (points["prefecture"] == prefecture)]
-        if scoped.empty:
-            rows.append(_empty_nearest_features())
-            continue
-        property_lat = float(lat)
-        property_lon = float(lon)
-        distances = scoped.apply(
-            lambda point, base_lat=property_lat, base_lon=property_lon: haversine_km(
-                base_lat,
-                base_lon,
-                point["lat"],
-                point["lon"],
-            ),
-            axis=1,
-        ).dropna()
-        if distances.empty:
-            rows.append(_empty_nearest_features())
-            continue
-        nearest_index = distances.idxmin()
-        within_2km = float((distances <= 2.0).sum())
-        nearest = scoped.loc[nearest_index]
-        rows.append(
-            {
-                "nearest_land_price_yen_per_sqm": float(nearest["current_price_yen_per_sqm"]),
-                "nearest_land_price_distance_km": float(distances.loc[nearest_index]),
-                "land_price_points_within_2km": within_2km,
-            }
+        coordinates_rad = np.radians(scoped[["lat", "lon"]].to_numpy(dtype=float))
+        distances_rad, indices = cache["tree"].query(coordinates_rad, k=1)
+        distances_km = distances_rad[:, 0] * 6371.0088
+        nearest_indices = indices[:, 0]
+        within_2km = cache["tree"].query_radius(
+            coordinates_rad,
+            r=2.0 / 6371.0088,
+            count_only=True,
         )
-    return pd.DataFrame(rows, index=property_df.index)
+        result.loc[scoped.index, "nearest_land_price_yen_per_sqm"] = cache["prices"][
+            nearest_indices
+        ]
+        result.loc[scoped.index, "nearest_land_price_distance_km"] = distances_km
+        result.loc[scoped.index, "land_price_points_within_2km"] = within_2km.astype(float)
+
+    return result
+
+
+def _build_land_price_tree_cache(points, ball_tree_class):
+    import numpy as np
+
+    cache = {}
+    for prefecture, prefecture_points in points.groupby("prefecture", sort=False):
+        years = sorted(prefecture_points["year"].dropna().astype(int).unique())
+        prefecture_trees = {}
+        for year in years:
+            scoped = prefecture_points[prefecture_points["year"].astype(int) <= year]
+            if scoped.empty:
+                continue
+            coordinates_rad = np.radians(scoped[["lat", "lon"]].to_numpy(dtype=float))
+            prefecture_trees[year] = {
+                "tree": ball_tree_class(coordinates_rad, metric="haversine"),
+                "prices": scoped["current_price_yen_per_sqm"].to_numpy(dtype=float),
+            }
+        cache[prefecture] = {
+            "years": years,
+            "trees": prefecture_trees,
+        }
+    return cache
+
+
+def _select_tree_cache(tree_cache, *, prefecture: object, year: int):
+    prefecture_cache = tree_cache.get(prefecture)
+    if prefecture_cache is None:
+        return None
+    selected_year = None
+    for candidate_year in prefecture_cache["years"]:
+        if candidate_year <= year:
+            selected_year = candidate_year
+        else:
+            break
+    if selected_year is None:
+        return None
+    return prefecture_cache["trees"].get(selected_year)
 
 
 def haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
@@ -179,15 +229,6 @@ def _weighted_average(df, value_column: str, weight_column: str) -> float:
     return float((values[value_column].astype(float) * weights).sum() / weights.sum())
 
 
-def _is_missing_number(value: object) -> bool:
-    if value is None:
-        return True
-    try:
-        return math.isnan(float(value))
-    except (TypeError, ValueError):
-        return True
-
-
 def _fill_missing_land_price_features(result):
     for feature in LAND_PRICE_FEATURES:
         if feature not in result.columns:
@@ -211,7 +252,3 @@ def _empty_nearest_features() -> dict[str, float]:
         "nearest_land_price_distance_km": 0.0,
         "land_price_points_within_2km": 0.0,
     }
-
-
-def _getattr(row, name: str):
-    return getattr(row, name, None)
