@@ -67,6 +67,12 @@ EDUCATION_TILE_X ?= 7269
 EDUCATION_TILE_Y ?= 3235
 EDUCATION_ADMINISTRATIVE_AREA_CODES ?=
 EDUCATION_REQUEST_INTERVAL_SECONDS ?= 1.0
+MEDICAL_AREA ?= capital
+MEDICAL_ZOOM ?= 13
+MEDICAL_TILE_Z ?= 13
+MEDICAL_TILE_X ?= 7269
+MEDICAL_TILE_Y ?= 3235
+MEDICAL_REQUEST_INTERVAL_SECONDS ?= 1.0
 URBAN_PLANNING_APIS ?= XKT001,XKT002,XKT003
 URBAN_PLANNING_AREA ?= capital
 URBAN_PLANNING_ZOOM ?= 13
@@ -101,7 +107,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-medical-facilities collect-medical-facilities-dry-run collect-medical-facilities-tile collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -154,6 +160,12 @@ help:
 	@echo "                          教育施設取得のリクエスト数を確認"
 	@echo "  make collect-education-facilities-tile"
 	@echo "                          教育施設取得を1タイルで疎通確認"
+	@echo "  make collect-medical-facilities"
+	@echo "                          医療機関データを取得してCSV化"
+	@echo "  make collect-medical-facilities-dry-run"
+	@echo "                          医療機関取得のリクエスト数を確認"
+	@echo "  make collect-medical-facilities-tile"
+	@echo "                          医療機関取得を1タイルで疎通確認"
 	@echo "  make collect-urban-planning"
 	@echo "                          用途地域・都市計画データを取得してCSV化"
 	@echo "  make collect-urban-planning-dry-run"
@@ -356,6 +368,15 @@ collect-education-facilities-dry-run:
 
 collect-education-facilities-tile:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/education_facilities.py --apis "$(EDUCATION_APIS)" --tile $(EDUCATION_TILE_Z) $(EDUCATION_TILE_X) $(EDUCATION_TILE_Y) --administrative-area-codes "$(EDUCATION_ADMINISTRATIVE_AREA_CODES)" --request-interval-seconds $(EDUCATION_REQUEST_INTERVAL_SECONDS) --cache
+
+collect-medical-facilities:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/medical_facilities.py --area $(MEDICAL_AREA) --zoom $(MEDICAL_ZOOM) --request-interval-seconds $(MEDICAL_REQUEST_INTERVAL_SECONDS) --cache
+
+collect-medical-facilities-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/medical_facilities.py --area $(MEDICAL_AREA) --zoom $(MEDICAL_ZOOM) --dry-run
+
+collect-medical-facilities-tile:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/medical_facilities.py --tile $(MEDICAL_TILE_Z) $(MEDICAL_TILE_X) $(MEDICAL_TILE_Y) --request-interval-seconds $(MEDICAL_REQUEST_INTERVAL_SECONDS) --cache
 
 collect-urban-planning:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --area $(URBAN_PLANNING_AREA) --zoom $(URBAN_PLANNING_ZOOM) --request-interval-seconds $(URBAN_PLANNING_REQUEST_INTERVAL_SECONDS) --cache

@@ -35,6 +35,14 @@ make nearby-facilities COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_ope
 
 2026-07-15時点では、Geolonia住所データの町丁目代表点により429件中144件へ代表座標を付与し、`frontend/public/facilities/nearby_facilities.json` へ `commercial_facility` マーカーとして出力した。町丁目代表点のため、施設入口や建物中心点の精密座標ではない。
 
+同日に不動産情報ライブラリ `XKT010` 医療機関APIの1タイル疎通を行い、医療機関210件を `hospital` マーカーとして出力した。首都圏全域取得は `make collect-medical-facilities` で実行できるが、z=13では2,160リクエストになるため、長時間ジョブとして扱う。
+
+```bash
+make collect-medical-facilities-dry-run
+make collect-medical-facilities-tile MEDICAL_REQUEST_INTERVAL_SECONDS=0
+make nearby-facilities NEARBY_FACILITIES_CSV=data/processed/medical/nearby_medical_facilities.csv COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
+```
+
 | column | required | description |
 | --- | --- | --- |
 | `id` | no | 空の場合はカテゴリ、施設名、緯度経度から自動生成する |

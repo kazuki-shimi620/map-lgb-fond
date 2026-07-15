@@ -77,6 +77,9 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
 * [ ] 病院、スーパー、商業施設、公園、コンビニの実データCSVを作成または取得する
   * [x] 周辺施設CSVの入力スキーマ、テンプレート、exporterテストを追加する
   * [x] JCSC商業施設CSVへGeolonia町丁目代表点で代表座標を付与し、429件中144件を `commercial_facility` マーカーとして周辺施設JSONへ出力する
+  * [x] 不動産情報ライブラリ `XKT010` 医療機関APIから病院マーカー用CSVを生成するcollector、dry-run、1タイル疎通ターゲットを追加する
+  * [x] 2026-07-15に `XKT010` 医療機関APIを1タイル実取得し、病院210件を周辺施設JSONへ反映する
+  * [ ] `make collect-medical-facilities` で首都圏4県の医療機関を長時間ジョブとして取得し、病院マーカーを全域反映する
   * [ ] 病院、スーパー、公園、コンビニの公式または再配布条件が明確な実データを取得する
 * [x] 犯罪統計は無料公開CSV/Excelがある自治体だけでfixture検証し、全国統一のモデル特徴量としては急がない
 

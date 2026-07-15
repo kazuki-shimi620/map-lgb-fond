@@ -79,6 +79,15 @@ make summarize-coordinate-coverage
 
 教育施設は `XKT006` と `XKT007` を首都圏4県z=13で取得する。2026-07-15の実取得では23,941施設、CSV 6.2MBだった。教育施設距離・件数はBallTreeとユニーク座標単位で集計し、座標付き検証用Parquetでは685,769件中682,846件・99.57%に教育施設特徴量が入った。中央値は小学校距離0.351km、中学校距離0.525km、1km以内保育系施設11件、1km以内幼稚園3件だった。
 
+医療機関は不動産情報ライブラリ `XKT010` を使う。公式API操作説明では国土数値情報（医療機関）のGeoJSON/PBFタイルとして扱われ、`response_format`、`z`、`x`、`y` を指定し、ズームは `13` から `15` を指定できる。主な属性は施設分類、施設名、所在地、診療科目、病床数、救急告示病院、災害拠点病院である。初期実装では `training/src/collect/medical_facilities.py` で `medical_facilities.csv` と、地図マーカー用の `nearby_medical_facilities.csv` を生成する。
+
+```bash
+make collect-medical-facilities-dry-run
+make collect-medical-facilities-tile MEDICAL_TILE_Z=13 MEDICAL_TILE_X=7269 MEDICAL_TILE_Y=3235
+make collect-medical-facilities
+make nearby-facilities NEARBY_FACILITIES_CSV=data/processed/medical/nearby_medical_facilities.csv COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
+```
+
 ## 取得候補
 
 ### 地価公示・基準地価
