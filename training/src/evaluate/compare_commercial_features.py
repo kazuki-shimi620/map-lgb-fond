@@ -105,7 +105,8 @@ def main() -> int:
     parser.add_argument(
         "--facilities-csv",
         type=Path,
-        default=Path("data/processed/jcsc/jcsc_sc_open.csv"),
+        nargs="+",
+        default=[Path("data/processed/jcsc/jcsc_sc_open.csv")],
     )
     parser.add_argument("--output-dir", type=Path, default=Path("outputs/comparisons"))
     parser.add_argument("--train-start-year", type=int, default=2015)
@@ -128,7 +129,7 @@ def compare_commercial_features(
     *,
     regions: list[str],
     processed_dir: Path,
-    facilities_csv: Path,
+    facilities_csv: list[Path],
     output_dir: Path,
     train_start_year: int,
     test_years: list[int],
@@ -174,7 +175,7 @@ def compare_commercial_features(
         "trainStartYear": train_start_year,
         "testYears": test_years,
         "rowCount": len(data),
-        "facilitiesCsv": str(facilities_csv),
+        "facilitiesCsv": [str(path) for path in facilities_csv],
         "facilityCount": len(facilities),
         "candidates": rows,
     }

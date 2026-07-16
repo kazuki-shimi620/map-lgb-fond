@@ -14,6 +14,10 @@ def test_build_commercial_facility_summary_groups_by_city_and_prefecture() -> No
                 "city": "千代田区",
                 "store_area_sqm": "1200.5",
                 "tenant_count": "12",
+                "lat": "35.681236",
+                "lon": "139.767125",
+                "coordinate_source": "address_point",
+                "coordinate_confidence": "medium",
             },
             {
                 "open_year": "2026",
@@ -42,6 +46,11 @@ def test_build_commercial_facility_summary_groups_by_city_and_prefecture() -> No
 
     assert summary["schemaVersion"] == 1
     assert summary["latestOpenYear"] == 2026
+    assert summary["coverage"]["area"] == "全国"
+    assert summary["coverage"]["facilityCount"] == 3
+    assert summary["coverage"]["coordinateCount"] == 1
+    assert summary["coverage"]["reliableCoordinateCount"] == 1
+    assert summary["coverage"]["storeAreaMissingCount"] == 1
     assert tokyo["scCount"] == 2
     assert tokyo["storeAreaSumSqm"] == 3200.5
     assert tokyo["tenantCountSum"] == 32
@@ -49,3 +58,22 @@ def test_build_commercial_facility_summary_groups_by_city_and_prefecture() -> No
     assert chiyoda["recentOpenings"][1]["name"] == "東京テストSC"
     assert osaka["storeAreaSumSqm"] == 0
     assert osaka["tenantCountSum"] == 0
+
+
+def test_build_commercial_facility_summary_accepts_pdf_municipality_column() -> None:
+    summary = build_commercial_facility_summary(
+        [
+            {
+                "open_year": "2001",
+                "open_month": "10",
+                "name": "PDF由来SC",
+                "prefecture": "北海道",
+                "municipality": "函館市",
+                "store_area_sqm": "15947",
+                "tenant_count": "",
+            }
+        ]
+    )
+
+    assert summary["prefectures"]["北海道"]["scCount"] == 1
+    assert summary["cities"]["北海道|函館市"]["recentOpenings"][0]["name"] == "PDF由来SC"

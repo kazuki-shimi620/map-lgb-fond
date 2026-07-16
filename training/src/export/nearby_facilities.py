@@ -69,7 +69,13 @@ def load_facility_rows(path: Path) -> list[dict[str, Any]]:
     return sorted(rows, key=lambda row: (row["categoryId"], row["prefecture"], row["name"]))
 
 
-def load_commercial_facility_rows(path: Path) -> list[dict[str, Any]]:
+def load_commercial_facility_rows(path: Path | list[Path]) -> list[dict[str, Any]]:
+    if isinstance(path, list):
+        rows: list[dict[str, Any]] = []
+        for item in path:
+            rows.extend(load_commercial_facility_rows(item))
+        return sorted(rows, key=lambda row: (row["prefecture"], row["municipality"], row["name"]))
+
     if not path.exists():
         return []
 
@@ -135,6 +141,8 @@ def normalize_commercial_facility_row(
         return None
     if lat is None and lon is None:
         return None
+    if not has_reliable_coordinate(row):
+        return None
     if not name:
         raise ValueError(f"commercial line {line_number}: name is required")
     if lat is None or lon is None:
@@ -145,7 +153,7 @@ def normalize_commercial_facility_row(
     prefecture = (row.get("prefecture") or "").strip()
     municipality = (row.get("municipality") or row.get("city") or "").strip()
     address = (row.get("address") or "").strip()
-    source = (row.get("source") or "jcsc").strip()
+    source = (row.get("coordinate_source") or row.get("source") or "jcsc").strip()
     updated_at = (row.get("updated_at") or row.get("updatedAt") or "").strip()
     explicit_id = (row.get("id") or "").strip()
     record_id = explicit_id or build_facility_id("commercial_facility", name, lat, lon)
@@ -163,6 +171,16 @@ def normalize_commercial_facility_row(
     }
 
 
+def has_reliable_coordinate(row: dict[str, str]) -> bool:
+    coordinate_source = (row.get("coordinate_source") or "").strip()
+    coordinate_confidence = (row.get("coordinate_confidence") or "").strip()
+    if coordinate_source == "municipality_representative":
+        return False
+    if coordinate_confidence and coordinate_confidence not in {"medium", "high"}:
+        return False
+    return True
+
+
 def build_facility_id(category_id: str, name: str, lat: float, lon: float) -> str:
     safe_name = "".join(char if char.isalnum() else "_" for char in name.lower()).strip("_")
     return f"{category_id}_{safe_name}_{lat:.6f}_{lon:.6f}"
@@ -177,7 +195,7 @@ def parse_float(value: str | None) -> float | None:
 def export_nearby_facilities(
     *,
     input_csv: Path | list[Path],
-    commercial_facilities_csv: Path | None = None,
+    commercial_facilities_csv: Path | list[Path] | None = None,
     output: Path,
     source: str,
     source_label: str,
@@ -241,8 +259,11 @@ def main() -> int:
     parser.add_argument(
         "--commercial-facilities-csv",
         type=Path,
+        nargs="+",
         default=Path("data/processed/jcsc/jcsc_sc_open.csv"),
-        help="Optional commercial facility CSV. Rows with lat/lon are exported as markers.",
+        help=(
+            "Optional commercial facility CSVs. Rows with reliable lat/lon are exported as markers."
+        ),
     )
     parser.add_argument("--source", default="manual_or_processed")
     parser.add_argument("--source-label", default="周辺施設データ")

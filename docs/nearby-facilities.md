@@ -32,30 +32,32 @@ training/data/manual/facilities/nearby_facilities_template.csv
 training/data/processed/facilities/nearby_facilities.csv
 ```
 
-JCSC商業施設CSVに `lat` / `lon` を付与した場合は、`make nearby-facilities` 実行時に `commercial_facility` マーカーとして同じJSONへ取り込む。既定の参照先は次の通り。
+JCSC商業施設CSVに `lat` / `lon` を付与した場合は、`make nearby-facilities` 実行時に `commercial_facility` マーカーとして同じJSONへ取り込む。既定では、2015年以降のJCSCオープンSC CSVと、全国一覧PDF由来の補完CSVを併用する。
 
 ```text
-training/data/processed/jcsc/jcsc_sc_open.csv
+training/data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
+training/data/processed/jcsc_pdf/jcsc_sc_pdf_new_candidates_with_coordinates.csv
 ```
 
-緯度経度がない商業施設行は地図マーカーへ出力しない。
+緯度経度がない商業施設行、市区町村代表点の低信頼仮座標、`coordinate_confidence=low` の行は地図マーカーへ出力しない。市区町村/都道府県単位の集計やモデル比較には、住所未確定のPDF由来行も利用できる。
 
 JCSC商業施設CSVへ町丁目代表点を付与する場合は、次を実行する。
 
 ```bash
 make enrich-commercial-facilities
-make nearby-facilities COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
+make enrich-sc-pdf-candidates
+make nearby-facilities
 ```
 
-2026-07-15時点では、Geolonia住所データの町丁目代表点により429件中144件へ代表座標を付与し、`frontend/public/facilities/nearby_facilities.json` へ `commercial_facility` マーカーとして出力した。町丁目代表点のため、施設入口や建物中心点の精密座標ではない。
+2026-07-16時点では、旧JCSC CSVと全国一覧PDF由来データを統合し、商業施設サマリーは全国3,197件、47都道府県、884市区町村を保持する。座標ありは2,912件だが、このうち市区町村代表点を除いた信頼座標は211件で、`frontend/public/facilities/nearby_facilities.json` へ `commercial_facility` マーカーとして出力した。配信用サマリーJSONには `coverage` として、対象エリア、件数、座標付与率、信頼座標率、面積欠損率を記録する。
 
-同日に不動産情報ライブラリ `XKT010` 医療機関APIの1タイル疎通を行い、医療機関210件を `hospital` マーカーとして出力した。その後、首都圏4県z=13の全域取得を実行し、59,066件の医療機関CSVと、重複排除後59,062件の `hospital` マーカーを `frontend/public/facilities/nearby_facilities.json` へ反映した。周辺施設JSONは病院59,062件、商業施設144件、合計59,206件、24MBである。
+2026-07-15に不動産情報ライブラリ `XKT010` 医療機関APIの1タイル疎通を行い、医療機関210件を `hospital` マーカーとして出力した。その後、首都圏4県z=13の全域取得を実行し、59,066件の医療機関CSVと、重複排除後59,062件の `hospital` マーカーを `frontend/public/facilities/nearby_facilities.json` へ反映した。2026-07-16時点の周辺施設JSONは病院59,062件、商業施設211件、合計59,273件である。
 
 ```bash
 make collect-medical-facilities-dry-run
 make collect-medical-facilities-tile MEDICAL_REQUEST_INTERVAL_SECONDS=0
 make collect-medical-facilities MEDICAL_REQUEST_INTERVAL_SECONDS=0.05
-make nearby-facilities NEARBY_FACILITIES_CSV=data/processed/medical/nearby_medical_facilities.csv COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
+make nearby-facilities NEARBY_FACILITIES_INPUTS=data/processed/medical/nearby_medical_facilities.csv
 ```
 
 スーパー、コンビニ、公園はOpenStreetMapのOverpass APIから取得する。OpenStreetMapデータはOpen Database License (ODbL) として扱う。2026-07-15時点では、スーパー6,345件、コンビニ17,190件、公園27,231件を取得し、病院・商業施設と合わせて合計109,972件、38MBの周辺施設JSONを生成した。表示側では周辺施設パネルにOpenStreetMap contributors (ODbL)への帰属リンクを出し、地図内マーカーは現在の表示範囲内かつ中心に近い最大1,200件へ制限して大量描画を避ける。

@@ -19,10 +19,18 @@ COMMERCIAL_FEATURES = [
 ]
 
 
-def load_commercial_facilities_csv(path: str | Path):
+def load_commercial_facilities_csv(path: str | Path | list[str | Path]):
     import pandas as pd
 
-    facilities = pd.read_csv(path)
+    if isinstance(path, list):
+        frames = [pd.read_csv(item) for item in path if Path(item).exists()]
+        facilities = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+    else:
+        facilities = pd.read_csv(path)
+    if "city" not in facilities.columns and "municipality" in facilities.columns:
+        facilities["city"] = facilities["municipality"]
+    elif "city" in facilities.columns and "municipality" in facilities.columns:
+        facilities["city"] = facilities["city"].fillna(facilities["municipality"])
     numeric_columns = ["open_year", "store_area_sqm", "tenant_count", "lat", "lon"]
     for column in numeric_columns:
         if column in facilities.columns:
@@ -114,6 +122,13 @@ def _add_spatial_features(result, facilities):
         return result
 
     located = facilities.dropna(subset=["lat", "lon", "open_year"]).copy()
+    if "coordinate_source" in located.columns:
+        located = located[located["coordinate_source"] != "municipality_representative"].copy()
+    if "coordinate_confidence" in located.columns:
+        located = located[
+            located["coordinate_confidence"].isna()
+            | located["coordinate_confidence"].isin(["medium", "high"])
+        ].copy()
     if located.empty:
         return result
 

@@ -74,19 +74,54 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
   * [x] 2026-07-15に `XKT006,XKT007` を首都圏4県z=13で取得し、23,941施設・CSV 6.2MBを確認する
   * [x] 教育施設距離計算をBallTreeとユニーク座標単位に高速化し、座標付き検証用Parquetでマッチ率99.57%を確認する
 * [x] 病院、スーパー、商業施設、公園、コンビニの周辺施設データを静的配信用JSONへ生成する
-* [ ] 病院、スーパー、商業施設、公園、コンビニの実データCSVを作成または取得する
+* [x] 病院、スーパー、商業施設、公園、コンビニの実データCSVを作成または取得する
   * [x] 周辺施設CSVの入力スキーマ、テンプレート、exporterテストを追加する
   * [x] JCSC商業施設CSVへGeolonia町丁目代表点で代表座標を付与し、429件中144件を `commercial_facility` マーカーとして周辺施設JSONへ出力する
-  * [ ] JCSCの全国商業施設一覧PDFを追加ソースとして取り込み、既存JCSC CSVの不足分を補完する
-    * [ ] 対象PDF: `https://www.jcsc.or.jp/wpjcsc/wp-content/uploads/2026/05/35212d5b060e16d7f8db21681d51d151.pdf`
-    * [ ] 2026-07-15にPDFを手動ダウンロード済み。生PDFはGit管理せず、作業時は `training/data/raw/jcsc_pdf/` などGit管理外のraw領域へ配置して解析する
-    * [ ] `pdfplumber`、`pypdf`、`PyMuPDF`、Poppler系CLIのいずれかを使えるようにし、PDFテキスト抽出と表抽出の再現手順をMakefileまたはcollectorへ追加する
-    * [ ] PDFからSC名、オープン日、店舗面積/施設面積など、表に含まれる列を抽出する。PDF表解析は時間がかかる前提で、まずサンプル数十件を手動確認する
-    * [ ] 既存の `training/data/processed/jcsc/jcsc_sc_open.csv` とSC名、開業日、都道府県、市区町村、面積で突合し、既存データにない施設・既存より情報が詳しい施設を差分CSVへ分ける
-    * [ ] PDF由来データは住所や緯度経度が不足する可能性が高いため、SC名、都道府県、施設名表記ゆれを使って段階的に所在地を補完する
+  * [x] JCSCの全国商業施設一覧PDFを追加ソースとして取り込み、既存JCSC CSVの不足分を補完する
+    * [x] 対象PDF: `https://www.jcsc.or.jp/wpjcsc/wp-content/uploads/2026/05/35212d5b060e16d7f8db21681d51d151.pdf`
+    * [x] 2026-07-15にPDFを手動ダウンロード済み。生PDFはGit管理せず、作業時は `training/data/raw/jcsc_pdf/` などGit管理外のraw領域へ配置して解析する
+    * [x] `pdfplumber`、`pypdf`、`PyMuPDF`、Poppler系CLIのいずれかを使えるようにし、PDFテキスト抽出と表抽出の再現手順をMakefileまたはcollectorへ追加する
+      * 2026-07-15に `pdfplumber` + `pypdfium2` + macOS Vision OCR (`ocrmac`) を使う `make collect-sc-pdf` を追加した。OCR依存は `training` の `ocr` optional extra に分離する
+    * [x] PDFからSC名、オープン日、店舗面積/施設面積など、表に含まれる列を抽出する。PDF表解析は時間がかかる前提で、まずサンプル数十件を手動確認する
+      * 2026-07-15に全23ページを解析し、2,804件を `training/data/processed/jcsc_pdf/jcsc_sc_pdf_facilities.csv` に抽出した。出力はGit管理外のprocessedデータとして扱う
+      * 市区町村から都道府県を補正し、47都道府県に復元した。補正行1,257件、 municipality欠損324件、面積欠損4件、オープン年月欠損4件はレビュー対象
+      * 2026-07-16にページごとの抽出施設数とOCR結果の「月」文字数を `training/data/processed/jcsc_pdf/jcsc_sc_pdf_page_month_audit.csv` へ出力した。全体は抽出2,804件に対して「月」2,991件で、4/13/16ページは一致、1/2/3/5/6/7/8/9/10/11/12/14/15/17/18/19/20/21/22/23ページは抽出行数が少ない。特に10ページ -53件、19ページ -31件、20ページ -26件を優先して目視確認する
+      * 2026-07-16に「年」文字数も監査へ追加し、欠落が多い10/19/20ページから再確認した。面積だけOCRで落ちる行を補助抽出するようにして、抽出数は2,928件、不足候補は2,748件へ増加した。再監査では「年」基準の最大差分は12ページ -7件、2/18ページ -6件、5/10/11ページ -5件まで縮小した
+      * 2026-07-16に差分3件以上のページだけを追加精査し、左右カラムを別々に行グルーピングするよう修正した。抽出数は2,991件、不足候補は2,797件になり、ページ別の抽出数と「月」文字数は全体一致、差分3件以上のページは0件になった。施設名が空の81件は `training/data/processed/jcsc_pdf/jcsc_sc_pdf_empty_name_review.csv` へ切り出した
+      * 2026-07-16に空名レビューCSVへ `facility_name` 列を追加し、16/17/22ページの66件をPDF目視で補完して `commercial_facility_row_corrections.csv` へ反映した。残る空名レビューは14ページの6件
+      * 2026-07-16にPDF再監査を行い、抽出2,991件と「月」文字数2,991件が全体一致することを再確認した。row correction適用後の空名残件は14ページのみ
+      * [x] 2026-07-16に14ページを除く差分3件未満の小差分ページも `training/data/processed/jcsc_pdf/jcsc_sc_pdf_small_mismatch_empty_review.csv` へ切り出した。対象は1/4/5/10/12/13/20/23ページの17行で、折り返し候補11行、面積欠け候補2行、開業月OCR欠け4行
+      * [x] 2026-07-16に小差分レビュー17件を `commercial_facility_row_corrections.csv` へ反映した。開業月不明の稲毛オーツパーク、下田とうきゅう、フジグラン北宇和島は1月として補完し、いせさきガーデンズは手動入力の12月を反映した
+      * [x] 2026-07-16に反映済み行をレビューCSVから除外した。`jcsc_sc_pdf_small_mismatch_empty_review.csv` はヘッダーのみ、`jcsc_sc_pdf_empty_name_review.csv` は14ページ左カラムの日進市4件のみ残件
+      * [x] 2026-07-16にユーザー補完済みの14ページ左カラム4件を `commercial_facility_row_corrections.csv` へ反映した。`jcsc_sc_pdf_empty_name_review.csv` はヘッダーのみで未完了0件
+    * [x] 既存の `training/data/processed/jcsc/jcsc_sc_open.csv` とSC名、開業日、都道府県、市区町村、面積で突合し、既存データにない施設・既存より情報が詳しい施設を差分CSVへ分ける
+      * 2026-07-15時点ではSC名正規化+都道府県の一次突合で、2,634件を `training/data/processed/jcsc_pdf/jcsc_sc_pdf_new_candidates.csv` に不足候補として出力した。開業日・面積を含む厳密突合は次のレビュー工程で精査する
+    * [x] PDF由来データは住所や緯度経度が不足する可能性が高いため、SC名、都道府県、施設名表記ゆれを使って段階的に所在地を補完する
+      * [x] 2026-07-15にPDF不足候補2,634件へ座標補完導線を追加し、2,627件に市区町村代表点の低信頼仮座標を付与した。確定座標ではないため、地図マーカー公開前にGoogle Map等で確認する
+      * [x] 郡名省略、`ケ/ヶ` 表記差、同一都道府県内の高類似OCR誤読、手動自治体alias、行政区alias、施設名aliasを使って、初期2,099件から528件ぶん仮座標補完を改善した
+      * [x] Google Map検索用URL付きの `coordinate_review_queue.csv` を生成し、`coordinate_missing` 5件、`ocr_name_review` 114件、`low_confidence_municipality_representative` 2,515件に分類した
+      * [x] 2026-07-16に目視確認済み住所7件を `commercial_facility_row_corrections.csv` へ反映し、PDF不足候補2,634件すべてに座標を付与した。住所確認済み7件は町丁目代表点の中信頼、残り2,627件は市区町村代表点の低信頼
+      * [x] 2026-07-16のPDF再抽出後に座標補完を再実行し、不足候補2,748件中2,724件に座標を付与した。内訳は市区町村代表点2,717件、住所一致7件、未補完24件
+      * [x] 2026-07-16の差分3件以上ページの再抽出後に座標補完を再実行し、不足候補2,797件中2,768件に座標を付与した。内訳は市区町村代表点2,761件、住所一致7件、未補完29件
+      * [x] 16/17/22ページの空名補完をrow correctionとして適用し、補完後CSVで店名・都道府県・市区町村が反映されることを確認した
+      * [x] 店名補完済みで住所未確認の66件を `training/data/processed/jcsc_pdf/jcsc_sc_pdf_address_review_queue.csv` に切り出し、公式住所確認用の検索URLを付与した。公式ページで確認できた阪急西宮ガーデンズ、OPSIA misumi、マルヤガーデンズの3件は住所をrow correctionへ反映した
+      * [x] 2026-07-16に住所未確認63件をOSM/Nominatimで照合し、施設名・自治体が合う28件を `commercial_facility_manual_coordinates.csv` へ中信頼候補として反映した。出力CSVでは住所付き38件、manual OSM 28件、住所一致10件になった
+      * [x] 2026-07-16にOSM/Nominatimの表記ゆれ再検索を行い、追加12件を中信頼/低信頼候補として反映した。出力CSVでは住所付き50件、manual OSM 40件、住所一致10件になった
+      * [x] 2026-07-16に公式アクセスページで高槻阪急スクエア、Corowa甲子園の住所を確認し、出力CSVでは住所付き52件になった
+      * [x] 2026-07-16にGoogle Map確認候補として20件の詳細住所を `commercial_facility_row_corrections.csv` へ反映し、出力CSVでは住所付き72件になった
+      * [x] 2026-07-16にユーザー確認済み住所として伊丹ショッピングデパート `兵庫県伊丹市中央1丁目1-1` を反映し、住所未解決キューはヘッダーのみになった。出力CSVでは住所付き73件になった
+      * [x] 2026-07-16に旧JCSC座標付きCSVとPDF由来座標付きCSVを同時に扱えるよう、商業施設サマリー、周辺施設マーカー、商業施設特徴量比較を複数CSV入力へ対応した
     * [ ] 位置情報は一括自動化を急がず、SC名で公式サイト・自治体/商業施設ページ・地図検索を確認し、出典URL、確認日、信頼度を記録する手動補完CSVを用意する
-    * [ ] 住所または緯度経度を補完できた施設だけ `commercial_facility` マーカーへ追加し、補完できない施設はモデル集計用の市区町村/都道府県単位データに留める
-    * [ ] PDF由来データと既存JCSCデータを統合した後、商業施設の対象エリア、件数、座標付与率、面積欠損率をmetadataとドキュメントへ記録する
+      * [x] `training/data/manual/facilities/commercial_facility_manual_coordinates.csv` を追加し、Google Map検索などで確認した住所・緯度経度・出典URL・確認日・信頼度を記録できるようにした
+      * [x] `training/data/manual/facilities/commercial_facility_municipality_aliases.csv` を追加し、PDF OCR由来の明らかな自治体誤読を追跡可能な手動aliasとして補正できるようにした
+      * [x] `training/data/manual/facilities/commercial_facility_row_corrections.csv` を追加し、ページ・カラム・面積・開業年月で特定できるOCR空欄行を目視確認住所で補正できるようにした
+      * [ ] `coordinate_missing` と `ocr_name_review` を優先してGoogle Map検索で確認し、確定したものを手動補完CSVへ追記する
+      * [ ] KIPPY MALL、イオン三好ショッピングセンターなど、PDF上には存在するが現CSVに独立行として抽出されていない施設を追加行として補完する
+    * [x] 住所または緯度経度を補完できた施設だけ `commercial_facility` マーカーへ追加し、補完できない施設はモデル集計用の市区町村/都道府県単位データに留める
+      * [x] 市区町村代表点の低信頼仮座標はマーカー公開に使わず、manual補完または住所一致で信頼度medium以上になった施設だけを周辺施設JSONへ統合する
+      * [x] 2026-07-16に `nearby_facilities.json` を再生成し、商業施設マーカーは旧JCSC住所点176件、PDF由来手動/住所点35件の合計211件になった。低信頼の市区町村代表点2,695件はマーカーから除外した
+    * [x] PDF由来データと既存JCSCデータを統合した後、商業施設の対象エリア、件数、座標付与率、面積欠損率をmetadataとドキュメントへ記録する
+      * [x] 2026-07-16に `commercial_facilities.json` の `coverage` へ全国3,197件、座標あり2,912件、信頼座標211件、面積欠損75件、座標付与率91.09%、信頼座標率6.60%、面積欠損率2.35%を記録した
   * [x] 不動産情報ライブラリ `XKT010` 医療機関APIから病院マーカー用CSVを生成するcollector、dry-run、1タイル疎通ターゲットを追加する
   * [x] 2026-07-15に `XKT010` 医療機関APIを1タイル実取得し、病院210件を周辺施設JSONへ反映する
   * [x] `make collect-medical-facilities` で首都圏4県の医療機関を長時間ジョブとして取得し、59,062件の病院マーカーを全域反映する
@@ -108,6 +143,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
 * [x] 商業施設に緯度経度を付与できるようになったら、最寄SC距離と地図マーカー表示を追加する
   * [x] JCSC商業施設CSVに緯度経度がある場合、周辺施設JSONへ `commercial_facility` マーカーとして取り込む
   * [x] JCSC商業施設CSVに町丁目代表座標を付与し、144件の地図マーカー表示を生成する
+  * [x] 2026-07-16にPDF由来データを追加し、信頼座標medium以上の商業施設211件を地図マーカーへ反映した
   * [x] JCSC商業施設CSVに緯度経度がある場合、取引年以前の最寄SC距離・周辺件数・面積/テナント集計を特徴量化する
   * [x] 2026-07-15に商業施設バックテストを再実行し、緯度経度未付与CSVでは距離系特徴量が基準同等になることを確認する
 * [x] ハザード表示と同じ地図レイヤー操作で、病院、スーパー、商業施設、公園、コンビニなどの周辺施設マーカーを表示できるようにする
@@ -118,6 +154,7 @@ P0/P1を優先する。ONNX再生成、`frontend/public/models`、`frontend/publ
 
 * [ ] 商業施設特徴量をハザード特徴量と組み合わせる比較時に再評価する
   * [x] 2026-07-15に `make compare-external-features` を再実行し、ハザードCSV未作成時は候補スキップ、商業施設+駅規模は駅規模単独より弱いことを確認する
+  * [x] 2026-07-16にPDF由来データ統合後の `make compare-commercial-features` を再実行し、SC件数3,226件で `city_counts_scale_prefecture_trend` がbaseline比MAE -4,541円の小改善、距離系は基準同等であることを確認した
 * [ ] ハザード特徴量は商業施設特徴量の比較後に追加し、精度改善よりもリスク説明力・表示価値も含めて採用判断する
   * [ ] `training/data/processed/hazards/hazard_features.csv` を作成してからハザード候補を再比較する
 * [x] 2015年開始はバックテストでは良いが2025年holdoutで微悪化したため、採用前に複数holdout年で再検証する

@@ -84,6 +84,53 @@ def test_load_commercial_facility_rows_uses_rows_with_coordinates(tmp_path) -> N
     assert rows[0]["source"] == "jcsc_geocoded"
 
 
+def test_load_commercial_facility_rows_skips_low_confidence_coordinates(tmp_path) -> None:
+    input_csv = tmp_path / "jcsc_sc_pdf.csv"
+    input_csv.write_text(
+        "\n".join(
+            [
+                "name,prefecture,municipality,lat,lon,coordinate_source,coordinate_confidence",
+                "住所点SC,東京都,千代田区,35.681236,139.767125,address_point,medium",
+                "代表点SC,東京都,中央区,35.67,139.77,municipality_representative,low",
+                "低信頼SC,東京都,港区,35.66,139.76,manual:osm_nominatim_weak,low",
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    rows = load_commercial_facility_rows(input_csv)
+
+    assert [row["name"] for row in rows] == ["住所点SC"]
+    assert rows[0]["source"] == "address_point"
+
+
+def test_load_commercial_facility_rows_merges_multiple_csvs(tmp_path) -> None:
+    old_csv = tmp_path / "old.csv"
+    old_csv.write_text(
+        "\n".join(
+            [
+                "name,prefecture,city,lat,lon,coordinate_source,coordinate_confidence",
+                "旧SC,東京都,千代田区,35.681236,139.767125,address_point,medium",
+            ]
+        ),
+        encoding="utf-8",
+    )
+    pdf_csv = tmp_path / "pdf.csv"
+    pdf_csv.write_text(
+        "\n".join(
+            [
+                "name,prefecture,municipality,lat,lon,coordinate_source,coordinate_confidence",
+                "PDFSC,大阪府,大阪市,34.702485,135.495951,manual:osm_nominatim,medium",
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    rows = load_commercial_facility_rows([old_csv, pdf_csv])
+
+    assert [row["name"] for row in rows] == ["PDFSC", "旧SC"]
+
+
 def test_export_nearby_facilities_merges_commercial_facility_coordinates(tmp_path) -> None:
     nearby_csv = tmp_path / "nearby_facilities.csv"
     nearby_csv.write_text(

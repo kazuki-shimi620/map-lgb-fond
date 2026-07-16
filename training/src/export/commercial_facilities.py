@@ -10,7 +10,8 @@ from typing import Any
 
 
 def build_commercial_facility_summary(rows: list[dict[str, str]]) -> dict[str, Any]:
-    valid_rows = [row for row in rows if row.get("prefecture") and row.get("city")]
+    valid_rows = [normalize_row(row) for row in rows]
+    valid_rows = [row for row in valid_rows if row.get("prefecture") and row.get("city")]
     generated_at = datetime.now(UTC).isoformat(timespec="seconds")
     latest_year = max((_to_int(row.get("open_year")) or 0 for row in valid_rows), default=None)
     if latest_year == 0:
@@ -27,6 +28,27 @@ def build_commercial_facility_summary(rows: list[dict[str, str]]) -> dict[str, A
         "source": "jcsc",
         "sourceLabel": "日本ショッピングセンター協会 オープンSC一覧表",
         "generatedAt": generated_at,
+        "coverage": {
+            "area": "全国",
+            "facilityCount": len(valid_rows),
+            "coordinateCount": sum(_has_coordinate(row) for row in valid_rows),
+            "reliableCoordinateCount": sum(_has_reliable_coordinate(row) for row in valid_rows),
+            "storeAreaMissingCount": sum(
+                1 for row in valid_rows if _to_float(row.get("store_area_sqm")) is None
+            ),
+            "coordinateRate": _rate(
+                sum(_has_coordinate(row) for row in valid_rows),
+                len(valid_rows),
+            ),
+            "reliableCoordinateRate": _rate(
+                sum(_has_reliable_coordinate(row) for row in valid_rows),
+                len(valid_rows),
+            ),
+            "storeAreaMissingRate": _rate(
+                sum(1 for row in valid_rows if _to_float(row.get("store_area_sqm")) is None),
+                len(valid_rows),
+            ),
+        },
         "latestOpenYear": latest_year,
         "prefectures": {
             prefecture: _summarize_group(group)
@@ -43,9 +65,24 @@ def build_commercial_facility_summary(rows: list[dict[str, str]]) -> dict[str, A
     }
 
 
-def read_jcsc_csv(path: Path) -> list[dict[str, str]]:
+def read_jcsc_csv(path: Path | list[Path]) -> list[dict[str, str]]:
+    if isinstance(path, list):
+        rows: list[dict[str, str]] = []
+        for item in path:
+            rows.extend(read_jcsc_csv(item))
+        return rows
+
+    if not path.exists():
+        return []
     with path.open(encoding="utf-8", newline="") as file:
         return list(csv.DictReader(file))
+
+
+def normalize_row(row: dict[str, str]) -> dict[str, str]:
+    normalized = dict(row)
+    if not normalized.get("city") and normalized.get("municipality"):
+        normalized["city"] = normalized["municipality"]
+    return normalized
 
 
 def write_summary(summary: dict[str, Any], output_path: Path) -> Path:
@@ -111,9 +148,36 @@ def _to_float(value: str | None) -> float | None:
         return None
 
 
+def _has_coordinate(row: dict[str, str]) -> bool:
+    return _to_float(row.get("lat")) is not None and _to_float(row.get("lon")) is not None
+
+
+def _has_reliable_coordinate(row: dict[str, str]) -> bool:
+    if not _has_coordinate(row):
+        return False
+    coordinate_source = (row.get("coordinate_source") or "").strip()
+    coordinate_confidence = (row.get("coordinate_confidence") or "").strip()
+    if coordinate_source == "municipality_representative":
+        return False
+    if coordinate_confidence and coordinate_confidence not in {"medium", "high"}:
+        return False
+    return True
+
+
+def _rate(numerator: int, denominator: int) -> float:
+    if denominator == 0:
+        return 0.0
+    return round(numerator / denominator, 4)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Export lightweight commercial facility summary")
-    parser.add_argument("--input", type=Path, default=Path("data/processed/jcsc/jcsc_sc_open.csv"))
+    parser.add_argument(
+        "--input",
+        type=Path,
+        nargs="+",
+        default=[Path("data/processed/jcsc/jcsc_sc_open.csv")],
+    )
     parser.add_argument(
         "--output",
         type=Path,
