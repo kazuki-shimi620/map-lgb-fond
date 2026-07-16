@@ -60,6 +60,18 @@ NEARBY_FACILITIES_JSON ?= ../$(FRONTEND_DIR)/public/facilities/nearby_facilities
 NEARBY_FACILITIES_TEMPLATE ?= data/manual/facilities/nearby_facilities_template.csv
 COMMERCIAL_FACILITIES_CSV ?= data/processed/jcsc/jcsc_sc_open.csv
 COMMERCIAL_FACILITIES_COORDINATED_CSV ?= data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
+COMMERCIAL_FACILITIES_INPUTS ?= $(COMMERCIAL_FACILITIES_COORDINATED_CSV) $(JCSC_SC_PDF_COORDINATED_CSV)
+COMMERCIAL_FACILITIES_MANUAL_COORDINATES_CSV ?= data/manual/facilities/commercial_facility_manual_coordinates.csv
+COMMERCIAL_FACILITIES_MUNICIPALITY_ALIASES_CSV ?= data/manual/facilities/commercial_facility_municipality_aliases.csv
+COMMERCIAL_FACILITIES_ROW_CORRECTIONS_CSV ?= data/manual/facilities/commercial_facility_row_corrections.csv
+JCSC_SC_PDF ?=
+JCSC_SC_PDF_OUTPUT_DIR ?= data/processed/jcsc_pdf
+JCSC_SC_PDF_PAGE_LIMIT ?=
+JCSC_SC_EXISTING_CSV ?= data/processed/jcsc/jcsc_sc_open.csv
+JCSC_SC_MUNICIPALITY_PREFECTURE_CSV ?= data/processed/address_points/town_points.csv
+JCSC_SC_PDF_CANDIDATES_CSV ?= data/processed/jcsc_pdf/jcsc_sc_pdf_new_candidates.csv
+JCSC_SC_PDF_COORDINATED_CSV ?= data/processed/jcsc_pdf/jcsc_sc_pdf_new_candidates_with_coordinates.csv
+JCSC_SC_PDF_FACILITIES_CSV ?= data/processed/jcsc_pdf/jcsc_sc_pdf_facilities.csv
 EDUCATION_APIS ?= XKT004,XKT005,XKT006,XKT007
 EDUCATION_AREA ?= capital
 EDUCATION_ZOOM ?= 13
@@ -111,14 +123,16 @@ UV := $(shell command -v uv 2>/dev/null)
 
 ifeq ($(UV),)
 TRAINING_PYTHON := .venv/bin/python
+TRAINING_OCR_PYTHON := .venv/bin/python
 else
 TRAINING_PYTHON := $(UV) run python
+TRAINING_OCR_PYTHON := $(UV) run --extra ocr python
 endif
 
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-medical-facilities collect-medical-facilities-dry-run collect-medical-facilities-tile collect-osm-nearby-facilities collect-osm-nearby-facilities-dry-run collect-osm-park-areas collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-sc-pdf audit-sc-pdf-months collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-medical-facilities collect-medical-facilities-dry-run collect-medical-facilities-tile collect-osm-nearby-facilities collect-osm-nearby-facilities-dry-run collect-osm-park-areas collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities enrich-sc-pdf-candidates commercial-facility-manual-template train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -325,6 +339,20 @@ collect-sc:
 collect-sc-all:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/jcsc_sc_open.py --from-year $(SC_FROM_YEAR) --to-year $(SC_TO_YEAR) --cache
 
+collect-sc-pdf:
+	@if [ -z "$(JCSC_SC_PDF)" ]; then \
+		echo "JCSC_SC_PDF is required"; \
+		exit 1; \
+	fi
+	cd $(TRAINING_DIR) && $(TRAINING_OCR_PYTHON) src/collect/jcsc_sc_pdf.py --pdf "$(JCSC_SC_PDF)" --output-dir "$(JCSC_SC_PDF_OUTPUT_DIR)" --existing-csv "$(JCSC_SC_EXISTING_CSV)" --municipality-prefecture-csv "$(JCSC_SC_MUNICIPALITY_PREFECTURE_CSV)" $(if $(strip $(JCSC_SC_PDF_PAGE_LIMIT)),--page-limit $(JCSC_SC_PDF_PAGE_LIMIT),)
+
+audit-sc-pdf-months:
+	@if [ -z "$(JCSC_SC_PDF)" ]; then \
+		echo "JCSC_SC_PDF is required"; \
+		exit 1; \
+	fi
+	cd $(TRAINING_DIR) && $(TRAINING_OCR_PYTHON) src/collect/jcsc_sc_pdf.py --audit-month-counts --pdf "$(JCSC_SC_PDF)" --output-dir "$(JCSC_SC_PDF_OUTPUT_DIR)" --facilities-csv "$(JCSC_SC_PDF_FACILITIES_CSV)" $(if $(strip $(JCSC_SC_PDF_PAGE_LIMIT)),--page-limit $(JCSC_SC_PDF_PAGE_LIMIT),)
+
 collect-station-passengers:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area $(PASSENGER_AREA) --zoom $(PASSENGER_ZOOM) --request-interval-seconds $(PASSENGER_REQUEST_INTERVAL_SECONDS) --cache
 
@@ -466,7 +494,13 @@ enrich-coordinates:
 	fi
 
 enrich-commercial-facilities:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/enrich_commercial_facilities.py --input-csv "$(COMMERCIAL_FACILITIES_CSV)" --address-points-csv "$(ADDRESS_POINTS_CSV)" --output-csv "$(COMMERCIAL_FACILITIES_COORDINATED_CSV)"
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/enrich_commercial_facilities.py --input-csv "$(COMMERCIAL_FACILITIES_CSV)" --address-points-csv "$(ADDRESS_POINTS_CSV)" --output-csv "$(COMMERCIAL_FACILITIES_COORDINATED_CSV)" --manual-coordinates-csv "$(COMMERCIAL_FACILITIES_MANUAL_COORDINATES_CSV)" --municipality-aliases-csv "$(COMMERCIAL_FACILITIES_MUNICIPALITY_ALIASES_CSV)" --row-corrections-csv "$(COMMERCIAL_FACILITIES_ROW_CORRECTIONS_CSV)"
+
+enrich-sc-pdf-candidates:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/enrich_commercial_facilities.py --input-csv "$(JCSC_SC_PDF_CANDIDATES_CSV)" --address-points-csv "$(ADDRESS_POINTS_CSV)" --output-csv "$(JCSC_SC_PDF_COORDINATED_CSV)" --manual-coordinates-csv "$(COMMERCIAL_FACILITIES_MANUAL_COORDINATES_CSV)" --municipality-aliases-csv "$(COMMERCIAL_FACILITIES_MUNICIPALITY_ALIASES_CSV)" --row-corrections-csv "$(COMMERCIAL_FACILITIES_ROW_CORRECTIONS_CSV)" --allow-municipality-fallback
+
+commercial-facility-manual-template:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/enrich_commercial_facilities.py --write-manual-template "$(COMMERCIAL_FACILITIES_MANUAL_COORDINATES_CSV)"
 
 train:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/train/train.py --config configs/$(REGION).yaml --db-path $(DB_PATH) --export-onnx --publish-policy $(PUBLISH_POLICY)
@@ -530,7 +564,7 @@ compare-national-models:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_national_models.py
 
 compare-commercial-features:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_commercial_features.py
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_commercial_features.py --facilities-csv $(COMMERCIAL_FACILITIES_INPUTS)
 
 compare-station-passenger-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_station_passenger_features.py
@@ -591,7 +625,7 @@ histories-national:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.histories --public-dir ../$(FRONTEND_DIR)/public
 
 facilities:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.commercial_facilities --output ../$(FRONTEND_DIR)/public/facilities/commercial_facilities.json
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.commercial_facilities --input $(COMMERCIAL_FACILITIES_INPUTS) --output ../$(FRONTEND_DIR)/public/facilities/commercial_facilities.json
 
 land-prices:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.land_prices --input "$(LAND_PRICE_CITY_SUMMARY_CSV)" --output "$(LAND_PRICE_PUBLIC_JSON)"
@@ -600,7 +634,7 @@ urban-planning:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.urban_planning --input "$(URBAN_PLANNING_CSV)" --output "$(URBAN_PLANNING_PUBLIC_JSON)"
 
 nearby-facilities:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --input-csv $(NEARBY_FACILITIES_INPUTS) --commercial-facilities-csv "$(COMMERCIAL_FACILITIES_CSV)" --output "$(NEARBY_FACILITIES_JSON)"
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --input-csv $(NEARBY_FACILITIES_INPUTS) --commercial-facilities-csv $(COMMERCIAL_FACILITIES_INPUTS) --output "$(NEARBY_FACILITIES_JSON)"
 
 nearby-facilities-template:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --write-template "$(NEARBY_FACILITIES_TEMPLATE)"

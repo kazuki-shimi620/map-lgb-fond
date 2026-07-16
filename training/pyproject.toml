@@ -10,10 +10,16 @@ dependencies = [
   "onnxmltools>=1.12.0",
   "optuna>=4.0.0",
   "pandas>=2.2.0",
+  "pdfplumber>=0.11.10",
   "pyarrow>=18.0.0",
   "pyyaml>=6.0.2",
   "scikit-learn>=1.5.0",
-  "skl2onnx>=1.17.0"
+  "skl2onnx>=1.17.0",
+]
+
+[project.optional-dependencies]
+ocr = [
+    "ocrmac>=1.0.1",
 ]
 
 [dependency-groups]

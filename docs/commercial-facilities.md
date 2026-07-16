@@ -22,6 +22,12 @@
 https://www.jcsc.or.jp/sc_data/sc_open/sc_list
 ```
 
+全国一覧PDFを追加ソースとして扱う場合は、次のPDFを `training/data/raw` などGit管理外の領域へ置き、`make collect-sc-pdf` で抽出する。
+
+```text
+https://www.jcsc.or.jp/wpjcsc/wp-content/uploads/2026/05/35212d5b060e16d7f8db21681d51d151.pdf
+```
+
 ## 取得単位
 
 年単位で取得する。
@@ -115,6 +121,8 @@ frontend/public/facilities/commercial_facilities.json
 ```
 
 このJSONは市区町村/都道府県単位の集計だけを保持し、JCSCのraw HTMLや年別CSVはブラウザへ配布しない。
+
+2026-07-16時点では、JCSCオープンSC CSVと全国一覧PDF由来の補完CSVを統合し、全国3,197件、47都道府県、884市区町村を配信用JSONへ出力した。`coverage` には座標あり2,912件、信頼座標211件、面積欠損75件、座標付与率91.09%、信頼座標率6.60%、面積欠損率2.35%を記録する。
 
 ---
 

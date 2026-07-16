@@ -1,0 +1,144 @@
+source_prefecture,source_municipality,source_district,source_name,corrected_prefecture,corrected_municipality,notes
+北海道,音史町,,,北海道,河東郡音更町,PDF OCR typo for 音更町
+京都府,加 古川市,,,兵庫県,加古川市,PDF OCR spacing and carried prefecture
+石川県,目士河口湖町,,,山梨県,南都留郡富士河口湖町,PDF OCR typo for 富士河口湖町
+岐阜県,営士宮市,,,静岡県,富士宮市,PDF OCR typo for 富士宮市
+三重県,烏羽市,,,三重県,鳥羽市,PDF OCR typo for 鳥羽市
+岩手県,塩遯市,,,宮城県,塩竈市,PDF OCR typo for 塩竈市 and carried prefecture
+茨城県,天堂市,,,山形県,天童市,PDF OCR typo for 天童市 and carried prefecture
+栃木県,鴻栄市,,,埼玉県,鴻巣市,PDF OCR typo for 鴻巣市 and carried prefecture
+三重県,常道市,,,愛知県,常滑市,PDF OCR typo for 常滑市 and carried prefecture
+岐阜県,街殿場市,,,静岡県,御殿場市,PDF OCR typo for 御殿場市
+栃木県,,北区,,埼玉県,さいたま市北区,PDF carried prefecture for Saitama ward
+栃木県,,大宮区,,埼玉県,さいたま市大宮区,PDF carried prefecture for Saitama ward
+栃木県,,見沼区,,埼玉県,さいたま市見沼区,PDF carried prefecture for Saitama ward
+栃木県,,中央区,,埼玉県,さいたま市中央区,PDF carried prefecture for Saitama ward
+栃木県,,浦和区,,埼玉県,さいたま市浦和区,PDF carried prefecture for Saitama ward
+栃木県,,南区,,埼玉県,さいたま市南区,PDF carried prefecture for Saitama ward
+栃木県,,緑区,,埼玉県,さいたま市緑区,PDF carried prefecture for Saitama ward
+栃木県,,岩槻区,,埼玉県,さいたま市岩槻区,PDF carried prefecture for Saitama ward
+京都府,,住之江区,,大阪府,大阪市住之江区,PDF carried prefecture for Osaka ward
+京都府,,城東区,,大阪府,大阪市城東区,PDF carried prefecture for Osaka ward
+京都府,,阿倍野区,,大阪府,大阪市阿倍野区,PDF carried prefecture for Osaka ward
+京都府,,港区,,大阪府,大阪市港区,PDF carried prefecture for Osaka ward
+京都府,,浪速区,,大阪府,大阪市浪速区,PDF carried prefecture for Osaka ward
+京都府,,天王寺区,,大阪府,大阪市天王寺区,PDF carried prefecture for Osaka ward
+京都府,,東淀川区,,大阪府,大阪市東淀川区,PDF carried prefecture for Osaka ward
+京都府,,福烏区,,大阪府,大阪市福島区,PDF OCR typo for 福島区 and carried prefecture
+京都府,,平野区,,大阪府,大阪市平野区,PDF carried prefecture for Osaka ward
+京都府,,西淀川区,,大阪府,大阪市西淀川区,PDF carried prefecture for Osaka ward
+京都府,,西区,,大阪府,大阪市西区,PDF carried prefecture for Osaka ward
+京都府,,鷭見区,,大阪府,大阪市鶴見区,PDF OCR typo for 鶴見区 and carried prefecture
+京都府,,此花区,,大阪府,大阪市此花区,PDF carried prefecture for Osaka ward
+京都府,,淀川区,,大阪府,大阪市淀川区,PDF carried prefecture for Osaka ward
+京都府,,北区,,大阪府,大阪市北区,PDF carried prefecture for Osaka ward
+京都府,,大正区,,大阪府,大阪市大正区,PDF carried prefecture for Osaka ward
+佐賀県,,西区,,福岡県,福岡市西区,PDF carried prefecture for Fukuoka ward
+佐賀県,,南区,,福岡県,福岡市南区,PDF carried prefecture for Fukuoka ward
+山口県,,南区,,広島県,広島市南区,PDF carried prefecture for Hiroshima ward
+山口県,,安佐南区,,広島県,広島市安佐南区,PDF carried prefecture for Hiroshima ward
+山口県,,安佐北区,,広島県,広島市安佐北区,PDF carried prefecture for Hiroshima ward
+山口県,,佐伯区,,広島県,広島市佐伯区,PDF carried prefecture for Hiroshima ward
+山口県,,西区,,広島県,広島市西区,PDF carried prefecture for Hiroshima ward
+山口県,,東区,,広島県,広島市東区,PDF carried prefecture for Hiroshima ward
+宮崎県,,西区,,熊本県,熊本市西区,PDF carried prefecture for Kumamoto ward
+宮崎県,,東区,,熊本県,熊本市東区,PDF carried prefecture for Kumamoto ward
+福岡県,,八幅西区,,福岡県,北九州市八幡西区,PDF OCR typo for 八幡西区
+岐阜県,,浜名区,,静岡県,浜松市浜名区,PDF carried prefecture for Hamamatsu ward
+京都府,=中市,,,大阪府,豊中市,PDF OCR typo for 豊中市 and carried prefecture
+京都府,家南市,,,大阪府,泉南市,PDF OCR typo for 泉南市 and carried prefecture
+京都府,終井寺市,,,大阪府,藤井寺市,PDF OCR typo for 藤井寺市 and carried prefecture
+富山県,敦鷲市,,,福井県,敦賀市,PDF OCR typo for 敦賀市 and carried prefecture
+岐阜県,総田市,,,静岡県,磐田市,PDF OCR typo for 磐田市
+岐阜県,清水町,,,静岡県,駿東郡清水町,PDF carried prefecture for 清水町
+三重県,全山市,,,三重県,亀山市,PDF OCR typo for 亀山市
+山口県,松前町,,,愛媛県,伊予郡松前町,PDF carried prefecture for 松前町
+島根県,湖田市,,,島根県,浜田市,PDF OCR typo for 浜田市
+茨城県,鹿崎市,,,茨城県,鹿嶋市,PDF OCR typo for 鹿嶋市
+茨城県,森岡市,,,群馬県,藤岡市,PDF OCR typo for 藤岡市 and carried prefecture
+茨城県,吉町町,,,群馬県,北群馬郡吉岡町,PDF OCR typo for 吉岡町 and carried prefecture
+栃木県,三ン市,,,埼玉県,三郷市,PDF OCR typo for 三郷市 and carried prefecture
+栃木県,逆田市,,,埼玉県,蓮田市,PDF OCR typo for 蓮田市 and carried prefecture
+愛知県,衘群町,,,愛知県,海部郡蟹江町,PDF OCR typo for 蟹江町
+鳥取県,芩浦町,,,鳥取県,東伯郡琴浦町,PDF OCR typo for 琴浦町
+鹿児島県,落島町,,,熊本県,上益城郡嘉島町,PDF OCR typo for 嘉島町 and carried prefecture
+沖縄県,時後高田市,,,大分県,豊後高田市,PDF OCR typo for 豊後高田市 and carried prefecture
+沖縄県,沖綢市,,,沖縄県,沖縄市,PDF OCR typo for 沖縄市
+北海道,,,函館昭和タウンプラザ,北海道,函館市,Facility-name alias for municipality-missing OCR row
+北海道,,,ボールスターショッピングセンター,北海道,函館市,Facility-name alias for municipality-missing OCR row
+北海道,,,フレスポ函館戸蔵,北海道,函館市,Facility-name alias for municipality-missing OCR row
+北海道,,,ウイングベイ小樽,北海道,小樽市,Facility-name alias for municipality-missing OCR row
+宮城県,,,ラビナ、&LOVINA,青森県,青森市,Facility-name alias and carried prefecture
+宮城県,,,CiiNA CiiNA青森(シーナシーナ森),青森県,青森市,Facility-name alias and carried prefecture
+宮城県,,,フェスティバルシティ・アウガ,青森県,青森市,Facility-name alias and carried prefecture
+宮城県,,,ラ・セラ東バイバスSC(ユニバース東バイバス店),青森県,青森市,Facility-name alias and carried prefecture
+宮城県,,,ガーラタウン,青森県,青森市,Facility-name alias and carried prefecture
+宮城県,,,ドリームタウンALi(ドリームタウンアリー),青森県,青森市,Facility-name alias and carried prefecture
+宮城県,,,イオンタウン青森浜田,青森県,青森市,Facility-name alias and carried prefecture
+宮城県,,,THREE,青森県,青森市,Facility-name alias and carried prefecture
+東京都,,,イオンタウン成田富里,千葉県,成田市,Facility-name alias and carried prefecture
+東京都,,坦島区,池袋ショッピングパーク,東京都,豊島区,Facility-name alias for OCR typo
+東京都,,坦島区,池袋東武ホープセンター,東京都,豊島区,Facility-name alias for OCR typo
+東京都,,坦島区,池袋PARCO,東京都,豊島区,Facility-name alias for OCR typo
+東京都,,坦島区,サンシャインシティ(アルパ・ALTA(アルタ)),東京都,豊島区,Facility-name alias for OCR typo
+東京都,,坦島区,立川パークアベニュー,東京都,立川市,Facility-name alias for OCR typo
+東京都,,坦島区,若葉ケヤキモール,東京都,立川市,Facility-name alias for OCR typo
+東京都,,坦島区,エキュート立川,東京都,立川市,Facility-name alias for OCR typo
+東京都,,坦島区,三井ショッピングバーク ららぽーと立川立飛,東京都,立川市,Facility-name alias for OCR typo
+東京都,,坦島区,MEGAドン・キホーテ立川店,東京都,立川市,Facility-name alias for OCR typo
+東京都,,坦島区,立川商島屋S.C.,東京都,立川市,Facility-name alias for OCR typo
+新潟県,,,bono相模大野(ボーノ相模大野),神奈川県,相模原市南区,Facility-name alias and carried prefecture
+新潟県,,,ニトリモール相模原,神奈川県,相模原市南区,Facility-name alias and carried prefecture
+新潟県,,,minanoba相模原(ミナノバ相模原),神奈川県,相模原市中央区,Facility-name alias and carried prefecture
+石川県,,,ビバモール甲斐敷島,山梨県,甲斐市,Facility-name alias and carried prefecture
+岐阜県,,,ザザシティ ハママツ,静岡県,浜松市中央区,Facility-name alias and carried prefecture
+岐阜県,,,浜松プラザ,静岡県,浜松市中央区,Facility-name alias and carried prefecture
+岐阜県,,,イオン浜松西店,静岡県,浜松市中央区,Facility-name alias and carried prefecture
+岐阜県,,,イオンタウン浜松葵,静岡県,浜松市中央区,Facility-name alias and carried prefecture
+岐阜県,,,イオンモール浜松志都呂,静岡県,浜松市中央区,Facility-name alias and carried prefecture
+岐阜県,,,イオンモール浜松市野,静岡県,浜松市中央区,Facility-name alias and carried prefecture
+岐阜県,,,イオンタウン浜松新橋,静岡県,浜松市中央区,Facility-name alias and carried prefecture
+岐阜県,,,遠鉄ショッピングタウン リブロス笠井,静岡県,浜松市中央区,Facility-name alias and carried prefecture
+三重県,,,ヴェルサウォーク西尾,愛知県,西尾市,Facility-name alias and carried prefecture
+三重県,,,グラッチェタウン西尾,愛知県,西尾市,Facility-name alias and carried prefecture
+滋賀県,,,アピタ長久手店,愛知県,長久手市,Facility-name alias and carried prefecture
+京都府,,,コムズガーデン,大阪府,大阪市都島区,Facility-name alias and carried prefecture
+京都府,,,ベルファ部島ショッピングセンター,大阪府,大阪市都島区,Facility-name alias and carried prefecture
+京都府,,,関西スーパー内代店,大阪府,大阪市都島区,Facility-name alias and carried prefecture
+和歌山県,,,イオンタウン東加古川,兵庫県,加古川市,Facility-name alias and carried prefecture
+岡山県,,,イオンモール大和郡山,奈良県,大和郡山市,Facility-name alias and carried prefecture
+島根県,,,イオンモール猪名川,兵庫県,川辺郡猪名川町,Facility-name alias and carried prefecture
+山口県,,,シャレオ,広島県,広島市中区,Facility-name alias and carried prefecture
+高知県,,,イオンモール徳島,徳島県,徳島市,Facility-name alias and carried prefecture
+高知県,,,ショッピングプラザ タクト,徳島県,徳島市,Facility-name alias and carried prefecture
+高知県,,,マルナカ徳島店,徳島県,徳島市,Facility-name alias and carried prefecture
+佐賀県,,,BiVi福岡(ビビ福岡),福岡県,福岡市中央区,Facility-name alias and carried prefecture
+佐賀県,,,VIORO (ヴィオロ),福岡県,福岡市中央区,Facility-name alias and carried prefecture
+佐賀県,,,福岡PARCO,福岡県,福岡市中央区,Facility-name alias and carried prefecture
+佐賀県,,,福岡三越、ラシック福岡天神,福岡県,福岡市中央区,Facility-name alias and carried prefecture
+佐賀県,,,六本松421,福岡県,福岡市中央区,Facility-name alias and carried prefecture
+佐賀県,,,MARK IS 福岡ももち,福岡県,福岡市中央区,Facility-name alias and carried prefecture
+佐賀県,,,カイタックスクエアガーデン キテラタウン福岡長浜,福岡県,福岡市中央区,Facility-name alias and carried prefecture
+佐賀県,,,ONE FUKUOKA BLDG.(ワン・フクオカ・ビルディング),福岡県,福岡市中央区,Facility-name alias and carried prefecture
+長崎県,,,イオン原店,福岡県,福岡市早良区,Facility-name alias and carried prefecture
+熊本県,,,(ハイパーモールメルクス宇佐),大分県,宇佐市,Facility-name alias and carried prefecture
+宮崎県,,,COCOSA (ココサ),熊本県,熊本市中央区,Facility-name alias and carried prefecture
+宮崎県,,,SAKURA MACHI Kumamoto,熊本県,熊本市中央区,Facility-name alias and carried prefecture
+宮崎県,,,HAB@熊本,熊本県,熊本市中央区,Facility-name alias and carried prefecture
+鹿児島県,,,イオンタウン荒尾,熊本県,荒尾市,Facility-name alias and carried prefecture
+沖縄県,,,パークプレイス大分,大分県,大分市,Facility-name alias and carried prefecture
+沖縄県,,,フリーモールサンリブわさだ店,大分県,大分市,Facility-name alias and carried prefecture
+沖縄県,,,フレスポ春日浦,大分県,大分市,Facility-name alias and carried prefecture
+沖縄県,,,コムボックス大分,大分県,大分市,Facility-name alias and carried prefecture
+沖縄県,,,アクロスプラザ森町,大分県,大分市,Facility-name alias and carried prefecture
+沖縄県,,,アミュプラザおおいた,大分県,大分市,Facility-name alias and carried prefecture
+沖縄県,,,KCA・アクロスプラザ大分駅南,大分県,大分市,Facility-name alias and carried prefecture
+沖縄県,,,大分オーパ,大分県,大分市,Facility-name alias and carried prefecture
+沖縄県,,,イオン那覇ショッピングセンター,沖縄県,那覇市,Facility-name alias
+沖縄県,,,サンエー那覇メインプレイス,沖縄県,那覇市,Facility-name alias
+沖縄県,,,天久りうぼう楽市,沖縄県,那覇市,Facility-name alias
+沖縄県,,,CARGOES (カーゴス),沖縄県,那覇市,Facility-name alias
+沖縄県,,,ドン・キホーテ田際通り店,沖縄県,那覇市,PDF OCR typo for 国際通り店
+沖縄県,,,バレットくもじ,沖縄県,那覇市,PDF OCR typo for パレットくもじ
+沖縄県,,,コーブあっぷるタウン,沖縄県,那覇市,PDF OCR typo for コープあっぷるタウン
+山梨県,,,あさひショッピングセンターアスカ,富山県,下新川郡朝日町,Facility-name alias and carried prefecture
