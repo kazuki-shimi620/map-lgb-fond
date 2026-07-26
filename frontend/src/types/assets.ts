@@ -128,6 +128,16 @@ export type CommercialFacilitySummary = {
   source: string;
   sourceLabel: string;
   generatedAt: string;
+  coverage?: {
+    area: string;
+    facilityCount: number;
+    coordinateCount: number;
+    reliableCoordinateCount: number;
+    storeAreaMissingCount: number;
+    coordinateRate: number;
+    reliableCoordinateRate: number;
+    storeAreaMissingRate: number;
+  };
   latestOpenYear: number | null;
   prefectures: Record<string, CommercialFacilityAreaSummary>;
   cities: Record<string, CommercialFacilityAreaSummary>;

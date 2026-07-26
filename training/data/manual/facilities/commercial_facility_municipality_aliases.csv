@@ -33,6 +33,7 @@ source_prefecture,source_municipality,source_district,source_name,corrected_pref
 京都府,,淀川区,,大阪府,大阪市淀川区,PDF carried prefecture for Osaka ward
 京都府,,北区,,大阪府,大阪市北区,PDF carried prefecture for Osaka ward
 京都府,,大正区,,大阪府,大阪市大正区,PDF carried prefecture for Osaka ward
+京都府,,北区,イオンモール北大路,京都府,京都市北区,Facility-name alias overrides generic Osaka 北区 alias
 佐賀県,,西区,,福岡県,福岡市西区,PDF carried prefecture for Fukuoka ward
 佐賀県,,南区,,福岡県,福岡市南区,PDF carried prefecture for Fukuoka ward
 山口県,,南区,,広島県,広島市南区,PDF carried prefecture for Hiroshima ward

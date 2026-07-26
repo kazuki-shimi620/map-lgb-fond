@@ -123,6 +123,72 @@ def test_enrich_commercial_facility_coordinates_prefers_manual_coordinates() -> 
     assert enriched.loc[0, "lon"] == 139.761
 
 
+def test_enrich_commercial_facility_coordinates_matches_unique_manual_name() -> None:
+    commercial = pd.DataFrame(
+        [
+            {
+                "name": "県ずれ手動SC",
+                "prefecture": "北海道",
+                "municipality": "紫波町",
+            }
+        ]
+    )
+    manual = pd.DataFrame(
+        [
+            {
+                "name": "県ずれ手動SC",
+                "prefecture": "岩手県",
+                "municipality": "紫波町",
+                "address": "岩手県紫波郡紫波町日詰",
+                "lat": 39.55,
+                "lon": 141.14,
+                "source_url": "https://example.com",
+                "source_type": "osm_nominatim_low_confidence_batch",
+                "confidence": "medium",
+                "notes": "県推定後の手動座標",
+            }
+        ]
+    )
+
+    enriched = enrich_commercial_facility_coordinates(
+        commercial,
+        pd.DataFrame(),
+        manual,
+    )
+
+    assert enriched.loc[0, "coordinate_source"] == "manual:osm_nominatim_low_confidence_batch"
+    assert enriched.loc[0, "coordinate_confidence"] == "medium"
+    assert enriched.loc[0, "lat"] == 39.55
+    assert enriched.loc[0, "address"] == "岩手県紫波郡紫波町日詰"
+
+
+def test_enrich_commercial_facility_coordinates_ignores_duplicate_manual_name() -> None:
+    commercial = pd.DataFrame(
+        [
+            {
+                "name": "同名SC",
+                "prefecture": "北海道",
+                "municipality": "紫波町",
+            }
+        ]
+    )
+    manual = pd.DataFrame(
+        [
+            {"name": "同名SC", "prefecture": "岩手県", "lat": 39.55, "lon": 141.14},
+            {"name": "同名SC", "prefecture": "宮城県", "lat": 38.33, "lon": 140.98},
+        ]
+    )
+
+    enriched = enrich_commercial_facility_coordinates(
+        commercial,
+        pd.DataFrame(),
+        manual,
+    )
+
+    assert enriched.loc[0, "coordinate_source"] == "none"
+    assert pd.isna(enriched.loc[0, "lat"])
+
+
 def test_enrich_commercial_facility_coordinates_uses_municipality_fallback() -> None:
     commercial = pd.DataFrame(
         [
@@ -161,6 +227,96 @@ def test_enrich_commercial_facility_coordinates_uses_municipality_fallback() -> 
     assert enriched.loc[0, "coordinate_source"] == "municipality_representative"
     assert enriched.loc[0, "coordinate_confidence"] == "low"
     assert enriched.loc[0, "lat"] == (35.681 + 35.674) / 2
+
+
+def test_enrich_commercial_facility_coordinates_skips_unresolved_fallback() -> None:
+    commercial = pd.DataFrame(
+        [
+            {
+                "name": "未解決SC",
+                "prefecture": "東京都",
+                "municipality": "千代田区",
+            }
+        ]
+    )
+    address_points = pd.DataFrame(
+        [
+            {
+                "prefecture": "東京都",
+                "municipality": "千代田区",
+                "district_name": "丸の内一丁目",
+                "lat": 35.681,
+                "lon": 139.761,
+            }
+        ]
+    )
+    unresolved = pd.DataFrame(
+        [
+            {
+                "name": "未解決SC",
+                "prefecture": "東京都",
+                "municipality": "千代田区",
+                "candidate_status": "unresolved",
+            }
+        ]
+    )
+
+    enriched = enrich_commercial_facility_coordinates(
+        commercial,
+        address_points,
+        coordinate_unresolved_df=unresolved,
+        allow_municipality_fallback=True,
+    )
+
+    assert enriched.loc[0, "coordinate_source"] == "none"
+    assert enriched.loc[0, "coordinate_confidence"] == ""
+    assert pd.isna(enriched.loc[0, "lat"])
+    assert enriched.loc[0, "coordinate_notes"] == "coordinate_unresolved_review"
+
+
+def test_enrich_commercial_facility_coordinates_skips_unresolved_fallback_by_name() -> None:
+    commercial = pd.DataFrame(
+        [
+            {
+                "name": "県ずれ未解決SC",
+                "prefecture": "北海道",
+                "municipality": "紫波町",
+            }
+        ]
+    )
+    address_points = pd.DataFrame(
+        [
+            {
+                "prefecture": "岩手県",
+                "municipality": "紫波町",
+                "district_name": "日詰",
+                "lat": 39.55,
+                "lon": 141.14,
+            }
+        ]
+    )
+    unresolved = pd.DataFrame(
+        [
+            {
+                "name": "県ずれ未解決SC",
+                "prefecture": "岩手県",
+                "municipality": "紫波町",
+                "candidate_status": "unresolved",
+            }
+        ]
+    )
+
+    enriched = enrich_commercial_facility_coordinates(
+        commercial,
+        address_points,
+        coordinate_unresolved_df=unresolved,
+        allow_municipality_fallback=True,
+    )
+
+    assert enriched.loc[0, "coordinate_source"] == "none"
+    assert enriched.loc[0, "coordinate_confidence"] == ""
+    assert pd.isna(enriched.loc[0, "lat"])
+    assert enriched.loc[0, "coordinate_notes"] == "coordinate_unresolved_review"
 
 
 def test_enrich_commercial_facility_coordinates_matches_countyless_town() -> None:

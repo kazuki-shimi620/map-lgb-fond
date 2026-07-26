@@ -48,6 +48,7 @@ export function CommercialFacilityCard({ summary, prefecture, municipality }: Pr
   const areaSummary = summary ? findAreaSummary(summary, prefecture, municipality) : null;
   const statusLabel = summary ? "参考情報" : "データ未配置";
   const sourceLabel = summary?.sourceLabel ?? "日本ショッピングセンター協会 オープンSC一覧表";
+  const coverage = summary?.coverage;
 
   return (
     <section className="panel commercial-facility-card" aria-label="周辺商業施設" data-testid="commercial-facility-card">
@@ -76,6 +77,12 @@ export function CommercialFacilityCard({ summary, prefecture, municipality }: Pr
               <dd>{summary?.latestOpenYear ?? "-"}年</dd>
             </div>
           </dl>
+          {coverage ? (
+            <p className="facility-coverage-note">
+              全国{formatNumber(coverage.facilityCount)}件、地図表示用の信頼座標は
+              {formatNumber(coverage.reliableCoordinateCount)}件です。
+            </p>
+          ) : null}
           {areaSummary.recentOpenings.length > 0 ? (
             <div className="facility-recent-list">
               <h3>直近開業SC</h3>
@@ -89,7 +96,7 @@ export function CommercialFacilityCard({ summary, prefecture, municipality }: Pr
             </div>
           ) : null}
           <p className="hazard-note">
-            価格モデルへの採用とは分けた参考情報です。最寄施設距離や地図表示は、緯度経度付与後に追加します。
+            価格モデルへの採用とは分けた参考情報です。地図では信頼座標がある商業施設だけを表示します。
           </p>
           <p className="result-disclaimer">出典: {sourceLabel}</p>
         </>

@@ -5,7 +5,11 @@ import markerIcon2xUrl from "leaflet/dist/images/marker-icon-2x.png";
 import markerIconUrl from "leaflet/dist/images/marker-icon.png";
 import markerShadowUrl from "leaflet/dist/images/marker-shadow.png";
 import { searchPlace } from "../../services/geocodingService";
-import type { NearbyFacilityCategoryId, NearbyFacilityCollection } from "../../types/assets";
+import type {
+  NearbyFacilityCategoryId,
+  NearbyFacilityCollection,
+  NearbyFacilityPoint
+} from "../../types/assets";
 
 type HazardLayerDefinition = {
   id: string;
@@ -45,6 +49,7 @@ type Props = {
 
 const SEARCH_FLY_TO_DURATION_MS = 800;
 const MAX_VISIBLE_FACILITY_MARKERS = 1200;
+const mapCountFormatter = new Intl.NumberFormat("ja-JP");
 
 type MapViewport = {
   north: number;
@@ -122,6 +127,18 @@ function isLongitudeInBounds(lon: number, west: number, east: number) {
   return lon >= west || lon <= east;
 }
 
+function isFacilityInViewport(facility: NearbyFacilityPoint, viewport: MapViewport) {
+  return (
+    facility.lat >= viewport.south &&
+    facility.lat <= viewport.north &&
+    isLongitudeInBounds(facility.lon, viewport.west, viewport.east)
+  );
+}
+
+function formatMapCount(value: number) {
+  return mapCountFormatter.format(value);
+}
+
 export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
   const center = useMemo<LatLngExpression>(() => [lat ?? 35.681236, lon ?? 139.767125], [lat, lon]);
   const [query, setQuery] = useState("");
@@ -152,11 +169,8 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
       return { points: [], inBoundsCount: 0, isLimited: false };
     }
 
-    const inBounds = activeFacilityPoints.filter(
-      (facility) =>
-        facility.lat >= mapViewport.south &&
-        facility.lat <= mapViewport.north &&
-        isLongitudeInBounds(facility.lon, mapViewport.west, mapViewport.east)
+    const inBounds = activeFacilityPoints.filter((facility) =>
+      isFacilityInViewport(facility, mapViewport)
     );
 
     if (inBounds.length <= MAX_VISIBLE_FACILITY_MARKERS) {
@@ -182,6 +196,18 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
     }
     return counts;
   }, [nearbyFacilities]);
+  const facilityInBoundsCountsByCategoryId = useMemo(() => {
+    const counts = new Map<NearbyFacilityCategoryId, number>();
+    if (!nearbyFacilities || !mapViewport) {
+      return counts;
+    }
+    for (const facility of nearbyFacilities.facilities) {
+      if (isFacilityInViewport(facility, mapViewport)) {
+        counts.set(facility.categoryId, (counts.get(facility.categoryId) ?? 0) + 1);
+      }
+    }
+    return counts;
+  }, [mapViewport, nearbyFacilities]);
   const hasOpenStreetMapFacilities = useMemo(
     () => nearbyFacilities?.facilities.some((facility) => facility.source === "openstreetmap_odbl") ?? false,
     [nearbyFacilities]
@@ -410,6 +436,7 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
             <strong>周辺施設</strong>
             {nearbyFacilities.categories.map((category) => {
               const count = facilityCountsByCategoryId.get(category.id) ?? 0;
+              const inBoundsCount = facilityInBoundsCountsByCategoryId.get(category.id) ?? 0;
               return (
                 <label className="map-layer-toggle" key={category.id}>
                   <input
@@ -420,7 +447,9 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
                   />
                   <span className="facility-layer-swatch" style={{ backgroundColor: category.color }} aria-hidden="true" />
                   <span>{category.label}</span>
-                  <small>{count}件</small>
+                  <small>
+                    {formatMapCount(inBoundsCount)} / {formatMapCount(count)}
+                  </small>
                 </label>
               );
             })}
@@ -430,6 +459,8 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
               <p>
                 表示: {visibleFacilityResult.points.length}件
                 {visibleFacilityResult.isLimited ? ` / 範囲内${visibleFacilityResult.inBoundsCount}件` : ""}
+                <br />
+                各カテゴリは範囲内 / 全体
                 <br />
                 出典: {nearbyFacilities.sourceLabel}
                 {hasOpenStreetMapFacilities ? (

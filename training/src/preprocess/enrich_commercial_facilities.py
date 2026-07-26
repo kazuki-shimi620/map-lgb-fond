@@ -78,6 +78,7 @@ def enrich_commercial_facility_coordinates(
     manual_coordinates_df=None,
     municipality_aliases_df=None,
     row_corrections_df=None,
+    coordinate_unresolved_df=None,
     *,
     allow_municipality_fallback: bool = False,
 ):
@@ -92,12 +93,13 @@ def enrich_commercial_facility_coordinates(
     result["coordinate_confidence"] = ""
     result["coordinate_source_url"] = ""
     result["coordinate_notes"] = ""
-    row_corrections = _build_row_correction_index(row_corrections_df)
-    if row_corrections:
-        apply_row_corrections(result, row_corrections)
     municipality_aliases = _build_municipality_alias_index(municipality_aliases_df)
     if municipality_aliases:
         apply_municipality_aliases(result, municipality_aliases)
+    row_corrections = _build_row_correction_index(row_corrections_df)
+    if row_corrections:
+        apply_row_corrections(result, row_corrections)
+    unresolved_keys = _build_coordinate_unresolved_index(coordinate_unresolved_df)
     manual_index = _build_manual_coordinate_index(manual_coordinates_df)
     if manual_index:
         for index, row in result.iterrows():
@@ -132,9 +134,15 @@ def enrich_commercial_facility_coordinates(
         coordinate_source = "address_point"
         coordinate_confidence = "medium"
         if match is None and allow_municipality_fallback:
-            match = _match_municipality_point(row, municipality_index)
-            coordinate_source = "municipality_representative"
-            coordinate_confidence = "low"
+            if _is_coordinate_unresolved(row, unresolved_keys):
+                result.at[index, "coordinate_notes"] = append_note(
+                    _text(row.get("coordinate_notes")),
+                    "coordinate_unresolved_review",
+                )
+            else:
+                match = _match_municipality_point(row, municipality_index)
+                coordinate_source = "municipality_representative"
+                coordinate_confidence = "low"
         if match is None:
             continue
         result.at[index, "lat"] = match["lat"]
@@ -157,6 +165,30 @@ def enrich_commercial_facility_coordinates(
         result.at[index, "coordinate_source"] = coordinate_source
         result.at[index, "coordinate_confidence"] = coordinate_confidence
     return result
+
+
+def _build_coordinate_unresolved_index(coordinate_unresolved_df) -> set[str]:
+    if coordinate_unresolved_df is None or coordinate_unresolved_df.empty:
+        return set()
+    keys = set()
+    for row in coordinate_unresolved_df.to_dict(orient="records"):
+        status = _text(row.get("candidate_status"))
+        if status not in {"unresolved", "error"}:
+            continue
+        key = _manual_match_key(row)
+        if key:
+            keys.add(key)
+        name_key = _manual_name_match_key(row)
+        if name_key:
+            keys.add(name_key)
+    return keys
+
+
+def _is_coordinate_unresolved(row, unresolved_keys: set[str]) -> bool:
+    return (
+        _manual_match_key(row) in unresolved_keys
+        or _manual_name_match_key(row) in unresolved_keys
+    )
 
 
 def _build_address_index(address_points_df) -> dict[tuple[str, str], list[dict[str, object]]]:
@@ -320,14 +352,22 @@ def _build_manual_coordinate_index(manual_coordinates_df) -> dict[str, dict[str,
     if manual_coordinates_df is None or manual_coordinates_df.empty:
         return {}
     index = {}
+    name_index: dict[str, list[dict[str, object]]] = {}
     for row in manual_coordinates_df.to_dict(orient="records"):
         lat = _parse_float(row.get("lat"))
         lon = _parse_float(row.get("lon"))
         if lat is None or lon is None:
             continue
         key = _text(row.get("match_key")) or _manual_match_key(row)
+        record = {**row, "lat": lat, "lon": lon}
         if key:
-            index[key] = {**row, "lat": lat, "lon": lon}
+            index[key] = record
+        name_key = _manual_name_match_key(row)
+        if name_key:
+            name_index.setdefault(name_key, []).append(record)
+    for key, rows in name_index.items():
+        if len(rows) == 1 and key not in index:
+            index[key] = rows[0]
     return index
 
 
@@ -514,7 +554,7 @@ def append_note(current: str, note: str) -> str:
 
 
 def _match_manual_coordinate(row, manual_index) -> dict[str, object] | None:
-    for key in [_text(row.get("match_key")), _manual_match_key(row)]:
+    for key in [_text(row.get("match_key")), _manual_match_key(row), _manual_name_match_key(row)]:
         if key and key in manual_index:
             return manual_index[key]
     return None
@@ -526,6 +566,11 @@ def _manual_match_key(row) -> str:
     if not name:
         return ""
     return f"{prefecture}|{name}" if prefecture else name
+
+
+def _manual_name_match_key(row) -> str:
+    name = _manual_name_key(row.get("name") or row.get("facility_name"))
+    return f"name|{name}" if name else ""
 
 
 def _manual_name_key(value: object) -> str:
@@ -585,6 +630,7 @@ def enrich_file(
     manual_coordinates_csv: Path | None = None,
     municipality_aliases_csv: Path | None = None,
     row_corrections_csv: Path | None = None,
+    coordinate_unresolved_csv: Path | None = None,
     allow_municipality_fallback: bool = False,
 ) -> dict[str, object]:
     import pandas as pd
@@ -606,12 +652,18 @@ def enrich_file(
         if row_corrections_csv is not None and row_corrections_csv.exists()
         else None
     )
+    coordinate_unresolved = (
+        pd.read_csv(coordinate_unresolved_csv)
+        if coordinate_unresolved_csv is not None and coordinate_unresolved_csv.exists()
+        else None
+    )
     enriched = enrich_commercial_facility_coordinates(
         commercial,
         address_points,
         manual_coordinates,
         municipality_aliases,
         row_corrections,
+        coordinate_unresolved,
         allow_municipality_fallback=allow_municipality_fallback,
     )
     output_csv.parent.mkdir(parents=True, exist_ok=True)
@@ -762,6 +814,7 @@ def main() -> int:
     parser.add_argument("--manual-coordinates-csv", type=Path)
     parser.add_argument("--municipality-aliases-csv", type=Path)
     parser.add_argument("--row-corrections-csv", type=Path)
+    parser.add_argument("--coordinate-unresolved-csv", type=Path)
     parser.add_argument("--allow-municipality-fallback", action="store_true")
     parser.add_argument("--write-manual-template", type=Path)
     args = parser.parse_args()
@@ -777,6 +830,7 @@ def main() -> int:
         manual_coordinates_csv=args.manual_coordinates_csv,
         municipality_aliases_csv=args.municipality_aliases_csv,
         row_corrections_csv=args.row_corrections_csv,
+        coordinate_unresolved_csv=args.coordinate_unresolved_csv,
         allow_municipality_fallback=args.allow_municipality_fallback,
     )
     print(

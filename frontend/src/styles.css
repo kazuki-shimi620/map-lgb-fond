@@ -324,7 +324,7 @@ h2 {
   right: 12px;
   display: grid;
   gap: 8px;
-  width: min(220px, calc(100% - 24px));
+  width: min(244px, calc(100% - 24px));
   border: 1px solid #d9dee7;
   border-radius: 8px;
   background: rgb(255 255 255 / 94%);
@@ -367,6 +367,9 @@ h2 {
 .map-layer-toggle small {
   color: #667085;
   font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
 }
 
 .facility-layer-swatch {
@@ -1154,6 +1157,13 @@ select {
   color: #344054;
   font-size: 13px;
   line-height: 1.45;
+}
+
+.facility-coverage-note {
+  margin: 10px 0 0;
+  color: #475467;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 .hazard-note {

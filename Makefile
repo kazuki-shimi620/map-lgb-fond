@@ -72,6 +72,7 @@ JCSC_SC_MUNICIPALITY_PREFECTURE_CSV ?= data/processed/address_points/town_points
 JCSC_SC_PDF_CANDIDATES_CSV ?= data/processed/jcsc_pdf/jcsc_sc_pdf_new_candidates.csv
 JCSC_SC_PDF_COORDINATED_CSV ?= data/processed/jcsc_pdf/jcsc_sc_pdf_new_candidates_with_coordinates.csv
 JCSC_SC_PDF_FACILITIES_CSV ?= data/processed/jcsc_pdf/jcsc_sc_pdf_facilities.csv
+JCSC_SC_PDF_COORDINATE_UNRESOLVED_CSV ?= data/manual/facilities/commercial_facility_low_confidence_geocode_review.csv
 EDUCATION_APIS ?= XKT004,XKT005,XKT006,XKT007
 EDUCATION_AREA ?= capital
 EDUCATION_ZOOM ?= 13
@@ -497,7 +498,7 @@ enrich-commercial-facilities:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/enrich_commercial_facilities.py --input-csv "$(COMMERCIAL_FACILITIES_CSV)" --address-points-csv "$(ADDRESS_POINTS_CSV)" --output-csv "$(COMMERCIAL_FACILITIES_COORDINATED_CSV)" --manual-coordinates-csv "$(COMMERCIAL_FACILITIES_MANUAL_COORDINATES_CSV)" --municipality-aliases-csv "$(COMMERCIAL_FACILITIES_MUNICIPALITY_ALIASES_CSV)" --row-corrections-csv "$(COMMERCIAL_FACILITIES_ROW_CORRECTIONS_CSV)"
 
 enrich-sc-pdf-candidates:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/enrich_commercial_facilities.py --input-csv "$(JCSC_SC_PDF_CANDIDATES_CSV)" --address-points-csv "$(ADDRESS_POINTS_CSV)" --output-csv "$(JCSC_SC_PDF_COORDINATED_CSV)" --manual-coordinates-csv "$(COMMERCIAL_FACILITIES_MANUAL_COORDINATES_CSV)" --municipality-aliases-csv "$(COMMERCIAL_FACILITIES_MUNICIPALITY_ALIASES_CSV)" --row-corrections-csv "$(COMMERCIAL_FACILITIES_ROW_CORRECTIONS_CSV)" --allow-municipality-fallback
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/enrich_commercial_facilities.py --input-csv "$(JCSC_SC_PDF_CANDIDATES_CSV)" --address-points-csv "$(ADDRESS_POINTS_CSV)" --output-csv "$(JCSC_SC_PDF_COORDINATED_CSV)" --manual-coordinates-csv "$(COMMERCIAL_FACILITIES_MANUAL_COORDINATES_CSV)" --municipality-aliases-csv "$(COMMERCIAL_FACILITIES_MUNICIPALITY_ALIASES_CSV)" --row-corrections-csv "$(COMMERCIAL_FACILITIES_ROW_CORRECTIONS_CSV)" --coordinate-unresolved-csv "$(JCSC_SC_PDF_COORDINATE_UNRESOLVED_CSV)" --allow-municipality-fallback
 
 commercial-facility-manual-template:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/enrich_commercial_facilities.py --write-manual-template "$(COMMERCIAL_FACILITIES_MANUAL_COORDINATES_CSV)"
