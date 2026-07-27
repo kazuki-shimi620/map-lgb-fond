@@ -36,12 +36,13 @@ function findAreaSummary(
   return cityMatch ?? summary.prefectures[prefecture] ?? null;
 }
 
-function formatOpening(opening: CommercialFacilityAreaSummary["recentOpenings"][number]): string {
-  const date =
-    opening.openYear !== null
-      ? `${opening.openYear}年${opening.openMonth !== null ? `${opening.openMonth}月` : ""}`
-      : "時期不明";
-  return `${opening.name}（${date}）`;
+function formatOpeningDate(
+  opening: CommercialFacilityAreaSummary["recentOpenings"][number]
+): string {
+  if (opening.openYear === null) {
+    return "開業時期不明";
+  }
+  return `${opening.openYear}年${opening.openMonth !== null ? `${opening.openMonth}月` : ""}開業`;
 }
 
 export function CommercialFacilityCard({ summary, prefecture, municipality }: Props) {
@@ -49,6 +50,7 @@ export function CommercialFacilityCard({ summary, prefecture, municipality }: Pr
   const statusLabel = summary ? "参考情報" : "データ未配置";
   const sourceLabel = summary?.sourceLabel ?? "日本ショッピングセンター協会 オープンSC一覧表";
   const coverage = summary?.coverage;
+  const facilities = areaSummary?.facilities ?? areaSummary?.recentOpenings ?? [];
 
   return (
     <section className="panel commercial-facility-card" aria-label="周辺商業施設" data-testid="commercial-facility-card">
@@ -59,6 +61,43 @@ export function CommercialFacilityCard({ summary, prefecture, municipality }: Pr
 
       {areaSummary ? (
         <>
+          {facilities.length > 0 ? (
+            <div className="commercial-facility-list">
+              <h3>周辺商業施設の一覧</h3>
+              <div className="commercial-facility-list-items">
+                {facilities.map((facility, index) => (
+                  <article
+                    className="commercial-facility-list-item"
+                    key={`${facility.name}-${facility.openYear}-${facility.openMonth}-${index}`}
+                  >
+                    <div>
+                      <h4>{facility.name}</h4>
+                      <small>{formatOpeningDate(facility)}</small>
+                    </div>
+                    <dl>
+                      <div>
+                        <dt>店舗面積</dt>
+                        <dd>
+                          {facility.storeAreaSqm !== null
+                            ? formatArea(facility.storeAreaSqm)
+                            : "不明"}
+                        </dd>
+                      </div>
+                      <div>
+                        <dt>テナント数</dt>
+                        <dd>
+                          {facility.tenantCount !== null
+                            ? `${formatNumber(facility.tenantCount)}店`
+                            : "不明"}
+                        </dd>
+                      </div>
+                    </dl>
+                  </article>
+                ))}
+              </div>
+            </div>
+          ) : null}
+          <h3 className="commercial-facility-summary-title">地域内の合計</h3>
           <dl className="facility-summary-grid">
             <div>
               <dt>SC件数</dt>
@@ -82,18 +121,6 @@ export function CommercialFacilityCard({ summary, prefecture, municipality }: Pr
               全国{formatNumber(coverage.facilityCount)}件、地図表示用の信頼座標は
               {formatNumber(coverage.reliableCoordinateCount)}件です。
             </p>
-          ) : null}
-          {areaSummary.recentOpenings.length > 0 ? (
-            <div className="facility-recent-list">
-              <h3>直近開業SC</h3>
-              <ul>
-                {areaSummary.recentOpenings.map((opening) => (
-                  <li key={`${opening.name}-${opening.openYear}-${opening.openMonth}`}>
-                    {formatOpening(opening)}
-                  </li>
-                ))}
-              </ul>
-            </div>
           ) : null}
           <p className="hazard-note">
             価格モデルへの採用とは分けた参考情報です。地図では信頼座標がある商業施設だけを表示します。

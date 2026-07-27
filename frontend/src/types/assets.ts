@@ -114,13 +114,16 @@ export type CommercialFacilityAreaSummary = {
   storeAreaSumSqm: number;
   tenantCountSum: number;
   latestOpenYear: number | null;
-  recentOpenings: Array<{
+  facilities?: CommercialFacilityDetail[];
+  recentOpenings: CommercialFacilityDetail[];
+};
+
+export type CommercialFacilityDetail = {
     name: string;
     openYear: number | null;
     openMonth: number | null;
     storeAreaSqm: number | null;
     tenantCount: number | null;
-  }>;
 };
 
 export type CommercialFacilitySummary = {

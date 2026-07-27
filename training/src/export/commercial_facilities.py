@@ -24,7 +24,7 @@ def build_commercial_facility_summary(rows: list[dict[str, str]]) -> dict[str, A
         prefecture_groups[row["prefecture"]].append(row)
 
     return {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "jcsc",
         "sourceLabel": "日本ショッピングセンター協会 オープンSC一覧表",
         "generatedAt": generated_at,
@@ -103,7 +103,16 @@ def _summarize_group(rows: list[dict[str, str]]) -> dict[str, Any]:
         ),
         reverse=True,
     )
-    recent = sorted_rows[:3]
+    facilities = [
+        {
+            "name": row.get("name") or "",
+            "openYear": _to_int(row.get("open_year")),
+            "openMonth": _to_int(row.get("open_month")),
+            "storeAreaSqm": _to_float(row.get("store_area_sqm")),
+            "tenantCount": _to_int(row.get("tenant_count")),
+        }
+        for row in sorted_rows
+    ]
     return {
         "scCount": len(rows),
         "storeAreaSumSqm": round(
@@ -113,16 +122,8 @@ def _summarize_group(rows: list[dict[str, str]]) -> dict[str, Any]:
         "tenantCountSum": sum(_to_int(row.get("tenant_count")) or 0 for row in rows),
         "latestOpenYear": max((_to_int(row.get("open_year")) or 0 for row in rows), default=0)
         or None,
-        "recentOpenings": [
-            {
-                "name": row.get("name") or "",
-                "openYear": _to_int(row.get("open_year")),
-                "openMonth": _to_int(row.get("open_month")),
-                "storeAreaSqm": _to_float(row.get("store_area_sqm")),
-                "tenantCount": _to_int(row.get("tenant_count")),
-            }
-            for row in recent
-        ],
+        "facilities": facilities,
+        "recentOpenings": facilities[:3],
     }
 
 
