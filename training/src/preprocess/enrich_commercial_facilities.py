@@ -46,6 +46,7 @@ ROW_CORRECTION_FIELDNAMES = [
     "source_store_area_sqm",
     "source_open_year",
     "source_open_month",
+    "source_name",
     "corrected_name",
     "corrected_prefecture",
     "corrected_municipality",
@@ -373,7 +374,7 @@ def _build_manual_coordinate_index(manual_coordinates_df) -> dict[str, dict[str,
 
 def _build_row_correction_index(
     row_corrections_df,
-) -> dict[tuple[str, str, str, str, str], dict[str, str]]:
+) -> dict[tuple[str, str, str, str, str], list[dict[str, str]]]:
     if row_corrections_df is None or row_corrections_df.empty:
         return {}
     corrections = {}
@@ -387,7 +388,8 @@ def _build_row_correction_index(
         )
         if not any(key):
             continue
-        corrections[key] = {
+        correction = {
+            "source_name": _text(row.get("source_name")),
             "name": _text(row.get("corrected_name")),
             "prefecture": _text(row.get("corrected_prefecture")),
             "municipality": _text(row.get("corrected_municipality")),
@@ -396,12 +398,13 @@ def _build_row_correction_index(
             "address": _text(row.get("address")),
             "notes": _text(row.get("notes")),
         }
+        corrections.setdefault(key, []).append(correction)
     return corrections
 
 
 def apply_row_corrections(
     result,
-    row_corrections: dict[tuple[str, str, str, str, str], dict[str, str]],
+    row_corrections: dict[tuple[str, str, str, str, str], list[dict[str, str]]],
 ):
     for index, row in result.iterrows():
         key = _row_correction_key(
@@ -411,7 +414,7 @@ def apply_row_corrections(
             open_year=row.get("open_year"),
             open_month=row.get("open_month"),
         )
-        correction = row_corrections.get(key)
+        correction = _select_row_correction(row, row_corrections.get(key))
         if correction is None:
             continue
         if correction["name"]:
@@ -443,6 +446,20 @@ def apply_row_corrections(
         if correction["notes"]:
             notes = append_note(notes, correction["notes"])
         result.at[index, "coordinate_notes"] = notes
+
+
+def _select_row_correction(row, corrections: list[dict[str, str]] | None):
+    if not corrections:
+        return None
+    if len(corrections) == 1 and not corrections[0].get("source_name"):
+        return corrections[0]
+    row_name_key = _manual_name_key(row.get("name"))
+    for correction in corrections:
+        source_name = correction.get("source_name")
+        if source_name and _manual_name_key(source_name) == row_name_key:
+            return correction
+    unnamed = [correction for correction in corrections if not correction.get("source_name")]
+    return unnamed[0] if len(unnamed) == 1 else None
 
 
 def _row_correction_key(

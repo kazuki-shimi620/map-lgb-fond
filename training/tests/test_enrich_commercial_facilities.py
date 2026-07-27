@@ -671,6 +671,74 @@ def test_enrich_commercial_facility_coordinates_applies_corrected_open_month() -
     assert enriched.loc[0, "coordinate_notes"] == "row_correction|pdf_small_mismatch_review"
 
 
+def test_enrich_commercial_facility_coordinates_scopes_row_correction_by_source_name() -> None:
+    commercial = pd.DataFrame(
+        [
+            {
+                "page": 10,
+                "column": "left",
+                "store_area_sqm": "",
+                "open_year": 2017,
+                "open_month": 3,
+                "name": "プランチ茅ヶ崎",
+                "prefecture": "神奈川県",
+                "municipality": "茅ヶ崎市",
+            },
+            {
+                "page": 10,
+                "column": "left",
+                "store_area_sqm": "",
+                "open_year": 2017,
+                "open_month": 3,
+                "name": "スーパービバホーム厚木南インター店",
+                "prefecture": "神奈川県",
+                "municipality": "厚木市",
+            },
+        ]
+    )
+    corrections = pd.DataFrame(
+        [
+            {
+                "source_page": 10,
+                "source_column": "left",
+                "source_store_area_sqm": "",
+                "source_open_year": 2017,
+                "source_open_month": 3,
+                "source_name": "プランチ茅ヶ崎",
+                "corrected_name": "BRANCH茅ヶ崎",
+                "corrected_prefecture": "神奈川県",
+                "corrected_municipality": "茅ヶ崎市",
+                "address": "神奈川県茅ヶ崎市浜見平3-1",
+                "notes": "google_maps_name_search",
+            },
+            {
+                "source_page": 10,
+                "source_column": "left",
+                "source_store_area_sqm": "",
+                "source_open_year": 2017,
+                "source_open_month": 3,
+                "source_name": "スーパービバホーム厚木南インター店",
+                "corrected_name": "スーパービバホーム厚木南インター店",
+                "corrected_prefecture": "神奈川県",
+                "corrected_municipality": "厚木市",
+                "address": "神奈川県厚木市酒井1601-4",
+                "notes": "google_maps_name_search",
+            },
+        ]
+    )
+
+    enriched = enrich_commercial_facility_coordinates(
+        commercial,
+        pd.DataFrame(),
+        row_corrections_df=corrections,
+    )
+
+    assert enriched.loc[0, "name"] == "BRANCH茅ヶ崎"
+    assert enriched.loc[0, "address"] == "神奈川県茅ヶ崎市浜見平3-1"
+    assert enriched.loc[1, "name"] == "スーパービバホーム厚木南インター店"
+    assert enriched.loc[1, "address"] == "神奈川県厚木市酒井1601-4"
+
+
 def test_enrich_commercial_facility_coordinates_matches_numeric_chome_address() -> None:
     commercial = pd.DataFrame(
         [
