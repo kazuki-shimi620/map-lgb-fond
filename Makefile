@@ -55,9 +55,15 @@ RAIL_TERMINAL_STATIONS_CSV ?= data/manual/rail/terminal_stations.csv
 RAIL_TRAVEL_TIMES_CSV ?= data/manual/rail/major_station_travel_times.csv
 RAIL_ACCESS_CSV ?= data/processed/rail/rail_access.csv
 NEARBY_FACILITIES_CSV ?= data/processed/facilities/nearby_facilities.csv
-NEARBY_FACILITIES_INPUTS ?= $(NEARBY_FACILITIES_CSV)
+NEARBY_FACILITIES_INPUTS ?= data/processed/osm_nearby/cinema_japan/nearby_osm_facilities.csv data/processed/osm_nearby/hot_spring_public_bath_node_japan/nearby_osm_facilities.csv data/processed/osm_nearby/hot_spring_natural_japan/nearby_osm_facilities.csv data/processed/osm_nearby/hot_spring_spa_japan/nearby_osm_facilities.csv data/processed/osm_nearby/entertainment_capital/nearby_osm_facilities.csv
 NEARBY_FACILITIES_JSON ?= ../$(FRONTEND_DIR)/public/facilities/nearby_facilities.json
 NEARBY_FACILITIES_TEMPLATE ?= data/manual/facilities/nearby_facilities_template.csv
+CINEMA_CHAINS_RAW_DIR ?= data/raw/cinemas
+CINEMA_CHAINS_CSV ?= data/processed/cinemas/official_chain_cinemas.csv
+CINEMA_OSM_CSV ?= data/processed/osm_nearby/cinema_japan/nearby_osm_facilities.csv
+CINEMA_ENRICHED_CSV ?= data/processed/cinemas/official_chain_cinemas_enriched.csv
+CINEMA_REVIEW_CSV ?= data/processed/cinemas/official_chain_cinemas_review.csv
+CINEMA_COVERAGE_JSON ?= data/processed/cinemas/coverage.json
 COMMERCIAL_FACILITIES_CSV ?= data/processed/jcsc/jcsc_sc_open.csv
 COMMERCIAL_FACILITIES_COORDINATED_CSV ?= data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
 COMMERCIAL_FACILITIES_INPUTS ?= $(COMMERCIAL_FACILITIES_COORDINATED_CSV) $(JCSC_SC_PDF_COORDINATED_CSV)
@@ -133,7 +139,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-sc-pdf audit-sc-pdf-months collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-medical-facilities collect-medical-facilities-dry-run collect-medical-facilities-tile collect-osm-nearby-facilities collect-osm-nearby-facilities-dry-run collect-osm-park-areas collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities enrich-sc-pdf-candidates commercial-facility-manual-template train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-sc-pdf audit-sc-pdf-months collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-medical-facilities collect-medical-facilities-dry-run collect-medical-facilities-tile collect-osm-nearby-facilities collect-osm-nearby-facilities-dry-run collect-osm-park-areas collect-cinema-chains collect-cinema-osm-national collect-hot-springs-national enrich-cinemas collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities enrich-sc-pdf-candidates commercial-facility-manual-template train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -196,6 +202,13 @@ help:
 	@echo "                          OSMからスーパー・コンビニ・公園を取得してCSV化"
 	@echo "  make collect-osm-nearby-facilities-dry-run"
 	@echo "                          OSM周辺施設取得クエリを確認"
+	@echo "  make collect-cinema-chains"
+	@echo "                          大手映画館7系列の公式一覧をキャッシュしてCSV化"
+	@echo "  make collect-cinema-osm-national"
+	@echo "                          全国のOSM映画館を1リクエストでキャッシュ"
+	@echo "  make collect-hot-springs-national"
+	@echo "                          全国の公衆浴場node・天然温泉・スパを分割取得"
+	@echo "  make enrich-cinemas     公式映画館をOSM・JCSCと照合してcoverageを出力"
 	@echo "  make collect-urban-planning"
 	@echo "                          用途地域・都市計画データを取得してCSV化"
 	@echo "  make collect-urban-planning-dry-run"
@@ -431,6 +444,20 @@ collect-osm-nearby-facilities-dry-run:
 collect-osm-park-areas:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py $(if $(strip $(OSM_PARK_BBOX)),--bbox $(OSM_PARK_BBOX),--area $(OSM_PARK_AREA)) --categories park --timeout-seconds $(OSM_NEARBY_TIMEOUT_SECONDS) --run-id "$(OSM_PARK_RUN_ID)" --processed-dir "$(OSM_PARK_PROCESSED_DIR)" --include-geometry --request-interval-seconds $(OSM_PARK_REQUEST_INTERVAL_SECONDS) $(if $(strip $(OSM_PARK_SPLIT_SIZE_DEGREES)),--split-size-degrees $(OSM_PARK_SPLIT_SIZE_DEGREES),) $(if $(strip $(OSM_PARK_CONTINUE_ON_ERROR)),--continue-on-error,) --cache
 
+collect-cinema-chains:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/cinema_chains.py --raw-dir "$(CINEMA_CHAINS_RAW_DIR)" --output "$(CINEMA_CHAINS_CSV)"
+
+collect-cinema-osm-national:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py --area japan --categories cinema --timeout-seconds 300 --cache --run-id latest_cinema_japan --processed-dir data/processed/osm_nearby/cinema_japan
+
+collect-hot-springs-national:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py --area japan --categories hot_spring_public_bath_node --timeout-seconds 300 --cache --run-id latest_hot_spring_public_bath_node_japan --processed-dir data/processed/osm_nearby/hot_spring_public_bath_node_japan
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py --area japan --categories hot_spring_natural --timeout-seconds 300 --cache --run-id latest_hot_spring_natural_japan --processed-dir data/processed/osm_nearby/hot_spring_natural_japan
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py --area japan --categories hot_spring_spa --timeout-seconds 300 --cache --run-id latest_hot_spring_spa_japan --processed-dir data/processed/osm_nearby/hot_spring_spa_japan
+
+enrich-cinemas:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/enrich_cinemas.py --cinemas "$(CINEMA_CHAINS_CSV)" --osm "$(CINEMA_OSM_CSV)" --jcsc "$(COMMERCIAL_FACILITIES_COORDINATED_CSV)" --jcsc "$(JCSC_SC_PDF_COORDINATED_CSV)" --output "$(CINEMA_ENRICHED_CSV)" --review-output "$(CINEMA_REVIEW_CSV)" --report-output "$(CINEMA_COVERAGE_JSON)"
+
 collect-urban-planning:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --area $(URBAN_PLANNING_AREA) --zoom $(URBAN_PLANNING_ZOOM) --request-interval-seconds $(URBAN_PLANNING_REQUEST_INTERVAL_SECONDS) --cache
 
@@ -635,7 +662,7 @@ urban-planning:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.urban_planning --input "$(URBAN_PLANNING_CSV)" --output "$(URBAN_PLANNING_PUBLIC_JSON)"
 
 nearby-facilities:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --input-csv $(NEARBY_FACILITIES_INPUTS) --commercial-facilities-csv $(COMMERCIAL_FACILITIES_INPUTS) --output "$(NEARBY_FACILITIES_JSON)"
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities $(if $(strip $(NEARBY_FACILITIES_INPUTS)),--input-csv $(NEARBY_FACILITIES_INPUTS),) --commercial-facilities-csv $(COMMERCIAL_FACILITIES_INPUTS) --output "$(NEARBY_FACILITIES_JSON)"
 
 nearby-facilities-template:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --write-template "$(NEARBY_FACILITIES_TEMPLATE)"

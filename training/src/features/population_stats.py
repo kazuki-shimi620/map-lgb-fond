@@ -39,7 +39,8 @@ def add_population_features(property_df, population_df):
     if population_df.empty:
         return _fill_missing_population_features(result)
 
-    population_features = _build_city_year_features(population_df)
+    target_years = result["transaction_year"].dropna().astype(int).unique()
+    population_features = _build_city_year_features(population_df, target_years=target_years)
     if not population_features.empty:
         result = result.merge(
             population_features,
@@ -50,7 +51,7 @@ def add_population_features(property_df, population_df):
     return _fill_missing_population_features(result)
 
 
-def _build_city_year_features(population_df):
+def _build_city_year_features(population_df, *, target_years):
     import pandas as pd
 
     population = population_df.dropna(subset=["year", "prefecture", "municipality"]).copy()
@@ -59,7 +60,7 @@ def _build_city_year_features(population_df):
 
     rows = []
     keys = population[["prefecture", "municipality"]].drop_duplicates()
-    years = sorted(population["year"].dropna().astype(int).unique())
+    years = sorted({int(year) for year in target_years})
     for key in keys.itertuples(index=False):
         scoped = population[
             (population["prefecture"] == key.prefecture)

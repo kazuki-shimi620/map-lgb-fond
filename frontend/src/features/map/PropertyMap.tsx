@@ -5,10 +5,15 @@ import markerIcon2xUrl from "leaflet/dist/images/marker-icon-2x.png";
 import markerIconUrl from "leaflet/dist/images/marker-icon.png";
 import markerShadowUrl from "leaflet/dist/images/marker-shadow.png";
 import { searchPlace } from "../../services/geocodingService";
+import {
+  distanceKmToWalkingMinutes,
+  findNearestStation
+} from "../../services/stationService";
 import type {
   NearbyFacilityCategoryId,
   NearbyFacilityCollection,
-  NearbyFacilityPoint
+  NearbyFacilityPoint,
+  StationRecord
 } from "../../types/assets";
 
 type HazardLayerDefinition = {
@@ -45,6 +50,7 @@ type Props = {
     station: string;
     stationDistance: number;
   };
+  stations: StationRecord[];
 };
 
 const SEARCH_FLY_TO_DURATION_MS = 800;
@@ -134,7 +140,7 @@ function isFacilityInViewport(facility: NearbyFacilityPoint, viewport: MapViewpo
   );
 }
 
-export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
+export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: Props) {
   const center = useMemo<LatLngExpression>(() => [lat ?? 35.681236, lon ?? 139.767125], [lat, lon]);
   const [query, setQuery] = useState("");
   const [searchCenter, setSearchCenter] = useState<LatLngExpression | null>(null);
@@ -183,6 +189,26 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
       })
       .slice(0, MAX_VISIBLE_FACILITY_MARKERS);
   }, [activeFacilityPoints, mapViewport]);
+  const facilityStationInfoById = useMemo(() => {
+    const result = new Map<string, { stationName: string; walkingMinutes: number }>();
+    if (!locationSummary || stations.length === 0) {
+      return result;
+    }
+
+    for (const facility of visibleFacilityPoints) {
+      if (facility.prefecture && facility.prefecture !== locationSummary.prefecture) {
+        continue;
+      }
+      const nearest = findNearestStation(stations, facility.lat, facility.lon);
+      if (nearest) {
+        result.set(facility.id, {
+          stationName: nearest.station.station_name,
+          walkingMinutes: distanceKmToWalkingMinutes(nearest.distanceKm)
+        });
+      }
+    }
+    return result;
+  }, [locationSummary, stations, visibleFacilityPoints]);
   const facilityCountsByCategoryId = useMemo(() => {
     const counts = new Map<NearbyFacilityCategoryId, number>();
     for (const facility of nearbyFacilities?.facilities ?? []) {
@@ -390,6 +416,7 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
           {visibleFacilityPoints.map((facility) => {
             const category = facilityCategoryById.get(facility.categoryId);
             const color = category?.color ?? "#0f766e";
+            const stationInfo = facilityStationInfoById.get(facility.id);
             return (
               <CircleMarker
                 key={facility.id}
@@ -410,7 +437,11 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
                 <Tooltip className="facility-marker-tooltip" direction="top" offset={[0, -8]}>
                   <strong>{facility.name}</strong>
                   <span>{category?.label ?? "周辺施設"}</span>
-                  {facility.address ? <small>{facility.address}</small> : null}
+                  {stationInfo ? (
+                    <small>
+                      最寄駅: {stationInfo.stationName}駅・徒歩{stationInfo.walkingMinutes}分
+                    </small>
+                  ) : null}
                 </Tooltip>
               </CircleMarker>
             );

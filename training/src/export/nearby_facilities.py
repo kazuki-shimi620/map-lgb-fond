@@ -25,6 +25,10 @@ CATEGORIES = [
         "label": "商業施設",
         "color": "#9333ea",
         "enabled": True,
+        "sourceLabel": "日本ショッピングセンター協会（JCSC）公開PDF・年別ページを基に独自生成",
+        "sourceUrl": "https://www.jcsc.or.jp/sc_data/sc_open/sc_list",
+        "licenseLabel": "出典を明記して参考情報として配信",
+        "coverageArea": "全国（信頼できる座標がある施設のみ）",
     },
     {
         "id": "park",
@@ -37,6 +41,26 @@ CATEGORIES = [
         "label": "コンビニ",
         "color": "#f97316",
         "enabled": True,
+    },
+    {
+        "id": "cinema",
+        "label": "映画館",
+        "color": "#2563eb",
+        "enabled": True,
+        "sourceLabel": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "licenseLabel": "Open Database License (ODbL)",
+        "coverageArea": "全国（OpenStreetMap登録施設）",
+    },
+    {
+        "id": "hot_spring",
+        "label": "温泉・入浴",
+        "color": "#db2777",
+        "enabled": True,
+        "sourceLabel": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "licenseLabel": "Open Database License (ODbL)",
+        "coverageArea": "全国（公衆浴場node・天然温泉、首都圏はway/relationも含む）",
     },
 ]
 
@@ -207,12 +231,18 @@ def export_nearby_facilities(
     if commercial_facilities_csv is not None:
         facilities.extend(load_commercial_facility_rows(commercial_facilities_csv))
         facilities = deduplicate_facilities(facilities)
+    active_category_ids = {facility["categoryId"] for facility in facilities}
+    generated_at = datetime.now(UTC).isoformat(timespec="seconds") if facilities else None
     payload = {
         "schemaVersion": 1,
         "source": source if facilities else "not_generated",
         "sourceLabel": source_label if facilities else "周辺施設データ未生成",
-        "generatedAt": datetime.now(UTC).isoformat(timespec="seconds") if facilities else None,
-        "categories": CATEGORIES,
+        "generatedAt": generated_at,
+        "categories": [
+            {**category, "generatedAt": generated_at}
+            for category in CATEGORIES
+            if category["id"] in active_category_ids
+        ],
         "facilities": facilities,
     }
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -249,7 +279,11 @@ def main() -> int:
         "--input-csv",
         type=Path,
         nargs="+",
-        default=Path("data/processed/facilities/nearby_facilities.csv"),
+        default=[],
+        help=(
+            "Optional marker CSVs. Omit in the standard build to publish only curated "
+            "commercial facilities."
+        ),
     )
     parser.add_argument(
         "--output",

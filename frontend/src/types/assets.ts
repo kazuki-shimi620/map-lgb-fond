@@ -198,13 +198,20 @@ export type NearbyFacilityCategoryId =
   | "supermarket"
   | "commercial_facility"
   | "park"
-  | "convenience_store";
+  | "convenience_store"
+  | "cinema"
+  | "hot_spring";
 
 export type NearbyFacilityCategory = {
   id: NearbyFacilityCategoryId;
   label: string;
   color: string;
   enabled: boolean;
+  sourceLabel?: string;
+  sourceUrl?: string;
+  licenseLabel?: string;
+  coverageArea?: string;
+  generatedAt?: string | null;
 };
 
 export type NearbyFacilityPoint = {

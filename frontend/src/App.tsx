@@ -190,6 +190,7 @@ export function App() {
           lon={form.lon}
           onSelect={handleMapSelect}
           locationSummary={locationSummary}
+          stations={stations}
         />
         <div
           ref={sheetStackRef}
