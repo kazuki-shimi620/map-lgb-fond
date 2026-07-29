@@ -12,7 +12,10 @@ SRC_ROOT = Path(__file__).resolve().parents[1]
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from features.urban_planning import add_urban_planning_features, load_urban_planning_areas_csv  # noqa: E402
+from features.urban_planning import (  # noqa: E402
+    add_urban_planning_features,
+    load_urban_planning_areas_csv,
+)
 
 DEFAULT_REGIONS = ["tokyo", "kanagawa", "saitama", "chiba"]
 

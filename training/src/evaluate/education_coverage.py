@@ -12,7 +12,10 @@ SRC_ROOT = Path(__file__).resolve().parents[1]
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from features.education_facilities import add_education_features, load_education_facilities_csv  # noqa: E402
+from features.education_facilities import (  # noqa: E402
+    add_education_features,
+    load_education_facilities_csv,
+)
 
 DEFAULT_REGIONS = ["tokyo", "kanagawa", "saitama", "chiba"]
 

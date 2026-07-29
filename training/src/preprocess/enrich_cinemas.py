@@ -196,7 +196,9 @@ def main() -> None:
         ),
         "unmatched_count": len(review),
         "coordinate_sources": dict(sorted(sources.items())),
-        "operator_counts": dict(sorted(Counter(row.get("operator", "") for row in cinemas).items())),
+        "operator_counts": dict(
+            sorted(Counter(row.get("operator", "") for row in cinemas).items())
+        ),
     }
     args.report_output.parent.mkdir(parents=True, exist_ok=True)
     args.report_output.write_text(
