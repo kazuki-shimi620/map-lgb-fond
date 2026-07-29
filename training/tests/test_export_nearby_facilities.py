@@ -53,13 +53,7 @@ def test_export_nearby_facilities_writes_not_generated_when_input_is_missing(tmp
     assert payload["sourceLabel"] == "周辺施設データ未生成"
     assert payload["generatedAt"] is None
     assert payload["facilities"] == []
-    assert {category["id"] for category in payload["categories"]} >= {
-        "hospital",
-        "supermarket",
-        "commercial_facility",
-        "park",
-        "convenience_store",
-    }
+    assert payload["categories"] == []
 
 
 def test_load_commercial_facility_rows_uses_rows_with_coordinates(tmp_path) -> None:
@@ -167,6 +161,20 @@ def test_export_nearby_facilities_merges_commercial_facility_coordinates(tmp_pat
         "commercial_facility",
         "hospital",
     ]
+    assert [category["id"] for category in payload["categories"]] == [
+        "hospital",
+        "commercial_facility",
+    ]
+    commercial_category = next(
+        category
+        for category in payload["categories"]
+        if category["id"] == "commercial_facility"
+    )
+    assert commercial_category["sourceUrl"] == (
+        "https://www.jcsc.or.jp/sc_data/sc_open/sc_list"
+    )
+    assert commercial_category["coverageArea"] == "全国（信頼できる座標がある施設のみ）"
+    assert commercial_category["generatedAt"] == payload["generatedAt"]
 
 
 def test_export_nearby_facilities_merges_multiple_input_csvs(tmp_path) -> None:

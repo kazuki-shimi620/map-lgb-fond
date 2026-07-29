@@ -27,7 +27,9 @@ def build_address_coordinate_coverage_report(
     district_count = _district_count(property_df)
     matched = match_address_points(property_df, address_points_df)
     matched_count = int(matched["coordinate_match_level"].ne("none").sum()) if record_count else 0
-    town_matched_count = int(matched["coordinate_match_level"].eq("town").sum()) if record_count else 0
+    town_matched_count = (
+        int(matched["coordinate_match_level"].eq("town").sum()) if record_count else 0
+    )
     district_prefix_matched_count = (
         int(matched["coordinate_match_level"].eq("district_prefix").sum()) if record_count else 0
     )
@@ -65,7 +67,6 @@ def build_address_coordinate_coverage_report(
 
 
 def match_address_points(property_df, address_points_df):
-    import pandas as pd
 
     result = property_df.copy()
     result["coordinate_match_level"] = "none"

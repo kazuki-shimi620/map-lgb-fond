@@ -1,14 +1,19 @@
 import { useCallback, useEffect, useMemo, useState, type FormEvent } from "react";
 import { CircleMarker, MapContainer, Marker, TileLayer, Tooltip, useMap, useMapEvents } from "react-leaflet";
-import { Icon, type LatLngExpression } from "leaflet";
+import { DivIcon, Icon, type LatLngExpression } from "leaflet";
 import markerIcon2xUrl from "leaflet/dist/images/marker-icon-2x.png";
 import markerIconUrl from "leaflet/dist/images/marker-icon.png";
 import markerShadowUrl from "leaflet/dist/images/marker-shadow.png";
 import { searchPlace } from "../../services/geocodingService";
+import {
+  distanceKmToWalkingMinutes,
+  findNearestStation
+} from "../../services/stationService";
 import type {
   NearbyFacilityCategoryId,
   NearbyFacilityCollection,
-  NearbyFacilityPoint
+  NearbyFacilityPoint,
+  StationRecord
 } from "../../types/assets";
 
 type HazardLayerDefinition = {
@@ -45,11 +50,13 @@ type Props = {
     station: string;
     stationDistance: number;
   };
+  stations: StationRecord[];
 };
 
 const SEARCH_FLY_TO_DURATION_MS = 800;
 const MAX_VISIBLE_FACILITY_MARKERS = 1200;
-const mapCountFormatter = new Intl.NumberFormat("ja-JP");
+const FACILITY_CLUSTER_MAX_ZOOM = 10;
+const FACILITY_CLUSTER_GRID_SIZE_PX = 72;
 
 type MapViewport = {
   north: number;
@@ -58,6 +65,15 @@ type MapViewport = {
   west: number;
   centerLat: number;
   centerLon: number;
+  zoom: number;
+};
+
+type FacilityCluster = {
+  id: string;
+  lat: number;
+  lon: number;
+  count: number;
+  categoryId: NearbyFacilityCategoryId;
 };
 
 const propertyMarkerIcon = new Icon({
@@ -104,7 +120,8 @@ function ViewportTracker({ onChange }: { onChange: (viewport: MapViewport) => vo
       east: bounds.getEast(),
       west: bounds.getWest(),
       centerLat: center.lat,
-      centerLon: center.lng
+      centerLon: center.lng,
+      zoom: map.getZoom()
     });
   }, [map, onChange]);
 
@@ -135,11 +152,100 @@ function isFacilityInViewport(facility: NearbyFacilityPoint, viewport: MapViewpo
   );
 }
 
-function formatMapCount(value: number) {
-  return mapCountFormatter.format(value);
+function projectToWorldPixel(lat: number, lon: number, zoom: number) {
+  const scale = 256 * 2 ** zoom;
+  const sinLat = Math.sin((Math.max(-85.05112878, Math.min(85.05112878, lat)) * Math.PI) / 180);
+  return {
+    x: ((lon + 180) / 360) * scale,
+    y: (0.5 - Math.log((1 + sinLat) / (1 - sinLat)) / (4 * Math.PI)) * scale
+  };
 }
 
-export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
+function clusterFacilities(facilities: NearbyFacilityPoint[], zoom: number): FacilityCluster[] {
+  const clusters = new Map<
+    string,
+    {
+      latSum: number;
+      lonSum: number;
+      count: number;
+      categoryId: NearbyFacilityCategoryId;
+    }
+  >();
+
+  for (const facility of facilities) {
+    const pixel = projectToWorldPixel(facility.lat, facility.lon, zoom);
+    const gridX = Math.floor(pixel.x / FACILITY_CLUSTER_GRID_SIZE_PX);
+    const gridY = Math.floor(pixel.y / FACILITY_CLUSTER_GRID_SIZE_PX);
+    const id = `${facility.categoryId}:${zoom}:${gridX}:${gridY}`;
+    const current = clusters.get(id);
+    if (current) {
+      current.latSum += facility.lat;
+      current.lonSum += facility.lon;
+      current.count += 1;
+    } else {
+      clusters.set(id, {
+        latSum: facility.lat,
+        lonSum: facility.lon,
+        count: 1,
+        categoryId: facility.categoryId
+      });
+    }
+  }
+
+  return [...clusters.entries()].map(([id, cluster]) => ({
+    id,
+    lat: cluster.latSum / cluster.count,
+    lon: cluster.lonSum / cluster.count,
+    count: cluster.count,
+    categoryId: cluster.categoryId
+  }));
+}
+
+function createFacilityClusterIcon(count: number, categoryColor: string) {
+  const intensity = Math.min(1, Math.log10(count + 1) / 2.5);
+  const size = Math.round(34 + intensity * 34);
+  const fillOpacity = (0.62 + intensity * 0.3).toFixed(2);
+  const color = /^#[0-9a-f]{6}$/i.test(categoryColor) ? categoryColor : "#0f766e";
+
+  return new DivIcon({
+    className: "facility-cluster-icon-wrapper",
+    html: `<span class="facility-cluster-icon" style="--cluster-size:${size}px;--cluster-color:${color};--cluster-opacity:${fillOpacity}">${count}</span>`,
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2]
+  });
+}
+
+function FacilityClusterMarker({
+  cluster,
+  color,
+  label
+}: {
+  cluster: FacilityCluster;
+  color: string;
+  label: string;
+}) {
+  const map = useMap();
+  return (
+    <Marker
+      position={[cluster.lat, cluster.lon]}
+      icon={createFacilityClusterIcon(cluster.count, color)}
+      eventHandlers={{
+        click(event) {
+          event.originalEvent.stopPropagation();
+          map.flyTo([cluster.lat, cluster.lon], Math.min(map.getZoom() + 2, FACILITY_CLUSTER_MAX_ZOOM + 1), {
+            duration: 0.45
+          });
+        }
+      }}
+    >
+      <Tooltip direction="top" offset={[0, -18]}>
+        {label}: この範囲に{cluster.count.toLocaleString("ja-JP")}件
+      </Tooltip>
+    </Marker>
+  );
+}
+
+export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: Props) {
   const center = useMemo<LatLngExpression>(() => [lat ?? 35.681236, lon ?? 139.767125], [lat, lon]);
   const [query, setQuery] = useState("");
   const [searchCenter, setSearchCenter] = useState<LatLngExpression | null>(null);
@@ -156,6 +262,7 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
     [hazardConfig]
   );
   const activeHazardLayers = hazardLayers.filter((layer) => activeHazardLayerIds.has(layer.id));
+  const isAnyHazardLayerActive = activeHazardLayers.length > 0;
   const activeFacilityPoints = useMemo(() => {
     if (!nearbyFacilities) {
       return [];
@@ -164,9 +271,9 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
       activeFacilityCategoryIds.has(facility.categoryId)
     );
   }, [activeFacilityCategoryIds, nearbyFacilities]);
-  const visibleFacilityResult = useMemo(() => {
+  const visibleFacilityPoints = useMemo(() => {
     if (!mapViewport) {
-      return { points: [], inBoundsCount: 0, isLimited: false };
+      return [];
     }
 
     const inBounds = activeFacilityPoints.filter((facility) =>
@@ -174,10 +281,10 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
     );
 
     if (inBounds.length <= MAX_VISIBLE_FACILITY_MARKERS) {
-      return { points: inBounds, inBoundsCount: inBounds.length, isLimited: false };
+      return inBounds;
     }
 
-    const nearestPoints = [...inBounds]
+    return [...inBounds]
       .sort((a, b) => {
         const aDistance =
           (a.lat - mapViewport.centerLat) ** 2 + (a.lon - mapViewport.centerLon) ** 2;
@@ -186,9 +293,38 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
         return aDistance - bDistance;
       })
       .slice(0, MAX_VISIBLE_FACILITY_MARKERS);
-
-    return { points: nearestPoints, inBoundsCount: inBounds.length, isLimited: true };
   }, [activeFacilityPoints, mapViewport]);
+  const facilityClusters = useMemo(() => {
+    if (!mapViewport || mapViewport.zoom > FACILITY_CLUSTER_MAX_ZOOM) {
+      return [];
+    }
+    const inBounds = activeFacilityPoints.filter((facility) =>
+      isFacilityInViewport(facility, mapViewport)
+    );
+    return clusterFacilities(inBounds, mapViewport.zoom);
+  }, [activeFacilityPoints, mapViewport]);
+  const showFacilityClusters =
+    mapViewport !== null && mapViewport.zoom <= FACILITY_CLUSTER_MAX_ZOOM;
+  const facilityStationInfoById = useMemo(() => {
+    const result = new Map<string, { stationName: string; walkingMinutes: number }>();
+    if (!locationSummary || stations.length === 0) {
+      return result;
+    }
+
+    for (const facility of visibleFacilityPoints) {
+      if (facility.prefecture && facility.prefecture !== locationSummary.prefecture) {
+        continue;
+      }
+      const nearest = findNearestStation(stations, facility.lat, facility.lon);
+      if (nearest) {
+        result.set(facility.id, {
+          stationName: nearest.station.station_name,
+          walkingMinutes: distanceKmToWalkingMinutes(nearest.distanceKm)
+        });
+      }
+    }
+    return result;
+  }, [locationSummary, stations, visibleFacilityPoints]);
   const facilityCountsByCategoryId = useMemo(() => {
     const counts = new Map<NearbyFacilityCategoryId, number>();
     for (const facility of nearbyFacilities?.facilities ?? []) {
@@ -196,18 +332,6 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
     }
     return counts;
   }, [nearbyFacilities]);
-  const facilityInBoundsCountsByCategoryId = useMemo(() => {
-    const counts = new Map<NearbyFacilityCategoryId, number>();
-    if (!nearbyFacilities || !mapViewport) {
-      return counts;
-    }
-    for (const facility of nearbyFacilities.facilities) {
-      if (isFacilityInViewport(facility, mapViewport)) {
-        counts.set(facility.categoryId, (counts.get(facility.categoryId) ?? 0) + 1);
-      }
-    }
-    return counts;
-  }, [mapViewport, nearbyFacilities]);
   const hasOpenStreetMapFacilities = useMemo(
     () => nearbyFacilities?.facilities.some((facility) => facility.source === "openstreetmap_odbl") ?? false,
     [nearbyFacilities]
@@ -305,6 +429,12 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
     });
   }
 
+  function toggleAllHazardLayers() {
+    setActiveHazardLayerIds(
+      isAnyHazardLayerActive ? new Set() : new Set(hazardLayers.map((layer) => layer.id))
+    );
+  }
+
   function handleMapSelect(nextLat: number, nextLon: number) {
     setSearchStatus("");
     onSelect(nextLat, nextLon);
@@ -351,6 +481,36 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
           </button>
           {searchStatus ? <p>{searchStatus}</p> : null}
         </form>
+        <div className="mobile-map-layer-controls" aria-label="地図レイヤー切替">
+          {nearbyFacilities?.categories.map((category) => {
+            const isActive = activeFacilityCategoryIds.has(category.id);
+            const count = facilityCountsByCategoryId.get(category.id) ?? 0;
+            return (
+              <button
+                type="button"
+                key={category.id}
+                className={isActive ? "is-active" : ""}
+                aria-pressed={isActive}
+                disabled={count === 0}
+                onClick={() => toggleFacilityCategory(category.id)}
+              >
+                <span style={{ color: category.color }} aria-hidden="true">●</span>
+                {category.label}
+              </button>
+            );
+          })}
+          {hazardLayers.length > 0 ? (
+            <button
+              type="button"
+              className={isAnyHazardLayerActive ? "is-active" : ""}
+              aria-pressed={isAnyHazardLayerActive}
+              onClick={toggleAllHazardLayers}
+            >
+              <span aria-hidden="true">◆</span>
+              ハザード
+            </button>
+          ) : null}
+        </div>
         <MapContainer center={center} zoom={12} className="map">
           <ViewportTracker onChange={setMapViewport} />
           <TileLayer
@@ -369,9 +529,22 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
               zIndex={300 + index}
             />
           ))}
-          {visibleFacilityResult.points.map((facility) => {
+          {showFacilityClusters
+            ? facilityClusters.map((cluster) => {
+                const category = facilityCategoryById.get(cluster.categoryId);
+                return (
+                  <FacilityClusterMarker
+                    key={cluster.id}
+                    cluster={cluster}
+                    color={category?.color ?? "#0f766e"}
+                    label={category?.label ?? "周辺施設"}
+                  />
+                );
+              })
+            : visibleFacilityPoints.map((facility) => {
             const category = facilityCategoryById.get(facility.categoryId);
             const color = category?.color ?? "#0f766e";
+            const stationInfo = facilityStationInfoById.get(facility.id);
             return (
               <CircleMarker
                 key={facility.id}
@@ -392,7 +565,11 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
                 <Tooltip className="facility-marker-tooltip" direction="top" offset={[0, -8]}>
                   <strong>{facility.name}</strong>
                   <span>{category?.label ?? "周辺施設"}</span>
-                  {facility.address ? <small>{facility.address}</small> : null}
+                  {stationInfo ? (
+                    <small>
+                      最寄駅: {stationInfo.stationName}駅・徒歩{stationInfo.walkingMinutes}分
+                    </small>
+                  ) : null}
                 </Tooltip>
               </CircleMarker>
             );
@@ -436,7 +613,6 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
             <strong>周辺施設</strong>
             {nearbyFacilities.categories.map((category) => {
               const count = facilityCountsByCategoryId.get(category.id) ?? 0;
-              const inBoundsCount = facilityInBoundsCountsByCategoryId.get(category.id) ?? 0;
               return (
                 <label className="map-layer-toggle" key={category.id}>
                   <input
@@ -447,9 +623,6 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
                   />
                   <span className="facility-layer-swatch" style={{ backgroundColor: category.color }} aria-hidden="true" />
                   <span>{category.label}</span>
-                  <small>
-                    {formatMapCount(inBoundsCount)} / {formatMapCount(count)}
-                  </small>
                 </label>
               );
             })}
@@ -457,11 +630,6 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary }: Props) {
               <p>周辺施設データは未生成です。</p>
             ) : (
               <p>
-                表示: {visibleFacilityResult.points.length}件
-                {visibleFacilityResult.isLimited ? ` / 範囲内${visibleFacilityResult.inBoundsCount}件` : ""}
-                <br />
-                各カテゴリは範囲内 / 全体
-                <br />
                 出典: {nearbyFacilities.sourceLabel}
                 {hasOpenStreetMapFacilities ? (
                   <>

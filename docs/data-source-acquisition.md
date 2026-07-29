@@ -180,7 +180,11 @@ make collect-land-prices-dry-run LAND_PRICE_YEARS=2025 LAND_PRICE_ZOOM=14
 make collect-land-prices-tile LAND_PRICE_YEARS=2025 LAND_PRICE_REQUEST_INTERVAL_SECONDS=0
 ```
 
-2026-07-14時点の実測では、首都圏4県・`z=14`・2024/2025年は 8,480タイル x 2年 = 16,960リクエストになる。API応答時間を考えると長時間ジョブになるため、本番CSV生成前に `collect-land-prices-dry-run` で件数を確認し、必要に応じて `LAND_PRICE_ZOOM=12` / `13` や1年分で段階実行する。
+2026-07-15に首都圏4県・`z=13`・2024/2025年を取得済み。2,160タイル
+x 2年 = 4,320リクエストから、住宅地・商業地24,486地点を生成した。
+取得済みの`z=14`サンプルでは全24地点が親`z=13`タイルにも含まれており、
+細分化による地点追加は確認されなかった。このため、16,960リクエストになる
+`z=14`全面再取得は行わず、`z=13`成果物を採用する。
 
 疎通確認:
 

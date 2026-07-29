@@ -44,7 +44,7 @@ def test_build_commercial_facility_summary_groups_by_city_and_prefecture() -> No
     chiyoda = summary["cities"]["東京都|千代田区"]
     osaka = summary["cities"]["大阪府|大阪市"]
 
-    assert summary["schemaVersion"] == 1
+    assert summary["schemaVersion"] == 2
     assert summary["latestOpenYear"] == 2026
     assert summary["coverage"]["area"] == "全国"
     assert summary["coverage"]["facilityCount"] == 3
@@ -56,6 +56,10 @@ def test_build_commercial_facility_summary_groups_by_city_and_prefecture() -> No
     assert tokyo["tenantCountSum"] == 32
     assert chiyoda["recentOpenings"][0]["name"] == "東京新SC"
     assert chiyoda["recentOpenings"][1]["name"] == "東京テストSC"
+    assert chiyoda["facilities"][0]["storeAreaSqm"] == 2000
+    assert chiyoda["facilities"][0]["tenantCount"] == 20
+    assert chiyoda["facilities"][1]["storeAreaSqm"] == 1200.5
+    assert chiyoda["facilities"][1]["tenantCount"] == 12
     assert osaka["storeAreaSumSqm"] == 0
     assert osaka["tenantCountSum"] == 0
 

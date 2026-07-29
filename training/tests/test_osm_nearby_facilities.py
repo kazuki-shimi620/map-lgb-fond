@@ -7,6 +7,7 @@ from collect.osm_nearby_facilities import (
     collect_osm_nearby_facilities,
     collect_osm_nearby_facilities_grid,
     normalize_overpass_element,
+    normalize_overpass_elements,
     normalize_park_area_element,
     split_area,
 )
@@ -256,6 +257,157 @@ def test_build_overpass_query_contains_requested_categories() -> None:
     assert '["shop"="supermarket"]' in query
     assert '["leisure"="park"]' in query
     assert "out center tags" in query
+
+
+def test_build_overpass_query_contains_cinema_and_hot_spring_filters() -> None:
+    query = build_overpass_query(
+        categories=["cinema", "hot_spring"],
+        south=35.0,
+        west=139.0,
+        north=36.0,
+        east=140.0,
+        timeout_seconds=180,
+    )
+
+    assert '["amenity"="cinema"]' in query
+    assert '["amenity"="public_bath"]' in query
+    assert '["leisure"="spa"]' in query
+    assert '["natural"="hot_spring"]' in query
+
+    split_query = build_overpass_query(
+        categories=["hot_spring_natural"],
+        south=20.4,
+        west=122.9,
+        north=45.6,
+        east=154.0,
+        timeout_seconds=180,
+    )
+    assert '["natural"="hot_spring"]' in split_query
+    assert '["amenity"="public_bath"]' not in split_query
+
+    node_query = build_overpass_query(
+        categories=["hot_spring_public_bath_node"],
+        south=20.4,
+        west=122.9,
+        north=45.6,
+        east=154.0,
+        timeout_seconds=180,
+    )
+    assert 'node["amenity"="public_bath"]' in node_query
+    assert 'way["amenity"="public_bath"]' not in node_query
+
+
+def test_build_and_normalize_museum_query() -> None:
+    query = build_overpass_query(
+        categories=["museum"],
+        south=20.4,
+        west=122.9,
+        north=45.6,
+        east=154.0,
+        timeout_seconds=180,
+    )
+    assert '["tourism"="museum"]' in query
+    assert '["tourism"="gallery"]' in query
+
+    rows = normalize_overpass_elements(
+        [
+            {
+                "type": "node",
+                "id": 10,
+                "lat": 35.0,
+                "lon": 135.0,
+                "tags": {"tourism": "museum", "name": "歴史博物館"},
+            },
+            {
+                "type": "node",
+                "id": 11,
+                "lat": 35.1,
+                "lon": 135.1,
+                "tags": {"tourism": "gallery"},
+            },
+        ]
+    )
+    assert [row["category_id"] for row in rows] == ["museum", "museum"]
+    assert rows[1]["name"] == "美術館・博物館"
+
+    way_query = build_overpass_query(
+        categories=["museum_way"],
+        south=20.4,
+        west=122.9,
+        north=45.6,
+        east=154.0,
+        timeout_seconds=180,
+    )
+    assert 'way["tourism"="museum"]' in way_query
+    assert 'node["tourism"="museum"]' not in way_query
+
+
+def test_build_overpass_query_can_limit_to_japan_administrative_area() -> None:
+    query = build_overpass_query(
+        categories=["cinema"],
+        south=20.4,
+        west=122.9,
+        north=45.6,
+        east=154.0,
+        timeout_seconds=180,
+        area_filter="JP",
+    )
+    assert 'area["ISO3166-1"="JP"][admin_level=2]->.searchArea;' in query
+    assert '["amenity"="cinema"](area.searchArea)' in query
+
+    direct_query = build_overpass_query(
+        categories=["cinema"],
+        south=20.4,
+        west=122.9,
+        north=45.6,
+        east=154.0,
+        timeout_seconds=180,
+        area_filter="JP",
+        area_id="3600382313",
+    )
+    assert "area(3600382313)->.searchArea;" in direct_query
+    assert 'ISO3166-1' not in direct_query
+
+
+def test_normalize_overpass_elements_supports_cinema_and_hot_spring() -> None:
+    rows = normalize_overpass_elements(
+        [
+            {
+                "type": "node",
+                "id": 1,
+                "lat": 35.1,
+                "lon": 139.1,
+                "tags": {"amenity": "cinema", "name": "テストシネマ"},
+            },
+            {
+                "type": "node",
+                "id": 2,
+                "lat": 35.2,
+                "lon": 139.2,
+                "tags": {"amenity": "public_bath", "name": "テスト温泉"},
+            },
+        ]
+    )
+
+    assert [row["category_id"] for row in rows] == ["cinema", "hot_spring"]
+
+
+def test_hot_spring_tag_takes_priority_over_park_tag() -> None:
+    rows = normalize_overpass_elements(
+        [
+            {
+                "type": "way",
+                "id": 1,
+                "center": {"lat": 34.1, "lon": 131.4},
+                "tags": {
+                    "leisure": "park",
+                    "natural": "hot_spring",
+                    "name": "温泉公園",
+                },
+            }
+        ]
+    )
+    assert rows[0]["category_id"] == "hot_spring"
 
 
 def test_build_overpass_query_can_request_geometry() -> None:

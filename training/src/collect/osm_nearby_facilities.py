@@ -18,6 +18,14 @@ OVERPASS_ENDPOINT = "https://overpass-api.de/api/interpreter"
 DEFAULT_AREA = "capital"
 DEFAULT_CATEGORIES = ["supermarket", "convenience_store", "park"]
 AREAS = {
+    "japan": {
+        "north": 45.6,
+        "south": 20.4,
+        "east": 154.0,
+        "west": 122.9,
+        "overpass_area": "JP",
+        "overpass_area_id": "3600382313",
+    },
     "capital": {
         "north": 36.3,
         "south": 34.9,
@@ -53,6 +61,38 @@ CATEGORY_TO_FILTERS = {
     "supermarket": [('shop', 'supermarket')],
     "convenience_store": [('shop', 'convenience')],
     "park": [('leisure', 'park')],
+    "cinema": [('amenity', 'cinema')],
+    "museum": [
+        ('tourism', 'museum'),
+        ('tourism', 'gallery'),
+    ],
+    "museum_node": [
+        ('tourism', 'museum'),
+        ('tourism', 'gallery'),
+    ],
+    "museum_way": [
+        ('tourism', 'museum'),
+        ('tourism', 'gallery'),
+    ],
+    "museum_relation": [
+        ('tourism', 'museum'),
+        ('tourism', 'gallery'),
+    ],
+    "museum_only_node": [('tourism', 'museum')],
+    "gallery_only_node": [('tourism', 'gallery')],
+    "museum_only_way": [('tourism', 'museum')],
+    "gallery_only_way": [('tourism', 'gallery')],
+    "museum_only_relation": [('tourism', 'museum')],
+    "gallery_only_relation": [('tourism', 'gallery')],
+    "hot_spring": [
+        ('amenity', 'public_bath'),
+        ('leisure', 'spa'),
+        ('natural', 'hot_spring'),
+    ],
+    "hot_spring_public_bath": [('amenity', 'public_bath')],
+    "hot_spring_public_bath_node": [('amenity', 'public_bath')],
+    "hot_spring_spa": [('leisure', 'spa')],
+    "hot_spring_natural": [('natural', 'hot_spring')],
 }
 NEARBY_FACILITY_FIELDNAMES = [
     "id",
@@ -97,17 +137,39 @@ def build_overpass_query(
     east: float,
     timeout_seconds: int,
     include_geometry: bool = False,
+    area_filter: str = "",
+    area_id: str = "",
 ) -> str:
     clauses = []
     for category in categories:
         if category not in CATEGORY_TO_FILTERS:
             raise OsmNearbyFacilityCollectError(f"unsupported category: {category}")
         for key, value in CATEGORY_TO_FILTERS[category]:
-            selector = f'["{key}"="{value}"]({south},{west},{north},{east})'
-            clauses.extend([f"node{selector};", f"way{selector};", f"relation{selector};"])
+            scope = "(area.searchArea)" if area_filter else f"({south},{west},{north},{east})"
+            selector = f'["{key}"="{value}"]{scope}'
+            if category.endswith("_node"):
+                element_types = ("node",)
+            elif category.endswith("_way"):
+                element_types = ("way",)
+            elif category.endswith("_relation"):
+                element_types = ("relation",)
+            else:
+                element_types = ("node", "way", "relation")
+            clauses.extend(f"{element_type}{selector};" for element_type in element_types)
     joined = "\n  ".join(clauses)
     output = "out center tags geom;" if include_geometry else "out center tags;"
-    return f"[out:json][timeout:{timeout_seconds}];\n(\n  {joined}\n);\n{output}"
+    if area_id:
+        area_statement = f"area({area_id})->.searchArea;\n"
+    elif area_filter:
+        area_statement = (
+            f'area["ISO3166-1"="{area_filter}"][admin_level=2]->.searchArea;\n'
+        )
+    else:
+        area_statement = ""
+    return (
+        f"[out:json][timeout:{timeout_seconds}];\n{area_statement}"
+        f"(\n  {joined}\n);\n{output}"
+    )
 
 
 def fetch_overpass(
@@ -184,6 +246,8 @@ def collect_osm_nearby_facilities(
         east=area["east"],
         timeout_seconds=timeout_seconds,
         include_geometry=include_geometry,
+        area_filter=str(area.get("overpass_area", "")),
+        area_id=str(area.get("overpass_area_id", "")),
     )
     raw_path = raw_dir / f"{run_id}.json"
     query_path = raw_dir / f"{run_id}.overpassql"
@@ -400,6 +464,9 @@ def normalize_overpass_element(element: dict[str, Any]) -> dict[str, Any] | None
             "supermarket": "スーパー",
             "convenience_store": "コンビニ",
             "park": "公園",
+            "cinema": "映画館",
+            "museum": "美術館・博物館",
+            "hot_spring": "温泉・入浴施設",
         }[category_id]
     address = build_address(tags)
     osm_type = _text(element.get("type"))
@@ -467,6 +534,16 @@ def category_from_tags(tags: dict[str, Any]) -> str | None:
         return "supermarket"
     if _text(tags.get("shop")) == "convenience":
         return "convenience_store"
+    if _text(tags.get("amenity")) == "cinema":
+        return "cinema"
+    if _text(tags.get("tourism")) in {"museum", "gallery"}:
+        return "museum"
+    if (
+        _text(tags.get("amenity")) == "public_bath"
+        or _text(tags.get("leisure")) == "spa"
+        or _text(tags.get("natural")) == "hot_spring"
+    ):
+        return "hot_spring"
     if _text(tags.get("leisure")) == "park":
         return "park"
     return None
@@ -642,7 +719,12 @@ def main() -> int:
             categories=categories,
             timeout_seconds=args.timeout_seconds,
             include_geometry=args.include_geometry,
-            **area,
+            south=area["south"],
+            west=area["west"],
+            north=area["north"],
+            east=area["east"],
+            area_filter=str(area.get("overpass_area", "")),
+            area_id=str(area.get("overpass_area_id", "")),
         )
         if args.dry_run:
             split_count = (

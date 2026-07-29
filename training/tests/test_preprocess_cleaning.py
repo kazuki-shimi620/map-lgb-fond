@@ -1,8 +1,7 @@
 from __future__ import annotations
 
-import pytest
-
 import pandas as pd
+import pytest
 
 from preprocess.cleaning import (
     normalize_japanese_mlit_columns,

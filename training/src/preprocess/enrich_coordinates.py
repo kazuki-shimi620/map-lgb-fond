@@ -167,7 +167,9 @@ def _apply_coordinate_match(result, points, *, on: list[str], source: str):
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Attach representative coordinates to property data.")
+    parser = argparse.ArgumentParser(
+        description="Attach representative coordinates to property data."
+    )
     parser.add_argument("--regions", nargs="+", default=["tokyo", "kanagawa", "saitama", "chiba"])
     parser.add_argument("--processed-dir", type=Path, default=Path("data/processed"))
     parser.add_argument(
