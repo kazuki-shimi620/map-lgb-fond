@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState, type FormEvent } from "react";
 import { CircleMarker, MapContainer, Marker, TileLayer, Tooltip, useMap, useMapEvents } from "react-leaflet";
-import { Icon, type LatLngExpression } from "leaflet";
+import { DivIcon, Icon, type LatLngExpression } from "leaflet";
 import markerIcon2xUrl from "leaflet/dist/images/marker-icon-2x.png";
 import markerIconUrl from "leaflet/dist/images/marker-icon.png";
 import markerShadowUrl from "leaflet/dist/images/marker-shadow.png";
@@ -55,6 +55,8 @@ type Props = {
 
 const SEARCH_FLY_TO_DURATION_MS = 800;
 const MAX_VISIBLE_FACILITY_MARKERS = 1200;
+const FACILITY_CLUSTER_MAX_ZOOM = 10;
+const FACILITY_CLUSTER_GRID_SIZE_PX = 72;
 
 type MapViewport = {
   north: number;
@@ -63,6 +65,15 @@ type MapViewport = {
   west: number;
   centerLat: number;
   centerLon: number;
+  zoom: number;
+};
+
+type FacilityCluster = {
+  id: string;
+  lat: number;
+  lon: number;
+  count: number;
+  categoryId: NearbyFacilityCategoryId;
 };
 
 const propertyMarkerIcon = new Icon({
@@ -109,7 +120,8 @@ function ViewportTracker({ onChange }: { onChange: (viewport: MapViewport) => vo
       east: bounds.getEast(),
       west: bounds.getWest(),
       centerLat: center.lat,
-      centerLon: center.lng
+      centerLon: center.lng,
+      zoom: map.getZoom()
     });
   }, [map, onChange]);
 
@@ -137,6 +149,99 @@ function isFacilityInViewport(facility: NearbyFacilityPoint, viewport: MapViewpo
     facility.lat >= viewport.south &&
     facility.lat <= viewport.north &&
     isLongitudeInBounds(facility.lon, viewport.west, viewport.east)
+  );
+}
+
+function projectToWorldPixel(lat: number, lon: number, zoom: number) {
+  const scale = 256 * 2 ** zoom;
+  const sinLat = Math.sin((Math.max(-85.05112878, Math.min(85.05112878, lat)) * Math.PI) / 180);
+  return {
+    x: ((lon + 180) / 360) * scale,
+    y: (0.5 - Math.log((1 + sinLat) / (1 - sinLat)) / (4 * Math.PI)) * scale
+  };
+}
+
+function clusterFacilities(facilities: NearbyFacilityPoint[], zoom: number): FacilityCluster[] {
+  const clusters = new Map<
+    string,
+    {
+      latSum: number;
+      lonSum: number;
+      count: number;
+      categoryId: NearbyFacilityCategoryId;
+    }
+  >();
+
+  for (const facility of facilities) {
+    const pixel = projectToWorldPixel(facility.lat, facility.lon, zoom);
+    const gridX = Math.floor(pixel.x / FACILITY_CLUSTER_GRID_SIZE_PX);
+    const gridY = Math.floor(pixel.y / FACILITY_CLUSTER_GRID_SIZE_PX);
+    const id = `${facility.categoryId}:${zoom}:${gridX}:${gridY}`;
+    const current = clusters.get(id);
+    if (current) {
+      current.latSum += facility.lat;
+      current.lonSum += facility.lon;
+      current.count += 1;
+    } else {
+      clusters.set(id, {
+        latSum: facility.lat,
+        lonSum: facility.lon,
+        count: 1,
+        categoryId: facility.categoryId
+      });
+    }
+  }
+
+  return [...clusters.entries()].map(([id, cluster]) => ({
+    id,
+    lat: cluster.latSum / cluster.count,
+    lon: cluster.lonSum / cluster.count,
+    count: cluster.count,
+    categoryId: cluster.categoryId
+  }));
+}
+
+function createFacilityClusterIcon(count: number, categoryColor: string) {
+  const intensity = Math.min(1, Math.log10(count + 1) / 2.5);
+  const size = Math.round(34 + intensity * 34);
+  const fillOpacity = (0.62 + intensity * 0.3).toFixed(2);
+  const color = /^#[0-9a-f]{6}$/i.test(categoryColor) ? categoryColor : "#0f766e";
+
+  return new DivIcon({
+    className: "facility-cluster-icon-wrapper",
+    html: `<span class="facility-cluster-icon" style="--cluster-size:${size}px;--cluster-color:${color};--cluster-opacity:${fillOpacity}">${count}</span>`,
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2]
+  });
+}
+
+function FacilityClusterMarker({
+  cluster,
+  color,
+  label
+}: {
+  cluster: FacilityCluster;
+  color: string;
+  label: string;
+}) {
+  const map = useMap();
+  return (
+    <Marker
+      position={[cluster.lat, cluster.lon]}
+      icon={createFacilityClusterIcon(cluster.count, color)}
+      eventHandlers={{
+        click(event) {
+          event.originalEvent.stopPropagation();
+          map.flyTo([cluster.lat, cluster.lon], Math.min(map.getZoom() + 2, FACILITY_CLUSTER_MAX_ZOOM + 1), {
+            duration: 0.45
+          });
+        }
+      }}
+    >
+      <Tooltip direction="top" offset={[0, -18]}>
+        {label}: この範囲に{cluster.count.toLocaleString("ja-JP")}件
+      </Tooltip>
+    </Marker>
   );
 }
 
@@ -189,6 +294,17 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
       })
       .slice(0, MAX_VISIBLE_FACILITY_MARKERS);
   }, [activeFacilityPoints, mapViewport]);
+  const facilityClusters = useMemo(() => {
+    if (!mapViewport || mapViewport.zoom > FACILITY_CLUSTER_MAX_ZOOM) {
+      return [];
+    }
+    const inBounds = activeFacilityPoints.filter((facility) =>
+      isFacilityInViewport(facility, mapViewport)
+    );
+    return clusterFacilities(inBounds, mapViewport.zoom);
+  }, [activeFacilityPoints, mapViewport]);
+  const showFacilityClusters =
+    mapViewport !== null && mapViewport.zoom <= FACILITY_CLUSTER_MAX_ZOOM;
   const facilityStationInfoById = useMemo(() => {
     const result = new Map<string, { stationName: string; walkingMinutes: number }>();
     if (!locationSummary || stations.length === 0) {
@@ -413,7 +529,19 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
               zIndex={300 + index}
             />
           ))}
-          {visibleFacilityPoints.map((facility) => {
+          {showFacilityClusters
+            ? facilityClusters.map((cluster) => {
+                const category = facilityCategoryById.get(cluster.categoryId);
+                return (
+                  <FacilityClusterMarker
+                    key={cluster.id}
+                    cluster={cluster}
+                    color={category?.color ?? "#0f766e"}
+                    label={category?.label ?? "周辺施設"}
+                  />
+                );
+              })
+            : visibleFacilityPoints.map((facility) => {
             const category = facilityCategoryById.get(facility.categoryId);
             const color = category?.color ?? "#0f766e";
             const stationInfo = facilityStationInfoById.get(facility.id);

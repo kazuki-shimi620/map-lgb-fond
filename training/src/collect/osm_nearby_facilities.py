@@ -62,6 +62,28 @@ CATEGORY_TO_FILTERS = {
     "convenience_store": [('shop', 'convenience')],
     "park": [('leisure', 'park')],
     "cinema": [('amenity', 'cinema')],
+    "museum": [
+        ('tourism', 'museum'),
+        ('tourism', 'gallery'),
+    ],
+    "museum_node": [
+        ('tourism', 'museum'),
+        ('tourism', 'gallery'),
+    ],
+    "museum_way": [
+        ('tourism', 'museum'),
+        ('tourism', 'gallery'),
+    ],
+    "museum_relation": [
+        ('tourism', 'museum'),
+        ('tourism', 'gallery'),
+    ],
+    "museum_only_node": [('tourism', 'museum')],
+    "gallery_only_node": [('tourism', 'gallery')],
+    "museum_only_way": [('tourism', 'museum')],
+    "gallery_only_way": [('tourism', 'gallery')],
+    "museum_only_relation": [('tourism', 'museum')],
+    "gallery_only_relation": [('tourism', 'gallery')],
     "hot_spring": [
         ('amenity', 'public_bath'),
         ('leisure', 'spa'),
@@ -125,7 +147,14 @@ def build_overpass_query(
         for key, value in CATEGORY_TO_FILTERS[category]:
             scope = "(area.searchArea)" if area_filter else f"({south},{west},{north},{east})"
             selector = f'["{key}"="{value}"]{scope}'
-            element_types = ("node",) if category.endswith("_node") else ("node", "way", "relation")
+            if category.endswith("_node"):
+                element_types = ("node",)
+            elif category.endswith("_way"):
+                element_types = ("way",)
+            elif category.endswith("_relation"):
+                element_types = ("relation",)
+            else:
+                element_types = ("node", "way", "relation")
             clauses.extend(f"{element_type}{selector};" for element_type in element_types)
     joined = "\n  ".join(clauses)
     output = "out center tags geom;" if include_geometry else "out center tags;"
@@ -436,6 +465,7 @@ def normalize_overpass_element(element: dict[str, Any]) -> dict[str, Any] | None
             "convenience_store": "コンビニ",
             "park": "公園",
             "cinema": "映画館",
+            "museum": "美術館・博物館",
             "hot_spring": "温泉・入浴施設",
         }[category_id]
     address = build_address(tags)
@@ -506,6 +536,8 @@ def category_from_tags(tags: dict[str, Any]) -> str | None:
         return "convenience_store"
     if _text(tags.get("amenity")) == "cinema":
         return "cinema"
+    if _text(tags.get("tourism")) in {"museum", "gallery"}:
+        return "museum"
     if (
         _text(tags.get("amenity")) == "public_bath"
         or _text(tags.get("leisure")) == "spa"

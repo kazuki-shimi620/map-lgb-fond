@@ -297,6 +297,51 @@ def test_build_overpass_query_contains_cinema_and_hot_spring_filters() -> None:
     assert 'way["amenity"="public_bath"]' not in node_query
 
 
+def test_build_and_normalize_museum_query() -> None:
+    query = build_overpass_query(
+        categories=["museum"],
+        south=20.4,
+        west=122.9,
+        north=45.6,
+        east=154.0,
+        timeout_seconds=180,
+    )
+    assert '["tourism"="museum"]' in query
+    assert '["tourism"="gallery"]' in query
+
+    rows = normalize_overpass_elements(
+        [
+            {
+                "type": "node",
+                "id": 10,
+                "lat": 35.0,
+                "lon": 135.0,
+                "tags": {"tourism": "museum", "name": "歴史博物館"},
+            },
+            {
+                "type": "node",
+                "id": 11,
+                "lat": 35.1,
+                "lon": 135.1,
+                "tags": {"tourism": "gallery"},
+            },
+        ]
+    )
+    assert [row["category_id"] for row in rows] == ["museum", "museum"]
+    assert rows[1]["name"] == "美術館・博物館"
+
+    way_query = build_overpass_query(
+        categories=["museum_way"],
+        south=20.4,
+        west=122.9,
+        north=45.6,
+        east=154.0,
+        timeout_seconds=180,
+    )
+    assert 'way["tourism"="museum"]' in way_query
+    assert 'node["tourism"="museum"]' not in way_query
+
+
 def test_build_overpass_query_can_limit_to_japan_administrative_area() -> None:
     query = build_overpass_query(
         categories=["cinema"],

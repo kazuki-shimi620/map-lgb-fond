@@ -23,7 +23,7 @@ CATEGORIES = [
     {
         "id": "commercial_facility",
         "label": "商業施設",
-        "color": "#9333ea",
+        "color": "#7c3aed",
         "enabled": True,
         "sourceLabel": "日本ショッピングセンター協会（JCSC）公開PDF・年別ページを基に独自生成",
         "sourceUrl": "https://www.jcsc.or.jp/sc_data/sc_open/sc_list",
@@ -45,7 +45,7 @@ CATEGORIES = [
     {
         "id": "cinema",
         "label": "映画館",
-        "color": "#2563eb",
+        "color": "#0284c7",
         "enabled": True,
         "sourceLabel": "OpenStreetMap contributors",
         "sourceUrl": "https://www.openstreetmap.org/copyright",
@@ -53,9 +53,19 @@ CATEGORIES = [
         "coverageArea": "全国（OpenStreetMap登録施設）",
     },
     {
+        "id": "museum",
+        "label": "美術館・博物館",
+        "color": "#16a34a",
+        "enabled": True,
+        "sourceLabel": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "licenseLabel": "Open Database License (ODbL)",
+        "coverageArea": "全国9地方（OpenStreetMap登録施設、取得失敗セルは継続補完）",
+    },
+    {
         "id": "hot_spring",
         "label": "温泉・入浴",
-        "color": "#db2777",
+        "color": "#ea580c",
         "enabled": True,
         "sourceLabel": "OpenStreetMap contributors",
         "sourceUrl": "https://www.openstreetmap.org/copyright",

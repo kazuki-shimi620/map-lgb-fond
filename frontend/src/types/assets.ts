@@ -200,6 +200,7 @@ export type NearbyFacilityCategoryId =
   | "park"
   | "convenience_store"
   | "cinema"
+  | "museum"
   | "hot_spring";
 
 export type NearbyFacilityCategory = {
