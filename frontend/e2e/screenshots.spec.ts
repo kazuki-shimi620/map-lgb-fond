@@ -37,6 +37,27 @@ test("README用デスクトップ画面を生成する", async ({ page }) => {
   });
 });
 
+test("README用の全国施設クラスター画面を生成する", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await mockSuccessfulGeocoding(page);
+  const predictionPage = new PredictionPage(page);
+  await predictionPage.goto();
+  await predictionPage.expectLoaded();
+
+  const zoomOut = page.getByRole("button", { name: "Zoom out" });
+  for (let index = 0; index < 7; index += 1) {
+    await zoomOut.click();
+    await page.waitForTimeout(350);
+  }
+  await page.locator(".facility-cluster-icon").first().waitFor({ state: "visible" });
+
+  await page.screenshot({
+    path: path.join(screenshotsDir, "app-japan-facility-clusters.png"),
+    fullPage: true,
+    animations: "disabled"
+  });
+});
+
 test("README用の予測結果画像を生成する", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   const predictionPage = new PredictionPage(page);
@@ -44,6 +65,24 @@ test("README用の予測結果画像を生成する", async ({ page }) => {
 
   await predictionPage.predictionResult.screenshot({
     path: path.join(screenshotsDir, "app-prediction-result.png"),
+    animations: "disabled"
+  });
+});
+
+test("README用の周辺施設情報画面を生成する", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 1000 });
+  const predictionPage = new PredictionPage(page);
+  await prepareReadmeView(predictionPage);
+
+  const facilityCard = page.getByTestId("commercial-facility-card");
+  await facilityCard.scrollIntoViewIfNeeded();
+  await facilityCard.getByText("周辺商業施設の一覧", { exact: true }).waitFor({
+    state: "visible"
+  });
+
+  await page.screenshot({
+    path: path.join(screenshotsDir, "app-nearby-facilities.png"),
+    fullPage: true,
     animations: "disabled"
   });
 });
