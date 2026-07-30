@@ -76,6 +76,7 @@ def municipality_from_address(address: str, prefecture: str) -> str:
 
 
 def normalize_prefecture(value: str) -> str:
+    value = value.strip()
     if value == "東京":
         return "東京都"
     if value in {"京都", "大阪"}:
@@ -217,7 +218,7 @@ def parse_united(text: str, confirmed_at: str) -> list[dict[str, str]]:
         address_html = address_match.group(1) if address_match else ""
         address = strip_tags(address_html)
         pref_match = re.search(r"(北海道|東京都|大阪府|京都府|.{2,3}県)", address)
-        prefecture = pref_match.group(1) if pref_match else ""
+        prefecture = normalize_prefecture(pref_match.group(1) if pref_match else "")
         mall_parts = re.split(r"<br\s*/?>", address_html, flags=re.IGNORECASE)
         mall_match = re.search(r"(.+?)\s*内\s*$", strip_tags(mall_parts[-1]))
         mall_name = mall_match.group(1).strip() if len(mall_parts) > 1 and mall_match else ""

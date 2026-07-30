@@ -145,6 +145,24 @@ make collect-cinema-osm-national
 make enrich-cinemas
 ```
 
+`make enrich-cinemas` は未照合館の全件CSVに加え、5スクリーン以上または
+大型商業施設併設情報を持つ館だけを抽出した
+`training/data/processed/cinemas/official_chain_cinemas_priority_review.csv` を生成する。
+施設単位の追加調査はこの優先CSVに限定し、全未照合館を手動検索しない。
+
+優先レビュー館は公式住所をNominatimで座標化する。dry-runで対象件数を確認してから
+1秒間隔で取得し、レスポンスを映画館ID・クエリ単位でキャッシュする。住所全文で候補が
+ない場合だけ施設名と都道府県へフォールバックし、都道府県不一致の候補は採用しない。
+さらに併設施設名の表記揺れを正規化し、市区町村一致を必須とする。NominatimとJCSCの
+どちらにも候補がない場合だけ、公式ページの地図リンク座標を
+`training/data/manual/cinemas/cinema_coordinates.csv` に記録する。
+
+```bash
+make collect-cinema-coordinates-dry-run
+make collect-cinema-coordinates
+make enrich-cinemas
+```
+
 日本の外接矩形による取得では1,171要素が返ったが、韓国など国外施設を含むため
 全国件数としては不採用とした。その後、日本のOSM行政区域IDを直接指定する
 1リクエスト方式で国内520要素の取得に成功した。地図用JSONには全国520要素を採用し、
@@ -172,10 +190,10 @@ make collect-museums-national
 make nearby-facilities
 ```
 
-2026-07-28の初回取得では全9地方から4,233行を取得し、地方境界の重複を除いた3,947件を
-地図用JSONへ反映した。Overpass APIのレート制限で未取得のセルが残るため、全国完全取得とは
-扱わず、キャッシュ再実行で継続補完する。統合後の地図用JSONは美術館・博物館3,947件、
-映画館520件、温泉・入浴施設2,969件、商業施設2,911件の計10,347件である。
+2026-07-29のキャッシュ再実行では、Overpass APIで失敗したセルを115件から28件まで削減し、
+地方境界の重複を除いた6,616件を地図用JSONへ反映した。未取得セルが残るため全国完全取得とは
+扱わず、引き続きキャッシュ再実行で補完する。統合後の地図用JSONは美術館・博物館6,616件、
+映画館520件、温泉・入浴施設2,969件、商業施設2,911件の計13,016件である。
 
 正規化項目:
 

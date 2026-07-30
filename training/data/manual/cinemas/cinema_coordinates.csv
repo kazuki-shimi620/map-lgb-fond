@@ -1,0 +1,2 @@
+cinema_id,name,prefecture,address,lat,lon,display_name,osm_type,osm_id,source_url,source_type,confidence,verified_at
+united:makuhari,ユナイテッド・シネマ幕張,千葉県,千葉県千葉市美浜区ひび野1-8,35.6499867,140.0426445,ユナイテッド・シネマ幕張,,,https://www.unitedcinemas.jp/makuhari/about-theater.html,official_map_link,high,2026-07-29
