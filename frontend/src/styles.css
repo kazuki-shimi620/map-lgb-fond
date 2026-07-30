@@ -1435,6 +1435,7 @@ dd {
     border-radius: 0;
     width: auto;
     box-shadow: none;
+    padding-inline: 0;
     padding-bottom: calc(12px + env(safe-area-inset-bottom));
     transition: max-height 320ms ease;
   }
@@ -1449,6 +1450,14 @@ dd {
 
   .sheet-stack.sheet-collapsed > :not(.sheet-header) {
     display: none;
+  }
+
+  .sheet-stack.sheet-collapsed > .prediction-workflow {
+    display: contents;
+  }
+
+  .sheet-stack.sheet-collapsed > .supporting-info-section {
+    display: grid;
   }
 
   .sheet-stack.sheet-half {

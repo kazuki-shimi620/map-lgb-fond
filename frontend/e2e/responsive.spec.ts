@@ -92,6 +92,26 @@ test.describe("レスポンシブ表示", () => {
     await predictionPage.clickMapCenter();
     await expect(predictionPage.locationTooltip).toContainText("駅徒歩");
 
+    const formMatchesSheetWidth = await page.evaluate(() => {
+      const sheet = document.querySelector('[data-testid="prediction-sheet"]');
+      const form = document.querySelector('[data-testid="prediction-form"]');
+      if (!sheet || !form) {
+        return false;
+      }
+      const sheetRect = sheet.getBoundingClientRect();
+      const formRect = form.getBoundingClientRect();
+      return (
+        Math.abs(formRect.left - sheetRect.left) <= 1 &&
+        Math.abs(formRect.right - sheetRect.right) <= 1
+      );
+    });
+    expect(formMatchesSheetWidth).toBe(true);
+
+    await predictionPage.openDetailsPanel();
+    await page.getByTestId("sheet-handle").click();
+    await expect(page.getByTestId("prediction-sheet")).toHaveClass(/sheet-collapsed/);
+    await expect(page.getByTestId("prediction-form")).toHaveCSS("display", "grid");
+
     const hasHorizontalOverflow = await page.evaluate(
       () => document.documentElement.scrollWidth > document.documentElement.clientWidth
     );
