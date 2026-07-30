@@ -17,6 +17,7 @@ async function prepareReadmeView(page: PredictionPage) {
   await mockSuccessfulGeocoding(page.page);
   await page.goto();
   await page.expectLoaded();
+  await page.openDetailsPanel();
   await page.waitForPredictionResult();
 }
 
@@ -64,6 +65,7 @@ test("README用スマートフォン画面を生成する", async ({ page }) => 
   const predictionPage = new PredictionPage(page);
   await predictionPage.goto();
   await predictionPage.clickMapCenter();
+  await predictionPage.openDetailsPanel();
   await predictionPage.waitForPredictionResult();
 
   await page.screenshot({
