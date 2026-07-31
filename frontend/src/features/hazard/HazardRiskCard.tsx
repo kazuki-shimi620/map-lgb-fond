@@ -55,7 +55,7 @@ export function HazardRiskCard({ latitude, longitude, assessment = null }: Props
       </dl>
 
       <p className="hazard-note">
-        初期MVPでは価格補正には使用せず、洪水レイヤーを地図上に重ねて確認します。地点ごとの数値判定は後続で追加します。
+        ハザード情報は価格補正には使用していません。洪水・土砂災害レイヤーを地図上に重ね、公式情報と合わせて安全性の参考として確認してください。
       </p>
 
       <div className="hazard-links">
