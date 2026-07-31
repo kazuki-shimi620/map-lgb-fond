@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import json
+
 import pytest
 
 from collect.station_passengers import (
@@ -7,6 +9,7 @@ from collect.station_passengers import (
     Tile,
     aggregate_passenger_counts,
     aggregate_station_groups,
+    build_station_index_tiles,
     calculate_log_passenger_count,
     calculate_station_rank,
     enumerate_tiles,
@@ -15,6 +18,24 @@ from collect.station_passengers import (
     normalize_station_name,
     passenger_year_fields,
 )
+
+
+def test_build_station_index_tiles_deduplicates_station_coordinates(tmp_path) -> None:
+    (tmp_path / "tokyo_stations.json").write_text(
+        json.dumps(
+            [
+                {"lat": 35.681236, "lon": 139.767125},
+                {"lat": 35.681236, "lon": 139.767125},
+                {"lat": "invalid", "lon": 139.7},
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    tiles = build_station_index_tiles(tmp_path, 11)
+
+    assert len(tiles) == 1
+    assert tiles[0].z == 11
 
 
 def test_lat_lon_to_tile_and_enumerate_tiles() -> None:

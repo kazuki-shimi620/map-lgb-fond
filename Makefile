@@ -383,10 +383,10 @@ collect-station-passengers-dry-run:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area $(PASSENGER_AREA) --zoom $(PASSENGER_ZOOM) --dry-run
 
 collect-station-passengers-national:
-	$(MAKE) collect-station-passengers PASSENGER_AREA=japan PASSENGER_ZOOM=$(PASSENGER_NATIONAL_ZOOM) PASSENGER_REQUEST_INTERVAL_SECONDS=$(PASSENGER_REQUEST_INTERVAL_SECONDS)
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area japan --zoom $(PASSENGER_NATIONAL_ZOOM) --station-index-dir ../frontend/public/stations --request-interval-seconds $(PASSENGER_REQUEST_INTERVAL_SECONDS) --cache
 
 collect-station-passengers-national-dry-run:
-	$(MAKE) collect-station-passengers-dry-run PASSENGER_AREA=japan PASSENGER_ZOOM=$(PASSENGER_NATIONAL_ZOOM)
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area japan --zoom $(PASSENGER_NATIONAL_ZOOM) --station-index-dir ../frontend/public/stations --dry-run
 
 collect-land-prices:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/land_prices.py --area $(LAND_PRICE_AREA) --zoom $(LAND_PRICE_ZOOM) --years "$(LAND_PRICE_YEARS)" --use-category-codes "$(LAND_PRICE_USE_CATEGORY_CODES)" --request-interval-seconds $(LAND_PRICE_REQUEST_INTERVAL_SECONDS) --cache

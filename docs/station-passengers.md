@@ -71,6 +71,19 @@ make collect-station-passengers PASSENGER_AREA=capital
 
 全国取得はリクエスト数が多くなるため、初期検証では `capital` または `--tile` を優先する。
 
+全国取得では全国矩形をそのまま列挙せず、`frontend/public/stations` の全国駅マスタに
+含まれる座標から対象タイルを抽出する。z11では矩形方式18,477タイルに対し、
+駅マスタ方式は1,056タイルとなる。2026-07-31時点のキャッシュを考慮したdry-runは
+960リクエストで、既定の1秒間隔では最低約16分を見込む。
+
+```bash
+make collect-station-passengers-national-dry-run
+make collect-station-passengers-national
+```
+
+駅マスタに存在しない駅を新たに発見する用途には使えないため、駅マスタ更新後は
+必ずdry-run件数を再確認する。
+
 ---
 
 # 4. 保存先
