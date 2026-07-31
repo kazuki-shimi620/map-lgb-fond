@@ -28,6 +28,7 @@ from train.model import train_model  # noqa: E402
 class PoiCandidate:
     name: str
     categories: tuple[str, ...]
+    include_hazards: bool = False
 
 
 CANDIDATES = [
@@ -37,7 +38,10 @@ CANDIDATES = [
     PoiCandidate("museum", ("museum",)),
     PoiCandidate("hot_spring", ("hot_spring",)),
     PoiCandidate("all_nearby_pois", POI_CATEGORIES),
+    PoiCandidate("hazards", (), True),
+    PoiCandidate("all_nearby_pois_hazards", POI_CATEGORIES, True),
 ]
+HAZARD_FEATURES = ["flood_risk_level", "landslide_risk_level"]
 
 
 def main() -> int:
@@ -52,9 +56,9 @@ def main() -> int:
         default=Path("../frontend/public/facilities/nearby_facilities.json"),
     )
     parser.add_argument(
-        "--hazards-csv",
+        "--hazard-point-dir",
         type=Path,
-        default=Path("data/processed/hazards/hazard_features.csv"),
+        default=Path("data/processed/hazard_point_features"),
     )
     parser.add_argument(
         "--output-dir", type=Path, default=Path("outputs/comparisons/nearby_poi_dry_run")
@@ -69,7 +73,7 @@ def main() -> int:
         regions=args.regions,
         processed_dir=args.processed_dir,
         nearby_facilities_json=args.nearby_facilities_json,
-        hazards_csv=args.hazards_csv,
+        hazard_point_dir=args.hazard_point_dir,
         output_dir=args.output_dir,
         sample_size=args.sample_size,
         random_seed=args.random_seed,
@@ -85,7 +89,7 @@ def compare_nearby_poi_features(
     regions: list[str],
     processed_dir: Path,
     nearby_facilities_json: Path,
-    hazards_csv: Path,
+    hazard_point_dir: Path,
     output_dir: Path,
     sample_size: int,
     random_seed: int,
@@ -115,6 +119,9 @@ def compare_nearby_poi_features(
     pois = load_nearby_pois_json(nearby_facilities_json)
     started = time.perf_counter()
     data = add_nearby_poi_features(data, pois)
+    hazard_features = _load_hazard_features(hazard_point_dir)
+    data = data.merge(hazard_features, on=["lat", "lon"], how="left")
+    data[HAZARD_FEATURES] = data[HAZARD_FEATURES].fillna(0.0)
     feature_seconds = time.perf_counter() - started
 
     rows = [_backtest_candidate(candidate, data, test_years) for candidate in CANDIDATES]
@@ -145,11 +152,11 @@ def compare_nearby_poi_features(
         "nearbyFacilitiesJson": str(nearby_facilities_json),
         "poiCounts": category_counts,
         "featureGenerationSeconds": feature_seconds,
-        "hazardsCsv": str(hazards_csv),
-        "hazardEnabled": hazards_csv.exists(),
+        "hazardPointDir": str(hazard_point_dir),
+        "hazardEnabled": not hazard_features.empty,
         "hazardStatus": (
-            "地点別数値CSVを検出"
-            if hazards_csv.exists()
+            f"地点別数値CSVを検出（{len(hazard_features):,}座標）"
+            if not hazard_features.empty
             else "地図用ラスタのみで地点別数値CSVが未作成のため比較対象外"
         ),
         "candidates": rows,
@@ -168,6 +175,8 @@ def _backtest_candidate(
     features = list(BASE_FEATURES)
     for category in candidate.categories:
         features.extend(feature_names(category))
+    if candidate.include_hazards:
+        features.extend(HAZARD_FEATURES)
     encoding = build_and_apply_category_dictionary(data, list(BASE_CATEGORICAL_FEATURES))
     encoded = encoding.dataframe
 
@@ -218,6 +227,7 @@ def _backtest_candidate(
     return {
         "candidate": candidate.name,
         "categories": list(candidate.categories),
+        "includeHazards": candidate.include_hazards,
         "features": features,
         "metrics": _weighted_metrics(folds),
         "perRegion": _weighted_region_metrics(folds),
@@ -225,6 +235,20 @@ def _backtest_candidate(
         "trainingSeconds": time.perf_counter() - started,
         "featureImportance": _average_feature_importance(folds),
     }
+
+
+def _load_hazard_features(hazard_point_dir: Path):
+    import pandas as pd
+
+    flood_path = hazard_point_dir / "flood" / "hazard_point_features.csv"
+    landslide_path = hazard_point_dir / "landslide" / "hazard_point_features.csv"
+    if not flood_path.exists() or not landslide_path.exists():
+        return pd.DataFrame(columns=["lat", "lon", *HAZARD_FEATURES])
+    flood = pd.read_csv(flood_path, usecols=["lat", "lon", "flood_risk_level"])
+    landslide = pd.read_csv(
+        landslide_path, usecols=["lat", "lon", "landslide_risk_level"]
+    )
+    return flood.merge(landslide, on=["lat", "lon"], how="outer")
 
 
 def _feature_importance(model, features: list[str]) -> list[dict[str, object]]:

@@ -144,7 +144,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-sc-pdf audit-sc-pdf-months collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-medical-facilities collect-medical-facilities-dry-run collect-medical-facilities-tile collect-osm-nearby-facilities collect-osm-nearby-facilities-dry-run collect-osm-park-areas collect-cinema-chains collect-cinema-osm-national collect-hot-springs-national collect-museums-national collect-cinema-coordinates collect-cinema-coordinates-dry-run enrich-cinemas collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities enrich-sc-pdf-candidates commercial-facility-manual-template train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-nearby-poi-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-sc-pdf audit-sc-pdf-months collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-medical-facilities collect-medical-facilities-dry-run collect-medical-facilities-tile collect-osm-nearby-facilities collect-osm-nearby-facilities-dry-run collect-osm-park-areas collect-cinema-chains collect-cinema-osm-national collect-hot-springs-national collect-museums-national collect-cinema-coordinates collect-cinema-coordinates-dry-run enrich-cinemas collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-hazard-tiles collect-hazard-tiles-dry-run collect-hazard-property-tiles-dry-run collect-hazard-point-features collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities enrich-sc-pdf-candidates commercial-facility-manual-template train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-nearby-poi-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -512,6 +512,18 @@ collect-hazards:
 		echo "HAZARD_INPUT or HAZARD_URL is required"; \
 		exit 1; \
 	fi
+
+collect-hazard-tiles:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/hazard_tiles.py --continue-on-error
+
+collect-hazard-tiles-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/hazard_tiles.py --dry-run
+
+collect-hazard-property-tiles-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/hazard_tiles.py --property-tiles --dry-run
+
+collect-hazard-point-features:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/hazard_point_features.py
 
 collect-data: collect-property collect-sc-all collect-station-passengers
 
