@@ -1637,7 +1637,7 @@ dd {
 
   .mobile-map-layer-controls {
     position: absolute;
-    z-index: 520;
+    z-index: 1250;
     top: 62px;
     left: 10px;
     display: flex;

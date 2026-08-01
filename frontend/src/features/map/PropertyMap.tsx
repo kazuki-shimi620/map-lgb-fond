@@ -15,6 +15,11 @@ import type {
   NearbyFacilityPoint,
   StationRecord
 } from "../../types/assets";
+import {
+  buildFacilitySpatialIndex,
+  queryFacilitySpatialIndex
+} from "./facilitySpatialIndex";
+import { scheduleIdleTask } from "../../utils/idleTask";
 
 type HazardLayerDefinition = {
   id: string;
@@ -184,21 +189,6 @@ function ViewportTracker({ onChange }: { onChange: (viewport: MapViewport) => vo
   return null;
 }
 
-function isLongitudeInBounds(lon: number, west: number, east: number) {
-  if (west <= east) {
-    return lon >= west && lon <= east;
-  }
-  return lon >= west || lon <= east;
-}
-
-function isFacilityInViewport(facility: NearbyFacilityPoint, viewport: MapViewport) {
-  return (
-    facility.lat >= viewport.south &&
-    facility.lat <= viewport.north &&
-    isLongitudeInBounds(facility.lon, viewport.west, viewport.east)
-  );
-}
-
 function projectToWorldPixel(lat: number, lon: number, zoom: number) {
   const scale = 256 * 2 ** zoom;
   const sinLat = Math.sin((Math.max(-85.05112878, Math.min(85.05112878, lat)) * Math.PI) / 180);
@@ -321,32 +311,43 @@ export function PropertyMap({
   );
   const activeHazardLayers = hazardLayers.filter((layer) => activeHazardLayerIds.has(layer.id));
   const isAnyHazardLayerActive = activeHazardLayers.length > 0;
-  const activeFacilityPoints = useMemo(() => {
-    if (!nearbyFacilities) {
-      return [];
+  const facilitySpatialIndex = useMemo(
+    () => buildFacilitySpatialIndex(nearbyFacilities?.facilities ?? []),
+    [nearbyFacilities]
+  );
+  const facilityFilterIdByFacilityId = useMemo(() => {
+    const result = new Map<string, FacilityFilterId | null>();
+    for (const facility of nearbyFacilities?.facilities ?? []) {
+      result.set(facility.id, facilityFilterId(facility));
     }
-    return nearbyFacilities.facilities.filter((facility) => {
-      if (!activeFacilityCategoryIds.has(facility.categoryId)) {
-        return false;
-      }
-      const filterId = facilityFilterId(facility);
-      return filterId === null || activeFacilityFilterIds.has(filterId);
-    });
-  }, [activeFacilityCategoryIds, activeFacilityFilterIds, nearbyFacilities]);
-  const visibleFacilityPoints = useMemo(() => {
+    return result;
+  }, [nearbyFacilities]);
+  const facilitiesInViewport = useMemo(() => {
     if (!mapViewport) {
       return [];
     }
-
-    const inBounds = activeFacilityPoints.filter((facility) =>
-      isFacilityInViewport(facility, mapViewport)
-    );
-
-    if (inBounds.length <= MAX_VISIBLE_FACILITY_MARKERS) {
-      return inBounds;
+    return queryFacilitySpatialIndex(facilitySpatialIndex, mapViewport).filter((facility) => {
+      if (!activeFacilityCategoryIds.has(facility.categoryId)) {
+        return false;
+      }
+      const filterId = facilityFilterIdByFacilityId.get(facility.id) ?? null;
+      return filterId === null || activeFacilityFilterIds.has(filterId);
+    });
+  }, [
+    activeFacilityCategoryIds,
+    activeFacilityFilterIds,
+    facilityFilterIdByFacilityId,
+    facilitySpatialIndex,
+    mapViewport
+  ]);
+  const visibleFacilityPoints = useMemo(() => {
+    if (!mapViewport || mapViewport.zoom <= FACILITY_CLUSTER_MAX_ZOOM) {
+      return [];
     }
-
-    return [...inBounds]
+    if (facilitiesInViewport.length <= MAX_VISIBLE_FACILITY_MARKERS) {
+      return facilitiesInViewport;
+    }
+    return [...facilitiesInViewport]
       .sort((a, b) => {
         const aDistance =
           (a.lat - mapViewport.centerLat) ** 2 + (a.lon - mapViewport.centerLon) ** 2;
@@ -355,16 +356,13 @@ export function PropertyMap({
         return aDistance - bDistance;
       })
       .slice(0, MAX_VISIBLE_FACILITY_MARKERS);
-  }, [activeFacilityPoints, mapViewport]);
+  }, [facilitiesInViewport, mapViewport]);
   const facilityClusters = useMemo(() => {
     if (!mapViewport || mapViewport.zoom > FACILITY_CLUSTER_MAX_ZOOM) {
       return [];
     }
-    const inBounds = activeFacilityPoints.filter((facility) =>
-      isFacilityInViewport(facility, mapViewport)
-    );
-    return clusterFacilities(inBounds, mapViewport.zoom);
-  }, [activeFacilityPoints, mapViewport]);
+    return clusterFacilities(facilitiesInViewport, mapViewport.zoom);
+  }, [facilitiesInViewport, mapViewport]);
   const showFacilityClusters =
     mapViewport !== null && mapViewport.zoom <= FACILITY_CLUSTER_MAX_ZOOM;
   const facilityStationInfoById = useMemo(() => {
@@ -470,10 +468,11 @@ export function PropertyMap({
       }
     }
 
-    loadMapLayers();
+    const cancelLoad = scheduleIdleTask(() => void loadMapLayers());
 
     return () => {
       disposed = true;
+      cancelLoad();
     };
   }, []);
 
