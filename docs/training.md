@@ -1053,6 +1053,15 @@ make collect-future-population-dry-run
 サンプル内の欠損はなかった。同程度の容量なら2,792タイルで約90MBになるため、
 raw GeoJSONをタイル単位で保存し、再開時は取得済みタイルをスキップする。
 
+取得処理はHTTP 429・5xxと一時的な通信失敗を再試行し、失敗タイルを
+`failed_tiles.json`、実行集計を `collection_summary.json` に保存する。少量確認には
+`--max-tiles` を指定できる。本実行コマンドは次のとおりだが、2,792リクエストの
+実行前にdry-run結果とAPI利用条件を確認する。
+
+```bash
+make collect-future-population
+```
+
 ---
 
 ## RailwayProvider
