@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState, type FormEvent } from "react";
+import { memo, useCallback, useEffect, useMemo, useState, type FormEvent } from "react";
 import { CircleMarker, MapContainer, Marker, TileLayer, Tooltip, useMap, useMapEvents } from "react-leaflet";
 import { DivIcon, Icon, type LatLngExpression } from "leaflet";
 import markerIcon2xUrl from "leaflet/dist/images/marker-icon-2x.png";
@@ -63,6 +63,8 @@ const SEARCH_FLY_TO_DURATION_MS = 800;
 const MAX_VISIBLE_FACILITY_MARKERS = 1200;
 const FACILITY_CLUSTER_MAX_ZOOM = 10;
 const FACILITY_CLUSTER_GRID_SIZE_PX = 72;
+const MAX_CLUSTER_ICON_CACHE_SIZE = 512;
+const facilityClusterIconCache = new Map<string, DivIcon>();
 
 type LayerPanel = "facilities" | "hazards";
 
@@ -243,16 +245,26 @@ function createFacilityClusterIcon(count: number, categoryColor: string) {
   const size = Math.round(34 + intensity * 34);
   const fillOpacity = (0.62 + intensity * 0.3).toFixed(2);
   const color = /^#[0-9a-f]{6}$/i.test(categoryColor) ? categoryColor : "#0f766e";
+  const cacheKey = `${count}:${color}`;
+  const cached = facilityClusterIconCache.get(cacheKey);
+  if (cached) {
+    return cached;
+  }
 
-  return new DivIcon({
+  const icon = new DivIcon({
     className: "facility-cluster-icon-wrapper",
     html: `<span class="facility-cluster-icon" style="--cluster-size:${size}px;--cluster-color:${color};--cluster-opacity:${fillOpacity}">${count}</span>`,
     iconSize: [size, size],
     iconAnchor: [size / 2, size / 2]
   });
+  if (facilityClusterIconCache.size >= MAX_CLUSTER_ICON_CACHE_SIZE) {
+    facilityClusterIconCache.clear();
+  }
+  facilityClusterIconCache.set(cacheKey, icon);
+  return icon;
 }
 
-function FacilityClusterMarker({
+const FacilityClusterMarker = memo(function FacilityClusterMarker({
   cluster,
   color,
   label
@@ -280,7 +292,7 @@ function FacilityClusterMarker({
       </Tooltip>
     </Marker>
   );
-}
+});
 
 export function PropertyMap({
   lat,
