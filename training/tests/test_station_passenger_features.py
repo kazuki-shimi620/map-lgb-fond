@@ -66,6 +66,47 @@ def test_add_station_passenger_features_uses_largest_same_name_station() -> None
     assert actual.loc[1, "station_rank"] == "unknown"
 
 
+def test_add_station_passenger_features_scopes_same_name_by_prefecture() -> None:
+    properties = pd.DataFrame(
+        [
+            {
+                "prefecture": "静岡県",
+                "station": "大森",
+                "station_distance": 5,
+                "transaction_year": 2025,
+            }
+        ]
+    )
+    stations = pd.DataFrame(
+        [
+            {
+                "prefecture": "東京都",
+                "normalized_station_name": "大森",
+                "latest_passenger_count": 10000,
+                "latest_passenger_year": 2023,
+                "rank": "D",
+                "log_passenger_count": math.log1p(10000),
+                "line_count": 1,
+                "operator_count": 1,
+            },
+            {
+                "prefecture": "静岡県",
+                "normalized_station_name": "大森",
+                "latest_passenger_count": 100,
+                "latest_passenger_year": 2023,
+                "rank": "E",
+                "log_passenger_count": math.log1p(100),
+                "line_count": 1,
+                "operator_count": 1,
+            },
+        ]
+    )
+
+    actual = add_station_passenger_features(properties, stations)
+
+    assert actual.loc[0, "station_passenger_count"] == 100
+
+
 def test_add_station_passenger_features_uses_nearest_same_name_station_when_coordinates_exist() -> (
     None
 ):

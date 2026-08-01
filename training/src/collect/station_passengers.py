@@ -538,6 +538,45 @@ def aggregate_station_groups(records: list[dict[str, Any]]) -> list[dict[str, An
     return sorted(groups, key=lambda group: group["stationGroupId"])
 
 
+def add_station_prefectures(
+    groups: list[dict[str, Any]], station_index_dir: Path
+) -> list[dict[str, Any]]:
+    candidates: dict[str, list[dict[str, Any]]] = {}
+    for path in sorted(station_index_dir.glob("*_stations.json")):
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(payload, list):
+            continue
+        for station in payload:
+            if not isinstance(station, dict):
+                continue
+            name = normalize_station_name(station.get("station_name"))
+            if name:
+                candidates.setdefault(name, []).append(station)
+    for group in groups:
+        location = group["location"]
+        matches = candidates.get(group["normalizedStationName"], [])
+        selected = _nearest_station_index(
+            matches, location["latitude"], location["longitude"]
+        )
+        group["prefecture"] = selected.get("prefecture", "") if selected else ""
+    return groups
+
+
+def _nearest_station_index(
+    candidates: list[dict[str, Any]], latitude: float, longitude: float
+) -> dict[str, Any] | None:
+    ranked = []
+    for station in candidates:
+        try:
+            station_lat = float(station["lat"])
+            station_lon = float(station["lon"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        distance = (station_lat - latitude) ** 2 + (station_lon - longitude) ** 2
+        ranked.append((distance, station))
+    return min(ranked, key=lambda item: item[0])[1] if ranked else None
+
+
 def calculate_station_rank(passenger_count: int | None) -> str | None:
     if passenger_count is None:
         return None
@@ -566,6 +605,7 @@ def build_summary(groups: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "id": group["stationGroupId"],
             "code": group["groupCode"],
             "name": group["stationName"],
+            "prefecture": group.get("prefecture", ""),
             "lat": group["location"]["latitude"],
             "lon": group["location"]["longitude"],
             "passengers": group["latestPassengerCount"],
@@ -587,6 +627,7 @@ def write_station_groups_csv(groups: list[dict[str, Any]], output_path: Path) ->
                 "group_code",
                 "station_name",
                 "normalized_station_name",
+                "prefecture",
                 "lat",
                 "lon",
                 "latest_passenger_count",
@@ -608,6 +649,7 @@ def write_station_groups_csv(groups: list[dict[str, Any]], output_path: Path) ->
                     "group_code": group["groupCode"],
                     "station_name": group["stationName"],
                     "normalized_station_name": group["normalizedStationName"],
+                    "prefecture": group.get("prefecture", ""),
                     "lat": group["location"]["latitude"],
                     "lon": group["location"]["longitude"],
                     "latest_passenger_count": group["latestPassengerCount"],
@@ -652,6 +694,7 @@ def collect_station_passengers(
     max_retries: int,
     request_interval_seconds: float,
     progress_interval: int,
+    station_index_dir: Path | None = None,
 ) -> dict[str, Path | int]:
     fetched_at = datetime.now(UTC).isoformat(timespec="seconds")
     raw_records = []
@@ -708,6 +751,8 @@ def collect_station_passengers(
 
     records = deduplicate_records(raw_records)
     groups = aggregate_station_groups(records)
+    if station_index_dir is not None:
+        groups = add_station_prefectures(groups, station_index_dir)
     metadata = {
         "schemaVersion": SCHEMA_VERSION,
         "source": {
@@ -822,6 +867,7 @@ def main() -> int:
             max_retries=args.max_retries,
             request_interval_seconds=args.request_interval_seconds,
             progress_interval=args.progress_interval,
+            station_index_dir=args.station_index_dir,
         )
     except (StationPassengerCollectError, ValueError) as error:
         print(f"station passenger collect failed: {error}", file=sys.stderr)
