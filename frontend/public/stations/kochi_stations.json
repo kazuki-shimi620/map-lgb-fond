@@ -5,7 +5,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.539893,
-    "lon": 133.721859
+    "lon": 133.721859,
+    "station_passenger_log": 4.962844630259907,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0087",
@@ -13,7 +17,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.504363,
-    "lon": 133.897671
+    "lon": 133.897671,
+    "station_passenger_log": 5.313205979041787,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0077",
@@ -21,7 +29,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.561649,
-    "lon": 133.698366
+    "lon": 133.698366,
+    "station_passenger_log": 7.218176838403408,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0095",
@@ -29,7 +41,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.559617,
-    "lon": 133.542852
+    "lon": 133.542852,
+    "station_passenger_log": 8.364042011922063,
+    "station_line_count": 4.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0078",
@@ -37,7 +53,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.546089,
-    "lon": 133.710352
+    "lon": 133.710352,
+    "station_passenger_log": 2.302585092994046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0100",
@@ -45,7 +65,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.55774,
-    "lon": 133.529356
+    "lon": 133.529356,
+    "station_passenger_log": 6.184148890937483,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0150",
@@ -53,7 +77,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.574833,
-    "lon": 133.613802
+    "lon": 133.613802,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0102",
@@ -61,7 +89,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.557489,
-    "lon": 133.525107
+    "lon": 133.525107,
+    "station_passenger_log": 5.5254529391317835,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0103",
@@ -69,7 +101,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.557382,
-    "lon": 133.522897
+    "lon": 133.522897,
+    "station_passenger_log": 6.025865973825314,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0105",
@@ -77,7 +113,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.557275,
-    "lon": 133.516674
+    "lon": 133.516674,
+    "station_passenger_log": 6.016157159698354,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0104",
@@ -85,7 +125,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.557382,
-    "lon": 133.519657
+    "lon": 133.519657,
+    "station_passenger_log": 4.976733742420574,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0090",
@@ -93,7 +137,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.458267,
-    "lon": 133.94837
+    "lon": 133.94837,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0121",
@@ -102,10 +150,10 @@
     "line_name": "土佐電伊野線",
     "lat": 33.551857,
     "lon": 133.452644,
-    "station_passenger_log": 11.223281469204906,
-    "station_line_count": 2.0,
-    "station_operator_count": 2.0,
-    "station_rank": "B"
+    "station_passenger_log": 3.9889840465642745,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0067",
@@ -113,7 +161,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道中村線",
     "lat": 32.984641,
-    "lon": 132.943927
+    "lon": 132.943927,
+    "station_passenger_log": 6.591673732008658,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0053",
@@ -121,7 +173,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.245097,
-    "lon": 133.161204
+    "lon": 133.161204,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0141",
@@ -129,7 +185,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.560243,
-    "lon": 133.583386
+    "lon": 133.583386,
+    "station_passenger_log": 5.541263545158426,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0056",
@@ -137,7 +197,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道中村線",
     "lat": 33.105169,
-    "lon": 133.098519
+    "lon": 133.098519,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0089",
@@ -145,7 +209,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.490952,
-    "lon": 133.929158
+    "lon": 133.929158,
+    "station_passenger_log": 3.970291913552122,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0034",
@@ -153,7 +221,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.547507,
-    "lon": 133.430128
+    "lon": 133.430128,
+    "station_passenger_log": 6.863803391452954,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0123",
@@ -161,7 +233,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.550569,
-    "lon": 133.444362
+    "lon": 133.444362,
+    "station_passenger_log": 3.737669618283368,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0127",
@@ -169,7 +245,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.548602,
-    "lon": 133.429663
+    "lon": 133.429663,
+    "station_passenger_log": 3.4339872044851463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0155",
@@ -177,7 +257,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.576656,
-    "lon": 133.636515
+    "lon": 133.636515,
+    "station_passenger_log": 3.8501476017100584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0041",
@@ -185,7 +269,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.500189,
-    "lon": 133.292741
+    "lon": 133.292741,
+    "station_passenger_log": 6.744059186311348,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0058",
@@ -193,7 +281,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道中村線",
     "lat": 33.064604,
-    "lon": 133.106582
+    "lon": 133.106582,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0028",
@@ -201,7 +293,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.567322,
-    "lon": 133.530298
+    "lon": 133.530298,
+    "station_passenger_log": 6.851184927493743,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0120",
@@ -209,7 +305,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.552214,
-    "lon": 133.456399
+    "lon": 133.456399,
+    "station_passenger_log": 4.454347296253507,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0052",
@@ -217,7 +317,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.261992,
-    "lon": 133.169339
+    "lon": 133.169339,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0074",
@@ -225,7 +329,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道宿毛線",
     "lat": 32.9794,
-    "lon": 132.915473
+    "lon": 132.915473,
+    "station_passenger_log": 4.1588830833596715,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0029",
@@ -233,7 +341,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.565816,
-    "lon": 133.520791
+    "lon": 133.520791,
+    "station_passenger_log": 6.431331081933479,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0124",
@@ -241,7 +353,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.549961,
-    "lon": 133.441336
+    "lon": 133.441336,
+    "station_passenger_log": 4.330733340286331,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0125",
@@ -249,7 +365,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.549425,
-    "lon": 133.438504
+    "lon": 133.438504,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0147",
@@ -257,7 +377,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.57376,
-    "lon": 133.603728
+    "lon": 133.603728,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0006",
@@ -265,7 +389,11 @@
     "prefecture": "高知県",
     "line_name": "JR予土線",
     "lat": 33.234869,
-    "lon": 132.855827
+    "lon": 132.855827,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0007",
@@ -273,7 +401,11 @@
     "prefecture": "高知県",
     "line_name": "JR予土線",
     "lat": 33.201666,
-    "lon": 132.791428
+    "lon": 132.791428,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0066",
@@ -281,7 +413,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道中村線",
     "lat": 32.985744,
-    "lon": 132.962036
+    "lon": 132.962036,
+    "station_passenger_log": 3.9318256327243257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0044",
@@ -289,7 +425,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.43027,
-    "lon": 133.295588
+    "lon": 133.295588,
+    "station_passenger_log": 4.61512051684126,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0083",
@@ -297,7 +437,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.51784,
-    "lon": 133.809739
+    "lon": 133.809739,
+    "station_passenger_log": 5.272999558563747,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0118",
@@ -305,7 +449,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.552393,
-    "lon": 133.470454
+    "lon": 133.470454,
+    "station_passenger_log": 4.23410650459726,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0091",
@@ -313,7 +461,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.446036,
-    "lon": 133.966263
+    "lon": 133.966263,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0073",
@@ -321,7 +473,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道宿毛線",
     "lat": 32.978932,
-    "lon": 132.883716
+    "lon": 132.883716,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0025",
@@ -329,7 +485,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.578974,
-    "lon": 133.577274
+    "lon": 133.577274,
+    "station_passenger_log": 6.785587645007929,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0061",
@@ -337,7 +497,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道中村線",
     "lat": 33.043013,
-    "lon": 133.056112
+    "lon": 133.056112,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0050",
@@ -345,7 +509,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.328972,
-    "lon": 133.226483
+    "lon": 133.226483,
+    "station_passenger_log": 5.3981627015177525,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0057",
@@ -353,7 +521,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道中村線",
     "lat": 33.080905,
-    "lon": 133.101517
+    "lon": 133.101517,
+    "station_passenger_log": 4.624972813284271,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0064",
@@ -361,7 +533,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道中村線",
     "lat": 33.023866,
-    "lon": 133.011636
+    "lon": 133.011636,
+    "station_passenger_log": 4.844187086458591,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0039",
@@ -369,7 +545,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.523558,
-    "lon": 133.321219
+    "lon": 133.321219,
+    "station_passenger_log": 4.919980925828125,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0015",
@@ -377,7 +557,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.714792,
-    "lon": 133.686312
+    "lon": 133.686312,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0004",
@@ -385,7 +569,11 @@
     "prefecture": "高知県",
     "line_name": "JR予土線",
     "lat": 33.194815,
-    "lon": 132.975612
+    "lon": 132.975612,
+    "station_passenger_log": 3.9318256327243257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0023",
@@ -393,7 +581,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.576661,
-    "lon": 133.612062
+    "lon": 133.612062,
+    "station_passenger_log": 6.769641976852503,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0019",
@@ -401,7 +593,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.607085,
-    "lon": 133.684664
+    "lon": 133.684664,
+    "station_passenger_log": 7.385851078125209,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0010",
@@ -409,7 +605,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.822582,
-    "lon": 133.788154
+    "lon": 133.788154,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0048",
@@ -417,7 +617,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.386369,
-    "lon": 133.278065
+    "lon": 133.278065,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0005",
@@ -425,7 +629,11 @@
     "prefecture": "高知県",
     "line_name": "JR予土線",
     "lat": 33.220047,
-    "lon": 132.897413
+    "lon": 132.897413,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0059",
@@ -433,7 +641,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道中村線",
     "lat": 33.05643,
-    "lon": 133.097452
+    "lon": 133.097452,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0013",
@@ -441,7 +653,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.779192,
-    "lon": 133.696126
+    "lon": 133.696126,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0021",
@@ -449,7 +665,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.591728,
-    "lon": 133.662219
+    "lon": 133.662219,
+    "station_passenger_log": 4.394449154672439,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0096",
@@ -457,7 +677,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.559546,
-    "lon": 133.539441
+    "lon": 133.539441,
+    "station_passenger_log": 6.721425700790643,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0045",
@@ -465,7 +689,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.410655,
-    "lon": 133.294641
+    "lon": 133.294641,
+    "station_passenger_log": 5.631211781821365,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0081",
@@ -473,7 +701,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.534347,
-    "lon": 133.754506
+    "lon": 133.754506,
+    "station_passenger_log": 5.247024072160486,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0014",
@@ -481,7 +713,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.761091,
-    "lon": 133.66445
+    "lon": 133.66445,
+    "station_passenger_log": 4.6913478822291435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0097",
@@ -489,7 +725,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.558974,
-    "lon": 133.536415
+    "lon": 133.536415,
+    "station_passenger_log": 7.152268856032539,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0012",
@@ -497,7 +737,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.785539,
-    "lon": 133.726552
+    "lon": 133.726552,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0046",
@@ -505,7 +749,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.406872,
-    "lon": 133.287666
+    "lon": 133.287666,
+    "station_passenger_log": 6.07993319509559,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0094",
@@ -513,7 +761,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.425187,
-    "lon": 134.018269
+    "lon": 134.018269,
+    "station_passenger_log": 5.799092654460526,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0119",
@@ -521,7 +773,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.551928,
-    "lon": 133.461227
+    "lon": 133.461227,
+    "station_passenger_log": 4.204692619390966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0049",
@@ -529,7 +785,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.36692,
-    "lon": 133.258901
+    "lon": 133.258901,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0092",
@@ -537,7 +797,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.443359,
-    "lon": 133.984151
+    "lon": 133.984151,
+    "station_passenger_log": 4.110873864173311,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0088",
@@ -545,7 +809,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.504738,
-    "lon": 133.906538
+    "lon": 133.906538,
+    "station_passenger_log": 6.774223886357614,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0131",
@@ -553,7 +821,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.558777,
-    "lon": 133.55371
+    "lon": 133.55371,
+    "station_passenger_log": 6.0112671744041615,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0117",
@@ -561,7 +833,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.552357,
-    "lon": 133.475883
+    "lon": 133.475883,
+    "station_passenger_log": 3.80666248977032,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0002",
@@ -569,7 +845,11 @@
     "prefecture": "高知県",
     "line_name": "JR予土線",
     "lat": 33.1614,
-    "lon": 133.074784
+    "lon": 133.074784,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0068",
@@ -577,7 +857,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道宿毛線",
     "lat": 32.932534,
-    "lon": 132.71364
+    "lon": 132.71364,
+    "station_passenger_log": 5.777652323222656,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0036",
@@ -585,7 +869,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.539968,
-    "lon": 133.393105
+    "lon": 133.393105,
+    "station_passenger_log": 4.343805421853684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0153",
@@ -593,7 +881,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.57637,
-    "lon": 133.625786
+    "lon": 133.625786,
+    "station_passenger_log": 3.1780538303479458,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0020",
@@ -601,7 +893,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.60453,
-    "lon": 133.677287
+    "lon": 133.677287,
+    "station_passenger_log": 6.180016653652572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0038",
@@ -609,7 +905,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.529922,
-    "lon": 133.35123
+    "lon": 133.35123,
+    "station_passenger_log": 4.3694478524670215,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0071",
@@ -617,7 +917,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道宿毛線",
     "lat": 32.95632,
-    "lon": 132.801931
+    "lon": 132.801931,
+    "station_passenger_log": 3.332204510175204,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0024",
@@ -625,7 +929,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.575595,
-    "lon": 133.590379
+    "lon": 133.590379,
+    "station_passenger_log": 5.117993812416755,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0070",
@@ -633,7 +941,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道宿毛線",
     "lat": 32.955639,
-    "lon": 132.794977
+    "lon": 132.794977,
+    "station_passenger_log": 4.290459441148391,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0051",
@@ -641,7 +953,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.275854,
-    "lon": 133.173519
+    "lon": 133.173519,
+    "station_passenger_log": 3.4339872044851463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0022",
@@ -649,7 +965,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.579245,
-    "lon": 133.645479
+    "lon": 133.645479,
+    "station_passenger_log": 7.733245646529795,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0158",
@@ -657,7 +977,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.575548,
-    "lon": 133.645527
+    "lon": 133.645527,
+    "station_passenger_log": 3.871201010907891,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0159",
@@ -665,7 +989,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.574526,
-    "lon": 133.648137
+    "lon": 133.648137,
+    "station_passenger_log": 4.143134726391533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0075",
@@ -673,7 +1001,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.57454,
-    "lon": 133.651415
+    "lon": 133.651415,
+    "station_passenger_log": 5.950642552587727,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0157",
@@ -681,7 +1013,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.575869,
-    "lon": 133.642652
+    "lon": 133.642652,
+    "station_passenger_log": 5.187385805840755,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0003",
@@ -689,7 +1025,11 @@
     "prefecture": "高知県",
     "line_name": "JR予土線",
     "lat": 33.175455,
-    "lon": 133.031082
+    "lon": 133.031082,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0140",
@@ -697,7 +1037,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.559421,
-    "lon": 133.579524
+    "lon": 133.579524,
+    "station_passenger_log": 6.62273632394984,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0043",
@@ -705,7 +1049,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.475453,
-    "lon": 133.286397
+    "lon": 133.286397,
+    "station_passenger_log": 5.043425116919247,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0018",
@@ -713,7 +1061,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.649596,
-    "lon": 133.695763
+    "lon": 133.695763,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0142",
@@ -729,7 +1081,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.533436,
-    "lon": 133.371456
+    "lon": 133.371456,
+    "station_passenger_log": 5.407171771460119,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0030",
@@ -745,7 +1101,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.556774,
-    "lon": 133.51352
+    "lon": 133.51352,
+    "station_passenger_log": 5.616771097666572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0108",
@@ -753,7 +1113,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.555701,
-    "lon": 133.506482
+    "lon": 133.506482,
+    "station_passenger_log": 6.476972362889683,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0107",
@@ -761,7 +1125,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.555987,
-    "lon": 133.509636
+    "lon": 133.509636,
+    "station_passenger_log": 6.180016653652572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0151",
@@ -769,7 +1137,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.574582,
-    "lon": 133.617589
+    "lon": 133.617589,
+    "station_passenger_log": 3.912023005428146,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0113",
@@ -777,7 +1149,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.551159,
-    "lon": 133.490946
+    "lon": 133.490946,
+    "station_passenger_log": 3.58351893845611,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0112",
@@ -785,7 +1161,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.551624,
-    "lon": 133.493307
+    "lon": 133.493307,
+    "station_passenger_log": 5.429345628954441,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0060",
@@ -793,7 +1173,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道中村線",
     "lat": 33.038914,
-    "lon": 133.071258
+    "lon": 133.071258,
+    "station_passenger_log": 1.3862943611198906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0072",
@@ -801,7 +1185,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道宿毛線",
     "lat": 32.961229,
-    "lon": 132.833077
+    "lon": 132.833077,
+    "station_passenger_log": 4.189654742026425,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0032",
@@ -817,7 +1205,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.551892,
-    "lon": 133.481097
+    "lon": 133.481097,
+    "station_passenger_log": 3.332204510175204,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0115",
@@ -825,7 +1217,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.551141,
-    "lon": 133.484294
+    "lon": 133.484294,
+    "station_passenger_log": 4.276666119016055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0069",
@@ -833,7 +1229,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道宿毛線",
     "lat": 32.933673,
-    "lon": 132.728736
+    "lon": 132.728736,
+    "station_passenger_log": 2.6390573296152584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0156",
@@ -841,7 +1241,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.576442,
-    "lon": 133.638446
+    "lon": 133.638446,
+    "station_passenger_log": 4.5217885770490405,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0143",
@@ -849,7 +1253,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.564141,
-    "lon": 133.589609
+    "lon": 133.589609,
+    "station_passenger_log": 5.056245805348308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0033",
@@ -857,7 +1265,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.55073,
-    "lon": 133.44849
+    "lon": 133.44849,
+    "station_passenger_log": 6.517671272912275,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0101",
@@ -865,7 +1277,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.557382,
-    "lon": 133.527145
+    "lon": 133.527145,
+    "station_passenger_log": 5.950642552587727,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0169",
@@ -873,7 +1289,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電桟橋線",
     "lat": 33.541073,
-    "lon": 133.552315
+    "lon": 133.552315,
+    "station_passenger_log": 4.919980925828125,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0165",
@@ -881,7 +1301,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電桟橋線",
     "lat": 33.55157,
-    "lon": 133.545352
+    "lon": 133.545352,
+    "station_passenger_log": 5.877735781779639,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0167",
@@ -889,7 +1313,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電桟橋線",
     "lat": 33.547082,
-    "lon": 133.548303
+    "lon": 133.548303,
+    "station_passenger_log": 6.244166900663736,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0166",
@@ -897,7 +1325,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電桟橋線",
     "lat": 33.549156,
-    "lon": 133.546886
+    "lon": 133.546886,
+    "station_passenger_log": 4.90527477843843,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0170",
@@ -905,7 +1337,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電桟橋線",
     "lat": 33.540286,
-    "lon": 133.552938
+    "lon": 133.552938,
+    "station_passenger_log": 5.030437921392435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0168",
@@ -913,7 +1349,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電桟橋線",
     "lat": 33.544668,
-    "lon": 133.549933
+    "lon": 133.549933,
+    "station_passenger_log": 5.429345628954441,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0164",
@@ -921,7 +1361,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電桟橋線",
     "lat": 33.554181,
-    "lon": 133.543485
+    "lon": 133.543485,
+    "station_passenger_log": 6.0844994130751715,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0008",
@@ -929,7 +1373,11 @@
     "prefecture": "高知県",
     "line_name": "JR予土線",
     "lat": 33.178104,
-    "lon": 132.783074
+    "lon": 132.783074,
+    "station_passenger_log": 2.833213344056216,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0035",
@@ -937,7 +1385,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.543699,
-    "lon": 133.414191
+    "lon": 133.414191,
+    "station_passenger_log": 5.579729825986222,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0063",
@@ -945,7 +1397,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道中村線",
     "lat": 33.039516,
-    "lon": 133.029856
+    "lon": 133.029856,
+    "station_passenger_log": 2.833213344056216,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0062",
@@ -953,7 +1409,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道中村線",
     "lat": 33.040407,
-    "lon": 133.046482
+    "lon": 133.046482,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0149",
@@ -961,7 +1421,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.57502,
-    "lon": 133.61244
+    "lon": 133.61244,
+    "station_passenger_log": 4.060443010546419,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0086",
@@ -969,7 +1433,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.502635,
-    "lon": 133.891265
+    "lon": 133.891265,
+    "station_passenger_log": 4.890349128221754,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0144",
@@ -977,7 +1445,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.566644,
-    "lon": 133.593214
+    "lon": 133.593214,
+    "station_passenger_log": 4.983606621708336,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0093",
@@ -985,7 +1457,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.4303,
-    "lon": 134.008207
+    "lon": 134.008207,
+    "station_passenger_log": 4.867534450455582,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0171",
@@ -993,7 +1469,11 @@
     "prefecture": "高知県",
     "line_name": "阿佐海岸鉄道",
     "lat": 33.547238,
-    "lon": 134.288242
+    "lon": 134.288242,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0099",
@@ -1009,7 +1489,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.559134,
-    "lon": 133.575618
+    "lon": 133.575618,
+    "station_passenger_log": 6.18826412308259,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0134",
@@ -1017,7 +1501,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.557883,
-    "lon": 133.561757
+    "lon": 133.561757,
+    "station_passenger_log": 5.60947179518496,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0132",
@@ -1025,7 +1513,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.558419,
-    "lon": 133.556693
+    "lon": 133.556693,
+    "station_passenger_log": 5.802118375377063,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0135",
@@ -1033,7 +1525,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.557597,
-    "lon": 133.565168
+    "lon": 133.565168,
+    "station_passenger_log": 6.218600119691729,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0133",
@@ -1041,7 +1537,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.558097,
-    "lon": 133.55989
+    "lon": 133.55989,
+    "station_passenger_log": 6.2166061010848646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0085",
@@ -1049,7 +1549,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.506069,
-    "lon": 133.864204
+    "lon": 133.864204,
+    "station_passenger_log": 2.302585092994046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0054",
@@ -1057,7 +1561,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.212656,
-    "lon": 133.137285
+    "lon": 133.137285,
+    "station_passenger_log": 5.924255797414532,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0076",
@@ -1065,7 +1573,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.57073,
-    "lon": 133.670627
+    "lon": 133.670627,
+    "station_passenger_log": 3.1780538303479458,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0154",
@@ -1073,7 +1585,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.577228,
-    "lon": 133.631022
+    "lon": 133.631022,
+    "station_passenger_log": 4.204692619390966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0017",
@@ -1081,7 +1597,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.680389,
-    "lon": 133.690186
+    "lon": 133.690186,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0146",
@@ -1089,7 +1609,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.570613,
-    "lon": 133.599522
+    "lon": 133.599522,
+    "station_passenger_log": 5.631211781821365,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0001",
@@ -1097,7 +1621,11 @@
     "prefecture": "高知県",
     "line_name": "JR予土線",
     "lat": 33.18807,
-    "lon": 133.105937
+    "lon": 133.105937,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0055",
@@ -1105,7 +1633,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道中村線",
     "lat": 33.132961,
-    "lon": 133.116316
+    "lon": 133.116316,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0130",
@@ -1113,7 +1645,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.559063,
-    "lon": 133.548625
+    "lon": 133.548625,
+    "station_passenger_log": 6.1779441140506,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0136",
@@ -1121,7 +1657,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.557024,
-    "lon": 133.569739
+    "lon": 133.569739,
+    "station_passenger_log": 5.236441962829949,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0163",
@@ -1129,7 +1669,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電桟橋線",
     "lat": 33.561066,
-    "lon": 133.543035
+    "lon": 133.543035,
+    "station_passenger_log": 4.90527477843843,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0026",
@@ -1137,7 +1681,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.578243,
-    "lon": 133.560056
+    "lon": 133.560056,
+    "station_passenger_log": 6.137727054086234,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0109",
@@ -1145,7 +1693,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.555487,
-    "lon": 133.502641
+    "lon": 133.502641,
+    "station_passenger_log": 5.556828061699537,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0042",
@@ -1153,7 +1705,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.488527,
-    "lon": 133.300426
+    "lon": 133.300426,
+    "station_passenger_log": 4.204692619390966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0009",
@@ -1161,7 +1717,11 @@
     "prefecture": "高知県",
     "line_name": "JR予土線",
     "lat": 33.187309,
-    "lon": 132.767342
+    "lon": 132.767342,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0040",
@@ -1169,7 +1729,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.512604,
-    "lon": 133.286652
+    "lon": 133.286652,
+    "station_passenger_log": 5.8998973535824915,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0082",
@@ -1177,7 +1741,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.518015,
-    "lon": 133.790772
+    "lon": 133.790772,
+    "station_passenger_log": 3.8501476017100584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0065",
@@ -1185,7 +1753,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道中村線",
     "lat": 33.008912,
-    "lon": 132.986967
+    "lon": 132.986967,
+    "station_passenger_log": 1.3862943611198906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0137",
@@ -1193,7 +1765,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.558348,
-    "lon": 133.573129
+    "lon": 133.573129,
+    "station_passenger_log": 6.07073772800249,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0016",
@@ -1201,7 +1777,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.695689,
-    "lon": 133.692528
+    "lon": 133.692528,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0011",
@@ -1209,7 +1789,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.796788,
-    "lon": 133.759638
+    "lon": 133.759638,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0084",
@@ -1217,7 +1801,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.516,
-    "lon": 133.825026
+    "lon": 133.825026,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0110",
@@ -1225,7 +1813,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.555665,
-    "lon": 133.498456
+    "lon": 133.498456,
+    "station_passenger_log": 6.416732282512326,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0152",
@@ -1233,7 +1825,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.575119,
-    "lon": 133.620722
+    "lon": 133.620722,
+    "station_passenger_log": 3.80666248977032,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0129",
@@ -1249,7 +1845,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.392649,
-    "lon": 133.293214
+    "lon": 133.293214,
+    "station_passenger_log": 6.2285110035911835,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0148",
@@ -1257,7 +1857,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.574332,
-    "lon": 133.607805
+    "lon": 133.607805,
+    "station_passenger_log": 4.990432586778736,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0080",
@@ -1265,7 +1869,11 @@
     "prefecture": "高知県",
     "line_name": "土佐くろしお鉄道阿佐線",
     "lat": 33.539152,
-    "lon": 133.73723
+    "lon": 133.73723,
+    "station_passenger_log": 4.219507705176107,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0027",
@@ -1273,7 +1881,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.566758,
-    "lon": 133.543522
+    "lon": 133.543522,
+    "station_passenger_log": 9.115480090952223,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "kochi_0031",
@@ -1281,7 +1893,11 @@
     "prefecture": "高知県",
     "line_name": "JR土讃線",
     "lat": 33.558419,
-    "lon": 133.497443
+    "lon": 133.497443,
+    "station_passenger_log": 6.996681488176539,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0098",
@@ -1289,7 +1905,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.558491,
-    "lon": 133.534248
+    "lon": 133.534248,
+    "station_passenger_log": 6.214608098422191,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0162",
@@ -1297,7 +1917,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電桟橋線",
     "lat": 33.564284,
-    "lon": 133.543442
+    "lon": 133.543442,
+    "station_passenger_log": 5.5134287461649825,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0161",
@@ -1305,7 +1929,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電桟橋線",
     "lat": 33.56653,
-    "lon": 133.543606
+    "lon": 133.543606,
+    "station_passenger_log": 7.160069207596127,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0139",
@@ -1321,7 +1949,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.548852,
-    "lon": 133.433032
+    "lon": 133.433032,
+    "station_passenger_log": 3.49650756146648,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0111",
@@ -1329,7 +1961,11 @@
     "prefecture": "高知県",
     "line_name": "土佐電伊野線",
     "lat": 33.552232,
-    "lon": 133.497276
+    "lon": 133.497276,
+    "station_passenger_log": 5.472270673671475,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kochi_0145",
@@ -1337,6 +1973,10 @@
     "prefecture": "高知県",
     "line_name": "土佐電後免線",
     "lat": 33.567216,
-    "lon": 133.597033
+    "lon": 133.597033,
+    "station_passenger_log": 5.3471075307174685,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

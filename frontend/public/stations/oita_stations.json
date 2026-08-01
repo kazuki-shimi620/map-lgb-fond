@@ -5,7 +5,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 32.983616,
-    "lon": 131.584389
+    "lon": 131.584389,
+    "station_passenger_log": 7.20414929203594,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0065",
@@ -13,7 +17,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 32.956302,
-    "lon": 131.8616
+    "lon": 131.8616,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0096",
@@ -29,7 +37,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.112499,
-    "lon": 131.793015
+    "lon": 131.793015,
+    "station_passenger_log": 6.428105272684596,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0055",
@@ -37,7 +49,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.158653,
-    "lon": 131.811159
+    "lon": 131.811159,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0073",
@@ -45,7 +61,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 33.164564,
-    "lon": 131.638735
+    "lon": 131.638735,
+    "station_passenger_log": 7.288244401020124,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0037",
@@ -53,7 +73,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.448636,
-    "lon": 131.505721
+    "lon": 131.505721,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0027",
@@ -69,7 +93,11 @@
     "prefecture": "大分県",
     "line_name": "別府ラクテンチケーブル線",
     "lat": 33.274681,
-    "lon": 131.483183
+    "lon": 131.483183,
+    "station_passenger_log": 6.429719478039138,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0043",
@@ -77,7 +105,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.330688,
-    "lon": 131.493019
+    "lon": 131.493019,
+    "station_passenger_log": 7.848933726364071,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0093",
@@ -85,7 +117,11 @@
     "prefecture": "大分県",
     "line_name": "JR日田彦山線BRT",
     "lat": 33.345223,
-    "lon": 130.876977
+    "lon": 130.876977,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0029",
@@ -93,7 +129,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.571929,
-    "lon": 131.267462
+    "lon": 131.267462,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0092",
@@ -109,7 +149,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 32.972521,
-    "lon": 131.901857
+    "lon": 131.901857,
+    "station_passenger_log": 7.259116128097101,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0054",
@@ -117,7 +161,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.174957,
-    "lon": 131.817688
+    "lon": 131.817688,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0002",
@@ -125,7 +173,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.327668,
-    "lon": 130.919901
+    "lon": 130.919901,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0045",
@@ -141,7 +193,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.31327,
-    "lon": 131.499255
+    "lon": 131.499255,
+    "station_passenger_log": 8.14060704285845,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0098",
@@ -158,10 +214,10 @@
     "line_name": "JR久大本線",
     "lat": 33.282004,
     "lon": 131.100917,
-    "station_passenger_log": 10.14112555000079,
+    "station_passenger_log": 0.0,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "C"
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0099",
@@ -177,7 +233,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.214276,
-    "lon": 131.585913
+    "lon": 131.585913,
+    "station_passenger_log": 7.109062135687172,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0015",
@@ -185,7 +245,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.242116,
-    "lon": 131.333544
+    "lon": 131.333544,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0025",
@@ -193,7 +257,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.220707,
-    "lon": 131.608305
+    "lon": 131.608305,
+    "station_passenger_log": 6.93828448401696,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0086",
@@ -217,7 +285,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.196625,
-    "lon": 131.514075
+    "lon": 131.514075,
+    "station_passenger_log": 7.118826249062078,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0052",
@@ -225,7 +297,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.236715,
-    "lon": 131.751593
+    "lon": 131.751593,
+    "station_passenger_log": 7.779466967458324,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0001",
@@ -233,7 +309,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.319541,
-    "lon": 130.866195
+    "lon": 130.866195,
+    "station_passenger_log": 0.0,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0026",
@@ -241,7 +321,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.232794,
-    "lon": 131.606595
+    "lon": 131.606595,
+    "station_passenger_log": 10.431140794408378,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "oita_0072",
@@ -249,7 +333,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 33.177131,
-    "lon": 131.618742
+    "lon": 131.618742,
+    "station_passenger_log": 7.921898411023797,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0051",
@@ -257,7 +345,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.243938,
-    "lon": 131.720487
+    "lon": 131.720487,
+    "station_passenger_log": 8.351610750626559,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0090",
@@ -273,7 +365,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.383576,
-    "lon": 131.57524
+    "lon": 131.57524,
+    "station_passenger_log": 6.650279048587422,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0089",
@@ -281,7 +377,11 @@
     "prefecture": "大分県",
     "line_name": "JR日田彦山線BRT",
     "lat": 33.366868,
-    "lon": 130.885387
+    "lon": 130.885387,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0006",
@@ -289,7 +389,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.254747,
-    "lon": 131.023877
+    "lon": 131.023877,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0030",
@@ -297,7 +401,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.564678,
-    "lon": 131.292962
+    "lon": 131.292962,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0018",
@@ -305,7 +413,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.187154,
-    "lon": 131.438821
+    "lon": 131.438821,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0034",
@@ -313,7 +425,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.531373,
-    "lon": 131.41231
+    "lon": 131.41231,
+    "station_passenger_log": 6.670766320845874,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0069",
@@ -321,7 +437,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 32.78628,
-    "lon": 131.706735
+    "lon": 131.706735,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0019",
@@ -329,7 +449,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.185258,
-    "lon": 131.452546
+    "lon": 131.452546,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0095",
@@ -345,7 +469,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.233844,
-    "lon": 131.795095
+    "lon": 131.795095,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0017",
@@ -353,7 +481,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.185126,
-    "lon": 131.402063
+    "lon": 131.402063,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0011",
@@ -361,7 +493,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.229188,
-    "lon": 131.183589
+    "lon": 131.183589,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0010",
@@ -369,7 +505,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.255224,
-    "lon": 131.174566
+    "lon": 131.174566,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0071",
@@ -377,7 +517,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 33.18811,
-    "lon": 131.615128
+    "lon": 131.615128,
+    "station_passenger_log": 7.575071699507561,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0091",
@@ -393,7 +537,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.066024,
-    "lon": 131.918735
+    "lon": 131.918735,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0040",
@@ -401,7 +549,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.368921,
-    "lon": 131.543036
+    "lon": 131.543036,
+    "station_passenger_log": 6.946013991099227,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0003",
@@ -409,7 +561,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.317014,
-    "lon": 130.938786
+    "lon": 130.938786,
+    "station_passenger_log": 7.123672785204607,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0102",
@@ -433,7 +589,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.370112,
-    "lon": 131.530581
+    "lon": 131.530581,
+    "station_passenger_log": 7.466799475018602,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0080",
@@ -441,7 +601,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 33.004356,
-    "lon": 131.432305
+    "lon": 131.432305,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0007",
@@ -449,7 +613,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.264391,
-    "lon": 131.065535
+    "lon": 131.065535,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0028",
@@ -457,7 +625,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.58788,
-    "lon": 131.238664
+    "lon": 131.238664,
+    "station_passenger_log": 6.3578422665081,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0046",
@@ -465,7 +637,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.267752,
-    "lon": 131.510537
+    "lon": 131.510537,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0038",
@@ -473,7 +649,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.411081,
-    "lon": 131.575295
+    "lon": 131.575295,
+    "station_passenger_log": 7.3758821482150125,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0100",
@@ -489,7 +669,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.564982,
-    "lon": 131.362665
+    "lon": 131.362665,
+    "station_passenger_log": 7.01301578963963,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0059",
@@ -497,7 +681,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.072853,
-    "lon": 131.863696
+    "lon": 131.863696,
+    "station_passenger_log": 7.181591944611865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0061",
@@ -505,7 +693,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.043539,
-    "lon": 131.919236
+    "lon": 131.919236,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0063",
@@ -513,7 +705,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 32.996041,
-    "lon": 131.88796
+    "lon": 131.88796,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0016",
@@ -521,7 +717,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.197339,
-    "lon": 131.354395
+    "lon": 131.354395,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0070",
@@ -529,7 +729,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 33.209495,
-    "lon": 131.62311
+    "lon": 131.62311,
+    "station_passenger_log": 6.655440350367647,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0056",
@@ -537,7 +741,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.135768,
-    "lon": 131.787632
+    "lon": 131.787632,
+    "station_passenger_log": 6.529418838262226,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0048",
@@ -553,7 +761,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 33.078158,
-    "lon": 131.63667
+    "lon": 131.63667,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0062",
@@ -561,7 +773,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.015334,
-    "lon": 131.904908
+    "lon": 131.904908,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0082",
@@ -569,7 +785,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 32.947847,
-    "lon": 131.376369
+    "lon": 131.376369,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0014",
@@ -577,7 +797,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.262551,
-    "lon": 131.355024
+    "lon": 131.355024,
+    "station_passenger_log": 7.894690850425624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0067",
@@ -585,7 +809,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 32.898667,
-    "lon": 131.779529
+    "lon": 131.779529,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0066",
@@ -593,7 +821,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 32.928396,
-    "lon": 131.807899
+    "lon": 131.807899,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0097",
@@ -609,7 +841,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.481829,
-    "lon": 131.476993
+    "lon": 131.476993,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0074",
@@ -617,7 +853,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 33.121529,
-    "lon": 131.649557
+    "lon": 131.649557,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0087",
@@ -633,7 +873,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 32.971255,
-    "lon": 131.476678
+    "lon": 131.476678,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0058",
@@ -641,7 +885,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.118496,
-    "lon": 131.807574
+    "lon": 131.807574,
+    "station_passenger_log": 7.077498053569231,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0076",
@@ -649,7 +897,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 33.014328,
-    "lon": 131.616716
+    "lon": 131.616716,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0047",
@@ -657,7 +909,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.245184,
-    "lon": 131.582758
+    "lon": 131.582758,
+    "station_passenger_log": 6.880384082186005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0035",
@@ -665,7 +921,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.504332,
-    "lon": 131.429433
+    "lon": 131.429433,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0031",
@@ -673,7 +933,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.566479,
-    "lon": 131.322776
+    "lon": 131.322776,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0033",
@@ -681,7 +945,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.56465,
-    "lon": 131.383264
+    "lon": 131.383264,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0004",
@@ -689,7 +957,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.305796,
-    "lon": 130.951557
+    "lon": 130.951557,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0005",
@@ -697,7 +969,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.284482,
-    "lon": 131.005834
+    "lon": 131.005834,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0012",
@@ -705,7 +981,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.226016,
-    "lon": 131.207548
+    "lon": 131.207548,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0022",
@@ -713,7 +993,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.195065,
-    "lon": 131.551219
+    "lon": 131.551219,
+    "station_passenger_log": 6.424869023905388,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0009",
@@ -721,7 +1005,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.282954,
-    "lon": 131.155202
+    "lon": 131.155202,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0078",
@@ -729,7 +1017,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 32.972974,
-    "lon": 131.523558
+    "lon": 131.523558,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0081",
@@ -737,7 +1029,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 32.970906,
-    "lon": 131.389814
+    "lon": 131.389814,
+    "station_passenger_log": 6.484635235635252,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0083",
@@ -745,7 +1041,11 @@
     "prefecture": "大分県",
     "line_name": "JR豊肥本線",
     "lat": 32.926889,
-    "lon": 131.297657
+    "lon": 131.297657,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0042",
@@ -753,7 +1053,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.361923,
-    "lon": 131.50137
+    "lon": 131.50137,
+    "station_passenger_log": 6.5998704992128365,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0023",
@@ -761,7 +1065,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.213091,
-    "lon": 131.562455
+    "lon": 131.562455,
+    "station_passenger_log": 6.902742737158593,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0068",
@@ -769,7 +1077,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 32.840339,
-    "lon": 131.715499
+    "lon": 131.715499,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0013",
@@ -777,7 +1089,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.240391,
-    "lon": 131.25186
+    "lon": 131.25186,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0094",
@@ -793,7 +1109,11 @@
     "prefecture": "大分県",
     "line_name": "別府ラクテンチケーブル線",
     "lat": 33.274914,
-    "lon": 131.485558
+    "lon": 131.485558,
+    "station_passenger_log": 6.429719478039138,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0049",
@@ -801,7 +1121,11 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.242837,
-    "lon": 131.655746
+    "lon": 131.655746,
+    "station_passenger_log": 8.06054004653864,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0020",
@@ -809,7 +1133,11 @@
     "prefecture": "大分県",
     "line_name": "JR久大本線",
     "lat": 33.195721,
-    "lon": 131.485586
+    "lon": 131.485586,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "oita_0050",
@@ -817,6 +1145,10 @@
     "prefecture": "大分県",
     "line_name": "JR日豊本線",
     "lat": 33.242852,
-    "lon": 131.686899
+    "lon": 131.686899,
+    "station_passenger_log": 8.216358332386156,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

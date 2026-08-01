@@ -12,9 +12,9 @@
     "東京都",
     "神奈川県"
   ],
-  "mae": 5232337.5909819305,
+  "mae": 4034838.3994690552,
   "latestTrainingYear": 2025,
-  "generatedAt": "2026-07-12",
+  "generatedAt": "2026-08-01",
   "featureOrder": [
     "area",
     "age",
@@ -24,18 +24,27 @@
     "station",
     "room_layout",
     "building_type",
-    "transaction_year"
+    "transaction_year",
+    "station_passenger_log",
+    "station_line_count",
+    "station_operator_count",
+    "effective_station_scale",
+    "has_station_passenger_data"
   ],
   "evaluation": {
     "split": "time_holdout",
     "trainStartYear": 2005,
     "testYear": 2025,
     "trainCount": 611218,
-    "testCount": 59742,
+    "testCount": 1102,
     "metrics": {
-      "mae": 5232337.5909819305,
-      "rmse": 6955968.403473126,
-      "mape": 24.378239676236806
+      "mae": 4034838.3994690552,
+      "rmse": 5356372.328226764,
+      "mape": 51.37523652687984
+    },
+    "residualQuantiles": {
+      "p025": -9774203.716415945,
+      "p975": 12498110.802489419
     }
   },
   "deployment": {
@@ -57,39 +66,59 @@
   "featureImportance": [
     {
       "feature": "station",
-      "importance": 1435.0
+      "importance": 1361.0
     },
     {
       "feature": "municipality",
-      "importance": 665.0
+      "importance": 670.0
     },
     {
       "feature": "area",
-      "importance": 440.0
+      "importance": 445.0
     },
     {
       "feature": "age",
-      "importance": 396.0
+      "importance": 397.0
     },
     {
       "feature": "transaction_year",
-      "importance": 309.0
+      "importance": 323.0
     },
     {
       "feature": "station_distance",
-      "importance": 257.0
+      "importance": 175.0
     },
     {
       "feature": "room_layout",
-      "importance": 128.0
+      "importance": 130.0
+    },
+    {
+      "feature": "effective_station_scale",
+      "importance": 84.0
     },
     {
       "feature": "building_type",
       "importance": 45.0
     },
     {
+      "feature": "station_passenger_log",
+      "importance": 39.0
+    },
+    {
       "feature": "prefecture",
-      "importance": 5.0
+      "importance": 7.0
+    },
+    {
+      "feature": "station_line_count",
+      "importance": 3.0
+    },
+    {
+      "feature": "station_operator_count",
+      "importance": 1.0
+    },
+    {
+      "feature": "has_station_passenger_data",
+      "importance": 0.0
     }
   ]
 }

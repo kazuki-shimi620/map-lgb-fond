@@ -5,7 +5,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市鶴舞線",
     "lat": 35.143234,
-    "lon": 136.955375
+    "lon": 136.955375,
+    "station_passenger_log": 9.502935356288608,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0344",
@@ -14,10 +18,10 @@
     "line_name": "名鉄蒲郡線",
     "lat": 34.788791,
     "lon": 137.162721,
-    "station_passenger_log": 9.181014542594356,
+    "station_passenger_log": 5.087596335232384,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "D"
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0084",
@@ -25,7 +29,11 @@
     "prefecture": "愛知県",
     "line_name": "あおなみ線",
     "lat": 35.161745,
-    "lon": 136.881815
+    "lon": 136.881815,
+    "station_passenger_log": 8.716207971151853,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0095",
@@ -33,7 +41,11 @@
     "prefecture": "愛知県",
     "line_name": "リニモ",
     "lat": 35.17767,
-    "lon": 137.035369
+    "lon": 137.035369,
+    "station_passenger_log": 7.933438387627489,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0483",
@@ -41,7 +53,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.673809,
-    "lon": 137.309427
+    "lon": 137.309427,
+    "station_passenger_log": 5.91350300563827,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0337",
@@ -49,7 +65,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄空港線",
     "lat": 34.87967,
-    "lon": 136.828164
+    "lon": 136.828164,
+    "station_passenger_log": 7.834788107388194,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0104",
@@ -57,7 +77,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋ガイドウェイバス",
     "lat": 35.190691,
-    "lon": 136.945255
+    "lon": 136.945255,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0179",
@@ -65,7 +89,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.01367,
-    "lon": 137.02551
+    "lon": 137.02551,
+    "station_passenger_log": 8.173293438966228,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0395",
@@ -73,7 +101,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市東山線",
     "lat": 35.168231,
-    "lon": 136.995927
+    "lon": 136.995927,
+    "station_passenger_log": 10.15979505022877,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0292",
@@ -81,7 +113,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄津島線",
     "lat": 35.195775,
-    "lon": 136.806413
+    "lon": 136.806413,
+    "station_passenger_log": 8.562931083090092,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0020",
@@ -105,7 +141,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.847911,
-    "lon": 137.414549
+    "lon": 137.414549,
+    "station_passenger_log": 7.3031700512368,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0017",
@@ -113,7 +153,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.818546,
-    "lon": 137.247795
+    "lon": 137.247795,
+    "station_passenger_log": 8.145259566516865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0436",
@@ -121,7 +165,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.012384,
-    "lon": 137.132756
+    "lon": 137.132756,
+    "station_passenger_log": 7.596392304064196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0148",
@@ -129,7 +177,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 35.010913,
-    "lon": 137.077147
+    "lon": 137.077147,
+    "station_passenger_log": 8.106212902619962,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0019",
@@ -137,7 +189,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.825295,
-    "lon": 137.201261
+    "lon": 137.201261,
+    "station_passenger_log": 7.886457270977689,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0016",
@@ -145,7 +201,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.815744,
-    "lon": 137.28287
+    "lon": 137.28287,
+    "station_passenger_log": 7.720905251936779,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0076",
@@ -153,7 +213,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.952038,
-    "lon": 137.602987
+    "lon": 137.602987,
+    "station_passenger_log": 5.529429087511423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0026",
@@ -161,7 +225,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.96968,
-    "lon": 137.060918
+    "lon": 137.060918,
+    "station_passenger_log": 9.488426550754516,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0080",
@@ -169,7 +237,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 35.001722,
-    "lon": 137.663991
+    "lon": 137.663991,
+    "station_passenger_log": 3.9318256327243257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0071",
@@ -177,7 +249,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.912224,
-    "lon": 137.527242
+    "lon": 137.527242,
+    "station_passenger_log": 4.9344739331306915,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0078",
@@ -185,7 +261,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.988589,
-    "lon": 137.621022
+    "lon": 137.621022,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0486",
@@ -193,7 +273,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.666875,
-    "lon": 137.269172
+    "lon": 137.269172,
+    "station_passenger_log": 7.918992488165245,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0149",
@@ -201,7 +285,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 35.005684,
-    "lon": 137.055123
+    "lon": 137.055123,
+    "station_passenger_log": 6.782192056006791,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0439",
@@ -209,7 +297,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.0554,
-    "lon": 137.150934
+    "lon": 137.150934,
+    "station_passenger_log": 9.058586816748646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0156",
@@ -217,7 +309,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 34.930796,
-    "lon": 136.989954
+    "lon": 136.989954,
+    "station_passenger_log": 8.290041618704489,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0341",
@@ -225,7 +321,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄蒲郡線",
     "lat": 34.793214,
-    "lon": 137.104984
+    "lon": 137.104984,
+    "station_passenger_log": 5.793013608384144,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0347",
@@ -233,7 +333,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄蒲郡線",
     "lat": 34.813313,
-    "lon": 137.189687
+    "lon": 137.189687,
+    "station_passenger_log": 6.483107351457199,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0312",
@@ -249,7 +353,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.858389,
-    "lon": 136.916403
+    "lon": 136.916403,
+    "station_passenger_log": 6.897704943128636,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0236",
@@ -257,7 +365,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.233809,
-    "lon": 136.732521
+    "lon": 136.732521,
+    "station_passenger_log": 6.811244378601294,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0116",
@@ -265,7 +377,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.157477,
-    "lon": 136.906815
+    "lon": 136.906815,
+    "station_passenger_log": 10.777934935151473,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0319",
@@ -273,7 +389,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄犬山線",
     "lat": 35.223482,
-    "lon": 136.876941
+    "lon": 136.876941,
+    "station_passenger_log": 10.489439201492518,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0144",
@@ -281,7 +401,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 35.071854,
-    "lon": 137.154453
+    "lon": 137.154453,
+    "station_passenger_log": 8.263590432617319,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0361",
@@ -289,7 +413,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄西尾線",
     "lat": 34.829941,
-    "lon": 137.071883
+    "lon": 137.071883,
+    "station_passenger_log": 7.172424577124845,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0396",
@@ -297,7 +425,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市東山線",
     "lat": 35.173656,
-    "lon": 137.007081
+    "lon": 137.007081,
+    "station_passenger_log": 9.87225485010503,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0366",
@@ -305,7 +437,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄豊田線",
     "lat": 35.116168,
-    "lon": 137.15535
+    "lon": 137.15535,
+    "station_passenger_log": 8.033334015880062,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0332",
@@ -313,7 +449,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄知多新線",
     "lat": 34.807284,
-    "lon": 136.866854
+    "lon": 136.866854,
+    "station_passenger_log": 6.267200548541362,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0112",
@@ -321,7 +461,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市上飯田線",
     "lat": 35.203845,
-    "lon": 136.929642
+    "lon": 136.929642,
+    "station_passenger_log": 9.070618428801046,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0059",
@@ -329,7 +473,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.780939,
-    "lon": 137.370612
+    "lon": 137.370612,
+    "station_passenger_log": 5.8289456176102075,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0317",
@@ -337,7 +485,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄犬山線",
     "lat": 35.201878,
-    "lon": 136.870638
+    "lon": 136.870638,
+    "station_passenger_log": 8.151333337900432,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0183",
@@ -345,7 +497,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.061302,
-    "lon": 136.98158
+    "lon": 136.98158,
+    "station_passenger_log": 9.033006356693267,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0318",
@@ -353,7 +509,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄犬山線",
     "lat": 35.214647,
-    "lon": 136.876772
+    "lon": 136.876772,
+    "station_passenger_log": 8.225770799348734,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0432",
@@ -361,7 +521,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 34.956231,
-    "lon": 137.152723
+    "lon": 137.152723,
+    "station_passenger_log": 8.349957272040324,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0088",
@@ -377,7 +541,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市東山線",
     "lat": 35.16783,
-    "lon": 136.855056
+    "lon": 136.855056,
+    "station_passenger_log": 10.068620562346831,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0383",
@@ -385,7 +553,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市東山線",
     "lat": 35.172385,
-    "lon": 136.861733
+    "lon": 136.861733,
+    "station_passenger_log": 9.10219821335648,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0451",
@@ -393,7 +565,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.250399,
-    "lon": 137.071947
+    "lon": 137.071947,
+    "station_passenger_log": 8.024207485778577,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0338",
@@ -401,7 +577,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄空港線",
     "lat": 34.859262,
-    "lon": 136.816382
+    "lon": 136.816382,
+    "station_passenger_log": 10.082846391479316,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0402",
@@ -417,7 +597,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.204742,
-    "lon": 136.841927
+    "lon": 136.841927,
+    "station_passenger_log": 7.023758954738443,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0235",
@@ -425,7 +609,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.222635,
-    "lon": 136.728991
+    "lon": 136.728991,
+    "station_passenger_log": 6.489204931325317,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0119",
@@ -433,7 +621,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.173784,
-    "lon": 136.908156
+    "lon": 136.908156,
+    "station_passenger_log": 10.831805664623,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "aichi_0049",
@@ -441,7 +633,11 @@
     "prefecture": "愛知県",
     "line_name": "JR武豊線",
     "lat": 34.903306,
-    "lon": 136.941344
+    "lon": 136.941344,
+    "station_passenger_log": 7.687080155783135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0385",
@@ -449,7 +645,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市東山線",
     "lat": 35.177526,
-    "lon": 136.876756
+    "lon": 136.876756,
+    "station_passenger_log": 9.426821780416844,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0048",
@@ -457,7 +657,11 @@
     "prefecture": "愛知県",
     "line_name": "JR武豊線",
     "lat": 34.918986,
-    "lon": 136.961058
+    "lon": 136.961058,
+    "station_passenger_log": 8.568646473005153,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0199",
@@ -465,7 +669,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.194646,
-    "lon": 136.859583
+    "lon": 136.859583,
+    "station_passenger_log": 8.0702808933939,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0241",
@@ -473,7 +681,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.283986,
-    "lon": 136.766268
+    "lon": 136.766268,
+    "station_passenger_log": 7.906547232368036,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0012",
@@ -481,7 +693,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.725809,
-    "lon": 137.438966
+    "lon": 137.438966,
+    "station_passenger_log": 8.610136937058975,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0228",
@@ -489,7 +705,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.129838,
-    "lon": 136.711464
+    "lon": 136.711464,
+    "station_passenger_log": 6.139884552226255,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0468",
@@ -505,7 +725,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.31836,
-    "lon": 136.789273
+    "lon": 136.789273,
+    "station_passenger_log": 8.16763571524637,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0390",
@@ -521,7 +745,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.802857,
-    "lon": 137.354743
+    "lon": 137.354743,
+    "station_passenger_log": 8.064950891749143,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0492",
@@ -529,7 +757,11 @@
     "prefecture": "愛知県",
     "line_name": "近鉄名古屋線",
     "lat": 35.140183,
-    "lon": 136.827841
+    "lon": 136.827841,
+    "station_passenger_log": 8.598220030058611,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0387",
@@ -545,7 +777,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.902042,
-    "lon": 136.925684
+    "lon": 136.925684,
+    "station_passenger_log": 8.744488113852924,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0496",
@@ -553,7 +789,11 @@
     "prefecture": "愛知県",
     "line_name": "近鉄名古屋線",
     "lat": 35.119574,
-    "lon": 136.752583
+    "lon": 136.752583,
+    "station_passenger_log": 7.776115477098742,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0229",
@@ -561,7 +801,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.147552,
-    "lon": 136.716612
+    "lon": 136.716612,
+    "station_passenger_log": 8.199738960630786,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0445",
@@ -569,7 +813,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.136665,
-    "lon": 137.134363
+    "lon": 137.134363,
+    "station_passenger_log": 7.174724309836376,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0130",
@@ -577,7 +825,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.136946,
-    "lon": 136.964036
+    "lon": 136.964036,
+    "station_passenger_log": 10.333742829451513,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0129",
@@ -585,7 +837,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.144556,
-    "lon": 136.965008
+    "lon": 136.965008,
+    "station_passenger_log": 9.27771860730613,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0362",
@@ -601,7 +857,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.973674,
-    "lon": 136.912578
+    "lon": 136.912578,
+    "station_passenger_log": 7.774435510302958,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0053",
@@ -617,7 +877,11 @@
     "prefecture": "愛知県",
     "line_name": "リニモ",
     "lat": 35.176623,
-    "lon": 137.106366
+    "lon": 137.106366,
+    "station_passenger_log": 8.94884572927805,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0099",
@@ -625,7 +889,11 @@
     "prefecture": "愛知県",
     "line_name": "リニモ",
     "lat": 35.174403,
-    "lon": 137.076737
+    "lon": 137.076737,
+    "station_passenger_log": 7.842278779117352,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0431",
@@ -633,7 +901,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 34.941132,
-    "lon": 137.152004
+    "lon": 137.152004,
+    "station_passenger_log": 7.254884810077338,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0377",
@@ -641,7 +913,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名港線",
     "lat": 35.124623,
-    "lon": 136.888715
+    "lon": 136.888715,
+    "station_passenger_log": 9.521568058002975,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0233",
@@ -649,7 +925,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.202395,
-    "lon": 136.729306
+    "lon": 136.729306,
+    "station_passenger_log": 6.905753276311464,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0032",
@@ -657,7 +937,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 35.035245,
-    "lon": 136.954599
+    "lon": 136.954599,
+    "station_passenger_log": 9.801953041711831,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0336",
@@ -673,7 +957,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.991156,
-    "lon": 137.008878
+    "lon": 137.008878,
+    "station_passenger_log": 10.938396526740004,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "aichi_0153",
@@ -681,7 +969,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 34.984803,
-    "lon": 136.993844
+    "lon": 136.993844,
+    "station_passenger_log": 8.593227877692234,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0182",
@@ -689,7 +981,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.05227,
-    "lon": 136.995665
+    "lon": 136.995665,
+    "station_passenger_log": 9.86526633971593,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0464",
@@ -697,7 +993,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道東田本線",
     "lat": 34.765818,
-    "lon": 137.404718
+    "lon": 137.404718,
+    "station_passenger_log": 5.389071729816501,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0273",
@@ -705,7 +1005,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 35.000478,
-    "lon": 136.901651
+    "lon": 136.901651,
+    "station_passenger_log": 6.697034247666484,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0005",
@@ -721,7 +1025,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄津島線",
     "lat": 35.195143,
-    "lon": 136.750082
+    "lon": 136.750082,
+    "station_passenger_log": 8.312871394342615,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0350",
@@ -729,7 +1037,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄西尾線",
     "lat": 34.964677,
-    "lon": 137.092146
+    "lon": 137.092146,
+    "station_passenger_log": 7.319202458767849,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0433",
@@ -737,7 +1049,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 34.972301,
-    "lon": 137.157736
+    "lon": 137.157736,
+    "station_passenger_log": 8.210124405164267,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0158",
@@ -745,7 +1061,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 34.906018,
-    "lon": 136.992475
+    "lon": 136.992475,
+    "station_passenger_log": 8.016317898503415,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0435",
@@ -753,7 +1073,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 34.996289,
-    "lon": 137.139457
+    "lon": 137.139457,
+    "station_passenger_log": 7.612336837167746,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0008",
@@ -761,7 +1085,11 @@
     "prefecture": "愛知県",
     "line_name": "JR中央本線",
     "lat": 35.170168,
-    "lon": 136.930665
+    "lon": 136.930665,
+    "station_passenger_log": 10.838050329197731,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "aichi_0050",
@@ -769,7 +1097,11 @@
     "prefecture": "愛知県",
     "line_name": "JR武豊線",
     "lat": 34.894167,
-    "lon": 136.930462
+    "lon": 136.930462,
+    "station_passenger_log": 8.00736706798333,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0281",
@@ -777,7 +1109,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.909111,
-    "lon": 136.925462
+    "lon": 136.925462,
+    "station_passenger_log": 7.029972911706386,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0274",
@@ -785,7 +1121,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.989216,
-    "lon": 136.906853
+    "lon": 136.906853,
+    "station_passenger_log": 8.9641840463529,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0033",
@@ -793,7 +1133,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 35.055403,
-    "lon": 136.948244
+    "lon": 136.948244,
+    "station_passenger_log": 9.527993782923948,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0351",
@@ -801,7 +1145,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄西尾線",
     "lat": 34.951976,
-    "lon": 137.092457
+    "lon": 137.092457,
+    "station_passenger_log": 8.558718938244736,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0475",
@@ -809,7 +1157,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.73592,
-    "lon": 137.385446
+    "lon": 137.385446,
+    "station_passenger_log": 8.14177220465645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0355",
@@ -825,7 +1177,11 @@
     "prefecture": "愛知県",
     "line_name": "あおなみ線",
     "lat": 35.131707,
-    "lon": 136.861771
+    "lon": 136.861771,
+    "station_passenger_log": 8.006700845440367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0309",
@@ -833,7 +1189,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄瀬戸線",
     "lat": 35.211085,
-    "lon": 137.011132
+    "lon": 137.011132,
+    "station_passenger_log": 8.561592778712923,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0429",
@@ -857,7 +1217,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 34.946327,
-    "lon": 136.98919
+    "lon": 136.98919,
+    "station_passenger_log": 7.992268643270745,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0340",
@@ -865,7 +1229,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄蒲郡線",
     "lat": 34.794043,
-    "lon": 137.071017
+    "lon": 137.071017,
+    "station_passenger_log": 7.837554360881084,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0011",
@@ -873,7 +1241,11 @@
     "prefecture": "愛知県",
     "line_name": "JR中央本線",
     "lat": 35.170694,
-    "lon": 136.881637
+    "lon": 136.881637,
+    "station_passenger_log": 12.892728804919749,
+    "station_line_count": 7.0,
+    "station_operator_count": 3.0,
+    "station_rank": "A"
   },
   {
     "station_id": "aichi_0120",
@@ -881,7 +1253,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.18156,
-    "lon": 136.905379
+    "lon": 136.905379,
+    "station_passenger_log": 10.66005544221451,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0128",
@@ -889,7 +1265,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.154261,
-    "lon": 136.96658
+    "lon": 136.96658,
+    "station_passenger_log": 9.857391256643156,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0373",
@@ -897,7 +1277,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名港線",
     "lat": 35.09348,
-    "lon": 136.881971
+    "lon": 136.881971,
+    "station_passenger_log": 9.36263218231844,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0253",
@@ -913,7 +1297,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.190528,
-    "lon": 136.904748
+    "lon": 136.904748,
+    "station_passenger_log": 9.41759841406017,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0209",
@@ -921,7 +1309,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.30154,
-    "lon": 136.797225
+    "lon": 136.797225,
+    "station_passenger_log": 10.383379629532191,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0195",
@@ -929,7 +1321,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.169252,
-    "lon": 136.884187
+    "lon": 136.884187,
+    "station_passenger_log": 12.513785260479962,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "aichi_0169",
@@ -937,7 +1333,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.899474,
-    "lon": 137.242829
+    "lon": 137.242829,
+    "station_passenger_log": 6.721425700790643,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0166",
@@ -945,7 +1345,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.859331,
-    "lon": 137.311152
+    "lon": 137.311152,
+    "station_passenger_log": 6.966967138613983,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0167",
@@ -953,7 +1357,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.871623,
-    "lon": 137.288298
+    "lon": 137.288298,
+    "station_passenger_log": 6.333279628139691,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0479",
@@ -961,7 +1369,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.706351,
-    "lon": 137.367556
+    "lon": 137.367556,
+    "station_passenger_log": 6.501289670540389,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0405",
@@ -977,7 +1389,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄小牧線",
     "lat": 35.309301,
-    "lon": 136.940304
+    "lon": 136.940304,
+    "station_passenger_log": 8.459987717645458,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0216",
@@ -993,7 +1409,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄小牧線",
     "lat": 35.222478,
-    "lon": 136.936113
+    "lon": 136.936113,
+    "station_passenger_log": 8.283999304248526,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0190",
@@ -1001,7 +1421,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.114722,
-    "lon": 136.930387
+    "lon": 136.930387,
+    "station_passenger_log": 7.802618063442671,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0271",
@@ -1009,7 +1433,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄広見線",
     "lat": 35.389744,
-    "lon": 136.980027
+    "lon": 136.980027,
+    "station_passenger_log": 7.385851078125209,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0307",
@@ -1025,7 +1453,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.12211,
-    "lon": 137.162635
+    "lon": 137.162635,
+    "station_passenger_log": 7.38770923908104,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0164",
@@ -1041,7 +1473,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.254218,
-    "lon": 136.802963
+    "lon": 136.802963,
+    "station_passenger_log": 9.892426605176704,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0401",
@@ -1065,7 +1501,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.941579,
-    "lon": 136.916562
+    "lon": 136.916562,
+    "station_passenger_log": 6.507277712385012,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0353",
@@ -1073,7 +1513,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄西尾線",
     "lat": 34.927834,
-    "lon": 137.089636
+    "lon": 137.089636,
+    "station_passenger_log": 5.924255797414532,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0135",
@@ -1089,7 +1533,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市鶴舞線",
     "lat": 35.132433,
-    "lon": 136.977529
+    "lon": 136.977529,
+    "station_passenger_log": 10.014894750110258,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0268",
@@ -1097,7 +1545,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 34.896983,
-    "lon": 136.830695
+    "lon": 136.830695,
+    "station_passenger_log": 6.824373670043086,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0251",
@@ -1105,7 +1557,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 35.080268,
-    "lon": 136.909314
+    "lon": 136.909314,
+    "station_passenger_log": 9.444621667700847,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0322",
@@ -1114,7 +1570,7 @@
     "line_name": "名鉄犬山線",
     "lat": 35.263508,
     "lon": 136.874748,
-    "station_passenger_log": 2.995732273553991,
+    "station_passenger_log": 7.576609766973037,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
     "station_rank": "E"
@@ -1125,7 +1581,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 35.008665,
-    "lon": 136.961727
+    "lon": 136.961727,
+    "station_passenger_log": 10.201515917042054,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0007",
@@ -1133,7 +1593,11 @@
     "prefecture": "愛知県",
     "line_name": "JR中央本線",
     "lat": 35.191508,
-    "lon": 136.937161
+    "lon": 136.937161,
+    "station_passenger_log": 11.080155961534562,
+    "station_line_count": 5.0,
+    "station_operator_count": 4.0,
+    "station_rank": "B"
   },
   {
     "station_id": "aichi_0308",
@@ -1141,7 +1605,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄瀬戸線",
     "lat": 35.206934,
-    "lon": 136.996465
+    "lon": 136.996465,
+    "station_passenger_log": 9.3672586470476,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0250",
@@ -1157,7 +1625,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.930164,
-    "lon": 137.548682
+    "lon": 137.548682,
+    "station_passenger_log": 5.278114659230517,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0480",
@@ -1165,7 +1637,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.695966,
-    "lon": 137.358863
+    "lon": 137.358863,
+    "station_passenger_log": 7.898782356970309,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0204",
@@ -1173,7 +1649,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.226216,
-    "lon": 136.818428
+    "lon": 136.818428,
+    "station_passenger_log": 8.202756381655638,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0264",
@@ -1181,7 +1661,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 34.935441,
-    "lon": 136.827641
+    "lon": 136.827641,
+    "station_passenger_log": 7.660585461703256,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0434",
@@ -1197,7 +1681,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市鶴舞線",
     "lat": 35.160729,
-    "lon": 136.898158
+    "lon": 136.898158,
+    "station_passenger_log": 9.819942886825784,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0034",
@@ -1205,7 +1693,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 35.069244,
-    "lon": 136.940242
+    "lon": 136.940242,
+    "station_passenger_log": 8.950662495933999,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0256",
@@ -1213,7 +1705,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 35.020221,
-    "lon": 136.892504
+    "lon": 136.892504,
+    "station_passenger_log": 9.883998875952264,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0399",
@@ -1221,7 +1717,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.167611,
-    "lon": 136.873126
+    "lon": 136.873126,
+    "station_passenger_log": 9.465525078835189,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0205",
@@ -1229,7 +1729,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.235412,
-    "lon": 136.810917
+    "lon": 136.810917,
+    "station_passenger_log": 7.737616282857904,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0246",
@@ -1237,7 +1741,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.32434,
-    "lon": 136.761092
+    "lon": 136.761092,
+    "station_passenger_log": 8.394573477868327,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0208",
@@ -1245,7 +1753,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.287178,
-    "lon": 136.798231
+    "lon": 136.798231,
+    "station_passenger_log": 8.027150106832774,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0134",
@@ -1253,7 +1765,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.117125,
-    "lon": 136.929545
+    "lon": 136.929545,
+    "station_passenger_log": 8.212025804623437,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0176",
@@ -1261,7 +1777,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.971367,
-    "lon": 137.118103
+    "lon": 137.118103,
+    "station_passenger_log": 8.058643712215618,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0106",
@@ -1269,7 +1789,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋ガイドウェイバス",
     "lat": 35.197431,
-    "lon": 136.956639
+    "lon": 136.956639,
+    "station_passenger_log": 6.665683717782408,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0304",
@@ -1277,7 +1801,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄瀬戸線",
     "lat": 35.196258,
-    "lon": 136.957843
+    "lon": 136.957843,
+    "station_passenger_log": 7.9294865233142895,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0025",
@@ -1285,7 +1813,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.959986,
-    "lon": 137.08716
+    "lon": 137.08716,
+    "station_passenger_log": 9.958307122300235,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0001",
@@ -1293,7 +1825,11 @@
     "prefecture": "愛知県",
     "line_name": "JR中央本線",
     "lat": 35.278015,
-    "lon": 137.080981
+    "lon": 137.080981,
+    "station_passenger_log": 5.752572638825633,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0495",
@@ -1301,7 +1837,11 @@
     "prefecture": "愛知県",
     "line_name": "近鉄名古屋線",
     "lat": 35.123634,
-    "lon": 136.769298
+    "lon": 136.769298,
+    "station_passenger_log": 8.497398564088058,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0180",
@@ -1309,7 +1849,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.029759,
-    "lon": 137.016508
+    "lon": 137.016508,
+    "station_passenger_log": 8.106816038947052,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0270",
@@ -1317,7 +1861,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄広見線",
     "lat": 35.379508,
-    "lon": 136.962112
+    "lon": 136.962112,
+    "station_passenger_log": 6.723832440821209,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0288",
@@ -1325,7 +1873,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.828823,
-    "lon": 136.917043
+    "lon": 136.917043,
+    "station_passenger_log": 7.687538766201629,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0258",
@@ -1333,7 +1885,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 35.000191,
-    "lon": 136.875498
+    "lon": 136.875498,
+    "station_passenger_log": 8.291295851905407,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0060",
@@ -1341,7 +1897,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.797544,
-    "lon": 137.363056
+    "lon": 137.363056,
+    "station_passenger_log": 6.782192056006791,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0154",
@@ -1349,7 +1909,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 34.9639,
-    "lon": 136.995455
+    "lon": 136.995455,
+    "station_passenger_log": 8.142354276849835,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0306",
@@ -1357,7 +1921,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄瀬戸線",
     "lat": 35.200216,
-    "lon": 136.975769
+    "lon": 136.975769,
+    "station_passenger_log": 9.437714959818209,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0111",
@@ -1365,7 +1933,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋ガイドウェイバス",
     "lat": 35.218785,
-    "lon": 136.982839
+    "lon": 136.982839,
+    "station_passenger_log": 6.728628613084702,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0085",
@@ -1381,7 +1953,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.748891,
-    "lon": 137.388076
+    "lon": 137.388076,
+    "station_passenger_log": 6.738152494595957,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0221",
@@ -1389,7 +1965,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄小牧線",
     "lat": 35.28915,
-    "lon": 136.928461
+    "lon": 136.928461,
+    "station_passenger_log": 9.28266103355581,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0222",
@@ -1397,7 +1977,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄小牧線",
     "lat": 35.300145,
-    "lon": 136.935836
+    "lon": 136.935836,
+    "station_passenger_log": 8.21878715560148,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0220",
@@ -1405,7 +1989,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄小牧線",
     "lat": 35.281717,
-    "lon": 136.927675
+    "lon": 136.927675,
+    "station_passenger_log": 8.133000218583613,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0453",
@@ -1413,7 +2001,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海交通事業城北線",
     "lat": 35.221043,
-    "lon": 136.880491
+    "lon": 136.880491,
+    "station_passenger_log": 5.996452088619021,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0163",
@@ -1421,7 +2013,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.814739,
-    "lon": 137.34559
+    "lon": 137.34559,
+    "station_passenger_log": 6.2766434893416445,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0300",
@@ -1437,7 +2033,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 35.301765,
-    "lon": 136.797567
+    "lon": 136.797567,
+    "station_passenger_log": 10.800941990063988,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0311",
@@ -1445,7 +2045,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄瀬戸線",
     "lat": 35.216743,
-    "lon": 137.036393
+    "lon": 137.036393,
+    "station_passenger_log": 8.918917979908679,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0452",
@@ -1453,7 +2057,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海交通事業城北線",
     "lat": 35.212988,
-    "lon": 136.855011
+    "lon": 136.855011,
+    "station_passenger_log": 6.133398042996649,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0044",
@@ -1461,7 +2069,11 @@
     "prefecture": "愛知県",
     "line_name": "JR武豊線",
     "lat": 34.993826,
-    "lon": 136.970279
+    "lon": 136.970279,
+    "station_passenger_log": 7.124478262493424,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0257",
@@ -1469,7 +2081,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 35.010132,
-    "lon": 136.885655
+    "lon": 136.885655,
+    "station_passenger_log": 8.447843113281444,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0316",
@@ -1477,7 +2093,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄瀬戸線",
     "lat": 35.225094,
-    "lon": 137.09727
+    "lon": 137.09727,
+    "station_passenger_log": 8.942591637231851,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0038",
@@ -1485,7 +2105,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 35.146981,
-    "lon": 136.89102
+    "lon": 136.89102,
+    "station_passenger_log": 8.956350940490871,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0448",
@@ -1517,7 +2141,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.925417,
-    "lon": 137.157243
+    "lon": 137.157243,
+    "station_passenger_log": 10.651690938844151,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0174",
@@ -1525,7 +2153,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.954984,
-    "lon": 137.153309
+    "lon": 137.153309,
+    "station_passenger_log": 8.511376306094673,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0323",
@@ -1541,7 +2173,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市東山線",
     "lat": 35.158459,
-    "lon": 136.854406
+    "lon": 136.854406,
+    "station_passenger_log": 9.703877405604633,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0207",
@@ -1549,7 +2185,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.270777,
-    "lon": 136.800987
+    "lon": 136.800987,
+    "station_passenger_log": 7.607381425639791,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0425",
@@ -1557,7 +2197,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市鶴舞線",
     "lat": 35.148703,
-    "lon": 136.948717
+    "lon": 136.948717,
+    "station_passenger_log": 9.331761227180522,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0108",
@@ -1565,7 +2209,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋ガイドウェイバス",
     "lat": 35.210405,
-    "lon": 136.962047
+    "lon": 136.962047,
+    "station_passenger_log": 6.968850378341948,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0109",
@@ -1581,7 +2229,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.070553,
-    "lon": 136.960301
+    "lon": 136.960301,
+    "station_passenger_log": 8.441175704992322,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0276",
@@ -1605,7 +2257,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄犬山線",
     "lat": 35.317135,
-    "lon": 136.872987
+    "lon": 136.872987,
+    "station_passenger_log": 9.06566136060674,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0269",
@@ -1613,7 +2269,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 34.891167,
-    "lon": 136.834992
+    "lon": 136.834992,
+    "station_passenger_log": 9.315240781801553,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0113",
@@ -1621,7 +2281,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市上飯田線",
     "lat": 35.195934,
-    "lon": 136.929784
+    "lon": 136.929784,
+    "station_passenger_log": 9.361773075736393,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0140",
@@ -1629,7 +2293,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 35.114628,
-    "lon": 137.184725
+    "lon": 137.184725,
+    "station_passenger_log": 7.352441100243583,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0430",
@@ -1637,7 +2305,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市鶴舞線",
     "lat": 35.122766,
-    "lon": 137.006904
+    "lon": 137.006904,
+    "station_passenger_log": 9.5850025709293,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0021",
@@ -1645,7 +2317,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.859926,
-    "lon": 137.16447
+    "lon": 137.16447,
+    "station_passenger_log": 8.896861744480391,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0417",
@@ -1653,7 +2329,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市鶴舞線",
     "lat": 35.215186,
-    "lon": 136.886963
+    "lon": 136.886963,
+    "station_passenger_log": 8.995040974685022,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0418",
@@ -1661,7 +2341,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市鶴舞線",
     "lat": 35.204476,
-    "lon": 136.891044
+    "lon": 136.891044,
+    "station_passenger_log": 9.562334377396374,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0057",
@@ -1669,7 +2353,11 @@
     "prefecture": "愛知県",
     "line_name": "JR関西本線",
     "lat": 35.114026,
-    "lon": 136.725664
+    "lon": 136.725664,
+    "station_passenger_log": 8.712101863715663,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0346",
@@ -1677,7 +2365,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄蒲郡線",
     "lat": 34.798607,
-    "lon": 137.184594
+    "lon": 137.184594,
+    "station_passenger_log": 6.626717749249025,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0406",
@@ -1685,7 +2377,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.149585,
-    "lon": 136.934146
+    "lon": 136.934146,
+    "station_passenger_log": 10.00229162159471,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0165",
@@ -1693,7 +2389,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.846113,
-    "lon": 137.321443
+    "lon": 137.321443,
+    "station_passenger_log": 6.450470422144176,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0416",
@@ -1701,7 +2401,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.094491,
-    "lon": 136.99815
+    "lon": 136.99815,
+    "station_passenger_log": 9.881497534644511,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0321",
@@ -1709,7 +2413,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄犬山線",
     "lat": 35.256045,
-    "lon": 136.873384
+    "lon": 136.873384,
+    "station_passenger_log": 9.296426320889312,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0123",
@@ -1717,7 +2425,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.196281,
-    "lon": 136.92121
+    "lon": 136.92121,
+    "station_passenger_log": 9.555559953069064,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0100",
@@ -1725,7 +2437,11 @@
     "prefecture": "愛知県",
     "line_name": "リニモ",
     "lat": 35.177948,
-    "lon": 137.08796
+    "lon": 137.08796,
+    "station_passenger_log": 8.861917004235215,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0442",
@@ -1733,7 +2449,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.105056,
-    "lon": 137.160781
+    "lon": 137.160781,
+    "station_passenger_log": 7.4377951216719325,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0474",
@@ -1741,7 +2461,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.741682,
-    "lon": 137.385754
+    "lon": 137.385754,
+    "station_passenger_log": 8.501063809486354,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0015",
@@ -1749,7 +2473,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.812624,
-    "lon": 137.316492
+    "lon": 137.316492,
+    "station_passenger_log": 7.79770203551669,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0284",
@@ -1757,7 +2485,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.886209,
-    "lon": 136.921879
+    "lon": 136.921879,
+    "station_passenger_log": 7.47477218239787,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0493",
@@ -1773,7 +2505,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄犬山線",
     "lat": 35.359557,
-    "lon": 136.91597
+    "lon": 136.91597,
+    "station_passenger_log": 8.786303878282583,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0440",
@@ -1781,7 +2517,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.071732,
-    "lon": 137.151206
+    "lon": 137.151206,
+    "station_passenger_log": 7.223295679562314,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0068",
@@ -1789,7 +2529,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.901112,
-    "lon": 137.49304
+    "lon": 137.49304,
+    "station_passenger_log": 7.134093721192866,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0006",
@@ -1797,7 +2541,11 @@
     "prefecture": "愛知県",
     "line_name": "JR中央本線",
     "lat": 35.207283,
-    "lon": 136.951207
+    "lon": 136.951207,
+    "station_passenger_log": 9.61547209118311,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0177",
@@ -1805,7 +2553,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.986885,
-    "lon": 137.085443
+    "lon": 137.085443,
+    "station_passenger_log": 9.978687785099064,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0459",
@@ -1821,7 +2573,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.195701,
-    "lon": 136.851989
+    "lon": 136.851989,
+    "station_passenger_log": 6.725033642166843,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0159",
@@ -1837,7 +2593,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 35.035161,
-    "lon": 136.899491
+    "lon": 136.899491,
+    "station_passenger_log": 7.493873886783559,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0212",
@@ -1845,7 +2605,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.342047,
-    "lon": 136.779421
+    "lon": 136.779421,
+    "station_passenger_log": 8.671286726753637,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0388",
@@ -1861,7 +2625,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.211249,
-    "lon": 136.835607
+    "lon": 136.835607,
+    "station_passenger_log": 8.93260863037757,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0314",
@@ -1869,7 +2637,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄瀬戸線",
     "lat": 35.225485,
-    "lon": 137.077639
+    "lon": 137.077639,
+    "station_passenger_log": 9.208037722913508,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0133",
@@ -1877,7 +2649,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.117734,
-    "lon": 136.936603
+    "lon": 136.936603,
+    "station_passenger_log": 10.07857467043465,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0263",
@@ -1885,7 +2661,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 34.949689,
-    "lon": 136.828669
+    "lon": 136.828669,
+    "station_passenger_log": 8.59007183682881,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0471",
@@ -1893,7 +2673,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.762272,
-    "lon": 137.383375
+    "lon": 137.383375,
+    "station_passenger_log": 9.70063670448968,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0441",
@@ -1901,7 +2685,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.088041,
-    "lon": 137.153524
+    "lon": 137.153524,
+    "station_passenger_log": 9.389741000342472,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0230",
@@ -1925,7 +2713,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 34.96162,
-    "lon": 136.832152
+    "lon": 136.832152,
+    "station_passenger_log": 5.953243334287785,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0310",
@@ -1933,7 +2725,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄瀬戸線",
     "lat": 35.214162,
-    "lon": 137.019706
+    "lon": 137.019706,
+    "station_passenger_log": 8.765146421639022,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0394",
@@ -1957,7 +2753,11 @@
     "prefecture": "愛知県",
     "line_name": "JR関西本線",
     "lat": 35.14318,
-    "lon": 136.813512
+    "lon": 136.813512,
+    "station_passenger_log": 8.90231952852887,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0184",
@@ -1965,7 +2765,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.067687,
-    "lon": 136.971084
+    "lon": 136.971084,
+    "station_passenger_log": 9.591717684555258,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0259",
@@ -1981,7 +2785,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 35.349319,
-    "lon": 136.780726
+    "lon": 136.780726,
+    "station_passenger_log": 8.953510763007166,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0214",
@@ -1989,7 +2797,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.365067,
-    "lon": 136.770486
+    "lon": 136.770486,
+    "station_passenger_log": 6.612041034833092,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0329",
@@ -1997,7 +2809,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄犬山線",
     "lat": 35.366914,
-    "lon": 136.925977
+    "lon": 136.925977,
+    "station_passenger_log": 7.690286020676768,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0293",
@@ -2005,7 +2821,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄津島線",
     "lat": 35.195328,
-    "lon": 136.787865
+    "lon": 136.787865,
+    "station_passenger_log": 8.808668062106715,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0438",
@@ -2013,7 +2833,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.03949,
-    "lon": 137.146866
+    "lon": 137.146866,
+    "station_passenger_log": 7.788626065625032,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0168",
@@ -2037,7 +2861,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.087392,
-    "lon": 136.937378
+    "lon": 136.937378,
+    "station_passenger_log": 8.31090675716845,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0188",
@@ -2045,7 +2873,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.099199,
-    "lon": 136.933409
+    "lon": 136.933409,
+    "station_passenger_log": 8.482187582217422,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0397",
@@ -2061,7 +2893,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.932664,
-    "lon": 137.576848
+    "lon": 137.576848,
+    "station_passenger_log": 6.0063531596017325,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0384",
@@ -2069,7 +2905,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市東山線",
     "lat": 35.177135,
-    "lon": 136.866782
+    "lon": 136.866782,
+    "station_passenger_log": 9.753652546776472,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0460",
@@ -2077,7 +2917,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道東田本線",
     "lat": 34.765959,
-    "lon": 137.390299
+    "lon": 137.390299,
+    "station_passenger_log": 5.808142489980444,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0096",
@@ -2093,7 +2937,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.680301,
-    "lon": 137.320759
+    "lon": 137.320759,
+    "station_passenger_log": 6.018593214496234,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0066",
@@ -2101,7 +2949,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.876278,
-    "lon": 137.455236
+    "lon": 137.455236,
+    "station_passenger_log": 5.652489180268651,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0463",
@@ -2109,7 +2961,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道東田本線",
     "lat": 34.765924,
-    "lon": 137.400341
+    "lon": 137.400341,
+    "station_passenger_log": 6.3784261836515865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0027",
@@ -2117,7 +2973,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.97741,
-    "lon": 137.043525
+    "lon": 137.043525,
+    "station_passenger_log": 9.123910643977796,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0115",
@@ -2125,7 +2985,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.150453,
-    "lon": 136.904824
+    "lon": 136.904824,
+    "station_passenger_log": 9.65252306301951,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0339",
@@ -2133,7 +2997,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄築港線",
     "lat": 35.089091,
-    "lon": 136.899255
+    "lon": 136.899255,
+    "station_passenger_log": 8.231908243564177,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0298",
@@ -2141,7 +3009,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄瀬戸線",
     "lat": 35.183727,
-    "lon": 136.908376
+    "lon": 136.908376,
+    "station_passenger_log": 8.392989587956931,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0393",
@@ -2157,7 +3029,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.951904,
-    "lon": 137.167333
+    "lon": 137.167333,
+    "station_passenger_log": 10.464759111782492,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0343",
@@ -2165,7 +3041,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄蒲郡線",
     "lat": 34.789693,
-    "lon": 137.145645
+    "lon": 137.145645,
+    "station_passenger_log": 5.765191102784844,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0051",
@@ -2173,7 +3053,11 @@
     "prefecture": "愛知県",
     "line_name": "JR武豊線",
     "lat": 34.874279,
-    "lon": 136.923416
+    "lon": 136.923416,
+    "station_passenger_log": 6.922643891475888,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0069",
@@ -2181,7 +3065,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.906129,
-    "lon": 137.502928
+    "lon": 137.502928,
+    "station_passenger_log": 7.048386408721883,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0197",
@@ -2189,7 +3077,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.189808,
-    "lon": 136.870168
+    "lon": 136.870168,
+    "station_passenger_log": 8.688116703257823,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0082",
@@ -2197,7 +3089,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 35.02901,
-    "lon": 137.713812
+    "lon": 137.713812,
+    "station_passenger_log": 4.672828834461906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0047",
@@ -2205,7 +3101,11 @@
     "prefecture": "愛知県",
     "line_name": "JR武豊線",
     "lat": 34.949574,
-    "lon": 136.970725
+    "lon": 136.970725,
+    "station_passenger_log": 8.131530710604252,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0376",
@@ -2213,7 +3113,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名港線",
     "lat": 35.113388,
-    "lon": 136.887336
+    "lon": 136.887336,
+    "station_passenger_log": 9.535823881654714,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0466",
@@ -2221,7 +3125,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道東田本線",
     "lat": 34.76536,
-    "lon": 137.413151
+    "lon": 137.413151,
+    "station_passenger_log": 5.918893854273146,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0465",
@@ -2229,7 +3137,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道東田本線",
     "lat": 34.765783,
-    "lon": 137.408495
+    "lon": 137.408495,
+    "station_passenger_log": 7.1631723908466425,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0039",
@@ -2237,7 +3149,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 35.198681,
-    "lon": 136.861816
+    "lon": 136.861816,
+    "station_passenger_log": 9.03025631012242,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0327",
@@ -2245,7 +3161,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄犬山線",
     "lat": 35.344807,
-    "lon": 136.900181
+    "lon": 136.900181,
+    "station_passenger_log": 9.275847174178304,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0472",
@@ -2253,7 +3173,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.75479,
-    "lon": 137.38847
+    "lon": 137.38847,
+    "station_passenger_log": 7.064759027791802,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0252",
@@ -2261,7 +3185,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 35.072774,
-    "lon": 136.909126
+    "lon": 136.909126,
+    "station_passenger_log": 8.345692873253865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0079",
@@ -2269,7 +3197,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.990587,
-    "lon": 137.644048
+    "lon": 137.644048,
+    "station_passenger_log": 1.791759469228055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0118",
@@ -2285,7 +3217,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.183687,
-    "lon": 136.873051
+    "lon": 136.873051,
+    "station_passenger_log": 9.526391218478407,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0297",
@@ -2317,7 +3253,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.139695,
-    "lon": 136.933316
+    "lon": 136.933316,
+    "station_passenger_log": 10.077482875583607,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0410",
@@ -2325,7 +3265,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.109001,
-    "lon": 136.936761
+    "lon": 136.936761,
+    "station_passenger_log": 8.902591637374087,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0357",
@@ -2333,7 +3277,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄西尾線",
     "lat": 34.880107,
-    "lon": 137.062444
+    "lon": 137.062444,
+    "station_passenger_log": 8.214735833382303,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0142",
@@ -2341,7 +3289,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 35.099654,
-    "lon": 137.162206
+    "lon": 137.162206,
+    "station_passenger_log": 8.631057447565285,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0237",
@@ -2349,7 +3301,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.247229,
-    "lon": 136.736698
+    "lon": 136.736698,
+    "station_passenger_log": 7.878912912297133,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0301",
@@ -2365,7 +3321,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.917457,
-    "lon": 136.923448
+    "lon": 136.923448,
+    "station_passenger_log": 7.168579897264035,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0428",
@@ -2381,7 +3341,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄小牧線",
     "lat": 35.330548,
-    "lon": 136.950101
+    "lon": 136.950101,
+    "station_passenger_log": 8.0861025356691,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0267",
@@ -2397,7 +3361,11 @@
     "prefecture": "愛知県",
     "line_name": "JR武豊線",
     "lat": 34.853507,
-    "lon": 136.921244
+    "lon": 136.921244,
+    "station_passenger_log": 7.055312843339752,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0454",
@@ -2413,7 +3381,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄瀬戸線",
     "lat": 35.224296,
-    "lon": 137.069659
+    "lon": 137.069659,
+    "station_passenger_log": 8.522777569710138,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0056",
@@ -2421,7 +3393,11 @@
     "prefecture": "愛知県",
     "line_name": "JR関西本線",
     "lat": 35.13285,
-    "lon": 136.764325
+    "lon": 136.764325,
+    "station_passenger_log": 7.830822995135316,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0437",
@@ -2429,7 +3405,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.027361,
-    "lon": 137.138983
+    "lon": 137.138983,
+    "station_passenger_log": 6.238324625039508,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0326",
@@ -2445,7 +3425,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.868029,
-    "lon": 137.441518
+    "lon": 137.441518,
+    "station_passenger_log": 4.9344739331306915,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0391",
@@ -2453,7 +3437,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市東山線",
     "lat": 35.167675,
-    "lon": 136.946486
+    "lon": 136.946486,
+    "station_passenger_log": 10.087848694627851,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0081",
@@ -2461,7 +3449,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 35.024418,
-    "lon": 137.704066
+    "lon": 137.704066,
+    "station_passenger_log": 1.3862943611198906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0290",
@@ -2469,7 +3461,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.777771,
-    "lon": 136.912528
+    "lon": 136.912528,
+    "station_passenger_log": 8.200837258379849,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0289",
@@ -2477,7 +3473,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.797805,
-    "lon": 136.918618
+    "lon": 136.918618,
+    "station_passenger_log": 6.253828811575473,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0231",
@@ -2485,7 +3485,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.177982,
-    "lon": 136.730995
+    "lon": 136.730995,
+    "station_passenger_log": 9.286467732363734,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0419",
@@ -2493,7 +3497,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市鶴舞線",
     "lat": 35.192205,
-    "lon": 136.890819
+    "lon": 136.890819,
+    "station_passenger_log": 9.545311482471128,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0367",
@@ -2501,7 +3509,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄豊田線",
     "lat": 35.121298,
-    "lon": 137.137186
+    "lon": 137.137186,
+    "station_passenger_log": 9.27058845232154,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0420",
@@ -2509,7 +3521,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市鶴舞線",
     "lat": 35.18384,
-    "lon": 136.890335
+    "lon": 136.890335,
+    "station_passenger_log": 9.208037722913508,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0299",
@@ -2525,7 +3541,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 35.225406,
-    "lon": 136.834529
+    "lon": 136.834529,
+    "station_passenger_log": 8.960724500330858,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0234",
@@ -2533,7 +3553,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.213944,
-    "lon": 136.727256
+    "lon": 136.727256,
+    "station_passenger_log": 7.21081845347222,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0089",
@@ -2541,7 +3565,11 @@
     "prefecture": "愛知県",
     "line_name": "あおなみ線",
     "lat": 35.114529,
-    "lon": 136.862739
+    "lon": 136.862739,
+    "station_passenger_log": 8.716207971151853,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0375",
@@ -2549,7 +3577,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名港線",
     "lat": 35.105736,
-    "lon": 136.88455
+    "lon": 136.88455,
+    "station_passenger_log": 9.053101595549691,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0077",
@@ -2557,7 +3589,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.970516,
-    "lon": 137.613025
+    "lon": 137.613025,
+    "station_passenger_log": 4.61512051684126,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0449",
@@ -2565,7 +3601,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.206679,
-    "lon": 137.081866
+    "lon": 137.081866,
+    "station_passenger_log": 8.299783171949787,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0450",
@@ -2573,7 +3613,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.225921,
-    "lon": 137.078452
+    "lon": 137.078452,
+    "station_passenger_log": 8.722905701000768,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0315",
@@ -2581,7 +3625,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄瀬戸線",
     "lat": 35.224986,
-    "lon": 137.084177
+    "lon": 137.084177,
+    "station_passenger_log": 7.9561263512135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0490",
@@ -2589,7 +3637,11 @@
     "prefecture": "愛知県",
     "line_name": "近鉄名古屋線",
     "lat": 35.152935,
-    "lon": 136.863895
+    "lon": 136.863895,
+    "station_passenger_log": 8.566554620953962,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0036",
@@ -2597,7 +3649,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 35.130028,
-    "lon": 136.910502
+    "lon": 136.910502,
+    "station_passenger_log": 8.715388097366482,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0136",
@@ -2605,7 +3661,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.120735,
-    "lon": 136.91038
+    "lon": 136.91038,
+    "station_passenger_log": 9.545168400484906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0137",
@@ -2613,7 +3673,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.127956,
-    "lon": 136.906769
+    "lon": 136.906769,
+    "station_passenger_log": 8.989319566042951,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0061",
@@ -2621,7 +3685,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.808563,
-    "lon": 137.381671
+    "lon": 137.381671,
+    "station_passenger_log": 7.428333194190806,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0218",
@@ -2629,7 +3697,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄小牧線",
     "lat": 35.264014,
-    "lon": 136.931356
+    "lon": 136.931356,
+    "station_passenger_log": 7.64826303090192,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0178",
@@ -2645,7 +3717,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄小牧線",
     "lat": 35.379871,
-    "lon": 136.945536
+    "lon": 136.945536,
+    "station_passenger_log": 9.645040605352682,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0330",
@@ -2653,7 +3729,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄犬山線",
     "lat": 35.374212,
-    "lon": 136.939945
+    "lon": 136.939945,
+    "station_passenger_log": 7.714231144849085,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0331",
@@ -2661,7 +3741,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄犬山線",
     "lat": 35.390331,
-    "lon": 136.946894
+    "lon": 136.946894,
+    "station_passenger_log": 7.207118856207756,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0139",
@@ -2669,7 +3753,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 35.122613,
-    "lon": 137.178739
+    "lon": 137.178739,
+    "station_passenger_log": 8.169053149927343,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0247",
@@ -2677,7 +3765,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.334887,
-    "lon": 136.757968
+    "lon": 136.757968,
+    "station_passenger_log": 7.404279118037268,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0239",
@@ -2685,7 +3777,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.266327,
-    "lon": 136.747982
+    "lon": 136.747982,
+    "station_passenger_log": 6.692083742506628,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0408",
@@ -2693,7 +3789,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.131793,
-    "lon": 136.93443
+    "lon": 136.93443,
+    "station_passenger_log": 9.58045460278142,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0132",
@@ -2701,7 +3801,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.123167,
-    "lon": 136.948685
+    "lon": 136.948685,
+    "station_passenger_log": 9.044403844431551,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0409",
@@ -2709,7 +3813,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.124949,
-    "lon": 136.935477
+    "lon": 136.935477,
+    "station_passenger_log": 8.838551790227402,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0305",
@@ -2725,7 +3833,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄津島線",
     "lat": 35.195953,
-    "lon": 136.825492
+    "lon": 136.825492,
+    "station_passenger_log": 9.228278517107196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0224",
@@ -2733,7 +3845,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄小牧線",
     "lat": 35.317422,
-    "lon": 136.943675
+    "lon": 136.943675,
+    "station_passenger_log": 8.392763113038061,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0172",
@@ -2741,7 +3857,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.937461,
-    "lon": 137.183296
+    "lon": 137.183296,
+    "station_passenger_log": 8.390268497842571,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0232",
@@ -2749,7 +3869,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.18898,
-    "lon": 136.727551
+    "lon": 136.727551,
+    "station_passenger_log": 6.880384082186005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0277",
@@ -2757,7 +3881,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.955219,
-    "lon": 136.91537
+    "lon": 136.91537,
+    "station_passenger_log": 6.095824562432225,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0110",
@@ -2765,7 +3893,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋ガイドウェイバス",
     "lat": 35.216121,
-    "lon": 136.978569
+    "lon": 136.978569,
+    "station_passenger_log": 6.606650186198215,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0414",
@@ -2773,7 +3905,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.102545,
-    "lon": 136.976208
+    "lon": 136.976208,
+    "station_passenger_log": 8.975503722070927,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0022",
@@ -2781,7 +3917,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.886833,
-    "lon": 137.160389
+    "lon": 137.160389,
+    "station_passenger_log": 8.07837810362652,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0175",
@@ -2789,7 +3929,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.961149,
-    "lon": 137.139957
+    "lon": 137.139957,
+    "station_passenger_log": 8.780787468338929,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0117",
@@ -2797,7 +3941,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.163785,
-    "lon": 136.90899
+    "lon": 136.90899,
+    "station_passenger_log": 10.942084408794251,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "aichi_0303",
@@ -2813,7 +3961,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.893931,
-    "lon": 136.925954
+    "lon": 136.925954,
+    "station_passenger_log": 9.249464926660233,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0334",
@@ -2821,7 +3973,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄知多新線",
     "lat": 34.787617,
-    "lon": 136.864488
+    "lon": 136.864488,
+    "station_passenger_log": 8.474285690404962,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0287",
@@ -2829,7 +3985,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.850732,
-    "lon": 136.916439
+    "lon": 136.916439,
+    "station_passenger_log": 8.613593685702552,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0150",
@@ -2837,7 +3997,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 35.006198,
-    "lon": 137.039628
+    "lon": 137.039628,
+    "station_passenger_log": 10.30735137927732,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0324",
@@ -2845,7 +4009,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄犬山線",
     "lat": 35.295545,
-    "lon": 136.871144
+    "lon": 136.871144,
+    "station_passenger_log": 8.290041618704489,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0211",
@@ -2853,7 +4021,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.326204,
-    "lon": 136.785407
+    "lon": 136.785407,
+    "station_passenger_log": 7.952966790923131,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0046",
@@ -2861,7 +4033,11 @@
     "prefecture": "愛知県",
     "line_name": "JR武豊線",
     "lat": 34.967813,
-    "lon": 136.972932
+    "lon": 136.972932,
+    "station_passenger_log": 7.78155595923534,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0105",
@@ -2869,7 +4045,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋ガイドウェイバス",
     "lat": 35.188821,
-    "lon": 136.954268
+    "lon": 136.954268,
+    "station_passenger_log": 9.52755697453028,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0161",
@@ -2877,7 +4057,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 34.874041,
-    "lon": 136.985613
+    "lon": 136.985613,
+    "station_passenger_log": 8.23031079913502,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0160",
@@ -2885,7 +4069,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 34.887395,
-    "lon": 136.989476
+    "lon": 136.989476,
+    "station_passenger_log": 8.355614995760183,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0352",
@@ -2893,7 +4081,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄西尾線",
     "lat": 34.93723,
-    "lon": 137.090863
+    "lon": 137.090863,
+    "station_passenger_log": 7.0967213784947605,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0192",
@@ -2901,7 +4093,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.125857,
-    "lon": 136.912485
+    "lon": 136.912485,
+    "station_passenger_log": 10.351053836662928,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0485",
@@ -2909,7 +4105,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.668253,
-    "lon": 137.278044
+    "lon": 137.278044,
+    "station_passenger_log": 5.87493073085203,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0415",
@@ -2917,7 +4117,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.098518,
-    "lon": 136.98954
+    "lon": 136.98954,
+    "station_passenger_log": 8.659213451436667,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0003",
@@ -2925,7 +4129,11 @@
     "prefecture": "愛知県",
     "line_name": "JR中央本線",
     "lat": 35.256234,
-    "lon": 137.010006
+    "lon": 137.010006,
+    "station_passenger_log": 10.1226230824528,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0360",
@@ -2933,7 +4141,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄西尾線",
     "lat": 34.844663,
-    "lon": 137.048579
+    "lon": 137.048579,
+    "station_passenger_log": 7.16703787691222,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0091",
@@ -2941,7 +4153,11 @@
     "prefecture": "愛知県",
     "line_name": "あおなみ線",
     "lat": 35.091418,
-    "lon": 136.863203
+    "lon": 136.863203,
+    "station_passenger_log": 8.537191877922927,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0041",
@@ -2949,7 +4165,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 35.252994,
-    "lon": 136.820942
+    "lon": 136.820942,
+    "station_passenger_log": 9.726511682066926,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0364",
@@ -2957,7 +4177,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄豊川線",
     "lat": 34.818435,
-    "lon": 137.387703
+    "lon": 137.387703,
+    "station_passenger_log": 6.97166860472579,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0467",
@@ -2965,7 +4189,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道東田本線",
     "lat": 34.765078,
-    "lon": 137.416778
+    "lon": 137.416778,
+    "station_passenger_log": 6.546785410760524,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0146",
@@ -2973,7 +4201,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 35.040067,
-    "lon": 137.11476
+    "lon": 137.11476,
+    "station_passenger_log": 8.021912778985708,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0035",
@@ -2981,7 +4213,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 35.095113,
-    "lon": 136.926321
+    "lon": 136.926321,
+    "station_passenger_log": 9.631285050932734,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0374",
@@ -2989,7 +4225,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名港線",
     "lat": 35.099348,
-    "lon": 136.883162
+    "lon": 136.883162,
+    "station_passenger_log": 8.938137870372788,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0446",
@@ -2997,7 +4237,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.155171,
-    "lon": 137.120592
+    "lon": 137.120592,
+    "station_passenger_log": 5.484796933490655,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0356",
@@ -3005,7 +4249,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄西尾線",
     "lat": 34.892822,
-    "lon": 137.060993
+    "lon": 137.060993,
+    "station_passenger_log": 7.589335823170617,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0488",
@@ -3013,7 +4261,11 @@
     "prefecture": "愛知県",
     "line_name": "近鉄名古屋線",
     "lat": 35.161354,
-    "lon": 136.879793
+    "lon": 136.879793,
+    "station_passenger_log": 7.205635176410364,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0370",
@@ -3021,7 +4273,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄豊田線",
     "lat": 35.123728,
-    "lon": 137.06702
+    "lon": 137.06702,
+    "station_passenger_log": 8.622813673279921,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0131",
@@ -3029,7 +4285,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.130536,
-    "lon": 136.954523
+    "lon": 136.954523,
+    "station_passenger_log": 8.671972245203792,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0045",
@@ -3037,7 +4297,11 @@
     "prefecture": "愛知県",
     "line_name": "JR武豊線",
     "lat": 34.981372,
-    "lon": 136.9719
+    "lon": 136.9719,
+    "station_passenger_log": 8.176391596633795,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0171",
@@ -3045,7 +4309,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.923763,
-    "lon": 137.196317
+    "lon": 137.196317,
+    "station_passenger_log": 8.820699399214904,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0333",
@@ -3053,7 +4321,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄知多新線",
     "lat": 34.80028,
-    "lon": 136.863063
+    "lon": 136.863063,
+    "station_passenger_log": 5.605802066295998,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0226",
@@ -3069,7 +4341,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.692344,
-    "lon": 137.33536
+    "lon": 137.33536,
+    "station_passenger_log": 6.285998094508865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0254",
@@ -3077,7 +4353,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 35.042857,
-    "lon": 136.90304
+    "lon": 136.90304,
+    "station_passenger_log": 8.796943893541737,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0126",
@@ -3093,7 +4373,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.775809,
-    "lon": 137.374001
+    "lon": 137.374001,
+    "station_passenger_log": 6.248042874508429,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0477",
@@ -3101,7 +4385,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.718433,
-    "lon": 137.380122
+    "lon": 137.380122,
+    "station_passenger_log": 6.459904454377535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0098",
@@ -3109,7 +4397,11 @@
     "prefecture": "愛知県",
     "line_name": "リニモ",
     "lat": 35.171938,
-    "lon": 137.061092
+    "lon": 137.061092,
+    "station_passenger_log": 7.616775808698373,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0242",
@@ -3117,7 +4409,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.287194,
-    "lon": 136.778275
+    "lon": 136.778275,
+    "station_passenger_log": 6.836259277277067,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0147",
@@ -3141,7 +4437,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.910334,
-    "lon": 137.514424
+    "lon": 137.514424,
+    "station_passenger_log": 5.062595033026967,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0086",
@@ -3149,7 +4449,11 @@
     "prefecture": "愛知県",
     "line_name": "あおなみ線",
     "lat": 35.139992,
-    "lon": 136.861676
+    "lon": 136.861676,
+    "station_passenger_log": 8.343077871169383,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0090",
@@ -3157,7 +4461,11 @@
     "prefecture": "愛知県",
     "line_name": "あおなみ線",
     "lat": 35.104569,
-    "lon": 136.861148
+    "lon": 136.861148,
+    "station_passenger_log": 8.343077871169383,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0424",
@@ -3165,7 +4473,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市鶴舞線",
     "lat": 35.149654,
-    "lon": 136.92593
+    "lon": 136.92593,
+    "station_passenger_log": 9.019542996701183,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0240",
@@ -3181,7 +4493,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 34.915408,
-    "lon": 136.825536
+    "lon": 136.825536,
+    "station_passenger_log": 6.652863029353347,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0018",
@@ -3189,7 +4505,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.823078,
-    "lon": 137.226459
+    "lon": 137.226459,
+    "station_passenger_log": 9.565283817736766,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0348",
@@ -3197,7 +4517,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄蒲郡線",
     "lat": 34.825545,
-    "lon": 137.202014
+    "lon": 137.202014,
+    "station_passenger_log": 5.929589143389895,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0094",
@@ -3213,7 +4537,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 34.913304,
-    "lon": 137.218428
+    "lon": 137.218428,
+    "station_passenger_log": 8.595449689382004,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0296",
@@ -3221,7 +4549,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄津島線",
     "lat": 35.188911,
-    "lon": 136.738766
+    "lon": 136.738766,
+    "station_passenger_log": 8.478452363099807,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0055",
@@ -3229,7 +4561,11 @@
     "prefecture": "愛知県",
     "line_name": "JR関西本線",
     "lat": 35.142071,
-    "lon": 136.793908
+    "lon": 136.793908,
+    "station_passenger_log": 8.870382066070137,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0265",
@@ -3237,7 +4573,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 34.926759,
-    "lon": 136.82663
+    "lon": 136.82663,
+    "station_passenger_log": 7.040536390215956,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0244",
@@ -3245,7 +4585,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.307603,
-    "lon": 136.791948
+    "lon": 136.791948,
+    "station_passenger_log": 6.173786103901937,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0014",
@@ -3253,7 +4597,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.79708,
-    "lon": 137.352499
+    "lon": 137.352499,
+    "station_passenger_log": 7.6093665379542115,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0359",
@@ -3261,7 +4609,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄西尾線",
     "lat": 34.863917,
-    "lon": 137.057789
+    "lon": 137.057789,
+    "station_passenger_log": 9.202509792860994,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0358",
@@ -3269,7 +4621,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄西尾線",
     "lat": 34.870647,
-    "lon": 137.062661
+    "lon": 137.062661,
+    "station_passenger_log": 6.29156913955832,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0024",
@@ -3277,7 +4633,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.946572,
-    "lon": 137.123187
+    "lon": 137.123187,
+    "station_passenger_log": 8.129764445794171,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0342",
@@ -3285,7 +4645,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄蒲郡線",
     "lat": 34.792431,
-    "lon": 137.121271
+    "lon": 137.121271,
+    "station_passenger_log": 6.218600119691729,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0320",
@@ -3293,7 +4657,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄犬山線",
     "lat": 35.244627,
-    "lon": 136.871235
+    "lon": 136.871235,
+    "station_passenger_log": 9.981744050501897,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0198",
@@ -3301,7 +4669,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.195015,
-    "lon": 136.865685
+    "lon": 136.865685,
+    "station_passenger_log": 6.405228458030842,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0345",
@@ -3309,7 +4681,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄蒲郡線",
     "lat": 34.79003,
-    "lon": 137.178617
+    "lon": 137.178617,
+    "station_passenger_log": 6.400257445308821,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0138",
@@ -3317,7 +4693,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市名城線",
     "lat": 35.134622,
-    "lon": 136.901769
+    "lon": 136.901769,
+    "station_passenger_log": 8.647343875881283,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0392",
@@ -3325,7 +4705,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市東山線",
     "lat": 35.166565,
-    "lon": 136.953708
+    "lon": 136.953708,
+    "station_passenger_log": 9.778094383128066,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0243",
@@ -3341,7 +4725,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄豊川線",
     "lat": 34.823464,
-    "lon": 137.370479
+    "lon": 137.370479,
+    "station_passenger_log": 8.344980368770571,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0484",
@@ -3349,7 +4737,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.667459,
-    "lon": 137.293737
+    "lon": 137.293737,
+    "station_passenger_log": 5.75890177387728,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0062",
@@ -3365,7 +4757,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄豊川線",
     "lat": 34.821755,
-    "lon": 137.396058
+    "lon": 137.396058,
+    "station_passenger_log": 8.522379718103538,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0181",
@@ -3373,7 +4769,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.041127,
-    "lon": 137.008161
+    "lon": 137.008161,
+    "station_passenger_log": 8.448485993406447,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0013",
@@ -3381,7 +4781,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.762734,
-    "lon": 137.382128
+    "lon": 137.382128,
+    "station_passenger_log": 11.33516150652873,
+    "station_line_count": 4.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "aichi_0462",
@@ -3389,7 +4793,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道東田本線",
     "lat": 34.766841,
-    "lon": 137.395406
+    "lon": 137.395406,
+    "station_passenger_log": 5.662960480135946,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0143",
@@ -3397,7 +4805,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 35.087305,
-    "lon": 137.156227
+    "lon": 137.156227,
+    "station_passenger_log": 10.282779786340267,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0248",
@@ -3405,7 +4817,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 35.113586,
-    "lon": 136.910877
+    "lon": 136.910877,
+    "station_passenger_log": 8.471568013389962,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0444",
@@ -3413,7 +4829,11 @@
     "prefecture": "愛知県",
     "line_name": "愛知環状鉄道線",
     "lat": 35.133089,
-    "lon": 137.148091
+    "lon": 137.148091,
+    "station_passenger_log": 7.160845906664299,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0469",
@@ -3421,7 +4841,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道東田本線",
     "lat": 34.763403,
-    "lon": 137.429931
+    "lon": 137.429931,
+    "station_passenger_log": 7.014814351275545,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0372",
@@ -3437,7 +4861,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 35.10769,
-    "lon": 137.180178
+    "lon": 137.180178,
+    "station_passenger_log": 6.816735880594968,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0404",
@@ -3445,7 +4873,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.173507,
-    "lon": 136.929543
+    "lon": 136.929543,
+    "station_passenger_log": 9.481511892300974,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0491",
@@ -3453,7 +4885,11 @@
     "prefecture": "愛知県",
     "line_name": "近鉄名古屋線",
     "lat": 35.149587,
-    "lon": 136.854458
+    "lon": 136.854458,
+    "station_passenger_log": 8.204671828950811,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0487",
@@ -3461,7 +4897,11 @@
     "prefecture": "愛知県",
     "line_name": "近鉄名古屋線",
     "lat": 35.169191,
-    "lon": 136.883855
+    "lon": 136.883855,
+    "station_passenger_log": 11.417339247070894,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "aichi_0497",
@@ -3469,7 +4909,11 @@
     "prefecture": "愛知県",
     "line_name": "近鉄名古屋線",
     "lat": 35.113634,
-    "lon": 136.727638
+    "lon": 136.727638,
+    "station_passenger_log": 9.278559610953328,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0494",
@@ -3477,7 +4921,11 @@
     "prefecture": "愛知県",
     "line_name": "近鉄名古屋線",
     "lat": 35.129739,
-    "lon": 136.794139
+    "lon": 136.794139,
+    "station_passenger_log": 9.281730368062856,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0030",
@@ -3485,7 +4933,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.998215,
-    "lon": 136.990544
+    "lon": 136.990544,
+    "station_passenger_log": 8.448700194970938,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0470",
@@ -3501,7 +4953,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄常滑線",
     "lat": 35.105712,
-    "lon": 136.909409
+    "lon": 136.909409,
+    "station_passenger_log": 8.628197749459149,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0151",
@@ -3509,7 +4965,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 34.994824,
-    "lon": 137.023727
+    "lon": 137.023727,
+    "station_passenger_log": 7.5569505720129,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0412",
@@ -3517,7 +4977,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.102358,
-    "lon": 136.95549
+    "lon": 136.95549,
+    "station_passenger_log": 9.384041546476526,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0067",
@@ -3525,7 +4989,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.889282,
-    "lon": 137.477861
+    "lon": 137.477861,
+    "station_passenger_log": 6.617402977974478,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0028",
@@ -3533,7 +5001,11 @@
     "prefecture": "愛知県",
     "line_name": "JR東海道本線",
     "lat": 34.984212,
-    "lon": 137.026355
+    "lon": 137.026355,
+    "station_passenger_log": 8.465268118551318,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0092",
@@ -3541,7 +5013,11 @@
     "prefecture": "愛知県",
     "line_name": "あおなみ線",
     "lat": 35.075253,
-    "lon": 136.854136
+    "lon": 136.854136,
+    "station_passenger_log": 7.496097345175956,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0335",
@@ -3549,7 +5025,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄知多新線",
     "lat": 34.7723,
-    "lon": 136.860683
+    "lon": 136.860683,
+    "station_passenger_log": 6.342121418721152,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0093",
@@ -3557,7 +5037,11 @@
     "prefecture": "愛知県",
     "line_name": "あおなみ線",
     "lat": 35.048775,
-    "lon": 136.849009
+    "lon": 136.849009,
+    "station_passenger_log": 8.922791623969637,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0107",
@@ -3565,7 +5049,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋ガイドウェイバス",
     "lat": 35.202551,
-    "lon": 136.956747
+    "lon": 136.956747,
+    "station_passenger_log": 6.9584483932976555,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0010",
@@ -3581,7 +5069,11 @@
     "prefecture": "愛知県",
     "line_name": "リニモ",
     "lat": 35.171574,
-    "lon": 137.049932
+    "lon": 137.049932,
+    "station_passenger_log": 8.688453800850768,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0064",
@@ -3589,7 +5081,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.864449,
-    "lon": 137.431458
+    "lon": 137.431458,
+    "station_passenger_log": 5.883322388488279,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0261",
@@ -3605,7 +5101,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.92599,
-    "lon": 137.565
+    "lon": 137.565,
+    "station_passenger_log": 4.382026634673881,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0245",
@@ -3613,7 +5113,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄尾西線",
     "lat": 35.31926,
-    "lon": 136.7741
+    "lon": 136.7741,
+    "station_passenger_log": 7.493317248862145,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0219",
@@ -3621,7 +5125,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄小牧線",
     "lat": 35.271585,
-    "lon": 136.9312
+    "lon": 136.9312,
+    "station_passenger_log": 7.86172707782398,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0279",
@@ -3629,7 +5137,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 34.931256,
-    "lon": 136.918517
+    "lon": 136.918517,
+    "station_passenger_log": 8.669742589876522,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0101",
@@ -3637,7 +5149,11 @@
     "prefecture": "愛知県",
     "line_name": "リニモ",
     "lat": 35.179286,
-    "lon": 137.097099
+    "lon": 137.097099,
+    "station_passenger_log": 5.602118820879701,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0294",
@@ -3645,7 +5161,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄津島線",
     "lat": 35.198674,
-    "lon": 136.76708
+    "lon": 136.76708,
+    "station_passenger_log": 8.024534871605695,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0285",
@@ -3669,7 +5189,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道東田本線",
     "lat": 34.763879,
-    "lon": 137.383132
+    "lon": 137.383132,
+    "station_passenger_log": 8.663714844079005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0458",
@@ -3677,7 +5201,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道東田本線",
     "lat": 34.763209,
-    "lon": 137.385707
+    "lon": 137.385707,
+    "station_passenger_log": 5.631211781821365,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0403",
@@ -3685,7 +5213,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.174062,
-    "lon": 136.915656
+    "lon": 136.915656,
+    "station_passenger_log": 9.780472101639582,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0476",
@@ -3693,7 +5225,11 @@
     "prefecture": "愛知県",
     "line_name": "豊橋鉄道渥美線",
     "lat": 34.727068,
-    "lon": 137.381674
+    "lon": 137.381674,
+    "station_passenger_log": 7.853993087224244,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0272",
@@ -3701,7 +5237,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄河和線",
     "lat": 35.009608,
-    "lon": 136.893696
+    "lon": 136.893696,
+    "station_passenger_log": 8.014996894348302,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0157",
@@ -3709,7 +5249,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄三河線",
     "lat": 34.921536,
-    "lon": 136.989391
+    "lon": 136.989391,
+    "station_passenger_log": 7.83399634170946,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0379",
@@ -3717,7 +5261,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市東山線",
     "lat": 35.139161,
-    "lon": 136.853466
+    "lon": 136.853466,
+    "station_passenger_log": 9.906333498986047,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0002",
@@ -3725,7 +5273,11 @@
     "prefecture": "愛知県",
     "line_name": "JR中央本線",
     "lat": 35.26434,
-    "lon": 137.043766
+    "lon": 137.043766,
+    "station_passenger_log": 10.754215238626523,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0073",
@@ -3733,7 +5285,11 @@
     "prefecture": "愛知県",
     "line_name": "JR飯田線",
     "lat": 34.920834,
-    "lon": 137.551537
+    "lon": 137.551537,
+    "station_passenger_log": 4.68213122712422,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aichi_0413",
@@ -3741,7 +5297,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.102684,
-    "lon": 136.966209
+    "lon": 136.966209,
+    "station_passenger_log": 9.089189170412032,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0186",
@@ -3749,7 +5309,11 @@
     "prefecture": "愛知県",
     "line_name": "名鉄名古屋本線",
     "lat": 35.079149,
-    "lon": 136.950096
+    "lon": 136.950096,
+    "station_passenger_log": 9.760482858119124,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0009",
@@ -3757,7 +5321,11 @@
     "prefecture": "愛知県",
     "line_name": "JR中央本線",
     "lat": 35.156416,
-    "lon": 136.917436
+    "lon": 136.917436,
+    "station_passenger_log": 10.580937168488774,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "aichi_0411",
@@ -3765,7 +5333,11 @@
     "prefecture": "愛知県",
     "line_name": "名古屋市桜通線",
     "lat": 35.105738,
-    "lon": 136.943433
+    "lon": 136.943433,
+    "station_passenger_log": 8.696008608880904,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aichi_0489",
@@ -3797,6 +5369,10 @@
     "prefecture": "愛知県",
     "line_name": "名鉄豊田線",
     "lat": 35.127681,
-    "lon": 137.091365
+    "lon": 137.091365,
+    "station_passenger_log": 8.0861025356691,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

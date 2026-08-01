@@ -16,6 +16,7 @@ training/data/raw/*
 training/data/processed/*
 training/data/cache/*
 training/outputs/models/*
+training/outputs/models_*/
 training/outputs/reports/*
 training/outputs/datasets/*
 training/outputs/comparisons/*

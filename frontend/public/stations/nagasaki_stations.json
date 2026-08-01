@@ -5,7 +5,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.282623,
-    "lon": 129.667286
+    "lon": 129.667286,
+    "station_passenger_log": 3.951243718581427,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0075",
@@ -13,7 +17,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.316738,
-    "lon": 129.613788
+    "lon": 129.613788,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0073",
@@ -21,7 +29,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.362532,
-    "lon": 129.582595
+    "lon": 129.582595,
+    "station_passenger_log": 5.049856007249537,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0133",
@@ -29,7 +41,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌蛍茶屋支線",
     "lat": 32.746785,
-    "lon": 129.878204
+    "lon": 129.878204,
+    "station_passenger_log": 6.68586094706836,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0119",
@@ -53,7 +69,11 @@
     "prefecture": "長崎県",
     "line_name": "JR大村線",
     "lat": 33.091923,
-    "lon": 129.796458
+    "lon": 129.796458,
+    "station_passenger_log": 7.896924656268864,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0101",
@@ -61,7 +81,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌大浦支線",
     "lat": 32.740523,
-    "lon": 129.87241
+    "lon": 129.87241,
+    "station_passenger_log": 6.2166061010848646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0058",
@@ -69,7 +93,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.814936,
-    "lon": 130.35713
+    "lon": 130.35713,
+    "station_passenger_log": 4.143134726391533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0001",
@@ -77,7 +105,11 @@
     "prefecture": "長崎県",
     "line_name": "JR佐世保線",
     "lat": 33.150268,
-    "lon": 129.82919
+    "lon": 129.82919,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0089",
@@ -85,7 +117,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.195205,
-    "lon": 129.670453
+    "lon": 129.670453,
+    "station_passenger_log": 6.320768294250582,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0098",
@@ -93,7 +129,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.172297,
-    "lon": 129.722668
+    "lon": 129.722668,
+    "station_passenger_log": 5.342334251964811,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0072",
@@ -101,7 +141,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.355647,
-    "lon": 129.61104
+    "lon": 129.61104,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0091",
@@ -109,7 +153,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.20821,
-    "lon": 129.687448
+    "lon": 129.687448,
+    "station_passenger_log": 5.846438775057725,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0122",
@@ -117,7 +165,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.749411,
-    "lon": 129.872217
+    "lon": 129.872217,
+    "station_passenger_log": 7.170888478512505,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0063",
@@ -125,7 +177,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.348357,
-    "lon": 129.771909
+    "lon": 129.771909,
+    "station_passenger_log": 4.543294782270004,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0105",
@@ -141,7 +197,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.236701,
-    "lon": 129.646859
+    "lon": 129.646859,
+    "station_passenger_log": 6.2422232654551655,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0005",
@@ -149,7 +209,11 @@
     "prefecture": "長崎県",
     "line_name": "JR佐世保線",
     "lat": 33.163868,
-    "lon": 129.725667
+    "lon": 129.725667,
+    "station_passenger_log": 8.82453082152646,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagasaki_0099",
@@ -157,7 +221,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.170902,
-    "lon": 129.720596
+    "lon": 129.720596,
+    "station_passenger_log": 6.852242569051878,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0120",
@@ -165,7 +233,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.754979,
-    "lon": 129.870436
+    "lon": 129.870436,
+    "station_passenger_log": 6.398594934535208,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0124",
@@ -173,7 +245,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.743871,
-    "lon": 129.871681
+    "lon": 129.871681,
+    "station_passenger_log": 7.438971592395862,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0065",
@@ -181,7 +257,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.358819,
-    "lon": 129.736192
+    "lon": 129.736192,
+    "station_passenger_log": 3.610917912644224,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0097",
@@ -189,7 +269,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.18717,
-    "lon": 129.720446
+    "lon": 129.720446,
+    "station_passenger_log": 6.29156913955832,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0107",
@@ -205,7 +289,11 @@
     "prefecture": "長崎県",
     "line_name": "JR大村線",
     "lat": 33.013107,
-    "lon": 129.945573
+    "lon": 129.945573,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0007",
@@ -213,7 +301,11 @@
     "prefecture": "長崎県",
     "line_name": "JR大村線",
     "lat": 33.086984,
-    "lon": 129.80111
+    "lon": 129.80111,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0114",
@@ -221,7 +313,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.770551,
-    "lon": 129.863784
+    "lon": 129.863784,
+    "station_passenger_log": 7.824445930877619,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0050",
@@ -229,7 +325,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.856312,
-    "lon": 130.213024
+    "lon": 130.213024,
+    "station_passenger_log": 3.6635616461296463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0080",
@@ -238,7 +338,7 @@
     "line_name": "松浦鉄道",
     "lat": 33.266395,
     "lon": 129.685271,
-    "station_passenger_log": 5.75890177387728,
+    "station_passenger_log": 5.0238805208462765,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
     "station_rank": "E"
@@ -257,7 +357,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎旧線",
     "lat": 32.832743,
-    "lon": 129.98627
+    "lon": 129.98627,
+    "station_passenger_log": 8.08487062913819,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0054",
@@ -265,7 +369,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.872061,
-    "lon": 130.308528
+    "lon": 130.308528,
+    "station_passenger_log": 5.676753802268282,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0056",
@@ -273,7 +381,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.843734,
-    "lon": 130.344659
+    "lon": 130.344659,
+    "station_passenger_log": 4.553876891600541,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0003",
@@ -281,7 +393,11 @@
     "prefecture": "長崎県",
     "line_name": "JR佐世保線",
     "lat": 33.14917,
-    "lon": 129.782014
+    "lon": 129.782014,
+    "station_passenger_log": 6.9167150203536085,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0088",
@@ -289,7 +405,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.189461,
-    "lon": 129.667187
+    "lon": 129.667187,
+    "station_passenger_log": 6.7650389767805414,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0115",
@@ -297,7 +417,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.769017,
-    "lon": 129.864171
+    "lon": 129.864171,
+    "station_passenger_log": 7.741099090035366,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0017",
@@ -313,7 +437,11 @@
     "prefecture": "長崎県",
     "line_name": "JR大村線",
     "lat": 32.955353,
-    "lon": 129.944356
+    "lon": 129.944356,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0112",
@@ -329,7 +457,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.860303,
-    "lon": 130.225482
+    "lon": 130.225482,
+    "station_passenger_log": 3.970291913552122,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0123",
@@ -337,7 +469,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.745116,
-    "lon": 129.872046
+    "lon": 129.872046,
+    "station_passenger_log": 7.438971592395862,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0103",
@@ -345,7 +481,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌大浦支線",
     "lat": 32.736408,
-    "lon": 129.87078
+    "lon": 129.87078,
+    "station_passenger_log": 7.313886831633462,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0102",
@@ -353,7 +493,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌大浦支線",
     "lat": 32.737861,
-    "lon": 129.870608
+    "lon": 129.870608,
+    "station_passenger_log": 6.398594934535208,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0022",
@@ -361,7 +505,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎旧線",
     "lat": 32.860232,
-    "lon": 129.938972
+    "lon": 129.938972,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0140",
@@ -369,7 +517,11 @@
     "prefecture": "長崎県",
     "line_name": "西九州新幹線",
     "lat": 33.106613,
-    "lon": 129.998972
+    "lon": 129.998972,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0008",
@@ -377,7 +529,11 @@
     "prefecture": "長崎県",
     "line_name": "JR大村線",
     "lat": 33.063779,
-    "lon": 129.834347
+    "lon": 129.834347,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0032",
@@ -385,7 +541,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎本線",
     "lat": 32.891351,
-    "lon": 130.112282
+    "lon": 130.112282,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0084",
@@ -393,7 +553,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.222005,
-    "lon": 129.641643
+    "lon": 129.641643,
+    "station_passenger_log": 5.765191102784844,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0042",
@@ -401,7 +565,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.833985,
-    "lon": 130.08557
+    "lon": 130.08557,
+    "station_passenger_log": 5.030437921392435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0029",
@@ -409,7 +577,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎本線",
     "lat": 32.924075,
-    "lon": 130.186386
+    "lon": 130.186386,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0096",
@@ -417,7 +589,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.196575,
-    "lon": 129.722898
+    "lon": 129.722898,
+    "station_passenger_log": 4.700480365792417,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0110",
@@ -425,7 +601,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.781935,
-    "lon": 129.862282
+    "lon": 129.862282,
+    "station_passenger_log": 7.741099090035366,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0018",
@@ -433,7 +613,11 @@
     "prefecture": "長崎県",
     "line_name": "JR大村線",
     "lat": 32.890513,
-    "lon": 129.981218
+    "lon": 129.981218,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0059",
@@ -441,7 +625,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.790489,
-    "lon": 130.370616
+    "lon": 130.370616,
+    "station_passenger_log": 6.638567789166521,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0062",
@@ -449,7 +637,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.768507,
-    "lon": 130.370151
+    "lon": 130.370151,
+    "station_passenger_log": 4.912654885736052,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0061",
@@ -457,7 +649,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.775768,
-    "lon": 130.37557
+    "lon": 130.37557,
+    "station_passenger_log": 3.828641396489095,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0129",
@@ -465,7 +661,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.741425,
-    "lon": 129.882109
+    "lon": 129.882109,
+    "station_passenger_log": 6.803505257608338,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0009",
@@ -473,7 +673,11 @@
     "prefecture": "長崎県",
     "line_name": "JR大村線",
     "lat": 33.068368,
-    "lon": 129.864112
+    "lon": 129.864112,
+    "station_passenger_log": 7.281385663570283,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0094",
@@ -481,7 +685,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.208896,
-    "lon": 129.721992
+    "lon": 129.721992,
+    "station_passenger_log": 7.1569563646156364,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0036",
@@ -489,7 +697,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎本線",
     "lat": 32.818986,
-    "lon": 129.965831
+    "lon": 129.965831,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0131",
@@ -497,7 +709,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌桜町支線",
     "lat": 32.74942,
-    "lon": 129.88065
+    "lon": 129.88065,
+    "station_passenger_log": 8.268988209506656,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0043",
@@ -505,7 +721,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.836138,
-    "lon": 130.093272
+    "lon": 130.093272,
+    "station_passenger_log": 4.634728988229636,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0113",
@@ -513,7 +733,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.773437,
-    "lon": 129.862132
+    "lon": 129.862132,
+    "station_passenger_log": 8.03947991910045,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0041",
@@ -521,7 +745,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.83705,
-    "lon": 130.066927
+    "lon": 130.066927,
+    "station_passenger_log": 5.811140992976701,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0010",
@@ -529,7 +757,11 @@
     "prefecture": "長崎県",
     "line_name": "JR大村線",
     "lat": 33.039875,
-    "lon": 129.914541
+    "lon": 129.914541,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0069",
@@ -537,7 +769,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.365947,
-    "lon": 129.662502
+    "lon": 129.662502,
+    "station_passenger_log": 5.402677381872279,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0128",
@@ -545,7 +781,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.742725,
-    "lon": 129.880264
+    "lon": 129.880264,
+    "station_passenger_log": 7.244941546337007,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0047",
@@ -553,7 +793,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.818824,
-    "lon": 130.155855
+    "lon": 130.155855,
+    "station_passenger_log": 5.860786223465865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0136",
@@ -561,7 +805,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌蛍茶屋支線",
     "lat": 32.752362,
-    "lon": 129.890435
+    "lon": 129.890435,
+    "station_passenger_log": 7.550135342488429,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0125",
@@ -569,7 +817,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.742869,
-    "lon": 129.874942
+    "lon": 129.874942,
+    "station_passenger_log": 8.77971129020447,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagasaki_0135",
@@ -577,7 +829,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌蛍茶屋支線",
     "lat": 32.75238,
-    "lon": 129.886701
+    "lon": 129.886701,
+    "station_passenger_log": 8.03947991910045,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0015",
@@ -585,7 +841,11 @@
     "prefecture": "長崎県",
     "line_name": "JR大村線",
     "lat": 32.932929,
-    "lon": 129.956991
+    "lon": 129.956991,
+    "station_passenger_log": 7.280008252884188,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0004",
@@ -593,7 +853,11 @@
     "prefecture": "長崎県",
     "line_name": "JR佐世保線",
     "lat": 33.157419,
-    "lon": 129.758276
+    "lon": 129.758276,
+    "station_passenger_log": 6.792344427470809,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0002",
@@ -601,7 +865,11 @@
     "prefecture": "長崎県",
     "line_name": "JR佐世保線",
     "lat": 33.134155,
-    "lon": 129.79929
+    "lon": 129.79929,
+    "station_passenger_log": 8.051022208190679,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0106",
@@ -609,7 +877,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.79063,
-    "lon": 129.860694
+    "lon": 129.860694,
+    "station_passenger_log": 6.398594934535208,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0055",
@@ -617,7 +889,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.858249,
-    "lon": 130.328246
+    "lon": 130.328246,
+    "station_passenger_log": 4.418840607796598,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0090",
@@ -625,7 +901,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.207029,
-    "lon": 129.682099
+    "lon": 129.682099,
+    "station_passenger_log": 5.267858159063328,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0023",
@@ -633,7 +913,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎旧線",
     "lat": 32.831792,
-    "lon": 129.899916
+    "lon": 129.899916,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0040",
@@ -649,7 +933,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎旧線",
     "lat": 32.847091,
-    "lon": 129.962591
+    "lon": 129.962591,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0071",
@@ -657,7 +945,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.357706,
-    "lon": 129.623147
+    "lon": 129.623147,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0034",
@@ -665,7 +957,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎本線",
     "lat": 32.852823,
-    "lon": 130.061675
+    "lon": 130.061675,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0012",
@@ -674,7 +970,7 @@
     "line_name": "JR大村線",
     "lat": 32.97738,
     "lon": 129.94619,
-    "station_passenger_log": 8.043663352393944,
+    "station_passenger_log": 0.0,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
     "station_rank": "E"
@@ -686,7 +982,7 @@
     "line_name": "島原鉄道",
     "lat": 32.834176,
     "lon": 130.347714,
-    "station_passenger_log": 7.290974778142981,
+    "station_passenger_log": 3.4657359027997265,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
     "station_rank": "E"
@@ -697,7 +993,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.344273,
-    "lon": 129.707906
+    "lon": 129.707906,
+    "station_passenger_log": 5.950642552587727,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0068",
@@ -705,7 +1005,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.347361,
-    "lon": 129.68607
+    "lon": 129.68607,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0130",
@@ -721,7 +1025,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.201565,
-    "lon": 129.651796
+    "lon": 129.651796,
+    "station_passenger_log": 5.1647859739235145,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0044",
@@ -729,7 +1037,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.834969,
-    "lon": 130.113402
+    "lon": 130.113402,
+    "station_passenger_log": 4.653960350157523,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0076",
@@ -737,7 +1049,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.306809,
-    "lon": 129.627081
+    "lon": 129.627081,
+    "station_passenger_log": 5.948034989180646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0095",
@@ -745,7 +1061,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.205816,
-    "lon": 129.727028
+    "lon": 129.727028,
+    "station_passenger_log": 7.035268599281097,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0132",
@@ -753,7 +1073,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌蛍茶屋支線",
     "lat": 32.744751,
-    "lon": 129.876804
+    "lon": 129.876804,
+    "station_passenger_log": 7.824445930877619,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0028",
@@ -761,7 +1085,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎旧線",
     "lat": 32.765767,
-    "lon": 129.863304
+    "lon": 129.863304,
+    "station_passenger_log": 8.439663988907,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0111",
@@ -769,7 +1097,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.77968,
-    "lon": 129.861381
+    "lon": 129.861381,
+    "station_passenger_log": 7.313886831633462,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0116",
@@ -777,7 +1109,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.765481,
-    "lon": 129.864171
+    "lon": 129.864171,
+    "station_passenger_log": 7.783640596221253,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0082",
@@ -785,7 +1121,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.247775,
-    "lon": 129.656536
+    "lon": 129.656536,
+    "station_passenger_log": 6.601230118728877,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0031",
@@ -793,7 +1133,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎本線",
     "lat": 32.904811,
-    "lon": 130.140614
+    "lon": 130.140614,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0079",
@@ -801,7 +1145,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.280808,
-    "lon": 129.683509
+    "lon": 129.683509,
+    "station_passenger_log": 4.61512051684126,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0038",
@@ -809,7 +1157,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎本線",
     "lat": 32.79118,
-    "lon": 129.926453
+    "lon": 129.926453,
+    "station_passenger_log": 7.221835825288449,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0092",
@@ -817,7 +1169,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.213348,
-    "lon": 129.701741
+    "lon": 129.701741,
+    "station_passenger_log": 5.2574953720277815,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0087",
@@ -825,7 +1181,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.192577,
-    "lon": 129.65714
+    "lon": 129.65714,
+    "station_passenger_log": 5.389071729816501,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0085",
@@ -833,7 +1193,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.206498,
-    "lon": 129.65146
+    "lon": 129.65146,
+    "station_passenger_log": 4.3694478524670215,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0104",
@@ -865,7 +1229,11 @@
     "prefecture": "長崎県",
     "line_name": "JR大村線",
     "lat": 32.939959,
-    "lon": 129.953035
+    "lon": 129.953035,
+    "station_passenger_log": 7.430707082545968,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0100",
@@ -881,7 +1249,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎本線",
     "lat": 32.798463,
-    "lon": 129.951571
+    "lon": 129.951571,
+    "station_passenger_log": 6.46302945692067,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0033",
@@ -889,7 +1261,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎本線",
     "lat": 32.861773,
-    "lon": 130.079971
+    "lon": 130.079971,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0108",
@@ -897,7 +1273,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.787744,
-    "lon": 129.861596
+    "lon": 129.861596,
+    "station_passenger_log": 7.378383712996715,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0117",
@@ -905,7 +1285,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.763965,
-    "lon": 129.864557
+    "lon": 129.864557,
+    "station_passenger_log": 8.006700845440367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0137",
@@ -913,7 +1297,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌蛍茶屋支線",
     "lat": 32.751135,
-    "lon": 129.894254
+    "lon": 129.894254,
+    "station_passenger_log": 7.601402334583733,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0070",
@@ -921,7 +1309,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.355798,
-    "lon": 129.638657
+    "lon": 129.638657,
+    "station_passenger_log": 2.772588722239781,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0126",
@@ -929,7 +1321,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.743735,
-    "lon": 129.876015
+    "lon": 129.876015,
+    "station_passenger_log": 7.170888478512505,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0027",
@@ -937,7 +1333,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎旧線",
     "lat": 32.790245,
-    "lon": 129.859206
+    "lon": 129.859206,
+    "station_passenger_log": 7.434257382133136,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0074",
@@ -945,7 +1345,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.34514,
-    "lon": 129.590475
+    "lon": 129.590475,
+    "station_passenger_log": 4.912654885736052,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0035",
@@ -953,7 +1357,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎本線",
     "lat": 32.839632,
-    "lon": 130.021269
+    "lon": 130.021269,
+    "station_passenger_log": 7.629975707027789,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0052",
@@ -961,7 +1369,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.872801,
-    "lon": 130.243814
+    "lon": 130.243814,
+    "station_passenger_log": 4.663439094112067,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0127",
@@ -969,7 +1381,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.743483,
-    "lon": 129.877775
+    "lon": 129.877775,
+    "station_passenger_log": 7.650168700845001,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0066",
@@ -977,7 +1393,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.352223,
-    "lon": 129.727507
+    "lon": 129.727507,
+    "station_passenger_log": 4.6443908991413725,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0016",
@@ -985,7 +1405,11 @@
     "prefecture": "長崎県",
     "line_name": "JR大村線",
     "lat": 32.923627,
-    "lon": 129.960277
+    "lon": 129.960277,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0134",
@@ -993,7 +1417,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌蛍茶屋支線",
     "lat": 32.752596,
-    "lon": 129.884083
+    "lon": 129.884083,
+    "station_passenger_log": 7.550135342488429,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0019",
@@ -1001,7 +1429,11 @@
     "prefecture": "長崎県",
     "line_name": "JR大村線",
     "lat": 32.851018,
-    "lon": 130.041596
+    "lon": 130.041596,
+    "station_passenger_log": 9.17895289873455,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagasaki_0046",
@@ -1009,7 +1441,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.823084,
-    "lon": 130.149098
+    "lon": 130.149098,
+    "station_passenger_log": 5.225746673713202,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0138",
@@ -1017,7 +1453,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌赤迫支線",
     "lat": 32.793981,
-    "lon": 129.857404
+    "lon": 129.857404,
+    "station_passenger_log": 8.160803920954665,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0026",
@@ -1025,7 +1465,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎旧線",
     "lat": 32.804329,
-    "lon": 129.852997
+    "lon": 129.852997,
+    "station_passenger_log": 7.720905251936779,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0093",
@@ -1033,7 +1477,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.211712,
-    "lon": 129.708527
+    "lon": 129.708527,
+    "station_passenger_log": 5.1647859739235145,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0045",
@@ -1041,7 +1489,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.833992,
-    "lon": 130.135624
+    "lon": 130.135624,
+    "station_passenger_log": 3.871201010907891,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0024",
@@ -1049,7 +1501,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎旧線",
     "lat": 32.818981,
-    "lon": 129.879434
+    "lon": 129.879434,
+    "station_passenger_log": 8.130059039992796,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0039",
@@ -1065,7 +1521,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.785759,
-    "lon": 129.862282
+    "lon": 129.862282,
+    "station_passenger_log": 7.972810784121404,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0121",
@@ -1073,7 +1533,11 @@
     "prefecture": "長崎県",
     "line_name": "長崎電軌本線",
     "lat": 32.75238,
-    "lon": 129.871874
+    "lon": 129.871874,
+    "station_passenger_log": 9.071193240566023,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagasaki_0030",
@@ -1081,7 +1545,11 @@
     "prefecture": "長崎県",
     "line_name": "JR長崎本線",
     "lat": 32.91526,
-    "lon": 130.165484
+    "lon": 130.165484,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0048",
@@ -1089,7 +1557,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.830073,
-    "lon": 130.170196
+    "lon": 130.170196,
+    "station_passenger_log": 4.110873864173311,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0060",
@@ -1097,7 +1569,11 @@
     "prefecture": "長崎県",
     "line_name": "島原鉄道",
     "lat": 32.782198,
-    "lon": 130.374233
+    "lon": 130.374233,
+    "station_passenger_log": 3.4339872044851463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0077",
@@ -1105,7 +1581,11 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.297507,
-    "lon": 129.63723
+    "lon": 129.63723,
+    "station_passenger_log": 4.51085950651685,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagasaki_0025",
@@ -1121,6 +1601,10 @@
     "prefecture": "長崎県",
     "line_name": "松浦鉄道",
     "lat": 33.353784,
-    "lon": 129.761685
+    "lon": 129.761685,
+    "station_passenger_log": 3.9318256327243257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

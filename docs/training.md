@@ -1067,6 +1067,8 @@ make compare-station-passenger-features
 
 首都圏の初期比較では、既存の `station` カテゴリを残すなら数値の駅規模特徴量は小さな改善に留まる。一方で `station` カテゴリを外す軽量モデルでは駅規模特徴量の効果が大きく、ブラウザ配布サイズを抑える候補として有望。
 
+全国取得後の地域別比較では、実運用上の担当県で2023〜2025年の全指標が安定して改善した関東地域モデルに限り、上記5つの数値特徴量を追加する。ほかの地域モデルは従来の特徴量を維持する。公開対象を限定する場合は `train_regional_models.py --publish --publish-clusters kanto` を使う。
+
 ブラウザ推論ではAPIを呼ばず、学習側で生成した軽量JSONまたはモデル入力済み特徴量を利用する。
 
 ## SurroundingFacilityProvider

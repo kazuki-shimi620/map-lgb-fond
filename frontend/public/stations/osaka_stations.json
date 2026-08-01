@@ -5,7 +5,11 @@
     "prefecture": "大阪府",
     "line_name": "おおさか東線",
     "lat": 34.658372,
-    "lon": 135.572421
+    "lon": 135.572421,
+    "station_passenger_log": 9.407632639699958,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0518",
@@ -13,7 +17,11 @@
     "prefecture": "大阪府",
     "line_name": "おおさか東線",
     "lat": 34.664717,
-    "lon": 135.572255
+    "lon": 135.572255,
+    "station_passenger_log": 9.840494503208207,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0514",
@@ -21,7 +29,11 @@
     "prefecture": "大阪府",
     "line_name": "おおさか東線",
     "lat": 34.740733,
-    "lon": 135.51989
+    "lon": 135.51989,
+    "station_passenger_log": 9.937357437043744,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0003",
@@ -29,7 +41,11 @@
     "prefecture": "大阪府",
     "line_name": "JR京都線",
     "lat": 34.828557,
-    "lon": 135.57769
+    "lon": 135.57769,
+    "station_passenger_log": 9.875653761606692,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0516",
@@ -37,7 +53,11 @@
     "prefecture": "大阪府",
     "line_name": "おおさか東線",
     "lat": 34.707144,
-    "lon": 135.541395
+    "lon": 135.541395,
+    "station_passenger_log": 9.482274087459825,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0520",
@@ -45,7 +65,11 @@
     "prefecture": "大阪府",
     "line_name": "おおさか東線",
     "lat": 34.649516,
-    "lon": 135.570168
+    "lon": 135.570168,
+    "station_passenger_log": 8.82922635473185,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0023",
@@ -53,7 +77,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大和路線",
     "lat": 34.666438,
-    "lon": 135.495265
+    "lon": 135.495265,
+    "station_passenger_log": 10.52570248222807,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0508",
@@ -61,7 +89,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪今里筋線",
     "lat": 34.743805,
-    "lon": 135.544408
+    "lon": 135.544408,
+    "station_passenger_log": 9.160309438370618,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0350",
@@ -77,7 +109,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪中之島線",
     "lat": 34.692829,
-    "lon": 135.506594
+    "lon": 135.506594,
+    "station_passenger_log": 7.568379267836522,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0289",
@@ -93,7 +129,11 @@
     "prefecture": "大阪府",
     "line_name": "南海多奈川線",
     "lat": 34.323986,
-    "lon": 135.160977
+    "lon": 135.160977,
+    "station_passenger_log": 8.146998697389993,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0065",
@@ -101,7 +141,11 @@
     "prefecture": "大阪府",
     "line_name": "JR関西空港線",
     "lat": 34.410308,
-    "lon": 135.300117
+    "lon": 135.300117,
+    "station_passenger_log": 10.301491562412671,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0230",
@@ -109,7 +153,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪中央線",
     "lat": 34.642888,
-    "lon": 135.412472
+    "lon": 135.412472,
+    "station_passenger_log": 10.07634782554057,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0257",
@@ -117,7 +165,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪南港ポートタウン線",
     "lat": 34.63865,
-    "lon": 135.412336
+    "lon": 135.412336,
+    "station_passenger_log": 9.378563004390635,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0504",
@@ -125,7 +177,11 @@
     "prefecture": "大阪府",
     "line_name": "阪神なんば線",
     "lat": 34.670266,
-    "lon": 135.478313
+    "lon": 135.478313,
+    "station_passenger_log": 9.318925682389624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0322",
@@ -133,7 +189,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪長堀鶴見緑地線",
     "lat": 34.670757,
-    "lon": 135.479415
+    "lon": 135.479415,
+    "station_passenger_log": 9.255982729854884,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0261",
@@ -141,7 +201,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪南港ポートタウン線",
     "lat": 34.619253,
-    "lon": 135.434962
+    "lon": 135.434962,
+    "station_passenger_log": 8.203304026795282,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0260",
@@ -149,7 +213,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪南港ポートタウン線",
     "lat": 34.630882,
-    "lon": 135.429085
+    "lon": 135.429085,
+    "station_passenger_log": 9.422301633887823,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0259",
@@ -157,7 +225,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪南港ポートタウン線",
     "lat": 34.630899,
-    "lon": 135.422777
+    "lon": 135.422777,
+    "station_passenger_log": 9.06496771896043,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0047",
@@ -165,7 +237,11 @@
     "prefecture": "大阪府",
     "line_name": "JR桜島線",
     "lat": 34.667842,
-    "lon": 135.438705
+    "lon": 135.438705,
+    "station_passenger_log": 11.163977731947233,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0149",
@@ -173,7 +249,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.592313,
-    "lon": 135.480556
+    "lon": 135.480556,
+    "station_passenger_log": 9.307194813340065,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0218",
@@ -189,7 +269,11 @@
     "prefecture": "大阪府",
     "line_name": "水間鉄道",
     "lat": 34.411135,
-    "lon": 135.383387
+    "lon": 135.383387,
+    "station_passenger_log": 6.003887067106539,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0342",
@@ -197,7 +281,11 @@
     "prefecture": "大阪府",
     "line_name": "水間鉄道",
     "lat": 34.407247,
-    "lon": 135.385026
+    "lon": 135.385026,
+    "station_passenger_log": 5.579729825986222,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0479",
@@ -221,7 +309,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.43672,
-    "lon": 135.57134
+    "lon": 135.57134,
+    "station_passenger_log": 9.406482647787447,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0375",
@@ -229,7 +321,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.532974,
-    "lon": 135.637634
+    "lon": 135.637634,
+    "station_passenger_log": 8.210396255104774,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0458",
@@ -237,7 +333,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急京都本線",
     "lat": 34.750873,
-    "lon": 135.533114
+    "lon": 135.533114,
+    "station_passenger_log": 10.605396238764646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0467",
@@ -253,7 +353,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.549484,
-    "lon": 135.478026
+    "lon": 135.478026,
+    "station_passenger_log": 9.633710883953182,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0470",
@@ -261,7 +365,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急千里線",
     "lat": 34.746474,
-    "lon": 135.519893
+    "lon": 135.519893,
+    "station_passenger_log": 8.853236764745898,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0085",
@@ -277,7 +385,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪南港ポートタウン線",
     "lat": 34.634091,
-    "lon": 135.417416
+    "lon": 135.417416,
+    "station_passenger_log": 8.292047637431354,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0128",
@@ -285,7 +397,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪中之島線",
     "lat": 34.691504,
-    "lon": 135.487373
+    "lon": 135.487373,
+    "station_passenger_log": 8.872627365918836,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0306",
@@ -293,7 +409,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.706864,
-    "lon": 135.505245
+    "lon": 135.505245,
+    "station_passenger_log": 9.546955455537145,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0285",
@@ -317,7 +437,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大和路線",
     "lat": 34.622558,
-    "lon": 135.583988
+    "lon": 135.583988,
+    "station_passenger_log": 10.431022789865066,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0383",
@@ -325,7 +449,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.634593,
-    "lon": 135.590548
+    "lon": 135.590548,
+    "station_passenger_log": 8.45126704130007,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0084",
@@ -333,7 +461,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.46574,
-    "lon": 135.405384
+    "lon": 135.405384,
+    "station_passenger_log": 9.351232110673664,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0234",
@@ -349,7 +481,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.432717,
-    "lon": 135.345275
+    "lon": 135.345275,
+    "station_passenger_log": 8.369388996647842,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0168",
@@ -357,7 +493,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.41983,
-    "lon": 135.330742
+    "lon": 135.330742,
+    "station_passenger_log": 8.07402621612406,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0506",
@@ -365,7 +505,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪今里筋線",
     "lat": 34.75982,
-    "lon": 135.547321
+    "lon": 135.547321,
+    "station_passenger_log": 8.735846677457582,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0102",
@@ -373,7 +517,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪交野線",
     "lat": 34.786924,
-    "lon": 135.675595
+    "lon": 135.675595,
+    "station_passenger_log": 8.921991410536698,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0036",
@@ -389,7 +537,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大和路線",
     "lat": 34.654156,
-    "lon": 135.492975
+    "lon": 135.492975,
+    "station_passenger_log": 9.094368195723762,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0187",
@@ -397,7 +549,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.655137,
-    "lon": 135.50153
+    "lon": 135.50153,
+    "station_passenger_log": 7.289610521451167,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0361",
@@ -413,7 +569,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.645704,
-    "lon": 135.502339
+    "lon": 135.502339,
+    "station_passenger_log": 4.02535169073515,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0330",
@@ -421,7 +581,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪長堀鶴見緑地線",
     "lat": 34.701913,
-    "lon": 135.560044
+    "lon": 135.560044,
+    "station_passenger_log": 9.940205135471292,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0426",
@@ -429,7 +593,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.642702,
-    "lon": 135.501611
+    "lon": 135.501611,
+    "station_passenger_log": 4.605170185988092,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0252",
@@ -445,7 +613,11 @@
     "prefecture": "大阪府",
     "line_name": "阪神なんば線",
     "lat": 34.689256,
-    "lon": 135.451559
+    "lon": 135.451559,
+    "station_passenger_log": 8.981555940771887,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0185",
@@ -453,7 +625,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高師浜線",
     "lat": 34.528869,
-    "lon": 135.436847
+    "lon": 135.436847,
+    "station_passenger_log": 7.111512116496157,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0148",
@@ -461,7 +637,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.605348,
-    "lon": 135.487011
+    "lon": 135.487011,
+    "station_passenger_log": 9.30091207016057,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0265",
@@ -469,7 +649,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪南港ポートタウン線",
     "lat": 34.609269,
-    "lon": 135.471879
+    "lon": 135.471879,
+    "station_passenger_log": 10.231099221439427,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0422",
@@ -485,7 +669,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.612431,
-    "lon": 135.490124
+    "lon": 135.490124,
+    "station_passenger_log": 8.970432074329242,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0190",
@@ -493,7 +681,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.6133,
-    "lon": 135.497587
+    "lon": 135.497587,
+    "station_passenger_log": 8.737292112544221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0434",
@@ -501,7 +693,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.612139,
-    "lon": 135.491093
+    "lon": 135.491093,
+    "station_passenger_log": 6.881411303642535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0058",
@@ -509,7 +705,11 @@
     "prefecture": "大阪府",
     "line_name": "JR片町線",
     "lat": 34.706238,
-    "lon": 135.621496
+    "lon": 135.621496,
+    "station_passenger_log": 10.918156480309198,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0380",
@@ -517,7 +717,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.658224,
-    "lon": 135.571777
+    "lon": 135.571777,
+    "station_passenger_log": 8.89918494333876,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0082",
@@ -525,7 +729,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.500183,
-    "lon": 135.432895
+    "lon": 135.432895,
+    "station_passenger_log": 8.83331693749932,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0357",
@@ -533,7 +741,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄信貴線",
     "lat": 34.619967,
-    "lon": 135.642118
+    "lon": 135.642118,
+    "station_passenger_log": 7.057897937411856,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0123",
@@ -541,7 +753,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.797745,
-    "lon": 135.630124
+    "lon": 135.630124,
+    "station_passenger_log": 9.631481959469356,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0347",
@@ -549,7 +765,11 @@
     "prefecture": "大阪府",
     "line_name": "南海泉北線",
     "lat": 34.474712,
-    "lon": 135.475572
+    "lon": 135.475572,
+    "station_passenger_log": 10.171030691147022,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0349",
@@ -565,7 +785,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大和路線",
     "lat": 34.617265,
-    "lon": 135.597136
+    "lon": 135.597136,
+    "station_passenger_log": 10.075379913839544,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0320",
@@ -573,7 +797,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.597433,
-    "lon": 135.582464
+    "lon": 135.582464,
+    "station_passenger_log": 9.260462981379394,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0396",
@@ -581,7 +809,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄奈良線",
     "lat": 34.663721,
-    "lon": 135.589475
+    "lon": 135.589475,
+    "station_passenger_log": 10.174201476757757,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0226",
@@ -589,7 +821,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪モノレール彩都線",
     "lat": 34.810427,
-    "lon": 135.539235
+    "lon": 135.539235,
+    "station_passenger_log": 7.27931883541462,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0318",
@@ -597,7 +833,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.609012,
-    "lon": 135.565801
+    "lon": 135.565801,
+    "station_passenger_log": 9.494767151707292,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0498",
@@ -605,7 +845,11 @@
     "prefecture": "大阪府",
     "line_name": "阪神なんば線",
     "lat": 34.707173,
-    "lon": 135.436921
+    "lon": 135.436921,
+    "station_passenger_log": 9.27556615689389,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0199",
@@ -613,7 +857,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.542322,
-    "lon": 135.526491
+    "lon": 135.526491,
+    "station_passenger_log": 9.615538777855802,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0045",
@@ -621,7 +869,11 @@
     "prefecture": "大阪府",
     "line_name": "JR東西線",
     "lat": 34.727496,
-    "lon": 135.454183
+    "lon": 135.454183,
+    "station_passenger_log": 9.781150412671185,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0017",
@@ -629,7 +881,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大和路線",
     "lat": 34.626888,
-    "lon": 135.566939
+    "lon": 135.566939,
+    "station_passenger_log": 9.57268918901072,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0281",
@@ -637,7 +893,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪堺筋線",
     "lat": 34.648815,
-    "lon": 135.504413
+    "lon": 135.504413,
+    "station_passenger_log": 10.42933971031874,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0081",
@@ -645,7 +905,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.510671,
-    "lon": 135.441506
+    "lon": 135.441506,
+    "station_passenger_log": 9.21463115339334,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0274",
@@ -653,7 +917,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪四つ橋線",
     "lat": 34.621318,
-    "lon": 135.478861
+    "lon": 135.478861,
+    "station_passenger_log": 10.054920256296338,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0157",
@@ -661,7 +929,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.514523,
-    "lon": 135.422779
+    "lon": 135.422779,
+    "station_passenger_log": 9.313618721429684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0477",
@@ -669,7 +941,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急千里線",
     "lat": 34.81987,
-    "lon": 135.51111
+    "lon": 135.51111,
+    "station_passenger_log": 9.961803629358965,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0428",
@@ -677,7 +953,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.636511,
-    "lon": 135.500234
+    "lon": 135.500234,
+    "station_passenger_log": 4.343805421853684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0255",
@@ -685,7 +965,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪千日前線",
     "lat": 34.652982,
-    "lon": 135.554964
+    "lon": 135.554964,
+    "station_passenger_log": 9.46583494017472,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0041",
@@ -693,7 +977,11 @@
     "prefecture": "大阪府",
     "line_name": "JR東西線",
     "lat": 34.698323,
-    "lon": 135.497038
+    "lon": 135.497038,
+    "station_passenger_log": 11.33232642379408,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0106",
@@ -709,7 +997,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.632184,
-    "lon": 135.528934
+    "lon": 135.528934,
+    "station_passenger_log": 8.506334448081361,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0417",
@@ -717,7 +1009,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌上町線",
     "lat": 34.627245,
-    "lon": 135.505408
+    "lon": 135.505408,
+    "station_passenger_log": 7.745002803515839,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0295",
@@ -725,7 +1021,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪御堂筋線",
     "lat": 34.581873,
-    "lon": 135.516469
+    "lon": 135.516469,
+    "station_passenger_log": 10.077776937632818,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0201",
@@ -733,7 +1033,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.522949,
-    "lon": 135.543177
+    "lon": 135.543177,
+    "station_passenger_log": 10.317185345570769,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0454",
@@ -741,7 +1045,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急京都本線",
     "lat": 34.720226,
-    "lon": 135.48248
+    "lon": 135.48248,
+    "station_passenger_log": 10.967853402475647,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0206",
@@ -749,7 +1057,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.468894,
-    "lon": 135.566311
+    "lon": 135.566311,
+    "station_passenger_log": 9.327856705404022,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0210",
@@ -757,7 +1069,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.411493,
-    "lon": 135.590199
+    "lon": 135.590199,
+    "station_passenger_log": 5.236441962829949,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0112",
@@ -765,7 +1081,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.723966,
-    "lon": 135.554741
+    "lon": 135.554741,
+    "station_passenger_log": 8.737773460327283,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0301",
@@ -773,7 +1093,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.723808,
-    "lon": 135.54913
+    "lon": 135.54913,
+    "station_passenger_log": 9.64393931932812,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0492",
@@ -781,7 +1105,11 @@
     "prefecture": "大阪府",
     "line_name": "阪神本線",
     "lat": 34.712245,
-    "lon": 135.445361
+    "lon": 135.445361,
+    "station_passenger_log": 9.653807502217354,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0005",
@@ -789,7 +1117,11 @@
     "prefecture": "大阪府",
     "line_name": "JR京都線",
     "lat": 34.791502,
-    "lon": 135.551512
+    "lon": 135.551512,
+    "station_passenger_log": 10.5653762371933,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0134",
@@ -797,7 +1129,11 @@
     "prefecture": "大阪府",
     "line_name": "北大阪急行",
     "lat": 34.808655,
-    "lon": 135.495067
+    "lon": 135.495067,
+    "station_passenger_log": 11.293699230940064,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0474",
@@ -805,7 +1141,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急千里線",
     "lat": 34.778903,
-    "lon": 135.505466
+    "lon": 135.505466,
+    "station_passenger_log": 9.58293787645873,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0501",
@@ -813,7 +1153,11 @@
     "prefecture": "大阪府",
     "line_name": "阪神なんば線",
     "lat": 34.68546,
-    "lon": 135.457817
+    "lon": 135.457817,
+    "station_passenger_log": 9.127827950401718,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0475",
@@ -821,7 +1165,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急千里線",
     "lat": 34.792393,
-    "lon": 135.508794
+    "lon": 135.508794,
+    "station_passenger_log": 9.763190466997406,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0513",
@@ -829,7 +1177,11 @@
     "prefecture": "大阪府",
     "line_name": "おおさか東線",
     "lat": 34.749441,
-    "lon": 135.511083
+    "lon": 135.511083,
+    "station_passenger_log": 8.837971491357209,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0256",
@@ -837,7 +1189,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪千日前線",
     "lat": 34.643261,
-    "lon": 135.553298
+    "lon": 135.553298,
+    "station_passenger_log": 9.320807825002154,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0223",
@@ -845,7 +1201,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪モノレール",
     "lat": 34.765394,
-    "lon": 135.568572
+    "lon": 135.568572,
+    "station_passenger_log": 9.172326929777968,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0455",
@@ -861,7 +1221,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪堺筋線",
     "lat": 34.697699,
-    "lon": 135.511078
+    "lon": 135.511078,
+    "station_passenger_log": 11.27114685448682,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0263",
@@ -869,7 +1233,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪南港ポートタウン線",
     "lat": 34.613826,
-    "lon": 135.445959
+    "lon": 135.445959,
+    "station_passenger_log": 8.30943074214033,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0262",
@@ -877,7 +1245,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪南港ポートタウン線",
     "lat": 34.613826,
-    "lon": 135.438607
+    "lon": 135.438607,
+    "station_passenger_log": 8.252446090246952,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0068",
@@ -885,7 +1257,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.625551,
-    "lon": 135.52086
+    "lon": 135.52086,
+    "station_passenger_log": 8.892473968347087,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0220",
@@ -893,7 +1269,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪モノレール",
     "lat": 34.803206,
-    "lon": 135.564777
+    "lon": 135.564777,
+    "station_passenger_log": 10.45900925685097,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0118",
@@ -901,7 +1281,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.73994,
-    "lon": 135.591484
+    "lon": 135.591484,
+    "station_passenger_log": 9.668208158877396,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0373",
@@ -925,7 +1309,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.391397,
-    "lon": 135.28976
+    "lon": 135.28976,
+    "station_passenger_log": 8.179199798423086,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0339",
@@ -933,7 +1321,11 @@
     "prefecture": "大阪府",
     "line_name": "水間鉄道",
     "lat": 34.421467,
-    "lon": 135.375027
+    "lon": 135.375027,
+    "station_passenger_log": 6.054439346269371,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0007",
@@ -949,7 +1341,11 @@
     "prefecture": "大阪府",
     "line_name": "南海泉北線",
     "lat": 34.461211,
-    "lon": 135.456063
+    "lon": 135.456063,
+    "station_passenger_log": 10.327087230839776,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0162",
@@ -957,7 +1353,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.467917,
-    "lon": 135.384908
+    "lon": 135.384908,
+    "station_passenger_log": 8.414717399827001,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0083",
@@ -965,7 +1365,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.48794,
-    "lon": 135.423891
+    "lon": 135.423891,
+    "station_passenger_log": 10.35993090540892,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0088",
@@ -973,7 +1377,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.427379,
-    "lon": 135.358762
+    "lon": 135.358762,
+    "station_passenger_log": 8.638879709672837,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0093",
@@ -981,7 +1389,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.360289,
-    "lon": 135.281242
+    "lon": 135.281242,
+    "station_passenger_log": 8.891374009484636,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0094",
@@ -989,7 +1401,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.342538,
-    "lon": 135.263238
+    "lon": 135.263238,
+    "station_passenger_log": 8.0774471493312,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0407",
@@ -997,7 +1413,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄長野線",
     "lat": 34.522647,
-    "lon": 135.607137
+    "lon": 135.607137,
+    "station_passenger_log": 9.617137925318126,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0317",
@@ -1005,7 +1425,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.609376,
-    "lon": 135.551633
+    "lon": 135.551633,
+    "station_passenger_log": 9.968057323185429,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0268",
@@ -1013,7 +1437,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪四つ橋線",
     "lat": 34.674112,
-    "lon": 135.496783
+    "lon": 135.496783,
+    "station_passenger_log": 10.357202996593005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0310",
@@ -1029,7 +1457,11 @@
     "prefecture": "大阪府",
     "line_name": "JR片町線",
     "lat": 34.730128,
-    "lon": 135.639297
+    "lon": 135.639297,
+    "station_passenger_log": 10.39772637269772,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0114",
@@ -1037,7 +1469,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.730577,
-    "lon": 135.559763
+    "lon": 135.559763,
+    "station_passenger_log": 8.328209491748732,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0371",
@@ -1045,7 +1481,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.571603,
-    "lon": 135.615622
+    "lon": 135.615622,
+    "station_passenger_log": 8.781708985836179,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0515",
@@ -1053,7 +1493,11 @@
     "prefecture": "大阪府",
     "line_name": "おおさか東線",
     "lat": 34.723529,
-    "lon": 135.53067
+    "lon": 135.53067,
+    "station_passenger_log": 9.473857817428666,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0388",
@@ -1061,7 +1505,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.588246,
-    "lon": 135.627331
+    "lon": 135.627331,
+    "station_passenger_log": 8.292047637431354,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0150",
@@ -1069,7 +1517,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.581958,
-    "lon": 135.468754
+    "lon": 135.468754,
+    "station_passenger_log": 10.46478763553565,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0074",
@@ -1077,7 +1529,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.577765,
-    "lon": 135.498644
+    "lon": 135.498644,
+    "station_passenger_log": 10.049793255125712,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0194",
@@ -1085,7 +1541,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.575878,
-    "lon": 135.485062
+    "lon": 135.485062,
+    "station_passenger_log": 10.90522176622775,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0237",
@@ -1093,7 +1553,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪中央線",
     "lat": 34.681867,
-    "lon": 135.506912
+    "lon": 135.506912,
+    "station_passenger_log": 11.534941327527868,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0063",
@@ -1101,7 +1565,11 @@
     "prefecture": "大阪府",
     "line_name": "JR神戸線",
     "lat": 34.71271,
-    "lon": 135.468843
+    "lon": 135.468843,
+    "station_passenger_log": 10.53073528631916,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0432",
@@ -1109,7 +1577,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.623524,
-    "lon": 135.494651
+    "lon": 135.494651,
+    "station_passenger_log": 4.574710978503383,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0141",
@@ -1117,7 +1589,11 @@
     "prefecture": "大阪府",
     "line_name": "南海多奈川線",
     "lat": 34.316705,
-    "lon": 135.137181
+    "lon": 135.137181,
+    "station_passenger_log": 5.991464547107982,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0523",
@@ -1133,7 +1609,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.594721,
-    "lon": 135.486764
+    "lon": 135.486764,
+    "station_passenger_log": 4.219507705176107,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0119",
@@ -1149,7 +1629,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪四つ橋線",
     "lat": 34.656075,
-    "lon": 135.4978
+    "lon": 135.4978,
+    "station_passenger_log": 10.45097292066472,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0444",
@@ -1157,7 +1641,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.579158,
-    "lon": 135.474448
+    "lon": 135.474448,
+    "station_passenger_log": 6.5998704992128365,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0224",
@@ -1165,7 +1653,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪モノレール",
     "lat": 34.74885,
-    "lon": 135.578928
+    "lon": 135.578928,
+    "station_passenger_log": 10.425460809904182,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0028",
@@ -1181,7 +1673,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪中之島線",
     "lat": 34.694296,
-    "lon": 135.500412
+    "lon": 135.500412,
+    "station_passenger_log": 8.138564737261632,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0010",
@@ -1189,7 +1685,11 @@
     "prefecture": "大阪府",
     "line_name": "JR京都線",
     "lat": 34.702398,
-    "lon": 135.495188
+    "lon": 135.495188,
+    "station_passenger_log": 13.507406706581492,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "S"
   },
   {
     "station_id": "osaka_0327",
@@ -1197,7 +1697,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪長堀鶴見緑地線",
     "lat": 34.692144,
-    "lon": 135.529688
+    "lon": 135.529688,
+    "station_passenger_log": 9.47500967011889,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0376",
@@ -1205,7 +1709,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.665513,
-    "lon": 135.522189
+    "lon": 135.522189,
+    "station_passenger_log": 11.09201671536821,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0035",
@@ -1213,7 +1721,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大阪環状線",
     "lat": 34.68858,
-    "lon": 135.534482
+    "lon": 135.534482,
+    "station_passenger_log": 10.16819522292803,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0039",
@@ -1221,7 +1733,11 @@
     "prefecture": "大阪府",
     "line_name": "JR東西線",
     "lat": 34.694283,
-    "lon": 135.525538
+    "lon": 135.525538,
+    "station_passenger_log": 9.093244600099936,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0040",
@@ -1229,7 +1745,11 @@
     "prefecture": "大阪府",
     "line_name": "JR東西線",
     "lat": 34.697404,
-    "lon": 135.513442
+    "lon": 135.513442,
+    "station_passenger_log": 10.742486788680049,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0391",
@@ -1237,7 +1757,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.555366,
-    "lon": 135.645139
+    "lon": 135.645139,
+    "station_passenger_log": 8.669914278433902,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0453",
@@ -1253,7 +1777,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪中央線",
     "lat": 34.65388,
-    "lon": 135.434336
+    "lon": 135.434336,
+    "station_passenger_log": 10.068154174091362,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0203",
@@ -1261,7 +1789,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.504643,
-    "lon": 135.557234
+    "lon": 135.557234,
+    "station_passenger_log": 9.077722847361343,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0212",
@@ -1269,7 +1801,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪モノレール",
     "lat": 34.791598,
-    "lon": 135.441821
+    "lon": 135.441821,
+    "station_passenger_log": 9.677026002747972,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0358",
@@ -1277,7 +1813,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.645643,
-    "lon": 135.514529
+    "lon": 135.514529,
+    "station_passenger_log": 11.850190244589111,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0392",
@@ -1285,7 +1825,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄奈良線",
     "lat": 34.667113,
-    "lon": 135.499144
+    "lon": 135.499144,
+    "station_passenger_log": 11.913458430032833,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0144",
@@ -1293,7 +1837,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.636847,
-    "lon": 135.496673
+    "lon": 135.496673,
+    "station_passenger_log": 11.18565674575296,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0038",
@@ -1301,7 +1849,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大阪環状線",
     "lat": 34.704923,
-    "lon": 135.512233
+    "lon": 135.512233,
+    "station_passenger_log": 10.802164060811023,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0107",
@@ -1309,7 +1861,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.6902,
-    "lon": 135.516633
+    "lon": 135.516633,
+    "station_passenger_log": 11.30393133676044,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0020",
@@ -1317,7 +1873,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大和路線",
     "lat": 34.647243,
-    "lon": 135.514124
+    "lon": 135.514124,
+    "station_passenger_log": 12.484094457554292,
+    "station_line_count": 5.0,
+    "station_operator_count": 2.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0414",
@@ -1325,7 +1885,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌上町線",
     "lat": 34.646202,
-    "lon": 135.512929
+    "lon": 135.512929,
+    "station_passenger_log": 9.251482315307358,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0430",
@@ -1333,7 +1897,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.629603,
-    "lon": 135.49799
+    "lon": 135.49799,
+    "station_passenger_log": 4.543294782270004,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0275",
@@ -1341,7 +1909,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪堺筋線",
     "lat": 34.710265,
-    "lon": 135.510757
+    "lon": 135.510757,
+    "station_passenger_log": 10.820697861469666,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0211",
@@ -1349,7 +1921,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.397558,
-    "lon": 135.595504
+    "lon": 135.595504,
+    "station_passenger_log": 5.68697535633982,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0300",
@@ -1357,7 +1933,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.731376,
-    "lon": 135.55493
+    "lon": 135.55493,
+    "station_passenger_log": 9.4539138048019,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0442",
@@ -1365,7 +1945,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.583444,
-    "lon": 135.478426
+    "lon": 135.478426,
+    "station_passenger_log": 5.68697535633982,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0351",
@@ -1373,7 +1957,11 @@
     "prefecture": "大阪府",
     "line_name": "能勢電鉄妙見線",
     "lat": 34.911539,
-    "lon": 135.444597
+    "lon": 135.444597,
+    "station_passenger_log": 7.59337419312129,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0493",
@@ -1381,7 +1969,11 @@
     "prefecture": "大阪府",
     "line_name": "阪神本線",
     "lat": 34.704466,
-    "lon": 135.45823
+    "lon": 135.45823,
+    "station_passenger_log": 9.517898598432753,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0418",
@@ -1389,7 +1981,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌上町線",
     "lat": 34.624162,
-    "lon": 135.503203
+    "lon": 135.503203,
+    "station_passenger_log": 7.380879035564116,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0178",
@@ -1397,7 +1993,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.290619,
-    "lon": 135.151019
+    "lon": 135.151019,
+    "station_passenger_log": 4.356708826689592,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0219",
@@ -1405,7 +2005,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪モノレール",
     "lat": 34.808,
-    "lon": 135.554406
+    "lon": 135.554406,
+    "station_passenger_log": 8.94023623179847,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0299",
@@ -1413,7 +2017,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.737973,
-    "lon": 135.563851
+    "lon": 135.563851,
+    "station_passenger_log": 9.797182146165197,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0115",
@@ -1421,7 +2029,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.735323,
-    "lon": 135.565273
+    "lon": 135.565273,
+    "station_passenger_log": 10.205959710460544,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0389",
@@ -1429,7 +2041,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.580213,
-    "lon": 135.629064
+    "lon": 135.629064,
+    "station_passenger_log": 7.7336835707759,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0046",
@@ -1437,7 +2053,11 @@
     "prefecture": "大阪府",
     "line_name": "JR桜島線",
     "lat": 34.673416,
-    "lon": 135.443921
+    "lon": 135.443921,
+    "station_passenger_log": 10.122100857763806,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0436",
@@ -1445,7 +2065,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.605706,
-    "lon": 135.490188
+    "lon": 135.490188,
+    "station_passenger_log": 6.802394763324311,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0098",
@@ -1453,7 +2077,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪交野線",
     "lat": 34.813649,
-    "lon": 135.65663
+    "lon": 135.65663,
+    "station_passenger_log": 8.415824697027949,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0445",
@@ -1461,7 +2089,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.576439,
-    "lon": 135.47196
+    "lon": 135.47196,
+    "station_passenger_log": 6.522092798170152,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0080",
@@ -1469,7 +2101,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.522534,
-    "lon": 135.451171
+    "lon": 135.451171,
+    "station_passenger_log": 8.853808274977197,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0465",
@@ -1485,7 +2121,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄長野線",
     "lat": 34.504166,
-    "lon": 135.600413
+    "lon": 135.600413,
+    "station_passenger_log": 9.326165937481774,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0409",
@@ -1493,7 +2133,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄長野線",
     "lat": 34.500302,
-    "lon": 135.596347
+    "lon": 135.596347,
+    "station_passenger_log": 8.66888370465667,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0054",
@@ -1501,7 +2145,11 @@
     "prefecture": "大阪府",
     "line_name": "JR片町線",
     "lat": 34.755491,
-    "lon": 135.653276
+    "lon": 135.653276,
+    "station_passenger_log": 9.003439196207838,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0121",
@@ -1509,7 +2157,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.763893,
-    "lon": 135.620603
+    "lon": 135.620603,
+    "station_passenger_log": 10.74285404259705,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0446",
@@ -1517,7 +2169,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.573637,
-    "lon": 135.469335
+    "lon": 135.469335,
+    "station_passenger_log": 5.958424693029782,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0030",
@@ -1525,7 +2181,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大阪環状線",
     "lat": 34.647957,
-    "lon": 135.523437
+    "lon": 135.523437,
+    "station_passenger_log": 10.3909933709805,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0254",
@@ -1549,7 +2209,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.36103,
-    "lon": 135.240172
+    "lon": 135.240172,
+    "station_passenger_log": 9.086476384753796,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0095",
@@ -1557,7 +2221,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.325535,
-    "lon": 135.269741
+    "lon": 135.269741,
+    "station_passenger_log": 5.700443573390687,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0217",
@@ -1573,7 +2241,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.384569,
-    "lon": 135.276939
+    "lon": 135.276939,
+    "station_passenger_log": 7.727094484779841,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0483",
@@ -1581,7 +2253,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急宝塚本線",
     "lat": 34.778949,
-    "lon": 135.465103
+    "lon": 135.465103,
+    "station_passenger_log": 9.592605086913911,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0163",
@@ -1589,7 +2265,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.460304,
-    "lon": 135.37819
+    "lon": 135.37819,
+    "station_passenger_log": 9.8698790613623,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0006",
@@ -1597,7 +2277,11 @@
     "prefecture": "大阪府",
     "line_name": "JR京都線",
     "lat": 34.776812,
-    "lon": 135.541613
+    "lon": 135.541613,
+    "station_passenger_log": 10.59610959523532,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0272",
@@ -1605,7 +2289,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪四つ橋線",
     "lat": 34.634372,
-    "lon": 135.493859
+    "lon": 135.493859,
+    "station_passenger_log": 9.665420700626544,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0145",
@@ -1613,7 +2301,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.628291,
-    "lon": 135.494388
+    "lon": 135.494388,
+    "station_passenger_log": 8.810907036099737,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0456",
@@ -1621,7 +2313,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急京都本線",
     "lat": 34.731048,
-    "lon": 135.510186
+    "lon": 135.510186,
+    "station_passenger_log": 8.568646473005153,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0410",
@@ -1637,7 +2333,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.577824,
-    "lon": 135.539415
+    "lon": 135.539415,
+    "station_passenger_log": 8.459987717645458,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0379",
@@ -1645,7 +2345,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.664092,
-    "lon": 135.563516
+    "lon": 135.563516,
+    "station_passenger_log": 10.457114011624814,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0189",
@@ -1653,7 +2357,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.622332,
-    "lon": 135.498406
+    "lon": 135.498406,
+    "station_passenger_log": 8.908829791587868,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0419",
@@ -1661,7 +2369,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌上町線",
     "lat": 34.620568,
-    "lon": 135.500709
+    "lon": 135.500709,
+    "station_passenger_log": 7.401231264413015,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0420",
@@ -1669,7 +2381,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌上町線",
     "lat": 34.617649,
-    "lon": 135.499051
+    "lon": 135.499051,
+    "station_passenger_log": 6.945051063725834,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0264",
@@ -1701,7 +2417,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大阪環状線",
     "lat": 34.669403,
-    "lon": 135.462348
+    "lon": 135.462348,
+    "station_passenger_log": 11.113775375094828,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0382",
@@ -1709,7 +2429,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.641337,
-    "lon": 135.583412
+    "lon": 135.583412,
+    "station_passenger_log": 9.13701670755734,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0229",
@@ -1717,7 +2441,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪モノレール彩都線",
     "lat": 34.855492,
-    "lon": 135.522931
+    "lon": 135.522931,
+    "station_passenger_log": 9.275285060616564,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0044",
@@ -1725,7 +2453,11 @@
     "prefecture": "大阪府",
     "line_name": "JR東西線",
     "lat": 34.71259,
-    "lon": 135.45568
+    "lon": 135.45568,
+    "station_passenger_log": 10.18667202593546,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0125",
@@ -1733,7 +2465,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.829178,
-    "lon": 135.653969
+    "lon": 135.653969,
+    "station_passenger_log": 9.218209330354878,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0447",
@@ -1741,7 +2477,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.570639,
-    "lon": 135.466605
+    "lon": 135.466605,
+    "station_passenger_log": 5.863631175598097,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0060",
@@ -1749,7 +2489,11 @@
     "prefecture": "大阪府",
     "line_name": "JR片町線",
     "lat": 34.692423,
-    "lon": 135.581386
+    "lon": 135.581386,
+    "station_passenger_log": 9.860423463065102,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0288",
@@ -1757,7 +2501,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪御堂筋線",
     "lat": 34.675012,
-    "lon": 135.50033
+    "lon": 135.50033,
+    "station_passenger_log": 11.831553726312023,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0055",
@@ -1773,7 +2521,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大和路線",
     "lat": 34.600248,
-    "lon": 135.615998
+    "lon": 135.615998,
+    "station_passenger_log": 9.830432871630215,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0160",
@@ -1781,7 +2533,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.488645,
-    "lon": 135.397668
+    "lon": 135.397668,
+    "station_passenger_log": 9.03145291191651,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0386",
@@ -1789,7 +2545,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.609747,
-    "lon": 135.626308
+    "lon": 135.626308,
+    "station_passenger_log": 8.454040376410969,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0368",
@@ -1797,7 +2557,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.573591,
-    "lon": 135.572751
+    "lon": 135.572751,
+    "station_passenger_log": 9.112948025967532,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0280",
@@ -1805,7 +2569,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪堺筋線",
     "lat": 34.65508,
-    "lon": 135.505575
+    "lon": 135.505575,
+    "station_passenger_log": 10.060747678734712,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0294",
@@ -1814,10 +2582,10 @@
     "line_name": "大阪御堂筋線",
     "lat": 34.598821,
     "lon": 135.512747,
-    "station_passenger_log": 10.928722371399465,
-    "station_line_count": 2.0,
+    "station_passenger_log": 10.397238225511654,
+    "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "B"
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0192",
@@ -1825,7 +2593,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.600188,
-    "lon": 135.496888
+    "lon": 135.496888,
+    "station_passenger_log": 9.03884005381381,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0071",
@@ -1833,7 +2605,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.601873,
-    "lon": 135.50667
+    "lon": 135.50667,
+    "station_passenger_log": 9.29532469588118,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0437",
@@ -1841,7 +2617,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.600379,
-    "lon": 135.488833
+    "lon": 135.488833,
+    "station_passenger_log": 7.681560362559537,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0276",
@@ -1857,7 +2637,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪モノレール",
     "lat": 34.779842,
-    "lon": 135.561483
+    "lon": 135.561483,
+    "station_passenger_log": 8.617219505483362,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0002",
@@ -1865,7 +2649,11 @@
     "prefecture": "大阪府",
     "line_name": "JR京都線",
     "lat": 34.837729,
-    "lon": 135.59336
+    "lon": 135.59336,
+    "station_passenger_log": 10.512083962693172,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0461",
@@ -1873,7 +2661,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急京都本線",
     "lat": 34.786409,
-    "lon": 135.553715
+    "lon": 135.553715,
+    "station_passenger_log": 9.224341891611996,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0061",
@@ -1881,7 +2673,11 @@
     "prefecture": "大阪府",
     "line_name": "JR片町線",
     "lat": 34.688103,
-    "lon": 135.563296
+    "lon": 135.563296,
+    "station_passenger_log": 10.401805277658909,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0313",
@@ -1889,7 +2685,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.636039,
-    "lon": 135.518024
+    "lon": 135.518024,
+    "station_passenger_log": 9.265869681768663,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0021",
@@ -1897,7 +2697,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大和路線",
     "lat": 34.650149,
-    "lon": 135.501076
+    "lon": 135.501076,
+    "station_passenger_log": 11.71152219306628,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0424",
@@ -1905,7 +2709,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.649529,
-    "lon": 135.503333
+    "lon": 135.503333,
+    "station_passenger_log": 6.186208623900494,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0522",
@@ -1913,7 +2721,11 @@
     "prefecture": "大阪府",
     "line_name": "おおさか東線",
     "lat": 34.626861,
-    "lon": 135.568588
+    "lon": 135.568588,
+    "station_passenger_log": 8.504513138258863,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0009",
@@ -1921,7 +2733,11 @@
     "prefecture": "大阪府",
     "line_name": "JR京都線",
     "lat": 34.734136,
-    "lon": 135.501852
+    "lon": 135.501852,
+    "station_passenger_log": 11.973762206391148,
+    "station_line_count": 5.0,
+    "station_operator_count": 3.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0092",
@@ -1929,7 +2745,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.372405,
-    "lon": 135.299076
+    "lon": 135.299076,
+    "station_passenger_log": 8.423541635334782,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0510",
@@ -1937,7 +2757,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪今里筋線",
     "lat": 34.715197,
-    "lon": 135.558296
+    "lon": 135.558296,
+    "station_passenger_log": 8.848652886213905,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0253",
@@ -1945,7 +2769,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪千日前線",
     "lat": 34.668158,
-    "lon": 135.553836
+    "lon": 135.553836,
+    "station_passenger_log": 9.368283850042138,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0354",
@@ -1953,7 +2781,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄けいはんな線",
     "lat": 34.680133,
-    "lon": 135.640859
+    "lon": 135.640859,
+    "station_passenger_log": 9.749986661550366,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0042",
@@ -1961,7 +2793,11 @@
     "prefecture": "大阪府",
     "line_name": "JR東西線",
     "lat": 34.695094,
-    "lon": 135.48593
+    "lon": 135.48593,
+    "station_passenger_log": 9.802395690974857,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0296",
@@ -1969,7 +2805,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪御堂筋線",
     "lat": 34.567447,
-    "lon": 135.514864
+    "lon": 135.514864,
+    "station_passenger_log": 9.901335237967984,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0249",
@@ -1985,7 +2825,11 @@
     "prefecture": "大阪府",
     "line_name": "JR関西空港線",
     "lat": 34.39075,
-    "lon": 135.331309
+    "lon": 135.331309,
+    "station_passenger_log": 9.623707509980202,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0099",
@@ -2001,7 +2845,11 @@
     "prefecture": "大阪府",
     "line_name": "JR片町線",
     "lat": 34.767346,
-    "lon": 135.663455
+    "lon": 135.663455,
+    "station_passenger_log": 9.697754062731514,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0161",
@@ -2009,7 +2857,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.477688,
-    "lon": 135.392077
+    "lon": 135.392077,
+    "station_passenger_log": 9.49160187662504,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0291",
@@ -2033,7 +2885,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急宝塚本線",
     "lat": 34.763024,
-    "lon": 135.475111
+    "lon": 135.475111,
+    "station_passenger_log": 9.90028242158718,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0356",
@@ -2041,7 +2897,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄信貴線",
     "lat": 34.626481,
-    "lon": 135.641102
+    "lon": 135.641102,
+    "station_passenger_log": 7.360739903058278,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0232",
@@ -2049,7 +2909,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪中央線",
     "lat": 34.661035,
-    "lon": 135.448863
+    "lon": 135.448863,
+    "station_passenger_log": 9.925004395998378,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0181",
@@ -2057,7 +2921,11 @@
     "prefecture": "大阪府",
     "line_name": "南海汐見橋線",
     "lat": 34.654703,
-    "lon": 135.483093
+    "lon": 135.483093,
+    "station_passenger_log": 5.2574953720277815,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0236",
@@ -2065,7 +2933,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪中央線",
     "lat": 34.681936,
-    "lon": 135.498982
+    "lon": 135.498982,
+    "station_passenger_log": 12.21088106652248,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0072",
@@ -2073,7 +2945,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.593113,
-    "lon": 135.503034
+    "lon": 135.503034,
+    "station_passenger_log": 9.727406483331627,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0100",
@@ -2081,7 +2957,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪交野線",
     "lat": 34.801828,
-    "lon": 135.664221
+    "lon": 135.664221,
+    "station_passenger_log": 8.287528423111763,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0282",
@@ -2089,7 +2969,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪御堂筋線",
     "lat": 34.741052,
-    "lon": 135.498496
+    "lon": 135.498496,
+    "station_passenger_log": 10.451637862362272,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0089",
@@ -2097,7 +2981,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.416744,
-    "lon": 135.350138
+    "lon": 135.350138,
+    "station_passenger_log": 7.613324979540639,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0416",
@@ -2105,7 +2993,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌上町線",
     "lat": 34.632539,
-    "lon": 135.508475
+    "lon": 135.508475,
+    "station_passenger_log": 7.299797366758161,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0086",
@@ -2113,7 +3005,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.449341,
-    "lon": 135.385859
+    "lon": 135.385859,
+    "station_passenger_log": 9.95041884722056,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0307",
@@ -2121,7 +3017,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.701031,
-    "lon": 135.49969
+    "lon": 135.49969,
+    "station_passenger_log": 11.989147221529194,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0008",
@@ -2129,7 +3029,11 @@
     "prefecture": "大阪府",
     "line_name": "JR京都線",
     "lat": 34.73938,
-    "lon": 135.503915
+    "lon": 135.503915,
+    "station_passenger_log": 9.581421053222517,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0448",
@@ -2137,7 +3041,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.564737,
-    "lon": 135.462522
+    "lon": 135.462522,
+    "station_passenger_log": 6.705639094860003,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0431",
@@ -2145,7 +3053,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.626784,
-    "lon": 135.495926
+    "lon": 135.495926,
+    "station_passenger_log": 4.0943445622221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0433",
@@ -2153,7 +3065,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.618133,
-    "lon": 135.492588
+    "lon": 135.492588,
+    "station_passenger_log": 4.174387269895637,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0096",
@@ -2161,7 +3077,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.535029,
-    "lon": 135.442824
+    "lon": 135.442824,
+    "station_passenger_log": 9.251770181739325,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0399",
@@ -2169,7 +3089,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄奈良線",
     "lat": 34.662388,
-    "lon": 135.626808
+    "lon": 135.626808,
+    "station_passenger_log": 9.75533551151227,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0087",
@@ -2177,7 +3101,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.440051,
-    "lon": 135.373055
+    "lon": 135.373055,
+    "station_passenger_log": 8.452974619089586,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0019",
@@ -2185,7 +3113,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大和路線",
     "lat": 34.638056,
-    "lon": 135.537802
+    "lon": 135.537802,
+    "station_passenger_log": 9.61813609542263,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0158",
@@ -2193,7 +3125,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.508932,
-    "lon": 135.414702
+    "lon": 135.414702,
+    "station_passenger_log": 8.256866848974312,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0324",
@@ -2201,7 +3137,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪長堀鶴見緑地線",
     "lat": 34.675479,
-    "lon": 135.512467
+    "lon": 135.512467,
+    "station_passenger_log": 9.10320049641828,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0427",
@@ -2209,7 +3149,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.639197,
-    "lon": 135.500895
+    "lon": 135.500895,
+    "station_passenger_log": 4.0943445622221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0415",
@@ -2217,7 +3161,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌上町線",
     "lat": 34.635458,
-    "lon": 135.509852
+    "lon": 135.509852,
+    "station_passenger_log": 6.77078942390898,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0401",
@@ -2225,7 +3173,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄奈良線",
     "lat": 34.669579,
-    "lon": 135.648067
+    "lon": 135.648067,
+    "station_passenger_log": 8.349484346990128,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0124",
@@ -2233,7 +3185,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.811526,
-    "lon": 135.639465
+    "lon": 135.639465,
+    "station_passenger_log": 9.656243400857722,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0097",
@@ -2241,7 +3197,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪交野線",
     "lat": 34.816171,
-    "lon": 135.648814
+    "lon": 135.648814,
+    "station_passenger_log": 11.167896725665894,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0013",
@@ -2257,7 +3217,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄道明寺線",
     "lat": 34.58153,
-    "lon": 135.624956
+    "lon": 135.624956,
+    "station_passenger_log": 6.731018100482083,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0214",
@@ -2265,7 +3229,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪モノレール",
     "lat": 34.800266,
-    "lon": 135.458734
+    "lon": 135.458734,
+    "station_passenger_log": 9.156834104453042,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0469",
@@ -2273,7 +3241,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急千里線",
     "lat": 34.728437,
-    "lon": 135.511478
+    "lon": 135.511478,
+    "station_passenger_log": 8.264620829411216,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0346",
@@ -2281,7 +3253,11 @@
     "prefecture": "大阪府",
     "line_name": "南海泉北線",
     "lat": 34.485087,
-    "lon": 135.490286
+    "lon": 135.490286,
+    "station_passenger_log": 9.734654613922729,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0135",
@@ -2289,7 +3265,11 @@
     "prefecture": "大阪府",
     "line_name": "北大阪急行",
     "lat": 34.793842,
-    "lon": 135.497142
+    "lon": 135.497142,
+    "station_passenger_log": 10.460270761075147,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0031",
@@ -2297,7 +3277,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大阪環状線",
     "lat": 34.658453,
-    "lon": 135.527908
+    "lon": 135.527908,
+    "station_passenger_log": 10.412982291067124,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0037",
@@ -2305,7 +3289,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大阪環状線",
     "lat": 34.704976,
-    "lon": 135.520944
+    "lon": 135.520944,
+    "station_passenger_log": 10.31238011354455,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0489",
@@ -2321,7 +3309,11 @@
     "prefecture": "大阪府",
     "line_name": "JR桜島線",
     "lat": 34.662065,
-    "lon": 135.432136
+    "lon": 135.432136,
+    "station_passenger_log": 10.33322241961703,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0247",
@@ -2337,7 +3329,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪御堂筋線",
     "lat": 34.703765,
-    "lon": 135.497496
+    "lon": 135.497496,
+    "station_passenger_log": 12.935534879592415,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0340",
@@ -2345,7 +3341,11 @@
     "prefecture": "大阪府",
     "line_name": "水間鉄道",
     "lat": 34.414246,
-    "lon": 135.38189
+    "lon": 135.38189,
+    "station_passenger_log": 6.70196036600254,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0034",
@@ -2353,7 +3353,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大阪環状線",
     "lat": 34.680412,
-    "lon": 135.533996
+    "lon": 135.533996,
+    "station_passenger_log": 10.718785991936208,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0111",
@@ -2361,7 +3365,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.719419,
-    "lon": 135.551686
+    "lon": 135.551686,
+    "station_passenger_log": 8.85051762174672,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0127",
@@ -2369,7 +3377,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.861977,
-    "lon": 135.675352
+    "lon": 135.675352,
+    "station_passenger_log": 10.766145413240787,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0331",
@@ -2377,7 +3389,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪長堀鶴見緑地線",
     "lat": 34.703532,
-    "lon": 135.57274
+    "lon": 135.57274,
+    "station_passenger_log": 9.720105433544852,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0173",
@@ -2385,7 +3401,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.374184,
-    "lon": 135.261362
+    "lon": 135.261362,
+    "station_passenger_log": 8.85209276347713,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0460",
@@ -2393,7 +3413,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急京都本線",
     "lat": 34.775454,
-    "lon": 135.545657
+    "lon": 135.545657,
+    "station_passenger_log": 9.523032079931992,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0468",
@@ -2401,7 +3425,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急京都本線",
     "lat": 34.877745,
-    "lon": 135.667853
+    "lon": 135.667853,
+    "station_passenger_log": 9.055906318669118,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0343",
@@ -2409,7 +3437,11 @@
     "prefecture": "大阪府",
     "line_name": "水間鉄道",
     "lat": 34.403528,
-    "lon": 135.385581
+    "lon": 135.385581,
+    "station_passenger_log": 7.1308988302963465,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0412",
@@ -2417,7 +3449,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄長野線",
     "lat": 34.466962,
-    "lon": 135.579188
+    "lon": 135.579188,
+    "station_passenger_log": 7.586803535162581,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0179",
@@ -2425,7 +3461,11 @@
     "prefecture": "大阪府",
     "line_name": "南海汐見橋線",
     "lat": 34.667638,
-    "lon": 135.486165
+    "lon": 135.486165,
+    "station_passenger_log": 6.535241271013659,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0137",
@@ -2433,7 +3473,11 @@
     "prefecture": "大阪府",
     "line_name": "北大阪急行",
     "lat": 34.758755,
-    "lon": 135.497106
+    "lon": 135.497106,
+    "station_passenger_log": 11.501379061069857,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0487",
@@ -2449,7 +3493,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.606284,
-    "lon": 135.496957
+    "lon": 135.496957,
+    "station_passenger_log": 8.935113740791747,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0221",
@@ -2457,7 +3505,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪モノレール",
     "lat": 34.793902,
-    "lon": 135.566166
+    "lon": 135.566166,
+    "station_passenger_log": 8.326758814511733,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0390",
@@ -2465,7 +3517,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.566754,
-    "lon": 135.635684
+    "lon": 135.635684,
+    "station_passenger_log": 9.547669384317375,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0011",
@@ -2473,7 +3529,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大和路線",
     "lat": 34.574005,
-    "lon": 135.662956
+    "lon": 135.662956,
+    "station_passenger_log": 6.364750756851911,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0364",
@@ -2481,7 +3541,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.585823,
-    "lon": 135.535509
+    "lon": 135.535509,
+    "station_passenger_log": 9.608512282590205,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0395",
@@ -2489,7 +3553,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄奈良線",
     "lat": 34.66394,
-    "lon": 135.5815
+    "lon": 135.5815,
+    "station_passenger_log": 9.99811568161491,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0355",
@@ -2497,7 +3565,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄信貴線",
     "lat": 34.627892,
-    "lon": 135.619317
+    "lon": 135.619317,
+    "station_passenger_log": 9.742849206573316,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0367",
@@ -2505,7 +3577,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.575563,
-    "lon": 135.557097
+    "lon": 135.557097,
+    "station_passenger_log": 10.17545936253226,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0103",
@@ -2513,7 +3589,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪交野線",
     "lat": 34.77386,
-    "lon": 135.685617
+    "lon": 135.685617,
+    "station_passenger_log": 8.91085558740525,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0394",
@@ -2521,7 +3601,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄奈良線",
     "lat": 34.664276,
-    "lon": 135.573179
+    "lon": 135.573179,
+    "station_passenger_log": 9.457669090078747,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0052",
@@ -2529,7 +3613,11 @@
     "prefecture": "大阪府",
     "line_name": "JR片町線",
     "lat": 34.776501,
-    "lon": 135.684592
+    "lon": 135.684592,
+    "station_passenger_log": 9.875962181471376,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0398",
@@ -2537,7 +3625,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄奈良線",
     "lat": 34.662713,
-    "lon": 135.618347
+    "lon": 135.618347,
+    "station_passenger_log": 9.274628861858544,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0207",
@@ -2545,7 +3637,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.450994,
-    "lon": 135.573075
+    "lon": 135.573075,
+    "station_passenger_log": 10.05113139444869,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0359",
@@ -2553,7 +3649,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.641166,
-    "lon": 135.524237
+    "lon": 135.524237,
+    "station_passenger_log": 8.058010800802085,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0345",
@@ -2561,7 +3661,11 @@
     "prefecture": "大阪府",
     "line_name": "南海泉北線",
     "lat": 34.497099,
-    "lon": 135.511575
+    "lon": 135.511575,
+    "station_passenger_log": 10.477006245640542,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0169",
@@ -2569,7 +3673,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.411153,
-    "lon": 135.316724
+    "lon": 135.316724,
+    "station_passenger_log": 9.99738764772918,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0159",
@@ -2577,7 +3685,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.503235,
-    "lon": 135.406642
+    "lon": 135.406642,
+    "station_passenger_log": 10.12113603356836,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0387",
@@ -2585,7 +3697,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.595176,
-    "lon": 135.626331
+    "lon": 135.626331,
+    "station_passenger_log": 8.192847134592865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0078",
@@ -2593,7 +3709,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.542287,
-    "lon": 135.468108
+    "lon": 135.468108,
+    "station_passenger_log": 9.561349294288288,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0182",
@@ -2601,7 +3721,11 @@
     "prefecture": "大阪府",
     "line_name": "南海汐見橋線",
     "lat": 34.647004,
-    "lon": 135.483349
+    "lon": 135.483349,
+    "station_passenger_log": 6.612041034833092,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0051",
@@ -2609,7 +3733,11 @@
     "prefecture": "大阪府",
     "line_name": "JR片町線",
     "lat": 34.801373,
-    "lon": 135.697946
+    "lon": 135.697946,
+    "station_passenger_log": 9.294589604421082,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0073",
@@ -2617,7 +3745,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.585303,
-    "lon": 135.502423
+    "lon": 135.502423,
+    "station_passenger_log": 8.302761580704049,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0193",
@@ -2625,7 +3757,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.589319,
-    "lon": 135.491025
+    "lon": 135.491025,
+    "station_passenger_log": 9.001962272862446,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0154",
@@ -2633,7 +3769,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.541243,
-    "lon": 135.444629
+    "lon": 135.444629,
+    "station_passenger_log": 8.192847134592865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0452",
@@ -2641,7 +3781,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.541418,
-    "lon": 135.44316
+    "lon": 135.44316,
+    "station_passenger_log": 6.511745329644728,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0043",
@@ -2649,7 +3793,11 @@
     "prefecture": "大阪府",
     "line_name": "JR東西線",
     "lat": 34.69544,
-    "lon": 135.473276
+    "lon": 135.473276,
+    "station_passenger_log": 10.060619498256424,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0105",
@@ -2657,7 +3805,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.692456,
-    "lon": 135.501648
+    "lon": 135.501648,
+    "station_passenger_log": 12.203158403248148,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0494",
@@ -2665,7 +3817,11 @@
     "prefecture": "大阪府",
     "line_name": "阪神本線",
     "lat": 34.696159,
-    "lon": 135.465249
+    "lon": 135.465249,
+    "station_passenger_log": 8.605204068738951,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0457",
@@ -2673,7 +3829,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急京都本線",
     "lat": 34.738827,
-    "lon": 135.516527
+    "lon": 135.516527,
+    "station_passenger_log": 10.47257265041933,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0177",
@@ -2681,7 +3841,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.331229,
-    "lon": 135.178159
+    "lon": 135.178159,
+    "station_passenger_log": 7.423568444259167,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0344",
@@ -2689,7 +3853,11 @@
     "prefecture": "大阪府",
     "line_name": "南海泉北線",
     "lat": 34.530398,
-    "lon": 135.497461
+    "lon": 135.497461,
+    "station_passenger_log": 10.10303488999515,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0140",
@@ -2697,7 +3865,11 @@
     "prefecture": "大阪府",
     "line_name": "南海多奈川線",
     "lat": 34.317386,
-    "lon": 135.141297
+    "lon": 135.141297,
+    "station_passenger_log": 6.259581464064923,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0139",
@@ -2705,7 +3877,11 @@
     "prefecture": "大阪府",
     "line_name": "南海多奈川線",
     "lat": 34.31823,
-    "lon": 135.148002
+    "lon": 135.148002,
+    "station_passenger_log": 5.786897381366708,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0241",
@@ -2713,7 +3889,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪中央線",
     "lat": 34.67909,
-    "lon": 135.557186
+    "lon": 135.557186,
+    "station_passenger_log": 9.9572652582166,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0338",
@@ -2721,7 +3901,11 @@
     "prefecture": "大阪府",
     "line_name": "水間鉄道",
     "lat": 34.424786,
-    "lon": 135.372127
+    "lon": 135.372127,
+    "station_passenger_log": 6.983789965258135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0509",
@@ -2737,7 +3921,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪中之島線",
     "lat": 34.693916,
-    "lon": 135.49542
+    "lon": 135.49542,
+    "station_passenger_log": 8.823647949191303,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0151",
@@ -2745,7 +3933,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.570489,
-    "lon": 135.459975
+    "lon": 135.459975,
+    "station_passenger_log": 8.754318540250866,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0113",
@@ -2753,7 +3945,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.727868,
-    "lon": 135.557463
+    "lon": 135.557463,
+    "station_passenger_log": 8.423980809694058,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0205",
@@ -2769,7 +3965,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄長野線",
     "lat": 34.481355,
-    "lon": 135.586665
+    "lon": 135.586665,
+    "station_passenger_log": 8.490849216076635,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0090",
@@ -2777,7 +3977,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.406048,
-    "lon": 135.341086
+    "lon": 135.341086,
+    "station_passenger_log": 9.887815383141833,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0490",
@@ -2785,7 +3989,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急箕面線",
     "lat": 34.823436,
-    "lon": 135.465794
+    "lon": 135.465794,
+    "station_passenger_log": 8.779249716229046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0126",
@@ -2793,7 +4001,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.843868,
-    "lon": 135.665584
+    "lon": 135.665584,
+    "station_passenger_log": 9.726869698658852,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0202",
@@ -2801,7 +4013,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.516725,
-    "lon": 135.548137
+    "lon": 135.548137,
+    "station_passenger_log": 8.627302414096267,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0273",
@@ -2809,7 +4025,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪四つ橋線",
     "lat": 34.624096,
-    "lon": 135.490527
+    "lon": 135.490527,
+    "station_passenger_log": 9.81383633058348,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0245",
@@ -2833,7 +4053,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪今里筋線",
     "lat": 34.752214,
-    "lon": 135.547085
+    "lon": 135.547085,
+    "station_passenger_log": 9.090768236835338,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0400",
@@ -2849,7 +4073,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.628215,
-    "lon": 135.525515
+    "lon": 135.525515,
+    "station_passenger_log": 9.141311785565748,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0198",
@@ -2857,7 +4085,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.550235,
-    "lon": 135.513148
+    "lon": 135.513148,
+    "station_passenger_log": 9.22009266341886,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0076",
@@ -2865,7 +4097,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.558322,
-    "lon": 135.488934
+    "lon": 135.488934,
+    "station_passenger_log": 8.811205187562887,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0196",
@@ -2873,7 +4109,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.560577,
-    "lon": 135.498751
+    "lon": 135.498751,
+    "station_passenger_log": 8.35490952835879,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0459",
@@ -2881,7 +4121,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急京都本線",
     "lat": 34.757942,
-    "lon": 135.533853
+    "lon": 135.533853,
+    "station_passenger_log": 9.598727138549595,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0363",
@@ -2897,7 +4141,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄奈良線",
     "lat": 34.684739,
-    "lon": 135.654996
+    "lon": 135.654996,
+    "station_passenger_log": 8.912473274466036,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0337",
@@ -2905,7 +4153,11 @@
     "prefecture": "大阪府",
     "line_name": "水間鉄道",
     "lat": 34.430596,
-    "lon": 135.368205
+    "lon": 135.368205,
+    "station_passenger_log": 6.028278520230698,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0486",
@@ -2913,7 +4165,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急宝塚本線",
     "lat": 34.808254,
-    "lon": 135.445487
+    "lon": 135.445487,
+    "station_passenger_log": 10.496399947300228,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0450",
@@ -2929,7 +4185,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.560111,
-    "lon": 135.458806
+    "lon": 135.458806,
+    "station_passenger_log": 6.063785208687608,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0152",
@@ -2937,7 +4197,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.559377,
-    "lon": 135.453178
+    "lon": 135.453178,
+    "station_passenger_log": 9.48562086171022,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0421",
@@ -2945,7 +4209,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌上町線",
     "lat": 34.615844,
-    "lon": 135.496957
+    "lon": 135.496957,
+    "station_passenger_log": 6.3080984415095305,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0488",
@@ -2953,7 +4221,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急神戸本線",
     "lat": 34.732249,
-    "lon": 135.472967
+    "lon": 135.472967,
+    "station_passenger_log": 9.709902803463462,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0441",
@@ -2961,7 +4233,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.585277,
-    "lon": 135.48012
+    "lon": 135.48012,
+    "station_passenger_log": 5.69035945432406,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0499",
@@ -2969,7 +4245,11 @@
     "prefecture": "大阪府",
     "line_name": "阪神なんば線",
     "lat": 34.699791,
-    "lon": 135.442692
+    "lon": 135.442692,
+    "station_passenger_log": 9.456731590010085,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0024",
@@ -2985,7 +4265,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪交野線",
     "lat": 34.767671,
-    "lon": 135.686569
+    "lon": 135.686569,
+    "station_passenger_log": 7.633853559681768,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0491",
@@ -2993,7 +4277,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急箕面線",
     "lat": 34.834404,
-    "lon": 135.46819
+    "lon": 135.46819,
+    "station_passenger_log": 9.362889770436468,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0133",
@@ -3001,7 +4289,11 @@
     "prefecture": "大阪府",
     "line_name": "北大阪急行",
     "lat": 34.821277,
-    "lon": 135.490495
+    "lon": 135.490495,
+    "station_passenger_log": 9.407878894574996,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0132",
@@ -3009,7 +4301,11 @@
     "prefecture": "大阪府",
     "line_name": "北大阪急行",
     "lat": 34.831512,
-    "lon": 135.48914
+    "lon": 135.48914,
+    "station_passenger_log": 10.115084699949966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0176",
@@ -3017,7 +4313,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.341323,
-    "lon": 135.212634
+    "lon": 135.212634,
+    "station_passenger_log": 8.364275084991524,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0146",
@@ -3025,7 +4325,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.61833,
-    "lon": 135.491763
+    "lon": 135.491763,
+    "station_passenger_log": 8.297543529356284,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0435",
@@ -3033,7 +4337,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.609978,
-    "lon": 135.491221
+    "lon": 135.491221,
+    "station_passenger_log": 6.38856140554563,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0440",
@@ -3041,7 +4349,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.587941,
-    "lon": 135.48315
+    "lon": 135.48315,
+    "station_passenger_log": 6.150602768446279,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0464",
@@ -3049,7 +4361,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急京都本線",
     "lat": 34.827257,
-    "lon": 135.58492
+    "lon": 135.58492,
+    "station_passenger_log": 9.352707613263105,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0136",
@@ -3057,7 +4373,11 @@
     "prefecture": "大阪府",
     "line_name": "北大阪急行",
     "lat": 34.774772,
-    "lon": 135.495278
+    "lon": 135.495278,
+    "station_passenger_log": 10.32101297513666,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0240",
@@ -3065,7 +4385,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪中央線",
     "lat": 34.680756,
-    "lon": 135.545242
+    "lon": 135.545242,
+    "station_passenger_log": 9.99888863729938,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0209",
@@ -3073,7 +4397,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.424697,
-    "lon": 135.577172
+    "lon": 135.577172,
+    "station_passenger_log": 7.994632311431825,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0067",
@@ -3081,7 +4409,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.638411,
-    "lon": 135.523765
+    "lon": 135.523765,
+    "station_passenger_log": 9.181838011503473,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0170",
@@ -3089,7 +4421,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.399346,
-    "lon": 135.299484
+    "lon": 135.299484,
+    "station_passenger_log": 8.60611940061064,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0155",
@@ -3097,7 +4433,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.534546,
-    "lon": 135.44178
+    "lon": 135.44178,
+    "station_passenger_log": 9.908226306883302,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0429",
@@ -3105,7 +4445,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.632909,
-    "lon": 135.499423
+    "lon": 135.499423,
+    "station_passenger_log": 4.584967478670572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0267",
@@ -3113,7 +4457,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪四つ橋線",
     "lat": 34.691355,
-    "lon": 135.496388
+    "lon": 135.496388,
+    "station_passenger_log": 11.037306096938858,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0451",
@@ -3129,7 +4477,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大阪環状線",
     "lat": 34.658608,
-    "lon": 135.48924
+    "lon": 135.48924,
+    "station_passenger_log": 9.367600498174768,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0180",
@@ -3137,7 +4489,11 @@
     "prefecture": "大阪府",
     "line_name": "南海汐見橋線",
     "lat": 34.660516,
-    "lon": 135.486462
+    "lon": 135.486462,
+    "station_passenger_log": 5.313205979041787,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0271",
@@ -3145,7 +4501,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪四つ橋線",
     "lat": 34.644371,
-    "lon": 135.496636
+    "lon": 135.496636,
+    "station_passenger_log": 9.670735486942808,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0443",
@@ -3153,7 +4513,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.581519,
-    "lon": 135.476651
+    "lon": 135.476651,
+    "station_passenger_log": 5.991464547107982,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0397",
@@ -3161,7 +4525,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄奈良線",
     "lat": 34.66311,
-    "lon": 135.608315
+    "lon": 135.608315,
+    "station_passenger_log": 9.601976972147812,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0004",
@@ -3169,7 +4537,11 @@
     "prefecture": "大阪府",
     "line_name": "JR京都線",
     "lat": 34.815091,
-    "lon": 135.56208
+    "lon": 135.56208,
+    "station_passenger_log": 11.372018367154796,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0463",
@@ -3177,7 +4549,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急京都本線",
     "lat": 34.816472,
-    "lon": 135.575815
+    "lon": 135.575815,
+    "station_passenger_log": 10.799779637903594,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0352",
@@ -3185,7 +4561,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄けいはんな線",
     "lat": 34.678627,
-    "lon": 135.604912
+    "lon": 135.604912,
+    "station_passenger_log": 9.577826662126563,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0188",
@@ -3193,7 +4573,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.64561,
-    "lon": 135.498986
+    "lon": 135.498986,
+    "station_passenger_log": 7.216709486709457,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0200",
@@ -3201,7 +4585,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.537125,
-    "lon": 135.535094
+    "lon": 135.535094,
+    "station_passenger_log": 8.863615758890619,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0120",
@@ -3209,7 +4597,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.747453,
-    "lon": 135.61118
+    "lon": 135.61118,
+    "station_passenger_log": 9.948556515903704,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0329",
@@ -3217,7 +4609,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪長堀鶴見緑地線",
     "lat": 34.700368,
-    "lon": 135.547709
+    "lon": 135.547709,
+    "station_passenger_log": 9.09750756370184,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0370",
@@ -3225,7 +4621,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.571669,
-    "lon": 135.594046
+    "lon": 135.594046,
+    "station_passenger_log": 10.39558896730384,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0050",
@@ -3233,7 +4633,11 @@
     "prefecture": "大阪府",
     "line_name": "JR片町線",
     "lat": 34.814466,
-    "lon": 135.702748
+    "lon": 135.702748,
+    "station_passenger_log": 8.685246776412487,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0213",
@@ -3241,7 +4645,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪モノレール",
     "lat": 34.794639,
-    "lon": 135.449229
+    "lon": 135.449229,
+    "station_passenger_log": 10.44065321163396,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0164",
@@ -3249,7 +4657,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.456437,
-    "lon": 135.37031
+    "lon": 135.37031,
+    "station_passenger_log": 8.374246182096304,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0521",
@@ -3257,7 +4669,11 @@
     "prefecture": "大阪府",
     "line_name": "おおさか東線",
     "lat": 34.638676,
-    "lon": 135.567145
+    "lon": 135.567145,
+    "station_passenger_log": 8.699681400989514,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0116",
@@ -3265,7 +4681,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.737309,
-    "lon": 135.5759
+    "lon": 135.5759,
+    "station_passenger_log": 9.41865450904439,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0284",
@@ -3273,7 +4693,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪御堂筋線",
     "lat": 34.726584,
-    "lon": 135.498579
+    "lon": 135.498579,
+    "station_passenger_log": 11.00148298432048,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0026",
@@ -3281,7 +4705,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大阪環状線",
     "lat": 34.68269,
-    "lon": 135.466779
+    "lon": 135.466779,
+    "station_passenger_log": 11.075675528862556,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0323",
@@ -3289,7 +4717,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪長堀鶴見緑地線",
     "lat": 34.675442,
-    "lon": 135.493575
+    "lon": 135.493575,
+    "station_passenger_log": 9.460242692591084,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0183",
@@ -3297,7 +4729,11 @@
     "prefecture": "大阪府",
     "line_name": "南海汐見橋線",
     "lat": 34.638736,
-    "lon": 135.489079
+    "lon": 135.489079,
+    "station_passenger_log": 5.579729825986222,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0266",
@@ -3305,7 +4741,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪四つ橋線",
     "lat": 34.699642,
-    "lon": 135.495802
+    "lon": 135.495802,
+    "station_passenger_log": 11.571203807011967,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0292",
@@ -3313,7 +4753,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪御堂筋線",
     "lat": 34.621627,
-    "lon": 135.515152
+    "lon": 135.515152,
+    "station_passenger_log": 9.999433893583335,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0246",
@@ -3321,7 +4765,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪千日前線",
     "lat": 34.675256,
-    "lon": 135.487223
+    "lon": 135.487223,
+    "station_passenger_log": 10.084015835708987,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0153",
@@ -3329,7 +4777,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.551764,
-    "lon": 135.449129
+    "lon": 135.449129,
+    "station_passenger_log": 8.81537000096066,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0250",
@@ -3337,7 +4789,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪千日前線",
     "lat": 34.667146,
-    "lon": 135.515801
+    "lon": 135.515801,
+    "station_passenger_log": 11.1228857710648,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0309",
@@ -3345,7 +4801,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.674923,
-    "lon": 135.516912
+    "lon": 135.516912,
+    "station_passenger_log": 10.313575293129736,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0238",
@@ -3353,7 +4813,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪中央線",
     "lat": 34.681914,
-    "lon": 135.517253
+    "lon": 135.517253,
+    "station_passenger_log": 11.419043265117054,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0484",
@@ -3361,7 +4825,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急宝塚本線",
     "lat": 34.787248,
-    "lon": 135.462073
+    "lon": 135.462073,
+    "station_passenger_log": 10.590868138201737,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0228",
@@ -3393,7 +4861,11 @@
     "prefecture": "大阪府",
     "line_name": "水間鉄道",
     "lat": 34.439461,
-    "lon": 135.360497
+    "lon": 135.360497,
+    "station_passenger_log": 6.492239835020471,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0336",
@@ -3401,7 +4873,11 @@
     "prefecture": "大阪府",
     "line_name": "水間鉄道",
     "lat": 34.436903,
-    "lon": 135.362892
+    "lon": 135.362892,
+    "station_passenger_log": 5.4510384535657,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0384",
@@ -3409,7 +4885,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.62978,
-    "lon": 135.603591
+    "lon": 135.603591,
+    "station_passenger_log": 10.41057620250521,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0393",
@@ -3417,7 +4897,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄奈良線",
     "lat": 34.666949,
-    "lon": 135.505818
+    "lon": 135.505818,
+    "station_passenger_log": 10.704165392288106,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0372",
@@ -3425,7 +4909,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.56834,
-    "lon": 135.620399
+    "lon": 135.620399,
+    "station_passenger_log": 8.675051276031818,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0101",
@@ -3433,7 +4921,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪交野線",
     "lat": 34.794376,
-    "lon": 135.669868
+    "lon": 135.669868,
+    "station_passenger_log": 8.493310250952906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0304",
@@ -3441,7 +4933,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.709087,
-    "lon": 135.525799
+    "lon": 135.525799,
+    "station_passenger_log": 10.3724281169286,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0057",
@@ -3457,7 +4953,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.707223,
-    "lon": 135.543356
+    "lon": 135.543356,
+    "station_passenger_log": 9.258844781035798,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0303",
@@ -3465,7 +4965,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.708951,
-    "lon": 135.538137
+    "lon": 135.538137,
+    "station_passenger_log": 9.298625936843544,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0025",
@@ -3481,7 +4985,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪千日前線",
     "lat": 34.694384,
-    "lon": 135.476031
+    "lon": 135.476031,
+    "station_passenger_log": 10.162577230623809,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0204",
@@ -3489,7 +4997,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高野線",
     "lat": 34.495324,
-    "lon": 135.559306
+    "lon": 135.559306,
+    "station_passenger_log": 10.221541203633324,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0362",
@@ -3497,7 +5009,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.616969,
-    "lon": 135.533078
+    "lon": 135.533078,
+    "station_passenger_log": 9.030376034755909,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0319",
@@ -3513,7 +5029,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪堺筋線",
     "lat": 34.674645,
-    "lon": 135.506357
+    "lon": 135.506357,
+    "station_passenger_log": 10.822315064062254,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0049",
@@ -3529,7 +5049,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.6109,
-    "lon": 135.512769
+    "lon": 135.512769,
+    "station_passenger_log": 10.43285029730053,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0091",
@@ -3537,7 +5061,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.381865,
-    "lon": 135.319574
+    "lon": 135.319574,
+    "station_passenger_log": 7.442492722794441,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0381",
@@ -3545,7 +5073,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.64988,
-    "lon": 135.577612
+    "lon": 135.577612,
+    "station_passenger_log": 10.206550727026212,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0243",
@@ -3561,7 +5093,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪長堀鶴見緑地線",
     "lat": 34.716865,
-    "lon": 135.59246
+    "lon": 135.59246,
+    "station_passenger_log": 9.292012520620208,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0117",
@@ -3569,7 +5105,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.73809,
-    "lon": 135.583224
+    "lon": 135.583224,
+    "station_passenger_log": 10.128429485791717,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0473",
@@ -3577,7 +5117,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急千里線",
     "lat": 34.770984,
-    "lon": 135.506136
+    "lon": 135.506136,
+    "station_passenger_log": 9.98386866448294,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0110",
@@ -3585,7 +5129,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.71252,
-    "lon": 135.546953
+    "lon": 135.546953,
+    "station_passenger_log": 9.19593714166544,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0511",
@@ -3593,7 +5141,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪今里筋線",
     "lat": 34.712975,
-    "lon": 135.546353
+    "lon": 135.546353,
+    "station_passenger_log": 8.670943791222156,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0302",
@@ -3601,7 +5153,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.715197,
-    "lon": 135.545797
+    "lon": 135.545797,
+    "station_passenger_log": 9.620992006771647,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0066",
@@ -3609,7 +5165,11 @@
     "prefecture": "大阪府",
     "line_name": "JR関西空港線",
     "lat": 34.436,
-    "lon": 135.243419
+    "lon": 135.243419,
+    "station_passenger_log": 10.46370316054352,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0227",
@@ -3617,7 +5177,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪モノレール彩都線",
     "lat": 34.818474,
-    "lon": 135.530005
+    "lon": 135.530005,
+    "station_passenger_log": 9.040144994980068,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0312",
@@ -3625,7 +5189,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.642374,
-    "lon": 135.51198
+    "lon": 135.51198,
+    "station_passenger_log": 9.794174792595427,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0235",
@@ -3633,7 +5201,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪中央線",
     "lat": 34.681483,
-    "lon": 135.486297
+    "lon": 135.486297,
+    "station_passenger_log": 10.718387656089568,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0142",
@@ -3657,7 +5229,11 @@
     "prefecture": "大阪府",
     "line_name": "京阪本線",
     "lat": 34.784613,
-    "lon": 135.630927
+    "lon": 135.630927,
+    "station_passenger_log": 10.693829499587176,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0374",
@@ -3665,7 +5241,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.545751,
-    "lon": 135.621999
+    "lon": 135.621999,
+    "station_passenger_log": 7.182352111885263,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0315",
@@ -3673,7 +5253,11 @@
     "prefecture": "大阪府",
     "line_name": "大阪谷町線",
     "lat": 34.621507,
-    "lon": 135.533036
+    "lon": 135.533036,
+    "station_passenger_log": 9.75979037727894,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0012",
@@ -3689,7 +5273,11 @@
     "prefecture": "大阪府",
     "line_name": "おおさか東線",
     "lat": 34.678764,
-    "lon": 135.572362
+    "lon": 135.572362,
+    "station_passenger_log": 9.575330647518628,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0385",
@@ -3697,7 +5285,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄大阪線",
     "lat": 34.619376,
-    "lon": 135.624403
+    "lon": 135.624403,
+    "station_passenger_log": 9.220686664030326,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0404",
@@ -3705,7 +5297,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄西信貴ケーブル線",
     "lat": 34.613679,
-    "lon": 135.653794
+    "lon": 135.653794,
+    "station_passenger_log": 3.610917912644224,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0186",
@@ -3713,7 +5309,11 @@
     "prefecture": "大阪府",
     "line_name": "南海高師浜線",
     "lat": 34.527391,
-    "lon": 135.431911
+    "lon": 135.431911,
+    "station_passenger_log": 7.202661196523238,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0001",
@@ -3721,7 +5321,11 @@
     "prefecture": "大阪府",
     "line_name": "JR京都線",
     "lat": 34.8512,
-    "lon": 135.617016
+    "lon": 135.617016,
+    "station_passenger_log": 11.652435201631157,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0466",
@@ -3729,7 +5333,11 @@
     "prefecture": "大阪府",
     "line_name": "阪急京都本線",
     "lat": 34.849905,
-    "lon": 135.623265
+    "lon": 135.623265,
+    "station_passenger_log": 10.825024498930237,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "osaka_0156",
@@ -3737,7 +5345,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.521439,
-    "lon": 135.432723
+    "lon": 135.432723,
+    "station_passenger_log": 9.161780181360806,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0366",
@@ -3745,7 +5357,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.575232,
-    "lon": 135.546189
+    "lon": 135.546189,
+    "station_passenger_log": 8.657476736863293,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0439",
@@ -3753,7 +5369,11 @@
     "prefecture": "大阪府",
     "line_name": "阪堺電軌阪堺線",
     "lat": 34.590488,
-    "lon": 135.485184
+    "lon": 135.485184,
+    "station_passenger_log": 6.12029741895095,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0369",
@@ -3761,7 +5381,11 @@
     "prefecture": "大阪府",
     "line_name": "近鉄南大阪線",
     "lat": 34.571602,
-    "lon": 135.584503
+    "lon": 135.584503,
+    "station_passenger_log": 8.67965211911394,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "osaka_0175",
@@ -3769,7 +5393,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.351323,
-    "lon": 135.231857
+    "lon": 135.231857,
+    "station_passenger_log": 7.905441649060286,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0079",
@@ -3777,7 +5405,11 @@
     "prefecture": "大阪府",
     "line_name": "JR阪和線",
     "lat": 34.531674,
-    "lon": 135.458734
+    "lon": 135.458734,
+    "station_passenger_log": 10.492079448708068,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0062",
@@ -3785,7 +5417,11 @@
     "prefecture": "大阪府",
     "line_name": "JR片町線",
     "lat": 34.692769,
-    "lon": 135.544995
+    "lon": 135.544995,
+    "station_passenger_log": 10.020247843144828,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0059",
@@ -3793,7 +5429,11 @@
     "prefecture": "大阪府",
     "line_name": "JR片町線",
     "lat": 34.698847,
-    "lon": 135.597679
+    "lon": 135.597679,
+    "station_passenger_log": 10.095140436758967,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "osaka_0069",
@@ -3809,7 +5449,11 @@
     "prefecture": "大阪府",
     "line_name": "南海本線",
     "lat": 34.426479,
-    "lon": 135.338366
+    "lon": 135.338366,
+    "station_passenger_log": 8.036249942132116,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "osaka_0032",
@@ -3817,7 +5461,11 @@
     "prefecture": "大阪府",
     "line_name": "JR大阪環状線",
     "lat": 34.665264,
-    "lon": 135.530133
+    "lon": 135.530133,
+    "station_passenger_log": 12.063246764083932,
+    "station_line_count": 3.0,
+    "station_operator_count": 3.0,
+    "station_rank": "A"
   },
   {
     "station_id": "osaka_0332",
@@ -3825,6 +5473,10 @@
     "prefecture": "大阪府",
     "line_name": "大阪長堀鶴見緑地線",
     "lat": 34.710754,
-    "lon": 135.580239
+    "lon": 135.580239,
+    "station_passenger_log": 9.246672301223573,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   }
 ]

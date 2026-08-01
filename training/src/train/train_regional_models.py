@@ -10,10 +10,14 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from common.regions import (  # noqa: E402
+    CAPITAL_MODEL_BY_PREFECTURE,
     PREFECTURE_TO_SLUG,
     REGIONAL_CLUSTERS,
     build_cluster_by_prefecture,
     validate_cluster_coverage,
+)
+from evaluate.compare_station_passenger_features import (  # noqa: E402
+    STATION_SCALE_NUMERIC_FEATURES,
 )
 from evaluate.metrics import calculate_metrics, calculate_residual_quantiles  # noqa: E402
 from export.artifacts import (  # noqa: E402
@@ -26,6 +30,10 @@ from export.artifacts import (  # noqa: E402
     save_pickle,
 )
 from features.category_dictionary import build_and_apply_category_dictionary  # noqa: E402
+from features.station_passengers import (  # noqa: E402
+    add_station_passenger_features,
+    load_station_passengers_csv,
+)
 from train.model import train_model  # noqa: E402
 
 FEATURES = [
@@ -56,6 +64,13 @@ MODEL_PARAMS = {
     "random_state": 42,
     "n_jobs": -1,
 }
+STATION_SCALE_CLUSTERS = {"kanto"}
+
+
+def features_for_cluster(cluster: str) -> list[str]:
+    if cluster in STATION_SCALE_CLUSTERS:
+        return FEATURES + STATION_SCALE_NUMERIC_FEATURES
+    return FEATURES
 
 
 def main() -> int:
@@ -65,7 +80,13 @@ def main() -> int:
     parser.add_argument("--public-dir", type=Path, default=Path("../frontend/public"))
     parser.add_argument("--train-start-year", type=int, default=2005)
     parser.add_argument("--test-year", type=int, default=2025)
+    parser.add_argument(
+        "--station-passengers-csv",
+        type=Path,
+        default=Path("data/processed/station_passengers/station_groups.csv"),
+    )
     parser.add_argument("--publish", action="store_true")
+    parser.add_argument("--publish-clusters", nargs="*", choices=sorted(REGIONAL_CLUSTERS))
     args = parser.parse_args()
 
     summary = train_regional_models(
@@ -74,13 +95,15 @@ def main() -> int:
         public_dir=args.public_dir,
         train_start_year=args.train_start_year,
         test_year=args.test_year,
+        station_passengers_csv=args.station_passengers_csv,
         publish=args.publish,
+        publish_clusters=args.publish_clusters,
     )
     for row in summary["models"]:
         print(
             f"success train: {row['modelId']} train={row['trainCount']} "
             f"test={row['testCount']} mae={row['metrics']['mae']:.2f} "
-            f"onnx_bytes={row['onnxBytes']} published={args.publish}"
+            f"onnx_bytes={row['onnxBytes']} published={row['published']}"
         )
     return 0
 
@@ -92,7 +115,9 @@ def train_regional_models(
     public_dir: Path,
     train_start_year: int,
     test_year: int,
+    station_passengers_csv: Path,
     publish: bool,
+    publish_clusters: list[str] | None = None,
 ) -> dict[str, object]:
     import pandas as pd
 
@@ -102,32 +127,42 @@ def train_regional_models(
     ].copy()
     validate_cluster_coverage(data["prefecture"].unique())
     data["model_group"] = data["prefecture"].map(build_cluster_by_prefecture())
+    station_passengers = load_station_passengers_csv(station_passengers_csv)
+    data = add_station_passenger_features(data, station_passengers)
 
     rows = []
     for cluster, prefectures in REGIONAL_CLUSTERS.items():
         model_id = f"regional_{cluster}"
+        features = features_for_cluster(cluster)
         group_data = data[data["model_group"] == cluster].copy()
         train_mask = group_data["transaction_year"] < test_year
-        test_mask = group_data["transaction_year"] == test_year
+        served_prefectures = [
+            prefecture
+            for prefecture in prefectures
+            if prefecture not in CAPITAL_MODEL_BY_PREFECTURE
+        ]
+        test_mask = (group_data["transaction_year"] == test_year) & group_data[
+            "prefecture"
+        ].isin(served_prefectures)
         if not train_mask.any() or not test_mask.any():
             raise ValueError(f"{model_id} requires both training and test rows")
 
         encoding = build_and_apply_category_dictionary(group_data, CATEGORICAL_FEATURES)
         encoded = encoding.dataframe
         evaluation_model = train_model(
-            encoded.loc[train_mask, FEATURES],
+            encoded.loc[train_mask, features],
             encoded.loc[train_mask, "price"],
             CATEGORICAL_FEATURES,
             MODEL_PARAMS,
         )
-        predictions = evaluation_model.predict(encoded.loc[test_mask, FEATURES])
+        predictions = evaluation_model.predict(encoded.loc[test_mask, features])
         metrics = calculate_metrics(encoded.loc[test_mask, "price"], predictions)
         residual_quantiles = calculate_residual_quantiles(
             encoded.loc[test_mask, "price"],
             predictions,
         )
         deployment_model = train_model(
-            encoded[FEATURES], encoded["price"], CATEGORICAL_FEATURES, MODEL_PARAMS
+            encoded[features], encoded["price"], CATEGORICAL_FEATURES, MODEL_PARAMS
         )
 
         paths = build_artifact_paths(output_dir, model_id)
@@ -146,16 +181,20 @@ def train_regional_models(
                 metrics=metrics,
                 residual_quantiles=residual_quantiles,
                 model=deployment_model,
+                features=features,
             ),
             paths["metadata"],
         )
         save_json(build_price_history(group_data), paths["history"], compact=True)
-        exported = export_onnx_if_available(deployment_model, len(FEATURES), paths["onnx"])
+        exported = export_onnx_if_available(deployment_model, len(features), paths["onnx"])
         if exported is None:
             raise RuntimeError(f"ONNX export failed: {model_id}")
-        if publish:
+        should_publish = publish and (
+            publish_clusters is None or cluster in publish_clusters
+        )
+        if should_publish:
             copy_for_frontend(paths, public_dir, model_id, include_history=False)
-            _publish_prefecture_histories(group_data, prefectures, public_dir)
+            _publish_prefecture_histories(group_data, served_prefectures, public_dir)
 
         rows.append(
             {
@@ -166,7 +205,8 @@ def train_regional_models(
                 "deploymentCount": len(encoded),
                 "metrics": metrics,
                 "onnxBytes": paths["onnx"].stat().st_size,
-                "published": publish,
+                "published": should_publish,
+                "features": features,
             }
         )
 
@@ -194,6 +234,7 @@ def _build_metadata(
     metrics: dict[str, float],
     residual_quantiles: dict[str, float],
     model,
+    features: list[str] = FEATURES,
 ) -> dict[str, object]:
     return {
         "region": model_id,
@@ -204,7 +245,7 @@ def _build_metadata(
         "mae": metrics["mae"],
         "latestTrainingYear": test_year,
         "generatedAt": datetime.now().date().isoformat(),
-        "featureOrder": FEATURES,
+        "featureOrder": features,
         "evaluation": {
             "split": "time_holdout",
             "trainStartYear": train_start_year,
@@ -221,17 +262,17 @@ def _build_metadata(
             "trainedWithAllAvailableRows": True,
         },
         "modelParams": MODEL_PARAMS,
-        "featureImportance": _build_feature_importance(model),
+        "featureImportance": _build_feature_importance(model, features),
     }
 
 
-def _build_feature_importance(model) -> list[dict[str, object]]:
+def _build_feature_importance(model, features: list[str]) -> list[dict[str, object]]:
     importances = getattr(model, "feature_importances_", None)
     if importances is None:
         return []
     rows = [
         {"feature": feature, "importance": float(importance)}
-        for feature, importance in zip(FEATURES, importances, strict=False)
+        for feature, importance in zip(features, importances, strict=False)
     ]
     return sorted(rows, key=lambda row: row["importance"], reverse=True)
 

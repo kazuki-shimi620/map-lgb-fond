@@ -5,7 +5,11 @@
     "prefecture": "奈良県",
     "line_name": "JR和歌山線",
     "lat": 34.527667,
-    "lon": 135.718435
+    "lon": 135.718435,
+    "station_passenger_log": 7.270312886079025,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0100",
@@ -13,7 +17,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄橿原線",
     "lat": 34.597968,
-    "lon": 135.784987
+    "lon": 135.784987,
+    "station_passenger_log": 6.19644412779452,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0122",
@@ -21,7 +29,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄生駒線",
     "lat": 34.675408,
-    "lon": 135.707992
+    "lon": 135.707992,
+    "station_passenger_log": 8.492080490601163,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0081",
@@ -29,7 +41,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.578571,
-    "lon": 136.035851
+    "lon": 136.035851,
+    "station_passenger_log": 4.61512051684126,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0028",
@@ -37,7 +53,11 @@
     "prefecture": "奈良県",
     "line_name": "JR桜井線",
     "lat": 34.527138,
-    "lon": 135.848435
+    "lon": 135.848435,
+    "station_passenger_log": 7.170888478512505,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0020",
@@ -53,7 +73,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.383998,
-    "lon": 135.786888
+    "lon": 135.786888,
+    "station_passenger_log": 7.615298339825815,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0097",
@@ -69,7 +93,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.546511,
-    "lon": 135.68811
+    "lon": 135.68811,
+    "station_passenger_log": 9.089414904047302,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0040",
@@ -77,7 +105,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄南大阪線",
     "lat": 34.53907,
-    "lon": 135.685974
+    "lon": 135.685974,
+    "station_passenger_log": 7.563719668414366,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0041",
@@ -85,7 +117,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄南大阪線",
     "lat": 34.532104,
-    "lon": 135.69414
+    "lon": 135.69414,
+    "station_passenger_log": 6.61338421837956,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0083",
@@ -93,7 +129,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄天理線",
     "lat": 34.602121,
-    "lon": 135.79553
+    "lon": 135.79553,
+    "station_passenger_log": 7.987184748233473,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0068",
@@ -101,7 +141,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.534763,
-    "lon": 135.717937
+    "lon": 135.717937,
+    "station_passenger_log": 10.075043029177245,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "nara_0013",
@@ -117,7 +161,11 @@
     "prefecture": "奈良県",
     "line_name": "JR桜井線",
     "lat": 34.670031,
-    "lon": 135.828446
+    "lon": 135.828446,
+    "station_passenger_log": 7.385851078125209,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0129",
@@ -125,7 +173,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄田原本線",
     "lat": 34.569462,
-    "lon": 135.768269
+    "lon": 135.768269,
+    "station_passenger_log": 6.267200548541362,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0126",
@@ -133,7 +185,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄田原本線",
     "lat": 34.585213,
-    "lon": 135.731047
+    "lon": 135.731047,
+    "station_passenger_log": 7.135687347028144,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0114",
@@ -141,7 +197,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄生駒線",
     "lat": 34.600935,
-    "lon": 135.695172
+    "lon": 135.695172,
+    "station_passenger_log": 7.630461261783627,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0118",
@@ -149,7 +209,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄生駒線",
     "lat": 34.640562,
-    "lon": 135.700887
+    "lon": 135.700887,
+    "station_passenger_log": 7.141245122350491,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0106",
@@ -157,7 +221,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄橿原線",
     "lat": 34.509309,
-    "lon": 135.790707
+    "lon": 135.790707,
+    "station_passenger_log": 8.58858318750291,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0061",
@@ -165,7 +233,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.390051,
-    "lon": 135.822943
+    "lon": 135.822943,
+    "station_passenger_log": 6.429719478039138,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0084",
@@ -173,7 +245,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄天理線",
     "lat": 34.600996,
-    "lon": 135.816536
+    "lon": 135.816536,
+    "station_passenger_log": 8.10349427838097,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0115",
@@ -181,7 +257,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄生駒線",
     "lat": 34.606098,
-    "lon": 135.700979
+    "lon": 135.700979,
+    "station_passenger_log": 7.477038472319696,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0012",
@@ -189,7 +269,11 @@
     "prefecture": "奈良県",
     "line_name": "JR和歌山線",
     "lat": 34.381264,
-    "lon": 135.714722
+    "lon": 135.714722,
+    "station_passenger_log": 5.752572638825633,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0121",
@@ -197,7 +281,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄生駒線",
     "lat": 34.665484,
-    "lon": 135.708769
+    "lon": 135.708769,
+    "station_passenger_log": 8.429235912657095,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0064",
@@ -205,7 +293,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.376848,
-    "lon": 135.853486
+    "lon": 135.853486,
+    "station_passenger_log": 6.023447592961033,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0011",
@@ -213,7 +305,11 @@
     "prefecture": "奈良県",
     "line_name": "JR和歌山線",
     "lat": 34.420704,
-    "lon": 135.750343
+    "lon": 135.750343,
+    "station_passenger_log": 7.609862200913554,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0063",
@@ -221,7 +317,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.390191,
-    "lon": 135.848211
+    "lon": 135.848211,
+    "station_passenger_log": 5.579729825986222,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0047",
@@ -229,7 +329,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄南大阪線",
     "lat": 34.493577,
-    "lon": 135.764876
+    "lon": 135.764876,
+    "station_passenger_log": 7.852050207265889,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0052",
@@ -237,7 +341,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.449508,
-    "lon": 135.794819
+    "lon": 135.794819,
+    "station_passenger_log": 6.974478911025045,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0062",
@@ -245,7 +353,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.39572,
-    "lon": 135.845691
+    "lon": 135.845691,
+    "station_passenger_log": 5.755742213586912,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0014",
@@ -253,7 +365,11 @@
     "prefecture": "奈良県",
     "line_name": "JR和歌山線",
     "lat": 34.346125,
-    "lon": 135.684516
+    "lon": 135.684516,
+    "station_passenger_log": 5.638354669333745,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0073",
@@ -261,7 +377,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.513208,
-    "lon": 135.791484
+    "lon": 135.791484,
+    "station_passenger_log": 10.225788419383523,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "nara_0018",
@@ -269,7 +389,11 @@
     "prefecture": "奈良県",
     "line_name": "JR大和路線",
     "lat": 34.622226,
-    "lon": 135.763488
+    "lon": 135.763488,
+    "station_passenger_log": 9.55470991405776,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0007",
@@ -277,7 +401,11 @@
     "prefecture": "奈良県",
     "line_name": "JR和歌山線",
     "lat": 34.488827,
-    "lon": 135.736001
+    "lon": 135.736001,
+    "station_passenger_log": 6.616065185132817,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0077",
@@ -285,7 +413,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.51602,
-    "lon": 135.868933
+    "lon": 135.868933,
+    "station_passenger_log": 7.469654172932128,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0039",
@@ -293,7 +425,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄京都線",
     "lat": 34.69358,
-    "lon": 135.783169
+    "lon": 135.783169,
+    "station_passenger_log": 10.686109739523676,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "nara_0070",
@@ -301,7 +437,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.519757,
-    "lon": 135.742264
+    "lon": 135.742264,
+    "station_passenger_log": 9.511185430954244,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0075",
@@ -309,7 +449,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.512851,
-    "lon": 135.829756
+    "lon": 135.829756,
+    "station_passenger_log": 7.251344983372214,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0125",
@@ -317,7 +461,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄田原本線",
     "lat": 34.589173,
-    "lon": 135.720328
+    "lon": 135.720328,
+    "station_passenger_log": 7.599901959208498,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0058",
@@ -325,7 +473,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.388359,
-    "lon": 135.766434
+    "lon": 135.766434,
+    "station_passenger_log": 4.189654742026425,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0024",
@@ -333,7 +485,11 @@
     "prefecture": "奈良県",
     "line_name": "JR桜井線",
     "lat": 34.60113,
-    "lon": 135.830283
+    "lon": 135.830283,
+    "station_passenger_log": 9.008713664124222,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0016",
@@ -341,7 +497,11 @@
     "prefecture": "奈良県",
     "line_name": "JR大和路線",
     "lat": 34.680482,
-    "lon": 135.818935
+    "lon": 135.818935,
+    "station_passenger_log": 10.428837190318218,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "nara_0088",
@@ -357,7 +517,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄けいはんな線",
     "lat": 34.724789,
-    "lon": 135.723038
+    "lon": 135.723038,
+    "station_passenger_log": 8.674025985443025,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0036",
@@ -373,7 +537,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄生駒ケーブル線",
     "lat": 34.686069,
-    "lon": 135.68907
+    "lon": 135.68907,
+    "station_passenger_log": 7.387090235656757,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0080",
@@ -381,7 +549,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.566109,
-    "lon": 136.015252
+    "lon": 136.015252,
+    "station_passenger_log": 6.555356891810665,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0087",
@@ -389,7 +561,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄奈良線",
     "lat": 34.694229,
-    "lon": 135.734825
+    "lon": 135.734825,
+    "station_passenger_log": 10.130702803220393,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "nara_0044",
@@ -397,7 +573,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄南大阪線",
     "lat": 34.508577,
-    "lon": 135.721404
+    "lon": 135.721404,
+    "station_passenger_log": 8.29853954537488,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0095",
@@ -413,7 +593,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.473963,
-    "lon": 135.796088
+    "lon": 135.796088,
+    "station_passenger_log": 7.149916836132109,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0027",
@@ -421,7 +605,11 @@
     "prefecture": "奈良県",
     "line_name": "JR桜井線",
     "lat": 34.545147,
-    "lon": 135.840943
+    "lon": 135.840943,
+    "station_passenger_log": 6.561030665896573,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0053",
@@ -429,7 +617,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.441731,
-    "lon": 135.776488
+    "lon": 135.776488,
+    "station_passenger_log": 5.863631175598097,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0022",
@@ -437,7 +629,11 @@
     "prefecture": "奈良県",
     "line_name": "JR桜井線",
     "lat": 34.643156,
-    "lon": 135.82621
+    "lon": 135.82621,
+    "station_passenger_log": 6.71295620067707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0038",
@@ -445,7 +641,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄京都線",
     "lat": 34.701496,
-    "lon": 135.784524
+    "lon": 135.784524,
+    "station_passenger_log": 7.99799931797973,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0015",
@@ -453,7 +653,11 @@
     "prefecture": "奈良県",
     "line_name": "JR大和路線",
     "lat": 34.710431,
-    "lon": 135.810252
+    "lon": 135.810252,
+    "station_passenger_log": 7.80016307039296,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0082",
@@ -461,7 +665,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄天理線",
     "lat": 34.606712,
-    "lon": 135.782804
+    "lon": 135.782804,
+    "station_passenger_log": 8.227909837597483,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0117",
@@ -469,7 +677,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄生駒線",
     "lat": 34.629291,
-    "lon": 135.704345
+    "lon": 135.704345,
+    "station_passenger_log": 7.883823214892152,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0042",
@@ -477,7 +689,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄南大阪線",
     "lat": 34.516412,
-    "lon": 135.705897
+    "lon": 135.705897,
+    "station_passenger_log": 7.174724309836376,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0008",
@@ -485,7 +701,11 @@
     "prefecture": "奈良県",
     "line_name": "JR和歌山線",
     "lat": 34.465102,
-    "lon": 135.733819
+    "lon": 135.733819,
+    "station_passenger_log": 7.079184394609668,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0093",
@@ -493,7 +713,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄御所線",
     "lat": 34.476062,
-    "lon": 135.731988
+    "lon": 135.731988,
+    "station_passenger_log": 7.136483208590247,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0003",
@@ -501,7 +725,11 @@
     "prefecture": "奈良県",
     "line_name": "JR和歌山線",
     "lat": 34.561515,
-    "lon": 135.701997
+    "lon": 135.701997,
+    "station_passenger_log": 8.161375023197486,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0010",
@@ -509,7 +737,11 @@
     "prefecture": "奈良県",
     "line_name": "JR和歌山線",
     "lat": 34.452393,
-    "lon": 135.763127
+    "lon": 135.763127,
+    "station_passenger_log": 5.342334251964811,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0105",
@@ -517,7 +749,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄橿原線",
     "lat": 34.525332,
-    "lon": 135.794631
+    "lon": 135.794631,
+    "station_passenger_log": 8.29853954537488,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0090",
@@ -525,7 +761,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄奈良線",
     "lat": 34.685434,
-    "lon": 135.810744
+    "lon": 135.810744,
+    "station_passenger_log": 10.143842140580691,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "nara_0124",
@@ -533,7 +773,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄田原本線",
     "lat": 34.597722,
-    "lon": 135.704337
+    "lon": 135.704337,
+    "station_passenger_log": 8.72891172506098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0119",
@@ -549,7 +793,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄奈良線",
     "lat": 34.691729,
-    "lon": 135.710488
+    "lon": 135.710488,
+    "station_passenger_log": 9.630694092578098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0071",
@@ -557,7 +805,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.520601,
-    "lon": 135.761507
+    "lon": 135.761507,
+    "station_passenger_log": 7.061334366910438,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0026",
@@ -565,7 +817,11 @@
     "prefecture": "奈良県",
     "line_name": "JR桜井線",
     "lat": 34.55926,
-    "lon": 135.838715
+    "lon": 135.838715,
+    "station_passenger_log": 6.970730078143525,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0029",
@@ -582,10 +838,10 @@
     "line_name": "近鉄生駒ケーブル線",
     "lat": 34.683299,
     "lon": 135.686967,
-    "station_passenger_log": 9.65726726989194,
+    "station_passenger_log": 2.1972245773362196,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "D"
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0079",
@@ -593,7 +849,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.529887,
-    "lon": 135.954747
+    "lon": 135.954747,
+    "station_passenger_log": 8.825118970345061,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0049",
@@ -601,7 +861,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄南大阪線",
     "lat": 34.483987,
-    "lon": 135.79434
+    "lon": 135.79434,
+    "station_passenger_log": 9.749170192151771,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0048",
@@ -609,7 +873,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄南大阪線",
     "lat": 34.486187,
-    "lon": 135.781372
+    "lon": 135.781372,
+    "station_passenger_log": 7.475905969367397,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0023",
@@ -617,7 +885,11 @@
     "prefecture": "奈良県",
     "line_name": "JR桜井線",
     "lat": 34.621058,
-    "lon": 135.826329
+    "lon": 135.826329,
+    "station_passenger_log": 7.444833273892193,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0127",
@@ -625,7 +897,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄田原本線",
     "lat": 34.578755,
-    "lon": 135.737166
+    "lon": 135.737166,
+    "station_passenger_log": 6.882437470997847,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0019",
@@ -633,7 +909,11 @@
     "prefecture": "奈良県",
     "line_name": "JR大和路線",
     "lat": 34.601377,
-    "lon": 135.738604
+    "lon": 135.738604,
+    "station_passenger_log": 9.476466781462246,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0046",
@@ -641,7 +921,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄南大阪線",
     "lat": 34.498077,
-    "lon": 135.754749
+    "lon": 135.754749,
+    "station_passenger_log": 7.1592919047975645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0009",
@@ -649,7 +933,11 @@
     "prefecture": "奈良県",
     "line_name": "JR和歌山線",
     "lat": 34.458467,
-    "lon": 135.748479
+    "lon": 135.748479,
+    "station_passenger_log": 6.561030665896573,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0001",
@@ -657,7 +945,11 @@
     "prefecture": "奈良県",
     "line_name": "JR和歌山線",
     "lat": 34.597448,
-    "lon": 135.704005
+    "lon": 135.704005,
+    "station_passenger_log": 10.667861773634332,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "nara_0033",
@@ -665,7 +957,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄けいはんな線",
     "lat": 34.693082,
-    "lon": 135.698006
+    "lon": 135.698006,
+    "station_passenger_log": 10.667326161218606,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "nara_0112",
@@ -673,7 +969,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄生駒ケーブル線",
     "lat": 34.679594,
-    "lon": 135.68053
+    "lon": 135.68053,
+    "station_passenger_log": 6.406879986069314,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0103",
@@ -681,7 +981,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄橿原線",
     "lat": 34.553068,
-    "lon": 135.790837
+    "lon": 135.790837,
+    "station_passenger_log": 9.356170820187725,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0031",
@@ -689,7 +993,11 @@
     "prefecture": "奈良県",
     "line_name": "JR桜井線",
     "lat": 34.508209,
-    "lon": 135.794154
+    "lon": 135.794154,
+    "station_passenger_log": 7.037905963447182,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0107",
@@ -697,7 +1005,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄橿原線",
     "lat": 34.492758,
-    "lon": 135.794254
+    "lon": 135.794254,
+    "station_passenger_log": 8.16194579946869,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0002",
@@ -705,7 +1017,11 @@
     "prefecture": "奈良県",
     "line_name": "JR和歌山線",
     "lat": 34.578427,
-    "lon": 135.703874
+    "lon": 135.703874,
+    "station_passenger_log": 7.941295570906532,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0034",
@@ -713,7 +1029,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄けいはんな線",
     "lat": 34.720345,
-    "lon": 135.716686
+    "lon": 135.716686,
+    "station_passenger_log": 9.1075321519945,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0072",
@@ -721,7 +1041,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.519585,
-    "lon": 135.772806
+    "lon": 135.772806,
+    "station_passenger_log": 8.423761246623686,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0102",
@@ -729,7 +1053,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄橿原線",
     "lat": 34.571499,
-    "lon": 135.785765
+    "lon": 135.785765,
+    "station_passenger_log": 7.455876687491824,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0043",
@@ -737,7 +1065,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄南大阪線",
     "lat": 34.511302,
-    "lon": 135.710869
+    "lon": 135.710869,
+    "station_passenger_log": 6.97354301952014,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0057",
@@ -745,7 +1077,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.395466,
-    "lon": 135.750185
+    "lon": 135.750185,
+    "station_passenger_log": 7.693025748417888,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0116",
@@ -753,7 +1089,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄生駒線",
     "lat": 34.617272,
-    "lon": 135.704559
+    "lon": 135.704559,
+    "station_passenger_log": 7.367708572374371,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0104",
@@ -761,7 +1101,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄橿原線",
     "lat": 34.541422,
-    "lon": 135.794076
+    "lon": 135.794076,
+    "station_passenger_log": 7.740229524763182,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0099",
@@ -777,7 +1121,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄田原本線",
     "lat": 34.570287,
-    "lon": 135.751245
+    "lon": 135.751245,
+    "station_passenger_log": 7.252053951852814,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0069",
@@ -785,7 +1133,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.526125,
-    "lon": 135.733036
+    "lon": 135.733036,
+    "station_passenger_log": 7.85979918056211,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0101",
@@ -793,7 +1145,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄橿原線",
     "lat": 34.584586,
-    "lon": 135.784782
+    "lon": 135.784782,
+    "station_passenger_log": 8.175547596021026,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0074",
@@ -801,7 +1157,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.512409,
-    "lon": 135.815071
+    "lon": 135.815071,
+    "station_passenger_log": 8.173293438966228,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0089",
@@ -809,7 +1169,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄奈良線",
     "lat": 34.69796,
-    "lon": 135.761331
+    "lon": 135.761331,
+    "station_passenger_log": 9.311361486034912,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0123",
@@ -817,7 +1181,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄生駒線",
     "lat": 34.685535,
-    "lon": 135.706769
+    "lon": 135.706769,
+    "station_passenger_log": 8.075893630298857,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0120",
@@ -825,7 +1193,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄生駒線",
     "lat": 34.656974,
-    "lon": 135.708967
+    "lon": 135.708967,
+    "station_passenger_log": 7.704361167910313,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0054",
@@ -833,7 +1205,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.431446,
-    "lon": 135.759914
+    "lon": 135.759914,
+    "station_passenger_log": 5.66988092298052,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0056",
@@ -841,7 +1217,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.407806,
-    "lon": 135.74323
+    "lon": 135.74323,
+    "station_passenger_log": 3.871201010907891,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0096",
@@ -849,7 +1229,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄橿原線",
     "lat": 34.670652,
-    "lon": 135.783186
+    "lon": 135.783186,
+    "station_passenger_log": 8.80357441813497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0131",
@@ -857,7 +1241,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄田原本線",
     "lat": 34.553909,
-    "lon": 135.789512
+    "lon": 135.789512,
+    "station_passenger_log": 8.35983738064003,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0060",
@@ -865,7 +1253,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.38614,
-    "lon": 135.80262
+    "lon": 135.80262,
+    "station_passenger_log": 5.755742213586912,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0067",
@@ -873,7 +1265,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.541478,
-    "lon": 135.704033
+    "lon": 135.704033,
+    "station_passenger_log": 8.39638057119949,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0091",
@@ -881,7 +1277,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄奈良線",
     "lat": 34.684323,
-    "lon": 135.827472
+    "lon": 135.827472,
+    "station_passenger_log": 10.911153459501412,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "nara_0094",
@@ -889,7 +1289,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄御所線",
     "lat": 34.46468,
-    "lon": 135.732496
+    "lon": 135.732496,
+    "station_passenger_log": 7.857867559331803,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0092",
@@ -897,7 +1301,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄御所線",
     "lat": 34.489105,
-    "lon": 135.727338
+    "lon": 135.727338,
+    "station_passenger_log": 7.791522819150732,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0098",
@@ -905,7 +1313,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄橿原線",
     "lat": 34.646041,
-    "lon": 135.780756
+    "lon": 135.780756,
+    "station_passenger_log": 9.678780279245736,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0017",
@@ -921,7 +1333,11 @@
     "prefecture": "奈良県",
     "line_name": "JR桜井線",
     "lat": 34.509639,
-    "lon": 135.765401
+    "lon": 135.765401,
+    "station_passenger_log": 7.099201743553092,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0025",
@@ -929,7 +1345,11 @@
     "prefecture": "奈良県",
     "line_name": "JR桜井線",
     "lat": 34.574252,
-    "lon": 135.835021
+    "lon": 135.835021,
+    "station_passenger_log": 6.90875477931522,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0078",
@@ -937,7 +1357,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄大阪線",
     "lat": 34.526889,
-    "lon": 135.906453
+    "lon": 135.906453,
+    "station_passenger_log": 6.647688373563329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0065",
@@ -961,7 +1385,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄吉野線",
     "lat": 34.464928,
-    "lon": 135.79816
+    "lon": 135.79816,
+    "station_passenger_log": 7.644440761556566,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0030",
@@ -969,7 +1397,11 @@
     "prefecture": "奈良県",
     "line_name": "JR桜井線",
     "lat": 34.510704,
-    "lon": 135.825092
+    "lon": 135.825092,
+    "station_passenger_log": 5.983936280687191,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0004",
@@ -977,7 +1409,11 @@
     "prefecture": "奈良県",
     "line_name": "JR和歌山線",
     "lat": 34.543137,
-    "lon": 135.705767
+    "lon": 135.705767,
+    "station_passenger_log": 7.936302693201959,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0037",
@@ -985,7 +1421,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄京都線",
     "lat": 34.723494,
-    "lon": 135.791839
+    "lon": 135.791839,
+    "station_passenger_log": 10.313243442061449,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "nara_0006",
@@ -1001,7 +1441,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄南大阪線",
     "lat": 34.507145,
-    "lon": 135.742119
+    "lon": 135.742119,
+    "station_passenger_log": 8.734399150063695,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nara_0108",
@@ -1009,7 +1453,11 @@
     "prefecture": "奈良県",
     "line_name": "近鉄生駒ケーブル線",
     "lat": 34.692439,
-    "lon": 135.696151
+    "lon": 135.696151,
+    "station_passenger_log": 6.925595197110468,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nara_0130",
@@ -1017,6 +1465,10 @@
     "prefecture": "奈良県",
     "line_name": "近鉄田原本線",
     "lat": 34.56841,
-    "lon": 135.777794
+    "lon": 135.777794,
+    "station_passenger_log": 6.429719478039138,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

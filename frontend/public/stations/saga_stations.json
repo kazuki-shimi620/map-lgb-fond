@@ -5,7 +5,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR鹿児島本線",
     "lat": 33.434537,
-    "lon": 130.533392
+    "lon": 130.533392,
+    "station_passenger_log": 7.621195162809845,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0046",
@@ -21,7 +25,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.188949,
-    "lon": 129.866336
+    "lon": 129.866336,
+    "station_passenger_log": 4.6913478822291435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0007",
@@ -29,7 +37,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR佐世保線",
     "lat": 33.194722,
-    "lon": 129.947798
+    "lon": 129.947798,
+    "station_passenger_log": 6.459904454377535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0035",
@@ -37,7 +49,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥西線",
     "lat": 33.270066,
-    "lon": 129.892515
+    "lon": 129.892515,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0008",
@@ -45,7 +61,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR佐世保線",
     "lat": 33.190286,
-    "lon": 129.905404
+    "lon": 129.905404,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0040",
@@ -53,7 +73,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.346241,
-    "lon": 130.440046
+    "lon": 130.440046,
+    "station_passenger_log": 7.617267813628347,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0013",
@@ -61,7 +85,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR唐津線",
     "lat": 33.28336,
-    "lon": 130.112308
+    "lon": 130.112308,
+    "station_passenger_log": 6.444131256700441,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0010",
@@ -69,7 +97,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR唐津線",
     "lat": 33.255717,
-    "lon": 130.229594
+    "lon": 130.229594,
+    "station_passenger_log": 7.089243155027514,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0075",
@@ -77,7 +109,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.313973,
-    "lon": 129.811763
+    "lon": 129.811763,
+    "station_passenger_log": 4.672828834461906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0036",
@@ -85,7 +121,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥西線",
     "lat": 33.271852,
-    "lon": 129.876718
+    "lon": 129.876718,
+    "station_passenger_log": 6.796823718274855,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0043",
@@ -93,7 +133,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.290195,
-    "lon": 130.336753
+    "lon": 130.336753,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0044",
@@ -101,7 +145,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.264212,
-    "lon": 130.297608
+    "lon": 130.297608,
+    "station_passenger_log": 10.062412531523687,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "saga_0029",
@@ -109,7 +157,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥西線",
     "lat": 33.337476,
-    "lon": 129.978545
+    "lon": 129.978545,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0003",
@@ -125,7 +177,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR唐津線",
     "lat": 33.323451,
-    "lon": 130.060148
+    "lon": 130.060148,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0041",
@@ -141,7 +197,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥東線",
     "lat": 33.437048,
-    "lon": 129.980616
+    "lon": 129.980616,
+    "station_passenger_log": 6.532334292222349,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0021",
@@ -149,7 +209,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR唐津線",
     "lat": 33.446038,
-    "lon": 129.96835
+    "lon": 129.96835,
+    "station_passenger_log": 8.27308133366583,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0057",
@@ -157,7 +221,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR鹿児島本線",
     "lat": 33.420945,
-    "lon": 130.532365
+    "lon": 130.532365,
+    "station_passenger_log": 8.844336332748933,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "saga_0014",
@@ -165,7 +233,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR唐津線",
     "lat": 33.28838,
-    "lon": 130.096195
+    "lon": 130.096195,
+    "station_passenger_log": 6.336825731146441,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0054",
@@ -173,7 +245,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.02524,
-    "lon": 130.176049
+    "lon": 130.176049,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0031",
@@ -181,7 +257,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥西線",
     "lat": 33.307298,
-    "lon": 129.976724
+    "lon": 129.976724,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0065",
@@ -189,7 +269,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.221615,
-    "lon": 129.850119
+    "lon": 129.850119,
+    "station_passenger_log": 3.8501476017100584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0002",
@@ -198,7 +282,7 @@
     "line_name": "JR佐世保線",
     "lat": 33.212462,
     "lon": 130.106398,
-    "station_passenger_log": 7.434847875211999,
+    "station_passenger_log": 0.0,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
     "station_rank": "E"
@@ -209,7 +293,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.236927,
-    "lon": 129.850502
+    "lon": 129.850502,
+    "station_passenger_log": 3.295836866004329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0011",
@@ -217,7 +305,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR唐津線",
     "lat": 33.285749,
-    "lon": 130.198679
+    "lon": 130.198679,
+    "station_passenger_log": 7.608374474380783,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0019",
@@ -233,7 +325,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.2293,
-    "lon": 129.849353
+    "lon": 129.849353,
+    "station_passenger_log": 3.58351893845611,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0016",
@@ -241,7 +337,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR唐津線",
     "lat": 33.330775,
-    "lon": 130.038436
+    "lon": 130.038436,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0069",
@@ -249,7 +349,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.267329,
-    "lon": 129.863812
+    "lon": 129.863812,
+    "station_passenger_log": 5.493061443340548,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0058",
@@ -257,7 +361,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR鹿児島本線",
     "lat": 33.401944,
-    "lon": 130.528514
+    "lon": 130.528514,
+    "station_passenger_log": 7.913886714856082,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0038",
@@ -265,7 +373,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.370278,
-    "lon": 130.491111
+    "lon": 130.491111,
+    "station_passenger_log": 8.261784679514752,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0009",
@@ -273,7 +385,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR佐世保線",
     "lat": 33.183779,
-    "lon": 129.881787
+    "lon": 129.881787,
+    "station_passenger_log": 7.56164174558878,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0018",
@@ -281,7 +397,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR唐津線",
     "lat": 33.372266,
-    "lon": 129.996529
+    "lon": 129.996529,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0025",
@@ -289,7 +409,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥東線",
     "lat": 33.439409,
-    "lon": 129.996876
+    "lon": 129.996876,
+    "station_passenger_log": 7.2991214627108,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0012",
@@ -297,7 +421,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR唐津線",
     "lat": 33.285418,
-    "lon": 130.143188
+    "lon": 130.143188,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0071",
@@ -305,7 +433,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.277964,
-    "lon": 129.846041
+    "lon": 129.846041,
+    "station_passenger_log": 3.871201010907891,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0033",
@@ -313,7 +445,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥西線",
     "lat": 33.271809,
-    "lon": 129.956683
+    "lon": 129.956683,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0073",
@@ -321,7 +457,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.291426,
-    "lon": 129.826696
+    "lon": 129.826696,
+    "station_passenger_log": 4.143134726391533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0005",
@@ -329,7 +469,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR佐世保線",
     "lat": 33.196151,
-    "lon": 130.022322
+    "lon": 130.022322,
+    "station_passenger_log": 8.141189793457691,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0006",
@@ -337,7 +481,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR佐世保線",
     "lat": 33.193439,
-    "lon": 129.980476
+    "lon": 129.980476,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0001",
@@ -346,10 +494,10 @@
     "line_name": "JR佐世保線",
     "lat": 33.21919,
     "lon": 130.160858,
-    "station_passenger_log": 9.44359265743868,
-    "station_line_count": 1.0,
+    "station_passenger_log": 7.685703061234547,
+    "station_line_count": 2.0,
     "station_operator_count": 1.0,
-    "station_rank": "D"
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0076",
@@ -357,7 +505,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.323013,
-    "lon": 129.807296
+    "lon": 129.807296,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0023",
@@ -365,7 +517,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥東線",
     "lat": 33.446871,
-    "lon": 130.037369
+    "lon": 130.037369,
+    "station_passenger_log": 7.044905117129371,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0077",
@@ -373,7 +529,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.335287,
-    "lon": 129.792524
+    "lon": 129.792524,
+    "station_passenger_log": 3.9318256327243257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0047",
@@ -381,7 +541,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.247859,
-    "lon": 130.201016
+    "lon": 130.201016,
+    "station_passenger_log": 7.141245122350491,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0059",
@@ -389,7 +553,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR鹿児島本線",
     "lat": 33.384007,
-    "lon": 130.524496
+    "lon": 130.524496,
+    "station_passenger_log": 6.922643891475888,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0017",
@@ -397,7 +565,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR唐津線",
     "lat": 33.347012,
-    "lon": 130.019337
+    "lon": 130.019337,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0042",
@@ -405,7 +577,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.315851,
-    "lon": 130.374446
+    "lon": 130.374446,
+    "station_passenger_log": 7.965892735084528,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0078",
@@ -413,7 +589,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.338083,
-    "lon": 129.790271
+    "lon": 129.790271,
+    "station_passenger_log": 3.49650756146648,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0080",
@@ -421,7 +601,11 @@
     "prefecture": "佐賀県",
     "line_name": "甘木鉄道甘木線",
     "lat": 33.412412,
-    "lon": 130.539573
+    "lon": 130.539573,
+    "station_passenger_log": 4.6913478822291435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0052",
@@ -429,7 +613,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.070931,
-    "lon": 130.145245
+    "lon": 130.145245,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0027",
@@ -437,7 +625,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥西線",
     "lat": 33.355738,
-    "lon": 130.000104
+    "lon": 130.000104,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0055",
@@ -445,7 +637,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 32.975043,
-    "lon": 130.207159
+    "lon": 130.207159,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0060",
@@ -453,7 +649,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR鹿児島本線",
     "lat": 33.350237,
-    "lon": 130.495981
+    "lon": 130.495981,
+    "station_passenger_log": 7.327123292259293,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0051",
@@ -461,7 +661,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.095103,
-    "lon": 130.117079
+    "lon": 130.117079,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0048",
@@ -469,7 +673,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.186679,
-    "lon": 130.135952
+    "lon": 130.135952,
+    "station_passenger_log": 7.1284959456800365,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0049",
@@ -477,7 +685,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.146663,
-    "lon": 130.12042
+    "lon": 130.12042,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0032",
@@ -485,7 +697,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥西線",
     "lat": 33.29571,
-    "lon": 129.971033
+    "lon": 129.971033,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0053",
@@ -493,7 +709,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.055701,
-    "lon": 130.158754
+    "lon": 130.158754,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0050",
@@ -501,7 +721,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.114445,
-    "lon": 130.097805
+    "lon": 130.097805,
+    "station_passenger_log": 7.43307534889858,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0039",
@@ -509,7 +733,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.36578,
-    "lon": 130.477499
+    "lon": 130.477499,
+    "station_passenger_log": 6.98933526597456,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0063",
@@ -517,7 +745,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.201898,
-    "lon": 129.850559
+    "lon": 129.850559,
+    "station_passenger_log": 3.5553480614894135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0024",
@@ -525,7 +757,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥東線",
     "lat": 33.441035,
-    "lon": 130.016271
+    "lon": 130.016271,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0022",
@@ -533,7 +769,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR唐津線",
     "lat": 33.46142,
-    "lon": 129.957748
+    "lon": 129.957748,
+    "station_passenger_log": 6.71295620067707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0064",
@@ -541,7 +781,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.208839,
-    "lon": 129.8502
+    "lon": 129.8502,
+    "station_passenger_log": 4.442651256490317,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0028",
@@ -549,7 +793,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥西線",
     "lat": 33.347686,
-    "lon": 129.99053
+    "lon": 129.99053,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0072",
@@ -557,7 +805,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.284513,
-    "lon": 129.835906
+    "lon": 129.835906,
+    "station_passenger_log": 4.174387269895637,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0068",
@@ -565,7 +817,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.251856,
-    "lon": 129.854519
+    "lon": 129.854519,
+    "station_passenger_log": 3.295836866004329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0034",
@@ -573,7 +829,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥西線",
     "lat": 33.265354,
-    "lon": 129.935012
+    "lon": 129.935012,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0045",
@@ -581,7 +841,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.259062,
-    "lon": 130.265702
+    "lon": 130.265702,
+    "station_passenger_log": 7.011213987350367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0030",
@@ -589,7 +853,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR筑肥西線",
     "lat": 33.319455,
-    "lon": 129.972469
+    "lon": 129.972469,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0004",
@@ -597,7 +865,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR佐世保線",
     "lat": 33.2081,
-    "lon": 130.042315
+    "lon": 130.042315,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0020",
@@ -605,7 +877,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR唐津線",
     "lat": 33.421166,
-    "lon": 129.987138
+    "lon": 129.987138,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0037",
@@ -613,7 +889,11 @@
     "prefecture": "佐賀県",
     "line_name": "JR長崎本線",
     "lat": 33.373864,
-    "lon": 130.519374
+    "lon": 130.519374,
+    "station_passenger_log": 9.468928284223589,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "saga_0074",
@@ -621,7 +901,11 @@
     "prefecture": "佐賀県",
     "line_name": "松浦鉄道",
     "lat": 33.299447,
-    "lon": 129.816699
+    "lon": 129.816699,
+    "station_passenger_log": 4.343805421853684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "saga_0062",
@@ -630,9 +914,9 @@
     "line_name": "松浦鉄道",
     "lat": 33.195093,
     "lon": 129.85542,
-    "station_passenger_log": 9.063694791634695,
+    "station_passenger_log": 4.1588830833596715,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "D"
+    "station_rank": "E"
   }
 ]

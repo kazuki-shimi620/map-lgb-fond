@@ -5,7 +5,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.236191,
-    "lon": 130.893783
+    "lon": 130.893783,
+    "station_passenger_log": 6.131226489483141,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0030",
@@ -13,7 +17,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.93659,
-    "lon": 131.094666
+    "lon": 131.094666,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0075",
@@ -21,7 +29,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.231011,
-    "lon": 130.873629
+    "lon": 130.873629,
+    "station_passenger_log": 4.290459441148391,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0152",
@@ -29,7 +41,11 @@
     "prefecture": "熊本県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.363202,
-    "lon": 130.506705
+    "lon": 130.506705,
+    "station_passenger_log": 4.584967478670572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0020",
@@ -37,7 +53,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.250231,
-    "lon": 130.652399
+    "lon": 130.652399,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0073",
@@ -45,7 +65,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.214551,
-    "lon": 130.839915
+    "lon": 130.839915,
+    "station_passenger_log": 2.772588722239781,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0143",
@@ -53,7 +77,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄菊池線",
     "lat": 32.864265,
-    "lon": 130.738378
+    "lon": 130.738378,
+    "station_passenger_log": 5.752572638825633,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0009",
@@ -61,7 +89,11 @@
     "prefecture": "熊本県",
     "line_name": "JR三角線",
     "lat": 32.607616,
-    "lon": 130.469872
+    "lon": 130.469872,
+    "station_passenger_log": 6.444131256700441,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0039",
@@ -69,7 +101,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.861634,
-    "lon": 130.796321
+    "lon": 130.796321,
+    "station_passenger_log": 7.236339342754344,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0060",
@@ -85,7 +121,11 @@
     "prefecture": "熊本県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.392952,
-    "lon": 130.5186
+    "lon": 130.5186,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0090",
@@ -93,7 +133,11 @@
     "prefecture": "熊本県",
     "line_name": "南阿蘇鉄道",
     "lat": 32.827381,
-    "lon": 131.053594
+    "lon": 131.053594,
+    "station_passenger_log": 4.31748811353631,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0123",
@@ -101,7 +145,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電水前寺線",
     "lat": 32.799576,
-    "lon": 130.7178
+    "lon": 130.7178,
+    "station_passenger_log": 7.549609165154532,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0138",
@@ -109,7 +157,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄菊池線",
     "lat": 32.837414,
-    "lon": 130.72224
+    "lon": 130.72224,
+    "station_passenger_log": 6.059123195581797,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0128",
@@ -117,7 +169,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電田崎線",
     "lat": 32.786986,
-    "lon": 130.689368
+    "lon": 130.689368,
+    "station_passenger_log": 6.133398042996649,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0124",
@@ -133,7 +189,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.216142,
-    "lon": 130.753797
+    "lon": 130.753797,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0069",
@@ -141,7 +201,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.216142,
-    "lon": 130.753797
+    "lon": 130.753797,
+    "station_passenger_log": 6.206575926724928,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0003",
@@ -157,7 +221,11 @@
     "prefecture": "熊本県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.302447,
-    "lon": 130.497277
+    "lon": 130.497277,
+    "station_passenger_log": 6.154858094016418,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0112",
@@ -165,7 +233,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電健軍線",
     "lat": 32.779463,
-    "lon": 130.757668
+    "lon": 130.757668,
+    "station_passenger_log": 6.246106765481563,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0110",
@@ -173,7 +245,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電健軍線",
     "lat": 32.781917,
-    "lon": 130.750952
+    "lon": 130.750952,
+    "station_passenger_log": 6.959398512133975,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0113",
@@ -181,7 +257,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電健軍線",
     "lat": 32.778381,
-    "lon": 130.761209
+    "lon": 130.761209,
+    "station_passenger_log": 8.620110725422924,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "kumamoto_0040",
@@ -189,7 +269,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.857834,
-    "lon": 130.786722
+    "lon": 130.786722,
+    "station_passenger_log": 8.51699317141357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0108",
@@ -197,7 +281,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電健軍線",
     "lat": 32.783739,
-    "lon": 130.741746
+    "lon": 130.741746,
+    "station_passenger_log": 6.150602768446279,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0010",
@@ -205,7 +293,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.503805,
-    "lon": 130.621609
+    "lon": 130.621609,
+    "station_passenger_log": 8.12651816878071,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0139",
@@ -213,7 +305,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄菊池線",
     "lat": 32.841258,
-    "lon": 130.722812
+    "lon": 130.722812,
+    "station_passenger_log": 6.013715156042802,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0078",
@@ -221,7 +317,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.255906,
-    "lon": 130.921768
+    "lon": 130.921768,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0032",
@@ -229,7 +329,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.942136,
-    "lon": 131.043648
+    "lon": 131.043648,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0146",
@@ -237,7 +341,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄菊池線",
     "lat": 32.880866,
-    "lon": 130.747938
+    "lon": 130.747938,
+    "station_passenger_log": 4.406719247264253,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0087",
@@ -245,7 +353,11 @@
     "prefecture": "熊本県",
     "line_name": "南阿蘇鉄道",
     "lat": 32.847818,
-    "lon": 131.010139
+    "lon": 131.010139,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0111",
@@ -253,7 +365,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電健軍線",
     "lat": 32.78051,
-    "lon": 130.754707
+    "lon": 130.754707,
+    "station_passenger_log": 6.542471960506805,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0132",
@@ -261,7 +377,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄藤崎線",
     "lat": 32.827492,
-    "lon": 130.721981
+    "lon": 130.721981,
+    "station_passenger_log": 6.55250788703459,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0067",
@@ -269,7 +389,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.532387,
-    "lon": 130.64556
+    "lon": 130.64556,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0046",
@@ -277,7 +401,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.785159,
-    "lon": 130.711577
+    "lon": 130.711577,
+    "station_passenger_log": 7.742835955430749,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0050",
@@ -285,7 +413,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.966029,
-    "lon": 130.433012
+    "lon": 130.433012,
+    "station_passenger_log": 6.440946540632921,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0089",
@@ -293,7 +425,11 @@
     "prefecture": "熊本県",
     "line_name": "南阿蘇鉄道",
     "lat": 32.83407,
-    "lon": 131.040264
+    "lon": 131.040264,
+    "station_passenger_log": 2.833213344056216,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0092",
@@ -301,7 +437,11 @@
     "prefecture": "熊本県",
     "line_name": "南阿蘇鉄道",
     "lat": 32.822222,
-    "lon": 131.091667
+    "lon": 131.091667,
+    "station_passenger_log": 2.995732273553991,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0038",
@@ -309,7 +449,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.870625,
-    "lon": 130.829029
+    "lon": 130.829029,
+    "station_passenger_log": 7.969357742016346,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0017",
@@ -317,7 +461,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.330958,
-    "lon": 130.600352
+    "lon": 130.600352,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0116",
@@ -333,7 +481,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電水前寺線",
     "lat": 32.795644,
-    "lon": 130.723722
+    "lon": 130.723722,
+    "station_passenger_log": 6.802394763324311,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0107",
@@ -341,7 +493,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電健軍線",
     "lat": 32.785398,
-    "lon": 130.739107
+    "lon": 130.739107,
+    "station_passenger_log": 6.782192056006791,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0127",
@@ -357,7 +513,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.435149,
-    "lon": 130.657898
+    "lon": 130.657898,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0137",
@@ -365,7 +525,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄菊池線",
     "lat": 32.821427,
-    "lon": 130.718773
+    "lon": 130.718773,
+    "station_passenger_log": 5.746203190540153,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0140",
@@ -373,7 +537,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄菊池線",
     "lat": 32.848988,
-    "lon": 130.725231
+    "lon": 130.725231,
+    "station_passenger_log": 6.484635235635252,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0079",
@@ -381,7 +549,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.262903,
-    "lon": 130.933362
+    "lon": 130.933362,
+    "station_passenger_log": 5.293304824724492,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0025",
@@ -389,7 +561,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.16493,
-    "lon": 130.787722
+    "lon": 130.787722,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0052",
@@ -397,7 +573,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.921737,
-    "lon": 130.502038
+    "lon": 130.502038,
+    "station_passenger_log": 6.508769136971682,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0001",
@@ -405,7 +585,11 @@
     "prefecture": "熊本県",
     "line_name": "JR三角線",
     "lat": 32.694237,
-    "lon": 130.669148
+    "lon": 130.669148,
+    "station_passenger_log": 8.19946419761216,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0029",
@@ -413,7 +597,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.937305,
-    "lon": 131.117476
+    "lon": 131.117476,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0063",
@@ -421,7 +609,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.713658,
-    "lon": 130.672808
+    "lon": 130.672808,
+    "station_passenger_log": 7.3031700512368,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0065",
@@ -430,10 +622,10 @@
     "line_name": "JR鹿児島本線",
     "lat": 32.600979,
     "lon": 130.694339,
-    "station_passenger_log": 10.15673344766678,
-    "station_line_count": 2.0,
+    "station_passenger_log": 7.681099001536359,
+    "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "C"
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0059",
@@ -441,7 +633,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.83102,
-    "lon": 130.694895
+    "lon": 130.694895,
+    "station_passenger_log": 8.038834757787749,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0062",
@@ -449,7 +645,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.743772,
-    "lon": 130.679907
+    "lon": 130.679907,
+    "station_passenger_log": 7.507141079727608,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0071",
@@ -457,7 +657,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.207284,
-    "lon": 130.795307
+    "lon": 130.795307,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0033",
@@ -465,7 +669,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.928048,
-    "lon": 131.00759
+    "lon": 131.00759,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0106",
@@ -481,7 +689,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.781569,
-    "lon": 130.703539
+    "lon": 130.703539,
+    "station_passenger_log": 7.8050670442584895,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0147",
@@ -489,7 +701,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄菊池線",
     "lat": 32.884985,
-    "lon": 130.750124
+    "lon": 130.750124,
+    "station_passenger_log": 6.42648845745769,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0118",
@@ -497,7 +713,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電幹線",
     "lat": 32.797304,
-    "lon": 130.702457
+    "lon": 130.702457,
+    "station_passenger_log": 6.505784060128229,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0136",
@@ -505,7 +725,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄菊池線",
     "lat": 32.823765,
-    "lon": 130.713796
+    "lon": 130.713796,
+    "station_passenger_log": 4.859812404361672,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0068",
@@ -513,7 +737,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.517888,
-    "lon": 130.634919
+    "lon": 130.634919,
+    "station_passenger_log": 8.318498320504338,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0083",
@@ -521,7 +749,11 @@
     "prefecture": "熊本県",
     "line_name": "九州新幹線",
     "lat": 33.071012,
-    "lon": 130.488795
+    "lon": 130.488795,
+    "station_passenger_log": 7.007600613951853,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0085",
@@ -529,7 +761,11 @@
     "prefecture": "熊本県",
     "line_name": "九州新幹線",
     "lat": 32.210825,
-    "lon": 130.428893
+    "lon": 130.428893,
+    "station_passenger_log": 6.920671504248683,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0045",
@@ -537,7 +773,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.793363,
-    "lon": 130.725901
+    "lon": 130.725901,
+    "station_passenger_log": 9.23024103368252,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "kumamoto_0126",
@@ -545,7 +785,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電水前寺線",
     "lat": 32.793516,
-    "lon": 130.727069
+    "lon": 130.727069,
+    "station_passenger_log": 8.526549286340263,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "kumamoto_0084",
@@ -553,7 +797,11 @@
     "prefecture": "熊本県",
     "line_name": "九州新幹線",
     "lat": 32.942461,
-    "lon": 130.573686
+    "lon": 130.573686,
+    "station_passenger_log": 6.968850378341948,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0098",
@@ -569,7 +817,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄菊池線",
     "lat": 32.853266,
-    "lon": 130.730198
+    "lon": 130.730198,
+    "station_passenger_log": 6.267200548541362,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0081",
@@ -577,7 +829,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.275372,
-    "lon": 130.966275
+    "lon": 130.966275,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0149",
@@ -585,7 +841,11 @@
     "prefecture": "熊本県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.436163,
-    "lon": 130.581635
+    "lon": 130.581635,
+    "station_passenger_log": 3.970291913552122,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0066",
@@ -593,7 +853,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.562711,
-    "lon": 130.670049
+    "lon": 130.670049,
+    "station_passenger_log": 7.513709247839705,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0074",
@@ -601,7 +865,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.224256,
-    "lon": 130.858888
+    "lon": 130.858888,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0055",
@@ -609,7 +877,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.916528,
-    "lon": 130.626441
+    "lon": 130.626441,
+    "station_passenger_log": 6.602587892189336,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0102",
@@ -617,7 +889,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電上熊本線",
     "lat": 32.813626,
-    "lon": 130.698466
+    "lon": 130.698466,
+    "station_passenger_log": 5.968707559985366,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0101",
@@ -625,7 +901,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電上熊本線",
     "lat": 32.810308,
-    "lon": 130.696986
+    "lon": 130.696986,
+    "station_passenger_log": 5.484796933490655,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0077",
@@ -633,7 +913,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.250095,
-    "lon": 130.912947
+    "lon": 130.912947,
+    "station_passenger_log": 4.127134385045092,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0080",
@@ -641,7 +925,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.272211,
-    "lon": 130.950765
+    "lon": 130.950765,
+    "station_passenger_log": 4.204692619390966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0043",
@@ -649,7 +937,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.811267,
-    "lon": 130.742684
+    "lon": 130.742684,
+    "station_passenger_log": 8.163656176168432,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0064",
@@ -657,7 +949,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.652324,
-    "lon": 130.670588
+    "lon": 130.670588,
+    "station_passenger_log": 8.09162741160107,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0057",
@@ -665,7 +961,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.880226,
-    "lon": 130.680834
+    "lon": 130.680834,
+    "station_passenger_log": 7.293697720601438,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0041",
@@ -673,7 +973,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.850008,
-    "lon": 130.77024
+    "lon": 130.77024,
+    "station_passenger_log": 8.374015421739909,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0011",
@@ -681,7 +985,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.468101,
-    "lon": 130.645736
+    "lon": 130.645736,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0100",
@@ -689,7 +997,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電上熊本線",
     "lat": 32.806701,
-    "lon": 130.695505
+    "lon": 130.695505,
+    "station_passenger_log": 6.705639094860003,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0158",
@@ -697,7 +1009,11 @@
     "prefecture": "熊本県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.204919,
-    "lon": 130.395763
+    "lon": 130.395763,
+    "station_passenger_log": 5.8377304471659395,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0044",
@@ -705,7 +1021,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.796962,
-    "lon": 130.729823
+    "lon": 130.729823,
+    "station_passenger_log": 8.832441791585824,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "kumamoto_0105",
@@ -713,7 +1033,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電健軍線",
     "lat": 32.789908,
-    "lon": 130.732455
+    "lon": 130.732455,
+    "station_passenger_log": 7.001245622069476,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0122",
@@ -721,7 +1045,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電幹線",
     "lat": 32.80239,
-    "lon": 130.712564
+    "lon": 130.712564,
+    "station_passenger_log": 8.064007347096661,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0135",
@@ -745,7 +1073,11 @@
     "prefecture": "熊本県",
     "line_name": "JR三角線",
     "lat": 32.615524,
-    "lon": 130.488117
+    "lon": 130.488117,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0028",
@@ -753,7 +1085,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.938562,
-    "lon": 131.195298
+    "lon": 131.195298,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0097",
@@ -761,7 +1097,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電上熊本線",
     "lat": 32.799234,
-    "lon": 130.698917
+    "lon": 130.698917,
+    "station_passenger_log": 6.322565239927284,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0157",
@@ -769,7 +1109,11 @@
     "prefecture": "熊本県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.232417,
-    "lon": 130.450165
+    "lon": 130.450165,
+    "station_passenger_log": 4.718498871295094,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0154",
@@ -777,7 +1121,11 @@
     "prefecture": "熊本県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.327997,
-    "lon": 130.488766
+    "lon": 130.488766,
+    "station_passenger_log": 3.4011973816621555,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0016",
@@ -785,7 +1133,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.349407,
-    "lon": 130.61928
+    "lon": 130.61928,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0022",
@@ -793,7 +1145,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.236631,
-    "lon": 130.694801
+    "lon": 130.694801,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0082",
@@ -801,7 +1157,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.281389,
-    "lon": 130.980094
+    "lon": 130.980094,
+    "station_passenger_log": 5.6937321388027,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0156",
@@ -809,7 +1169,11 @@
     "prefecture": "熊本県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.271231,
-    "lon": 130.504667
+    "lon": 130.504667,
+    "station_passenger_log": 4.836281906951478,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0027",
@@ -817,7 +1181,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.933342,
-    "lon": 131.24263
+    "lon": 131.24263,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0015",
@@ -825,7 +1193,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.371474,
-    "lon": 130.646004
+    "lon": 130.646004,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0036",
@@ -833,7 +1205,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.872567,
-    "lon": 130.914044
+    "lon": 130.914044,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0048",
@@ -841,7 +1217,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.789207,
-    "lon": 130.688499
+    "lon": 130.688499,
+    "station_passenger_log": 10.39160733876648,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "kumamoto_0120",
@@ -849,7 +1229,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電幹線",
     "lat": 32.802967,
-    "lon": 130.707028
+    "lon": 130.707028,
+    "station_passenger_log": 7.659171367666058,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0114",
@@ -857,7 +1241,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電幹線",
     "lat": 32.790377,
-    "lon": 130.690398
+    "lon": 130.690398,
+    "station_passenger_log": 8.866017398810255,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "kumamoto_0145",
@@ -865,7 +1253,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄菊池線",
     "lat": 32.878088,
-    "lon": 130.746271
+    "lon": 130.746271,
+    "station_passenger_log": 4.969813299576001,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0053",
@@ -873,7 +1265,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.926021,
-    "lon": 130.548494
+    "lon": 130.548494,
+    "station_passenger_log": 8.37309184744198,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0019",
@@ -881,7 +1277,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.267817,
-    "lon": 130.608191
+    "lon": 130.608191,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0056",
@@ -889,7 +1289,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.899416,
-    "lon": 130.653198
+    "lon": 130.653198,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0129",
@@ -897,7 +1301,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電田崎線",
     "lat": 32.785398,
-    "lon": 130.68866
+    "lon": 130.68866,
+    "station_passenger_log": 6.635946555686647,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0018",
@@ -905,7 +1313,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.305694,
-    "lon": 130.608328
+    "lon": 130.608328,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0070",
@@ -913,7 +1325,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.218429,
-    "lon": 130.769626
+    "lon": 130.769626,
+    "station_passenger_log": 6.159095388491933,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0103",
@@ -921,7 +1337,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電上熊本線",
     "lat": 32.815032,
-    "lon": 130.69896
+    "lon": 130.69896,
+    "station_passenger_log": 5.4638318050256105,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0026",
@@ -929,7 +1349,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.104278,
-    "lon": 130.769799
+    "lon": 130.769799,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0007",
@@ -937,7 +1361,11 @@
     "prefecture": "熊本県",
     "line_name": "JR三角線",
     "lat": 32.642653,
-    "lon": 130.507013
+    "lon": 130.507013,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0115",
@@ -945,7 +1373,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電幹線",
     "lat": 32.792794,
-    "lon": 130.694647
+    "lon": 130.694647,
+    "station_passenger_log": 5.996452088619021,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0109",
@@ -953,7 +1385,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電健軍線",
     "lat": 32.783649,
-    "lon": 130.74518
+    "lon": 130.74518,
+    "station_passenger_log": 6.870053411798126,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0035",
@@ -961,7 +1397,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.87757,
-    "lon": 130.965403
+    "lon": 130.965403,
+    "station_passenger_log": 6.133398042996649,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0042",
@@ -969,7 +1409,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.820455,
-    "lon": 130.746933
+    "lon": 130.746933,
+    "station_passenger_log": 7.307202314764738,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0005",
@@ -977,7 +1421,11 @@
     "prefecture": "熊本県",
     "line_name": "JR三角線",
     "lat": 32.667493,
-    "lon": 130.547004
+    "lon": 130.547004,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0002",
@@ -985,7 +1433,11 @@
     "prefecture": "熊本県",
     "line_name": "JR三角線",
     "lat": 32.694006,
-    "lon": 130.631339
+    "lon": 130.631339,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0150",
@@ -993,7 +1445,11 @@
     "prefecture": "熊本県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.420111,
-    "lon": 130.550019
+    "lon": 130.550019,
+    "station_passenger_log": 3.6635616461296463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0054",
@@ -1001,7 +1457,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.913233,
-    "lon": 130.586803
+    "lon": 130.586803,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0037",
@@ -1009,7 +1469,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.877512,
-    "lon": 130.866218
+    "lon": 130.866218,
+    "station_passenger_log": 8.692322277628687,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "kumamoto_0153",
@@ -1017,7 +1481,11 @@
     "prefecture": "熊本県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.350698,
-    "lon": 130.504778
+    "lon": 130.504778,
+    "station_passenger_log": 4.2626798770413155,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0072",
@@ -1025,7 +1493,11 @@
     "prefecture": "熊本県",
     "line_name": "くま川鉄道線",
     "lat": 32.202271,
-    "lon": 130.808839
+    "lon": 130.808839,
+    "station_passenger_log": 5.834810737062605,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0004",
@@ -1033,7 +1505,11 @@
     "prefecture": "熊本県",
     "line_name": "JR三角線",
     "lat": 32.690694,
-    "lon": 130.560302
+    "lon": 130.560302,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0148",
@@ -1041,7 +1517,11 @@
     "prefecture": "熊本県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.475546,
-    "lon": 130.612588
+    "lon": 130.612588,
+    "station_passenger_log": 6.028278520230698,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0119",
@@ -1049,7 +1529,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電幹線",
     "lat": 32.801128,
-    "lon": 130.705483
+    "lon": 130.705483,
+    "station_passenger_log": 7.566828479208331,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0049",
@@ -1065,7 +1549,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.410293,
-    "lon": 130.645444
+    "lon": 130.645444,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0099",
@@ -1073,7 +1561,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電上熊本線",
     "lat": 32.803959,
-    "lon": 130.696986
+    "lon": 130.696986,
+    "station_passenger_log": 6.410174881966167,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0130",
@@ -1081,7 +1573,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄藤崎線",
     "lat": 32.808928,
-    "lon": 130.713218
+    "lon": 130.713218,
+    "station_passenger_log": 7.892452043520352,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0159",
@@ -1089,7 +1585,11 @@
     "prefecture": "熊本県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.165517,
-    "lon": 130.374391
+    "lon": 130.374391,
+    "station_passenger_log": 3.295836866004329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0023",
@@ -1097,7 +1597,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.22841,
-    "lon": 130.725707
+    "lon": 130.725707,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0061",
@@ -1105,7 +1609,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.762639,
-    "lon": 130.683056
+    "lon": 130.683056,
+    "station_passenger_log": 7.946263643580541,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0096",
@@ -1113,7 +1621,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電上熊本線",
     "lat": 32.798801,
-    "lon": 130.702264
+    "lon": 130.702264,
+    "station_passenger_log": 5.973809611869261,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0058",
@@ -1121,7 +1633,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.854607,
-    "lon": 130.700139
+    "lon": 130.700139,
+    "station_passenger_log": 7.471363088187097,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0093",
@@ -1129,7 +1645,11 @@
     "prefecture": "熊本県",
     "line_name": "南阿蘇鉄道",
     "lat": 32.817613,
-    "lon": 131.109621
+    "lon": 131.109621,
+    "station_passenger_log": 0.6931471805599453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0034",
@@ -1137,7 +1657,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.913261,
-    "lon": 130.9929
+    "lon": 130.9929,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0006",
@@ -1145,7 +1669,11 @@
     "prefecture": "熊本県",
     "line_name": "JR三角線",
     "lat": 32.653252,
-    "lon": 130.510167
+    "lon": 130.510167,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0095",
@@ -1153,7 +1681,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電上熊本線",
     "lat": 32.798891,
-    "lon": 130.705075
+    "lon": 130.705075,
+    "station_passenger_log": 8.55429627936774,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "kumamoto_0121",
@@ -1161,7 +1693,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本市電幹線",
     "lat": 32.803364,
-    "lon": 130.709817
+    "lon": 130.709817,
+    "station_passenger_log": 8.756997183623554,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "kumamoto_0021",
@@ -1169,7 +1705,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.243732,
-    "lon": 130.667479
+    "lon": 130.667479,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0014",
@@ -1177,7 +1717,11 @@
     "prefecture": "熊本県",
     "line_name": "JR肥薩線",
     "lat": 32.391092,
-    "lon": 130.65458
+    "lon": 130.65458,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0051",
@@ -1185,7 +1729,11 @@
     "prefecture": "熊本県",
     "line_name": "JR鹿児島本線",
     "lat": 32.935205,
-    "lon": 130.455652
+    "lon": 130.455652,
+    "station_passenger_log": 7.109062135687172,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0086",
@@ -1193,7 +1741,11 @@
     "prefecture": "熊本県",
     "line_name": "南阿蘇鉄道",
     "lat": 32.854287,
-    "lon": 131.003945
+    "lon": 131.003945,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0031",
@@ -1201,7 +1753,11 @@
     "prefecture": "熊本県",
     "line_name": "JR豊肥本線",
     "lat": 32.937393,
-    "lon": 131.079959
+    "lon": 131.079959,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0088",
@@ -1209,7 +1765,11 @@
     "prefecture": "熊本県",
     "line_name": "南阿蘇鉄道",
     "lat": 32.844413,
-    "lon": 131.024654
+    "lon": 131.024654,
+    "station_passenger_log": 2.0794415416798357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0091",
@@ -1217,7 +1777,11 @@
     "prefecture": "熊本県",
     "line_name": "南阿蘇鉄道",
     "lat": 32.822368,
-    "lon": 131.084345
+    "lon": 131.084345,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0134",
@@ -1225,7 +1789,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄菊池線",
     "lat": 32.824201,
-    "lon": 130.701917
+    "lon": 130.701917,
+    "station_passenger_log": 5.3471075307174685,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0142",
@@ -1233,7 +1801,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄菊池線",
     "lat": 32.858493,
-    "lon": 130.736481
+    "lon": 130.736481,
+    "station_passenger_log": 5.662960480135946,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0094",
@@ -1241,7 +1813,11 @@
     "prefecture": "熊本県",
     "line_name": "南阿蘇鉄道",
     "lat": 32.81954,
-    "lon": 131.122561
+    "lon": 131.122561,
+    "station_passenger_log": 6.210600077024653,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0144",
@@ -1249,7 +1825,11 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄菊池線",
     "lat": 32.870636,
-    "lon": 130.742164
+    "lon": 130.742164,
+    "station_passenger_log": 5.993961427306569,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kumamoto_0131",
@@ -1257,6 +1837,10 @@
     "prefecture": "熊本県",
     "line_name": "熊本電鉄藤崎線",
     "lat": 32.818408,
-    "lon": 130.717232
+    "lon": 130.717232,
+    "station_passenger_log": 6.139884552226255,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

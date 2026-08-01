@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-15T20:02:42+09:00",
+  "generatedAt": "2026-08-01T13:16:16+09:00",
   "capitalRegionPriority": [
     "tokyo",
     "kanagawa",
@@ -45,8 +45,8 @@
     },
     "regional_kanto": {
       "path": "models/regional_kanto_latest.onnx",
-      "version": "cd22693d1c4017ac395b36849859b7f9d81892f29b01a7f1fe1493da20e8c416",
-      "bytes": 2493178
+      "version": "284ea1124ebc05cd82dc58c85f5379a837e9aaf050d0695d59db0e8f7e5eac67",
+      "bytes": 2426795
     },
     "regional_kinki": {
       "path": "models/regional_kinki_latest.onnx",

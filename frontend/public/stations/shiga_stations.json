@@ -5,7 +5,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.097425,
-    "lon": 135.895046
+    "lon": 135.895046,
+    "station_passenger_log": 9.289798293310898,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0107",
@@ -13,7 +17,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.262195,
-    "lon": 136.260939
+    "lon": 136.260939,
+    "station_passenger_log": 4.820281565605037,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0062",
@@ -21,7 +29,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪京津線",
     "lat": 35.011283,
-    "lon": 135.863982
+    "lon": 135.863982,
+    "station_passenger_log": 8.457443187010464,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0090",
@@ -29,7 +41,11 @@
     "prefecture": "滋賀県",
     "line_name": "比叡山鉄道線",
     "lat": 35.068354,
-    "lon": 135.861192
+    "lon": 135.861192,
+    "station_passenger_log": 0.6931471805599453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0091",
@@ -37,7 +53,11 @@
     "prefecture": "滋賀県",
     "line_name": "比叡山鉄道線",
     "lat": 35.067541,
-    "lon": 135.848009
+    "lon": 135.848009,
+    "station_passenger_log": 0.6931471805599453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0089",
@@ -45,7 +65,11 @@
     "prefecture": "滋賀県",
     "line_name": "比叡山鉄道線",
     "lat": 35.069677,
-    "lon": 135.863956
+    "lon": 135.863956,
+    "station_passenger_log": 6.154858094016418,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0092",
@@ -53,7 +77,11 @@
     "prefecture": "滋賀県",
     "line_name": "比叡山鉄道線",
     "lat": 35.066551,
-    "lon": 135.843982
+    "lon": 135.843982,
+    "station_passenger_log": 6.154858094016418,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0101",
@@ -61,7 +89,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道多賀線",
     "lat": 35.233264,
-    "lon": 136.267258
+    "lon": 136.267258,
+    "station_passenger_log": 6.5998704992128365,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0104",
@@ -69,7 +101,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.294672,
-    "lon": 136.285465
+    "lon": 136.285465,
+    "station_passenger_log": 5.313205979041787,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0015",
@@ -77,7 +113,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.461437,
-    "lon": 136.05978
+    "lon": 136.05978,
+    "station_passenger_log": 6.240275845170769,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0074",
@@ -85,7 +125,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 35.012891,
-    "lon": 135.859793
+    "lon": 135.859793,
+    "station_passenger_log": 7.195937226475569,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0055",
@@ -93,7 +137,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR草津線",
     "lat": 34.983131,
-    "lon": 136.117777
+    "lon": 136.117777,
+    "station_passenger_log": 8.207129168071326,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0061",
@@ -101,7 +149,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪京津線",
     "lat": 35.00515,
-    "lon": 135.860152
+    "lon": 135.860152,
+    "station_passenger_log": 7.145196134997171,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0068",
@@ -109,7 +161,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 34.990857,
-    "lon": 135.891516
+    "lon": 135.891516,
+    "station_passenger_log": 7.0707241072602764,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0112",
@@ -117,7 +173,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.154476,
-    "lon": 136.197146
+    "lon": 136.197146,
+    "station_passenger_log": 4.61512051684126,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0116",
@@ -125,7 +185,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.074748,
-    "lon": 136.180382
+    "lon": 136.180382,
+    "station_passenger_log": 4.04305126783455,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0076",
@@ -133,7 +197,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 35.02274,
-    "lon": 135.855521
+    "lon": 135.855521,
+    "station_passenger_log": 8.594709633844065,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0065",
@@ -141,7 +209,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 34.978937,
-    "lon": 135.901289
+    "lon": 135.901289,
+    "station_passenger_log": 8.757783656334167,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0071",
@@ -149,7 +221,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 34.999823,
-    "lon": 135.880833
+    "lon": 135.880833,
+    "station_passenger_log": 8.669742589876522,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0002",
@@ -157,7 +233,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR北陸本線",
     "lat": 35.53382,
-    "lon": 136.197591
+    "lon": 136.197591,
+    "station_passenger_log": 5.517452896464707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0088",
@@ -165,7 +245,11 @@
     "prefecture": "滋賀県",
     "line_name": "信楽高原鐵道",
     "lat": 34.87713,
-    "lon": 136.061317
+    "lon": 136.061317,
+    "station_passenger_log": 6.602587892189336,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0093",
@@ -173,7 +257,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道八日市線",
     "lat": 35.114264,
-    "lon": 136.194582
+    "lon": 136.194582,
+    "station_passenger_log": 7.579678823090456,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0086",
@@ -181,7 +269,11 @@
     "prefecture": "滋賀県",
     "line_name": "信楽高原鐵道",
     "lat": 34.893681,
-    "lon": 136.073102
+    "lon": 136.073102,
+    "station_passenger_log": 3.912023005428146,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0021",
@@ -189,7 +281,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.253384,
-    "lon": 135.970293
+    "lon": 135.970293,
+    "station_passenger_log": 6.220590170099739,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0034",
@@ -197,7 +293,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR琵琶湖線",
     "lat": 35.246097,
-    "lon": 136.248
+    "lon": 136.248,
+    "station_passenger_log": 9.298259670014064,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0078",
@@ -205,7 +305,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 35.036691,
-    "lon": 135.85747
+    "lon": 135.85747,
+    "station_passenger_log": 7.4999765409521215,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0045",
@@ -213,7 +317,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR琵琶湖線",
     "lat": 35.003855,
-    "lon": 135.947362
+    "lon": 135.947362,
+    "station_passenger_log": 10.891559265504869,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "shiga_0026",
@@ -221,7 +329,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.161588,
-    "lon": 135.922348
+    "lon": 135.922348,
+    "station_passenger_log": 8.267448958304849,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0031",
@@ -229,7 +341,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.049795,
-    "lon": 135.866969
+    "lon": 135.866969,
+    "station_passenger_log": 8.852664927703866,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0064",
@@ -237,7 +353,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 34.973304,
-    "lon": 135.90297
+    "lon": 135.90297,
+    "station_passenger_log": 7.540621528657152,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0082",
@@ -245,7 +365,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 35.070592,
-    "lon": 135.871268
+    "lon": 135.871268,
+    "station_passenger_log": 7.804659297056102,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0009",
@@ -253,7 +377,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR北陸本線",
     "lat": 35.335777,
-    "lon": 136.287743
+    "lon": 136.287743,
+    "station_passenger_log": 7.016609683894219,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0028",
@@ -261,7 +389,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.12094,
-    "lon": 135.915107
+    "lon": 135.915107,
+    "station_passenger_log": 9.599066156080047,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0102",
@@ -269,7 +401,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道多賀線",
     "lat": 35.226442,
-    "lon": 136.284077
+    "lon": 136.284077,
+    "station_passenger_log": 4.927253685157205,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0115",
@@ -277,7 +413,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.087733,
-    "lon": 136.184698
+    "lon": 136.184698,
+    "station_passenger_log": 4.30406509320417,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0049",
@@ -285,7 +425,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR琵琶湖線",
     "lat": 35.002997,
-    "lon": 135.864651
+    "lon": 135.864651,
+    "station_passenger_log": 10.409250381959655,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "shiga_0032",
@@ -293,7 +437,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.024428,
-    "lon": 135.857268
+    "lon": 135.857268,
+    "station_passenger_log": 9.79784922051313,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0075",
@@ -301,7 +449,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 35.018335,
-    "lon": 135.855463
+    "lon": 135.855463,
+    "station_passenger_log": 7.837554360881084,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0060",
@@ -309,7 +461,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪京津線",
     "lat": 34.994129,
-    "lon": 135.854116
+    "lon": 135.854116,
+    "station_passenger_log": 5.262690188904886,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0095",
@@ -317,7 +473,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道八日市線",
     "lat": 35.108608,
-    "lon": 136.183958
+    "lon": 136.183958,
+    "station_passenger_log": 4.941642422609304,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0042",
@@ -333,7 +493,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR琵琶湖線",
     "lat": 35.142465,
-    "lon": 136.1335
+    "lon": 136.1335,
+    "station_passenger_log": 8.345930261979017,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0019",
@@ -341,7 +505,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.32842,
-    "lon": 136.019887
+    "lon": 136.019887,
+    "station_passenger_log": 7.937731775260109,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0052",
@@ -349,7 +517,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR草津線",
     "lat": 34.919078,
-    "lon": 136.185892
+    "lon": 136.185892,
+    "station_passenger_log": 7.252053951852814,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0027",
@@ -365,7 +537,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.213967,
-    "lon": 136.246148
+    "lon": 136.246148,
+    "station_passenger_log": 5.484796933490655,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0073",
@@ -373,7 +549,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 35.007703,
-    "lon": 135.870937
+    "lon": 135.870937,
+    "station_passenger_log": 7.51425465281641,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0096",
@@ -381,7 +561,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道八日市線",
     "lat": 35.103848,
-    "lon": 136.165641
+    "lon": 136.165641,
+    "station_passenger_log": 5.332718793265369,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0097",
@@ -389,7 +573,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道八日市線",
     "lat": 35.11023,
-    "lon": 136.146612
+    "lon": 136.146612,
+    "station_passenger_log": 4.927253685157205,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0033",
@@ -397,7 +585,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR琵琶湖線",
     "lat": 35.272216,
-    "lon": 136.263347
+    "lon": 136.263347,
+    "station_passenger_log": 9.865214390314636,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0108",
@@ -405,7 +597,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.254741,
-    "lon": 136.25826
+    "lon": 136.25826,
+    "station_passenger_log": 6.198478716492308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0024",
@@ -413,7 +609,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.202348,
-    "lon": 135.924987
+    "lon": 135.924987,
+    "station_passenger_log": 7.473637108496206,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0111",
@@ -421,7 +621,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.176119,
-    "lon": 136.213378
+    "lon": 136.213378,
+    "station_passenger_log": 5.846438775057725,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0058",
@@ -429,7 +633,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR草津線",
     "lat": 35.027347,
-    "lon": 135.999237
+    "lon": 135.999237,
+    "station_passenger_log": 8.727616178321068,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0094",
@@ -437,7 +645,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道八日市線",
     "lat": 35.110356,
-    "lon": 136.191141
+    "lon": 136.191141,
+    "station_passenger_log": 6.045005314036012,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0018",
@@ -445,7 +657,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.355902,
-    "lon": 136.035796
+    "lon": 136.035796,
+    "station_passenger_log": 7.641564441260972,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0120",
@@ -454,10 +670,10 @@
     "line_name": "近江鉄道本線",
     "lat": 35.012203,
     "lon": 136.219457,
-    "station_passenger_log": 10.710253554880849,
+    "station_passenger_log": 6.0844994130751715,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "C"
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0118",
@@ -465,7 +681,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.05106,
-    "lon": 136.193568
+    "lon": 136.193568,
+    "station_passenger_log": 4.477336814478207,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0119",
@@ -473,7 +693,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.03154,
-    "lon": 136.20572
+    "lon": 136.20572,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0003",
@@ -481,7 +705,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR北陸本線",
     "lat": 35.505933,
-    "lon": 136.221706
+    "lon": 136.221706,
+    "station_passenger_log": 6.9726062513017535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0081",
@@ -489,7 +717,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 35.065348,
-    "lon": 135.870241
+    "lon": 135.870241,
+    "station_passenger_log": 7.179307969504034,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0011",
@@ -505,7 +737,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR琵琶湖線",
     "lat": 35.037448,
-    "lon": 135.980083
+    "lon": 135.980083,
+    "station_passenger_log": 9.8063707417564,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0117",
@@ -521,7 +757,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道八日市線",
     "lat": 35.114894,
-    "lon": 136.130692
+    "lon": 136.130692,
+    "station_passenger_log": 5.921578419643816,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0030",
@@ -529,7 +769,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.070403,
-    "lon": 135.878259
+    "lon": 135.878259,
+    "station_passenger_log": 9.311361486034912,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0023",
@@ -545,7 +789,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 34.974238,
-    "lon": 136.17683
+    "lon": 136.17683,
+    "station_passenger_log": 5.723585101952381,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0124",
@@ -553,7 +801,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 34.968181,
-    "lon": 136.165648
+    "lon": 136.165648,
+    "station_passenger_log": 6.152732694704104,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0121",
@@ -561,7 +813,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 34.980224,
-    "lon": 136.18644
+    "lon": 136.18644,
+    "station_passenger_log": 3.8501476017100584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0123",
@@ -569,7 +825,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 34.970072,
-    "lon": 136.171625
+    "lon": 136.171625,
+    "station_passenger_log": 4.07753744390572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0014",
@@ -577,7 +837,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.498857,
-    "lon": 136.122326
+    "lon": 136.122326,
+    "station_passenger_log": 5.198497031265826,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0005",
@@ -585,7 +849,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR北陸本線",
     "lat": 35.448425,
-    "lon": 136.249519
+    "lon": 136.249519,
+    "station_passenger_log": 6.876264611890766,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0035",
@@ -593,7 +861,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR琵琶湖線",
     "lat": 35.225384,
-    "lon": 136.225285
+    "lon": 136.225285,
+    "station_passenger_log": 8.614864218589684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0113",
@@ -601,7 +873,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.135353,
-    "lon": 136.196218
+    "lon": 136.196218,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0050",
@@ -609,7 +885,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR草津線",
     "lat": 34.889691,
-    "lon": 136.22953
+    "lon": 136.22953,
+    "station_passenger_log": 5.988961416889864,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0079",
@@ -617,7 +897,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 35.043402,
-    "lon": 135.858994
+    "lon": 135.858994,
+    "station_passenger_log": 7.537962659768208,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0046",
@@ -633,7 +917,11 @@
     "prefecture": "滋賀県",
     "line_name": "信楽高原鐵道",
     "lat": 34.885257,
-    "lon": 136.06938
+    "lon": 136.06938,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0067",
@@ -649,7 +937,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR北陸本線",
     "lat": 35.356307,
-    "lon": 136.281813
+    "lon": 136.281813,
+    "station_passenger_log": 7.71289096149013,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0053",
@@ -657,7 +949,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR草津線",
     "lat": 34.931804,
-    "lon": 136.16899
+    "lon": 136.16899,
+    "station_passenger_log": 7.264730177929867,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0056",
@@ -665,7 +961,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR草津線",
     "lat": 35.000651,
-    "lon": 136.08236
+    "lon": 136.08236,
+    "station_passenger_log": 8.316544717929398,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0051",
@@ -673,7 +973,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR草津線",
     "lat": 34.9013,
-    "lon": 136.212679
+    "lon": 136.212679,
+    "station_passenger_log": 7.014814351275545,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0072",
@@ -681,7 +985,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 35.004722,
-    "lon": 135.875606
+    "lon": 135.875606,
+    "station_passenger_log": 7.853993087224244,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0047",
@@ -689,7 +997,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR琵琶湖線",
     "lat": 34.97987,
-    "lon": 135.900228
+    "lon": 135.900228,
+    "station_passenger_log": 10.630287087057916,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "shiga_0063",
@@ -697,7 +1009,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 34.967122,
-    "lon": 135.90347
+    "lon": 135.90347,
+    "station_passenger_log": 7.569411792450712,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0057",
@@ -705,7 +1021,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR草津線",
     "lat": 35.017685,
-    "lon": 136.052963
+    "lon": 136.052963,
+    "station_passenger_log": 8.118207049405783,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0036",
@@ -713,7 +1033,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR琵琶湖線",
     "lat": 35.203312,
-    "lon": 136.194469
+    "lon": 136.194469,
+    "station_passenger_log": 8.446985296372741,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0080",
@@ -721,7 +1045,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 35.055675,
-    "lon": 135.864755
+    "lon": 135.864755,
+    "station_passenger_log": 6.652863029353347,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0040",
@@ -737,7 +1065,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR北陸本線",
     "lat": 35.314657,
-    "lon": 136.289992
+    "lon": 136.289992,
+    "station_passenger_log": 9.399389249519563,
+    "station_line_count": 4.0,
+    "station_operator_count": 3.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0066",
@@ -753,7 +1085,11 @@
     "prefecture": "滋賀県",
     "line_name": "信楽高原鐵道",
     "lat": 34.915741,
-    "lon": 136.087967
+    "lon": 136.087967,
+    "station_passenger_log": 4.672828834461906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0037",
@@ -761,7 +1097,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR琵琶湖線",
     "lat": 35.179897,
-    "lon": 136.165987
+    "lon": 136.165987,
+    "station_passenger_log": 9.44184883962202,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0048",
@@ -769,7 +1109,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR琵琶湖線",
     "lat": 34.999373,
-    "lon": 135.880539
+    "lon": 135.880539,
+    "station_passenger_log": 10.090838109351523,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "shiga_0069",
@@ -777,7 +1121,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 34.995335,
-    "lon": 135.889249
+    "lon": 135.889249,
+    "station_passenger_log": 7.854381210652365,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0044",
@@ -793,7 +1141,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.182594,
-    "lon": 135.915443
+    "lon": 135.915443,
+    "station_passenger_log": 7.434257382133136,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0006",
@@ -801,7 +1153,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR北陸本線",
     "lat": 35.424539,
-    "lon": 136.257385
+    "lon": 136.257385,
+    "station_passenger_log": 7.240649694255466,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0110",
@@ -809,7 +1165,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.197863,
-    "lon": 136.230946
+    "lon": 136.230946,
+    "station_passenger_log": 4.955827057601261,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0054",
@@ -817,7 +1177,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR草津線",
     "lat": 34.952236,
-    "lon": 136.153806
+    "lon": 136.153806,
+    "station_passenger_log": 8.98969370086056,
+    "station_line_count": 3.0,
+    "station_operator_count": 3.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0016",
@@ -825,7 +1189,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.441648,
-    "lon": 136.038374
+    "lon": 136.038374,
+    "station_passenger_log": 5.342334251964811,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0017",
@@ -833,7 +1201,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.396864,
-    "lon": 136.031882
+    "lon": 136.031882,
+    "station_passenger_log": 8.135346948906706,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0039",
@@ -841,7 +1213,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR琵琶湖線",
     "lat": 35.122765,
-    "lon": 136.102715
+    "lon": 136.102715,
+    "station_passenger_log": 10.356122465120682,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "shiga_0001",
@@ -849,7 +1225,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR北陸本線",
     "lat": 35.53978,
-    "lon": 136.151236
+    "lon": 136.151236,
+    "station_passenger_log": 5.564520407322694,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0077",
@@ -857,7 +1237,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 35.028194,
-    "lon": 135.855807
+    "lon": 135.855807,
+    "station_passenger_log": 6.9726062513017535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0022",
@@ -865,7 +1249,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.236342,
-    "lon": 135.959294
+    "lon": 135.959294,
+    "station_passenger_log": 7.331060305218632,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0012",
@@ -873,7 +1261,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR東海道本線",
     "lat": 35.359307,
-    "lon": 136.373775
+    "lon": 136.373775,
+    "station_passenger_log": 7.356918242356021,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0020",
@@ -881,7 +1273,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR湖西線",
     "lat": 35.292657,
-    "lon": 136.010374
+    "lon": 136.010374,
+    "station_passenger_log": 7.234898420314831,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0059",
@@ -897,7 +1293,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR東海道本線",
     "lat": 35.327664,
-    "lon": 136.345135
+    "lon": 136.345135,
+    "station_passenger_log": 6.529418838262226,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0041",
@@ -905,7 +1305,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR琵琶湖線",
     "lat": 35.068509,
-    "lon": 136.022487
+    "lon": 136.022487,
+    "station_passenger_log": 10.210641315177504,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "shiga_0070",
@@ -913,7 +1317,11 @@
     "prefecture": "滋賀県",
     "line_name": "京阪石山坂本線",
     "lat": 34.997587,
-    "lon": 135.885649
+    "lon": 135.885649,
+    "station_passenger_log": 7.409741954080923,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0007",
@@ -921,7 +1329,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR北陸本線",
     "lat": 35.378828,
-    "lon": 136.264901
+    "lon": 136.264901,
+    "station_passenger_log": 8.95944014361693,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "shiga_0114",
@@ -929,7 +1341,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.095626,
-    "lon": 136.187561
+    "lon": 136.187561,
+    "station_passenger_log": 4.007333185232471,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0085",
@@ -937,7 +1353,11 @@
     "prefecture": "滋賀県",
     "line_name": "信楽高原鐵道",
     "lat": 34.911249,
-    "lon": 136.084317
+    "lon": 136.084317,
+    "station_passenger_log": 4.6443908991413725,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0100",
@@ -945,7 +1365,11 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道多賀線",
     "lat": 35.236266,
-    "lon": 136.260524
+    "lon": 136.260524,
+    "station_passenger_log": 4.997212273764115,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0004",
@@ -953,7 +1377,11 @@
     "prefecture": "滋賀県",
     "line_name": "JR北陸本線",
     "lat": 35.470337,
-    "lon": 136.237716
+    "lon": 136.237716,
+    "station_passenger_log": 7.172424577124845,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "shiga_0105",
@@ -961,6 +1389,10 @@
     "prefecture": "滋賀県",
     "line_name": "近江鉄道本線",
     "lat": 35.284788,
-    "lon": 136.283031
+    "lon": 136.283031,
+    "station_passenger_log": 4.454347296253507,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

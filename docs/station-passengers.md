@@ -282,7 +282,15 @@ make collect-station-passengers-national-dry-run
 make collect-station-passengers-national
 ```
 
-XKT015はズーム値に制約があり、現時点では `z=11` を使用する。2026-07-14時点のdry-runでは全国範囲が18,477タイルになるため、API制限と実行時間を見ながら実行する。必要に応じて `PASSENGER_REQUEST_INTERVAL_SECONDS` を調整する。
+XKT015はズーム値に制約があり、現時点では `z=11` を使用する。全国取得では駅マスタ周辺だけを対象にし、重複を除いた1,056タイルを取得する。2026-08-01の実行では全タイル成功、路線別10,511件、駅グループ9,193件を取得できた。
+
+全国駅マスタへ乗降客数だけを再反映する場合:
+
+```bash
+make stations-passengers-refresh
+```
+
+同名駅の誤結合を避けるため、駅マスタと乗降客数側の座標が5kmを超えて離れる候補は採用しない。2026-08-01の再反映では全国9,052駅中8,310駅に付与できた。
 
 4都県の個別モデル設定は、この軽量案に合わせて `station` カテゴリを外し、以下を利用する。
 
@@ -294,6 +302,18 @@ effective_station_scale
 has_station_passenger_data
 station_rank
 ```
+
+全国データを使った地域モデル比較（学習開始2005年、時系列ホールドアウト）では、MAEが東北、関東、中部、近畿、中国で改善した。改善幅と年度別の安定性が最も明確だった関東地域モデルだけ、次の数値特徴量を本番採用する。北海道、四国、九州は悪化し、その他の地域も効果が小さいため従来の特徴量を維持する。
+
+```text
+station_passenger_log
+station_line_count
+station_operator_count
+effective_station_scale
+has_station_passenger_data
+```
+
+関東のMAE改善幅は2025年で約16.1万円、2023〜2025年の各年でもMAE・RMSE・MAPEがすべて改善した。評価時は東京都・埼玉県・千葉県・神奈川県を個別モデルの対象として除外し、関東地域モデルが実際に担当する茨城県・栃木県・群馬県だけで計測する。
 
 出力:
 

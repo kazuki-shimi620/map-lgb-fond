@@ -5,7 +5,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.930288,
-    "lon": 138.211775
+    "lon": 138.211775,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0009",
@@ -13,7 +17,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 36.094176,
-    "lon": 137.981928
+    "lon": 137.981928,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0195",
@@ -21,7 +29,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.440584,
-    "lon": 138.188203
+    "lon": 138.188203,
+    "station_passenger_log": 6.717804695023691,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0042",
@@ -29,7 +41,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.2596,
-    "lon": 137.904136
+    "lon": 137.904136,
+    "station_passenger_log": 7.195187320178709,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0161",
@@ -37,7 +53,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.654645,
-    "lon": 137.911346
+    "lon": 137.911346,
+    "station_passenger_log": 5.6240175061873385,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0203",
@@ -45,7 +65,11 @@
     "prefecture": "長野県",
     "line_name": "上田電鉄別所線",
     "lat": 36.391712,
-    "lon": 138.235585
+    "lon": 138.235585,
+    "station_passenger_log": 4.919980925828125,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0095",
@@ -53,7 +77,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.30415,
-    "lon": 138.44846
+    "lon": 138.44846,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0256",
@@ -61,7 +89,11 @@
     "prefecture": "長野県",
     "line_name": "北しなの線",
     "lat": 36.686674,
-    "lon": 138.244079
+    "lon": 138.244079,
+    "station_passenger_log": 7.827240901752812,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0224",
@@ -69,7 +101,11 @@
     "prefecture": "長野県",
     "line_name": "松本電鉄上高地線",
     "lat": 36.212863,
-    "lon": 137.891469
+    "lon": 137.891469,
+    "station_passenger_log": 6.234410725718371,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0114",
@@ -77,7 +113,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.753947,
-    "lon": 138.319478
+    "lon": 138.319478,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0121",
@@ -85,7 +125,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.937916,
-    "lon": 138.419151
+    "lon": 138.419151,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0253",
@@ -93,7 +137,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.749641,
-    "lon": 138.407619
+    "lon": 138.407619,
+    "station_passenger_log": 3.58351893845611,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0020",
@@ -101,7 +149,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.784068,
-    "lon": 137.693283
+    "lon": 137.693283,
+    "station_passenger_log": 5.545177444479562,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0122",
@@ -109,7 +161,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.962559,
-    "lon": 138.441204
+    "lon": 138.441204,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0158",
@@ -117,7 +173,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.617583,
-    "lon": 137.904064
+    "lon": 137.904064,
+    "station_passenger_log": 6.406879986069314,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0193",
@@ -125,7 +185,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.396579,
-    "lon": 138.249298
+    "lon": 138.249298,
+    "station_passenger_log": 9.122492281402987,
+    "station_line_count": 3.0,
+    "station_operator_count": 3.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagano_0205",
@@ -133,7 +197,11 @@
     "prefecture": "長野県",
     "line_name": "上田電鉄別所線",
     "lat": 36.390488,
-    "lon": 138.221439
+    "lon": 138.221439,
+    "station_passenger_log": 6.424869023905388,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0006",
@@ -141,7 +209,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 36.046618,
-    "lon": 138.116306
+    "lon": 138.116306,
+    "station_passenger_log": 8.943636705909594,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagano_0209",
@@ -149,7 +221,11 @@
     "prefecture": "長野県",
     "line_name": "上田電鉄別所線",
     "lat": 36.363249,
-    "lon": 138.217227
+    "lon": 138.217227,
+    "station_passenger_log": 5.598421958998375,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0146",
@@ -157,7 +233,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.50426,
-    "lon": 137.83959
+    "lon": 137.83959,
+    "station_passenger_log": 4.394449154672439,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0172",
@@ -165,7 +245,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.812706,
-    "lon": 137.940055
+    "lon": 137.940055,
+    "station_passenger_log": 4.795790545596741,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0153",
@@ -173,7 +257,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.544165,
-    "lon": 137.87641
+    "lon": 137.87641,
+    "station_passenger_log": 5.147494476813453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0155",
@@ -181,7 +269,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.572597,
-    "lon": 137.895922
+    "lon": 137.895922,
+    "station_passenger_log": 5.267858159063328,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0221",
@@ -189,7 +281,11 @@
     "prefecture": "長野県",
     "line_name": "松本電鉄上高地線",
     "lat": 36.22513,
-    "lon": 137.922564
+    "lon": 137.922564,
+    "station_passenger_log": 5.267858159063328,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0007",
@@ -197,7 +293,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 36.071949,
-    "lon": 138.084953
+    "lon": 138.084953,
+    "station_passenger_log": 8.172729104865471,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0129",
@@ -205,7 +305,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.235913,
-    "lon": 137.834912
+    "lon": 137.834912,
+    "station_passenger_log": 1.3862943611198906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0093",
@@ -213,7 +317,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.280856,
-    "lon": 138.453549
+    "lon": 138.453549,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0070",
@@ -221,7 +329,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.80558,
-    "lon": 137.907879
+    "lon": 137.907879,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0210",
@@ -229,7 +341,11 @@
     "prefecture": "長野県",
     "line_name": "上田電鉄別所線",
     "lat": 36.363212,
-    "lon": 138.204728
+    "lon": 138.204728,
+    "station_passenger_log": 4.343805421853684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0043",
@@ -237,7 +353,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.273434,
-    "lon": 137.903353
+    "lon": 137.903353,
+    "station_passenger_log": 6.546785410760524,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0184",
@@ -245,7 +365,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.347576,
-    "lon": 138.593147
+    "lon": 138.593147,
+    "station_passenger_log": 7.190676034332207,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0088",
@@ -253,7 +377,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.23062,
-    "lon": 138.479389
+    "lon": 138.479389,
+    "station_passenger_log": 7.508238774678663,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0212",
@@ -262,10 +390,10 @@
     "line_name": "上田電鉄別所線",
     "lat": 36.360654,
     "lon": 138.193438,
-    "station_passenger_log": 12.86529586037014,
-    "station_line_count": 2.0,
-    "station_operator_count": 2.0,
-    "station_rank": "A"
+    "station_passenger_log": 4.3694478524670215,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0250",
@@ -273,7 +401,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.750615,
-    "lon": 138.374252
+    "lon": 138.374252,
+    "station_passenger_log": 5.049856007249537,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0096",
@@ -281,7 +413,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.311371,
-    "lon": 138.440527
+    "lon": 138.440527,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0033",
@@ -289,7 +425,11 @@
     "prefecture": "長野県",
     "line_name": "JR信越本線",
     "lat": 36.595732,
-    "lon": 138.145347
+    "lon": 138.145347,
+    "station_passenger_log": 8.211482916445066,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0151",
@@ -297,7 +437,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.520164,
-    "lon": 137.838984
+    "lon": 137.838984,
+    "station_passenger_log": 7.186144304522325,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0145",
@@ -305,7 +449,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.49683,
-    "lon": 137.84154
+    "lon": 137.84154,
+    "station_passenger_log": 5.869296913133774,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0174",
@@ -313,7 +461,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.84524,
-    "lon": 137.964368
+    "lon": 137.964368,
+    "station_passenger_log": 7.566311014772463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0157",
@@ -321,7 +473,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.595698,
-    "lon": 137.913222
+    "lon": 137.913222,
+    "station_passenger_log": 6.39024066706535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0130",
@@ -329,7 +485,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.25406,
-    "lon": 137.834709
+    "lon": 137.834709,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0173",
@@ -337,7 +497,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.838435,
-    "lon": 137.959196
+    "lon": 137.959196,
+    "station_passenger_log": 7.592366128519796,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0181",
@@ -345,7 +509,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.9688,
-    "lon": 137.984057
+    "lon": 137.984057,
+    "station_passenger_log": 4.68213122712422,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0162",
@@ -353,7 +521,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.66543,
-    "lon": 137.93248
+    "lon": 137.93248,
+    "station_passenger_log": 4.219507705176107,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0178",
@@ -361,7 +533,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.913865,
-    "lon": 137.988647
+    "lon": 137.988647,
+    "station_passenger_log": 6.835184586147301,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0159",
@@ -369,7 +545,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.627221,
-    "lon": 137.910338
+    "lon": 137.910338,
+    "station_passenger_log": 3.828641396489095,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0165",
@@ -377,7 +557,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.712233,
-    "lon": 137.93398
+    "lon": 137.93398,
+    "station_passenger_log": 6.408528791059498,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0092",
@@ -385,7 +569,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.277929,
-    "lon": 138.464367
+    "lon": 138.464367,
+    "station_passenger_log": 8.746557354543503,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagano_0074",
@@ -405,7 +593,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.021128,
-    "lon": 138.490807
+    "lon": 138.490807,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0249",
@@ -413,7 +605,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.74476,
-    "lon": 138.364901
+    "lon": 138.364901,
+    "station_passenger_log": 7.904334842085095,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0237",
@@ -421,7 +617,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.667428,
-    "lon": 138.220904
+    "lon": 138.220904,
+    "station_passenger_log": 7.875499292445208,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0192",
@@ -429,7 +629,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.378592,
-    "lon": 138.273385
+    "lon": 138.273385,
+    "station_passenger_log": 6.959398512133975,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0001",
@@ -437,7 +641,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.884952,
-    "lon": 138.275419
+    "lon": 138.275419,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0056",
@@ -445,7 +653,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.50031,
-    "lon": 137.861674
+    "lon": 137.861674,
+    "station_passenger_log": 7.7057128238944275,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0073",
@@ -465,7 +677,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線支線",
     "lat": 36.013642,
-    "lon": 137.97185
+    "lon": 137.97185,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0054",
@@ -473,7 +689,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.467403,
-    "lon": 137.847148
+    "lon": 137.847148,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0119",
@@ -481,7 +701,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.884918,
-    "lon": 138.378479
+    "lon": 138.378479,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0058",
@@ -489,7 +713,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.535643,
-    "lon": 137.846189
+    "lon": 137.846189,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0052",
@@ -497,7 +725,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.424456,
-    "lon": 137.858631
+    "lon": 137.858631,
+    "station_passenger_log": 6.840546529288687,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0066",
@@ -505,7 +737,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.711132,
-    "lon": 137.871991
+    "lon": 137.871991,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0112",
@@ -513,7 +749,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.722011,
-    "lon": 138.294784
+    "lon": 138.294784,
+    "station_passenger_log": 5.407171771460119,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0125",
@@ -521,7 +761,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.983591,
-    "lon": 138.50302
+    "lon": 138.50302,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0251",
@@ -529,7 +773,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.761045,
-    "lon": 138.393672
+    "lon": 138.393672,
+    "station_passenger_log": 3.951243718581427,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0219",
@@ -537,7 +785,11 @@
     "prefecture": "長野県",
     "line_name": "松本電鉄上高地線",
     "lat": 36.229019,
-    "lon": 137.949484
+    "lon": 137.949484,
+    "station_passenger_log": 4.653960350157523,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0185",
@@ -545,7 +797,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.335538,
-    "lon": 138.558582
+    "lon": 138.558582,
+    "station_passenger_log": 6.20050917404269,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0021",
@@ -553,7 +809,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.732939,
-    "lon": 137.714338
+    "lon": 137.714338,
+    "station_passenger_log": 3.258096538021482,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0152",
@@ -561,7 +821,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.533843,
-    "lon": 137.861375
+    "lon": 137.861375,
+    "station_passenger_log": 5.983936280687191,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0081",
@@ -569,7 +833,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.133281,
-    "lon": 138.477345
+    "lon": 138.477345,
+    "station_passenger_log": 4.976733742420574,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0214",
@@ -577,7 +845,11 @@
     "prefecture": "長野県",
     "line_name": "上田電鉄別所線",
     "lat": 36.358365,
-    "lon": 138.175786
+    "lon": 138.175786,
+    "station_passenger_log": 4.07753744390572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0108",
@@ -585,7 +857,11 @@
     "prefecture": "長野県",
     "line_name": "JR篠ノ井線",
     "lat": 36.457215,
-    "lon": 138.079223
+    "lon": 138.079223,
+    "station_passenger_log": 4.51085950651685,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0148",
@@ -593,7 +869,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.512339,
-    "lon": 137.809098
+    "lon": 137.809098,
+    "station_passenger_log": 5.241747015059643,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0215",
@@ -601,7 +881,11 @@
     "prefecture": "長野県",
     "line_name": "上田電鉄別所線",
     "lat": 36.353121,
-    "lon": 138.161924
+    "lon": 138.161924,
+    "station_passenger_log": 6.148468295917647,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0090",
@@ -609,7 +893,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.254923,
-    "lon": 138.476661
+    "lon": 138.476661,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0057",
@@ -617,7 +905,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.517558,
-    "lon": 137.857913
+    "lon": 137.857913,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0071",
@@ -625,7 +917,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.842567,
-    "lon": 137.906451
+    "lon": 137.906451,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0222",
@@ -633,7 +929,11 @@
     "prefecture": "長野県",
     "line_name": "松本電鉄上高地線",
     "lat": 36.219816,
-    "lon": 137.913823
+    "lon": 137.913823,
+    "station_passenger_log": 7.1731917424865985,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0038",
@@ -641,7 +941,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.236971,
-    "lon": 137.960983
+    "lon": 137.960983,
+    "station_passenger_log": 7.10085190894405,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0176",
@@ -649,7 +953,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.879377,
-    "lon": 137.984059
+    "lon": 137.984059,
+    "station_passenger_log": 6.282266746896006,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0051",
@@ -657,7 +965,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.40644,
-    "lon": 137.862725
+    "lon": 137.862725,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0255",
@@ -665,7 +977,11 @@
     "prefecture": "長野県",
     "line_name": "北しなの線",
     "lat": 36.665123,
-    "lon": 138.222534
+    "lon": 138.222534,
+    "station_passenger_log": 8.125630988477065,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0244",
@@ -673,7 +989,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.678283,
-    "lon": 138.308705
+    "lon": 138.308705,
+    "station_passenger_log": 6.714170529909472,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0118",
@@ -681,7 +1001,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.85883,
-    "lon": 138.363765
+    "lon": 138.363765,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0025",
@@ -689,7 +1013,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.645418,
-    "lon": 137.617569
+    "lon": 137.617569,
+    "station_passenger_log": 3.4657359027997265,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0139",
@@ -697,7 +1025,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.428949,
-    "lon": 137.816754
+    "lon": 137.816754,
+    "station_passenger_log": 1.791759469228055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0068",
@@ -705,7 +1037,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.763249,
-    "lon": 137.900895
+    "lon": 137.900895,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0198",
@@ -713,7 +1049,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.509039,
-    "lon": 138.141661
+    "lon": 138.141661,
+    "station_passenger_log": 6.856461984594587,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0055",
@@ -721,7 +1061,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.491535,
-    "lon": 137.856268
+    "lon": 137.856268,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0069",
@@ -729,7 +1073,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.774604,
-    "lon": 137.908372
+    "lon": 137.908372,
+    "station_passenger_log": 5.093750200806762,
+    "station_line_count": 1.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0026",
@@ -737,7 +1085,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.598896,
-    "lon": 137.608672
+    "lon": 137.608672,
+    "station_passenger_log": 6.261491684321042,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0102",
@@ -745,7 +1097,11 @@
     "prefecture": "長野県",
     "line_name": "JR篠ノ井線",
     "lat": 36.210447,
-    "lon": 137.969505
+    "lon": 137.969505,
+    "station_passenger_log": 7.937731775260109,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0062",
@@ -753,7 +1109,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.637105,
-    "lon": 137.841551
+    "lon": 137.841551,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0044",
@@ -761,7 +1121,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.291124,
-    "lon": 137.903457
+    "lon": 137.903457,
+    "station_passenger_log": 7.353081920515432,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0018",
@@ -769,7 +1133,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.871245,
-    "lon": 137.741536
+    "lon": 137.741536,
+    "station_passenger_log": 4.127134385045092,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0258",
@@ -777,7 +1145,11 @@
     "prefecture": "長野県",
     "line_name": "北しなの線",
     "lat": 36.792295,
-    "lon": 138.230461
+    "lon": 138.230461,
+    "station_passenger_log": 5.545177444479562,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0137",
@@ -785,7 +1157,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.402338,
-    "lon": 137.810254
+    "lon": 137.810254,
+    "station_passenger_log": 2.4849066497880004,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0234",
@@ -793,7 +1169,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.658673,
-    "lon": 138.193513
+    "lon": 138.193513,
+    "station_passenger_log": 6.993932975223189,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0106",
@@ -801,7 +1181,11 @@
     "prefecture": "長野県",
     "line_name": "JR篠ノ井線",
     "lat": 36.430663,
-    "lon": 138.015754
+    "lon": 138.015754,
+    "station_passenger_log": 5.303304908059076,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0196",
@@ -809,7 +1193,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.46195,
-    "lon": 138.181315
+    "lon": 138.181315,
+    "station_passenger_log": 7.201170883281678,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0202",
@@ -817,7 +1205,11 @@
     "prefecture": "長野県",
     "line_name": "上田電鉄別所線",
     "lat": 36.392454,
-    "lon": 138.242712
+    "lon": 138.242712,
+    "station_passenger_log": 4.276666119016055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0010",
@@ -825,7 +1217,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 36.114364,
-    "lon": 137.947961
+    "lon": 137.947961,
+    "station_passenger_log": 8.96405612822033,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagano_0211",
@@ -833,7 +1229,11 @@
     "prefecture": "長野県",
     "line_name": "上田電鉄別所線",
     "lat": 36.360888,
-    "lon": 138.198445
+    "lon": 138.198445,
+    "station_passenger_log": 5.598421958998375,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0252",
@@ -841,7 +1241,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.759998,
-    "lon": 138.403322
+    "lon": 138.403322,
+    "station_passenger_log": 4.624972813284271,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0208",
@@ -849,7 +1253,11 @@
     "prefecture": "長野県",
     "line_name": "上田電鉄別所線",
     "lat": 36.371287,
-    "lon": 138.215171
+    "lon": 138.215171,
+    "station_passenger_log": 6.4425401664681985,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0191",
@@ -857,7 +1265,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.369566,
-    "lon": 138.297109
+    "lon": 138.297109,
+    "station_passenger_log": 7.300472814267799,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0220",
@@ -865,7 +1277,11 @@
     "prefecture": "長野県",
     "line_name": "松本電鉄上高地線",
     "lat": 36.226961,
-    "lon": 137.941346
+    "lon": 137.941346,
+    "station_passenger_log": 5.777652323222656,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0023",
@@ -873,7 +1289,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.684477,
-    "lon": 137.664224
+    "lon": 137.664224,
+    "station_passenger_log": 4.356708826689592,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0168",
@@ -881,7 +1301,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.748162,
-    "lon": 137.940159
+    "lon": 137.940159,
+    "station_passenger_log": 5.424950017481403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0140",
@@ -889,7 +1313,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.441114,
-    "lon": 137.81732
+    "lon": 137.81732,
+    "station_passenger_log": 6.0014148779611505,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0087",
@@ -897,7 +1325,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.220307,
-    "lon": 138.4878
+    "lon": 138.4878,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0015",
@@ -905,7 +1337,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.969476,
-    "lon": 137.816195
+    "lon": 137.816195,
+    "station_passenger_log": 5.187385805840755,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0109",
@@ -913,7 +1349,11 @@
     "prefecture": "長野県",
     "line_name": "JR篠ノ井線",
     "lat": 36.502649,
-    "lon": 138.093388
+    "lon": 138.093388,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0053",
@@ -921,7 +1361,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.447795,
-    "lon": 137.854784
+    "lon": 137.854784,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0049",
@@ -929,7 +1373,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.371795,
-    "lon": 137.872736
+    "lon": 137.872736,
+    "station_passenger_log": 6.251903883165888,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0035",
@@ -937,7 +1385,11 @@
     "prefecture": "長野県",
     "line_name": "JR信越本線",
     "lat": 36.630262,
-    "lon": 138.161791
+    "lon": 138.161791,
+    "station_passenger_log": 7.546974117516527,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0017",
@@ -945,7 +1397,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.888337,
-    "lon": 137.763794
+    "lon": 137.763794,
+    "station_passenger_log": 4.31748811353631,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0182",
@@ -953,7 +1409,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.976247,
-    "lon": 137.990509
+    "lon": 137.990509,
+    "station_passenger_log": 6.81783057145415,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0169",
@@ -961,7 +1421,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.76726,
-    "lon": 137.938897
+    "lon": 137.938897,
+    "station_passenger_log": 6.295266001439646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0002",
@@ -969,7 +1433,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.912183,
-    "lon": 138.238071
+    "lon": 138.238071,
+    "station_passenger_log": 7.424761761823209,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0206",
@@ -977,7 +1445,11 @@
     "prefecture": "長野県",
     "line_name": "上田電鉄別所線",
     "lat": 36.38388,
-    "lon": 138.21634
+    "lon": 138.21634,
+    "station_passenger_log": 5.117993812416755,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0245",
@@ -985,7 +1457,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.698942,
-    "lon": 138.312771
+    "lon": 138.312771,
+    "station_passenger_log": 7.392031567514591,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0078",
@@ -993,7 +1469,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.08862,
-    "lon": 138.482806
+    "lon": 138.482806,
+    "station_passenger_log": 5.905361848054571,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0166",
@@ -1001,7 +1481,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.726781,
-    "lon": 137.935207
+    "lon": 137.935207,
+    "station_passenger_log": 7.121252453244542,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0098",
@@ -1009,7 +1493,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.326337,
-    "lon": 138.422021
+    "lon": 138.422021,
+    "station_passenger_log": 7.855157005881344,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0031",
@@ -1017,7 +1505,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線支線",
     "lat": 36.04693,
-    "lon": 137.9706
+    "lon": 137.9706,
+    "station_passenger_log": 5.351858133476067,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0199",
@@ -1025,7 +1517,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.532062,
-    "lon": 138.128191
+    "lon": 138.128191,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0200",
@@ -1033,7 +1529,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.547853,
-    "lon": 138.132489
+    "lon": 138.132489,
+    "station_passenger_log": 7.701200180857446,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0156",
@@ -1041,7 +1541,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.577758,
-    "lon": 137.903282
+    "lon": 137.903282,
+    "station_passenger_log": 4.897839799950911,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0008",
@@ -1049,7 +1553,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 36.056693,
-    "lon": 138.045001
+    "lon": 138.045001,
+    "station_passenger_log": 8.617038526385954,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagano_0091",
@@ -1057,7 +1565,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.27446,
-    "lon": 138.4724
+    "lon": 138.4724,
+    "station_passenger_log": 7.720905251936779,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0039",
@@ -1065,7 +1577,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.246991,
-    "lon": 137.944817
+    "lon": 137.944817,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0040",
@@ -1073,7 +1589,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.246322,
-    "lon": 137.931576
+    "lon": 137.931576,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0034",
@@ -1081,7 +1601,11 @@
     "prefecture": "長野県",
     "line_name": "JR信越本線",
     "lat": 36.614167,
-    "lon": 138.150679
+    "lon": 138.150679,
+    "station_passenger_log": 8.038189179973203,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0028",
@@ -1089,7 +1613,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線支線",
     "lat": 36.03296,
-    "lon": 138.021937
+    "lon": 138.021937,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0141",
@@ -1097,7 +1625,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.452946,
-    "lon": 137.815564
+    "lon": 137.815564,
+    "station_passenger_log": 5.308267697401205,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0232",
@@ -1113,7 +1645,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.549325,
-    "lon": 137.886578
+    "lon": 137.886578,
+    "station_passenger_log": 6.595780513961311,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0187",
@@ -1121,7 +1657,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.308606,
-    "lon": 138.453926
+    "lon": 138.453926,
+    "station_passenger_log": 4.976733742420574,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0132",
@@ -1129,7 +1669,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.273652,
-    "lon": 137.853574
+    "lon": 137.853574,
+    "station_passenger_log": 4.430816798843313,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0126",
@@ -1137,7 +1681,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.986041,
-    "lon": 138.533723
+    "lon": 138.533723,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0101",
@@ -1153,7 +1701,11 @@
     "prefecture": "長野県",
     "line_name": "JR篠ノ井線",
     "lat": 36.148032,
-    "lon": 137.949578
+    "lon": 137.949578,
+    "station_passenger_log": 8.572249397164315,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagano_0248",
@@ -1161,7 +1713,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.726973,
-    "lon": 138.362693
+    "lon": 138.362693,
+    "station_passenger_log": 5.375278407684165,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0186",
@@ -1169,7 +1725,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.318986,
-    "lon": 138.50619
+    "lon": 138.50619,
+    "station_passenger_log": 7.382124365737512,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0197",
@@ -1177,7 +1737,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.492913,
-    "lon": 138.153017
+    "lon": 138.153017,
+    "station_passenger_log": 7.562681246721884,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0120",
@@ -1185,7 +1749,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.916673,
-    "lon": 138.392952
+    "lon": 138.392952,
+    "station_passenger_log": 5.53338948872752,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0229",
@@ -1193,7 +1761,11 @@
     "prefecture": "長野県",
     "line_name": "松本電鉄上高地線",
     "lat": 36.18977,
-    "lon": 137.821689
+    "lon": 137.821689,
+    "station_passenger_log": 6.576469569048224,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0223",
@@ -1201,7 +1773,11 @@
     "prefecture": "長野県",
     "line_name": "松本電鉄上高地線",
     "lat": 36.216441,
-    "lon": 137.905304
+    "lon": 137.905304,
+    "station_passenger_log": 5.545177444479562,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0012",
@@ -1209,7 +1785,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 36.049004,
-    "lon": 137.894804
+    "lon": 137.894804,
+    "station_passenger_log": 2.6390573296152584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0242",
@@ -1218,10 +1798,10 @@
     "line_name": "長野電鉄長野線",
     "lat": 36.655621,
     "lon": 138.289574,
-    "station_passenger_log": 10.710253554880849,
+    "station_passenger_log": 6.075346031088684,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "C"
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0104",
@@ -1229,7 +1809,11 @@
     "prefecture": "長野県",
     "line_name": "JR篠ノ井線",
     "lat": 36.353948,
-    "lon": 137.929967
+    "lon": 137.929967,
+    "station_passenger_log": 7.385851078125209,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0142",
@@ -1237,7 +1821,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.46402,
-    "lon": 137.82776
+    "lon": 137.82776,
+    "station_passenger_log": 5.375278407684165,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0115",
@@ -1245,7 +1833,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.768999,
-    "lon": 138.323385
+    "lon": 138.323385,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0048",
@@ -1254,10 +1846,10 @@
     "line_name": "JR大糸線",
     "lat": 36.359949,
     "lon": 137.878236,
-    "station_passenger_log": 9.131621787264775,
+    "station_passenger_log": 6.013715156042802,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "D"
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0238",
@@ -1265,7 +1857,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.666326,
-    "lon": 138.240635
+    "lon": 138.240635,
+    "station_passenger_log": 7.542213463193403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0177",
@@ -1273,7 +1869,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.900892,
-    "lon": 137.988022
+    "lon": 137.988022,
+    "station_passenger_log": 6.616065185132817,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0014",
@@ -1281,7 +1881,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.979108,
-    "lon": 137.832613
+    "lon": 137.832613,
+    "station_passenger_log": 4.248495242049359,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0019",
@@ -1289,7 +1893,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.843669,
-    "lon": 137.69343
+    "lon": 137.69343,
+    "station_passenger_log": 7.072421900537371,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0235",
@@ -1305,7 +1913,11 @@
     "prefecture": "長野県",
     "line_name": "JR篠ノ井線",
     "lat": 36.174226,
-    "lon": 137.956007
+    "lon": 137.956007,
+    "station_passenger_log": 8.356789669923213,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0241",
@@ -1313,7 +1925,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.659295,
-    "lon": 138.279556
+    "lon": 138.279556,
+    "station_passenger_log": 6.380122536899765,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0097",
@@ -1321,7 +1937,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.317057,
-    "lon": 138.432144
+    "lon": 138.432144,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0077",
@@ -1329,7 +1949,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.060995,
-    "lon": 138.470509
+    "lon": 138.470509,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0037",
@@ -1337,7 +1961,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.230393,
-    "lon": 137.96445
+    "lon": 137.96445,
+    "station_passenger_log": 10.43801993724675,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "nagano_0046",
@@ -1345,7 +1973,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.322529,
-    "lon": 137.888349
+    "lon": 137.888349,
+    "station_passenger_log": 6.947937068614969,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0240",
@@ -1353,7 +1985,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.663438,
-    "lon": 138.258317
+    "lon": 138.258317,
+    "station_passenger_log": 6.900730664045173,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0236",
@@ -1369,7 +2005,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.975882,
-    "lon": 138.458007
+    "lon": 138.458007,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0247",
@@ -1378,7 +2018,7 @@
     "line_name": "長野電鉄長野線",
     "lat": 36.712641,
     "lon": 138.349642,
-    "station_passenger_log": 6.659293919683638,
+    "station_passenger_log": 4.543294782270004,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
     "station_rank": "E"
@@ -1397,7 +2037,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.250162,
-    "lon": 137.918027
+    "lon": 137.918027,
+    "station_passenger_log": 6.842683282238422,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0225",
@@ -1405,7 +2049,11 @@
     "prefecture": "長野県",
     "line_name": "松本電鉄上高地線",
     "lat": 36.208136,
-    "lon": 137.881315
+    "lon": 137.881315,
+    "station_passenger_log": 6.255750041753367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0128",
@@ -1413,7 +2061,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.989447,
-    "lon": 138.57733
+    "lon": 138.57733,
+    "station_passenger_log": 3.295836866004329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0233",
@@ -1421,7 +2073,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.653088,
-    "lon": 138.19188
+    "lon": 138.19188,
+    "station_passenger_log": 7.718240951959316,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0127",
@@ -1429,7 +2085,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.979875,
-    "lon": 138.55031
+    "lon": 138.55031,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0144",
@@ -1437,7 +2097,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.487445,
-    "lon": 137.839332
+    "lon": 137.839332,
+    "station_passenger_log": 5.267858159063328,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0179",
@@ -1445,7 +2109,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.936385,
-    "lon": 137.985477
+    "lon": 137.985477,
+    "station_passenger_log": 6.570882962339584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0171",
@@ -1453,7 +2121,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.803681,
-    "lon": 137.944035
+    "lon": 137.944035,
+    "station_passenger_log": 6.654152520183219,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0227",
@@ -1461,7 +2133,11 @@
     "prefecture": "長野県",
     "line_name": "松本電鉄上高地線",
     "lat": 36.200358,
-    "lon": 137.856412
+    "lon": 137.856412,
+    "station_passenger_log": 6.894670039433482,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0011",
@@ -1469,7 +2145,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 36.087164,
-    "lon": 137.916842
+    "lon": 137.916842,
+    "station_passenger_log": 4.465908118654584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0060",
@@ -1477,7 +2157,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.565652,
-    "lon": 137.841824
+    "lon": 137.841824,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0076",
@@ -1485,7 +2169,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.041276,
-    "lon": 138.473536
+    "lon": 138.473536,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0082",
@@ -1493,7 +2181,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.155743,
-    "lon": 138.485894
+    "lon": 138.485894,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0228",
@@ -1501,7 +2193,11 @@
     "prefecture": "長野県",
     "line_name": "松本電鉄上高地線",
     "lat": 36.195325,
-    "lon": 137.840313
+    "lon": 137.840313,
+    "station_passenger_log": 4.5217885770490405,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0218",
@@ -1517,7 +2213,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.336273,
-    "lon": 137.841294
+    "lon": 137.841294,
+    "station_passenger_log": 5.71042701737487,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0254",
@@ -1525,7 +2225,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.741659,
-    "lon": 138.414877
+    "lon": 138.414877,
+    "station_passenger_log": 6.957497370876951,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0189",
@@ -1533,7 +2237,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.342586,
-    "lon": 138.363543
+    "lon": 138.363543,
+    "station_passenger_log": 6.523562306149512,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0089",
@@ -1541,7 +2249,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.238715,
-    "lon": 138.475003
+    "lon": 138.475003,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0133",
@@ -1549,7 +2261,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.311687,
-    "lon": 137.848503
+    "lon": 137.848503,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0257",
@@ -1557,7 +2273,11 @@
     "prefecture": "長野県",
     "line_name": "北しなの線",
     "lat": 36.753239,
-    "lon": 138.247121
+    "lon": 138.247121,
+    "station_passenger_log": 6.854354502255021,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0190",
@@ -1565,7 +2285,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.354433,
-    "lon": 138.329414
+    "lon": 138.329414,
+    "station_passenger_log": 7.59890045687141,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0164",
@@ -1573,7 +2297,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.695613,
-    "lon": 137.933092
+    "lon": 137.933092,
+    "station_passenger_log": 3.951243718581427,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0135",
@@ -1581,7 +2309,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.348988,
-    "lon": 137.837922
+    "lon": 137.837922,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0103",
@@ -1589,7 +2321,11 @@
     "prefecture": "長野県",
     "line_name": "JR篠ノ井線",
     "lat": 36.301583,
-    "lon": 137.941029
+    "lon": 137.941029,
+    "station_passenger_log": 6.80128303447162,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0175",
@@ -1597,7 +2333,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.860791,
-    "lon": 137.97781
+    "lon": 137.97781,
+    "station_passenger_log": 5.60947179518496,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0027",
@@ -1605,7 +2345,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.588281,
-    "lon": 137.54893
+    "lon": 137.54893,
+    "station_passenger_log": 4.867534450455582,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0065",
@@ -1613,7 +2357,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.695922,
-    "lon": 137.863819
+    "lon": 137.863819,
+    "station_passenger_log": 6.297109319933935,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0067",
@@ -1621,7 +2369,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.739918,
-    "lon": 137.885531
+    "lon": 137.885531,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0063",
@@ -1629,7 +2381,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.658287,
-    "lon": 137.846586
+    "lon": 137.846586,
+    "station_passenger_log": 4.204692619390966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0207",
@@ -1637,7 +2393,11 @@
     "prefecture": "長野県",
     "line_name": "上田電鉄別所線",
     "lat": 36.377841,
-    "lon": 138.216965
+    "lon": 138.216965,
+    "station_passenger_log": 4.709530201312334,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0059",
@@ -1645,7 +2405,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.554058,
-    "lon": 137.842575
+    "lon": 137.842575,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0110",
@@ -1653,7 +2417,11 @@
     "prefecture": "長野県",
     "line_name": "JR篠ノ井線",
     "lat": 36.552633,
-    "lon": 138.108061
+    "lon": 138.108061,
+    "station_passenger_log": 6.415096959171596,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0047",
@@ -1661,7 +2429,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.33906,
-    "lon": 137.881869
+    "lon": 137.881869,
+    "station_passenger_log": 7.682943169878292,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0113",
@@ -1669,7 +2441,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.731257,
-    "lon": 138.307057
+    "lon": 138.307057,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0032",
@@ -1677,7 +2453,11 @@
     "prefecture": "長野県",
     "line_name": "JR信越本線",
     "lat": 36.5771,
-    "lon": 138.138046
+    "lon": 138.138046,
+    "station_passenger_log": 9.702533483594172,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagano_0061",
@@ -1685,7 +2465,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.594666,
-    "lon": 137.844724
+    "lon": 137.844724,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0050",
@@ -1693,7 +2477,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.397107,
-    "lon": 137.865722
+    "lon": 137.865722,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0094",
@@ -1701,7 +2489,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.292243,
-    "lon": 138.450177
+    "lon": 138.450177,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0180",
@@ -1709,7 +2501,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.953094,
-    "lon": 137.985126
+    "lon": 137.985126,
+    "station_passenger_log": 5.8888779583328805,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0083",
@@ -1717,7 +2513,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.166411,
-    "lon": 138.489618
+    "lon": 138.489618,
+    "station_passenger_log": 5.187385805840755,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0107",
@@ -1725,7 +2525,11 @@
     "prefecture": "長野県",
     "line_name": "JR篠ノ井線",
     "lat": 36.455069,
-    "lon": 138.047603
+    "lon": 138.047603,
+    "station_passenger_log": 6.0330862217988015,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0085",
@@ -1733,7 +2537,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.194013,
-    "lon": 138.488309
+    "lon": 138.488309,
+    "station_passenger_log": 5.765191102784844,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0213",
@@ -1741,7 +2549,11 @@
     "prefecture": "長野県",
     "line_name": "上田電鉄別所線",
     "lat": 36.359621,
-    "lon": 138.18288
+    "lon": 138.18288,
+    "station_passenger_log": 4.04305126783455,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0005",
@@ -1749,7 +2561,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.995062,
-    "lon": 138.151674
+    "lon": 138.151674,
+    "station_passenger_log": 8.81060879571578,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagano_0116",
@@ -1757,7 +2573,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.80888,
-    "lon": 138.349026
+    "lon": 138.349026,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0016",
@@ -1765,7 +2585,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.930152,
-    "lon": 137.784368
+    "lon": 137.784368,
+    "station_passenger_log": 5.3612921657094255,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0194",
@@ -1773,7 +2597,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.417318,
-    "lon": 138.20855
+    "lon": 138.20855,
+    "station_passenger_log": 7.398174092970465,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0124",
@@ -1781,7 +2609,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.979169,
-    "lon": 138.480872
+    "lon": 138.480872,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0105",
@@ -1789,7 +2621,11 @@
     "prefecture": "長野県",
     "line_name": "JR篠ノ井線",
     "lat": 36.400353,
-    "lon": 138.012377
+    "lon": 138.012377,
+    "station_passenger_log": 5.700443573390687,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0217",
@@ -1797,7 +2633,11 @@
     "prefecture": "長野県",
     "line_name": "松本電鉄上高地線",
     "lat": 36.227111,
-    "lon": 137.963299
+    "lon": 137.963299,
+    "station_passenger_log": 4.836281906951478,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0045",
@@ -1805,7 +2645,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.299957,
-    "lon": 137.900896
+    "lon": 137.900896,
+    "station_passenger_log": 7.394493107219038,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0111",
@@ -1813,7 +2657,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.710642,
-    "lon": 138.274458
+    "lon": 138.274458,
+    "station_passenger_log": 7.471363088187097,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0013",
@@ -1821,7 +2669,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 36.014008,
-    "lon": 137.86091
+    "lon": 137.86091,
+    "station_passenger_log": 5.267858159063328,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0204",
@@ -1829,7 +2681,11 @@
     "prefecture": "長野県",
     "line_name": "上田電鉄別所線",
     "lat": 36.391301,
-    "lon": 138.227224
+    "lon": 138.227224,
+    "station_passenger_log": 5.5254529391317835,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0170",
@@ -1837,7 +2693,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.777887,
-    "lon": 137.943943
+    "lon": 137.943943,
+    "station_passenger_log": 4.564348191467836,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0183",
@@ -1845,7 +2705,11 @@
     "prefecture": "長野県",
     "line_name": "しなの鉄道線",
     "lat": 36.342889,
-    "lon": 138.635096
+    "lon": 138.635096,
+    "station_passenger_log": 9.06009870864564,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagano_0029",
@@ -1853,7 +2717,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線支線",
     "lat": 35.984565,
-    "lon": 137.997238
+    "lon": 137.997238,
+    "station_passenger_log": 6.774223886357614,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0246",
@@ -1861,7 +2729,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.704122,
-    "lon": 138.322086
+    "lon": 138.322086,
+    "station_passenger_log": 5.3706380281276624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0024",
@@ -1869,7 +2741,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.673042,
-    "lon": 137.636152
+    "lon": 137.636152,
+    "station_passenger_log": 4.653960350157523,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0072",
@@ -1877,7 +2753,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 35.955289,
-    "lon": 138.474448
+    "lon": 138.474448,
+    "station_passenger_log": 5.501258210544727,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0138",
@@ -1885,7 +2765,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.419128,
-    "lon": 137.817149
+    "lon": 137.817149,
+    "station_passenger_log": 0.6931471805599453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0036",
@@ -1901,7 +2785,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.375306,
-    "lon": 137.814151
+    "lon": 137.814151,
+    "station_passenger_log": 2.302585092994046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0239",
@@ -1909,7 +2797,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.662488,
-    "lon": 138.248298
+    "lon": 138.248298,
+    "station_passenger_log": 7.6246189861593985,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0004",
@@ -1917,7 +2809,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.942581,
-    "lon": 138.197612
+    "lon": 138.197612,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0084",
@@ -1925,7 +2821,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.181259,
-    "lon": 138.489162
+    "lon": 138.489162,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0022",
@@ -1933,7 +2833,11 @@
     "prefecture": "長野県",
     "line_name": "JR中央本線",
     "lat": 35.69769,
-    "lon": 137.694844
+    "lon": 137.694844,
+    "station_passenger_log": 3.951243718581427,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0243",
@@ -1941,7 +2845,11 @@
     "prefecture": "長野県",
     "line_name": "長野電鉄長野線",
     "lat": 36.656841,
-    "lon": 138.304239
+    "lon": 138.304239,
+    "station_passenger_log": 8.560444233410552,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "nagano_0117",
@@ -1949,7 +2857,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯山線",
     "lat": 36.847642,
-    "lon": 138.359335
+    "lon": 138.359335,
+    "station_passenger_log": 7.582229194276461,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0163",
@@ -1957,7 +2869,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.677571,
-    "lon": 137.929004
+    "lon": 137.929004,
+    "station_passenger_log": 6.154858094016418,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0064",
@@ -1965,7 +2881,11 @@
     "prefecture": "長野県",
     "line_name": "JR大糸線",
     "lat": 36.670563,
-    "lon": 137.85006
+    "lon": 137.85006,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0149",
@@ -1973,7 +2893,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.519544,
-    "lon": 137.821244
+    "lon": 137.821244,
+    "station_passenger_log": 7.155396301896734,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0079",
@@ -1981,7 +2905,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.101824,
-    "lon": 138.485963
+    "lon": 138.485963,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0143",
@@ -1989,7 +2917,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.4754,
-    "lon": 137.839625
+    "lon": 137.839625,
+    "station_passenger_log": 5.71042701737487,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0167",
@@ -1997,7 +2929,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.736219,
-    "lon": 137.936862
+    "lon": 137.936862,
+    "station_passenger_log": 6.79794041297493,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0080",
@@ -2005,7 +2941,11 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.115711,
-    "lon": 138.477438
+    "lon": 138.477438,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0160",
@@ -2013,7 +2953,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.644693,
-    "lon": 137.90055
+    "lon": 137.90055,
+    "station_passenger_log": 3.58351893845611,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0131",
@@ -2021,7 +2965,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.267286,
-    "lon": 137.832595
+    "lon": 137.832595,
+    "station_passenger_log": 1.3862943611198906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0259",
@@ -2029,7 +2977,11 @@
     "prefecture": "長野県",
     "line_name": "北しなの線",
     "lat": 36.807214,
-    "lon": 138.197195
+    "lon": 138.197195,
+    "station_passenger_log": 6.148468295917647,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0147",
@@ -2037,7 +2989,11 @@
     "prefecture": "長野県",
     "line_name": "JR飯田線",
     "lat": 35.506726,
-    "lon": 137.828383
+    "lon": 137.828383,
+    "station_passenger_log": 7.115582126184454,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "nagano_0086",
@@ -2045,6 +3001,10 @@
     "prefecture": "長野県",
     "line_name": "JR小海線",
     "lat": 36.204184,
-    "lon": 138.490708
+    "lon": 138.490708,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

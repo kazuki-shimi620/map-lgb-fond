@@ -1,5 +1,10 @@
 from common.regions import REGIONAL_CLUSTERS
-from train.train_regional_models import FEATURES, MODEL_PARAMS, _build_metadata
+from train.train_regional_models import (
+    FEATURES,
+    MODEL_PARAMS,
+    _build_metadata,
+    features_for_cluster,
+)
 
 
 class DummyModel:
@@ -11,6 +16,8 @@ def test_production_regional_model_configuration_matches_selected_candidate():
     assert MODEL_PARAMS["n_estimators"] == 160
     assert MODEL_PARAMS["num_leaves"] == 24
     assert "station" in FEATURES
+    assert "station_passenger_log" in features_for_cluster("kanto")
+    assert features_for_cluster("tohoku") == FEATURES
 
 
 def test_regional_metadata_describes_evaluation_and_deployment():
