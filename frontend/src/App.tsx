@@ -191,6 +191,12 @@ export function App() {
           onSelect={handleMapSelect}
           locationSummary={locationSummary}
           stations={stations}
+          onLayerPanelOpenChange={(isOpen) => {
+            if (isOpen) {
+              clearPendingMapSelectionScroll();
+              setFormSheetState("collapsed");
+            }
+          }}
         />
         <div
           ref={sheetStackRef}

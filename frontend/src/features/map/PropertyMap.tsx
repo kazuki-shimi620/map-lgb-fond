@@ -51,12 +51,59 @@ type Props = {
     stationDistance: number;
   };
   stations: StationRecord[];
+  onLayerPanelOpenChange?: (isOpen: boolean) => void;
 };
 
 const SEARCH_FLY_TO_DURATION_MS = 800;
 const MAX_VISIBLE_FACILITY_MARKERS = 1200;
 const FACILITY_CLUSTER_MAX_ZOOM = 10;
 const FACILITY_CLUSTER_GRID_SIZE_PX = 72;
+
+type LayerPanel = "facilities" | "hazards";
+
+const FACILITY_FILTERS = [
+  { id: "commercial:small", categoryId: "commercial_facility", label: "小規模" },
+  { id: "commercial:medium", categoryId: "commercial_facility", label: "中規模" },
+  { id: "commercial:large", categoryId: "commercial_facility", label: "大規模" },
+  { id: "commercial:very_large", categoryId: "commercial_facility", label: "超大型" },
+  { id: "commercial:unknown", categoryId: "commercial_facility", label: "規模不明" },
+  { id: "museum:art", categoryId: "museum", label: "美術館・ギャラリー" },
+  { id: "museum:general", categoryId: "museum", label: "博物館・資料館" },
+  { id: "hot_spring:sento", categoryId: "hot_spring", label: "銭湯" },
+  { id: "hot_spring:spa", categoryId: "hot_spring", label: "スーパー銭湯・スパ" },
+  { id: "hot_spring:other", categoryId: "hot_spring", label: "温泉・その他" },
+  { id: "cinema:multiplex", categoryId: "cinema", label: "シネコン" },
+  { id: "cinema:other", categoryId: "cinema", label: "ミニシアター・その他" }
+] as const;
+
+type FacilityFilterId = (typeof FACILITY_FILTERS)[number]["id"];
+
+function facilityFilterId(facility: NearbyFacilityPoint): FacilityFilterId | null {
+  const name = facility.name.normalize("NFKC").toLowerCase();
+  if (facility.categoryId === "commercial_facility") {
+    return `commercial:${facility.scaleCode ?? "unknown"}` as FacilityFilterId;
+  }
+  if (facility.categoryId === "museum") {
+    return /(美術館|画廊|ギャラリー|gallery|\bart\b)/i.test(name)
+      ? "museum:art"
+      : "museum:general";
+  }
+  if (facility.categoryId === "hot_spring") {
+    if (/(スーパー銭湯|健康ランド|spa|スパ|温浴|極楽湯|竜泉寺|万葉)/i.test(name)) {
+      return "hot_spring:spa";
+    }
+    if (/(銭湯|公衆浴場|共同浴場|浴場|の湯|湯$)/i.test(name)) {
+      return "hot_spring:sento";
+    }
+    return "hot_spring:other";
+  }
+  if (facility.categoryId === "cinema") {
+    return /(toho|109シネマ|イオンシネマ|ユナイテッド.?シネマ|movix|t.?joy|ティ・ジョイ|シネマサンシャイン|シネマワールド)/i.test(name)
+      ? "cinema:multiplex"
+      : "cinema:other";
+  }
+  return null;
+}
 
 type MapViewport = {
   north: number;
@@ -245,7 +292,14 @@ function FacilityClusterMarker({
   );
 }
 
-export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: Props) {
+export function PropertyMap({
+  lat,
+  lon,
+  onSelect,
+  locationSummary,
+  stations,
+  onLayerPanelOpenChange
+}: Props) {
   const center = useMemo<LatLngExpression>(() => [lat ?? 35.681236, lon ?? 139.767125], [lat, lon]);
   const [query, setQuery] = useState("");
   const [searchCenter, setSearchCenter] = useState<LatLngExpression | null>(null);
@@ -255,6 +309,10 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
   const [activeHazardLayerIds, setActiveHazardLayerIds] = useState<Set<string>>(new Set());
   const [nearbyFacilities, setNearbyFacilities] = useState<NearbyFacilityCollection | null>(null);
   const [activeFacilityCategoryIds, setActiveFacilityCategoryIds] = useState<Set<NearbyFacilityCategoryId>>(new Set());
+  const [activeFacilityFilterIds, setActiveFacilityFilterIds] = useState<Set<FacilityFilterId>>(
+    new Set(FACILITY_FILTERS.map((filter) => filter.id))
+  );
+  const [openLayerPanel, setOpenLayerPanel] = useState<LayerPanel | null>(null);
   const [mapViewport, setMapViewport] = useState<MapViewport | null>(null);
 
   const hazardLayers = useMemo(
@@ -267,10 +325,14 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
     if (!nearbyFacilities) {
       return [];
     }
-    return nearbyFacilities.facilities.filter((facility) =>
-      activeFacilityCategoryIds.has(facility.categoryId)
-    );
-  }, [activeFacilityCategoryIds, nearbyFacilities]);
+    return nearbyFacilities.facilities.filter((facility) => {
+      if (!activeFacilityCategoryIds.has(facility.categoryId)) {
+        return false;
+      }
+      const filterId = facilityFilterId(facility);
+      return filterId === null || activeFacilityFilterIds.has(filterId);
+    });
+  }, [activeFacilityCategoryIds, activeFacilityFilterIds, nearbyFacilities]);
   const visibleFacilityPoints = useMemo(() => {
     if (!mapViewport) {
       return [];
@@ -329,6 +391,16 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
     const counts = new Map<NearbyFacilityCategoryId, number>();
     for (const facility of nearbyFacilities?.facilities ?? []) {
       counts.set(facility.categoryId, (counts.get(facility.categoryId) ?? 0) + 1);
+    }
+    return counts;
+  }, [nearbyFacilities]);
+  const facilityCountsByFilterId = useMemo(() => {
+    const counts = new Map<FacilityFilterId, number>();
+    for (const facility of nearbyFacilities?.facilities ?? []) {
+      const filterId = facilityFilterId(facility);
+      if (filterId) {
+        counts.set(filterId, (counts.get(filterId) ?? 0) + 1);
+      }
     }
     return counts;
   }, [nearbyFacilities]);
@@ -429,6 +501,29 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
     });
   }
 
+  function toggleFacilityFilter(filterId: FacilityFilterId) {
+    setActiveFacilityFilterIds((current) => {
+      const next = new Set(current);
+      if (next.has(filterId)) {
+        next.delete(filterId);
+      } else {
+        next.add(filterId);
+      }
+      return next;
+    });
+  }
+
+  function toggleLayerPanel(panel: LayerPanel) {
+    const next = openLayerPanel === panel ? null : panel;
+    setOpenLayerPanel(next);
+    onLayerPanelOpenChange?.(next !== null);
+  }
+
+  function closeLayerPanel() {
+    setOpenLayerPanel(null);
+    onLayerPanelOpenChange?.(false);
+  }
+
   function toggleAllHazardLayers() {
     setActiveHazardLayerIds(
       isAnyHazardLayerActive ? new Set() : new Set(hazardLayers.map((layer) => layer.id))
@@ -482,29 +577,23 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
           {searchStatus ? <p>{searchStatus}</p> : null}
         </form>
         <div className="mobile-map-layer-controls" aria-label="地図レイヤー切替">
-          {nearbyFacilities?.categories.map((category) => {
-            const isActive = activeFacilityCategoryIds.has(category.id);
-            const count = facilityCountsByCategoryId.get(category.id) ?? 0;
-            return (
-              <button
-                type="button"
-                key={category.id}
-                className={isActive ? "is-active" : ""}
-                aria-pressed={isActive}
-                disabled={count === 0}
-                onClick={() => toggleFacilityCategory(category.id)}
-              >
-                <span style={{ color: category.color }} aria-hidden="true">●</span>
-                {category.label}
-              </button>
-            );
-          })}
+          {nearbyFacilities ? (
+            <button
+              type="button"
+              className={openLayerPanel === "facilities" ? "is-active" : ""}
+              aria-expanded={openLayerPanel === "facilities"}
+              onClick={() => toggleLayerPanel("facilities")}
+            >
+              <span aria-hidden="true">●</span>
+              周辺施設
+            </button>
+          ) : null}
           {hazardLayers.length > 0 ? (
             <button
               type="button"
-              className={isAnyHazardLayerActive ? "is-active" : ""}
-              aria-pressed={isAnyHazardLayerActive}
-              onClick={toggleAllHazardLayers}
+              className={openLayerPanel === "hazards" ? "is-active" : ""}
+              aria-expanded={openLayerPanel === "hazards"}
+              onClick={() => toggleLayerPanel("hazards")}
             >
               <span aria-hidden="true">◆</span>
               ハザード
@@ -565,6 +654,9 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
                 <Tooltip className="facility-marker-tooltip" direction="top" offset={[0, -8]}>
                   <strong>{facility.name}</strong>
                   <span>{category?.label ?? "周辺施設"}</span>
+                  {facility.categoryId === "commercial_facility" && facility.scaleLabel ? (
+                    <small>規模: {facility.scaleLabel}</small>
+                  ) : null}
                   {stationInfo ? (
                     <small>
                       最寄駅: {stationInfo.stationName}駅・徒歩{stationInfo.walkingMinutes}分
@@ -608,22 +700,45 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
             </Marker>
           ) : null}
         </MapContainer>
-        {nearbyFacilities ? (
-          <div className="facility-layer-control" aria-label="周辺施設レイヤー" data-testid="facility-layer-control">
-            <strong>周辺施設</strong>
+        {nearbyFacilities && openLayerPanel === "facilities" ? (
+          <div className="map-layer-control facility-layer-control" aria-label="周辺施設レイヤー" data-testid="facility-layer-control">
+            <div className="map-layer-control-header">
+              <strong>周辺施設</strong>
+              <button type="button" aria-label="周辺施設を閉じる" onClick={closeLayerPanel}>×</button>
+            </div>
             {nearbyFacilities.categories.map((category) => {
+              const filters = FACILITY_FILTERS.filter((filter) => filter.categoryId === category.id);
               const count = facilityCountsByCategoryId.get(category.id) ?? 0;
               return (
-                <label className="map-layer-toggle" key={category.id}>
-                  <input
-                    type="checkbox"
-                    checked={activeFacilityCategoryIds.has(category.id)}
-                    disabled={count === 0}
-                    onChange={() => toggleFacilityCategory(category.id)}
-                  />
-                  <span className="facility-layer-swatch" style={{ backgroundColor: category.color }} aria-hidden="true" />
-                  <span>{category.label}</span>
-                </label>
+                <fieldset className="map-layer-filter-group" key={category.id}>
+                  <legend>
+                    <span className="facility-layer-swatch" style={{ backgroundColor: category.color }} aria-hidden="true" />
+                    {category.label}
+                  </legend>
+                  {filters.length > 0 ? filters.map((filter) => (
+                    <label className="map-layer-toggle" key={filter.id}>
+                      <input
+                        type="checkbox"
+                        checked={activeFacilityFilterIds.has(filter.id)}
+                        disabled={(facilityCountsByFilterId.get(filter.id) ?? 0) === 0}
+                        onChange={() => toggleFacilityFilter(filter.id)}
+                      />
+                      <span>{filter.label}</span>
+                      <small>{(facilityCountsByFilterId.get(filter.id) ?? 0).toLocaleString("ja-JP")}</small>
+                    </label>
+                  )) : (
+                    <label className="map-layer-toggle">
+                      <input
+                        type="checkbox"
+                        checked={activeFacilityCategoryIds.has(category.id)}
+                        disabled={count === 0}
+                        onChange={() => toggleFacilityCategory(category.id)}
+                      />
+                      <span>{category.label}を表示</span>
+                      <small>{count.toLocaleString("ja-JP")}</small>
+                    </label>
+                  )}
+                </fieldset>
               );
             })}
             {nearbyFacilities.facilities.length === 0 ? (
@@ -643,9 +758,15 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
             )}
           </div>
         ) : null}
-        {hazardLayers.length > 0 && hazardConfig ? (
-          <div className="hazard-layer-control" aria-label="ハザードレイヤー" data-testid="hazard-layer-control">
-            <strong>ハザード</strong>
+        {hazardLayers.length > 0 && hazardConfig && openLayerPanel === "hazards" ? (
+          <div className="map-layer-control hazard-layer-control" aria-label="ハザードレイヤー" data-testid="hazard-layer-control">
+            <div className="map-layer-control-header">
+              <strong>ハザード</strong>
+              <button type="button" aria-label="ハザードを閉じる" onClick={closeLayerPanel}>×</button>
+            </div>
+            <button type="button" className="map-layer-all-toggle" onClick={toggleAllHazardLayers}>
+              {isAnyHazardLayerActive ? "すべて非表示" : "すべて表示"}
+            </button>
             {hazardLayers.map((layer) => (
               <label className="map-layer-toggle" key={layer.id}>
                 <input

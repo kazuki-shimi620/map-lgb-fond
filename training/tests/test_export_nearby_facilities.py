@@ -76,6 +76,8 @@ def test_load_commercial_facility_rows_uses_rows_with_coordinates(tmp_path) -> N
     assert rows[0]["name"] == "東京テストSC"
     assert rows[0]["municipality"] == "千代田区"
     assert rows[0]["source"] == "jcsc_geocoded"
+    assert rows[0]["scaleCode"] == "unknown"
+    assert rows[0]["scaleLabel"] == "規模不明"
 
 
 def test_load_commercial_facility_rows_skips_low_confidence_coordinates(tmp_path) -> None:

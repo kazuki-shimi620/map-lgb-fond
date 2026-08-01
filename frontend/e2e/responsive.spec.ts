@@ -89,6 +89,23 @@ test.describe("レスポンシブ表示", () => {
     await expect(page.getByTestId("prediction-sheet")).toBeVisible();
     await expect(page.getByTestId("sheet-handle")).toBeVisible();
 
+    await predictionPage.openDetailsPanel();
+    await expect(page.getByTestId("prediction-sheet")).not.toHaveClass(/sheet-collapsed/);
+    await predictionPage.map.getByRole("button", { name: "周辺施設" }).click();
+    await expect(page.getByTestId("prediction-sheet")).toHaveClass(/sheet-collapsed/);
+    await expect(page.getByTestId("facility-layer-control")).toBeVisible();
+    await expect(page.getByText("小規模", { exact: true })).toBeVisible();
+    await expect(page.getByText("美術館・ギャラリー", { exact: true })).toBeVisible();
+    await expect(page.getByText("博物館・資料館", { exact: true })).toBeVisible();
+    await expect(page.getByText("銭湯", { exact: true })).toBeVisible();
+    await expect(page.getByText("スーパー銭湯・スパ", { exact: true })).toBeVisible();
+    await expect(page.getByText("シネコン", { exact: true })).toBeVisible();
+    await expect(page.getByText("ミニシアター・その他", { exact: true })).toBeVisible();
+
+    await predictionPage.map.getByRole("button", { name: "ハザード" }).click();
+    await expect(page.getByTestId("facility-layer-control")).toHaveCount(0);
+    await expect(page.getByTestId("hazard-layer-control")).toBeVisible();
+
     await predictionPage.clickMapCenter();
     await expect(predictionPage.locationTooltip).toContainText("駅徒歩");
 

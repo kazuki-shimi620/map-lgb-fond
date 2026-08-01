@@ -3,9 +3,18 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import sys
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
+
+SRC_ROOT = Path(__file__).resolve().parents[1]
+if str(SRC_ROOT) not in sys.path:
+    sys.path.insert(0, str(SRC_ROOT))
+
+from features.commercial_facility_scale import (  # noqa: E402
+    classify_commercial_facility_scale,
+)
 
 CATEGORIES = [
     {
@@ -191,6 +200,8 @@ def normalize_commercial_facility_row(
     updated_at = (row.get("updated_at") or row.get("updatedAt") or "").strip()
     explicit_id = (row.get("id") or "").strip()
     record_id = explicit_id or build_facility_id("commercial_facility", name, lat, lon)
+    store_area_sqm = parse_float(row.get("store_area_sqm"))
+    tenant_count = parse_int(row.get("tenant_count"))
     return {
         "id": record_id,
         "categoryId": "commercial_facility",
@@ -202,6 +213,9 @@ def normalize_commercial_facility_row(
         "address": address,
         "source": source,
         "updatedAt": updated_at,
+        "storeAreaSqm": store_area_sqm,
+        "tenantCount": tenant_count,
+        **classify_commercial_facility_scale(store_area_sqm, tenant_count),
     }
 
 
@@ -224,6 +238,11 @@ def parse_float(value: str | None) -> float | None:
     if value is None or value.strip() == "":
         return None
     return float(value)
+
+
+def parse_int(value: str | None) -> int | None:
+    number = parse_float(value)
+    return int(number) if number is not None else None
 
 
 def export_nearby_facilities(

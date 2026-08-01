@@ -72,7 +72,9 @@ export function CommercialFacilityCard({ summary, prefecture, municipality }: Pr
                   >
                     <div>
                       <h4>{facility.name}</h4>
-                      <small>{formatOpeningDate(facility)}</small>
+                      <small>
+                        {formatOpeningDate(facility)}・{facility.scaleLabel}
+                      </small>
                     </div>
                     <dl>
                       <div>
@@ -117,10 +119,15 @@ export function CommercialFacilityCard({ summary, prefecture, municipality }: Pr
             </div>
           </dl>
           {coverage ? (
-            <p className="facility-coverage-note">
-              全国{formatNumber(coverage.facilityCount)}件、地図表示用の信頼座標は
-              {formatNumber(coverage.reliableCoordinateCount)}件です。
-            </p>
+            <>
+              <p className="facility-coverage-note">
+                全国{formatNumber(coverage.facilityCount)}件、地図表示用の信頼座標は
+                {formatNumber(coverage.reliableCoordinateCount)}件です。
+              </p>
+              <p className="facility-coverage-note">
+                規模: 小規模（5,000㎡未満）／中規模（15,000㎡未満）／大規模（40,000㎡未満）／超大型
+              </p>
+            </>
           ) : null}
           <p className="hazard-note">
             価格モデルへの採用とは分けた参考情報です。地図では信頼座標がある商業施設だけを表示します。
