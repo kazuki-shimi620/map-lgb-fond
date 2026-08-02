@@ -117,6 +117,8 @@ export function PropertyConditionForm({
       <label>
         面積
         <input
+          id="property-area"
+          name="area"
           type="number"
           min="1"
           value={value.area}
@@ -127,6 +129,8 @@ export function PropertyConditionForm({
       <label>
         築年数
         <input
+          id="property-age"
+          name="age"
           type="number"
           min="0"
           value={value.age}
@@ -275,6 +279,8 @@ export function PredictionYearControl({
       {predictionYearRange ? (
         <>
           <input
+            id="prediction-year-range"
+            name="predictionYearRange"
             type="range"
             min={predictionYearRange.min}
             max={predictionYearRange.max}
@@ -289,6 +295,8 @@ export function PredictionYearControl({
         </>
       ) : null}
       <input
+        id="prediction-year"
+        name="predictionYear"
         type="number"
         min={predictionYearRange?.min ?? 1990}
         max={predictionYearRange?.max}

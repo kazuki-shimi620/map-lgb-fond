@@ -1,6 +1,15 @@
 import { memo, useCallback, useEffect, useMemo, useRef, useState, type FormEvent } from "react";
 import { CircleMarker, MapContainer, Marker, TileLayer, Tooltip, useMap, useMapEvents } from "react-leaflet";
-import { DivIcon, Icon, type LatLngExpression } from "leaflet";
+import {
+  DivIcon,
+  Icon,
+  TileLayer as LeafletTileLayer,
+  type Coords,
+  type DoneCallback,
+  type LatLngExpression,
+  type TileEvent,
+  type TileLayerOptions
+} from "leaflet";
 import markerIcon2xUrl from "leaflet/dist/images/marker-icon-2x.png";
 import markerIconUrl from "leaflet/dist/images/marker-icon.png";
 import markerShadowUrl from "leaflet/dist/images/marker-shadow.png";
@@ -203,6 +212,100 @@ function ViewportTracker({ onChange }: { onChange: (viewport: MapViewport) => vo
     moveend: updateViewport,
     zoomend: updateViewport
   });
+
+  return null;
+}
+
+type HazardTileRequest = {
+  controller: AbortController;
+  objectUrl?: string;
+};
+
+class SafeHazardTileLayer extends LeafletTileLayer {
+  private readonly requests = new WeakMap<HTMLImageElement, HazardTileRequest>();
+
+  constructor(url: string, options: TileLayerOptions) {
+    super(url, options);
+    this.on("tileunload", (event: TileEvent) => {
+      const tile = event.tile as HTMLImageElement;
+      const request = this.requests.get(tile);
+      request?.controller.abort();
+      if (request?.objectUrl) {
+        URL.revokeObjectURL(request.objectUrl);
+      }
+      this.requests.delete(tile);
+    });
+  }
+
+  protected override createTile(coords: Coords, done: DoneCallback): HTMLElement {
+    const tile = document.createElement("img");
+    tile.alt = "";
+    tile.setAttribute("role", "presentation");
+    const request: HazardTileRequest = { controller: new AbortController() };
+    this.requests.set(tile, request);
+
+    void fetch(this.getTileUrl(coords), {
+      credentials: "omit",
+      mode: "cors",
+      signal: request.controller.signal
+    })
+      .then((response) => {
+        const contentType = response.headers.get("content-type") ?? "";
+        return response.ok && contentType.startsWith("image/") ? response.blob() : null;
+      })
+      .then((blob) => {
+        if (!blob) {
+          done(undefined, tile);
+          return;
+        }
+        request.objectUrl = URL.createObjectURL(blob);
+        tile.onload = () => {
+          if (request.objectUrl) {
+            URL.revokeObjectURL(request.objectUrl);
+            request.objectUrl = undefined;
+          }
+          done(undefined, tile);
+        };
+        tile.onerror = () => done(new Error("hazard tile could not be decoded"), tile);
+        tile.src = request.objectUrl;
+      })
+      .catch((error: unknown) => {
+        if (!request.controller.signal.aborted) {
+          done(error instanceof Error ? error : new Error("hazard tile request failed"), tile);
+        }
+      });
+
+    return tile;
+  }
+}
+
+function HazardTileLayer({
+  attribution,
+  layer,
+  zIndex
+}: {
+  attribution?: string;
+  layer: HazardLayerDefinition;
+  zIndex: number;
+}) {
+  const map = useMap();
+
+  useEffect(() => {
+    if (!layer.tileUrl) {
+      return;
+    }
+    const tileLayer = new SafeHazardTileLayer(layer.tileUrl, {
+      attribution,
+      maxZoom: layer.maxZoom,
+      minZoom: layer.minZoom,
+      opacity: layer.defaultOpacity,
+      zIndex
+    });
+    tileLayer.addTo(map);
+    return () => {
+      tileLayer.removeFrom(map);
+    };
+  }, [attribution, layer, map, zIndex]);
 
   return null;
 }
@@ -670,6 +773,8 @@ export function PropertyMap({
         <img className="app-icon map-app-icon" src="./app-icon.svg" alt="" aria-hidden="true" />
         <form className="map-search" onSubmit={handleSearch}>
           <input
+            id="map-search-query"
+            name="mapSearchQuery"
             aria-label="地図検索"
             placeholder="駅名・住所を入力 例: 大宮駅、那覇市"
             value={query}
@@ -712,13 +817,10 @@ export function PropertyMap({
           />
           <MapMover center={searchCenter} />
           {activeHazardLayers.map((layer, index) => (
-            <TileLayer
+            <HazardTileLayer
               key={layer.id}
               attribution={hazardConfig?.source.attribution}
-              maxZoom={layer.maxZoom}
-              minZoom={layer.minZoom}
-              opacity={layer.defaultOpacity}
-              url={layer.tileUrl ?? ""}
+              layer={layer}
               zIndex={300 + index}
             />
           ))}
@@ -775,6 +877,7 @@ export function PropertyMap({
                   {filters.length > 0 ? filters.map((filter) => (
                     <label className="map-layer-toggle" key={filter.id}>
                       <input
+                        name={`facility-${filter.id}`}
                         type="checkbox"
                         checked={activeFacilityFilterIds.has(filter.id)}
                         disabled={(facilityCountsByFilterId.get(filter.id) ?? 0) === 0}
@@ -786,6 +889,7 @@ export function PropertyMap({
                   )) : (
                     <label className="map-layer-toggle">
                       <input
+                        name={`facility-${category.id}`}
                         type="checkbox"
                         checked={activeFacilityCategoryIds.has(category.id)}
                         disabled={count === 0}
@@ -827,6 +931,7 @@ export function PropertyMap({
             {hazardLayers.map((layer) => (
               <label className="map-layer-toggle" key={layer.id}>
                 <input
+                  name={`hazard-${layer.id}`}
                   type="checkbox"
                   checked={activeHazardLayerIds.has(layer.id)}
                   onChange={() => toggleHazardLayer(layer.id)}

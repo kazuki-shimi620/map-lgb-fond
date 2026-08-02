@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: "./",
   optimizeDeps: {
-    exclude: ["onnxruntime-web"]
+    exclude: ["onnxruntime-web", "onnxruntime-web/wasm"]
   },
   build: {
     rollupOptions: {
@@ -13,7 +13,7 @@ export default defineConfig({
         manualChunks: {
           charts: ["recharts"],
           leaflet: ["leaflet", "react-leaflet"],
-          onnx: ["onnxruntime-web"]
+          onnx: ["onnxruntime-web/wasm"]
         }
       }
     }

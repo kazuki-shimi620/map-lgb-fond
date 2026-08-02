@@ -9,7 +9,7 @@ import type {
 import { fetchJson } from "../../services/http";
 import { modelAssetLoader, type ModelLoadPriority } from "./modelAssetLoader";
 
-type OrtModule = typeof import("onnxruntime-web");
+type OrtModule = typeof import("onnxruntime-web/wasm");
 
 const FEATURE_ALIASES: Record<string, keyof EncodedPredictionRequest> = {
   station_distance: "stationDistance",
@@ -68,10 +68,10 @@ export class ModelManager {
 
   async loadModel(priority: ModelLoadPriority = "critical"): Promise<void> {
     try {
-      this.ort = await import("onnxruntime-web");
+      this.ort = await import("onnxruntime-web/wasm");
       const onnxAssetBase = `${import.meta.env.BASE_URL}onnx/`;
       this.ort.env.wasm.wasmPaths = {
-        wasm: `${onnxAssetBase}ort-wasm-simd-threaded.jsep.wasm`
+        "ort-wasm-simd.wasm": `${onnxAssetBase}ort-wasm-simd.wasm`
       };
       this.ort.env.wasm.numThreads = 1;
       const modelBytes = await modelAssetLoader.load(this.region, priority);
