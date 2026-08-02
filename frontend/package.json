@@ -12,7 +12,8 @@
     "test:e2e:headed": "playwright test --headed",
     "test:e2e:webkit": "playwright test --project=mobile-safari",
     "test:e2e:report": "playwright show-report",
-    "test:e2e:screenshots": "README_SCREENSHOTS=1 playwright test e2e/screenshots.spec.ts --project=chromium --workers=1"
+    "test:e2e:screenshots": "README_SCREENSHOTS=1 playwright test e2e/screenshots.spec.ts --project=chromium --workers=1",
+    "test:station-search": "esbuild scripts/verifyStationSearch.ts --bundle --platform=node --format=esm --log-level=warning --outfile=/tmp/map-lgb-fond-verify-station-search.mjs && node /tmp/map-lgb-fond-verify-station-search.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.0",

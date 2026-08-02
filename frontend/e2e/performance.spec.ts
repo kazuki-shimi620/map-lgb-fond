@@ -16,6 +16,7 @@ test("初期表示と周辺施設パネルの性能予算を記録する", async
     .getByRole("region", { name: "地図" })
     .getByRole("button", { name: "周辺施設" });
   await expect(facilityButton).toBeEnabled();
+  await expect(page.locator(".leaflet-overlay-pane canvas")).toBeVisible();
 
   const panelStartedAt = performance.now();
   await facilityButton.click();
@@ -31,6 +32,8 @@ test("初期表示と周辺施設パネルの性能予算を記録する", async
       (window as Window & { __longTaskDurations?: number[] }).__longTaskDurations ?? [];
     return {
       facilityDecodedBytes: facilityResource?.decodedBodySize ?? 0,
+      facilityCanvasCount: document.querySelectorAll(".leaflet-overlay-pane canvas").length,
+      overlaySvgPathCount: document.querySelectorAll(".leaflet-overlay-pane svg path").length,
       longTaskCount: longTasks.length,
       longestTaskMs: Math.max(0, ...longTasks),
       totalLongTaskMs: longTasks.reduce((total, duration) => total + duration, 0)
@@ -47,7 +50,8 @@ test("初期表示と周辺施設パネルの性能予算を記録する", async
     contentType: "application/json"
   });
 
-  expect(metrics.panelLatencyMs).toBeLessThan(750);
+  expect(metrics.panelLatencyMs).toBeLessThan(300);
   expect(metrics.facilityDecodedBytes).toBeGreaterThan(0);
   expect(metrics.facilityDecodedBytes).toBeLessThan(3_800_000);
+  expect(metrics.facilityCanvasCount).toBeGreaterThan(0);
 });

@@ -1,4 +1,4 @@
-import { memo, useCallback, useEffect, useMemo, useState, type FormEvent } from "react";
+import { memo, useCallback, useEffect, useMemo, useRef, useState, type FormEvent } from "react";
 import { CircleMarker, MapContainer, Marker, TileLayer, Tooltip, useMap, useMapEvents } from "react-leaflet";
 import { DivIcon, Icon, type LatLngExpression } from "leaflet";
 import markerIcon2xUrl from "leaflet/dist/images/marker-icon-2x.png";
@@ -164,11 +164,12 @@ function MapMover({ center }: { center: LatLngExpression | null }) {
 
 function ViewportTracker({ onChange }: { onChange: (viewport: MapViewport) => void }) {
   const map = useMap();
+  const lastViewportRef = useRef<MapViewport | null>(null);
 
   const updateViewport = useCallback(() => {
     const bounds = map.getBounds();
     const center = map.getCenter();
-    onChange({
+    const nextViewport = {
       north: bounds.getNorth(),
       south: bounds.getSouth(),
       east: bounds.getEast(),
@@ -176,7 +177,22 @@ function ViewportTracker({ onChange }: { onChange: (viewport: MapViewport) => vo
       centerLat: center.lat,
       centerLon: center.lng,
       zoom: map.getZoom()
-    });
+    };
+    const previous = lastViewportRef.current;
+    if (
+      previous &&
+      previous.north === nextViewport.north &&
+      previous.south === nextViewport.south &&
+      previous.east === nextViewport.east &&
+      previous.west === nextViewport.west &&
+      previous.centerLat === nextViewport.centerLat &&
+      previous.centerLon === nextViewport.centerLon &&
+      previous.zoom === nextViewport.zoom
+    ) {
+      return;
+    }
+    lastViewportRef.current = nextViewport;
+    onChange(nextViewport);
   }, [map, onChange]);
 
   useEffect(() => {
@@ -294,6 +310,49 @@ const FacilityClusterMarker = memo(function FacilityClusterMarker({
   );
 });
 
+const FacilityPointMarker = memo(function FacilityPointMarker({
+  facility,
+  color,
+  categoryLabel,
+  stationInfo
+}: {
+  facility: NearbyFacilityPoint;
+  color: string;
+  categoryLabel: string;
+  stationInfo?: { stationName: string; walkingMinutes: number };
+}) {
+  return (
+    <CircleMarker
+      center={[facility.lat, facility.lon]}
+      pathOptions={{
+        color,
+        fillColor: color,
+        fillOpacity: 0.85,
+        weight: 2
+      }}
+      radius={7}
+      eventHandlers={{
+        click(event) {
+          event.originalEvent.stopPropagation();
+        }
+      }}
+    >
+      <Tooltip className="facility-marker-tooltip" direction="top" offset={[0, -8]}>
+        <strong>{facility.name}</strong>
+        <span>{categoryLabel}</span>
+        {facility.categoryId === "commercial_facility" && facility.scaleLabel ? (
+          <small>規模: {facility.scaleLabel}</small>
+        ) : null}
+        {stationInfo ? (
+          <small>
+            最寄駅: {stationInfo.stationName}駅・徒歩{stationInfo.walkingMinutes}分
+          </small>
+        ) : null}
+      </Tooltip>
+    </CircleMarker>
+  );
+});
+
 export function PropertyMap({
   lat,
   lon,
@@ -377,14 +436,15 @@ export function PropertyMap({
   }, [facilitiesInViewport, mapViewport]);
   const showFacilityClusters =
     mapViewport !== null && mapViewport.zoom <= FACILITY_CLUSTER_MAX_ZOOM;
+  const locationPrefecture = locationSummary?.prefecture;
   const facilityStationInfoById = useMemo(() => {
     const result = new Map<string, { stationName: string; walkingMinutes: number }>();
-    if (!locationSummary || stations.length === 0) {
+    if (!locationPrefecture || stations.length === 0) {
       return result;
     }
 
     for (const facility of visibleFacilityPoints) {
-      if (facility.prefecture && facility.prefecture !== locationSummary.prefecture) {
+      if (facility.prefecture && facility.prefecture !== locationPrefecture) {
         continue;
       }
       const nearest = findNearestStation(stations, facility.lat, facility.lon);
@@ -396,7 +456,7 @@ export function PropertyMap({
       }
     }
     return result;
-  }, [locationSummary, stations, visibleFacilityPoints]);
+  }, [locationPrefecture, stations, visibleFacilityPoints]);
   const facilityCountsByCategoryId = useMemo(() => {
     const counts = new Map<NearbyFacilityCategoryId, number>();
     for (const facility of nearbyFacilities?.facilities ?? []) {
@@ -422,6 +482,39 @@ export function PropertyMap({
     const entries = nearbyFacilities?.categories.map((category) => [category.id, category] as const) ?? [];
     return new Map(entries);
   }, [nearbyFacilities]);
+  const facilityLayerMarkers = useMemo(() => {
+    if (showFacilityClusters) {
+      return facilityClusters.map((cluster) => {
+        const category = facilityCategoryById.get(cluster.categoryId);
+        return (
+          <FacilityClusterMarker
+            key={cluster.id}
+            cluster={cluster}
+            color={category?.color ?? "#0f766e"}
+            label={category?.label ?? "周辺施設"}
+          />
+        );
+      });
+    }
+    return visibleFacilityPoints.map((facility) => {
+      const category = facilityCategoryById.get(facility.categoryId);
+      return (
+        <FacilityPointMarker
+          key={facility.id}
+          facility={facility}
+          color={category?.color ?? "#0f766e"}
+          categoryLabel={category?.label ?? "周辺施設"}
+          stationInfo={facilityStationInfoById.get(facility.id)}
+        />
+      );
+    });
+  }, [
+    facilityCategoryById,
+    facilityClusters,
+    facilityStationInfoById,
+    showFacilityClusters,
+    visibleFacilityPoints
+  ]);
 
   useEffect(() => {
     if (!searchStatus) {
@@ -611,7 +704,7 @@ export function PropertyMap({
             </button>
           ) : null}
         </div>
-        <MapContainer center={center} zoom={12} className="map">
+        <MapContainer center={center} zoom={12} className="map" preferCanvas>
           <ViewportTracker onChange={setMapViewport} />
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -629,54 +722,7 @@ export function PropertyMap({
               zIndex={300 + index}
             />
           ))}
-          {showFacilityClusters
-            ? facilityClusters.map((cluster) => {
-                const category = facilityCategoryById.get(cluster.categoryId);
-                return (
-                  <FacilityClusterMarker
-                    key={cluster.id}
-                    cluster={cluster}
-                    color={category?.color ?? "#0f766e"}
-                    label={category?.label ?? "周辺施設"}
-                  />
-                );
-              })
-            : visibleFacilityPoints.map((facility) => {
-            const category = facilityCategoryById.get(facility.categoryId);
-            const color = category?.color ?? "#0f766e";
-            const stationInfo = facilityStationInfoById.get(facility.id);
-            return (
-              <CircleMarker
-                key={facility.id}
-                center={[facility.lat, facility.lon]}
-                pathOptions={{
-                  color,
-                  fillColor: color,
-                  fillOpacity: 0.85,
-                  weight: 2
-                }}
-                radius={7}
-                eventHandlers={{
-                  click(event) {
-                    event.originalEvent.stopPropagation();
-                  }
-                }}
-              >
-                <Tooltip className="facility-marker-tooltip" direction="top" offset={[0, -8]}>
-                  <strong>{facility.name}</strong>
-                  <span>{category?.label ?? "周辺施設"}</span>
-                  {facility.categoryId === "commercial_facility" && facility.scaleLabel ? (
-                    <small>規模: {facility.scaleLabel}</small>
-                  ) : null}
-                  {stationInfo ? (
-                    <small>
-                      最寄駅: {stationInfo.stationName}駅・徒歩{stationInfo.walkingMinutes}分
-                    </small>
-                  ) : null}
-                </Tooltip>
-              </CircleMarker>
-            );
-          })}
+          {facilityLayerMarkers}
           <ClickHandler onSelect={handleMapSelect} />
           {lat !== null && lon !== null ? (
             <Marker icon={propertyMarkerIcon} position={[lat, lon]}>
