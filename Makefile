@@ -65,6 +65,9 @@ CINEMA_CHAINS_CSV ?= data/processed/cinemas/official_chain_cinemas.csv
 CINEMA_OSM_CSV ?= data/processed/osm_nearby/cinema_japan/nearby_osm_facilities.csv
 CINEMA_ENRICHED_CSV ?= data/processed/cinemas/official_chain_cinemas_enriched.csv
 CINEMA_REVIEW_CSV ?= data/processed/cinemas/official_chain_cinemas_review.csv
+CINEMA_PRIORITY_REVIEW_CSV ?= data/processed/cinemas/official_chain_cinemas_priority_review.csv
+CINEMA_COORDINATES_CSV ?= data/processed/cinemas/official_chain_cinema_coordinates.csv
+CINEMA_MANUAL_COORDINATES_CSV ?= data/manual/cinemas/cinema_coordinates.csv
 CINEMA_COVERAGE_JSON ?= data/processed/cinemas/coverage.json
 COMMERCIAL_FACILITIES_CSV ?= data/processed/jcsc/jcsc_sc_open.csv
 COMMERCIAL_FACILITIES_COORDINATED_CSV ?= data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
@@ -141,7 +144,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-sc-pdf audit-sc-pdf-months collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-medical-facilities collect-medical-facilities-dry-run collect-medical-facilities-tile collect-osm-nearby-facilities collect-osm-nearby-facilities-dry-run collect-osm-park-areas collect-cinema-chains collect-cinema-osm-national collect-hot-springs-national collect-museums-national enrich-cinemas collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities enrich-sc-pdf-candidates commercial-facility-manual-template train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-sc-pdf audit-sc-pdf-months collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-future-population collect-future-population-dry-run process-future-population collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-medical-facilities collect-medical-facilities-dry-run collect-medical-facilities-tile collect-osm-nearby-facilities collect-osm-nearby-facilities-dry-run collect-osm-park-areas collect-cinema-chains collect-cinema-osm-national collect-hot-springs-national collect-museums-national collect-cinema-coordinates collect-cinema-coordinates-dry-run enrich-cinemas collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-hazard-tiles collect-hazard-tiles-dry-run collect-hazard-property-tiles-dry-run collect-hazard-point-features collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities enrich-sc-pdf-candidates commercial-facility-manual-template train train-all train-regional-models train-production-models refresh-production-artifacts model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-regional-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-nearby-poi-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national stations-passengers-refresh
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -223,6 +226,8 @@ help:
 	@echo "                          自治体単位の犯罪統計CSVを正規化"
 	@echo "  make collect-hazards HAZARD_INPUT=path/to/hazards.json"
 	@echo "                          ハザード情報を正規化して学習用CSV化"
+	@echo "  make compare-nearby-poi-features"
+	@echo "                          東京3万件で周辺施設POI特徴量を探索比較"
 	@echo "  make collect-data       不動産CSV、2015年以降のJCSC、駅別乗降客数をまとめて取得"
 	@echo "  make download-csv CSV_PREFECTURES=tokyo CSV_FROM_YEAR=2025 CSV_TO_YEAR=2025"
 	@echo "                          公式画面から中古マンションCSVを取得"
@@ -378,10 +383,10 @@ collect-station-passengers-dry-run:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area $(PASSENGER_AREA) --zoom $(PASSENGER_ZOOM) --dry-run
 
 collect-station-passengers-national:
-	$(MAKE) collect-station-passengers PASSENGER_AREA=japan PASSENGER_ZOOM=$(PASSENGER_NATIONAL_ZOOM) PASSENGER_REQUEST_INTERVAL_SECONDS=$(PASSENGER_REQUEST_INTERVAL_SECONDS)
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area japan --zoom $(PASSENGER_NATIONAL_ZOOM) --station-index-dir ../frontend/public/stations --request-interval-seconds $(PASSENGER_REQUEST_INTERVAL_SECONDS) --cache
 
 collect-station-passengers-national-dry-run:
-	$(MAKE) collect-station-passengers-dry-run PASSENGER_AREA=japan PASSENGER_ZOOM=$(PASSENGER_NATIONAL_ZOOM)
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/station_passengers.py --area japan --zoom $(PASSENGER_NATIONAL_ZOOM) --station-index-dir ../frontend/public/stations --dry-run
 
 collect-land-prices:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/land_prices.py --area $(LAND_PRICE_AREA) --zoom $(LAND_PRICE_ZOOM) --years "$(LAND_PRICE_YEARS)" --use-category-codes "$(LAND_PRICE_USE_CATEGORY_CODES)" --request-interval-seconds $(LAND_PRICE_REQUEST_INTERVAL_SECONDS) --cache
@@ -417,6 +422,15 @@ collect-population-stats:
 
 collect-population-stats-template:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/population_stats.py --write-template "$(POPULATION_TEMPLATE)"
+
+collect-future-population-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/future_population.py --dry-run
+
+collect-future-population:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/future_population.py --collect --continue-on-error
+
+process-future-population:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/future_population.py
 
 collect-rail-access:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/rail_access.py --terminal-stations-csv "$(RAIL_TERMINAL_STATIONS_CSV)" --travel-times-csv "$(RAIL_TRAVEL_TIMES_CSV)"
@@ -471,7 +485,13 @@ collect-museums-national:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py --bbox 24.0 122.9 27.1 131.4 --categories museum --split-size-degrees 1 --timeout-seconds 120 --request-interval-seconds 1 --continue-on-error --cache --run-id latest_museum_okinawa --processed-dir data/processed/osm_nearby/museum_okinawa
 
 enrich-cinemas:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/enrich_cinemas.py --cinemas "$(CINEMA_CHAINS_CSV)" --osm "$(CINEMA_OSM_CSV)" --jcsc "$(COMMERCIAL_FACILITIES_COORDINATED_CSV)" --jcsc "$(JCSC_SC_PDF_COORDINATED_CSV)" --output "$(CINEMA_ENRICHED_CSV)" --review-output "$(CINEMA_REVIEW_CSV)" --report-output "$(CINEMA_COVERAGE_JSON)"
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/preprocess/enrich_cinemas.py --cinemas "$(CINEMA_CHAINS_CSV)" --osm "$(CINEMA_OSM_CSV)" --jcsc "$(COMMERCIAL_FACILITIES_COORDINATED_CSV)" --jcsc "$(JCSC_SC_PDF_COORDINATED_CSV)" --manual-coordinates "$(CINEMA_COORDINATES_CSV)" --manual-coordinates "$(CINEMA_MANUAL_COORDINATES_CSV)" --output "$(CINEMA_ENRICHED_CSV)" --review-output "$(CINEMA_REVIEW_CSV)" --priority-review-output "$(CINEMA_PRIORITY_REVIEW_CSV)" --report-output "$(CINEMA_COVERAGE_JSON)"
+
+collect-cinema-coordinates-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/cinema_coordinates.py --review-csv "$(CINEMA_PRIORITY_REVIEW_CSV)" --output-csv "$(CINEMA_COORDINATES_CSV)" --dry-run
+
+collect-cinema-coordinates:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/cinema_coordinates.py --review-csv "$(CINEMA_PRIORITY_REVIEW_CSV)" --output-csv "$(CINEMA_COORDINATES_CSV)"
 
 collect-urban-planning:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/urban_planning.py --apis "$(URBAN_PLANNING_APIS)" --area $(URBAN_PLANNING_AREA) --zoom $(URBAN_PLANNING_ZOOM) --request-interval-seconds $(URBAN_PLANNING_REQUEST_INTERVAL_SECONDS) --cache
@@ -501,6 +521,18 @@ collect-hazards:
 		echo "HAZARD_INPUT or HAZARD_URL is required"; \
 		exit 1; \
 	fi
+
+collect-hazard-tiles:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/hazard_tiles.py --continue-on-error
+
+collect-hazard-tiles-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/hazard_tiles.py --dry-run
+
+collect-hazard-property-tiles-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/hazard_tiles.py --property-tiles --dry-run
+
+collect-hazard-point-features:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/hazard_point_features.py
 
 collect-data: collect-property collect-sc-all collect-station-passengers
 
@@ -612,6 +644,9 @@ compare-commercial-features:
 compare-station-passenger-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_station_passenger_features.py
 
+compare-regional-station-passenger-features:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_regional_station_passenger_features.py
+
 compare-land-price-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_land_price_features.py --land-price-points-csv "$(LAND_PRICE_POINTS_CSV)" --land-price-city-summary-csv "$(LAND_PRICE_CITY_SUMMARY_CSV)"
 
@@ -624,11 +659,18 @@ compare-location-features:
 compare-population-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_population_features.py --population-stats-csv "$(POPULATION_STATS_CSV)"
 
+.PHONY: compare-future-population-features
+compare-future-population-features:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_future_population_features.py
+
 compare-rail-access-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_rail_access_features.py --rail-access-csv "$(RAIL_ACCESS_CSV)"
 
 compare-external-features:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_external_features.py --hazards-csv "$(HAZARDS_CSV)"
+
+compare-nearby-poi-features:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_nearby_poi_features.py
 
 compare-train-start-years:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_train_start_years.py
@@ -687,3 +729,6 @@ stations:
 
 stations-national:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public --station-passengers-csv $(STATION_PASSENGERS_CSV)
+
+stations-passengers-refresh:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public --station-passengers-csv $(STATION_PASSENGERS_CSV) --refresh-passengers-only

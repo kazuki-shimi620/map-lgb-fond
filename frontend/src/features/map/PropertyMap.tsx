@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState, type FormEvent } from "react";
+import { memo, useCallback, useEffect, useMemo, useRef, useState, type FormEvent } from "react";
 import { CircleMarker, MapContainer, Marker, TileLayer, Tooltip, useMap, useMapEvents } from "react-leaflet";
 import { DivIcon, Icon, type LatLngExpression } from "leaflet";
 import markerIcon2xUrl from "leaflet/dist/images/marker-icon-2x.png";
@@ -15,6 +15,11 @@ import type {
   NearbyFacilityPoint,
   StationRecord
 } from "../../types/assets";
+import {
+  buildFacilitySpatialIndex,
+  queryFacilitySpatialIndex
+} from "./facilitySpatialIndex";
+import { scheduleIdleTask } from "../../utils/idleTask";
 
 type HazardLayerDefinition = {
   id: string;
@@ -51,12 +56,61 @@ type Props = {
     stationDistance: number;
   };
   stations: StationRecord[];
+  onLayerPanelOpenChange?: (isOpen: boolean) => void;
 };
 
 const SEARCH_FLY_TO_DURATION_MS = 800;
 const MAX_VISIBLE_FACILITY_MARKERS = 1200;
 const FACILITY_CLUSTER_MAX_ZOOM = 10;
 const FACILITY_CLUSTER_GRID_SIZE_PX = 72;
+const MAX_CLUSTER_ICON_CACHE_SIZE = 512;
+const facilityClusterIconCache = new Map<string, DivIcon>();
+
+type LayerPanel = "facilities" | "hazards";
+
+const FACILITY_FILTERS = [
+  { id: "commercial:small", categoryId: "commercial_facility", label: "小規模" },
+  { id: "commercial:medium", categoryId: "commercial_facility", label: "中規模" },
+  { id: "commercial:large", categoryId: "commercial_facility", label: "大規模" },
+  { id: "commercial:very_large", categoryId: "commercial_facility", label: "超大型" },
+  { id: "commercial:unknown", categoryId: "commercial_facility", label: "規模不明" },
+  { id: "museum:art", categoryId: "museum", label: "美術館・ギャラリー" },
+  { id: "museum:general", categoryId: "museum", label: "博物館・資料館" },
+  { id: "hot_spring:sento", categoryId: "hot_spring", label: "銭湯" },
+  { id: "hot_spring:spa", categoryId: "hot_spring", label: "スーパー銭湯・スパ" },
+  { id: "hot_spring:other", categoryId: "hot_spring", label: "温泉・その他" },
+  { id: "cinema:multiplex", categoryId: "cinema", label: "シネコン" },
+  { id: "cinema:other", categoryId: "cinema", label: "ミニシアター・その他" }
+] as const;
+
+type FacilityFilterId = (typeof FACILITY_FILTERS)[number]["id"];
+
+function facilityFilterId(facility: NearbyFacilityPoint): FacilityFilterId | null {
+  const name = facility.name.normalize("NFKC").toLowerCase();
+  if (facility.categoryId === "commercial_facility") {
+    return `commercial:${facility.scaleCode ?? "unknown"}` as FacilityFilterId;
+  }
+  if (facility.categoryId === "museum") {
+    return /(美術館|画廊|ギャラリー|gallery|\bart\b)/i.test(name)
+      ? "museum:art"
+      : "museum:general";
+  }
+  if (facility.categoryId === "hot_spring") {
+    if (/(スーパー銭湯|健康ランド|spa|スパ|温浴|極楽湯|竜泉寺|万葉)/i.test(name)) {
+      return "hot_spring:spa";
+    }
+    if (/(銭湯|公衆浴場|共同浴場|浴場|の湯|湯$)/i.test(name)) {
+      return "hot_spring:sento";
+    }
+    return "hot_spring:other";
+  }
+  if (facility.categoryId === "cinema") {
+    return /(toho|109シネマ|イオンシネマ|ユナイテッド.?シネマ|movix|t.?joy|ティ・ジョイ|シネマサンシャイン|シネマワールド)/i.test(name)
+      ? "cinema:multiplex"
+      : "cinema:other";
+  }
+  return null;
+}
 
 type MapViewport = {
   north: number;
@@ -110,11 +164,12 @@ function MapMover({ center }: { center: LatLngExpression | null }) {
 
 function ViewportTracker({ onChange }: { onChange: (viewport: MapViewport) => void }) {
   const map = useMap();
+  const lastViewportRef = useRef<MapViewport | null>(null);
 
   const updateViewport = useCallback(() => {
     const bounds = map.getBounds();
     const center = map.getCenter();
-    onChange({
+    const nextViewport = {
       north: bounds.getNorth(),
       south: bounds.getSouth(),
       east: bounds.getEast(),
@@ -122,7 +177,22 @@ function ViewportTracker({ onChange }: { onChange: (viewport: MapViewport) => vo
       centerLat: center.lat,
       centerLon: center.lng,
       zoom: map.getZoom()
-    });
+    };
+    const previous = lastViewportRef.current;
+    if (
+      previous &&
+      previous.north === nextViewport.north &&
+      previous.south === nextViewport.south &&
+      previous.east === nextViewport.east &&
+      previous.west === nextViewport.west &&
+      previous.centerLat === nextViewport.centerLat &&
+      previous.centerLon === nextViewport.centerLon &&
+      previous.zoom === nextViewport.zoom
+    ) {
+      return;
+    }
+    lastViewportRef.current = nextViewport;
+    onChange(nextViewport);
   }, [map, onChange]);
 
   useEffect(() => {
@@ -135,21 +205,6 @@ function ViewportTracker({ onChange }: { onChange: (viewport: MapViewport) => vo
   });
 
   return null;
-}
-
-function isLongitudeInBounds(lon: number, west: number, east: number) {
-  if (west <= east) {
-    return lon >= west && lon <= east;
-  }
-  return lon >= west || lon <= east;
-}
-
-function isFacilityInViewport(facility: NearbyFacilityPoint, viewport: MapViewport) {
-  return (
-    facility.lat >= viewport.south &&
-    facility.lat <= viewport.north &&
-    isLongitudeInBounds(facility.lon, viewport.west, viewport.east)
-  );
 }
 
 function projectToWorldPixel(lat: number, lon: number, zoom: number) {
@@ -206,16 +261,26 @@ function createFacilityClusterIcon(count: number, categoryColor: string) {
   const size = Math.round(34 + intensity * 34);
   const fillOpacity = (0.62 + intensity * 0.3).toFixed(2);
   const color = /^#[0-9a-f]{6}$/i.test(categoryColor) ? categoryColor : "#0f766e";
+  const cacheKey = `${count}:${color}`;
+  const cached = facilityClusterIconCache.get(cacheKey);
+  if (cached) {
+    return cached;
+  }
 
-  return new DivIcon({
+  const icon = new DivIcon({
     className: "facility-cluster-icon-wrapper",
     html: `<span class="facility-cluster-icon" style="--cluster-size:${size}px;--cluster-color:${color};--cluster-opacity:${fillOpacity}">${count}</span>`,
     iconSize: [size, size],
     iconAnchor: [size / 2, size / 2]
   });
+  if (facilityClusterIconCache.size >= MAX_CLUSTER_ICON_CACHE_SIZE) {
+    facilityClusterIconCache.clear();
+  }
+  facilityClusterIconCache.set(cacheKey, icon);
+  return icon;
 }
 
-function FacilityClusterMarker({
+const FacilityClusterMarker = memo(function FacilityClusterMarker({
   cluster,
   color,
   label
@@ -243,9 +308,59 @@ function FacilityClusterMarker({
       </Tooltip>
     </Marker>
   );
-}
+});
 
-export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: Props) {
+const FacilityPointMarker = memo(function FacilityPointMarker({
+  facility,
+  color,
+  categoryLabel,
+  stationInfo
+}: {
+  facility: NearbyFacilityPoint;
+  color: string;
+  categoryLabel: string;
+  stationInfo?: { stationName: string; walkingMinutes: number };
+}) {
+  return (
+    <CircleMarker
+      center={[facility.lat, facility.lon]}
+      pathOptions={{
+        color,
+        fillColor: color,
+        fillOpacity: 0.85,
+        weight: 2
+      }}
+      radius={7}
+      eventHandlers={{
+        click(event) {
+          event.originalEvent.stopPropagation();
+        }
+      }}
+    >
+      <Tooltip className="facility-marker-tooltip" direction="top" offset={[0, -8]}>
+        <strong>{facility.name}</strong>
+        <span>{categoryLabel}</span>
+        {facility.categoryId === "commercial_facility" && facility.scaleLabel ? (
+          <small>規模: {facility.scaleLabel}</small>
+        ) : null}
+        {stationInfo ? (
+          <small>
+            最寄駅: {stationInfo.stationName}駅・徒歩{stationInfo.walkingMinutes}分
+          </small>
+        ) : null}
+      </Tooltip>
+    </CircleMarker>
+  );
+});
+
+export function PropertyMap({
+  lat,
+  lon,
+  onSelect,
+  locationSummary,
+  stations,
+  onLayerPanelOpenChange
+}: Props) {
   const center = useMemo<LatLngExpression>(() => [lat ?? 35.681236, lon ?? 139.767125], [lat, lon]);
   const [query, setQuery] = useState("");
   const [searchCenter, setSearchCenter] = useState<LatLngExpression | null>(null);
@@ -255,6 +370,10 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
   const [activeHazardLayerIds, setActiveHazardLayerIds] = useState<Set<string>>(new Set());
   const [nearbyFacilities, setNearbyFacilities] = useState<NearbyFacilityCollection | null>(null);
   const [activeFacilityCategoryIds, setActiveFacilityCategoryIds] = useState<Set<NearbyFacilityCategoryId>>(new Set());
+  const [activeFacilityFilterIds, setActiveFacilityFilterIds] = useState<Set<FacilityFilterId>>(
+    new Set(FACILITY_FILTERS.map((filter) => filter.id))
+  );
+  const [openLayerPanel, setOpenLayerPanel] = useState<LayerPanel | null>(null);
   const [mapViewport, setMapViewport] = useState<MapViewport | null>(null);
 
   const hazardLayers = useMemo(
@@ -263,28 +382,43 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
   );
   const activeHazardLayers = hazardLayers.filter((layer) => activeHazardLayerIds.has(layer.id));
   const isAnyHazardLayerActive = activeHazardLayers.length > 0;
-  const activeFacilityPoints = useMemo(() => {
-    if (!nearbyFacilities) {
-      return [];
+  const facilitySpatialIndex = useMemo(
+    () => buildFacilitySpatialIndex(nearbyFacilities?.facilities ?? []),
+    [nearbyFacilities]
+  );
+  const facilityFilterIdByFacilityId = useMemo(() => {
+    const result = new Map<string, FacilityFilterId | null>();
+    for (const facility of nearbyFacilities?.facilities ?? []) {
+      result.set(facility.id, facilityFilterId(facility));
     }
-    return nearbyFacilities.facilities.filter((facility) =>
-      activeFacilityCategoryIds.has(facility.categoryId)
-    );
-  }, [activeFacilityCategoryIds, nearbyFacilities]);
-  const visibleFacilityPoints = useMemo(() => {
+    return result;
+  }, [nearbyFacilities]);
+  const facilitiesInViewport = useMemo(() => {
     if (!mapViewport) {
       return [];
     }
-
-    const inBounds = activeFacilityPoints.filter((facility) =>
-      isFacilityInViewport(facility, mapViewport)
-    );
-
-    if (inBounds.length <= MAX_VISIBLE_FACILITY_MARKERS) {
-      return inBounds;
+    return queryFacilitySpatialIndex(facilitySpatialIndex, mapViewport).filter((facility) => {
+      if (!activeFacilityCategoryIds.has(facility.categoryId)) {
+        return false;
+      }
+      const filterId = facilityFilterIdByFacilityId.get(facility.id) ?? null;
+      return filterId === null || activeFacilityFilterIds.has(filterId);
+    });
+  }, [
+    activeFacilityCategoryIds,
+    activeFacilityFilterIds,
+    facilityFilterIdByFacilityId,
+    facilitySpatialIndex,
+    mapViewport
+  ]);
+  const visibleFacilityPoints = useMemo(() => {
+    if (!mapViewport || mapViewport.zoom <= FACILITY_CLUSTER_MAX_ZOOM) {
+      return [];
     }
-
-    return [...inBounds]
+    if (facilitiesInViewport.length <= MAX_VISIBLE_FACILITY_MARKERS) {
+      return facilitiesInViewport;
+    }
+    return [...facilitiesInViewport]
       .sort((a, b) => {
         const aDistance =
           (a.lat - mapViewport.centerLat) ** 2 + (a.lon - mapViewport.centerLon) ** 2;
@@ -293,26 +427,24 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
         return aDistance - bDistance;
       })
       .slice(0, MAX_VISIBLE_FACILITY_MARKERS);
-  }, [activeFacilityPoints, mapViewport]);
+  }, [facilitiesInViewport, mapViewport]);
   const facilityClusters = useMemo(() => {
     if (!mapViewport || mapViewport.zoom > FACILITY_CLUSTER_MAX_ZOOM) {
       return [];
     }
-    const inBounds = activeFacilityPoints.filter((facility) =>
-      isFacilityInViewport(facility, mapViewport)
-    );
-    return clusterFacilities(inBounds, mapViewport.zoom);
-  }, [activeFacilityPoints, mapViewport]);
+    return clusterFacilities(facilitiesInViewport, mapViewport.zoom);
+  }, [facilitiesInViewport, mapViewport]);
   const showFacilityClusters =
     mapViewport !== null && mapViewport.zoom <= FACILITY_CLUSTER_MAX_ZOOM;
+  const locationPrefecture = locationSummary?.prefecture;
   const facilityStationInfoById = useMemo(() => {
     const result = new Map<string, { stationName: string; walkingMinutes: number }>();
-    if (!locationSummary || stations.length === 0) {
+    if (!locationPrefecture || stations.length === 0) {
       return result;
     }
 
     for (const facility of visibleFacilityPoints) {
-      if (facility.prefecture && facility.prefecture !== locationSummary.prefecture) {
+      if (facility.prefecture && facility.prefecture !== locationPrefecture) {
         continue;
       }
       const nearest = findNearestStation(stations, facility.lat, facility.lon);
@@ -324,11 +456,21 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
       }
     }
     return result;
-  }, [locationSummary, stations, visibleFacilityPoints]);
+  }, [locationPrefecture, stations, visibleFacilityPoints]);
   const facilityCountsByCategoryId = useMemo(() => {
     const counts = new Map<NearbyFacilityCategoryId, number>();
     for (const facility of nearbyFacilities?.facilities ?? []) {
       counts.set(facility.categoryId, (counts.get(facility.categoryId) ?? 0) + 1);
+    }
+    return counts;
+  }, [nearbyFacilities]);
+  const facilityCountsByFilterId = useMemo(() => {
+    const counts = new Map<FacilityFilterId, number>();
+    for (const facility of nearbyFacilities?.facilities ?? []) {
+      const filterId = facilityFilterId(facility);
+      if (filterId) {
+        counts.set(filterId, (counts.get(filterId) ?? 0) + 1);
+      }
     }
     return counts;
   }, [nearbyFacilities]);
@@ -340,6 +482,39 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
     const entries = nearbyFacilities?.categories.map((category) => [category.id, category] as const) ?? [];
     return new Map(entries);
   }, [nearbyFacilities]);
+  const facilityLayerMarkers = useMemo(() => {
+    if (showFacilityClusters) {
+      return facilityClusters.map((cluster) => {
+        const category = facilityCategoryById.get(cluster.categoryId);
+        return (
+          <FacilityClusterMarker
+            key={cluster.id}
+            cluster={cluster}
+            color={category?.color ?? "#0f766e"}
+            label={category?.label ?? "周辺施設"}
+          />
+        );
+      });
+    }
+    return visibleFacilityPoints.map((facility) => {
+      const category = facilityCategoryById.get(facility.categoryId);
+      return (
+        <FacilityPointMarker
+          key={facility.id}
+          facility={facility}
+          color={category?.color ?? "#0f766e"}
+          categoryLabel={category?.label ?? "周辺施設"}
+          stationInfo={facilityStationInfoById.get(facility.id)}
+        />
+      );
+    });
+  }, [
+    facilityCategoryById,
+    facilityClusters,
+    facilityStationInfoById,
+    showFacilityClusters,
+    visibleFacilityPoints
+  ]);
 
   useEffect(() => {
     if (!searchStatus) {
@@ -398,10 +573,11 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
       }
     }
 
-    loadMapLayers();
+    const cancelLoad = scheduleIdleTask(() => void loadMapLayers());
 
     return () => {
       disposed = true;
+      cancelLoad();
     };
   }, []);
 
@@ -427,6 +603,29 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
       }
       return next;
     });
+  }
+
+  function toggleFacilityFilter(filterId: FacilityFilterId) {
+    setActiveFacilityFilterIds((current) => {
+      const next = new Set(current);
+      if (next.has(filterId)) {
+        next.delete(filterId);
+      } else {
+        next.add(filterId);
+      }
+      return next;
+    });
+  }
+
+  function toggleLayerPanel(panel: LayerPanel) {
+    const next = openLayerPanel === panel ? null : panel;
+    setOpenLayerPanel(next);
+    onLayerPanelOpenChange?.(next !== null);
+  }
+
+  function closeLayerPanel() {
+    setOpenLayerPanel(null);
+    onLayerPanelOpenChange?.(false);
   }
 
   function toggleAllHazardLayers() {
@@ -482,36 +681,30 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
           {searchStatus ? <p>{searchStatus}</p> : null}
         </form>
         <div className="mobile-map-layer-controls" aria-label="地図レイヤー切替">
-          {nearbyFacilities?.categories.map((category) => {
-            const isActive = activeFacilityCategoryIds.has(category.id);
-            const count = facilityCountsByCategoryId.get(category.id) ?? 0;
-            return (
-              <button
-                type="button"
-                key={category.id}
-                className={isActive ? "is-active" : ""}
-                aria-pressed={isActive}
-                disabled={count === 0}
-                onClick={() => toggleFacilityCategory(category.id)}
-              >
-                <span style={{ color: category.color }} aria-hidden="true">●</span>
-                {category.label}
-              </button>
-            );
-          })}
+          {nearbyFacilities ? (
+            <button
+              type="button"
+              className={openLayerPanel === "facilities" ? "is-active" : ""}
+              aria-expanded={openLayerPanel === "facilities"}
+              onClick={() => toggleLayerPanel("facilities")}
+            >
+              <span aria-hidden="true">●</span>
+              周辺施設
+            </button>
+          ) : null}
           {hazardLayers.length > 0 ? (
             <button
               type="button"
-              className={isAnyHazardLayerActive ? "is-active" : ""}
-              aria-pressed={isAnyHazardLayerActive}
-              onClick={toggleAllHazardLayers}
+              className={openLayerPanel === "hazards" ? "is-active" : ""}
+              aria-expanded={openLayerPanel === "hazards"}
+              onClick={() => toggleLayerPanel("hazards")}
             >
               <span aria-hidden="true">◆</span>
               ハザード
             </button>
           ) : null}
         </div>
-        <MapContainer center={center} zoom={12} className="map">
+        <MapContainer center={center} zoom={12} className="map" preferCanvas>
           <ViewportTracker onChange={setMapViewport} />
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -529,51 +722,7 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
               zIndex={300 + index}
             />
           ))}
-          {showFacilityClusters
-            ? facilityClusters.map((cluster) => {
-                const category = facilityCategoryById.get(cluster.categoryId);
-                return (
-                  <FacilityClusterMarker
-                    key={cluster.id}
-                    cluster={cluster}
-                    color={category?.color ?? "#0f766e"}
-                    label={category?.label ?? "周辺施設"}
-                  />
-                );
-              })
-            : visibleFacilityPoints.map((facility) => {
-            const category = facilityCategoryById.get(facility.categoryId);
-            const color = category?.color ?? "#0f766e";
-            const stationInfo = facilityStationInfoById.get(facility.id);
-            return (
-              <CircleMarker
-                key={facility.id}
-                center={[facility.lat, facility.lon]}
-                pathOptions={{
-                  color,
-                  fillColor: color,
-                  fillOpacity: 0.85,
-                  weight: 2
-                }}
-                radius={7}
-                eventHandlers={{
-                  click(event) {
-                    event.originalEvent.stopPropagation();
-                  }
-                }}
-              >
-                <Tooltip className="facility-marker-tooltip" direction="top" offset={[0, -8]}>
-                  <strong>{facility.name}</strong>
-                  <span>{category?.label ?? "周辺施設"}</span>
-                  {stationInfo ? (
-                    <small>
-                      最寄駅: {stationInfo.stationName}駅・徒歩{stationInfo.walkingMinutes}分
-                    </small>
-                  ) : null}
-                </Tooltip>
-              </CircleMarker>
-            );
-          })}
+          {facilityLayerMarkers}
           <ClickHandler onSelect={handleMapSelect} />
           {lat !== null && lon !== null ? (
             <Marker icon={propertyMarkerIcon} position={[lat, lon]}>
@@ -608,22 +757,45 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
             </Marker>
           ) : null}
         </MapContainer>
-        {nearbyFacilities ? (
-          <div className="facility-layer-control" aria-label="周辺施設レイヤー" data-testid="facility-layer-control">
-            <strong>周辺施設</strong>
+        {nearbyFacilities && openLayerPanel === "facilities" ? (
+          <div className="map-layer-control facility-layer-control" aria-label="周辺施設レイヤー" data-testid="facility-layer-control">
+            <div className="map-layer-control-header">
+              <strong>周辺施設</strong>
+              <button type="button" aria-label="周辺施設を閉じる" onClick={closeLayerPanel}>×</button>
+            </div>
             {nearbyFacilities.categories.map((category) => {
+              const filters = FACILITY_FILTERS.filter((filter) => filter.categoryId === category.id);
               const count = facilityCountsByCategoryId.get(category.id) ?? 0;
               return (
-                <label className="map-layer-toggle" key={category.id}>
-                  <input
-                    type="checkbox"
-                    checked={activeFacilityCategoryIds.has(category.id)}
-                    disabled={count === 0}
-                    onChange={() => toggleFacilityCategory(category.id)}
-                  />
-                  <span className="facility-layer-swatch" style={{ backgroundColor: category.color }} aria-hidden="true" />
-                  <span>{category.label}</span>
-                </label>
+                <fieldset className="map-layer-filter-group" key={category.id}>
+                  <legend>
+                    <span className="facility-layer-swatch" style={{ backgroundColor: category.color }} aria-hidden="true" />
+                    {category.label}
+                  </legend>
+                  {filters.length > 0 ? filters.map((filter) => (
+                    <label className="map-layer-toggle" key={filter.id}>
+                      <input
+                        type="checkbox"
+                        checked={activeFacilityFilterIds.has(filter.id)}
+                        disabled={(facilityCountsByFilterId.get(filter.id) ?? 0) === 0}
+                        onChange={() => toggleFacilityFilter(filter.id)}
+                      />
+                      <span>{filter.label}</span>
+                      <small>{(facilityCountsByFilterId.get(filter.id) ?? 0).toLocaleString("ja-JP")}</small>
+                    </label>
+                  )) : (
+                    <label className="map-layer-toggle">
+                      <input
+                        type="checkbox"
+                        checked={activeFacilityCategoryIds.has(category.id)}
+                        disabled={count === 0}
+                        onChange={() => toggleFacilityCategory(category.id)}
+                      />
+                      <span>{category.label}を表示</span>
+                      <small>{count.toLocaleString("ja-JP")}</small>
+                    </label>
+                  )}
+                </fieldset>
               );
             })}
             {nearbyFacilities.facilities.length === 0 ? (
@@ -643,9 +815,15 @@ export function PropertyMap({ lat, lon, onSelect, locationSummary, stations }: P
             )}
           </div>
         ) : null}
-        {hazardLayers.length > 0 && hazardConfig ? (
-          <div className="hazard-layer-control" aria-label="ハザードレイヤー" data-testid="hazard-layer-control">
-            <strong>ハザード</strong>
+        {hazardLayers.length > 0 && hazardConfig && openLayerPanel === "hazards" ? (
+          <div className="map-layer-control hazard-layer-control" aria-label="ハザードレイヤー" data-testid="hazard-layer-control">
+            <div className="map-layer-control-header">
+              <strong>ハザード</strong>
+              <button type="button" aria-label="ハザードを閉じる" onClick={closeLayerPanel}>×</button>
+            </div>
+            <button type="button" className="map-layer-all-toggle" onClick={toggleAllHazardLayers}>
+              {isAnyHazardLayerActive ? "すべて非表示" : "すべて表示"}
+            </button>
             {hazardLayers.map((layer) => (
               <label className="map-layer-toggle" key={layer.id}>
                 <input

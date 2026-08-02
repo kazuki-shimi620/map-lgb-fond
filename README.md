@@ -18,9 +18,17 @@
 - 予測価格、平米単価、参考価格帯の表示
 - 過去価格と将来参考価格のグラフ表示
 - 首都圏4都県の専用モデルと8地方モデルによる全国推論
+- 全国の商業施設、映画館、美術館・博物館、温泉・入浴施設のカテゴリ別クラスター表示
+- 周辺商業施設、駅規模、災害リスク、モデル詳細の参考情報表示
 - スマートフォン向けボトムシートUI
 
 ## 画面イメージ
+
+### 全国の周辺施設
+
+地図をズームアウトすると、商業施設、映画館、美術館・博物館、温泉・入浴施設をカテゴリ別の件数にまとめて表示します。件数が多いほど円が大きく濃くなり、クリックするとその地域へズームインできます。
+
+![日本全国の周辺施設クラスター](docs/images/app-japan-facility-clusters.png)
 
 ### 価格予測結果
 
@@ -35,6 +43,12 @@
 将来価格は学習最終年のモデル予測値を基点に、駅別または地域別の価格推移トレンドで補正した参考値です。長期予測の精度は保証しません。
 
 ![価格推移グラフ](docs/images/app-price-history.png)
+
+### 周辺施設情報
+
+サイドメニューの参考情報では、周辺商業施設の名称、開業時期、店舗面積、テナント数や地域内の集計を確認できます。駅規模、災害リスク、モデル詳細もタブで切り替えられます。
+
+![サイドメニューの周辺施設情報](docs/images/app-nearby-facilities.png)
 
 ### スマートフォン表示
 
@@ -96,7 +110,7 @@ React + ONNX Runtime Web
 
 ```text
 frontend/          React、TypeScript、Vite、Playwright
-frontend/public/   ブラウザ配信用ONNX、メタデータ、駅マスタ、価格推移JSON
+frontend/public/   ブラウザ配信用ONNX、メタデータ、駅・施設・ハザード・価格推移データ
 training/          データ取得、前処理、学習、評価、ONNX出力
 training/browser/  公式画面CSVダウンロード用Playwrightスクリプト
 docs/              要件定義、実装仕様、テスト仕様、画面画像
@@ -128,7 +142,7 @@ developで開発
         ↓
 main向けPull Request
         ↓
-ビルドおよびE2Eテスト
+フロントエンドビルドおよびPython軽量CI
         ↓
 mainへマージ
         ↓
@@ -234,7 +248,9 @@ LightGBMでは、駅名、自治体、間取り、建物構造などのカテゴ
 - 入力変更による自動再予測
 - 地図クリックによる物件位置変更
 - 住所検索
+- 周辺施設のカテゴリ切り替えとクラスター表示
 - 価格推移グラフ
+- 商業施設、駅規模、災害リスク、モデル詳細の参考情報
 - デスクトップ表示
 - スマートフォン用ボトムシート
 - モデルおよびデータ読み込み失敗時の表示
@@ -271,6 +287,8 @@ npm run test:e2e:screenshots
 ```text
 docs/images/
 ├── app-desktop.png
+├── app-japan-facility-clusters.png
+├── app-nearby-facilities.png
 ├── app-prediction-result.png
 ├── app-price-history.png
 └── app-mobile.png

@@ -54,12 +54,21 @@ def add_station_passenger_features(property_df, station_passengers_df):
     else:
         stations = _aggregate_by_station_name(station_passengers_df)
         result["_normalized_station_name"] = result["station"].map(normalize_station_name)
-        result = result.merge(
-            stations,
-            how="left",
-            left_on="_normalized_station_name",
-            right_on="normalized_station_name",
-        ).drop(columns=["_normalized_station_name", "normalized_station_name"])
+        if "prefecture" in result.columns and "prefecture" in stations.columns:
+            result = result.merge(
+                stations,
+                how="left",
+                left_on=["prefecture", "_normalized_station_name"],
+                right_on=["prefecture", "normalized_station_name"],
+            )
+        else:
+            result = result.merge(
+                stations,
+                how="left",
+                left_on="_normalized_station_name",
+                right_on="normalized_station_name",
+            )
+        result = result.drop(columns=["_normalized_station_name", "normalized_station_name"])
 
     result = result.rename(
         columns={
@@ -97,13 +106,17 @@ def _aggregate_by_station_name(stations):
         normalize_station_name
     )
     scoped = scoped[scoped["normalized_station_name"] != ""]
+    keys = ["normalized_station_name"]
+    if "prefecture" in scoped.columns:
+        keys.insert(0, "prefecture")
     scoped = scoped.sort_values(
-        ["normalized_station_name", "latest_passenger_count"],
-        ascending=[True, False],
+        [*keys, "latest_passenger_count"],
+        ascending=[*[True] * len(keys), False],
     )
-    selected = scoped.drop_duplicates(subset=["normalized_station_name"], keep="first")
+    selected = scoped.drop_duplicates(subset=keys, keep="first")
     columns = [
         "normalized_station_name",
+        "prefecture",
         "latest_passenger_count",
         "latest_passenger_year",
         "rank",

@@ -5,7 +5,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.446159,
-    "lon": 133.323072
+    "lon": 133.323072,
+    "station_passenger_log": 5.720311776607412,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0001",
@@ -13,7 +17,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR伯備線",
     "lat": 35.112622,
-    "lon": 133.351273
+    "lon": 133.351273,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0003",
@@ -21,7 +29,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR伯備線",
     "lat": 35.193886,
-    "lon": 133.341813
+    "lon": 133.341813,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0036",
@@ -29,7 +41,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.531148,
-    "lon": 133.230748
+    "lon": 133.230748,
+    "station_passenger_log": 5.666426688112432,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0052",
@@ -37,7 +53,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.481915,
-    "lon": 133.809109
+    "lon": 133.809109,
+    "station_passenger_log": 4.844187086458591,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0058",
@@ -45,7 +65,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.518821,
-    "lon": 133.566302
+    "lon": 133.566302,
+    "station_passenger_log": 4.634728988229636,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0057",
@@ -53,7 +77,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.52088,
-    "lon": 133.590017
+    "lon": 133.590017,
+    "station_passenger_log": 4.77912349311153,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0033",
@@ -61,7 +89,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.506165,
-    "lon": 133.24518
+    "lon": 133.24518,
+    "station_passenger_log": 4.59511985013459,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0072",
@@ -69,7 +101,11 @@
     "prefecture": "鳥取県",
     "line_name": "若桜鉄道若桜線",
     "lat": 35.360734,
-    "lon": 134.356175
+    "lon": 134.356175,
+    "station_passenger_log": 4.564348191467836,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0010",
@@ -77,7 +113,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR伯備線",
     "lat": 35.430142,
-    "lon": 133.384216
+    "lon": 133.384216,
+    "station_passenger_log": 7.221835825288449,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0008",
@@ -85,7 +125,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR伯備線",
     "lat": 35.348207,
-    "lon": 133.435357
+    "lon": 133.435357,
+    "station_passenger_log": 4.8283137373023015,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0035",
@@ -93,7 +137,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.521216,
-    "lon": 133.236464
+    "lon": 133.236464,
+    "station_passenger_log": 5.983936280687191,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0051",
@@ -101,7 +149,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.45473,
-    "lon": 133.849661
+    "lon": 133.849661,
+    "station_passenger_log": 8.133000218583613,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0070",
@@ -109,7 +161,11 @@
     "prefecture": "鳥取県",
     "line_name": "若桜鉄道若桜線",
     "lat": 35.363572,
-    "lon": 134.316496
+    "lon": 134.316496,
+    "station_passenger_log": 3.912023005428146,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0055",
@@ -117,7 +173,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.503256,
-    "lon": 133.673683
+    "lon": 133.673683,
+    "station_passenger_log": 4.844187086458591,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0066",
@@ -125,7 +185,11 @@
     "prefecture": "鳥取県",
     "line_name": "若桜鉄道若桜線",
     "lat": 35.405799,
-    "lon": 134.246254
+    "lon": 134.246254,
+    "station_passenger_log": 6.602587892189336,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0024",
@@ -133,7 +197,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.43168,
-    "lon": 133.339619
+    "lon": 133.339619,
+    "station_passenger_log": 5.814130531825066,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0060",
@@ -141,7 +209,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.507256,
-    "lon": 133.49192
+    "lon": 133.49192,
+    "station_passenger_log": 4.442651256490317,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0030",
@@ -149,7 +221,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.480541,
-    "lon": 133.265496
+    "lon": 133.265496,
+    "station_passenger_log": 4.976733742420574,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0019",
@@ -157,7 +233,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR因美線",
     "lat": 35.312507,
-    "lon": 134.196673
+    "lon": 134.196673,
+    "station_passenger_log": 3.49650756146648,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0067",
@@ -165,7 +245,11 @@
     "prefecture": "鳥取県",
     "line_name": "若桜鉄道若桜線",
     "lat": 35.395187,
-    "lon": 134.249174
+    "lon": 134.249174,
+    "station_passenger_log": 4.2626798770413155,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0016",
@@ -173,7 +257,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR因美線",
     "lat": 35.373016,
-    "lon": 134.217702
+    "lon": 134.217702,
+    "station_passenger_log": 3.49650756146648,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0021",
@@ -181,7 +269,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR因美線",
     "lat": 35.232901,
-    "lon": 134.225627
+    "lon": 134.225627,
+    "station_passenger_log": 3.295836866004329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0038",
@@ -189,7 +281,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.545002,
-    "lon": 133.222762
+    "lon": 133.222762,
+    "station_passenger_log": 6.523562306149512,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0061",
@@ -197,7 +293,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.485045,
-    "lon": 133.456718
+    "lon": 133.456718,
+    "station_passenger_log": 5.973809611869261,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0041",
@@ -205,7 +305,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.566835,
-    "lon": 134.308114
+    "lon": 134.308114,
+    "station_passenger_log": 5.017279836814924,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0031",
@@ -213,7 +317,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.4889,
-    "lon": 133.255891
+    "lon": 133.255891,
+    "station_passenger_log": 4.574710978503383,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0069",
@@ -221,7 +329,11 @@
     "prefecture": "鳥取県",
     "line_name": "若桜鉄道若桜線",
     "lat": 35.374526,
-    "lon": 134.291682
+    "lon": 134.291682,
+    "station_passenger_log": 3.6375861597263857,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0046",
@@ -229,7 +341,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.514153,
-    "lon": 134.081789
+    "lon": 134.081789,
+    "station_passenger_log": 5.424950017481403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0025",
@@ -245,7 +361,11 @@
     "prefecture": "鳥取県",
     "line_name": "智頭急行智頭線",
     "lat": 35.232581,
-    "lon": 134.288644
+    "lon": 134.288644,
+    "station_passenger_log": 2.772588722239781,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0040",
@@ -253,7 +373,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.574182,
-    "lon": 134.335595
+    "lon": 134.335595,
+    "station_passenger_log": 6.466144724237619,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0009",
@@ -261,7 +385,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR伯備線",
     "lat": 35.387333,
-    "lon": 133.409475
+    "lon": 133.409475,
+    "station_passenger_log": 5.176149732573829,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0029",
@@ -269,7 +397,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.466757,
-    "lon": 133.288527
+    "lon": 133.288527,
+    "station_passenger_log": 6.163314804034641,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0026",
@@ -277,7 +409,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.440026,
-    "lon": 133.331264
+    "lon": 133.331264,
+    "station_passenger_log": 6.3784261836515865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0059",
@@ -285,7 +421,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.512234,
-    "lon": 133.502858
+    "lon": 133.502858,
+    "station_passenger_log": 5.153291594497779,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0071",
@@ -293,7 +433,11 @@
     "prefecture": "鳥取県",
     "line_name": "若桜鉄道若桜線",
     "lat": 35.364323,
-    "lon": 134.335719
+    "lon": 134.335719,
+    "station_passenger_log": 2.6390573296152584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0065",
@@ -301,7 +445,11 @@
     "prefecture": "鳥取県",
     "line_name": "智頭急行智頭線",
     "lat": 35.255641,
-    "lon": 134.279083
+    "lon": 134.279083,
+    "station_passenger_log": 1.791759469228055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0020",
@@ -309,7 +457,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR因美線",
     "lat": 35.264992,
-    "lon": 134.22559
+    "lon": 134.22559,
+    "station_passenger_log": 7.701200180857446,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0045",
@@ -317,7 +469,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.52395,
-    "lon": 134.135739
+    "lon": 134.135739,
+    "station_passenger_log": 6.558197802812269,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0063",
@@ -333,7 +489,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.599471,
-    "lon": 134.362225
+    "lon": 134.362225,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0013",
@@ -341,7 +501,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR因美線",
     "lat": 35.429036,
-    "lon": 134.259877
+    "lon": 134.259877,
+    "station_passenger_log": 4.61512051684126,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0050",
@@ -349,7 +513,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.46871,
-    "lon": 133.902053
+    "lon": 133.902053,
+    "station_passenger_log": 5.8664680569332965,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0005",
@@ -357,7 +525,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR伯備線",
     "lat": 35.241483,
-    "lon": 133.442036
+    "lon": 133.442036,
+    "station_passenger_log": 5.501258210544727,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0006",
@@ -365,7 +537,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR伯備線",
     "lat": 35.267419,
-    "lon": 133.476857
+    "lon": 133.476857,
+    "station_passenger_log": 3.6635616461296463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0007",
@@ -373,7 +549,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR伯備線",
     "lat": 35.283043,
-    "lon": 133.484837
+    "lon": 133.484837,
+    "station_passenger_log": 4.204692619390966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0015",
@@ -381,7 +561,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR因美線",
     "lat": 35.397522,
-    "lon": 134.223098
+    "lon": 134.223098,
+    "station_passenger_log": 5.003946305945459,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0028",
@@ -389,7 +573,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.45676,
-    "lon": 133.305407
+    "lon": 133.305407,
+    "station_passenger_log": 5.8888779583328805,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0049",
@@ -397,7 +585,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.509103,
-    "lon": 133.936515
+    "lon": 133.936515,
+    "station_passenger_log": 4.875197323201151,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0012",
@@ -405,7 +597,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR因美線",
     "lat": 35.461129,
-    "lon": 134.248594
+    "lon": 134.248594,
+    "station_passenger_log": 6.717804695023691,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0047",
@@ -413,7 +609,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.509522,
-    "lon": 134.050749
+    "lon": 134.050749,
+    "station_passenger_log": 6.535241271013659,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0054",
@@ -422,10 +622,10 @@
     "line_name": "JR山陰本線",
     "lat": 35.499695,
     "lon": 133.693462,
-    "station_passenger_log": 11.246078166706276,
+    "station_passenger_log": 6.278521424165844,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "B"
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0062",
@@ -433,7 +633,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.457017,
-    "lon": 133.429788
+    "lon": 133.429788,
+    "station_passenger_log": 5.860786223465865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0043",
@@ -441,7 +645,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.513455,
-    "lon": 134.186232
+    "lon": 134.186232,
+    "station_passenger_log": 6.90875477931522,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0002",
@@ -449,7 +657,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR伯備線",
     "lat": 35.171066,
-    "lon": 133.322054
+    "lon": 133.322054,
+    "station_passenger_log": 5.017279836814924,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0018",
@@ -457,7 +669,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR因美線",
     "lat": 35.343492,
-    "lon": 134.205085
+    "lon": 134.205085,
+    "station_passenger_log": 4.844187086458591,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0053",
@@ -465,7 +681,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.490237,
-    "lon": 133.754367
+    "lon": 133.754367,
+    "station_passenger_log": 6.561030665896573,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0042",
@@ -473,7 +693,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.545512,
-    "lon": 134.287239
+    "lon": 134.287239,
+    "station_passenger_log": 4.6913478822291435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0023",
@@ -481,7 +705,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.42327,
-    "lon": 133.33657
+    "lon": 133.33657,
+    "station_passenger_log": 8.734399150063695,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tottori_0032",
@@ -489,7 +717,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.502321,
-    "lon": 133.247372
+    "lon": 133.247372,
+    "station_passenger_log": 5.666426688112432,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0073",
@@ -497,7 +729,11 @@
     "prefecture": "鳥取県",
     "line_name": "若桜鉄道若桜線",
     "lat": 35.345253,
-    "lon": 134.398289
+    "lon": 134.398289,
+    "station_passenger_log": 5.4638318050256105,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0056",
@@ -505,7 +741,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.512437,
-    "lon": 133.634527
+    "lon": 133.634527,
+    "station_passenger_log": 6.19644412779452,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0022",
@@ -513,7 +753,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR因美線",
     "lat": 35.213769,
-    "lon": 134.209968
+    "lon": 134.209968,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0014",
@@ -521,7 +765,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR因美線",
     "lat": 35.412824,
-    "lon": 134.250807
+    "lon": 134.250807,
+    "station_passenger_log": 7.45298232946546,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0068",
@@ -529,7 +777,11 @@
     "prefecture": "鳥取県",
     "line_name": "若桜鉄道若桜線",
     "lat": 35.388707,
-    "lon": 134.270503
+    "lon": 134.270503,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0048",
@@ -537,7 +789,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.516228,
-    "lon": 133.995782
+    "lon": 133.995782,
+    "station_passenger_log": 6.431331081933479,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0037",
@@ -545,7 +801,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.538461,
-    "lon": 133.2265
+    "lon": 133.2265,
+    "station_passenger_log": 6.075346031088684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0034",
@@ -553,7 +813,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR境線",
     "lat": 35.515408,
-    "lon": 133.23985
+    "lon": 133.23985,
+    "station_passenger_log": 4.2626798770413155,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0011",
@@ -561,7 +825,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR因美線",
     "lat": 35.493953,
-    "lon": 134.225901
+    "lon": 134.225901,
+    "station_passenger_log": 9.11173476822206,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tottori_0044",
@@ -569,7 +837,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR山陰本線",
     "lat": 35.51804,
-    "lon": 134.174305
+    "lon": 134.174305,
+    "station_passenger_log": 8.094073148069352,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0017",
@@ -577,7 +849,11 @@
     "prefecture": "鳥取県",
     "line_name": "JR因美線",
     "lat": 35.354205,
-    "lon": 134.206304
+    "lon": 134.206304,
+    "station_passenger_log": 4.07753744390572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tottori_0004",
@@ -585,6 +861,10 @@
     "prefecture": "鳥取県",
     "line_name": "JR伯備線",
     "lat": 35.206893,
-    "lon": 133.383674
+    "lon": 133.383674,
+    "station_passenger_log": 3.49650756146648,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

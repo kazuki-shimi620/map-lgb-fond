@@ -5,7 +5,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.592913,
-    "lon": 139.871157
+    "lon": 139.871157,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0119",
@@ -13,7 +17,11 @@
     "prefecture": "青森県",
     "line_name": "東北新幹線",
     "lat": 40.719954,
-    "lon": 141.153817
+    "lon": 141.153817,
+    "station_passenger_log": 7.223295679562314,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0087",
@@ -21,7 +29,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 41.185404,
-    "lon": 140.444482
+    "lon": 140.444482,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0132",
@@ -29,7 +41,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.395941,
-    "lon": 141.27322
+    "lon": 141.27322,
+    "station_passenger_log": 5.8664680569332965,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0140",
@@ -37,7 +53,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.669735,
-    "lon": 141.353649
+    "lon": 141.353649,
+    "station_passenger_log": 7.716015266642587,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0142",
@@ -45,7 +65,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.732993,
-    "lon": 141.264801
+    "lon": 141.264801,
+    "station_passenger_log": 6.1779441140506,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0055",
@@ -53,7 +77,11 @@
     "prefecture": "青森県",
     "line_name": "JR大湊線",
     "lat": 41.28288,
-    "lon": 141.18989
+    "lon": 141.18989,
+    "station_passenger_log": 5.808142489980444,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0138",
@@ -61,7 +89,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.591958,
-    "lon": 141.407965
+    "lon": 141.407965,
+    "station_passenger_log": 5.976350909297934,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0104",
@@ -69,7 +101,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道大鰐線",
     "lat": 40.599144,
-    "lon": 140.472203
+    "lon": 140.472203,
+    "station_passenger_log": 6.021023349349527,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0081",
@@ -77,7 +113,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 41.051702,
-    "lon": 140.596798
+    "lon": 140.596798,
+    "station_passenger_log": 0.0,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0076",
@@ -85,7 +125,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 40.949044,
-    "lon": 140.656244
+    "lon": 140.656244,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0024",
@@ -94,10 +138,10 @@
     "line_name": "JR五能線",
     "lat": 40.787424,
     "lon": 140.364505,
-    "station_passenger_log": 9.728896041804084,
+    "station_passenger_log": 0.0,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "D"
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0143",
@@ -105,7 +149,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.780328,
-    "lon": 141.213039
+    "lon": 141.213039,
+    "station_passenger_log": 5.846438775057725,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0026",
@@ -113,7 +161,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.809124,
-    "lon": 140.44776
+    "lon": 140.44776,
+    "station_passenger_log": 7.254884810077338,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0122",
@@ -121,7 +173,11 @@
     "prefecture": "青森県",
     "line_name": "津軽鉄道",
     "lat": 40.821146,
-    "lon": 140.478753
+    "lon": 140.478753,
+    "station_passenger_log": 5.111987788356544,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0085",
@@ -129,7 +185,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 41.179741,
-    "lon": 140.490448
+    "lon": 140.490448,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0156",
@@ -137,7 +197,11 @@
     "prefecture": "青森県",
     "line_name": "青函トンネル竜飛斜坑線",
     "lat": 41.254054,
-    "lon": 140.347169
+    "lon": 140.347169,
+    "station_passenger_log": 4.820281565605037,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0033",
@@ -145,7 +209,11 @@
     "prefecture": "青森県",
     "line_name": "JR八戸線",
     "lat": 40.5092,
-    "lon": 141.431499
+    "lon": 141.431499,
+    "station_passenger_log": 9.340227632810604,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aomori_0134",
@@ -153,7 +221,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.449025,
-    "lon": 141.346805
+    "lon": 141.346805,
+    "station_passenger_log": 5.342334251964811,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0064",
@@ -161,7 +233,11 @@
     "prefecture": "青森県",
     "line_name": "JR奥羽本線",
     "lat": 40.67053,
-    "lon": 140.54359
+    "lon": 140.54359,
+    "station_passenger_log": 6.670766320845874,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0047",
@@ -169,7 +245,11 @@
     "prefecture": "青森県",
     "line_name": "JR大湊線",
     "lat": 40.871077,
-    "lon": 141.134115
+    "lon": 141.134115,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0017",
@@ -177,7 +257,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.745995,
-    "lon": 140.095052
+    "lon": 140.095052,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0136",
@@ -185,7 +269,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.475126,
-    "lon": 141.405233
+    "lon": 141.405233,
+    "station_passenger_log": 3.332204510175204,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0004",
@@ -193,7 +281,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.551539,
-    "lon": 139.941986
+    "lon": 139.941986,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0121",
@@ -201,7 +293,11 @@
     "prefecture": "青森県",
     "line_name": "津軽鉄道",
     "lat": 40.817526,
-    "lon": 140.457044
+    "lon": 140.457044,
+    "station_passenger_log": 2.302585092994046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0100",
@@ -209,7 +305,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道大鰐線",
     "lat": 40.567387,
-    "lon": 140.480282
+    "lon": 140.480282,
+    "station_passenger_log": 4.532599493153256,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0144",
@@ -217,7 +317,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.804662,
-    "lon": 141.152876
+    "lon": 141.152876,
+    "station_passenger_log": 2.4849066497880004,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0016",
@@ -225,7 +329,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.767769,
-    "lon": 140.054832
+    "lon": 140.054832,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0139",
@@ -233,7 +341,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.629544,
-    "lon": 141.370392
+    "lon": 141.370392,
+    "station_passenger_log": 4.04305126783455,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0049",
@@ -241,7 +353,11 @@
     "prefecture": "青森県",
     "line_name": "JR大湊線",
     "lat": 41.022038,
-    "lon": 141.246552
+    "lon": 141.246552,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0125",
@@ -249,7 +365,11 @@
     "prefecture": "青森県",
     "line_name": "津軽鉄道",
     "lat": 40.881058,
-    "lon": 140.469316
+    "lon": 140.469316,
+    "station_passenger_log": 3.784189633918261,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0116",
@@ -257,7 +377,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道弘南線",
     "lat": 40.648609,
-    "lon": 140.575691
+    "lon": 140.575691,
+    "station_passenger_log": 3.6375861597263857,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0042",
@@ -265,7 +389,11 @@
     "prefecture": "青森県",
     "line_name": "JR八戸線",
     "lat": 40.495135,
-    "lon": 141.622958
+    "lon": 141.622958,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0084",
@@ -273,7 +401,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 41.163204,
-    "lon": 140.507592
+    "lon": 140.507592,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0082",
@@ -281,7 +413,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 41.065866,
-    "lon": 140.559375
+    "lon": 140.559375,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0015",
@@ -289,7 +425,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.759325,
-    "lon": 140.033596
+    "lon": 140.033596,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0129",
@@ -297,7 +437,11 @@
     "prefecture": "青森県",
     "line_name": "津軽鉄道",
     "lat": 40.940243,
-    "lon": 140.437396
+    "lon": 140.437396,
+    "station_passenger_log": 3.5553480614894135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0056",
@@ -305,7 +449,11 @@
     "prefecture": "青森県",
     "line_name": "JR大湊線",
     "lat": 41.280344,
-    "lon": 141.161772
+    "lon": 141.161772,
+    "station_passenger_log": 5.351858133476067,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0044",
@@ -313,7 +461,11 @@
     "prefecture": "青森県",
     "line_name": "JR八戸線",
     "lat": 40.467251,
-    "lon": 141.650773
+    "lon": 141.650773,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0066",
@@ -321,7 +473,11 @@
     "prefecture": "青森県",
     "line_name": "JR奥羽本線",
     "lat": 40.756736,
-    "lon": 140.587776
+    "lon": 140.587776,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0001",
@@ -329,7 +485,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.492407,
-    "lon": 139.950062
+    "lon": 139.950062,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0091",
@@ -337,7 +497,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道大鰐線",
     "lat": 40.52182,
-    "lon": 140.566822
+    "lon": 140.566822,
+    "station_passenger_log": 5.5254529391317835,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0060",
@@ -345,7 +509,11 @@
     "prefecture": "青森県",
     "line_name": "JR奥羽本線",
     "lat": 40.52154,
-    "lon": 140.566914
+    "lon": 140.566914,
+    "station_passenger_log": 5.8944028342648505,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0073",
@@ -353,7 +521,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 40.903044,
-    "lon": 140.672382
+    "lon": 140.672382,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0157",
@@ -361,7 +533,11 @@
     "prefecture": "青森県",
     "line_name": "北海道新幹線",
     "lat": 41.144799,
-    "lon": 140.515937
+    "lon": 140.515937,
+    "station_passenger_log": 3.7612001156935624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0092",
@@ -369,7 +545,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道大鰐線",
     "lat": 40.525153,
-    "lon": 140.557559
+    "lon": 140.557559,
+    "station_passenger_log": 1.791759469228055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0036",
@@ -377,7 +557,11 @@
     "prefecture": "青森県",
     "line_name": "JR八戸線",
     "lat": 40.518767,
-    "lon": 141.510032
+    "lon": 141.510032,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0141",
@@ -385,7 +569,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.709893,
-    "lon": 141.29972
+    "lon": 141.29972,
+    "station_passenger_log": 2.995732273553991,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0152",
@@ -401,7 +589,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道大鰐線",
     "lat": 40.564276,
-    "lon": 140.486704
+    "lon": 140.486704,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0147",
@@ -409,7 +601,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.929703,
-    "lon": 140.953953
+    "lon": 140.953953,
+    "station_passenger_log": 6.311734809152915,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0113",
@@ -417,7 +613,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道弘南線",
     "lat": 40.627634,
-    "lon": 140.576806
+    "lon": 140.576806,
+    "station_passenger_log": 5.017279836814924,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0128",
@@ -425,7 +625,11 @@
     "prefecture": "青森県",
     "line_name": "津軽鉄道",
     "lat": 40.926356,
-    "lon": 140.44368
+    "lon": 140.44368,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0032",
@@ -433,7 +637,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.646862,
-    "lon": 140.521376
+    "lon": 140.521376,
+    "station_passenger_log": 0.0,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0074",
@@ -441,7 +649,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 40.917214,
-    "lon": 140.665929
+    "lon": 140.665929,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0110",
@@ -449,7 +661,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道弘南線",
     "lat": 40.585044,
-    "lon": 140.561048
+    "lon": 140.561048,
+    "station_passenger_log": 6.61338421837956,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0011",
@@ -457,7 +673,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.67434,
-    "lon": 139.955586
+    "lon": 139.955586,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0062",
@@ -465,7 +685,11 @@
     "prefecture": "青森県",
     "line_name": "JR奥羽本線",
     "lat": 40.599723,
-    "lon": 140.485016
+    "lon": 140.485016,
+    "station_passenger_log": 8.960724500330858,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aomori_0102",
@@ -473,7 +697,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道大鰐線",
     "lat": 40.583363,
-    "lon": 140.470654
+    "lon": 140.470654,
+    "station_passenger_log": 5.093750200806762,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0106",
@@ -481,7 +709,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道弘南線",
     "lat": 40.592301,
-    "lon": 140.488529
+    "lon": 140.488529,
+    "station_passenger_log": 5.272999558563747,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0103",
@@ -489,7 +721,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道大鰐線",
     "lat": 40.593078,
-    "lon": 140.468212
+    "lon": 140.468212,
+    "station_passenger_log": 4.07753744390572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0075",
@@ -497,7 +733,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 40.931519,
-    "lon": 140.662734
+    "lon": 140.662734,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0063",
@@ -505,7 +745,11 @@
     "prefecture": "青森県",
     "line_name": "JR奥羽本線",
     "lat": 40.621298,
-    "lon": 140.497616
+    "lon": 140.497616,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0108",
@@ -513,7 +757,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道弘南線",
     "lat": 40.587445,
-    "lon": 140.519879
+    "lon": 140.519879,
+    "station_passenger_log": 3.912023005428146,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0069",
@@ -521,7 +769,11 @@
     "prefecture": "青森県",
     "line_name": "JR奥羽本線",
     "lat": 40.8275,
-    "lon": 140.693472
+    "lon": 140.693472,
+    "station_passenger_log": 9.080345575359996,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aomori_0048",
@@ -529,7 +781,11 @@
     "prefecture": "青森県",
     "line_name": "JR大湊線",
     "lat": 40.913949,
-    "lon": 141.189264
+    "lon": 141.189264,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0051",
@@ -537,7 +793,11 @@
     "prefecture": "青森県",
     "line_name": "JR大湊線",
     "lat": 41.131818,
-    "lon": 141.276421
+    "lon": 141.276421,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0025",
@@ -545,7 +805,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.802482,
-    "lon": 140.387775
+    "lon": 140.387775,
+    "station_passenger_log": 5.921578419643816,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0035",
@@ -553,7 +817,11 @@
     "prefecture": "青森県",
     "line_name": "JR八戸線",
     "lat": 40.516286,
-    "lon": 141.488762
+    "lon": 141.488762,
+    "station_passenger_log": 7.578145472419466,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0153",
@@ -561,7 +829,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.810402,
-    "lon": 140.782143
+    "lon": 140.782143,
+    "station_passenger_log": 7.153833801578843,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0098",
@@ -569,7 +841,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道大鰐線",
     "lat": 40.560677,
-    "lon": 140.497097
+    "lon": 140.497097,
+    "station_passenger_log": 2.772588722239781,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0003",
@@ -577,7 +853,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.534902,
-    "lon": 139.946556
+    "lon": 139.946556,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0029",
@@ -585,7 +865,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.69726,
-    "lon": 140.461785
+    "lon": 140.461785,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0030",
@@ -593,7 +877,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.675355,
-    "lon": 140.480401
+    "lon": 140.480401,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0111",
@@ -601,7 +889,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道弘南線",
     "lat": 40.601867,
-    "lon": 140.564367
+    "lon": 140.564367,
+    "station_passenger_log": 4.867534450455582,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0009",
@@ -609,7 +901,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.629891,
-    "lon": 139.89091
+    "lon": 139.89091,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0124",
@@ -617,7 +913,11 @@
     "prefecture": "青森県",
     "line_name": "津軽鉄道",
     "lat": 40.857903,
-    "lon": 140.47778
+    "lon": 140.47778,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0071",
@@ -625,7 +925,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 40.857035,
-    "lon": 140.690476
+    "lon": 140.690476,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0131",
@@ -633,7 +937,11 @@
     "prefecture": "青森県",
     "line_name": "津軽鉄道",
     "lat": 40.964848,
-    "lon": 140.44102
+    "lon": 140.44102,
+    "station_passenger_log": 5.1647859739235145,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0083",
@@ -641,7 +949,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 41.145937,
-    "lon": 140.514231
+    "lon": 140.514231,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0120",
@@ -649,7 +961,11 @@
     "prefecture": "青森県",
     "line_name": "津軽鉄道",
     "lat": 40.809684,
-    "lon": 140.448489
+    "lon": 140.448489,
+    "station_passenger_log": 6.240275845170769,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0097",
@@ -657,7 +973,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道大鰐線",
     "lat": 40.557865,
-    "lon": 140.516392
+    "lon": 140.516392,
+    "station_passenger_log": 4.700480365792417,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0072",
@@ -665,7 +985,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 40.887184,
-    "lon": 140.674579
+    "lon": 140.674579,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0112",
@@ -673,7 +997,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道弘南線",
     "lat": 40.613869,
-    "lon": 140.576068
+    "lon": 140.576068,
+    "station_passenger_log": 5.799092654460526,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0068",
@@ -681,7 +1009,11 @@
     "prefecture": "青森県",
     "line_name": "JR奥羽本線",
     "lat": 40.828022,
-    "lon": 140.672025
+    "lon": 140.672025,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0086",
@@ -689,7 +1021,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 41.180521,
-    "lon": 140.47185
+    "lon": 140.47185,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0057",
@@ -697,7 +1033,11 @@
     "prefecture": "青森県",
     "line_name": "JR奥羽本線",
     "lat": 40.441879,
-    "lon": 140.632055
+    "lon": 140.632055,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0123",
@@ -705,7 +1045,11 @@
     "prefecture": "青森県",
     "line_name": "津軽鉄道",
     "lat": 40.829884,
-    "lon": 140.479586
+    "lon": 140.479586,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0149",
@@ -713,7 +1057,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.890976,
-    "lon": 140.862221
+    "lon": 140.862221,
+    "station_passenger_log": 6.424869023905388,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0065",
@@ -721,7 +1069,11 @@
     "prefecture": "青森県",
     "line_name": "JR奥羽本線",
     "lat": 40.71021,
-    "lon": 140.580664
+    "lon": 140.580664,
+    "station_passenger_log": 7.383368146992384,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0010",
@@ -729,7 +1081,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.650239,
-    "lon": 139.929372
+    "lon": 139.929372,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0130",
@@ -737,7 +1093,11 @@
     "prefecture": "青森県",
     "line_name": "津軽鉄道",
     "lat": 40.951203,
-    "lon": 140.441043
+    "lon": 140.441043,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0146",
@@ -745,7 +1105,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.921801,
-    "lon": 141.02465
+    "lon": 141.02465,
+    "station_passenger_log": 4.700480365792417,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0079",
@@ -753,7 +1117,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 41.007869,
-    "lon": 140.648179
+    "lon": 140.648179,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0145",
@@ -761,7 +1129,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.900335,
-    "lon": 141.071274
+    "lon": 141.071274,
+    "station_passenger_log": 3.784189633918261,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0114",
@@ -769,7 +1141,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道弘南線",
     "lat": 40.632833,
-    "lon": 140.573694
+    "lon": 140.573694,
+    "station_passenger_log": 3.258096538021482,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0115",
@@ -777,7 +1153,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道弘南線",
     "lat": 40.637274,
-    "lon": 140.57097
+    "lon": 140.57097,
+    "station_passenger_log": 5.093750200806762,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0002",
@@ -785,7 +1165,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.513551,
-    "lon": 139.950318
+    "lon": 139.950318,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0038",
@@ -793,7 +1177,11 @@
     "prefecture": "青森県",
     "line_name": "JR八戸線",
     "lat": 40.522031,
-    "lon": 141.541648
+    "lon": 141.541648,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0090",
@@ -801,7 +1189,11 @@
     "prefecture": "青森県",
     "line_name": "いわて銀河鉄道線",
     "lat": 40.351908,
-    "lon": 141.289504
+    "lon": 141.289504,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0151",
@@ -809,7 +1201,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.833744,
-    "lon": 140.807151
+    "lon": 140.807151,
+    "station_passenger_log": 7.23561914106675,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0061",
@@ -825,7 +1221,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道大鰐線",
     "lat": 40.543292,
-    "lon": 140.550278
+    "lon": 140.550278,
+    "station_passenger_log": 3.367295829986474,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0058",
@@ -833,7 +1233,11 @@
     "prefecture": "青森県",
     "line_name": "JR奥羽本線",
     "lat": 40.478988,
-    "lon": 140.622443
+    "lon": 140.622443,
+    "station_passenger_log": 4.875197323201151,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0041",
@@ -841,7 +1245,11 @@
     "prefecture": "青森県",
     "line_name": "JR八戸線",
     "lat": 40.506951,
-    "lon": 141.607367
+    "lon": 141.607367,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0154",
@@ -857,7 +1265,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道大鰐線",
     "lat": 40.555824,
-    "lon": 140.527461
+    "lon": 140.527461,
+    "station_passenger_log": 4.442651256490317,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0101",
@@ -865,7 +1277,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道大鰐線",
     "lat": 40.577202,
-    "lon": 140.47269
+    "lon": 140.47269,
+    "station_passenger_log": 4.584967478670572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0008",
@@ -873,7 +1289,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.608534,
-    "lon": 139.864856
+    "lon": 139.864856,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0127",
@@ -881,7 +1301,11 @@
     "prefecture": "青森県",
     "line_name": "津軽鉄道",
     "lat": 40.912283,
-    "lon": 140.451657
+    "lon": 140.451657,
+    "station_passenger_log": 4.219507705176107,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0135",
@@ -889,7 +1313,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.466926,
-    "lon": 141.374903
+    "lon": 141.374903,
+    "station_passenger_log": 4.700480365792417,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0077",
@@ -897,7 +1325,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 40.969042,
-    "lon": 140.654533
+    "lon": 140.654533,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0031",
@@ -905,7 +1337,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.654047,
-    "lon": 140.499531
+    "lon": 140.499531,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0080",
@@ -913,7 +1349,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 41.038274,
-    "lon": 140.642565
+    "lon": 140.642565,
+    "station_passenger_log": 5.389071729816501,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0148",
@@ -921,7 +1361,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.918138,
-    "lon": 140.913146
+    "lon": 140.913146,
+    "station_passenger_log": 4.7535901911063645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0133",
@@ -929,7 +1373,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.414889,
-    "lon": 141.304599
+    "lon": 141.304599,
+    "station_passenger_log": 4.0943445622221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0054",
@@ -937,7 +1385,11 @@
     "prefecture": "青森県",
     "line_name": "JR大湊線",
     "lat": 41.267829,
-    "lon": 141.209339
+    "lon": 141.209339,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0022",
@@ -945,7 +1397,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.787258,
-    "lon": 140.298628
+    "lon": 140.298628,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0052",
@@ -953,7 +1409,11 @@
     "prefecture": "青森県",
     "line_name": "JR大湊線",
     "lat": 41.191687,
-    "lon": 141.279021
+    "lon": 141.279021,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0012",
@@ -961,7 +1421,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.686114,
-    "lon": 139.970298
+    "lon": 139.970298,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0107",
@@ -969,7 +1433,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道弘南線",
     "lat": 40.589527,
-    "lon": 140.502875
+    "lon": 140.502875,
+    "station_passenger_log": 5.327876168789581,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0078",
@@ -977,7 +1445,11 @@
     "prefecture": "青森県",
     "line_name": "JR津軽線",
     "lat": 40.987682,
-    "lon": 140.652399
+    "lon": 140.652399,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0150",
@@ -985,7 +1457,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.846159,
-    "lon": 140.816907
+    "lon": 140.816907,
+    "station_passenger_log": 6.873163834212518,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0046",
@@ -993,7 +1469,11 @@
     "prefecture": "青森県",
     "line_name": "JR大湊線",
     "lat": 40.855142,
-    "lon": 141.119603
+    "lon": 141.119603,
+    "station_passenger_log": 7.221105098182496,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0126",
@@ -1001,7 +1481,11 @@
     "prefecture": "青森県",
     "line_name": "津軽鉄道",
     "lat": 40.902875,
-    "lon": 140.459971
+    "lon": 140.459971,
+    "station_passenger_log": 5.209486152841421,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0043",
@@ -1009,7 +1493,11 @@
     "prefecture": "青森県",
     "line_name": "JR八戸線",
     "lat": 40.475994,
-    "lon": 141.637366
+    "lon": 141.637366,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0053",
@@ -1017,7 +1505,11 @@
     "prefecture": "青森県",
     "line_name": "JR大湊線",
     "lat": 41.228854,
-    "lon": 141.248432
+    "lon": 141.248432,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0059",
@@ -1025,7 +1517,11 @@
     "prefecture": "青森県",
     "line_name": "JR奥羽本線",
     "lat": 40.516073,
-    "lon": 140.603069
+    "lon": 140.603069,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0034",
@@ -1033,7 +1529,11 @@
     "prefecture": "青森県",
     "line_name": "JR八戸線",
     "lat": 40.52146,
-    "lon": 141.465907
+    "lon": 141.465907,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0005",
@@ -1041,7 +1541,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.583332,
-    "lon": 139.924183
+    "lon": 139.924183,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0137",
@@ -1049,7 +1553,11 @@
     "prefecture": "青森県",
     "line_name": "青い森鉄道線",
     "lat": 40.563235,
-    "lon": 141.439308
+    "lon": 141.439308,
+    "station_passenger_log": 5.60947179518496,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0018",
@@ -1057,7 +1565,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.740616,
-    "lon": 140.123243
+    "lon": 140.123243,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0023",
@@ -1065,7 +1577,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.781738,
-    "lon": 140.339033
+    "lon": 140.339033,
+    "station_passenger_log": 4.634728988229636,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0050",
@@ -1073,7 +1589,11 @@
     "prefecture": "青森県",
     "line_name": "JR大湊線",
     "lat": 41.086544,
-    "lon": 141.249757
+    "lon": 141.249757,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0006",
@@ -1081,7 +1601,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.586175,
-    "lon": 139.894991
+    "lon": 139.894991,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0037",
@@ -1089,7 +1613,11 @@
     "prefecture": "青森県",
     "line_name": "JR八戸線",
     "lat": 40.52335,
-    "lon": 141.527652
+    "lon": 141.527652,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0040",
@@ -1097,7 +1625,11 @@
     "prefecture": "青森県",
     "line_name": "JR八戸線",
     "lat": 40.516636,
-    "lon": 141.592299
+    "lon": 141.592299,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0019",
@@ -1105,7 +1637,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.76156,
-    "lon": 140.162057
+    "lon": 140.162057,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0027",
@@ -1113,7 +1649,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.757544,
-    "lon": 140.435276
+    "lon": 140.435276,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0045",
@@ -1121,7 +1661,11 @@
     "prefecture": "青森県",
     "line_name": "JR八戸線",
     "lat": 40.456834,
-    "lon": 141.664958
+    "lon": 141.664958,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0155",
@@ -1129,7 +1673,11 @@
     "prefecture": "青森県",
     "line_name": "青函トンネル竜飛斜坑線",
     "lat": 41.254006,
-    "lon": 140.346648
+    "lon": 140.346648,
+    "station_passenger_log": 4.820281565605037,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0070",
@@ -1137,7 +1685,11 @@
     "prefecture": "青森県",
     "line_name": "JR奥羽本線",
     "lat": 40.828668,
-    "lon": 140.734738
+    "lon": 140.734738,
+    "station_passenger_log": 9.639391789890489,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "aomori_0014",
@@ -1145,7 +1697,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.731826,
-    "lon": 139.99432
+    "lon": 139.99432,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0109",
@@ -1153,7 +1709,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道弘南線",
     "lat": 40.585135,
-    "lon": 140.538617
+    "lon": 140.538617,
+    "station_passenger_log": 4.718498871295094,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0013",
@@ -1161,7 +1721,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.707218,
-    "lon": 139.982954
+    "lon": 139.982954,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0039",
@@ -1169,7 +1733,11 @@
     "prefecture": "青森県",
     "line_name": "JR八戸線",
     "lat": 40.530244,
-    "lon": 141.554891
+    "lon": 141.554891,
+    "station_passenger_log": 6.20455776256869,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0093",
@@ -1177,7 +1745,11 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道大鰐線",
     "lat": 40.53561,
-    "lon": 140.5527
+    "lon": 140.5527,
+    "station_passenger_log": 4.07753744390572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0020",
@@ -1185,7 +1757,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.775255,
-    "lon": 140.220589
+    "lon": 140.220589,
+    "station_passenger_log": 5.948034989180646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0021",
@@ -1193,7 +1769,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.782189,
-    "lon": 140.267617
+    "lon": 140.267617,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0067",
@@ -1201,7 +1781,11 @@
     "prefecture": "青森県",
     "line_name": "JR奥羽本線",
     "lat": 40.791228,
-    "lon": 140.634878
+    "lon": 140.634878,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0028",
@@ -1209,7 +1793,11 @@
     "prefecture": "青森県",
     "line_name": "JR五能線",
     "lat": 40.736026,
-    "lon": 140.437616
+    "lon": 140.437616,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "aomori_0117",
@@ -1217,6 +1805,10 @@
     "prefecture": "青森県",
     "line_name": "弘南鉄道弘南線",
     "lat": 40.648342,
-    "lon": 140.591045
+    "lon": 140.591045,
+    "station_passenger_log": 7.0925737159746784,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

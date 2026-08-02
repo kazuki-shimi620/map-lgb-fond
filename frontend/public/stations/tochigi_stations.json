@@ -5,7 +5,11 @@
     "prefecture": "栃木県",
     "line_name": "JR両毛線",
     "lat": 36.315168,
-    "lon": 139.518408
+    "lon": 139.518408,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0067",
@@ -13,7 +17,11 @@
     "prefecture": "栃木県",
     "line_name": "東武宇都宮線",
     "lat": 36.466774,
-    "lon": 139.829506
+    "lon": 139.829506,
+    "station_passenger_log": 7.72356247227797,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0134",
@@ -21,7 +29,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.572385,
-    "lon": 140.014602
+    "lon": 140.014602,
+    "station_passenger_log": 6.9957661563048505,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0130",
@@ -29,7 +41,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.567748,
-    "lon": 139.99293
+    "lon": 139.99293,
+    "station_passenger_log": 6.22455842927536,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0131",
@@ -37,7 +53,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.567635,
-    "lon": 139.998762
+    "lon": 139.998762,
+    "station_passenger_log": 5.910796644040527,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0129",
@@ -45,7 +65,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.567465,
-    "lon": 139.987215
+    "lon": 139.987215,
+    "station_passenger_log": 6.431331081933479,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0128",
@@ -53,7 +77,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.555832,
-    "lon": 139.982512
+    "lon": 139.982512,
+    "station_passenger_log": 6.755768921984255,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0104",
@@ -61,7 +89,11 @@
     "prefecture": "栃木県",
     "line_name": "真岡鐵道",
     "lat": 36.491814,
-    "lon": 140.09439
+    "lon": 140.09439,
+    "station_passenger_log": 5.627621113690637,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0115",
@@ -69,7 +101,11 @@
     "prefecture": "栃木県",
     "line_name": "野岩鉄道会津鬼怒川線",
     "lat": 37.014461,
-    "lon": 139.727168
+    "lon": 139.727168,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0087",
@@ -77,7 +113,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.727962,
-    "lon": 139.681026
+    "lon": 139.681026,
+    "station_passenger_log": 4.700480365792417,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0086",
@@ -85,7 +125,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.72563,
-    "lon": 139.692666
+    "lon": 139.692666,
+    "station_passenger_log": 7.699389406256737,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0084",
@@ -93,7 +137,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.651303,
-    "lon": 139.713849
+    "lon": 139.713849,
+    "station_passenger_log": 5.147494476813453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0032",
@@ -101,7 +149,11 @@
     "prefecture": "栃木県",
     "line_name": "JR日光線",
     "lat": 36.686427,
-    "lon": 139.732367
+    "lon": 139.732367,
+    "station_passenger_log": 7.224753405767971,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0038",
@@ -109,7 +161,11 @@
     "prefecture": "栃木県",
     "line_name": "JR烏山線",
     "lat": 36.649965,
-    "lon": 140.008606
+    "lon": 140.008606,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0114",
@@ -117,7 +173,11 @@
     "prefecture": "栃木県",
     "line_name": "野岩鉄道会津鬼怒川線",
     "lat": 36.985843,
-    "lon": 139.69614
+    "lon": 139.69614,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0097",
@@ -125,7 +185,11 @@
     "prefecture": "栃木県",
     "line_name": "真岡鐵道",
     "lat": 36.37606,
-    "lon": 139.971756
+    "lon": 139.971756,
+    "station_passenger_log": 5.501258210544727,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0039",
@@ -133,7 +197,11 @@
     "prefecture": "栃木県",
     "line_name": "JR烏山線",
     "lat": 36.657271,
-    "lon": 140.029573
+    "lon": 140.029573,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0033",
@@ -141,7 +209,11 @@
     "prefecture": "栃木県",
     "line_name": "JR日光線",
     "lat": 36.720388,
-    "lon": 139.687348
+    "lon": 139.687348,
+    "station_passenger_log": 7.529943370601589,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0006",
@@ -149,7 +221,11 @@
     "prefecture": "栃木県",
     "line_name": "JR両毛線",
     "lat": 36.316668,
-    "lon": 139.578858
+    "lon": 139.578858,
+    "station_passenger_log": 8.780633799494984,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tochigi_0055",
@@ -169,7 +245,11 @@
     "prefecture": "栃木県",
     "line_name": "真岡鐵道",
     "lat": 36.455665,
-    "lon": 140.067708
+    "lon": 140.067708,
+    "station_passenger_log": 4.77912349311153,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0100",
@@ -177,7 +257,11 @@
     "prefecture": "栃木県",
     "line_name": "真岡鐵道",
     "lat": 36.44909,
-    "lon": 140.014061
+    "lon": 140.014061,
+    "station_passenger_log": 5.153291594497779,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0082",
@@ -185,7 +269,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.580811,
-    "lon": 139.737646
+    "lon": 139.737646,
+    "station_passenger_log": 4.969813299576001,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0071",
@@ -193,7 +281,11 @@
     "prefecture": "栃木県",
     "line_name": "東武宇都宮線",
     "lat": 36.543783,
-    "lon": 139.872017
+    "lon": 139.872017,
+    "station_passenger_log": 7.034387929915503,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0045",
@@ -201,7 +293,11 @@
     "prefecture": "栃木県",
     "line_name": "わたらせ渓谷鐵道線",
     "lat": 36.617284,
-    "lon": 139.420593
+    "lon": 139.420593,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0076",
@@ -209,7 +305,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.407647,
-    "lon": 139.741057
+    "lon": 139.741057,
+    "station_passenger_log": 5.75890177387728,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0058",
@@ -217,7 +317,11 @@
     "prefecture": "栃木県",
     "line_name": "東武佐野線",
     "lat": 36.345621,
-    "lon": 139.579337
+    "lon": 139.579337,
+    "station_passenger_log": 6.46302945692067,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0066",
@@ -225,7 +329,11 @@
     "prefecture": "栃木県",
     "line_name": "東武宇都宮線",
     "lat": 36.451442,
-    "lon": 139.823824
+    "lon": 139.823824,
+    "station_passenger_log": 6.821107472256465,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0057",
@@ -233,7 +341,11 @@
     "prefecture": "栃木県",
     "line_name": "東武佐野線",
     "lat": 36.328467,
-    "lon": 139.580279
+    "lon": 139.580279,
+    "station_passenger_log": 5.986452005284438,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0065",
@@ -241,7 +353,11 @@
     "prefecture": "栃木県",
     "line_name": "東武宇都宮線",
     "lat": 36.422472,
-    "lon": 139.80496
+    "lon": 139.80496,
+    "station_passenger_log": 7.61972421378267,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0060",
@@ -249,7 +365,11 @@
     "prefecture": "栃木県",
     "line_name": "東武佐野線",
     "lat": 36.37809,
-    "lon": 139.592984
+    "lon": 139.592984,
+    "station_passenger_log": 4.897839799950911,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0105",
@@ -257,7 +377,11 @@
     "prefecture": "栃木県",
     "line_name": "真岡鐵道",
     "lat": 36.515922,
-    "lon": 140.089795
+    "lon": 140.089795,
+    "station_passenger_log": 4.543294782270004,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0008",
@@ -265,7 +389,11 @@
     "prefecture": "栃木県",
     "line_name": "JR両毛線",
     "lat": 36.344315,
-    "lon": 139.697264
+    "lon": 139.697264,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0090",
@@ -273,7 +401,11 @@
     "prefecture": "栃木県",
     "line_name": "東武鬼怒川線",
     "lat": 36.76079,
-    "lon": 139.713546
+    "lon": 139.713546,
+    "station_passenger_log": 4.90527477843843,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0089",
@@ -281,7 +413,11 @@
     "prefecture": "栃木県",
     "line_name": "東武鬼怒川線",
     "lat": 36.73224,
-    "lon": 139.691916
+    "lon": 139.691916,
+    "station_passenger_log": 4.955827057601261,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0041",
@@ -289,7 +425,11 @@
     "prefecture": "栃木県",
     "line_name": "JR烏山線",
     "lat": 36.656275,
-    "lon": 140.095656
+    "lon": 140.095656,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0108",
@@ -297,7 +437,11 @@
     "prefecture": "栃木県",
     "line_name": "真岡鐵道",
     "lat": 36.529292,
-    "lon": 140.156109
+    "lon": 140.156109,
+    "station_passenger_log": 3.091042453358316,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0018",
@@ -305,7 +449,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.559246,
-    "lon": 139.898389
+    "lon": 139.898389,
+    "station_passenger_log": 11.151568147237766,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "tochigi_0122",
@@ -313,7 +461,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.55707,
-    "lon": 139.930252
+    "lon": 139.930252,
+    "station_passenger_log": 8.084562415235304,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0117",
@@ -321,7 +473,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.559117,
-    "lon": 139.899546
+    "lon": 139.899546,
+    "station_passenger_log": 9.11482017011877,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tochigi_0068",
@@ -329,7 +485,11 @@
     "prefecture": "栃木県",
     "line_name": "東武宇都宮線",
     "lat": 36.485678,
-    "lon": 139.835572
+    "lon": 139.835572,
+    "station_passenger_log": 7.01571242048723,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0020",
@@ -337,7 +497,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.631703,
-    "lon": 139.979487
+    "lon": 139.979487,
+    "station_passenger_log": 8.307705966549513,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0077",
@@ -345,7 +509,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.429783,
-    "lon": 139.747344
+    "lon": 139.747344,
+    "station_passenger_log": 5.823045895483019,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0005",
@@ -353,7 +521,11 @@
     "prefecture": "栃木県",
     "line_name": "JR両毛線",
     "lat": 36.316209,
-    "lon": 139.52865
+    "lon": 139.52865,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0098",
@@ -361,7 +533,11 @@
     "prefecture": "栃木県",
     "line_name": "真岡鐵道",
     "lat": 36.410876,
-    "lon": 139.980077
+    "lon": 139.980077,
+    "station_passenger_log": 4.553876891600541,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0092",
@@ -369,7 +545,11 @@
     "prefecture": "栃木県",
     "line_name": "東武鬼怒川線",
     "lat": 36.802252,
-    "lon": 139.706465
+    "lon": 139.706465,
+    "station_passenger_log": 5.0238805208462765,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0001",
@@ -377,7 +557,11 @@
     "prefecture": "栃木県",
     "line_name": "JR両毛線",
     "lat": 36.37496,
-    "lon": 139.374416
+    "lon": 139.374416,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0042",
@@ -385,7 +569,11 @@
     "prefecture": "栃木県",
     "line_name": "JR烏山線",
     "lat": 36.643095,
-    "lon": 140.11656
+    "lon": 140.11656,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0011",
@@ -405,7 +593,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.374435,
-    "lon": 139.842232
+    "lon": 139.842232,
+    "station_passenger_log": 8.890548245606167,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tochigi_0002",
@@ -413,7 +605,11 @@
     "prefecture": "栃木県",
     "line_name": "JR両毛線",
     "lat": 36.347369,
-    "lon": 139.411322
+    "lon": 139.411322,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0019",
@@ -429,7 +625,11 @@
     "prefecture": "栃木県",
     "line_name": "JR両毛線",
     "lat": 36.326561,
-    "lon": 139.657955
+    "lon": 139.657955,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0120",
@@ -437,7 +637,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.557565,
-    "lon": 139.916261
+    "lon": 139.916261,
+    "station_passenger_log": 6.582025138892826,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0111",
@@ -445,7 +649,11 @@
     "prefecture": "栃木県",
     "line_name": "野岩鉄道会津鬼怒川線",
     "lat": 36.884036,
-    "lon": 139.703775
+    "lon": 139.703775,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0112",
@@ -453,7 +661,11 @@
     "prefecture": "栃木県",
     "line_name": "野岩鉄道会津鬼怒川線",
     "lat": 36.895126,
-    "lon": 139.702772
+    "lon": 139.702772,
+    "station_passenger_log": 4.820281565605037,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0106",
@@ -461,7 +673,11 @@
     "prefecture": "栃木県",
     "line_name": "真岡鐵道",
     "lat": 36.538029,
-    "lon": 140.110218
+    "lon": 140.110218,
+    "station_passenger_log": 5.056245805348308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0123",
@@ -469,7 +685,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.55504,
-    "lon": 139.939274
+    "lon": 139.939274,
+    "station_passenger_log": 6.0867747269123065,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0124",
@@ -477,7 +697,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.554841,
-    "lon": 139.944702
+    "lon": 139.944702,
+    "station_passenger_log": 4.804021044733257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0010",
@@ -485,7 +709,11 @@
     "prefecture": "栃木県",
     "line_name": "JR両毛線",
     "lat": 36.351044,
-    "lon": 139.781079
+    "lon": 139.781079,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0031",
@@ -493,7 +721,11 @@
     "prefecture": "栃木県",
     "line_name": "JR日光線",
     "lat": 36.637716,
-    "lon": 139.727778
+    "lon": 139.727778,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0075",
@@ -501,7 +733,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.339024,
-    "lon": 139.701886
+    "lon": 139.701886,
+    "station_passenger_log": 7.8050670442584895,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0062",
@@ -509,7 +745,11 @@
     "prefecture": "栃木県",
     "line_name": "東武宇都宮線",
     "lat": 36.390149,
-    "lon": 139.742308
+    "lon": 139.742308,
+    "station_passenger_log": 8.11312710422178,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0096",
@@ -517,7 +757,11 @@
     "prefecture": "栃木県",
     "line_name": "東武鬼怒川線",
     "lat": 36.852505,
-    "lon": 139.732963
+    "lon": 139.732963,
+    "station_passenger_log": 6.966967138613983,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0091",
@@ -525,7 +769,11 @@
     "prefecture": "栃木県",
     "line_name": "東武鬼怒川線",
     "lat": 36.779816,
-    "lon": 139.710623
+    "lon": 139.710623,
+    "station_passenger_log": 5.3471075307174685,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0081",
@@ -533,7 +781,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.556998,
-    "lon": 139.74478
+    "lon": 139.74478,
+    "station_passenger_log": 7.99699040583765,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0034",
@@ -541,7 +793,11 @@
     "prefecture": "栃木県",
     "line_name": "JR日光線",
     "lat": 36.7474,
-    "lon": 139.62215
+    "lon": 139.62215,
+    "station_passenger_log": 7.577121930876679,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0085",
@@ -549,7 +805,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.676566,
-    "lon": 139.712301
+    "lon": 139.712301,
+    "station_passenger_log": 5.342334251964811,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0118",
@@ -557,7 +817,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.558288,
-    "lon": 139.904044
+    "lon": 139.904044,
+    "station_passenger_log": 6.453624998892692,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0093",
@@ -565,7 +829,11 @@
     "prefecture": "栃木県",
     "line_name": "東武鬼怒川線",
     "lat": 36.808333,
-    "lon": 139.709083
+    "lon": 139.709083,
+    "station_passenger_log": 5.953243334287785,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0051",
@@ -573,7 +841,11 @@
     "prefecture": "栃木県",
     "line_name": "東武伊勢崎線",
     "lat": 36.315595,
-    "lon": 139.45509
+    "lon": 139.45509,
+    "station_passenger_log": 6.663132695990803,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0072",
@@ -581,7 +853,11 @@
     "prefecture": "栃木県",
     "line_name": "東武宇都宮線",
     "lat": 36.559373,
-    "lon": 139.880427
+    "lon": 139.880427,
+    "station_passenger_log": 9.060447282401563,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tochigi_0088",
@@ -589,7 +865,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.748233,
-    "lon": 139.61975
+    "lon": 139.61975,
+    "station_passenger_log": 8.051340933292979,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0078",
@@ -597,7 +877,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.466288,
-    "lon": 139.749468
+    "lon": 139.749468,
+    "station_passenger_log": 6.082218910376446,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0083",
@@ -605,7 +889,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.619476,
-    "lon": 139.707739
+    "lon": 139.707739,
+    "station_passenger_log": 4.290459441148391,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0009",
@@ -613,7 +901,11 @@
     "prefecture": "栃木県",
     "line_name": "JR両毛線",
     "lat": 36.371912,
-    "lon": 139.731037
+    "lon": 139.731037,
+    "station_passenger_log": 9.164715193949908,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tochigi_0079",
@@ -621,7 +913,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.507497,
-    "lon": 139.745164
+    "lon": 139.745164,
+    "station_passenger_log": 5.356586274672012,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0080",
@@ -629,7 +925,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.532667,
-    "lon": 139.741875
+    "lon": 139.741875,
+    "station_passenger_log": 6.210600077024653,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0021",
@@ -637,7 +937,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.681696,
-    "lon": 139.9621
+    "lon": 139.9621,
+    "station_passenger_log": 8.652947112393857,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tochigi_0070",
@@ -653,7 +957,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.547618,
-    "lon": 139.984265
+    "lon": 139.984265,
+    "station_passenger_log": 6.853299093186078,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0126",
@@ -661,7 +969,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.544945,
-    "lon": 139.97632
+    "lon": 139.97632,
+    "station_passenger_log": 6.349138991379798,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0113",
@@ -669,7 +981,11 @@
     "prefecture": "栃木県",
     "line_name": "野岩鉄道会津鬼怒川線",
     "lat": 36.929482,
-    "lon": 139.68824
+    "lon": 139.68824,
+    "station_passenger_log": 4.605170185988092,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0043",
@@ -677,7 +993,11 @@
     "prefecture": "栃木県",
     "line_name": "JR烏山線",
     "lat": 36.648558,
-    "lon": 140.138152
+    "lon": 140.138152,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0044",
@@ -685,7 +1005,11 @@
     "prefecture": "栃木県",
     "line_name": "JR烏山線",
     "lat": 36.650455,
-    "lon": 140.15507
+    "lon": 140.15507,
+    "station_passenger_log": 6.794586580876499,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0023",
@@ -693,7 +1017,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.754557,
-    "lon": 139.945665
+    "lon": 139.945665,
+    "station_passenger_log": 7.0825485693553,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0054",
@@ -713,7 +1041,11 @@
     "prefecture": "栃木県",
     "line_name": "東武佐野線",
     "lat": 36.367094,
-    "lon": 139.581919
+    "lon": 139.581919,
+    "station_passenger_log": 6.725033642166843,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0116",
@@ -721,7 +1053,11 @@
     "prefecture": "栃木県",
     "line_name": "野岩鉄道会津鬼怒川線",
     "lat": 37.04784,
-    "lon": 139.723845
+    "lon": 139.723845,
+    "station_passenger_log": 0.6931471805599453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0103",
@@ -729,7 +1065,11 @@
     "prefecture": "栃木県",
     "line_name": "真岡鐵道",
     "lat": 36.462965,
-    "lon": 140.088526
+    "lon": 140.088526,
+    "station_passenger_log": 5.552959584921617,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0049",
@@ -749,7 +1089,11 @@
     "prefecture": "栃木県",
     "line_name": "真岡鐵道",
     "lat": 36.439144,
-    "lon": 140.002632
+    "lon": 140.002632,
+    "station_passenger_log": 6.674561391814426,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0024",
@@ -757,7 +1101,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.80655,
-    "lon": 139.932912
+    "lon": 139.932912,
+    "station_passenger_log": 8.432288684325794,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0016",
@@ -765,7 +1113,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.43651,
-    "lon": 139.866536
+    "lon": 139.866536,
+    "station_passenger_log": 9.111072370317514,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tochigi_0050",
@@ -785,7 +1137,11 @@
     "prefecture": "栃木県",
     "line_name": "真岡鐵道",
     "lat": 36.533911,
-    "lon": 140.144837
+    "lon": 140.144837,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0015",
@@ -793,7 +1149,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.39543,
-    "lon": 139.854524
+    "lon": 139.854524,
+    "station_passenger_log": 8.724369949208368,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tochigi_0135",
@@ -801,7 +1161,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.578638,
-    "lon": 140.011956
+    "lon": 140.011956,
+    "station_passenger_log": 7.716906135298388,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0132",
@@ -809,7 +1173,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.566146,
-    "lon": 140.006464
+    "lon": 140.006464,
+    "station_passenger_log": 5.60947179518496,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0133",
@@ -817,7 +1185,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.564952,
-    "lon": 140.010687
+    "lon": 140.010687,
+    "station_passenger_log": 6.104793232414985,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0109",
@@ -825,7 +1197,11 @@
     "prefecture": "栃木県",
     "line_name": "真岡鐵道",
     "lat": 36.530851,
-    "lon": 140.181382
+    "lon": 140.181382,
+    "station_passenger_log": 6.395261598115449,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0061",
@@ -833,7 +1209,11 @@
     "prefecture": "栃木県",
     "line_name": "東武佐野線",
     "lat": 36.397937,
-    "lon": 139.609207
+    "lon": 139.609207,
+    "station_passenger_log": 6.466144724237619,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0022",
@@ -841,7 +1221,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.720727,
-    "lon": 139.950461
+    "lon": 139.950461,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0073",
@@ -861,7 +1245,11 @@
     "prefecture": "栃木県",
     "line_name": "東武宇都宮線",
     "lat": 36.514227,
-    "lon": 139.850247
+    "lon": 139.850247,
+    "station_passenger_log": 7.717796211013582,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0101",
@@ -869,7 +1257,11 @@
     "prefecture": "栃木県",
     "line_name": "真岡鐵道",
     "lat": 36.453407,
-    "lon": 140.04876
+    "lon": 140.04876,
+    "station_passenger_log": 4.189654742026425,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0026",
@@ -877,7 +1269,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.883726,
-    "lon": 139.986383
+    "lon": 139.986383,
+    "station_passenger_log": 8.79133399330135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tochigi_0037",
@@ -885,7 +1281,11 @@
     "prefecture": "栃木県",
     "line_name": "JR東北本線",
     "lat": 37.055014,
-    "lon": 140.155066
+    "lon": 140.155066,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0003",
@@ -893,7 +1293,11 @@
     "prefecture": "栃木県",
     "line_name": "JR両毛線",
     "lat": 36.331888,
-    "lon": 139.456295
+    "lon": 139.456295,
+    "station_passenger_log": 8.651898894268529,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tochigi_0052",
@@ -901,7 +1305,11 @@
     "prefecture": "栃木県",
     "line_name": "東武伊勢崎線",
     "lat": 36.32948,
-    "lon": 139.448113
+    "lon": 139.448113,
+    "station_passenger_log": 8.511778558714738,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0047",
@@ -909,7 +1317,11 @@
     "prefecture": "栃木県",
     "line_name": "わたらせ渓谷鐵道線",
     "lat": 36.641853,
-    "lon": 139.447773
+    "lon": 139.447773,
+    "station_passenger_log": 3.4011973816621555,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0046",
@@ -917,7 +1329,11 @@
     "prefecture": "栃木県",
     "line_name": "わたらせ渓谷鐵道線",
     "lat": 36.636837,
-    "lon": 139.439671
+    "lon": 139.439671,
+    "station_passenger_log": 3.737669618283368,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0027",
@@ -925,7 +1341,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.931956,
-    "lon": 140.020694
+    "lon": 140.020694,
+    "station_passenger_log": 9.18266080286944,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tochigi_0025",
@@ -933,7 +1353,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.843722,
-    "lon": 139.957752
+    "lon": 139.957752,
+    "station_passenger_log": 7.755767170102998,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0064",
@@ -941,7 +1365,11 @@
     "prefecture": "栃木県",
     "line_name": "東武宇都宮線",
     "lat": 36.408759,
-    "lon": 139.772574
+    "lon": 139.772574,
+    "station_passenger_log": 6.095824562432225,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0053",
@@ -949,7 +1377,11 @@
     "prefecture": "栃木県",
     "line_name": "東武伊勢崎線",
     "lat": 36.32633,
-    "lon": 139.431981
+    "lon": 139.431981,
+    "station_passenger_log": 6.767343125265392,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0063",
@@ -957,7 +1389,11 @@
     "prefecture": "栃木県",
     "line_name": "東武宇都宮線",
     "lat": 36.401554,
-    "lon": 139.753764
+    "lon": 139.753764,
+    "station_passenger_log": 6.839476438228843,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0012",
@@ -989,7 +1425,11 @@
     "prefecture": "栃木県",
     "line_name": "わたらせ渓谷鐵道線",
     "lat": 36.653507,
-    "lon": 139.450078
+    "lon": 139.450078,
+    "station_passenger_log": 4.948759890378168,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0121",
@@ -997,7 +1437,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.557303,
-    "lon": 139.92318
+    "lon": 139.92318,
+    "station_passenger_log": 6.548219102762372,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0017",
@@ -1005,7 +1449,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.493845,
-    "lon": 139.876811
+    "lon": 139.876811,
+    "station_passenger_log": 9.10819689830748,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tochigi_0074",
@@ -1013,7 +1461,11 @@
     "prefecture": "栃木県",
     "line_name": "東武日光線",
     "lat": 36.31651,
-    "lon": 139.684864
+    "lon": 139.684864,
+    "station_passenger_log": 6.99117688712121,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0125",
@@ -1021,7 +1473,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.548359,
-    "lon": 139.963424
+    "lon": 139.963424,
+    "station_passenger_log": 5.869296913133774,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0119",
@@ -1029,7 +1485,11 @@
     "prefecture": "栃木県",
     "line_name": "宇都宮芳賀ライトレール",
     "lat": 36.557993,
-    "lon": 139.90811
+    "lon": 139.90811,
+    "station_passenger_log": 7.023758954738443,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0035",
@@ -1037,7 +1497,11 @@
     "prefecture": "栃木県",
     "line_name": "JR東北本線",
     "lat": 36.996572,
-    "lon": 140.087346
+    "lon": 140.087346,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0095",
@@ -1045,7 +1509,11 @@
     "prefecture": "栃木県",
     "line_name": "東武鬼怒川線",
     "lat": 36.841,
-    "lon": 139.72287
+    "lon": 139.72287,
+    "station_passenger_log": 5.313205979041787,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0094",
@@ -1053,7 +1521,11 @@
     "prefecture": "栃木県",
     "line_name": "東武鬼怒川線",
     "lat": 36.822622,
-    "lon": 139.716552
+    "lon": 139.716552,
+    "station_passenger_log": 7.784473235736469,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0040",
@@ -1061,7 +1533,11 @@
     "prefecture": "栃木県",
     "line_name": "JR烏山線",
     "lat": 36.666495,
-    "lon": 140.051656
+    "lon": 140.051656,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0029",
@@ -1069,7 +1545,11 @@
     "prefecture": "栃木県",
     "line_name": "JR日光線",
     "lat": 36.538319,
-    "lon": 139.858818
+    "lon": 139.858818,
+    "station_passenger_log": 7.85979918056211,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0030",
@@ -1077,7 +1557,11 @@
     "prefecture": "栃木県",
     "line_name": "JR日光線",
     "lat": 36.571222,
-    "lon": 139.762961
+    "lon": 139.762961,
+    "station_passenger_log": 8.172164452111904,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0036",
@@ -1085,7 +1569,11 @@
     "prefecture": "栃木県",
     "line_name": "JR東北本線",
     "lat": 37.022848,
-    "lon": 140.119586
+    "lon": 140.119586,
+    "station_passenger_log": 6.48768401848461,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0028",
@@ -1093,7 +1581,11 @@
     "prefecture": "栃木県",
     "line_name": "JR宇都宮線",
     "lat": 36.970128,
-    "lon": 140.060204
+    "lon": 140.060204,
+    "station_passenger_log": 8.351138607086154,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tochigi_0110",
@@ -1101,6 +1593,10 @@
     "prefecture": "栃木県",
     "line_name": "野岩鉄道会津鬼怒川線",
     "lat": 36.860909,
-    "lon": 139.718542
+    "lon": 139.718542,
+    "station_passenger_log": 3.8501476017100584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

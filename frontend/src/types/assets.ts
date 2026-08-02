@@ -124,7 +124,17 @@ export type CommercialFacilityDetail = {
     openMonth: number | null;
     storeAreaSqm: number | null;
     tenantCount: number | null;
+    scaleCode: CommercialFacilityScaleCode;
+    scaleLabel: string;
+    scaleBasis: "store_area_sqm" | "tenant_count" | "unknown";
 };
+
+export type CommercialFacilityScaleCode =
+  | "small"
+  | "medium"
+  | "large"
+  | "very_large"
+  | "unknown";
 
 export type CommercialFacilitySummary = {
   schemaVersion: number;
@@ -140,6 +150,8 @@ export type CommercialFacilitySummary = {
     coordinateRate: number;
     reliableCoordinateRate: number;
     storeAreaMissingRate: number;
+    scaleCounts?: Partial<Record<CommercialFacilityScaleCode, number>>;
+    scaleBasisCounts?: Record<string, number>;
   };
   latestOpenYear: number | null;
   prefectures: Record<string, CommercialFacilityAreaSummary>;
@@ -226,6 +238,11 @@ export type NearbyFacilityPoint = {
   address?: string;
   source?: string;
   updatedAt?: string;
+  storeAreaSqm?: number | null;
+  tenantCount?: number | null;
+  scaleCode?: CommercialFacilityScaleCode;
+  scaleLabel?: string;
+  scaleBasis?: "store_area_sqm" | "tenant_count" | "unknown";
 };
 
 export type NearbyFacilityCollection = {

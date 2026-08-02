@@ -5,7 +5,11 @@
     "prefecture": "秋田県",
     "line_name": "JR五能線",
     "lat": 40.386583,
-    "lon": 139.987793
+    "lon": 139.987793,
+    "station_passenger_log": 3.295836866004329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0018",
@@ -13,7 +17,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.110196,
-    "lon": 140.483796
+    "lon": 140.483796,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0070",
@@ -21,7 +29,11 @@
     "prefecture": "秋田県",
     "line_name": "JR男鹿線",
     "lat": 39.869089,
-    "lon": 140.00409
+    "lon": 140.00409,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0122",
@@ -29,7 +41,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 40.146533,
-    "lon": 140.349495
+    "lon": 140.349495,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0137",
@@ -37,7 +53,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.815858,
-    "lon": 140.584937
+    "lon": 140.584937,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0078",
@@ -45,7 +65,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.164738,
-    "lon": 139.902823
+    "lon": 139.902823,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0019",
@@ -53,7 +77,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.134221,
-    "lon": 140.485262
+    "lon": 140.485262,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0038",
@@ -61,7 +89,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.779337,
-    "lon": 140.06847
+    "lon": 140.06847,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0055",
@@ -69,7 +101,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.276408,
-    "lon": 140.496625
+    "lon": 140.496625,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0089",
@@ -77,7 +113,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.619678,
-    "lon": 140.064567
+    "lon": 140.064567,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0021",
@@ -85,7 +125,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.197196,
-    "lon": 140.50249
+    "lon": 140.50249,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0112",
@@ -93,7 +137,11 @@
     "prefecture": "秋田県",
     "line_name": "由利高原鉄道鳥海山ろく線",
     "lat": 39.296231,
-    "lon": 140.111067
+    "lon": 140.111067,
+    "station_passenger_log": 3.091042453358316,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0050",
@@ -101,7 +149,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.212506,
-    "lon": 140.235729
+    "lon": 140.235729,
+    "station_passenger_log": 6.056784013228625,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0071",
@@ -109,7 +161,11 @@
     "prefecture": "秋田県",
     "line_name": "JR男鹿線",
     "lat": 39.88174,
-    "lon": 139.987171
+    "lon": 139.987171,
+    "station_passenger_log": 6.340359303727752,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0042",
@@ -117,7 +173,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.911925,
-    "lon": 140.076022
+    "lon": 140.076022,
+    "station_passenger_log": 6.163314804034641,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0081",
@@ -125,7 +185,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.28979,
-    "lon": 139.964596
+    "lon": 139.964596,
+    "station_passenger_log": 6.1070228877422545,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0094",
@@ -133,7 +197,11 @@
     "prefecture": "秋田県",
     "line_name": "JR花輪線",
     "lat": 40.142881,
-    "lon": 140.804496
+    "lon": 140.804496,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0008",
@@ -141,7 +209,11 @@
     "prefecture": "秋田県",
     "line_name": "JR五能線",
     "lat": 40.37135,
-    "lon": 140.017882
+    "lon": 140.017882,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0142",
@@ -149,7 +221,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.687701,
-    "lon": 140.552805
+    "lon": 140.552805,
+    "station_passenger_log": 2.0794415416798357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0043",
@@ -157,7 +233,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.947366,
-    "lon": 140.078382
+    "lon": 140.078382,
+    "station_passenger_log": 6.983789965258135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0069",
@@ -165,7 +245,11 @@
     "prefecture": "秋田県",
     "line_name": "JR男鹿線",
     "lat": 39.844473,
-    "lon": 140.024374
+    "lon": 140.024374,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0029",
@@ -173,7 +257,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.547646,
-    "lon": 140.372402
+    "lon": 140.372402,
+    "station_passenger_log": 6.066108090103747,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0060",
@@ -181,7 +269,11 @@
     "prefecture": "秋田県",
     "line_name": "JR田沢湖線",
     "lat": 39.668563,
-    "lon": 140.69196
+    "lon": 140.69196,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0051",
@@ -189,7 +281,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.214785,
-    "lon": 140.312378
+    "lon": 140.312378,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0126",
@@ -197,7 +293,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 40.050604,
-    "lon": 140.40227
+    "lon": 140.40227,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0111",
@@ -205,7 +305,11 @@
     "prefecture": "秋田県",
     "line_name": "由利高原鉄道鳥海山ろく線",
     "lat": 39.312649,
-    "lon": 140.112727
+    "lon": 140.112727,
+    "station_passenger_log": 4.955827057601261,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0068",
@@ -213,7 +317,11 @@
     "prefecture": "秋田県",
     "line_name": "JR田沢湖線",
     "lat": 39.48944,
-    "lon": 140.497966
+    "lon": 140.497966,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0004",
@@ -221,7 +329,11 @@
     "prefecture": "秋田県",
     "line_name": "JR五能線",
     "lat": 40.254138,
-    "lon": 140.033835
+    "lon": 140.033835,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0047",
@@ -229,7 +341,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.141895,
-    "lon": 140.063565
+    "lon": 140.063565,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0102",
@@ -237,7 +353,11 @@
     "prefecture": "秋田県",
     "line_name": "JR花輪線",
     "lat": 40.21429,
-    "lon": 140.668211
+    "lon": 140.668211,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0098",
@@ -245,7 +365,11 @@
     "prefecture": "秋田県",
     "line_name": "JR花輪線",
     "lat": 40.256069,
-    "lon": 140.770716
+    "lon": 140.770716,
+    "station_passenger_log": 5.43372200355424,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0022",
@@ -253,7 +377,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.221186,
-    "lon": 140.526287
+    "lon": 140.526287,
+    "station_passenger_log": 6.484635235635252,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0121",
@@ -261,7 +389,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 40.161033,
-    "lon": 140.330148
+    "lon": 140.330148,
+    "station_passenger_log": 4.499809670330265,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0114",
@@ -269,7 +401,11 @@
     "prefecture": "秋田県",
     "line_name": "由利高原鉄道鳥海山ろく線",
     "lat": 39.268145,
-    "lon": 140.116323
+    "lon": 140.116323,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0003",
@@ -277,7 +413,11 @@
     "prefecture": "秋田県",
     "line_name": "JR五能線",
     "lat": 40.225669,
-    "lon": 140.039111
+    "lon": 140.039111,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0033",
@@ -285,7 +425,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.65087,
-    "lon": 140.218754
+    "lon": 140.218754,
+    "station_passenger_log": 6.385194398997726,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0034",
@@ -293,7 +437,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.661341,
-    "lon": 140.144946
+    "lon": 140.144946,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0037",
@@ -301,7 +449,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.758453,
-    "lon": 140.073601
+    "lon": 140.073601,
+    "station_passenger_log": 8.189522110748094,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0100",
@@ -309,7 +461,11 @@
     "prefecture": "秋田県",
     "line_name": "JR花輪線",
     "lat": 40.222452,
-    "lon": 140.713142
+    "lon": 140.713142,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0040",
@@ -318,10 +474,10 @@
     "line_name": "JR奥羽本線",
     "lat": 39.87089,
     "lon": 140.063079,
-    "station_passenger_log": 10.79185194896944,
+    "station_passenger_log": 0.0,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "C"
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0032",
@@ -329,7 +485,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.663347,
-    "lon": 140.274071
+    "lon": 140.274071,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0027",
@@ -337,7 +497,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.465712,
-    "lon": 140.479628
+    "lon": 140.479628,
+    "station_passenger_log": 8.201111644442758,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0103",
@@ -345,7 +509,11 @@
     "prefecture": "秋田県",
     "line_name": "JR花輪線",
     "lat": 40.209751,
-    "lon": 140.639625
+    "lon": 140.639625,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0120",
@@ -353,7 +521,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 40.186975,
-    "lon": 140.340777
+    "lon": 140.340777,
+    "station_passenger_log": 2.302585092994046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0056",
@@ -361,7 +533,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.288122,
-    "lon": 140.555946
+    "lon": 140.555946,
+    "station_passenger_log": 7.201170883281678,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0072",
@@ -369,7 +545,11 @@
     "prefecture": "秋田県",
     "line_name": "JR男鹿線",
     "lat": 39.898782,
-    "lon": 139.963609
+    "lon": 139.963609,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0134",
@@ -377,7 +557,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.911567,
-    "lon": 140.48946
+    "lon": 140.48946,
+    "station_passenger_log": 0.6931471805599453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0107",
@@ -385,7 +569,11 @@
     "prefecture": "秋田県",
     "line_name": "由利高原鉄道鳥海山ろく線",
     "lat": 39.350399,
-    "lon": 140.059913
+    "lon": 140.059913,
+    "station_passenger_log": 3.5553480614894135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0049",
@@ -393,7 +581,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.217956,
-    "lon": 140.172643
+    "lon": 140.172643,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0013",
@@ -401,7 +593,11 @@
     "prefecture": "秋田県",
     "line_name": "JR北上線",
     "lat": 39.293403,
-    "lon": 140.646094
+    "lon": 140.646094,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0127",
@@ -409,7 +605,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 40.033817,
-    "lon": 140.40117
+    "lon": 140.40117,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0077",
@@ -417,7 +617,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.137507,
-    "lon": 139.885692
+    "lon": 139.885692,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0087",
@@ -425,7 +629,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.545487,
-    "lon": 140.055122
+    "lon": 140.055122,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0132",
@@ -433,7 +641,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.921248,
-    "lon": 140.430639
+    "lon": 140.430639,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0011",
@@ -441,7 +653,11 @@
     "prefecture": "秋田県",
     "line_name": "JR五能線",
     "lat": 40.406241,
-    "lon": 139.966258
+    "lon": 139.966258,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0030",
@@ -449,7 +665,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.566586,
-    "lon": 140.32314
+    "lon": 140.32314,
+    "station_passenger_log": 4.653960350157523,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0115",
@@ -457,7 +677,11 @@
     "prefecture": "秋田県",
     "line_name": "由利高原鉄道鳥海山ろく線",
     "lat": 39.248842,
-    "lon": 140.12036
+    "lon": 140.12036,
+    "station_passenger_log": 3.5263605246161616,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0138",
@@ -465,7 +689,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.801867,
-    "lon": 140.586118
+    "lon": 140.586118,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0025",
@@ -473,7 +701,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.364891,
-    "lon": 140.538397
+    "lon": 140.538397,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0136",
@@ -481,7 +713,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.859084,
-    "lon": 140.581208
+    "lon": 140.581208,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0104",
@@ -489,7 +725,11 @@
     "prefecture": "秋田県",
     "line_name": "JR花輪線",
     "lat": 40.229235,
-    "lon": 140.572472
+    "lon": 140.572472,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0085",
@@ -497,7 +737,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.476423,
-    "lon": 140.091097
+    "lon": 140.091097,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0091",
@@ -505,7 +749,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.677493,
-    "lon": 140.087799
+    "lon": 140.087799,
+    "station_passenger_log": 7.416378479192928,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0054",
@@ -513,7 +761,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.271315,
-    "lon": 140.447572
+    "lon": 140.447572,
+    "station_passenger_log": 4.77912349311153,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0110",
@@ -521,7 +773,11 @@
     "prefecture": "秋田県",
     "line_name": "由利高原鉄道鳥海山ろく線",
     "lat": 39.321081,
-    "lon": 140.102178
+    "lon": 140.102178,
+    "station_passenger_log": 1.3862943611198906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0099",
@@ -529,7 +785,11 @@
     "prefecture": "秋田県",
     "line_name": "JR花輪線",
     "lat": 40.229788,
-    "lon": 140.737251
+    "lon": 140.737251,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0007",
@@ -537,7 +797,11 @@
     "prefecture": "秋田県",
     "line_name": "JR五能線",
     "lat": 40.332086,
-    "lon": 140.032462
+    "lon": 140.032462,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0105",
@@ -545,7 +809,11 @@
     "prefecture": "秋田県",
     "line_name": "JR花輪線",
     "lat": 40.266005,
-    "lon": 140.554745
+    "lon": 140.554745,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0001",
@@ -553,7 +821,11 @@
     "prefecture": "秋田県",
     "line_name": "JR五能線",
     "lat": 40.191579,
-    "lon": 140.065746
+    "lon": 140.065746,
+    "station_passenger_log": 6.829793737512425,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0140",
@@ -561,7 +833,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.744107,
-    "lon": 140.590288
+    "lon": 140.590288,
+    "station_passenger_log": 4.8283137373023015,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0024",
@@ -569,7 +845,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.276385,
-    "lon": 140.553856
+    "lon": 140.553856,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0097",
@@ -577,7 +857,11 @@
     "prefecture": "秋田県",
     "line_name": "JR花輪線",
     "lat": 40.230751,
-    "lon": 140.787941
+    "lon": 140.787941,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0090",
@@ -585,7 +869,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.647566,
-    "lon": 140.066482
+    "lon": 140.066482,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0124",
@@ -593,7 +881,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 40.101634,
-    "lon": 140.417854
+    "lon": 140.417854,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0046",
@@ -601,7 +893,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.103164,
-    "lon": 140.070886
+    "lon": 140.070886,
+    "station_passenger_log": 5.645446897643238,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0017",
@@ -609,7 +905,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.064533,
-    "lon": 140.45131
+    "lon": 140.45131,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0015",
@@ -617,7 +917,11 @@
     "prefecture": "秋田県",
     "line_name": "JR北上線",
     "lat": 39.310146,
-    "lon": 140.5604
+    "lon": 140.5604,
+    "station_passenger_log": 7.661527081358517,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0133",
@@ -625,7 +929,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.905078,
-    "lon": 140.452643
+    "lon": 140.452643,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0101",
@@ -633,7 +941,11 @@
     "prefecture": "秋田県",
     "line_name": "JR花輪線",
     "lat": 40.230342,
-    "lon": 140.693288
+    "lon": 140.693288,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0006",
@@ -641,7 +953,11 @@
     "prefecture": "秋田県",
     "line_name": "JR五能線",
     "lat": 40.295929,
-    "lon": 140.037824
+    "lon": 140.037824,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0036",
@@ -649,7 +965,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.737795,
-    "lon": 140.113127
+    "lon": 140.113127,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0020",
@@ -657,7 +977,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.163443,
-    "lon": 140.487011
+    "lon": 140.487011,
+    "station_passenger_log": 6.974478911025045,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0093",
@@ -665,7 +989,11 @@
     "prefecture": "秋田県",
     "line_name": "JR花輪線",
     "lat": 40.122384,
-    "lon": 140.840292
+    "lon": 140.840292,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0009",
@@ -673,7 +1001,11 @@
     "prefecture": "秋田県",
     "line_name": "JR五能線",
     "lat": 40.379967,
-    "lon": 140.00221
+    "lon": 140.00221,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0062",
@@ -682,10 +1014,10 @@
     "line_name": "JR田沢湖線",
     "lat": 39.612065,
     "lon": 140.601203,
-    "station_passenger_log": 10.670837343628586,
+    "station_passenger_log": 0.0,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "C"
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0059",
@@ -693,7 +1025,11 @@
     "prefecture": "秋田県",
     "line_name": "JR田沢湖線",
     "lat": 39.700363,
-    "lon": 140.722139
+    "lon": 140.722139,
+    "station_passenger_log": 6.333279628139691,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0076",
@@ -701,7 +1037,11 @@
     "prefecture": "秋田県",
     "line_name": "JR男鹿線",
     "lat": 39.884571,
-    "lon": 139.848647
+    "lon": 139.848647,
+    "station_passenger_log": 6.142037405587356,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0057",
@@ -709,7 +1049,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.338103,
-    "lon": 140.591657
+    "lon": 140.591657,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0014",
@@ -717,7 +1061,11 @@
     "prefecture": "秋田県",
     "line_name": "JR北上線",
     "lat": 39.27805,
-    "lon": 140.619067
+    "lon": 140.619067,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0116",
@@ -725,7 +1073,11 @@
     "prefecture": "秋田県",
     "line_name": "由利高原鉄道鳥海山ろく線",
     "lat": 39.230305,
-    "lon": 140.13897
+    "lon": 140.13897,
+    "station_passenger_log": 5.598421958998375,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0061",
@@ -733,7 +1085,11 @@
     "prefecture": "秋田県",
     "line_name": "JR田沢湖線",
     "lat": 39.622667,
-    "lon": 140.627358
+    "lon": 140.627358,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0028",
@@ -741,7 +1097,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.494841,
-    "lon": 140.426518
+    "lon": 140.426518,
+    "station_passenger_log": 5.84354441703136,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0035",
@@ -749,7 +1109,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.716748,
-    "lon": 140.129931
+    "lon": 140.129931,
+    "station_passenger_log": 9.886392257107492,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "akita_0131",
@@ -757,7 +1121,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.935151,
-    "lon": 140.413071
+    "lon": 140.413071,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0123",
@@ -765,7 +1133,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 40.128199,
-    "lon": 140.373477
+    "lon": 140.373477,
+    "station_passenger_log": 4.406719247264253,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0053",
@@ -773,7 +1145,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.251094,
-    "lon": 140.397827
+    "lon": 140.397827,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0119",
@@ -781,7 +1157,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 40.204973,
-    "lon": 140.349206
+    "lon": 140.349206,
+    "station_passenger_log": 2.0794415416798357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0139",
@@ -789,7 +1169,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.771049,
-    "lon": 140.602775
+    "lon": 140.602775,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0086",
@@ -797,7 +1181,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.493884,
-    "lon": 140.063032
+    "lon": 140.063032,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0067",
@@ -805,7 +1193,11 @@
     "prefecture": "秋田県",
     "line_name": "JR田沢湖線",
     "lat": 39.501511,
-    "lon": 140.511886
+    "lon": 140.511886,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0031",
@@ -813,7 +1205,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.618679,
-    "lon": 140.320722
+    "lon": 140.320722,
+    "station_passenger_log": 5.616771097666572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0144",
@@ -821,7 +1217,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.627304,
-    "lon": 140.574249
+    "lon": 140.574249,
+    "station_passenger_log": 0.6931471805599453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0084",
@@ -829,7 +1229,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.442075,
-    "lon": 140.0906
+    "lon": 140.0906,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0083",
@@ -837,7 +1241,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.386877,
-    "lon": 140.057632
+    "lon": 140.057632,
+    "station_passenger_log": 7.686162303492906,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0092",
@@ -845,7 +1253,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.695834,
-    "lon": 140.116467
+    "lon": 140.116467,
+    "station_passenger_log": 7.370860166536716,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0141",
@@ -853,7 +1265,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.727689,
-    "lon": 140.565383
+    "lon": 140.565383,
+    "station_passenger_log": 1.791759469228055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0065",
@@ -861,7 +1277,11 @@
     "prefecture": "秋田県",
     "line_name": "JR田沢湖線",
     "lat": 39.546003,
-    "lon": 140.540448
+    "lon": 140.540448,
+    "station_passenger_log": 5.043425116919247,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0041",
@@ -869,7 +1289,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.898981,
-    "lon": 140.0733
+    "lon": 140.0733,
+    "station_passenger_log": 5.25227342804663,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0075",
@@ -877,7 +1301,11 @@
     "prefecture": "秋田県",
     "line_name": "JR男鹿線",
     "lat": 39.904569,
-    "lon": 139.86205
+    "lon": 139.86205,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0002",
@@ -885,7 +1313,11 @@
     "prefecture": "秋田県",
     "line_name": "JR五能線",
     "lat": 40.206577,
-    "lon": 140.033084
+    "lon": 140.033084,
+    "station_passenger_log": 6.459904454377535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0074",
@@ -893,7 +1325,11 @@
     "prefecture": "秋田県",
     "line_name": "JR男鹿線",
     "lat": 39.915172,
-    "lon": 139.902657
+    "lon": 139.902657,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0073",
@@ -901,7 +1337,11 @@
     "prefecture": "秋田県",
     "line_name": "JR男鹿線",
     "lat": 39.90473,
-    "lon": 139.946804
+    "lon": 139.946804,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0129",
@@ -909,7 +1349,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.980085,
-    "lon": 140.402486
+    "lon": 140.402486,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0130",
@@ -917,7 +1361,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.95846,
-    "lon": 140.412528
+    "lon": 140.412528,
+    "station_passenger_log": 0.6931471805599453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0106",
@@ -933,7 +1381,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.653175,
-    "lon": 140.563191
+    "lon": 140.563191,
+    "station_passenger_log": 2.4849066497880004,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0113",
@@ -941,7 +1393,11 @@
     "prefecture": "秋田県",
     "line_name": "由利高原鉄道鳥海山ろく線",
     "lat": 39.278319,
-    "lon": 140.116448
+    "lon": 140.116448,
+    "station_passenger_log": 4.1588830833596715,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0082",
@@ -949,7 +1405,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.347536,
-    "lon": 140.018518
+    "lon": 140.018518,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0118",
@@ -957,7 +1417,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 40.224615,
-    "lon": 140.357918
+    "lon": 140.357918,
+    "station_passenger_log": 2.0794415416798357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0063",
@@ -965,7 +1429,11 @@
     "prefecture": "秋田県",
     "line_name": "JR田沢湖線",
     "lat": 39.591716,
-    "lon": 140.570988
+    "lon": 140.570988,
+    "station_passenger_log": 6.803505257608338,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0079",
@@ -973,7 +1441,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.2078,
-    "lon": 139.902205
+    "lon": 139.902205,
+    "station_passenger_log": 5.916202062607435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0039",
@@ -981,7 +1453,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.809925,
-    "lon": 140.05781
+    "lon": 140.05781,
+    "station_passenger_log": 7.997326822998097,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0088",
@@ -989,7 +1465,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.56054,
-    "lon": 140.057049
+    "lon": 140.057049,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0023",
@@ -997,7 +1477,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.248716,
-    "lon": 140.53853
+    "lon": 140.53853,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0080",
@@ -1005,7 +1489,11 @@
     "prefecture": "秋田県",
     "line_name": "JR羽越本線",
     "lat": 39.256183,
-    "lon": 139.920662
+    "lon": 139.920662,
+    "station_passenger_log": 5.459585514144159,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0066",
@@ -1013,7 +1501,11 @@
     "prefecture": "秋田県",
     "line_name": "JR田沢湖線",
     "lat": 39.519323,
-    "lon": 140.527744
+    "lon": 140.527744,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0135",
@@ -1021,7 +1513,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 39.91952,
-    "lon": 140.515793
+    "lon": 140.515793,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0125",
@@ -1029,7 +1525,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 40.061322,
-    "lon": 140.417731
+    "lon": 140.417731,
+    "station_passenger_log": 4.454347296253507,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0128",
@@ -1037,7 +1537,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 40.000782,
-    "lon": 140.401538
+    "lon": 140.401538,
+    "station_passenger_log": 4.465908118654584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0016",
@@ -1045,7 +1549,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.049706,
-    "lon": 140.4138
+    "lon": 140.4138,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0058",
@@ -1053,7 +1561,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.398864,
-    "lon": 140.607523
+    "lon": 140.607523,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0095",
@@ -1061,7 +1573,11 @@
     "prefecture": "秋田県",
     "line_name": "JR花輪線",
     "lat": 40.158574,
-    "lon": 140.793477
+    "lon": 140.793477,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0026",
@@ -1069,7 +1585,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.406013,
-    "lon": 140.515378
+    "lon": 140.515378,
+    "station_passenger_log": 5.652489180268651,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0108",
@@ -1077,7 +1597,11 @@
     "prefecture": "秋田県",
     "line_name": "由利高原鉄道鳥海山ろく線",
     "lat": 39.328693,
-    "lon": 140.071254
+    "lon": 140.071254,
+    "station_passenger_log": 3.8918202981106265,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0044",
@@ -1085,7 +1609,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 39.996361,
-    "lon": 140.077474
+    "lon": 140.077474,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0005",
@@ -1093,7 +1621,11 @@
     "prefecture": "秋田県",
     "line_name": "JR五能線",
     "lat": 40.271433,
-    "lon": 140.036931
+    "lon": 140.036931,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0064",
@@ -1101,7 +1633,11 @@
     "prefecture": "秋田県",
     "line_name": "JR田沢湖線",
     "lat": 39.568536,
-    "lon": 140.557901
+    "lon": 140.557901,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0048",
@@ -1109,7 +1645,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.203879,
-    "lon": 140.118507
+    "lon": 140.118507,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0052",
@@ -1117,7 +1657,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.232059,
-    "lon": 140.369816
+    "lon": 140.369816,
+    "station_passenger_log": 6.78105762593618,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0117",
@@ -1125,7 +1669,11 @@
     "prefecture": "秋田県",
     "line_name": "秋田内陸縦貫鉄道",
     "lat": 40.232059,
-    "lon": 140.369816
+    "lon": 140.369816,
+    "station_passenger_log": 5.84354441703136,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0045",
@@ -1133,7 +1681,11 @@
     "prefecture": "秋田県",
     "line_name": "JR奥羽本線",
     "lat": 40.044619,
-    "lon": 140.082621
+    "lon": 140.082621,
+    "station_passenger_log": 5.407171771460119,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0096",
@@ -1141,7 +1693,11 @@
     "prefecture": "秋田県",
     "line_name": "JR花輪線",
     "lat": 40.188453,
-    "lon": 140.785088
+    "lon": 140.785088,
+    "station_passenger_log": 5.733341276897746,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "akita_0012",
@@ -1149,6 +1705,10 @@
     "prefecture": "秋田県",
     "line_name": "JR北上線",
     "lat": 39.276243,
-    "lon": 140.699619
+    "lon": 140.699619,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

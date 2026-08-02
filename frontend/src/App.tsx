@@ -191,6 +191,12 @@ export function App() {
           onSelect={handleMapSelect}
           locationSummary={locationSummary}
           stations={stations}
+          onLayerPanelOpenChange={(isOpen) => {
+            if (isOpen) {
+              clearPendingMapSelectionScroll();
+              setFormSheetState("collapsed");
+            }
+          }}
         />
         <div
           ref={sheetStackRef}
@@ -199,7 +205,10 @@ export function App() {
         >
           <PredictionSheetHandle
             sheetState={formSheetState}
-            onSheetStateChange={setFormSheetState}
+            onSheetStateChange={(state) => {
+              clearPendingMapSelectionScroll();
+              setFormSheetState(state);
+            }}
           />
           <div className="prediction-workflow">
             <div className="prediction-main-column">

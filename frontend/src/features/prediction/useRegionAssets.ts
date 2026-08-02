@@ -19,6 +19,7 @@ import type { PredictionFormState, StationRegion } from "../../types/prediction"
 import { getRegionFromPrefecture, getStationRegionFromPrefecture } from "../../utils/region";
 import { loadLandPriceSummary } from "../../services/landPriceService";
 import { loadUrbanPlanningCollection } from "../../services/urbanPlanningService";
+import { scheduleIdleTask } from "../../utils/idleTask";
 
 const RECENT_HISTORY_START_YEAR = 2020;
 type AssetStatus = "idle" | "loading" | "ready" | "error";
@@ -164,34 +165,37 @@ export function useRegionAssets({
     let disposed = false;
     setFacilityStatus("loading");
     setLandPriceStatus("loading");
-    fetchJson<CommercialFacilitySummary>("./facilities/commercial_facilities.json")
-      .then((summary) => {
-        if (!disposed) {
-          setCommercialFacilities(summary);
-          setFacilityStatus("ready");
-        }
-      })
-      .catch(() => {
-        if (!disposed) {
-          setCommercialFacilities(null);
-          setFacilityStatus("error");
-        }
-      });
-    loadLandPriceSummary()
-      .then((summary) => {
-        if (!disposed) {
-          setLandPrices(summary);
-          setLandPriceStatus("ready");
-        }
-      })
-      .catch(() => {
-        if (!disposed) {
-          setLandPrices(null);
-          setLandPriceStatus("error");
-        }
-      });
+    const cancelLoad = scheduleIdleTask(() => {
+      fetchJson<CommercialFacilitySummary>("./facilities/commercial_facilities.json")
+        .then((summary) => {
+          if (!disposed) {
+            setCommercialFacilities(summary);
+            setFacilityStatus("ready");
+          }
+        })
+        .catch(() => {
+          if (!disposed) {
+            setCommercialFacilities(null);
+            setFacilityStatus("error");
+          }
+        });
+      loadLandPriceSummary()
+        .then((summary) => {
+          if (!disposed) {
+            setLandPrices(summary);
+            setLandPriceStatus("ready");
+          }
+        })
+        .catch(() => {
+          if (!disposed) {
+            setLandPrices(null);
+            setLandPriceStatus("error");
+          }
+        });
+    }, 2000);
     return () => {
       disposed = true;
+      cancelLoad();
     };
   }, []);
 

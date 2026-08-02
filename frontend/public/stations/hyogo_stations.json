@@ -5,7 +5,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.739079,
-    "lon": 135.331093
+    "lon": 135.331093,
+    "station_passenger_log": 9.665928089487558,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0058",
@@ -13,7 +17,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陽本線",
     "lat": 34.810157,
-    "lon": 134.614105
+    "lon": 134.614105,
+    "station_passenger_log": 9.27771860730613,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0111",
@@ -21,7 +29,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.805544,
-    "lon": 134.753309
+    "lon": 134.753309,
+    "station_passenger_log": 8.252446090246952,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0150",
@@ -29,7 +41,11 @@
     "prefecture": "兵庫県",
     "line_name": "ポートアイランド線",
     "lat": 34.668863,
-    "lon": 135.210105
+    "lon": 135.210105,
+    "station_passenger_log": 9.549523217290366,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0248",
@@ -37,7 +53,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市海岸線",
     "lat": 34.685875,
-    "lon": 135.183973
+    "lon": 135.183973,
+    "station_passenger_log": 8.203851372183879,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0255",
@@ -45,7 +65,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸新交通六甲ライナー",
     "lat": 34.689103,
-    "lon": 135.269347
+    "lon": 135.269347,
+    "station_passenger_log": 9.803225130597731,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0254",
@@ -53,7 +77,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸新交通六甲ライナー",
     "lat": 34.692853,
-    "lon": 135.26875
+    "lon": 135.26875,
+    "station_passenger_log": 8.955706153570603,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0269",
@@ -61,7 +89,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄公園都市線",
     "lat": 34.909767,
-    "lon": 135.183707
+    "lon": 135.183707,
+    "station_passenger_log": 7.715569534520208,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0385",
@@ -69,7 +101,11 @@
     "prefecture": "兵庫県",
     "line_name": "京都丹後鉄道宮豊線",
     "lat": 35.552816,
-    "lon": 134.835391
+    "lon": 134.835391,
+    "station_passenger_log": 0.6931471805599453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0247",
@@ -77,7 +113,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市海岸線",
     "lat": 34.678554,
-    "lon": 135.178657
+    "lon": 135.178657,
+    "station_passenger_log": 9.61146273065021,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0267",
@@ -85,7 +125,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄公園都市線",
     "lat": 34.88546,
-    "lon": 135.202334
+    "lon": 135.202334,
+    "station_passenger_log": 8.197814032221203,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0148",
@@ -93,7 +137,11 @@
     "prefecture": "兵庫県",
     "line_name": "ポートアイランド線",
     "lat": 34.681501,
-    "lon": 135.202205
+    "lon": 135.202205,
+    "station_passenger_log": 6.606650186198215,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0256",
@@ -101,7 +149,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸新交通六甲ライナー",
     "lat": 34.684176,
-    "lon": 135.270077
+    "lon": 135.270077,
+    "station_passenger_log": 8.888342869109282,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0317",
@@ -109,7 +161,11 @@
     "prefecture": "兵庫県",
     "line_name": "能勢電鉄妙見線",
     "lat": 34.879599,
-    "lon": 135.419888
+    "lon": 135.419888,
+    "station_passenger_log": 6.561030665896573,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0092",
@@ -133,7 +189,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市海岸線",
     "lat": 34.691618,
-    "lon": 135.195538
+    "lon": 135.195538,
+    "station_passenger_log": 9.690727406601606,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0033",
@@ -141,7 +201,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR姫新線",
     "lat": 34.984846,
-    "lon": 134.435318
+    "lon": 134.435318,
+    "station_passenger_log": 5.14166355650266,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0295",
@@ -157,7 +221,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄粟生線",
     "lat": 34.800013,
-    "lon": 134.988814
+    "lon": 134.988814,
+    "station_passenger_log": 5.655991810819852,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0125",
@@ -173,7 +241,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄三田線",
     "lat": 34.881805,
-    "lon": 135.229606
+    "lon": 135.229606,
+    "station_passenger_log": 6.678342114654332,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0036",
@@ -181,7 +253,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR姫新線",
     "lat": 34.983425,
-    "lon": 134.32251
+    "lon": 134.32251,
+    "station_passenger_log": 3.970291913552122,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0230",
@@ -189,7 +265,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市西神・山手線",
     "lat": 34.673251,
-    "lon": 135.158331
+    "lon": 135.158331,
+    "station_passenger_log": 8.984066927653044,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0063",
@@ -197,7 +277,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陽本線",
     "lat": 34.865845,
-    "lon": 134.354081
+    "lon": 134.354081,
+    "station_passenger_log": 8.5016733797582,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0135",
@@ -205,7 +289,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 35.08791,
-    "lon": 135.094268
+    "lon": 135.094268,
+    "station_passenger_log": 4.532599493153256,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0190",
@@ -213,7 +301,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.670832,
-    "lon": 134.936128
+    "lon": 134.936128,
+    "station_passenger_log": 8.039802343736485,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0149",
@@ -221,7 +313,11 @@
     "prefecture": "兵庫県",
     "line_name": "ポートアイランド線",
     "lat": 34.673124,
-    "lon": 135.207483
+    "lon": 135.207483,
+    "station_passenger_log": 8.931551966694522,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0156",
@@ -229,7 +325,11 @@
     "prefecture": "兵庫県",
     "line_name": "ポートアイランド線",
     "lat": 34.669266,
-    "lon": 135.217096
+    "lon": 135.217096,
+    "station_passenger_log": 7.826842098158293,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0246",
@@ -237,7 +337,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市海岸線",
     "lat": 34.666199,
-    "lon": 135.175866
+    "lon": 135.175866,
+    "station_passenger_log": 8.839711378703475,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0119",
@@ -245,7 +349,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 34.816627,
-    "lon": 135.373993
+    "lon": 135.373993,
+    "station_passenger_log": 9.78846944095186,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0338",
@@ -253,7 +361,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急宝塚本線",
     "lat": 34.819518,
-    "lon": 135.369235
+    "lon": 135.369235,
+    "station_passenger_log": 9.11921143856508,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0272",
@@ -269,7 +381,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 35.072369,
-    "lon": 135.168533
+    "lon": 135.168533,
+    "station_passenger_log": 5.14166355650266,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0140",
@@ -277,7 +393,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 35.24373,
-    "lon": 135.133908
+    "lon": 135.133908,
+    "station_passenger_log": 5.41610040220442,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0020",
@@ -285,7 +405,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 35.075812,
-    "lon": 135.030557
+    "lon": 135.030557,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0371",
@@ -293,7 +417,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.726975,
-    "lon": 135.356811
+    "lon": 135.356811,
+    "station_passenger_log": 8.316055720364643,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0222",
@@ -301,7 +429,11 @@
     "prefecture": "兵庫県",
     "line_name": "智頭急行智頭線",
     "lat": 34.960153,
-    "lon": 134.344237
+    "lon": 134.344237,
+    "station_passenger_log": 4.290459441148391,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0052",
@@ -309,7 +441,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.627549,
-    "lon": 134.517374
+    "lon": 134.517374,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0210",
@@ -325,7 +461,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄三田線",
     "lat": 34.848818,
-    "lon": 135.227017
+    "lon": 135.227017,
+    "station_passenger_log": 5.176149732573829,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0258",
@@ -333,7 +473,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄三田線",
     "lat": 34.806253,
-    "lon": 135.216243
+    "lon": 135.216243,
+    "station_passenger_log": 7.573017256052546,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0064",
@@ -341,7 +485,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 34.834672,
-    "lon": 134.70535
+    "lon": 134.70535,
+    "station_passenger_log": 7.71289096149013,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0185",
@@ -349,7 +497,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.647556,
-    "lon": 135.002592
+    "lon": 135.002592,
+    "station_passenger_log": 7.2633296174768365,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0326",
@@ -357,7 +509,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急今津線",
     "lat": 34.775117,
-    "lon": 135.356854
+    "lon": 135.356854,
+    "station_passenger_log": 9.90797745780898,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0067",
@@ -365,7 +521,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 34.885144,
-    "lon": 134.728315
+    "lon": 134.728315,
+    "station_passenger_log": 7.577121930876679,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0331",
@@ -389,7 +549,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.767171,
-    "lon": 134.787048
+    "lon": 134.787048,
+    "station_passenger_log": 7.5652752818989315,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0238",
@@ -397,7 +561,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市西神・山手線",
     "lat": 34.68785,
-    "lon": 135.041313
+    "lon": 135.041313,
+    "station_passenger_log": 9.100413892597578,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0088",
@@ -413,7 +581,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.65314,
-    "lon": 134.685856
+    "lon": 134.685856,
+    "station_passenger_log": 4.859812404361672,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0035",
@@ -421,7 +593,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR姫新線",
     "lat": 35.003579,
-    "lon": 134.356538
+    "lon": 134.356538,
+    "station_passenger_log": 7.027314514039777,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0026",
@@ -429,7 +605,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR姫新線",
     "lat": 34.856483,
-    "lon": 134.642783
+    "lon": 134.642783,
+    "station_passenger_log": 8.341648618901306,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0145",
@@ -437,7 +617,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR赤穂線",
     "lat": 34.746681,
-    "lon": 134.331664
+    "lon": 134.331664,
+    "station_passenger_log": 3.8918202981106265,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0093",
@@ -453,7 +637,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.784144,
-    "lon": 134.72188
+    "lon": 134.72188,
+    "station_passenger_log": 7.723120092266331,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0040",
@@ -461,7 +649,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.414287,
-    "lon": 134.781403
+    "lon": 134.781403,
+    "station_passenger_log": 6.68586094706836,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0349",
@@ -469,7 +661,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急神戸本線",
     "lat": 34.719891,
-    "lon": 135.234371
+    "lon": 135.234371,
+    "station_passenger_log": 10.11346480731858,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0158",
@@ -477,7 +673,11 @@
     "prefecture": "兵庫県",
     "line_name": "六甲ケーブル線",
     "lat": 34.737349,
-    "lon": 135.233552
+    "lon": 135.233552,
+    "station_passenger_log": 6.71174039505618,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0159",
@@ -485,7 +685,11 @@
     "prefecture": "兵庫県",
     "line_name": "六甲ケーブル線",
     "lat": 34.751944,
-    "lon": 135.236899
+    "lon": 135.236899,
+    "station_passenger_log": 6.502790045915623,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0089",
@@ -493,7 +697,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.714945,
-    "lon": 135.238588
+    "lon": 135.238588,
+    "station_passenger_log": 10.81047514408414,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0022",
@@ -501,7 +709,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR和田岬線",
     "lat": 34.668343,
-    "lon": 135.164706
+    "lon": 135.164706,
+    "station_passenger_log": 10.601049971569482,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0376",
@@ -509,7 +721,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.718232,
-    "lon": 135.404604
+    "lon": 135.404604,
+    "station_passenger_log": 9.345745008982384,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0197",
@@ -525,7 +741,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.767666,
-    "lon": 134.839447
+    "lon": 134.839447,
+    "station_passenger_log": 10.698627082846134,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0117",
@@ -533,7 +753,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 34.801349,
-    "lon": 135.419326
+    "lon": 135.419326,
+    "station_passenger_log": 9.254644297532709,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0157",
@@ -541,7 +765,11 @@
     "prefecture": "兵庫県",
     "line_name": "ポートアイランド線",
     "lat": 34.673566,
-    "lon": 135.214632
+    "lon": 135.214632,
+    "station_passenger_log": 7.658227526161352,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0167",
@@ -549,7 +777,11 @@
     "prefecture": "兵庫県",
     "line_name": "北条鉄道",
     "lat": 34.929664,
-    "lon": 134.832617
+    "lon": 134.832617,
+    "station_passenger_log": 5.8971538676367405,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0275",
@@ -557,7 +789,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄有馬線",
     "lat": 34.739549,
-    "lon": 135.151917
+    "lon": 135.151917,
+    "station_passenger_log": 9.108307646411031,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0152",
@@ -565,7 +801,11 @@
     "prefecture": "兵庫県",
     "line_name": "ポートアイランド線",
     "lat": 34.658578,
-    "lon": 135.216343
+    "lon": 135.216343,
+    "station_passenger_log": 9.500319803476646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0031",
@@ -573,7 +813,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR姫新線",
     "lat": 34.942508,
-    "lon": 134.494327
+    "lon": 134.494327,
+    "station_passenger_log": 3.970291913552122,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0268",
@@ -581,7 +825,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄公園都市線",
     "lat": 34.901729,
-    "lon": 135.189612
+    "lon": 135.189612,
+    "station_passenger_log": 7.43955930913332,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0155",
@@ -589,7 +837,11 @@
     "prefecture": "兵庫県",
     "line_name": "ポートアイランド線",
     "lat": 34.664666,
-    "lon": 135.217007
+    "lon": 135.217007,
+    "station_passenger_log": 8.452761331256848,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0132",
@@ -597,7 +849,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 35.037697,
-    "lon": 135.174875
+    "lon": 135.174875,
+    "station_passenger_log": 5.796057750765372,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0253",
@@ -605,7 +861,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸新交通六甲ライナー",
     "lat": 34.706751,
-    "lon": 135.267661
+    "lon": 135.267661,
+    "station_passenger_log": 7.433666540166168,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0004",
@@ -613,7 +873,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.794623,
-    "lon": 134.90682
+    "lon": 134.90682,
+    "station_passenger_log": 7.199678345691172,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0131",
@@ -629,7 +893,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市西神・山手線",
     "lat": 34.67936,
-    "lon": 135.094725
+    "lon": 135.094725,
+    "station_passenger_log": 10.72223160550527,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0038",
@@ -637,7 +905,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.34141,
-    "lon": 134.85137
+    "lon": 134.85137,
+    "station_passenger_log": 7.007600613951853,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0023",
@@ -645,7 +917,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR和田岬線",
     "lat": 34.657278,
-    "lon": 135.174268
+    "lon": 135.174268,
+    "station_passenger_log": 9.948508718183648,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0281",
@@ -653,7 +929,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄有馬線",
     "lat": 34.790297,
-    "lon": 135.211461
+    "lon": 135.211461,
+    "station_passenger_log": 7.601901959875166,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0042",
@@ -661,7 +941,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.496213,
-    "lon": 134.800016
+    "lon": 134.800016,
+    "station_passenger_log": 5.0689042022202315,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0344",
@@ -669,7 +953,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急神戸本線",
     "lat": 34.751905,
-    "lon": 135.448186
+    "lon": 135.448186,
+    "station_passenger_log": 10.165544077348937,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0107",
@@ -677,7 +965,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.720482,
-    "lon": 134.888921
+    "lon": 134.888921,
+    "station_passenger_log": 10.130822308468806,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0142",
@@ -685,7 +977,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR赤穂線",
     "lat": 34.768679,
-    "lon": 134.417244
+    "lon": 134.417244,
+    "station_passenger_log": 7.252053951852814,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0100",
@@ -693,7 +989,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.629252,
-    "lon": 135.053872
+    "lon": 135.053872,
+    "station_passenger_log": 10.891708171973267,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "hyogo_0045",
@@ -701,7 +1001,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.623764,
-    "lon": 134.813437
+    "lon": 134.813437,
+    "station_passenger_log": 7.502738210754851,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0114",
@@ -725,7 +1029,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急宝塚本線",
     "lat": 34.815863,
-    "lon": 135.361339
+    "lon": 135.361339,
+    "station_passenger_log": 8.834482608620677,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0341",
@@ -733,7 +1041,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急甲陽線",
     "lat": 34.742246,
-    "lon": 135.328207
+    "lon": 135.328207,
+    "station_passenger_log": 10.094397126516617,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0315",
@@ -749,7 +1061,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄網干線",
     "lat": 34.798695,
-    "lon": 134.639457
+    "lon": 134.639457,
+    "station_passenger_log": 7.254884810077338,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0105",
@@ -773,7 +1089,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.779346,
-    "lon": 134.757531
+    "lon": 134.757531,
+    "station_passenger_log": 8.189522110748094,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0296",
@@ -781,7 +1101,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄粟生線",
     "lat": 34.808707,
-    "lon": 134.97146
+    "lon": 134.97146,
+    "station_passenger_log": 6.648984550024776,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0279",
@@ -789,7 +1113,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄有馬線",
     "lat": 34.780978,
-    "lon": 135.198693
+    "lon": 135.198693,
+    "station_passenger_log": 8.016317898503415,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0378",
@@ -797,7 +1125,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.716583,
-    "lon": 135.425549
+    "lon": 135.425549,
+    "station_passenger_log": 8.992681750892542,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0358",
@@ -805,7 +1137,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.707671,
-    "lon": 135.231055
+    "lon": 135.231055,
+    "station_passenger_log": 9.12347443895452,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0184",
@@ -813,7 +1149,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.646585,
-    "lon": 135.008367
+    "lon": 135.008367,
+    "station_passenger_log": 7.644919344958857,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0304",
@@ -821,7 +1161,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸高速鉄道東西線",
     "lat": 34.671179,
-    "lon": 135.161709
+    "lon": 135.161709,
+    "station_passenger_log": 8.551208070003515,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0144",
@@ -829,7 +1173,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR赤穂線",
     "lat": 34.749097,
-    "lon": 134.351418
+    "lon": 134.351418,
+    "station_passenger_log": 6.142037405587356,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0027",
@@ -837,7 +1185,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR姫新線",
     "lat": 34.863998,
-    "lon": 134.607087
+    "lon": 134.607087,
+    "station_passenger_log": 6.652863029353347,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0234",
@@ -853,7 +1205,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.792271,
-    "lon": 134.692969
+    "lon": 134.692969,
+    "station_passenger_log": 7.679713639966372,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0024",
@@ -861,7 +1217,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR姫新線",
     "lat": 34.827659,
-    "lon": 134.690769
+    "lon": 134.690769,
+    "station_passenger_log": 11.483280359004624,
+    "station_line_count": 4.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "hyogo_0237",
@@ -869,7 +1229,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市西神・山手線",
     "lat": 34.681471,
-    "lon": 135.057687
+    "lon": 135.057687,
+    "station_passenger_log": 10.446944922115469,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0120",
@@ -877,7 +1241,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 34.811562,
-    "lon": 135.340399
+    "lon": 135.340399,
+    "station_passenger_log": 10.73219219685162,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0323",
@@ -885,7 +1253,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急今津線",
     "lat": 34.804256,
-    "lon": 135.345918
+    "lon": 135.345918,
+    "station_passenger_log": 9.094368195723762,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0109",
@@ -893,7 +1265,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.784795,
-    "lon": 134.812158
+    "lon": 134.812158,
+    "station_passenger_log": 9.694924684536948,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0074",
@@ -901,7 +1277,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 35.065462,
-    "lon": 134.743255
+    "lon": 134.743255,
+    "station_passenger_log": 6.398594934535208,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0325",
@@ -925,7 +1305,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.833601,
-    "lon": 134.918466
+    "lon": 134.918466,
+    "station_passenger_log": 6.6240652277998935,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0080",
@@ -941,7 +1325,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.71776,
-    "lon": 135.395044
+    "lon": 135.395044,
+    "station_passenger_log": 9.2299469016151,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0199",
@@ -949,7 +1337,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.748576,
-    "lon": 134.820794
+    "lon": 134.820794,
+    "station_passenger_log": 8.064950891749143,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0055",
@@ -957,7 +1349,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.606982,
-    "lon": 134.393736
+    "lon": 134.393736,
+    "station_passenger_log": 2.833213344056216,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0276",
@@ -965,7 +1361,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄有馬線",
     "lat": 34.746171,
-    "lon": 135.153211
+    "lon": 135.153211,
+    "station_passenger_log": 8.13505390861157,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0319",
@@ -989,7 +1389,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.629468,
-    "lon": 135.053622
+    "lon": 135.053622,
+    "station_passenger_log": 9.09121894106832,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0177",
@@ -997,7 +1401,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.633579,
-    "lon": 135.082389
+    "lon": 135.082389,
+    "station_passenger_log": 7.016609683894219,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0216",
@@ -1005,7 +1413,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄網干線",
     "lat": 34.796378,
-    "lon": 134.61741
+    "lon": 134.61741,
+    "station_passenger_log": 7.490529402060711,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0212",
@@ -1013,7 +1425,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.828783,
-    "lon": 134.689263
+    "lon": 134.689263,
+    "station_passenger_log": 10.02424394117191,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0186",
@@ -1021,7 +1437,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.648725,
-    "lon": 134.99294
+    "lon": 134.99294,
+    "station_passenger_log": 10.116297899710544,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0203",
@@ -1029,7 +1449,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.77553,
-    "lon": 134.77321
+    "lon": 134.77321,
+    "station_passenger_log": 7.820439515262181,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0218",
@@ -1037,7 +1461,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄網干線",
     "lat": 34.787002,
-    "lon": 134.587953
+    "lon": 134.587953,
+    "station_passenger_log": 8.085486772102845,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0175",
@@ -1045,7 +1473,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.643459,
-    "lon": 135.112208
+    "lon": 135.112208,
+    "station_passenger_log": 7.8252452914317745,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0193",
@@ -1053,7 +1485,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.689252,
-    "lon": 134.901953
+    "lon": 134.901953,
+    "station_passenger_log": 7.602900462204755,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0259",
@@ -1061,7 +1497,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄三田線",
     "lat": 34.821707,
-    "lon": 135.222443
+    "lon": 135.222443,
+    "station_passenger_log": 9.060331104649476,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0347",
@@ -1085,7 +1525,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 34.824857,
-    "lon": 135.409901
+    "lon": 135.409901,
+    "station_passenger_log": 10.451695662489447,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0310",
@@ -1093,7 +1537,11 @@
     "prefecture": "兵庫県",
     "line_name": "能勢電鉄妙見線",
     "lat": 34.827654,
-    "lon": 135.413393
+    "lon": 135.413393,
+    "station_passenger_log": 10.764793976077524,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0005",
@@ -1101,7 +1549,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.819352,
-    "lon": 134.932494
+    "lon": 134.932494,
+    "station_passenger_log": 5.953243334287785,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0139",
@@ -1109,7 +1561,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 35.207868,
-    "lon": 135.130198
+    "lon": 135.130198,
+    "station_passenger_log": 5.765191102784844,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0151",
@@ -1117,7 +1573,11 @@
     "prefecture": "兵庫県",
     "line_name": "ポートアイランド線",
     "lat": 34.664897,
-    "lon": 135.212455
+    "lon": 135.212455,
+    "station_passenger_log": 9.383200644980624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0217",
@@ -1125,7 +1585,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄網干線",
     "lat": 34.790751,
-    "lon": 134.601001
+    "lon": 134.601001,
+    "station_passenger_log": 6.98100574072173,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0223",
@@ -1133,7 +1597,11 @@
     "prefecture": "兵庫県",
     "line_name": "智頭急行智頭線",
     "lat": 35.044206,
-    "lon": 134.372079
+    "lon": 134.372079,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0316",
@@ -1149,7 +1617,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄網干線",
     "lat": 34.797736,
-    "lon": 134.62815
+    "lon": 134.62815,
+    "station_passenger_log": 7.372746366404328,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0127",
@@ -1165,7 +1637,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄粟生線",
     "lat": 34.770269,
-    "lon": 135.023069
+    "lon": 135.023069,
+    "station_passenger_log": 6.249975242259483,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0244",
@@ -1173,7 +1649,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市海岸線",
     "lat": 34.654641,
-    "lon": 135.164998
+    "lon": 135.164998,
+    "station_passenger_log": 8.812992231969966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0348",
@@ -1189,7 +1669,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.816944,
-    "lon": 134.735486
+    "lon": 134.735486,
+    "station_passenger_log": 8.576781982827894,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0292",
@@ -1197,7 +1681,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄粟生線",
     "lat": 34.782459,
-    "lon": 135.007598
+    "lon": 135.007598,
+    "station_passenger_log": 7.886457270977689,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0293",
@@ -1205,7 +1693,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄粟生線",
     "lat": 34.797805,
-    "lon": 134.99861
+    "lon": 134.99861,
+    "station_passenger_log": 6.75343791859778,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0211",
@@ -1213,7 +1705,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.81986,
-    "lon": 134.681403
+    "lon": 134.681403,
+    "station_passenger_log": 7.575071699507561,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0056",
@@ -1229,7 +1725,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.731616,
-    "lon": 135.315481
+    "lon": 135.315481,
+    "station_passenger_log": 9.6242365055622,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0289",
@@ -1237,7 +1737,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄粟生線",
     "lat": 34.756609,
-    "lon": 135.03932
+    "lon": 135.03932,
+    "station_passenger_log": 6.606650186198215,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0087",
@@ -1245,7 +1749,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.726661,
-    "lon": 135.27699
+    "lon": 135.27699,
+    "station_passenger_log": 10.556411517605202,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0090",
@@ -1253,7 +1761,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.708667,
-    "lon": 135.225167
+    "lon": 135.225167,
+    "station_passenger_log": 9.480596490604585,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0383",
@@ -1261,7 +1773,11 @@
     "prefecture": "兵庫県",
     "line_name": "摩耶ケーブル線",
     "lat": 34.719961,
-    "lon": 135.216088
+    "lon": 135.216088,
+    "station_passenger_log": 6.436150368369428,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0143",
@@ -1269,7 +1785,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR赤穂線",
     "lat": 34.756601,
-    "lon": 134.392976
+    "lon": 134.392976,
+    "station_passenger_log": 8.86827250899781,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0164",
@@ -1277,7 +1797,11 @@
     "prefecture": "兵庫県",
     "line_name": "北条鉄道",
     "lat": 34.886258,
-    "lon": 134.840114
+    "lon": 134.840114,
+    "station_passenger_log": 3.9318256327243257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0034",
@@ -1285,7 +1809,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR姫新線",
     "lat": 34.990473,
-    "lon": 134.385711
+    "lon": 134.385711,
+    "station_passenger_log": 5.1298987149230735,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0030",
@@ -1293,7 +1821,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR姫新線",
     "lat": 34.921442,
-    "lon": 134.545766
+    "lon": 134.545766,
+    "station_passenger_log": 7.748028524432376,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0166",
@@ -1301,7 +1833,11 @@
     "prefecture": "兵庫県",
     "line_name": "北条鉄道",
     "lat": 34.91048,
-    "lon": 134.825246
+    "lon": 134.825246,
+    "station_passenger_log": 4.248495242049359,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0196",
@@ -1309,7 +1845,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.716574,
-    "lon": 134.868159
+    "lon": 134.868159,
+    "station_passenger_log": 8.17188200612782,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0025",
@@ -1317,7 +1857,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR姫新線",
     "lat": 34.841918,
-    "lon": 134.658674
+    "lon": 134.658674,
+    "station_passenger_log": 8.14351740579748,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0126",
@@ -1325,7 +1869,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 34.910183,
-    "lon": 135.20861
+    "lon": 135.20861,
+    "station_passenger_log": 9.978826909081944,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0077",
@@ -1333,7 +1881,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 35.236471,
-    "lon": 134.79508
+    "lon": 134.79508,
+    "station_passenger_log": 5.3230099791384085,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0334",
@@ -1341,7 +1893,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急伊丹線",
     "lat": 34.772574,
-    "lon": 135.415479
+    "lon": 135.415479,
+    "station_passenger_log": 8.699348067653093,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0359",
@@ -1349,7 +1905,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.710573,
-    "lon": 135.240565
+    "lon": 135.240565,
+    "station_passenger_log": 9.290444616217844,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0169",
@@ -1357,7 +1917,11 @@
     "prefecture": "兵庫県",
     "line_name": "北神急行",
     "lat": 34.706417,
-    "lon": 135.195758
+    "lon": 135.195758,
+    "station_passenger_log": 10.067857268271949,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0014",
@@ -1365,7 +1929,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.977907,
-    "lon": 134.977563
+    "lon": 134.977563,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0073",
@@ -1373,7 +1941,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 35.050278,
-    "lon": 134.752482
+    "lon": 134.752482,
+    "station_passenger_log": 6.912742820493176,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0095",
@@ -1381,7 +1953,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.657525,
-    "lon": 135.145193
+    "lon": 135.145193,
+    "station_passenger_log": 10.922316822030949,
+    "station_line_count": 4.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "hyogo_0302",
@@ -1389,7 +1965,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸高速神鉄線",
     "lat": 34.675981,
-    "lon": 135.169291
+    "lon": 135.169291,
+    "station_passenger_log": 10.036093517084147,
+    "station_line_count": 1.0,
+    "station_operator_count": 3.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0002",
@@ -1397,7 +1977,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.778643,
-    "lon": 134.857153
+    "lon": 134.857153,
+    "station_passenger_log": 7.138073034044347,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0016",
@@ -1405,7 +1989,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 35.002069,
-    "lon": 134.997633
+    "lon": 134.997633,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0321",
@@ -1413,7 +2001,11 @@
     "prefecture": "兵庫県",
     "line_name": "能勢電鉄日生線",
     "lat": 34.906447,
-    "lon": 135.393216
+    "lon": 135.393216,
+    "station_passenger_log": 9.089076284483143,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0249",
@@ -1421,7 +2013,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市海岸線",
     "lat": 34.689369,
-    "lon": 135.189836
+    "lon": 135.189836,
+    "station_passenger_log": 8.230843564198235,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0103",
@@ -1429,7 +2025,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.649084,
-    "lon": 134.992512
+    "lon": 134.992512,
+    "station_passenger_log": 11.440516049452087,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "hyogo_0351",
@@ -1453,7 +2053,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.649992,
-    "lon": 135.121949
+    "lon": 135.121949,
+    "station_passenger_log": 8.469682208745185,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0062",
@@ -1461,7 +2065,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陽本線",
     "lat": 34.829263,
-    "lon": 134.395568
+    "lon": 134.395568,
+    "station_passenger_log": 6.023447592961033,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0257",
@@ -1469,7 +2077,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄三田線",
     "lat": 34.796477,
-    "lon": 135.221018
+    "lon": 135.221018,
+    "station_passenger_log": 6.7357800142423265,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0282",
@@ -1477,7 +2089,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄有馬線",
     "lat": 34.799385,
-    "lon": 135.245868
+    "lon": 135.245868,
+    "station_passenger_log": 8.182279739259018,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0102",
@@ -1485,7 +2101,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.644196,
-    "lon": 135.017485
+    "lon": 135.017485,
+    "station_passenger_log": 10.074453207791755,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0287",
@@ -1509,7 +2129,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR姫新線",
     "lat": 34.861762,
-    "lon": 134.555611
+    "lon": 134.555611,
+    "station_passenger_log": 8.286269452783065,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0018",
@@ -1517,7 +2141,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 35.052941,
-    "lon": 134.99591
+    "lon": 134.99591,
+    "station_passenger_log": 4.394449154672439,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0379",
@@ -1525,7 +2153,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.718272,
-    "lon": 135.43884
+    "lon": 135.43884,
+    "station_passenger_log": 9.013473543740192,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0194",
@@ -1533,7 +2165,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.700359,
-    "lon": 134.887924
+    "lon": 134.887924,
+    "station_passenger_log": 8.784468454090355,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0108",
@@ -1541,7 +2177,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.745857,
-    "lon": 134.869244
+    "lon": 134.869244,
+    "station_passenger_log": 10.089095370321234,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0179",
@@ -1549,7 +2189,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.629216,
-    "lon": 135.063646
+    "lon": 135.063646,
+    "station_passenger_log": 7.033506484287697,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0113",
@@ -1557,7 +2201,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.824361,
-    "lon": 134.712472
+    "lon": 134.712472,
+    "station_passenger_log": 8.114025442356757,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0029",
@@ -1565,7 +2213,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR姫新線",
     "lat": 34.887629,
-    "lon": 134.557685
+    "lon": 134.557685,
+    "station_passenger_log": 6.698268054115413,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0172",
@@ -1573,7 +2225,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.655241,
-    "lon": 135.127642
+    "lon": 135.127642,
+    "station_passenger_log": 7.862497197230545,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0380",
@@ -1581,7 +2237,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神武庫川線",
     "lat": 34.712646,
-    "lon": 135.379065
+    "lon": 135.379065,
+    "station_passenger_log": 7.469654172932128,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0171",
@@ -1589,7 +2249,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.66006,
-    "lon": 135.133403
+    "lon": 135.133403,
+    "station_passenger_log": 10.12635106464302,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0188",
@@ -1597,7 +2261,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.652289,
-    "lon": 134.965056
+    "lon": 134.965056,
+    "station_passenger_log": 8.390949464841986,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0136",
@@ -1613,7 +2281,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.646454,
-    "lon": 134.663886
+    "lon": 134.663886,
+    "station_passenger_log": 4.859812404361672,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0288",
@@ -1629,7 +2301,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.322796,
-    "lon": 134.880682
+    "lon": 134.880682,
+    "station_passenger_log": 5.407171771460119,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0264",
@@ -1645,7 +2321,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄粟生線",
     "lat": 34.820491,
-    "lon": 134.949736
+    "lon": 134.949736,
+    "station_passenger_log": 6.1070228877422545,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0345",
@@ -1653,7 +2333,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急神戸本線",
     "lat": 34.751587,
-    "lon": 135.393821
+    "lon": 135.393821,
+    "station_passenger_log": 10.655705206673062,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0374",
@@ -1661,7 +2345,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.718154,
-    "lon": 135.383654
+    "lon": 135.383654,
+    "station_passenger_log": 10.230810922760002,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0382",
@@ -1669,7 +2357,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神武庫川線",
     "lat": 34.704894,
-    "lon": 135.374757
+    "lon": 135.374757,
+    "station_passenger_log": 8.916506080039204,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0123",
@@ -1677,7 +2369,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 34.855316,
-    "lon": 135.305838
+    "lon": 135.305838,
+    "station_passenger_log": 6.876264611890766,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0015",
@@ -1685,7 +2381,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.988773,
-    "lon": 134.995733
+    "lon": 134.995733,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0191",
@@ -1701,7 +2401,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.469477,
-    "lon": 134.77575
+    "lon": 134.77575,
+    "station_passenger_log": 6.9930151229329605,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0008",
@@ -1709,7 +2413,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.879221,
-    "lon": 134.919519
+    "lon": 134.919519,
+    "station_passenger_log": 5.700443573390687,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0221",
@@ -1717,7 +2425,11 @@
     "prefecture": "兵庫県",
     "line_name": "智頭急行智頭線",
     "lat": 34.919603,
-    "lon": 134.352516
+    "lon": 134.352516,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0163",
@@ -1725,7 +2437,11 @@
     "prefecture": "兵庫県",
     "line_name": "北条鉄道",
     "lat": 34.875262,
-    "lon": 134.856384
+    "lon": 134.856384,
+    "station_passenger_log": 4.204692619390966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0381",
@@ -1733,7 +2449,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神武庫川線",
     "lat": 34.709046,
-    "lon": 135.378049
+    "lon": 135.378049,
+    "station_passenger_log": 7.340835554123275,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0198",
@@ -1741,7 +2461,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.74091,
-    "lon": 134.83397
+    "lon": 134.83397,
+    "station_passenger_log": 8.196161139282902,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0053",
@@ -1749,7 +2473,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.620618,
-    "lon": 134.452558
+    "lon": 134.452558,
+    "station_passenger_log": 5.973809611869261,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0365",
@@ -1765,7 +2493,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急宝塚本線",
     "lat": 34.811271,
-    "lon": 135.35352
+    "lon": 135.35352,
+    "station_passenger_log": 8.796792687674662,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0270",
@@ -1773,7 +2505,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄有馬線",
     "lat": 34.679153,
-    "lon": 135.166426
+    "lon": 135.166426,
+    "station_passenger_log": 8.871785969150645,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0229",
@@ -1781,7 +2517,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市西神・山手線",
     "lat": 34.679188,
-    "lon": 135.167059
+    "lon": 135.167059,
+    "station_passenger_log": 9.816894269951032,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0069",
@@ -1789,7 +2529,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 34.927859,
-    "lon": 134.742347
+    "lon": 134.742347,
+    "station_passenger_log": 8.051022208190679,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0012",
@@ -1797,7 +2541,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.948812,
-    "lon": 134.962374
+    "lon": 134.962374,
+    "station_passenger_log": 4.795790545596741,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0178",
@@ -1805,7 +2553,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.631071,
-    "lon": 135.072984
+    "lon": 135.072984,
+    "station_passenger_log": 8.35819745992578,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0312",
@@ -1813,7 +2565,11 @@
     "prefecture": "兵庫県",
     "line_name": "能勢電鉄妙見線",
     "lat": 34.843075,
-    "lon": 135.421197
+    "lon": 135.421197,
+    "station_passenger_log": 7.575071699507561,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0011",
@@ -1821,7 +2577,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.941034,
-    "lon": 134.95492
+    "lon": 134.95492,
+    "station_passenger_log": 6.368187186350492,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0091",
@@ -1829,7 +2589,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.705918,
-    "lon": 135.216578
+    "lon": 135.216578,
+    "station_passenger_log": 10.339190843704902,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0115",
@@ -1837,7 +2601,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 34.764086,
-    "lon": 135.422598
+    "lon": 135.422598,
+    "station_passenger_log": 9.760021257510846,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0044",
@@ -1845,7 +2613,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.588645,
-    "lon": 134.799305
+    "lon": 134.799305,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0350",
@@ -1853,7 +2625,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急神戸本線",
     "lat": 34.710354,
-    "lon": 135.218553
+    "lon": 135.218553,
+    "station_passenger_log": 9.642901705746048,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0071",
@@ -1861,7 +2637,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 34.98814,
-    "lon": 134.758525
+    "lon": 134.758525,
+    "station_passenger_log": 7.1891677384203225,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0121",
@@ -1869,7 +2649,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 34.819159,
-    "lon": 135.325058
+    "lon": 135.325058,
+    "station_passenger_log": 8.00736706798333,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0076",
@@ -1877,7 +2661,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 35.163227,
-    "lon": 134.789259
+    "lon": 134.789259,
+    "station_passenger_log": 5.849324779946859,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0162",
@@ -1885,7 +2673,11 @@
     "prefecture": "兵庫県",
     "line_name": "北条鉄道",
     "lat": 34.865486,
-    "lon": 134.866744
+    "lon": 134.866744,
+    "station_passenger_log": 3.688879454113936,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0260",
@@ -1893,7 +2685,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄三田線",
     "lat": 34.835664,
-    "lon": 135.226153
+    "lon": 135.226153,
+    "station_passenger_log": 8.349484346990128,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0086",
@@ -1901,7 +2697,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.730616,
-    "lon": 135.292788
+    "lon": 135.292788,
+    "station_passenger_log": 9.938033896288712,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0372",
@@ -1909,7 +2709,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.723987,
-    "lon": 135.363157
+    "lon": 135.363157,
+    "station_passenger_log": 10.893846255763984,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "hyogo_0082",
@@ -1917,7 +2721,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.739052,
-    "lon": 135.374426
+    "lon": 135.374426,
+    "station_passenger_log": 10.444735683113366,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0327",
@@ -1925,7 +2733,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急今津線",
     "lat": 34.76676,
-    "lon": 135.359757
+    "lon": 135.359757,
+    "station_passenger_log": 9.996704634247262,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0343",
@@ -1933,7 +2745,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急甲陽線",
     "lat": 34.760919,
-    "lon": 135.329965
+    "lon": 135.329965,
+    "station_passenger_log": 9.060331104649476,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0318",
@@ -1941,7 +2757,11 @@
     "prefecture": "兵庫県",
     "line_name": "能勢電鉄妙見線",
     "lat": 34.884954,
-    "lon": 135.415594
+    "lon": 135.415594,
+    "station_passenger_log": 8.862483576488332,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0207",
@@ -1949,7 +2769,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.786822,
-    "lon": 134.707123
+    "lon": 134.707123,
+    "station_passenger_log": 8.563122123304638,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0205",
@@ -1957,7 +2781,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.779882,
-    "lon": 134.742047
+    "lon": 134.742047,
+    "station_passenger_log": 7.216709486709457,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0061",
@@ -1973,7 +2801,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 34.947482,
-    "lon": 135.155998
+    "lon": 135.155998,
+    "station_passenger_log": 8.401333305321703,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0227",
@@ -1989,7 +2821,11 @@
     "prefecture": "兵庫県",
     "line_name": "智頭急行智頭線",
     "lat": 35.082257,
-    "lon": 134.357271
+    "lon": 134.357271,
+    "station_passenger_log": 1.791759469228055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0360",
@@ -1997,7 +2833,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.71327,
-    "lon": 135.249329
+    "lon": 135.249329,
+    "station_passenger_log": 8.821437352166997,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0137",
@@ -2005,7 +2845,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 35.152706,
-    "lon": 135.063719
+    "lon": 135.063719,
+    "station_passenger_log": 6.71295620067707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0066",
@@ -2013,7 +2857,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 34.866427,
-    "lon": 134.724833
+    "lon": 134.724833,
+    "station_passenger_log": 7.293697720601438,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0010",
@@ -2021,7 +2869,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.920336,
-    "lon": 134.934507
+    "lon": 134.934507,
+    "station_passenger_log": 6.690842277418564,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0094",
@@ -2045,7 +2897,11 @@
     "prefecture": "兵庫県",
     "line_name": "ポートアイランド線",
     "lat": 34.637194,
-    "lon": 135.229042
+    "lon": 135.229042,
+    "station_passenger_log": 8.890272839380247,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0003",
@@ -2053,7 +2909,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.790922,
-    "lon": 134.878854
+    "lon": 134.878854,
+    "station_passenger_log": 7.4815557019095165,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0280",
@@ -2061,7 +2921,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄有馬線",
     "lat": 34.785205,
-    "lon": 135.206036
+    "lon": 135.206036,
+    "station_passenger_log": 6.931471805599453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0263",
@@ -2069,7 +2933,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄三田線",
     "lat": 34.866806,
-    "lon": 135.226145
+    "lon": 135.226145,
+    "station_passenger_log": 7.494986233950533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0070",
@@ -2077,7 +2945,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 34.960637,
-    "lon": 134.750618
+    "lon": 134.750618,
+    "station_passenger_log": 7.993957547573565,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0333",
@@ -2085,7 +2957,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急伊丹線",
     "lat": 34.764817,
-    "lon": 135.415532
+    "lon": 135.415532,
+    "station_passenger_log": 8.740336742730447,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0081",
@@ -2093,7 +2969,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.737875,
-    "lon": 135.399571
+    "lon": 135.399571,
+    "station_passenger_log": 10.71359520832014,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0060",
@@ -2101,7 +2981,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陽本線",
     "lat": 34.825522,
-    "lon": 134.522004
+    "lon": 134.522004,
+    "station_passenger_log": 8.273591798199632,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0079",
@@ -2117,7 +3001,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.649807,
-    "lon": 134.756405
+    "lon": 134.756405,
+    "station_passenger_log": 5.831882477283517,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0320",
@@ -2125,7 +3013,11 @@
     "prefecture": "兵庫県",
     "line_name": "能勢電鉄妙見線",
     "lat": 34.893765,
-    "lon": 135.416269
+    "lon": 135.416269,
+    "station_passenger_log": 4.672828834461906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0277",
@@ -2133,7 +3025,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄有馬線",
     "lat": 34.756969,
-    "lon": 135.155597
+    "lon": 135.155597,
+    "station_passenger_log": 7.401231264413015,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0133",
@@ -2141,7 +3037,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 35.056223,
-    "lon": 135.177452
+    "lon": 135.177452,
+    "station_passenger_log": 8.655040258108363,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0007",
@@ -2149,7 +3049,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.856859,
-    "lon": 134.909509
+    "lon": 134.909509,
+    "station_passenger_log": 7.811163385025279,
+    "station_line_count": 3.0,
+    "station_operator_count": 3.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0311",
@@ -2157,7 +3061,11 @@
     "prefecture": "兵庫県",
     "line_name": "能勢電鉄妙見線",
     "lat": 34.834809,
-    "lon": 135.423025
+    "lon": 135.423025,
+    "station_passenger_log": 7.872073979866873,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0059",
@@ -2165,7 +3073,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陽本線",
     "lat": 34.814096,
-    "lon": 134.584035
+    "lon": 134.584035,
+    "station_passenger_log": 9.520101889570842,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0161",
@@ -2173,7 +3085,11 @@
     "prefecture": "兵庫県",
     "line_name": "北条鉄道",
     "lat": 34.862022,
-    "lon": 134.877982
+    "lon": 134.877982,
+    "station_passenger_log": 4.007333185232471,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0236",
@@ -2181,7 +3097,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市西神・山手線",
     "lat": 34.68186,
-    "lon": 135.075838
+    "lon": 135.075838,
+    "station_passenger_log": 9.48910782703839,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0290",
@@ -2197,7 +3117,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.63302,
-    "lon": 135.034373
+    "lon": 135.034373,
+    "station_passenger_log": 10.35465870873383,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0182",
@@ -2205,7 +3129,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.634156,
-    "lon": 135.033676
+    "lon": 135.033676,
+    "station_passenger_log": 8.214735833382303,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0019",
@@ -2213,7 +3141,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 35.06291,
-    "lon": 135.009342
+    "lon": 135.009342,
+    "station_passenger_log": 2.833213344056216,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0085",
@@ -2229,7 +3161,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急神戸本線",
     "lat": 34.736338,
-    "lon": 135.300651
+    "lon": 135.300651,
+    "station_passenger_log": 9.500768670095988,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0278",
@@ -2237,7 +3173,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄有馬線",
     "lat": 34.769648,
-    "lon": 135.187308
+    "lon": 135.187308,
+    "station_passenger_log": 8.027802848370312,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0306",
@@ -2245,7 +3185,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸高速鉄道東西線",
     "lat": 34.686117,
-    "lon": 135.181524
+    "lon": 135.181524,
+    "station_passenger_log": 8.808070154764538,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0243",
@@ -2253,7 +3197,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市海岸線",
     "lat": 34.65365,
-    "lon": 135.156598
+    "lon": 135.156598,
+    "station_passenger_log": 8.178358165605836,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0220",
@@ -2261,7 +3209,11 @@
     "prefecture": "兵庫県",
     "line_name": "智頭急行智頭線",
     "lat": 34.896828,
-    "lon": 134.354083
+    "lon": 134.354083,
+    "station_passenger_log": 2.772588722239781,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0342",
@@ -2269,7 +3221,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急甲陽線",
     "lat": 34.750062,
-    "lon": 135.328885
+    "lon": 135.328885,
+    "station_passenger_log": 9.274441297382706,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0057",
@@ -2277,7 +3233,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陽本線",
     "lat": 34.813235,
-    "lon": 134.644762
+    "lon": 134.644762,
+    "station_passenger_log": 9.075093222568157,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0130",
@@ -2285,7 +3245,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 34.996887,
-    "lon": 135.1524
+    "lon": 135.1524,
+    "station_passenger_log": 6.056784013228625,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0201",
@@ -2301,7 +3265,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄粟生線",
     "lat": 34.850204,
-    "lon": 134.919852
+    "lon": 134.919852,
+    "station_passenger_log": 4.955827057601261,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0129",
@@ -2309,7 +3277,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 34.977041,
-    "lon": 135.155533
+    "lon": 135.155533,
+    "station_passenger_log": 5.476463551931511,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0285",
@@ -2317,7 +3289,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄粟生線",
     "lat": 34.732432,
-    "lon": 135.118033
+    "lon": 135.118033,
+    "station_passenger_log": 4.68213122712422,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0189",
@@ -2325,7 +3301,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.663385,
-    "lon": 134.947571
+    "lon": 134.947571,
+    "station_passenger_log": 7.931644021454311,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0384",
@@ -2341,7 +3321,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.707167,
-    "lon": 134.876927
+    "lon": 134.876927,
+    "station_passenger_log": 8.351138607086154,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0170",
@@ -2349,7 +3333,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.662374,
-    "lon": 135.144085
+    "lon": 135.144085,
+    "station_passenger_log": 8.734721003944811,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0308",
@@ -2357,7 +3345,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸高速鉄道東西線",
     "lat": 34.683897,
-    "lon": 135.17959
+    "lon": 135.17959,
+    "station_passenger_log": 8.441391477999955,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0083",
@@ -2373,7 +3365,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急今津線",
     "lat": 34.745951,
-    "lon": 135.356702
+    "lon": 135.356702,
+    "station_passenger_log": 11.375340152017603,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "hyogo_0122",
@@ -2381,7 +3377,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 34.827125,
-    "lon": 135.308871
+    "lon": 135.308871,
+    "station_passenger_log": 9.58857130713058,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0187",
@@ -2389,7 +3389,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.649661,
-    "lon": 134.980752
+    "lon": 134.980752,
+    "station_passenger_log": 8.52615293278771,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0104",
@@ -2397,7 +3401,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.66591,
-    "lon": 134.960151
+    "lon": 134.960151,
+    "station_passenger_log": 10.987307640729366,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "B"
   },
   {
     "station_id": "hyogo_0032",
@@ -2405,7 +3413,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR姫新線",
     "lat": 34.952378,
-    "lon": 134.470646
+    "lon": 134.470646,
+    "station_passenger_log": 4.634728988229636,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0192",
@@ -2421,7 +3433,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.705782,
-    "lon": 135.224639
+    "lon": 135.224639,
+    "station_passenger_log": 8.562357743370612,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0141",
@@ -2429,7 +3445,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR赤穂線",
     "lat": 34.801303,
-    "lon": 134.450563
+    "lon": 134.450563,
+    "station_passenger_log": 7.362010551259734,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0240",
@@ -2437,7 +3457,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市西神・山手線",
     "lat": 34.719538,
-    "lon": 135.017367
+    "lon": 135.017367,
+    "station_passenger_log": 10.642921767047389,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0239",
@@ -2445,7 +3469,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸市西神・山手線",
     "lat": 34.699357,
-    "lon": 135.030286
+    "lon": 135.030286,
+    "station_passenger_log": 10.146237633489257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0013",
@@ -2453,7 +3481,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.971702,
-    "lon": 134.968795
+    "lon": 134.968795,
+    "station_passenger_log": 7.273092595999522,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0183",
@@ -2461,7 +3493,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.638653,
-    "lon": 135.028187
+    "lon": 135.028187,
+    "station_passenger_log": 7.60339933974067,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0284",
@@ -2469,7 +3505,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄粟生線",
     "lat": 34.725836,
-    "lon": 135.135013
+    "lon": 135.135013,
+    "station_passenger_log": 8.584103896698863,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0213",
@@ -2477,7 +3517,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄網干線",
     "lat": 34.803045,
-    "lon": 134.651176
+    "lon": 134.651176,
+    "station_passenger_log": 7.57353126274595,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0153",
@@ -2485,7 +3529,11 @@
     "prefecture": "兵庫県",
     "line_name": "ポートアイランド線",
     "lat": 34.654892,
-    "lon": 135.221865
+    "lon": 135.221865,
+    "station_passenger_log": 8.612321536507814,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0054",
@@ -2493,7 +3541,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.619529,
-    "lon": 134.434303
+    "lon": 134.434303,
+    "station_passenger_log": 4.2626798770413155,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0168",
@@ -2501,7 +3553,11 @@
     "prefecture": "兵庫県",
     "line_name": "北神急行",
     "lat": 34.761691,
-    "lon": 135.17142
+    "lon": 135.17142,
+    "station_passenger_log": 10.458722329269523,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0021",
@@ -2509,7 +3565,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 35.082724,
-    "lon": 135.049666
+    "lon": 135.049666,
+    "station_passenger_log": 6.472346294500901,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0043",
@@ -2517,7 +3577,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.543825,
-    "lon": 134.813694
+    "lon": 134.813694,
+    "station_passenger_log": 8.052296499538647,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0147",
@@ -2525,7 +3589,11 @@
     "prefecture": "兵庫県",
     "line_name": "ポートアイランド線",
     "lat": 34.689339,
-    "lon": 135.199469
+    "lon": 135.199469,
+    "station_passenger_log": 8.117908942383155,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0324",
@@ -2533,7 +3601,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急今津線",
     "lat": 34.797181,
-    "lon": 135.350707
+    "lon": 135.350707,
+    "station_passenger_log": 9.93464701478523,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0124",
@@ -2541,7 +3613,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 34.867303,
-    "lon": 135.255528
+    "lon": 135.255528,
+    "station_passenger_log": 7.240649694255466,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0262",
@@ -2549,7 +3625,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄三田線",
     "lat": 34.856024,
-    "lon": 135.223137
+    "lon": 135.223137,
+    "station_passenger_log": 7.868254265520613,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0065",
@@ -2557,7 +3637,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 34.856142,
-    "lon": 134.711251
+    "lon": 134.711251,
+    "station_passenger_log": 8.229244416735913,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0274",
@@ -2565,7 +3649,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄有馬線",
     "lat": 34.723662,
-    "lon": 135.145867
+    "lon": 135.145867,
+    "station_passenger_log": 9.498147436616115,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0283",
@@ -2573,7 +3661,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄粟生線",
     "lat": 34.726356,
-    "lon": 135.140582
+    "lon": 135.140582,
+    "station_passenger_log": 7.631916513071252,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0050",
@@ -2581,7 +3673,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.651691,
-    "lon": 134.575144
+    "lon": 134.575144,
+    "station_passenger_log": 3.610917912644224,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0165",
@@ -2589,7 +3685,11 @@
     "prefecture": "兵庫県",
     "line_name": "北条鉄道",
     "lat": 34.896484,
-    "lon": 134.82566
+    "lon": 134.82566,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0231",
@@ -2606,10 +3706,10 @@
     "line_name": "JR播但線",
     "lat": 35.117029,
     "lon": 134.748103,
-    "station_passenger_log": 9.145481799627689,
+    "station_passenger_log": 3.5553480614894135,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "D"
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0328",
@@ -2617,7 +3717,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急今津線",
     "lat": 34.757086,
-    "lon": 135.358221
+    "lon": 135.358221,
+    "station_passenger_log": 9.774460286799892,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0330",
@@ -2625,7 +3729,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急今津線",
     "lat": 34.73715,
-    "lon": 135.354702
+    "lon": 135.354702,
+    "station_passenger_log": 8.142645185942795,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0336",
@@ -2633,7 +3741,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪急宝塚本線",
     "lat": 34.827357,
-    "lon": 135.402946
+    "lon": 135.402946,
+    "station_passenger_log": 9.033841828485016,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0181",
@@ -2649,7 +3761,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 35.26719,
-    "lon": 134.811789
+    "lon": 134.811789,
+    "station_passenger_log": 4.418840607796598,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0364",
@@ -2657,7 +3773,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.71695,
-    "lon": 135.28062
+    "lon": 135.28062,
+    "station_passenger_log": 9.574358290170174,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0009",
@@ -2665,7 +3785,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 34.897297,
-    "lon": 134.927933
+    "lon": 134.927933,
+    "station_passenger_log": 5.659482215759621,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0098",
@@ -2673,7 +3797,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.642292,
-    "lon": 135.112814
+    "lon": 135.112814,
+    "station_passenger_log": 9.887815383141833,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0174",
@@ -2681,7 +3809,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.646031,
-    "lon": 135.116224
+    "lon": 135.116224,
+    "station_passenger_log": 7.474204806496124,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0176",
@@ -2689,7 +3821,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.637884,
-    "lon": 135.100145
+    "lon": 135.100145,
+    "station_passenger_log": 6.740519359606223,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0097",
@@ -2697,7 +3833,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.647185,
-    "lon": 135.126616
+    "lon": 135.126616,
+    "station_passenger_log": 9.360569085222874,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0209",
@@ -2705,7 +3845,11 @@
     "prefecture": "兵庫県",
     "line_name": "山陽電鉄本線",
     "lat": 34.799748,
-    "lon": 134.675401
+    "lon": 134.675401,
+    "station_passenger_log": 8.894258825002703,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0039",
@@ -2713,7 +3857,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.371306,
-    "lon": 134.811726
+    "lon": 134.811726,
+    "station_passenger_log": 4.532599493153256,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0051",
@@ -2721,7 +3869,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.648658,
-    "lon": 134.556918
+    "lon": 134.556918,
+    "station_passenger_log": 4.31748811353631,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0049",
@@ -2729,7 +3881,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR山陰本線",
     "lat": 35.635344,
-    "lon": 134.62359
+    "lon": 134.62359,
+    "station_passenger_log": 6.385194398997726,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0068",
@@ -2737,7 +3893,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 34.911389,
-    "lon": 134.735895
+    "lon": 134.735895,
+    "station_passenger_log": 8.047189562170502,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0368",
@@ -2745,7 +3905,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.734344,
-    "lon": 135.328929
+    "lon": 135.328929,
+    "station_passenger_log": 9.302190025606064,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0242",
@@ -2769,7 +3933,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸高速鉄道東西線",
     "lat": 34.679362,
-    "lon": 135.174441
+    "lon": 135.174441,
+    "station_passenger_log": 10.149096848566002,
+    "station_line_count": 1.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0303",
@@ -2777,7 +3945,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸高速鉄道東西線",
     "lat": 34.667254,
-    "lon": 135.151551
+    "lon": 135.151551,
+    "station_passenger_log": 9.611998241741391,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0106",
@@ -2785,7 +3957,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.696401,
-    "lon": 134.906028
+    "lon": 134.906028,
+    "station_passenger_log": 9.922848906014748,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0252",
@@ -2793,7 +3969,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸新交通六甲ライナー",
     "lat": 34.713687,
-    "lon": 135.268564
+    "lon": 135.268564,
+    "station_passenger_log": 10.29312811029732,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0373",
@@ -2801,7 +3981,11 @@
     "prefecture": "兵庫県",
     "line_name": "阪神本線",
     "lat": 34.719684,
-    "lon": 135.37036
+    "lon": 135.37036,
+    "station_passenger_log": 10.075337809462788,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hyogo_0273",
@@ -2809,7 +3993,11 @@
     "prefecture": "兵庫県",
     "line_name": "神戸電鉄有馬線",
     "lat": 34.692576,
-    "lon": 135.142232
+    "lon": 135.142232,
+    "station_passenger_log": 6.610696044717759,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0313",
@@ -2825,7 +4013,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR播但線",
     "lat": 35.023742,
-    "lon": 134.754716
+    "lon": 134.754716,
+    "station_passenger_log": 5.777652323222656,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0096",
@@ -2833,7 +4025,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR神戸線",
     "lat": 34.651667,
-    "lon": 135.135275
+    "lon": 135.135275,
+    "station_passenger_log": 9.641148287756142,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hyogo_0138",
@@ -2841,7 +4037,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR福知山線",
     "lat": 35.168549,
-    "lon": 135.097302
+    "lon": 135.097302,
+    "station_passenger_log": 6.739336627357174,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0017",
@@ -2849,7 +4049,11 @@
     "prefecture": "兵庫県",
     "line_name": "JR加古川線",
     "lat": 35.022689,
-    "lon": 134.992522
+    "lon": 134.992522,
+    "station_passenger_log": 3.7612001156935624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hyogo_0314",
@@ -2857,6 +4061,10 @@
     "prefecture": "兵庫県",
     "line_name": "能勢電鉄妙見線",
     "lat": 34.854735,
-    "lon": 135.418339
+    "lon": 135.418339,
+    "station_passenger_log": 8.505929999137527,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

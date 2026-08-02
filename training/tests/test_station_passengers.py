@@ -1,12 +1,16 @@
 from __future__ import annotations
 
+import json
+
 import pytest
 
 from collect.station_passengers import (
     BoundingBox,
     Tile,
+    add_station_prefectures,
     aggregate_passenger_counts,
     aggregate_station_groups,
+    build_station_index_tiles,
     calculate_log_passenger_count,
     calculate_station_rank,
     enumerate_tiles,
@@ -15,6 +19,44 @@ from collect.station_passengers import (
     normalize_station_name,
     passenger_year_fields,
 )
+
+
+def test_build_station_index_tiles_deduplicates_station_coordinates(tmp_path) -> None:
+    (tmp_path / "tokyo_stations.json").write_text(
+        json.dumps(
+            [
+                {"lat": 35.681236, "lon": 139.767125},
+                {"lat": 35.681236, "lon": 139.767125},
+                {"lat": "invalid", "lon": 139.7},
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    tiles = build_station_index_tiles(tmp_path, 11)
+
+    assert len(tiles) == 1
+    assert tiles[0].z == 11
+
+
+def test_add_station_prefectures_uses_nearest_same_name(tmp_path) -> None:
+    (tmp_path / "tokyo_stations.json").write_text(
+        json.dumps(
+            [
+                {"station_name": "大森", "prefecture": "東京都", "lat": 35.58, "lon": 139.73},
+                {"station_name": "大森", "prefecture": "静岡県", "lat": 34.78, "lon": 138.18},
+            ]
+        ),
+        encoding="utf-8",
+    )
+    groups = [
+        {
+            "normalizedStationName": "大森",
+            "location": {"latitude": 35.59, "longitude": 139.72},
+        }
+    ]
+
+    assert add_station_prefectures(groups, tmp_path)[0]["prefecture"] == "東京都"
 
 
 def test_lat_lon_to_tile_and_enumerate_tiles() -> None:

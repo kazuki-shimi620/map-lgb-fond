@@ -5,7 +5,11 @@
     "prefecture": "北海道",
     "line_name": "JR札沼線",
     "lat": 43.161206,
-    "lon": 141.413276
+    "lon": 141.413276,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0202",
@@ -13,7 +17,11 @@
     "prefecture": "北海道",
     "line_name": "JR札沼線",
     "lat": 43.15528,
-    "lon": 141.39842
+    "lon": 141.39842,
+    "station_passenger_log": 8.791029857045965,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0353",
@@ -45,7 +53,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.13373,
-    "lon": 141.191402
+    "lon": 141.191402,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0088",
@@ -53,7 +65,11 @@
     "prefecture": "北海道",
     "line_name": "JR千歳線",
     "lat": 42.866812,
-    "lon": 141.605616
+    "lon": 141.605616,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0269",
@@ -61,7 +77,11 @@
     "prefecture": "北海道",
     "line_name": "JR石勝線",
     "lat": 43.055913,
-    "lon": 142.610937
+    "lon": 142.610937,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0032",
@@ -69,7 +89,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.808746,
-    "lon": 140.684588
+    "lon": 140.684588,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0372",
@@ -77,7 +101,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.061268,
-    "lon": 141.360473
+    "lon": 141.360473,
+    "station_passenger_log": 9.908325829176375,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0187",
@@ -93,7 +121,11 @@
     "prefecture": "北海道",
     "line_name": "JR札沼線",
     "lat": 43.17948,
-    "lon": 141.436093
+    "lon": 141.436093,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0403",
@@ -101,7 +133,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.03367,
-    "lon": 141.337287
+    "lon": 141.337287,
+    "station_passenger_log": 8.019941687677365,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0255",
@@ -109,7 +145,11 @@
     "prefecture": "北海道",
     "line_name": "道南いさりび鉄道線",
     "lat": 41.817643,
-    "lon": 140.707957
+    "lon": 140.707957,
+    "station_passenger_log": 5.351858133476067,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0013",
@@ -117,7 +157,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 41.886971,
-    "lon": 140.688556
+    "lon": 140.688556,
+    "station_passenger_log": 6.459904454377535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0168",
@@ -125,7 +169,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.945029,
-    "lon": 141.800778
+    "lon": 141.800778,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0185",
@@ -133,7 +181,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.464046,
-    "lon": 142.468761
+    "lon": 142.468761,
+    "station_passenger_log": 6.3818160174060985,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0242",
@@ -141,7 +193,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.032893,
-    "lon": 144.61239
+    "lon": 144.61239,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0278",
@@ -149,7 +205,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.848508,
-    "lon": 142.766895
+    "lon": 142.766895,
+    "station_passenger_log": 5.093750200806762,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0067",
@@ -157,7 +217,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.18183,
-    "lon": 141.715391
+    "lon": 141.715391,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0259",
@@ -165,7 +229,11 @@
     "prefecture": "北海道",
     "line_name": "道南いさりび鉄道線",
     "lat": 41.81956,
-    "lon": 140.640599
+    "lon": 140.640599,
+    "station_passenger_log": 4.875197323201151,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0212",
@@ -173,7 +241,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.48871,
-    "lon": 142.210855
+    "lon": 142.210855,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0093",
@@ -181,7 +253,11 @@
     "prefecture": "北海道",
     "line_name": "JR千歳線",
     "lat": 43.016177,
-    "lon": 141.487317
+    "lon": 141.487317,
+    "station_passenger_log": 8.415603335654604,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0125",
@@ -189,7 +265,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 45.037146,
-    "lon": 141.758218
+    "lon": 141.758218,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0358",
@@ -197,7 +277,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市南北線",
     "lat": 43.037727,
-    "lon": 141.360758
+    "lon": 141.360758,
+    "station_passenger_log": 9.335297611380566,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0396",
@@ -205,7 +289,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.057823,
-    "lon": 141.34224
+    "lon": 141.34224,
+    "station_passenger_log": 7.965892735084528,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0405",
@@ -213,7 +301,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.030455,
-    "lon": 141.340227
+    "lon": 141.340227,
+    "station_passenger_log": 7.670894831362117,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0338",
@@ -221,7 +313,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.787121,
-    "lon": 140.751021
+    "lon": 140.751021,
+    "station_passenger_log": 5.932245187448011,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0188",
@@ -229,7 +325,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.405704,
-    "lon": 142.420812
+    "lon": 142.420812,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0356",
@@ -237,7 +337,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市南北線",
     "lat": 43.048892,
-    "lon": 141.354913
+    "lon": 141.354913,
+    "station_passenger_log": 9.842622276764851,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0412",
@@ -245,7 +349,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.045652,
-    "lon": 141.350269
+    "lon": 141.350269,
+    "station_passenger_log": 7.340835554123275,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0276",
@@ -253,7 +361,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.896216,
-    "lon": 142.655424
+    "lon": 142.655424,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0313",
@@ -261,7 +373,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.874608,
-    "lon": 144.659033
+    "lon": 144.659033,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0280",
@@ -269,7 +385,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 44.006354,
-    "lon": 143.335817
+    "lon": 143.335817,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0257",
@@ -277,7 +397,11 @@
     "prefecture": "北海道",
     "line_name": "道南いさりび鉄道線",
     "lat": 41.826727,
-    "lon": 140.666468
+    "lon": 140.666468,
+    "station_passenger_log": 4.51085950651685,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0367",
@@ -285,7 +409,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.070221,
-    "lon": 141.314093
+    "lon": 141.314093,
+    "station_passenger_log": 9.51745735706657,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0010",
@@ -293,7 +421,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 41.803557,
-    "lon": 140.733539
+    "lon": 140.733539,
+    "station_passenger_log": 6.9726062513017535,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0339",
@@ -301,7 +433,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.789313,
-    "lon": 140.75175
+    "lon": 140.75175,
+    "station_passenger_log": 7.893945138235959,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0038",
@@ -309,7 +445,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.154091,
-    "lon": 140.770546
+    "lon": 140.770546,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0144",
@@ -317,7 +457,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.469395,
-    "lon": 140.855802
+    "lon": 140.855802,
+    "station_passenger_log": 6.859614903654202,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0274",
@@ -325,7 +469,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.876025,
-    "lon": 142.525227
+    "lon": 142.525227,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0120",
@@ -333,7 +481,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.743986,
-    "lon": 142.048562
+    "lon": 142.048562,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0039",
@@ -341,7 +493,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.186558,
-    "lon": 140.794686
+    "lon": 140.794686,
+    "station_passenger_log": 6.93828448401696,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0034",
@@ -349,7 +505,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.90164,
-    "lon": 140.745471
+    "lon": 140.745471,
+    "station_passenger_log": 6.778784897685177,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0384",
@@ -365,7 +525,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.292658,
-    "lon": 141.844655
+    "lon": 141.844655,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0127",
@@ -373,7 +537,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 45.220236,
-    "lon": 141.6972
+    "lon": 141.6972,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0195",
@@ -381,7 +549,11 @@
     "prefecture": "北海道",
     "line_name": "JR札沼線",
     "lat": 43.085845,
-    "lon": 141.319145
+    "lon": 141.319145,
+    "station_passenger_log": 8.38958706681109,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0022",
@@ -389,7 +561,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.253391,
-    "lon": 140.273342
+    "lon": 140.273342,
+    "station_passenger_log": 5.58724865840025,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0369",
@@ -397,7 +573,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.055582,
-    "lon": 141.318863
+    "lon": 141.318863,
+    "station_passenger_log": 10.284694120497512,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0009",
@@ -405,7 +585,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 41.773709,
-    "lon": 140.726413
+    "lon": 140.726413,
+    "station_passenger_log": 8.386400901166214,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0326",
@@ -413,7 +597,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電本線",
     "lat": 41.772992,
-    "lon": 140.704393
+    "lon": 140.704393,
+    "station_passenger_log": 5.648974238161206,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0345",
@@ -421,7 +609,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.782065,
-    "lon": 140.782006
+    "lon": 140.782006,
+    "station_passenger_log": 6.5722825426940075,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0331",
@@ -429,7 +621,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電本線",
     "lat": 41.77264,
-    "lon": 140.727997
+    "lon": 140.727997,
+    "station_passenger_log": 7.862882034641491,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0241",
@@ -437,7 +633,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.994384,
-    "lon": 144.469596
+    "lon": 144.469596,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0250",
@@ -445,7 +645,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.218427,
-    "lon": 145.423593
+    "lon": 145.423593,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0224",
@@ -453,7 +657,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.934706,
-    "lon": 143.424445
+    "lon": 143.424445,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0105",
@@ -461,7 +669,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.09643,
-    "lon": 142.364754
+    "lon": 142.364754,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0192",
@@ -469,7 +681,11 @@
     "prefecture": "北海道",
     "line_name": "JR日高本線",
     "lat": 42.632805,
-    "lon": 141.727667
+    "lon": 141.727667,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0128",
@@ -477,7 +693,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 45.259339,
-    "lon": 141.685151
+    "lon": 141.685151,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0352",
@@ -485,7 +705,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市南北線",
     "lat": 43.074829,
-    "lon": 141.348403
+    "lon": 141.348403,
+    "station_passenger_log": 9.307920700315046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0387",
@@ -493,7 +717,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東豊線",
     "lat": 43.07689,
-    "lon": 141.354851
+    "lon": 141.354851,
+    "station_passenger_log": 8.966356154790121,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0351",
@@ -501,7 +729,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市南北線",
     "lat": 43.081568,
-    "lon": 141.346686
+    "lon": 141.346686,
+    "station_passenger_log": 9.571853592555165,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0350",
@@ -509,7 +741,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市南北線",
     "lat": 43.089811,
-    "lon": 141.344604
+    "lon": 141.344604,
+    "station_passenger_log": 10.206513798722508,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0349",
@@ -517,7 +753,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市南北線",
     "lat": 43.099883,
-    "lon": 141.342028
+    "lon": 141.342028,
+    "station_passenger_log": 9.531046110875144,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0156",
@@ -525,7 +765,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.509119,
-    "lon": 141.286199
+    "lon": 141.286199,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0092",
@@ -533,7 +777,11 @@
     "prefecture": "北海道",
     "line_name": "JR千歳線",
     "lat": 42.979239,
-    "lon": 141.563115
+    "lon": 141.563115,
+    "station_passenger_log": 9.799625913002036,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0100",
@@ -541,7 +789,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 43.826736,
-    "lon": 142.454493
+    "lon": 142.454493,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0318",
@@ -549,7 +801,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.958549,
-    "lon": 144.352541
+    "lon": 144.352541,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0207",
@@ -557,7 +813,11 @@
     "prefecture": "北海道",
     "line_name": "JR札沼線",
     "lat": 43.230925,
-    "lon": 141.54995
+    "lon": 141.54995,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0182",
@@ -565,7 +825,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.617884,
-    "lon": 142.479594
+    "lon": 142.479594,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0145",
@@ -573,7 +837,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.450528,
-    "lon": 140.880259
+    "lon": 140.880259,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0290",
@@ -581,7 +849,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.805504,
-    "lon": 143.898167
+    "lon": 143.898167,
+    "station_passenger_log": 6.853299093186078,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0215",
@@ -589,7 +861,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.012892,
-    "lon": 142.879535
+    "lon": 142.879535,
+    "station_passenger_log": 5.765191102784844,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0322",
@@ -597,7 +873,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電宝来・谷地頭線",
     "lat": 41.763998,
-    "lon": 140.718513
+    "lon": 140.718513,
+    "station_passenger_log": 7.418780882750794,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0226",
@@ -605,7 +885,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.855781,
-    "lon": 143.500797
+    "lon": 143.500797,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0181",
@@ -613,7 +897,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.643737,
-    "lon": 142.451024
+    "lon": 142.451024,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0337",
@@ -621,7 +909,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.784257,
-    "lon": 140.748532
+    "lon": 140.748532,
+    "station_passenger_log": 5.786897381366708,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0086",
@@ -637,7 +929,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.776161,
-    "lon": 140.738575
+    "lon": 140.738575,
+    "station_passenger_log": 5.1647859739235145,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0085",
@@ -645,7 +941,11 @@
     "prefecture": "北海道",
     "line_name": "JR千歳線",
     "lat": 42.80804,
-    "lon": 141.675388
+    "lon": 141.675388,
+    "station_passenger_log": 8.064321960910803,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0043",
@@ -653,7 +953,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.186529,
-    "lon": 141.007883
+    "lon": 141.007883,
+    "station_passenger_log": 8.241966560231802,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0360",
@@ -661,7 +965,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市南北線",
     "lat": 43.026842,
-    "lon": 141.371355
+    "lon": 141.371355,
+    "station_passenger_log": 9.605283652624763,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0270",
@@ -669,7 +977,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.780549,
-    "lon": 142.40853
+    "lon": 142.40853,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0129",
@@ -677,7 +989,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 45.398166,
-    "lon": 141.683026
+    "lon": 141.683026,
+    "station_passenger_log": 4.418840607796598,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0377",
@@ -685,7 +1001,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.035783,
-    "lon": 141.422697
+    "lon": 141.422697,
+    "station_passenger_log": 9.658034484302055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0378",
@@ -693,7 +1013,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.030229,
-    "lon": 141.435196
+    "lon": 141.435196,
+    "station_passenger_log": 9.94927320768526,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0376",
@@ -701,7 +1025,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.040091,
-    "lon": 141.411759
+    "lon": 141.411759,
+    "station_passenger_log": 9.97993920469646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0268",
@@ -709,7 +1037,11 @@
     "prefecture": "北海道",
     "line_name": "JR石勝線",
     "lat": 42.993088,
-    "lon": 142.400078
+    "lon": 142.400078,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0230",
@@ -717,7 +1049,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.809539,
-    "lon": 143.814389
+    "lon": 143.814389,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0059",
@@ -725,7 +1061,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.045154,
-    "lon": 141.46369
+    "lon": 141.46369,
+    "station_passenger_log": 8.668539943910762,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0245",
@@ -733,7 +1073,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.056248,
-    "lon": 144.841355
+    "lon": 144.841355,
+    "station_passenger_log": 5.4680601411351315,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0249",
@@ -741,7 +1085,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.228224,
-    "lon": 145.252096
+    "lon": 145.252096,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0317",
@@ -749,7 +1097,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.941033,
-    "lon": 144.41443
+    "lon": 144.41443,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0169",
@@ -757,7 +1109,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.975256,
-    "lon": 141.793969
+    "lon": 141.793969,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0111",
@@ -765,7 +1121,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.349403,
-    "lon": 142.465207
+    "lon": 142.465207,
+    "station_passenger_log": 6.150602768446279,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0110",
@@ -773,7 +1133,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.330701,
-    "lon": 142.465477
+    "lon": 142.465477,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0298",
@@ -781,7 +1145,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.963695,
-    "lon": 144.218945
+    "lon": 144.218945,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0104",
@@ -789,7 +1157,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.026932,
-    "lon": 142.415309
+    "lon": 142.415309,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0117",
@@ -797,7 +1169,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.692702,
-    "lon": 142.267569
+    "lon": 142.267569,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0122",
@@ -805,7 +1181,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.91233,
-    "lon": 142.025562
+    "lon": 142.025562,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0025",
@@ -813,7 +1193,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.439319,
-    "lon": 140.320885
+    "lon": 140.320885,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0336",
@@ -821,7 +1205,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.780433,
-    "lon": 140.74394
+    "lon": 140.74394,
+    "station_passenger_log": 5.634789603169249,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0303",
@@ -829,7 +1217,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.151739,
-    "lon": 144.496817
+    "lon": 144.496817,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0103",
@@ -837,7 +1229,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 43.96794,
-    "lon": 142.4552
+    "lon": 142.4552,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0041",
@@ -845,7 +1241,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.202406,
-    "lon": 140.924546
+    "lon": 140.924546,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0106",
@@ -853,7 +1253,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.172536,
-    "lon": 142.388247
+    "lon": 142.388247,
+    "station_passenger_log": 6.1463292576688975,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0107",
@@ -861,7 +1265,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.241296,
-    "lon": 142.396315
+    "lon": 142.396315,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0012",
@@ -869,7 +1277,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 41.864641,
-    "lon": 140.71358
+    "lon": 140.71358,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0139",
@@ -877,7 +1289,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.585969,
-    "lon": 140.639036
+    "lon": 140.639036,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0218",
@@ -885,7 +1301,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.918662,
-    "lon": 143.071241
+    "lon": 143.071241,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0235",
@@ -893,7 +1313,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.009078,
-    "lon": 144.273879
+    "lon": 144.273879,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0001",
@@ -901,7 +1325,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館支線",
     "lat": 41.971954,
-    "lon": 140.669347
+    "lon": 140.669347,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0015",
@@ -909,7 +1337,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 41.980958,
-    "lon": 140.669758
+    "lon": 140.669758,
+    "station_passenger_log": 5.484796933490655,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0327",
@@ -925,7 +1357,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.028008,
-    "lon": 141.452972
+    "lon": 141.452972,
+    "station_passenger_log": 10.12121647114884,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0354",
@@ -933,7 +1369,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市南北線",
     "lat": 43.060479,
-    "lon": 141.354526
+    "lon": 141.354526,
+    "station_passenger_log": 11.972076669098088,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "A"
   },
   {
     "station_id": "hokkaido_0061",
@@ -941,7 +1381,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.072382,
-    "lon": 141.496925
+    "lon": 141.496925,
+    "station_passenger_log": 9.2927495082169,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0121",
@@ -949,7 +1393,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.81186,
-    "lon": 142.075335
+    "lon": 142.075335,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0116",
@@ -957,7 +1405,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.665041,
-    "lon": 142.258682
+    "lon": 142.258682,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0198",
@@ -965,7 +1417,11 @@
     "prefecture": "北海道",
     "line_name": "JR札沼線",
     "lat": 43.12401,
-    "lon": 141.349526
+    "lon": 141.349526,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0205",
@@ -973,7 +1429,11 @@
     "prefecture": "北海道",
     "line_name": "JR札沼線",
     "lat": 43.189801,
-    "lon": 141.449066
+    "lon": 141.449066,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0073",
@@ -981,7 +1441,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.423718,
-    "lon": 141.889115
+    "lon": 141.889115,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0297",
@@ -989,7 +1453,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.915886,
-    "lon": 144.170665
+    "lon": 144.170665,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0078",
@@ -997,7 +1465,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.690841,
-    "lon": 141.966591
+    "lon": 141.966591,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0248",
@@ -1005,7 +1477,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.196201,
-    "lon": 145.194716
+    "lon": 145.194716,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0389",
@@ -1021,7 +1497,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.366234,
-    "lon": 142.386118
+    "lon": 142.386118,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0283",
@@ -1029,7 +1509,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.993322,
-    "lon": 143.535762
+    "lon": 143.535762,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0166",
@@ -1037,7 +1521,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.814007,
-    "lon": 141.825283
+    "lon": 141.825283,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0277",
@@ -1045,7 +1533,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.852011,
-    "lon": 142.693868
+    "lon": 142.693868,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0323",
@@ -1053,7 +1545,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電宝来・谷地頭線",
     "lat": 41.761085,
-    "lon": 140.7198
+    "lon": 140.7198,
+    "station_passenger_log": 5.337538079701318,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0135",
@@ -1061,7 +1557,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭支線",
     "lat": 42.317864,
-    "lon": 140.97571
+    "lon": 140.97571,
+    "station_passenger_log": 6.949856455000773,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0364",
@@ -1069,7 +1569,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.089962,
-    "lon": 141.27717
+    "lon": 141.27717,
+    "station_passenger_log": 10.299945551484315,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0152",
@@ -1078,7 +1582,7 @@
     "line_name": "JR室蘭本線",
     "lat": 42.441957,
     "lon": 141.156878,
-    "station_passenger_log": 5.860786223465865,
+    "station_passenger_log": 0.0,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
     "station_rank": "E"
@@ -1089,7 +1593,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.347114,
-    "lon": 142.391374
+    "lon": 142.391374,
+    "station_passenger_log": 6.842683282238422,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0137",
@@ -1097,7 +1605,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.589731,
-    "lon": 140.537361
+    "lon": 140.537361,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0042",
@@ -1105,7 +1617,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.197172,
-    "lon": 140.993653
+    "lon": 140.993653,
+    "station_passenger_log": 9.726929355631276,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0044",
@@ -1113,7 +1629,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.180752,
-    "lon": 141.029051
+    "lon": 141.029051,
+    "station_passenger_log": 8.35490952835879,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0035",
@@ -1121,7 +1641,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.97185,
-    "lon": 140.677657
+    "lon": 140.677657,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0243",
@@ -1129,7 +1653,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.018463,
-    "lon": 144.703758
+    "lon": 144.703758,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0006",
@@ -1137,7 +1665,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館支線",
     "lat": 42.111232,
-    "lon": 140.613449
+    "lon": 140.613449,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0023",
@@ -1145,7 +1677,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.314635,
-    "lon": 140.2746
+    "lon": 140.2746,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0021",
@@ -1153,7 +1689,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.231172,
-    "lon": 140.326593
+    "lon": 140.326593,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0409",
@@ -1161,7 +1701,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.034706,
-    "lon": 141.351514
+    "lon": 141.351514,
+    "station_passenger_log": 6.849066282633458,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0413",
@@ -1169,7 +1713,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.048067,
-    "lon": 141.349862
+    "lon": 141.349862,
+    "station_passenger_log": 7.249215057114389,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0068",
@@ -1177,7 +1725,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.204201,
-    "lon": 141.759359
+    "lon": 141.759359,
+    "station_passenger_log": 8.924123891686012,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0069",
@@ -1185,7 +1737,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.264694,
-    "lon": 141.814673
+    "lon": 141.814673,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0091",
@@ -1193,7 +1749,11 @@
     "prefecture": "北海道",
     "line_name": "JR千歳線",
     "lat": 42.922504,
-    "lon": 141.573117
+    "lon": 141.573117,
+    "station_passenger_log": 8.076826031298808,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0148",
@@ -1201,7 +1761,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.373968,
-    "lon": 140.927141
+    "lon": 140.927141,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0309",
@@ -1209,7 +1773,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.616258,
-    "lon": 144.457749
+    "lon": 144.457749,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0266",
@@ -1217,7 +1785,11 @@
     "prefecture": "北海道",
     "line_name": "JR石勝線",
     "lat": 42.914721,
-    "lon": 141.894791
+    "lon": 141.894791,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0330",
@@ -1233,7 +1805,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.917997,
-    "lon": 143.20195
+    "lon": 143.20195,
+    "station_passenger_log": 7.562681246721884,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0151",
@@ -1241,7 +1817,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.409782,
-    "lon": 141.107293
+    "lon": 141.107293,
+    "station_passenger_log": 6.98933526597456,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0408",
@@ -1249,7 +1829,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.032196,
-    "lon": 141.351814
+    "lon": 141.351814,
+    "station_passenger_log": 7.357556200910353,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0066",
@@ -1257,7 +1841,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.151348,
-    "lon": 141.655839
+    "lon": 141.655839,
+    "station_passenger_log": 7.412764017426563,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0357",
@@ -1265,7 +1853,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市南北線",
     "lat": 43.040073,
-    "lon": 141.355886
+    "lon": 141.355886,
+    "station_passenger_log": 9.208238163884312,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0124",
@@ -1273,7 +1865,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 45.014503,
-    "lon": 141.84569
+    "lon": 141.84569,
+    "station_passenger_log": 3.8501476017100584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0223",
@@ -1281,7 +1877,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.90784,
-    "lon": 143.359293
+    "lon": 143.359293,
+    "station_passenger_log": 5.262690188904886,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0095",
@@ -1289,7 +1889,11 @@
     "prefecture": "北海道",
     "line_name": "JR千歳線",
     "lat": 43.04695,
-    "lon": 141.437967
+    "lon": 141.437967,
+    "station_passenger_log": 8.427924723658055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0210",
@@ -1305,7 +1909,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.983601,
-    "lon": 144.150018
+    "lon": 144.150018,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0206",
@@ -1313,7 +1921,11 @@
     "prefecture": "北海道",
     "line_name": "JR札沼線",
     "lat": 43.22208,
-    "lon": 141.513764
+    "lon": 141.513764,
+    "station_passenger_log": 8.292298107063221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0273",
@@ -1321,7 +1933,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.825477,
-    "lon": 142.516987
+    "lon": 142.516987,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0133",
@@ -1329,7 +1945,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭支線",
     "lat": 42.329014,
-    "lon": 140.993881
+    "lon": 140.993881,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0216",
@@ -1337,7 +1957,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.942418,
-    "lon": 142.935739
+    "lon": 142.935739,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0174",
@@ -1345,7 +1969,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 43.158903,
-    "lon": 141.744443
+    "lon": 141.744443,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0090",
@@ -1353,7 +1981,11 @@
     "prefecture": "北海道",
     "line_name": "JR千歳線",
     "lat": 42.902704,
-    "lon": 141.574429
+    "lon": 141.574429,
+    "station_passenger_log": 8.469472455204826,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0089",
@@ -1361,7 +1993,11 @@
     "prefecture": "北海道",
     "line_name": "JR千歳線",
     "lat": 42.883076,
-    "lon": 141.586234
+    "lon": 141.586234,
+    "station_passenger_log": 9.579348943073732,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0292",
@@ -1369,7 +2005,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.841426,
-    "lon": 143.932962
+    "lon": 143.932962,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0275",
@@ -1377,7 +2017,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.898635,
-    "lon": 142.582176
+    "lon": 142.582176,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0050",
@@ -1385,7 +2029,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.120238,
-    "lon": 141.243785
+    "lon": 141.243785,
+    "station_passenger_log": 10.198505154086057,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0201",
@@ -1393,7 +2041,11 @@
     "prefecture": "北海道",
     "line_name": "JR札沼線",
     "lat": 43.155568,
-    "lon": 141.381013
+    "lon": 141.381013,
+    "station_passenger_log": 8.298290634359283,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0005",
@@ -1401,7 +2053,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館支線",
     "lat": 42.119205,
-    "lon": 140.64598
+    "lon": 140.64598,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0307",
@@ -1409,7 +2065,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.487372,
-    "lon": 144.463981
+    "lon": 144.463981,
+    "station_passenger_log": 4.672828834461906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0381",
@@ -1417,7 +2077,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.039141,
-    "lon": 141.473106
+    "lon": 141.473106,
+    "station_passenger_log": 10.676069563742107,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0014",
@@ -1425,7 +2089,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 41.9054,
-    "lon": 140.646525
+    "lon": 140.646525,
+    "station_passenger_log": 7.155396301896734,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0096",
@@ -1433,7 +2101,11 @@
     "prefecture": "北海道",
     "line_name": "JR千歳線",
     "lat": 42.787546,
-    "lon": 141.680823
+    "lon": 141.680823,
+    "station_passenger_log": 10.530842092546065,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0228",
@@ -1441,7 +2113,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.778238,
-    "lon": 143.60826
+    "lon": 143.60826,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0267",
@@ -1449,7 +2125,11 @@
     "prefecture": "北海道",
     "line_name": "JR石勝線",
     "lat": 42.936611,
-    "lon": 142.03657
+    "lon": 142.03657,
+    "station_passenger_log": 3.610917912644224,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0236",
@@ -1457,7 +2137,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.009423,
-    "lon": 144.295558
+    "lon": 144.295558,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0237",
@@ -1466,10 +2150,10 @@
     "line_name": "JR根室本線",
     "lat": 43.001605,
     "lon": 144.350758,
-    "station_passenger_log": 9.023167064451204,
+    "station_passenger_log": 0.0,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "D"
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0196",
@@ -1493,7 +2177,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.082501,
-    "lon": 142.832432
+    "lon": 142.832432,
+    "station_passenger_log": 5.796057750765372,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0098",
@@ -1501,7 +2189,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 43.780174,
-    "lon": 142.384789
+    "lon": 142.384789,
+    "station_passenger_log": 0.0,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0094",
@@ -1509,7 +2201,11 @@
     "prefecture": "北海道",
     "line_name": "JR千歳線",
     "lat": 43.038732,
-    "lon": 141.47237
+    "lon": 141.47237,
+    "station_passenger_log": 10.238565961087293,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0197",
@@ -1517,7 +2213,11 @@
     "prefecture": "北海道",
     "line_name": "JR札沼線",
     "lat": 43.112928,
-    "lon": 141.335105
+    "lon": 141.335105,
+    "station_passenger_log": 8.866581653303996,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0383",
@@ -1525,7 +2225,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東豊線",
     "lat": 43.104663,
-    "lon": 141.369086
+    "lon": 141.369086,
+    "station_passenger_log": 9.608646582885868,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0112",
@@ -1534,10 +2238,10 @@
     "line_name": "JR宗谷本線",
     "lat": 44.381713,
     "lon": 142.467354,
-    "station_passenger_log": 10.10834492616302,
+    "station_passenger_log": 0.0,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "C"
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0165",
@@ -1545,7 +2249,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.765237,
-    "lon": 141.814106
+    "lon": 141.814106,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0082",
@@ -1553,7 +2261,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.763492,
-    "lon": 142.357803
+    "lon": 142.357803,
+    "station_passenger_log": 8.86007342433278,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0097",
@@ -1561,7 +2273,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 43.764056,
-    "lon": 142.375815
+    "lon": 142.375815,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0031",
@@ -1569,7 +2285,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.797984,
-    "lon": 140.596107
+    "lon": 140.596107,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0252",
@@ -1577,7 +2297,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.228593,
-    "lon": 145.542444
+    "lon": 145.542444,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0048",
@@ -1585,7 +2309,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.132375,
-    "lon": 141.210856
+    "lon": 141.210856,
+    "station_passenger_log": 9.164191715950205,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0335",
@@ -1593,7 +2321,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.778017,
-    "lon": 140.740893
+    "lon": 140.740893,
+    "station_passenger_log": 5.855071922202427,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0114",
@@ -1601,7 +2333,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.46103,
-    "lon": 142.394007
+    "lon": 142.394007,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0113",
@@ -1609,7 +2345,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.455553,
-    "lon": 142.414772
+    "lon": 142.414772,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0392",
@@ -1617,7 +2357,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東豊線",
     "lat": 43.030553,
-    "lon": 141.396263
+    "lon": 141.396263,
+    "station_passenger_log": 9.80316985602126,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0142",
@@ -1625,7 +2369,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.513267,
-    "lon": 140.793969
+    "lon": 140.793969,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0045",
@@ -1633,7 +2381,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.176868,
-    "lon": 141.063923
+    "lon": 141.063923,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0265",
@@ -1641,7 +2393,11 @@
     "prefecture": "北海道",
     "line_name": "道南いさりび鉄道線",
     "lat": 41.677642,
-    "lon": 140.434004
+    "lon": 140.434004,
+    "station_passenger_log": 4.875197323201151,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0328",
@@ -1657,7 +2413,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.358734,
-    "lon": 140.977561
+    "lon": 140.977561,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0222",
@@ -1665,7 +2425,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.912697,
-    "lon": 143.256248
+    "lon": 143.256248,
+    "station_passenger_log": 5.942799375126701,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0056",
@@ -1681,7 +2445,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.786574,
-    "lon": 144.531526
+    "lon": 144.531526,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0264",
@@ -1689,7 +2457,11 @@
     "prefecture": "北海道",
     "line_name": "道南いさりび鉄道線",
     "lat": 41.699271,
-    "lon": 140.468097
+    "lon": 140.468097,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0340",
@@ -1697,7 +2469,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.788689,
-    "lon": 140.759304
+    "lon": 140.759304,
+    "station_passenger_log": 6.091309882077698,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0256",
@@ -1705,7 +2481,11 @@
     "prefecture": "北海道",
     "line_name": "道南いさりび鉄道線",
     "lat": 41.826005,
-    "lon": 140.679731
+    "lon": 140.679731,
+    "station_passenger_log": 4.61512051684126,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0386",
@@ -1713,7 +2493,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東豊線",
     "lat": 43.078197,
-    "lon": 141.364769
+    "lon": 141.364769,
+    "station_passenger_log": 9.71214543252109,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0131",
@@ -1721,7 +2505,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭支線",
     "lat": 42.349374,
-    "lon": 141.026411
+    "lon": 141.026411,
+    "station_passenger_log": 8.016647877057803,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0407",
@@ -1729,7 +2517,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.031051,
-    "lon": 141.347501
+    "lon": 141.347501,
+    "station_passenger_log": 7.592366128519796,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0271",
@@ -1737,7 +2529,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.776571,
-    "lon": 142.441544
+    "lon": 142.441544,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0414",
@@ -1745,7 +2541,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.051783,
-    "lon": 141.34939
+    "lon": 141.34939,
+    "station_passenger_log": 6.790097235513905,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0374",
@@ -1753,7 +2553,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.051614,
-    "lon": 141.384922
+    "lon": 141.384922,
+    "station_passenger_log": 10.023357298386513,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0007",
@@ -1761,7 +2565,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館支線",
     "lat": 42.106823,
-    "lon": 140.59353
+    "lon": 140.59353,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0288",
@@ -1769,7 +2577,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.805466,
-    "lon": 143.809499
+    "lon": 143.809499,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0239",
@@ -1777,7 +2589,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.995207,
-    "lon": 144.411307
+    "lon": 144.411307,
+    "station_passenger_log": 0.0,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0332",
@@ -1785,7 +2601,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.771296,
-    "lon": 140.733039
+    "lon": 140.733039,
+    "station_passenger_log": 6.621405651764134,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0341",
@@ -1793,7 +2613,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.787937,
-    "lon": 140.765226
+    "lon": 140.765226,
+    "station_passenger_log": 6.342121418721152,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0220",
@@ -1801,7 +2625,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.928877,
-    "lon": 143.1645
+    "lon": 143.1645,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0291",
@@ -1809,7 +2637,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.824911,
-    "lon": 143.916737
+    "lon": 143.916737,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0382",
@@ -1825,7 +2657,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 43.085444,
-    "lon": 141.744333
+    "lon": 141.744333,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0171",
@@ -1833,7 +2669,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 43.058164,
-    "lon": 141.775603
+    "lon": 141.775603,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0173",
@@ -1841,7 +2681,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 43.120367,
-    "lon": 141.739743
+    "lon": 141.739743,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0254",
@@ -1849,7 +2693,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.326923,
-    "lon": 145.582707
+    "lon": 145.582707,
+    "station_passenger_log": 5.003946305945459,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0321",
@@ -1857,7 +2705,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 44.016913,
-    "lon": 144.273223
+    "lon": 144.273223,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0055",
@@ -1865,7 +2717,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.070744,
-    "lon": 141.332036
+    "lon": 141.332036,
+    "station_passenger_log": 9.90683195378652,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0011",
@@ -1873,7 +2729,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 41.846457,
-    "lon": 140.722952
+    "lon": 140.722952,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0272",
@@ -1881,7 +2741,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.801812,
-    "lon": 142.486968
+    "lon": 142.486968,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0008",
@@ -1889,7 +2753,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館支線",
     "lat": 42.108917,
-    "lon": 140.573846
+    "lon": 140.573846,
+    "station_passenger_log": 6.066108090103747,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0060",
@@ -1905,7 +2773,11 @@
     "prefecture": "北海道",
     "line_name": "JR千歳線",
     "lat": 42.713645,
-    "lon": 141.735344
+    "lon": 141.735344,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0305",
@@ -1913,7 +2785,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.298472,
-    "lon": 144.608435
+    "lon": 144.608435,
+    "station_passenger_log": 5.342334251964811,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0315",
@@ -1921,7 +2797,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.921558,
-    "lon": 144.519818
+    "lon": 144.519818,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0240",
@@ -1929,7 +2809,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.991364,
-    "lon": 144.426681
+    "lon": 144.426681,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0134",
@@ -1937,7 +2821,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭支線",
     "lat": 42.317295,
-    "lon": 140.990018
+    "lon": 140.990018,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0101",
@@ -1945,7 +2833,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 43.874478,
-    "lon": 142.471294
+    "lon": 142.471294,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0033",
@@ -1953,7 +2845,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.84856,
-    "lon": 140.722615
+    "lon": 140.722615,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0099",
@@ -1961,7 +2857,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 43.814158,
-    "lon": 142.434382
+    "lon": 142.434382,
+    "station_passenger_log": 6.580639137284949,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0064",
@@ -1969,7 +2869,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.110189,
-    "lon": 141.55679
+    "lon": 141.55679,
+    "station_passenger_log": 8.684231891345675,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0077",
@@ -1977,7 +2881,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.627564,
-    "lon": 141.935937
+    "lon": 141.935937,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0225",
@@ -1985,7 +2893,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.922186,
-    "lon": 143.453033
+    "lon": 143.453033,
+    "station_passenger_log": 5.602118820879701,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0083",
@@ -1993,7 +2905,11 @@
     "prefecture": "北海道",
     "line_name": "JR千歳線",
     "lat": 42.672057,
-    "lon": 141.693132
+    "lon": 141.693132,
+    "station_passenger_log": 0.0,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0263",
@@ -2001,7 +2917,11 @@
     "prefecture": "北海道",
     "line_name": "道南いさりび鉄道線",
     "lat": 41.700867,
-    "lon": 140.506797
+    "lon": 140.506797,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0141",
@@ -2009,7 +2929,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.55055,
-    "lon": 140.763959
+    "lon": 140.763959,
+    "station_passenger_log": 5.983936280687191,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0247",
@@ -2017,7 +2941,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.15754,
-    "lon": 145.099657
+    "lon": 145.099657,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0193",
@@ -2025,7 +2953,11 @@
     "prefecture": "北海道",
     "line_name": "JR日高本線",
     "lat": 42.606725,
-    "lon": 141.837071
+    "lon": 141.837071,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0316",
@@ -2033,7 +2965,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.934077,
-    "lon": 144.453187
+    "lon": 144.453187,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0229",
@@ -2041,7 +2977,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.810849,
-    "lon": 143.651568
+    "lon": 143.651568,
+    "station_passenger_log": 4.394449154672439,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0342",
@@ -2049,7 +2989,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.787153,
-    "lon": 140.769947
+    "lon": 140.769947,
+    "station_passenger_log": 6.511745329644728,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0079",
@@ -2057,7 +3001,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.721021,
-    "lon": 142.041642
+    "lon": 142.041642,
+    "station_passenger_log": 7.382124365737512,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0258",
@@ -2065,7 +3013,11 @@
     "prefecture": "北海道",
     "line_name": "道南いさりび鉄道線",
     "lat": 41.824615,
-    "lon": 140.652906
+    "lon": 140.652906,
+    "station_passenger_log": 4.948759890378168,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0312",
@@ -2073,7 +3025,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.83871,
-    "lon": 144.593948
+    "lon": 144.593948,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0261",
@@ -2081,7 +3037,11 @@
     "prefecture": "北海道",
     "line_name": "道南いさりび鉄道線",
     "lat": 41.737309,
-    "lon": 140.579109
+    "lon": 140.579109,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0003",
@@ -2089,7 +3049,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館支線",
     "lat": 42.10706,
-    "lon": 140.747596
+    "lon": 140.747596,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0004",
@@ -2097,7 +3061,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館支線",
     "lat": 42.12164,
-    "lon": 140.689451
+    "lon": 140.689451,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0347",
@@ -2105,7 +3073,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.781073,
-    "lon": 140.789902
+    "lon": 140.789902,
+    "station_passenger_log": 6.774223886357614,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0346",
@@ -2113,7 +3085,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.780129,
-    "lon": 140.784881
+    "lon": 140.784881,
+    "station_passenger_log": 6.246106765481563,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0076",
@@ -2121,7 +3097,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.555278,
-    "lon": 141.900807
+    "lon": 141.900807,
+    "station_passenger_log": 7.869019376499023,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0361",
@@ -2129,7 +3109,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市南北線",
     "lat": 43.016845,
-    "lon": 141.367308
+    "lon": 141.367308,
+    "station_passenger_log": 9.83889569664295,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0281",
@@ -2137,7 +3121,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 44.008753,
-    "lon": 143.420937
+    "lon": 143.420937,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0037",
@@ -2145,7 +3133,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.12551,
-    "lon": 140.737211
+    "lon": 140.737211,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0028",
@@ -2153,7 +3145,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.675653,
-    "lon": 140.375084
+    "lon": 140.375084,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0416",
@@ -2161,7 +3157,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.057279,
-    "lon": 141.352927
+    "lon": 141.352927,
+    "station_passenger_log": 8.148734808937169,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0054",
@@ -2177,7 +3177,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.266349,
-    "lon": 142.396244
+    "lon": 142.396244,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0385",
@@ -2185,7 +3189,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東豊線",
     "lat": 43.082166,
-    "lon": 141.374643
+    "lon": 141.374643,
+    "station_passenger_log": 9.733351450605976,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0284",
@@ -2193,7 +3201,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.923674,
-    "lon": 143.534627
+    "lon": 143.534627,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0170",
@@ -2201,7 +3213,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 43.012206,
-    "lon": 141.785868
+    "lon": 141.785868,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0286",
@@ -2209,7 +3225,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.785534,
-    "lon": 143.621394
+    "lon": 143.621394,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0052",
@@ -2217,7 +3237,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.099819,
-    "lon": 141.277273
+    "lon": 141.277273,
+    "station_passenger_log": 9.0095696715137,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0053",
@@ -2225,7 +3249,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.089271,
-    "lon": 141.294497
+    "lon": 141.294497,
+    "station_passenger_log": 9.01225522000275,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0365",
@@ -2233,7 +3261,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.081732,
-    "lon": 141.289312
+    "lon": 141.289312,
+    "station_passenger_log": 9.821246597152218,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0153",
@@ -2241,7 +3273,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.45207,
-    "lon": 141.180931
+    "lon": 141.180931,
+    "station_passenger_log": 6.580639137284949,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0279",
@@ -2249,7 +3285,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.884435,
-    "lon": 143.180795
+    "lon": 143.180795,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0058",
@@ -2265,7 +3305,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.956161,
-    "lon": 144.076879
+    "lon": 144.076879,
+    "station_passenger_log": 4.110873864173311,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0158",
@@ -2273,7 +3317,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.55474,
-    "lon": 141.360054
+    "lon": 141.360054,
+    "station_passenger_log": 7.1316985104669115,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0199",
@@ -2281,7 +3329,11 @@
     "prefecture": "北海道",
     "line_name": "JR札沼線",
     "lat": 43.131476,
-    "lon": 141.360672
+    "lon": 141.360672,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0029",
@@ -2289,7 +3341,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.761432,
-    "lon": 140.465742
+    "lon": 140.465742,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0287",
@@ -2297,7 +3353,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.795948,
-    "lon": 143.756449
+    "lon": 143.756449,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0363",
@@ -2305,7 +3365,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市南北線",
     "lat": 42.991134,
-    "lon": 141.358499
+    "lon": 141.358499,
+    "station_passenger_log": 10.015431350758112,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0314",
@@ -2313,7 +3377,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.910749,
-    "lon": 144.661647
+    "lon": 144.661647,
+    "station_passenger_log": 5.43372200355424,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0018",
@@ -2321,7 +3389,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.17285,
-    "lon": 140.458436
+    "lon": 140.458436,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0406",
@@ -2329,7 +3401,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.030706,
-    "lon": 141.344175
+    "lon": 141.344175,
+    "station_passenger_log": 6.9957661563048505,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0075",
@@ -2337,7 +3413,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.493468,
-    "lon": 141.909642
+    "lon": 141.909642,
+    "station_passenger_log": 7.04141166379481,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0306",
@@ -2345,7 +3425,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.379389,
-    "lon": 144.554322
+    "lon": 144.554322,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0138",
@@ -2353,7 +3437,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.580422,
-    "lon": 140.595013
+    "lon": 140.595013,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0159",
@@ -2361,7 +3449,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.578682,
-    "lon": 141.417433
+    "lon": 141.417433,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0175",
@@ -2369,7 +3461,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.745033,
-    "lon": 142.358257
+    "lon": 142.358257,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0393",
@@ -2377,7 +3473,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東豊線",
     "lat": 43.021621,
-    "lon": 141.403105
+    "lon": 141.403105,
+    "station_passenger_log": 10.226983097777042,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0146",
@@ -2385,7 +3485,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.425567,
-    "lon": 140.898836
+    "lon": 140.898836,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0130",
@@ -2393,7 +3497,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 45.416995,
-    "lon": 141.676999
+    "lon": 141.676999,
+    "station_passenger_log": 4.74493212836325,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0049",
@@ -2401,7 +3509,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.128115,
-    "lon": 141.222919
+    "lon": 141.222919,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0051",
@@ -2409,7 +3521,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.112023,
-    "lon": 141.257113
+    "lon": 141.257113,
+    "station_passenger_log": 8.97903863296051,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0293",
@@ -2417,7 +3533,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.851172,
-    "lon": 143.942336
+    "lon": 143.942336,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0343",
@@ -2433,7 +3553,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.49284,
-    "lon": 141.260395
+    "lon": 141.260395,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0119",
@@ -2441,7 +3565,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.738884,
-    "lon": 142.197777
+    "lon": 142.197777,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0200",
@@ -2449,7 +3577,11 @@
     "prefecture": "北海道",
     "line_name": "JR札沼線",
     "lat": 43.145152,
-    "lon": 141.364323
+    "lon": 141.364323,
+    "station_passenger_log": 8.611593866837723,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0123",
@@ -2457,7 +3589,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.920778,
-    "lon": 142.000931
+    "lon": 142.000931,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0161",
@@ -2465,7 +3601,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.6225,
-    "lon": 141.546187
+    "lon": 141.546187,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0080",
@@ -2473,7 +3613,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.732509,
-    "lon": 142.130072
+    "lon": 142.130072,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0302",
@@ -2481,7 +3625,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.105055,
-    "lon": 144.469683
+    "lon": 144.469683,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0299",
@@ -2489,7 +3637,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 44.019873,
-    "lon": 144.254156
+    "lon": 144.254156,
+    "station_passenger_log": 6.333279628139691,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0294",
@@ -2497,7 +3649,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.880431,
-    "lon": 143.999887
+    "lon": 143.999887,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0310",
@@ -2505,7 +3661,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.718282,
-    "lon": 144.505499
+    "lon": 144.505499,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0176",
@@ -2514,10 +3674,10 @@
     "line_name": "JR富良野線",
     "lat": 43.731074,
     "lon": 142.365701,
-    "station_passenger_log": 9.18881025342582,
+    "station_passenger_log": 0.0,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "D"
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0071",
@@ -2525,7 +3685,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.330751,
-    "lon": 141.862157
+    "lon": 141.862157,
+    "station_passenger_log": 7.580189417944541,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0391",
@@ -2533,7 +3697,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東豊線",
     "lat": 43.036338,
-    "lon": 141.385756
+    "lon": 141.385756,
+    "station_passenger_log": 9.285911558823257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0295",
@@ -2541,7 +3709,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.836967,
-    "lon": 144.10563
+    "lon": 144.10563,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0115",
@@ -2549,7 +3721,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.482951,
-    "lon": 142.350597
+    "lon": 142.350597,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0183",
@@ -2557,7 +3733,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.591186,
-    "lon": 142.461639
+    "lon": 142.461639,
+    "station_passenger_log": 6.541029999189903,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0308",
@@ -2565,7 +3745,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.555316,
-    "lon": 144.437656
+    "lon": 144.437656,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0184",
@@ -2573,7 +3757,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.537408,
-    "lon": 142.447192
+    "lon": 142.447192,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0362",
@@ -2581,7 +3769,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市南北線",
     "lat": 43.006038,
-    "lon": 141.364776
+    "lon": 141.364776,
+    "station_passenger_log": 8.739536422559677,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0211",
@@ -2589,7 +3781,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.516636,
-    "lon": 142.184543
+    "lon": 142.184543,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0217",
@@ -2597,7 +3793,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.909846,
-    "lon": 143.047991
+    "lon": 143.047991,
+    "station_passenger_log": 5.998936561946683,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0057",
@@ -2605,7 +3805,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.068574,
-    "lon": 141.377522
+    "lon": 141.377522,
+    "station_passenger_log": 9.375091807576672,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0163",
@@ -2613,7 +3817,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.639665,
-    "lon": 141.596837
+    "lon": 141.596837,
+    "station_passenger_log": 8.78523362361273,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0209",
@@ -2621,7 +3829,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.537314,
-    "lon": 142.082156
+    "lon": 142.082156,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0260",
@@ -2629,7 +3841,11 @@
     "prefecture": "北海道",
     "line_name": "道南いさりび鉄道線",
     "lat": 41.766604,
-    "lon": 140.600561
+    "lon": 140.600561,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0304",
@@ -2637,7 +3853,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.202097,
-    "lon": 144.503788
+    "lon": 144.503788,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0246",
@@ -2645,7 +3865,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.129266,
-    "lon": 145.02801
+    "lon": 145.02801,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0072",
@@ -2653,7 +3877,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.369842,
-    "lon": 141.87336
+    "lon": 141.87336,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0373",
@@ -2661,7 +3889,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.057169,
-    "lon": 141.3727
+    "lon": 141.3727,
+    "station_passenger_log": 9.99738764772918,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0157",
@@ -2669,7 +3901,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.521159,
-    "lon": 141.30603
+    "lon": 141.30603,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0251",
@@ -2677,7 +3913,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.198335,
-    "lon": 145.519449
+    "lon": 145.519449,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0019",
@@ -2685,7 +3925,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.187617,
-    "lon": 140.420755
+    "lon": 140.420755,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0319",
@@ -2693,7 +3937,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.968358,
-    "lon": 144.320079
+    "lon": 144.320079,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0040",
@@ -2701,7 +3949,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.19651,
-    "lon": 140.854643
+    "lon": 140.854643,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0102",
@@ -2709,7 +3961,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 43.925072,
-    "lon": 142.473699
+    "lon": 142.473699,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0030",
@@ -2717,7 +3973,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.804542,
-    "lon": 140.52894
+    "lon": 140.52894,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0154",
@@ -2725,7 +3985,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.464695,
-    "lon": 141.215092
+    "lon": 141.215092,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0411",
@@ -2733,7 +3997,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.041544,
-    "lon": 141.35072
+    "lon": 141.35072,
+    "station_passenger_log": 7.271008538280992,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0371",
@@ -2741,7 +4009,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.058557,
-    "lon": 141.341036
+    "lon": 141.341036,
+    "station_passenger_log": 10.339578854186051,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0397",
@@ -2749,7 +4021,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.056955,
-    "lon": 141.336108
+    "lon": 141.336108,
+    "station_passenger_log": 8.151044945685024,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0370",
@@ -2757,7 +4033,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.057168,
-    "lon": 141.330204
+    "lon": 141.330204,
+    "station_passenger_log": 10.367818874622332,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0368",
@@ -2765,7 +4045,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東西線",
     "lat": 43.060345,
-    "lon": 141.314522
+    "lon": 141.314522,
+    "station_passenger_log": 9.931345880664525,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0394",
@@ -2773,7 +4057,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.058904,
-    "lon": 141.352148
+    "lon": 141.352148,
+    "station_passenger_log": 9.442324727955874,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0395",
@@ -2781,7 +4069,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.058033,
-    "lon": 141.345358
+    "lon": 141.345358,
+    "station_passenger_log": 7.193685818395112,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0186",
@@ -2789,7 +4081,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.429569,
-    "lon": 142.441876
+    "lon": 142.441876,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0289",
@@ -2797,7 +4093,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.803114,
-    "lon": 143.841586
+    "lon": 143.841586,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0253",
@@ -2805,7 +4105,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.268043,
-    "lon": 145.541817
+    "lon": 145.541817,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0296",
@@ -2813,7 +4117,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.880057,
-    "lon": 144.148372
+    "lon": 144.148372,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0219",
@@ -2821,7 +4129,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.923941,
-    "lon": 143.126351
+    "lon": 143.126351,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0233",
@@ -2829,7 +4141,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.976138,
-    "lon": 144.129826
+    "lon": 144.129826,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0177",
@@ -2837,7 +4153,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.720834,
-    "lon": 142.371507
+    "lon": 142.371507,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0178",
@@ -2845,7 +4165,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.70242,
-    "lon": 142.381982
+    "lon": 142.381982,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0285",
@@ -2853,7 +4177,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 43.785345,
-    "lon": 143.603257
+    "lon": 143.603257,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0179",
@@ -2861,7 +4189,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.682181,
-    "lon": 142.393677
+    "lon": 142.393677,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0400",
@@ -2869,7 +4201,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.044664,
-    "lon": 141.335957
+    "lon": 141.335957,
+    "station_passenger_log": 8.104401307921613,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0401",
@@ -2877,7 +4213,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.040775,
-    "lon": 141.336429
+    "lon": 141.336429,
+    "station_passenger_log": 8.031060180240619,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0402",
@@ -2885,7 +4225,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.037733,
-    "lon": 141.336772
+    "lon": 141.336772,
+    "station_passenger_log": 7.892078421248119,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0398",
@@ -2893,7 +4237,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.051352,
-    "lon": 141.335088
+    "lon": 141.335088,
+    "station_passenger_log": 7.749753406274437,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0399",
@@ -2901,7 +4249,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.04722,
-    "lon": 141.336365
+    "lon": 141.336365,
+    "station_passenger_log": 7.663407664893479,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0180",
@@ -2909,7 +4261,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.669047,
-    "lon": 142.415209
+    "lon": 142.415209,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0325",
@@ -2917,7 +4273,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電宝来・谷地頭線",
     "lat": 41.753273,
-    "lon": 140.71641
+    "lon": 140.71641,
+    "station_passenger_log": 6.059123195581797,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0126",
@@ -2925,7 +4285,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 45.104624,
-    "lon": 141.772088
+    "lon": 141.772088,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0065",
@@ -2933,7 +4297,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.136446,
-    "lon": 141.62466
+    "lon": 141.62466,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0390",
@@ -2941,7 +4309,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東豊線",
     "lat": 43.041929,
-    "lon": 141.376573
+    "lon": 141.376573,
+    "station_passenger_log": 9.351232110673664,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0388",
@@ -2949,7 +4321,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市東豊線",
     "lat": 43.055008,
-    "lon": 141.356838
+    "lon": 141.356838,
+    "station_passenger_log": 9.67464026580524,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0074",
@@ -2957,7 +4333,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.464224,
-    "lon": 141.901032
+    "lon": 141.901032,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0140",
@@ -2965,7 +4345,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.580323,
-    "lon": 140.71536
+    "lon": 140.71536,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0227",
@@ -2973,7 +4357,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.817548,
-    "lon": 143.538615
+    "lon": 143.538615,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0415",
@@ -2981,7 +4369,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.055217,
-    "lon": 141.34969
+    "lon": 141.34969,
+    "station_passenger_log": 6.5337888379333435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0016",
@@ -2989,7 +4381,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.003267,
-    "lon": 140.642678
+    "lon": 140.642678,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0208",
@@ -2997,7 +4393,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.555144,
-    "lon": 142.048669
+    "lon": 142.048669,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0132",
@@ -3005,7 +4405,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭支線",
     "lat": 42.333775,
-    "lon": 141.005743
+    "lon": 141.005743,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0081",
@@ -3013,7 +4417,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.789193,
-    "lon": 142.325327
+    "lon": 142.325327,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0167",
@@ -3021,7 +4429,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.873316,
-    "lon": 141.810678
+    "lon": 141.810678,
+    "station_passenger_log": 5.765191102784844,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0164",
@@ -3029,7 +4441,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.729533,
-    "lon": 141.769568
+    "lon": 141.769568,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0300",
@@ -3037,7 +4453,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.047878,
-    "lon": 144.458367
+    "lon": 144.458367,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0282",
@@ -3045,7 +4465,11 @@
     "prefecture": "北海道",
     "line_name": "JR石北本線",
     "lat": 44.060278,
-    "lon": 143.520667
+    "lon": 143.520667,
+    "station_passenger_log": 5.60947179518496,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0062",
@@ -3053,7 +4477,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.092559,
-    "lon": 141.52984
+    "lon": 141.52984,
+    "station_passenger_log": 9.265869681768663,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "hokkaido_0020",
@@ -3061,7 +4489,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.217104,
-    "lon": 140.37586
+    "lon": 140.37586,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0213",
@@ -3069,7 +4501,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.474418,
-    "lon": 142.261772
+    "lon": 142.261772,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0262",
@@ -3077,7 +4513,11 @@
     "prefecture": "北海道",
     "line_name": "道南いさりび鉄道線",
     "lat": 41.712153,
-    "lon": 140.53718
+    "lon": 140.53718,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0238",
@@ -3085,7 +4525,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.990584,
-    "lon": 144.381983
+    "lon": 144.381983,
+    "station_passenger_log": 7.227662498728654,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0301",
@@ -3093,7 +4537,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.100647,
-    "lon": 144.447799
+    "lon": 144.447799,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0036",
@@ -3101,7 +4549,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.040888,
-    "lon": 140.715321
+    "lon": 140.715321,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0046",
@@ -3109,7 +4561,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 43.143403,
-    "lon": 141.159868
+    "lon": 141.159868,
+    "station_passenger_log": 8.047189562170502,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0160",
@@ -3117,7 +4573,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.6025,
-    "lon": 141.48722
+    "lon": 141.48722,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0026",
@@ -3125,7 +4585,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.512477,
-    "lon": 140.37507
+    "lon": 140.37507,
+    "station_passenger_log": 5.501258210544727,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0143",
@@ -3133,7 +4597,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.488262,
-    "lon": 140.833783
+    "lon": 140.833783,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0087",
@@ -3141,7 +4609,11 @@
     "prefecture": "北海道",
     "line_name": "JR千歳線",
     "lat": 42.852178,
-    "lon": 141.622987
+    "lon": 141.622987,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0244",
@@ -3149,7 +4621,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 43.057581,
-    "lon": 144.782638
+    "lon": 144.782638,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0404",
@@ -3157,7 +4633,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.031271,
-    "lon": 141.337609
+    "lon": 141.337609,
+    "station_passenger_log": 7.103322062526113,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0324",
@@ -3165,7 +4645,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電宝来・谷地頭線",
     "lat": 41.756235,
-    "lon": 140.718255
+    "lon": 140.718255,
+    "station_passenger_log": 5.049856007249537,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0162",
@@ -3173,7 +4657,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.62999,
-    "lon": 141.568278
+    "lon": 141.568278,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0410",
@@ -3181,7 +4669,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市電",
     "lat": 43.038329,
-    "lon": 141.351063
+    "lon": 141.351063,
+    "station_passenger_log": 7.288927694521257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0136",
@@ -3189,7 +4681,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.584065,
-    "lon": 140.460025
+    "lon": 140.460025,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0231",
@@ -3197,7 +4693,11 @@
     "prefecture": "北海道",
     "line_name": "JR根室本線",
     "lat": 42.888997,
-    "lon": 143.932442
+    "lon": 143.932442,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0118",
@@ -3205,7 +4705,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.729448,
-    "lon": 142.259883
+    "lon": 142.259883,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0109",
@@ -3213,7 +4717,11 @@
     "prefecture": "北海道",
     "line_name": "JR宗谷本線",
     "lat": 44.292238,
-    "lon": 142.421624
+    "lon": 142.421624,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0017",
@@ -3221,7 +4729,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.038809,
-    "lon": 140.610476
+    "lon": 140.610476,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0344",
@@ -3229,7 +4741,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電湯の川線",
     "lat": 41.783265,
-    "lon": 140.779216
+    "lon": 140.779216,
+    "station_passenger_log": 4.983606621708336,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0063",
@@ -3245,7 +4761,11 @@
     "prefecture": "北海道",
     "line_name": "函館市電本線",
     "lat": 41.765838,
-    "lon": 140.721731
+    "lon": 140.721731,
+    "station_passenger_log": 5.918893854273146,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0320",
@@ -3253,7 +4773,11 @@
     "prefecture": "北海道",
     "line_name": "JR釧網本線",
     "lat": 43.982481,
-    "lon": 144.296526
+    "lon": 144.296526,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0194",
@@ -3261,7 +4785,11 @@
     "prefecture": "北海道",
     "line_name": "JR日高本線",
     "lat": 42.578953,
-    "lon": 141.923892
+    "lon": 141.923892,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0150",
@@ -3269,7 +4797,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.35953,
-    "lon": 141.042759
+    "lon": 141.042759,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0189",
@@ -3277,7 +4809,11 @@
     "prefecture": "北海道",
     "line_name": "JR富良野線",
     "lat": 43.387499,
-    "lon": 142.404812
+    "lon": 142.404812,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0002",
@@ -3285,7 +4821,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館支線",
     "lat": 42.06439,
-    "lon": 140.771393
+    "lon": 140.771393,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0348",
@@ -3293,7 +4833,11 @@
     "prefecture": "北海道",
     "line_name": "札幌市南北線",
     "lat": 43.109106,
-    "lon": 141.338255
+    "lon": 141.338255,
+    "station_passenger_log": 10.533615057927772,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "hokkaido_0147",
@@ -3301,7 +4845,11 @@
     "prefecture": "北海道",
     "line_name": "JR室蘭本線",
     "lat": 42.386441,
-    "lon": 140.907782
+    "lon": 140.907782,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0024",
@@ -3309,7 +4857,11 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.368296,
-    "lon": 140.288173
+    "lon": 140.288173,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "hokkaido_0027",
@@ -3317,6 +4869,10 @@
     "prefecture": "北海道",
     "line_name": "JR函館本線",
     "lat": 42.669608,
-    "lon": 140.305704
+    "lon": 140.305704,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

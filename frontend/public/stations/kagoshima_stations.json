@@ -5,7 +5,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電第一期線",
     "lat": 31.591824,
-    "lon": 130.557672
+    "lon": 130.557672,
+    "station_passenger_log": 8.092239406724211,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0074",
@@ -13,7 +17,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR鹿児島本線",
     "lat": 31.593837,
-    "lon": 130.459468
+    "lon": 130.459468,
+    "station_passenger_log": 8.133587417660966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0123",
@@ -21,7 +29,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電谷山線",
     "lat": 31.534762,
-    "lon": 130.528811
+    "lon": 130.528811,
+    "station_passenger_log": 7.009408932708637,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0088",
@@ -29,7 +41,11 @@
     "prefecture": "鹿児島県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 31.83537,
-    "lon": 130.292406
+    "lon": 130.292406,
+    "station_passenger_log": 5.641907070938114,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0013",
@@ -37,7 +53,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.393591,
-    "lon": 130.535086
+    "lon": 130.535086,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0091",
@@ -45,7 +65,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電唐湊線",
     "lat": 31.578581,
-    "lon": 130.542587
+    "lon": 130.542587,
+    "station_passenger_log": 6.656726524178391,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0061",
@@ -53,7 +77,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR肥薩線",
     "lat": 31.813818,
-    "lon": 130.733174
+    "lon": 130.733174,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0097",
@@ -69,7 +97,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR鹿児島本線",
     "lat": 31.721605,
-    "lon": 130.274531
+    "lon": 130.274531,
+    "station_passenger_log": 7.244941546337007,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0112",
@@ -77,7 +109,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電谷山線",
     "lat": 31.57711,
-    "lon": 130.553702
+    "lon": 130.553702,
+    "station_passenger_log": 7.323830566202317,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0019",
@@ -85,7 +121,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.254339,
-    "lon": 130.630082
+    "lon": 130.630082,
+    "station_passenger_log": 6.499787040655854,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0119",
@@ -101,7 +141,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.475201,
-    "lon": 130.504096
+    "lon": 130.504096,
+    "station_passenger_log": 6.778784897685177,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0054",
@@ -117,7 +161,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR鹿児島本線",
     "lat": 31.630148,
-    "lon": 130.395703
+    "lon": 130.395703,
+    "station_passenger_log": 8.371704884667631,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0027",
@@ -125,7 +173,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.204293,
-    "lon": 130.518788
+    "lon": 130.518788,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0076",
@@ -133,7 +185,11 @@
     "prefecture": "鹿児島県",
     "line_name": "九州新幹線",
     "lat": 32.089275,
-    "lon": 130.357803
+    "lon": 130.357803,
+    "station_passenger_log": 7.716460800176355,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0015",
@@ -141,7 +197,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.343433,
-    "lon": 130.556995
+    "lon": 130.556995,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0110",
@@ -149,7 +209,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電第二期線",
     "lat": 31.58731,
-    "lon": 130.548037
+    "lon": 130.548037,
+    "station_passenger_log": 6.473890696352274,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0048",
@@ -157,7 +221,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日豊本線",
     "lat": 31.739271,
-    "lon": 130.670752
+    "lon": 130.670752,
+    "station_passenger_log": 8.114025442356757,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0042",
@@ -165,7 +233,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日豊本線",
     "lat": 31.745007,
-    "lon": 130.960034
+    "lon": 130.960034,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0044",
@@ -173,7 +245,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日豊本線",
     "lat": 31.782118,
-    "lon": 130.87444
+    "lon": 130.87444,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0005",
@@ -181,7 +257,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.554786,
-    "lon": 130.543714
+    "lon": 130.543714,
+    "station_passenger_log": 7.862112211662748,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0118",
@@ -189,7 +269,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電谷山線",
     "lat": 31.555371,
-    "lon": 130.544196
+    "lon": 130.544196,
+    "station_passenger_log": 7.075808863978387,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0001",
@@ -197,7 +281,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR吉都線",
     "lat": 32.012026,
-    "lon": 130.738104
+    "lon": 130.738104,
+    "station_passenger_log": 0.0,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0094",
@@ -205,7 +293,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電唐湊線",
     "lat": 31.570556,
-    "lon": 130.541085
+    "lon": 130.541085,
+    "station_passenger_log": 6.536691597591305,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0014",
@@ -213,7 +305,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.371468,
-    "lon": 130.538867
+    "lon": 130.538867,
+    "station_passenger_log": 6.894670039433482,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0060",
@@ -221,7 +317,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR肥薩線",
     "lat": 31.826939,
-    "lon": 130.723021
+    "lon": 130.723021,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0046",
@@ -237,7 +337,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.500454,
-    "lon": 130.507801
+    "lon": 130.507801,
+    "station_passenger_log": 8.395477432732141,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0022",
@@ -246,10 +350,10 @@
     "line_name": "JR指宿枕崎線",
     "lat": 31.195011,
     "lon": 130.5992,
-    "station_passenger_log": 10.750599681390584,
+    "station_passenger_log": 0.0,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "C"
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0039",
@@ -257,7 +361,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日南線",
     "lat": 31.469801,
-    "lon": 131.136449
+    "lon": 131.136449,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0043",
@@ -265,7 +373,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日豊本線",
     "lat": 31.772767,
-    "lon": 130.924355
+    "lon": 130.924355,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0057",
@@ -273,7 +385,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR肥薩線",
     "lat": 31.906487,
-    "lon": 130.702825
+    "lon": 130.702825,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0103",
@@ -281,7 +397,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電第一期線",
     "lat": 31.590691,
-    "lon": 130.555075
+    "lon": 130.555075,
+    "station_passenger_log": 8.542470998600505,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "kagoshima_0051",
@@ -289,7 +409,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日豊本線",
     "lat": 31.715246,
-    "lon": 130.623259
+    "lon": 130.623259,
+    "station_passenger_log": 7.665284718471351,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0006",
@@ -297,7 +421,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.544234,
-    "lon": 130.536458
+    "lon": 130.536458,
+    "station_passenger_log": 7.826842098158293,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0120",
@@ -305,7 +433,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電谷山線",
     "lat": 31.546439,
-    "lon": 130.539068
+    "lon": 130.539068,
+    "station_passenger_log": 6.535241271013659,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0018",
@@ -313,7 +445,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.277218,
-    "lon": 130.619807
+    "lon": 130.619807,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0021",
@@ -321,7 +457,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.211702,
-    "lon": 130.630127
+    "lon": 130.630127,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0064",
@@ -337,7 +477,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電唐湊線",
     "lat": 31.568408,
-    "lon": 130.541857
+    "lon": 130.541857,
+    "station_passenger_log": 6.3835066348840055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0106",
@@ -353,7 +497,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR鹿児島本線",
     "lat": 31.68999,
-    "lon": 130.302727
+    "lon": 130.302727,
+    "station_passenger_log": 6.450470422144176,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0092",
@@ -369,7 +517,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日豊本線",
     "lat": 31.72697,
-    "lon": 130.632716
+    "lon": 130.632716,
+    "station_passenger_log": 8.011355109161286,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0011",
@@ -377,7 +529,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.450132,
-    "lon": 130.51367
+    "lon": 130.51367,
+    "station_passenger_log": 7.319202458767849,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0075",
@@ -385,7 +541,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR鹿児島本線",
     "lat": 31.576712,
-    "lon": 130.504328
+    "lon": 130.504328,
+    "station_passenger_log": 7.746300662231439,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0030",
@@ -393,7 +553,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.252032,
-    "lon": 130.468747
+    "lon": 130.468747,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0040",
@@ -401,7 +565,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日南線",
     "lat": 31.47285,
-    "lon": 131.097864
+    "lon": 131.097864,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0008",
@@ -409,7 +577,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.517286,
-    "lon": 130.506212
+    "lon": 130.506212,
+    "station_passenger_log": 7.928406026180535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0081",
@@ -417,7 +589,11 @@
     "prefecture": "鹿児島県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.060949,
-    "lon": 130.217485
+    "lon": 130.217485,
+    "station_passenger_log": 5.123963979403259,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0020",
@@ -425,7 +601,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.236925,
-    "lon": 130.642637
+    "lon": 130.642637,
+    "station_passenger_log": 7.0825485693553,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0100",
@@ -433,7 +613,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電第一期線",
     "lat": 31.583855,
-    "lon": 130.553724
+    "lon": 130.553724,
+    "station_passenger_log": 6.714170529909472,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0063",
@@ -441,7 +625,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR肥薩線",
     "lat": 31.763402,
-    "lon": 130.749836
+    "lon": 130.749836,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0105",
@@ -449,7 +637,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電第一期線",
     "lat": 31.594374,
-    "lon": 130.557286
+    "lon": 130.557286,
+    "station_passenger_log": 7.412160334945205,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0066",
@@ -457,7 +649,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR鹿児島本線",
     "lat": 31.766138,
-    "lon": 130.308046
+    "lon": 130.308046,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0071",
@@ -465,7 +661,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR鹿児島本線",
     "lat": 31.655164,
-    "lon": 130.347609
+    "lon": 130.347609,
+    "station_passenger_log": 6.415096959171596,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0025",
@@ -473,7 +673,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.200924,
-    "lon": 130.549897
+    "lon": 130.549897,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0034",
@@ -481,7 +685,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.258843,
-    "lon": 130.394551
+    "lon": 130.394551,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0038",
@@ -489,7 +697,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.27215,
-    "lon": 130.299439
+    "lon": 130.299439,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0056",
@@ -497,7 +709,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR肥薩線",
     "lat": 31.950575,
-    "lon": 130.723663
+    "lon": 130.723663,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0108",
@@ -505,7 +721,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電第一期線",
     "lat": 31.599976,
-    "lon": 130.560976
+    "lon": 130.560976,
+    "station_passenger_log": 6.983789965258135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0058",
@@ -513,7 +733,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR肥薩線",
     "lat": 31.890175,
-    "lon": 130.724065
+    "lon": 130.724065,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0099",
@@ -521,7 +745,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電第一期線",
     "lat": 31.57976,
-    "lon": 130.554088
+    "lon": 130.554088,
+    "station_passenger_log": 6.767343125265392,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0032",
@@ -529,7 +757,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.257145,
-    "lon": 130.430695
+    "lon": 130.430695,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0107",
@@ -537,7 +769,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電第一期線",
     "lat": 31.59898,
-    "lon": 130.559539
+    "lon": 130.559539,
+    "station_passenger_log": 6.962243464266207,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0117",
@@ -545,7 +781,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電谷山線",
     "lat": 31.559266,
-    "lon": 130.546707
+    "lon": 130.546707,
+    "station_passenger_log": 6.495265555937008,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0070",
@@ -553,7 +793,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR鹿児島本線",
     "lat": 31.673961,
-    "lon": 130.336753
+    "lon": 130.336753,
+    "station_passenger_log": 6.3473892096560105,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0012",
@@ -561,7 +805,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.421839,
-    "lon": 130.522894
+    "lon": 130.522894,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0083",
@@ -569,7 +817,11 @@
     "prefecture": "鹿児島県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 31.973962,
-    "lon": 130.207038
+    "lon": 130.207038,
+    "station_passenger_log": 3.5263605246161616,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0016",
@@ -577,7 +829,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.307292,
-    "lon": 130.577878
+    "lon": 130.577878,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0101",
@@ -585,7 +841,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電第一期線",
     "lat": 31.585738,
-    "lon": 130.553058
+    "lon": 130.553058,
+    "station_passenger_log": 6.364750756851911,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0036",
@@ -593,7 +853,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.256898,
-    "lon": 130.356352
+    "lon": 130.356352,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0031",
@@ -601,7 +865,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.259228,
-    "lon": 130.445227
+    "lon": 130.445227,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0068",
@@ -609,7 +877,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR鹿児島本線",
     "lat": 31.703731,
-    "lon": 130.284129
+    "lon": 130.284129,
+    "station_passenger_log": 7.576097340623111,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0093",
@@ -617,7 +889,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電唐湊線",
     "lat": 31.572932,
-    "lon": 130.540613
+    "lon": 130.540613,
+    "station_passenger_log": 6.813444599510896,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0053",
@@ -633,7 +909,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電谷山線",
     "lat": 31.539636,
-    "lon": 130.534047
+    "lon": 130.534047,
+    "station_passenger_log": 7.237059026124737,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0077",
@@ -641,7 +921,11 @@
     "prefecture": "鹿児島県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.122269,
-    "lon": 130.342139
+    "lon": 130.342139,
+    "station_passenger_log": 5.424950017481403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0096",
@@ -649,7 +933,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電唐湊線",
     "lat": 31.566872,
-    "lon": 130.542694
+    "lon": 130.542694,
+    "station_passenger_log": 7.152268856032539,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0121",
@@ -657,7 +945,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電谷山線",
     "lat": 31.54418,
-    "lon": 130.53763
+    "lon": 130.53763,
+    "station_passenger_log": 7.731492029245684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0087",
@@ -665,7 +957,11 @@
     "prefecture": "鹿児島県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 31.854556,
-    "lon": 130.233533
+    "lon": 130.233533,
+    "station_passenger_log": 3.828641396489095,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0113",
@@ -673,7 +969,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電谷山線",
     "lat": 31.573618,
-    "lon": 130.553015
+    "lon": 130.553015,
+    "station_passenger_log": 7.186901020411631,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0017",
@@ -681,7 +981,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.29068,
-    "lon": 130.599002
+    "lon": 130.599002,
+    "station_passenger_log": 6.675823221634848,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0035",
@@ -689,7 +993,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.257132,
-    "lon": 130.376128
+    "lon": 130.376128,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0084",
@@ -697,7 +1005,11 @@
     "prefecture": "鹿児島県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 31.949414,
-    "lon": 130.219072
+    "lon": 130.219072,
+    "station_passenger_log": 2.302585092994046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0024",
@@ -705,7 +1017,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.194791,
-    "lon": 130.565385
+    "lon": 130.565385,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0073",
@@ -713,7 +1029,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR鹿児島本線",
     "lat": 31.605318,
-    "lon": 130.439002
+    "lon": 130.439002,
+    "station_passenger_log": 7.039660349862076,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0037",
@@ -721,7 +1041,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.262313,
-    "lon": 130.330993
+    "lon": 130.330993,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0086",
@@ -729,7 +1053,11 @@
     "prefecture": "鹿児島県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 31.892545,
-    "lon": 130.220649
+    "lon": 130.220649,
+    "station_passenger_log": 2.0794415416798357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0062",
@@ -737,7 +1065,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR肥薩線",
     "lat": 31.796176,
-    "lon": 130.745324
+    "lon": 130.745324,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0078",
@@ -745,7 +1077,11 @@
     "prefecture": "鹿児島県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.075398,
-    "lon": 130.339285
+    "lon": 130.339285,
+    "station_passenger_log": 6.003887067106539,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0023",
@@ -753,7 +1089,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.190269,
-    "lon": 130.57621
+    "lon": 130.57621,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0085",
@@ -761,7 +1101,11 @@
     "prefecture": "鹿児島県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 31.916153,
-    "lon": 130.223658
+    "lon": 130.223658,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0029",
@@ -769,7 +1113,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.241025,
-    "lon": 130.491351
+    "lon": 130.491351,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0007",
@@ -785,7 +1133,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日豊本線",
     "lat": 31.728796,
-    "lon": 130.991374
+    "lon": 130.991374,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0004",
@@ -801,7 +1153,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電唐湊線",
     "lat": 31.580601,
-    "lon": 130.543038
+    "lon": 130.543038,
+    "station_passenger_log": 6.71174039505618,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0052",
@@ -809,7 +1165,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日豊本線",
     "lat": 31.702717,
-    "lon": 130.61408
+    "lon": 130.61408,
+    "station_passenger_log": 6.88653164253051,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0080",
@@ -817,7 +1177,11 @@
     "prefecture": "鹿児島県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.063238,
-    "lon": 130.267214
+    "lon": 130.267214,
+    "station_passenger_log": 5.6131281063880705,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0049",
@@ -825,7 +1189,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日豊本線",
     "lat": 31.73691,
-    "lon": 130.653299
+    "lon": 130.653299,
+    "station_passenger_log": 6.840546529288687,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0026",
@@ -833,7 +1201,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.203932,
-    "lon": 130.534737
+    "lon": 130.534737,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0082",
@@ -841,7 +1213,11 @@
     "prefecture": "鹿児島県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.022969,
-    "lon": 130.196276
+    "lon": 130.196276,
+    "station_passenger_log": 6.1463292576688975,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0065",
@@ -849,7 +1225,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR鹿児島本線",
     "lat": 31.79255,
-    "lon": 130.307092
+    "lon": 130.307092,
+    "station_passenger_log": 6.665683717782408,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0047",
@@ -857,7 +1237,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日豊本線",
     "lat": 31.743893,
-    "lon": 130.740316
+    "lon": 130.740316,
+    "station_passenger_log": 8.079927770758275,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0059",
@@ -865,7 +1249,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR肥薩線",
     "lat": 31.86815,
-    "lon": 130.734329
+    "lon": 130.734329,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0045",
@@ -873,7 +1261,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日豊本線",
     "lat": 31.818181,
-    "lon": 130.836939
+    "lon": 130.836939,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0028",
@@ -881,7 +1273,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.229085,
-    "lon": 130.500378
+    "lon": 130.500378,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0033",
@@ -889,7 +1285,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.257875,
-    "lon": 130.413394
+    "lon": 130.413394,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0114",
@@ -897,7 +1297,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電谷山線",
     "lat": 31.569102,
-    "lon": 130.5519
+    "lon": 130.5519,
+    "station_passenger_log": 7.479864131165027,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0079",
@@ -905,7 +1309,11 @@
     "prefecture": "鹿児島県",
     "line_name": "肥薩おれんじ鉄道線",
     "lat": 32.062536,
-    "lon": 130.301632
+    "lon": 130.301632,
+    "station_passenger_log": 5.087596335232384,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0111",
@@ -913,7 +1321,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電第二期線",
     "lat": 31.58593,
-    "lon": 130.545162
+    "lon": 130.545162,
+    "station_passenger_log": 6.561030665896573,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0102",
@@ -921,7 +1333,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電第一期線",
     "lat": 31.588726,
-    "lon": 130.550977
+    "lon": 130.550977,
+    "station_passenger_log": 8.008698182988528,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0115",
@@ -929,7 +1345,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電谷山線",
     "lat": 31.564129,
-    "lon": 130.549968
+    "lon": 130.549968,
+    "station_passenger_log": 6.77078942390898,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0002",
@@ -937,7 +1357,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR吉都線",
     "lat": 32.030394,
-    "lon": 130.748524
+    "lon": 130.748524,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0055",
@@ -945,7 +1369,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR日豊本線",
     "lat": 31.602098,
-    "lon": 130.564112
+    "lon": 130.564112,
+    "station_passenger_log": 8.119398589612294,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "kagoshima_0003",
@@ -953,7 +1381,11 @@
     "prefecture": "鹿児島県",
     "line_name": "JR指宿枕崎線",
     "lat": 31.583727,
-    "lon": 130.541789
+    "lon": 130.541789,
+    "station_passenger_log": 10.568106649481535,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "kagoshima_0089",
@@ -961,7 +1393,11 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電唐湊線",
     "lat": 31.58412,
-    "lon": 130.543703
+    "lon": 130.543703,
+    "station_passenger_log": 8.703838719690246,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "kagoshima_0109",
@@ -969,6 +1405,10 @@
     "prefecture": "鹿児島県",
     "line_name": "鹿児島市電第一期線",
     "lat": 31.601264,
-    "lon": 130.562414
+    "lon": 130.562414,
+    "station_passenger_log": 7.459338895220296,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

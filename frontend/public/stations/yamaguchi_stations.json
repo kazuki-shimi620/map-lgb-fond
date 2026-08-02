@@ -5,7 +5,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.397263,
-    "lon": 131.330142
+    "lon": 131.330142,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0042",
@@ -13,7 +17,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.341568,
-    "lon": 131.624217
+    "lon": 131.624217,
+    "station_passenger_log": 3.5553480614894135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0002",
@@ -21,7 +29,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 34.073407,
-    "lon": 131.378726
+    "lon": 131.378726,
+    "station_passenger_log": 4.574710978503383,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0036",
@@ -29,7 +41,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.18239,
-    "lon": 131.484742
+    "lon": 131.484742,
+    "station_passenger_log": 5.342334251964811,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0030",
@@ -37,7 +53,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.116333,
-    "lon": 131.40179
+    "lon": 131.40179,
+    "station_passenger_log": 7.074116816197362,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0099",
@@ -53,7 +73,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 33.950306,
-    "lon": 130.923038
+    "lon": 130.923038,
+    "station_passenger_log": 9.757362911053992,
+    "station_line_count": 1.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "yamaguchi_0008",
@@ -61,7 +85,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 33.970255,
-    "lon": 131.336718
+    "lon": 131.336718,
+    "station_passenger_log": 5.8377304471659395,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0065",
@@ -69,7 +97,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.374192,
-    "lon": 131.057361
+    "lon": 131.057361,
+    "station_passenger_log": 4.812184355372417,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0038",
@@ -77,7 +109,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.216291,
-    "lon": 131.536264
+    "lon": 131.536264,
+    "station_passenger_log": 3.9318256327243257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0031",
@@ -85,7 +121,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.128821,
-    "lon": 131.415455
+    "lon": 131.415455,
+    "station_passenger_log": 6.621405651764134,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0062",
@@ -93,7 +133,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.387841,
-    "lon": 131.198904
+    "lon": 131.198904,
+    "station_passenger_log": 4.574710978503383,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0066",
@@ -101,7 +145,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.370275,
-    "lon": 131.011351
+    "lon": 131.011351,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0098",
@@ -109,7 +157,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 33.973975,
-    "lon": 131.914784
+    "lon": 131.914784,
+    "station_passenger_log": 8.309676895987726,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0125",
@@ -117,7 +169,11 @@
     "prefecture": "山口県",
     "line_name": "JR岩徳線",
     "lat": 34.042008,
-    "lon": 131.953979
+    "lon": 131.953979,
+    "station_passenger_log": 5.680172609017068,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0145",
@@ -125,7 +181,11 @@
     "prefecture": "山口県",
     "line_name": "錦川鉄道錦川清流線",
     "lat": 34.176011,
-    "lon": 132.064519
+    "lon": 132.064519,
+    "station_passenger_log": 2.833213344056216,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0021",
@@ -133,7 +193,11 @@
     "prefecture": "山口県",
     "line_name": "JR小野田線",
     "lat": 33.986973,
-    "lon": 131.17887
+    "lon": 131.17887,
+    "station_passenger_log": 5.017279836814924,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0133",
@@ -141,7 +205,11 @@
     "prefecture": "山口県",
     "line_name": "JR美祢線",
     "lat": 34.161483,
-    "lon": 131.185299
+    "lon": 131.185299,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0022",
@@ -149,7 +217,11 @@
     "prefecture": "山口県",
     "line_name": "JR小野田線",
     "lat": 33.97743,
-    "lon": 131.174949
+    "lon": 131.174949,
+    "station_passenger_log": 5.117993812416755,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0087",
@@ -157,7 +229,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.135246,
-    "lon": 132.206013
+    "lon": 132.206013,
+    "station_passenger_log": 7.922623574217286,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0147",
@@ -165,7 +241,11 @@
     "prefecture": "山口県",
     "line_name": "錦川鉄道錦川清流線",
     "lat": 34.20961,
-    "lon": 132.020852
+    "lon": 132.020852,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0143",
@@ -173,7 +253,11 @@
     "prefecture": "山口県",
     "line_name": "錦川鉄道錦川清流線",
     "lat": 34.165957,
-    "lon": 132.103363
+    "lon": 132.103363,
+    "station_passenger_log": 3.610917912644224,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0131",
@@ -181,7 +265,11 @@
     "prefecture": "山口県",
     "line_name": "JR美祢線",
     "lat": 34.113929,
-    "lon": 131.154691
+    "lon": 131.154691,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0111",
@@ -189,7 +277,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.038709,
-    "lon": 131.267807
+    "lon": 131.267807,
+    "station_passenger_log": 5.017279836814924,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0112",
@@ -197,7 +289,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.053361,
-    "lon": 131.159965
+    "lon": 131.159965,
+    "station_passenger_log": 7.949091499830517,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0078",
@@ -205,7 +301,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.069987,
-    "lon": 130.90382
+    "lon": 130.90382,
+    "station_passenger_log": 6.660575149839686,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0043",
@@ -213,7 +313,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.353789,
-    "lon": 131.651203
+    "lon": 131.651203,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0029",
@@ -221,7 +325,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.101132,
-    "lon": 131.401723
+    "lon": 131.401723,
+    "station_passenger_log": 6.154858094016418,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0127",
@@ -229,7 +337,11 @@
     "prefecture": "山口県",
     "line_name": "JR岩徳線",
     "lat": 34.029211,
-    "lon": 131.919248
+    "lon": 131.919248,
+    "station_passenger_log": 4.948759890378168,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0004",
@@ -237,7 +349,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 34.034919,
-    "lon": 131.363667
+    "lon": 131.363667,
+    "station_passenger_log": 4.343805421853684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0129",
@@ -245,7 +361,11 @@
     "prefecture": "山口県",
     "line_name": "JR岩徳線",
     "lat": 34.035922,
-    "lon": 131.867328
+    "lon": 131.867328,
+    "station_passenger_log": 6.364750756851911,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0122",
@@ -253,7 +373,11 @@
     "prefecture": "山口県",
     "line_name": "JR岩徳線",
     "lat": 34.090701,
-    "lon": 132.045564
+    "lon": 132.045564,
+    "station_passenger_log": 6.511745329644728,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0085",
@@ -261,7 +385,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.204194,
-    "lon": 132.227709
+    "lon": 132.227709,
+    "station_passenger_log": 7.5310163320779155,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0109",
@@ -269,7 +397,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.066211,
-    "lon": 131.370068
+    "lon": 131.370068,
+    "station_passenger_log": 5.746203190540153,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0108",
@@ -277,7 +409,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.079896,
-    "lon": 131.44793
+    "lon": 131.44793,
+    "station_passenger_log": 6.336825731146441,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0132",
@@ -285,7 +421,11 @@
     "prefecture": "山口県",
     "line_name": "JR美祢線",
     "lat": 34.137596,
-    "lon": 131.161162
+    "lon": 131.161162,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0044",
@@ -293,7 +433,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.362738,
-    "lon": 131.674229
+    "lon": 131.674229,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0113",
@@ -301,7 +445,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.049173,
-    "lon": 131.086865
+    "lon": 131.086865,
+    "station_passenger_log": 6.300785794663244,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0032",
@@ -309,7 +457,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.147278,
-    "lon": 131.433091
+    "lon": 131.433091,
+    "station_passenger_log": 6.037870919922137,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0126",
@@ -317,7 +469,11 @@
     "prefecture": "山口県",
     "line_name": "JR岩徳線",
     "lat": 34.03098,
-    "lon": 131.934175
+    "lon": 131.934175,
+    "station_passenger_log": 5.4680601411351315,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0092",
@@ -325,7 +481,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 33.963377,
-    "lon": 132.180741
+    "lon": 132.180741,
+    "station_passenger_log": 7.175489713624222,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0107",
@@ -333,7 +493,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.053295,
-    "lon": 131.488358
+    "lon": 131.488358,
+    "station_passenger_log": 7.831617276352611,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0052",
@@ -341,7 +505,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.502938,
-    "lon": 131.47256
+    "lon": 131.47256,
+    "station_passenger_log": 4.962844630259907,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0026",
@@ -349,7 +517,11 @@
     "prefecture": "山口県",
     "line_name": "JR小野田線",
     "lat": 33.970359,
-    "lon": 131.20278
+    "lon": 131.20278,
+    "station_passenger_log": 3.7612001156935624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0050",
@@ -357,7 +529,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.57181,
-    "lon": 131.54871
+    "lon": 131.54871,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0072",
@@ -365,7 +541,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.227303,
-    "lon": 130.927589
+    "lon": 130.927589,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0018",
@@ -373,7 +553,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 34.003017,
-    "lon": 131.221691
+    "lon": 131.221691,
+    "station_passenger_log": 8.052296499538647,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0012",
@@ -381,7 +565,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 33.934672,
-    "lon": 131.262102
+    "lon": 131.262102,
+    "station_passenger_log": 5.82600010738045,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0015",
@@ -389,7 +577,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 33.958369,
-    "lon": 131.242441
+    "lon": 131.242441,
+    "station_passenger_log": 7.229113877793302,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0142",
@@ -397,7 +589,11 @@
     "prefecture": "山口県",
     "line_name": "錦川鉄道錦川清流線",
     "lat": 34.170107,
-    "lon": 132.135704
+    "lon": 132.135704,
+    "station_passenger_log": 1.791759469228055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0080",
@@ -405,7 +601,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.024921,
-    "lon": 130.916635
+    "lon": 130.916635,
+    "station_passenger_log": 7.254884810077338,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0037",
@@ -413,7 +613,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.191429,
-    "lon": 131.498735
+    "lon": 131.498735,
+    "station_passenger_log": 6.421622267806518,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0105",
@@ -421,7 +625,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.048507,
-    "lon": 131.639029
+    "lon": 131.639029,
+    "station_passenger_log": 5.802118375377063,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0074",
@@ -429,7 +637,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.170186,
-    "lon": 130.928326
+    "lon": 130.928326,
+    "station_passenger_log": 6.07073772800249,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0114",
@@ -437,7 +649,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.067907,
-    "lon": 131.033038
+    "lon": 131.033038,
+    "station_passenger_log": 8.132412674500905,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0019",
@@ -445,7 +661,11 @@
     "prefecture": "山口県",
     "line_name": "JR小野田線",
     "lat": 34.007877,
-    "lon": 131.185605
+    "lon": 131.185605,
+    "station_passenger_log": 7.795234929002173,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0023",
@@ -453,7 +673,11 @@
     "prefecture": "山口県",
     "line_name": "JR小野田線",
     "lat": 33.972,
-    "lon": 131.175146
+    "lon": 131.175146,
+    "station_passenger_log": 4.77912349311153,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0016",
@@ -461,7 +685,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 33.96706,
-    "lon": 131.228161
+    "lon": 131.228161,
+    "station_passenger_log": 5.942799375126701,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0035",
@@ -477,7 +705,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 33.989654,
-    "lon": 131.347864
+    "lon": 131.347864,
+    "station_passenger_log": 5.808142489980444,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0005",
@@ -485,7 +717,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 34.02337,
-    "lon": 131.360009
+    "lon": 131.360009,
+    "station_passenger_log": 3.970291913552122,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0086",
@@ -493,7 +729,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.171828,
-    "lon": 132.225631
+    "lon": 132.225631,
+    "station_passenger_log": 9.21761385594268,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "yamaguchi_0096",
@@ -501,7 +741,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 33.981624,
-    "lon": 131.995285
+    "lon": 131.995285,
+    "station_passenger_log": 6.434546518787453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0017",
@@ -509,7 +753,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 33.978608,
-    "lon": 131.225406
+    "lon": 131.225406,
+    "station_passenger_log": 6.133398042996649,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0097",
@@ -517,7 +765,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 33.990502,
-    "lon": 131.960865
+    "lon": 131.960865,
+    "station_passenger_log": 6.755768921984255,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0075",
@@ -525,7 +777,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.145914,
-    "lon": 130.921817
+    "lon": 130.921817,
+    "station_passenger_log": 6.54965074223381,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0118",
@@ -533,7 +789,11 @@
     "prefecture": "山口県",
     "line_name": "JR岩徳線",
     "lat": 34.156612,
-    "lon": 132.177321
+    "lon": 132.177321,
+    "station_passenger_log": 6.776506992372183,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0010",
@@ -549,7 +809,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 33.981592,
-    "lon": 130.92734
+    "lon": 130.92734,
+    "station_passenger_log": 8.412499120301572,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0009",
@@ -557,7 +821,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 33.952851,
-    "lon": 131.305457
+    "lon": 131.305457,
+    "station_passenger_log": 6.343880434126331,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0046",
@@ -565,7 +833,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.399618,
-    "lon": 131.720042
+    "lon": 131.720042,
+    "station_passenger_log": 4.672828834461906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0101",
@@ -573,7 +845,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.051555,
-    "lon": 131.8029
+    "lon": 131.8029,
+    "station_passenger_log": 9.534523115464658,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "yamaguchi_0104",
@@ -582,10 +858,10 @@
     "line_name": "JR山陽本線",
     "lat": 34.072523,
     "lon": 131.704657,
-    "station_passenger_log": 10.615775376623455,
+    "station_passenger_log": 6.456769655572163,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "C"
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0116",
@@ -593,7 +869,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.005651,
-    "lon": 130.948021
+    "lon": 130.948021,
+    "station_passenger_log": 9.132054453577638,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "yamaguchi_0102",
@@ -601,7 +881,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.069561,
-    "lon": 131.769639
+    "lon": 131.769639,
+    "station_passenger_log": 7.768533300926033,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0001",
@@ -609,7 +893,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 34.093255,
-    "lon": 131.39657
+    "lon": 131.39657,
+    "station_passenger_log": 9.61560546008168,
+    "station_line_count": 4.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "yamaguchi_0140",
@@ -617,7 +905,11 @@
     "prefecture": "山口県",
     "line_name": "山陽新幹線",
     "lat": 34.164918,
-    "lon": 132.149762
+    "lon": 132.149762,
+    "station_passenger_log": 7.541683099882111,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0136",
@@ -625,7 +917,11 @@
     "prefecture": "山口県",
     "line_name": "JR美祢線",
     "lat": 34.236421,
-    "lon": 131.20794
+    "lon": 131.20794,
+    "station_passenger_log": 3.6635616461296463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0051",
@@ -633,7 +929,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.532658,
-    "lon": 131.50339
+    "lon": 131.50339,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0110",
@@ -641,7 +941,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.031997,
-    "lon": 131.343621
+    "lon": 131.343621,
+    "station_passenger_log": 6.07073772800249,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0013",
@@ -657,7 +961,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.417207,
-    "lon": 131.410334
+    "lon": 131.410334,
+    "station_passenger_log": 5.771441123130016,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0139",
@@ -665,7 +973,11 @@
     "prefecture": "山口県",
     "line_name": "JR美祢線",
     "lat": 34.353341,
-    "lon": 131.176666
+    "lon": 131.176666,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0119",
@@ -673,7 +985,11 @@
     "prefecture": "山口県",
     "line_name": "JR岩徳線",
     "lat": 34.143874,
-    "lon": 132.154599
+    "lon": 132.154599,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0094",
@@ -681,7 +997,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 33.965728,
-    "lon": 132.105988
+    "lon": 132.105988,
+    "station_passenger_log": 8.08301991917133,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0093",
@@ -689,7 +1009,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 33.958357,
-    "lon": 132.134333
+    "lon": 132.134333,
+    "station_passenger_log": 6.042632833682381,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0151",
@@ -697,7 +1021,11 @@
     "prefecture": "山口県",
     "line_name": "錦川鉄道錦川清流線",
     "lat": 34.25714,
-    "lon": 131.97669
+    "lon": 131.97669,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0149",
@@ -705,7 +1033,11 @@
     "prefecture": "山口県",
     "line_name": "錦川鉄道錦川清流線",
     "lat": 34.210487,
-    "lon": 131.998656
+    "lon": 131.998656,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0077",
@@ -713,7 +1045,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.101469,
-    "lon": 130.900253
+    "lon": 130.900253,
+    "station_passenger_log": 4.919980925828125,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0081",
@@ -721,7 +1057,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.012716,
-    "lon": 130.923766
+    "lon": 130.923766,
+    "station_passenger_log": 6.428105272684596,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0146",
@@ -729,7 +1069,11 @@
     "prefecture": "山口県",
     "line_name": "錦川鉄道錦川清流線",
     "lat": 34.193637,
-    "lon": 132.033385
+    "lon": 132.033385,
+    "station_passenger_log": 2.772588722239781,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0100",
@@ -745,7 +1089,11 @@
     "prefecture": "山口県",
     "line_name": "JR岩徳線",
     "lat": 34.1044,
-    "lon": 132.101813
+    "lon": 132.101813,
+    "station_passenger_log": 4.343805421853684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0048",
@@ -753,7 +1101,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.638167,
-    "lon": 131.661977
+    "lon": 131.661977,
+    "station_passenger_log": 4.2626798770413155,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0150",
@@ -761,7 +1113,11 @@
     "prefecture": "山口県",
     "line_name": "錦川鉄道錦川清流線",
     "lat": 34.236368,
-    "lon": 131.983923
+    "lon": 131.983923,
+    "station_passenger_log": 1.791759469228055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0027",
@@ -769,7 +1125,11 @@
     "prefecture": "山口県",
     "line_name": "JR小野田線",
     "lat": 33.950529,
-    "lon": 131.179518
+    "lon": 131.179518,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0003",
@@ -777,7 +1137,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 34.04699,
-    "lon": 131.371313
+    "lon": 131.371313,
+    "station_passenger_log": 4.875197323201151,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0148",
@@ -785,7 +1149,11 @@
     "prefecture": "山口県",
     "line_name": "錦川鉄道錦川清流線",
     "lat": 34.211028,
-    "lon": 132.006289
+    "lon": 132.006289,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0141",
@@ -793,7 +1161,11 @@
     "prefecture": "山口県",
     "line_name": "錦川鉄道錦川清流線",
     "lat": 34.162639,
-    "lon": 132.14764
+    "lon": 132.14764,
+    "station_passenger_log": 4.2626798770413155,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0137",
@@ -801,7 +1173,11 @@
     "prefecture": "山口県",
     "line_name": "JR美祢線",
     "lat": 34.311679,
-    "lon": 131.196663
+    "lon": 131.196663,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0041",
@@ -809,7 +1185,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.322922,
-    "lon": 131.604033
+    "lon": 131.604033,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0130",
@@ -817,7 +1197,11 @@
     "prefecture": "山口県",
     "line_name": "JR美祢線",
     "lat": 34.085649,
-    "lon": 131.172601
+    "lon": 131.172601,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0073",
@@ -825,7 +1209,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.209249,
-    "lon": 130.932681
+    "lon": 130.932681,
+    "station_passenger_log": 3.80666248977032,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0034",
@@ -833,7 +1221,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.159797,
-    "lon": 131.460093
+    "lon": 131.460093,
+    "station_passenger_log": 7.683863980256429,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0070",
@@ -841,7 +1233,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.283782,
-    "lon": 130.946497
+    "lon": 130.946497,
+    "station_passenger_log": 5.459585514144159,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0069",
@@ -849,7 +1245,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.305979,
-    "lon": 130.91887
+    "lon": 130.91887,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0057",
@@ -857,7 +1257,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.405388,
-    "lon": 131.379997
+    "lon": 131.379997,
+    "station_passenger_log": 5.700443573390687,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0121",
@@ -865,7 +1269,11 @@
     "prefecture": "山口県",
     "line_name": "JR岩徳線",
     "lat": 34.097195,
-    "lon": 132.081951
+    "lon": 132.081951,
+    "station_passenger_log": 6.375024819828097,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0014",
@@ -873,7 +1281,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 33.952698,
-    "lon": 131.252244
+    "lon": 131.252244,
+    "station_passenger_log": 7.0825485693553,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0128",
@@ -881,7 +1293,11 @@
     "prefecture": "山口県",
     "line_name": "JR岩徳線",
     "lat": 34.035445,
-    "lon": 131.887359
+    "lon": 131.887359,
+    "station_passenger_log": 5.2832037287379885,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0095",
@@ -889,7 +1305,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 33.958805,
-    "lon": 132.044084
+    "lon": 132.044084,
+    "station_passenger_log": 7.629975707027789,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0090",
@@ -897,7 +1317,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.043279,
-    "lon": 132.213621
+    "lon": 132.213621,
+    "station_passenger_log": 7.175489713624222,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0020",
@@ -905,7 +1329,11 @@
     "prefecture": "山口県",
     "line_name": "JR小野田線",
     "lat": 33.996595,
-    "lon": 131.183334
+    "lon": 131.183334,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0033",
@@ -913,7 +1341,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.150681,
-    "lon": 131.446229
+    "lon": 131.446229,
+    "station_passenger_log": 6.953684210870537,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0091",
@@ -921,7 +1353,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 33.998871,
-    "lon": 132.209398
+    "lon": 132.209398,
+    "station_passenger_log": 4.442651256490317,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0103",
@@ -929,7 +1365,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.072096,
-    "lon": 131.73846
+    "lon": 131.73846,
+    "station_passenger_log": 7.104144092987527,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0079",
@@ -937,7 +1377,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.04714,
-    "lon": 130.915673
+    "lon": 130.915673,
+    "station_passenger_log": 4.31748811353631,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0039",
@@ -945,7 +1389,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.279135,
-    "lon": 131.562166
+    "lon": 131.562166,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0123",
@@ -953,7 +1401,11 @@
     "prefecture": "山口県",
     "line_name": "JR岩徳線",
     "lat": 34.074521,
-    "lon": 132.014745
+    "lon": 132.014745,
+    "station_passenger_log": 3.4339872044851463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0082",
@@ -961,7 +1413,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.003932,
-    "lon": 130.926662
+    "lon": 130.926662,
+    "station_passenger_log": 7.141245122350491,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0134",
@@ -969,7 +1425,11 @@
     "prefecture": "山口県",
     "line_name": "JR美祢線",
     "lat": 34.169077,
-    "lon": 131.203981
+    "lon": 131.203981,
+    "station_passenger_log": 6.0844994130751715,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0047",
@@ -977,7 +1437,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.421369,
-    "lon": 131.734107
+    "lon": 131.734107,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0011",
@@ -985,7 +1449,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 33.936602,
-    "lon": 131.274304
+    "lon": 131.274304,
+    "station_passenger_log": 4.962844630259907,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0056",
@@ -993,7 +1461,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.393845,
-    "lon": 131.40121
+    "lon": 131.40121,
+    "station_passenger_log": 3.5553480614894135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0088",
@@ -1001,7 +1473,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.112668,
-    "lon": 132.198515
+    "lon": 132.198515,
+    "station_passenger_log": 6.778784897685177,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0144",
@@ -1009,7 +1485,11 @@
     "prefecture": "山口県",
     "line_name": "錦川鉄道錦川清流線",
     "lat": 34.163368,
-    "lon": 132.087084
+    "lon": 132.087084,
+    "station_passenger_log": 3.6375861597263857,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0117",
@@ -1017,7 +1497,11 @@
     "prefecture": "山口県",
     "line_name": "JR岩徳線",
     "lat": 34.16302,
-    "lon": 132.195786
+    "lon": 132.195786,
+    "station_passenger_log": 6.508769136971682,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0054",
@@ -1025,7 +1509,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.439216,
-    "lon": 131.422599
+    "lon": 131.422599,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0089",
@@ -1033,7 +1521,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.068207,
-    "lon": 132.204949
+    "lon": 132.204949,
+    "station_passenger_log": 6.695798917058491,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0135",
@@ -1041,7 +1533,11 @@
     "prefecture": "山口県",
     "line_name": "JR美祢線",
     "lat": 34.194339,
-    "lon": 131.2087
+    "lon": 131.2087,
+    "station_passenger_log": 2.833213344056216,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0152",
@@ -1049,7 +1545,11 @@
     "prefecture": "山口県",
     "line_name": "錦川鉄道錦川清流線",
     "lat": 34.26475,
-    "lon": 131.962944
+    "lon": 131.962944,
+    "station_passenger_log": 4.48863636973214,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0045",
@@ -1057,7 +1557,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.378276,
-    "lon": 131.694161
+    "lon": 131.694161,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0115",
@@ -1065,7 +1569,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.019264,
-    "lon": 130.999508
+    "lon": 130.999508,
+    "station_passenger_log": 8.041412909393047,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0060",
@@ -1073,7 +1581,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.366163,
-    "lon": 131.236483
+    "lon": 131.236483,
+    "station_passenger_log": 4.727387818712341,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0071",
@@ -1081,7 +1593,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.251581,
-    "lon": 130.914747
+    "lon": 130.914747,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0064",
@@ -1089,7 +1605,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.388461,
-    "lon": 131.101581
+    "lon": 131.101581,
+    "station_passenger_log": 5.1298987149230735,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0053",
@@ -1097,7 +1617,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.471068,
-    "lon": 131.449788
+    "lon": 131.449788,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0040",
@@ -1105,7 +1629,11 @@
     "prefecture": "山口県",
     "line_name": "JR山口線",
     "lat": 34.304532,
-    "lon": 131.578725
+    "lon": 131.578725,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0061",
@@ -1113,7 +1641,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.375417,
-    "lon": 131.185722
+    "lon": 131.185722,
+    "station_passenger_log": 6.3784261836515865,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0028",
@@ -1121,7 +1653,11 @@
     "prefecture": "山口県",
     "line_name": "JR小野田線",
     "lat": 33.942755,
-    "lon": 131.173213
+    "lon": 131.173213,
+    "station_passenger_log": 3.610917912644224,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0138",
@@ -1129,7 +1665,11 @@
     "prefecture": "山口県",
     "line_name": "JR美祢線",
     "lat": 34.334435,
-    "lon": 131.172422
+    "lon": 131.172422,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0067",
@@ -1137,7 +1677,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.357431,
-    "lon": 130.970175
+    "lon": 130.970175,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0025",
@@ -1145,7 +1689,11 @@
     "prefecture": "山口県",
     "line_name": "JR小野田線",
     "lat": 33.966562,
-    "lon": 131.196786
+    "lon": 131.196786,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0106",
@@ -1153,7 +1701,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陽本線",
     "lat": 34.05354,
-    "lon": 131.568848
+    "lon": 131.568848,
+    "station_passenger_log": 8.925454386826402,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "yamaguchi_0068",
@@ -1161,7 +1713,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.335721,
-    "lon": 130.925942
+    "lon": 130.925942,
+    "station_passenger_log": 3.49650756146648,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0006",
@@ -1169,7 +1725,11 @@
     "prefecture": "山口県",
     "line_name": "JR宇部線",
     "lat": 34.010535,
-    "lon": 131.356665
+    "lon": 131.356665,
+    "station_passenger_log": 6.48768401848461,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0024",
@@ -1177,7 +1737,11 @@
     "prefecture": "山口県",
     "line_name": "JR小野田線",
     "lat": 33.960743,
-    "lon": 131.186951
+    "lon": 131.186951,
+    "station_passenger_log": 5.60947179518496,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0049",
@@ -1185,7 +1749,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.621814,
-    "lon": 131.6056
+    "lon": 131.6056,
+    "station_passenger_log": 4.418840607796598,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0059",
@@ -1193,7 +1761,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.379088,
-    "lon": 131.294847
+    "lon": 131.294847,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0124",
@@ -1201,7 +1773,11 @@
     "prefecture": "山口県",
     "line_name": "JR岩徳線",
     "lat": 34.055395,
-    "lon": 131.973069
+    "lon": 131.973069,
+    "station_passenger_log": 5.58724865840025,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0063",
@@ -1209,7 +1785,11 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.385232,
-    "lon": 131.139695
+    "lon": 131.139695,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamaguchi_0076",
@@ -1217,6 +1797,10 @@
     "prefecture": "山口県",
     "line_name": "JR山陰本線",
     "lat": 34.128066,
-    "lon": 130.912035
+    "lon": 130.912035,
+    "station_passenger_log": 5.916202062607435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

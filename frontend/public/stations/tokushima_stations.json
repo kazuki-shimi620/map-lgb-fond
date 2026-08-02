@@ -5,7 +5,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.0357,
-    "lon": 133.949211
+    "lon": 133.949211,
+    "station_passenger_log": 4.875197323201151,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0005",
@@ -13,7 +17,11 @@
     "prefecture": "徳島県",
     "line_name": "JR土讃線",
     "lat": 34.006854,
-    "lon": 133.7874
+    "lon": 133.7874,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0027",
@@ -21,7 +29,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.067669,
-    "lon": 134.421011
+    "lon": 134.421011,
+    "station_passenger_log": 5.638354669333745,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0038",
@@ -37,7 +49,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 34.054952,
-    "lon": 134.546847
+    "lon": 134.546847,
+    "station_passenger_log": 7.118826249062078,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0003",
@@ -45,7 +61,11 @@
     "prefecture": "徳島県",
     "line_name": "JR土讃線",
     "lat": 34.032439,
-    "lon": 133.857677
+    "lon": 133.857677,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0032",
@@ -53,7 +73,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.080644,
-    "lon": 134.538539
+    "lon": 134.538539,
+    "station_passenger_log": 7.473637108496206,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0067",
@@ -61,7 +85,11 @@
     "prefecture": "徳島県",
     "line_name": "JR高徳線",
     "lat": 34.128063,
-    "lon": 134.528225
+    "lon": 134.528225,
+    "station_passenger_log": 7.788626065625032,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0054",
@@ -69,7 +97,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.743286,
-    "lon": 134.53528
+    "lon": 134.53528,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0039",
@@ -77,7 +109,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 34.005634,
-    "lon": 134.586994
+    "lon": 134.586994,
+    "station_passenger_log": 7.342779189331845,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0068",
@@ -85,7 +121,11 @@
     "prefecture": "徳島県",
     "line_name": "JR高徳線",
     "lat": 34.118603,
-    "lon": 134.530795
+    "lon": 134.530795,
+    "station_passenger_log": 6.297109319933935,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0037",
@@ -93,7 +133,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 34.026444,
-    "lon": 134.54727
+    "lon": 134.54727,
+    "station_passenger_log": 6.371611847231857,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0001",
@@ -101,7 +145,11 @@
     "prefecture": "徳島県",
     "line_name": "JR土讃線",
     "lat": 34.053932,
-    "lon": 133.823816
+    "lon": 133.823816,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0009",
@@ -109,7 +157,11 @@
     "prefecture": "徳島県",
     "line_name": "JR土讃線",
     "lat": 33.8765,
-    "lon": 133.767348
+    "lon": 133.767348,
+    "station_passenger_log": 5.0689042022202315,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0021",
@@ -117,7 +169,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.057766,
-    "lon": 134.286411
+    "lon": 134.286411,
+    "station_passenger_log": 5.726847747587197,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0076",
@@ -125,7 +181,11 @@
     "prefecture": "徳島県",
     "line_name": "阿佐海岸鉄道",
     "lat": 33.566949,
-    "lon": 134.300741
+    "lon": 134.300741,
+    "station_passenger_log": 2.995732273553991,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0016",
@@ -133,7 +193,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.050309,
-    "lon": 134.10704
+    "lon": 134.10704,
+    "station_passenger_log": 4.290459441148391,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0008",
@@ -141,7 +205,11 @@
     "prefecture": "徳島県",
     "line_name": "JR土讃線",
     "lat": 33.923352,
-    "lon": 133.758767
+    "lon": 133.758767,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0056",
@@ -149,7 +217,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.715139,
-    "lon": 134.485273
+    "lon": 134.485273,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0020",
@@ -157,7 +229,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.060206,
-    "lon": 134.256553
+    "lon": 134.256553,
+    "station_passenger_log": 5.153291594497779,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0018",
@@ -165,7 +241,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.061311,
-    "lon": 134.204521
+    "lon": 134.204521,
+    "station_passenger_log": 4.795790545596741,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0029",
@@ -181,7 +261,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 34.074572,
-    "lon": 134.551391
+    "lon": 134.551391,
+    "station_passenger_log": 9.473089177882752,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "tokushima_0073",
@@ -189,7 +273,11 @@
     "prefecture": "徳島県",
     "line_name": "JR鳴門線",
     "lat": 34.173161,
-    "lon": 134.600851
+    "lon": 134.600851,
+    "station_passenger_log": 6.236369590203704,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0071",
@@ -197,7 +285,11 @@
     "prefecture": "徳島県",
     "line_name": "JR鳴門線",
     "lat": 34.167579,
-    "lon": 134.577148
+    "lon": 134.577148,
+    "station_passenger_log": 4.394449154672439,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0036",
@@ -205,7 +297,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 34.044298,
-    "lon": 134.543312
+    "lon": 134.543312,
+    "station_passenger_log": 5.517452896464707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0049",
@@ -213,7 +309,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.846813,
-    "lon": 134.600283
+    "lon": 134.600283,
+    "station_passenger_log": 4.976733742420574,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0055",
@@ -221,7 +321,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.728954,
-    "lon": 134.530602
+    "lon": 134.530602,
+    "station_passenger_log": 5.2832037287379885,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0053",
@@ -229,7 +333,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.766616,
-    "lon": 134.569473
+    "lon": 134.569473,
+    "station_passenger_log": 3.367295829986474,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0065",
@@ -237,7 +345,11 @@
     "prefecture": "徳島県",
     "line_name": "JR高徳線",
     "lat": 34.155369,
-    "lon": 134.506805
+    "lon": 134.506805,
+    "station_passenger_log": 5.707110264748875,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0063",
@@ -245,7 +357,11 @@
     "prefecture": "徳島県",
     "line_name": "JR高徳線",
     "lat": 34.141971,
-    "lon": 134.465512
+    "lon": 134.465512,
+    "station_passenger_log": 6.655440350367647,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0048",
@@ -253,7 +369,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.87466,
-    "lon": 134.613287
+    "lon": 134.613287,
+    "station_passenger_log": 5.117993812416755,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0013",
@@ -261,7 +381,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.037131,
-    "lon": 133.973801
+    "lon": 133.973801,
+    "station_passenger_log": 5.1647859739235145,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0066",
@@ -269,7 +393,11 @@
     "prefecture": "徳島県",
     "line_name": "JR高徳線",
     "lat": 34.152783,
-    "lon": 134.529097
+    "lon": 134.529097,
+    "station_passenger_log": 4.90527477843843,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0060",
@@ -277,7 +405,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.626665,
-    "lon": 134.358677
+    "lon": 134.358677,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0075",
@@ -285,7 +417,11 @@
     "prefecture": "徳島県",
     "line_name": "阿佐海岸鉄道",
     "lat": 33.593453,
-    "lon": 134.351999
+    "lon": 134.351999,
+    "station_passenger_log": 1.3862943611198906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0026",
@@ -293,7 +429,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.076751,
-    "lon": 134.397131
+    "lon": 134.397131,
+    "station_passenger_log": 5.993961427306569,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0058",
@@ -301,7 +441,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.672192,
-    "lon": 134.418193
+    "lon": 134.418193,
+    "station_passenger_log": 5.081404364984463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0052",
@@ -309,7 +453,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.772863,
-    "lon": 134.584127
+    "lon": 134.584127,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0051",
@@ -317,7 +465,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.776032,
-    "lon": 134.591857
+    "lon": 134.591857,
+    "station_passenger_log": 4.418840607796598,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0028",
@@ -325,7 +477,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.070321,
-    "lon": 134.444334
+    "lon": 134.444334,
+    "station_passenger_log": 7.382124365737512,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0006",
@@ -333,7 +489,11 @@
     "prefecture": "徳島県",
     "line_name": "JR土讃線",
     "lat": 33.972692,
-    "lon": 133.780423
+    "lon": 133.780423,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0017",
@@ -341,7 +501,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.056161,
-    "lon": 134.163053
+    "lon": 134.163053,
+    "station_passenger_log": 6.981934677156389,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0041",
@@ -349,7 +513,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.970336,
-    "lon": 134.608785
+    "lon": 134.608785,
+    "station_passenger_log": 5.332718793265369,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0070",
@@ -357,7 +525,11 @@
     "prefecture": "徳島県",
     "line_name": "JR鳴門線",
     "lat": 34.162024,
-    "lon": 134.557539
+    "lon": 134.557539,
+    "station_passenger_log": 4.110873864173311,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0002",
@@ -365,7 +537,11 @@
     "prefecture": "徳島県",
     "line_name": "JR土讃線",
     "lat": 34.040318,
-    "lon": 133.848495
+    "lon": 133.848495,
+    "station_passenger_log": 4.143134726391533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0042",
@@ -373,7 +549,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.957293,
-    "lon": 134.626183
+    "lon": 134.626183,
+    "station_passenger_log": 7.336285660021297,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0031",
@@ -381,7 +561,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.07934,
-    "lon": 134.518044
+    "lon": 134.518044,
+    "station_passenger_log": 6.744059186311348,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0043",
@@ -389,7 +573,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.9483,
-    "lon": 134.644906
+    "lon": 134.644906,
+    "station_passenger_log": 4.990432586778736,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0023",
@@ -397,7 +585,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.072442,
-    "lon": 134.336225
+    "lon": 134.336225,
+    "station_passenger_log": 5.459585514144159,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0046",
@@ -405,7 +597,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.902984,
-    "lon": 134.667015
+    "lon": 134.667015,
+    "station_passenger_log": 6.175867270105761,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0015",
@@ -413,7 +609,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.039337,
-    "lon": 134.059177
+    "lon": 134.059177,
+    "station_passenger_log": 6.583409222158765,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0057",
@@ -421,7 +621,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.694711,
-    "lon": 134.434874
+    "lon": 134.434874,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0010",
@@ -429,7 +633,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.02912,
-    "lon": 133.873856
+    "lon": 133.873856,
+    "station_passenger_log": 5.4680601411351315,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0072",
@@ -437,7 +645,11 @@
     "prefecture": "徳島県",
     "line_name": "JR鳴門線",
     "lat": 34.169651,
-    "lon": 134.585014
+    "lon": 134.585014,
+    "station_passenger_log": 3.9318256327243257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0045",
@@ -445,7 +657,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.919129,
-    "lon": 134.66229
+    "lon": 134.66229,
+    "station_passenger_log": 7.75491027202143,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0044",
@@ -453,7 +669,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.941223,
-    "lon": 134.664834
+    "lon": 134.664834,
+    "station_passenger_log": 5.752572638825633,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0011",
@@ -461,7 +681,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.036708,
-    "lon": 133.927033
+    "lon": 133.927033,
+    "station_passenger_log": 5.82600010738045,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0014",
@@ -469,7 +693,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.041059,
-    "lon": 134.03617
+    "lon": 134.03617,
+    "station_passenger_log": 4.465908118654584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0062",
@@ -477,7 +705,11 @@
     "prefecture": "徳島県",
     "line_name": "JR高徳線",
     "lat": 34.178751,
-    "lon": 134.448641
+    "lon": 134.448641,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0069",
@@ -485,7 +717,11 @@
     "prefecture": "徳島県",
     "line_name": "JR鳴門線",
     "lat": 34.158024,
-    "lon": 134.540221
+    "lon": 134.540221,
+    "station_passenger_log": 4.48863636973214,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0034",
@@ -493,7 +729,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 34.064051,
-    "lon": 134.555658
+    "lon": 134.555658,
+    "station_passenger_log": 6.803505257608338,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0019",
@@ -501,7 +741,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.055162,
-    "lon": 134.234271
+    "lon": 134.234271,
+    "station_passenger_log": 6.371611847231857,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0007",
@@ -509,7 +753,11 @@
     "prefecture": "徳島県",
     "line_name": "JR土讃線",
     "lat": 33.963649,
-    "lon": 133.754634
+    "lon": 133.754634,
+    "station_passenger_log": 3.49650756146648,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0022",
@@ -517,7 +765,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.061854,
-    "lon": 134.320782
+    "lon": 134.320782,
+    "station_passenger_log": 6.602587892189336,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0064",
@@ -525,7 +777,11 @@
     "prefecture": "徳島県",
     "line_name": "JR高徳線",
     "lat": 34.148827,
-    "lon": 134.483769
+    "lon": 134.483769,
+    "station_passenger_log": 4.812184355372417,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0047",
@@ -533,7 +789,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.888472,
-    "lon": 134.651281
+    "lon": 134.651281,
+    "station_passenger_log": 4.727387818712341,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0004",
@@ -541,7 +801,11 @@
     "prefecture": "徳島県",
     "line_name": "JR土讃線",
     "lat": 34.026891,
-    "lon": 133.804669
+    "lon": 133.804669,
+    "station_passenger_log": 6.872128101338986,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0061",
@@ -549,7 +813,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.606379,
-    "lon": 134.350805
+    "lon": 134.350805,
+    "station_passenger_log": 4.948759890378168,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0050",
@@ -557,7 +825,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.824074,
-    "lon": 134.605272
+    "lon": 134.605272,
+    "station_passenger_log": 3.8918202981106265,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0040",
@@ -565,7 +837,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.981729,
-    "lon": 134.60583
+    "lon": 134.60583,
+    "station_passenger_log": 6.20455776256869,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0030",
@@ -573,7 +849,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.07734,
-    "lon": 134.50602
+    "lon": 134.50602,
+    "station_passenger_log": 6.037870919922137,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0059",
@@ -581,7 +861,11 @@
     "prefecture": "徳島県",
     "line_name": "JR牟岐線",
     "lat": 33.646398,
-    "lon": 134.385308
+    "lon": 134.385308,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0074",
@@ -589,7 +873,11 @@
     "prefecture": "徳島県",
     "line_name": "JR鳴門線",
     "lat": 34.179131,
-    "lon": 134.608355
+    "lon": 134.608355,
+    "station_passenger_log": 7.138073034044347,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0024",
@@ -597,7 +885,11 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.073757,
-    "lon": 134.356037
+    "lon": 134.356037,
+    "station_passenger_log": 7.359467638255621,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "tokushima_0025",
@@ -605,6 +897,10 @@
     "prefecture": "徳島県",
     "line_name": "JR徳島線",
     "lat": 34.07514,
-    "lon": 134.376394
+    "lon": 134.376394,
+    "station_passenger_log": 5.220355825078324,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

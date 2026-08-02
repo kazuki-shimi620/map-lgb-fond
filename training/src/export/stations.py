@@ -15,6 +15,12 @@ from ..features.station_passengers import load_station_passengers_csv, normalize
 
 REGION_TO_PREFECTURE = {slug: prefecture for prefecture, slug in PREFECTURE_TO_SLUG.items()}
 MODEL_BY_PREFECTURE = build_model_by_prefecture()
+STATION_PASSENGER_FIELDS = (
+    "station_passenger_log",
+    "station_line_count",
+    "station_operator_count",
+    "station_rank",
+)
 
 HEARTRAILS_API = "https://express.heartrails.com/api/json"
 MAX_API_RETRIES = 3
@@ -134,13 +140,46 @@ def select_station_passenger(
                 record,
             )
         )
-    selected = min(ranked, key=lambda item: (item[0], item[1]))[2] if ranked else records[0]
+    if ranked:
+        distance_km, _, selected = min(ranked, key=lambda item: (item[0], item[1]))
+        if distance_km > 5.0:
+            return {}
+    else:
+        selected = records[0]
     return {
         "station_passenger_log": selected["station_passenger_log"],
         "station_line_count": selected["station_line_count"],
         "station_operator_count": selected["station_operator_count"],
         "station_rank": selected["station_rank"],
     }
+
+
+def refresh_station_passenger_fields(
+    stations_dir: Path, station_passengers_csv: Path
+) -> dict[str, int]:
+    candidates = build_station_passenger_candidates(station_passengers_csv)
+    station_count = 0
+    matched_count = 0
+    for path in sorted(stations_dir.glob("*_stations.json")):
+        records = json.loads(path.read_text(encoding="utf-8"))
+        for record in records:
+            station_count += 1
+            for field in STATION_PASSENGER_FIELDS:
+                record.pop(field, None)
+            passenger = select_station_passenger(
+                candidates,
+                str(record.get("station_name", "")),
+                float(record["lat"]),
+                float(record["lon"]),
+            )
+            if passenger:
+                matched_count += 1
+                record.update(passenger)
+        path.write_text(
+            json.dumps(records, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+    return {"stationCount": station_count, "matchedCount": matched_count}
 
 
 def fetch_prefecture_stations(prefecture: str, interval_seconds: float) -> list[dict[str, Any]]:
@@ -247,7 +286,18 @@ def main() -> int:
         type=Path,
         default=Path("data/processed/station_passengers/station_groups.csv"),
     )
+    parser.add_argument("--refresh-passengers-only", action="store_true")
     args = parser.parse_args()
+
+    if args.refresh_passengers_only:
+        result = refresh_station_passenger_fields(
+            args.public_dir / "stations", args.station_passengers_csv
+        )
+        print(
+            f"refreshed station passengers: {result['matchedCount']}/"
+            f"{result['stationCount']} stations"
+        )
+        return 0
 
     for region in args.regions:
         if region not in REGION_TO_PREFECTURE:

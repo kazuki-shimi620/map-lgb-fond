@@ -5,7 +5,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.222701,
-    "lon": 127.698391
+    "lon": 127.698391,
+    "station_passenger_log": 9.254644297532709,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "okinawa_0019",
@@ -13,7 +17,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.241759,
-    "lon": 127.741959
+    "lon": 127.741959,
+    "station_passenger_log": 8.293799608846818,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "okinawa_0014",
@@ -21,7 +29,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.224663,
-    "lon": 127.719039
+    "lon": 127.719039,
+    "station_passenger_log": 7.761319180947987,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "okinawa_0012",
@@ -29,7 +41,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.230919,
-    "lon": 127.703079
+    "lon": 127.703079,
+    "station_passenger_log": 8.497806477616047,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "okinawa_0005",
@@ -37,7 +53,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.205927,
-    "lon": 127.678344
+    "lon": 127.678344,
+    "station_passenger_log": 8.32263709695394,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "okinawa_0004",
@@ -45,7 +65,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.200714,
-    "lon": 127.675252
+    "lon": 127.675252,
+    "station_passenger_log": 8.329658067569396,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "okinawa_0010",
@@ -53,7 +77,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.216737,
-    "lon": 127.695736
+    "lon": 127.695736,
+    "station_passenger_log": 8.479283618343016,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "okinawa_0003",
@@ -61,7 +89,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.196455,
-    "lon": 127.666853
+    "lon": 127.666853,
+    "station_passenger_log": 8.906799883589944,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "okinawa_0013",
@@ -77,7 +109,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.21191,
-    "lon": 127.675515
+    "lon": 127.675515,
+    "station_passenger_log": 9.082166033252674,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "okinawa_0018",
@@ -85,7 +121,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.243862,
-    "lon": 127.732298
+    "lon": 127.732298,
+    "station_passenger_log": 7.247792581767846,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "okinawa_0009",
@@ -93,7 +133,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.217248,
-    "lon": 127.69255
+    "lon": 127.69255,
+    "station_passenger_log": 8.782936356349264,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "okinawa_0007",
@@ -109,7 +153,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.227,
-    "lon": 127.729006
+    "lon": 127.729006,
+    "station_passenger_log": 7.917536353943631,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "okinawa_0017",
@@ -117,7 +165,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.236722,
-    "lon": 127.728515
+    "lon": 127.728515,
+    "station_passenger_log": 7.419979923661835,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "okinawa_0008",
@@ -125,7 +177,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.219245,
-    "lon": 127.684328
+    "lon": 127.684328,
+    "station_passenger_log": 8.804325112562537,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "okinawa_0002",
@@ -133,7 +189,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.193289,
-    "lon": 127.660348
+    "lon": 127.660348,
+    "station_passenger_log": 8.470939806898775,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "okinawa_0001",
@@ -141,7 +201,11 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.206515,
-    "lon": 127.652214
+    "lon": 127.652214,
+    "station_passenger_log": 9.561278894062978,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "okinawa_0015",
@@ -149,6 +213,10 @@
     "prefecture": "沖縄県",
     "line_name": "沖縄ゆいレール",
     "lat": 26.219191,
-    "lon": 127.725492
+    "lon": 127.725492,
+    "station_passenger_log": 8.523572798380277,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   }
 ]

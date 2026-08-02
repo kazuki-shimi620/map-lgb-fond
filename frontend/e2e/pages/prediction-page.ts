@@ -25,8 +25,8 @@ export class PredictionPage {
   }
 
   async openDetailsPanel() {
-    const form = this.page.getByTestId("prediction-form");
-    if (!(await form.isVisible())) {
+    const sheet = this.page.getByTestId("prediction-sheet");
+    if ((await sheet.getAttribute("class"))?.includes("sheet-collapsed")) {
       await this.page.getByTestId("sheet-handle").dispatchEvent("click");
     }
     await expect(this.page.getByTestId("prediction-form")).toBeVisible();
@@ -45,7 +45,9 @@ export class PredictionPage {
   }
 
   async waitForPredictionResult() {
-    await expect(this.predictionResult.getByText("予測価格", { exact: true })).toBeVisible();
+    await expect(this.predictionResult.getByText("予測価格", { exact: true })).toBeVisible({
+      timeout: 30_000
+    });
     await expect(this.predictionResult.getByText("平米単価", { exact: true })).toBeVisible();
     await expect(this.predictionResult.getByText("参考価格帯", { exact: true })).toBeVisible();
   }

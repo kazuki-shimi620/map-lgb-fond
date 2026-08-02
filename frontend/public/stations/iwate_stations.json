@@ -5,7 +5,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 39.960155,
-    "lon": 141.216955
+    "lon": 141.216955,
+    "station_passenger_log": 6.576469569048224,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0021",
@@ -13,7 +17,11 @@
     "prefecture": "岩手県",
     "line_name": "JR北上線",
     "lat": 39.314493,
-    "lon": 140.775647
+    "lon": 140.775647,
+    "station_passenger_log": 5.3706380281276624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0020",
@@ -21,7 +29,11 @@
     "prefecture": "岩手県",
     "line_name": "JR北上線",
     "lat": 39.295513,
-    "lon": 140.835343
+    "lon": 140.835343,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0022",
@@ -29,7 +41,11 @@
     "prefecture": "岩手県",
     "line_name": "JR北上線",
     "lat": 39.301074,
-    "lon": 140.737205
+    "lon": 140.737205,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0172",
@@ -37,7 +53,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.686895,
-    "lon": 141.94264
+    "lon": 141.94264,
+    "station_passenger_log": 2.772588722239781,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0023",
@@ -45,7 +65,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡線",
     "lat": 38.926514,
-    "lon": 141.138177
+    "lon": 141.138177,
+    "station_passenger_log": 8.965845494750937,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "iwate_0124",
@@ -53,7 +77,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 40.210092,
-    "lon": 141.297419
+    "lon": 141.297419,
+    "station_passenger_log": 6.1070228877422545,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0154",
@@ -61,7 +89,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.117194,
-    "lon": 141.809836
+    "lon": 141.809836,
+    "station_passenger_log": 3.367295829986474,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0107",
@@ -69,7 +101,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.242013,
-    "lon": 141.681522
+    "lon": 141.681522,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0037",
@@ -77,7 +113,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.71146,
-    "lon": 141.147937
+    "lon": 141.147937,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0039",
@@ -85,7 +125,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.743855,
-    "lon": 141.203825
+    "lon": 141.203825,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0141",
@@ -93,7 +137,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 39.038362,
-    "lon": 141.721222
+    "lon": 141.721222,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0158",
@@ -101,7 +149,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.308062,
-    "lon": 141.889112
+    "lon": 141.889112,
+    "station_passenger_log": 0.6931471805599453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0011",
@@ -109,7 +161,11 @@
     "prefecture": "岩手県",
     "line_name": "JR八戸線",
     "lat": 40.190391,
-    "lon": 141.770891
+    "lon": 141.770891,
+    "station_passenger_log": 6.249975242259483,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0125",
@@ -117,7 +173,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 40.25997,
-    "lon": 141.286211
+    "lon": 141.286211,
+    "station_passenger_log": 7.256297239690681,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0070",
@@ -125,7 +185,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.687919,
-    "lon": 141.148814
+    "lon": 141.148814,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0090",
@@ -133,7 +197,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.406819,
-    "lon": 141.140889
+    "lon": 141.140889,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0173",
@@ -141,7 +209,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.711131,
-    "lon": 141.935868
+    "lon": 141.935868,
+    "station_passenger_log": 1.791759469228055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0009",
@@ -149,7 +221,11 @@
     "prefecture": "岩手県",
     "line_name": "JR八戸線",
     "lat": 40.261375,
-    "lon": 141.760575
+    "lon": 141.760575,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0089",
@@ -157,7 +233,11 @@
     "prefecture": "岩手県",
     "line_name": "JR花輪線",
     "lat": 40.115869,
-    "lon": 140.88302
+    "lon": 140.88302,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0169",
@@ -165,7 +245,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.620372,
-    "lon": 141.948084
+    "lon": 141.948084,
+    "station_passenger_log": 3.784189633918261,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0060",
@@ -173,7 +257,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.227894,
-    "lon": 141.097605
+    "lon": 141.097605,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0056",
@@ -181,7 +269,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.048686,
-    "lon": 141.12624
+    "lon": 141.12624,
+    "station_passenger_log": 6.88653164253051,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0071",
@@ -189,7 +281,11 @@
     "prefecture": "岩手県",
     "line_name": "JR田沢湖線",
     "lat": 39.713042,
-    "lon": 141.100851
+    "lon": 141.100851,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0012",
@@ -197,7 +293,11 @@
     "prefecture": "岩手県",
     "line_name": "JR北上線",
     "lat": 39.281196,
-    "lon": 141.121221
+    "lon": 141.121221,
+    "station_passenger_log": 8.900685318713995,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "iwate_0081",
@@ -205,7 +305,11 @@
     "prefecture": "岩手県",
     "line_name": "JR花輪線",
     "lat": 39.959201,
-    "lon": 141.066481
+    "lon": 141.066481,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0040",
@@ -213,7 +317,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.65177,
-    "lon": 141.351352
+    "lon": 141.351352,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0184",
@@ -221,7 +329,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 40.100778,
-    "lon": 141.823694
+    "lon": 141.823694,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0031",
@@ -229,7 +341,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡線",
     "lat": 38.924873,
-    "lon": 141.34563
+    "lon": 141.34563,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0049",
@@ -237,7 +353,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.63225,
-    "lon": 141.9124
+    "lon": 141.9124,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0114",
@@ -245,7 +365,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 39.744637,
-    "lon": 141.129354
+    "lon": 141.129354,
+    "station_passenger_log": 8.002359546252707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0067",
@@ -253,7 +377,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.580844,
-    "lon": 141.154575
+    "lon": 141.154575,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0155",
@@ -261,7 +389,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.151122,
-    "lon": 141.836382
+    "lon": 141.836382,
+    "station_passenger_log": 3.332204510175204,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0161",
@@ -269,7 +401,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.36957,
-    "lon": 141.938648
+    "lon": 141.938648,
+    "station_passenger_log": 2.995732273553991,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0019",
@@ -277,7 +413,11 @@
     "prefecture": "岩手県",
     "line_name": "JR北上線",
     "lat": 39.308523,
-    "lon": 140.909485
+    "lon": 140.909485,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0156",
@@ -285,7 +425,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.201816,
-    "lon": 141.86123
+    "lon": 141.86123,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0093",
@@ -293,7 +437,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.383381,
-    "lon": 141.232488
+    "lon": 141.232488,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0144",
@@ -309,7 +457,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 40.051895,
-    "lon": 141.859481
+    "lon": 141.859481,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0079",
@@ -317,7 +469,11 @@
     "prefecture": "岩手県",
     "line_name": "JR花輪線",
     "lat": 39.913746,
-    "lon": 141.100808
+    "lon": 141.100808,
+    "station_passenger_log": 5.932245187448011,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0160",
@@ -325,7 +481,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.356734,
-    "lon": 141.902894
+    "lon": 141.902894,
+    "station_passenger_log": 4.060443010546419,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0143",
@@ -333,7 +493,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 39.063529,
-    "lon": 141.720807
+    "lon": 141.720807,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0140",
@@ -349,7 +513,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 39.051278,
-    "lon": 141.72075
+    "lon": 141.72075,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0072",
@@ -357,7 +525,11 @@
     "prefecture": "岩手県",
     "line_name": "JR田沢湖線",
     "lat": 39.711586,
-    "lon": 141.072202
+    "lon": 141.072202,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0131",
@@ -365,7 +537,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 39.007679,
-    "lon": 141.625635
+    "lon": 141.625635,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0121",
@@ -373,7 +549,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 40.066235,
-    "lon": 141.22844
+    "lon": 141.22844,
+    "station_passenger_log": 5.662960480135946,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0077",
@@ -381,7 +561,11 @@
     "prefecture": "岩手県",
     "line_name": "JR花輪線",
     "lat": 39.874037,
-    "lon": 141.173685
+    "lon": 141.173685,
+    "station_passenger_log": 7.282073658093465,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0083",
@@ -389,7 +573,11 @@
     "prefecture": "岩手県",
     "line_name": "JR花輪線",
     "lat": 40.012587,
-    "lon": 140.997239
+    "lon": 140.997239,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0050",
@@ -397,7 +585,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.640287,
-    "lon": 141.946454
+    "lon": 141.946454,
+    "station_passenger_log": 6.573680166960646,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0096",
@@ -405,7 +597,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.351066,
-    "lon": 141.350271
+    "lon": 141.350271,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0005",
@@ -413,7 +609,11 @@
     "prefecture": "岩手県",
     "line_name": "JR八戸線",
     "lat": 40.366129,
-    "lon": 141.746683
+    "lon": 141.746683,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0111",
@@ -421,7 +621,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.264464,
-    "lon": 141.836515
+    "lon": 141.836515,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0137",
@@ -429,7 +633,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 38.989242,
-    "lon": 141.699573
+    "lon": 141.699573,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0085",
@@ -437,7 +645,11 @@
     "prefecture": "岩手県",
     "line_name": "JR花輪線",
     "lat": 40.076539,
-    "lon": 141.020673
+    "lon": 141.020673,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0092",
@@ -445,7 +657,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.4086,
-    "lon": 141.193999
+    "lon": 141.193999,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0073",
@@ -453,7 +669,11 @@
     "prefecture": "岩手県",
     "line_name": "JR田沢湖線",
     "lat": 39.709731,
-    "lon": 141.02465
+    "lon": 141.02465,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0032",
@@ -461,7 +681,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡線",
     "lat": 38.932493,
-    "lon": 141.38418
+    "lon": 141.38418,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0122",
@@ -469,7 +693,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 40.123173,
-    "lon": 141.260437
+    "lon": 141.260437,
+    "station_passenger_log": 1.791759469228055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0123",
@@ -477,7 +705,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 40.171061,
-    "lon": 141.307735
+    "lon": 141.307735,
+    "station_passenger_log": 4.3694478524670215,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0054",
@@ -485,7 +717,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 38.951253,
-    "lon": 141.131921
+    "lon": 141.131921,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0171",
@@ -493,7 +729,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.648464,
-    "lon": 141.93284
+    "lon": 141.93284,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0038",
@@ -501,7 +741,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.71596,
-    "lon": 141.171401
+    "lon": 141.171401,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0026",
@@ -509,7 +753,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡線",
     "lat": 38.947699,
-    "lon": 141.245342
+    "lon": 141.245342,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0104",
@@ -517,7 +765,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.284658,
-    "lon": 141.585834
+    "lon": 141.585834,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0100",
@@ -525,7 +777,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.323441,
-    "lon": 141.45606
+    "lon": 141.45606,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0118",
@@ -533,7 +789,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 39.918696,
-    "lon": 141.199337
+    "lon": 141.199337,
+    "station_passenger_log": 5.3230099791384085,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0163",
@@ -541,7 +801,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.431369,
-    "lon": 141.974033
+    "lon": 141.974033,
+    "station_passenger_log": 4.143134726391533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0069",
@@ -549,7 +813,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.65373,
-    "lon": 141.146861
+    "lon": 141.146861,
+    "station_passenger_log": 8.356789669923213,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0095",
@@ -557,7 +825,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.355264,
-    "lon": 141.318795
+    "lon": 141.318795,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0018",
@@ -565,7 +837,11 @@
     "prefecture": "岩手県",
     "line_name": "JR北上線",
     "lat": 39.301016,
-    "lon": 140.931616
+    "lon": 140.931616,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0177",
@@ -573,7 +849,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.842724,
-    "lon": 141.958453
+    "lon": 141.958453,
+    "station_passenger_log": 4.584967478670572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0178",
@@ -581,7 +861,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.915737,
-    "lon": 141.93968
+    "lon": 141.93968,
+    "station_passenger_log": 2.833213344056216,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0042",
@@ -597,7 +881,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 39.783345,
-    "lon": 141.148674
+    "lon": 141.148674,
+    "station_passenger_log": 6.8501261661455,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0105",
@@ -605,7 +893,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.264682,
-    "lon": 141.595661
+    "lon": 141.595661,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0002",
@@ -613,7 +905,11 @@
     "prefecture": "岩手県",
     "line_name": "JR八戸線",
     "lat": 40.42552,
-    "lon": 141.699272
+    "lon": 141.699272,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0055",
@@ -621,7 +917,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 38.987935,
-    "lon": 141.117786
+    "lon": 141.117786,
+    "station_passenger_log": 6.675823221634848,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0157",
@@ -629,7 +929,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.245686,
-    "lon": 141.885923
+    "lon": 141.885923,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0080",
@@ -637,7 +941,11 @@
     "prefecture": "岩手県",
     "line_name": "JR花輪線",
     "lat": 39.950886,
-    "lon": 141.08531
+    "lon": 141.08531,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0120",
@@ -645,7 +953,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 40.004412,
-    "lon": 141.23703
+    "lon": 141.23703,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0152",
@@ -653,7 +965,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.07453,
-    "lon": 141.816365
+    "lon": 141.816365,
+    "station_passenger_log": 2.4849066497880004,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0167",
@@ -661,7 +977,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.564423,
-    "lon": 141.932843
+    "lon": 141.932843,
+    "station_passenger_log": 3.7612001156935624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0034",
@@ -669,7 +989,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡線",
     "lat": 38.939428,
-    "lon": 141.452346
+    "lon": 141.452346,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0176",
@@ -677,7 +1001,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.809453,
-    "lon": 141.962182
+    "lon": 141.962182,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0030",
@@ -685,7 +1013,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡線",
     "lat": 38.99593,
-    "lon": 141.32146
+    "lon": 141.32146,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0126",
@@ -693,7 +1025,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 40.285158,
-    "lon": 141.291123
+    "lon": 141.291123,
+    "station_passenger_log": 5.176149732573829,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0035",
@@ -701,7 +1037,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡線",
     "lat": 38.915598,
-    "lon": 141.488796
+    "lon": 141.488796,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0175",
@@ -709,7 +1049,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.73551,
-    "lon": 141.96728
+    "lon": 141.96728,
+    "station_passenger_log": 3.871201010907891,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0091",
@@ -717,7 +1061,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.405839,
-    "lon": 141.17302
+    "lon": 141.17302,
+    "station_passenger_log": 7.319202458767849,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0065",
@@ -725,7 +1073,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.538734,
-    "lon": 141.160637
+    "lon": 141.160637,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0075",
@@ -733,7 +1085,11 @@
     "prefecture": "岩手県",
     "line_name": "JR田沢湖線",
     "lat": 39.693396,
-    "lon": 140.943954
+    "lon": 140.943954,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0180",
@@ -741,7 +1097,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 40.002492,
-    "lon": 141.886269
+    "lon": 141.886269,
+    "station_passenger_log": 4.762173934797756,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0094",
@@ -749,7 +1109,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.366617,
-    "lon": 141.257892
+    "lon": 141.257892,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0007",
@@ -757,7 +1121,11 @@
     "prefecture": "岩手県",
     "line_name": "JR八戸線",
     "lat": 40.324007,
-    "lon": 141.773031
+    "lon": 141.773031,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0061",
@@ -765,7 +1133,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.323027,
-    "lon": 141.120442
+    "lon": 141.120442,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0078",
@@ -773,7 +1145,11 @@
     "prefecture": "岩手県",
     "line_name": "JR花輪線",
     "lat": 39.902621,
-    "lon": 141.142537
+    "lon": 141.142537,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0110",
@@ -781,7 +1157,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.256459,
-    "lon": 141.801484
+    "lon": 141.801484,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0082",
@@ -789,7 +1169,11 @@
     "prefecture": "岩手県",
     "line_name": "JR花輪線",
     "lat": 39.96924,
-    "lon": 141.043903
+    "lon": 141.043903,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0041",
@@ -797,7 +1181,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.635918,
-    "lon": 141.437421
+    "lon": 141.437421,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0097",
@@ -805,7 +1193,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.30606,
-    "lon": 141.379862
+    "lon": 141.379862,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0013",
@@ -813,7 +1205,11 @@
     "prefecture": "岩手県",
     "line_name": "JR北上線",
     "lat": 39.294597,
-    "lon": 141.111671
+    "lon": 141.111671,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0029",
@@ -821,7 +1217,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡線",
     "lat": 38.996719,
-    "lon": 141.272312
+    "lon": 141.272312,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0149",
@@ -837,7 +1237,11 @@
     "prefecture": "岩手県",
     "line_name": "JR北上線",
     "lat": 39.309255,
-    "lon": 140.972143
+    "lon": 140.972143,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0087",
@@ -845,7 +1249,11 @@
     "prefecture": "岩手県",
     "line_name": "JR花輪線",
     "lat": 40.107475,
-    "lon": 141.027151
+    "lon": 141.027151,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0058",
@@ -853,7 +1261,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.138998,
-    "lon": 141.146395
+    "lon": 141.146395,
+    "station_passenger_log": 8.066207568006265,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0128",
@@ -861,7 +1273,11 @@
     "prefecture": "岩手県",
     "line_name": "東北新幹線",
     "lat": 39.14526,
-    "lon": 141.188748
+    "lon": 141.188748,
+    "station_passenger_log": 7.464509834636528,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0014",
@@ -869,7 +1285,11 @@
     "prefecture": "岩手県",
     "line_name": "JR北上線",
     "lat": 39.298349,
-    "lon": 141.075749
+    "lon": 141.075749,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0051",
@@ -877,7 +1297,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 38.797113,
-    "lon": 141.175706
+    "lon": 141.175706,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0109",
@@ -885,7 +1309,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.250671,
-    "lon": 141.760388
+    "lon": 141.760388,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0168",
@@ -893,7 +1321,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.581507,
-    "lon": 141.937594
+    "lon": 141.937594,
+    "station_passenger_log": 4.219507705176107,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0162",
@@ -901,7 +1333,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.383537,
-    "lon": 141.935104
+    "lon": 141.935104,
+    "station_passenger_log": 2.6390573296152584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0053",
@@ -909,7 +1345,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 38.854915,
-    "lon": 141.156576
+    "lon": 141.156576,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0117",
@@ -917,7 +1357,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 39.834806,
-    "lon": 141.15449
+    "lon": 141.15449,
+    "station_passenger_log": 6.3473892096560105,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0116",
@@ -925,7 +1369,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 39.798953,
-    "lon": 141.149362
+    "lon": 141.149362,
+    "station_passenger_log": 7.847762537473608,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0028",
@@ -933,7 +1381,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡線",
     "lat": 38.988939,
-    "lon": 141.25327
+    "lon": 141.25327,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0004",
@@ -941,7 +1393,11 @@
     "prefecture": "岩手県",
     "line_name": "JR八戸線",
     "lat": 40.380424,
-    "lon": 141.735117
+    "lon": 141.735117,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0153",
@@ -949,7 +1405,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.093394,
-    "lon": 141.806571
+    "lon": 141.806571,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0088",
@@ -957,7 +1417,11 @@
     "prefecture": "岩手県",
     "line_name": "JR花輪線",
     "lat": 40.139674,
-    "lon": 140.944126
+    "lon": 140.944126,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0174",
@@ -965,7 +1429,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.731848,
-    "lon": 141.964556
+    "lon": 141.964556,
+    "station_passenger_log": 4.23410650459726,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0145",
@@ -981,7 +1449,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.934276,
-    "lon": 141.933847
+    "lon": 141.933847,
+    "station_passenger_log": 4.30406509320417,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0181",
@@ -989,7 +1461,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 40.032628,
-    "lon": 141.883121
+    "lon": 141.883121,
+    "station_passenger_log": 1.791759469228055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0146",
@@ -997,7 +1473,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 39.086372,
-    "lon": 141.710734
+    "lon": 141.710734,
+    "station_passenger_log": 5.4680601411351315,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0036",
@@ -1005,7 +1485,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.701547,
-    "lon": 141.136599
+    "lon": 141.136599,
+    "station_passenger_log": 10.379876998980992,
+    "station_line_count": 5.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "iwate_0024",
@@ -1013,7 +1497,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡線",
     "lat": 38.908239,
-    "lon": 141.17793
+    "lon": 141.17793,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0068",
@@ -1021,7 +1509,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.613293,
-    "lon": 141.148299
+    "lon": 141.148299,
+    "station_passenger_log": 8.696343057044556,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "iwate_0033",
@@ -1029,7 +1521,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡線",
     "lat": 38.935224,
-    "lon": 141.429029
+    "lon": 141.429029,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0064",
@@ -1037,7 +1533,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.490919,
-    "lon": 141.146861
+    "lon": 141.146861,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0138",
@@ -1045,7 +1545,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 39.002778,
-    "lon": 141.711
+    "lon": 141.711,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0170",
@@ -1053,7 +1557,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.629883,
-    "lon": 141.960984
+    "lon": 141.960984,
+    "station_passenger_log": 4.343805421853684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0003",
@@ -1061,7 +1569,11 @@
     "prefecture": "岩手県",
     "line_name": "JR八戸線",
     "lat": 40.410384,
-    "lon": 141.715232
+    "lon": 141.715232,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0016",
@@ -1069,7 +1581,11 @@
     "prefecture": "岩手県",
     "line_name": "JR北上線",
     "lat": 39.307876,
-    "lon": 140.997144
+    "lon": 140.997144,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0148",
@@ -1077,7 +1593,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 39.033651,
-    "lon": 141.609729
+    "lon": 141.609729,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0043",
@@ -1085,7 +1605,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.617115,
-    "lon": 141.625829
+    "lon": 141.625829,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0066",
@@ -1093,7 +1617,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.5549,
-    "lon": 141.15995
+    "lon": 141.15995,
+    "station_passenger_log": 7.85979918056211,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0139",
@@ -1101,7 +1629,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 39.015973,
-    "lon": 141.713642
+    "lon": 141.713642,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0101",
@@ -1109,7 +1641,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.328422,
-    "lon": 141.476845
+    "lon": 141.476845,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0151",
@@ -1117,7 +1653,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.054318,
-    "lon": 141.799012
+    "lon": 141.799012,
+    "station_passenger_log": 4.143134726391533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0164",
@@ -1125,7 +1665,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.447187,
-    "lon": 141.959497
+    "lon": 141.959497,
+    "station_passenger_log": 3.737669618283368,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0135",
@@ -1133,7 +1677,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 39.006584,
-    "lon": 141.657359
+    "lon": 141.657359,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0045",
@@ -1141,7 +1689,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.604539,
-    "lon": 141.767434
+    "lon": 141.767434,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0048",
@@ -1149,7 +1701,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.630233,
-    "lon": 141.861308
+    "lon": 141.861308,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0062",
@@ -1157,7 +1713,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.393182,
-    "lon": 141.110458
+    "lon": 141.110458,
+    "station_passenger_log": 8.701013624333928,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "iwate_0063",
@@ -1165,7 +1725,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.442639,
-    "lon": 141.127625
+    "lon": 141.127625,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0052",
@@ -1173,7 +1737,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 38.83331,
-    "lon": 141.180014
+    "lon": 141.180014,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0046",
@@ -1181,7 +1749,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.620619,
-    "lon": 141.799288
+    "lon": 141.799288,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0086",
@@ -1189,7 +1761,11 @@
     "prefecture": "岩手県",
     "line_name": "JR花輪線",
     "lat": 40.097682,
-    "lon": 141.049196
+    "lon": 141.049196,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0099",
@@ -1197,7 +1773,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.309928,
-    "lon": 141.428507
+    "lon": 141.428507,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0015",
@@ -1205,7 +1785,11 @@
     "prefecture": "岩手県",
     "line_name": "JR北上線",
     "lat": 39.301064,
-    "lon": 141.039571
+    "lon": 141.039571,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0047",
@@ -1213,7 +1797,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.629341,
-    "lon": 141.838876
+    "lon": 141.838876,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0136",
@@ -1229,7 +1817,11 @@
     "prefecture": "岩手県",
     "line_name": "JR八戸線",
     "lat": 40.444478,
-    "lon": 141.681773
+    "lon": 141.681773,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0166",
@@ -1237,7 +1829,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.534274,
-    "lon": 141.924739
+    "lon": 141.924739,
+    "station_passenger_log": 4.290459441148391,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0084",
@@ -1245,7 +1841,11 @@
     "prefecture": "岩手県",
     "line_name": "JR花輪線",
     "lat": 40.048464,
-    "lon": 141.00394
+    "lon": 141.00394,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0076",
@@ -1253,7 +1853,11 @@
     "prefecture": "岩手県",
     "line_name": "JR田沢湖線",
     "lat": 39.685112,
-    "lon": 140.907222
+    "lon": 140.907222,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0106",
@@ -1261,7 +1865,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.254766,
-    "lon": 141.645807
+    "lon": 141.645807,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0102",
@@ -1269,7 +1877,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.332529,
-    "lon": 141.53072
+    "lon": 141.53072,
+    "station_passenger_log": 6.293419278846481,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0183",
@@ -1277,7 +1889,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 40.082728,
-    "lon": 141.828874
+    "lon": 141.828874,
+    "station_passenger_log": 2.995732273553991,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0059",
@@ -1285,7 +1901,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.199615,
-    "lon": 141.112894
+    "lon": 141.112894,
+    "station_passenger_log": 7.0587581525186645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0127",
@@ -1293,7 +1913,11 @@
     "prefecture": "岩手県",
     "line_name": "いわて銀河鉄道線",
     "lat": 40.323503,
-    "lon": 141.303943
+    "lon": 141.303943,
+    "station_passenger_log": 5.1298987149230735,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0112",
@@ -1301,7 +1925,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.273321,
-    "lon": 141.87267
+    "lon": 141.87267,
+    "station_passenger_log": 6.368187186350492,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0129",
@@ -1309,7 +1937,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 38.986066,
-    "lon": 141.618683
+    "lon": 141.618683,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0008",
@@ -1317,7 +1949,11 @@
     "prefecture": "岩手県",
     "line_name": "JR八戸線",
     "lat": 40.305165,
-    "lon": 141.787768
+    "lon": 141.787768,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0006",
@@ -1325,7 +1961,11 @@
     "prefecture": "岩手県",
     "line_name": "JR八戸線",
     "lat": 40.345485,
-    "lon": 141.766517
+    "lon": 141.766517,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0010",
@@ -1333,7 +1973,11 @@
     "prefecture": "岩手県",
     "line_name": "JR八戸線",
     "lat": 40.207747,
-    "lon": 141.791906
+    "lon": 141.791906,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0108",
@@ -1341,7 +1985,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.280451,
-    "lon": 141.718436
+    "lon": 141.718436,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0186",
@@ -1349,7 +1997,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 40.132441,
-    "lon": 141.785904
+    "lon": 141.785904,
+    "station_passenger_log": 3.5553480614894135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0165",
@@ -1357,7 +2009,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.463449,
-    "lon": 141.951533
+    "lon": 141.951533,
+    "station_passenger_log": 5.187385805840755,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0044",
@@ -1365,7 +2021,11 @@
     "prefecture": "岩手県",
     "line_name": "JR山田線",
     "lat": 39.597397,
-    "lon": 141.68153
+    "lon": 141.68153,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0057",
@@ -1373,7 +2033,11 @@
     "prefecture": "岩手県",
     "line_name": "JR東北本線",
     "lat": 39.094185,
-    "lon": 141.140864
+    "lon": 141.140864,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0027",
@@ -1381,7 +2045,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡線",
     "lat": 38.977237,
-    "lon": 141.238046
+    "lon": 141.238046,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0185",
@@ -1389,7 +2057,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 40.116115,
-    "lon": 141.81899
+    "lon": 141.81899,
+    "station_passenger_log": 5.375278407684165,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0025",
@@ -1397,7 +2069,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡線",
     "lat": 38.916908,
-    "lon": 141.251226
+    "lon": 141.251226,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0130",
@@ -1413,7 +2089,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 39.022554,
-    "lon": 141.579357
+    "lon": 141.579357,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0150",
@@ -1421,7 +2101,11 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.068623,
-    "lon": 141.741086
+    "lon": 141.741086,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0132",
@@ -1429,7 +2113,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 39.013021,
-    "lon": 141.625332
+    "lon": 141.625332,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0074",
@@ -1437,7 +2125,11 @@
     "prefecture": "岩手県",
     "line_name": "JR田沢湖線",
     "lat": 39.689244,
-    "lon": 140.974762
+    "lon": 140.974762,
+    "station_passenger_log": 6.807934943699926,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0113",
@@ -1453,7 +2145,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.311482,
-    "lon": 141.568957
+    "lon": 141.568957,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0134",
@@ -1461,7 +2157,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 39.018808,
-    "lon": 141.662381
+    "lon": 141.662381,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0133",
@@ -1469,7 +2169,11 @@
     "prefecture": "岩手県",
     "line_name": "JR大船渡BRT線",
     "lat": 39.015475,
-    "lon": 141.635233
+    "lon": 141.635233,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0098",
@@ -1477,7 +2181,11 @@
     "prefecture": "岩手県",
     "line_name": "JR釜石線",
     "lat": 39.300158,
-    "lon": 141.399252
+    "lon": 141.399252,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "iwate_0159",
@@ -1485,6 +2193,10 @@
     "prefecture": "岩手県",
     "line_name": "三陸鉄道リアス線",
     "lat": 39.32694,
-    "lon": 141.887976
+    "lon": 141.887976,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

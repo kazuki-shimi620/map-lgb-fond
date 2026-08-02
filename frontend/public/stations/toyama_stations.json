@@ -5,7 +5,11 @@
     "prefecture": "富山県",
     "line_name": "富山ライトレール",
     "lat": 36.703556,
-    "lon": 137.216685
+    "lon": 137.216685,
+    "station_passenger_log": 6.142037405587356,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0058",
@@ -13,7 +17,11 @@
     "prefecture": "富山県",
     "line_name": "富山ライトレール",
     "lat": 36.703755,
-    "lon": 137.214681
+    "lon": 137.214681,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0163",
@@ -21,7 +29,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.688923,
-    "lon": 137.213386
+    "lon": 137.213386,
+    "station_passenger_log": 6.003887067106539,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0159",
@@ -37,7 +49,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道上滝線",
     "lat": 36.65338,
-    "lon": 137.230127
+    "lon": 137.230127,
+    "station_passenger_log": 6.018593214496234,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0097",
@@ -45,7 +61,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.704463,
-    "lon": 137.357603
+    "lon": 137.357603,
+    "station_passenger_log": 7.140453043101158,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0145",
@@ -61,7 +81,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道上滝線",
     "lat": 36.609622,
-    "lon": 137.295564
+    "lon": 137.295564,
+    "station_passenger_log": 5.602118820879701,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0062",
@@ -69,7 +93,11 @@
     "prefecture": "富山県",
     "line_name": "富山ライトレール",
     "lat": 36.711311,
-    "lon": 137.224478
+    "lon": 137.224478,
+    "station_passenger_log": 6.192362489474872,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0131",
@@ -77,7 +105,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道立山線",
     "lat": 36.647899,
-    "lon": 137.317735
+    "lon": 137.317735,
+    "station_passenger_log": 4.787491742782046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0122",
@@ -85,7 +117,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.857707,
-    "lon": 137.541396
+    "lon": 137.541396,
+    "station_passenger_log": 3.5263605246161616,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0121",
@@ -93,7 +129,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.859571,
-    "lon": 137.532908
+    "lon": 137.532908,
+    "station_passenger_log": 3.828641396489095,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0085",
@@ -101,7 +141,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道不二越線",
     "lat": 36.687848,
-    "lon": 137.232453
+    "lon": 137.232453,
+    "station_passenger_log": 6.073044534100405,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0056",
@@ -109,7 +153,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線高岡軌道線",
     "lat": 36.788224,
-    "lon": 137.061655
+    "lon": 137.061655,
+    "station_passenger_log": 3.970291913552122,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0099",
@@ -117,7 +165,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.735309,
-    "lon": 137.350947
+    "lon": 137.350947,
+    "station_passenger_log": 5.147494476813453,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0036",
@@ -125,7 +177,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線新湊港線",
     "lat": 36.775148,
-    "lon": 137.088617
+    "lon": 137.088617,
+    "station_passenger_log": 5.318119993844216,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0102",
@@ -133,7 +189,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.761992,
-    "lon": 137.339963
+    "lon": 137.339963,
+    "station_passenger_log": 5.1298987149230735,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0147",
@@ -157,7 +217,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.714339,
-    "lon": 137.006141
+    "lon": 137.006141,
+    "station_passenger_log": 3.9318256327243257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0129",
@@ -165,7 +229,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道立山線",
     "lat": 36.665361,
-    "lon": 137.314097
+    "lon": 137.314097,
+    "station_passenger_log": 6.566672429803241,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0017",
@@ -173,7 +241,11 @@
     "prefecture": "富山県",
     "line_name": "JR氷見線",
     "lat": 36.792306,
-    "lon": 137.05853
+    "lon": 137.05853,
+    "station_passenger_log": 6.018593214496234,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0175",
@@ -181,7 +253,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.941296,
-    "lon": 137.499
+    "lon": 137.499,
+    "station_passenger_log": 7.438971592395862,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0032",
@@ -189,7 +265,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線新湊港線",
     "lat": 36.788935,
-    "lon": 137.066443
+    "lon": 137.066443,
+    "station_passenger_log": 4.0943445622221,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0124",
@@ -197,7 +277,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.846826,
-    "lon": 137.556733
+    "lon": 137.556733,
+    "station_passenger_log": 3.5263605246161616,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0135",
@@ -205,7 +289,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道立山線",
     "lat": 36.573752,
-    "lon": 137.373843
+    "lon": 137.373843,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0027",
@@ -213,7 +301,11 @@
     "prefecture": "富山県",
     "line_name": "JR高山本線",
     "lat": 36.634678,
-    "lon": 137.132396
+    "lon": 137.132396,
+    "station_passenger_log": 6.46302945692067,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0072",
@@ -221,7 +313,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道上滝線",
     "lat": 36.670406,
-    "lon": 137.2205
+    "lon": 137.2205,
+    "station_passenger_log": 6.955592608396297,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0139",
@@ -229,7 +325,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.670484,
-    "lon": 137.22044
+    "lon": 137.22044,
+    "station_passenger_log": 7.682021510826875,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0055",
@@ -237,7 +337,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線高岡軌道線",
     "lat": 36.782018,
-    "lon": 137.056369
+    "lon": 137.056369,
+    "station_passenger_log": 4.290459441148391,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0185",
@@ -245,7 +349,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.718845,
-    "lon": 137.164874
+    "lon": 137.164874,
+    "station_passenger_log": 8.062432791583195,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0161",
@@ -253,7 +361,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.691654,
-    "lon": 137.21139
+    "lon": 137.21139,
+    "station_passenger_log": 4.9344739331306915,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0151",
@@ -261,7 +373,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.698584,
-    "lon": 137.216105
+    "lon": 137.216105,
+    "station_passenger_log": 5.501258210544727,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0043",
@@ -269,7 +385,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線高岡軌道線",
     "lat": 36.747367,
-    "lon": 137.014585
+    "lon": 137.014585,
+    "station_passenger_log": 3.8501476017100584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0065",
@@ -277,7 +397,11 @@
     "prefecture": "富山県",
     "line_name": "富山ライトレール",
     "lat": 36.731103,
-    "lon": 137.226082
+    "lon": 137.226082,
+    "station_passenger_log": 6.502790045915623,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0014",
@@ -285,7 +409,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.522012,
-    "lon": 136.901673
+    "lon": 136.901673,
+    "station_passenger_log": 6.364750756851911,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0141",
@@ -293,7 +421,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.675647,
-    "lon": 137.219281
+    "lon": 137.219281,
+    "station_passenger_log": 6.419994928147142,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0081",
@@ -301,7 +433,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道上滝線",
     "lat": 36.608322,
-    "lon": 137.308721
+    "lon": 137.308721,
+    "station_passenger_log": 3.737669618283368,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0079",
@@ -309,7 +445,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道上滝線",
     "lat": 36.619565,
-    "lon": 137.275618
+    "lon": 137.275618,
+    "station_passenger_log": 5.905361848054571,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0162",
@@ -317,7 +457,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.689388,
-    "lon": 137.211334
+    "lon": 137.211334,
+    "station_passenger_log": 5.638354669333745,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0086",
@@ -334,7 +478,7 @@
     "line_name": "富山地鉄市内線",
     "lat": 36.673066,
     "lon": 137.220483,
-    "station_passenger_log": 7.434847875211999,
+    "station_passenger_log": 6.519147287940395,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
     "station_rank": "E"
@@ -345,7 +489,11 @@
     "prefecture": "富山県",
     "line_name": "富山ライトレール",
     "lat": 36.703522,
-    "lon": 137.223637
+    "lon": 137.223637,
+    "station_passenger_log": 6.320768294250582,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0029",
@@ -353,7 +501,11 @@
     "prefecture": "富山県",
     "line_name": "JR高山本線",
     "lat": 36.676084,
-    "lon": 137.167625
+    "lon": 137.167625,
+    "station_passenger_log": 6.274762021241939,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0165",
@@ -361,7 +513,11 @@
     "prefecture": "富山県",
     "line_name": "黒部峡谷鉄道",
     "lat": 36.815038,
-    "lon": 137.58586
+    "lon": 137.58586,
+    "station_passenger_log": 7.749753406274437,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0126",
@@ -369,7 +525,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.815694,
-    "lon": 137.583541
+    "lon": 137.583541,
+    "station_passenger_log": 6.371611847231857,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0158",
@@ -377,7 +537,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.692838,
-    "lon": 137.201772
+    "lon": 137.201772,
+    "station_passenger_log": 5.017279836814924,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0031",
@@ -385,7 +549,11 @@
     "prefecture": "富山県",
     "line_name": "JR高山本線",
     "lat": 36.701384,
-    "lon": 137.213091
+    "lon": 137.213091,
+    "station_passenger_log": 10.080168229439996,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "toyama_0160",
@@ -393,7 +561,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.698688,
-    "lon": 137.191129
+    "lon": 137.191129,
+    "station_passenger_log": 7.881559917056899,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0153",
@@ -401,7 +573,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.70161,
-    "lon": 137.21288
+    "lon": 137.21288,
+    "station_passenger_log": 8.856518497019858,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "toyama_0093",
@@ -409,7 +585,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.698852,
-    "lon": 137.319145
+    "lon": 137.319145,
+    "station_passenger_log": 5.659482215759621,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0075",
@@ -417,7 +597,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道上滝線",
     "lat": 36.649433,
-    "lon": 137.233164
+    "lon": 137.233164,
+    "station_passenger_log": 6.437751649736401,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0142",
@@ -433,7 +617,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道上滝線",
     "lat": 36.608214,
-    "lon": 137.319922
+    "lon": 137.319922,
+    "station_passenger_log": 5.771441123130016,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0071",
@@ -441,7 +629,11 @@
     "prefecture": "富山県",
     "line_name": "富山ライトレール",
     "lat": 36.761212,
-    "lon": 137.23409
+    "lon": 137.23409,
+    "station_passenger_log": 6.1903154058531475,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0020",
@@ -449,7 +641,11 @@
     "prefecture": "富山県",
     "line_name": "JR氷見線",
     "lat": 36.828423,
-    "lon": 137.01269
+    "lon": 137.01269,
+    "station_passenger_log": 5.765191102784844,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0047",
@@ -457,7 +653,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線高岡軌道線",
     "lat": 36.758196,
-    "lon": 137.0261
+    "lon": 137.0261,
+    "station_passenger_log": 4.859812404361672,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0076",
@@ -465,7 +665,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道上滝線",
     "lat": 36.645178,
-    "lon": 137.235455
+    "lon": 137.235455,
+    "station_passenger_log": 5.0238805208462765,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0045",
@@ -481,7 +685,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.683357,
-    "lon": 137.215934
+    "lon": 137.215934,
+    "station_passenger_log": 5.673323267171493,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0033",
@@ -489,7 +697,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線新湊港線",
     "lat": 36.784433,
-    "lon": 137.070729
+    "lon": 137.070729,
+    "station_passenger_log": 4.30406509320417,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0046",
@@ -497,7 +709,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線高岡軌道線",
     "lat": 36.755648,
-    "lon": 137.023759
+    "lon": 137.023759,
+    "station_passenger_log": 5.666426688112432,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0044",
@@ -505,7 +721,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線高岡軌道線",
     "lat": 36.749761,
-    "lon": 137.017788
+    "lon": 137.017788,
+    "station_passenger_log": 4.736198448394496,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0123",
@@ -513,7 +733,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.855975,
-    "lon": 137.553769
+    "lon": 137.553769,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0005",
@@ -521,7 +745,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.684323,
-    "lon": 136.983898
+    "lon": 136.983898,
+    "station_passenger_log": 7.309881485824787,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0054",
@@ -529,7 +757,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線高岡軌道線",
     "lat": 36.776086,
-    "lon": 137.052839
+    "lon": 137.052839,
+    "station_passenger_log": 4.23410650459726,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0098",
@@ -537,7 +769,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.717292,
-    "lon": 137.351128
+    "lon": 137.351128,
+    "station_passenger_log": 4.897839799950911,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0184",
@@ -545,7 +781,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.719155,
-    "lon": 137.240256
+    "lon": 137.240256,
+    "station_passenger_log": 6.647688373563329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0154",
@@ -561,7 +801,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.697972,
-    "lon": 137.241417
+    "lon": 137.241417,
+    "station_passenger_log": 6.602587892189336,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0035",
@@ -569,7 +813,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線新湊港線",
     "lat": 36.778983,
-    "lon": 137.084259
+    "lon": 137.084259,
+    "station_passenger_log": 5.488937726156687,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0096",
@@ -577,7 +825,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.703128,
-    "lon": 137.342278
+    "lon": 137.342278,
+    "station_passenger_log": 5.910796644040527,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0051",
@@ -585,7 +837,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線高岡軌道線",
     "lat": 36.770258,
-    "lon": 137.037713
+    "lon": 137.037713,
+    "station_passenger_log": 4.709530201312334,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0002",
@@ -593,7 +849,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.727004,
-    "lon": 137.010459
+    "lon": 137.010459,
+    "station_passenger_log": 8.297294370266917,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0109",
@@ -601,7 +861,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.82657,
-    "lon": 137.405459
+    "lon": 137.405459,
+    "station_passenger_log": 6.253828811575473,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0116",
@@ -609,7 +873,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.873163,
-    "lon": 137.480177
+    "lon": 137.480177,
+    "station_passenger_log": 5.966146739123692,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0105",
@@ -617,7 +885,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.784082,
-    "lon": 137.372079
+    "lon": 137.372079,
+    "station_passenger_log": 3.58351893845611,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0049",
@@ -625,7 +897,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線高岡軌道線",
     "lat": 36.763965,
-    "lon": 137.032469
+    "lon": 137.032469,
+    "station_passenger_log": 4.882801922586371,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0078",
@@ -641,7 +917,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道立山線",
     "lat": 36.573066,
-    "lon": 137.380218
+    "lon": 137.380218,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0073",
@@ -649,7 +929,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道上滝線",
     "lat": 36.660579,
-    "lon": 137.224883
+    "lon": 137.224883,
+    "station_passenger_log": 5.459585514144159,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0041",
@@ -665,7 +949,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道立山線",
     "lat": 36.574919,
-    "lon": 137.395716
+    "lon": 137.395716,
+    "station_passenger_log": 2.772588722239781,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0113",
@@ -673,7 +961,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.874677,
-    "lon": 137.450908
+    "lon": 137.450908,
+    "station_passenger_log": 5.0106352940962555,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0025",
@@ -681,7 +973,11 @@
     "prefecture": "富山県",
     "line_name": "JR高山本線",
     "lat": 36.589645,
-    "lon": 137.174978
+    "lon": 137.174978,
+    "station_passenger_log": 4.23410650459726,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0183",
@@ -689,7 +985,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.741589,
-    "lon": 137.248953
+    "lon": 137.248953,
+    "station_passenger_log": 7.964503363551548,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0069",
@@ -697,7 +997,11 @@
     "prefecture": "富山県",
     "line_name": "富山ライトレール",
     "lat": 36.751935,
-    "lon": 137.230479
+    "lon": 137.230479,
+    "station_passenger_log": 5.918893854273146,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0089",
@@ -705,7 +1009,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.698644,
-    "lon": 137.253021
+    "lon": 137.253021,
+    "station_passenger_log": 6.887552571664617,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0037",
@@ -713,7 +1021,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線新湊港線",
     "lat": 36.777825,
-    "lon": 137.099368
+    "lon": 137.099368,
+    "station_passenger_log": 4.276666119016055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0180",
@@ -721,7 +1033,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.787987,
-    "lon": 137.37805
+    "lon": 137.37805,
+    "station_passenger_log": 6.042632833682381,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0011",
@@ -729,7 +1045,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.57605,
-    "lon": 136.898166
+    "lon": 136.898166,
+    "station_passenger_log": 3.8918202981106265,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0008",
@@ -737,7 +1057,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.618573,
-    "lon": 136.9435
+    "lon": 136.9435,
+    "station_passenger_log": 5.541263545158426,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0004",
@@ -745,7 +1069,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.704504,
-    "lon": 136.999379
+    "lon": 136.999379,
+    "station_passenger_log": 3.970291913552122,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0119",
@@ -753,7 +1081,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.869788,
-    "lon": 137.505842
+    "lon": 137.505842,
+    "station_passenger_log": 4.787491742782046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0084",
@@ -777,7 +1109,11 @@
     "prefecture": "富山県",
     "line_name": "JR高山本線",
     "lat": 36.529323,
-    "lon": 137.22872
+    "lon": 137.22872,
+    "station_passenger_log": 3.9318256327243257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0130",
@@ -785,7 +1121,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道立山線",
     "lat": 36.657559,
-    "lon": 137.316519
+    "lon": 137.316519,
+    "station_passenger_log": 5.472270673671475,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0134",
@@ -793,7 +1133,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道立山線",
     "lat": 36.582175,
-    "lon": 137.335605
+    "lon": 137.335605,
+    "station_passenger_log": 1.3862943611198906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0168",
@@ -801,7 +1145,11 @@
     "prefecture": "富山県",
     "line_name": "黒部峡谷鉄道",
     "lat": 36.696732,
-    "lon": 137.658179
+    "lon": 137.658179,
+    "station_passenger_log": 7.259819610363186,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0182",
@@ -809,7 +1157,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.743454,
-    "lon": 137.298404
+    "lon": 137.298404,
+    "station_passenger_log": 7.210079628170788,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0021",
@@ -817,7 +1169,11 @@
     "prefecture": "富山県",
     "line_name": "JR氷見線",
     "lat": 36.849899,
-    "lon": 136.990631
+    "lon": 136.990631,
+    "station_passenger_log": 7.240649694255466,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0048",
@@ -825,7 +1181,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線高岡軌道線",
     "lat": 36.761501,
-    "lon": 137.029761
+    "lon": 137.029761,
+    "station_passenger_log": 5.241747015059643,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0133",
@@ -833,7 +1193,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道立山線",
     "lat": 36.622207,
-    "lon": 137.320972
+    "lon": 137.320972,
+    "station_passenger_log": 3.4011973816621555,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0006",
@@ -841,7 +1205,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.655124,
-    "lon": 136.970372
+    "lon": 136.970372,
+    "station_passenger_log": 6.493753839851686,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0174",
@@ -849,7 +1217,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.951897,
-    "lon": 137.556179
+    "lon": 137.556179,
+    "station_passenger_log": 6.720220155135295,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0104",
@@ -857,7 +1229,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.77743,
-    "lon": 137.361411
+    "lon": 137.361411,
+    "station_passenger_log": 3.871201010907891,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0120",
@@ -865,7 +1241,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.8634,
-    "lon": 137.519407
+    "lon": 137.519407,
+    "station_passenger_log": 4.74493212836325,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0038",
@@ -873,7 +1253,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線新湊港線",
     "lat": 36.776726,
-    "lon": 137.105331
+    "lon": 137.105331,
+    "station_passenger_log": 3.828641396489095,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0103",
@@ -881,7 +1265,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.768955,
-    "lon": 137.348676
+    "lon": 137.348676,
+    "station_passenger_log": 7.869783902530146,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0042",
@@ -897,7 +1285,11 @@
     "prefecture": "富山県",
     "line_name": "富山ライトレール",
     "lat": 36.735445,
-    "lon": 137.22662
+    "lon": 137.22662,
+    "station_passenger_log": 5.5909869805108565,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0022",
@@ -905,7 +1297,11 @@
     "prefecture": "富山県",
     "line_name": "JR高山本線",
     "lat": 36.471625,
-    "lon": 137.237975
+    "lon": 137.237975,
+    "station_passenger_log": 5.855071922202427,
+    "station_line_count": 1.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0177",
@@ -913,7 +1309,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.906031,
-    "lon": 137.426534
+    "lon": 137.426534,
+    "station_passenger_log": 6.796823718274855,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0128",
@@ -921,7 +1321,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道立山線",
     "lat": 36.679759,
-    "lon": 137.317768
+    "lon": 137.317768,
+    "station_passenger_log": 4.174387269895637,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0095",
@@ -929,7 +1333,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.701963,
-    "lon": 137.335472
+    "lon": 137.335472,
+    "station_passenger_log": 4.330733340286331,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0155",
@@ -945,7 +1353,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.672492,
-    "lon": 136.865859
+    "lon": 136.865859,
+    "station_passenger_log": 7.991930519852477,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0007",
@@ -953,7 +1365,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.636424,
-    "lon": 136.953648
+    "lon": 136.953648,
+    "station_passenger_log": 7.618251097876695,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0012",
@@ -961,7 +1377,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.558121,
-    "lon": 136.878135
+    "lon": 136.878135,
+    "station_passenger_log": 6.645090969505644,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0190",
@@ -969,7 +1389,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.708239,
-    "lon": 136.932079
+    "lon": 136.932079,
+    "station_passenger_log": 7.5310163320779155,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0010",
@@ -977,7 +1401,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.588541,
-    "lon": 136.923166
+    "lon": 136.923166,
+    "station_passenger_log": 7.273092595999522,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0127",
@@ -985,7 +1413,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道立山線",
     "lat": 36.686595,
-    "lon": 137.317515
+    "lon": 137.317515,
+    "station_passenger_log": 5.056245805348308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0083",
@@ -1001,7 +1433,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道立山線",
     "lat": 36.583253,
-    "lon": 137.445234
+    "lon": 137.445234,
+    "station_passenger_log": 7.290292882446597,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0070",
@@ -1009,7 +1445,11 @@
     "prefecture": "富山県",
     "line_name": "富山ライトレール",
     "lat": 36.757454,
-    "lon": 137.233907
+    "lon": 137.233907,
+    "station_passenger_log": 4.941642422609304,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0034",
@@ -1017,7 +1457,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線新湊港線",
     "lat": 36.780056,
-    "lon": 137.0753
+    "lon": 137.0753,
+    "station_passenger_log": 5.902633333401366,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0024",
@@ -1025,7 +1469,11 @@
     "prefecture": "富山県",
     "line_name": "JR高山本線",
     "lat": 36.562129,
-    "lon": 137.211437
+    "lon": 137.211437,
+    "station_passenger_log": 5.030437921392435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0052",
@@ -1049,7 +1497,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.848846,
-    "lon": 137.416203
+    "lon": 137.416203,
+    "station_passenger_log": 5.60947179518496,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0170",
@@ -1057,7 +1509,11 @@
     "prefecture": "富山県",
     "line_name": "立山ケーブルカー",
     "lat": 36.583399,
-    "lon": 137.458695
+    "lon": 137.458695,
+    "station_passenger_log": 7.198183577101943,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0016",
@@ -1065,7 +1521,11 @@
     "prefecture": "富山県",
     "line_name": "JR氷見線",
     "lat": 36.768259,
-    "lon": 137.039885
+    "lon": 137.039885,
+    "station_passenger_log": 5.673323267171493,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0053",
@@ -1073,7 +1533,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線高岡軌道線",
     "lat": 36.773239,
-    "lon": 137.049031
+    "lon": 137.049031,
+    "station_passenger_log": 4.143134726391533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0117",
@@ -1081,7 +1545,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.87187,
-    "lon": 137.485948
+    "lon": 137.485948,
+    "station_passenger_log": 3.912023005428146,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0118",
@@ -1089,7 +1557,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.871151,
-    "lon": 137.493175
+    "lon": 137.493175,
+    "station_passenger_log": 3.4339872044851463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0148",
@@ -1105,7 +1577,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線高岡軌道線",
     "lat": 36.76682,
-    "lon": 137.035619
+    "lon": 137.035619,
+    "station_passenger_log": 4.3694478524670215,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0114",
@@ -1113,7 +1589,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.875038,
-    "lon": 137.459221
+    "lon": 137.459221,
+    "station_passenger_log": 5.517452896464707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0068",
@@ -1121,7 +1601,11 @@
     "prefecture": "富山県",
     "line_name": "富山ライトレール",
     "lat": 36.748602,
-    "lon": 137.228643
+    "lon": 137.228643,
+    "station_passenger_log": 6.075346031088684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0067",
@@ -1129,7 +1613,11 @@
     "prefecture": "富山県",
     "line_name": "富山ライトレール",
     "lat": 36.742663,
-    "lon": 137.227463
+    "lon": 137.227463,
+    "station_passenger_log": 7.045776576879511,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0143",
@@ -1137,7 +1625,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.680844,
-    "lon": 137.216663
+    "lon": 137.216663,
+    "station_passenger_log": 5.940171252720432,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0176",
@@ -1145,7 +1637,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.930124,
-    "lon": 137.459298
+    "lon": 137.459298,
+    "station_passenger_log": 5.783825182329737,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0100",
@@ -1153,7 +1649,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.746405,
-    "lon": 137.340139
+    "lon": 137.340139,
+    "station_passenger_log": 4.430816798843313,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0030",
@@ -1161,7 +1661,11 @@
     "prefecture": "富山県",
     "line_name": "JR高山本線",
     "lat": 36.699331,
-    "lon": 137.177029
+    "lon": 137.177029,
+    "station_passenger_log": 6.541029999189903,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0101",
@@ -1169,7 +1673,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.755579,
-    "lon": 137.334617
+    "lon": 137.334617,
+    "station_passenger_log": 5.948034989180646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0146",
@@ -1177,7 +1685,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.689001,
-    "lon": 137.215676
+    "lon": 137.215676,
+    "station_passenger_log": 7.136483208590247,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0189",
@@ -1185,7 +1697,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.724295,
-    "lon": 136.965295
+    "lon": 136.965295,
+    "station_passenger_log": 7.025538314638521,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0107",
@@ -1193,7 +1709,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.803775,
-    "lon": 137.394653
+    "lon": 137.394653,
+    "station_passenger_log": 4.7535901911063645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0157",
@@ -1201,7 +1721,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.692322,
-    "lon": 137.206535
+    "lon": 137.206535,
+    "station_passenger_log": 4.189654742026425,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0039",
@@ -1209,7 +1733,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線新湊港線",
     "lat": 36.774704,
-    "lon": 137.111839
+    "lon": 137.111839,
+    "station_passenger_log": 4.574710978503383,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0091",
@@ -1217,7 +1745,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.703309,
-    "lon": 137.290792
+    "lon": 137.290792,
+    "station_passenger_log": 6.0112671744041615,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0064",
@@ -1225,7 +1757,11 @@
     "prefecture": "富山県",
     "line_name": "富山ライトレール",
     "lat": 36.722121,
-    "lon": 137.224844
+    "lon": 137.224844,
+    "station_passenger_log": 6.100318952020064,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0015",
@@ -1233,7 +1769,11 @@
     "prefecture": "富山県",
     "line_name": "JR氷見線",
     "lat": 36.749764,
-    "lon": 137.027851
+    "lon": 137.027851,
+    "station_passenger_log": 7.790282380703483,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0106",
@@ -1241,7 +1781,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.790673,
-    "lon": 137.382688
+    "lon": 137.382688,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0026",
@@ -1249,7 +1793,11 @@
     "prefecture": "富山県",
     "line_name": "JR高山本線",
     "lat": 36.591391,
-    "lon": 137.138379
+    "lon": 137.138379,
+    "station_passenger_log": 7.43543801981455,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0018",
@@ -1257,7 +1805,11 @@
     "prefecture": "富山県",
     "line_name": "JR氷見線",
     "lat": 36.805361,
-    "lon": 137.050729
+    "lon": 137.050729,
+    "station_passenger_log": 6.175867270105761,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0187",
@@ -1265,7 +1817,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.733818,
-    "lon": 137.055904
+    "lon": 137.055904,
+    "station_passenger_log": 7.634820677745543,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0173",
@@ -1273,7 +1829,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.973863,
-    "lon": 137.599423
+    "lon": 137.599423,
+    "station_passenger_log": 5.117993812416755,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0013",
@@ -1281,7 +1841,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.538513,
-    "lon": 136.887522
+    "lon": 136.887522,
+    "station_passenger_log": 4.574710978503383,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0094",
@@ -1289,7 +1853,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.699905,
-    "lon": 137.327245
+    "lon": 137.327245,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0092",
@@ -1297,7 +1865,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.705725,
-    "lon": 137.306632
+    "lon": 137.306632,
+    "station_passenger_log": 6.48768401848461,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0090",
@@ -1305,7 +1877,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.698978,
-    "lon": 137.266222
+    "lon": 137.266222,
+    "station_passenger_log": 7.666221925662725,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0028",
@@ -1313,7 +1889,11 @@
     "prefecture": "富山県",
     "line_name": "JR高山本線",
     "lat": 36.664135,
-    "lon": 137.160428
+    "lon": 137.160428,
+    "station_passenger_log": 7.724446645633537,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0132",
@@ -1321,7 +1901,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道立山線",
     "lat": 36.633317,
-    "lon": 137.319288
+    "lon": 137.319288,
+    "station_passenger_log": 4.948759890378168,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0167",
@@ -1329,7 +1913,11 @@
     "prefecture": "富山県",
     "line_name": "黒部峡谷鉄道",
     "lat": 36.734378,
-    "lon": 137.651315
+    "lon": 137.651315,
+    "station_passenger_log": 6.738152494595957,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0115",
@@ -1337,7 +1925,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.873678,
-    "lon": 137.470803
+    "lon": 137.470803,
+    "station_passenger_log": 2.0794415416798357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0077",
@@ -1345,7 +1937,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道上滝線",
     "lat": 36.636207,
-    "lon": 137.242854
+    "lon": 137.242854,
+    "station_passenger_log": 5.680172609017068,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0019",
@@ -1353,7 +1949,11 @@
     "prefecture": "富山県",
     "line_name": "JR氷見線",
     "lat": 36.816484,
-    "lon": 137.037583
+    "lon": 137.037583,
+    "station_passenger_log": 5.231108616854587,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0150",
@@ -1361,7 +1961,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.697432,
-    "lon": 137.216105
+    "lon": 137.216105,
+    "station_passenger_log": 6.459904454377535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0087",
@@ -1369,7 +1973,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.700757,
-    "lon": 137.214163
+    "lon": 137.214163,
+    "station_passenger_log": 9.068085324395312,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "toyama_0152",
@@ -1377,7 +1985,11 @@
     "prefecture": "富山県",
     "line_name": "富山地鉄市内線",
     "lat": 36.700236,
-    "lon": 137.213316
+    "lon": 137.213316,
+    "station_passenger_log": 7.394493107219038,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0111",
@@ -1385,7 +1997,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.865928,
-    "lon": 137.423194
+    "lon": 137.423194,
+    "station_passenger_log": 4.653960350157523,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0108",
@@ -1393,7 +2009,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.815113,
-    "lon": 137.400288
+    "lon": 137.400288,
+    "station_passenger_log": 5.424950017481403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0112",
@@ -1401,7 +2021,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.874091,
-    "lon": 137.444125
+    "lon": 137.444125,
+    "station_passenger_log": 5.3612921657094255,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0125",
@@ -1409,7 +2033,11 @@
     "prefecture": "富山県",
     "line_name": "富山地方鉄道本線",
     "lat": 36.840716,
-    "lon": 137.559833
+    "lon": 137.559833,
+    "station_passenger_log": 3.1780538303479458,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0009",
@@ -1417,7 +2045,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.606697,
-    "lon": 136.936007
+    "lon": 136.936007,
+    "station_passenger_log": 4.795790545596741,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0001",
@@ -1425,7 +2057,11 @@
     "prefecture": "富山県",
     "line_name": "JR城端線",
     "lat": 36.740948,
-    "lon": 137.015274
+    "lon": 137.015274,
+    "station_passenger_log": 9.670419920024225,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "toyama_0188",
@@ -1433,7 +2069,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.737246,
-    "lon": 136.988638
+    "lon": 136.988638,
+    "station_passenger_log": 6.996681488176539,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0040",
@@ -1441,7 +2081,11 @@
     "prefecture": "富山県",
     "line_name": "万葉線高岡軌道線",
     "lat": 36.742173,
-    "lon": 137.014722
+    "lon": 137.014722,
+    "station_passenger_log": 6.887552571664617,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0179",
@@ -1449,7 +2093,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.82642,
-    "lon": 137.405693
+    "lon": 137.405693,
+    "station_passenger_log": 8.21959545417708,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0166",
@@ -1457,7 +2105,11 @@
     "prefecture": "富山県",
     "line_name": "黒部峡谷鉄道",
     "lat": 36.786638,
-    "lon": 137.624738
+    "lon": 137.624738,
+    "station_passenger_log": 5.0689042022202315,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0178",
@@ -1465,7 +2117,11 @@
     "prefecture": "富山県",
     "line_name": "あいの風とやま鉄道線",
     "lat": 36.869322,
-    "lon": 137.434393
+    "lon": 137.434393,
+    "station_passenger_log": 7.780303087908373,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0164",
@@ -1473,7 +2129,11 @@
     "prefecture": "富山県",
     "line_name": "北陸新幹線",
     "lat": 36.874232,
-    "lon": 137.481326
+    "lon": 137.481326,
+    "station_passenger_log": 7.367077059881012,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0172",
@@ -1481,7 +2141,11 @@
     "prefecture": "富山県",
     "line_name": "黒部ケーブルカー",
     "lat": 36.566999,
-    "lon": 137.650274
+    "lon": 137.650274,
+    "station_passenger_log": 7.190676034332207,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0171",
@@ -1489,7 +2153,11 @@
     "prefecture": "富山県",
     "line_name": "黒部ケーブルカー",
     "lat": 36.566585,
-    "lon": 137.658591
+    "lon": 137.658591,
+    "station_passenger_log": 7.090076835776092,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "toyama_0060",

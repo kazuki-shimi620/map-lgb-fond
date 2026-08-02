@@ -3,10 +3,19 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import sys
 from collections import defaultdict
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
+
+SRC_ROOT = Path(__file__).resolve().parents[1]
+if str(SRC_ROOT) not in sys.path:
+    sys.path.insert(0, str(SRC_ROOT))
+
+from features.commercial_facility_scale import (  # noqa: E402
+    classify_commercial_facility_scale,
+)
 
 
 def build_commercial_facility_summary(rows: list[dict[str, str]]) -> dict[str, Any]:
@@ -16,6 +25,12 @@ def build_commercial_facility_summary(rows: list[dict[str, str]]) -> dict[str, A
     latest_year = max((_to_int(row.get("open_year")) or 0 for row in valid_rows), default=None)
     if latest_year == 0:
         latest_year = None
+    scale_counts = defaultdict(int)
+    scale_basis_counts = defaultdict(int)
+    for row in valid_rows:
+        scale = _facility_scale(row)
+        scale_counts[scale["scaleCode"]] += 1
+        scale_basis_counts[scale["scaleBasis"]] += 1
 
     city_groups: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
     prefecture_groups: dict[str, list[dict[str, str]]] = defaultdict(list)
@@ -24,7 +39,7 @@ def build_commercial_facility_summary(rows: list[dict[str, str]]) -> dict[str, A
         prefecture_groups[row["prefecture"]].append(row)
 
     return {
-        "schemaVersion": 2,
+        "schemaVersion": 3,
         "source": "jcsc",
         "sourceLabel": "日本ショッピングセンター協会 オープンSC一覧表",
         "generatedAt": generated_at,
@@ -48,6 +63,8 @@ def build_commercial_facility_summary(rows: list[dict[str, str]]) -> dict[str, A
                 sum(1 for row in valid_rows if _to_float(row.get("store_area_sqm")) is None),
                 len(valid_rows),
             ),
+            "scaleCounts": dict(sorted(scale_counts.items())),
+            "scaleBasisCounts": dict(sorted(scale_basis_counts.items())),
         },
         "latestOpenYear": latest_year,
         "prefectures": {
@@ -110,6 +127,7 @@ def _summarize_group(rows: list[dict[str, str]]) -> dict[str, Any]:
             "openMonth": _to_int(row.get("open_month")),
             "storeAreaSqm": _to_float(row.get("store_area_sqm")),
             "tenantCount": _to_int(row.get("tenant_count")),
+            **_facility_scale(row),
         }
         for row in sorted_rows
     ]
@@ -125,6 +143,12 @@ def _summarize_group(rows: list[dict[str, str]]) -> dict[str, Any]:
         "facilities": facilities,
         "recentOpenings": facilities[:3],
     }
+
+
+def _facility_scale(row: dict[str, str]) -> dict[str, Any]:
+    return classify_commercial_facility_scale(
+        _to_float(row.get("store_area_sqm")), _to_int(row.get("tenant_count"))
+    )
 
 
 def _city_key(prefecture: str, city: str) -> str:

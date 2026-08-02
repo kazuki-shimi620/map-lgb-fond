@@ -5,7 +5,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.689554,
-    "lon": 135.984906
+    "lon": 135.984906,
+    "station_passenger_log": 3.8918202981106265,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0117",
@@ -13,7 +17,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海高野線",
     "lat": 34.257362,
-    "lon": 135.548025
+    "lon": 135.548025,
+    "station_passenger_log": 2.6390573296152584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0015",
@@ -21,7 +29,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.262003,
-    "lon": 135.340256
+    "lon": 135.340256,
+    "station_passenger_log": 6.703188113240863,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0002",
@@ -29,7 +41,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.322613,
-    "lon": 135.634741
+    "lon": 135.634741,
+    "station_passenger_log": 5.332718793265369,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0116",
@@ -37,7 +53,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海高野線",
     "lat": 34.266497,
-    "lon": 135.553207
+    "lon": 135.553207,
+    "station_passenger_log": 3.295836866004329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0069",
@@ -45,7 +65,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.108854,
-    "lon": 135.145524
+    "lon": 135.145524,
+    "station_passenger_log": 6.38856140554563,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0032",
@@ -53,7 +77,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.582115,
-    "lon": 135.9221
+    "lon": 135.9221,
+    "station_passenger_log": 4.812184355372417,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0098",
@@ -61,7 +89,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海加太線",
     "lat": 34.248781,
-    "lon": 135.13291
+    "lon": 135.13291,
+    "station_passenger_log": 6.677083461247136,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0006",
@@ -69,7 +101,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.304209,
-    "lon": 135.532019
+    "lon": 135.532019,
+    "station_passenger_log": 6.361302477572996,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0037",
@@ -77,7 +113,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.47547,
-    "lon": 135.781546
+    "lon": 135.781546,
+    "station_passenger_log": 6.2166061010848646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0114",
@@ -85,7 +125,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海高野線",
     "lat": 34.287775,
-    "lon": 135.564487
+    "lon": 135.564487,
+    "station_passenger_log": 6.091309882077698,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0101",
@@ -93,7 +137,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海加太線",
     "lat": 34.257627,
-    "lon": 135.104025
+    "lon": 135.104025,
+    "station_passenger_log": 5.918893854273146,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0086",
@@ -101,7 +149,11 @@
     "prefecture": "和歌山県",
     "line_name": "わかやま電鉄貴志川線",
     "lat": 34.203982,
-    "lon": 135.218027
+    "lon": 135.218027,
+    "station_passenger_log": 5.676753802268282,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0089",
@@ -109,7 +161,11 @@
     "prefecture": "和歌山県",
     "line_name": "わかやま電鉄貴志川線",
     "lat": 34.204127,
-    "lon": 135.251653
+    "lon": 135.251653,
+    "station_passenger_log": 6.2324480165505225,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0099",
@@ -125,7 +181,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR阪和線",
     "lat": 34.26244,
-    "lon": 135.207116
+    "lon": 135.207116,
+    "station_passenger_log": 8.754791763700032,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "wakayama_0071",
@@ -133,7 +193,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.141864,
-    "lon": 135.193361
+    "lon": 135.193361,
+    "station_passenger_log": 4.948759890378168,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0055",
@@ -141,7 +205,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.796798,
-    "lon": 135.241072
+    "lon": 135.241072,
+    "station_passenger_log": 4.74493212836325,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0068",
@@ -149,7 +217,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.100082,
-    "lon": 135.115525
+    "lon": 135.115525,
+    "station_passenger_log": 6.274762021241939,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0103",
@@ -157,7 +229,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海加太線",
     "lat": 34.275283,
-    "lon": 135.080773
+    "lon": 135.080773,
+    "station_passenger_log": 6.418364935936212,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0070",
@@ -165,7 +241,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.125794,
-    "lon": 135.159963
+    "lon": 135.159963,
+    "station_passenger_log": 6.9363427358340495,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0020",
@@ -173,7 +253,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.24167,
-    "lon": 135.245677
+    "lon": 135.245677,
+    "station_passenger_log": 5.752572638825633,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0053",
@@ -181,7 +265,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.767597,
-    "lon": 135.324223
+    "lon": 135.324223,
+    "station_passenger_log": 6.9363427358340495,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0056",
@@ -189,7 +277,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.818592,
-    "lon": 135.219856
+    "lon": 135.219856,
+    "station_passenger_log": 5.7899601708972535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0035",
@@ -197,7 +289,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.518449,
-    "lon": 135.820882
+    "lon": 135.820882,
+    "station_passenger_log": 5.3706380281276624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0088",
@@ -205,7 +301,11 @@
     "prefecture": "和歌山県",
     "line_name": "わかやま電鉄貴志川線",
     "lat": 34.203329,
-    "lon": 135.235882
+    "lon": 135.235882,
+    "station_passenger_log": 5.720311776607412,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0011",
@@ -213,7 +313,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.272883,
-    "lon": 135.433498
+    "lon": 135.433498,
+    "station_passenger_log": 6.655440350367647,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0044",
@@ -221,7 +325,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.546837,
-    "lon": 135.495784
+    "lon": 135.495784,
+    "station_passenger_log": 5.2832037287379885,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0058",
@@ -229,7 +337,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.896954,
-    "lon": 135.206709
+    "lon": 135.206709,
+    "station_passenger_log": 4.727387818712341,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0022",
@@ -237,7 +349,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.232436,
-    "lon": 135.191454
+    "lon": 135.191454,
+    "station_passenger_log": 10.352427134229572,
+    "station_line_count": 4.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "wakayama_0105",
@@ -245,7 +361,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海本線",
     "lat": 34.2753,
-    "lon": 135.147036
+    "lon": 135.147036,
+    "station_passenger_log": 9.12423767292277,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "wakayama_0077",
@@ -253,7 +373,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.236717,
-    "lon": 135.166731
+    "lon": 135.166731,
+    "station_passenger_log": 9.6390661736589,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "wakayama_0104",
@@ -261,7 +385,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海和歌山港線",
     "lat": 34.217321,
-    "lon": 135.146488
+    "lon": 135.146488,
+    "station_passenger_log": 6.100318952020064,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0041",
@@ -269,7 +397,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.501171,
-    "lon": 135.654969
+    "lon": 135.654969,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0091",
@@ -277,7 +409,11 @@
     "prefecture": "和歌山県",
     "line_name": "わかやま電鉄貴志川線",
     "lat": 34.204706,
-    "lon": 135.285239
+    "lon": 135.285239,
+    "station_passenger_log": 4.852030263919617,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0008",
@@ -285,7 +421,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.298548,
-    "lon": 135.493698
+    "lon": 135.493698,
+    "station_passenger_log": 5.209486152841421,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0031",
@@ -293,7 +433,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.591348,
-    "lon": 135.927536
+    "lon": 135.927536,
+    "station_passenger_log": 5.209486152841421,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0007",
@@ -301,7 +445,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.298607,
-    "lon": 135.517382
+    "lon": 135.517382,
+    "station_passenger_log": 6.1463292576688975,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0113",
@@ -309,7 +457,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海高野線",
     "lat": 34.296582,
-    "lon": 135.579882
+    "lon": 135.579882,
+    "station_passenger_log": 5.802118375377063,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0121",
@@ -317,7 +469,11 @@
     "prefecture": "和歌山県",
     "line_name": "紀州鉄道",
     "lat": 33.89627,
-    "lon": 135.156604
+    "lon": 135.156604,
+    "station_passenger_log": 4.189654742026425,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0026",
@@ -325,7 +481,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.662751,
-    "lon": 135.972302
+    "lon": 135.972302,
+    "station_passenger_log": 4.762173934797756,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0075",
@@ -333,7 +493,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.213375,
-    "lon": 135.188907
+    "lon": 135.188907,
+    "station_passenger_log": 8.068089626278244,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0090",
@@ -341,7 +505,11 @@
     "prefecture": "和歌山県",
     "line_name": "わかやま電鉄貴志川線",
     "lat": 34.20581,
-    "lon": 135.262077
+    "lon": 135.262077,
+    "station_passenger_log": 4.007333185232471,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0087",
@@ -349,7 +517,11 @@
     "prefecture": "和歌山県",
     "line_name": "わかやま電鉄貴志川線",
     "lat": 34.203524,
-    "lon": 135.22509
+    "lon": 135.22509,
+    "station_passenger_log": 6.520621127558696,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0054",
@@ -357,7 +529,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.780372,
-    "lon": 135.27948
+    "lon": 135.27948,
+    "station_passenger_log": 4.762173934797756,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0016",
@@ -365,7 +541,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.254945,
-    "lon": 135.321272
+    "lon": 135.321272,
+    "station_passenger_log": 8.138856750696325,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0123",
@@ -374,10 +554,10 @@
     "line_name": "紀州鉄道",
     "lat": 33.889565,
     "lon": 135.152905,
-    "station_passenger_log": 8.633552992532433,
+    "station_passenger_log": 3.784189633918261,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "D"
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0019",
@@ -385,7 +565,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.244481,
-    "lon": 135.261579
+    "lon": 135.261579,
+    "station_passenger_log": 6.47543271670409,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0063",
@@ -393,7 +577,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.012804,
-    "lon": 135.163994
+    "lon": 135.163994,
+    "station_passenger_log": 5.6937321388027,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0060",
@@ -401,7 +589,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.907842,
-    "lon": 135.158773
+    "lon": 135.158773,
+    "station_passenger_log": 8.023552392404348,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0110",
@@ -409,7 +601,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海高野線",
     "lat": 34.338016,
-    "lon": 135.602085
+    "lon": 135.602085,
+    "station_passenger_log": 7.790282380703483,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0014",
@@ -417,7 +613,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.265178,
-    "lon": 135.364224
+    "lon": 135.364224,
+    "station_passenger_log": 7.0326242610280065,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0023",
@@ -425,7 +625,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.725119,
-    "lon": 135.994099
+    "lon": 135.994099,
+    "station_passenger_log": 7.412764017426563,
+    "station_line_count": 1.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0083",
@@ -433,7 +637,11 @@
     "prefecture": "和歌山県",
     "line_name": "わかやま電鉄貴志川線",
     "lat": 34.226457,
-    "lon": 135.201722
+    "lon": 135.201722,
+    "station_passenger_log": 6.19644412779452,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0049",
@@ -441,7 +649,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.696774,
-    "lon": 135.417581
+    "lon": 135.417581,
+    "station_passenger_log": 5.7899601708972535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0097",
@@ -457,7 +669,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海高野線",
     "lat": 34.355292,
-    "lon": 135.603207
+    "lon": 135.603207,
+    "station_passenger_log": 8.748939631537715,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "wakayama_0046",
@@ -465,7 +681,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.609879,
-    "lon": 135.403877
+    "lon": 135.403877,
+    "station_passenger_log": 3.295836866004329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0106",
@@ -473,7 +693,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海鋼索線",
     "lat": 34.23435,
-    "lon": 135.582078
+    "lon": 135.582078,
+    "station_passenger_log": 4.07753744390572,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0003",
@@ -489,7 +713,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.509539,
-    "lon": 135.603286
+    "lon": 135.603286,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0072",
@@ -497,7 +725,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.154536,
-    "lon": 135.21443
+    "lon": 135.21443,
+    "station_passenger_log": 8.439663988907,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0030",
@@ -505,7 +737,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.609568,
-    "lon": 135.92508
+    "lon": 135.92508,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0064",
@@ -513,7 +749,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.03226,
-    "lon": 135.179992
+    "lon": 135.179992,
+    "station_passenger_log": 7.535296702444088,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0093",
@@ -521,7 +761,11 @@
     "prefecture": "和歌山県",
     "line_name": "わかやま電鉄貴志川線",
     "lat": 34.213327,
-    "lon": 135.301292
+    "lon": 135.301292,
+    "station_passenger_log": 6.133398042996649,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0039",
@@ -529,7 +773,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.488059,
-    "lon": 135.719107
+    "lon": 135.719107,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0082",
@@ -537,7 +785,11 @@
     "prefecture": "和歌山県",
     "line_name": "わかやま電鉄貴志川線",
     "lat": 34.227262,
-    "lon": 135.192862
+    "lon": 135.192862,
+    "station_passenger_log": 5.056245805348308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0021",
@@ -545,7 +797,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.242153,
-    "lon": 135.229492
+    "lon": 135.229492,
+    "station_passenger_log": 6.395261598115449,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0040",
@@ -553,7 +809,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.490281,
-    "lon": 135.677603
+    "lon": 135.677603,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0048",
@@ -561,7 +821,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.676259,
-    "lon": 135.3874
+    "lon": 135.3874,
+    "station_passenger_log": 7.133295954896068,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0102",
@@ -569,7 +833,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海加太線",
     "lat": 34.260549,
-    "lon": 135.094495
+    "lon": 135.094495,
+    "station_passenger_log": 4.852030263919617,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0084",
@@ -585,7 +853,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.852823,
-    "lon": 135.229774
+    "lon": 135.229774,
+    "station_passenger_log": 5.043425116919247,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0085",
@@ -593,7 +865,11 @@
     "prefecture": "和歌山県",
     "line_name": "わかやま電鉄貴志川線",
     "lat": 34.207229,
-    "lon": 135.20727
+    "lon": 135.20727,
+    "station_passenger_log": 6.238324625039508,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0009",
@@ -601,7 +877,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.292073,
-    "lon": 135.479947
+    "lon": 135.479947,
+    "station_passenger_log": 7.141245122350491,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0067",
@@ -609,7 +889,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.086106,
-    "lon": 135.124074
+    "lon": 135.124074,
+    "station_passenger_log": 7.862112211662748,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0012",
@@ -617,7 +901,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.270718,
-    "lon": 135.404184
+    "lon": 135.404184,
+    "station_passenger_log": 7.492760300922379,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0096",
@@ -625,7 +913,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海加太線",
     "lat": 34.254937,
-    "lon": 135.165908
+    "lon": 135.165908,
+    "station_passenger_log": 7.8434564043761155,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0074",
@@ -633,7 +925,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.187715,
-    "lon": 135.187594
+    "lon": 135.187594,
+    "station_passenger_log": 8.213652703029998,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0078",
@@ -641,7 +937,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR阪和線",
     "lat": 34.269213,
-    "lon": 135.246179
+    "lon": 135.246179,
+    "station_passenger_log": 8.812992231969966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "wakayama_0080",
@@ -649,7 +949,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR阪和線",
     "lat": 34.242894,
-    "lon": 135.190223
+    "lon": 135.190223,
+    "station_passenger_log": 6.930494765951626,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0025",
@@ -657,7 +961,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.679891,
-    "lon": 135.970447
+    "lon": 135.970447,
+    "station_passenger_log": 5.953243334287785,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0061",
@@ -665,7 +973,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.92578,
-    "lon": 135.145177
+    "lon": 135.145177,
+    "station_passenger_log": 6.028278520230698,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0029",
@@ -673,7 +985,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.628133,
-    "lon": 135.941811
+    "lon": 135.941811,
+    "station_passenger_log": 6.47543271670409,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0028",
@@ -681,7 +997,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.636706,
-    "lon": 135.93457
+    "lon": 135.93457,
+    "station_passenger_log": 4.48863636973214,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0036",
@@ -689,7 +1009,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.497321,
-    "lon": 135.796272
+    "lon": 135.796272,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0066",
@@ -697,7 +1021,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.077928,
-    "lon": 135.169939
+    "lon": 135.169939,
+    "station_passenger_log": 6.910750787961936,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0047",
@@ -705,7 +1033,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.652709,
-    "lon": 135.393261
+    "lon": 135.393261,
+    "station_passenger_log": 4.634728988229636,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0018",
@@ -713,7 +1045,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.246357,
-    "lon": 135.287346
+    "lon": 135.287346,
+    "station_passenger_log": 6.9440872082295275,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0004",
@@ -721,7 +1057,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.3131,
-    "lon": 135.584051
+    "lon": 135.584051,
+    "station_passenger_log": 6.934397209928558,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0122",
@@ -729,7 +1069,11 @@
     "prefecture": "和歌山県",
     "line_name": "紀州鉄道",
     "lat": 33.894292,
-    "lon": 135.154655
+    "lon": 135.154655,
+    "station_passenger_log": 3.6375861597263857,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0050",
@@ -737,7 +1081,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.720993,
-    "lon": 135.402355
+    "lon": 135.402355,
+    "station_passenger_log": 4.290459441148391,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0045",
@@ -745,7 +1093,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.58491,
-    "lon": 135.458122
+    "lon": 135.458122,
+    "station_passenger_log": 4.844187086458591,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0038",
@@ -753,7 +1105,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.490896,
-    "lon": 135.736277
+    "lon": 135.736277,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0033",
@@ -761,7 +1117,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.560473,
-    "lon": 135.893979
+    "lon": 135.893979,
+    "station_passenger_log": 3.610917912644224,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0112",
@@ -769,7 +1129,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海高野線",
     "lat": 34.307495,
-    "lon": 135.60478
+    "lon": 135.60478,
+    "station_passenger_log": 5.231108616854587,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0034",
@@ -777,7 +1141,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.536504,
-    "lon": 135.868132
+    "lon": 135.868132,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0051",
@@ -785,7 +1153,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.733619,
-    "lon": 135.383581
+    "lon": 135.383581,
+    "station_passenger_log": 7.741967899820685,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0062",
@@ -793,7 +1165,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.969028,
-    "lon": 135.128303
+    "lon": 135.128303,
+    "station_passenger_log": 6.255750041753367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0119",
@@ -801,7 +1177,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海高野線",
     "lat": 34.242852,
-    "lon": 135.571034
+    "lon": 135.571034,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0118",
@@ -809,7 +1189,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海高野線",
     "lat": 34.235723,
-    "lon": 135.553705
+    "lon": 135.553705,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0013",
@@ -817,7 +1201,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.268242,
-    "lon": 135.391536
+    "lon": 135.391536,
+    "station_passenger_log": 5.043425116919247,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0076",
@@ -825,7 +1213,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.241966,
-    "lon": 135.181451
+    "lon": 135.181451,
+    "station_passenger_log": 5.631211781821365,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0108",
@@ -833,7 +1225,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海高野線",
     "lat": 34.366288,
-    "lon": 135.599904
+    "lon": 135.599904,
+    "station_passenger_log": 6.059123195581797,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0017",
@@ -841,7 +1237,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.248301,
-    "lon": 135.311171
+    "lon": 135.311171,
+    "station_passenger_log": 6.07073772800249,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0052",
@@ -849,7 +1249,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.747323,
-    "lon": 135.355334
+    "lon": 135.355334,
+    "station_passenger_log": 4.653960350157523,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0065",
@@ -857,7 +1261,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.057807,
-    "lon": 135.197043
+    "lon": 135.197043,
+    "station_passenger_log": 7.682021510826875,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0100",
@@ -865,7 +1273,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海加太線",
     "lat": 34.255461,
-    "lon": 135.110786
+    "lon": 135.110786,
+    "station_passenger_log": 6.461468176353717,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0092",
@@ -873,7 +1285,11 @@
     "prefecture": "和歌山県",
     "line_name": "わかやま電鉄貴志川線",
     "lat": 34.209508,
-    "lon": 135.290871
+    "lon": 135.290871,
+    "station_passenger_log": 5.3706380281276624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0124",
@@ -881,7 +1297,11 @@
     "prefecture": "和歌山県",
     "line_name": "紀州鉄道",
     "lat": 33.886796,
-    "lon": 135.152991
+    "lon": 135.152991,
+    "station_passenger_log": 3.4339872044851463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0010",
@@ -889,7 +1309,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.280136,
-    "lon": 135.452551
+    "lon": 135.452551,
+    "station_passenger_log": 4.23410650459726,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0043",
@@ -897,7 +1321,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.515577,
-    "lon": 135.575611
+    "lon": 135.575611,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0094",
@@ -905,7 +1333,11 @@
     "prefecture": "和歌山県",
     "line_name": "わかやま電鉄貴志川線",
     "lat": 34.209509,
-    "lon": 135.311855
+    "lon": 135.311855,
+    "station_passenger_log": 6.573680166960646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0059",
@@ -913,7 +1345,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.911118,
-    "lon": 135.175811
+    "lon": 135.175811,
+    "station_passenger_log": 4.976733742420574,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0027",
@@ -921,7 +1357,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 33.643917,
-    "lon": 135.936508
+    "lon": 135.936508,
+    "station_passenger_log": 4.143134726391533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0001",
@@ -929,7 +1369,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.32811,
-    "lon": 135.655639
+    "lon": 135.655639,
+    "station_passenger_log": 6.075346031088684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0115",
@@ -937,7 +1381,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海高野線",
     "lat": 34.271635,
-    "lon": 135.566359
+    "lon": 135.566359,
+    "station_passenger_log": 4.30406509320417,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0005",
@@ -945,7 +1393,11 @@
     "prefecture": "和歌山県",
     "line_name": "JR和歌山線",
     "lat": 34.307603,
-    "lon": 135.556957
+    "lon": 135.556957,
+    "station_passenger_log": 6.980075940561763,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0107",
@@ -953,7 +1405,11 @@
     "prefecture": "和歌山県",
     "line_name": "南海鋼索線",
     "lat": 34.227789,
-    "lon": 135.577619
+    "lon": 135.577619,
+    "station_passenger_log": 7.4205789054108,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "wakayama_0073",
@@ -961,6 +1417,10 @@
     "prefecture": "和歌山県",
     "line_name": "JR紀勢本線",
     "lat": 34.170584,
-    "lon": 135.210172
+    "lon": 135.210172,
+    "station_passenger_log": 8.40804774415544,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

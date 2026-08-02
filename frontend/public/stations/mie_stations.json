@@ -5,7 +5,11 @@
     "prefecture": "三重県",
     "line_name": "四日市あすなろう鉄道内部線",
     "lat": 34.966495,
-    "lon": 136.618352
+    "lon": 136.618352,
+    "station_passenger_log": 8.688116703257823,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0015",
@@ -13,7 +17,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.654895,
-    "lon": 136.436067
+    "lon": 136.436067,
+    "station_passenger_log": 4.77912349311153,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0028",
@@ -21,7 +29,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.76278,
-    "lon": 136.49938
+    "lon": 136.49938,
+    "station_passenger_log": 7.938802248154481,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0103",
@@ -29,7 +41,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道北勢線",
     "lat": 35.06888,
-    "lon": 136.615722
+    "lon": 136.615722,
+    "station_passenger_log": 6.329720905522696,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0219",
@@ -37,7 +53,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄鈴鹿線",
     "lat": 34.880232,
-    "lon": 136.562316
+    "lon": 136.562316,
+    "station_passenger_log": 6.992096427415888,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0051",
@@ -45,7 +65,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.001454,
-    "lon": 136.202518
+    "lon": 136.202518,
+    "station_passenger_log": 4.276666119016055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0038",
@@ -53,7 +77,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.394823,
-    "lon": 136.409183
+    "lon": 136.409183,
+    "station_passenger_log": 5.6240175061873385,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0091",
@@ -61,7 +89,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.107062,
-    "lon": 136.538651
+    "lon": 136.538651,
+    "station_passenger_log": 6.298949246855942,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0045",
@@ -69,7 +101,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.167771,
-    "lon": 136.282519
+    "lon": 136.282519,
+    "station_passenger_log": 3.8918202981106265,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0012",
@@ -77,7 +113,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.597996,
-    "lon": 136.499273
+    "lon": 136.499273,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0201",
@@ -85,7 +125,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄志摩線",
     "lat": 34.379334,
-    "lon": 136.811422
+    "lon": 136.811422,
+    "station_passenger_log": 4.330733340286331,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0132",
@@ -93,7 +137,11 @@
     "prefecture": "三重県",
     "line_name": "伊賀鉄道",
     "lat": 34.694998,
-    "lon": 136.161219
+    "lon": 136.161219,
+    "station_passenger_log": 1.791759469228055,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0123",
@@ -101,7 +149,11 @@
     "prefecture": "三重県",
     "line_name": "伊賀鉄道",
     "lat": 34.767654,
-    "lon": 136.129419
+    "lon": 136.129419,
+    "station_passenger_log": 7.0587581525186645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0027",
@@ -109,7 +161,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.81423,
-    "lon": 136.479628
+    "lon": 136.479628,
+    "station_passenger_log": 6.436150368369428,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0222",
@@ -117,7 +173,11 @@
     "prefecture": "三重県",
     "line_name": "養老鉄道",
     "lat": 35.096179,
-    "lon": 136.661818
+    "lon": 136.661818,
+    "station_passenger_log": 6.7580945044277305,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0223",
@@ -125,7 +185,11 @@
     "prefecture": "三重県",
     "line_name": "養老鉄道",
     "lat": 35.115899,
-    "lon": 136.647235
+    "lon": 136.647235,
+    "station_passenger_log": 5.886104031450156,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0193",
@@ -133,7 +197,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄志摩線",
     "lat": 34.479577,
-    "lon": 136.845542
+    "lon": 136.845542,
+    "station_passenger_log": 5.655991810819852,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0208",
@@ -141,7 +209,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄湯の山線",
     "lat": 34.969242,
-    "lon": 136.602715
+    "lon": 136.602715,
+    "station_passenger_log": 7.388327859577107,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0115",
@@ -149,7 +221,11 @@
     "prefecture": "三重県",
     "line_name": "伊勢鉄伊勢線",
     "lat": 34.812167,
-    "lon": 136.543033
+    "lon": 136.543033,
+    "station_passenger_log": 4.727387818712341,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0214",
@@ -157,7 +233,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄湯の山線",
     "lat": 35.012297,
-    "lon": 136.50425
+    "lon": 136.50425,
+    "station_passenger_log": 6.848005274576363,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0131",
@@ -173,7 +253,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.122757,
-    "lon": 136.519744
+    "lon": 136.519744,
+    "station_passenger_log": 5.337538079701318,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0164",
@@ -181,7 +265,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.675543,
-    "lon": 136.477806
+    "lon": 136.477806,
+    "station_passenger_log": 9.040263541598666,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0050",
@@ -189,7 +277,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.016026,
-    "lon": 136.242703
+    "lon": 136.242703,
+    "station_passenger_log": 3.6635616461296463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0026",
@@ -205,7 +297,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 33.939424,
-    "lon": 136.180882
+    "lon": 136.180882,
+    "station_passenger_log": 3.4657359027997265,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0008",
@@ -213,7 +309,11 @@
     "prefecture": "三重県",
     "line_name": "JR参宮線",
     "lat": 34.503753,
-    "lon": 136.77713
+    "lon": 136.77713,
+    "station_passenger_log": 6.234410725718371,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0007",
@@ -221,7 +321,11 @@
     "prefecture": "三重県",
     "line_name": "JR参宮線",
     "lat": 34.495884,
-    "lon": 136.739797
+    "lon": 136.739797,
+    "station_passenger_log": 6.349138991379798,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0225",
@@ -229,7 +333,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄鳥羽線",
     "lat": 34.476433,
-    "lon": 136.727287
+    "lon": 136.727287,
+    "station_passenger_log": 8.133587417660966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0199",
@@ -237,7 +345,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄志摩線",
     "lat": 34.407259,
-    "lon": 136.810655
+    "lon": 136.810655,
+    "station_passenger_log": 2.4849066497880004,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0075",
@@ -245,7 +357,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 34.868319,
-    "lon": 136.492658
+    "lon": 136.492658,
+    "station_passenger_log": 7.232010331664759,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0016",
@@ -253,7 +369,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.642493,
-    "lon": 136.412653
+    "lon": 136.412653,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0116",
@@ -261,7 +381,11 @@
     "prefecture": "三重県",
     "line_name": "伊勢鉄伊勢線",
     "lat": 34.800444,
-    "lon": 136.542492
+    "lon": 136.542492,
+    "station_passenger_log": 4.204692619390966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0179",
@@ -269,7 +393,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄山田線",
     "lat": 34.6148,
-    "lon": 136.497531
+    "lon": 136.497531,
+    "station_passenger_log": 5.872117789475416,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0166",
@@ -277,7 +405,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.635028,
-    "lon": 136.477894
+    "lon": 136.477894,
+    "station_passenger_log": 8.755264763314685,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0014",
@@ -285,7 +417,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.647523,
-    "lon": 136.446916
+    "lon": 136.446916,
+    "station_passenger_log": 3.6375861597263857,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0023",
@@ -293,7 +429,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.555355,
-    "lon": 136.263952
+    "lon": 136.263952,
+    "station_passenger_log": 2.302585092994046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0017",
@@ -301,7 +441,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.650013,
-    "lon": 136.385179
+    "lon": 136.385179,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0025",
@@ -309,7 +453,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.512155,
-    "lon": 136.260031
+    "lon": 136.260031,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0018",
@@ -317,7 +465,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.64767,
-    "lon": 136.356849
+    "lon": 136.356849,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0210",
@@ -325,7 +477,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄湯の山線",
     "lat": 34.977688,
-    "lon": 136.566934
+    "lon": 136.566934,
+    "station_passenger_log": 7.558516743045645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0006",
@@ -333,7 +489,11 @@
     "prefecture": "三重県",
     "line_name": "JR参宮線",
     "lat": 34.49126,
-    "lon": 136.709661
+    "lon": 136.709661,
+    "station_passenger_log": 9.177817180270624,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0138",
@@ -341,7 +501,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 35.038246,
-    "lon": 136.668821
+    "lon": 136.668821,
+    "station_passenger_log": 8.247220052745229,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0209",
@@ -349,7 +513,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄湯の山線",
     "lat": 34.969772,
-    "lon": 136.590736
+    "lon": 136.590736,
+    "station_passenger_log": 7.764720544771477,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0041",
@@ -357,7 +525,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.299779,
-    "lon": 136.395394
+    "lon": 136.395394,
+    "station_passenger_log": 4.867534450455582,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0093",
@@ -365,7 +537,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.133137,
-    "lon": 136.514419
+    "lon": 136.514419,
+    "station_passenger_log": 5.780743515792329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0177",
@@ -373,7 +549,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄大阪線",
     "lat": 34.656783,
-    "lon": 136.408034
+    "lon": 136.408034,
+    "station_passenger_log": 3.828641396489095,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0021",
@@ -381,7 +561,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.599785,
-    "lon": 136.309081
+    "lon": 136.309081,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0151",
@@ -389,7 +573,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.869431,
-    "lon": 136.616765
+    "lon": 136.616765,
+    "station_passenger_log": 7.498315870766981,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0022",
@@ -397,7 +585,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.574023,
-    "lon": 136.278349
+    "lon": 136.278349,
+    "station_passenger_log": 2.772588722239781,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0172",
@@ -405,7 +597,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄大阪線",
     "lat": 34.682695,
-    "lon": 136.205088
+    "lon": 136.205088,
+    "station_passenger_log": 4.762173934797756,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0080",
@@ -413,7 +609,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 34.789143,
-    "lon": 136.122907
+    "lon": 136.122907,
+    "station_passenger_log": 7.142827401161621,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0134",
@@ -421,7 +621,11 @@
     "prefecture": "三重県",
     "line_name": "伊賀鉄道",
     "lat": 34.673639,
-    "lon": 136.152854
+    "lon": 136.152854,
+    "station_passenger_log": 8.181160858023409,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0035",
@@ -429,7 +633,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.478469,
-    "lon": 136.538986
+    "lon": 136.538986,
+    "station_passenger_log": 4.454347296253507,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0079",
@@ -437,7 +645,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 34.804193,
-    "lon": 136.163171
+    "lon": 136.163171,
+    "station_passenger_log": 5.10594547390058,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0130",
@@ -445,7 +657,11 @@
     "prefecture": "三重県",
     "line_name": "伊賀鉄道",
     "lat": 34.715199,
-    "lon": 136.15318
+    "lon": 136.15318,
+    "station_passenger_log": 4.02535169073515,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0087",
@@ -453,7 +669,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.046774,
-    "lon": 136.565936
+    "lon": 136.565936,
+    "station_passenger_log": 6.717804695023691,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0032",
@@ -461,7 +681,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.617494,
-    "lon": 136.507574
+    "lon": 136.507574,
+    "station_passenger_log": 5.4510384535657,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0235",
@@ -469,7 +693,11 @@
     "prefecture": "三重県",
     "line_name": "四日市あすなろう鉄道内部線",
     "lat": 34.925515,
-    "lon": 136.58697
+    "lon": 136.58697,
+    "station_passenger_log": 6.771935555839602,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0074",
@@ -477,7 +705,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 34.890307,
-    "lon": 136.529907
+    "lon": 136.529907,
+    "station_passenger_log": 7.064759027791802,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0077",
@@ -485,7 +717,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 34.842639,
-    "lon": 136.340305
+    "lon": 136.340305,
+    "station_passenger_log": 4.418840607796598,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0196",
@@ -501,7 +737,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.060519,
-    "lon": 136.566096
+    "lon": 136.566096,
+    "station_passenger_log": 6.023447592961033,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0147",
@@ -509,7 +749,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.916197,
-    "lon": 136.624797
+    "lon": 136.624797,
+    "station_passenger_log": 7.307202314764738,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0152",
@@ -517,7 +761,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.854793,
-    "lon": 136.608332
+    "lon": 136.608332,
+    "station_passenger_log": 7.709308333385869,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0156",
@@ -525,7 +773,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.798491,
-    "lon": 136.556216
+    "lon": 136.556216,
+    "station_passenger_log": 7.73718007783463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0163",
@@ -533,7 +785,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.692183,
-    "lon": 136.49662
+    "lon": 136.49662,
+    "station_passenger_log": 8.03365842788615,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0071",
@@ -541,7 +797,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 34.941514,
-    "lon": 136.609662
+    "lon": 136.609662,
+    "station_passenger_log": 7.285506548522785,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0231",
@@ -549,7 +809,11 @@
     "prefecture": "三重県",
     "line_name": "四日市あすなろう鉄道内部線",
     "lat": 34.949949,
-    "lon": 136.601015
+    "lon": 136.601015,
+    "station_passenger_log": 6.754604099487962,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0168",
@@ -557,7 +821,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄大阪線",
     "lat": 34.621612,
-    "lon": 136.095753
+    "lon": 136.095753,
+    "station_passenger_log": 9.09952053687094,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0127",
@@ -565,7 +833,11 @@
     "prefecture": "三重県",
     "line_name": "伊賀鉄道",
     "lat": 34.74839,
-    "lon": 136.136961
+    "lon": 136.136961,
+    "station_passenger_log": 5.393627546352362,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0070",
@@ -573,7 +845,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 34.962721,
-    "lon": 136.630168
+    "lon": 136.630168,
+    "station_passenger_log": 8.395477432732141,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0101",
@@ -581,7 +857,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道北勢線",
     "lat": 35.060685,
-    "lon": 136.643731
+    "lon": 136.643731,
+    "station_passenger_log": 5.44673737166631,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0146",
@@ -589,7 +869,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.933008,
-    "lon": 136.622242
+    "lon": 136.622242,
+    "station_passenger_log": 8.87570644462861,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0002",
@@ -597,7 +881,11 @@
     "prefecture": "三重県",
     "line_name": "JR参宮線",
     "lat": 34.497641,
-    "lon": 136.596997
+    "lon": 136.596997,
+    "station_passenger_log": 5.293304824724492,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0224",
@@ -605,7 +893,11 @@
     "prefecture": "三重県",
     "line_name": "養老鉄道",
     "lat": 35.133855,
-    "lon": 136.640594
+    "lon": 136.640594,
+    "station_passenger_log": 7.045776576879511,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0001",
@@ -613,7 +905,11 @@
     "prefecture": "三重県",
     "line_name": "JR参宮線",
     "lat": 34.516318,
-    "lon": 136.572777
+    "lon": 136.572777,
+    "station_passenger_log": 6.967909201801884,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0176",
@@ -621,7 +917,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄大阪線",
     "lat": 34.664058,
-    "lon": 136.368896
+    "lon": 136.368896,
+    "station_passenger_log": 5.733341276897746,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0042",
@@ -629,7 +929,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.278152,
-    "lon": 136.359284
+    "lon": 136.359284,
+    "station_passenger_log": 3.912023005428146,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0090",
@@ -637,7 +941,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.09196,
-    "lon": 136.545376
+    "lon": 136.545376,
+    "station_passenger_log": 6.413458957167357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0049",
@@ -645,7 +953,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.061901,
-    "lon": 136.222934
+    "lon": 136.222934,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0106",
@@ -653,7 +965,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道北勢線",
     "lat": 35.095044,
-    "lon": 136.57021
+    "lon": 136.57021,
+    "station_passenger_log": 6.1224928095143865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0056",
@@ -661,7 +977,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 33.902241,
-    "lon": 136.11806
+    "lon": 136.11806,
+    "station_passenger_log": 2.0794415416798357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0083",
@@ -669,7 +989,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.022147,
-    "lon": 136.633382
+    "lon": 136.633382,
+    "station_passenger_log": 6.447305862541213,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0215",
@@ -677,7 +1001,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄湯の山線",
     "lat": 35.012521,
-    "lon": 136.49417
+    "lon": 136.49417,
+    "station_passenger_log": 6.541029999189903,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0191",
@@ -685,7 +1013,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄山田線",
     "lat": 34.488256,
-    "lon": 136.714002
+    "lon": 136.714002,
+    "station_passenger_log": 8.756682421266532,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0004",
@@ -693,7 +1025,11 @@
     "prefecture": "三重県",
     "line_name": "JR参宮線",
     "lat": 34.503252,
-    "lon": 136.672506
+    "lon": 136.672506,
+    "station_passenger_log": 6.501289670540389,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0189",
@@ -701,7 +1037,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄山田線",
     "lat": 34.497829,
-    "lon": 136.698526
+    "lon": 136.698526,
+    "station_passenger_log": 7.033506484287697,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0020",
@@ -709,7 +1049,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.625791,
-    "lon": 136.319246
+    "lon": 136.319246,
+    "station_passenger_log": 5.6937321388027,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0068",
@@ -725,7 +1069,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 34.996553,
-    "lon": 136.65004
+    "lon": 136.65004,
+    "station_passenger_log": 6.206575926724928,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0188",
@@ -733,7 +1081,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄山田線",
     "lat": 34.512746,
-    "lon": 136.685163
+    "lon": 136.685163,
+    "station_passenger_log": 6.423246963533519,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0234",
@@ -741,7 +1093,11 @@
     "prefecture": "三重県",
     "line_name": "四日市あすなろう鉄道内部線",
     "lat": 34.928701,
-    "lon": 136.592322
+    "lon": 136.592322,
+    "station_passenger_log": 5.641907070938114,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0048",
@@ -749,7 +1105,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.074304,
-    "lon": 136.190168
+    "lon": 136.190168,
+    "station_passenger_log": 6.398594934535208,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0086",
@@ -757,7 +1117,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.035272,
-    "lon": 136.588342
+    "lon": 136.588342,
+    "station_passenger_log": 6.501289670540389,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0005",
@@ -765,7 +1129,11 @@
     "prefecture": "三重県",
     "line_name": "JR参宮線",
     "lat": 34.49581,
-    "lon": 136.694246
+    "lon": 136.694246,
+    "station_passenger_log": 5.204006687076795,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0081",
@@ -773,7 +1141,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 34.767686,
-    "lon": 136.054184
+    "lon": 136.054184,
+    "station_passenger_log": 5.209486152841421,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0142",
@@ -781,7 +1153,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.977283,
-    "lon": 136.623201
+    "lon": 136.623201,
+    "station_passenger_log": 7.448333860897476,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0178",
@@ -789,7 +1165,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄大阪線",
     "lat": 34.656425,
-    "lon": 136.436692
+    "lon": 136.436692,
+    "station_passenger_log": 6.699500340161678,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0037",
@@ -797,7 +1177,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.419739,
-    "lon": 136.473218
+    "lon": 136.473218,
+    "station_passenger_log": 4.852030263919617,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0139",
@@ -805,7 +1189,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 35.016267,
-    "lon": 136.659736
+    "lon": 136.659736,
+    "station_passenger_log": 8.556606193773073,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0129",
@@ -813,7 +1201,11 @@
     "prefecture": "三重県",
     "line_name": "伊賀鉄道",
     "lat": 34.726245,
-    "lon": 136.148661
+    "lon": 136.148661,
+    "station_passenger_log": 5.111987788356544,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0084",
@@ -821,7 +1213,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.028477,
-    "lon": 136.61843
+    "lon": 136.61843,
+    "station_passenger_log": 5.556828061699537,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0220",
@@ -829,7 +1225,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄鈴鹿線",
     "lat": 34.875124,
-    "lon": 136.542406
+    "lon": 136.542406,
+    "station_passenger_log": 8.42222295382501,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0124",
@@ -845,7 +1245,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.554016,
-    "lon": 136.553519
+    "lon": 136.553519,
+    "station_passenger_log": 6.652863029353347,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0114",
@@ -853,7 +1257,11 @@
     "prefecture": "三重県",
     "line_name": "伊勢鉄伊勢線",
     "lat": 34.826288,
-    "lon": 136.544077
+    "lon": 136.544077,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0204",
@@ -861,7 +1269,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄志摩線",
     "lat": 34.334208,
-    "lon": 136.818053
+    "lon": 136.818053,
+    "station_passenger_log": 4.5217885770490405,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0202",
@@ -869,7 +1281,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄志摩線",
     "lat": 34.36959,
-    "lon": 136.805806
+    "lon": 136.805806,
+    "station_passenger_log": 6.295266001439646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0206",
@@ -877,7 +1293,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄志摩線",
     "lat": 34.3162,
-    "lon": 136.829977
+    "lon": 136.829977,
+    "station_passenger_log": 5.41610040220442,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0194",
@@ -885,7 +1305,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄志摩線",
     "lat": 34.470028,
-    "lon": 136.84197
+    "lon": 136.84197,
+    "station_passenger_log": 5.762051382780177,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0221",
@@ -893,7 +1317,11 @@
     "prefecture": "三重県",
     "line_name": "養老鉄道",
     "lat": 35.078242,
-    "lon": 136.674595
+    "lon": 136.674595,
+    "station_passenger_log": 6.075346031088684,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0185",
@@ -901,7 +1329,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄山田線",
     "lat": 34.537877,
-    "lon": 136.615389
+    "lon": 136.615389,
+    "station_passenger_log": 7.176254532017144,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0078",
@@ -909,7 +1341,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 34.821168,
-    "lon": 136.206507
+    "lon": 136.206507,
+    "station_passenger_log": 5.916202062607435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0121",
@@ -917,7 +1353,11 @@
     "prefecture": "三重県",
     "line_name": "伊賀鉄道",
     "lat": 34.786338,
-    "lon": 136.115903
+    "lon": 136.115903,
+    "station_passenger_log": 4.3694478524670215,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0144",
@@ -925,7 +1365,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.955816,
-    "lon": 136.61873
+    "lon": 136.61873,
+    "station_passenger_log": 7.396335293800808,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0054",
@@ -933,7 +1377,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 33.927886,
-    "lon": 136.144215
+    "lon": 136.144215,
+    "station_passenger_log": 4.189654742026425,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0230",
@@ -941,7 +1389,11 @@
     "prefecture": "三重県",
     "line_name": "四日市あすなろう鉄道内部線",
     "lat": 34.95594,
-    "lon": 136.604409
+    "lon": 136.604409,
+    "station_passenger_log": 6.754604099487962,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0186",
@@ -949,7 +1401,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄山田線",
     "lat": 34.531112,
-    "lon": 136.642597
+    "lon": 136.642597,
+    "station_passenger_log": 6.88653164253051,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0187",
@@ -957,7 +1413,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄山田線",
     "lat": 34.521497,
-    "lon": 136.668815
+    "lon": 136.668815,
+    "station_passenger_log": 7.512071245835466,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0102",
@@ -966,10 +1426,10 @@
     "line_name": "三岐鉄道北勢線",
     "lat": 35.064398,
     "lon": 136.630113,
-    "station_passenger_log": 10.292382802315128,
+    "station_passenger_log": 6.982862751468942,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "C"
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0085",
@@ -977,7 +1437,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.032798,
-    "lon": 136.605976
+    "lon": 136.605976,
+    "station_passenger_log": 7.848933726364071,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0058",
@@ -985,7 +1449,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 33.876213,
-    "lon": 136.085585
+    "lon": 136.085585,
+    "station_passenger_log": 4.5217885770490405,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0067",
@@ -993,7 +1461,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 35.033782,
-    "lon": 136.65803
+    "lon": 136.65803,
+    "station_passenger_log": 7.360739903058278,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0226",
@@ -1001,7 +1473,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄鳥羽線",
     "lat": 34.477195,
-    "lon": 136.757357
+    "lon": 136.757357,
+    "station_passenger_log": 4.5217885770490405,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0118",
@@ -1009,7 +1485,11 @@
     "prefecture": "三重県",
     "line_name": "伊勢鉄伊勢線",
     "lat": 34.758717,
-    "lon": 136.512126
+    "lon": 136.512126,
+    "station_passenger_log": 4.007333185232471,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0105",
@@ -1017,7 +1497,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道北勢線",
     "lat": 35.077945,
-    "lon": 136.587562
+    "lon": 136.587562,
+    "station_passenger_log": 6.744059186311348,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0182",
@@ -1025,7 +1509,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄山田線",
     "lat": 34.565543,
-    "lon": 136.546122
+    "lon": 136.546122,
+    "station_passenger_log": 7.641564441260972,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0094",
@@ -1033,7 +1521,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.147643,
-    "lon": 136.498904
+    "lon": 136.498904,
+    "station_passenger_log": 4.672828834461906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0174",
@@ -1041,7 +1533,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄大阪線",
     "lat": 34.675599,
-    "lon": 136.321627
+    "lon": 136.321627,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0180",
@@ -1057,7 +1553,11 @@
     "prefecture": "三重県",
     "line_name": "JR参宮線",
     "lat": 34.496201,
-    "lon": 136.799134
+    "lon": 136.799134,
+    "station_passenger_log": 3.871201010907891,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0197",
@@ -1066,7 +1566,7 @@
     "line_name": "近鉄志摩線",
     "lat": 34.432726,
     "lon": 136.840144,
-    "station_passenger_log": 7.290974778142981,
+    "station_passenger_log": 4.653960350157523,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
     "station_rank": "E"
@@ -1077,7 +1577,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.577053,
-    "lon": 136.535801
+    "lon": 136.535801,
+    "station_passenger_log": 9.540650806483589,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0064",
@@ -1085,7 +1589,11 @@
     "prefecture": "三重県",
     "line_name": "JR草津線",
     "lat": 34.846993,
-    "lon": 136.255704
+    "lon": 136.255704,
+    "station_passenger_log": 6.175867270105761,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0217",
@@ -1093,7 +1601,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄鈴鹿線",
     "lat": 34.871381,
-    "lon": 136.595947
+    "lon": 136.595947,
+    "station_passenger_log": 5.455321115357702,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0036",
@@ -1101,7 +1613,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.444625,
-    "lon": 136.509286
+    "lon": 136.509286,
+    "station_passenger_log": 5.318119993844216,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0165",
@@ -1109,7 +1625,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.663372,
-    "lon": 136.47749
+    "lon": 136.47749,
+    "station_passenger_log": 6.361302477572996,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0066",
@@ -1117,7 +1637,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 35.06747,
-    "lon": 136.683832
+    "lon": 136.683832,
+    "station_passenger_log": 9.81705782453774,
+    "station_line_count": 3.0,
+    "station_operator_count": 3.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0126",
@@ -1125,7 +1649,11 @@
     "prefecture": "三重県",
     "line_name": "伊賀鉄道",
     "lat": 34.754164,
-    "lon": 136.136621
+    "lon": 136.136621,
+    "station_passenger_log": 5.60947179518496,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0169",
@@ -1133,7 +1661,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄大阪線",
     "lat": 34.641297,
-    "lon": 136.112639
+    "lon": 136.112639,
+    "station_passenger_log": 8.363109176033522,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0212",
@@ -1141,7 +1673,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄湯の山線",
     "lat": 34.996586,
-    "lon": 136.541611
+    "lon": 136.541611,
+    "station_passenger_log": 7.9157131993821155,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0043",
@@ -1149,7 +1685,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.258098,
-    "lon": 136.356555
+    "lon": 136.356555,
+    "station_passenger_log": 3.367295829986474,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0089",
@@ -1157,7 +1697,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.075326,
-    "lon": 136.557033
+    "lon": 136.557033,
+    "station_passenger_log": 5.267858159063328,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0107",
@@ -1165,7 +1709,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道北勢線",
     "lat": 35.110984,
-    "lon": 136.560349
+    "lon": 136.560349,
+    "station_passenger_log": 6.8966943316227125,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0148",
@@ -1173,7 +1721,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.90489,
-    "lon": 136.631208
+    "lon": 136.631208,
+    "station_passenger_log": 7.239214973779806,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0175",
@@ -1181,7 +1733,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄大阪線",
     "lat": 34.67468,
-    "lon": 136.348576
+    "lon": 136.348576,
+    "station_passenger_log": 6.652863029353347,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0013",
@@ -1189,7 +1745,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.617691,
-    "lon": 136.482202
+    "lon": 136.482202,
+    "station_passenger_log": 3.871201010907891,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0183",
@@ -1197,7 +1757,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄山田線",
     "lat": 34.548879,
-    "lon": 136.583069
+    "lon": 136.583069,
+    "station_passenger_log": 6.885509670034818,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0133",
@@ -1205,7 +1769,11 @@
     "prefecture": "三重県",
     "line_name": "伊賀鉄道",
     "lat": 34.675828,
-    "lon": 136.16047
+    "lon": 136.16047,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0024",
@@ -1213,7 +1781,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.531967,
-    "lon": 136.270716
+    "lon": 136.270716,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0160",
@@ -1221,7 +1793,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.744425,
-    "lon": 136.514034
+    "lon": 136.514034,
+    "station_passenger_log": 8.962007209588313,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0227",
@@ -1229,7 +1805,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄鳥羽線",
     "lat": 34.479104,
-    "lon": 136.818533
+    "lon": 136.818533,
+    "station_passenger_log": 6.573680166960646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0200",
@@ -1237,7 +1817,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄志摩線",
     "lat": 34.394149,
-    "lon": 136.814427
+    "lon": 136.814427,
+    "station_passenger_log": 2.6390573296152584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0072",
@@ -1245,7 +1829,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 34.910684,
-    "lon": 136.598527
+    "lon": 136.598527,
+    "station_passenger_log": 7.43543801981455,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0073",
@@ -1253,7 +1841,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 34.897878,
-    "lon": 136.568018
+    "lon": 136.568018,
+    "station_passenger_log": 6.410174881966167,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0117",
@@ -1261,7 +1853,11 @@
     "prefecture": "三重県",
     "line_name": "伊勢鉄伊勢線",
     "lat": 34.781015,
-    "lon": 136.53099
+    "lon": 136.53099,
+    "station_passenger_log": 3.4339872044851463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0232",
@@ -1277,7 +1873,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 33.910091,
-    "lon": 136.138139
+    "lon": 136.138139,
+    "station_passenger_log": 3.610917912644224,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0029",
@@ -1285,7 +1885,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.73422,
-    "lon": 136.510486
+    "lon": 136.510486,
+    "station_passenger_log": 10.364639622058544,
+    "station_line_count": 3.0,
+    "station_operator_count": 3.0,
+    "station_rank": "C"
   },
   {
     "station_id": "mie_0162",
@@ -1293,7 +1897,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.715632,
-    "lon": 136.50006
+    "lon": 136.50006,
+    "station_passenger_log": 9.318297513481276,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0145",
@@ -1301,7 +1909,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.943304,
-    "lon": 136.622956
+    "lon": 136.622956,
+    "station_passenger_log": 7.433666540166168,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0216",
@@ -1309,7 +1921,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄湯の山線",
     "lat": 35.01159,
-    "lon": 136.473617
+    "lon": 136.473617,
+    "station_passenger_log": 5.768320995793772,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0039",
@@ -1317,7 +1933,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.360105,
-    "lon": 136.411976
+    "lon": 136.411976,
+    "station_passenger_log": 4.442651256490317,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0184",
@@ -1325,7 +1945,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄山田線",
     "lat": 34.541013,
-    "lon": 136.601001
+    "lon": 136.601001,
+    "station_passenger_log": 5.4680601411351315,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0057",
@@ -1333,7 +1957,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 33.889656,
-    "lon": 136.098745
+    "lon": 136.098745,
+    "station_passenger_log": 6.6052979209482015,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0128",
@@ -1341,7 +1969,11 @@
     "prefecture": "三重県",
     "line_name": "伊賀鉄道",
     "lat": 34.735424,
-    "lon": 136.140352
+    "lon": 136.140352,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0112",
@@ -1349,7 +1981,11 @@
     "prefecture": "三重県",
     "line_name": "伊勢鉄伊勢線",
     "lat": 34.855104,
-    "lon": 136.570038
+    "lon": 136.570038,
+    "station_passenger_log": 5.181783550292085,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0003",
@@ -1357,7 +1993,11 @@
     "prefecture": "三重県",
     "line_name": "JR参宮線",
     "lat": 34.488543,
-    "lon": 136.63402
+    "lon": 136.63402,
+    "station_passenger_log": 6.803505257608338,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0158",
@@ -1365,7 +2005,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.77066,
-    "lon": 136.53254
+    "lon": 136.53254,
+    "station_passenger_log": 7.395107546562485,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0153",
@@ -1373,7 +2017,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.833754,
-    "lon": 136.589584
+    "lon": 136.589584,
+    "station_passenger_log": 9.371778717853712,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0198",
@@ -1381,7 +2029,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄志摩線",
     "lat": 34.429218,
-    "lon": 136.831192
+    "lon": 136.831192,
+    "station_passenger_log": 3.4657359027997265,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0137",
@@ -1389,7 +2041,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 35.057772,
-    "lon": 136.67854
+    "lon": 136.67854,
+    "station_passenger_log": 7.724004656676065,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0034",
@@ -1397,7 +2053,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.502725,
-    "lon": 136.545538
+    "lon": 136.545538,
+    "station_passenger_log": 6.059123195581797,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0047",
@@ -1405,7 +2065,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.111943,
-    "lon": 136.227099
+    "lon": 136.227099,
+    "station_passenger_log": 5.342334251964811,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0155",
@@ -1413,7 +2077,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.812609,
-    "lon": 136.568881
+    "lon": 136.568881,
+    "station_passenger_log": 7.081708586105575,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0059",
@@ -1421,7 +2089,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 33.839881,
-    "lon": 136.062154
+    "lon": 136.062154,
+    "station_passenger_log": 4.990432586778736,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0104",
@@ -1429,7 +2101,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道北勢線",
     "lat": 35.073032,
-    "lon": 136.604887
+    "lon": 136.604887,
+    "station_passenger_log": 6.311734809152915,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0203",
@@ -1438,7 +2114,7 @@
     "line_name": "近鉄志摩線",
     "lat": 34.358742,
     "lon": 136.815975,
-    "station_passenger_log": 8.223090551161533,
+    "station_passenger_log": 3.4657359027997265,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
     "station_rank": "E"
@@ -1449,7 +2125,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.879439,
-    "lon": 136.622025
+    "lon": 136.622025,
+    "station_passenger_log": 6.634633357861686,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0062",
@@ -1457,7 +2137,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 33.759801,
-    "lon": 136.023846
+    "lon": 136.023846,
+    "station_passenger_log": 4.07753744390572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0060",
@@ -1465,7 +2149,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 33.827932,
-    "lon": 136.055371
+    "lon": 136.055371,
+    "station_passenger_log": 4.060443010546419,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0044",
@@ -1473,7 +2161,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.20937,
-    "lon": 136.339968
+    "lon": 136.339968,
+    "station_passenger_log": 5.799092654460526,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0170",
@@ -1481,7 +2173,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄大阪線",
     "lat": 34.662989,
-    "lon": 136.133022
+    "lon": 136.133022,
+    "station_passenger_log": 7.0431599159883405,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0046",
@@ -1489,7 +2185,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.142214,
-    "lon": 136.228763
+    "lon": 136.228763,
+    "station_passenger_log": 4.762173934797756,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0125",
@@ -1497,7 +2197,11 @@
     "prefecture": "三重県",
     "line_name": "伊賀鉄道",
     "lat": 34.761524,
-    "lon": 136.135732
+    "lon": 136.135732,
+    "station_passenger_log": 6.180016653652572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0213",
@@ -1505,7 +2209,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄湯の山線",
     "lat": 35.0087,
-    "lon": 136.517368
+    "lon": 136.517368,
+    "station_passenger_log": 7.563719668414366,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0100",
@@ -1513,7 +2221,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道北勢線",
     "lat": 35.059657,
-    "lon": 136.652189
+    "lon": 136.652189,
+    "station_passenger_log": 6.293419278846481,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0099",
@@ -1521,7 +2233,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道北勢線",
     "lat": 35.059752,
-    "lon": 136.666043
+    "lon": 136.666043,
+    "station_passenger_log": 5.3706380281276624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0122",
@@ -1529,7 +2245,11 @@
     "prefecture": "三重県",
     "line_name": "伊賀鉄道",
     "lat": 34.766923,
-    "lon": 136.124675
+    "lon": 136.124675,
+    "station_passenger_log": 4.882801922586371,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0237",
@@ -1537,7 +2257,11 @@
     "prefecture": "三重県",
     "line_name": "四日市あすなろう鉄道八王子線",
     "lat": 34.952921,
-    "lon": 136.591125
+    "lon": 136.591125,
+    "station_passenger_log": 7.581209826196346,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0097",
@@ -1545,7 +2269,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道北勢線",
     "lat": 35.065694,
-    "lon": 136.684034
+    "lon": 136.684034,
+    "station_passenger_log": 8.236950048061455,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0096",
@@ -1553,7 +2281,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.170368,
-    "lon": 136.478181
+    "lon": 136.478181,
+    "station_passenger_log": 4.983606621708336,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0095",
@@ -1561,7 +2293,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.16393,
-    "lon": 136.488224
+    "lon": 136.488224,
+    "station_passenger_log": 3.5263605246161616,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0173",
@@ -1569,7 +2305,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄大阪線",
     "lat": 34.676518,
-    "lon": 136.237988
+    "lon": 136.237988,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0157",
@@ -1577,7 +2317,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.785156,
-    "lon": 136.543173
+    "lon": 136.543173,
+    "station_passenger_log": 6.927557906278317,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0052",
@@ -1585,7 +2329,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 33.971643,
-    "lon": 136.189747
+    "lon": 136.189747,
+    "station_passenger_log": 3.951243718581427,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0207",
@@ -1593,7 +2341,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄志摩線",
     "lat": 34.308529,
-    "lon": 136.819285
+    "lon": 136.819285,
+    "station_passenger_log": 6.976348070447749,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0229",
@@ -1601,7 +2353,11 @@
     "prefecture": "三重県",
     "line_name": "四日市あすなろう鉄道内部線",
     "lat": 34.95919,
-    "lon": 136.6104
+    "lon": 136.6104,
+    "station_passenger_log": 6.1224928095143865,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0167",
@@ -1609,7 +2365,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄大阪線",
     "lat": 34.599467,
-    "lon": 136.073897
+    "lon": 136.073897,
+    "station_passenger_log": 6.81783057145415,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0143",
@@ -1617,7 +2377,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.966495,
-    "lon": 136.618352
+    "lon": 136.618352,
+    "station_passenger_log": 10.585978152907543,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "C"
   },
   {
     "station_id": "mie_0082",
@@ -1625,7 +2389,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道三岐線",
     "lat": 35.006491,
-    "lon": 136.64934
+    "lon": 136.64934,
+    "station_passenger_log": 9.823253159825525,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "mie_0135",
@@ -1633,7 +2401,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 35.097721,
-    "lon": 136.696162
+    "lon": 136.696162,
+    "station_passenger_log": 7.770645234129176,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0233",
@@ -1649,7 +2421,11 @@
     "prefecture": "三重県",
     "line_name": "伊勢鉄伊勢線",
     "lat": 34.878513,
-    "lon": 136.589009
+    "lon": 136.589009,
+    "station_passenger_log": 4.51085950651685,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0113",
@@ -1657,7 +2433,11 @@
     "prefecture": "三重県",
     "line_name": "伊勢鉄伊勢線",
     "lat": 34.841053,
-    "lon": 136.555154
+    "lon": 136.555154,
+    "station_passenger_log": 4.6913478822291435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0218",
@@ -1665,7 +2445,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄鈴鹿線",
     "lat": 34.883899,
-    "lon": 136.582812
+    "lon": 136.582812,
+    "station_passenger_log": 7.95892649305011,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0149",
@@ -1673,7 +2457,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.89158,
-    "lon": 136.6264
+    "lon": 136.6264,
+    "station_passenger_log": 7.0587581525186645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0065",
@@ -1681,7 +2469,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 35.098196,
-    "lon": 136.695751
+    "lon": 136.695751,
+    "station_passenger_log": 6.959398512133975,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0076",
@@ -1689,7 +2481,11 @@
     "prefecture": "三重県",
     "line_name": "JR関西本線",
     "lat": 34.849064,
-    "lon": 136.394777
+    "lon": 136.394777,
+    "station_passenger_log": 6.037870919922137,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0019",
@@ -1697,7 +2493,11 @@
     "prefecture": "三重県",
     "line_name": "JR名松線",
     "lat": 34.637693,
-    "lon": 136.339721
+    "lon": 136.339721,
+    "station_passenger_log": 2.833213344056216,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0109",
@@ -1705,7 +2505,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道北勢線",
     "lat": 35.146177,
-    "lon": 136.518796
+    "lon": 136.518796,
+    "station_passenger_log": 6.091309882077698,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0141",
@@ -1713,7 +2517,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.985207,
-    "lon": 136.629417
+    "lon": 136.629417,
+    "station_passenger_log": 8.23403420769204,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0040",
@@ -1721,7 +2529,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.331342,
-    "lon": 136.411082
+    "lon": 136.411082,
+    "station_passenger_log": 4.174387269895637,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0030",
@@ -1729,7 +2541,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.703554,
-    "lon": 136.50434
+    "lon": 136.50434,
+    "station_passenger_log": 6.516193076042964,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0061",
@@ -1737,7 +2553,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 33.804806,
-    "lon": 136.042416
+    "lon": 136.042416,
+    "station_passenger_log": 5.564520407322694,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0140",
@@ -1753,7 +2573,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄大阪線",
     "lat": 34.672848,
-    "lon": 136.177763
+    "lon": 136.177763,
+    "station_passenger_log": 7.1204443723924875,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0098",
@@ -1761,7 +2585,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道北勢線",
     "lat": 35.060705,
-    "lon": 136.676354
+    "lon": 136.676354,
+    "station_passenger_log": 6.306275286948016,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0159",
@@ -1769,7 +2597,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄名古屋線",
     "lat": 34.755082,
-    "lon": 136.516431
+    "lon": 136.516431,
+    "station_passenger_log": 7.146772179452637,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0031",
@@ -1777,7 +2609,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 34.667277,
-    "lon": 136.51256
+    "lon": 136.51256,
+    "station_passenger_log": 6.860663671448287,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0211",
@@ -1785,7 +2621,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄湯の山線",
     "lat": 34.983287,
-    "lon": 136.554488
+    "lon": 136.554488,
+    "station_passenger_log": 6.816735880594968,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0010",
@@ -1793,7 +2633,11 @@
     "prefecture": "三重県",
     "line_name": "JR参宮線",
     "lat": 34.486516,
-    "lon": 136.84279
+    "lon": 136.84279,
+    "station_passenger_log": 8.063377822367027,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0205",
@@ -1801,7 +2645,11 @@
     "prefecture": "三重県",
     "line_name": "近鉄志摩線",
     "lat": 34.329332,
-    "lon": 136.825747
+    "lon": 136.825747,
+    "station_passenger_log": 7.303843225277705,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0063",
@@ -1809,7 +2657,11 @@
     "prefecture": "三重県",
     "line_name": "JR紀勢本線",
     "lat": 33.736595,
-    "lon": 136.015364
+    "lon": 136.015364,
+    "station_passenger_log": 5.093750200806762,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0108",
@@ -1817,7 +2669,11 @@
     "prefecture": "三重県",
     "line_name": "三岐鉄道北勢線",
     "lat": 35.133807,
-    "lon": 136.535628
+    "lon": 136.535628,
+    "station_passenger_log": 5.3612921657094255,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "mie_0154",

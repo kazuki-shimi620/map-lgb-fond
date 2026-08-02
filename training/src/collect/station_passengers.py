@@ -135,6 +135,8 @@ def build_tiles(args: argparse.Namespace) -> list[Tile]:
     if args.tile:
         z, x, y = args.tile
         return [Tile(z=z, x=x, y=y)]
+    if args.station_index_dir:
+        return build_station_index_tiles(args.station_index_dir, args.zoom)
     if all(value is not None for value in [args.north, args.south, args.east, args.west]):
         return enumerate_tiles(
             BoundingBox(
@@ -162,6 +164,38 @@ def build_tiles(args: argparse.Namespace) -> list[Tile]:
             )
         )
     return sorted(tiles)
+
+
+def build_station_index_tiles(station_index_dir: Path, zoom: int) -> list[Tile]:
+    paths = sorted(station_index_dir.glob("*_stations.json"))
+    if not paths:
+        raise StationPassengerCollectError(
+            f"station index files not found: {station_index_dir}"
+        )
+    tiles = set()
+    for path in paths:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(payload, list):
+            continue
+        for station in payload:
+            if not isinstance(station, dict):
+                continue
+            try:
+                latitude = float(station["lat"])
+                longitude = float(station["lon"])
+                x, y = lat_lon_to_tile(latitude, longitude, zoom)
+            except (KeyError, TypeError, ValueError):
+                continue
+            tiles.add(Tile(z=zoom, x=x, y=y))
+    if not tiles:
+        raise StationPassengerCollectError(
+            f"valid station coordinates not found: {station_index_dir}"
+        )
+    return sorted(tiles)
+
+
+def cached_tile_count(tiles: list[Tile], raw_dir: Path, run_id: str) -> int:
+    return sum(raw_tile_path(raw_dir, run_id, tile).exists() for tile in tiles)
 
 
 def fetch_tile(
@@ -504,6 +538,45 @@ def aggregate_station_groups(records: list[dict[str, Any]]) -> list[dict[str, An
     return sorted(groups, key=lambda group: group["stationGroupId"])
 
 
+def add_station_prefectures(
+    groups: list[dict[str, Any]], station_index_dir: Path
+) -> list[dict[str, Any]]:
+    candidates: dict[str, list[dict[str, Any]]] = {}
+    for path in sorted(station_index_dir.glob("*_stations.json")):
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(payload, list):
+            continue
+        for station in payload:
+            if not isinstance(station, dict):
+                continue
+            name = normalize_station_name(station.get("station_name"))
+            if name:
+                candidates.setdefault(name, []).append(station)
+    for group in groups:
+        location = group["location"]
+        matches = candidates.get(group["normalizedStationName"], [])
+        selected = _nearest_station_index(
+            matches, location["latitude"], location["longitude"]
+        )
+        group["prefecture"] = selected.get("prefecture", "") if selected else ""
+    return groups
+
+
+def _nearest_station_index(
+    candidates: list[dict[str, Any]], latitude: float, longitude: float
+) -> dict[str, Any] | None:
+    ranked = []
+    for station in candidates:
+        try:
+            station_lat = float(station["lat"])
+            station_lon = float(station["lon"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        distance = (station_lat - latitude) ** 2 + (station_lon - longitude) ** 2
+        ranked.append((distance, station))
+    return min(ranked, key=lambda item: item[0])[1] if ranked else None
+
+
 def calculate_station_rank(passenger_count: int | None) -> str | None:
     if passenger_count is None:
         return None
@@ -532,6 +605,7 @@ def build_summary(groups: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "id": group["stationGroupId"],
             "code": group["groupCode"],
             "name": group["stationName"],
+            "prefecture": group.get("prefecture", ""),
             "lat": group["location"]["latitude"],
             "lon": group["location"]["longitude"],
             "passengers": group["latestPassengerCount"],
@@ -553,6 +627,7 @@ def write_station_groups_csv(groups: list[dict[str, Any]], output_path: Path) ->
                 "group_code",
                 "station_name",
                 "normalized_station_name",
+                "prefecture",
                 "lat",
                 "lon",
                 "latest_passenger_count",
@@ -574,6 +649,7 @@ def write_station_groups_csv(groups: list[dict[str, Any]], output_path: Path) ->
                     "group_code": group["groupCode"],
                     "station_name": group["stationName"],
                     "normalized_station_name": group["normalizedStationName"],
+                    "prefecture": group.get("prefecture", ""),
                     "lat": group["location"]["latitude"],
                     "lon": group["location"]["longitude"],
                     "latest_passenger_count": group["latestPassengerCount"],
@@ -618,6 +694,7 @@ def collect_station_passengers(
     max_retries: int,
     request_interval_seconds: float,
     progress_interval: int,
+    station_index_dir: Path | None = None,
 ) -> dict[str, Path | int]:
     fetched_at = datetime.now(UTC).isoformat(timespec="seconds")
     raw_records = []
@@ -674,6 +751,8 @@ def collect_station_passengers(
 
     records = deduplicate_records(raw_records)
     groups = aggregate_station_groups(records)
+    if station_index_dir is not None:
+        groups = add_station_prefectures(groups, station_index_dir)
     metadata = {
         "schemaVersion": SCHEMA_VERSION,
         "source": {
@@ -727,6 +806,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Collect MLIT XKT015 station passenger data.")
     parser.add_argument("--area", choices=sorted(AREAS), default="capital")
     parser.add_argument("--zoom", type=int, default=11)
+    parser.add_argument("--station-index-dir", type=Path)
     parser.add_argument("--tile", nargs=3, type=int, metavar=("Z", "X", "Y"))
     parser.add_argument("--north", type=float)
     parser.add_argument("--south", type=float)
@@ -757,9 +837,11 @@ def main() -> int:
         return 1
 
     if args.dry_run:
+        cached_count = cached_tile_count(tiles, args.raw_dir, args.run_id)
         print(
             "station passenger dry-run: "
-            f"tiles={len(tiles)} requests={len(tiles)} area={args.area} zoom={args.zoom}"
+            f"tiles={len(tiles)} requests={len(tiles) - cached_count} "
+            f"cached={cached_count} area={args.area} zoom={args.zoom}"
         )
         return 0
 
@@ -785,6 +867,7 @@ def main() -> int:
             max_retries=args.max_retries,
             request_interval_seconds=args.request_interval_seconds,
             progress_interval=args.progress_interval,
+            station_index_dir=args.station_index_dir,
         )
     except (StationPassengerCollectError, ValueError) as error:
         print(f"station passenger collect failed: {error}", file=sys.stderr)

@@ -54,3 +54,17 @@ def test_select_station_passenger_uses_nearest_candidate(tmp_path: Path) -> None
         "station_operator_count": 1.0,
         "station_rank": "D",
     }
+
+
+def test_select_station_passenger_rejects_distant_same_name(tmp_path: Path) -> None:
+    csv_path = tmp_path / "station_groups.csv"
+    csv_path.write_text(
+        "station_name,normalized_station_name,lat,lon,latest_passenger_count,"
+        "latest_passenger_year,rank,log_passenger_count,line_count,operator_count\n"
+        "大森,大森,35.58,139.73,10000,2023,C,9.2,2,1\n",
+        encoding="utf-8",
+    )
+
+    candidates = build_station_passenger_candidates(csv_path)
+
+    assert select_station_passenger(candidates, "大森", 34.78, 138.18) == {}

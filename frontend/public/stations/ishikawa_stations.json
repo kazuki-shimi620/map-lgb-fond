@@ -5,7 +5,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道浅野川線",
     "lat": 36.583108,
-    "lon": 136.651752
+    "lon": 136.651752,
+    "station_passenger_log": 4.02535169073515,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0019",
@@ -13,7 +17,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 37.041613,
-    "lon": 136.964501
+    "lon": 136.964501,
+    "station_passenger_log": 7.540621528657152,
+    "station_line_count": 1.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0033",
@@ -21,7 +29,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道浅野川線",
     "lat": 36.611941,
-    "lon": 136.645538
+    "lon": 136.645538,
+    "station_passenger_log": 6.42648845745769,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0032",
@@ -29,7 +41,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道浅野川線",
     "lat": 36.606572,
-    "lon": 136.647579
+    "lon": 136.647579,
+    "station_passenger_log": 4.976733742420574,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0029",
@@ -37,7 +53,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道浅野川線",
     "lat": 36.590835,
-    "lon": 136.648941
+    "lon": 136.648941,
+    "station_passenger_log": 6.066108090103747,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0002",
@@ -45,7 +65,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.67156,
-    "lon": 136.740279
+    "lon": 136.740279,
+    "station_passenger_log": 6.840546529288687,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0047",
@@ -53,7 +77,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.511853,
-    "lon": 136.617681
+    "lon": 136.617681,
+    "station_passenger_log": 5.929589143389895,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0052",
@@ -61,7 +89,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.476282,
-    "lon": 136.612307
+    "lon": 136.612307,
+    "station_passenger_log": 5.521460917862246,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0059",
@@ -69,7 +101,11 @@
     "prefecture": "石川県",
     "line_name": "IRいしかわ鉄道線",
     "lat": 36.672489,
-    "lon": 136.791605
+    "lon": 136.791605,
+    "station_passenger_log": 5.442417710521793,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0008",
@@ -77,7 +113,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.795806,
-    "lon": 136.747581
+    "lon": 136.747581,
+    "station_passenger_log": 5.2832037287379885,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0038",
@@ -85,7 +125,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道浅野川線",
     "lat": 36.63336,
-    "lon": 136.63416
+    "lon": 136.63416,
+    "station_passenger_log": 7.753623546559746,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0031",
@@ -93,7 +137,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道浅野川線",
     "lat": 36.602619,
-    "lon": 136.648474
+    "lon": 136.648474,
+    "station_passenger_log": 6.505784060128229,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0056",
@@ -101,7 +149,11 @@
     "prefecture": "石川県",
     "line_name": "北陸新幹線",
     "lat": 36.320562,
-    "lon": 136.350337
+    "lon": 136.350337,
+    "station_passenger_log": 7.831220214604293,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0066",
@@ -109,7 +161,11 @@
     "prefecture": "石川県",
     "line_name": "IRいしかわ鉄道線",
     "lat": 36.502935,
-    "lon": 136.527434
+    "lon": 136.527434,
+    "station_passenger_log": 7.781138509845015,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0072",
@@ -117,7 +173,11 @@
     "prefecture": "石川県",
     "line_name": "IRいしかわ鉄道線",
     "lat": 36.328428,
-    "lon": 136.383027
+    "lon": 136.383027,
+    "station_passenger_log": 6.848005274576363,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0027",
@@ -125,7 +185,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道浅野川線",
     "lat": 36.578637,
-    "lon": 136.649524
+    "lon": 136.649524,
+    "station_passenger_log": 8.270013062273787,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0035",
@@ -133,7 +197,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道浅野川線",
     "lat": 36.622625,
-    "lon": 136.641265
+    "lon": 136.641265,
+    "station_passenger_log": 4.204692619390966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0013",
@@ -141,7 +209,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.928139,
-    "lon": 136.801195
+    "lon": 136.801195,
+    "station_passenger_log": 4.174387269895637,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0011",
@@ -149,7 +221,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.870324,
-    "lon": 136.774631
+    "lon": 136.774631,
+    "station_passenger_log": 4.48863636973214,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0020",
@@ -157,7 +233,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 37.074663,
-    "lon": 136.925884
+    "lon": 136.925884,
+    "station_passenger_log": 6.698268054115413,
+    "station_line_count": 1.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0048",
@@ -165,7 +245,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.498879,
-    "lon": 136.615684
+    "lon": 136.615684,
+    "station_passenger_log": 5.3230099791384085,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0034",
@@ -173,7 +257,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道浅野川線",
     "lat": 36.616701,
-    "lon": 136.643368
+    "lon": 136.643368,
+    "station_passenger_log": 4.219507705176107,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0073",
@@ -181,7 +269,11 @@
     "prefecture": "石川県",
     "line_name": "IRいしかわ鉄道線",
     "lat": 36.300311,
-    "lon": 136.314205
+    "lon": 136.314205,
+    "station_passenger_log": 7.270312886079025,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0005",
@@ -189,7 +281,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.722795,
-    "lon": 136.70306
+    "lon": 136.70306,
+    "station_passenger_log": 7.629003889652957,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0009",
@@ -197,7 +293,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.819875,
-    "lon": 136.762229
+    "lon": 136.762229,
+    "station_passenger_log": 6.19644412779452,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0057",
@@ -205,7 +305,11 @@
     "prefecture": "石川県",
     "line_name": "北陸新幹線",
     "lat": 36.402545,
-    "lon": 136.452926
+    "lon": 136.452926,
+    "station_passenger_log": 8.998631198287637,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ishikawa_0053",
@@ -213,7 +317,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.470639,
-    "lon": 136.611466
+    "lon": 136.611466,
+    "station_passenger_log": 4.204692619390966,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0068",
@@ -221,7 +329,11 @@
     "prefecture": "石川県",
     "line_name": "IRいしかわ鉄道線",
     "lat": 36.476371,
-    "lon": 136.474925
+    "lon": 136.474925,
+    "station_passenger_log": 6.48768401848461,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0018",
@@ -229,7 +341,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 37.007449,
-    "lon": 136.930295
+    "lon": 136.930295,
+    "station_passenger_log": 6.391917113392602,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0042",
@@ -237,7 +353,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.541805,
-    "lon": 136.622114
+    "lon": 136.622114,
+    "station_passenger_log": 4.143134726391533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0010",
@@ -245,7 +365,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.848094,
-    "lon": 136.773455
+    "lon": 136.773455,
+    "station_passenger_log": 5.68697535633982,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0041",
@@ -253,7 +377,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.553067,
-    "lon": 136.622688
+    "lon": 136.622688,
+    "station_passenger_log": 6.7650389767805414,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0054",
@@ -261,7 +389,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.46479,
-    "lon": 136.615199
+    "lon": 136.615199,
+    "station_passenger_log": 4.990432586778736,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0070",
@@ -269,7 +401,11 @@
     "prefecture": "石川県",
     "line_name": "IRいしかわ鉄道線",
     "lat": 36.425302,
-    "lon": 136.463114
+    "lon": 136.463114,
+    "station_passenger_log": 6.88653164253051,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0050",
@@ -277,7 +413,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.490028,
-    "lon": 136.614407
+    "lon": 136.614407,
+    "station_passenger_log": 4.23410650459726,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0003",
@@ -285,7 +425,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.676673,
-    "lon": 136.732202
+    "lon": 136.732202,
+    "station_passenger_log": 6.447305862541213,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0061",
@@ -293,7 +437,11 @@
     "prefecture": "石川県",
     "line_name": "IRいしかわ鉄道線",
     "lat": 36.593652,
-    "lon": 136.669806
+    "lon": 136.669806,
+    "station_passenger_log": 8.632127729508337,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ishikawa_0064",
@@ -301,7 +449,11 @@
     "prefecture": "石川県",
     "line_name": "IRいしかわ鉄道線",
     "lat": 36.526706,
-    "lon": 136.566205
+    "lon": 136.566205,
+    "station_passenger_log": 8.84130362048157,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ishikawa_0060",
@@ -309,7 +461,11 @@
     "prefecture": "石川県",
     "line_name": "IRいしかわ鉄道線",
     "lat": 36.612144,
-    "lon": 136.689489
+    "lon": 136.689489,
+    "station_passenger_log": 7.977968093128549,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0006",
@@ -317,7 +473,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.747739,
-    "lon": 136.71685
+    "lon": 136.71685,
+    "station_passenger_log": 6.46302945692067,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0001",
@@ -325,7 +485,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.657895,
-    "lon": 136.730759
+    "lon": 136.730759,
+    "station_passenger_log": 9.377294451639017,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ishikawa_0021",
@@ -333,7 +497,11 @@
     "prefecture": "石川県",
     "line_name": "のと鉄道七尾線",
     "lat": 37.065719,
-    "lon": 136.891193
+    "lon": 136.891193,
+    "station_passenger_log": 4.919980925828125,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0030",
@@ -342,7 +510,7 @@
     "line_name": "北陸鉄道浅野川線",
     "lat": 36.596554,
     "lon": 136.648313,
-    "station_passenger_log": 7.556427969440253,
+    "station_passenger_log": 4.836281906951478,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
     "station_rank": "E"
@@ -353,7 +521,11 @@
     "prefecture": "石川県",
     "line_name": "のと鉄道七尾線",
     "lat": 37.228015,
-    "lon": 136.904592
+    "lon": 136.904592,
+    "station_passenger_log": 4.709530201312334,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0022",
@@ -361,7 +533,11 @@
     "prefecture": "石川県",
     "line_name": "のと鉄道七尾線",
     "lat": 37.079288,
-    "lon": 136.857587
+    "lon": 136.857587,
+    "station_passenger_log": 2.995732273553991,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0037",
@@ -385,7 +561,11 @@
     "prefecture": "石川県",
     "line_name": "IRいしかわ鉄道線",
     "lat": 36.486001,
-    "lon": 136.489205
+    "lon": 136.489205,
+    "station_passenger_log": 7.538494999413465,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0012",
@@ -393,7 +573,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.897073,
-    "lon": 136.783332
+    "lon": 136.783332,
+    "station_passenger_log": 7.528869256642251,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0004",
@@ -401,7 +585,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.693152,
-    "lon": 136.719898
+    "lon": 136.719898,
+    "station_passenger_log": 6.061456918928017,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0023",
@@ -409,7 +597,11 @@
     "prefecture": "石川県",
     "line_name": "のと鉄道七尾線",
     "lat": 37.109174,
-    "lon": 136.853339
+    "lon": 136.853339,
+    "station_passenger_log": 4.5217885770490405,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0017",
@@ -417,7 +609,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.984824,
-    "lon": 136.917389
+    "lon": 136.917389,
+    "station_passenger_log": 5.75890177387728,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0015",
@@ -425,7 +621,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.960867,
-    "lon": 136.869403
+    "lon": 136.869403,
+    "station_passenger_log": 6.739336627357174,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0025",
@@ -433,7 +633,11 @@
     "prefecture": "石川県",
     "line_name": "のと鉄道七尾線",
     "lat": 37.179723,
-    "lon": 136.897879
+    "lon": 136.897879,
+    "station_passenger_log": 2.302585092994046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0069",
@@ -441,7 +645,11 @@
     "prefecture": "石川県",
     "line_name": "IRいしかわ鉄道線",
     "lat": 36.452053,
-    "lon": 136.459721
+    "lon": 136.459721,
+    "station_passenger_log": 7.858640655620791,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0016",
@@ -449,7 +657,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.976662,
-    "lon": 136.894628
+    "lon": 136.894628,
+    "station_passenger_log": 6.244166900663736,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0036",
@@ -457,7 +669,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道浅野川線",
     "lat": 36.625886,
-    "lon": 136.64319
+    "lon": 136.64319,
+    "station_passenger_log": 5.659482215759621,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0024",
@@ -465,7 +681,11 @@
     "prefecture": "石川県",
     "line_name": "のと鉄道七尾線",
     "lat": 37.147604,
-    "lon": 136.87443
+    "lon": 136.87443,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0065",
@@ -473,7 +693,11 @@
     "prefecture": "石川県",
     "line_name": "IRいしかわ鉄道線",
     "lat": 36.51777,
-    "lon": 136.549049
+    "lon": 136.549049,
+    "station_passenger_log": 6.945051063725834,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0040",
@@ -481,7 +705,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.553445,
-    "lon": 136.633524
+    "lon": 136.633524,
+    "station_passenger_log": 5.680172609017068,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0062",
@@ -489,7 +717,11 @@
     "prefecture": "石川県",
     "line_name": "IRいしかわ鉄道線",
     "lat": 36.553212,
-    "lon": 136.621225
+    "lon": 136.621225,
+    "station_passenger_log": 8.701346403039162,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ishikawa_0051",
@@ -497,7 +729,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.484315,
-    "lon": 136.613535
+    "lon": 136.613535,
+    "station_passenger_log": 5.541263545158426,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0043",
@@ -513,7 +749,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.532336,
-    "lon": 136.621767
+    "lon": 136.621767,
+    "station_passenger_log": 5.934894195619588,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0039",
@@ -521,7 +761,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.553779,
-    "lon": 136.644309
+    "lon": 136.644309,
+    "station_passenger_log": 7.247792581767846,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0014",
@@ -529,7 +773,11 @@
     "prefecture": "石川県",
     "line_name": "JR七尾線",
     "lat": 36.943344,
-    "lon": 136.835874
+    "lon": 136.835874,
+    "station_passenger_log": 5.093750200806762,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0058",
@@ -537,7 +785,11 @@
     "prefecture": "石川県",
     "line_name": "北陸新幹線",
     "lat": 36.578117,
-    "lon": 136.648166
+    "lon": 136.648166,
+    "station_passenger_log": 9.66307067255146,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ishikawa_0049",
@@ -545,7 +797,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.493628,
-    "lon": 136.614869
+    "lon": 136.614869,
+    "station_passenger_log": 4.356708826689592,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0046",
@@ -553,7 +809,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.518507,
-    "lon": 136.618851
+    "lon": 136.618851,
+    "station_passenger_log": 5.389071729816501,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0045",
@@ -561,7 +821,11 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.522935,
-    "lon": 136.620576
+    "lon": 136.620576,
+    "station_passenger_log": 5.288267030694535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0007",
@@ -570,10 +834,10 @@
     "line_name": "JR七尾線",
     "lat": 36.768541,
     "lon": 136.728823,
-    "station_passenger_log": 8.848652886213905,
+    "station_passenger_log": 6.8679744089702925,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
-    "station_rank": "D"
+    "station_rank": "E"
   },
   {
     "station_id": "ishikawa_0055",
@@ -581,6 +845,10 @@
     "prefecture": "石川県",
     "line_name": "北陸鉄道石川線",
     "lat": 36.452178,
-    "lon": 136.623818
+    "lon": 136.623818,
+    "station_passenger_log": 6.771935555839602,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

@@ -17,7 +17,11 @@
     "prefecture": "茨城県",
     "line_name": "真岡鐵道",
     "lat": 36.357882,
-    "lon": 139.970057
+    "lon": 139.970057,
+    "station_passenger_log": 3.9318256327243257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0006",
@@ -93,7 +97,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.719216,
-    "lon": 140.378604
+    "lon": 140.378604,
+    "station_passenger_log": 4.2626798770413155,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0050",
@@ -101,7 +109,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.455378,
-    "lon": 140.492659
+    "lon": 140.492659,
+    "station_passenger_log": 7.161622002939187,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0113",
@@ -121,7 +133,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.668975,
-    "lon": 140.387021
+    "lon": 140.387021,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0048",
@@ -129,7 +145,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.435394,
-    "lon": 140.494021
+    "lon": 140.494021,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0064",
@@ -137,7 +157,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.815744,
-    "lon": 140.375282
+    "lon": 140.375282,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0036",
@@ -157,7 +181,11 @@
     "prefecture": "茨城県",
     "line_name": "真岡鐵道",
     "lat": 36.319137,
-    "lon": 139.972193
+    "lon": 139.972193,
+    "station_passenger_log": 4.736198448394496,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0107",
@@ -177,7 +205,11 @@
     "prefecture": "茨城県",
     "line_name": "ひたちなか海浜鉄道湊線",
     "lat": 36.367488,
-    "lon": 140.562138
+    "lon": 140.562138,
+    "station_passenger_log": 2.6390573296152584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0058",
@@ -185,7 +217,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.645683,
-    "lon": 140.392242
+    "lon": 140.392242,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0049",
@@ -193,7 +229,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.445662,
-    "lon": 140.492626
+    "lon": 140.492626,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0020",
@@ -201,7 +241,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.430409,
-    "lon": 140.540477
+    "lon": 140.540477,
+    "station_passenger_log": 8.830689198760998,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ibaraki_0119",
@@ -221,7 +265,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.373041,
-    "lon": 140.456292
+    "lon": 140.456292,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0120",
@@ -241,7 +289,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.370111,
-    "lon": 140.35282
+    "lon": 140.35282,
+    "station_passenger_log": 8.449556542700426,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0019",
@@ -249,7 +301,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.394033,
-    "lon": 140.524482
+    "lon": 140.524482,
+    "station_passenger_log": 10.10176447612021,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "C"
   },
   {
     "station_id": "ibaraki_0106",
@@ -281,7 +337,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.671385,
-    "lon": 140.68623
+    "lon": 140.68623,
+    "station_passenger_log": 8.553139318189707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ibaraki_0028",
@@ -289,7 +349,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.753501,
-    "lon": 140.729028
+    "lon": 140.729028,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0102",
@@ -321,7 +385,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.477361,
-    "lon": 140.498471
+    "lon": 140.498471,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0014",
@@ -329,7 +397,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.350597,
-    "lon": 140.306306
+    "lon": 140.306306,
+    "station_passenger_log": 8.720134035412928,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ibaraki_0002",
@@ -417,7 +489,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.846085,
-    "lon": 140.778001
+    "lon": 140.778001,
+    "station_passenger_log": 7.195187320178709,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0022",
@@ -425,7 +501,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.513052,
-    "lon": 140.619362
+    "lon": 140.619362,
+    "station_passenger_log": 9.719384409659742,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ibaraki_0117",
@@ -457,7 +537,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水戸線",
     "lat": 36.344763,
-    "lon": 140.288243
+    "lon": 140.288243,
+    "station_passenger_log": 5.993961427306569,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0112",
@@ -501,7 +585,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.636533,
-    "lon": 140.67526
+    "lon": 140.67526,
+    "station_passenger_log": 8.294299608857235,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0031",
@@ -533,7 +621,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.6246,
-    "lon": 140.401244
+    "lon": 140.401244,
+    "station_passenger_log": 4.976733742420574,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0039",
@@ -541,7 +633,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水戸線",
     "lat": 36.359377,
-    "lon": 140.108739
+    "lon": 140.108739,
+    "station_passenger_log": 7.336285660021297,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0013",
@@ -573,7 +669,11 @@
     "prefecture": "茨城県",
     "line_name": "ひたちなか海浜鉄道湊線",
     "lat": 36.388099,
-    "lon": 140.524542
+    "lon": 140.524542,
+    "station_passenger_log": 3.295836866004329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0123",
@@ -581,7 +681,11 @@
     "prefecture": "茨城県",
     "line_name": "鹿島臨海鉄道線",
     "lat": 36.340683,
-    "lon": 140.558997
+    "lon": 140.558997,
+    "station_passenger_log": 6.464588303689961,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0023",
@@ -589,7 +693,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.552145,
-    "lon": 140.632682
+    "lon": 140.632682,
+    "station_passenger_log": 9.327145151518268,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ibaraki_0063",
@@ -597,7 +705,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.770657,
-    "lon": 140.350855
+    "lon": 140.350855,
+    "station_passenger_log": 6.212606095751519,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0054",
@@ -605,7 +717,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.547554,
-    "lon": 140.412431
+    "lon": 140.412431,
+    "station_passenger_log": 7.387090235656757,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0069",
@@ -613,7 +729,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.531225,
-    "lon": 140.52777
+    "lon": 140.52777,
+    "station_passenger_log": 7.450660796211539,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0046",
@@ -621,7 +741,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.404171,
-    "lon": 140.482914
+    "lon": 140.482914,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0045",
@@ -629,7 +753,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.383582,
-    "lon": 140.484495
+    "lon": 140.484495,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0051",
@@ -637,7 +765,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.472414,
-    "lon": 140.467455
+    "lon": 140.467455,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0092",
@@ -645,7 +777,11 @@
     "prefecture": "茨城県",
     "line_name": "ひたちなか海浜鉄道湊線",
     "lat": 36.357546,
-    "lon": 140.607575
+    "lon": 140.607575,
+    "station_passenger_log": 5.968707559985366,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0071",
@@ -665,7 +801,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.423767,
-    "lon": 140.489899
+    "lon": 140.489899,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0127",
@@ -697,7 +837,11 @@
     "prefecture": "茨城県",
     "line_name": "真岡鐵道",
     "lat": 36.340684,
-    "lon": 139.971232
+    "lon": 139.971232,
+    "station_passenger_log": 3.7612001156935624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0098",
@@ -729,7 +873,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水戸線",
     "lat": 36.328082,
-    "lon": 140.039076
+    "lon": 140.039076,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0128",
@@ -749,7 +897,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.590408,
-    "lon": 140.661883
+    "lon": 140.661883,
+    "station_passenger_log": 9.769098649497476,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ibaraki_0122",
@@ -757,7 +909,11 @@
     "prefecture": "茨城県",
     "line_name": "鹿島臨海鉄道線",
     "lat": 36.361746,
-    "lon": 140.516012
+    "lon": 140.516012,
+    "station_passenger_log": 4.890349128221754,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0021",
@@ -765,7 +921,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.465378,
-    "lon": 140.565835
+    "lon": 140.565835,
+    "station_passenger_log": 9.08239335764556,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ibaraki_0033",
@@ -785,7 +945,11 @@
     "prefecture": "茨城県",
     "line_name": "ひたちなか海浜鉄道湊線",
     "lat": 36.349497,
-    "lon": 140.601087
+    "lon": 140.601087,
+    "station_passenger_log": 4.23410650459726,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0018",
@@ -793,7 +957,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.370911,
-    "lon": 140.47676
+    "lon": 140.47676,
+    "station_passenger_log": 10.958322093858342,
+    "station_line_count": 3.0,
+    "station_operator_count": 2.0,
+    "station_rank": "B"
   },
   {
     "station_id": "ibaraki_0105",
@@ -813,7 +981,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.508241,
-    "lon": 140.517118
+    "lon": 140.517118,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0125",
@@ -857,7 +1029,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.579088,
-    "lon": 140.374334
+    "lon": 140.374334,
+    "station_passenger_log": 5.771441123130016,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0035",
@@ -889,7 +1065,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.497805,
-    "lon": 140.450438
+    "lon": 140.450438,
+    "station_passenger_log": 6.061456918928017,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0110",
@@ -933,7 +1113,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.790684,
-    "lon": 140.746366
+    "lon": 140.746366,
+    "station_passenger_log": 7.978996370854115,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0094",
@@ -941,7 +1125,11 @@
     "prefecture": "茨城県",
     "line_name": "ひたちなか海浜鉄道湊線",
     "lat": 36.37781,
-    "lon": 140.617934
+    "lon": 140.617934,
+    "station_passenger_log": 4.584967478670572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0009",
@@ -961,7 +1149,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水戸線",
     "lat": 36.351507,
-    "lon": 140.187249
+    "lon": 140.187249,
+    "station_passenger_log": 5.43372200355424,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0100",
@@ -981,7 +1173,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水戸線",
     "lat": 36.368903,
-    "lon": 140.21501
+    "lon": 140.21501,
+    "station_passenger_log": 5.594711379601839,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0121",
@@ -997,7 +1193,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水戸線",
     "lat": 36.373056,
-    "lon": 140.246515
+    "lon": 140.246515,
+    "station_passenger_log": 7.719129840906732,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0085",
@@ -1029,7 +1229,11 @@
     "prefecture": "茨城県",
     "line_name": "ひたちなか海浜鉄道湊線",
     "lat": 36.37263,
-    "lon": 140.616958
+    "lon": 140.616958,
+    "station_passenger_log": 5.948034989180646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0012",
@@ -1049,7 +1253,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水戸線",
     "lat": 36.355292,
-    "lon": 140.142947
+    "lon": 140.142947,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0007",
@@ -1093,7 +1301,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.754718,
-    "lon": 140.379583
+    "lon": 140.379583,
+    "station_passenger_log": 4.948759890378168,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0096",
@@ -1113,7 +1325,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.69548,
-    "lon": 140.386468
+    "lon": 140.386468,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0068",
@@ -1121,7 +1337,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.519782,
-    "lon": 140.52502
+    "lon": 140.52502,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0016",
@@ -1129,7 +1349,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.381755,
-    "lon": 140.415248
+    "lon": 140.415248,
+    "station_passenger_log": 9.352794339771116,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ibaraki_0090",
@@ -1137,7 +1361,11 @@
     "prefecture": "茨城県",
     "line_name": "ひたちなか海浜鉄道湊線",
     "lat": 36.345453,
-    "lon": 140.587716
+    "lon": 140.587716,
+    "station_passenger_log": 6.3578422665081,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0056",
@@ -1145,7 +1373,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.605879,
-    "lon": 140.390127
+    "lon": 140.390127,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0087",
@@ -1153,7 +1385,11 @@
     "prefecture": "茨城県",
     "line_name": "ひたちなか海浜鉄道湊線",
     "lat": 36.382319,
-    "lon": 140.534132
+    "lon": 140.534132,
+    "station_passenger_log": 5.214935757608986,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0133",
@@ -1173,7 +1409,11 @@
     "prefecture": "茨城県",
     "line_name": "ひたちなか海浜鉄道湊線",
     "lat": 36.383529,
-    "lon": 140.61244
+    "lon": 140.61244,
+    "station_passenger_log": 5.8888779583328805,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0053",
@@ -1181,7 +1421,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.506012,
-    "lon": 140.438103
+    "lon": 140.438103,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0066",
@@ -1189,7 +1433,11 @@
     "prefecture": "茨城県",
     "line_name": "JR水郡線",
     "lat": 36.485705,
-    "lon": 140.503462
+    "lon": 140.503462,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0115",
@@ -1221,7 +1469,11 @@
     "prefecture": "茨城県",
     "line_name": "ひたちなか海浜鉄道湊線",
     "lat": 36.352556,
-    "lon": 140.580028
+    "lon": 140.580028,
+    "station_passenger_log": 4.762173934797756,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0027",
@@ -1229,7 +1481,11 @@
     "prefecture": "茨城県",
     "line_name": "JR常磐線",
     "lat": 36.714873,
-    "lon": 140.716707
+    "lon": 140.716707,
+    "station_passenger_log": 8.328692583545568,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ibaraki_0073",

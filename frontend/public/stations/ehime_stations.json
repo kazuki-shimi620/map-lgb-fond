@@ -5,7 +5,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.827784,
-    "lon": 132.772944
+    "lon": 132.772944,
+    "station_passenger_log": 7.591357046698551,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0144",
@@ -13,7 +17,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄高浜線",
     "lat": 33.863864,
-    "lon": 132.720002
+    "lon": 132.720002,
+    "station_passenger_log": 7.4570320891223805,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0051",
@@ -21,7 +29,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.86142,
-    "lon": 132.728798
+    "lon": 132.728798,
+    "station_passenger_log": 6.906754778648554,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0097",
@@ -29,7 +41,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城南線",
     "lat": 33.846737,
-    "lon": 132.775502
+    "lon": 132.775502,
+    "station_passenger_log": 7.218176838403408,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0076",
@@ -37,7 +53,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.379979,
-    "lon": 132.501337
+    "lon": 132.501337,
+    "station_passenger_log": 5.056245805348308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0078",
@@ -45,7 +65,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.349786,
-    "lon": 132.531172
+    "lon": 132.531172,
+    "station_passenger_log": 4.07753744390572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0061",
@@ -53,7 +77,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.655109,
-    "lon": 132.589219
+    "lon": 132.589219,
+    "station_passenger_log": 4.672828834461906,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0027",
@@ -61,7 +89,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.926232,
-    "lon": 133.253294
+    "lon": 133.253294,
+    "station_passenger_log": 5.3230099791384085,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0062",
@@ -69,7 +101,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.647034,
-    "lon": 132.562996
+    "lon": 132.562996,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0118",
@@ -77,7 +113,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.816036,
-    "lon": 132.804555
+    "lon": 132.804555,
+    "station_passenger_log": 7.721348612617949,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0008",
@@ -85,7 +125,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予土線",
     "lat": 33.291576,
-    "lon": 132.629122
+    "lon": 132.629122,
+    "station_passenger_log": 3.7612001156935624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0083",
@@ -93,7 +137,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR内子線",
     "lat": 33.537809,
-    "lon": 132.635859
+    "lon": 132.635859,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0069",
@@ -101,7 +149,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.541399,
-    "lon": 132.570473
+    "lon": 132.570473,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0037",
@@ -109,7 +161,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 34.063765,
-    "lon": 132.99408
+    "lon": 132.99408,
+    "station_passenger_log": 8.337827262447915,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0020",
@@ -117,7 +173,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.979541,
-    "lon": 133.542401
+    "lon": 133.542401,
+    "station_passenger_log": 7.394493107219038,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0034",
@@ -125,7 +185,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.954382,
-    "lon": 133.064298
+    "lon": 133.064298,
+    "station_passenger_log": 5.572154032177765,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0060",
@@ -133,7 +197,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.683626,
-    "lon": 132.632931
+    "lon": 132.632931,
+    "station_passenger_log": 4.859812404361672,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0014",
@@ -141,7 +209,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃支線",
     "lat": 33.649881,
-    "lon": 132.711629
+    "lon": 132.711629,
+    "station_passenger_log": 4.844187086458591,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0041",
@@ -149,7 +221,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 34.053811,
-    "lon": 132.874049
+    "lon": 132.874049,
+    "station_passenger_log": 4.31748811353631,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0065",
@@ -157,7 +233,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.596338,
-    "lon": 132.498833
+    "lon": 132.498833,
+    "station_passenger_log": 3.8501476017100584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0045",
@@ -165,7 +245,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.972902,
-    "lon": 132.775339
+    "lon": 132.775339,
+    "station_passenger_log": 7.444833273892193,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0080",
@@ -173,7 +257,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.273287,
-    "lon": 132.544098
+    "lon": 132.544098,
+    "station_passenger_log": 4.990432586778736,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0050",
@@ -181,7 +269,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.889529,
-    "lon": 132.740672
+    "lon": 132.740672,
+    "station_passenger_log": 6.478509642208569,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0023",
@@ -189,7 +281,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.959024,
-    "lon": 133.428294
+    "lon": 133.428294,
+    "station_passenger_log": 6.251903883165888,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0013",
@@ -197,7 +293,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃支線",
     "lat": 33.715973,
-    "lon": 132.708479
+    "lon": 132.708479,
+    "station_passenger_log": 3.367295829986474,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0018",
@@ -205,7 +305,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃支線",
     "lat": 33.518601,
-    "lon": 132.54485
+    "lon": 132.54485,
+    "station_passenger_log": 7.186144304522325,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0009",
@@ -213,7 +317,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予土線",
     "lat": 33.289023,
-    "lon": 132.605849
+    "lon": 132.605849,
+    "station_passenger_log": 4.948759890378168,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0036",
@@ -221,7 +329,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 34.036302,
-    "lon": 133.009194
+    "lon": 133.009194,
+    "station_passenger_log": 5.4510384535657,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0021",
@@ -229,7 +341,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.967978,
-    "lon": 133.500123
+    "lon": 133.500123,
+    "station_passenger_log": 5.616771097666572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0031",
@@ -237,7 +353,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.897567,
-    "lon": 133.116717
+    "lon": 133.116717,
+    "station_passenger_log": 6.18826412308259,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0058",
@@ -245,7 +365,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.755532,
-    "lon": 132.702532
+    "lon": 132.702532,
+    "station_passenger_log": 6.812345094177479,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0071",
@@ -253,7 +377,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.495672,
-    "lon": 132.518025
+    "lon": 132.518025,
+    "station_passenger_log": 3.610917912644224,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0035",
@@ -261,7 +389,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 34.011923,
-    "lon": 133.035522
+    "lon": 133.035522,
+    "station_passenger_log": 6.163314804034641,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0056",
@@ -269,7 +401,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.772909,
-    "lon": 132.727121
+    "lon": 132.727121,
+    "station_passenger_log": 4.948759890378168,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0030",
@@ -277,7 +413,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.896734,
-    "lon": 133.130929
+    "lon": 133.130929,
+    "station_passenger_log": 4.110873864173311,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0066",
@@ -285,7 +425,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.578588,
-    "lon": 132.526778
+    "lon": 132.526778,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0075",
@@ -293,7 +437,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.391582,
-    "lon": 132.473112
+    "lon": 132.473112,
+    "station_passenger_log": 3.970291913552122,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0015",
@@ -301,7 +449,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃支線",
     "lat": 33.600458,
-    "lon": 132.677
+    "lon": 132.677,
+    "station_passenger_log": 3.49650756146648,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0028",
@@ -309,7 +461,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.912584,
-    "lon": 133.188275
+    "lon": 133.188275,
+    "station_passenger_log": 7.972121128921655,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0064",
@@ -317,7 +473,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.615297,
-    "lon": 132.486861
+    "lon": 132.486861,
+    "station_passenger_log": 5.5093883366279774,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0132",
@@ -325,7 +485,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄郡中線",
     "lat": 33.816173,
-    "lon": 132.733887
+    "lon": 132.733887,
+    "station_passenger_log": 7.730174795246222,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0048",
@@ -333,7 +497,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.926886,
-    "lon": 132.760967
+    "lon": 132.760967,
+    "station_passenger_log": 5.407171771460119,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0067",
@@ -341,7 +509,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.562643,
-    "lon": 132.540741
+    "lon": 132.540741,
+    "station_passenger_log": 4.110873864173311,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0073",
@@ -349,7 +521,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.458024,
-    "lon": 132.436213
+    "lon": 132.436213,
+    "station_passenger_log": 7.268920128193722,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0016",
@@ -357,7 +533,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃支線",
     "lat": 33.549305,
-    "lon": 132.646207
+    "lon": 132.646207,
+    "station_passenger_log": 6.8658910748834385,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0004",
@@ -365,7 +545,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予土線",
     "lat": 33.251805,
-    "lon": 132.691978
+    "lon": 132.691978,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0010",
@@ -373,7 +557,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予土線",
     "lat": 33.282862,
-    "lon": 132.600238
+    "lon": 132.600238,
+    "station_passenger_log": 4.143134726391533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0099",
@@ -381,7 +569,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城南線",
     "lat": 33.841709,
-    "lon": 132.774818
+    "lon": 132.774818,
+    "station_passenger_log": 7.29505641646263,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0117",
@@ -389,7 +581,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.819277,
-    "lon": 132.798664
+    "lon": 132.798664,
+    "station_passenger_log": 7.1049654482698426,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0054",
@@ -397,7 +593,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.787441,
-    "lon": 132.748774
+    "lon": 132.748774,
+    "station_passenger_log": 5.7899601708972535,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0011",
@@ -405,7 +605,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予土線",
     "lat": 33.239442,
-    "lon": 132.569643
+    "lon": 132.569643,
+    "station_passenger_log": 4.007333185232471,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0072",
@@ -413,7 +617,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.465432,
-    "lon": 132.457369
+    "lon": 132.457369,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0055",
@@ -421,7 +629,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.777769,
-    "lon": 132.738849
+    "lon": 132.738849,
+    "station_passenger_log": 5.3230099791384085,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0103",
@@ -429,7 +641,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城南線",
     "lat": 33.839213,
-    "lon": 132.761664
+    "lon": 132.761664,
+    "station_passenger_log": 6.466144724237619,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0096",
@@ -437,7 +653,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城南線",
     "lat": 33.847412,
-    "lon": 132.779839
+    "lon": 132.779839,
+    "station_passenger_log": 6.902742737158593,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0077",
@@ -445,7 +665,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.363192,
-    "lon": 132.50994
+    "lon": 132.50994,
+    "station_passenger_log": 6.2166061010848646,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0074",
@@ -453,7 +677,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.424314,
-    "lon": 132.45794
+    "lon": 132.45794,
+    "station_passenger_log": 3.7612001156935624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0135",
@@ -461,7 +689,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄郡中線",
     "lat": 33.792539,
-    "lon": 132.717136
+    "lon": 132.717136,
+    "station_passenger_log": 7.720017940432244,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0085",
@@ -469,7 +701,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城北線",
     "lat": 33.846978,
-    "lon": 132.754998
+    "lon": 132.754998,
+    "station_passenger_log": 8.412499120301572,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0002",
@@ -477,7 +713,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予土線",
     "lat": 33.224612,
-    "lon": 132.72918
+    "lon": 132.72918,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0012",
@@ -485,7 +725,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃支線",
     "lat": 33.735871,
-    "lon": 132.695736
+    "lon": 132.695736,
+    "station_passenger_log": 4.418840607796598,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0084",
@@ -493,7 +737,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR内子線",
     "lat": 33.533425,
-    "lon": 132.611428
+    "lon": 132.611428,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0063",
@@ -501,7 +749,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.637145,
-    "lon": 132.531165
+    "lon": 132.531165,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0131",
@@ -509,7 +761,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄郡中線",
     "lat": 33.8241,
-    "lon": 132.744094
+    "lon": 132.744094,
+    "station_passenger_log": 7.693025748417888,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0130",
@@ -525,7 +781,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄郡中線",
     "lat": 33.779907,
-    "lon": 132.70429
+    "lon": 132.70429,
+    "station_passenger_log": 6.263398262591624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0049",
@@ -533,7 +793,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.905458,
-    "lon": 132.753496
+    "lon": 132.753496,
+    "station_passenger_log": 5.82600010738045,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0033",
@@ -541,7 +805,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.929699,
-    "lon": 133.085568
+    "lon": 133.085568,
+    "station_passenger_log": 7.1631723908466425,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0025",
@@ -549,7 +817,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.970533,
-    "lon": 133.325094
+    "lon": 133.325094,
+    "station_passenger_log": 5.043425116919247,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0007",
@@ -557,7 +829,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予土線",
     "lat": 33.286941,
-    "lon": 132.642393
+    "lon": 132.642393,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0106",
@@ -573,7 +849,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 34.000005,
-    "lon": 132.775597
+    "lon": 132.775597,
+    "station_passenger_log": 3.49650756146648,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0100",
@@ -581,7 +861,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城南線",
     "lat": 33.841103,
-    "lon": 132.769861
+    "lon": 132.769861,
+    "station_passenger_log": 8.44741429680832,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0040",
@@ -589,7 +873,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 34.066128,
-    "lon": 132.929345
+    "lon": 132.929345,
+    "station_passenger_log": 5.564520407322694,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0082",
@@ -597,7 +885,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.225774,
-    "lon": 132.56746
+    "lon": 132.56746,
+    "station_passenger_log": 7.459914766241105,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0104",
@@ -605,7 +897,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄大手町線",
     "lat": 33.843948,
-    "lon": 132.752626
+    "lon": 132.752626,
+    "station_passenger_log": 6.710523109452428,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0145",
@@ -613,7 +909,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄高浜線",
     "lat": 33.855301,
-    "lon": 132.724326
+    "lon": 132.724326,
+    "station_passenger_log": 7.687080155783135,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0134",
@@ -621,7 +921,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄郡中線",
     "lat": 33.799083,
-    "lon": 132.724271
+    "lon": 132.724271,
+    "station_passenger_log": 6.784457062637643,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0019",
@@ -629,7 +933,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 34.014903,
-    "lon": 133.57617
+    "lon": 133.57617,
+    "station_passenger_log": 6.912742820493176,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0053",
@@ -637,7 +945,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.809113,
-    "lon": 132.749283
+    "lon": 132.749283,
+    "station_passenger_log": 5.983936280687191,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0102",
@@ -661,7 +973,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城北線",
     "lat": 33.847673,
-    "lon": 132.774452
+    "lon": 132.774452,
+    "station_passenger_log": 5.720311776607412,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0126",
@@ -669,7 +985,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.797831,
-    "lon": 132.878659
+    "lon": 132.878659,
+    "station_passenger_log": 7.142827401161621,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0026",
@@ -677,7 +997,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.948124,
-    "lon": 133.294761
+    "lon": 133.294761,
+    "station_passenger_log": 8.27052509505507,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0138",
@@ -693,7 +1017,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃支線",
     "lat": 33.534153,
-    "lon": 132.599037
+    "lon": 132.599037,
+    "station_passenger_log": 5.153291594497779,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0068",
@@ -701,7 +1029,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.555636,
-    "lon": 132.555329
+    "lon": 132.555329,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0088",
@@ -709,7 +1041,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城北線",
     "lat": 33.853483,
-    "lon": 132.760776
+    "lon": 132.760776,
+    "station_passenger_log": 6.366470447731438,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0108",
@@ -717,7 +1053,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄本町線",
     "lat": 33.840129,
-    "lon": 132.758761
+    "lon": 132.758761,
+    "station_passenger_log": 0.0,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0109",
@@ -725,7 +1065,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄本町線",
     "lat": 33.845157,
-    "lon": 132.758805
+    "lon": 132.758805,
+    "station_passenger_log": 3.332204510175204,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0111",
@@ -733,7 +1077,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄本町線",
     "lat": 33.850627,
-    "lon": 132.758825
+    "lon": 132.758825,
+    "station_passenger_log": 3.332204510175204,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0087",
@@ -741,7 +1089,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城北線",
     "lat": 33.853472,
-    "lon": 132.758473
+    "lon": 132.758473,
+    "station_passenger_log": 6.782192056006791,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0110",
@@ -749,7 +1101,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄本町線",
     "lat": 33.84784,
-    "lon": 132.758791
+    "lon": 132.758791,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0003",
@@ -757,7 +1113,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予土線",
     "lat": 33.228325,
-    "lon": 132.708843
+    "lon": 132.708843,
+    "station_passenger_log": 4.574710978503383,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0136",
@@ -765,7 +1125,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄郡中線",
     "lat": 33.785965,
-    "lon": 132.705051
+    "lon": 132.705051,
+    "station_passenger_log": 6.823286122355687,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0052",
@@ -781,7 +1145,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.835656,
-    "lon": 132.762281
+    "lon": 132.762281,
+    "station_passenger_log": 9.76652169746297,
+    "station_line_count": 3.0,
+    "station_operator_count": 1.0,
+    "station_rank": "D"
   },
   {
     "station_id": "ehime_0128",
@@ -805,7 +1173,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.953519,
-    "lon": 132.773465
+    "lon": 132.773465,
+    "station_passenger_log": 5.602118820879701,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0121",
@@ -813,7 +1185,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.800944,
-    "lon": 132.839307
+    "lon": 132.839307,
+    "station_passenger_log": 7.284820912568604,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0142",
@@ -821,7 +1197,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄高浜線",
     "lat": 33.874637,
-    "lon": 132.707595
+    "lon": 132.707595,
+    "station_passenger_log": 5.762051382780177,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0127",
@@ -829,7 +1209,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.803353,
-    "lon": 132.88434
+    "lon": 132.88434,
+    "station_passenger_log": 7.030857476116121,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0039",
@@ -837,7 +1221,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 34.095217,
-    "lon": 132.942771
+    "lon": 132.942771,
+    "station_passenger_log": 4.74493212836325,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0038",
@@ -845,7 +1233,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 34.098001,
-    "lon": 132.968922
+    "lon": 132.968922,
+    "station_passenger_log": 5.198497031265826,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0043",
@@ -853,7 +1245,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 34.010017,
-    "lon": 132.80306
+    "lon": 132.80306,
+    "station_passenger_log": 4.6913478822291435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0006",
@@ -861,7 +1257,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予土線",
     "lat": 33.267655,
-    "lon": 132.660403
+    "lon": 132.660403,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0090",
@@ -869,7 +1269,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城北線",
     "lat": 33.849328,
-    "lon": 132.764281
+    "lon": 132.764281,
+    "station_passenger_log": 5.983936280687191,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0143",
@@ -877,7 +1281,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄高浜線",
     "lat": 33.869533,
-    "lon": 132.713405
+    "lon": 132.713405,
+    "station_passenger_log": 5.6240175061873385,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0123",
@@ -885,7 +1293,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.795212,
-    "lon": 132.856112
+    "lon": 132.856112,
+    "station_passenger_log": 5.455321115357702,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0122",
@@ -893,7 +1305,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.797739,
-    "lon": 132.846051
+    "lon": 132.846051,
+    "station_passenger_log": 6.706862336602747,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0032",
@@ -901,7 +1317,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.912829,
-    "lon": 133.098941
+    "lon": 133.098941,
+    "station_passenger_log": 4.795790545596741,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0124",
@@ -909,7 +1329,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.792948,
-    "lon": 132.865413
+    "lon": 132.865413,
+    "station_passenger_log": 6.568077911411976,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0101",
@@ -925,7 +1349,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予土線",
     "lat": 33.223996,
-    "lon": 132.745283
+    "lon": 132.745283,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0114",
@@ -933,7 +1361,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.831311,
-    "lon": 132.76935
+    "lon": 132.76935,
+    "station_passenger_log": 6.248042874508429,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0029",
@@ -941,7 +1373,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.895882,
-    "lon": 133.157744
+    "lon": 133.157744,
+    "station_passenger_log": 4.174387269895637,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0116",
@@ -949,7 +1385,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.82261,
-    "lon": 132.788931
+    "lon": 132.788931,
+    "station_passenger_log": 7.443078374348516,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0079",
@@ -957,7 +1397,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.297371,
-    "lon": 132.539275
+    "lon": 132.539275,
+    "station_passenger_log": 4.418840607796598,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0047",
@@ -965,7 +1409,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.942965,
-    "lon": 132.770576
+    "lon": 132.770576,
+    "station_passenger_log": 6.602587892189336,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0042",
@@ -973,7 +1421,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 34.033404,
-    "lon": 132.841111
+    "lon": 132.841111,
+    "station_passenger_log": 5.4510384535657,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0086",
@@ -981,7 +1433,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城北線",
     "lat": 33.851756,
-    "lon": 132.756226
+    "lon": 132.756226,
+    "station_passenger_log": 5.805134968916488,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0147",
@@ -989,7 +1445,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄高浜線",
     "lat": 33.8522,
-    "lon": 132.743997
+    "lon": 132.743997,
+    "station_passenger_log": 7.643961949002529,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0107",
@@ -997,7 +1457,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄大手町線",
     "lat": 33.840105,
-    "lon": 132.75866
+    "lon": 132.75866,
+    "station_passenger_log": 6.171700597410915,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0070",
@@ -1005,7 +1469,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.508204,
-    "lon": 132.527041
+    "lon": 132.527041,
+    "station_passenger_log": 3.713572066704308,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0146",
@@ -1013,7 +1481,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄高浜線",
     "lat": 33.850152,
-    "lon": 132.733989
+    "lon": 132.733989,
+    "station_passenger_log": 7.121252453244542,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0125",
@@ -1021,7 +1493,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.792721,
-    "lon": 132.873374
+    "lon": 132.873374,
+    "station_passenger_log": 6.498282149476434,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0098",
@@ -1029,7 +1505,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城南線",
     "lat": 33.844596,
-    "lon": 132.775354
+    "lon": 132.775354,
+    "station_passenger_log": 6.827629234502852,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0092",
@@ -1037,7 +1517,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城北線",
     "lat": 33.848115,
-    "lon": 132.772383
+    "lon": 132.772383,
+    "station_passenger_log": 7.197435354096591,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0022",
@@ -1045,7 +1529,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.96673,
-    "lon": 133.456352
+    "lon": 133.456352,
+    "station_passenger_log": 5.1647859739235145,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0005",
@@ -1053,7 +1541,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予土線",
     "lat": 33.255693,
-    "lon": 132.676335
+    "lon": 132.676335,
+    "station_passenger_log": 5.680172609017068,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0095",
@@ -1061,7 +1553,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城南線",
     "lat": 33.848552,
-    "lon": 132.784989
+    "lon": 132.784989,
+    "station_passenger_log": 6.466144724237619,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0094",
@@ -1069,7 +1565,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城南線",
     "lat": 33.850477,
-    "lon": 132.784817
+    "lon": 132.784817,
+    "station_passenger_log": 7.92588031673756,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0139",
@@ -1077,7 +1577,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄郡中線",
     "lat": 33.760734,
-    "lon": 132.70406
+    "lon": 132.70406,
+    "station_passenger_log": 6.92461239604856,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0140",
@@ -1085,7 +1589,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄郡中線",
     "lat": 33.756302,
-    "lon": 132.702315
+    "lon": 132.702315,
+    "station_passenger_log": 6.862757913051401,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0091",
@@ -1093,7 +1601,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城北線",
     "lat": 33.84829,
-    "lon": 132.769011
+    "lon": 132.769011,
+    "station_passenger_log": 6.498282149476434,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0133",
@@ -1101,7 +1613,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄郡中線",
     "lat": 33.810115,
-    "lon": 132.729784
+    "lon": 132.729784,
+    "station_passenger_log": 6.913737350659685,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0024",
@@ -1109,7 +1625,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.955791,
-    "lon": 133.392692
+    "lon": 133.392692,
+    "station_passenger_log": 4.48863636973214,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0081",
@@ -1117,7 +1637,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.25607,
-    "lon": 132.573559
+    "lon": 132.573559,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0141",
@@ -1133,7 +1657,11 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄城北線",
     "lat": 33.851664,
-    "lon": 132.762464
+    "lon": 132.762464,
+    "station_passenger_log": 5.648974238161206,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0059",
@@ -1141,7 +1669,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.701624,
-    "lon": 132.658771
+    "lon": 132.658771,
+    "station_passenger_log": 3.4339872044851463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0057",
@@ -1149,7 +1681,11 @@
     "prefecture": "愛媛県",
     "line_name": "JR予讃線",
     "lat": 33.763751,
-    "lon": 132.711309
+    "lon": 132.711309,
+    "station_passenger_log": 5.783825182329737,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "ehime_0119",
@@ -1157,6 +1693,10 @@
     "prefecture": "愛媛県",
     "line_name": "伊予鉄横河原線",
     "lat": 33.812542,
-    "lon": 132.815301
+    "lon": 132.815301,
+    "station_passenger_log": 6.839476438228843,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

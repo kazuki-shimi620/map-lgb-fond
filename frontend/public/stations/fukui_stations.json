@@ -5,7 +5,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.223159,
-    "lon": 136.193695
+    "lon": 136.193695,
+    "station_passenger_log": 5.41610040220442,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0127",
@@ -21,7 +25,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 35.906426,
-    "lon": 136.170274
+    "lon": 136.170274,
+    "station_passenger_log": 6.0112671744041615,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0048",
@@ -29,7 +37,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.076966,
-    "lon": 136.229047
+    "lon": 136.229047,
+    "station_passenger_log": 4.795790545596741,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0096",
@@ -37,7 +49,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 35.936514,
-    "lon": 136.180564
+    "lon": 136.180564,
+    "station_passenger_log": 4.700480365792417,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0094",
@@ -45,7 +61,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 35.919093,
-    "lon": 136.168105
+    "lon": 136.168105,
+    "station_passenger_log": 3.7612001156935624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0105",
@@ -53,7 +73,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 36.014187,
-    "lon": 136.205433
+    "lon": 136.205433,
+    "station_passenger_log": 3.912023005428146,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0108",
@@ -61,7 +85,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 36.033685,
-    "lon": 136.213882
+    "lon": 136.213882,
+    "station_passenger_log": 5.820082930352362,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0029",
@@ -69,7 +97,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 36.013679,
-    "lon": 136.2974
+    "lon": 136.2974,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0102",
@@ -77,7 +109,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 35.989143,
-    "lon": 136.193805
+    "lon": 136.193805,
+    "station_passenger_log": 4.0943445622221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0068",
@@ -85,7 +121,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.217012,
-    "lon": 136.149615
+    "lon": 136.149615,
+    "station_passenger_log": 5.746203190540153,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0069",
@@ -93,7 +133,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.220264,
-    "lon": 136.140049
+    "lon": 136.140049,
+    "station_passenger_log": 4.844187086458591,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0067",
@@ -101,7 +145,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.214773,
-    "lon": 136.158037
+    "lon": 136.158037,
+    "station_passenger_log": 4.23410650459726,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0008",
@@ -109,7 +157,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.555282,
-    "lon": 135.909259
+    "lon": 135.909259,
+    "station_passenger_log": 5.1298987149230735,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0022",
@@ -117,7 +169,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.488767,
-    "lon": 135.520561
+    "lon": 135.520561,
+    "station_passenger_log": 5.017279836814924,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0013",
@@ -125,7 +181,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.463638,
-    "lon": 135.855728
+    "lon": 135.855728,
+    "station_passenger_log": 6.0844994130751715,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0061",
@@ -133,7 +193,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.170129,
-    "lon": 136.202507
+    "lon": 136.202507,
+    "station_passenger_log": 4.356708826689592,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0042",
@@ -141,7 +205,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 35.974208,
-    "lon": 136.56027
+    "lon": 136.56027,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0081",
@@ -149,7 +217,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.090674,
-    "lon": 136.336346
+    "lon": 136.336346,
+    "station_passenger_log": 3.7612001156935624,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0055",
@@ -157,7 +229,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.10111,
-    "lon": 136.204591
+    "lon": 136.204591,
+    "station_passenger_log": 3.4339872044851463,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0120",
@@ -165,7 +241,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 36.162595,
-    "lon": 136.233502
+    "lon": 136.233502,
+    "station_passenger_log": 7.808323050391056,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0046",
@@ -173,7 +253,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 35.904489,
-    "lon": 136.66146
+    "lon": 136.66146,
+    "station_passenger_log": 3.367295829986474,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0056",
@@ -189,7 +273,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 36.069319,
-    "lon": 136.218058
+    "lon": 136.218058,
+    "station_passenger_log": 5.017279836814924,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0131",
@@ -197,7 +285,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 35.772947,
-    "lon": 136.199279
+    "lon": 136.199279,
+    "station_passenger_log": 5.638354669333745,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0088",
@@ -206,7 +298,7 @@
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.069838,
     "lon": 136.451611,
-    "station_passenger_log": 5.8944028342648505,
+    "station_passenger_log": 1.6094379124341005,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
     "station_rank": "E"
@@ -217,7 +309,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.088463,
-    "lon": 136.344586
+    "lon": 136.344586,
+    "station_passenger_log": 2.0794415416798357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0053",
@@ -225,7 +321,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.086407,
-    "lon": 136.205943
+    "lon": 136.205943,
+    "station_passenger_log": 5.308267697401205,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0026",
@@ -233,7 +333,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 36.028175,
-    "lon": 136.239594
+    "lon": 136.239594,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0018",
@@ -241,7 +345,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.480672,
-    "lon": 135.666145
+    "lon": 135.666145,
+    "station_passenger_log": 4.727387818712341,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0044",
@@ -249,7 +357,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 35.967512,
-    "lon": 136.597151
+    "lon": 136.597151,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0091",
@@ -257,7 +369,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.056362,
-    "lon": 136.492079
+    "lon": 136.492079,
+    "station_passenger_log": 5.831882477283517,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0017",
@@ -265,7 +381,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.481192,
-    "lon": 135.708039
+    "lon": 135.708039,
+    "station_passenger_log": 3.9318256327243257,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0038",
@@ -273,7 +393,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 35.997992,
-    "lon": 136.48795
+    "lon": 136.48795,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0093",
@@ -281,7 +405,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 35.910114,
-    "lon": 136.166563
+    "lon": 136.166563,
+    "station_passenger_log": 5.568344503761097,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0124",
@@ -289,7 +417,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 35.971496,
-    "lon": 136.198452
+    "lon": 136.198452,
+    "station_passenger_log": 7.153833801578843,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0010",
@@ -297,7 +429,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.51595,
-    "lon": 135.896591
+    "lon": 135.896591,
+    "station_passenger_log": 4.74493212836325,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0132",
@@ -305,7 +441,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 35.757424,
-    "lon": 136.184723
+    "lon": 136.184723,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0129",
@@ -313,7 +453,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 35.831956,
-    "lon": 136.193391
+    "lon": 136.193391,
+    "station_passenger_log": 6.424869023905388,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0111",
@@ -321,7 +465,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 36.053613,
-    "lon": 136.215014
+    "lon": 136.215014,
+    "station_passenger_log": 3.8501476017100584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0123",
@@ -329,7 +477,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 36.010546,
-    "lon": 136.216519
+    "lon": 136.216519,
+    "station_passenger_log": 6.315358001522335,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0062",
@@ -337,7 +489,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.186574,
-    "lon": 136.203687
+    "lon": 136.203687,
+    "station_passenger_log": 4.060443010546419,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0011",
@@ -345,7 +501,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.504839,
-    "lon": 135.866872
+    "lon": 135.866872,
+    "station_passenger_log": 5.14166355650266,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0058",
@@ -353,7 +513,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.131298,
-    "lon": 136.20574
+    "lon": 136.20574,
+    "station_passenger_log": 4.983606621708336,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0095",
@@ -361,7 +525,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 35.925988,
-    "lon": 136.17054
+    "lon": 136.17054,
+    "station_passenger_log": 4.787491742782046,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0032",
@@ -369,7 +537,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 36.01732,
-    "lon": 136.351085
+    "lon": 136.351085,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0016",
@@ -377,7 +549,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.491643,
-    "lon": 135.745672
+    "lon": 135.745672,
+    "station_passenger_log": 7.332369205929062,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0087",
@@ -385,7 +561,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.075553,
-    "lon": 136.434054
+    "lon": 136.434054,
+    "station_passenger_log": 2.0794415416798357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0085",
@@ -401,7 +581,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 36.019813,
-    "lon": 136.330463
+    "lon": 136.330463,
+    "station_passenger_log": 3.49650756146648,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0079",
@@ -409,7 +593,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.097792,
-    "lon": 136.311021
+    "lon": 136.311021,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0001",
@@ -417,7 +605,11 @@
     "prefecture": "福井県",
     "line_name": "JR北陸本線",
     "lat": 35.644767,
-    "lon": 136.076488
+    "lon": 136.076488,
+    "station_passenger_log": 8.696008608880904,
+    "station_line_count": 4.0,
+    "station_operator_count": 2.0,
+    "station_rank": "D"
   },
   {
     "station_id": "fukui_0014",
@@ -425,7 +617,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.473069,
-    "lon": 135.807198
+    "lon": 135.807198,
+    "station_passenger_log": 4.844187086458591,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0054",
@@ -433,7 +629,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.092483,
-    "lon": 136.205299
+    "lon": 136.205299,
+    "station_passenger_log": 5.6937321388027,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0002",
@@ -441,7 +641,11 @@
     "prefecture": "福井県",
     "line_name": "JR北陸本線",
     "lat": 35.594239,
-    "lon": 136.100558
+    "lon": 136.100558,
+    "station_passenger_log": 3.8918202981106265,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0071",
@@ -449,7 +653,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.064714,
-    "lon": 136.226721
+    "lon": 136.226721,
+    "station_passenger_log": 3.1354942159291497,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0052",
@@ -457,7 +665,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.080945,
-    "lon": 136.206479
+    "lon": 136.206479,
+    "station_passenger_log": 4.9344739331306915,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0121",
@@ -465,7 +677,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 36.129004,
-    "lon": 136.228487
+    "lon": 136.228487,
+    "station_passenger_log": 7.848153086199526,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0063",
@@ -473,7 +689,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.205011,
-    "lon": 136.202881
+    "lon": 136.202881,
+    "station_passenger_log": 4.143134726391533,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0015",
@@ -481,7 +701,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.485234,
-    "lon": 135.781053
+    "lon": 135.781053,
+    "station_passenger_log": 6.490723534502507,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0005",
@@ -489,7 +713,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.614039,
-    "lon": 135.985614
+    "lon": 135.985614,
+    "station_passenger_log": 4.174387269895637,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0075",
@@ -497,7 +725,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.086686,
-    "lon": 136.269837
+    "lon": 136.269837,
+    "station_passenger_log": 3.8918202981106265,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0078",
@@ -505,7 +737,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.09402,
-    "lon": 136.301703
+    "lon": 136.301703,
+    "station_passenger_log": 5.030437921392435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0043",
@@ -521,7 +757,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 36.109381,
-    "lon": 136.222516
+    "lon": 136.222516,
+    "station_passenger_log": 7.56164174558878,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0126",
@@ -529,7 +769,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 35.903254,
-    "lon": 136.170913
+    "lon": 136.170913,
+    "station_passenger_log": 8.200013648175434,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0090",
@@ -537,7 +781,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.066011,
-    "lon": 136.483574
+    "lon": 136.483574,
+    "station_passenger_log": 1.0986122886681098,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0007",
@@ -545,7 +793,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.584887,
-    "lon": 135.909531
+    "lon": 135.909531,
+    "station_passenger_log": 6.523562306149512,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0066",
@@ -553,7 +805,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.219081,
-    "lon": 136.172019
+    "lon": 136.172019,
+    "station_passenger_log": 3.295836866004329,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0099",
@@ -561,7 +817,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 35.962308,
-    "lon": 136.183191
+    "lon": 136.183191,
+    "station_passenger_log": 4.919980925828125,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0080",
@@ -569,7 +829,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.095849,
-    "lon": 136.32678
+    "lon": 136.32678,
+    "station_passenger_log": 5.170483995038151,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0107",
@@ -577,7 +841,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 36.028391,
-    "lon": 136.212379
+    "lon": 136.212379,
+    "station_passenger_log": 4.663439094112067,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0103",
@@ -585,7 +853,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 35.999444,
-    "lon": 136.198333
+    "lon": 136.198333,
+    "station_passenger_log": 3.871201010907891,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0104",
@@ -593,7 +865,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 36.006724,
-    "lon": 136.201737
+    "lon": 136.201737,
+    "station_passenger_log": 5.986452005284438,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0106",
@@ -601,7 +877,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 36.022222,
-    "lon": 136.209444
+    "lon": 136.209444,
+    "station_passenger_log": 4.465908118654584,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0130",
@@ -609,7 +889,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 35.803251,
-    "lon": 136.193007
+    "lon": 136.193007,
+    "station_passenger_log": 5.030437921392435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0118",
@@ -617,7 +901,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 36.259409,
-    "lon": 136.281618
+    "lon": 136.281618,
+    "station_passenger_log": 3.970291913552122,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0037",
@@ -633,7 +921,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 35.866259,
-    "lon": 136.165595
+    "lon": 136.165595,
+    "station_passenger_log": 6.395261598115449,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0050",
@@ -650,7 +942,7 @@
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.212358,
     "lon": 136.202333,
-    "station_passenger_log": 0.0,
+    "station_passenger_log": 2.5649493574615367,
     "station_line_count": 1.0,
     "station_operator_count": 1.0,
     "station_rank": "E"
@@ -661,7 +953,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.072643,
-    "lon": 136.465684
+    "lon": 136.465684,
+    "station_passenger_log": 3.80666248977032,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0100",
@@ -669,7 +965,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 35.972731,
-    "lon": 136.181885
+    "lon": 136.181885,
+    "station_passenger_log": 6.450470422144176,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0024",
@@ -685,7 +985,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.071386,
-    "lon": 136.233176
+    "lon": 136.233176,
+    "station_passenger_log": 5.44673737166631,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0113",
@@ -693,7 +997,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 36.063523,
-    "lon": 136.217566
+    "lon": 136.217566,
+    "station_passenger_log": 5.53338948872752,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0114",
@@ -701,7 +1009,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 36.061871,
-    "lon": 136.220625
+    "lon": 136.220625,
+    "station_passenger_log": 5.905361848054571,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0051",
@@ -709,7 +1021,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.074218,
-    "lon": 136.210339
+    "lon": 136.210339,
+    "station_passenger_log": 6.919683849847411,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0004",
@@ -717,7 +1033,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.617234,
-    "lon": 136.027225
+    "lon": 136.027225,
+    "station_passenger_log": 4.6913478822291435,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0119",
@@ -725,7 +1045,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 36.24125,
-    "lon": 136.256968
+    "lon": 136.256968,
+    "station_passenger_log": 4.919980925828125,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0033",
@@ -733,7 +1057,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 35.998567,
-    "lon": 136.365082
+    "lon": 136.365082,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0006",
@@ -741,7 +1069,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.605138,
-    "lon": 135.936496
+    "lon": 135.936496,
+    "station_passenger_log": 5.82600010738045,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0117",
@@ -749,7 +1081,11 @@
     "prefecture": "福井県",
     "line_name": "北陸新幹線",
     "lat": 36.214542,
-    "lon": 136.235069
+    "lon": 136.235069,
+    "station_passenger_log": 7.981733286691885,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0109",
@@ -757,7 +1093,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 36.040851,
-    "lon": 136.215176
+    "lon": 136.215176,
+    "station_passenger_log": 3.951243718581427,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0020",
@@ -765,7 +1105,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.488664,
-    "lon": 135.581564
+    "lon": 135.581564,
+    "station_passenger_log": 5.2832037287379885,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0012",
@@ -773,7 +1117,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.485536,
-    "lon": 135.868377
+    "lon": 135.868377,
+    "station_passenger_log": 4.634728988229636,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0019",
@@ -781,7 +1129,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.482616,
-    "lon": 135.618834
+    "lon": 135.618834,
+    "station_passenger_log": 6.137727054086234,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0021",
@@ -789,7 +1141,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.486423,
-    "lon": 135.547588
+    "lon": 135.547588,
+    "station_passenger_log": 6.137727054086234,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0009",
@@ -797,7 +1153,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.532198,
-    "lon": 135.906274
+    "lon": 135.906274,
+    "station_passenger_log": 3.80666248977032,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0049",
@@ -805,7 +1165,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.07516,
-    "lon": 136.222704
+    "lon": 136.222704,
+    "station_passenger_log": 5.14166355650266,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0098",
@@ -813,7 +1177,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 35.952437,
-    "lon": 136.185833
+    "lon": 136.185833,
+    "station_passenger_log": 3.218875824868201,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0003",
@@ -821,7 +1189,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.617975,
-    "lon": 136.067787
+    "lon": 136.067787,
+    "station_passenger_log": 5.41610040220442,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0059",
@@ -829,7 +1201,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.138964,
-    "lon": 136.206187
+    "lon": 136.206187,
+    "station_passenger_log": 4.770684624465665,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0060",
@@ -837,7 +1213,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.153615,
-    "lon": 136.206472
+    "lon": 136.206472,
+    "station_passenger_log": 5.093750200806762,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0097",
@@ -845,7 +1225,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 35.946352,
-    "lon": 136.1819
+    "lon": 136.1819,
+    "station_passenger_log": 5.43372200355424,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0077",
@@ -853,7 +1237,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.091726,
-    "lon": 136.289913
+    "lon": 136.289913,
+    "station_passenger_log": 5.68697535633982,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0036",
@@ -861,7 +1249,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 35.997589,
-    "lon": 136.434767
+    "lon": 136.434767,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0110",
@@ -869,7 +1261,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 36.048683,
-    "lon": 136.216623
+    "lon": 136.216623,
+    "station_passenger_log": 5.521460917862246,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0116",
@@ -877,7 +1273,11 @@
     "prefecture": "福井県",
     "line_name": "北陸新幹線",
     "lat": 35.895695,
-    "lon": 136.198935
+    "lon": 136.198935,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0045",
@@ -885,7 +1285,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 35.920356,
-    "lon": 136.634832
+    "lon": 136.634832,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0035",
@@ -893,7 +1297,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 36.000064,
-    "lon": 136.409694
+    "lon": 136.409694,
+    "station_passenger_log": 2.9444389791664403,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0039",
@@ -901,7 +1309,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 35.983294,
-    "lon": 136.496877
+    "lon": 136.496877,
+    "station_passenger_log": 5.796057750765372,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0041",
@@ -909,7 +1321,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 35.9909,
-    "lon": 136.541233
+    "lon": 136.541233,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0076",
@@ -917,7 +1333,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.089967,
-    "lon": 136.277123
+    "lon": 136.277123,
+    "station_passenger_log": 4.23410650459726,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0073",
@@ -925,7 +1345,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.080392,
-    "lon": 136.251314
+    "lon": 136.251314,
+    "station_passenger_log": 5.501258210544727,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0028",
@@ -933,7 +1357,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 36.018185,
-    "lon": 136.273561
+    "lon": 136.273561,
+    "station_passenger_log": 4.727387818712341,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0040",
@@ -941,7 +1369,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 35.987048,
-    "lon": 136.526884
+    "lon": 136.526884,
+    "station_passenger_log": 1.9459101490553132,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0086",
@@ -949,7 +1381,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.073945,
-    "lon": 136.413023
+    "lon": 136.413023,
+    "station_passenger_log": 4.007333185232471,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0025",
@@ -957,7 +1393,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 36.038771,
-    "lon": 136.218073
+    "lon": 136.218073,
+    "station_passenger_log": 6.68586094706836,
+    "station_line_count": 2.0,
+    "station_operator_count": 2.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0034",
@@ -965,7 +1405,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 36.005283,
-    "lon": 136.384336
+    "lon": 136.384336,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0084",
@@ -973,7 +1417,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.082887,
-    "lon": 136.37685
+    "lon": 136.37685,
+    "station_passenger_log": 2.8903717578961645,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0072",
@@ -981,7 +1429,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.075358,
-    "lon": 136.241275
+    "lon": 136.241275,
+    "station_passenger_log": 5.327876168789581,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0030",
@@ -989,7 +1441,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 36.024759,
-    "lon": 136.318669
+    "lon": 136.318669,
+    "station_passenger_log": 1.6094379124341005,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0027",
@@ -997,7 +1453,11 @@
     "prefecture": "福井県",
     "line_name": "JR越美北線",
     "lat": 36.020821,
-    "lon": 136.253607
+    "lon": 136.253607,
+    "station_passenger_log": 2.1972245773362196,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0112",
@@ -1005,7 +1465,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 36.057737,
-    "lon": 136.215109
+    "lon": 136.215109,
+    "station_passenger_log": 3.044522437723423,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0083",
@@ -1013,7 +1477,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.08688,
-    "lon": 136.361071
+    "lon": 136.361071,
+    "station_passenger_log": 3.737669618283368,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0074",
@@ -1021,7 +1489,11 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道勝山永平寺線",
     "lat": 36.082478,
-    "lon": 136.261507
+    "lon": 136.261507,
+    "station_passenger_log": 3.80666248977032,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0023",
@@ -1029,7 +1501,11 @@
     "prefecture": "福井県",
     "line_name": "JR小浜線",
     "lat": 35.481585,
-    "lon": 135.4998
+    "lon": 135.4998,
+    "station_passenger_log": 5.017279836814924,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0125",
@@ -1037,7 +1513,11 @@
     "prefecture": "福井県",
     "line_name": "ハピラインふくい線",
     "lat": 35.943355,
-    "lon": 136.188852
+    "lon": 136.188852,
+    "station_passenger_log": 8.21851757748959,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0101",
@@ -1045,7 +1525,11 @@
     "prefecture": "福井県",
     "line_name": "福井鉄道福武線",
     "lat": 35.981522,
-    "lon": 136.187556
+    "lon": 136.187556,
+    "station_passenger_log": 4.454347296253507,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "fukui_0057",
@@ -1053,6 +1537,10 @@
     "prefecture": "福井県",
     "line_name": "えちぜん鉄道三国芦原線",
     "lat": 36.12061,
-    "lon": 136.204793
+    "lon": 136.204793,
+    "station_passenger_log": 5.0689042022202315,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   }
 ]

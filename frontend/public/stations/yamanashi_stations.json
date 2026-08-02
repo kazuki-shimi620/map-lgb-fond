@@ -53,7 +53,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.425751,
-    "lon": 138.472359
+    "lon": 138.472359,
+    "station_passenger_log": 4.77912349311153,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0040",
@@ -61,7 +65,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.48144,
-    "lon": 138.467391
+    "lon": 138.467391,
+    "station_passenger_log": 3.5263605246161616,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0030",
@@ -69,7 +77,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.247449,
-    "lon": 138.490989
+    "lon": 138.490989,
+    "station_passenger_log": 3.80666248977032,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0032",
@@ -77,7 +89,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.282183,
-    "lon": 138.465068
+    "lon": 138.465068,
+    "station_passenger_log": 5.3471075307174685,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0007",
@@ -181,7 +197,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.379626,
-    "lon": 138.453887
+    "lon": 138.453887,
+    "station_passenger_log": 2.3978952727983707,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0011",
@@ -201,7 +221,11 @@
     "prefecture": "山梨県",
     "line_name": "JR中央本線",
     "lat": 35.687734,
-    "lon": 138.487521
+    "lon": 138.487521,
+    "station_passenger_log": 7.617267813628347,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0006",
@@ -221,7 +245,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.264832,
-    "lon": 138.474932
+    "lon": 138.474932,
+    "station_passenger_log": 2.70805020110221,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0071",
@@ -277,7 +305,11 @@
     "prefecture": "山梨県",
     "line_name": "JR中央本線",
     "lat": 35.863808,
-    "lon": 138.316351
+    "lon": 138.316351,
+    "station_passenger_log": 7.9247959139564355,
+    "station_line_count": 2.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0013",
@@ -297,7 +329,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.462345,
-    "lon": 138.482154
+    "lon": 138.482154,
+    "station_passenger_log": 2.0794415416798357,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0044",
@@ -305,7 +341,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.560451,
-    "lon": 138.493276
+    "lon": 138.493276,
+    "station_passenger_log": 6.642486801367256,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0045",
@@ -313,7 +353,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.560684,
-    "lon": 138.502028
+    "lon": 138.502028,
+    "station_passenger_log": 6.432940092739179,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0050",
@@ -333,7 +377,11 @@
     "prefecture": "山梨県",
     "line_name": "JR中央本線",
     "lat": 35.736802,
-    "lon": 138.433093
+    "lon": 138.433093,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0023",
@@ -341,7 +389,11 @@
     "prefecture": "山梨県",
     "line_name": "JR中央本線",
     "lat": 35.79065,
-    "lon": 138.394316
+    "lon": 138.394316,
+    "station_passenger_log": 6.80128303447162,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0014",
@@ -433,7 +485,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.418624,
-    "lon": 138.459747
+    "lon": 138.459747,
+    "station_passenger_log": 3.871201010907891,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0028",
@@ -441,7 +497,11 @@
     "prefecture": "山梨県",
     "line_name": "JR小海線",
     "lat": 35.919093,
-    "lon": 138.436589
+    "lon": 138.436589,
+    "station_passenger_log": 5.616771097666572,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0005",
@@ -521,7 +581,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.328171,
-    "lon": 138.45218
+    "lon": 138.45218,
+    "station_passenger_log": 2.5649493574615367,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0027",
@@ -529,7 +593,11 @@
     "prefecture": "山梨県",
     "line_name": "JR小海線",
     "lat": 35.89624,
-    "lon": 138.409564
+    "lon": 138.409564,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0026",
@@ -537,7 +605,11 @@
     "prefecture": "山梨県",
     "line_name": "JR小海線",
     "lat": 35.879533,
-    "lon": 138.359402
+    "lon": 138.359402,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0041",
@@ -545,7 +617,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.492539,
-    "lon": 138.463057
+    "lon": 138.463057,
+    "station_passenger_log": 5.342334251964811,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0038",
@@ -553,7 +629,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.444779,
-    "lon": 138.476975
+    "lon": 138.476975,
+    "station_passenger_log": 3.6375861597263857,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0015",
@@ -585,7 +665,11 @@
     "prefecture": "山梨県",
     "line_name": "JR中央本線",
     "lat": 35.75107,
-    "lon": 138.413858
+    "lon": 138.413858,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0018",
@@ -617,7 +701,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.563087,
-    "lon": 138.511241
+    "lon": 138.511241,
+    "station_passenger_log": 4.941642422609304,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0042",
@@ -625,7 +713,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.503612,
-    "lon": 138.471256
+    "lon": 138.471256,
+    "station_passenger_log": 3.367295829986474,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0068",
@@ -669,7 +761,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.361397,
-    "lon": 138.453021
+    "lon": 138.453021,
+    "station_passenger_log": 6.115892125483034,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0061",
@@ -725,7 +821,11 @@
     "prefecture": "山梨県",
     "line_name": "JR中央本線",
     "lat": 35.827061,
-    "lon": 138.366459
+    "lon": 138.366459,
+    "station_passenger_log": 0.0,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0020",
@@ -733,7 +833,11 @@
     "prefecture": "山梨県",
     "line_name": "JR中央本線",
     "lat": 35.709711,
-    "lon": 138.451357
+    "lon": 138.451357,
+    "station_passenger_log": 8.465268118551318,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0043",
@@ -741,7 +845,11 @@
     "prefecture": "山梨県",
     "line_name": "JR身延線",
     "lat": 35.541375,
-    "lon": 138.470916
+    "lon": 138.470916,
+    "station_passenger_log": 5.220355825078324,
+    "station_line_count": 1.0,
+    "station_operator_count": 1.0,
+    "station_rank": "E"
   },
   {
     "station_id": "yamanashi_0004",
