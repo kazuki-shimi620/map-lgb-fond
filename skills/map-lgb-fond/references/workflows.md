@@ -53,8 +53,9 @@ make setup-csv-download
 make download-csv CSV_PREFECTURES=tokyo CSV_FROM_YEAR=2025 CSV_TO_YEAR=2025
 ```
 
-全国分は `make download-csv-all` で取得する。正常な既存ZIPはスキップされ、`TODO.md` の
-チェックリストへ進捗が同期される。
+全国分は `make download-csv-all` で取得する。正常な既存ZIPはスキップされ、取得状況を
+チェックリストファイルへ出力できる。`TODO.md` は未完了の設計・実装作業だけを管理し、
+大量取得の行単位進捗は保持しない。
 
 複数ZIPを1つの地域データにまとめる例:
 

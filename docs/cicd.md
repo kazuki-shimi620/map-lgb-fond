@@ -8,7 +8,7 @@
 
 以下を実現する。
 
-* Pull Request 時にフロントエンドのビルドが通ることを確認する
+* Pull Request 時にフロントエンドのビルドとChromium E2Eが通ることを確認する
 * Pull Request 時に学習パイプラインの構文チェック、Lint、単体テストが通ることを確認する
 * `main` に取り込まれた内容だけを GitHub Pages に公開する
 * 学習環境や生データに依存せず、`frontend/` の静的成果物だけをデプロイする
@@ -56,7 +56,7 @@ develop で開発
 ↓
 main 向け Pull Request を作成
 ↓
-GitHub Actions で frontend build を確認
+GitHub Actions でfrontend buildとChromium E2Eを確認
 ↓
 Pull Request を main に merge
 ↓
@@ -72,6 +72,7 @@ workflow ファイル:
 ```text
 .github/workflows/deploy-frontend.yml
 .github/workflows/training-ci.yml
+.github/workflows/frontend-webkit-e2e.yml
 ```
 
 実行タイミング:
@@ -102,12 +103,14 @@ pytest
 
 # 5. Pull Request 時の動作
 
-Pull Request ではビルド確認のみを行う。
+Pull RequestではビルドとChromium E2Eを行う。Mobile Safari相当のWebKit E2Eは、
+手動実行と週次スケジュールで補完する。
 
 実行される job:
 
 ```text
 フロントエンドをビルド
+Chromium E2Eを実行
 ```
 
 実行されない job:
@@ -169,12 +172,17 @@ frontend/public/metadata
 frontend/public/histories
 frontend/public/stations
 frontend/public/onnx
+frontend/public/facilities
+frontend/public/hazards
+frontend/public/land-prices
+frontend/public/urban-planning
 ```
 
 外部通信は以下に限定する。
 
 * OpenStreetMap の地図タイル
 * Nominatim の geocoding / reverse geocoding
+* 国土地理院・国土交通省の公開ハザードラスタタイル
 
 ## 本番成果物更新との接続
 

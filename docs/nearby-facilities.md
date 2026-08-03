@@ -15,6 +15,13 @@
 | 病院、コンビニ、スーパー、ドラッグストア、飲食店など | 表示しない | 件数、配信サイズ、更新負荷が大きく、都市部では位置情報の差別化価値が限定的なため。 |
 | 公園 | 大型公園だけ将来検討 | 小規模公園の全件マーカーは配信しない。 |
 
+### 現行配信スナップショット
+
+`frontend/public/facilities/nearby_facilities.json` の2026-08-01生成分は、全国の
+商業施設2,911件、映画館520件、美術館・博物館7,269件、温泉・入浴施設2,969件、
+合計13,669件を保持する。これを現行UIと配信容量の基準とし、以下の過去スナップショットは
+収集・軽量化の判断履歴として扱う。
+
 ## 入力CSV
 
 テンプレート:
@@ -45,6 +52,10 @@ make enrich-commercial-facilities
 make enrich-sc-pdf-candidates
 make nearby-facilities
 ```
+
+### 生成構成の変遷
+
+以下の件数は当時の生成結果であり、現在配信中のカテゴリ・件数ではない。
 
 2026-07-16時点では、旧JCSC CSVと全国一覧PDF由来データを統合し、商業施設サマリーは全国3,197件、47都道府県、884市区町村を保持する。座標ありは2,912件だが、このうち市区町村代表点を除いた信頼座標は211件で、`frontend/public/facilities/nearby_facilities.json` へ `commercial_facility` マーカーとして出力した。配信用サマリーJSONには `coverage` として、対象エリア、件数、座標付与率、信頼座標率、面積欠損率を記録する。
 
@@ -249,7 +260,7 @@ make nearby-facilities NEARBY_FACILITIES_INPUTS="data/processed/medical/nearby_m
 | column | required | description |
 | --- | --- | --- |
 | `id` | no | 空の場合はカテゴリ、施設名、緯度経度から自動生成する |
-| `category_id` | yes | `hospital`, `supermarket`, `commercial_facility`, `park`, `convenience_store`, `cinema`, `hot_spring` |
+| `category_id` | yes | 標準配信は `commercial_facility`, `cinema`, `museum`, `hot_spring`。収集・比較用途では `hospital`, `supermarket`, `park`, `convenience_store` も扱える |
 | `name` | yes | 施設名 |
 | `lat` | yes | 緯度 |
 | `lon` | yes | 経度 |

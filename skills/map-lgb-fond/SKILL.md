@@ -33,7 +33,7 @@ description: map-lgb-fond 不動産価格予測アプリ専用のプロジェク
 
 - MVPを優先する。ブラウザ推論、学習/推論分離、FeatureProvider 拡張、都道府県別モデル管理を崩さない。
 - 新しい抽象化よりも、既存構成に沿った小さな変更を優先する。
-- ブラウザ用生成物は `frontend/public/{models,metadata,histories,stations}` に置く。
+- ブラウザ用生成物は `frontend/public/{models,metadata,histories,stations,facilities,hazards}` に置く。
 - 学習成果物は `training/outputs/` に置き、最新採用分だけ `frontend/public` へコピーする。
 - 外部ネットワーク、MLIT API、公開駅データ取得、モデル再生成は、必要な場合だけ実行する。
 - Python の依存管理は `uv` を使う。ユーザーが求めない限り `requirements.txt` は追加しない。
@@ -55,7 +55,7 @@ description: map-lgb-fond 不動産価格予測アプリ専用のプロジェク
 - フロントエンドだけを `frontend/dist` にビルドして GitHub Pages にデプロイする。
 - 詳細な運用ルールは `docs/cicd.md` を参照する。
 - CI/CD は `.github/workflows/deploy-frontend.yml` で管理する。
-- Pull Request では build だけを実行し、`main` への push / merge で deploy する。
+- Pull Request ではbuildとChromium E2Eを実行し、`main` へのpush / mergeでdeployする。
 - 開発は `develop` ブランチを基本にし、`main` へ取り込むタイミングを公開タイミングとする。
 - Pages で動かすため、Vite の `base: "./"` と `frontend/public/.nojekyll` を維持する。
 

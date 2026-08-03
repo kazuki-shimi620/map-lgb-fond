@@ -21,6 +21,7 @@
 - `docs/database.md`: SQLite schema、制約、latest model 管理
 - `docs/architecture.md`: 全体アーキテクチャと処理フロー
 - `docs/cicd.md`: GitHub Actions と GitHub Pages のデプロイ運用
+- `docs/glossary.md`: プロジェクトで使う専門用語の初心者向け説明
 
 ## 主要パス
 
@@ -32,6 +33,8 @@
 - `frontend/public/metadata/`: カテゴリ辞書とモデルメタデータ
 - `frontend/public/histories/`: 駅別・年別の価格推移JSON
 - `frontend/public/stations/`: 駅マスタJSON
+- `frontend/public/facilities/`: 全国の周辺施設と商業施設集計JSON
+- `frontend/public/hazards/`: ハザードレイヤー設定と参考情報
 - `training/src/train/train.py`: 学習パイプライン入口
 - `training/src/features/`: FeatureProvider とカテゴリ辞書生成
 - `training/src/export/artifacts.py`: モデル成果物とJSON出力、frontend copy
