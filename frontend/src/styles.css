@@ -137,6 +137,21 @@ h2 {
   pointer-events: none;
 }
 
+.result-scope-warning {
+  margin: 12px 0 16px;
+  padding: 12px 14px;
+  border: 1px solid #fdba74;
+  border-radius: 12px;
+  background: #fff7ed;
+  color: #9a3412;
+  font-size: 14px;
+}
+
+.result-scope-warning ul {
+  margin: 6px 0 0;
+  padding-left: 20px;
+}
+
 .loading-spinner {
   width: 16px;
   height: 16px;

@@ -1,5 +1,9 @@
 import { expect, test } from "@playwright/test";
-import { mockSuccessfulGeocoding } from "./fixtures/geocoding";
+import {
+  mockFailedReverseGeocoding,
+  mockSuccessfulGeocoding,
+  mockUnsupportedReverseGeocoding
+} from "./fixtures/geocoding";
 import { PredictionPage } from "./pages/prediction-page";
 
 test.describe("地図操作", () => {
@@ -36,5 +40,31 @@ test.describe("地図操作", () => {
     await expect(predictionPage.locationTooltip).toContainText("千代田区");
     await expect(predictionPage.locationTooltip).toContainText("東京");
     await predictionPage.waitForPredictionResult();
+  });
+
+  test("対応外地点では古い予測を残さず案内を表示する", async ({ page }) => {
+    await mockUnsupportedReverseGeocoding(page);
+    const predictionPage = new PredictionPage(page);
+    await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
+    await predictionPage.waitForPredictionResult();
+
+    await predictionPage.clickMapCenter();
+
+    await expect(page.getByText(/対応エリア外です/)).toBeVisible();
+    await expect(predictionPage.predictionResult).toContainText("条件を入力して予測してください。");
+  });
+
+  test("逆ジオコーディング障害時は古い予測を残さず再選択を案内する", async ({ page }) => {
+    await mockFailedReverseGeocoding(page);
+    const predictionPage = new PredictionPage(page);
+    await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
+    await predictionPage.waitForPredictionResult();
+
+    await predictionPage.clickMapCenter();
+
+    await expect(page.getByText(/対応エリア外です/)).toBeVisible();
+    await expect(predictionPage.predictionResult).toContainText("条件を入力して予測してください。");
   });
 });

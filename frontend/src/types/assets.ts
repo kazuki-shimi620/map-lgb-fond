@@ -18,6 +18,10 @@ export type ModelMetadata = {
   latestTrainingYear: number;
   featureOrder: string[];
   featureDefaults?: Record<string, number>;
+  inputRanges?: Partial<Record<"area" | "age" | "stationDistance" | "transactionYear", {
+    min: number;
+    max: number;
+  }>>;
   generatedAt?: string;
   evaluation?: {
     split: string;

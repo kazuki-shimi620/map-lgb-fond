@@ -10,7 +10,11 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from common.config import TrainingConfig, load_config  # noqa: E402
-from evaluate.metrics import calculate_metrics, calculate_residual_quantiles  # noqa: E402
+from evaluate.metrics import (  # noqa: E402
+    calculate_metrics,
+    calculate_residual_quantiles,
+    calculate_segment_metrics,
+)
 from experiment.database import (  # noqa: E402
     complete_experiment,
     connect,
@@ -25,6 +29,7 @@ from experiment.database import (  # noqa: E402
 from export.artifacts import (  # noqa: E402
     RECENT_HISTORY_START_YEAR,
     build_artifact_paths,
+    build_input_ranges,
     build_price_history,
     copy_for_frontend,
     export_onnx_if_available,
@@ -112,6 +117,9 @@ def main() -> int:
             predictions = evaluation_model.predict(test_x)
             metrics = calculate_metrics(test_y, predictions)
             residual_quantiles = calculate_residual_quantiles(test_y, predictions)
+            segment_metrics = calculate_segment_metrics(
+                feature_df.loc[test_mask], predictions
+            )
             deployment_model = train_model(
                 deployment_x,
                 deployment_y,
@@ -133,7 +141,9 @@ def main() -> int:
                     model_params=model_params,
                     feature_importance=_build_feature_importance(deployment_model, config.features),
                     residual_quantiles=residual_quantiles,
+                    segment_metrics=segment_metrics,
                     tuning_result=tuning_result,
+                    input_ranges=build_input_ranges(encoding.dataframe.loc[deployment_mask]),
                 ),
                 paths["metadata"],
             )
@@ -321,7 +331,9 @@ def _build_metadata(
     model_params: dict[str, object],
     feature_importance: list[dict[str, object]],
     residual_quantiles: dict[str, float],
+    segment_metrics: dict[str, object],
     tuning_result: dict[str, object] | None,
+    input_ranges: dict[str, dict[str, float | int]],
 ) -> dict[str, object]:
     return {
         "region": config.region,
@@ -330,6 +342,7 @@ def _build_metadata(
         "latestTrainingYear": config.latest_training_year,
         "generatedAt": datetime.now().date().isoformat(),
         "featureOrder": config.features,
+        "inputRanges": input_ranges,
         "evaluation": {
             "split": split_name,
             "trainStartYear": config.train_start_year,
@@ -338,6 +351,7 @@ def _build_metadata(
             "testCount": test_count,
             "metrics": metrics,
             "residualQuantiles": residual_quantiles,
+            "segments": segment_metrics,
         },
         "deployment": {
             "trainStartYear": config.train_start_year,

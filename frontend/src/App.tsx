@@ -86,6 +86,10 @@ export function App() {
     }),
     [metadata]
   );
+  const inputRangeWarnings = useMemo(
+    () => buildInputRangeWarnings(form, metadata?.inputRanges),
+    [form, metadata]
+  );
 
   const {
     handleFormChange,
@@ -130,7 +134,7 @@ export function App() {
         ? "予測を更新しています"
         : "";
 
-  const { chartPoints } = usePriceHistory({
+  const { chartPoints, comparableSample } = usePriceHistory({
     forecastPoints,
     form,
     history,
@@ -138,6 +142,13 @@ export function App() {
     result,
     stations
   });
+  const predictionWarnings = useMemo(
+    () => [
+      ...inputRangeWarnings,
+      ...buildComparableSampleWarnings(comparableSample)
+    ],
+    [comparableSample, inputRangeWarnings]
+  );
   const selectedStation = stations.find((station) => station.station_name === form.station);
   const locationSummary = {
     prefecture: form.prefecture,
@@ -218,7 +229,7 @@ export function App() {
                 onChange={handleFormChange}
                 sheetState={formSheetState}
               />
-              <PredictionResultView result={result} />
+              <PredictionResultView result={result} scopeWarnings={predictionWarnings} />
             </div>
             <div className="prediction-side-column">
               <ForecastControls
@@ -276,4 +287,40 @@ export function App() {
       </div>
     </main>
   );
+}
+
+type InputRanges = NonNullable<import("./types/assets").ModelMetadata["inputRanges"]>;
+
+export function buildInputRangeWarnings(
+  form: PredictionFormState,
+  ranges: InputRanges | undefined
+): string[] {
+  if (!ranges) return [];
+  const fields = [
+    { key: "area", label: "面積", value: form.area, unit: "㎡" },
+    { key: "age", label: "築年数", value: form.age, unit: "年" },
+    { key: "stationDistance", label: "駅徒歩", value: form.stationDistance, unit: "分" },
+    { key: "transactionYear", label: "予測年", value: form.predictionYear, unit: "年" }
+  ] as const;
+  return fields.flatMap(({ key, label, value, unit }) => {
+    const range = ranges[key];
+    if (!range || (value >= range.min && value <= range.max)) return [];
+    const suffix = key === "transactionYear"
+      ? "過去傾向を使った参考シミュレーションです。"
+      : "予測誤差が大きくなる可能性があります。";
+    return [`${label}${value}${unit}（学習範囲: ${range.min}〜${range.max}${unit}）。${suffix}`];
+  });
+}
+
+type ComparableSample = import("./features/prediction/usePriceHistory").ComparableSample;
+
+export function buildComparableSampleWarnings(sample: ComparableSample): string[] {
+  if (sample.level === "exact") return [];
+  if (sample.level === "area") {
+    return [`同じ駅・面積帯の直近データは${sample.count}件です。築年帯を広げた参考値です。`];
+  }
+  if (sample.level === "station") {
+    return [`同じ駅の直近データは${sample.count}件です。類似する面積・築年帯が少ないため、参考値としてご覧ください。`];
+  }
+  return ["同じ駅の直近データを確認できません。モデル全体の傾向による参考値です。"];
 }

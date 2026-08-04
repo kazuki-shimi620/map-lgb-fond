@@ -34,6 +34,30 @@ def save_json(data: object, path: str | Path, *, compact: bool = False) -> Path:
     return output
 
 
+def build_input_ranges(df) -> dict[str, dict[str, float | int]]:
+    """Build browser-facing ranges from the rows used by the deployment model."""
+    fields = {
+        "area": "area",
+        "age": "age",
+        "stationDistance": "station_distance",
+        "transactionYear": "transaction_year",
+    }
+    ranges: dict[str, dict[str, float | int]] = {}
+    for output_name, column_name in fields.items():
+        if column_name not in df.columns:
+            continue
+        values = df[column_name].dropna()
+        if values.empty:
+            continue
+        minimum = float(values.min())
+        maximum = float(values.max())
+        if output_name == "transactionYear":
+            ranges[output_name] = {"min": int(minimum), "max": int(maximum)}
+        else:
+            ranges[output_name] = {"min": minimum, "max": maximum}
+    return ranges
+
+
 def build_artifact_paths(output_dir: str | Path, region: str) -> dict[str, Path]:
     date = datetime.now().strftime("%Y%m%d")
     base = Path(output_dir)

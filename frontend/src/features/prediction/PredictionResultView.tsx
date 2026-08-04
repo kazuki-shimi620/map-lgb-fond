@@ -2,6 +2,7 @@ import type { PredictionResult } from "../../types/prediction";
 
 type Props = {
   result: PredictionResult | null;
+  scopeWarnings?: string[];
 };
 
 export type PredictionSummary = {
@@ -60,7 +61,7 @@ function formatDate(value: string | null): string {
   }).format(date);
 }
 
-export function PredictionResultView({ result }: Props) {
+export function PredictionResultView({ result, scopeWarnings = [] }: Props) {
   if (!result) {
     return (
       <section className="panel result-panel" data-testid="prediction-result">
@@ -75,6 +76,14 @@ export function PredictionResultView({ result }: Props) {
       <div className="panel-title-row">
         <h2>予測結果</h2>
       </div>
+      {scopeWarnings.length > 0 ? (
+        <div className="result-scope-warning" role="status" aria-label="予測の注意事項">
+          <strong>予測条件に関する注意</strong>
+          <ul>
+            {scopeWarnings.map((warning) => <li key={warning}>{warning}</li>)}
+          </ul>
+        </div>
+      ) : null}
       <dl className="result-grid">
         <div>
           <dt>予測価格</dt>
@@ -98,7 +107,7 @@ export function PredictionResultView({ result }: Props) {
         </div>
       </dl>
       <p className="result-disclaimer">
-        予測価格と価格帯は公開取引データに基づく参考値です。価格帯は予測価格に検証データのMAEを足し引きした目安で、実際の査定額や成約価格を保証するものではありません。
+        予測価格と価格帯は公開取引データに基づく参考値です。価格帯は検証データの誤差から算出した目安で、実際の査定額、成約価格、将来価格を保証するものではありません。
       </p>
     </section>
   );

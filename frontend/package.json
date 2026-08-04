@@ -10,6 +10,7 @@
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:headed": "playwright test --headed",
+    "test:e2e:production": "playwright test e2e/production-smoke.spec.ts --project=chromium --workers=1",
     "test:e2e:webkit": "playwright test --project=mobile-safari",
     "test:e2e:report": "playwright show-report",
     "test:e2e:screenshots": "README_SCREENSHOTS=1 playwright test e2e/screenshots.spec.ts --project=chromium --workers=1",

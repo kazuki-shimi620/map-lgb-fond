@@ -45,6 +45,36 @@ test.describe("価格予測", () => {
     await expect.poll(() => predictionPage.getPredictedPriceText()).not.toBe(before);
   });
 
+  test("学習範囲外の条件では予測結果より前に注意を表示する", async ({ page }) => {
+    const predictionPage = new PredictionPage(page);
+    await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
+    await predictionPage.waitForPredictionResult();
+
+    await predictionPage.fillArea(200);
+
+    const warning = page.getByRole("status", { name: "予測の注意事項" });
+    await expect(warning).toBeVisible();
+    await expect(warning).toContainText("面積200㎡");
+    await expect(warning).toContainText("学習範囲");
+    await expect(warning).toContainText("予測誤差が大きくなる可能性があります");
+  });
+
+  test("類似取引を確認できない条件では価格より前に注意を表示する", async ({ page }) => {
+    await page.route("**/histories/tokyo_latest_history.json", async (route) => {
+      await route.fulfill({ json: [] });
+    });
+    const predictionPage = new PredictionPage(page);
+    await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
+    await predictionPage.waitForPredictionResult();
+
+    const warning = page.getByRole("status", { name: "予測の注意事項" });
+    await expect(warning).toBeVisible();
+    await expect(warning).toContainText("同じ駅の直近データを確認できません");
+    await expect(warning).toContainText("モデル全体の傾向による参考値");
+  });
+
   test("間取りを変更できる", async ({ page }) => {
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();

@@ -73,6 +73,7 @@ workflow ファイル:
 .github/workflows/deploy-frontend.yml
 .github/workflows/training-ci.yml
 .github/workflows/frontend-webkit-e2e.yml
+.github/workflows/production-smoke.yml
 ```
 
 実行タイミング:
@@ -183,6 +184,23 @@ frontend/public/urban-planning
 * OpenStreetMap の地図タイル
 * Nominatim の geocoding / reverse geocoding
 * 国土地理院・国土交通省の公開ハザードラスタタイル
+
+## 公開サイトの定期スモークテスト
+
+`production-smoke.yml` は毎日5時17分（日本時間）と手動実行で、公開GitHub Pagesを直接確認する。
+ローカルサーバーは起動せず、`PLAYWRIGHT_BASE_URL` を公開URLへ設定する。
+
+確認対象:
+
+* 初期画面と地図の表示
+* メタデータ、カテゴリ辞書、ONNXモデル、駅マスタの取得
+* 初回価格予測
+* 地図クリック後の住所・最寄駅更新と再予測
+* 主要モデル成果物のHTTPエラー
+
+外部サービスの一時障害も検知するため、定期テストは失敗時のPlaywrightレポートを7日間保持する。
+また、`frontend/public/models` または `frontend/public/metadata` が変わるPull Requestでは
+学習パイプラインCIも起動し、ONNX入力次元、`featureOrder`、カテゴリ辞書の整合性を検証する。
 
 ## 本番成果物更新との接続
 

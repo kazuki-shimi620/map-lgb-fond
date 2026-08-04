@@ -61,4 +61,26 @@ test.describe("エラー処理", () => {
     await expect(page.getByText("価格予測に失敗しました")).toBeVisible();
     await expect(predictionPage.predictionResult).toContainText("条件を入力して予測してください。");
   });
+
+  test("価格推移データ障害時も価格予測を利用できる", async ({ page }) => {
+    await page.route("**/histories/tokyo_latest_history.json", async (route) => {
+      await route.fulfill({ status: 503, body: "history unavailable" });
+    });
+
+    const predictionPage = new PredictionPage(page);
+    await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
+
+    await expect(page.getByText("価格推移データを読み込めませんでした。価格予測は利用できます。")).toBeVisible();
+    await predictionPage.waitForPredictionResult();
+  });
+
+  test("背景地図タイル障害時も価格予測を利用できる", async ({ page }) => {
+    const predictionPage = new PredictionPage(page);
+    await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
+
+    await expect(predictionPage.map).toBeVisible();
+    await predictionPage.waitForPredictionResult();
+  });
 });

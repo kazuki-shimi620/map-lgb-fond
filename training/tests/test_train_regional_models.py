@@ -32,11 +32,15 @@ def test_regional_metadata_describes_evaluation_and_deployment():
         deployment_count=120,
         metrics={"mae": 1.0, "rmse": 2.0, "mape": 3.0},
         residual_quantiles={"p025": -10.0, "p975": 20.0},
+        segment_metrics={"minimumSampleCount": 100, "dimensions": {}},
         model=DummyModel(),
+        input_ranges={"area": {"min": 20.0, "max": 100.0}},
     )
 
     assert metadata["modelScope"] == "regional"
     assert metadata["evaluation"]["testCount"] == 20
     assert metadata["evaluation"]["residualQuantiles"] == {"p025": -10.0, "p975": 20.0}
+    assert metadata["evaluation"]["segments"]["minimumSampleCount"] == 100
     assert metadata["deployment"]["trainCount"] == 120
     assert metadata["prefectures"] == REGIONAL_CLUSTERS["tohoku"]
+    assert metadata["inputRanges"] == {"area": {"min": 20.0, "max": 100.0}}

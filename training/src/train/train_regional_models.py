@@ -19,10 +19,15 @@ from common.regions import (  # noqa: E402
 from evaluate.compare_station_passenger_features import (  # noqa: E402
     STATION_SCALE_NUMERIC_FEATURES,
 )
-from evaluate.metrics import calculate_metrics, calculate_residual_quantiles  # noqa: E402
+from evaluate.metrics import (  # noqa: E402
+    calculate_metrics,
+    calculate_residual_quantiles,
+    calculate_segment_metrics,
+)
 from export.artifacts import (  # noqa: E402
     RECENT_HISTORY_START_YEAR,
     build_artifact_paths,
+    build_input_ranges,
     build_price_history,
     copy_for_frontend,
     export_onnx_if_available,
@@ -161,6 +166,7 @@ def train_regional_models(
             encoded.loc[test_mask, "price"],
             predictions,
         )
+        segment_metrics = calculate_segment_metrics(group_data.loc[test_mask], predictions)
         deployment_model = train_model(
             encoded[features], encoded["price"], CATEGORICAL_FEATURES, MODEL_PARAMS
         )
@@ -180,8 +186,10 @@ def train_regional_models(
                 deployment_count=len(encoded),
                 metrics=metrics,
                 residual_quantiles=residual_quantiles,
+                segment_metrics=segment_metrics,
                 model=deployment_model,
                 features=features,
+                input_ranges=build_input_ranges(group_data),
             ),
             paths["metadata"],
         )
@@ -233,8 +241,10 @@ def _build_metadata(
     deployment_count: int,
     metrics: dict[str, float],
     residual_quantiles: dict[str, float],
+    segment_metrics: dict[str, object],
     model,
     features: list[str] = FEATURES,
+    input_ranges: dict[str, dict[str, float | int]] | None = None,
 ) -> dict[str, object]:
     return {
         "region": model_id,
@@ -246,6 +256,7 @@ def _build_metadata(
         "latestTrainingYear": test_year,
         "generatedAt": datetime.now().date().isoformat(),
         "featureOrder": features,
+        "inputRanges": input_ranges or {},
         "evaluation": {
             "split": "time_holdout",
             "trainStartYear": train_start_year,
@@ -254,6 +265,7 @@ def _build_metadata(
             "testCount": test_count,
             "metrics": metrics,
             "residualQuantiles": residual_quantiles,
+            "segments": segment_metrics,
         },
         "deployment": {
             "trainStartYear": train_start_year,

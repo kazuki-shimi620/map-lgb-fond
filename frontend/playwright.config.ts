@@ -1,7 +1,9 @@
 import { defineConfig, devices } from "@playwright/test";
 
 const PORT = 4173;
-const BASE_URL = `http://127.0.0.1:${PORT}`;
+const LOCAL_BASE_URL = `http://127.0.0.1:${PORT}`;
+const BASE_URL = process.env.PLAYWRIGHT_BASE_URL ?? LOCAL_BASE_URL;
+const USE_EXTERNAL_SERVER = Boolean(process.env.PLAYWRIGHT_BASE_URL);
 
 export default defineConfig({
   testDir: "./e2e",
@@ -34,9 +36,9 @@ export default defineConfig({
       use: { ...devices["iPhone 14"] }
     }
   ],
-  webServer: {
+  webServer: USE_EXTERNAL_SERVER ? undefined : {
     command: "npm run build && npm run preview -- --host 127.0.0.1",
-    url: BASE_URL,
+    url: LOCAL_BASE_URL,
     reuseExistingServer: !process.env.CI,
     timeout: 120_000
   },

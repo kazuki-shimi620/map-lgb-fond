@@ -92,5 +92,23 @@
       "feature": "prefecture",
       "importance": 4.0
     }
-  ]
+  ],
+  "inputRanges": {
+    "area": {
+      "min": 10.0,
+      "max": 120.0
+    },
+    "age": {
+      "min": 0.0,
+      "max": 72.0
+    },
+    "stationDistance": {
+      "min": 0.0,
+      "max": 60.0
+    },
+    "transactionYear": {
+      "min": 2006,
+      "max": 2025
+    }
+  }
 }

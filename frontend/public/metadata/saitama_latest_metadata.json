@@ -200,5 +200,23 @@
     "numLeavesMax": 96,
     "maxDepthMax": 10,
     "sizePenaltyPerIteration": 200.0
+  },
+  "inputRanges": {
+    "area": {
+      "min": 25.0,
+      "max": 105.0
+    },
+    "age": {
+      "min": 0.0,
+      "max": 73.0
+    },
+    "stationDistance": {
+      "min": 0.0,
+      "max": 60.0
+    },
+    "transactionYear": {
+      "min": 2015,
+      "max": 2025
+    }
   }
 }

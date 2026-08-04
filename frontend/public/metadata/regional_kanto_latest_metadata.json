@@ -120,5 +120,23 @@
       "feature": "has_station_passenger_data",
       "importance": 0.0
     }
-  ]
+  ],
+  "inputRanges": {
+    "area": {
+      "min": 10.0,
+      "max": 120.0
+    },
+    "age": {
+      "min": 0.0,
+      "max": 79.0
+    },
+    "stationDistance": {
+      "min": 0.0,
+      "max": 60.0
+    },
+    "transactionYear": {
+      "min": 2005,
+      "max": 2025
+    }
+  }
 }

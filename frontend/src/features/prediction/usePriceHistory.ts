@@ -67,9 +67,58 @@ export function usePriceHistory({
     targetHistory
   ]);
 
+  const comparableSample = useMemo(
+    () => buildComparableSample(targetHistory, form.area, form.age),
+    [form.age, form.area, targetHistory]
+  );
+
   return {
-    chartPoints
+    chartPoints,
+    comparableSample
   };
+}
+
+export type ComparableSample = {
+  count: number;
+  level: "exact" | "area" | "station" | "none";
+};
+
+export function buildComparableSample(
+  history: PriceHistoryPoint[],
+  area: number,
+  age: number
+): ComparableSample {
+  const latestYear = Math.max(...history.map((point) => point.year), Number.NEGATIVE_INFINITY);
+  if (!Number.isFinite(latestYear)) {
+    return { count: 0, level: "none" };
+  }
+
+  const areaBand = Math.min(100, Math.floor(area / 5) * 5);
+  const ageBand = Math.min(60, Math.floor(age / 5) * 5);
+  const nearbyPoints = history.filter((point) => Math.abs(point.year - latestYear) <= 2);
+  const exactMatch = aggregateComparableBuckets(
+    nearbyPoints,
+    (bucket) => bucket[0] === areaBand && bucket[1] === ageBand
+  );
+  if (exactMatch.transactionCount >= 3) {
+    return { count: exactMatch.transactionCount, level: "exact" };
+  }
+
+  const areaMatch = aggregateComparableBuckets(
+    nearbyPoints,
+    (bucket) => bucket[0] === areaBand
+  );
+  if (areaMatch.transactionCount >= 3) {
+    return { count: areaMatch.transactionCount, level: "area" };
+  }
+
+  const stationCount = nearbyPoints.reduce(
+    (total, point) => total + (point.transaction_count ?? 0),
+    0
+  );
+  return stationCount > 0
+    ? { count: stationCount, level: "station" }
+    : { count: 0, level: "none" };
 }
 
 function buildChartPoints(

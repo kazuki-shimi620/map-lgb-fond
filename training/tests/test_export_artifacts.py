@@ -5,11 +5,30 @@ import pandas as pd
 
 from export.artifacts import (
     CAPITAL_REGION_PRIORITY,
+    build_input_ranges,
     build_price_history,
     build_price_trend_summary,
     copy_for_frontend,
     update_model_manifest,
 )
+
+
+def test_build_input_ranges_uses_deployment_rows_and_browser_field_names():
+    dataframe = pd.DataFrame(
+        {
+            "area": [35.0, 80.0],
+            "age": [0.0, 42.0],
+            "station_distance": [3.0, 25.0],
+            "transaction_year": [2015, 2025],
+        }
+    )
+
+    assert build_input_ranges(dataframe) == {
+        "area": {"min": 35.0, "max": 80.0},
+        "age": {"min": 0.0, "max": 42.0},
+        "stationDistance": {"min": 3.0, "max": 25.0},
+        "transactionYear": {"min": 2015, "max": 2025},
+    }
 
 
 def test_update_model_manifest_records_hash_size_and_priority(tmp_path):

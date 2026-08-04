@@ -6,12 +6,16 @@ on:
       - main
     paths:
       - "training/**"
+      - "frontend/public/models/**"
+      - "frontend/public/metadata/**"
       - ".github/workflows/training-ci.yml"
   push:
     branches:
       - main
     paths:
       - "training/**"
+      - "frontend/public/models/**"
+      - "frontend/public/metadata/**"
       - ".github/workflows/training-ci.yml"
   workflow_dispatch:
 
