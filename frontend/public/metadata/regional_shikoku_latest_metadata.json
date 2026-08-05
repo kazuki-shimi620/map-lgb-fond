@@ -11,7 +11,7 @@
   ],
   "mae": 2824530.4594537704,
   "latestTrainingYear": 2025,
-  "generatedAt": "2026-07-12",
+  "generatedAt": "2026-08-05",
   "featureOrder": [
     "area",
     "age",
@@ -23,6 +23,24 @@
     "building_type",
     "transaction_year"
   ],
+  "inputRanges": {
+    "area": {
+      "min": 10.0,
+      "max": 120.0
+    },
+    "age": {
+      "min": 0.0,
+      "max": 59.0
+    },
+    "stationDistance": {
+      "min": 0.0,
+      "max": 60.0
+    },
+    "transactionYear": {
+      "min": 2007,
+      "max": 2025
+    }
+  },
   "evaluation": {
     "split": "time_holdout",
     "trainStartYear": 2005,
@@ -33,6 +51,177 @@
       "mae": 2824530.4594537704,
       "rmse": 3997223.0627382933,
       "mape": 29.26835461048341
+    },
+    "residualQuantiles": {
+      "p025": -6741995.042447483,
+      "p975": 9142851.606027711
+    },
+    "segments": {
+      "minimumSampleCount": 100,
+      "dimensions": {
+        "price": [
+          {
+            "label": "3000万円未満",
+            "count": 792,
+            "metrics": {
+              "mae": 2615646.5926359654,
+              "rmse": 3658969.0753420726,
+              "mape": 30.473552213127274
+            },
+            "residualQuantiles": {
+              "p025": -6653433.554100714,
+              "p975": 7384558.293791715
+            }
+          },
+          {
+            "label": "3000〜5000万円",
+            "count": 64,
+            "metrics": null,
+            "residualQuantiles": null
+          }
+        ],
+        "age": [
+          {
+            "label": "築10年未満",
+            "count": 153,
+            "metrics": {
+              "mae": 4432169.008934099,
+              "rmse": 6167010.386877748,
+              "mape": 41.11669892528138
+            },
+            "residualQuantiles": {
+              "p025": -12110305.485668916,
+              "p975": 14551596.192479309
+            }
+          },
+          {
+            "label": "築10〜19年",
+            "count": 163,
+            "metrics": {
+              "mae": 3308302.6147477897,
+              "rmse": 4163806.349804333,
+              "mape": 14.001612945167818
+            },
+            "residualQuantiles": {
+              "p025": -6994478.6514224615,
+              "p975": 8134079.948216479
+            }
+          },
+          {
+            "label": "築20〜29年",
+            "count": 225,
+            "metrics": {
+              "mae": 2768028.803706859,
+              "rmse": 3629283.1131638377,
+              "mape": 18.897144894020048
+            },
+            "residualQuantiles": {
+              "p025": -5338030.300481106,
+              "p975": 8667735.274392854
+            }
+          },
+          {
+            "label": "築30年以上",
+            "count": 315,
+            "metrics": {
+              "mae": 1833702.8821827846,
+              "rmse": 2562540.1302498,
+              "mape": 38.821384443774235
+            },
+            "residualQuantiles": {
+              "p025": -6138207.920549092,
+              "p975": 4915217.827713585
+            }
+          }
+        ],
+        "area": [
+          {
+            "label": "40㎡未満",
+            "count": 77,
+            "metrics": null,
+            "residualQuantiles": null
+          },
+          {
+            "label": "40〜59㎡",
+            "count": 56,
+            "metrics": null,
+            "residualQuantiles": null
+          },
+          {
+            "label": "60〜79㎡",
+            "count": 450,
+            "metrics": {
+              "mae": 2866960.868122852,
+              "rmse": 3982680.929024545,
+              "mape": 31.521191582698126
+            },
+            "residualQuantiles": {
+              "p025": -6861978.551535216,
+              "p975": 7317581.178739916
+            }
+          },
+          {
+            "label": "80㎡以上",
+            "count": 273,
+            "metrics": {
+              "mae": 3563682.4662105897,
+              "rmse": 4745530.402123539,
+              "mape": 18.58917058998833
+            },
+            "residualQuantiles": {
+              "p025": -7016636.023390183,
+              "p975": 11861193.409915498
+            }
+          }
+        ],
+        "prefecture": [
+          {
+            "label": "徳島県",
+            "count": 115,
+            "metrics": {
+              "mae": 3205812.308927004,
+              "rmse": 4246347.764770785,
+              "mape": 31.636569426004296
+            },
+            "residualQuantiles": {
+              "p025": -7120843.013103888,
+              "p975": 8429357.218619797
+            }
+          },
+          {
+            "label": "愛媛県",
+            "count": 264,
+            "metrics": {
+              "mae": 2802240.157405812,
+              "rmse": 3882631.21713218,
+              "mape": 26.982279687465798
+            },
+            "residualQuantiles": {
+              "p025": -6497390.237358347,
+              "p975": 9603226.274431888
+            }
+          },
+          {
+            "label": "香川県",
+            "count": 385,
+            "metrics": {
+              "mae": 2598646.255960576,
+              "rmse": 3852095.7359280935,
+              "mape": 28.199198580551112
+            },
+            "residualQuantiles": {
+              "p025": -6836357.463363187,
+              "p975": 8120401.627689845
+            }
+          },
+          {
+            "label": "高知県",
+            "count": 92,
+            "metrics": null,
+            "residualQuantiles": null
+          }
+        ]
+      }
     }
   },
   "deployment": {
@@ -88,23 +277,5 @@
       "feature": "prefecture",
       "importance": 48.0
     }
-  ],
-  "inputRanges": {
-    "area": {
-      "min": 10.0,
-      "max": 120.0
-    },
-    "age": {
-      "min": 0.0,
-      "max": 59.0
-    },
-    "stationDistance": {
-      "min": 0.0,
-      "max": 60.0
-    },
-    "transactionYear": {
-      "min": 2007,
-      "max": 2025
-    }
-  }
+  ]
 }

@@ -1,9 +1,9 @@
 {
   "region": "kanagawa",
   "modelName": "kanagawa_latest",
-  "mae": 4835104.848493236,
+  "mae": 4813706.938563409,
   "latestTrainingYear": 2025,
-  "generatedAt": "2026-07-15",
+  "generatedAt": "2026-08-05",
   "featureOrder": [
     "area",
     "age",
@@ -35,6 +35,24 @@
     "zoning_type",
     "location_optimization_area"
   ],
+  "inputRanges": {
+    "area": {
+      "min": 15.0,
+      "max": 110.0
+    },
+    "age": {
+      "min": 0.0,
+      "max": 79.0
+    },
+    "stationDistance": {
+      "min": 0.0,
+      "max": 60.0
+    },
+    "transactionYear": {
+      "min": 2015,
+      "max": 2025
+    }
+  },
   "evaluation": {
     "split": "time_holdout",
     "trainStartYear": 2015,
@@ -42,13 +60,182 @@
     "trainCount": 102622,
     "testCount": 16479,
     "metrics": {
-      "mae": 4835104.848493236,
-      "rmse": 6488365.4223311655,
-      "mape": 23.787047348547457
+      "mae": 4813706.938563409,
+      "rmse": 6459681.578296865,
+      "mape": 23.987748664298124
     },
     "residualQuantiles": {
-      "p025": -11563172.060465613,
-      "p975": 14267237.56854547
+      "p025": -11450975.730908621,
+      "p975": 14197642.249054093
+    },
+    "segments": {
+      "minimumSampleCount": 100,
+      "dimensions": {
+        "price": [
+          {
+            "label": "3000万円未満",
+            "count": 8752,
+            "metrics": {
+              "mae": 3993102.985227088,
+              "rmse": 5426110.202228641,
+              "mape": 32.84077913542007
+            },
+            "residualQuantiles": {
+              "p025": -9872528.006128032,
+              "p975": 11138216.868115274
+            }
+          },
+          {
+            "label": "3000〜5000万円",
+            "count": 5453,
+            "metrics": {
+              "mae": 5584651.783055301,
+              "rmse": 7314148.777002215,
+              "mape": 15.180053707049392
+            },
+            "residualQuantiles": {
+              "p025": -13270632.232409358,
+              "p975": 15886865.410760405
+            }
+          },
+          {
+            "label": "5000〜8000万円",
+            "count": 2274,
+            "metrics": {
+              "mae": 6123277.546560418,
+              "rmse": 7796529.658292801,
+              "mape": 11.035522595088825
+            },
+            "residualQuantiles": {
+              "p025": -12588547.640046582,
+              "p975": 16082166.428701095
+            }
+          }
+        ],
+        "age": [
+          {
+            "label": "築10年未満",
+            "count": 2225,
+            "metrics": {
+              "mae": 4756317.759331938,
+              "rmse": 6624890.091451248,
+              "mape": 14.814778478565927
+            },
+            "residualQuantiles": {
+              "p025": -10986169.937106423,
+              "p975": 13661411.633835776
+            }
+          },
+          {
+            "label": "築10〜19年",
+            "count": 2671,
+            "metrics": {
+              "mae": 4807241.190568366,
+              "rmse": 6378481.702584708,
+              "mape": 12.452423958313945
+            },
+            "residualQuantiles": {
+              "p025": -10109211.36178011,
+              "p975": 14984991.937732123
+            }
+          },
+          {
+            "label": "築20〜29年",
+            "count": 4046,
+            "metrics": {
+              "mae": 5684257.2750024,
+              "rmse": 7302886.084116043,
+              "mape": 17.222138997978135
+            },
+            "residualQuantiles": {
+              "p025": -12951513.070108166,
+              "p975": 15693514.546430886
+            }
+          },
+          {
+            "label": "築30年以上",
+            "count": 7537,
+            "metrics": {
+              "mae": 4365612.773173018,
+              "rmse": 5935416.775344928,
+              "mape": 34.41555384711205
+            },
+            "residualQuantiles": {
+              "p025": -10878097.227109684,
+              "p975": 12266432.179681683
+            }
+          }
+        ],
+        "area": [
+          {
+            "label": "40㎡未満",
+            "count": 2530,
+            "metrics": {
+              "mae": 2818980.5688510532,
+              "rmse": 4317313.574873033,
+              "mape": 23.645638178427955
+            },
+            "residualQuantiles": {
+              "p025": -6884082.135960305,
+              "p975": 7833872.504853532
+            }
+          },
+          {
+            "label": "40〜59㎡",
+            "count": 2881,
+            "metrics": {
+              "mae": 4733495.34573038,
+              "rmse": 6279336.208740365,
+              "mape": 37.980662370167316
+            },
+            "residualQuantiles": {
+              "p025": -10767616.092079714,
+              "p975": 12926871.782005921
+            }
+          },
+          {
+            "label": "60〜79㎡",
+            "count": 7835,
+            "metrics": {
+              "mae": 5141035.386646392,
+              "rmse": 6678703.610889688,
+              "mape": 20.593705035046725
+            },
+            "residualQuantiles": {
+              "p025": -11875695.900735086,
+              "p975": 14632764.006154355
+            }
+          },
+          {
+            "label": "80㎡以上",
+            "count": 3233,
+            "metrics": {
+              "mae": 5652905.492103169,
+              "rmse": 7407356.405000699,
+              "mape": 20.011345007579013
+            },
+            "residualQuantiles": {
+              "p025": -13700794.76395529,
+              "p975": 15616531.713473933
+            }
+          }
+        ],
+        "prefecture": [
+          {
+            "label": "神奈川県",
+            "count": 16479,
+            "metrics": {
+              "mae": 4813706.938563409,
+              "rmse": 6459681.578296865,
+              "mape": 23.987748664298124
+            },
+            "residualQuantiles": {
+              "p025": -11450975.730908621,
+              "p975": 14197642.249054093
+            }
+          }
+        ]
+      }
     }
   },
   "deployment": {
@@ -59,118 +246,118 @@
   },
   "modelParams": {
     "objective": "regression",
-    "n_estimators": 496,
-    "learning_rate": 0.0799554352143446,
+    "n_estimators": 527,
+    "learning_rate": 0.06829568461582564,
     "random_state": 42,
     "verbosity": -1,
-    "num_leaves": 87,
+    "num_leaves": 89,
     "max_depth": 10,
-    "min_child_samples": 123,
-    "subsample": 0.7299204525113167,
-    "colsample_bytree": 0.9128376324107949,
-    "reg_alpha": 0.00011782880969557613,
-    "reg_lambda": 5.294395252924562e-05
+    "min_child_samples": 95,
+    "subsample": 0.8897170924170419,
+    "colsample_bytree": 0.8693674570435943,
+    "reg_alpha": 8.284142812245447,
+    "reg_lambda": 0.004082381868184462
   },
   "featureImportance": [
     {
       "feature": "station",
-      "importance": 10123.0
+      "importance": 10538.0
     },
     {
       "feature": "age",
-      "importance": 4994.0
+      "importance": 5759.0
     },
     {
       "feature": "municipality",
-      "importance": 4269.0
+      "importance": 4232.0
     },
     {
       "feature": "area",
-      "importance": 3560.0
+      "importance": 3918.0
     },
     {
       "feature": "room_layout",
-      "importance": 3505.0
-    },
-    {
-      "feature": "zoning_type",
-      "importance": 3110.0
+      "importance": 3530.0
     },
     {
       "feature": "station_distance",
-      "importance": 2926.0
+      "importance": 3493.0
     },
     {
       "feature": "effective_station_scale",
-      "importance": 2806.0
+      "importance": 3305.0
+    },
+    {
+      "feature": "zoning_type",
+      "importance": 3302.0
     },
     {
       "feature": "transaction_year",
-      "importance": 1634.0
+      "importance": 1970.0
     },
     {
       "feature": "nearest_land_price_yen_per_sqm",
-      "importance": 800.0
+      "importance": 974.0
     },
     {
       "feature": "nearest_land_price_distance_km",
-      "importance": 787.0
+      "importance": 927.0
     },
     {
       "feature": "land_price_points_within_2km",
-      "importance": 716.0
+      "importance": 818.0
     },
     {
       "feature": "building_type",
-      "importance": 638.0
+      "importance": 710.0
     },
     {
       "feature": "floor_area_ratio",
-      "importance": 443.0
+      "importance": 559.0
     },
     {
       "feature": "station_passenger_log",
-      "importance": 298.0
-    },
-    {
-      "feature": "station_rank",
-      "importance": 221.0
+      "importance": 491.0
     },
     {
       "feature": "land_price_city_yoy_rate",
-      "importance": 206.0
+      "importance": 279.0
+    },
+    {
+      "feature": "station_rank",
+      "importance": 275.0
     },
     {
       "feature": "land_price_city_avg_yen_per_sqm",
-      "importance": 177.0
+      "importance": 250.0
     },
     {
       "feature": "land_price_points_city_count",
-      "importance": 158.0
+      "importance": 200.0
     },
     {
       "feature": "building_coverage_ratio",
-      "importance": 148.0
+      "importance": 174.0
     },
     {
       "feature": "is_residential_zone",
-      "importance": 74.0
+      "importance": 86.0
     },
     {
       "feature": "is_commercial_zone",
-      "importance": 32.0
+      "importance": 45.0
     },
     {
       "feature": "station_line_count",
+      "importance": 44.0
+    },
+    {
+      "feature": "station_operator_count",
       "importance": 16.0
     },
     {
       "feature": "has_zoning_data",
-      "importance": 6.0
-    },
-    {
-      "feature": "station_operator_count",
-      "importance": 4.0
+      "importance": 2.0
     },
     {
       "feature": "prefecture",
@@ -194,29 +381,11 @@
     "nTrials": 30,
     "completedTrials": 30,
     "validationYear": 2024,
-    "bestValidationMae": 4646631.041315897,
-    "bestTuningScore": 4745831.041315897,
+    "bestValidationMae": 4625505.7617378365,
+    "bestTuningScore": 4730905.7617378365,
     "maxEstimators": 1000,
     "numLeavesMax": 96,
     "maxDepthMax": 10,
     "sizePenaltyPerIteration": 200.0
-  },
-  "inputRanges": {
-    "area": {
-      "min": 15.0,
-      "max": 110.0
-    },
-    "age": {
-      "min": 0.0,
-      "max": 79.0
-    },
-    "stationDistance": {
-      "min": 0.0,
-      "max": 60.0
-    },
-    "transactionYear": {
-      "min": 2015,
-      "max": 2025
-    }
   }
 }

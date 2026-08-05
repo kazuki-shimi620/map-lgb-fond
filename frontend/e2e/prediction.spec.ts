@@ -17,6 +17,8 @@ test.describe("価格予測", () => {
     await expect(page.getByTestId("price-history-chart")).toContainText("価格推移");
     await expect(page.getByText("価格予測に失敗しました")).toHaveCount(0);
     await expect(page.getByText("モデルの読み込みに失敗しました")).toHaveCount(0);
+    await page.getByRole("tab", { name: "モデル" }).click();
+    await expect(page.getByLabel("近い条件の検証結果")).toBeVisible();
   });
 
   test("専有面積変更時に予測を自動更新する", async ({ page }) => {
