@@ -1204,6 +1204,33 @@ select {
   font-weight: 600;
 }
 
+.segment-evaluation {
+  margin-top: 4px;
+  padding-top: 12px;
+  border-top: 1px solid #e5eaf2;
+}
+
+.segment-evaluation h4 {
+  margin: 0 0 8px;
+  color: #344054;
+  font-size: 13px;
+}
+
+.segment-evaluation ul {
+  display: grid;
+  gap: 6px;
+  margin: 0 0 8px;
+  padding: 0;
+  list-style: none;
+}
+
+.segment-evaluation li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+}
+
 .importance-panel {
   border-top: 1px solid #e5eaf2;
   padding-top: 14px;

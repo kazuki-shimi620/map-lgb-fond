@@ -19,6 +19,13 @@ export type PredictionSummary = {
     feature: string;
     importance: number;
   }>;
+  segmentEvaluations: Array<{
+    dimension: string;
+    label: string;
+    count: number;
+    mae: number | null;
+    mape: number | null;
+  }>;
 };
 
 const FEATURE_LABELS: Record<string, string> = {
@@ -141,6 +148,24 @@ export function PredictionDetailsPanel({ summary }: { summary?: PredictionSummar
               <dd>{summary.modelRegion}</dd>
             </div>
           </dl>
+          {summary.segmentEvaluations.length > 0 ? (
+            <div className="segment-evaluation" aria-label="近い条件の検証結果">
+              <h4>近い条件の検証結果</h4>
+              <ul>
+                {summary.segmentEvaluations.map((segment) => (
+                  <li key={segment.dimension}>
+                    <span>{segment.dimension}: {segment.label}</span>
+                    <strong>
+                      {segment.mae !== null
+                        ? `MAE ${formatManYen(segment.mae)} / ${segment.count.toLocaleString("ja-JP")}件`
+                        : `${segment.count.toLocaleString("ja-JP")}件（誤差非表示）`}
+                    </strong>
+                  </li>
+                ))}
+              </ul>
+              <p className="summary-note">評価年の取引を使った参考値です。100件未満の区分は誤差を表示しません。</p>
+            </div>
+          ) : null}
         </section>
         <section className="detail-section">
           <h3>モデル評価</h3>

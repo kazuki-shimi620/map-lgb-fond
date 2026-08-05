@@ -38,6 +38,15 @@ export type ModelMetadata = {
       p025: number;
       p975: number;
     };
+    segments?: {
+      minimumSampleCount: number;
+      dimensions: Partial<Record<"price" | "age" | "area" | "prefecture", Array<{
+        label: string;
+        count: number;
+        metrics: { mae: number; rmse: number; mape: number } | null;
+        residualQuantiles: { p025: number; p975: number } | null;
+      }>>>;
+    };
   };
   deployment?: {
     trainStartYear: number;

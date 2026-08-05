@@ -167,7 +167,12 @@ export function App() {
         evaluationRmse: metadata?.evaluation?.metrics.rmse ?? null,
         trainCount: metadata?.deployment?.trainCount ?? metadata?.evaluation?.trainCount ?? null,
         generatedAt: metadata?.generatedAt ?? null,
-        featureImportance: metadata?.featureImportance ?? []
+        featureImportance: metadata?.featureImportance ?? [],
+        segmentEvaluations: buildMatchingSegmentEvaluations(
+          metadata?.evaluation?.segments,
+          form,
+          result?.predictedPrice
+        )
       }
     : undefined;
 
@@ -323,4 +328,44 @@ export function buildComparableSampleWarnings(sample: ComparableSample): string[
     return [`同じ駅の直近データは${sample.count}件です。類似する面積・築年帯が少ないため、参考値としてご覧ください。`];
   }
   return ["同じ駅の直近データを確認できません。モデル全体の傾向による参考値です。"];
+}
+
+type EvaluationSegments = NonNullable<
+  NonNullable<import("./types/assets").ModelMetadata["evaluation"]>["segments"]
+>;
+
+export function buildMatchingSegmentEvaluations(
+  segments: EvaluationSegments | undefined,
+  form: PredictionFormState,
+  predictedPrice: number | undefined
+): PredictionSummary["segmentEvaluations"] {
+  if (!segments || predictedPrice === undefined) return [];
+  const targets = [
+    { key: "price", label: "予測価格帯", matchLabel: selectBandLabel(predictedPrice, [30_000_000, 50_000_000, 80_000_000], ["3000万円未満", "3000〜5000万円", "5000〜8000万円", "8000万円以上"]) },
+    { key: "age", label: "築年数帯", matchLabel: selectBandLabel(form.age, [10, 20, 30], ["築10年未満", "築10〜19年", "築20〜29年", "築30年以上"]) },
+    { key: "area", label: "面積帯", matchLabel: selectBandLabel(form.area, [40, 60, 80], ["40㎡未満", "40〜59㎡", "60〜79㎡", "80㎡以上"]) },
+    { key: "prefecture", label: "都道府県", matchLabel: form.prefecture }
+  ] as const;
+
+  return targets.flatMap((target) => {
+    const rows = segments.dimensions[target.key] ?? [];
+    const row = rows.find((item) => item.label === target.matchLabel);
+    if (!row) return [];
+    return [{
+      dimension: target.label,
+      label: row.label,
+      count: row.count,
+      mae: row.metrics?.mae ?? null,
+      mape: row.metrics?.mape ?? null
+    }];
+  });
+}
+
+function selectBandLabel(
+  value: number,
+  boundaries: readonly number[],
+  labels: readonly string[]
+): string {
+  const index = boundaries.findIndex((boundary) => value < boundary);
+  return labels[index === -1 ? boundaries.length : index];
 }

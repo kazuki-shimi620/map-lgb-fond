@@ -75,6 +75,46 @@ test.describe("価格予測", () => {
     await expect(warning).toContainText("モデル全体の傾向による参考値");
   });
 
+  test("モデル詳細に近い条件の検証件数と誤差を表示する", async ({ page }) => {
+    await page.route("**/metadata/tokyo_latest_metadata.json", async (route) => {
+      const response = await route.fetch();
+      const metadata = await response.json();
+      const metricRow = (label: string, count = 500) => ({
+        label,
+        count,
+        metrics: count >= 100 ? { mae: 4_000_000, rmse: 5_000_000, mape: 12 } : null,
+        residualQuantiles: count >= 100 ? { p025: -8_000_000, p975: 9_000_000 } : null
+      });
+      metadata.evaluation.segments = {
+        minimumSampleCount: 100,
+        dimensions: {
+          price: [
+            metricRow("3000万円未満"),
+            metricRow("3000〜5000万円"),
+            metricRow("5000〜8000万円"),
+            metricRow("8000万円以上")
+          ],
+          age: [metricRow("築10〜19年", 420)],
+          area: [metricRow("40〜59㎡", 380)],
+          prefecture: [metricRow("東京都", 3_200)]
+        }
+      };
+      await route.fulfill({ response, json: metadata });
+    });
+    const predictionPage = new PredictionPage(page);
+    await predictionPage.goto();
+    await predictionPage.openDetailsPanel();
+    await predictionPage.waitForPredictionResult();
+    await page.getByRole("tab", { name: "モデル" }).click();
+
+    const evaluation = page.getByLabel("近い条件の検証結果");
+    await expect(evaluation).toBeVisible();
+    await expect(evaluation).toContainText("築年数帯: 築10〜19年");
+    await expect(evaluation).toContainText("面積帯: 40〜59㎡");
+    await expect(evaluation).toContainText("MAE 400万円");
+    await expect(evaluation).toContainText("420件");
+  });
+
   test("間取りを変更できる", async ({ page }) => {
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
