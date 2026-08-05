@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 import { PredictionPage } from "./pages/prediction-page";
 
-test("初回だけ3段階の案内を表示しヘッダーから再表示できる", async ({ page }) => {
+test("初回だけ3段階の案内を表示し画面左上から再表示できる", async ({ page }) => {
   const predictionPage = new PredictionPage(page);
   await predictionPage.goto();
 
