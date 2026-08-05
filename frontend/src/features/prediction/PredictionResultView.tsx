@@ -1,8 +1,10 @@
-import type { PredictionResult } from "../../types/prediction";
+import type { PredictionFactor, PredictionResult } from "../../types/prediction";
 
 type Props = {
   result: PredictionResult | null;
   scopeWarnings?: string[];
+  predictionFactors?: PredictionFactor[];
+  explanationDurationMs?: number | null;
 };
 
 export type PredictionSummary = {
@@ -68,7 +70,12 @@ function formatDate(value: string | null): string {
   }).format(date);
 }
 
-export function PredictionResultView({ result, scopeWarnings = [] }: Props) {
+export function PredictionResultView({
+  result,
+  scopeWarnings = [],
+  predictionFactors = [],
+  explanationDurationMs = null
+}: Props) {
   if (!result) {
     return (
       <section className="panel result-panel" data-testid="prediction-result">
@@ -113,10 +120,48 @@ export function PredictionResultView({ result, scopeWarnings = [] }: Props) {
           </dd>
         </div>
       </dl>
+      {predictionFactors.length > 0 ? (
+        <section
+          className="prediction-reasons"
+          aria-label="予測価格の主な理由"
+          data-compute-ms={explanationDurationMs?.toFixed(1)}
+        >
+          <h3>予測価格に影響した主な条件</h3>
+          <div className="prediction-reason-columns">
+            <PredictionFactorList
+              title="押し上げる方向"
+              factors={predictionFactors.filter((factor) => factor.difference > 0).slice(0, 3)}
+            />
+            <PredictionFactorList
+              title="押し下げる方向"
+              factors={predictionFactors.filter((factor) => factor.difference < 0).slice(0, 3)}
+            />
+          </div>
+          <p>各条件を学習データの代表値へ置き換えた場合とのモデル予測差です。因果関係や査定額への効果を示すものではありません。</p>
+        </section>
+      ) : null}
       <p className="result-disclaimer">
         予測価格と価格帯は公開取引データに基づく参考値です。価格帯は検証データの誤差から算出した目安で、実際の査定額、成約価格、将来価格を保証するものではありません。
       </p>
     </section>
+  );
+}
+
+function PredictionFactorList({ title, factors }: { title: string; factors: PredictionFactor[] }) {
+  if (factors.length === 0) return null;
+  return (
+    <div>
+      <h4>{title}</h4>
+      <ul>
+        {factors.map((factor) => (
+          <li key={factor.key}>
+            <span>{factor.label} {factor.currentValue}</span>
+            <strong>{factor.difference > 0 ? "+" : "−"}{formatManYen(Math.abs(factor.difference))}</strong>
+            <small>代表値: {factor.baselineValue}</small>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
 

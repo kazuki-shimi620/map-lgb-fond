@@ -108,9 +108,11 @@ export function App() {
 
   const {
     clearPredictionState,
+    explanationDurationMs,
     forecastPoints,
     historyModelAnchor,
     isPredicting,
+    predictionFactors,
     result
   } = usePricePrediction({
     form,
@@ -234,7 +236,12 @@ export function App() {
                 onChange={handleFormChange}
                 sheetState={formSheetState}
               />
-              <PredictionResultView result={result} scopeWarnings={predictionWarnings} />
+              <PredictionResultView
+                result={result}
+                scopeWarnings={predictionWarnings}
+                predictionFactors={predictionFactors}
+                explanationDurationMs={explanationDurationMs}
+              />
             </div>
             <div className="prediction-side-column">
               <ForecastControls

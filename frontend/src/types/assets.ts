@@ -22,6 +22,13 @@ export type ModelMetadata = {
     min: number;
     max: number;
   }>>;
+  inputBaselines?: Partial<{
+    area: number;
+    age: number;
+    stationDistance: number;
+    roomLayout: string;
+    buildingType: string;
+  }>;
   generatedAt?: string;
   evaluation?: {
     split: string;

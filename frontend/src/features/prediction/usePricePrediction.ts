@@ -13,6 +13,8 @@ import type {
 } from "../../types/assets";
 import type {
   PredictionFormState,
+  PredictionFactor,
+  PredictionRequest,
   PredictionResult,
   SupportedRegion
 } from "../../types/prediction";
@@ -54,11 +56,15 @@ export function usePricePrediction({
   const [forecastPoints, setForecastPoints] = useState<PriceHistoryPoint[]>([]);
   const [historyModelAnchor, setHistoryModelAnchor] = useState<HistoryModelAnchor | null>(null);
   const [isPredicting, setIsPredicting] = useState(false);
+  const [predictionFactors, setPredictionFactors] = useState<PredictionFactor[]>([]);
+  const [explanationDurationMs, setExplanationDurationMs] = useState<number | null>(null);
 
   function clearPredictionState() {
     setResult(null);
     setForecastPoints([]);
     setHistoryModelAnchor(null);
+    setPredictionFactors([]);
+    setExplanationDurationMs(null);
   }
 
   useEffect(() => {
@@ -104,7 +110,16 @@ export function usePricePrediction({
           futureScenario
         );
         if (!disposed) {
+          const explanationStarted = performance.now();
+          const nextFactors = await buildPredictionFactors(
+            manager,
+            predictionRequest,
+            basePrice
+          );
+          if (disposed) return;
           setResult(nextResult);
+          setPredictionFactors(nextFactors);
+          setExplanationDurationMs(performance.now() - explanationStarted);
           setForecastPoints(nextForecastPoints);
           setHistoryModelAnchor({
             year: manager.getMetadata()?.latestTrainingYear ?? form.predictionYear,
@@ -143,9 +158,51 @@ export function usePricePrediction({
     clearPredictionState,
     forecastPoints,
     historyModelAnchor,
+    explanationDurationMs,
     isPredicting,
+    predictionFactors,
     result
   };
+}
+
+async function buildPredictionFactors(
+  manager: ReturnType<typeof getModelManager>,
+  request: PredictionRequest,
+  basePrice: number
+): Promise<PredictionFactor[]> {
+  const metadata = manager.getMetadata();
+  const baselines = metadata?.inputBaselines;
+  if (!metadata || !baselines) return [];
+  const explanationYear = Math.min(request.predictionYear, metadata.latestTrainingYear);
+  const definitions = [
+    { key: "area", label: "面積", unit: "㎡" },
+    { key: "age", label: "築年数", unit: "年" },
+    { key: "stationDistance", label: "駅徒歩", unit: "分" },
+    { key: "roomLayout", label: "間取り", unit: "" },
+    { key: "buildingType", label: "建物構造", unit: "" }
+  ] as const;
+  const candidates = definitions.filter(({ key }) => {
+    const baseline = baselines[key];
+    return baseline !== undefined && baseline !== request[key];
+  });
+  const factors = await Promise.all(candidates.map(async ({ key, label, unit }) => {
+    const baseline = baselines[key] as number | string;
+    const alternative = await manager.predict({
+      ...request,
+      [key]: baseline,
+      predictionYear: explanationYear
+    });
+    return {
+      key,
+      label,
+      currentValue: `${request[key]}${unit}`,
+      baselineValue: `${baseline}${unit}`,
+      difference: basePrice - alternative.predictedPrice
+    };
+  }));
+  return factors
+    .filter((factor) => Math.abs(factor.difference) >= 100_000)
+    .sort((left, right) => Math.abs(right.difference) - Math.abs(left.difference));
 }
 
 async function predictWithFutureTrend(

@@ -43,6 +43,12 @@ function encodeCategory(dictionary: Record<string, number>, value: string, unkno
   return dictionary[value] ?? unknownId;
 }
 
+function normalizeRoomLayout(value: string): string {
+  return value.replace(/[0-9A-Za-z]/g, (character) =>
+    String.fromCharCode(character.charCodeAt(0) + 0xfee0)
+  );
+}
+
 export class ModelManager {
   private region: SupportedRegion;
   private ort: OrtModule | null = null;
@@ -120,7 +126,11 @@ export class ModelManager {
       area: request.area,
       age: request.age,
       stationDistance: request.stationDistance,
-      roomLayout: encodeCategory(this.dictionary.roomLayouts ?? {}, request.roomLayout, unknownId),
+      roomLayout: encodeCategory(
+        this.dictionary.roomLayouts ?? {},
+        normalizeRoomLayout(request.roomLayout),
+        unknownId
+      ),
       buildingType: encodeCategory(this.dictionary.buildingTypes ?? {}, request.buildingType, unknownId),
       predictionYear: request.predictionYear,
       stationPassengerLog,

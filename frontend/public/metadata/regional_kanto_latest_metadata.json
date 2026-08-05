@@ -319,5 +319,12 @@
       "feature": "has_station_passenger_data",
       "importance": 0.0
     }
-  ]
+  ],
+  "inputBaselines": {
+    "area": 60.0,
+    "age": 19.0,
+    "stationDistance": 8.0,
+    "roomLayout": "3LDK",
+    "buildingType": "ＲＣ"
+  }
 }

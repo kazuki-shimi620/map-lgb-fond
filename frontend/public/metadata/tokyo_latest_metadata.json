@@ -400,5 +400,12 @@
     "numLeavesMax": 80,
     "maxDepthMax": 9,
     "sizePenaltyPerIteration": 250.0
+  },
+  "inputBaselines": {
+    "area": 50.0,
+    "age": 18.0,
+    "stationDistance": 6.0,
+    "roomLayout": "3LDK",
+    "buildingType": "ＲＣ"
   }
 }

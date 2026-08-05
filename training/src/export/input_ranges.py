@@ -10,9 +10,16 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from common.regions import CAPITAL_MODEL_BY_PREFECTURE, REGIONAL_CLUSTERS  # noqa: E402
-from export.artifacts import build_input_ranges  # noqa: E402
+from export.artifacts import build_input_baselines, build_input_ranges  # noqa: E402
 
-RANGE_COLUMNS = ["area", "age", "station_distance", "transaction_year"]
+RANGE_COLUMNS = [
+    "area",
+    "age",
+    "station_distance",
+    "transaction_year",
+    "room_layout",
+    "building_type",
+]
 
 
 def refresh_input_ranges(processed_dir: Path, public_dir: Path) -> list[Path]:
@@ -53,6 +60,7 @@ def _update_metadata(path: Path, dataframe) -> Path:
     if end_year is not None:
         target = target[target["transaction_year"] <= int(end_year)]
     metadata["inputRanges"] = build_input_ranges(target)
+    metadata["inputBaselines"] = build_input_baselines(target)
     path.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return path
 

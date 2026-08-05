@@ -277,5 +277,12 @@
       "feature": "prefecture",
       "importance": 48.0
     }
-  ]
+  ],
+  "inputBaselines": {
+    "area": 70.0,
+    "age": 19.0,
+    "stationDistance": 9.0,
+    "roomLayout": "3LDK",
+    "buildingType": "ＲＣ"
+  }
 }

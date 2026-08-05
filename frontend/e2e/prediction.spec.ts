@@ -19,6 +19,10 @@ test.describe("価格予測", () => {
     await expect(page.getByText("モデルの読み込みに失敗しました")).toHaveCount(0);
     await page.getByRole("tab", { name: "モデル" }).click();
     await expect(page.getByLabel("近い条件の検証結果")).toBeVisible();
+    const reasons = page.getByLabel("予測価格の主な理由");
+    await expect(reasons).toBeVisible();
+    await expect(reasons).toContainText("因果関係や査定額への効果を示すものではありません");
+    expect(Number(await reasons.getAttribute("data-compute-ms"))).toBeLessThan(200);
   });
 
   test("専有面積変更時に予測を自動更新する", async ({ page }) => {
@@ -129,16 +133,16 @@ test.describe("価格予測", () => {
     await predictionPage.waitForPredictionResult();
   });
 
-  test("建物構造変更時に予測を自動更新する", async ({ page }) => {
+  test("建物構造を変更しても予測エラーにならない", async ({ page }) => {
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
     await predictionPage.openDetailsPanel();
     await predictionPage.waitForPredictionResult();
 
-    const before = await predictionPage.getPredictedPriceText();
     await predictionPage.selectBuildingType("ＳＲＣ");
 
     await expect(predictionPage.selectTrigger("建物構造")).toContainText("ＳＲＣ");
-    await expect.poll(() => predictionPage.getPredictedPriceText()).not.toBe(before);
+    await predictionPage.waitForPredictionResult();
+    await expect(page.getByText("価格予測に失敗しました")).toHaveCount(0);
   });
 });

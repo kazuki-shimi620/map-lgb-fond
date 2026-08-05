@@ -29,6 +29,7 @@ from experiment.database import (  # noqa: E402
 from export.artifacts import (  # noqa: E402
     RECENT_HISTORY_START_YEAR,
     build_artifact_paths,
+    build_input_baselines,
     build_input_ranges,
     build_price_history,
     copy_for_frontend,
@@ -144,6 +145,7 @@ def main() -> int:
                     segment_metrics=segment_metrics,
                     tuning_result=tuning_result,
                     input_ranges=build_input_ranges(encoding.dataframe.loc[deployment_mask]),
+                    input_baselines=build_input_baselines(feature_df.loc[deployment_mask]),
                 ),
                 paths["metadata"],
             )
@@ -334,6 +336,7 @@ def _build_metadata(
     segment_metrics: dict[str, object],
     tuning_result: dict[str, object] | None,
     input_ranges: dict[str, dict[str, float | int]],
+    input_baselines: dict[str, float | str],
 ) -> dict[str, object]:
     return {
         "region": config.region,
@@ -343,6 +346,7 @@ def _build_metadata(
         "generatedAt": datetime.now().date().isoformat(),
         "featureOrder": config.features,
         "inputRanges": input_ranges,
+        "inputBaselines": input_baselines,
         "evaluation": {
             "split": split_name,
             "trainStartYear": config.train_start_year,

@@ -22,6 +22,13 @@ def test_frontend_model_artifact_contract(metadata_path: Path) -> None:
 
     assert errors == []
     metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+    assert set(metadata["inputBaselines"]) == {
+        "area",
+        "age",
+        "stationDistance",
+        "roomLayout",
+        "buildingType",
+    }
     segments = metadata["evaluation"]["segments"]
     assert segments["minimumSampleCount"] == 100
     assert set(segments["dimensions"]) == {"price", "age", "area", "prefecture"}

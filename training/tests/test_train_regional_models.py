@@ -35,6 +35,7 @@ def test_regional_metadata_describes_evaluation_and_deployment():
         segment_metrics={"minimumSampleCount": 100, "dimensions": {}},
         model=DummyModel(),
         input_ranges={"area": {"min": 20.0, "max": 100.0}},
+        input_baselines={"area": 60.0, "roomLayout": "3LDK"},
     )
 
     assert metadata["modelScope"] == "regional"
@@ -44,3 +45,4 @@ def test_regional_metadata_describes_evaluation_and_deployment():
     assert metadata["deployment"]["trainCount"] == 120
     assert metadata["prefectures"] == REGIONAL_CLUSTERS["tohoku"]
     assert metadata["inputRanges"] == {"area": {"min": 20.0, "max": 100.0}}
+    assert metadata["inputBaselines"] == {"area": 60.0, "roomLayout": "3LDK"}

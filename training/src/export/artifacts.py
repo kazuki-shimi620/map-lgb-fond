@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import pickle
 import shutil
+import unicodedata
 from datetime import datetime
 from hashlib import sha256
 from pathlib import Path
@@ -56,6 +57,34 @@ def build_input_ranges(df) -> dict[str, dict[str, float | int]]:
         else:
             ranges[output_name] = {"min": minimum, "max": maximum}
     return ranges
+
+
+def build_input_baselines(df) -> dict[str, float | str]:
+    """Build representative editable inputs from deployment training rows."""
+    fields = {
+        "area": ("area", "median"),
+        "age": ("age", "median"),
+        "stationDistance": ("station_distance", "median"),
+        "roomLayout": ("room_layout", "mode"),
+        "buildingType": ("building_type", "mode"),
+    }
+    baselines: dict[str, float | str] = {}
+    for output_name, (column_name, strategy) in fields.items():
+        if column_name not in df.columns:
+            continue
+        values = df[column_name].dropna()
+        if values.empty:
+            continue
+        if strategy == "median":
+            baselines[output_name] = float(values.median())
+            continue
+        modes = values.astype(str).mode()
+        if not modes.empty:
+            value = str(modes.iloc[0])
+            baselines[output_name] = (
+                unicodedata.normalize("NFKC", value) if output_name == "roomLayout" else value
+            )
+    return baselines
 
 
 def build_artifact_paths(output_dir: str | Path, region: str) -> dict[str, Path]:

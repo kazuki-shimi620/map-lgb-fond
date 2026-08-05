@@ -99,6 +99,14 @@ export type PredictionResult = {
   upperPrice: number;
 };
 
+export type PredictionFactor = {
+  key: "area" | "age" | "stationDistance" | "roomLayout" | "buildingType";
+  label: string;
+  currentValue: string;
+  baselineValue: string;
+  difference: number;
+};
+
 export type EncodedPredictionRequest = {
   prefecture: number;
   municipality: number;

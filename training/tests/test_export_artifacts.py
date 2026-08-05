@@ -5,12 +5,33 @@ import pandas as pd
 
 from export.artifacts import (
     CAPITAL_REGION_PRIORITY,
+    build_input_baselines,
     build_input_ranges,
     build_price_history,
     build_price_trend_summary,
     copy_for_frontend,
     update_model_manifest,
 )
+
+
+def test_build_input_baselines_uses_medians_and_deterministic_modes():
+    dataframe = pd.DataFrame(
+        {
+            "area": [35.0, 55.0, 80.0],
+            "age": [5.0, 15.0, 40.0],
+            "station_distance": [3.0, 8.0, 25.0],
+            "room_layout": ["２ＬＤＫ", "３ＬＤＫ", "３ＬＤＫ"],
+            "building_type": ["ＳＲＣ", "ＲＣ", "ＲＣ"],
+        }
+    )
+
+    assert build_input_baselines(dataframe) == {
+        "area": 55.0,
+        "age": 15.0,
+        "stationDistance": 8.0,
+        "roomLayout": "3LDK",
+        "buildingType": "ＲＣ",
+    }
 
 
 def test_build_input_ranges_uses_deployment_rows_and_browser_field_names():

@@ -27,6 +27,7 @@ from evaluate.metrics import (  # noqa: E402
 from export.artifacts import (  # noqa: E402
     RECENT_HISTORY_START_YEAR,
     build_artifact_paths,
+    build_input_baselines,
     build_input_ranges,
     build_price_history,
     copy_for_frontend,
@@ -190,6 +191,7 @@ def train_regional_models(
                 model=deployment_model,
                 features=features,
                 input_ranges=build_input_ranges(group_data),
+                input_baselines=build_input_baselines(group_data),
             ),
             paths["metadata"],
         )
@@ -245,6 +247,7 @@ def _build_metadata(
     model,
     features: list[str] = FEATURES,
     input_ranges: dict[str, dict[str, float | int]] | None = None,
+    input_baselines: dict[str, float | str] | None = None,
 ) -> dict[str, object]:
     return {
         "region": model_id,
@@ -257,6 +260,7 @@ def _build_metadata(
         "generatedAt": datetime.now().date().isoformat(),
         "featureOrder": features,
         "inputRanges": input_ranges or {},
+        "inputBaselines": input_baselines or {},
         "evaluation": {
             "split": "time_holdout",
             "trainStartYear": train_start_year,
