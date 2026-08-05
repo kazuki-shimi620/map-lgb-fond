@@ -21,6 +21,7 @@ import { usePricePrediction } from "./features/prediction/usePricePrediction";
 import { usePropertySelection } from "./features/prediction/usePropertySelection";
 import { useRegionAssets } from "./features/prediction/useRegionAssets";
 import { StationScaleCard } from "./features/stations/StationScaleCard";
+import { OnboardingGuide, useOnboardingGuide } from "./features/onboarding/OnboardingGuide";
 import type { PredictionFormState } from "./types/prediction";
 import { getPrefectureLabel } from "./utils/region";
 
@@ -39,6 +40,7 @@ const initialForm: PredictionFormState = {
 };
 
 export function App() {
+  const onboarding = useOnboardingGuide();
   const [form, setForm] = useState<PredictionFormState>(initialForm);
   const [futureScenario, setFutureScenario] = useState<FutureScenario>("base");
   const [errorMessage, setErrorMessage] = useState("");
@@ -187,6 +189,12 @@ export function App() {
           <h1>不動産価格予測</h1>
         </div>
       </header>
+
+      <button className="guide-reopen-button" type="button" onClick={onboarding.reopen}>
+        使い方
+      </button>
+
+      {onboarding.isOpen ? <OnboardingGuide onClose={onboarding.close} /> : null}
 
       {longRangeWarning ? <p className="warning">{longRangeWarning}</p> : null}
       {errorMessage ? <p className="warning">{errorMessage}</p> : null}
