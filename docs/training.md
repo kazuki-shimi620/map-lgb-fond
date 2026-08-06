@@ -1020,7 +1020,7 @@ parquet
 
 ---
 
-# 21. 将来追加予定
+# 21. 外部FeatureProvider
 
 ## CommercialFacilityProvider
 
@@ -1033,6 +1033,8 @@ nearest_sc_distance_km
 nearest_sc_opened_years
 sc_store_area_sum_within_3km
 sc_tenant_count_sum_within_3km
+nearest_sc_{small|medium|large|very_large}_distance_km
+sc_{small|medium|large|very_large}_count_within_3km
 ```
 
 データソースは日本ショッピングセンター協会（JCSC）のオープンSC一覧表を利用する。
@@ -1042,6 +1044,10 @@ sc_tenant_count_sum_within_3km
 初期モデル投入時は、取引年以前に開業済みのSCだけを集計し、未来情報の混入を避ける。
 
 店舗面積、テナント数、ディベロッパー、キーテナントは分析用に保持し、欠損率・重要度・評価指標を確認して採否を判断する。
+
+座標補完済みCSVには `scale_code`、`scale_label`、`scale_basis` を保持する。
+規模別の距離・3km圏件数はProviderで生成済みだが、本番モデルへはまだ採用せず、
+同一holdout・複数seedの比較とcoverage監査を通過した場合だけONNXへ反映する。
 
 ---
 

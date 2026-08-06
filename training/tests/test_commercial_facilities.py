@@ -94,6 +94,10 @@ def test_add_commercial_facility_features_adds_spatial_features_when_coordinates
     assert actual.loc[0, "sc_count_within_3km"] == 1.0
     assert actual.loc[0, "sc_store_area_sum_within_3km"] == 1000.0
     assert actual.loc[0, "sc_tenant_count_sum_within_3km"] == 10.0
+    assert actual.loc[0, "nearest_sc_small_distance_km"] > 0.0
+    assert actual.loc[0, "sc_small_count_within_3km"] == 1.0
+    assert actual.loc[0, "nearest_sc_medium_distance_km"] == 0.0
+    assert actual.loc[0, "sc_medium_count_within_3km"] == 0.0
 
 
 def test_add_commercial_facility_features_excludes_unreliable_coordinates_from_spatial() -> None:

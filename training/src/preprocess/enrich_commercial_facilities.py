@@ -16,6 +16,9 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from evaluate.address_coordinate_coverage import load_address_points_csv  # noqa: E402
+from features.commercial_facility_scale import (  # noqa: E402
+    add_commercial_facility_scale_columns,
+)
 
 MANUAL_COORDINATE_FIELDNAMES = [
     "match_key",
@@ -187,8 +190,7 @@ def _build_coordinate_unresolved_index(coordinate_unresolved_df) -> set[str]:
 
 def _is_coordinate_unresolved(row, unresolved_keys: set[str]) -> bool:
     return (
-        _manual_match_key(row) in unresolved_keys
-        or _manual_name_match_key(row) in unresolved_keys
+        _manual_match_key(row) in unresolved_keys or _manual_name_match_key(row) in unresolved_keys
     )
 
 
@@ -683,6 +685,7 @@ def enrich_file(
         coordinate_unresolved,
         allow_municipality_fallback=allow_municipality_fallback,
     )
+    enriched = add_commercial_facility_scale_columns(enriched)
     output_csv.parent.mkdir(parents=True, exist_ok=True)
     enriched.to_csv(output_csv, index=False)
     review_queue_path = output_csv.with_name(f"{output_csv.stem}_coordinate_review_queue.csv")
@@ -706,6 +709,14 @@ def enrich_file(
         "coordinateSourceCounts": {
             str(key): int(value)
             for key, value in enriched["coordinate_source"].value_counts().to_dict().items()
+        },
+        "scaleCodeCounts": {
+            str(key): int(value)
+            for key, value in enriched["scale_code"].value_counts().to_dict().items()
+        },
+        "scaleBasisCounts": {
+            str(key): int(value)
+            for key, value in enriched["scale_basis"].value_counts().to_dict().items()
         },
         "coordinateNoteCounts": summarize_pipe_separated_counts(enriched, "coordinate_notes"),
     }

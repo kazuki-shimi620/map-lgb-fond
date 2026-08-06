@@ -371,7 +371,32 @@ sc_store_area_sum_within_3km
 sc_tenant_count_sum_within_3km
 ```
 
+規模別比較では、上記に加えて小規模・中規模・大規模・超大型ごとに次の2種類、
+合計8特徴量を `CommercialFacilityProvider` が生成する。規模不明は専用の説明変数へ
+変換せず、coverage監査の対象にする。
+
+```text
+nearest_sc_{scale}_distance_km
+sc_{scale}_count_within_3km
+```
+
+施設は取引年より前に開業済みのものだけを利用し、信頼度の低い市区町村代表座標は
+従来どおり距離特徴量から除外する。該当施設または物件座標がない場合は、既存の商業施設
+距離特徴量と同じく `0.0` を入れる。
+
 `jcsc_sc_open.csv` に `lat` / `lon` を付与した場合、上記の距離系特徴量を生成する。対象SCは未来情報混入を避けるため、取引年より前に開業済みの施設だけに限定する。緯度経度が未付与の場合、距離系特徴量は `0.0` として扱う。
+
+座標補完済みの学習用CSVには、表示用JSONと同じ判定関数から次の列を追加する。
+
+| 列 | 内容 |
+|---|---|
+| `scale_code` | `small`、`medium`、`large`、`very_large`、`unknown` の機械可読な規模区分 |
+| `scale_label` | 小規模、中規模、大規模、超大型、規模不明の日本語表示名 |
+| `scale_basis` | `store_area_sqm`、`tenant_count`、`unknown` の判定根拠 |
+
+2026-08-06のローカル再生成では、JCSC公開CSV 429件は全件を店舗面積で判定できた。
+PDF候補CSV 2,797件は2,702件を店舗面積で判定し、95件を規模不明として保持した。
+規模不明を暗黙に小規模へ寄せず、特徴量比較時にcoverageと地域偏りを別途確認する。
 
 フロントエンドでは価格モデルへの採用可否と分け、信頼できる緯度経度を持つ商業施設を
 `frontend/public/facilities/nearby_facilities.json` へ出力する。2026-08-01生成分は

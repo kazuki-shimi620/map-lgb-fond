@@ -3,6 +3,18 @@ from __future__ import annotations
 import math
 from pathlib import Path
 
+from features.commercial_facility_scale import add_commercial_facility_scale_columns
+
+SCALE_CODES = ("small", "medium", "large", "very_large")
+COMMERCIAL_SCALE_FEATURES = [
+    feature
+    for scale in SCALE_CODES
+    for feature in (
+        f"nearest_sc_{scale}_distance_km",
+        f"sc_{scale}_count_within_3km",
+    )
+]
+
 COMMERCIAL_FEATURES = [
     "sc_city_open_count_cumulative",
     "sc_city_open_count_last_3y",
@@ -16,7 +28,7 @@ COMMERCIAL_FEATURES = [
     "sc_store_area_sum_within_3km",
     "sc_tenant_count_sum_within_3km",
     "has_sc_data_coverage",
-]
+] + COMMERCIAL_SCALE_FEATURES
 
 
 def load_commercial_facilities_csv(path: str | Path | list[str | Path]):
@@ -35,7 +47,7 @@ def load_commercial_facilities_csv(path: str | Path | list[str | Path]):
     for column in numeric_columns:
         if column in facilities.columns:
             facilities[column] = pd.to_numeric(facilities[column], errors="coerce")
-    return facilities
+    return add_commercial_facility_scale_columns(facilities)
 
 
 def add_commercial_facility_features(
@@ -56,7 +68,7 @@ def add_commercial_facility_features(
     max_year = int(result["transaction_year"].max())
     years = list(range(min_year, max_year + 1))
 
-    facilities = facilities_df.copy()
+    facilities = add_commercial_facility_scale_columns(facilities_df)
     facilities = facilities.dropna(subset=["open_year", "prefecture", "city"])
     facilities["open_year"] = facilities["open_year"].astype(int)
     facilities["store_area_sqm"] = facilities["store_area_sqm"].fillna(0.0)
@@ -159,16 +171,23 @@ def _add_spatial_features(result, facilities):
         nearest = opened.loc[opened["distance_km"].idxmin()]
         within_1km = opened[opened["distance_km"] <= 1.0]
         within_3km = opened[opened["distance_km"] <= 3.0]
-        rows.append(
-            {
-                "nearest_sc_distance_km": float(nearest["distance_km"]),
-                "nearest_sc_opened_years": float(int(transaction_year) - int(nearest["open_year"])),
-                "sc_count_within_1km": float(len(within_1km)),
-                "sc_count_within_3km": float(len(within_3km)),
-                "sc_store_area_sum_within_3km": float(within_3km["store_area_sqm"].sum()),
-                "sc_tenant_count_sum_within_3km": float(within_3km["tenant_count"].sum()),
-            }
-        )
+        spatial_features = {
+            "nearest_sc_distance_km": float(nearest["distance_km"]),
+            "nearest_sc_opened_years": float(int(transaction_year) - int(nearest["open_year"])),
+            "sc_count_within_1km": float(len(within_1km)),
+            "sc_count_within_3km": float(len(within_3km)),
+            "sc_store_area_sum_within_3km": float(within_3km["store_area_sqm"].sum()),
+            "sc_tenant_count_sum_within_3km": float(within_3km["tenant_count"].sum()),
+        }
+        for scale in SCALE_CODES:
+            scale_facilities = opened[opened["scale_code"] == scale]
+            spatial_features[f"nearest_sc_{scale}_distance_km"] = (
+                float(scale_facilities["distance_km"].min()) if not scale_facilities.empty else 0.0
+            )
+            spatial_features[f"sc_{scale}_count_within_3km"] = float(
+                (scale_facilities["distance_km"] <= 3.0).sum()
+            )
+        rows.append(spatial_features)
 
     import pandas as pd
 
@@ -177,7 +196,7 @@ def _add_spatial_features(result, facilities):
 
 
 def _empty_spatial_features() -> dict[str, float]:
-    return {
+    features = {
         "nearest_sc_distance_km": 0.0,
         "nearest_sc_opened_years": 0.0,
         "sc_count_within_1km": 0.0,
@@ -185,6 +204,8 @@ def _empty_spatial_features() -> dict[str, float]:
         "sc_store_area_sum_within_3km": 0.0,
         "sc_tenant_count_sum_within_3km": 0.0,
     }
+    features.update({feature: 0.0 for feature in COMMERCIAL_SCALE_FEATURES})
+    return features
 
 
 def _is_missing_number(value: object) -> bool:

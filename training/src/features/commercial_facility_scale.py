@@ -26,6 +26,32 @@ def classify_commercial_facility_scale(
     return {"scaleCode": code, "scaleLabel": SCALE_LABELS[code], "scaleBasis": basis}
 
 
+def add_commercial_facility_scale_columns(dataframe: Any) -> Any:
+    """商業施設DataFrameへ学習・監査用の規模区分を追加する。"""
+    import pandas as pd
+
+    result = dataframe.copy()
+    store_areas = pd.to_numeric(
+        result.get("store_area_sqm", pd.Series(index=result.index, dtype="float64")),
+        errors="coerce",
+    )
+    tenant_counts = pd.to_numeric(
+        result.get("tenant_count", pd.Series(index=result.index, dtype="float64")),
+        errors="coerce",
+    )
+    scales = [
+        classify_commercial_facility_scale(
+            None if pd.isna(area) else float(area),
+            None if pd.isna(tenants) else int(tenants),
+        )
+        for area, tenants in zip(store_areas, tenant_counts, strict=True)
+    ]
+    result["scale_code"] = [scale["scaleCode"] for scale in scales]
+    result["scale_label"] = [scale["scaleLabel"] for scale in scales]
+    result["scale_basis"] = [scale["scaleBasis"] for scale in scales]
+    return result
+
+
 def _area_scale(value: float) -> str:
     if value < 5_000:
         return "small"
