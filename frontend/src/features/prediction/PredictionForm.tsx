@@ -354,6 +354,8 @@ function FutureScenarioControl({ value, onChange }: FutureScenarioControlProps) 
 function SelectField({ label, value, options, onChange }: SelectFieldProps) {
   const [isOpen, setIsOpen] = useState(false);
   const fieldRef = useRef<HTMLDivElement | null>(null);
+  const triggerRef = useRef<HTMLButtonElement | null>(null);
+  const restoreFocusRef = useRef(false);
   const listboxId = useId();
 
   useEffect(() => {
@@ -371,7 +373,14 @@ function SelectField({ label, value, options, onChange }: SelectFieldProps) {
     return () => document.removeEventListener("pointerdown", handlePointerDown);
   }, [isOpen]);
 
+  useEffect(() => {
+    if (!restoreFocusRef.current) return;
+    restoreFocusRef.current = false;
+    triggerRef.current?.focus();
+  }, [value]);
+
   function commitValue(nextValue: string) {
+    restoreFocusRef.current = true;
     onChange(nextValue);
     setIsOpen(false);
   }
@@ -395,8 +404,10 @@ function SelectField({ label, value, options, onChange }: SelectFieldProps) {
     <div className="form-field custom-select-field" ref={fieldRef}>
       <span>{label}</span>
       <button
+        ref={triggerRef}
         type="button"
         className="custom-select-trigger"
+        aria-label={label}
         aria-haspopup="listbox"
         aria-expanded={isOpen}
         aria-controls={listboxId}
@@ -410,6 +421,8 @@ function SelectField({ label, value, options, onChange }: SelectFieldProps) {
         className={`custom-select-menu ${isOpen ? "is-open" : ""}`}
         id={listboxId}
         role="listbox"
+        tabIndex={-1}
+        aria-label={`${label}の選択肢`}
         aria-hidden={!isOpen}
       >
         {options.map((option) => (

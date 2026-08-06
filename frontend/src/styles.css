@@ -1086,21 +1086,14 @@ select {
   font-weight: 700;
 }
 
-@media (min-width: 761px) {
-  input:focus-visible,
-  select:focus-visible,
-  .custom-select-trigger:focus-visible,
-  .segmented-control button:focus-visible,
-  .info-icon-button:focus-visible,
-  .supporting-info-tabs button:focus-visible,
-  .map-search button:focus-visible,
-  .map-search input:focus-visible {
-    border-color: #0f766e;
-    outline: 0;
-    box-shadow:
-      0 0 0 2px #ffffff,
-      0 0 0 8px rgb(45 189 179 / 22%);
-  }
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
+  border-color: #0f766e;
+  outline: 3px solid #0f766e;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 2px #ffffff;
 }
 
 .primary-action {
