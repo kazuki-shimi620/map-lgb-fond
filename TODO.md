@@ -93,8 +93,8 @@
 - [x] 規模別の最寄距離・周辺件数をFeatureProviderとして追加する
 - [x] 現行POI特徴量と、同一holdout・複数seedでdry-run比較する
 - [x] 時点リーケージ、規模不明データ、地域coverageの偏りを確認する
-- [ ] 改善が複数地域・複数年で再現した場合だけ、モデルとONNXを更新する
-- [ ] CSV仕様、FeatureProvider、採用判断を `docs/commercial-facilities.md`、`docs/training.md`、`docs/feature-adoption.md` へ反映する
+- [x] 改善が複数地域・複数年で再現した場合だけ、モデルとONNXを更新する（11,000件比較で再現せず、更新見送り）
+- [x] CSV仕様、FeatureProvider、採用判断を `docs/commercial-facilities.md`、`docs/training.md`、`docs/feature-adoption.md` へ反映する
 
 ## P2 P1後に判断する作業
 

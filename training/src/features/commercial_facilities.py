@@ -1,11 +1,13 @@
 from __future__ import annotations
 
-import math
 from pathlib import Path
+
+import numpy as np
 
 from features.commercial_facility_scale import add_commercial_facility_scale_columns
 
 SCALE_CODES = ("small", "medium", "large", "very_large")
+EARTH_RADIUS_KM = 6371.0088
 COMMERCIAL_SCALE_FEATURES = [
     feature
     for scale in SCALE_CODES
@@ -128,6 +130,9 @@ def _build_city_year_features(facilities, years: list[int], lookback_years: int)
 
 
 def _add_spatial_features(result, facilities):
+    import pandas as pd
+    from sklearn.neighbors import BallTree
+
     if not {"lat", "lon"}.issubset(result.columns) or not {"lat", "lon"}.issubset(
         facilities.columns
     ):
@@ -144,54 +149,71 @@ def _add_spatial_features(result, facilities):
     if located.empty:
         return result
 
-    rows = []
-    for property_row in result.itertuples(index=False):
-        property_lat = getattr(property_row, "lat", None)
-        property_lon = getattr(property_row, "lon", None)
-        transaction_year = getattr(property_row, "transaction_year", None)
-        if (
-            _is_missing_number(property_lat)
-            or _is_missing_number(property_lon)
-            or _is_missing_number(transaction_year)
-        ):
-            rows.append(_empty_spatial_features())
-            continue
-
-        opened = located[located["open_year"] < int(transaction_year)].copy()
+    spatial = pd.DataFrame(
+        0.0,
+        index=result.index,
+        columns=list(_empty_spatial_features()),
+    )
+    valid_property = result["lat"].notna() & result["lon"].notna()
+    valid_property &= result["transaction_year"].notna()
+    for transaction_year, property_group in result.loc[valid_property].groupby(
+        "transaction_year", sort=True
+    ):
+        opened = located[located["open_year"] < int(transaction_year)]
         if opened.empty:
-            rows.append(_empty_spatial_features())
             continue
-
-        opened["distance_km"] = opened.apply(
-            lambda facility, base_lat=float(property_lat), base_lon=float(property_lon): (
-                _haversine_km(base_lat, base_lon, float(facility["lat"]), float(facility["lon"]))
-            ),
-            axis=1,
+        property_coordinates = np.radians(property_group[["lat", "lon"]].to_numpy())
+        facility_coordinates = np.radians(opened[["lat", "lon"]].to_numpy())
+        tree = BallTree(facility_coordinates, metric="haversine")
+        nearest_radians, _ = tree.query(property_coordinates, k=1)
+        within_1km = tree.query_radius(
+            property_coordinates, r=1.0 / EARTH_RADIUS_KM, count_only=True
         )
-        nearest = opened.loc[opened["distance_km"].idxmin()]
-        within_1km = opened[opened["distance_km"] <= 1.0]
-        within_3km = opened[opened["distance_km"] <= 3.0]
-        spatial_features = {
-            "nearest_sc_distance_km": float(nearest["distance_km"]),
-            "nearest_sc_opened_years": float(int(transaction_year) - int(nearest["open_year"])),
-            "sc_count_within_1km": float(len(within_1km)),
-            "sc_count_within_3km": float(len(within_3km)),
-            "sc_store_area_sum_within_3km": float(within_3km["store_area_sqm"].sum()),
-            "sc_tenant_count_sum_within_3km": float(within_3km["tenant_count"].sum()),
-        }
+        within_3km_indices = tree.query_radius(property_coordinates, r=3.0 / EARTH_RADIUS_KM)
+        row_index = property_group.index
+        spatial.loc[row_index, "nearest_sc_distance_km"] = nearest_radians[:, 0] * EARTH_RADIUS_KM
+        tied_nearest_indices = tree.query_radius(
+            property_coordinates,
+            r=nearest_radians[:, 0] + 1e-12,
+        )
+        stable_nearest_indices = np.fromiter(
+            (indices.min() for indices in tied_nearest_indices), dtype=int
+        )
+        nearest_open_years = opened["open_year"].to_numpy()[stable_nearest_indices]
+        spatial.loc[row_index, "nearest_sc_opened_years"] = (
+            int(transaction_year) - nearest_open_years
+        )
+        spatial.loc[row_index, "sc_count_within_1km"] = within_1km.astype(float)
+        spatial.loc[row_index, "sc_count_within_3km"] = np.fromiter(
+            (len(indices) for indices in within_3km_indices), dtype=float
+        )
+        store_areas = opened["store_area_sqm"].to_numpy()
+        tenant_counts = opened["tenant_count"].to_numpy()
+        spatial.loc[row_index, "sc_store_area_sum_within_3km"] = np.fromiter(
+            (store_areas[indices].sum() for indices in within_3km_indices), dtype=float
+        )
+        spatial.loc[row_index, "sc_tenant_count_sum_within_3km"] = np.fromiter(
+            (tenant_counts[indices].sum() for indices in within_3km_indices), dtype=float
+        )
         for scale in SCALE_CODES:
             scale_facilities = opened[opened["scale_code"] == scale]
-            spatial_features[f"nearest_sc_{scale}_distance_km"] = (
-                float(scale_facilities["distance_km"].min()) if not scale_facilities.empty else 0.0
+            if scale_facilities.empty:
+                continue
+            scale_tree = BallTree(
+                np.radians(scale_facilities[["lat", "lon"]].to_numpy()),
+                metric="haversine",
             )
-            spatial_features[f"sc_{scale}_count_within_3km"] = float(
-                (scale_facilities["distance_km"] <= 3.0).sum()
+            scale_nearest, _ = scale_tree.query(property_coordinates, k=1)
+            scale_within_3km = scale_tree.query_radius(
+                property_coordinates,
+                r=3.0 / EARTH_RADIUS_KM,
+                count_only=True,
             )
-        rows.append(spatial_features)
+            spatial.loc[row_index, f"nearest_sc_{scale}_distance_km"] = (
+                scale_nearest[:, 0] * EARTH_RADIUS_KM
+            )
+            spatial.loc[row_index, f"sc_{scale}_count_within_3km"] = scale_within_3km.astype(float)
 
-    import pandas as pd
-
-    spatial = pd.DataFrame(rows, index=result.index)
     return result.join(spatial)
 
 
@@ -206,28 +228,6 @@ def _empty_spatial_features() -> dict[str, float]:
     }
     features.update({feature: 0.0 for feature in COMMERCIAL_SCALE_FEATURES})
     return features
-
-
-def _is_missing_number(value: object) -> bool:
-    if value is None:
-        return True
-    try:
-        return math.isnan(float(value))
-    except (TypeError, ValueError):
-        return True
-
-
-def _haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
-    radius_km = 6371.0088
-    phi1 = math.radians(lat1)
-    phi2 = math.radians(lat2)
-    delta_phi = math.radians(lat2 - lat1)
-    delta_lambda = math.radians(lon2 - lon1)
-    a = (
-        math.sin(delta_phi / 2) ** 2
-        + math.cos(phi1) * math.cos(phi2) * math.sin(delta_lambda / 2) ** 2
-    )
-    return radius_km * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
 
 def _build_prefecture_year_features(facilities, years: list[int], lookback_years: int):

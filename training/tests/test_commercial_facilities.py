@@ -133,3 +133,44 @@ def test_add_commercial_facility_features_excludes_unreliable_coordinates_from_s
     assert actual.loc[0, "sc_city_open_count_cumulative"] == 1.0
     assert actual.loc[0, "nearest_sc_distance_km"] == 0.0
     assert actual.loc[0, "sc_count_within_3km"] == 0.0
+
+
+def test_add_commercial_facility_features_uses_input_order_for_equal_distance() -> None:
+    properties = pd.DataFrame(
+        [
+            {
+                "prefecture": "東京都",
+                "municipality": "千代田区",
+                "transaction_year": 2025,
+                "lat": 35.681236,
+                "lon": 139.767125,
+            }
+        ]
+    )
+    facilities = pd.DataFrame(
+        [
+            {
+                "prefecture": "東京都",
+                "city": "千代田区",
+                "open_year": 2018,
+                "store_area_sqm": 1_000,
+                "tenant_count": 10,
+                "lat": 35.6813,
+                "lon": 139.7672,
+            },
+            {
+                "prefecture": "東京都",
+                "city": "千代田区",
+                "open_year": 2020,
+                "store_area_sqm": 1_000,
+                "tenant_count": 10,
+                "lat": 35.6813,
+                "lon": 139.7672,
+            },
+        ]
+    )
+
+    actual = add_commercial_facility_features(properties, facilities)
+
+    assert actual.loc[0, "nearest_sc_opened_years"] == 7.0
+    assert actual.loc[0, "sc_count_within_1km"] == 2.0
