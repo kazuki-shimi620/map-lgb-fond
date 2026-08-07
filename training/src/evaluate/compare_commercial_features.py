@@ -17,6 +17,7 @@ from evaluate.metrics import calculate_metrics  # noqa: E402
 from export.artifacts import export_onnx_if_available, save_json  # noqa: E402
 from features.category_dictionary import build_and_apply_category_dictionary  # noqa: E402
 from features.commercial_facilities import (  # noqa: E402
+    COMMERCIAL_SCALE_FEATURES,
     add_commercial_facility_features,
     load_commercial_facilities_csv,
 )
@@ -84,6 +85,10 @@ CANDIDATES = [
         CITY_COUNT_FEATURES + CITY_SCALE_FEATURES + PREFECTURE_TREND_FEATURES,
     ),
     CommercialCandidate("spatial_distance_counts", SPATIAL_FEATURES),
+    CommercialCandidate(
+        "spatial_distance_counts_by_scale",
+        SPATIAL_FEATURES + COMMERCIAL_SCALE_FEATURES,
+    ),
     CommercialCandidate("baseline_no_station", [], include_station=False),
     CommercialCandidate(
         "city_counts_no_station",
@@ -111,6 +116,14 @@ def main() -> int:
     parser.add_argument("--output-dir", type=Path, default=Path("outputs/comparisons"))
     parser.add_argument("--train-start-year", type=int, default=2015)
     parser.add_argument("--test-years", nargs="+", type=int, default=[2023, 2024, 2025])
+    parser.add_argument("--seeds", nargs="+", type=int, default=[42])
+    parser.add_argument("--candidates", nargs="+", choices=[item.name for item in CANDIDATES])
+    parser.add_argument(
+        "--sample-per-region-year",
+        type=int,
+        help="dry-run用に各地域・取引年から取得する最大行数",
+    )
+    parser.add_argument("--skip-artifacts", action="store_true")
     args = parser.parse_args()
 
     report = compare_commercial_features(
@@ -120,6 +133,10 @@ def main() -> int:
         output_dir=args.output_dir,
         train_start_year=args.train_start_year,
         test_years=args.test_years,
+        seeds=args.seeds,
+        candidate_names=args.candidates,
+        sample_per_region_year=args.sample_per_region_year,
+        export_artifacts=not args.skip_artifacts,
     )
     print(render_markdown(report))
     return 0
@@ -133,6 +150,10 @@ def compare_commercial_features(
     output_dir: Path,
     train_start_year: int,
     test_years: list[int],
+    seeds: list[int] | None = None,
+    candidate_names: list[str] | None = None,
+    sample_per_region_year: int | None = None,
+    export_artifacts: bool = True,
 ) -> dict[str, object]:
     import pandas as pd
 
@@ -147,6 +168,11 @@ def compare_commercial_features(
 
     data = pd.concat(frames, ignore_index=True)
     data = data[data["transaction_year"] >= train_start_year].copy()
+    source_row_count = len(data)
+    if sample_per_region_year is not None:
+        if sample_per_region_year <= 0:
+            raise ValueError("sample_per_region_year must be greater than zero")
+        data = _sample_by_region_year(data, sample_per_region_year)
     facilities = load_commercial_facilities_csv(facilities_csv)
     data = add_commercial_facility_features(
         data,
@@ -155,17 +181,27 @@ def compare_commercial_features(
     )
 
     output_dir.mkdir(parents=True, exist_ok=True)
+    selected_candidates = [
+        candidate
+        for candidate in CANDIDATES
+        if candidate_names is None or candidate.name in candidate_names
+    ]
     rows = []
-    for candidate in CANDIDATES:
+    for candidate in selected_candidates:
         row = _backtest_candidate(
             candidate=candidate,
             data=data,
             test_years=test_years,
+            seeds=seeds or [42],
         )
-        row["deploymentArtifacts"] = _export_deployment_artifacts(
-            candidate=candidate,
-            data=data,
-            output_dir=output_dir / "commercial_feature_models",
+        row["deploymentArtifacts"] = (
+            _export_deployment_artifacts(
+                candidate=candidate,
+                data=data,
+                output_dir=output_dir / "commercial_feature_models",
+            )
+            if export_artifacts
+            else _empty_deployment_artifacts()
         )
         rows.append(row)
 
@@ -174,6 +210,9 @@ def compare_commercial_features(
         "regions": regions,
         "trainStartYear": train_start_year,
         "testYears": test_years,
+        "seeds": seeds or [42],
+        "samplePerRegionYear": sample_per_region_year,
+        "sourceRowCount": source_row_count,
         "rowCount": len(data),
         "facilitiesCsv": [str(path) for path in facilities_csv],
         "facilityCount": len(facilities),
@@ -187,36 +226,40 @@ def compare_commercial_features(
     return report
 
 
-def _backtest_candidate(*, candidate: CommercialCandidate, data, test_years: list[int]):
+def _backtest_candidate(
+    *, candidate: CommercialCandidate, data, test_years: list[int], seeds: list[int]
+):
     features, categorical_features = _feature_lists(candidate)
     encoding = build_and_apply_category_dictionary(data, categorical_features)
     encoded = encoding.dataframe
     folds = []
     started = time.perf_counter()
-    for test_year in test_years:
-        train_mask = (encoded["transaction_year"] >= encoded["transaction_year"].min()) & (
-            encoded["transaction_year"] < test_year
-        )
-        test_mask = encoded["transaction_year"] == test_year
-        if not train_mask.any() or not test_mask.any():
-            continue
-        model = train_model(
-            encoded.loc[train_mask, features],
-            encoded.loc[train_mask, "price"],
-            categorical_features,
-            _model_params(candidate),
-        )
-        predictions = model.predict(encoded.loc[test_mask, features])
-        fold_metrics = calculate_metrics(encoded.loc[test_mask, "price"], predictions)
-        folds.append(
-            {
-                "testYear": test_year,
-                "trainCount": int(train_mask.sum()),
-                "testCount": int(test_mask.sum()),
-                "metrics": fold_metrics,
-                "featureImportance": _feature_importance(model, features),
-            }
-        )
+    for seed in seeds:
+        for test_year in test_years:
+            train_mask = (encoded["transaction_year"] >= encoded["transaction_year"].min()) & (
+                encoded["transaction_year"] < test_year
+            )
+            test_mask = encoded["transaction_year"] == test_year
+            if not train_mask.any() or not test_mask.any():
+                continue
+            model = train_model(
+                encoded.loc[train_mask, features],
+                encoded.loc[train_mask, "price"],
+                categorical_features,
+                _model_params(candidate, seed=seed),
+            )
+            predictions = model.predict(encoded.loc[test_mask, features])
+            fold_metrics = calculate_metrics(encoded.loc[test_mask, "price"], predictions)
+            folds.append(
+                {
+                    "seed": seed,
+                    "testYear": test_year,
+                    "trainCount": int(train_mask.sum()),
+                    "testCount": int(test_mask.sum()),
+                    "metrics": fold_metrics,
+                    "featureImportance": _feature_importance(model, features),
+                }
+            )
     return {
         "name": candidate.name,
         "features": features,
@@ -227,6 +270,16 @@ def _backtest_candidate(*, candidate: CommercialCandidate, data, test_years: lis
         "metrics": _weighted_metrics(folds),
         "featureImportance": _average_feature_importance(folds),
     }
+
+
+def _sample_by_region_year(data, limit: int):
+    import pandas as pd
+
+    samples = [
+        group.sample(n=min(len(group), limit), random_state=42)
+        for _, group in data.groupby(["source_region", "transaction_year"], sort=True)
+    ]
+    return pd.concat(samples, ignore_index=True) if samples else data.iloc[0:0].copy()
 
 
 def _export_deployment_artifacts(*, candidate: CommercialCandidate, data, output_dir: Path):
@@ -266,14 +319,14 @@ def _feature_lists(candidate: CommercialCandidate) -> tuple[list[str], list[str]
     return features, categorical_features
 
 
-def _model_params(candidate: CommercialCandidate) -> dict[str, object]:
+def _model_params(candidate: CommercialCandidate, *, seed: int = 42) -> dict[str, object]:
     return {
         "n_estimators": candidate.n_estimators,
         "learning_rate": candidate.learning_rate,
         "num_leaves": candidate.num_leaves,
         "max_depth": candidate.max_depth,
         "min_child_samples": candidate.min_child_samples,
-        "random_state": 42,
+        "random_state": seed,
         "n_jobs": -1,
     }
 
@@ -322,6 +375,17 @@ def _gzip_bytes_size(value: bytes) -> int:
     return len(gzip.compress(value, mtime=0))
 
 
+def _empty_deployment_artifacts() -> dict[str, object]:
+    return {
+        "onnxPath": None,
+        "onnxBytes": None,
+        "onnxGzipBytes": None,
+        "categoriesPath": None,
+        "categoriesBytes": None,
+        "categoriesGzipBytes": None,
+    }
+
+
 def render_markdown(report: dict[str, object]) -> str:
     lines = [
         "# 商業施設特徴量バックテスト",
@@ -329,6 +393,7 @@ def render_markdown(report: dict[str, object]) -> str:
         f"対象地域: {', '.join(report['regions'])}",
         f"学習開始年: {report['trainStartYear']}",
         f"評価年: {', '.join(str(year) for year in report['testYears'])}",
+        f"seed: {', '.join(str(seed) for seed in report.get('seeds', [42]))}",
         f"物件件数: {report['rowCount']:,}",
         f"SC件数: {report['facilityCount']:,}",
         "",

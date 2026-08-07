@@ -1049,6 +1049,25 @@ sc_{small|medium|large|very_large}_count_within_3km
 規模別の距離・3km圏件数はProviderで生成済みだが、本番モデルへはまだ採用せず、
 同一holdout・複数seedの比較とcoverage監査を通過した場合だけONNXへ反映する。
 
+小規模dry-runでは地域・取引年ごとの抽出数と比較候補を限定し、成果物生成を止められる。
+
+```bash
+cd training
+.venv/bin/python src/evaluate/compare_commercial_features.py \
+  --processed-dir data/processed/with_address_coordinates \
+  --facilities-csv \
+    data/processed/jcsc/jcsc_sc_open_with_coordinates.csv \
+    data/processed/jcsc_pdf/jcsc_sc_pdf_new_candidates_with_coordinates.csv \
+  --sample-per-region-year 25 \
+  --seeds 17 42 83 \
+  --candidates baseline_2015_window spatial_distance_counts \
+    spatial_distance_counts_by_scale \
+  --skip-artifacts
+```
+
+本比較へ広げる前に、距離特徴量生成時間を確認する。現行処理は物件行ごとに施設との距離を
+計算するため、約68万件の全件比較をそのまま実行しない。
+
 ---
 
 ## PopulationProvider
