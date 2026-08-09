@@ -106,7 +106,7 @@ React + ONNX Runtime Web
 | CI/CD | GitHub Actions |
 | ホスティング | GitHub Pages |
 
-専門用語は [用語集](docs/glossary.md) で、役割、このアプリでの利用箇所、短い説明例を確認できます。
+専門用語は [用語集](docs/glossary.md) で、役割、このアプリでの利用箇所、短い説明例を確認できます。無料機能を維持した収益化の検証方針は [収益化の需要検証](docs/monetization-validation.md) にまとめています。
 
 ## ディレクトリ構成
 
