@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T02:48:31+00:00",
+  "artifacts": {
+    "commercialFacilities": {
+      "path": "facilities/commercial_facilities.json",
+      "sha256": "a839b14aa45034cf22f1ab9d21e12538ffecfa520282189769c079ac72bccbef",
+      "bytes": 1797312,
+      "source": "jcsc",
+      "sourceLabel": "日本ショッピングセンター協会 オープンSC一覧表",
+      "dataTimestamp": "2026-08-01T07:51:54+00:00",
+      "coverage": {
+        "area": "全国",
+        "facilityCount": 3224,
+        "coordinateCount": 2937,
+        "reliableCoordinateCount": 2917,
+        "storeAreaMissingCount": 95,
+        "coordinateRate": 0.911,
+        "reliableCoordinateRate": 0.9048,
+        "storeAreaMissingRate": 0.0295,
+        "scaleCounts": {
+          "large": 960,
+          "medium": 1441,
+          "small": 410,
+          "unknown": 95,
+          "very_large": 318
+        },
+        "scaleBasisCounts": {
+          "store_area_sqm": 3129,
+          "unknown": 95
+        }
+      },
+      "generationCommand": "make facilities"
+    },
+    "nearbyFacilities": {
+      "path": "facilities/nearby_facilities.json",
+      "sha256": "927cd59deda2fdc66d08c90521509482b411b6e639da3c1722876182ae4eeb58",
+      "bytes": 3716367,
+      "source": "manual_or_processed",
+      "sourceLabel": "周辺施設データ",
+      "dataTimestamp": "2026-08-01T10:02:01+00:00",
+      "coverage": {
+        "facilityCount": 13669,
+        "categories": [
+          {
+            "id": "commercial_facility",
+            "coverageArea": "全国（信頼できる座標がある施設のみ）",
+            "sourceUrl": "https://www.jcsc.or.jp/sc_data/sc_open/sc_list",
+            "licenseLabel": "出典を明記して参考情報として配信"
+          },
+          {
+            "id": "cinema",
+            "coverageArea": "全国（OpenStreetMap登録施設）",
+            "sourceUrl": "https://www.openstreetmap.org/copyright",
+            "licenseLabel": "Open Database License (ODbL)"
+          },
+          {
+            "id": "museum",
+            "coverageArea": "全国9地方（OpenStreetMap登録施設、取得失敗セルは継続補完）",
+            "sourceUrl": "https://www.openstreetmap.org/copyright",
+            "licenseLabel": "Open Database License (ODbL)"
+          },
+          {
+            "id": "hot_spring",
+            "coverageArea": "全国（公衆浴場node・天然温泉、首都圏はway/relationも含む）",
+            "sourceUrl": "https://www.openstreetmap.org/copyright",
+            "licenseLabel": "Open Database License (ODbL)"
+          }
+        ]
+      },
+      "generationCommand": "make nearby-facilities"
+    },
+    "landPrices": {
+      "path": "land-prices/municipality_land_prices.json",
+      "sha256": "06275b0bce608c7b7245b2a0a296b71e605e244fcf3b4fa63a20980cb0e18bee",
+      "bytes": 91420,
+      "source": "reinfolib_xpt002",
+      "sourceLabel": "国土交通省 不動産情報ライブラリ 地価公示・地価調査",
+      "dataTimestamp": "2026-07-15T07:12:33+00:00",
+      "coverage": {
+        "latestYear": 2025,
+        "cityCount": 331
+      },
+      "generationCommand": "make land-prices"
+    },
+    "urbanPlanning": {
+      "path": "urban-planning/urban_planning_areas.json",
+      "sha256": "2ff6892ad4b43bbcf0f5b1597c212955ff3a9f02db45afacb554767e0177b7e3",
+      "bytes": 57851663,
+      "source": "reinfolib_xkt001_xkt002_xkt003",
+      "sourceLabel": "国土交通省 不動産情報ライブラリ 都市計画決定GISデータ",
+      "dataTimestamp": "2026-07-15T10:39:45+00:00",
+      "coverage": {
+        "areaCount": 37899
+      },
+      "generationCommand": "make urban-planning"
+    },
+    "hazardLayers": {
+      "path": "hazards/layers.json",
+      "sha256": "6b63b94028c8b11d3b2432dfd352ab9b9cc96caaf021e1187e20f8855c7b2445",
+      "bytes": 2564,
+      "source": {
+        "name": "ハザードマップポータルサイト 重ねるハザードマップ",
+        "url": "https://disaportal.gsi.go.jp/",
+        "dataCopyrightUrl": "https://disaportal.gsi.go.jp/hazardmapportal/hazardmap/copyright/copyright_data.html",
+        "termsUrl": "https://disaportal.gsi.go.jp/hazardmapportal/hazardmap/copyright/copyright.html",
+        "attribution": "ハザードマップポータルサイト"
+      },
+      "sourceLabel": "ハザードマップポータルサイト 重ねるハザードマップ",
+      "dataTimestamp": "2026-07-10",
+      "coverage": {
+        "layerCount": 4
+      },
+      "generationCommand": "設定ファイルをレビューして更新"
+    }
+  }
+}

@@ -869,6 +869,8 @@ frontend/public/model-manifest.json
 ONNXのSHA-256として維持し、フロントエンドのバージョン別キャッシュに利用する。
 マニフェストには `modelVersion`、生成日、学習開始・終了年、特徴量一覧・件数・SHA-256も
 転記し、モデルを読み込まずに配布内容を監査できるようにする。
+外部特徴量・参考表示データの出典とスナップショット日時は
+`external-data-manifest.json` に分離し、`make external-data-manifest` で更新する。
 
 ## モデル容量比較
 

@@ -212,3 +212,15 @@ npm run test:e2e:screenshots
 ```
 
 スクリーンショットは `docs/images/` に出力し、差分を確認してからコミットする。
+
+---
+
+# 9. 配信成果物の追跡
+
+`make external-data-manifest` は配信中の商業施設、周辺施設、地価、用途地域、ハザード設定を
+走査し、`frontend/public/external-data-manifest.json` を生成する。成果物ごとに相対パス、
+SHA-256、容量、取得元、データ日時、coverage、再生成コマンドを記録する。
+
+外部データを更新した場合は、個別のexport後にこのマニフェストも更新する。`dataTimestamp` は
+元成果物の `generatedAt`、ハザード設定では `updatedAt` を使用する。元データに取得日時が
+ない場合にファイル更新時刻から推測しない。

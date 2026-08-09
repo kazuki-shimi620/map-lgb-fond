@@ -735,6 +735,9 @@ nearby-facilities:
 nearby-facilities-template:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.nearby_facilities --write-template "$(NEARBY_FACILITIES_TEMPLATE)"
 
+external-data-manifest:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.external_data_manifest --public-dir ../$(FRONTEND_DIR)/public
+
 stations:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) -m src.export.stations --public-dir ../$(FRONTEND_DIR)/public --regions $(REGIONS) --station-passengers-csv $(STATION_PASSENGERS_CSV)
 
