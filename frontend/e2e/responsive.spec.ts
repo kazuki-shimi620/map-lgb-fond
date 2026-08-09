@@ -81,6 +81,9 @@ test.describe("レスポンシブ表示", () => {
 
   test("スマートフォンでボトムシートを表示できる", async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
+    await page.addInitScript(() => {
+      window.localStorage.setItem("map-lgb-fond:onboarding-completed", "1");
+    });
     await mockSuccessfulGeocoding(page);
     const predictionPage = new PredictionPage(page);
     await predictionPage.goto();
@@ -94,6 +97,7 @@ test.describe("レスポンシブ表示", () => {
     await predictionPage.map.getByRole("button", { name: "周辺施設" }).click();
     await expect(page.getByTestId("prediction-sheet")).toHaveClass(/sheet-collapsed/);
     await expect(page.getByTestId("facility-layer-control")).toBeVisible();
+    await expect(page.getByRole("button", { name: "使い方" })).toHaveCount(0);
     await expect(page.getByText("小規模", { exact: true })).toBeVisible();
     await expect(page.getByText("美術館・ギャラリー", { exact: true })).toBeVisible();
     await expect(page.getByText("博物館・資料館", { exact: true })).toBeVisible();
@@ -105,6 +109,9 @@ test.describe("レスポンシブ表示", () => {
     await predictionPage.map.getByRole("button", { name: "ハザード" }).click();
     await expect(page.getByTestId("facility-layer-control")).toHaveCount(0);
     await expect(page.getByTestId("hazard-layer-control")).toBeVisible();
+    await expect(page.getByRole("button", { name: "使い方" })).toHaveCount(0);
+    await page.getByRole("button", { name: "ハザードを閉じる" }).click();
+    await expect(page.getByRole("button", { name: "使い方" })).toBeVisible();
 
     await predictionPage.clickMapCenter();
     await expect(predictionPage.locationTooltip).toContainText("駅徒歩");

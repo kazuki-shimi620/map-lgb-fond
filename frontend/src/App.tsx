@@ -41,6 +41,7 @@ const initialForm: PredictionFormState = {
 
 export function App() {
   const onboarding = useOnboardingGuide();
+  const [isLayerPanelOpen, setIsLayerPanelOpen] = useState(false);
   const [form, setForm] = useState<PredictionFormState>(initialForm);
   const [futureScenario, setFutureScenario] = useState<FutureScenario>("base");
   const [errorMessage, setErrorMessage] = useState("");
@@ -190,9 +191,11 @@ export function App() {
         </div>
       </header>
 
-      <button className="guide-reopen-button" type="button" onClick={onboarding.reopen}>
-        使い方
-      </button>
+      {!onboarding.isOpen && !isLayerPanelOpen ? (
+        <button className="guide-reopen-button" type="button" onClick={onboarding.reopen}>
+          使い方
+        </button>
+      ) : null}
 
       {onboarding.isOpen ? <OnboardingGuide onClose={onboarding.close} /> : null}
 
@@ -218,6 +221,7 @@ export function App() {
           locationSummary={locationSummary}
           stations={stations}
           onLayerPanelOpenChange={(isOpen) => {
+            setIsLayerPanelOpen(isOpen);
             if (isOpen) {
               clearPendingMapSelectionScroll();
               setFormSheetState("collapsed");
