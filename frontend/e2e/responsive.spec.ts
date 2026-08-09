@@ -73,6 +73,20 @@ test.describe("レスポンシブ表示", () => {
     });
     expect(desktopMapSidebarLayout).toBe(true);
 
+    const desktopMapControlsShareOneRow = await page.evaluate(() => {
+      const searchButton = document.querySelector<HTMLButtonElement>('.map-search button[type="submit"]');
+      const layerButtons = Array.from(
+        document.querySelectorAll<HTMLButtonElement>(".mobile-map-layer-controls button")
+      );
+      if (!searchButton || layerButtons.length === 0) return false;
+      const searchRect = searchButton.getBoundingClientRect();
+      return layerButtons.every((button) => {
+        const rect = button.getBoundingClientRect();
+        return Math.abs(rect.top - searchRect.top) <= 2;
+      });
+    });
+    expect(desktopMapControlsShareOneRow).toBe(true);
+
     const hasHorizontalOverflow = await page.evaluate(
       () => document.documentElement.scrollWidth > document.documentElement.clientWidth
     );
@@ -91,6 +105,21 @@ test.describe("レスポンシブ表示", () => {
     await expect(page.getByTestId("property-map")).toBeVisible();
     await expect(page.getByTestId("prediction-sheet")).toBeVisible();
     await expect(page.getByTestId("sheet-handle")).toBeVisible();
+
+    const guideDoesNotOverlapSearch = await page.evaluate(() => {
+      const guide = document.querySelector(".guide-reopen-button");
+      const search = document.querySelector(".map-search");
+      if (!guide || !search) return false;
+      const guideRect = guide.getBoundingClientRect();
+      const searchRect = search.getBoundingClientRect();
+      return (
+        guideRect.right <= searchRect.left ||
+        guideRect.left >= searchRect.right ||
+        guideRect.bottom <= searchRect.top ||
+        guideRect.top >= searchRect.bottom
+      );
+    });
+    expect(guideDoesNotOverlapSearch).toBe(true);
 
     await predictionPage.openDetailsPanel();
     await expect(page.getByTestId("prediction-sheet")).not.toHaveClass(/sheet-collapsed/);

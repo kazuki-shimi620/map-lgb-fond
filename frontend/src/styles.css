@@ -410,16 +410,22 @@ h2 {
   overflow: hidden;
 }
 
-.map-search {
+.map-top-toolbar {
   position: absolute;
   z-index: 500;
   top: 12px;
   left: 50%;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  transform: translateX(-50%);
+}
+
+.map-search {
   display: grid;
   grid-template-columns: minmax(160px, 280px) 72px;
   gap: 8px;
-  width: min(calc(100% - 32px), 380px);
-  transform: translateX(-50%);
+  width: 380px;
 }
 
 .map-search input {
@@ -459,13 +465,8 @@ h2 {
 }
 
 .mobile-map-layer-controls {
-  position: absolute;
-  z-index: 540;
-  top: 72px;
-  left: 50%;
   display: flex;
   gap: 8px;
-  transform: translateX(-50%);
 }
 
 .mobile-map-layer-controls button {
@@ -495,7 +496,7 @@ h2 {
 .facility-layer-control {
   position: absolute;
   z-index: 520;
-  top: 120px;
+  top: 62px;
   right: 50%;
   display: grid;
   gap: 8px;
@@ -1600,6 +1601,12 @@ dd {
 }
 
 @media (max-width: 760px) {
+  .guide-reopen-button {
+    top: 112px;
+    right: 10px;
+    left: auto;
+  }
+
   .onboarding-guide {
     align-items: stretch;
     flex-direction: column;
@@ -1810,14 +1817,21 @@ dd {
     border-radius: 0;
   }
 
-  .map-search {
+  .map-top-toolbar {
+    z-index: 1250;
     top: 10px;
-    left: auto;
+    right: 10px;
+    left: 10px;
+    display: block;
+    transform: none;
+  }
+
+  .map-search {
+    margin-left: 52px;
     right: 10px;
     grid-template-columns: minmax(0, 1fr) 58px;
     gap: 6px;
-    width: calc(100% - 74px);
-    transform: none;
+    width: calc(100% - 52px);
   }
 
   .map-search input,
@@ -1826,16 +1840,14 @@ dd {
   }
 
   .mobile-map-layer-controls {
-    position: absolute;
     z-index: 1250;
-    top: 62px;
-    left: 50%;
     display: flex;
     max-width: calc(100% - 20px);
+    width: max-content;
+    margin: 10px auto 0;
     gap: 8px;
     overflow-x: auto;
     scrollbar-width: none;
-    transform: translateX(-50%);
   }
 
   .mobile-map-layer-controls::-webkit-scrollbar {
@@ -1873,6 +1885,11 @@ dd {
 
   .mobile-map-layer-controls button span {
     font-size: 11px;
+  }
+
+  .hazard-layer-control,
+  .facility-layer-control {
+    top: 110px;
   }
 
   .map-frame .leaflet-top.leaflet-left {
@@ -2068,7 +2085,7 @@ dd {
   }
 
   .map-search {
-    width: calc(100% - 72px);
+    width: calc(100% - 52px);
     grid-template-columns: minmax(0, 1fr) 54px;
   }
 

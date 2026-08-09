@@ -775,43 +775,45 @@ export function PropertyMap({
     <section className="panel map-panel" aria-label="地図" data-testid="property-map">
       <div className="map-frame">
         <img className="app-icon map-app-icon" src="./app-icon.svg" alt="" aria-hidden="true" />
-        <form className="map-search" onSubmit={handleSearch}>
-          <input
-            id="map-search-query"
-            name="mapSearchQuery"
-            aria-label="地図検索"
-            placeholder="駅名・住所を入力 例: 大宮駅、那覇市"
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-          />
-          <button type="submit" disabled={isSearching}>
-            検索
-          </button>
-          {searchStatus ? <p>{searchStatus}</p> : null}
-        </form>
-        <div className="mobile-map-layer-controls" aria-label="地図レイヤー切替">
-          {nearbyFacilities ? (
-            <button
-              type="button"
-              className={openLayerPanel === "facilities" ? "is-active" : ""}
-              aria-expanded={openLayerPanel === "facilities"}
-              onClick={() => toggleLayerPanel("facilities")}
-            >
-              <span aria-hidden="true">●</span>
-              周辺施設
+        <div className="map-top-toolbar">
+          <form className="map-search" onSubmit={handleSearch}>
+            <input
+              id="map-search-query"
+              name="mapSearchQuery"
+              aria-label="地図検索"
+              placeholder="駅名・住所を入力 例: 大宮駅、那覇市"
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+            />
+            <button type="submit" disabled={isSearching}>
+              検索
             </button>
-          ) : null}
-          {hazardLayers.length > 0 ? (
-            <button
-              type="button"
-              className={openLayerPanel === "hazards" ? "is-active" : ""}
-              aria-expanded={openLayerPanel === "hazards"}
-              onClick={() => toggleLayerPanel("hazards")}
-            >
-              <span aria-hidden="true">◆</span>
-              ハザード
-            </button>
-          ) : null}
+            {searchStatus ? <p>{searchStatus}</p> : null}
+          </form>
+          <div className="mobile-map-layer-controls" aria-label="地図レイヤー切替">
+            {nearbyFacilities ? (
+              <button
+                type="button"
+                className={openLayerPanel === "facilities" ? "is-active" : ""}
+                aria-expanded={openLayerPanel === "facilities"}
+                onClick={() => toggleLayerPanel("facilities")}
+              >
+                <span aria-hidden="true">●</span>
+                周辺施設
+              </button>
+            ) : null}
+            {hazardLayers.length > 0 ? (
+              <button
+                type="button"
+                className={openLayerPanel === "hazards" ? "is-active" : ""}
+                aria-expanded={openLayerPanel === "hazards"}
+                onClick={() => toggleLayerPanel("hazards")}
+              >
+                <span aria-hidden="true">◆</span>
+                ハザード
+              </button>
+            ) : null}
+          </div>
         </div>
         <MapContainer center={center} zoom={12} className="map" preferCanvas>
           <ViewportTracker onChange={setMapViewport} />
