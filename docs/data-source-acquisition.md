@@ -88,6 +88,23 @@ make collect-medical-facilities MEDICAL_REQUEST_INTERVAL_SECONDS=0.05
 make nearby-facilities NEARBY_FACILITIES_CSV=data/processed/medical/nearby_medical_facilities.csv COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
 ```
 
+### 図書館・市区町村役所・大学の取得判断
+
+全国統一の候補には国土数値情報がある。公共施設データには図書館（小分類コード `03003`）が含まれ、市町村役場等及び公的集会施設データには本庁、支所、行政サービス施設が含まれる。学校データは大学・短期大学を含み、2021年度版が公開されている。ただし公共施設データは原典や作成年度が古い版を含むため、名称、所在地、作成年度、廃止施設の混入率を少量サンプルで確認するまでは全国配布データへ採用しない。
+
+国土数値情報の政府標準利用規約対象データは、出典表示などの条件に従えば複製、公衆送信、翻案、商用利用が可能である。実取得時はデータ個別ページの利用条件を再確認し、成果物metadataへデータ名、個別ページURL、取得日、作成年度、適用規約を残す。旧利用約款対象データは条件が異なるため混在させない。
+
+表示価値と優先順位は次のとおりとする。
+
+| 施設 | 判断 | 理由 |
+| --- | --- | --- |
+| 図書館 | 参考表示候補 | 生活利便性の説明には有用。更新鮮度と廃止施設の確認後、最寄り距離と名称を表示する |
+| 市役所・区役所 | 参考表示のみ・低優先 | 行政手続きの利便性は説明できるが、利用頻度が低く、自治体名と強く重複する。モデルには入れない |
+| 病院 | モデル比較候補 | 既存の `XKT010` を再利用できる。診療所を除外し、距離・件数から比較する |
+| 大学 | モデル比較候補・低優先 | 学生需要を表し得るが、地域差の代理になりやすい。キャンパス位置を表すデータだけを使う |
+
+この調査段階では全国取得を行わない。まず1都県の件数、欠損率、重複率、現存確認サンプルを記録してから取得範囲を広げる。
+
 スーパー、コンビニ、公園はOpenStreetMap/Overpass APIを初期データソースにする。OpenStreetMapデータはOpen Database License (ODbL) として扱い、`training/src/collect/osm_nearby_facilities.py` で `shop=supermarket`、`shop=convenience`、`leisure=park` を `nearby_facilities` スキーマへ正規化する。2026-07-15に首都圏bboxでスーパー6,345件、コンビニ17,190件を取得した。公園は首都圏bbox一括ではOverpassが504を返したため、東京・神奈川・埼玉・千葉のbboxへ分割し、合計27,231件を取得した。大型公園特徴量用の面積は `--include-geometry` で `park_areas.csv` に出力する。東京全域のgeometry取得もOverpass 504となるため、`OSM_PARK_BBOX` または `--split-size-degrees` で小bboxへ分割し、`--continue-on-error` で失敗セルをmetadataへ記録しながら取得する。
 
 ## 取得候補
