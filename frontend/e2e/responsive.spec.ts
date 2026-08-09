@@ -94,6 +94,7 @@ test.describe("レスポンシブ表示", () => {
 
     await predictionPage.openDetailsPanel();
     await expect(page.getByTestId("prediction-sheet")).not.toHaveClass(/sheet-collapsed/);
+    await expect(page.getByRole("button", { name: "使い方" })).toHaveCount(0);
     await predictionPage.map.getByRole("button", { name: "周辺施設" }).click();
     await expect(page.getByTestId("prediction-sheet")).toHaveClass(/sheet-collapsed/);
     await expect(page.getByTestId("facility-layer-control")).toBeVisible();

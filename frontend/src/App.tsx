@@ -191,7 +191,7 @@ export function App() {
         </div>
       </header>
 
-      {!onboarding.isOpen && !isLayerPanelOpen ? (
+      {!onboarding.isOpen && !isLayerPanelOpen && formSheetState === "collapsed" ? (
         <button className="guide-reopen-button" type="button" onClick={onboarding.reopen}>
           使い方
         </button>
