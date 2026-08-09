@@ -138,21 +138,45 @@ def update_model_manifest(frontend_public_dir: str | Path) -> Path:
     models = {}
     for region in ordered_regions:
         path = discovered[region]
+        metadata_path = public / "metadata" / f"{region}_latest_metadata.json"
+        categories_path = public / "metadata" / f"{region}_latest_categories.json"
+        artifacts = {
+            "onnx": _artifact_record(path, public),
+        }
+        if metadata_path.exists():
+            artifacts["metadata"] = _artifact_record(metadata_path, public)
+        if categories_path.exists():
+            artifacts["categories"] = _artifact_record(categories_path, public)
+        build_id = sha256(
+            "\n".join(
+                f"{name}:{artifact['sha256']}" for name, artifact in sorted(artifacts.items())
+            ).encode("utf-8")
+        ).hexdigest()
         models[region] = {
             "path": f"models/{path.name}",
             "version": sha256(path.read_bytes()).hexdigest(),
             "bytes": path.stat().st_size,
+            "buildId": build_id,
+            "artifacts": artifacts,
         }
 
     return save_json(
         {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "generatedAt": datetime.now().astimezone().isoformat(timespec="seconds"),
             "capitalRegionPriority": CAPITAL_REGION_PRIORITY,
             "models": models,
         },
         public / "model-manifest.json",
     )
+
+
+def _artifact_record(path: Path, public: Path) -> dict[str, object]:
+    return {
+        "path": path.relative_to(public).as_posix(),
+        "sha256": sha256(path.read_bytes()).hexdigest(),
+        "bytes": path.stat().st_size,
+    }
 
 
 def export_onnx_if_available(model, feature_count: int, path: str | Path) -> Path | None:

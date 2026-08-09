@@ -110,7 +110,7 @@
 ### モデル・データの追跡性
 
 - [ ] 配布成果物へモデルバージョン、学習期間、データ取得日、特徴量セットを記録する
-- [ ] ONNX、メタデータ、カテゴリ辞書へチェックサムまたは同一build IDを付与する
+- [x] ONNX、メタデータ、カテゴリ辞書へチェックサムと同一build IDを付与する
 - [ ] 外部データの取得元、coverage、生成日時、生成コマンドを成果物単位で確認できるようにする
 - [ ] build IDと成果物契約を `docs/architecture.md`、`docs/training.md`、`docs/external-data-workflow.md` へ反映する
 

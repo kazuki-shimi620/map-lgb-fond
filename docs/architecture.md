@@ -346,6 +346,11 @@ flowchart TD
 
 モデルバイナリの永続キャッシュとONNXセッションのメモリ管理は分離する。Cache Storageには利用可能な地域モデルを保存できるが、ONNXセッションはLRU方式で直近2地域だけを保持する。
 
+`model-manifest.json` schemaVersion 2は、地域ごとにONNX、メタデータ、カテゴリ辞書の
+SHA-256と容量を保持する。各ハッシュから生成する `buildId` を成果物セットの識別子とし、
+ONNX単体の `version` は既存キャッシュキーとの互換性のため維持する。フロントエンドは未知の
+追加フィールドを無視できるため、schemaVersion 1の読み込み経路を壊さず段階移行する。
+
 ---
 
 # 11. Frontendディレクトリ責務

@@ -65,11 +65,35 @@ def test_update_model_manifest_records_hash_size_and_priority(tmp_path):
     manifest = json.loads(output.read_text(encoding="utf-8"))
     assert manifest["capitalRegionPriority"] == CAPITAL_REGION_PRIORITY
     assert list(manifest["models"]) == ["tokyo", "hokkaido"]
-    assert manifest["models"]["tokyo"] == {
+    tokyo = manifest["models"]["tokyo"]
+    assert manifest["schemaVersion"] == 2
+    assert tokyo["path"] == "models/tokyo_latest.onnx"
+    assert tokyo["version"] == hashlib.sha256(tokyo_model).hexdigest()
+    assert tokyo["bytes"] == len(tokyo_model)
+    assert tokyo["artifacts"]["onnx"] == {
         "path": "models/tokyo_latest.onnx",
-        "version": hashlib.sha256(tokyo_model).hexdigest(),
+        "sha256": hashlib.sha256(tokyo_model).hexdigest(),
         "bytes": len(tokyo_model),
     }
+    assert len(tokyo["buildId"]) == 64
+
+
+def test_update_model_manifest_ties_model_metadata_and_categories_to_build(tmp_path):
+    model_dir = tmp_path / "models"
+    metadata_dir = tmp_path / "metadata"
+    model_dir.mkdir()
+    metadata_dir.mkdir()
+    (model_dir / "tokyo_latest.onnx").write_bytes(b"model")
+    (metadata_dir / "tokyo_latest_metadata.json").write_text("{}", encoding="utf-8")
+    (metadata_dir / "tokyo_latest_categories.json").write_text("{}", encoding="utf-8")
+
+    output = update_model_manifest(tmp_path)
+
+    manifest = json.loads(output.read_text(encoding="utf-8"))
+    artifacts = manifest["models"]["tokyo"]["artifacts"]
+    assert set(artifacts) == {"onnx", "metadata", "categories"}
+    assert artifacts["metadata"]["path"] == "metadata/tokyo_latest_metadata.json"
+    assert artifacts["categories"]["path"] == "metadata/tokyo_latest_categories.json"
 
 
 def test_price_history_keeps_prefecture_for_regional_models():

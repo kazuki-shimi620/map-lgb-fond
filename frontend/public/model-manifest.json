@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-08-05T09:28:43+09:00",
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-09T11:22:31+09:00",
   "capitalRegionPriority": [
     "tokyo",
     "kanagawa",
@@ -11,62 +11,278 @@
     "tokyo": {
       "path": "models/tokyo_latest.onnx",
       "version": "e7fe81dd9874497543a5e711b51d745aef0da1952ff722271c03d547a728e02b",
-      "bytes": 16594077
+      "bytes": 16594077,
+      "buildId": "b2e62534f72c43fdfcfce610ffce287dd963b4a365b10d9e916f3c2c4886025d",
+      "artifacts": {
+        "onnx": {
+          "path": "models/tokyo_latest.onnx",
+          "sha256": "e7fe81dd9874497543a5e711b51d745aef0da1952ff722271c03d547a728e02b",
+          "bytes": 16594077
+        },
+        "metadata": {
+          "path": "metadata/tokyo_latest_metadata.json",
+          "sha256": "3e5638a90ebefe9c776834dd0a06b5c6f4dcdfe6edca5ed1366999209a707e48",
+          "bytes": 10081
+        },
+        "categories": {
+          "path": "metadata/tokyo_latest_categories.json",
+          "sha256": "c16eff9b676f5e6022f487cce9a8c09de4bf6c81cb7d6be9ba32b5bdc61f22b0",
+          "bytes": 18620
+        }
+      }
     },
     "kanagawa": {
       "path": "models/kanagawa_latest.onnx",
       "version": "5d692f32780b83b6bee1aafc82b60f854deabe8db09eab6ca99455297e42d2f9",
-      "bytes": 12480337
+      "bytes": 12480337,
+      "buildId": "320ef6bbf88f764ab57e6da60cb22a269665e93b4f9cd087d5b83cacfafc8f25",
+      "artifacts": {
+        "onnx": {
+          "path": "models/kanagawa_latest.onnx",
+          "sha256": "5d692f32780b83b6bee1aafc82b60f854deabe8db09eab6ca99455297e42d2f9",
+          "bytes": 12480337
+        },
+        "metadata": {
+          "path": "metadata/kanagawa_latest_metadata.json",
+          "sha256": "14e558d59d5a20a51785e08dc886110c296092608bfb6802dbb5954f48076dd7",
+          "bytes": 9700
+        },
+        "categories": {
+          "path": "metadata/kanagawa_latest_categories.json",
+          "sha256": "c531813032fd0a8628f9495238dfea218d56a480bd5d32de5816f7f6708b9afe",
+          "bytes": 11663
+        }
+      }
     },
     "saitama": {
       "path": "models/saitama_latest.onnx",
       "version": "926e1b220fc540eea3718b2d5730353dc34905bb0a33d0ec82e91bd8d1705932",
-      "bytes": 6320259
+      "bytes": 6320259,
+      "buildId": "e2bd7ec8ba9752789f1bb02400175f74c70ff49082bacd93409026c9f00ad5d7",
+      "artifacts": {
+        "onnx": {
+          "path": "models/saitama_latest.onnx",
+          "sha256": "926e1b220fc540eea3718b2d5730353dc34905bb0a33d0ec82e91bd8d1705932",
+          "bytes": 6320259
+        },
+        "metadata": {
+          "path": "metadata/saitama_latest_metadata.json",
+          "sha256": "819c579d206ecf135266c1e23e542aaeab8b33bd5d49c4ad0b2506687b49d112",
+          "bytes": 9679
+        },
+        "categories": {
+          "path": "metadata/saitama_latest_categories.json",
+          "sha256": "cff030bacb8232735c95b28054456a01c6302574397bf48ca9d13fc677ac9078",
+          "bytes": 7373
+        }
+      }
     },
     "chiba": {
       "path": "models/chiba_latest.onnx",
       "version": "3a25f78004b67a0309d32ad5d471fe7ac8abb1b8b1555a94f79b6abe538ad92c",
-      "bytes": 3868801
+      "bytes": 3868801,
+      "buildId": "ebfcace5c74e8aeca01124927bb2d048ed2cd9dd454b0a9eaf985a75820b9775",
+      "artifacts": {
+        "onnx": {
+          "path": "models/chiba_latest.onnx",
+          "sha256": "3a25f78004b67a0309d32ad5d471fe7ac8abb1b8b1555a94f79b6abe538ad92c",
+          "bytes": 3868801
+        },
+        "metadata": {
+          "path": "metadata/chiba_latest_metadata.json",
+          "sha256": "b9adeb992dbf54fcaeed6b00852e085aa584f140626e3e64c9507aa6a3613dcc",
+          "bytes": 9447
+        },
+        "categories": {
+          "path": "metadata/chiba_latest_categories.json",
+          "sha256": "344cb703750a5ce7b831105ea996e4fc7bc9042520333ea50b4d1de8056f2b06",
+          "bytes": 8175
+        }
+      }
     },
     "regional_chubu": {
       "path": "models/regional_chubu_latest.onnx",
       "version": "4b6771f04a0d4d97450b54b745cee91c966411a0e58bdc450f29c097a8673949",
-      "bytes": 1649033
+      "bytes": 1649033,
+      "buildId": "cc55ed2b8e12b2500356c652b702a47243e617ae7e379ac68537758a89d91823",
+      "artifacts": {
+        "onnx": {
+          "path": "models/regional_chubu_latest.onnx",
+          "sha256": "4b6771f04a0d4d97450b54b745cee91c966411a0e58bdc450f29c097a8673949",
+          "bytes": 1649033
+        },
+        "metadata": {
+          "path": "metadata/regional_chubu_latest_metadata.json",
+          "sha256": "75e1e692cb915b7ab6fc8e0502ed35732ad2ef47e4285e30e6b7a5cd4bc9d1a2",
+          "bytes": 9991
+        },
+        "categories": {
+          "path": "metadata/regional_chubu_latest_categories.json",
+          "sha256": "fbe2f13b82e9ca728cd74d2b27c50819f86af2d79a16a6f8d455c42279f1769c",
+          "bytes": 24660
+        }
+      }
     },
     "regional_chugoku": {
       "path": "models/regional_chugoku_latest.onnx",
       "version": "2567e834592f6f02e6433a8eb86ff0b9af2e6fb92a527c08165b2f216918c5da",
-      "bytes": 879584
+      "bytes": 879584,
+      "buildId": "bf09f5138b58dea9f5e22911e90d8b46ef25072d14472bc8b96c10459c985e8c",
+      "artifacts": {
+        "onnx": {
+          "path": "models/regional_chugoku_latest.onnx",
+          "sha256": "2567e834592f6f02e6433a8eb86ff0b9af2e6fb92a527c08165b2f216918c5da",
+          "bytes": 879584
+        },
+        "metadata": {
+          "path": "metadata/regional_chugoku_latest_metadata.json",
+          "sha256": "be794b39703af8de76ea6b135881c67b497787be99367caf62f8159cd65c263c",
+          "bytes": 7958
+        },
+        "categories": {
+          "path": "metadata/regional_chugoku_latest_categories.json",
+          "sha256": "3197662a99b75e12d59b28bb1f4ba27bebab06a3ac06d33f5cfc5a8ba9339a2b",
+          "bytes": 8793
+        }
+      }
     },
     "regional_hokkaido": {
       "path": "models/regional_hokkaido_latest.onnx",
       "version": "1c214baa2340e3389f99368493767b1b2c1c9dc4812276166c31541d20499ab6",
-      "bytes": 1042308
+      "bytes": 1042308,
+      "buildId": "7711f48222f944f4ff9b033151599f952e20353087a2e0b4d2a4e37d62986c79",
+      "artifacts": {
+        "onnx": {
+          "path": "models/regional_hokkaido_latest.onnx",
+          "sha256": "1c214baa2340e3389f99368493767b1b2c1c9dc4812276166c31541d20499ab6",
+          "bytes": 1042308
+        },
+        "metadata": {
+          "path": "metadata/regional_hokkaido_latest_metadata.json",
+          "sha256": "d3b7f61ddc3af751017c2188301ef0843034cdef3d915f087bd57b08649ab983",
+          "bytes": 6840
+        },
+        "categories": {
+          "path": "metadata/regional_hokkaido_latest_categories.json",
+          "sha256": "f40ea711198ec6ca888a5a513d9ac61fe6dff84efae495b9363e5f9dc01294be",
+          "bytes": 5439
+        }
+      }
     },
     "regional_kanto": {
       "path": "models/regional_kanto_latest.onnx",
       "version": "da160bb1c9ada85ab102fabb43ac50ed0a8bf53993d2f58dbbef1b2611e2d0e2",
-      "bytes": 2456495
+      "bytes": 2456495,
+      "buildId": "a99f302e44bc829b53bbbb0123e12338391a9e63422ebeea040ea3c49d1ea209",
+      "artifacts": {
+        "onnx": {
+          "path": "models/regional_kanto_latest.onnx",
+          "sha256": "da160bb1c9ada85ab102fabb43ac50ed0a8bf53993d2f58dbbef1b2611e2d0e2",
+          "bytes": 2456495
+        },
+        "metadata": {
+          "path": "metadata/regional_kanto_latest_metadata.json",
+          "sha256": "2cf15950e755efda51da467197f48676912f3c1ce3c8cd11206f359066230714",
+          "bytes": 8005
+        },
+        "categories": {
+          "path": "metadata/regional_kanto_latest_categories.json",
+          "sha256": "ede701a690ff65dc407629ce2e73d2e2f031219ff6fa6fe3b88ea567e8313b96",
+          "bytes": 43140
+        }
+      }
     },
     "regional_kinki": {
       "path": "models/regional_kinki_latest.onnx",
       "version": "ff8a947e57f65665dc237745c62df3ff23d6d96a21ec92d3b8ce5f193f11c7b4",
-      "bytes": 2281955
+      "bytes": 2281955,
+      "buildId": "510e363a4df5078869b25ebe83e9c51e4dafb0777a7164a1006ce656515b946c",
+      "artifacts": {
+        "onnx": {
+          "path": "models/regional_kinki_latest.onnx",
+          "sha256": "ff8a947e57f65665dc237745c62df3ff23d6d96a21ec92d3b8ce5f193f11c7b4",
+          "bytes": 2281955
+        },
+        "metadata": {
+          "path": "metadata/regional_kinki_latest_metadata.json",
+          "sha256": "7a876ef397a9547ac2e350b72a4f22534953b479edf98d9eda28577a1efdb736",
+          "bytes": 9448
+        },
+        "categories": {
+          "path": "metadata/regional_kinki_latest_categories.json",
+          "sha256": "6762e5ff6189c6152867f4e16a4ef2c04929f85d822fce5b9e6a8f74bd4132b3",
+          "bytes": 32936
+        }
+      }
     },
     "regional_kyushu": {
       "path": "models/regional_kyushu_latest.onnx",
       "version": "5e190ffee05f9d64003336a268bd20288c76bc2c2e5783de0cb2340ecff8a4d4",
-      "bytes": 1393618
+      "bytes": 1393618,
+      "buildId": "33436f72c3c2c889acc9c089e8bcecd362d3dee3ed2c9ab77d741bf46dbe9de5",
+      "artifacts": {
+        "onnx": {
+          "path": "models/regional_kyushu_latest.onnx",
+          "sha256": "5e190ffee05f9d64003336a268bd20288c76bc2c2e5783de0cb2340ecff8a4d4",
+          "bytes": 1393618
+        },
+        "metadata": {
+          "path": "metadata/regional_kyushu_latest_metadata.json",
+          "sha256": "8c1fdc7f076cc8c8d1b4682b053cba1a9e8ba48aee222c4b3fa110857f635324",
+          "bytes": 9842
+        },
+        "categories": {
+          "path": "metadata/regional_kyushu_latest_categories.json",
+          "sha256": "b22e5db47e8dfd51e1a6137ee72a88576ebb2b609ef9da6a716d4ba64b2eac33",
+          "bytes": 15677
+        }
+      }
     },
     "regional_shikoku": {
       "path": "models/regional_shikoku_latest.onnx",
       "version": "c41a73ace1b8361af6cadd3214f7a602613f10bb1cd026f98c0943bfa9b13aac",
-      "bytes": 657092
+      "bytes": 657092,
+      "buildId": "b84b26449d2d81a7ed387f7cbf1b46434e567ef085e5c485235f96a0b4fd9f9e",
+      "artifacts": {
+        "onnx": {
+          "path": "models/regional_shikoku_latest.onnx",
+          "sha256": "c41a73ace1b8361af6cadd3214f7a602613f10bb1cd026f98c0943bfa9b13aac",
+          "bytes": 657092
+        },
+        "metadata": {
+          "path": "metadata/regional_shikoku_latest_metadata.json",
+          "sha256": "614c76c745c123060bfbb265952f21d0f720ae3a8c573279aff3c01e6317158d",
+          "bytes": 6947
+        },
+        "categories": {
+          "path": "metadata/regional_shikoku_latest_categories.json",
+          "sha256": "c94ce5b8ba841f973e25d225c6449179353b6a03431fe9bd0b4a622aa8b85f3e",
+          "bytes": 5576
+        }
+      }
     },
     "regional_tohoku": {
       "path": "models/regional_tohoku_latest.onnx",
       "version": "a876d410ea3c59feaa223f27f80b0d85834b75b432598212b1f363b8af389993",
-      "bytes": 808518
+      "bytes": 808518,
+      "buildId": "e3e2193e00230d53ba512674f625a18119d4d0aee2c36672f9e0db704f2419bb",
+      "artifacts": {
+        "onnx": {
+          "path": "models/regional_tohoku_latest.onnx",
+          "sha256": "a876d410ea3c59feaa223f27f80b0d85834b75b432598212b1f363b8af389993",
+          "bytes": 808518
+        },
+        "metadata": {
+          "path": "metadata/regional_tohoku_latest_metadata.json",
+          "sha256": "53fc729bc16e984ad064711dd08efe74247e46f504906182f09e8e150c98e50e",
+          "bytes": 8131
+        },
+        "categories": {
+          "path": "metadata/regional_tohoku_latest_categories.json",
+          "sha256": "999b9ee28fe39bcbd74eeb080b6611e8afe50be90f91c413008b4a5b05295bd9",
+          "bytes": 5901
+        }
+      }
     }
   }
 }
