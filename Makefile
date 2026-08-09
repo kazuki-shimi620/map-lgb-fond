@@ -462,6 +462,9 @@ collect-osm-nearby-facilities-dry-run:
 collect-osm-park-areas:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py $(if $(strip $(OSM_PARK_BBOX)),--bbox $(OSM_PARK_BBOX),--area $(OSM_PARK_AREA)) --categories park --timeout-seconds $(OSM_NEARBY_TIMEOUT_SECONDS) --run-id "$(OSM_PARK_RUN_ID)" --processed-dir "$(OSM_PARK_PROCESSED_DIR)" --include-geometry --request-interval-seconds $(OSM_PARK_REQUEST_INTERVAL_SECONDS) $(if $(strip $(OSM_PARK_SPLIT_SIZE_DEGREES)),--split-size-degrees $(OSM_PARK_SPLIT_SIZE_DEGREES),) $(if $(strip $(OSM_PARK_CONTINUE_ON_ERROR)),--continue-on-error,) --cache
 
+summarize-osm-park-areas:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/park_area_thresholds.py --input "$(OSM_PARK_PROCESSED_DIR)/park_areas.csv"
+
 collect-cinema-chains:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/cinema_chains.py --raw-dir "$(CINEMA_CHAINS_RAW_DIR)" --output "$(CINEMA_CHAINS_CSV)"
 

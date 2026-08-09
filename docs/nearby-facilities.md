@@ -246,6 +246,12 @@ confirmed_at
 
 大型公園特徴量の検討用に、OSM公園取得は `--include-geometry` 指定時に `park_areas.csv` も出力する。way/relationの `geometry` がある場合は簡易投影のポリゴン面積、geometryがないrelation等は `bounds` の矩形面積を概算として保存する。2026-07-15に東京全域の `out geom` はOverpass 504となったため、`OSM_PARK_BBOX` で小bboxに分割する。疎通確認として `35.65 139.68 35.75 139.78` のbboxを実取得し、827公園マーカー・799面積行を生成した。また `--split-size-degrees` と `--continue-on-error` により、同bboxの4分割実取得で3セル成功・1セル429をmetadataへ記録し、575公園マーカー・549面積行を結合できることを確認した。東京全域0.1度グリッドは40セル中12セル成功・28セル失敗となり、2,801公園マーカー・2,717面積行を生成した。未取得セルは同じrun-idをキャッシュ付きで再実行して埋める。
 
+再開時は同じbbox、分割幅、run-idを指定する。成功セルのraw JSONは `--cache` により再利用され、失敗セルだけがOverpassへ再要求される。429を避けるため、広域取得では0.05〜0.1度グリッド、5秒以上のリクエスト間隔、`--continue-on-error` を初期値とし、metadataの `errorCount` が0になるまで間隔を空けて再実行する。bboxや分割幅を変える場合は、異なるrun-idを使って異なるセルのキャッシュを誤用しない。
+
+東京都内の `35.65 139.68 35.75 139.78` サンプル799件を `summarize-osm-park-areas` で集計した結果、面積中央値は730.14㎡、90パーセンタイルは7,202.15㎡、95パーセンタイルは19,071.84㎡だった。2万㎡以上は39件（4.9%）、5万㎡以上は19件（2.4%）である。初回比較では2万㎡以上を大型公園とし、1万㎡と5万㎡を感度分析する。面積の採用対象は `area_source=geometry` に限定し、外接矩形で過大評価し得る `bounds` はcoverage確認と参考表示だけに使う。
+
+この結果は東京都心部の一部に限られる。首都圏全域の `park_areas.csv` 生成は、まず既存取引座標へサンプル結合し、2万㎡しきい値の距離・件数に追加効果がある場合だけ実行する。
+
 ```bash
 make collect-osm-nearby-facilities-dry-run
 make collect-osm-nearby-facilities OSM_NEARBY_CATEGORIES=supermarket
@@ -254,6 +260,7 @@ cd training && uv run python src/collect/osm_nearby_facilities.py --area tokyo -
 make collect-osm-park-areas OSM_PARK_AREA=tokyo_sample OSM_PARK_BBOX="35.65 139.68 35.75 139.78" OSM_PARK_RUN_ID=latest_park_tokyo_sample_geometry OSM_PARK_PROCESSED_DIR=data/processed/osm_nearby/park_tokyo_sample_geometry
 make collect-osm-park-areas OSM_PARK_AREA=tokyo_sample_grid OSM_PARK_BBOX="35.65 139.68 35.75 139.78" OSM_PARK_RUN_ID=latest_park_tokyo_sample_grid_geometry OSM_PARK_PROCESSED_DIR=data/processed/osm_nearby/park_tokyo_sample_grid_geometry OSM_PARK_SPLIT_SIZE_DEGREES=0.05 OSM_PARK_CONTINUE_ON_ERROR=1
 make collect-osm-park-areas OSM_PARK_AREA=tokyo OSM_PARK_RUN_ID=latest_park_tokyo_geometry_grid_010 OSM_PARK_PROCESSED_DIR=data/processed/osm_nearby/park_tokyo_geometry_grid_010 OSM_PARK_SPLIT_SIZE_DEGREES=0.1 OSM_PARK_CONTINUE_ON_ERROR=1
+make summarize-osm-park-areas OSM_PARK_PROCESSED_DIR=data/processed/osm_nearby/park_tokyo_sample_geometry
 make nearby-facilities NEARBY_FACILITIES_INPUTS="data/processed/medical/nearby_medical_facilities.csv data/processed/osm_nearby/supermarket/nearby_osm_facilities.csv data/processed/osm_nearby/convenience_store/nearby_osm_facilities.csv data/processed/osm_nearby/park_tokyo/nearby_osm_facilities.csv data/processed/osm_nearby/park_kanagawa/nearby_osm_facilities.csv data/processed/osm_nearby/park_saitama/nearby_osm_facilities.csv data/processed/osm_nearby/park_chiba/nearby_osm_facilities.csv" COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
 ```
 
