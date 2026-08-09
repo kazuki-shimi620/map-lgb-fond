@@ -217,12 +217,16 @@ export function App() {
         <PropertyMap
           lat={form.lat}
           lon={form.lon}
-          onSelect={handleMapSelect}
+          onSelect={(lat, lon, options) => {
+            onboarding.close();
+            handleMapSelect(lat, lon, options);
+          }}
           locationSummary={locationSummary}
           stations={stations}
           onLayerPanelOpenChange={(isOpen) => {
             setIsLayerPanelOpen(isOpen);
             if (isOpen) {
+              onboarding.close();
               clearPendingMapSelectionScroll();
               setFormSheetState("collapsed");
             }
@@ -236,6 +240,9 @@ export function App() {
           <PredictionSheetHandle
             sheetState={formSheetState}
             onSheetStateChange={(state) => {
+              if (state !== "collapsed") {
+                onboarding.close();
+              }
               clearPendingMapSelectionScroll();
               setFormSheetState(state);
             }}

@@ -114,7 +114,10 @@ test.describe("レスポンシブ表示", () => {
     await page.getByRole("button", { name: "ハザードを閉じる" }).click();
     await expect(page.getByRole("button", { name: "使い方" })).toBeVisible();
 
+    await page.getByRole("button", { name: "使い方" }).click();
+    await expect(page.getByLabel("はじめての使い方")).toBeVisible();
     await predictionPage.clickMapCenter();
+    await expect(page.getByLabel("はじめての使い方")).toHaveCount(0);
     await expect(predictionPage.locationTooltip).toContainText("駅徒歩");
 
     const formMatchesSheetWidth = await page.evaluate(() => {
@@ -135,6 +138,7 @@ test.describe("レスポンシブ表示", () => {
     await predictionPage.openDetailsPanel();
     await page.getByTestId("sheet-handle").click();
     await expect(page.getByTestId("prediction-sheet")).toHaveClass(/sheet-collapsed/);
+    await expect(page.getByRole("button", { name: "使い方" })).toBeVisible();
     await expect(page.getByTestId("prediction-form")).toHaveCSS("display", "grid");
 
     const hasHorizontalOverflow = await page.evaluate(
