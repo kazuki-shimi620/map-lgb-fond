@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-09T11:22:31+09:00",
+  "generatedAt": "2026-08-09T11:25:43+09:00",
   "capitalRegionPriority": [
     "tokyo",
     "kanagawa",
@@ -29,6 +29,47 @@
           "sha256": "c16eff9b676f5e6022f487cce9a8c09de4bf6c81cb7d6be9ba32b5bdc61f22b0",
           "bytes": 18620
         }
+      },
+      "modelVersion": "b2e62534f72c",
+      "generatedAt": "2026-08-05",
+      "trainingPeriod": {
+        "startYear": 2015,
+        "endYear": 2025
+      },
+      "featureSet": {
+        "count": 29,
+        "sha256": "d2c54f84144f367c068114c1ca0fdaa45e5149d985b33e33acad6a15707c231b",
+        "features": [
+          "area",
+          "age",
+          "station_distance",
+          "prefecture",
+          "municipality",
+          "station",
+          "room_layout",
+          "building_type",
+          "transaction_year",
+          "station_passenger_log",
+          "station_line_count",
+          "station_operator_count",
+          "effective_station_scale",
+          "station_rank",
+          "land_price_city_avg_yen_per_sqm",
+          "land_price_city_yoy_rate",
+          "land_price_points_city_count",
+          "nearest_land_price_yen_per_sqm",
+          "nearest_land_price_distance_km",
+          "land_price_points_within_2km",
+          "has_land_price_data",
+          "is_commercial_zone",
+          "is_residential_zone",
+          "floor_area_ratio",
+          "building_coverage_ratio",
+          "has_zoning_data",
+          "city_planning_area_type",
+          "zoning_type",
+          "location_optimization_area"
+        ]
       }
     },
     "kanagawa": {
@@ -52,6 +93,47 @@
           "sha256": "c531813032fd0a8628f9495238dfea218d56a480bd5d32de5816f7f6708b9afe",
           "bytes": 11663
         }
+      },
+      "modelVersion": "320ef6bbf88f",
+      "generatedAt": "2026-08-05",
+      "trainingPeriod": {
+        "startYear": 2015,
+        "endYear": 2025
+      },
+      "featureSet": {
+        "count": 29,
+        "sha256": "d2c54f84144f367c068114c1ca0fdaa45e5149d985b33e33acad6a15707c231b",
+        "features": [
+          "area",
+          "age",
+          "station_distance",
+          "prefecture",
+          "municipality",
+          "station",
+          "room_layout",
+          "building_type",
+          "transaction_year",
+          "station_passenger_log",
+          "station_line_count",
+          "station_operator_count",
+          "effective_station_scale",
+          "station_rank",
+          "land_price_city_avg_yen_per_sqm",
+          "land_price_city_yoy_rate",
+          "land_price_points_city_count",
+          "nearest_land_price_yen_per_sqm",
+          "nearest_land_price_distance_km",
+          "land_price_points_within_2km",
+          "has_land_price_data",
+          "is_commercial_zone",
+          "is_residential_zone",
+          "floor_area_ratio",
+          "building_coverage_ratio",
+          "has_zoning_data",
+          "city_planning_area_type",
+          "zoning_type",
+          "location_optimization_area"
+        ]
       }
     },
     "saitama": {
@@ -75,6 +157,47 @@
           "sha256": "cff030bacb8232735c95b28054456a01c6302574397bf48ca9d13fc677ac9078",
           "bytes": 7373
         }
+      },
+      "modelVersion": "e2bd7ec8ba97",
+      "generatedAt": "2026-08-05",
+      "trainingPeriod": {
+        "startYear": 2015,
+        "endYear": 2025
+      },
+      "featureSet": {
+        "count": 29,
+        "sha256": "d2c54f84144f367c068114c1ca0fdaa45e5149d985b33e33acad6a15707c231b",
+        "features": [
+          "area",
+          "age",
+          "station_distance",
+          "prefecture",
+          "municipality",
+          "station",
+          "room_layout",
+          "building_type",
+          "transaction_year",
+          "station_passenger_log",
+          "station_line_count",
+          "station_operator_count",
+          "effective_station_scale",
+          "station_rank",
+          "land_price_city_avg_yen_per_sqm",
+          "land_price_city_yoy_rate",
+          "land_price_points_city_count",
+          "nearest_land_price_yen_per_sqm",
+          "nearest_land_price_distance_km",
+          "land_price_points_within_2km",
+          "has_land_price_data",
+          "is_commercial_zone",
+          "is_residential_zone",
+          "floor_area_ratio",
+          "building_coverage_ratio",
+          "has_zoning_data",
+          "city_planning_area_type",
+          "zoning_type",
+          "location_optimization_area"
+        ]
       }
     },
     "chiba": {
@@ -98,6 +221,47 @@
           "sha256": "344cb703750a5ce7b831105ea996e4fc7bc9042520333ea50b4d1de8056f2b06",
           "bytes": 8175
         }
+      },
+      "modelVersion": "ebfcace5c74e",
+      "generatedAt": "2026-08-05",
+      "trainingPeriod": {
+        "startYear": 2015,
+        "endYear": 2025
+      },
+      "featureSet": {
+        "count": 29,
+        "sha256": "d2c54f84144f367c068114c1ca0fdaa45e5149d985b33e33acad6a15707c231b",
+        "features": [
+          "area",
+          "age",
+          "station_distance",
+          "prefecture",
+          "municipality",
+          "station",
+          "room_layout",
+          "building_type",
+          "transaction_year",
+          "station_passenger_log",
+          "station_line_count",
+          "station_operator_count",
+          "effective_station_scale",
+          "station_rank",
+          "land_price_city_avg_yen_per_sqm",
+          "land_price_city_yoy_rate",
+          "land_price_points_city_count",
+          "nearest_land_price_yen_per_sqm",
+          "nearest_land_price_distance_km",
+          "land_price_points_within_2km",
+          "has_land_price_data",
+          "is_commercial_zone",
+          "is_residential_zone",
+          "floor_area_ratio",
+          "building_coverage_ratio",
+          "has_zoning_data",
+          "city_planning_area_type",
+          "zoning_type",
+          "location_optimization_area"
+        ]
       }
     },
     "regional_chubu": {
@@ -121,6 +285,27 @@
           "sha256": "fbe2f13b82e9ca728cd74d2b27c50819f86af2d79a16a6f8d455c42279f1769c",
           "bytes": 24660
         }
+      },
+      "modelVersion": "cc55ed2b8e12",
+      "generatedAt": "2026-08-05",
+      "trainingPeriod": {
+        "startYear": 2005,
+        "endYear": 2025
+      },
+      "featureSet": {
+        "count": 9,
+        "sha256": "33b57daa611ccbeee2c060aac77c985aefdbd8e2247bdeb29565a32d28c78b11",
+        "features": [
+          "area",
+          "age",
+          "station_distance",
+          "prefecture",
+          "municipality",
+          "station",
+          "room_layout",
+          "building_type",
+          "transaction_year"
+        ]
       }
     },
     "regional_chugoku": {
@@ -144,6 +329,27 @@
           "sha256": "3197662a99b75e12d59b28bb1f4ba27bebab06a3ac06d33f5cfc5a8ba9339a2b",
           "bytes": 8793
         }
+      },
+      "modelVersion": "bf09f5138b58",
+      "generatedAt": "2026-08-05",
+      "trainingPeriod": {
+        "startYear": 2005,
+        "endYear": 2025
+      },
+      "featureSet": {
+        "count": 9,
+        "sha256": "33b57daa611ccbeee2c060aac77c985aefdbd8e2247bdeb29565a32d28c78b11",
+        "features": [
+          "area",
+          "age",
+          "station_distance",
+          "prefecture",
+          "municipality",
+          "station",
+          "room_layout",
+          "building_type",
+          "transaction_year"
+        ]
       }
     },
     "regional_hokkaido": {
@@ -167,6 +373,27 @@
           "sha256": "f40ea711198ec6ca888a5a513d9ac61fe6dff84efae495b9363e5f9dc01294be",
           "bytes": 5439
         }
+      },
+      "modelVersion": "7711f48222f9",
+      "generatedAt": "2026-08-05",
+      "trainingPeriod": {
+        "startYear": 2005,
+        "endYear": 2025
+      },
+      "featureSet": {
+        "count": 9,
+        "sha256": "33b57daa611ccbeee2c060aac77c985aefdbd8e2247bdeb29565a32d28c78b11",
+        "features": [
+          "area",
+          "age",
+          "station_distance",
+          "prefecture",
+          "municipality",
+          "station",
+          "room_layout",
+          "building_type",
+          "transaction_year"
+        ]
       }
     },
     "regional_kanto": {
@@ -190,6 +417,32 @@
           "sha256": "ede701a690ff65dc407629ce2e73d2e2f031219ff6fa6fe3b88ea567e8313b96",
           "bytes": 43140
         }
+      },
+      "modelVersion": "a99f302e44bc",
+      "generatedAt": "2026-08-05",
+      "trainingPeriod": {
+        "startYear": 2005,
+        "endYear": 2025
+      },
+      "featureSet": {
+        "count": 14,
+        "sha256": "28a5e5dd716d48785e9d7251907faed546c75dcf2ee4548760752b7aba7124e9",
+        "features": [
+          "area",
+          "age",
+          "station_distance",
+          "prefecture",
+          "municipality",
+          "station",
+          "room_layout",
+          "building_type",
+          "transaction_year",
+          "station_passenger_log",
+          "station_line_count",
+          "station_operator_count",
+          "effective_station_scale",
+          "has_station_passenger_data"
+        ]
       }
     },
     "regional_kinki": {
@@ -213,6 +466,27 @@
           "sha256": "6762e5ff6189c6152867f4e16a4ef2c04929f85d822fce5b9e6a8f74bd4132b3",
           "bytes": 32936
         }
+      },
+      "modelVersion": "510e363a4df5",
+      "generatedAt": "2026-08-05",
+      "trainingPeriod": {
+        "startYear": 2005,
+        "endYear": 2025
+      },
+      "featureSet": {
+        "count": 9,
+        "sha256": "33b57daa611ccbeee2c060aac77c985aefdbd8e2247bdeb29565a32d28c78b11",
+        "features": [
+          "area",
+          "age",
+          "station_distance",
+          "prefecture",
+          "municipality",
+          "station",
+          "room_layout",
+          "building_type",
+          "transaction_year"
+        ]
       }
     },
     "regional_kyushu": {
@@ -236,6 +510,27 @@
           "sha256": "b22e5db47e8dfd51e1a6137ee72a88576ebb2b609ef9da6a716d4ba64b2eac33",
           "bytes": 15677
         }
+      },
+      "modelVersion": "33436f72c3c2",
+      "generatedAt": "2026-08-05",
+      "trainingPeriod": {
+        "startYear": 2005,
+        "endYear": 2025
+      },
+      "featureSet": {
+        "count": 9,
+        "sha256": "33b57daa611ccbeee2c060aac77c985aefdbd8e2247bdeb29565a32d28c78b11",
+        "features": [
+          "area",
+          "age",
+          "station_distance",
+          "prefecture",
+          "municipality",
+          "station",
+          "room_layout",
+          "building_type",
+          "transaction_year"
+        ]
       }
     },
     "regional_shikoku": {
@@ -259,6 +554,27 @@
           "sha256": "c94ce5b8ba841f973e25d225c6449179353b6a03431fe9bd0b4a622aa8b85f3e",
           "bytes": 5576
         }
+      },
+      "modelVersion": "b84b26449d2d",
+      "generatedAt": "2026-08-05",
+      "trainingPeriod": {
+        "startYear": 2005,
+        "endYear": 2025
+      },
+      "featureSet": {
+        "count": 9,
+        "sha256": "33b57daa611ccbeee2c060aac77c985aefdbd8e2247bdeb29565a32d28c78b11",
+        "features": [
+          "area",
+          "age",
+          "station_distance",
+          "prefecture",
+          "municipality",
+          "station",
+          "room_layout",
+          "building_type",
+          "transaction_year"
+        ]
       }
     },
     "regional_tohoku": {
@@ -282,6 +598,27 @@
           "sha256": "999b9ee28fe39bcbd74eeb080b6611e8afe50be90f91c413008b4a5b05295bd9",
           "bytes": 5901
         }
+      },
+      "modelVersion": "e3e2193e0023",
+      "generatedAt": "2026-08-05",
+      "trainingPeriod": {
+        "startYear": 2005,
+        "endYear": 2025
+      },
+      "featureSet": {
+        "count": 9,
+        "sha256": "33b57daa611ccbeee2c060aac77c985aefdbd8e2247bdeb29565a32d28c78b11",
+        "features": [
+          "area",
+          "age",
+          "station_distance",
+          "prefecture",
+          "municipality",
+          "station",
+          "room_layout",
+          "building_type",
+          "transaction_year"
+        ]
       }
     }
   }

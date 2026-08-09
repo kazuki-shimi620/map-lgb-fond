@@ -84,7 +84,17 @@ def test_update_model_manifest_ties_model_metadata_and_categories_to_build(tmp_p
     model_dir.mkdir()
     metadata_dir.mkdir()
     (model_dir / "tokyo_latest.onnx").write_bytes(b"model")
-    (metadata_dir / "tokyo_latest_metadata.json").write_text("{}", encoding="utf-8")
+    (metadata_dir / "tokyo_latest_metadata.json").write_text(
+        json.dumps(
+            {
+                "generatedAt": "2026-08-09",
+                "latestTrainingYear": 2025,
+                "featureOrder": ["area", "age"],
+                "deployment": {"trainStartYear": 2015, "latestTrainingYear": 2025},
+            }
+        ),
+        encoding="utf-8",
+    )
     (metadata_dir / "tokyo_latest_categories.json").write_text("{}", encoding="utf-8")
 
     output = update_model_manifest(tmp_path)
@@ -94,6 +104,12 @@ def test_update_model_manifest_ties_model_metadata_and_categories_to_build(tmp_p
     assert set(artifacts) == {"onnx", "metadata", "categories"}
     assert artifacts["metadata"]["path"] == "metadata/tokyo_latest_metadata.json"
     assert artifacts["categories"]["path"] == "metadata/tokyo_latest_categories.json"
+    model = manifest["models"]["tokyo"]
+    assert model["modelVersion"] == model["buildId"][:12]
+    assert model["generatedAt"] == "2026-08-09"
+    assert model["trainingPeriod"] == {"startYear": 2015, "endYear": 2025}
+    assert model["featureSet"]["count"] == 2
+    assert model["featureSet"]["features"] == ["area", "age"]
 
 
 def test_price_history_keeps_prefecture_for_regional_models():

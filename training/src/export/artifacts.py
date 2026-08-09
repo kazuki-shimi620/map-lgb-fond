@@ -152,12 +152,28 @@ def update_model_manifest(frontend_public_dir: str | Path) -> Path:
                 f"{name}:{artifact['sha256']}" for name, artifact in sorted(artifacts.items())
             ).encode("utf-8")
         ).hexdigest()
+        metadata = _load_json_object(metadata_path)
+        features = metadata.get("featureOrder") or []
+        deployment = metadata.get("deployment") or {}
         models[region] = {
             "path": f"models/{path.name}",
             "version": sha256(path.read_bytes()).hexdigest(),
             "bytes": path.stat().st_size,
             "buildId": build_id,
             "artifacts": artifacts,
+            "modelVersion": build_id[:12],
+            "generatedAt": metadata.get("generatedAt"),
+            "trainingPeriod": {
+                "startYear": deployment.get("trainStartYear"),
+                "endYear": deployment.get("latestTrainingYear", metadata.get("latestTrainingYear")),
+            },
+            "featureSet": {
+                "count": len(features),
+                "sha256": sha256(
+                    json.dumps(features, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+                ).hexdigest(),
+                "features": features,
+            },
         }
 
     return save_json(
@@ -177,6 +193,16 @@ def _artifact_record(path: Path, public: Path) -> dict[str, object]:
         "sha256": sha256(path.read_bytes()).hexdigest(),
         "bytes": path.stat().st_size,
     }
+
+
+def _load_json_object(path: Path) -> dict[str, object]:
+    if not path.exists():
+        return {}
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    return value if isinstance(value, dict) else {}
 
 
 def export_onnx_if_available(model, feature_count: int, path: str | Path) -> Path | None:
