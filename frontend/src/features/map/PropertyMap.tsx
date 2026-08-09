@@ -639,13 +639,7 @@ export function PropertyMap({
         const config = (await response.json()) as HazardLayerConfig;
         if (!disposed) {
           setHazardConfig(config);
-          setActiveHazardLayerIds(
-            new Set(
-              config.layers
-                .filter((layer) => layer.enabled && layer.tileUrl)
-                .map((layer) => layer.id)
-            )
-          );
+          setActiveHazardLayerIds(new Set());
         }
       } catch {
         if (!disposed) {
@@ -722,11 +716,21 @@ export function PropertyMap({
 
   function toggleLayerPanel(panel: LayerPanel) {
     const next = openLayerPanel === panel ? null : panel;
+    if (panel === "hazards") {
+      setActiveHazardLayerIds(
+        next === "hazards" ? new Set(hazardLayers.map((layer) => layer.id)) : new Set()
+      );
+    } else if (openLayerPanel === "hazards") {
+      setActiveHazardLayerIds(new Set());
+    }
     setOpenLayerPanel(next);
     onLayerPanelOpenChange?.(next !== null);
   }
 
   function closeLayerPanel() {
+    if (openLayerPanel === "hazards") {
+      setActiveHazardLayerIds(new Set());
+    }
     setOpenLayerPanel(null);
     onLayerPanelOpenChange?.(false);
   }
@@ -874,6 +878,19 @@ export function PropertyMap({
                     <span className="facility-layer-swatch" style={{ backgroundColor: category.color }} aria-hidden="true" />
                     {category.label}
                   </legend>
+                  {filters.length > 0 ? (
+                    <label className="map-layer-toggle map-layer-category-toggle">
+                      <input
+                        name={`facility-${category.id}`}
+                        type="checkbox"
+                        checked={activeFacilityCategoryIds.has(category.id)}
+                        disabled={count === 0}
+                        onChange={() => toggleFacilityCategory(category.id)}
+                      />
+                      <span>{category.label}を表示</span>
+                      <small>{count.toLocaleString("ja-JP")}</small>
+                    </label>
+                  ) : null}
                   {filters.length > 0 ? filters.map((filter) => (
                     <label className="map-layer-toggle" key={filter.id}>
                       <input

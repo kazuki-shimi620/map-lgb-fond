@@ -462,9 +462,10 @@ h2 {
   position: absolute;
   z-index: 540;
   top: 72px;
-  right: 12px;
+  left: 50%;
   display: flex;
   gap: 8px;
+  transform: translateX(-50%);
 }
 
 .mobile-map-layer-controls button {
@@ -494,7 +495,8 @@ h2 {
 .facility-layer-control {
   position: absolute;
   z-index: 520;
-  right: 12px;
+  top: 120px;
+  right: 50%;
   display: grid;
   gap: 8px;
   width: min(300px, calc(100% - 24px));
@@ -507,14 +509,15 @@ h2 {
   color: #344054;
   font-size: 12px;
   box-shadow: 0 10px 26px rgb(15 23 42 / 16%);
+  transform: translateX(50%);
 }
 
 .hazard-layer-control {
-  bottom: 28px;
+  bottom: auto;
 }
 
 .facility-layer-control {
-  bottom: 28px;
+  bottom: auto;
 }
 
 .map-layer-control-header {
@@ -595,6 +598,13 @@ h2 {
   width: 16px;
   min-height: 16px;
   accent-color: #0f766e;
+}
+
+.map-layer-category-toggle {
+  border-radius: 9px;
+  background: #f1f5f9;
+  padding: 7px 8px;
+  font-weight: 800;
 }
 
 .facility-layer-swatch {
@@ -1679,14 +1689,16 @@ dd {
   .hazard-layer-control,
   .facility-layer-control {
     position: absolute;
+    top: 110px;
     right: 10px;
-    bottom: calc(72px + env(safe-area-inset-bottom));
+    bottom: auto;
     left: 10px;
     z-index: 700;
     width: auto;
     max-height: min(58dvh, 520px);
     border-radius: 20px;
     padding: 12px 14px;
+    transform: none;
   }
 
   .sheet-stack {
@@ -1817,12 +1829,13 @@ dd {
     position: absolute;
     z-index: 1250;
     top: 62px;
-    left: 10px;
+    left: 50%;
     display: flex;
     max-width: calc(100% - 20px);
     gap: 8px;
     overflow-x: auto;
     scrollbar-width: none;
+    transform: translateX(-50%);
   }
 
   .mobile-map-layer-controls::-webkit-scrollbar {
