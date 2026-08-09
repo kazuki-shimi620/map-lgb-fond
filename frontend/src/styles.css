@@ -562,8 +562,10 @@ h2 {
 .map-layer-category-heading {
   display: grid;
   width: 100%;
+  min-height: 0;
   grid-template-columns: auto auto minmax(0, 1fr) auto;
   align-items: center;
+  align-content: center;
   gap: 7px;
   cursor: pointer;
 }

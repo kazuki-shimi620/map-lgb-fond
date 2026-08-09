@@ -140,6 +140,7 @@ test.describe("レスポンシブ表示", () => {
       );
     });
     expect(categoryHeadingOrderIsCorrect).toBe(true);
+    await expect(commercialCategoryToggle.locator("..")).toHaveCSS("min-height", "0px");
     await commercialCategoryToggle.uncheck();
     await expect(commercialCategoryToggle).not.toBeChecked();
     await commercialCategoryToggle.check();
