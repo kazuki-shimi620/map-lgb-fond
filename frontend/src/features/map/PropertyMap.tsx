@@ -874,25 +874,35 @@ export function PropertyMap({
             {nearbyFacilities.categories.map((category) => {
               const filters = FACILITY_FILTERS.filter((filter) => filter.categoryId === category.id);
               const count = facilityCountsByCategoryId.get(category.id) ?? 0;
+              const availableFilters = filters.filter(
+                (filter) => (facilityCountsByFilterId.get(filter.id) ?? 0) > 0
+              );
+              const isCategoryActive = activeFacilityCategoryIds.has(category.id);
+              const isEveryFilterActive = availableFilters.every((filter) =>
+                activeFacilityFilterIds.has(filter.id)
+              );
+              const isCategoryPartiallyActive =
+                isCategoryActive && availableFilters.length > 0 && !isEveryFilterActive;
               return (
                 <fieldset className="map-layer-filter-group" key={category.id}>
                   <legend>
-                    <span className="facility-layer-swatch" style={{ backgroundColor: category.color }} aria-hidden="true" />
-                    {category.label}
-                  </legend>
-                  {filters.length > 0 ? (
-                    <label className="map-layer-toggle map-layer-category-toggle">
+                    <label className="map-layer-category-heading">
+                      <span className="facility-layer-swatch" style={{ backgroundColor: category.color }} aria-hidden="true" />
                       <input
+                        ref={(input) => {
+                          if (input) input.indeterminate = isCategoryPartiallyActive;
+                        }}
                         name={`facility-${category.id}`}
                         type="checkbox"
-                        checked={activeFacilityCategoryIds.has(category.id)}
+                        aria-label={`${category.label}を表示`}
+                        checked={isCategoryActive && isEveryFilterActive}
                         disabled={count === 0}
                         onChange={() => toggleFacilityCategory(category.id)}
                       />
-                      <span>{category.label}を表示</span>
+                      <span>{category.label}</span>
                       <small>{count.toLocaleString("ja-JP")}</small>
                     </label>
-                  ) : null}
+                  </legend>
                   {filters.length > 0 ? filters.map((filter) => (
                     <label className="map-layer-toggle" key={filter.id}>
                       <input
@@ -905,19 +915,7 @@ export function PropertyMap({
                       <span>{filter.label}</span>
                       <small>{(facilityCountsByFilterId.get(filter.id) ?? 0).toLocaleString("ja-JP")}</small>
                     </label>
-                  )) : (
-                    <label className="map-layer-toggle">
-                      <input
-                        name={`facility-${category.id}`}
-                        type="checkbox"
-                        checked={activeFacilityCategoryIds.has(category.id)}
-                        disabled={count === 0}
-                        onChange={() => toggleFacilityCategory(category.id)}
-                      />
-                      <span>{category.label}を表示</span>
-                      <small>{count.toLocaleString("ja-JP")}</small>
-                    </label>
-                  )}
+                  )) : null}
                 </fieldset>
               );
             })}

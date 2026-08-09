@@ -555,13 +555,33 @@ h2 {
 }
 
 .map-layer-filter-group legend {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
+  width: 100%;
   padding: 0 0 3px;
   color: #172033;
   font-size: 12px;
   font-weight: 800;
+}
+
+.map-layer-category-heading {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+}
+
+.map-layer-category-heading input {
+  width: 16px;
+  min-height: 16px;
+  margin: 0;
+  accent-color: #0f766e;
+}
+
+.map-layer-category-heading small {
+  color: #667085;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
 }
 
 .map-layer-all-toggle {
@@ -601,13 +621,6 @@ h2 {
   width: 16px;
   min-height: 16px;
   accent-color: #0f766e;
-}
-
-.map-layer-category-toggle {
-  border-radius: 9px;
-  background: #f1f5f9;
-  padding: 7px 8px;
-  font-weight: 800;
 }
 
 .facility-layer-swatch {

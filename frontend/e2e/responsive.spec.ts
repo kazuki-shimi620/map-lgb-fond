@@ -130,6 +130,16 @@ test.describe("レスポンシブ表示", () => {
     await expect(page.getByRole("button", { name: "使い方" })).toHaveCount(0);
     const commercialCategoryToggle = page.getByLabel("商業施設を表示");
     await expect(commercialCategoryToggle).toBeChecked();
+    const categoryHeadingOrderIsCorrect = await page.evaluate(() => {
+      const toggle = document.querySelector<HTMLInputElement>('input[aria-label="商業施設を表示"]');
+      const heading = toggle?.closest(".map-layer-category-heading");
+      return Boolean(
+        heading &&
+        heading.children[0]?.classList.contains("facility-layer-swatch") &&
+        heading.children[1] === toggle
+      );
+    });
+    expect(categoryHeadingOrderIsCorrect).toBe(true);
     await commercialCategoryToggle.uncheck();
     await expect(commercialCategoryToggle).not.toBeChecked();
     await commercialCategoryToggle.check();
