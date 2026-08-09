@@ -471,6 +471,7 @@ h2 {
 
 .mobile-map-layer-controls button {
   display: inline-flex;
+  flex: 0 0 auto;
   min-height: 40px;
   align-items: center;
   gap: 7px;
@@ -482,6 +483,7 @@ h2 {
   font: inherit;
   font-size: 13px;
   font-weight: 700;
+  white-space: nowrap;
   box-shadow: 0 8px 22px rgb(15 23 42 / 18%);
   cursor: pointer;
 }
