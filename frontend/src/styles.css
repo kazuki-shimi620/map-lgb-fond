@@ -549,14 +549,11 @@ h2 {
   display: grid;
   gap: 6px;
   margin: 0;
-  border: 0;
   border-top: 1px solid #e5e7eb;
   padding: 9px 0 0;
 }
 
-.map-layer-filter-group legend {
-  width: 100%;
-  padding: 0 0 3px;
+.map-layer-category-row {
   color: #172033;
   font-size: 12px;
   font-weight: 800;

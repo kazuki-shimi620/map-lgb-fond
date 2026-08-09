@@ -883,9 +883,15 @@ export function PropertyMap({
               );
               const isCategoryPartiallyActive =
                 isCategoryActive && availableFilters.length > 0 && !isEveryFilterActive;
+              const categoryHeadingId = `facility-category-${category.id}`;
               return (
-                <fieldset className="map-layer-filter-group" key={category.id}>
-                  <legend>
+                <div
+                  className="map-layer-filter-group"
+                  key={category.id}
+                  role="group"
+                  aria-labelledby={categoryHeadingId}
+                >
+                  <div className="map-layer-category-row">
                     <label className="map-layer-category-heading">
                       <span className="facility-layer-swatch" style={{ backgroundColor: category.color }} aria-hidden="true" />
                       <input
@@ -899,10 +905,10 @@ export function PropertyMap({
                         disabled={count === 0}
                         onChange={() => toggleFacilityCategory(category.id)}
                       />
-                      <span>{category.label}</span>
+                      <span id={categoryHeadingId}>{category.label}</span>
                       <small>{count.toLocaleString("ja-JP")}</small>
                     </label>
-                  </legend>
+                  </div>
                   {filters.length > 0 ? filters.map((filter) => (
                     <label className="map-layer-toggle" key={filter.id}>
                       <input
@@ -916,7 +922,7 @@ export function PropertyMap({
                       <small>{(facilityCountsByFilterId.get(filter.id) ?? 0).toLocaleString("ja-JP")}</small>
                     </label>
                   )) : null}
-                </fieldset>
+                </div>
               );
             })}
             {nearbyFacilities.facilities.length === 0 ? (
