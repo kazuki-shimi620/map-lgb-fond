@@ -588,6 +588,11 @@ docs/images/app-mobile.png
 を確認する。`ux-performance.spec.ts` は初回予測の表示までを計測し、操作1回以下、12秒未満を
 回帰防止用の上限とする。ローカル計測値は実機性能や本番回線の保証値として扱わない。
 
+`performance.spec.ts` は初回予測、再予測、周辺施設パネル、同一originの転送量と展開後容量を
+CIの回帰条件として検証する。地図ドラッグ中のrAF、JSヒープ、long task、取得ファイル一覧も
+attachmentへ保存するが、端末依存指標はCI失敗条件にしない。計測条件と現行上限は
+`docs/performance-budget.md` を参照する。
+
 初期導入の完了条件:
 
 * ChromiumのE2EテストがCIで成功する
