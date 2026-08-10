@@ -494,7 +494,6 @@ h2 {
   color: #fff;
 }
 
-.hazard-layer-control,
 .facility-layer-control {
   position: absolute;
   z-index: 520;
@@ -513,10 +512,6 @@ h2 {
   font-size: 12px;
   box-shadow: 0 10px 26px rgb(15 23 42 / 16%);
   transform: translateX(50%);
-}
-
-.hazard-layer-control {
-  bottom: auto;
 }
 
 .facility-layer-control {
@@ -583,19 +578,6 @@ h2 {
   font-variant-numeric: tabular-nums;
 }
 
-.map-layer-all-toggle {
-  min-height: 36px;
-  border: 1px solid #99d5cd;
-  border-radius: 10px;
-  background: #ecfdf9;
-  color: #0f766e;
-  font: inherit;
-  font-size: 12px;
-  font-weight: 800;
-  cursor: pointer;
-}
-
-.hazard-layer-control strong,
 .facility-layer-control strong {
   color: #172033;
   font-size: 13px;
@@ -629,7 +611,6 @@ h2 {
   box-shadow: 0 0 0 2px rgb(255 255 255 / 88%);
 }
 
-.hazard-layer-control a,
 .facility-layer-control a,
 .facility-layer-control p {
   margin: 0;
@@ -1707,7 +1688,6 @@ dd {
     overflow: hidden;
   }
 
-  .hazard-layer-control,
   .facility-layer-control {
     position: absolute;
     top: 110px;
@@ -1901,7 +1881,6 @@ dd {
     font-size: 11px;
   }
 
-  .hazard-layer-control,
   .facility-layer-control {
     top: 110px;
   }

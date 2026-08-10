@@ -164,16 +164,14 @@ test.describe("レスポンシブ表示", () => {
     await expect(page.getByText("シネコン", { exact: true })).toBeVisible();
     await expect(page.getByText("ミニシアター・その他", { exact: true })).toBeVisible();
 
-    await predictionPage.map.getByRole("button", { name: "ハザード" }).click();
+    const hazardButton = predictionPage.map.getByRole("button", { name: "ハザード" });
+    await hazardButton.click();
     await expect(page.getByTestId("facility-layer-control")).toHaveCount(0);
-    await expect(page.getByTestId("hazard-layer-control")).toBeVisible();
-    const hazardCheckboxes = page
-      .getByTestId("hazard-layer-control")
-      .locator('input[type="checkbox"]');
-    await expect(hazardCheckboxes.first()).toBeChecked();
-    await expect(page.getByRole("button", { name: "使い方" })).toHaveCount(0);
-    await page.getByRole("button", { name: "ハザードを閉じる" }).click();
+    await expect(page.getByTestId("hazard-layer-control")).toHaveCount(0);
+    await expect(hazardButton).toHaveAttribute("aria-pressed", "true");
     await expect(page.getByRole("button", { name: "使い方" })).toBeVisible();
+    await hazardButton.click();
+    await expect(hazardButton).toHaveAttribute("aria-pressed", "false");
 
     await page.getByRole("button", { name: "使い方" }).click();
     await expect(page.getByLabel("はじめての使い方")).toBeVisible();

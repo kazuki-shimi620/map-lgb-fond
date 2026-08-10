@@ -75,8 +75,6 @@ const FACILITY_CLUSTER_GRID_SIZE_PX = 72;
 const MAX_CLUSTER_ICON_CACHE_SIZE = 512;
 const facilityClusterIconCache = new Map<string, DivIcon>();
 
-type LayerPanel = "facilities" | "hazards";
-
 const FACILITY_FILTERS = [
   { id: "commercial:small", categoryId: "commercial_facility", label: "小規模" },
   { id: "commercial:medium", categoryId: "commercial_facility", label: "中規模" },
@@ -476,7 +474,7 @@ export function PropertyMap({
   const [activeFacilityFilterIds, setActiveFacilityFilterIds] = useState<Set<FacilityFilterId>>(
     new Set(FACILITY_FILTERS.map((filter) => filter.id))
   );
-  const [openLayerPanel, setOpenLayerPanel] = useState<LayerPanel | null>(null);
+  const [openLayerPanel, setOpenLayerPanel] = useState<"facilities" | null>(null);
   const [mapViewport, setMapViewport] = useState<MapViewport | null>(null);
 
   const hazardLayers = useMemo(
@@ -678,18 +676,6 @@ export function PropertyMap({
     };
   }, []);
 
-  function toggleHazardLayer(layerId: string) {
-    setActiveHazardLayerIds((current) => {
-      const next = new Set(current);
-      if (next.has(layerId)) {
-        next.delete(layerId);
-      } else {
-        next.add(layerId);
-      }
-      return next;
-    });
-  }
-
   function toggleFacilityCategory(categoryId: NearbyFacilityCategoryId) {
     setActiveFacilityCategoryIds((current) => {
       const next = new Set(current);
@@ -714,13 +700,9 @@ export function PropertyMap({
     });
   }
 
-  function toggleLayerPanel(panel: LayerPanel) {
-    const next = openLayerPanel === panel ? null : panel;
-    if (panel === "hazards") {
-      setActiveHazardLayerIds(
-        next === "hazards" ? new Set(hazardLayers.map((layer) => layer.id)) : new Set()
-      );
-    } else if (openLayerPanel === "hazards") {
+  function toggleFacilityPanel() {
+    const next = openLayerPanel === "facilities" ? null : "facilities";
+    if (next === "facilities") {
       setActiveHazardLayerIds(new Set());
     }
     setOpenLayerPanel(next);
@@ -728,14 +710,15 @@ export function PropertyMap({
   }
 
   function closeLayerPanel() {
-    if (openLayerPanel === "hazards") {
-      setActiveHazardLayerIds(new Set());
-    }
     setOpenLayerPanel(null);
     onLayerPanelOpenChange?.(false);
   }
 
-  function toggleAllHazardLayers() {
+  function toggleHazardLayers() {
+    if (openLayerPanel === "facilities") {
+      setOpenLayerPanel(null);
+      onLayerPanelOpenChange?.(false);
+    }
     setActiveHazardLayerIds(
       isAnyHazardLayerActive ? new Set() : new Set(hazardLayers.map((layer) => layer.id))
     );
@@ -796,7 +779,7 @@ export function PropertyMap({
                 type="button"
                 className={openLayerPanel === "facilities" ? "is-active" : ""}
                 aria-expanded={openLayerPanel === "facilities"}
-                onClick={() => toggleLayerPanel("facilities")}
+                onClick={toggleFacilityPanel}
               >
                 <span aria-hidden="true">●</span>
                 周辺施設
@@ -805,9 +788,9 @@ export function PropertyMap({
             {hazardLayers.length > 0 ? (
               <button
                 type="button"
-                className={openLayerPanel === "hazards" ? "is-active" : ""}
-                aria-expanded={openLayerPanel === "hazards"}
-                onClick={() => toggleLayerPanel("hazards")}
+                className={isAnyHazardLayerActive ? "is-active" : ""}
+                aria-pressed={isAnyHazardLayerActive}
+                onClick={toggleHazardLayers}
               >
                 <span aria-hidden="true">◆</span>
                 ハザード
@@ -940,31 +923,6 @@ export function PropertyMap({
                 ) : null}
               </p>
             )}
-          </div>
-        ) : null}
-        {hazardLayers.length > 0 && hazardConfig && openLayerPanel === "hazards" ? (
-          <div className="map-layer-control hazard-layer-control" aria-label="ハザードレイヤー" data-testid="hazard-layer-control">
-            <div className="map-layer-control-header">
-              <strong>ハザード</strong>
-              <button type="button" aria-label="ハザードを閉じる" onClick={closeLayerPanel}>×</button>
-            </div>
-            <button type="button" className="map-layer-all-toggle" onClick={toggleAllHazardLayers}>
-              {isAnyHazardLayerActive ? "すべて非表示" : "すべて表示"}
-            </button>
-            {hazardLayers.map((layer) => (
-              <label className="map-layer-toggle" key={layer.id}>
-                <input
-                  name={`hazard-${layer.id}`}
-                  type="checkbox"
-                  checked={activeHazardLayerIds.has(layer.id)}
-                  onChange={() => toggleHazardLayer(layer.id)}
-                />
-                <span>{layer.name}</span>
-              </label>
-            ))}
-            <a href={hazardConfig.source.dataCopyrightUrl} target="_blank" rel="noreferrer">
-              出典: {hazardConfig.source.attribution}
-            </a>
           </div>
         ) : null}
       </div>
