@@ -252,6 +252,10 @@ confirmed_at
 
 この結果は東京都心部の一部に限られる。首都圏全域の `park_areas.csv` 生成は、まず既存取引座標へサンプル結合し、2万㎡しきい値の距離・件数に追加効果がある場合だけ実行する。
 
+2026-08-11に、取得bboxの端から3kmを除いた東京都心サンプル9,987件・97地点で、2015年以降を学習、2023〜2025年を年別holdoutとして比較した。geometry面積2万㎡以上の26公園から、最寄距離、1km件数、3km件数を追加すると、3年すべてでMAE、RMSE、MAPEが改善した。加重MAEは6,426,202円から6,385,640円へ40,562円、RMSEは8,816,537円から8,757,284円へ59,253円改善した。
+
+これは狭い都心範囲の97地点に限るため、本番採用の根拠にはしない。一方、首都圏全件取得へ進む最低条件は満たした。次は0.1度グリッドのセル数、最低5秒間隔の初回所要時間、429/504の再試行回数を見積もり、実行方針を確認してから取得する。比較時は1万㎡、2万㎡、5万㎡の感度分析と4都県・3評価年の指標を残す。
+
 ```bash
 make collect-osm-nearby-facilities-dry-run
 make collect-osm-nearby-facilities OSM_NEARBY_CATEGORIES=supermarket
@@ -261,6 +265,7 @@ make collect-osm-park-areas OSM_PARK_AREA=tokyo_sample OSM_PARK_BBOX="35.65 139.
 make collect-osm-park-areas OSM_PARK_AREA=tokyo_sample_grid OSM_PARK_BBOX="35.65 139.68 35.75 139.78" OSM_PARK_RUN_ID=latest_park_tokyo_sample_grid_geometry OSM_PARK_PROCESSED_DIR=data/processed/osm_nearby/park_tokyo_sample_grid_geometry OSM_PARK_SPLIT_SIZE_DEGREES=0.05 OSM_PARK_CONTINUE_ON_ERROR=1
 make collect-osm-park-areas OSM_PARK_AREA=tokyo OSM_PARK_RUN_ID=latest_park_tokyo_geometry_grid_010 OSM_PARK_PROCESSED_DIR=data/processed/osm_nearby/park_tokyo_geometry_grid_010 OSM_PARK_SPLIT_SIZE_DEGREES=0.1 OSM_PARK_CONTINUE_ON_ERROR=1
 make summarize-osm-park-areas OSM_PARK_PROCESSED_DIR=data/processed/osm_nearby/park_tokyo_sample_geometry
+make compare-large-park-features-dry-run
 make nearby-facilities NEARBY_FACILITIES_INPUTS="data/processed/medical/nearby_medical_facilities.csv data/processed/osm_nearby/supermarket/nearby_osm_facilities.csv data/processed/osm_nearby/convenience_store/nearby_osm_facilities.csv data/processed/osm_nearby/park_tokyo/nearby_osm_facilities.csv data/processed/osm_nearby/park_kanagawa/nearby_osm_facilities.csv data/processed/osm_nearby/park_saitama/nearby_osm_facilities.csv data/processed/osm_nearby/park_chiba/nearby_osm_facilities.csv" COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_open_with_coordinates.csv
 ```
 

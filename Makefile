@@ -465,6 +465,9 @@ collect-osm-park-areas:
 summarize-osm-park-areas:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/park_area_thresholds.py --input "$(OSM_PARK_PROCESSED_DIR)/park_areas.csv"
 
+compare-large-park-features-dry-run:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/compare_large_park_features.py --properties data/processed/with_address_coordinates/tokyo.parquet --park-areas data/processed/osm_nearby/park_tokyo_sample_geometry/park_areas.csv --bbox 35.65 139.68 35.75 139.78 --minimum-area-sqm 20000 --buffer-km 3 --output outputs/comparisons/large_park_sample_backtest.json
+
 collect-cinema-chains:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/cinema_chains.py --raw-dir "$(CINEMA_CHAINS_RAW_DIR)" --output "$(CINEMA_CHAINS_CSV)"
 
