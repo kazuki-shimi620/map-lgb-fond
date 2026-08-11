@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 
+import collect.osm_nearby_facilities as osm_nearby_facilities
 from collect.osm_nearby_facilities import (
     build_overpass_query,
     collect_osm_nearby_facilities,
@@ -192,6 +193,43 @@ def test_collect_osm_nearby_facilities_grid_merges_split_cache(tmp_path) -> None
     with outputs["park_areas_csv"].open(encoding="utf-8", newline="") as file:
         rows = list(csv.DictReader(file))
     assert rows[0]["id"] == "osm_way_456"
+
+
+def test_grid_waits_only_between_network_requests(tmp_path, monkeypatch) -> None:
+    raw_dir = tmp_path / "raw"
+    raw_dir.mkdir()
+    (raw_dir / "latest_r00_c00.json").write_text(
+        '{"elements": []}', encoding="utf-8"
+    )
+    fetch_calls = []
+    sleep_calls = []
+    monotonic_values = iter([100.0, 103.0])
+
+    def fake_fetch_overpass(**kwargs):
+        fetch_calls.append(kwargs)
+        return {"elements": []}
+
+    monkeypatch.setattr(osm_nearby_facilities, "fetch_overpass", fake_fetch_overpass)
+    monkeypatch.setattr(osm_nearby_facilities.time, "monotonic", lambda: next(monotonic_values))
+    monkeypatch.setattr(osm_nearby_facilities.time, "sleep", sleep_calls.append)
+
+    collect_osm_nearby_facilities_grid(
+        categories=["park"],
+        area={"south": 35.0, "west": 139.0, "north": 35.1, "east": 139.3},
+        split_size_degrees=0.1,
+        raw_dir=raw_dir,
+        processed_dir=tmp_path / "processed",
+        run_id="latest",
+        endpoint="https://example.test",
+        timeout_seconds=1,
+        cache=True,
+        force=False,
+        request_interval_seconds=10,
+        continue_on_error=True,
+    )
+
+    assert len(fetch_calls) == 2
+    assert sleep_calls == [7.0]
 
 
 def test_normalize_park_area_element_uses_bounds_for_relation() -> None:

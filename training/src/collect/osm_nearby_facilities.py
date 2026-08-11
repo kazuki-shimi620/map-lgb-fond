@@ -302,7 +302,8 @@ def collect_osm_nearby_facilities_grid(
     query_refs: list[str] = []
     errors: list[dict[str, str]] = []
     cells = split_area(area, split_size_degrees)
-    for index, cell in enumerate(cells):
+    last_request_started_at: float | None = None
+    for cell in cells:
         query = build_overpass_query(
             categories=categories,
             south=cell["south"],
@@ -315,6 +316,19 @@ def collect_osm_nearby_facilities_grid(
         suffix = f"r{cell['row']:02d}_c{cell['col']:02d}"
         raw_path = raw_dir / f"{run_id}_{suffix}.json"
         query_path = raw_dir / f"{run_id}_{suffix}.overpassql"
+        uses_cache = cache and raw_path.exists() and not force
+        if not uses_cache:
+            request_started_at = time.monotonic()
+            if last_request_started_at is not None and request_interval_seconds > 0:
+                wait_seconds = max(
+                    0.0,
+                    request_interval_seconds
+                    - (request_started_at - last_request_started_at),
+                )
+                if wait_seconds > 0:
+                    time.sleep(wait_seconds)
+                    request_started_at += wait_seconds
+            last_request_started_at = request_started_at
         try:
             payload = load_overpass_payload(
                 query=query,
@@ -337,8 +351,6 @@ def collect_osm_nearby_facilities_grid(
             park_area_rows.extend(normalize_park_area_elements(elements))
         raw_refs.append(str(raw_path))
         query_refs.append(str(query_path))
-        if index < len(cells) - 1 and request_interval_seconds > 0:
-            time.sleep(request_interval_seconds)
     return write_collection_outputs(
         processed_dir=processed_dir,
         categories=categories,

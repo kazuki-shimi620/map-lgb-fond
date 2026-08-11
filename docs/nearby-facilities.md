@@ -246,7 +246,7 @@ confirmed_at
 
 大型公園特徴量の検討用に、OSM公園取得は `--include-geometry` 指定時に `park_areas.csv` も出力する。way/relationの `geometry` がある場合は簡易投影のポリゴン面積、geometryがないrelation等は `bounds` の矩形面積を概算として保存する。2026-07-15に東京全域の `out geom` はOverpass 504となったため、`OSM_PARK_BBOX` で小bboxに分割する。疎通確認として `35.65 139.68 35.75 139.78` のbboxを実取得し、827公園マーカー・799面積行を生成した。また `--split-size-degrees` と `--continue-on-error` により、同bboxの4分割実取得で3セル成功・1セル429をmetadataへ記録し、575公園マーカー・549面積行を結合できることを確認した。東京全域0.1度グリッドは40セル中12セル成功・28セル失敗となり、2,801公園マーカー・2,717面積行を生成した。未取得セルは同じrun-idをキャッシュ付きで再実行して埋める。
 
-再開時は同じbbox、分割幅、run-idを指定する。成功セルのraw JSONは `--cache` により再利用され、失敗セルだけがOverpassへ再要求される。429を避けるため、広域取得では0.05〜0.1度グリッド、5秒以上のリクエスト間隔、`--continue-on-error` を初期値とし、metadataの `errorCount` が0になるまで間隔を空けて再実行する。bboxや分割幅を変える場合は、異なるrun-idを使って異なるセルのキャッシュを誤用しない。
+再開時は同じbbox、分割幅、run-idを指定する。成功セルのraw JSONは `--cache` により再利用され、失敗セルだけがOverpassへ再要求される。リクエスト間隔はキャッシュ読込を除く実ネットワーク要求の開始間隔に適用し、HTTPエラー後も次の要求まで待機する。429を避けるため、広域取得では0.05〜0.1度グリッド、5秒以上のリクエスト間隔、`--continue-on-error` を初期値とし、metadataの `errorCount` が0になるまで間隔を空けて再実行する。bboxや分割幅を変える場合は、異なるrun-idを使って異なるセルのキャッシュを誤用しない。
 
 東京都内の `35.65 139.68 35.75 139.78` サンプル799件を `summarize-osm-park-areas` で集計した結果、面積中央値は730.14㎡、90パーセンタイルは7,202.15㎡、95パーセンタイルは19,071.84㎡だった。2万㎡以上は39件（4.9%）、5万㎡以上は19件（2.4%）である。初回比較では2万㎡以上を大型公園とし、1万㎡と5万㎡を感度分析する。面積の採用対象は `area_source=geometry` に限定し、外接矩形で過大評価し得る `bounds` はcoverage確認と参考表示だけに使う。
 
@@ -288,6 +288,24 @@ confirmed_at
 
 429を検出したため同日の追加取得は停止した。次回は同じrun-idを10秒間隔で再実行し、429セルを含む未取得分を再試行する。それでも504になるセルだけ0.05度bboxへ分割する。東京の未取得が解消するか打ち切り理由を確定するまでは、神奈川・埼玉・千葉の取得を始めない。
 
+同日、再開処理のリクエスト間隔を、キャッシュ読込を除く実ネットワーク要求間だけに適用し、HTTPエラー後も待機するよう修正した。10秒間隔で12セルを再試行した結果、8セルが回復し、公園11,516件、面積行11,192件となった。残る504の4セルをそれぞれ0.05度の4サブセルへ分割し、同じrun-idで2回まで再試行した。16サブセル中11件は成功し、5件は2回連続で504だったため、API負荷を避けて当日の取得を停止した。
+
+0.1度の成功36セルと0.05度の成功11サブセルを単純統合し、OSMのtype/idで重複34件を除くと、公園13,297件、面積行12,942件となる。rawキャッシュは47ファイル、約15.5MBである。未取得は `r00_c05` 内2件、`r01_c07` 内1件、`r01_c09` 内2件の合計5サブセルである。次回は別日に同じ0.05度run-idを10秒間隔で再実行し、`errorCount=0` を確認してから東京の成果物へ統合する。
+
+統合には `merge-osm-park-areas` を使う。0.1度成果物を入力に含め、その4エラーは0.05度成果物で置換済みとして `supersededErrors` に残す。0.05度の4出力を `OSM_PARK_MERGE_ERROR_SOURCE_DIRS` に指定すると、未解消エラーだけが統合metadataの `errors` と `errorCount` に反映される。CSVはOSMのtype/id由来の `id` で重複排除するため、境界上の公園を二重計上しない。通常は未解消エラーが1件でもあれば統合を失敗させる。調査用の部分成果物だけ `OSM_PARK_MERGE_ALLOW_ERRORS=1` で明示的に許可する。現在の部分成果物で統合コマンドを検証し、公園13,297件、面積行12,942件、未解消5件がmetadataと一致することを確認した。
+
+その後の再試行で0.05度の未取得は3セルまで減った。対象だけを0.025度へ分割して2回取得し、さらに残った3セルを0.0125度へ分割した。最深層では12セル中6件が成功し、6件が504となった。取得済みの全階層を統合すると、公園13,940件、面積行13,560件、未解消6件、置換済み上位エラー10件となる。最終再試行は実行権限確認が2回タイムアウトし、API要求を送信できなかったため、同じ0.0125度run-idから再開する。
+
+再開後、最深層の6セル中5件が回復し、最後の1セルも追加再試行で成功した。このセルは正常応答で公園要素0件だった。全階層を完成版として統合し、完了ゲートが `errorCount=0` で通ることを確認した。東京の確定成果物は公園13,976件、面積行13,596件で、`park_areas.csv` は約1.62MB、置換済み上位エラーは10件である。
+
+東京完了後、神奈川63セルを0.1度・5秒間隔で初回取得した。40セルが成功し、公園4,811件、面積行4,323件、rawキャッシュ40ファイル・約5.72MBとなった。未取得23セルの内訳はHTTP 504が3件、HTTP 429が9件、接続切断等の通信エラーが11件だった。429を検出したため当日の再試行を停止した。次回は同じrun-idを使って10秒間隔で23セルだけを再試行し、神奈川の完了または継続504セルの分割方針を確定してから埼玉へ進む。
+
+10秒間隔で未取得23セルを再試行したが、23件すべてが `Errno 61 Connection refused` となり、成功数は40セルから増えなかった。特定bboxの504ではなくOverpassエンドポイント全体の接続拒否であるため、セルの追加分割は行わない。エンドポイントの復旧後に同じrun-idで再開し、成功キャッシュ40セルを再利用する。
+
+疎通確認では `overpass-api.de` に加え、OpenStreetMap Wiki掲載の公式バックエンド `lz4.overpass-api.de` と `z.overpass-api.de` のstatusもすべて接続拒否だった。`OSM_NEARBY_ENDPOINT` でMakeコマンドの接続先を上書きできるようにしたが、公式掲載外の第三者インスタンスへ無断で大量取得を切り替えない。公式バックエンドのいずれかが復旧してから再開する。
+
+公式statusの復旧と空きスロット2件を確認後、同じrun-id・10秒間隔で再開した。7セルが回復し、47/63セル、公園6,225件、面積行5,680件となった。残る16セルは通信エラー14件とHTTP 429が2件で、429再検出のため追加再試行を停止した。
+
 ```bash
 make collect-osm-nearby-facilities-dry-run
 make collect-osm-nearby-facilities OSM_NEARBY_CATEGORIES=supermarket
@@ -296,6 +314,7 @@ cd training && uv run python src/collect/osm_nearby_facilities.py --area tokyo -
 make collect-osm-park-areas OSM_PARK_AREA=tokyo_sample OSM_PARK_BBOX="35.65 139.68 35.75 139.78" OSM_PARK_RUN_ID=latest_park_tokyo_sample_geometry OSM_PARK_PROCESSED_DIR=data/processed/osm_nearby/park_tokyo_sample_geometry
 make collect-osm-park-areas OSM_PARK_AREA=tokyo_sample_grid OSM_PARK_BBOX="35.65 139.68 35.75 139.78" OSM_PARK_RUN_ID=latest_park_tokyo_sample_grid_geometry OSM_PARK_PROCESSED_DIR=data/processed/osm_nearby/park_tokyo_sample_grid_geometry OSM_PARK_SPLIT_SIZE_DEGREES=0.05 OSM_PARK_CONTINUE_ON_ERROR=1
 make collect-osm-park-areas OSM_PARK_AREA=tokyo OSM_PARK_RUN_ID=latest_park_tokyo_geometry_grid_010 OSM_PARK_PROCESSED_DIR=data/processed/osm_nearby/park_tokyo_geometry_grid_010 OSM_PARK_SPLIT_SIZE_DEGREES=0.1 OSM_PARK_CONTINUE_ON_ERROR=1
+make merge-osm-park-areas OSM_PARK_MERGE_INPUT_DIRS="data/processed/osm_nearby/park_tokyo_geometry_grid_010 data/processed/osm_nearby/park_tokyo_r00_c05_geometry_grid_005 data/processed/osm_nearby/park_tokyo_r01_c07_geometry_grid_005 data/processed/osm_nearby/park_tokyo_r01_c09_geometry_grid_005 data/processed/osm_nearby/park_tokyo_r02_c05_geometry_grid_005" OSM_PARK_MERGE_ERROR_SOURCE_DIRS="data/processed/osm_nearby/park_tokyo_r00_c05_geometry_grid_005 data/processed/osm_nearby/park_tokyo_r01_c07_geometry_grid_005 data/processed/osm_nearby/park_tokyo_r01_c09_geometry_grid_005 data/processed/osm_nearby/park_tokyo_r02_c05_geometry_grid_005" OSM_PARK_MERGE_OUTPUT_DIR=data/processed/osm_nearby/park_tokyo_geometry_merged OSM_PARK_MERGE_ALLOW_ERRORS=1
 make summarize-osm-park-areas OSM_PARK_PROCESSED_DIR=data/processed/osm_nearby/park_tokyo_sample_geometry
 make compare-large-park-features-dry-run
 make nearby-facilities NEARBY_FACILITIES_INPUTS="data/processed/medical/nearby_medical_facilities.csv data/processed/osm_nearby/supermarket/nearby_osm_facilities.csv data/processed/osm_nearby/convenience_store/nearby_osm_facilities.csv data/processed/osm_nearby/park_tokyo/nearby_osm_facilities.csv data/processed/osm_nearby/park_kanagawa/nearby_osm_facilities.csv data/processed/osm_nearby/park_saitama/nearby_osm_facilities.csv data/processed/osm_nearby/park_chiba/nearby_osm_facilities.csv" COMMERCIAL_FACILITIES_CSV=data/processed/jcsc/jcsc_sc_open_with_coordinates.csv

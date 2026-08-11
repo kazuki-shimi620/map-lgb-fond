@@ -101,6 +101,7 @@ MEDICAL_REQUEST_INTERVAL_SECONDS ?= 1.0
 OSM_NEARBY_AREA ?= capital
 OSM_NEARBY_CATEGORIES ?= supermarket,convenience_store,park
 OSM_NEARBY_TIMEOUT_SECONDS ?= 180
+OSM_NEARBY_ENDPOINT ?= https://overpass-api.de/api/interpreter
 OSM_PARK_AREA ?= tokyo
 OSM_PARK_BBOX ?=
 OSM_PARK_RUN_ID ?= latest_park_$(OSM_PARK_AREA)_geometry
@@ -108,6 +109,10 @@ OSM_PARK_PROCESSED_DIR ?= data/processed/osm_nearby/park_$(OSM_PARK_AREA)_geomet
 OSM_PARK_SPLIT_SIZE_DEGREES ?=
 OSM_PARK_REQUEST_INTERVAL_SECONDS ?= 1.0
 OSM_PARK_CONTINUE_ON_ERROR ?=
+OSM_PARK_MERGE_INPUT_DIRS ?=
+OSM_PARK_MERGE_ERROR_SOURCE_DIRS ?=
+OSM_PARK_MERGE_OUTPUT_DIR ?= data/processed/osm_nearby/park_merged_geometry
+OSM_PARK_MERGE_ALLOW_ERRORS ?=
 URBAN_PLANNING_APIS ?= XKT001,XKT002,XKT003
 URBAN_PLANNING_AREA ?= capital
 URBAN_PLANNING_ZOOM ?= 13
@@ -144,7 +149,7 @@ endif
 -include $(TRAINING_DIR)/.env
 export REINFOLIB_API_KEY
 
-.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-sc-pdf audit-sc-pdf-months collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-future-population collect-future-population-dry-run process-future-population collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-medical-facilities collect-medical-facilities-dry-run collect-medical-facilities-tile collect-osm-nearby-facilities collect-osm-nearby-facilities-dry-run collect-osm-park-areas collect-cinema-chains collect-cinema-osm-national collect-hot-springs-national collect-museums-national collect-cinema-coordinates collect-cinema-coordinates-dry-run enrich-cinemas collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-hazard-tiles collect-hazard-tiles-dry-run collect-hazard-property-tiles-dry-run collect-hazard-point-features collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities enrich-sc-pdf-candidates commercial-facility-manual-template train train-all train-regional-models train-production-models refresh-production-artifacts refresh-input-ranges segment-metrics-dry-run-chiba model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-regional-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-nearby-poi-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national stations-passengers-refresh
+.PHONY: help setup setup-frontend setup-training setup-csv-download dev build preview verify python-check init-db collect collect-all collect-legacy-api collect-legacy-api-all collect-property collect-property-all collect-sc collect-sc-all collect-sc-pdf audit-sc-pdf-months collect-station-passengers collect-station-passengers-dry-run collect-station-passengers-national collect-station-passengers-national-dry-run collect-future-population collect-future-population-dry-run process-future-population collect-land-prices collect-land-prices-dry-run collect-land-prices-tile collect-address-points collect-population-stats collect-population-stats-template collect-rail-access collect-education-facilities collect-education-facilities-dry-run collect-education-facilities-tile collect-medical-facilities collect-medical-facilities-dry-run collect-medical-facilities-tile collect-osm-nearby-facilities collect-osm-nearby-facilities-dry-run collect-osm-park-areas merge-osm-park-areas collect-cinema-chains collect-cinema-osm-national collect-hot-springs-national collect-museums-national collect-cinema-coordinates collect-cinema-coordinates-dry-run enrich-cinemas collect-urban-planning collect-urban-planning-dry-run collect-urban-planning-tile collect-crime-stats collect-hazards collect-hazard-tiles collect-hazard-tiles-dry-run collect-hazard-property-tiles-dry-run collect-hazard-point-features collect-data download-csv download-csv-all csv-checklist preprocess preprocess-zip preprocess-capital-all-years preprocess-national enrich-coordinates enrich-commercial-facilities enrich-sc-pdf-candidates commercial-facility-manual-template train train-all train-regional-models train-production-models refresh-production-artifacts refresh-input-ranges segment-metrics-dry-run-chiba model-update-background model-update-log snapshot-model-metrics compare-model-metrics compare-models compare-national-models compare-commercial-features compare-station-passenger-features compare-regional-station-passenger-features compare-land-price-features compare-urban-planning-features compare-location-features compare-population-features compare-rail-access-features compare-external-features compare-nearby-poi-features compare-train-start-years compare-outlier-filters summarize-edge-cases summarize-land-price-coverage summarize-coordinate-coverage summarize-population-coverage summarize-urban-planning-coverage summarize-education-coverage summarize-spatial-dry-run check-feature-order histories-national facilities land-prices urban-planning nearby-facilities nearby-facilities-template stations stations-national stations-passengers-refresh
 
 help:
 	@echo "map-lgb-fond make targets"
@@ -454,13 +459,16 @@ collect-medical-facilities-tile:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/medical_facilities.py --tile $(MEDICAL_TILE_Z) $(MEDICAL_TILE_X) $(MEDICAL_TILE_Y) --request-interval-seconds $(MEDICAL_REQUEST_INTERVAL_SECONDS) --cache
 
 collect-osm-nearby-facilities:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py --area $(OSM_NEARBY_AREA) --categories "$(OSM_NEARBY_CATEGORIES)" --timeout-seconds $(OSM_NEARBY_TIMEOUT_SECONDS) --cache
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py --area $(OSM_NEARBY_AREA) --categories "$(OSM_NEARBY_CATEGORIES)" --timeout-seconds $(OSM_NEARBY_TIMEOUT_SECONDS) --endpoint "$(OSM_NEARBY_ENDPOINT)" --cache
 
 collect-osm-nearby-facilities-dry-run:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py --area $(OSM_NEARBY_AREA) --categories "$(OSM_NEARBY_CATEGORIES)" --timeout-seconds $(OSM_NEARBY_TIMEOUT_SECONDS) --dry-run
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py --area $(OSM_NEARBY_AREA) --categories "$(OSM_NEARBY_CATEGORIES)" --timeout-seconds $(OSM_NEARBY_TIMEOUT_SECONDS) --endpoint "$(OSM_NEARBY_ENDPOINT)" --dry-run
 
 collect-osm-park-areas:
-	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py $(if $(strip $(OSM_PARK_BBOX)),--bbox $(OSM_PARK_BBOX),--area $(OSM_PARK_AREA)) --categories park --timeout-seconds $(OSM_NEARBY_TIMEOUT_SECONDS) --run-id "$(OSM_PARK_RUN_ID)" --processed-dir "$(OSM_PARK_PROCESSED_DIR)" --include-geometry --request-interval-seconds $(OSM_PARK_REQUEST_INTERVAL_SECONDS) $(if $(strip $(OSM_PARK_SPLIT_SIZE_DEGREES)),--split-size-degrees $(OSM_PARK_SPLIT_SIZE_DEGREES),) $(if $(strip $(OSM_PARK_CONTINUE_ON_ERROR)),--continue-on-error,) --cache
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/osm_nearby_facilities.py $(if $(strip $(OSM_PARK_BBOX)),--bbox $(OSM_PARK_BBOX),--area $(OSM_PARK_AREA)) --categories park --timeout-seconds $(OSM_NEARBY_TIMEOUT_SECONDS) --endpoint "$(OSM_NEARBY_ENDPOINT)" --run-id "$(OSM_PARK_RUN_ID)" --processed-dir "$(OSM_PARK_PROCESSED_DIR)" --include-geometry --request-interval-seconds $(OSM_PARK_REQUEST_INTERVAL_SECONDS) $(if $(strip $(OSM_PARK_SPLIT_SIZE_DEGREES)),--split-size-degrees $(OSM_PARK_SPLIT_SIZE_DEGREES),) $(if $(strip $(OSM_PARK_CONTINUE_ON_ERROR)),--continue-on-error,) --cache
+
+merge-osm-park-areas:
+	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/collect/merge_osm_nearby_collections.py $(foreach dir,$(OSM_PARK_MERGE_INPUT_DIRS),--input-dir "$(dir)") $(foreach dir,$(OSM_PARK_MERGE_ERROR_SOURCE_DIRS),--error-source-dir "$(dir)") --output-dir "$(OSM_PARK_MERGE_OUTPUT_DIR)" $(if $(strip $(OSM_PARK_MERGE_ALLOW_ERRORS)),--allow-errors,)
 
 summarize-osm-park-areas:
 	cd $(TRAINING_DIR) && $(TRAINING_PYTHON) src/evaluate/park_area_thresholds.py --input "$(OSM_PARK_PROCESSED_DIR)/park_areas.csv"
