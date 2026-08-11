@@ -119,6 +119,8 @@ make compare-station-passenger-features
 
 大学、病院、大型公園、再開発エリアなどの周辺特徴量は、`docs/surrounding-features.md` の採用基準に沿って個別に比較する。
 
+大型公園の首都圏geometry取得は最低331リクエスト、1〜3時間、rawキャッシュ90〜180MBを見込む高コスト処理として扱う。`docs/nearby-facilities.md` の都県別・再開可能な取得計画を確認してから実行し、一括取得を開始しない。
+
 地価公示・基準地価、人口統計、用途地域、学区、保育園、路線利便性、犯罪・治安などは、`docs/data-source-acquisition.md` の難易度分類と実装単位に沿って、collector設計から着手する。
 
 ---
